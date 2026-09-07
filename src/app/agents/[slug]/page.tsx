@@ -34,6 +34,10 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
   };
 }
 
+function getInitial(name: string): string {
+  return name.charAt(0).toUpperCase();
+}
+
 export default async function AgentPage({ params }: AgentPageProps) {
   const { slug } = await params;
   const agent = await getAgentDetail(slug);
@@ -44,13 +48,16 @@ export default async function AgentPage({ params }: AgentPageProps) {
   }
 
   const isStretch = agent.status === 'stretch';
+  const displaySite = agent.site 
+    ? agent.site.replace(/^https?:\/\//, '').replace(/\/$/, '')
+    : null;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="container-wide py-6 md:py-8">
       <nav className="mb-6">
         <Link 
           href="/" 
-          className="inline-flex items-center gap-2 text-sm text-secondary hover:text-foreground transition-colors"
+          className="inline-flex items-center gap-2 text-caption text-secondary hover:text-foreground transition-colors touch-target"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -59,64 +66,59 @@ export default async function AgentPage({ params }: AgentPageProps) {
         </Link>
       </nav>
 
-      <header className="bg-card rounded-2xl card-shadow p-8 mb-8">
-        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-6">
-          <div>
-            <div className="flex items-center gap-3 mb-2 flex-wrap">
-              <h1 className="text-3xl font-bold">{agent.name}</h1>
-              <span className={`status-badge ${isStretch ? 'status-stretch' : 'status-confirmed'}`}>
+      <header className="card p-6 mb-6">
+        <div className="flex items-start gap-4">
+          <div className="avatar w-14 h-14 text-xl">
+            {getInitial(agent.name)}
+          </div>
+          
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center gap-2 flex-wrap mb-1">
+              <h1 className="text-title">{agent.name}</h1>
+              <span className={`badge ${isStretch ? 'badge-stretch' : 'badge-confirmed'}`}>
                 {isStretch ? 'Stretch' : 'Confirmed'}
               </span>
-              {agent.publicSignal && agent.publicSignal !== 'unknown' && (
-                <span className={`text-xs px-2 py-1 rounded-full ${
-                  agent.publicSignal === 'high' ? 'bg-accent-green/15 text-accent-green' :
-                  agent.publicSignal === 'medium' ? 'bg-accent-orange/15 text-accent-orange' :
-                  'bg-bubble-gray text-secondary'
-                }`}>
-                  {agent.publicSignal} signal
-                </span>
-              )}
             </div>
-            {agent.site && (
-              <p className="text-secondary mb-4">
-                {agent.site.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+            
+            {displaySite && (
+              <p className="text-caption text-secondary mb-3">
+                {displaySite}
               </p>
             )}
-            <p className="text-lg leading-relaxed">
+            
+            <p className="text-body text-secondary">
               {agent.feedbackCount} public feedback items collected
             </p>
           </div>
-          
-          {agent.site && (
-            <div className="flex-shrink-0">
-              <a
-                href={agent.site}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-bubble-blue text-white rounded-full font-medium hover:bg-bubble-blue/90 transition-colors"
-              >
-                Visit Site
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-          )}
         </div>
 
+        {agent.site && (
+          <div className="mt-4 pt-4 border-t border-divider">
+            <a
+              href={agent.site}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary inline-flex"
+            >
+              Visit Site
+              <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+        )}
+
         {agent.summary && (
-          <div className="mt-6 pt-6 border-t border-border">
-            <h2 className="text-sm font-medium text-secondary uppercase tracking-wider mb-2">Summary</h2>
-            <div className="prose prose-sm max-w-none text-foreground">
-              <p className="whitespace-pre-wrap leading-relaxed">
-                {agent.summary.split('\n').slice(0, 10).join('\n')}
-              </p>
-            </div>
+          <div className="mt-4 pt-4 border-t border-divider">
+            <h2 className="text-micro text-secondary uppercase tracking-wider mb-2">Summary</h2>
+            <p className="text-body leading-relaxed whitespace-pre-wrap">
+              {agent.summary.split('\n').slice(0, 10).join('\n')}
+            </p>
           </div>
         )}
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="space-y-6 md:grid md:grid-cols-2 md:gap-6 md:space-y-0">
         <ScoreMatrix 
           scores={agent.scores} 
           categories={categories} 

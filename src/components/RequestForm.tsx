@@ -78,18 +78,28 @@ export function RequestForm() {
   if (isSubmitted) {
     return (
       <div className="text-center py-8">
-        <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent-green/10 flex items-center justify-center">
-          <svg className="w-8 h-8 text-accent-green" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+        <div className="w-16 h-16 mx-auto mb-4 rounded-2xl bg-[rgba(52,199,89,0.12)] flex items-center justify-center">
+          <svg 
+            className="w-8 h-8 text-[#248a3d]" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor"
+          >
+            <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              strokeWidth={2} 
+              d="M5 13l4 4L19 7" 
+            />
           </svg>
         </div>
-        <h3 className="font-semibold text-xl mb-2">Request Submitted!</h3>
-        <p className="text-secondary mb-6">
+        <h3 className="text-title mb-2">Request Submitted</h3>
+        <p className="text-body text-secondary mb-6">
           Thanks for helping us expand our benchmark. We&apos;ll review your request soon.
         </p>
         <button
           onClick={() => setIsSubmitted(false)}
-          className="text-bubble-blue hover:underline text-sm font-medium"
+          className="text-accent text-body font-medium hover:underline touch-target"
         >
           Submit another request
         </button>
@@ -100,8 +110,8 @@ export function RequestForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
       <div>
-        <label htmlFor="agentName" className="block text-sm font-medium mb-2">
-          AI Assistant Name <span className="text-red-500">*</span>
+        <label htmlFor="agentName" className="block text-body-semibold mb-2">
+          AI Assistant Name <span className="text-[#d70015]">*</span>
         </label>
         <input
           type="text"
@@ -109,13 +119,13 @@ export function RequestForm() {
           required
           value={formData.agentName}
           onChange={(e) => setFormData(prev => ({ ...prev, agentName: e.target.value }))}
-          placeholder="e.g., Instinct, Poke, Town, etc."
-          className="w-full px-4 py-3 bg-bubble-gray/50 rounded-xl border-0 text-sm placeholder:text-secondary focus:outline-none focus:ring-2 focus:ring-bubble-blue/30"
+          placeholder="e.g., Instinct, Poke, Town"
+          className="input"
         />
       </div>
 
       <div>
-        <label htmlFor="agentUrl" className="block text-sm font-medium mb-2">
+        <label htmlFor="agentUrl" className="block text-body-semibold mb-2">
           Website URL
         </label>
         <input
@@ -124,24 +134,23 @@ export function RequestForm() {
           value={formData.agentUrl}
           onChange={(e) => setFormData(prev => ({ ...prev, agentUrl: e.target.value }))}
           placeholder="https://example.com"
-          className="w-full px-4 py-3 bg-bubble-gray/50 rounded-xl border-0 text-sm placeholder:text-secondary focus:outline-none focus:ring-2 focus:ring-bubble-blue/30"
+          className="input"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium mb-3">
-          Categories to Test <span className="text-secondary font-normal">(select relevant ones)</span>
+        <label className="block text-body-semibold mb-3">
+          Categories to Test{' '}
+          <span className="font-normal text-secondary">(select relevant ones)</span>
         </label>
-        <div className="grid grid-cols-2 gap-2">
+        <div className="flex flex-wrap gap-2">
           {CATEGORY_OPTIONS.map(category => (
             <button
               key={category.key}
               type="button"
               onClick={() => handleCategoryToggle(category.key)}
-              className={`px-3 py-2 rounded-lg text-sm text-left transition-colors ${
-                formData.categories.includes(category.key)
-                  ? 'bg-bubble-blue text-white'
-                  : 'bg-bubble-gray/50 text-foreground hover:bg-bubble-gray'
+              className={`chip touch-target ${
+                formData.categories.includes(category.key) ? 'chip-active' : ''
               }`}
             >
               {category.label}
@@ -151,7 +160,7 @@ export function RequestForm() {
       </div>
 
       <div>
-        <label htmlFor="contact" className="block text-sm font-medium mb-2">
+        <label htmlFor="contact" className="block text-body-semibold mb-2">
           Contact (Email or X handle)
         </label>
         <input
@@ -160,15 +169,15 @@ export function RequestForm() {
           value={formData.contact}
           onChange={(e) => setFormData(prev => ({ ...prev, contact: e.target.value }))}
           placeholder="you@example.com or @yourhandle"
-          className="w-full px-4 py-3 bg-bubble-gray/50 rounded-xl border-0 text-sm placeholder:text-secondary focus:outline-none focus:ring-2 focus:ring-bubble-blue/30"
+          className="input"
         />
-        <p className="mt-1.5 text-xs text-secondary">
+        <p className="mt-2 text-caption text-secondary">
           Optional. We&apos;ll follow up when testing is complete.
         </p>
       </div>
 
       <div>
-        <label htmlFor="notes" className="block text-sm font-medium mb-2">
+        <label htmlFor="notes" className="block text-body-semibold mb-2">
           Additional Notes
         </label>
         <textarea
@@ -176,13 +185,13 @@ export function RequestForm() {
           rows={4}
           value={formData.notes}
           onChange={(e) => setFormData(prev => ({ ...prev, notes: e.target.value }))}
-          placeholder="Any specific use cases, features, or context you'd like us to focus on..."
-          className="w-full px-4 py-3 bg-bubble-gray/50 rounded-xl border-0 text-sm placeholder:text-secondary focus:outline-none focus:ring-2 focus:ring-bubble-blue/30 resize-none"
+          placeholder="Any specific use cases, features, or context..."
+          className="textarea"
         />
       </div>
 
       {error && (
-        <div className="p-4 bg-red-500/10 text-red-600 dark:text-red-400 rounded-xl text-sm">
+        <div className="p-4 bg-[rgba(215,0,21,0.08)] text-[#d70015] rounded-xl text-body">
           {error}
         </div>
       )}
@@ -190,7 +199,7 @@ export function RequestForm() {
       <button
         type="submit"
         disabled={isSubmitting || !formData.agentName}
-        className="w-full py-3 px-6 bg-bubble-blue text-white rounded-full font-medium hover:bg-bubble-blue/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+        className="btn-primary w-full"
       >
         {isSubmitting ? 'Submitting...' : 'Submit Request'}
       </button>

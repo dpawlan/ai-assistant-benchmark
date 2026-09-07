@@ -2,7 +2,7 @@
 
 import { AgentStatus } from '@/lib/types';
 
-export type SortOption = 'name' | 'feedback' | 'vendor';
+export type SortOption = 'name' | 'feedback' | 'signal';
 
 interface FilterBarProps {
   searchQuery: string;
@@ -62,9 +62,9 @@ export function FilterBar({
             onChange={(e) => onSortChange(e.target.value as SortOption)}
             className="px-4 py-2.5 bg-bubble-gray/50 rounded-xl border-0 text-sm focus:outline-none focus:ring-2 focus:ring-bubble-blue/30 cursor-pointer"
           >
-            <option value="name">Sort by Name</option>
             <option value="feedback">Sort by Feedback</option>
-            <option value="vendor">Sort by Vendor</option>
+            <option value="name">Sort by Name</option>
+            <option value="signal">Sort by Signal</option>
           </select>
         </div>
       </div>

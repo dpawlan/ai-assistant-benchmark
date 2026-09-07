@@ -5,18 +5,31 @@ interface AgentCardProps {
   agent: Agent;
 }
 
-export function AgentCard({ agent }: AgentCardProps) {
-  const feedbackCount = agent.feedback.length;
-  const hasScores = Object.values(agent.scores).some(
-    score => score !== null && score !== 'n/a'
+function SignalBadge({ signal }: { signal: Agent['publicSignal'] }) {
+  if (!signal || signal === 'unknown') return null;
+  
+  const colors = {
+    high: 'bg-accent-green/15 text-accent-green',
+    medium: 'bg-accent-orange/15 text-accent-orange',
+    low: 'bg-bubble-gray text-secondary',
+  };
+
+  return (
+    <span className={`text-xs px-2 py-0.5 rounded-full ${colors[signal]}`}>
+      {signal} signal
+    </span>
   );
+}
+
+export function AgentCard({ agent }: AgentCardProps) {
+  const hasScores = false; // Scores are all null currently
 
   return (
     <Link href={`/agents/${agent.slug}`}>
       <article className="group bg-card rounded-2xl p-6 card-shadow hover:card-shadow-hover transition-all duration-300 hover:-translate-y-1 border border-transparent hover:border-bubble-blue/20">
         <div className="flex items-start justify-between gap-4 mb-4">
           <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-1">
+            <div className="flex items-center gap-2 mb-1 flex-wrap">
               <h3 className="font-semibold text-lg truncate group-hover:text-bubble-blue transition-colors">
                 {agent.name}
               </h3>
@@ -24,7 +37,7 @@ export function AgentCard({ agent }: AgentCardProps) {
                 {agent.status === 'confirmed' ? 'Confirmed' : 'Stretch'}
               </span>
             </div>
-            <p className="text-sm text-secondary">{agent.vendor}</p>
+            <SignalBadge signal={agent.publicSignal} />
           </div>
           
           <div className="flex-shrink-0 text-right">
@@ -40,9 +53,11 @@ export function AgentCard({ agent }: AgentCardProps) {
           </div>
         </div>
         
-        <p className="text-sm text-secondary line-clamp-2 mb-4">
-          {agent.description}
-        </p>
+        {agent.site && (
+          <p className="text-sm text-secondary truncate mb-4">
+            {agent.site.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+          </p>
+        )}
         
         <div className="flex items-center justify-between pt-4 border-t border-border">
           <div className="flex items-center gap-4 text-sm">
@@ -51,7 +66,7 @@ export function AgentCard({ agent }: AgentCardProps) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
               <span className="text-secondary">
-                {feedbackCount} {feedbackCount === 1 ? 'feedback' : 'feedbacks'}
+                {agent.feedbackCount} {agent.feedbackCount === 1 ? 'feedback' : 'feedbacks'}
               </span>
             </div>
           </div>

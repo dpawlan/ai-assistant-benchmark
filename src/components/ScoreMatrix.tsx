@@ -1,13 +1,13 @@
 import { AgentScores, Category, ScoreValue } from '@/lib/types';
 
 interface ScoreMatrixProps {
-  scores: AgentScores;
+  scores?: AgentScores;
   categories: Category[];
   isStretch: boolean;
 }
 
 function ScoreCell({ value, isStretch }: { value: ScoreValue; isStretch: boolean }) {
-  if (value === 'n/a' || (isStretch && value === null)) {
+  if (isStretch && value === null) {
     return (
       <div className="score-cell score-na text-xs">
         N/A
@@ -15,7 +15,7 @@ function ScoreCell({ value, isStretch }: { value: ScoreValue; isStretch: boolean
     );
   }
   
-  if (value === null) {
+  if (value === null || value === undefined) {
     return (
       <div className="score-cell score-null text-xs">
         —
@@ -38,8 +38,13 @@ function ScoreCell({ value, isStretch }: { value: ScoreValue; isStretch: boolean
 }
 
 export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps) {
-  const coreCategories = categories.filter(c => c.type === 'core');
-  const endorsedCategories = categories.filter(c => c.type === 'endorsed');
+  const coreCategories = categories.filter(c => c.group === 'core');
+  const endorsedCategories = categories.filter(c => c.group === 'endorsed');
+
+  const getScore = (key: string): ScoreValue => {
+    if (!scores) return null;
+    return scores[key] ?? null;
+  };
 
   return (
     <div className="bg-card rounded-2xl card-shadow overflow-hidden">
@@ -58,15 +63,14 @@ export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps)
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {coreCategories.map(category => (
               <div 
-                key={category.id} 
+                key={category.key} 
                 className="flex items-center justify-between p-3 rounded-xl bg-bubble-gray/30"
               >
                 <div className="flex-1 min-w-0 pr-4">
                   <div className="font-medium text-sm truncate">{category.label}</div>
-                  <div className="text-xs text-secondary truncate">{category.description}</div>
                 </div>
                 <ScoreCell 
-                  value={scores[category.id as keyof AgentScores]} 
+                  value={getScore(category.key)} 
                   isStretch={isStretch}
                 />
               </div>
@@ -81,15 +85,14 @@ export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps)
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {endorsedCategories.map(category => (
               <div 
-                key={category.id} 
+                key={category.key} 
                 className="flex items-center justify-between p-3 rounded-xl bg-bubble-gray/30"
               >
                 <div className="flex-1 min-w-0 pr-4">
                   <div className="font-medium text-sm truncate">{category.label}</div>
-                  <div className="text-xs text-secondary truncate">{category.description}</div>
                 </div>
                 <ScoreCell 
-                  value={scores[category.id as keyof AgentScores]} 
+                  value={getScore(category.key)} 
                   isStretch={isStretch}
                 />
               </div>

@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, FormEvent } from 'react';
-import { getCategories } from '@/lib/data';
 
 interface FormData {
   agentName: string;
@@ -19,20 +18,35 @@ const initialFormData: FormData = {
   notes: '',
 };
 
+const CATEGORY_OPTIONS = [
+  { key: 'online_task', label: 'Online Tasks' },
+  { key: 'recommendation_quality', label: 'Recommendations' },
+  { key: 'purchasing', label: 'Purchasing' },
+  { key: 'email_replies', label: 'Email Replies' },
+  { key: 'proactive_behavior', label: 'Proactive Behavior' },
+  { key: 'running_routine', label: 'Running Routines' },
+  { key: 'third_party_integrations', label: 'Integrations' },
+  { key: 'memory', label: 'Memory' },
+  { key: 'personality', label: 'Personality' },
+  { key: 'phone_calls', label: 'Phone Calls' },
+  { key: 'multiplayer_groups', label: 'Multiplayer/Groups' },
+  { key: 'chained_tasks', label: 'Chained Tasks' },
+  { key: 'proactive_restraint', label: 'Proactive Restraint' },
+  { key: 'content_creation_games', label: 'Content Creation' },
+];
+
 export function RequestForm() {
   const [formData, setFormData] = useState<FormData>(initialFormData);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const categories = getCategories();
-
-  const handleCategoryToggle = (categoryId: string) => {
+  const handleCategoryToggle = (categoryKey: string) => {
     setFormData(prev => ({
       ...prev,
-      categories: prev.categories.includes(categoryId)
-        ? prev.categories.filter(c => c !== categoryId)
-        : [...prev.categories, categoryId],
+      categories: prev.categories.includes(categoryKey)
+        ? prev.categories.filter(c => c !== categoryKey)
+        : [...prev.categories, categoryKey],
     }));
   };
 
@@ -95,7 +109,7 @@ export function RequestForm() {
           required
           value={formData.agentName}
           onChange={(e) => setFormData(prev => ({ ...prev, agentName: e.target.value }))}
-          placeholder="e.g., ChatGPT, Claude, etc."
+          placeholder="e.g., Instinct, Poke, Town, etc."
           className="w-full px-4 py-3 bg-bubble-gray/50 rounded-xl border-0 text-sm placeholder:text-secondary focus:outline-none focus:ring-2 focus:ring-bubble-blue/30"
         />
       </div>
@@ -119,13 +133,13 @@ export function RequestForm() {
           Categories to Test <span className="text-secondary font-normal">(select relevant ones)</span>
         </label>
         <div className="grid grid-cols-2 gap-2">
-          {categories.map(category => (
+          {CATEGORY_OPTIONS.map(category => (
             <button
-              key={category.id}
+              key={category.key}
               type="button"
-              onClick={() => handleCategoryToggle(category.id)}
+              onClick={() => handleCategoryToggle(category.key)}
               className={`px-3 py-2 rounded-lg text-sm text-left transition-colors ${
-                formData.categories.includes(category.id)
+                formData.categories.includes(category.key)
                   ? 'bg-bubble-blue text-white'
                   : 'bg-bubble-gray/50 text-foreground hover:bg-bubble-gray'
               }`}

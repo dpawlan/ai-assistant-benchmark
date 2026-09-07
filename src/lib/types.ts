@@ -1,86 +1,74 @@
 export type AgentStatus = 'confirmed' | 'stretch';
 
-export type CategoryType = 'core' | 'endorsed';
+export type CategoryGroup = 'core' | 'endorsed';
 
-export type FeedbackType = 'praise' | 'complaint' | 'use-case' | 'feature-request' | 'comparison';
+export type FeedbackKind = 'praise' | 'complaint' | 'use-case' | 'bug' | 'comparison' | 'other' | 'feature-request';
 
-export type ScoreValue = number | null | 'n/a';
+export type PublicSignal = 'low' | 'medium' | 'high' | 'unknown' | null;
+
+export type ScoreValue = number | null;
 
 export interface Category {
-  id: string;
+  key: string;
   label: string;
-  type: CategoryType;
-  description: string;
+  group: CategoryGroup;
 }
 
 export interface Feedback {
   id: string;
-  type: FeedbackType;
-  text: string;
+  agent: string;
+  quote: string;
   author: string;
-  source: string;
-  sourceUrl: string;
+  author_name: string;
   date: string;
+  url: string;
+  kind: FeedbackKind;
+  tags: string[];
+  source: string;
+  collected_at: string;
+  notes: string;
+}
+
+export interface AgentMeta {
+  slug: string;
+  name: string;
+  site: string | null;
+  handles: string[];
+  status: AgentStatus;
+  notes: string;
 }
 
 export interface AgentScores {
-  scheduling: ScoreValue;
-  email: ScoreValue;
-  research: ScoreValue;
-  writing: ScoreValue;
-  'task-management': ScoreValue;
-  communication: ScoreValue;
-  integration: ScoreValue;
-  coding: ScoreValue;
-  'data-analysis': ScoreValue;
-  travel: ScoreValue;
-  shopping: ScoreValue;
-  health: ScoreValue;
-  finance: ScoreValue;
-  voice: ScoreValue;
-}
-
-export interface Agent {
-  slug: string;
-  name: string;
-  vendor: string;
-  url: string;
-  status: AgentStatus;
-  description: string;
-  scores: AgentScores;
-  summary: string;
-  feedback: Feedback[];
+  [key: string]: ScoreValue;
 }
 
 export interface RosterEntry {
   slug: string;
   name: string;
   status: AgentStatus;
-  feedbackCount: number;
+  site: string | null;
+  feedback_count: number;
+  public_signal: PublicSignal;
 }
 
 export interface IndexData {
-  meta: {
-    version: string;
-    lastUpdated: string;
-    description: string;
-  };
-  summary: {
-    totalAgents: number;
-    confirmedAgents: number;
-    stretchAgents: number;
-    totalFeedbackRows: number;
-    categoriesCount: number;
-    coreCategories: number;
-    endorsedCategories: number;
-  };
-  roster: RosterEntry[];
+  updated: string;
+  agent_count: number;
+  feedback_count: number;
+  confirmed: number;
+  stretch: number;
+  agents: RosterEntry[];
 }
 
-export interface AgentsData {
-  agents: Agent[];
-}
-
-export interface CategoriesData {
-  categories: Category[];
+export interface Agent {
+  slug: string;
+  name: string;
+  site: string | null;
+  status: AgentStatus;
+  feedbackCount: number;
+  publicSignal: PublicSignal;
+  meta?: AgentMeta;
+  scores?: AgentScores;
+  feedback?: Feedback[];
+  summary?: string;
 }

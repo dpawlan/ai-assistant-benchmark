@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 export default function CategoriesPage() {
   const categories = getCategories();
-  const coreCategories = categories.filter(c => c.type === 'core');
-  const endorsedCategories = categories.filter(c => c.type === 'endorsed');
+  const coreCategories = categories.filter(c => c.group === 'core');
+  const endorsedCategories = categories.filter(c => c.group === 'endorsed');
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -36,7 +36,7 @@ export default function CategoriesPage() {
 
         <div className="grid gap-4">
           {coreCategories.map((category, index) => (
-            <CategoryCard key={category.id} category={category} index={index + 1} />
+            <CategoryCard key={category.key} category={category} index={index + 1} />
           ))}
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function CategoriesPage() {
         <div className="grid gap-4">
           {endorsedCategories.map((category, index) => (
             <CategoryCard 
-              key={category.id} 
+              key={category.key} 
               category={category} 
               index={coreCategories.length + index + 1} 
               isEndorsed 
@@ -91,7 +91,7 @@ function CategoryCard({
   index,
   isEndorsed = false 
 }: { 
-  category: { id: string; label: string; description: string };
+  category: { key: string; label: string };
   index: number;
   isEndorsed?: boolean;
 }) {
@@ -106,7 +106,7 @@ function CategoryCard({
       </div>
       <div>
         <h3 className="font-semibold mb-1">{category.label}</h3>
-        <p className="text-sm text-secondary">{category.description}</p>
+        <p className="text-sm text-secondary">Category key: <code className="bg-bubble-gray/50 px-1.5 py-0.5 rounded text-xs">{category.key}</code></p>
       </div>
     </div>
   );

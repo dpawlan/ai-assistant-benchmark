@@ -22,8 +22,7 @@ export function Leaderboard({ agents }: LeaderboardProps) {
       result = result.filter(
         agent =>
           agent.name.toLowerCase().includes(query) ||
-          agent.vendor.toLowerCase().includes(query) ||
-          agent.description.toLowerCase().includes(query)
+          (agent.site && agent.site.toLowerCase().includes(query))
       );
     }
 
@@ -36,9 +35,12 @@ export function Leaderboard({ agents }: LeaderboardProps) {
         case 'name':
           return a.name.localeCompare(b.name);
         case 'feedback':
-          return b.feedback.length - a.feedback.length;
-        case 'vendor':
-          return a.vendor.localeCompare(b.vendor);
+          return b.feedbackCount - a.feedbackCount;
+        case 'signal':
+          const signalOrder = { high: 3, medium: 2, low: 1, unknown: 0, null: 0 };
+          const aSignal = signalOrder[a.publicSignal || 'null'] || 0;
+          const bSignal = signalOrder[b.publicSignal || 'null'] || 0;
+          return bSignal - aSignal;
         default:
           return 0;
       }

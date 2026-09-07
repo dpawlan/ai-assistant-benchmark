@@ -1,9 +1,13 @@
-import { getAgents, getIndexData } from '@/lib/data';
+import { getAgents, getIndexData, getCategories } from '@/lib/data';
 import { Leaderboard } from '@/components/Leaderboard';
 
 export default function HomePage() {
   const agents = getAgents();
   const indexData = getIndexData();
+  const categories = getCategories();
+
+  const coreCount = categories.filter(c => c.group === 'core').length;
+  const endorsedCount = categories.filter(c => c.group === 'endorsed').length;
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -21,7 +25,7 @@ export default function HomePage() {
       <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-12">
         <StatCard 
           label="Total Assistants" 
-          value={indexData.summary.totalAgents} 
+          value={indexData.agent_count} 
           icon={
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -30,7 +34,7 @@ export default function HomePage() {
         />
         <StatCard 
           label="Confirmed" 
-          value={indexData.summary.confirmedAgents}
+          value={indexData.confirmed}
           color="green"
           icon={
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -40,7 +44,8 @@ export default function HomePage() {
         />
         <StatCard 
           label="Categories" 
-          value={indexData.summary.categoriesCount}
+          value={coreCount + endorsedCount}
+          subtitle={`${coreCount} core + ${endorsedCount} endorsed`}
           color="purple"
           icon={
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -50,7 +55,7 @@ export default function HomePage() {
         />
         <StatCard 
           label="Feedback Items" 
-          value={indexData.summary.totalFeedbackRows}
+          value={indexData.feedback_count}
           color="orange"
           icon={
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -68,11 +73,13 @@ export default function HomePage() {
 function StatCard({ 
   label, 
   value, 
+  subtitle,
   icon,
   color = 'blue' 
 }: { 
   label: string; 
   value: number; 
+  subtitle?: string;
   icon: React.ReactNode;
   color?: 'blue' | 'green' | 'purple' | 'orange';
 }) {
@@ -90,6 +97,7 @@ function StatCard({
       </div>
       <div className="text-2xl font-bold mb-1">{value}</div>
       <div className="text-sm text-secondary">{label}</div>
+      {subtitle && <div className="text-xs text-secondary mt-0.5">{subtitle}</div>}
     </div>
   );
 }

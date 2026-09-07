@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { getAgent, getCategories, getAllSlugs } from '@/lib/data';
+import { getAgentDetail, getCategories, getAllSlugs } from '@/lib/data';
 import { ScoreMatrix } from '@/components/ScoreMatrix';
 import { FeedbackList } from '@/components/FeedbackList';
 
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: AgentPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const agent = getAgent(slug);
+  const agent = await getAgentDetail(slug);
   
   if (!agent) {
     return {
@@ -26,17 +26,17 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
 
   return {
     title: `${agent.name} Review | AI Assistant Benchmark`,
-    description: `${agent.description}. See scores, features, and real user feedback for ${agent.name} by ${agent.vendor}.`,
+    description: `See scores, features, and ${agent.feedbackCount} real user feedback items for ${agent.name}.`,
     openGraph: {
       title: `${agent.name} - AI Assistant Benchmark`,
-      description: agent.description,
+      description: `${agent.feedbackCount} public feedback items collected`,
     },
   };
 }
 
 export default async function AgentPage({ params }: AgentPageProps) {
   const { slug } = await params;
-  const agent = getAgent(slug);
+  const agent = await getAgentDetail(slug);
   const categories = getCategories();
 
   if (!agent) {
@@ -67,30 +67,51 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className={`status-badge ${isStretch ? 'status-stretch' : 'status-confirmed'}`}>
                 {isStretch ? 'Stretch' : 'Confirmed'}
               </span>
+              {agent.publicSignal && agent.publicSignal !== 'unknown' && (
+                <span className={`text-xs px-2 py-1 rounded-full ${
+                  agent.publicSignal === 'high' ? 'bg-accent-green/15 text-accent-green' :
+                  agent.publicSignal === 'medium' ? 'bg-accent-orange/15 text-accent-orange' :
+                  'bg-bubble-gray text-secondary'
+                }`}>
+                  {agent.publicSignal} signal
+                </span>
+              )}
             </div>
-            <p className="text-secondary mb-4">by {agent.vendor}</p>
-            <p className="text-lg leading-relaxed max-w-2xl">{agent.description}</p>
+            {agent.site && (
+              <p className="text-secondary mb-4">
+                {agent.site.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+              </p>
+            )}
+            <p className="text-lg leading-relaxed">
+              {agent.feedbackCount} public feedback items collected
+            </p>
           </div>
           
-          <div className="flex-shrink-0">
-            <a
-              href={agent.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-bubble-blue text-white rounded-full font-medium hover:bg-bubble-blue/90 transition-colors"
-            >
-              Visit Site
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
-          </div>
+          {agent.site && (
+            <div className="flex-shrink-0">
+              <a
+                href={agent.site}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-bubble-blue text-white rounded-full font-medium hover:bg-bubble-blue/90 transition-colors"
+              >
+                Visit Site
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          )}
         </div>
 
         {agent.summary && (
           <div className="mt-6 pt-6 border-t border-border">
             <h2 className="text-sm font-medium text-secondary uppercase tracking-wider mb-2">Summary</h2>
-            <p className="text-foreground leading-relaxed">{agent.summary}</p>
+            <div className="prose prose-sm max-w-none text-foreground">
+              <p className="whitespace-pre-wrap leading-relaxed">
+                {agent.summary.split('\n').slice(0, 10).join('\n')}
+              </p>
+            </div>
           </div>
         )}
       </header>

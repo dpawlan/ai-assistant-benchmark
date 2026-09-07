@@ -1,144 +1,396 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f5f5f7;
-  --foreground: #1d1d1f;
-  --card-bg: #ffffff;
-  --bubble-blue: #007aff;
-  --bubble-gray: #e9e9eb;
-  --accent-green: #34c759;
-  --accent-orange: #ff9500;
-  --accent-purple: #af52de;
-  --border-light: #d2d2d7;
-  --text-secondary: #86868b;
+  /* Core colors - Apple/iMessage calm aesthetic */
+  --color-bg: #ffffff;
+  --color-surface: #fbfbfd;
+  --color-text: #1d1d1f;
+  --color-text-secondary: #86868b;
+  --color-accent: #0a84ff;
+  --color-accent-tint: #e8f2ff;
+  --color-divider: #e5e5ea;
+  --color-bubble-gray: #e9e9eb;
+
+  /* Status colors - quiet pills */
+  --color-confirmed: #248a3d;
+  --color-confirmed-bg: rgba(52, 199, 89, 0.12);
+  --color-stretch: #bf5600;
+  --color-stretch-bg: rgba(255, 149, 0, 0.12);
+
+  /* Score colors */
+  --color-score-high: #248a3d;
+  --color-score-mid: #0a84ff;
+  --color-score-low: #bf5600;
+  --color-score-poor: #d70015;
+
+  /* Shadows - minimal */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-card: var(--card-bg);
-  --color-bubble-blue: var(--bubble-blue);
-  --color-bubble-gray: var(--bubble-gray);
-  --color-accent-green: var(--accent-green);
-  --color-accent-orange: var(--accent-orange);
-  --color-accent-purple: var(--accent-purple);
-  --color-border: var(--border-light);
-  --color-secondary: var(--text-secondary);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-text);
+  --color-surface: var(--color-surface);
+  --color-secondary: var(--color-text-secondary);
+  --color-accent: var(--color-accent);
+  --color-accent-tint: var(--color-accent-tint);
+  --color-divider: var(--color-divider);
+  --color-bubble: var(--color-bubble-gray);
+  --color-confirmed: var(--color-confirmed);
+  --color-confirmed-bg: var(--color-confirmed-bg);
+  --color-stretch: var(--color-stretch);
+  --color-stretch-bg: var(--color-stretch-bg);
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
 }
 
+/* Dark mode - true iOS dark */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #f5f5f7;
-    --card-bg: #1c1c1e;
-    --bubble-blue: #0a84ff;
-    --bubble-gray: #3a3a3c;
-    --border-light: #3a3a3c;
-    --text-secondary: #98989d;
+    --color-bg: #000000;
+    --color-surface: #1c1c1e;
+    --color-text: #f5f5f7;
+    --color-text-secondary: #98989d;
+    --color-accent: #0a84ff;
+    --color-accent-tint: rgba(10, 132, 255, 0.15);
+    --color-divider: #38383a;
+    --color-bubble-gray: #3a3a3c;
+    --color-confirmed: #30d158;
+    --color-confirmed-bg: rgba(48, 209, 88, 0.2);
+    --color-stretch: #ff9f0a;
+    --color-stretch-bg: rgba(255, 159, 10, 0.2);
+    --shadow-card: none;
   }
+}
+
+/* Base styles */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
 }
 
-.card-shadow {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 4px 24px rgba(0, 0, 0, 0.04);
+/* Type scale */
+.text-display {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
-.card-shadow-hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08), 0 8px 32px rgba(0, 0, 0, 0.06);
+.text-title {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card-shadow {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 24px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-shadow-hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 8px 32px rgba(0, 0, 0, 0.25);
-  }
+.text-heading {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
-.gradient-text {
-  background: linear-gradient(135deg, #007aff 0%, #5856d6 50%, #af52de 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+.text-body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.bubble {
-  border-radius: 20px;
-  padding: 12px 16px;
+.text-body-semibold {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
-.bubble-blue {
-  background: var(--bubble-blue);
-  color: white;
+.text-caption {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
-.bubble-gray {
-  background: var(--bubble-gray);
-  color: var(--foreground);
+.text-micro {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
 }
 
-.status-badge {
+/* Status badges - quiet pills */
+.badge {
   display: inline-flex;
   align-items: center;
   padding: 4px 10px;
-  border-radius: 100px;
-  font-size: 12px;
+  border-radius: 9999px;
+  font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
-.status-confirmed {
-  background: rgba(52, 199, 89, 0.15);
-  color: #248a3d;
+.badge-confirmed {
+  background: var(--color-confirmed-bg);
+  color: var(--color-confirmed);
 }
 
-.status-stretch {
-  background: rgba(255, 149, 0, 0.15);
-  color: #c93400;
+.badge-stretch {
+  background: var(--color-stretch-bg);
+  color: var(--color-stretch);
 }
 
-@media (prefers-color-scheme: dark) {
-  .status-confirmed {
-    background: rgba(52, 199, 89, 0.2);
-    color: #30d158;
-  }
-  
-  .status-stretch {
-    background: rgba(255, 149, 0, 0.2);
-    color: #ff9f0a;
-  }
+/* iMessage received bubble */
+.bubble {
+  background: var(--color-bubble-gray);
+  color: var(--color-text);
+  border-radius: 18px;
+  padding: 12px 16px;
 }
 
+/* Score cells */
 .score-cell {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 48px;
-  height: 32px;
-  border-radius: 8px;
-  font-size: 14px;
-  font-weight: 500;
+  min-width: 44px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 600;
 }
 
-.score-na {
-  background: var(--bubble-gray);
-  color: var(--text-secondary);
+.score-high {
+  background: rgba(52, 199, 89, 0.12);
+  color: var(--color-score-high);
+}
+
+.score-mid {
+  background: rgba(10, 132, 255, 0.12);
+  color: var(--color-score-mid);
+}
+
+.score-low {
+  background: rgba(255, 149, 0, 0.12);
+  color: var(--color-score-low);
+}
+
+.score-poor {
+  background: rgba(215, 0, 21, 0.12);
+  color: var(--color-score-poor);
 }
 
 .score-null {
   background: transparent;
-  border: 1px dashed var(--border-light);
-  color: var(--text-secondary);
+  border: 1px dashed var(--color-divider);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.score-na {
+  background: var(--color-bubble-gray);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Card with subtle shadow */
+.card {
+  background: var(--color-surface);
+  border-radius: 16px;
+  box-shadow: var(--shadow-card);
+}
+
+/* Divider line */
+.divider {
+  height: 1px;
+  background: var(--color-divider);
+}
+
+/* Form inputs - native feeling */
+.input {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  background: var(--color-bubble-gray);
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  color: var(--color-text);
+  outline: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.input:focus {
+  box-shadow: 0 0 0 3px var(--color-accent-tint);
+}
+
+.input::placeholder {
+  color: var(--color-text-secondary);
+}
+
+.textarea {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--color-bubble-gray);
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  color: var(--color-text);
+  outline: none;
+  resize: none;
+  transition: box-shadow 0.15s ease;
+}
+
+.textarea:focus {
+  box-shadow: 0 0 0 3px var(--color-accent-tint);
+}
+
+.textarea::placeholder {
+  color: var(--color-text-secondary);
+}
+
+/* Primary button - pill */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 24px;
+  background: var(--color-accent);
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Chip / pill filter */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 14px;
+  background: var(--color-bubble-gray);
+  color: var(--color-text);
+  border: none;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.chip:hover {
+  background: var(--color-divider);
+}
+
+.chip-active {
+  background: var(--color-accent);
+  color: white;
+}
+
+.chip-active:hover {
+  background: var(--color-accent);
+  opacity: 0.9;
+}
+
+/* List row - tappable */
+.list-row {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-divider);
+  transition: background 0.15s ease;
+  cursor: pointer;
+}
+
+.list-row:hover {
+  background: var(--color-accent-tint);
+}
+
+.list-row:last-child {
+  border-bottom: none;
+}
+
+/* Squircle avatar */
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--color-bubble-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  flex-shrink: 0;
+}
+
+/* Touch target minimum */
+.touch-target {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Container widths */
+.container-narrow {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.container-wide {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Hide scrollbar but allow scrolling */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+  background: var(--color-accent-tint);
+  color: var(--color-text);
 }

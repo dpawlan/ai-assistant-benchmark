@@ -9,31 +9,31 @@ interface ScoreMatrixProps {
 function ScoreCell({ value, isStretch }: { value: ScoreValue; isStretch: boolean }) {
   if (isStretch && value === null) {
     return (
-      <div className="score-cell score-na text-xs">
+      <span className="score-cell score-na">
         N/A
-      </div>
+      </span>
     );
   }
   
   if (value === null || value === undefined) {
     return (
-      <div className="score-cell score-null text-xs">
-        —
-      </div>
+      <span className="score-cell score-null">
+        Not tested
+      </span>
     );
   }
   
-  const getScoreColor = (score: number) => {
-    if (score >= 8) return 'bg-accent-green/20 text-accent-green';
-    if (score >= 6) return 'bg-bubble-blue/20 text-bubble-blue';
-    if (score >= 4) return 'bg-accent-orange/20 text-accent-orange';
-    return 'bg-red-500/20 text-red-500';
+  const getScoreClass = (score: number) => {
+    if (score >= 8) return 'score-high';
+    if (score >= 6) return 'score-mid';
+    if (score >= 4) return 'score-low';
+    return 'score-poor';
   };
 
   return (
-    <div className={`score-cell ${getScoreColor(value)}`}>
+    <span className={`score-cell ${getScoreClass(value)}`}>
       {value}
-    </div>
+    </span>
   );
 }
 
@@ -47,28 +47,28 @@ export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps)
   };
 
   return (
-    <div className="bg-card rounded-2xl card-shadow overflow-hidden">
-      <div className="p-6 border-b border-border">
-        <h2 className="font-semibold text-lg">Score Matrix</h2>
-        <p className="text-sm text-secondary mt-1">
-          Performance across {categories.length} evaluation categories
+    <div className="card overflow-hidden">
+      <div className="p-4 border-b border-divider">
+        <h2 className="text-heading">Score Matrix</h2>
+        <p className="text-caption text-secondary mt-1">
+          {categories.length} evaluation categories
         </p>
       </div>
       
-      <div className="p-6">
-        <div className="mb-6">
-          <h3 className="text-sm font-medium text-secondary uppercase tracking-wider mb-3">
+      <div className="p-4 space-y-6">
+        <section>
+          <h3 className="text-micro text-secondary uppercase tracking-wider mb-3">
             Core Categories
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="space-y-2">
             {coreCategories.map(category => (
               <div 
                 key={category.key} 
-                className="flex items-center justify-between p-3 rounded-xl bg-bubble-gray/30"
+                className="flex items-center justify-between py-2 border-b border-divider last:border-b-0"
               >
-                <div className="flex-1 min-w-0 pr-4">
-                  <div className="font-medium text-sm truncate">{category.label}</div>
-                </div>
+                <span className="text-body flex-1 min-w-0 pr-4">
+                  {category.label}
+                </span>
                 <ScoreCell 
                   value={getScore(category.key)} 
                   isStretch={isStretch}
@@ -76,21 +76,21 @@ export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps)
               </div>
             ))}
           </div>
-        </div>
+        </section>
         
-        <div>
-          <h3 className="text-sm font-medium text-secondary uppercase tracking-wider mb-3">
+        <section>
+          <h3 className="text-micro text-secondary uppercase tracking-wider mb-3">
             Endorsed Categories
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="space-y-2">
             {endorsedCategories.map(category => (
               <div 
                 key={category.key} 
-                className="flex items-center justify-between p-3 rounded-xl bg-bubble-gray/30"
+                className="flex items-center justify-between py-2 border-b border-divider last:border-b-0"
               >
-                <div className="flex-1 min-w-0 pr-4">
-                  <div className="font-medium text-sm truncate">{category.label}</div>
-                </div>
+                <span className="text-body flex-1 min-w-0 pr-4">
+                  {category.label}
+                </span>
                 <ScoreCell 
                   value={getScore(category.key)} 
                   isStretch={isStretch}
@@ -98,17 +98,17 @@ export function ScoreMatrix({ scores, categories, isStretch }: ScoreMatrixProps)
               </div>
             ))}
           </div>
-        </div>
+        </section>
       </div>
       
-      <div className="px-6 py-4 bg-bubble-gray/20 border-t border-border">
-        <div className="flex flex-wrap gap-4 text-xs text-secondary">
+      <div className="px-4 py-3 bg-surface border-t border-divider">
+        <div className="flex flex-wrap gap-4 text-micro text-secondary">
           <div className="flex items-center gap-2">
-            <div className="score-cell score-null text-xs w-8 h-6">—</div>
-            <span>Not tested</span>
+            <span className="score-cell score-null text-[10px] px-2 py-0.5">Not tested</span>
+            <span>No data yet</span>
           </div>
           <div className="flex items-center gap-2">
-            <div className="score-cell score-na text-xs w-8 h-6">N/A</div>
+            <span className="score-cell score-na text-[10px] px-2 py-0.5">N/A</span>
             <span>Not applicable</span>
           </div>
         </div>

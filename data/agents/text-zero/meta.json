@@ -1,0 +1,21 @@
+{
+  "slug": "text-zero",
+  "name": "Text Zero",
+  "site": "https://meetzero.ai/",
+  "handles": [
+    "TextZero",
+    "Zero",
+    "meetzero",
+    "meetzeroai",
+    "AvgNomad"
+  ],
+  "status": "stretch",
+  "product_class": "hardware_wearable",
+  "notes": "AI smart ring + meeting memory. On board for wearable/meeting capture; expect N/A on most text-PA categories.",
+  "likely_applicable": [
+    "memory",
+    "proactive_behavior",
+    "running_routine"
+  ],
+  "public_signal": "low"
+}

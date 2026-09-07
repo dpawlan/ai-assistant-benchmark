@@ -1,0 +1,19 @@
+{
+  "slug": "synorb",
+  "name": "Synorb",
+  "site": "https://synorb.com/",
+  "handles": [
+    "Synorb",
+    "synorb",
+    "bshivarthy"
+  ],
+  "status": "stretch",
+  "product_class": "agent_infra",
+  "notes": "Temporal context graph / infra for agents. On board as infra layer; expect N/A on consumer assistant use cases.",
+  "likely_applicable": [
+    "memory",
+    "third_party_integrations",
+    "chained_tasks"
+  ],
+  "public_signal": "medium"
+}

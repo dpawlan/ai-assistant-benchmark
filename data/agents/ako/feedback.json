@@ -1,0 +1,151 @@
+[
+  {
+    "id": "7770a086197f",
+    "agent": "ako",
+    "quote": "Today, we're launching Ako: our AI teammate that completes work for you in Slack and WhatsApp. \n\nAko works across your team, connects to all your tools and gets work done. \n\nTry: \nhttps://\nwithako.com\n\nYou've heard this pitch before, so I'll cover the principles Ako is built",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-08-26",
+    "url": "https://x.com/ntkris/status/2092571248601764351",
+    "kind": "other",
+    "tags": [
+      "launch",
+      "slack",
+      "whatsapp",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: launching Ako AI teammate for Slack/WhatsApp"
+  },
+  {
+    "id": "0650b433abaa",
+    "agent": "ako",
+    "quote": "Identity: Ako is a colleague, not an extension of your identity. By default, it has its own WhatsApp number and email address. When Ako does something, it should be clear that it was Ako.",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-08-26",
+    "url": "https://x.com/ntkris/status/2092571250791190618",
+    "kind": "other",
+    "tags": [
+      "identity",
+      "whatsapp",
+      "email",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: own WhatsApp number + email identity as colleague"
+  },
+  {
+    "id": "834c2f6764ca",
+    "agent": "ako",
+    "quote": "Guardrails: Autonomy should not mean losing control. You decide what ako can access and which actions it can take. For example, you can allow internal work while disabling all external communication.",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-08-26",
+    "url": "https://x.com/ntkris/status/2092571252955422801",
+    "kind": "other",
+    "tags": [
+      "guardrails",
+      "rbac",
+      "external-comms",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: guardrails \u2014 disable external communication while allowing internal"
+  },
+  {
+    "id": "9644840e522b",
+    "agent": "ako",
+    "quote": "@ntkris\n has built a crazy product which has got me hooked since 24 hours. \nI'm having dreams about it. \nNever thought AI would help me in this way.\n\nEveryone should try it - \nhttps://\nwithako.com/waitlist",
+    "author": "@kushgrwl",
+    "author_name": "Kush Agarwal",
+    "date": "2026-06-19",
+    "url": "https://x.com/kushgrwl/status/2067910476466716680",
+    "kind": "praise",
+    "tags": [
+      "hooked",
+      "waitlist",
+      "third-party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "third-party: hooked 24h; dreams about it; try withako waitlist"
+  },
+  {
+    "id": "7544926d72e0",
+    "agent": "ako",
+    "quote": "Going to be posting a bunch of content on how I use Ako\n\nI like to use my agents to handle the admin, and focus my team on building relationships\n\nTrying a new video format: raw content that is just cut and sped up because no one has the time. \n\nLmk what you think",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-08-31",
+    "url": "https://x.com/ntkris/status/2094432349740314963",
+    "kind": "use-case",
+    "tags": [
+      "admin",
+      "relationships",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: uses Ako for admin so team focuses on relationships"
+  },
+  {
+    "id": "ddc3c030f8a7",
+    "agent": "ako",
+    "quote": "Would love for you to try our product: \nhttps://\nwithako.com\n\nWe give you way more control. For example, disabling it from reaching out to external parties (you can turn on / off, or review)",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-09-05",
+    "url": "https://x.com/ntkris/status/2096224441336565818",
+    "kind": "other",
+    "tags": [
+      "control",
+      "external-parties",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: more control e.g. disable reaching external parties"
+  },
+  {
+    "id": "7e9407b666b3",
+    "agent": "ako",
+    "quote": "You don't need to wait! Our is multiplayer on Slack and WhatsApp:",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-09-03",
+    "url": "https://x.com/ntkris/status/2095431998500462708",
+    "kind": "other",
+    "tags": [
+      "multiplayer",
+      "slack",
+      "whatsapp",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: multiplayer on Slack and WhatsApp"
+  },
+  {
+    "id": "68c11aa9dfc9",
+    "agent": "ako",
+    "quote": "Ako is very exciting to work on because it\u2019s forcing us to solve critical problems for agents:\n\n- Infra for agents (virtual computers, storage)\n- QA for tasks (skill development, evals) \n- Governance (RBAC)\n\nThese will be important in any version of the world going forward.",
+    "author": "@ntkris",
+    "author_name": "Krishna",
+    "date": "2026-04-17",
+    "url": "https://x.com/ntkris/status/2044997125784940715",
+    "kind": "other",
+    "tags": [
+      "infra",
+      "evals",
+      "rbac",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: solving agent infra/QA/governance"
+  }
+]

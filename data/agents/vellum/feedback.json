@@ -1,0 +1,592 @@
+[
+  {
+    "id": "158883237471",
+    "agent": "vellum",
+    "quote": "This is what a personal AI should be \ud83e\udef6\n\nLast week, I told Becky that I'm traveling back to Skopje for a wedding...\n\nA few things I love about my \n@vellum_ai\n assistant:\n\n- Highly personal welcome messages \ud83d\ude0d\n- Keeps reminding me about stuff I forget, like checking in my pet.\n- Dug",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-02",
+    "url": "https://x.com/marinatrajk/status/2095180559655813315",
+    "kind": "praise",
+    "tags": [
+      "personal",
+      "proactive"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "team/user: wedding travel personalization"
+  },
+  {
+    "id": "ed8d8e48f92d",
+    "agent": "vellum",
+    "quote": "my \n@vellum_ai\n assistant helped me save $39/m\n\nWent over my emails, and found a subscription for an app that I don't even use... \n\nalso, found many others that I can possibly cancel",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-02",
+    "url": "https://x.com/marinatrajk/status/2095257523120955496",
+    "kind": "use-case",
+    "tags": [
+      "subscriptions",
+      "email",
+      "savings"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "$39/mo subscription find"
+  },
+  {
+    "id": "773eb841da7c",
+    "agent": "vellum",
+    "quote": "I asked my \n@vellum_ai\n assistant to build me a game featuring my dog!\n\nShe used Astra and took about 10 min total to do it. \n\nIt's fun, but doesn't look like the stuff I'm seeing on my feed...",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-05",
+    "url": "https://x.com/marinatrajk/status/2096227240300232833",
+    "kind": "use-case",
+    "tags": [
+      "astra",
+      "build"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "built dog game via Astra"
+  },
+  {
+    "id": "34fe63fe1f54",
+    "agent": "vellum",
+    "quote": "kept seeing \n@vellum_ai\n everywhere today, so I finally downloaded it and gave it a real try\n\nit feels more like a personal AI that actually lives with you than just another chat app\n\nvoice mode is smooth, context sticks, and the open-source + local/cloud option is a nice bonus\n\nif",
+    "author": "@Yura__eth",
+    "author_name": "YuRii \u24e8 ETH",
+    "date": "2026-08-28",
+    "url": "https://x.com/Yura__eth/status/2093409942568894914",
+    "kind": "praise",
+    "tags": [
+      "mobile",
+      "onboarding"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "downloaded after seeing everywhere"
+  },
+  {
+    "id": "bd3e726c77a3",
+    "agent": "vellum",
+    "quote": "i\u2019ve had so many moments where i needed my ai but it was tied to my laptop\n\nby the time i got back to my desk,the idea was gone \n\nVellum ai assistant on mobile changes that for me\n\nmy ai is now there when the thought comes\n\nnot when i finally sit down to work\n\nand that makes it",
+    "author": "@bigmelloww",
+    "author_name": "mellow",
+    "date": "2026-08-27",
+    "url": "https://x.com/bigmelloww/status/2093046591817171273",
+    "kind": "use-case",
+    "tags": [
+      "mobile",
+      "form-factor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "laptop-tethered friction \u2192 mobile"
+  },
+  {
+    "id": "6e89b3bdd883",
+    "agent": "vellum",
+    "quote": "given recent Grok Bot hype, I'm seeing that people like having different Bots per tasks. \n\nat vellum, we\u2019re taking a slightly different approach: one main agent can spin up specialized sub-agents to handle different tasks for you in the background, all in parallel with full",
+    "author": "@anitakirkovska",
+    "author_name": "anita",
+    "date": "2026-08-17",
+    "url": "https://x.com/anitakirkovska/status/2089462229829636462",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "subagents"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: one main agent + subagents vs many bots"
+  },
+  {
+    "id": "467a0bc62beb",
+    "agent": "vellum",
+    "quote": "Decided to download the \n@vellum_ai\n on my App Store \n\nSince they recently just went online on both Apple and Android \n\nAn exclusive AI assistant that helps with everything. \n\nSaw a lot of people talking about them , shows social proof.",
+    "author": "@XBukkyExplorer",
+    "author_name": "Bukky (Builder Arc)",
+    "date": "2026-08-28",
+    "url": "https://x.com/XBukkyExplorer/status/2093409741766545488",
+    "kind": "other",
+    "tags": [
+      "mobile",
+      "launch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "iOS/Android download"
+  },
+  {
+    "id": "1de701991f26",
+    "agent": "vellum",
+    "quote": "I think the biggest shift with \n@vellum_ai\n going mobile is that the assistant stops being tied to one device!\n\nyou can start something on desktop, leave, and pick it back up from your phone without rebuilding the context\n\nthe same memory stays with you, the assistant can keep",
+    "author": "@themahis",
+    "author_name": "MASA",
+    "date": "2026-09-02",
+    "url": "https://x.com/themahis/status/2095081661788491994",
+    "kind": "praise",
+    "tags": [
+      "mobile",
+      "continuity"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "cross-device continuity"
+  },
+  {
+    "id": "841a912a6d82",
+    "agent": "vellum",
+    "quote": "I just downloaded \n@vellum_ai\n. \n\nbeen seeing this everywhere and i need to know what everyone\u2019s talking about \ud83d\udc40\n\nIt\u2019s an exclusive AI assistant that helps with everything. \n\nI\u2019m curious to see what it can actually do.",
+    "author": "@missbaddieella1",
+    "author_name": "\ud835\udc04\ud835\udc25\ud835\udc25\ud835\udc1a \u23f3",
+    "date": "2026-08-28",
+    "url": "https://x.com/missbaddieella1/status/2093413217724744144",
+    "kind": "other",
+    "tags": [
+      "download",
+      "discovery"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "just downloaded; curious"
+  },
+  {
+    "id": "abbbf205e9ae",
+    "agent": "vellum",
+    "quote": "The fastest way to interact with an AI bot. \nGive it a try. The \n@vellum_ai\n mobile experience is delightful",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-08-31",
+    "url": "https://x.com/marinatrajk/status/2094493653393715453",
+    "kind": "praise",
+    "tags": [
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "mobile experience delightful"
+  },
+  {
+    "id": "e4be771af023",
+    "agent": "vellum",
+    "quote": "Introducing the OpenClaw \u2192 vellum transfer tool \ud83e\udd1d\n\nBring your existing agent over, then:\n\n1/ get safer credential handling\n2/ take it to the cloud + mobile (iOS/Android)\n3/ use it in voice mode\n4/ close the terminal for once",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-09-04",
+    "url": "https://x.com/vellum_ai/status/2095910475104178442",
+    "kind": "other",
+    "tags": [
+      "openclaw",
+      "migration",
+      "mobile",
+      "company"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "OpenClaw \u2192 Vellum transfer tool"
+  },
+  {
+    "id": "0cfa1768b099",
+    "agent": "vellum",
+    "quote": "You can now run your vellum assistant on \n@googlecloud\n\nInstead of running on your laptop, your assistant can live on its own cloud computer and stay online 24/7, even when your laptop is closed.\n\nYou own the Google Cloud account and the machine it runs on.",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-09-03",
+    "url": "https://x.com/vellum_ai/status/2095527489682776094",
+    "kind": "other",
+    "tags": [
+      "cloud",
+      "always-on",
+      "company"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "GCP cloud computer 24/7"
+  },
+  {
+    "id": "cf2470fcb54f",
+    "agent": "vellum",
+    "quote": "look what I have in my \n@vellum_ai\n assistant!!",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-04",
+    "url": "https://x.com/marinatrajk/status/2095976316545728871",
+    "kind": "other",
+    "tags": [
+      "demo"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "look what I have in assistant"
+  },
+  {
+    "id": "a45198fa1611",
+    "agent": "vellum",
+    "quote": "Wait...\n\nMy Vellum assistant can now use my actual Chrome browser instead of a sandbox browser.\n\nIt works inside the accounts I\u2019m already logged into.\n\nDidn\u2019t have to log into accounts one by one to give my agent access \ud83d\udc47\ud83e\uddf5",
+    "author": "@kyronis_talks",
+    "author_name": "Kyronis",
+    "date": "2026-09-04",
+    "url": "https://x.com/kyronis_talks/status/2095876524838887789",
+    "kind": "use-case",
+    "tags": [
+      "chrome",
+      "browser",
+      "logged-in"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Vellum uses real Chrome / logged-in accounts"
+  },
+  {
+    "id": "01333802a5fe",
+    "agent": "vellum",
+    "quote": "An assistant that lives on your phone now\n\nVoice mode carries most of what \n@vellum_ai\n shipped today\n\n\u2192 A live conversation, no dictation box\n\u2192 Cut in halfway, change direction, context holds\n\nCamera works inside the same mode, so you can show a problem instead of describing one",
+    "author": "@Parsats_eth",
+    "author_name": "PARSA",
+    "date": "2026-08-28",
+    "url": "https://x.com/Parsats_eth/status/2093398556358983776",
+    "kind": "use-case",
+    "tags": [
+      "voice",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "voice mode live conversation on phone"
+  },
+  {
+    "id": "860cdc91f5f7",
+    "agent": "vellum",
+    "quote": "Pretty sure you will love \n@vellum_ai\n too\n\nSpent the week running my whole workflow from a phone, no laptop nearby\n\nHere are the 5 things I keep going back to on Vellum Mobile",
+    "author": "@Mortezabihzadeh",
+    "author_name": "Morteza",
+    "date": "2026-08-28",
+    "url": "https://x.com/Mortezabihzadeh/status/2093394735125725571",
+    "kind": "use-case",
+    "tags": [
+      "mobile",
+      "workflow",
+      "phone"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "week running whole workflow from phone"
+  },
+  {
+    "id": "76954f9c343e",
+    "agent": "vellum",
+    "quote": "Use your local vellum assistant from your mobile. \ud83d\udcf2\n\nSelf-hosting your Vellum assistant keeps your data on your own machine, but usually limits access to that device. With this update, you can set up an ngrok tunnel and access your local assistant from your phone, browser, or",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-02",
+    "url": "https://x.com/marinatrajk/status/2095225087473619044",
+    "kind": "use-case",
+    "tags": [
+      "self-host",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "local vellum assistant from mobile"
+  },
+  {
+    "id": "07888a430741",
+    "agent": "vellum",
+    "quote": "did you know that you can use Astra in \n@vellum_ai\n from your ChatGPT subscription?",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-05",
+    "url": "https://x.com/marinatrajk/status/2096216129198813304",
+    "kind": "use-case",
+    "tags": [
+      "astra",
+      "chatgpt"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Astra in Vellum via ChatGPT sub"
+  },
+  {
+    "id": "a78508415e7a",
+    "agent": "vellum",
+    "quote": "Vellum seems cool. \n@dvargasfuertes\n, FrontierHarness now runs on any harness you point it at, same model, tasks, and cold start as the rest of the field. \n\nGive it a try:",
+    "author": "@guanlan",
+    "author_name": "Guanlan Dai",
+    "date": "2026-09-04",
+    "url": "https://x.com/guanlan/status/2095721688495513950",
+    "kind": "other",
+    "tags": [
+      "benchmark",
+      "harness"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Vellum seems cool; FrontierHarness"
+  },
+  {
+    "id": "f12bf57a4c4d",
+    "agent": "vellum",
+    "quote": "Introducing Model Profiles!\n\nVellum assistants start with the Balanced profile, optimized for quality, speed, and cost across everyday tasks.\n\nYou can also choose a profile optimized for Quality, Cost, or Speed, or use your own API keys or self-hosted models:",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-09-01",
+    "url": "https://x.com/vellum_ai/status/2094870543430496328",
+    "kind": "use-case",
+    "tags": [
+      "model-profiles",
+      "self-host",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: Model Profiles Balanced/Quality/Cost/Speed + own keys"
+  },
+  {
+    "id": "97681a8f3604",
+    "agent": "vellum",
+    "quote": "Start a voice conversation with your vellum assistant from the Action Button on your iPhone.\n\nSet it up in three steps:\n\n1. Create the Shortcut\n2. Assign it to the Action Button\n3. Press and hold the button, and start talking",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-08-31",
+    "url": "https://x.com/vellum_ai/status/2094535407295697310",
+    "kind": "use-case",
+    "tags": [
+      "voice",
+      "iphone",
+      "action-button",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: Action Button voice conversation setup"
+  },
+  {
+    "id": "75df757bd6ed",
+    "agent": "vellum",
+    "quote": "Definitely \n@vellum_ai\n \ud83d\udd25I can give you extra credits to test \ud83e\udd1d",
+    "author": "@marinatrajk",
+    "author_name": "Marina",
+    "date": "2026-09-06",
+    "url": "https://x.com/marinatrajk/status/2096550255592415272",
+    "kind": "praise",
+    "tags": [
+      "credits",
+      "advocate"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: recommends Vellum; offers extra credits to test"
+  },
+  {
+    "id": "57d0028ac4d2",
+    "agent": "vellum",
+    "quote": "try \n@vellum_ai\n instead",
+    "author": "@grim_tonal",
+    "author_name": "Nicky*",
+    "date": "2026-09-02",
+    "url": "https://x.com/grim_tonal/status/2095169452480291001",
+    "kind": "other",
+    "tags": [
+      "recommend"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: try @vellum_ai instead"
+  },
+  {
+    "id": "c49c5cb173a2",
+    "agent": "vellum",
+    "quote": "Def give \n@vellum_ai\n a look too",
+    "author": "@Aboundlessworld",
+    "author_name": "Bud Hennekes",
+    "date": "2026-09-06",
+    "url": "https://x.com/Aboundlessworld/status/2096400754038706623",
+    "kind": "other",
+    "tags": [
+      "recommend"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: give @vellum_ai a look"
+  },
+  {
+    "id": "2b05bd3ec6da",
+    "agent": "vellum",
+    "quote": "Just export your OpenClaw workspace as a ZIP and drop it into the import tool:",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-09-04",
+    "url": "https://x.com/vellum_ai/status/2095910488362401858",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "import",
+      "migration",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "founder: export OpenClaw workspace ZIP into Vellum import"
+  },
+  {
+    "id": "adb780151d0b",
+    "agent": "vellum",
+    "quote": "It also works with other agent tools like Hermes, Claude, and ChatGPT using a migration SKILL.MD file\n\nFor a deeper look at how it works, check out the repo:",
+    "author": "@vellum_ai",
+    "author_name": "vellum",
+    "date": "2026-09-04",
+    "url": "https://x.com/vellum_ai/status/2095910500374860256",
+    "kind": "use-case",
+    "tags": [
+      "hermes",
+      "claude",
+      "chatgpt",
+      "migration",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "founder: works with Hermes/Claude/ChatGPT via migration SKILL.md"
+  },
+  {
+    "id": "5e8afe7a588c",
+    "agent": "vellum",
+    "quote": "How can we get \n@vellum_ai\n included in this benchmark? Is it OSS?",
+    "author": "@dvargasfuertes",
+    "author_name": "Vargas Fuertes",
+    "date": "2026-09-03",
+    "url": "https://x.com/dvargasfuertes/status/2095493200949522642",
+    "kind": "other",
+    "tags": [
+      "benchmark",
+      "oss"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: how to get Vellum in benchmark; is it OSS?"
+  },
+  {
+    "id": "2d5b4a57e046",
+    "agent": "vellum",
+    "quote": "Bullish on vellum ai",
+    "author": "@Natalia77351991",
+    "author_name": "Natalia \ud83d\udfe6",
+    "date": "2026-09-04",
+    "url": "https://x.com/Natalia77351991/status/2095801734463357102",
+    "kind": "praise",
+    "tags": [
+      "bullish"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: bullish on vellum ai"
+  },
+  {
+    "id": "8ddf78de91f5",
+    "agent": "vellum",
+    "quote": "I\u2019ve tried a number of harnesses or AI assistants. Vellum can be used free if you download and use it locally. I then paired it with an LLM API (Openrouter or whatever you want) and what I liked was its memory and its pro-active nature. I\u2019d go to it in the morning and it would have suggestions of things I need to do, emails to reply to. Kind of great for a person with ADHD. But I feel like I\u2019m the only one who ever used it. Hermes and Openclaw get all the love and attention. Am I the only one? \n\nI used it for a few months, but I against my better judgement, used some new powerful LLMs and burned through too many credits so i shelved it and went back to a regular $20/mo ChatGPT subscription. After 3\u201d2 months i tried to cancel but got a free month offer so I\u2019m going to stick with it another month. Now that I\u2019m used to using Luna and it\u2019s cheap, and Deepseek is up in quality and still cheap, I\u2019m thinking of going back next month (Or maybe sooner.)\n\nQuestion: Is there a reason so many people don\u2019t use or talk about Vellum? Compared to Hermes I found it more user friendly and the memory system was amazing. Using it locally with BYO LLM API and Telegram, I don\u2019t see it missing any featur",
+    "author": "u/Cooperman411",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1w64eo8/vellum_ai",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "memory",
+      "proactive",
+      "adhd",
+      "local"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: local Vellum PA memory/proactive; vs Hermes/OpenClaw attention"
+  },
+  {
+    "id": "cc41fcee523b",
+    "agent": "vellum",
+    "quote": "I ran Vellum for a bit and had same feeling, like I was only person on earth using it. Memory was really good for morning check-ins, it would queue up tasks without me asking. The lack of integrations is probably why it stays quiet, people want one tool that connects to everything instead of wiring up Composio themselves. Hermes gets hype because it's flashier but Vellum is more practical for daily stuff.",
+    "author": "u/DiligentAmoeba8213",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1w64eo8/vellum_ai/p7k22p1",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "memory",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "same feeling; memory morning check-ins"
+  },
+  {
+    "id": "387016e376cd",
+    "agent": "vellum",
+    "quote": "Vellum has solid tooling, but it is mostly geared toward prompt engineering and evals rather than being an out-of-the-box personal assistant.\n\nIf you're looking for a proactive assistant with persistent memory and background tasks, you might want to check out prompt2bot (full disclosure, I'm building it). It runs 24/7, connects to WhatsApp and Telegram, and has persistent storage plus sandbox/browser execution for handling proactive tasks.\n\nYou can try it out for free directly in WhatsApp, Telegram, or web here:\nhttps://prompt2bot.com/talk-to-skill?url=tank%3A%40uriva%2Fp2b-personal-assistant",
+    "author": "u/uriwa",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1w64eo8/vellum_ai/p7k9hf2",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "evals"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment: still sees Vellum as prompt/eval tooling"
+  },
+  {
+    "id": "d6d4cbb8eaa0",
+    "agent": "vellum",
+    "quote": "Vellum USED to be geared towards prompt engineering and AI development. They repositioned late last year and are now focused on being the personal assistant.",
+    "author": "u/Cooperman411",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1w64eo8/vellum_ai/p7kkkv3",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "positioning"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "clarifies Vellum repositioned to PA"
+  },
+  {
+    "id": "8fbb4106420a",
+    "agent": "vellum",
+    "quote": "Most AI products added voice by wrapping a chatbot in speech-to-text.\n\nVellum built a real-time voice loop on top of a full agent.\n\nIt browses the web, reads your files, runs code, and sends messages while you\u2019re still talking.\n\nThis is voice as a real surface for an agent. Not a",
+    "author": "@luqman_talks",
+    "author_name": "Luqman Ali",
+    "date": "2026-08-19",
+    "url": "https://x.com/luqman_talks/status/2090024369687064752",
+    "kind": "praise",
+    "tags": [
+      "voice",
+      "agent-loop"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "6c5677230e97",
+    "agent": "vellum",
+    "quote": "> is by far the best personal family agent platform out there\n\nStay tuned \ud83d\udc40. iMessage plugin in Vellum under QA",
+    "author": "@dvargasfuertes",
+    "author_name": "Vargas Fuertes",
+    "date": "2026-08-25",
+    "url": "https://x.com/dvargasfuertes/status/2092231555926180171",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "roadmap"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Builder note: iMessage plugin under QA"
+  }
+]

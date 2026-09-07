@@ -1,0 +1,21 @@
+{
+  "slug": "shoponscout",
+  "name": "ShopOnScout / Scout",
+  "site": "https://shoponscout.com/",
+  "handles": [
+    "ShopOnScout",
+    "Scout",
+    "shoponscout",
+    "suenacita1",
+    "Ethanarpi"
+  ],
+  "status": "stretch",
+  "product_class": "shopping_voice",
+  "notes": "Voice/shopping companion. On board for commerce use cases; expect N/A on most text-PA categories.",
+  "likely_applicable": [
+    "purchasing",
+    "recommendation_quality",
+    "personality"
+  ],
+  "public_signal": "low"
+}

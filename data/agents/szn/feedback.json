@@ -1,0 +1,357 @@
+[
+  {
+    "id": "fa0e22a1dcd3",
+    "agent": "szn",
+    "quote": "asked \n@thesznai\n : list everything you got done for me in the last 10 days \u2193\n\n- landscaping in Seattle: sent 2 photos \u2192 it shortlisted 7 vendors, got quotes, booked one, checked the before/after pics, paid the invoice.\n- logged into AT&T, pulled the bill, prepped the family",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-27",
+    "url": "https://x.com/nikhilgupta91/status/2092804574566658152",
+    "kind": "use-case",
+    "tags": [
+      "vendors",
+      "bookings"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder/power: landscaping quotes+book"
+  },
+  {
+    "id": "e17473e0a0a5",
+    "agent": "szn",
+    "quote": "From booking the padel court, to managing my fitness through the day to booking a car detailing appointment - all done in a simple back n forth over texts; Get early access \n@thesznai\n now and run your life with ease.",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-25",
+    "url": "https://x.com/nikhilgupta91/status/2092050223455748181",
+    "kind": "use-case",
+    "tags": [
+      "fitness",
+      "bookings"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "padel + detailing over text"
+  },
+  {
+    "id": "d2eab9c7982f",
+    "agent": "szn",
+    "quote": "Don\u2019t understand the hype about \n@instinct_inc\n , \n\n@thesznai\n has been doing this months ago and actually makes phone calls on your behalf",
+    "author": "@Ianwdj",
+    "author_name": "Ian Johnson",
+    "date": "2026-08-28",
+    "url": "https://x.com/Ianwdj/status/2093469355292209261",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct",
+      "phone"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "szn does phone calls; Instinct hype"
+  },
+  {
+    "id": "7d2fe1842ba3",
+    "agent": "szn",
+    "quote": "finally, a use case Indian parents can get behind \n\n@thesznai\n \n@nikhilgupta91\n love this!",
+    "author": "@sneha_sultania",
+    "author_name": "Sneha Sultania",
+    "date": "2026-08-30",
+    "url": "https://x.com/sneha_sultania/status/2093873747275198808",
+    "kind": "praise",
+    "tags": [
+      "india",
+      "parents"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "use case Indian parents"
+  },
+  {
+    "id": "212fe1c4bfc8",
+    "agent": "szn",
+    "quote": "You have to try it to know how amazing the experience is; The assistant for everyday people, now in early preview. Get access now \n@thesznai",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-25",
+    "url": "https://x.com/nikhilgupta91/status/2092111234065908027",
+    "kind": "other",
+    "tags": [
+      "preview"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "early preview pitch"
+  },
+  {
+    "id": "c4b18404b116",
+    "agent": "szn",
+    "quote": "proactivity for szn means the keeping the task alive beyond what the user expects out of a simple task:\n\nI asked szn to check me in for my first flight and from there it kicked off a task lifecycle - \n\n1) it sent my boarding pass, \n2) checked the weather and traffic\n3) reminded",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-09-01",
+    "url": "https://x.com/thesznai/status/2094829765123526943",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "proactivity",
+      "check-in",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "flight check-in lifecycle demo"
+  },
+  {
+    "id": "62cdcefd01f8",
+    "agent": "szn",
+    "quote": "every szn assistant gets its own identity, it\u2019s own inbox, it\u2019s own number, it\u2019s own computer, its own tools\n\nthis just suddenly gives the user the feeling of an extra pair of hands working for and with them - 2x-ing everything they\u2019re capable of.",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-09-06",
+    "url": "https://x.com/thesznai/status/2096393620484219141",
+    "kind": "other",
+    "tags": [
+      "identity",
+      "inbox",
+      "phone",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "own identity/inbox/number/computer"
+  },
+  {
+    "id": "f656512d2c6c",
+    "agent": "szn",
+    "quote": "szn calls places for you, figures what\u2019s possible to get you that tough reservation beyond what it\u2019s reads on web, and starts a watch on it\u2019s own",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-30",
+    "url": "https://x.com/thesznai/status/2093857842621251970",
+    "kind": "use-case",
+    "tags": [
+      "phone",
+      "reservations",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "calls places for tough reservations"
+  },
+  {
+    "id": "cfd52839b90e",
+    "agent": "szn",
+    "quote": "@thesznai\n gets it done, end to end. Work and life often get mixed into each other - well szn can now handle across that barrier. Connect multiple inboxes, calendars, and it can reason between work and personal life with ease. Sign up for early access today.",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-26",
+    "url": "https://x.com/nikhilgupta91/status/2092439886616051924",
+    "kind": "other",
+    "tags": [
+      "work-life",
+      "inboxes",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "cross work/personal barrier"
+  },
+  {
+    "id": "cb493b110708",
+    "agent": "szn",
+    "quote": "Some tasks take 5 minutes to do and 3 weeks to stop thinking about.\n\nThat\u2019s what szn is for.\n\nHand off the life admin you keep putting off - and get it out of your head.\n\nJoin the waitlist to try szn for free: \nhttps://\ntheszn.ai\n\n#lifeadmin #mentalload #productivity",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-18",
+    "url": "https://x.com/thesznai/status/2089831531724550208",
+    "kind": "other",
+    "tags": [
+      "life-admin",
+      "positioning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "5 min tasks / 3 weeks mental load"
+  },
+  {
+    "id": "d3d551a0c7fa",
+    "agent": "szn",
+    "quote": "screenshot and fwd your todo to szn - it will pick it up via phone, email, text - wherever it is that you left off",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-09-01",
+    "url": "https://x.com/thesznai/status/2094585436522103026",
+    "kind": "use-case",
+    "tags": [
+      "todo",
+      "phone",
+      "email",
+      "text",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "screenshot/fwd todo; picks up across channels"
+  },
+  {
+    "id": "dde5f4bdb711",
+    "agent": "szn",
+    "quote": "szn remembers the smallest details when making your bookings like your preference for evening appointments for personal errands on weekdays. \n\nlong-running, persistent memory has quietly become one of the biggest delighters for our users. You let it know once, it will remember.",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-31",
+    "url": "https://x.com/thesznai/status/2094291178674078082",
+    "kind": "use-case",
+    "tags": [
+      "memory",
+      "bookings",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "persistent memory for booking prefs"
+  },
+  {
+    "id": "d8fba5e2d795",
+    "agent": "szn",
+    "quote": "thinking about booking the mover is not booking the movers; just ask szn, and get it sorted. And no, your data is not for sale; #trulypersonalAI",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-30",
+    "url": "https://x.com/thesznai/status/2094196854091366837",
+    "kind": "use-case",
+    "tags": [
+      "movers",
+      "privacy",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "book movers; data not for sale"
+  },
+  {
+    "id": "03f8cf50b168",
+    "agent": "szn",
+    "quote": "Up for another one in the mix? Try \n@thesznai",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-31",
+    "url": "https://x.com/nikhilgupta91/status/2094287495429238946",
+    "kind": "other",
+    "tags": [
+      "discovery",
+      "cofounder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "try @thesznai"
+  },
+  {
+    "id": "b49985f891e8",
+    "agent": "szn",
+    "quote": "user feedback from one of our power users \n\nszn gets real work done for very real people \n\nevery task makes it learn you better, it remembers those preferences and applies that to its judgement when picking options for you",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-09-02",
+    "url": "https://x.com/thesznai/status/2095218502659658201",
+    "kind": "other",
+    "tags": [
+      "power-user",
+      "memory",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "power-user feedback: learns preferences"
+  },
+  {
+    "id": "c3eecdfe5e19",
+    "agent": "szn",
+    "quote": "get szn to watch for that table you can't get",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-29",
+    "url": "https://x.com/thesznai/status/2093795296115593437",
+    "kind": "use-case",
+    "tags": [
+      "reservation",
+      "watch",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: watch for hard-to-get table"
+  },
+  {
+    "id": "f10ab4122ab7",
+    "agent": "szn",
+    "quote": "as a solo operator, there are a 100 websites to sign in to, 100 calls to make, 100 follow ups to do, 100 messages to reply to, 100 payments to make \n\nszn meets you wherever you are - on phone, on email, on text - and picks up the work from wherever you left off",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-28",
+    "url": "https://x.com/thesznai/status/2093438548779401595",
+    "kind": "use-case",
+    "tags": [
+      "solo-operator",
+      "phone",
+      "email",
+      "text",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: solo operator \u2014 szn picks up across phone/email/text"
+  },
+  {
+    "id": "2fa0ded16b53",
+    "agent": "szn",
+    "quote": "when emails hit your inbox that seem cryptic and you don\u2019t have time to decrypt - fwd them to your own personal szn assistant",
+    "author": "@thesznai",
+    "author_name": "szn by nomadic futures",
+    "date": "2026-08-28",
+    "url": "https://x.com/thesznai/status/2093436296106742122",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "forward",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: fwd cryptic emails to personal szn"
+  },
+  {
+    "id": "77f766958b61",
+    "agent": "szn",
+    "quote": "It is - It's the personal ai that can get things done for you, and much more capable than instinct; we are in stealth, opening limited access soon.",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-09-05",
+    "url": "https://x.com/nikhilgupta91/status/2096367446190067840",
+    "kind": "comparison",
+    "tags": [
+      "instinct",
+      "stealth",
+      "positioning",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "likely founder: stealth personal AI; claims more capable than Instinct"
+  },
+  {
+    "id": "b1795a0962f3",
+    "agent": "szn",
+    "quote": "Just have \n@thesznai\n get it done for you. No gimmicks, your assistant, working for you. that's it.",
+    "author": "@nikhilgupta91",
+    "author_name": "Nikhil Gupta",
+    "date": "2026-08-30",
+    "url": "https://x.com/nikhilgupta91/status/2094195754416164894",
+    "kind": "praise",
+    "tags": [],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; founder pitch; thin but product-named"
+  }
+]

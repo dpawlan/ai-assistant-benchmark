@@ -1,0 +1,21 @@
+{
+  "slug": "halo",
+  "name": "Halo",
+  "site": "https://meethalo.app/",
+  "handles": [
+    "Halo",
+    "meethalo"
+  ],
+  "status": "confirmed",
+  "notes": "On-device iPhone/Mac PA (not messaging-first). On the board; many messaging categories may be N/A.",
+  "public_signal": "low",
+  "product_class": "on_device",
+  "likely_applicable": [
+    "online_task",
+    "memory",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "personality"
+  ]
+}

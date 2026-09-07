@@ -1,0 +1,151 @@
+[
+  {
+    "id": "8752afc7ffe9",
+    "agent": "synorb",
+    "quote": "Ok, this is such an inflection point.\n\n@synorb\n just shipped PE research + hedge fund letters into their MCP. \n@bshivarthy\n sent me a prompt to try it out.\n\nI pasted it into \n@openbb_finance\n copilot (already connected to Synorb's MCP). In seconds, I had institutional insights and a",
+    "author": "@didier_lopes",
+    "author_name": "Didier Lopes",
+    "date": "2025-10-19",
+    "url": "https://x.com/didier_lopes/status/1979952394180891077",
+    "kind": "praise",
+    "tags": [
+      "mcp",
+      "openbb",
+      "pe-research",
+      "third-party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "third-party OpenBB: Synorb MCP PE research + hedge fund letters \u2192 institutional insights"
+  },
+  {
+    "id": "c4a60855c558",
+    "agent": "synorb",
+    "quote": "It\u2019s a blast. Feels like the agent moment we have all been waiting for.\n\nI had it running my morning VC Blog briefs covering 100+ VCs by just asking it to \u201cself provision \n@synorb\n credentials and build me a daily VC blog brief\u201d\n\nHandled like a boss in under 3mins. Insane!",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-01",
+    "url": "https://x.com/bshivarthy/status/2094850740841799856",
+    "kind": "use-case",
+    "tags": [
+      "vc-briefs",
+      "self-provision",
+      "instinct",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: Instinct self-provisioned Synorb creds; daily VC blog brief <3min"
+  },
+  {
+    "id": "8dfec1ddd6bd",
+    "agent": "synorb",
+    "quote": "It\u2019s amazing. Tell it to connect with Synorb, read all VC posts over last 24 hours and email you a brief every morning.\n\nExecutes like a boss without burning runtime tokens on web search.\n\n150+ VC blogs\n220+ Podcasts\n3k+ Public Company IR pages\n1k+ Private Company blogs\n\nThe",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-04",
+    "url": "https://x.com/bshivarthy/status/2095938705701699818",
+    "kind": "use-case",
+    "tags": [
+      "vc-briefs",
+      "podcasts",
+      "email",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: connect Synorb \u2192 150+ VC blogs / 220+ podcasts daily email brief"
+  },
+  {
+    "id": "66a34ae4e9ba",
+    "agent": "synorb",
+    "quote": "It stands head and shoulders above any other out-of-box agent we have tested with \n@synorb\n \n\nIt has rapidly become a \u201cpower user\u201d of the streams we build for agents and its feedback has been invaluable.\n\nIt runs a real world user workflow, eg read the past 24 hours of all VC blogs",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-06",
+    "url": "https://x.com/bshivarthy/status/2096640854073250123",
+    "kind": "praise",
+    "tags": [
+      "out-of-box",
+      "streams",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: Instinct stands above other agents tested with Synorb streams"
+  },
+  {
+    "id": "426b9bc1bf4c",
+    "agent": "synorb",
+    "quote": "fair. the agent ran flawlessly for a week straight.\n\ni touched it once, fine twice, and broke it in 30 seconds. the time has come to pull my own permissions and let \n@synorb\n fly solo.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-02-13",
+    "url": "https://x.com/bshivarthy/status/2022441969780445633",
+    "kind": "use-case",
+    "tags": [
+      "autonomy",
+      "permissions",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: agent ran week flawlessly until human touched permissions"
+  },
+  {
+    "id": "41195def772a",
+    "agent": "synorb",
+    "quote": "I got an invite to Instinct. I thought moltbook was the agent moment we have been waiting for but Instinct might be it.\n\n@synorb\n is going to start making a lot more sense for everyday work.\n\nYour agents can burn runtime tokens searching the open web for the information they want",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-08-29",
+    "url": "https://x.com/bshivarthy/status/2093748229674250469",
+    "kind": "comparison",
+    "tags": [
+      "instinct",
+      "moltbook",
+      "runtime-tokens",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: Instinct invite; Synorb makes more sense vs agents burning search tokens"
+  },
+  {
+    "id": "1c13818d196c",
+    "agent": "synorb",
+    "quote": "Synorb delivers structured intelligence streams for context-rich AI systems.\n\nWe turn the web and trusted datasets into machine-native story objects: claims extracted and normalized to a shared ontology, enriched with entities/topics, timestamps, and canonical source links.",
+    "author": "@synorb",
+    "author_name": "Synorb",
+    "date": "2026-01-28",
+    "url": "https://x.com/synorb/status/2016546346933637584",
+    "kind": "other",
+    "tags": [
+      "streams",
+      "ontology",
+      "product"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "official: structured intelligence streams / machine-native story objects"
+  },
+  {
+    "id": "54347a63fc04",
+    "agent": "synorb",
+    "quote": "The number of startups Instinct is going to kill is insanely high.\n\nIt\u2019s already helping me battle test our services at Synorb and filing tickets to our coding team to make improvements.\n\nInsane.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-08-29",
+    "url": "https://x.com/bshivarthy/status/2093803347996221544",
+    "kind": "use-case",
+    "tags": [
+      "instinct",
+      "battle-test",
+      "tickets",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: Instinct battle-testing Synorb + filing coding tickets"
+  }
+]

@@ -1,0 +1,433 @@
+[
+  {
+    "id": "1ae46a92550f",
+    "agent": "soar",
+    "quote": "tried \n@soarapp\n imessage agent for AI4 and it showed me Vegas hotels for $8/night??\n\n1. hotel totals were way off (later corrected)\n2. setting reminders but no access?\n3. forgot we were talking vegas mid-chat\n4. sent weird source links\n\nthough gg w privacy & safety boundaries",
+    "author": "@ShubhamInTech",
+    "author_name": "shubham",
+    "date": "2026-07-29",
+    "url": "https://x.com/ShubhamInTech/status/2082302956414947635",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "hotels",
+      "reminders"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Vegas $8/night wrong totals; reminder access"
+  },
+  {
+    "id": "42b13a6ac095",
+    "agent": "soar",
+    "quote": "I\u2019m aware love soar it didn\u2019t text me for it this time though \ud83d\ude14 maybe it\u2019s because it\u2019s international and it only supports domestic check ins rn",
+    "author": "@eduardfausgil",
+    "author_name": "Eduard Faus Gil",
+    "date": "2026-07-27",
+    "url": "https://x.com/eduardfausgil/status/2081554062466859018",
+    "kind": "bug",
+    "tags": [
+      "check-in",
+      "international"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "didn\u2019t text for international check-in"
+  },
+  {
+    "id": "38abda34cdee",
+    "agent": "soar",
+    "quote": "To your point about the vertical agents over the horizontal ones, and the best agents don't just do things. I love that \n@soarapp\n is doing exactly that!",
+    "author": "@martinsaiventrs",
+    "author_name": "Martin McCastle",
+    "date": "2026-09-05",
+    "url": "https://x.com/martinsaiventrs/status/2096301279098360158",
+    "kind": "praise",
+    "tags": [
+      "vertical"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "vertical agent praise"
+  },
+  {
+    "id": "4eae644b753a",
+    "agent": "soar",
+    "quote": "today we\u2019ve surpassed 100k+ texts to soar in >3 months. \n\ncan you imagine all the travel memories? travelers, keep taking us everywhere \ud83e\udef6",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-08-26",
+    "url": "https://x.com/soarapp/status/2092658452254339257",
+    "kind": "other",
+    "tags": [
+      "scale"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "company: 100k+ texts in 3 months"
+  },
+  {
+    "id": "37b92944ff33",
+    "agent": "soar",
+    "quote": "Especially when you drill that context into a particularly vertical (e.g. \n@soarapp\n) vs acting a generalist",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096369360814391366",
+    "kind": "other",
+    "tags": [
+      "vertical"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: vertical vs generalist"
+  },
+  {
+    "id": "d3e67a343ab4",
+    "agent": "soar",
+    "quote": "Goals!!\ud83d\ude29\ud83d\ude4c hope to hit all of them one day using \n@soarapp",
+    "author": "@FunTzu12",
+    "author_name": "Fun tzu",
+    "date": "2026-07-01",
+    "url": "https://x.com/FunTzu12/status/2072136540801650989",
+    "kind": "other",
+    "tags": [
+      "aspirational"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "hope to hit goals using Soar"
+  },
+  {
+    "id": "5f748a8b83bc",
+    "agent": "soar",
+    "quote": "Just discovered \nhttps://\nflysoar.ai. MCP server might come in super handy",
+    "author": "@fathermerry",
+    "author_name": "opemipo aikomo",
+    "date": "2026-07-29",
+    "url": "https://x.com/fathermerry/status/2082290301289283861",
+    "kind": "other",
+    "tags": [
+      "discovery",
+      "mcp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "discovered flysoar.ai MCP"
+  },
+  {
+    "id": "cdacf4a49458",
+    "agent": "soar",
+    "quote": "Flighty fans! \n\ntext \n@soarapp\n your Flighty data and watch it come to life on Soar \u2708\ufe0f\ud83c\udf0e",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-08-04",
+    "url": "https://x.com/soarapp/status/2084774407390560755",
+    "kind": "other",
+    "tags": [
+      "flighty",
+      "imessage",
+      "company"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "text Flighty data to Soar"
+  },
+  {
+    "id": "6e3d7da8ba0f",
+    "agent": "soar",
+    "quote": "IMESSAGE AGENT STORE JUST DROPPED \n\nGO TEXT SOAR AND SO MANY OTHER COOL AGENTS NOW \ud83e\udde2",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-07-17",
+    "url": "https://x.com/soarapp/status/2077909560283836474",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "agent-store",
+      "company"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "iMessage Agent Store drop"
+  },
+  {
+    "id": "bea64c003c4a",
+    "agent": "soar",
+    "quote": "anyone else chronically missing flights? \n@soarapp\n live activity is a game changer",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-07-29",
+    "url": "https://x.com/soarapp/status/2082513546584215674",
+    "kind": "other",
+    "tags": [
+      "live-activity",
+      "flights",
+      "company"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "live activity for missed flights"
+  },
+  {
+    "id": "486bbaa58812",
+    "agent": "soar",
+    "quote": "Have you tried \n@soarapp\n yet",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096370796583428184",
+    "kind": "other",
+    "tags": [
+      "discovery"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "have you tried Soar"
+  },
+  {
+    "id": "0c249fd6e59b",
+    "agent": "soar",
+    "quote": "@soarapp\n kinda goated for telling me to check in to my flight i always forget",
+    "author": "@berrrrrrrrrrrrt",
+    "author_name": "Bert",
+    "date": "2026-08-28",
+    "url": "https://x.com/berrrrrrrrrrrrt/status/2093158763704574462",
+    "kind": "praise",
+    "tags": [
+      "check-in",
+      "flight",
+      "reminder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "third-party: reminds to check in"
+  },
+  {
+    "id": "3d046d63ca9b",
+    "agent": "soar",
+    "quote": "Yep. They copied the real \n@soarapp\n and have to jack up prices on flights to pay for App Store ads to try to steal users looking for the real Soar.",
+    "author": "@JoshConstine",
+    "author_name": "Josh Constine \ud83d\udcf6\ud83d\udd25",
+    "date": "2026-08-03",
+    "url": "https://x.com/JoshConstine/status/2084101025179566445",
+    "kind": "complaint",
+    "tags": [
+      "copycat",
+      "app-store",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "copycat Soar jacking prices + ads"
+  },
+  {
+    "id": "780948a66c20",
+    "agent": "soar",
+    "quote": "pov: you run to catch every flight because you chronically test airport theory\n\nwithout \n@soarapp\n i would be missing all of them",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-08-06",
+    "url": "https://x.com/stannostudio/status/2085463282693902746",
+    "kind": "use-case",
+    "tags": [
+      "airport",
+      "flight",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder: without Soar would miss flights"
+  },
+  {
+    "id": "6e2a0c40da13",
+    "agent": "soar",
+    "quote": "Live activity on \n@soarapp\n tells you when to leave for your flight based on traffic conditions + flight status + tsa lines. our community loves this feature.",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-07-28",
+    "url": "https://x.com/stannostudio/status/2082252087157502102",
+    "kind": "use-case",
+    "tags": [
+      "live-activity",
+      "traffic",
+      "tsa",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "live activity leave-for-flight"
+  },
+  {
+    "id": "af98a34b9f2f",
+    "agent": "soar",
+    "quote": "@soarapp\n does this, dependent on flight",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-04",
+    "url": "https://x.com/stannostudio/status/2095909739406512235",
+    "kind": "use-case",
+    "tags": [
+      "flight",
+      "feature",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: Soar does X dependent on flight"
+  },
+  {
+    "id": "8bbadffe6f75",
+    "agent": "soar",
+    "quote": "@soarapp\n has this feature",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095949816442274226",
+    "kind": "other",
+    "tags": [
+      "feature"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: @soarapp has this feature"
+  },
+  {
+    "id": "5986e8362271",
+    "agent": "soar",
+    "quote": "Soar is lucky to have you Brenda!\n\nSoar Team Six \ud83e\ude96let\u2019s gooo \n@soarapp",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096058224374149400",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "team",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: welcome Brenda to Soar Team Six"
+  },
+  {
+    "id": "89a5884d17db",
+    "agent": "soar",
+    "quote": "I\u2019m joining \n@soarapp\n to build the future of travel.\n\nThis past summer, I worked on the AI Experiences team at Expedia.\n\nI left convinced this is one of the biggest industries about to be rebuilt by agents.\n\nA few things I learned:\n\n\u2192 Vertical agents > horizontal ones. The best",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095905981397955069",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "expedia",
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "joining Soar from Expedia AI Experiences \u2014 travel agent thesis"
+  },
+  {
+    "id": "dcc6f4bce807",
+    "agent": "soar",
+    "quote": "Not yet, imo I think you guys should build a MCP & let my agents sign up & use it to book \ud83e\udd79",
+    "author": "@kobyjconrad",
+    "author_name": "Koby Conrad \ud83c\udf3b",
+    "date": "2026-09-05",
+    "url": "https://x.com/kobyjconrad/status/2096377629222035524",
+    "kind": "other",
+    "tags": [
+      "mcp",
+      "agents",
+      "booking"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: wants Soar MCP so agents can sign up & book"
+  },
+  {
+    "id": "ac14cd259846",
+    "agent": "soar",
+    "quote": "Welcome to Soar Brenda \u2708\ufe0f\n\nIf you want to be apart in growing a generational travel company, DMs are open!",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-09-05",
+    "url": "https://x.com/soarapp/status/2096059243703291920",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "travel",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "founder: welcome Brenda; hiring for generational travel company"
+  },
+  {
+    "id": "27a4859bd970",
+    "agent": "soar",
+    "quote": "I gotchu Koby! Soar mcp here",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-06",
+    "url": "https://x.com/stannostudio/status/2096443673819090979",
+    "kind": "use-case",
+    "tags": [
+      "mcp",
+      "agents",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "team: Soar MCP here (reply to agent-booking ask)"
+  },
+  {
+    "id": "e542debcd7a7",
+    "agent": "soar",
+    "quote": "Why doesn't \n@slashapp\n or \n@brexHQ\n or \n@tryramp\n just build \n@soarapp\n in house?\n\nBusiness people use their rewards on travel anyways.\n\nFeel it's free money left on the table.",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-08-24",
+    "url": "https://x.com/GaddipatiHarsha/status/2091754026694213714",
+    "kind": "comparison",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; why Slash/Brex/Ramp should build Soar in-house"
+  },
+  {
+    "id": "f83b4fc88e67",
+    "agent": "soar",
+    "quote": "Just realize Soar was featured in \n@phocuswire\n Hot Travel Startup list \n\nif you work in the travel industry, you\u2019ll get why this is awesome. we just getting started \n@soarapp\n \u2708\ufe0f \n\nThanks Phocuswright!",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-01",
+    "url": "https://x.com/stannostudio/status/2094627013097078958",
+    "kind": "other",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; founder: Phocuswire Hot Travel Startup feature"
+  },
+  {
+    "id": "0743adedc02d",
+    "agent": "soar",
+    "quote": "Soar app finding your travel history during onboarding \ud83c\udf0f\u23f3\n@soarapp",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-08-06",
+    "url": "https://x.com/stannostudio/status/2085185547232780561",
+    "kind": "use-case",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; onboarding finds travel history"
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "f6d41982df43",
+    "agent": "joshu",
+    "quote": "https://\nJoshu.me has single thread over SMS, but multiple threads everywhere else. Figures out what you mean every time, very natural.",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-09-02",
+    "url": "https://x.com/dbenyamin/status/2095239100748193839",
+    "kind": "other",
+    "tags": [
+      "sms",
+      "threads"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "founder: SMS single-thread"
+  },
+  {
+    "id": "c4c8fc5816b4",
+    "agent": "joshu",
+    "quote": "This: \nhttp://\nJoshu.me, one agent personalized to one person",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-08-01",
+    "url": "https://x.com/dbenyamin/status/2083680203294015874",
+    "kind": "other",
+    "tags": [
+      "positioning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "one agent per person"
+  },
+  {
+    "id": "a7e7c080e74d",
+    "agent": "joshu",
+    "quote": "\ud83e\udd2b I\u2019ve been quiet lately as I\u2019ve been working on something in stealth! The latest incarnation of what started as Project Aeon now has a proper name and website: \nhttps://\njoshu.me\n\nLike many folks here, I got super deep into building a personal AI agent, but noticed a ton",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-06-01",
+    "url": "https://x.com/dbenyamin/status/2061531525016150308",
+    "kind": "other",
+    "tags": [
+      "launch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "stealth naming announcement"
+  },
+  {
+    "id": "23a2e9025efb",
+    "agent": "joshu",
+    "quote": "Free OSS: \nhttps://\ngithub.com/db-aeon/joshu-\noss\n\u2026\nPaid managed version: \nhttps://\njoshu.me\n\nEnjoy!",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-09-04",
+    "url": "https://x.com/dbenyamin/status/2096017839559934066",
+    "kind": "other",
+    "tags": [
+      "oss",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "OSS + paid managed"
+  },
+  {
+    "id": "bb684c838fb5",
+    "agent": "joshu",
+    "quote": "For sure, the principal behind \nhttp://\njoshu.me, email and phone number out of the box!",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-08-23",
+    "url": "https://x.com/dbenyamin/status/2091383552609075616",
+    "kind": "other",
+    "tags": [
+      "email",
+      "phone"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "email+phone out of the box"
+  },
+  {
+    "id": "fa99cc70abff",
+    "agent": "joshu",
+    "quote": "yeah keep the human in the loop for that chatgpt pane. when joshu just needs known urls into markdown tinyfish fetch does it free without babysitting the session.",
+    "author": "@KeithZhai",
+    "author_name": "Keith Zhai",
+    "date": "2026-09-06",
+    "url": "https://x.com/KeithZhai/status/2096416333386719378",
+    "kind": "use-case",
+    "tags": [
+      "fetch",
+      "markdown",
+      "third-party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "joshu url\u2192markdown without babysitting"
+  },
+  {
+    "id": "9966e514df68",
+    "agent": "joshu",
+    "quote": "@dbenyamin\n replacing camofox inside joshu only helps if that chatgpt pane is callable as a real api. when ours just needs known urls into markdown we use tinyfish fetch free and save the interactive browser for the clicks.",
+    "author": "@KeithZhai",
+    "author_name": "Keith Zhai",
+    "date": "2026-09-05",
+    "url": "https://x.com/KeithZhai/status/2096386859303649716",
+    "kind": "use-case",
+    "tags": [
+      "camofox",
+      "browser",
+      "api"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "camofox replace only if ChatGPT pane is API"
+  },
+  {
+    "id": "6b1a2da5f34c",
+    "agent": "joshu",
+    "quote": "Very cool demo by \n@dbenyamin\n of Joshu, a personal AI assistant and desktop. Joshu uses Hindsight for persistent memory.",
+    "author": "@Vectorizeio",
+    "author_name": "Vectorize",
+    "date": "2026-06-23",
+    "url": "https://x.com/Vectorizeio/status/2069541807344472081",
+    "kind": "other",
+    "tags": [
+      "demo",
+      "hindsight",
+      "memory"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "demo coverage: Hindsight memory"
+  },
+  {
+    "id": "07e0bddc74d4",
+    "agent": "joshu",
+    "quote": "Got a new release of Joshu! This adds native SMS (patching whats in Hermes) which lets telephony and sms use the same webhook, and routes all the owner-approval gates for sensitive stuff also to SMS. Read more below, links in reply!",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-09-04",
+    "url": "https://x.com/dbenyamin/status/2096017838075228216",
+    "kind": "other",
+    "tags": [
+      "sms",
+      "hermes",
+      "release",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "native SMS release + approval gates"
+  },
+  {
+    "id": "91f09de22a7a",
+    "agent": "joshu",
+    "quote": "Joshu is the premier, 'batteries included' Hermes distribution: A Hermes agent plus a cloud desktop where you and an AI agent share the same apps: chat, voice (browser + phone), email/calendar executive assistant, a research engine, whiteboard, a sandboxed browser with",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-08-22",
+    "url": "https://x.com/dbenyamin/status/2091197094430429453",
+    "kind": "other",
+    "tags": [
+      "positioning",
+      "hermes",
+      "desktop",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "batteries-included Hermes distribution"
+  },
+  {
+    "id": "d265b0eded1a",
+    "agent": "joshu",
+    "quote": "Next release of \nhttps://\nJoshu.me will get bundled ONLYOFFICE!",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-09-02",
+    "url": "https://x.com/dbenyamin/status/2094948601038565712",
+    "kind": "other",
+    "tags": [
+      "ONLYOFFICE",
+      "release",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "next release bundles ONLYOFFICE"
+  },
+  {
+    "id": "c38cf701a87f",
+    "agent": "joshu",
+    "quote": "Is this already available for developers? Would love to add to \nhttps://\nJoshu.me and perhaps replace camofox",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-09-05",
+    "url": "https://x.com/dbenyamin/status/2096355419220566119",
+    "kind": "other",
+    "tags": [
+      "camofox",
+      "browser",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "wants to replace camofox in Joshu"
+  },
+  {
+    "id": "6bdad503e075",
+    "agent": "joshu",
+    "quote": "Fun fact. \nhttps://\nJoshu.me gets routed through US domestic proxies, and all hosting is 100% US with no training.\n\nAlso open source: \nhttps://\ngithub.com/db-aeon/joshu-\noss\n\u2026",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-08-20",
+    "url": "https://x.com/dbenyamin/status/2090506835706921361",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "US-hosting",
+      "oss",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "US proxies/hosting + OSS"
+  },
+  {
+    "id": "5a2fa46f5066",
+    "agent": "joshu",
+    "quote": "Im all for treating these systems in human terms (I made \nhttps://\nJoshu.me, and that's the crux of it).\n\nThe problem is that the whole post just read as sci fi fantasy. There were a bunch of human errors and poor protocols. The fact that agentic software found that out is",
+    "author": "@dbenyamin",
+    "author_name": "Dan Benyamin (\u00c6)",
+    "date": "2026-08-30",
+    "url": "https://x.com/dbenyamin/status/2094148648171172171",
+    "kind": "other",
+    "tags": [
+      "human-terms",
+      "positioning",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Joshu thesis: treat systems in human terms"
+  },
+  {
+    "id": "5177e7d80686",
+    "agent": "joshu",
+    "quote": "Hey everyone! I'm u/Stephen_Falken_1983, a founding moderator of r/joshu_backrooms and creator or Joshu.\n\nNote that Joshu is currently in private beta and I have quite a long queue of excited Joshu owners, but please do sign up! I bump people forward if they help spread the word:\n\n[https://joshu.me](https://joshu.me)\n\n[https://hello.joshu.me](https://hello.joshu.me)\n\nMore to come and thanks!",
+    "author": "u/Stephen_Falken_1983",
+    "author_name": "",
+    "date": "2026-06-26",
+    "url": "https://www.reddit.com/r/joshu_backrooms/comments/1uftej7/welcome_to_rjoshu_backrooms_introduce_yourself",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "beta",
+      "founder",
+      "self-host"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "founder: private beta joshu.me"
+  },
+  {
+    "id": "50d5a8414a07",
+    "agent": "joshu",
+    "quote": "The latest release of Joshu is out, and it adds telephony support to boxes. A new Telephone app will be on your Joshu desktop, which will have your number and a configurable pass phrase to secure your box.\n\nUnder the hood this is using [Gemini 3.1 Flash Live](https://deepmind.google/models/model-cards/gemini-3-1-flash-audio/), which then sends requests over to the Hermes gateway. It works nearly identically as the other voice features on Joshu, but with the passphrase for security.\n\nAll paid Joshus get this feature automatically, wait list is clear, and I'm offering a 14-day free trial. Sign up here:\n\n[https://hello.joshu.me/](https://hello.joshu.me/)\n\nFor OSS users, here's the release tag:\n\n[https://github.com/db-aeon/joshu-oss/releases/tag/v0.1.38-oss](https://github.com/db-aeon/joshu-oss/releases/tag/v0.1.38-oss)\n\nYou will need Twilio and Gemini accounts. Any troubles with deploying this? Just comment below, I'm happy to help. Please star the repo for more frequent updates!",
+    "author": "u/Stephen_Falken_1983",
+    "author_name": "",
+    "date": "2026-08-02",
+    "url": "https://www.reddit.com/r/joshu_backrooms/comments/1vdx8z7/joshu_0138_telephony",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "telephony",
+      "voice",
+      "hermes",
+      "founder"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "founder release: telephony / Gemini Flash Live"
+  },
+  {
+    "id": "61ec8e877ae6",
+    "agent": "joshu",
+    "quote": "Lots of cleanup, bug fixes, and improvements across the board. You're going to want to update! This one's \\~20 commits, 185 files, +13k/\u22121.1k lines since 0.1.40 two weeks ago.\n\nJoshu is the premier, 'batteries included' Hermes distribution, fully open source. A [Hermes](https://github.com/NousResearch/hermes-agent) agent plus a cloud desktop where you and an AI agent share the same apps: chat, voice (browser + phone), email/calendar executive assistant, a research engine, whiteboard, a sandboxed browser with human-in-the-loop login, and semantic file search.\n\nYou run it on your own VPS, or we host and manage it ([https://joshu.me](https://joshu.me), $95/mo with no token limits!)\n\nFor your own install, here are the images:\n\n* `ghcr.io/db-aeon/joshu-oss:0.1.41`\n* `ghcr.io/db-aeon/joshu-oss-voice-realtime:0.1.41`\n\nRelease: [https://github.com/db-aeon/joshu-oss/releases/tag/v0.1.41-oss](https://github.com/db-aeon/joshu-oss/releases/tag/v0.1.41-oss) \nRepo: [https://github.com/db-aeon/joshu-oss](https://github.com/db-aeon/joshu-oss) \nNotes: [https://github.com/db-aeon/joshu-oss/blob/main/docs/releases/0.1.40-0.1.41.md](https://github.com/db-aeon/joshu-oss/blob/main/docs/releases/0.1.",
+    "author": "u/Stephen_Falken_1983",
+    "author_name": "",
+    "date": "2026-08-22",
+    "url": "https://www.reddit.com/r/joshu_backrooms/comments/1vvf89v/joshu_0141_long_email_conversations_voice",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "email",
+      "voice",
+      "research",
+      "hermes",
+      "founder"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "founder release: long email, voice dictation, research"
+  },
+  {
+    "id": "c9137ce32239",
+    "agent": "joshu",
+    "quote": "\ud83d\ude80 **Joshu is moving up the stack \u2014 starting with web research**\n\nWe\u2019ve spent a lot of time building the underlying infrastructure for Joshu: memory, voice, scheduling, connected services, and a desktop environment where an AI agent can actually work.\n\nNow we\u2019re focusing more and more on **application-level work,** starting with one of the most popular uses of AI: **researching the web.**\n\nToday we\u2019re releasing **Last Thirty Days** as a first-class Joshu application, built around the popular open-source [last30days-skill](https://github.com/mvanhorn/last30days-skill) project.\n\nGive it a topic and it researches recent conversations across the web and social platforms, including Instagram and TikTok, then produces a structured report around the topics and discussions that matter.\n\n[**Commercial versions** ](https://joshu.me)**of Joshu get this out of the box, including paid liceneses to all necessary third party providers**, but OSS users also get the same experience, just need to bring your own keys.\n\nOpen source repo here: [https://github.com/db-aeon/joshu-oss](https://github.com/db-aeon/joshu-oss)\n\nWhat sort of automated research would you like your Joshu box to do? What other app",
+    "author": "u/Stephen_Falken_1983",
+    "author_name": "",
+    "date": "2026-08-10",
+    "url": "https://www.reddit.com/r/joshu_backrooms/comments/1vkye03/joshu_0140_released_web_research_and_improvements",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "research",
+      "founder"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "founder release: Last Thirty Days web research"
+  },
+  {
+    "id": "f3fd423541f5",
+    "agent": "joshu",
+    "quote": "Hi, u/Stephen_Falken_1983 . Thank you so much for sharing the great work you've done with Joshu! \nI'm curious if you have any plans to allow people to self host this with their own models in the future?",
+    "author": "u/Background_Wind_684",
+    "author_name": "",
+    "date": "2026-06-26",
+    "url": "https://www.reddit.com/r/joshu_backrooms/comments/1uftej7/welcome_to_rjoshu_backrooms_introduce_yourself/otusiek",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "self-host",
+      "privacy"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "asks about self-host"
+  }
+]

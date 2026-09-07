@@ -1,0 +1,11 @@
+{
+  "slug": "caddy",
+  "name": "Caddy",
+  "site": "https://caddy.app/",
+  "handles": [
+    "try_caddy",
+    "Caddy"
+  ],
+  "status": "confirmed",
+  "notes": ""
+}

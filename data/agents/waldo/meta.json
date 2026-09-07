@@ -1,0 +1,14 @@
+{
+  "slug": "waldo",
+  "name": "Waldo",
+  "site": "https://heywaldo.in/",
+  "handles": [
+    "heyywaldo",
+    "Waldo"
+  ],
+  "status": "stretch",
+  "product_class": "unconfirmed",
+  "notes": "Pre-alpha personal AI (@heyywaldo / heywaldo.in). Productivity+health positioning; not broadly shipped. Name collisions remain; skip waldo.fyi.",
+  "likely_applicable": [],
+  "public_signal": "low"
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "buoy",
+  "name": "Buoy",
+  "site": "https://buoy.chat/",
+  "handles": [
+    "Buoy"
+  ],
+  "status": "confirmed",
+  "notes": "Thin public X signal; keep in test roster.",
+  "public_signal": "low"
+}

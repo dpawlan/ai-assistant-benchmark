@@ -1,0 +1,17 @@
+{
+  "slug": "pneum",
+  "name": "Pneum.ai",
+  "site": "https://pneum.ai/",
+  "handles": [
+    "Pneum",
+    "pneumai"
+  ],
+  "status": "stretch",
+  "product_class": "voice_platform",
+  "notes": "Agentic voice platform/infra. On board as voice layer; expect N/A on most personal text-PA categories.",
+  "likely_applicable": [
+    "phone_calls",
+    "third_party_integrations"
+  ],
+  "public_signal": "low"
+}

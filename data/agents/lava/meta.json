@@ -1,0 +1,20 @@
+{
+  "slug": "lava",
+  "name": "Lava",
+  "site": "https://www.lava.so/",
+  "handles": [
+    "Lava",
+    "trylava",
+    "MitchJones_"
+  ],
+  "status": "stretch",
+  "product_class": "desktop_agent",
+  "notes": "Desktop agent across app UIs/APIs. On board for desktop automation; expect N/A on messaging-first categories.",
+  "likely_applicable": [
+    "online_task",
+    "chained_tasks",
+    "third_party_integrations",
+    "purchasing"
+  ],
+  "public_signal": "low"
+}

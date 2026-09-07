@@ -1,0 +1,622 @@
+[
+  {
+    "id": "a4961831018c",
+    "agent": "poke",
+    "quote": "Instinct = way smarter. Poke = way faster.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-29",
+    "url": "https://x.com/DavidPawlan/status/2093726017701457953",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "c81920eae690",
+    "agent": "poke",
+    "quote": "I messaged Instinct, it didn\u2019t respond, and Poke responded that my messages were held up. That was weird.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://x.com/DavidPawlan/status/2093399388387250329",
+    "kind": "bug",
+    "tags": [
+      "reliability",
+      "routing"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "f000f7237bd2",
+    "agent": "poke",
+    "quote": "Say hi to the new Poke! \ud83c\udf34\n\nNow officially approved by Apple to text on Apple Messages.\n\nAs the first and only AI agent. Chat now: \nhttp://\nPoke.com",
+    "author": "@interaction",
+    "author_name": "Poke",
+    "date": "2026-06-04",
+    "url": "https://x.com/interaction/status/2062575428213285352",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "launch",
+      "apple"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "company: Apple Messages approval"
+  },
+  {
+    "id": "8390dba288b9",
+    "agent": "poke",
+    "quote": "1. it's really good at helping me plan trips. i exclusively used poke as my ai assistant while travelling back to the us from japan (with a stop in hawaii), it helped me in every step from boarding times to itinerary planning",
+    "author": "@danmaruchi",
+    "author_name": "danny nguyen",
+    "date": "2025-10-02",
+    "url": "https://x.com/danmaruchi/status/1973881605153575270",
+    "kind": "use-case",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "trip planning Japan/Hawaii"
+  },
+  {
+    "id": "a4f64e435fb3",
+    "agent": "poke",
+    "quote": "Planned an entire Hamburg trip for the group \u2014 train from Berlin, sightseeing spots, restaurant for 6, things to do around our hotel \u2014 all the way through to MJ The Musical \ud83c\udfb6 My secret weapon? My AI assistant Poke from \n@interaction\n \ud83e\udd16\u2728\n\n#AI #TravelPlanning #MJTheMusical",
+    "author": "@cemvogt",
+    "author_name": "Cem",
+    "date": "2026-04-03",
+    "url": "https://x.com/cemvogt/status/2039956094907298218",
+    "kind": "use-case",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Hamburg group trip"
+  },
+  {
+    "id": "02d7142ca5b4",
+    "agent": "poke",
+    "quote": "AI is never taking over us, not like this\n\nVery good job \n@interaction\n poke has been working like shit lately \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "author": "@ThisIsDaMatt",
+    "author_name": "ThisIsDaMatt \uea00",
+    "date": "2026-08-27",
+    "url": "https://x.com/ThisIsDaMatt/status/2093096612515995893",
+    "kind": "complaint",
+    "tags": [
+      "reliability"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "working like shit lately"
+  },
+  {
+    "id": "8ed9983213bc",
+    "agent": "poke",
+    "quote": "Poke AI getting worse after being bought by cognition",
+    "author": "@essenaoeomeeks",
+    "author_name": "Michael Holder",
+    "date": "2026-09-06",
+    "url": "https://x.com/essenaoeomeeks/status/2096435611049640122",
+    "kind": "complaint",
+    "tags": [
+      "cognition",
+      "regression"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "worse after Cognition buy"
+  },
+  {
+    "id": "c0f3a54bfcd1",
+    "agent": "poke",
+    "quote": "@interaction\n Poke has been an amazing entry into my AI Agentic portfolio. \n\nMostly because I\u2019m not using it as suggested. \n\nI don\u2019t need an agent to read my emails\nOr reply to them. I don\u2019t need it to look at a calendar \n\nWhat I do need is an agent that can maintain long and",
+    "author": "@RubberDucky_AI",
+    "author_name": "AI SAT",
+    "date": "2025-10-07",
+    "url": "https://x.com/RubberDucky_AI/status/1975565857007779965",
+    "kind": "use-case",
+    "tags": [
+      "nonstandard"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "not using as suggested"
+  },
+  {
+    "id": "d2ef1a61d751",
+    "agent": "poke",
+    "quote": "I got my pebble index 01 ring connected to \n@interaction\n poke so now I can add stuff to my calendar by speaking into a ring. Amazing.",
+    "author": "@MikeWallsQC",
+    "author_name": "Mike Walls",
+    "date": "2026-08-21",
+    "url": "https://x.com/MikeWallsQC/status/2090599025258987861",
+    "kind": "use-case",
+    "tags": [
+      "wearable",
+      "calendar"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "pebble ring"
+  },
+  {
+    "id": "33816aa70d4d",
+    "agent": "poke",
+    "quote": "i\u2019m a power user of \n@interaction\n but keep thinking what real things can i get done: currently it\u2019s largely an email reader, a to do list, and a very funny bot (amazing product btw) \n\ngiving poke a phone no, email alias and a browser use ability would be a game changer",
+    "author": "@PPaloju",
+    "author_name": "prajwal",
+    "date": "2026-07-30",
+    "url": "https://x.com/PPaloju/status/2082906183288111126",
+    "kind": "complaint",
+    "tags": [
+      "depth"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "email reader / todo / funny bot"
+  },
+  {
+    "id": "741bb7f38ddb",
+    "agent": "poke",
+    "quote": "I love Poke from \n@interaction\n - it is the most \"fun\" AI I have ever used!",
+    "author": "@m_d_br",
+    "author_name": "Malan",
+    "date": "2026-07-06",
+    "url": "https://x.com/m_d_br/status/2074154992584241497",
+    "kind": "praise",
+    "tags": [
+      "personality"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "most fun AI"
+  },
+  {
+    "id": "a7ebec6ab11d",
+    "agent": "poke",
+    "quote": "I love Poke, it's amazing.\n\nBut I'm not paying 200 per month for it lol",
+    "author": "@TatataToddC",
+    "author_name": "Vincent Adultman",
+    "date": "2026-06-18",
+    "url": "https://x.com/TatataToddC/status/2067707402971992139",
+    "kind": "complaint",
+    "tags": [
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "not paying $200/mo"
+  },
+  {
+    "id": "d26f3dbf7ba5",
+    "agent": "poke",
+    "quote": "As much as I love poke I\u2019m having issues triggering two automations daily do I need the pro for that? All I want is ai news which already has a recipe and exchange rates for the day poke keeps forgetting",
+    "author": "@furkan_plus",
+    "author_name": "Furkan+",
+    "date": "2026-06-18",
+    "url": "https://x.com/furkan_plus/status/2067691366549774663",
+    "kind": "bug",
+    "tags": [
+      "automations",
+      "memory"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "forgets daily automations"
+  },
+  {
+    "id": "7bb8db836f64",
+    "agent": "poke",
+    "quote": "Same... spent a fair amount creating a \nhttp://\npoke.site and now it's broken w/ a database lock.. no response to emails to \n@poke\n since Thursday. In process of moving it all away. It also told me that Biden is visiting Norway today, then admitted it was 3 year old news",
+    "author": "@LordArche",
+    "author_name": "oGeneo",
+    "date": "2026-07-13",
+    "url": "https://x.com/LordArche/status/2076748100862148798",
+    "kind": "bug",
+    "tags": [
+      "reliability",
+      "support"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "poke.site broken, no support"
+  },
+  {
+    "id": "fdf5ae10f695",
+    "agent": "poke",
+    "quote": "It's not like slow but generally Poke is almost instant. While Orchid takes like 3-5 seconds. Is there a reason for that?",
+    "author": "@Gentraxyz",
+    "author_name": "Gentra",
+    "date": "2026-06-24",
+    "url": "https://x.com/Gentraxyz/status/2069863904268697860",
+    "kind": "comparison",
+    "tags": [
+      "latency",
+      "vs-orchid"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Poke instant vs Orchid 3-5s"
+  },
+  {
+    "id": "e9745140c50d",
+    "agent": "poke",
+    "quote": "iMessage based agent products will always fail. it is extremely obvious why.\n\nThis goes for instinct, poke, etc.\n\nIt has nothing to do with product quality. they are great products!",
+    "author": "@1_missthesun",
+    "author_name": "i miss the sun",
+    "date": "2026-09-01",
+    "url": "https://x.com/1_missthesun/status/2094594883797602796",
+    "kind": "complaint",
+    "tags": [
+      "imessage",
+      "form-factor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "iMessage agents will fail"
+  },
+  {
+    "id": "8df0388dc524",
+    "agent": "poke",
+    "quote": "Personal AI has a new contender, Instinct feels like Poke++ but exposes a lot of ChatGPT-esque writing and wording.\n\nGiven what Codex/ChatGPT can already do with my Mac and remote control - the only differentiator remains the system instruction (which don't seem to add a lot of",
+    "author": "@sdrth",
+    "author_name": "Siddharth Jaiswal",
+    "date": "2026-08-21",
+    "url": "https://x.com/sdrth/status/2090724858330268058",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Instinct feels like Poke++"
+  },
+  {
+    "id": "15108419a68a",
+    "agent": "poke",
+    "quote": "this \n@interaction\n. I\u2019ve been missing the message backgrounds, reactions\u2026 the things that made poke feel\u2026 different \n\nlove the new human update, but the free customizable fun things are missing",
+    "author": "@brockandru",
+    "author_name": "Brock",
+    "date": "2026-06-26",
+    "url": "https://x.com/brockandru/status/2070488270979396013",
+    "kind": "complaint",
+    "tags": [
+      "ux",
+      "personality"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "missing message backgrounds/fun"
+  },
+  {
+    "id": "251ef4310e1d",
+    "agent": "poke",
+    "quote": "Bro just gets my random intrusive thoughts at 2 AM \ud83d\ude2d\nI love you Poke by \n@interaction",
+    "author": "@Coobyk_",
+    "author_name": "Coobyk",
+    "date": "2026-08-24",
+    "url": "https://x.com/Coobyk_/status/2091685571210940435",
+    "kind": "praise",
+    "tags": [
+      "personality"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "11fa7ba38418",
+    "agent": "poke",
+    "quote": "A lot of people would be fine using ai for work if it was more like \n@interaction\n\u2019s poke.\n\nSlop is killing your drive to work .\n\nCommunication be effective .\n\nI dont need a wall of text what i need is a easy to Talk to main orchestrator whom summarizes and ensures that i know",
+    "author": "@Aikun011",
+    "author_name": "Megamind",
+    "date": "2026-09-06",
+    "url": "https://x.com/Aikun011/status/2096546873855430960",
+    "kind": "praise",
+    "tags": [
+      "work",
+      "orchestrator",
+      "communication"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "want AI more like Poke; anti-slop"
+  },
+  {
+    "id": "2c66b4917595",
+    "agent": "poke",
+    "quote": "How do you catch the next \n$MEME\n on #RobinhoodChain before CT posts 1000x pnl screenshots?\n\nI built a \n@interaction\n Poke recipe that texts you SMS alerts for breakout runners and whale buys on \n@RobinhoodApp\n\nNo chart watching\nJust a text when real momentum ignites\n\n\ud83d\udc49",
+    "author": "@DNAdotGM",
+    "author_name": "\ud83e\uddec.gm",
+    "date": "2026-09-05",
+    "url": "https://x.com/DNAdotGM/status/2096102350259888156",
+    "kind": "use-case",
+    "tags": [
+      "recipes",
+      "sms",
+      "crypto"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "Poke recipe SMS alerts for meme coins"
+  },
+  {
+    "id": "33f29b155156",
+    "agent": "poke",
+    "quote": "install this recipe, and try to send a voice note while you check items in your kitchen to \n@interaction\n and watch it organize your messy audio note into a structured cart in real-time. thank me later :)",
+    "author": "@HarshitKhemani",
+    "author_name": "Harshit Khemani",
+    "date": "2026-09-04",
+    "url": "https://x.com/HarshitKhemani/status/2095876310174433708",
+    "kind": "use-case",
+    "tags": [
+      "recipes",
+      "voice",
+      "shopping"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "voice note \u2192 structured grocery cart"
+  },
+  {
+    "id": "68e37317cd92",
+    "agent": "poke",
+    "quote": "The advantage of funding nowadays is distribution + offering generous free tiers for years. Then exit/sell; study the playbook \n@marvinvonhagen\n played with poke \n@interaction\n.",
+    "author": "@serglotz",
+    "author_name": "Serg",
+    "date": "2026-09-04",
+    "url": "https://x.com/serglotz/status/2095806225040527616",
+    "kind": "other",
+    "tags": [
+      "funding",
+      "distribution",
+      "free-tier"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "Poke free-tier distribution playbook"
+  },
+  {
+    "id": "3606dd792084",
+    "agent": "poke",
+    "quote": "Instinct is just poke / \n@interaction\n with an older icp and a horrible privacy policy",
+    "author": "@vdhCapital",
+    "author_name": "vdh Capital",
+    "date": "2026-09-04",
+    "url": "https://x.com/vdhCapital/status/2095934258971890138",
+    "kind": "comparison",
+    "tags": [
+      "instinct",
+      "privacy",
+      "icp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Instinct = Poke + older ICP + horrible privacy policy"
+  },
+  {
+    "id": "7bd285efda78",
+    "agent": "poke",
+    "quote": "way better Poke got dumb",
+    "author": "@denizdoingstuff",
+    "author_name": "deniz",
+    "date": "2026-09-03",
+    "url": "https://x.com/denizdoingstuff/status/2095474742417330487",
+    "kind": "complaint",
+    "tags": [
+      "quality",
+      "dumb"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Poke got dumb"
+  },
+  {
+    "id": "cf1b633ec410",
+    "agent": "poke",
+    "quote": "Also try out \nhttps://\npoke.com, just to see a competitor\u2019s product.",
+    "author": "@_hemantg",
+    "author_name": "Hemant G.",
+    "date": "2026-09-03",
+    "url": "https://x.com/_hemantg/status/2095396655235465647",
+    "kind": "other",
+    "tags": [
+      "competitor",
+      "try"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: try poke.com as competitor product"
+  },
+  {
+    "id": "2de2892742de",
+    "agent": "poke",
+    "quote": "I\u2019ve tried Poke AI after seeing it on the news as the first third-party AI agent officially approved for Apple's Messages.\n\nI like the concept of having a proactive AI assistant inside your iMessage, but I\u2019d like an alternative that lives inside a separate app, I'm trying to see if there are any alternatives. Do you guys know any Poke alternatives that offer similar text-to-action functionality and also have a good memory, like a companion, thanks\n\n**Edit:** I'm using Daimon for a bit now and this is probably the closest thing to what I was looking for. It feels much more like a personal companion than an assistant, it remembers little things from previous conversations, I use it to dump thoughts, talk through decisions and keep track of stuff I want to come back to later. The conversations also feel way less transactional than most AI assistants I've tried.\n\nFor my use case at least, Daimon has probably been the best Poke alternative so far.",
+    "author": "u/michaeltabuac8",
+    "author_name": "",
+    "date": "2026-07-18",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "imessage",
+      "alternatives",
+      "apple-messages"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party seeking Poke alternatives after Apple Messages approval news"
+  },
+  {
+    "id": "5115153aa6ed",
+    "agent": "poke",
+    "quote": "Poke is a new AI agent startup that lets users access a personal assistant through familiar messaging platforms like iMessage, SMS, Telegram, and WhatsApp, without needing to install any software.\n\n**Key Details:**\n\n* **Founded**\u00a0by Marvin von Hagen and Felix Schlegel under\u00a0*The Interaction Company of California*, based in Palo Alto; the product launched publicly in March 2026.\n* **Functionality**\u00a0includes daily planning, calendar management, health tracking, smart home control, photo editing, email alerts, medication reminders, and news updates \u2014 all via text message.\n* **No app required**\u00a0\u2014 users simply visit [Poke.com](http://Poke.com), enter their phone number, and start chatting.\n* **Pre-built \"recipes\"**\u00a0allow users to automate tasks using integrations with Gmail, Google Calendar, Strava, Oura, GitHub, Notion, and many more services.\n* **Funding**\u00a0totals $25 million ($15M seed + $10M additional), with a post-money valuation of\u00a0**$300 million**; backed by Spark Capital, General Catalyst, and notable angels including the Collison brothers (Stripe) and Logan Paul.\n* **Pricing**\u00a0is flexible \u2014 free for basic use, with costs scaling based on real-time inference needs (estimated $10",
+    "author": "u/Money-Ranger-6520",
+    "author_name": "",
+    "date": "2026-04-09",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "imessage",
+      "sms",
+      "telegram",
+      "whatsapp",
+      "launch"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "product writeup: Poke via messaging platforms"
+  },
+  {
+    "id": "4bf64ca14e8d",
+    "agent": "poke",
+    "quote": "From the article:\n\nLaunched in March,\u00a0Poke is one of the first AI agents designed to be accessible to everyday users who don\u2019t have the technical skill set or inclination to work with command-line tools or more complex agentic systems, like OpenClaw. Today, Poke can help with common activities, like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message. To date, it\u2019s relayed some 100 million messages, the company tells TechCrunch.\n\nThe AI service operates over SMS, Telegram, and, in some markets, WhatsApp. Now, Poke will be able to add iMessage to its supported platforms.\n\nThe news of Poke\u2019s launch on Apple\u2019s Messages for Business comes just days ahead of Apple\u2019s anticipated\u00a0Worldwide Developers Conference on Monday,\u00a0where it\u2019s expected to introduce an AI-optimized version of Siri along with other AI tools and services for app developers. It has also been\u00a0rumored\u00a0that Apple would open its App Store to AI agents.\n\n[Read more on TechCrunch.](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)",
+    "author": "u/techcrunch",
+    "author_name": "",
+    "date": "2026-06-04",
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1twy4ch/apple_approves_poke_as_the_first_ai_agent_on_its",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "apple-messages",
+      "imessage",
+      "openclaw"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "TechCrunch/AI sub: Apple approves Poke on Messages for Business"
+  },
+  {
+    "id": "3d5943740a79",
+    "agent": "poke",
+    "quote": "Right now I\u2019m using saner ai instead of poke ai, because it has the proactive day brief, live inside another apps and has a workspace ui for me to work. Think you gonna like it, I also got recommend this from Reddit, I\u2019m another sub lol",
+    "author": "u/xoammOl4561",
+    "author_name": "",
+    "date": "2026-07-23",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oz7gjih",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "alternatives",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment: using saner ai instead of poke"
+  },
+  {
+    "id": "8d6dee91fa34",
+    "agent": "poke",
+    "quote": "wow \"just wrappers around GPT\" what is this 2023",
+    "author": "u/olliollie",
+    "author_name": "",
+    "date": "2026-07-21",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oyy6tde",
+    "kind": "other",
+    "tags": [
+      "reddit"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment reacting to wrapper critique"
+  },
+  {
+    "id": "f84bb024e707",
+    "agent": "poke",
+    "quote": "You gotta get in on this! Poke AI changed my life within 15 minutes of starting to use it. I found out about it through Vaibhave Sisinty , founder of Outskill, where I did my AI training. I was an early adopter of LLMs and AI and favor Claude for keeping me on task, quickly brainstorming (or longer stuff). I do not use AI to manage my emails or sales funnels, etc. As a strategic copywriter and executive ghostwriter, my correspondence is direct and doesn't have a broad enough scope that I need assistance in that way. \n \nWhat I really needed was something like Claude that would track my time and engage actively on daily activities rather than passively follow up like Claude. Claude doesn't get in touch with me at 1:45 to see if I did the thing I said I would, even though it says things lik",
+    "author": "u/Rattle333",
+    "author_name": "",
+    "date": "2026-04-13",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/ofxu88p",
+    "kind": "praise",
+    "tags": [
+      "reddit"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: changed life within 15 minutes"
+  },
+  {
+    "id": "72702a90b82f",
+    "agent": "poke",
+    "quote": "Is there a reason I can't sent prompts? The button to send a request to the AI is grayed out.",
+    "author": "u/Contempt_Awe",
+    "author_name": "",
+    "date": "2026-07-19",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/oyfaap5",
+    "kind": "bug",
+    "tags": [
+      "reddit",
+      "ui"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "send button grayed out"
+  },
+  {
+    "id": "91867648d899",
+    "agent": "poke",
+    "quote": "The assistants:\n\nfolk [getfolk.app](https://www.getfolk.app/), imo the best one, memory-first, lives in iMessage, Telegram and Discord \nPoke [poke.com](http://poke.com), first agent approved on Apple's Messages for Business \nOllie [ollie.ai](http://ollie.ai), the family one, carries the schedule/school load \nLucas [meetlucas.ai](http://meetlucas.ai), texts you first, habits and accountability \nOrchid [orchid.ai](http://orchid.ai), exec assistant, drafts replies and books meetings, wants sign-off before sending \nTomo [tomo.ai](http://tomo.ai), goal tracking, coach that checks in on you \nZo [zo.computer](http://zo.computer), you text an actual cloud computer, comes with its own Linux server \nLindy [lindy.ai](http://lindy.ai), the work/EA one, also runs over SMS \nSauna [sauna.ai](http://sauna.ai), team memory, also lives in Slack and email\n\nThe infra layer:\n\nLinq [linqapp.com](http:",
+    "author": "u/OkInitiative4270",
+    "author_name": "",
+    "date": "2026-06-10",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "imessage",
+      "market-map",
+      "a16z"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "a16z iMessage assistants market map lists Poke"
+  },
+  {
+    "id": "883d6d27f598",
+    "agent": "poke",
+    "quote": "# 2. Poke\n\n**Website:** poke.com **Best for:** integrations and proactive nudges\n\n**Pros:**\n\n* Strong integrations with Gmail, Calendar, Notion, and other tools\n* Can text you first, which is important for an actual assistant\n* More polished and visible than most products in the category\n* Good for reminders, scheduling, and connected workflows\n\n**Cons:**\n\n* Memory does not feel as central as Folk\n* More focused on integrations and proactive messages than becoming your long-term personal context layer\n* Pricing and access can be a bit harder to understand\n\n**My take:** Probably the best option if you care more about integrations than memory.",
+    "author": "u/Alone-Coyote3916",
+    "author_name": "",
+    "date": "2026-06-24",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1ue5epn/ive_tested_all_personal_ai_assistants_so_you_dont#poke-review",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "integrations",
+      "proactive",
+      "review"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party review: Poke integrations"
+  },
+  {
+    "id": "d798e0055353",
+    "agent": "poke",
+    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
+    "author": "@prathitjoshi_",
+    "author_name": "Prathit",
+    "date": "2026-09-07",
+    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
+    "kind": "complaint",
+    "tags": [
+      "activation",
+      "use-case-gap",
+      "comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Same post; Poke named in task-gap complaint"
+  }
+]

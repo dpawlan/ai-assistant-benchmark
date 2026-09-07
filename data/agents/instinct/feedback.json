@@ -1,0 +1,1510 @@
+[
+  {
+    "id": "310601343781",
+    "agent": "instinct",
+    "quote": "best use cases/insights from the Instinct group chat so far: 1/ check in for flights + move your seat; 2/ amazon (flowers, repeat orders) although some people said it didn't work for them; 3/ purchase clothing drops. it works, just budget time bc was slow; 4/ most people aren't using Link to purchase, just vaulted credit card.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://x.com/DavidPawlan/status/2094885239797760048",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "amazon",
+      "drops",
+      "checkout"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "d6ffb530940a",
+    "agent": "instinct",
+    "quote": "This was INSANE - AI just negotiated my flight price for me. I asked Instinct to track my flight prices post purchase so it could hit up the airline for a flight credit for the difference in price. It tracked the price but couldn't submit the request, so I hit up @agentcashdev to use StablePhone to call United for me and do it. ... An agent that can do this proactively, end to end, will win the AI agent race.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-02",
+    "url": "https://x.com/DavidPawlan/status/2095188395572048324",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "flight-credit",
+      "proactive",
+      "gap"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "bc6eacf47e11",
+    "agent": "instinct",
+    "quote": "the main use case i'm seeing over and over for Instinct is travel.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-02",
+    "url": "https://x.com/DavidPawlan/status/2095166060810948809",
+    "kind": "praise",
+    "tags": [
+      "travel"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "95ebe8639a59",
+    "agent": "instinct",
+    "quote": "I love getting a text from my AI agent that it checked into my flight for me without me prompting it. Proactive agents are the future.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-04",
+    "url": "https://x.com/DavidPawlan/status/2095890361126203757",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "proactive",
+      "check-in"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "413cc67b9dbc",
+    "agent": "instinct",
+    "quote": "This has to be the coolest Instinct use case I\u2019ve seen so far.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-04",
+    "url": "https://x.com/DavidPawlan/status/2095850248019042320",
+    "kind": "use-case",
+    "tags": [
+      "media-retrieval",
+      "us-open"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": "QT of US Open Jumbotron footage retrieval in ~18 hours"
+  },
+  {
+    "id": "a4961831018c",
+    "agent": "instinct",
+    "quote": "Instinct = way smarter. Poke = way faster.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-29",
+    "url": "https://x.com/DavidPawlan/status/2093726017701457953",
+    "kind": "comparison",
+    "tags": [
+      "vs-poke"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "c81920eae690",
+    "agent": "instinct",
+    "quote": "I messaged Instinct, it didn\u2019t respond, and Poke responded that my messages were held up. That was weird.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://x.com/DavidPawlan/status/2093399388387250329",
+    "kind": "bug",
+    "tags": [
+      "reliability"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "0e10d85a0375",
+    "agent": "instinct",
+    "quote": "Ok this will sound like a hyperbole post but it\u2019s not \n\nI have been using Instinct, the new AI assistant and it just found me ~$700/yr in subscriptions I forgot I was paying for. \n\nReal things it did:\n\n\u2022 Audited my Gmail and mapped every recurring subscription: ~$290/mo I wasn\u2019t",
+    "author": "@thisiskp_",
+    "author_name": "KP",
+    "date": "2026-08-31",
+    "url": "https://x.com/thisiskp_/status/2094402725672886471",
+    "kind": "use-case",
+    "tags": [
+      "subscriptions",
+      "savings"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "6fc75b8d5546",
+    "agent": "instinct",
+    "quote": "i used instinct pretty aggressively on day one. it felt magical. and then it turned scary.\n\ngiving it access to my email was already scary. then it started establishing sessions across apps and websites i use, on its own.\n\nwatching an ai get that much access to act as me made me",
+    "author": "@kanishkrazdan",
+    "author_name": "Kanishk",
+    "date": "2026-09-05",
+    "url": "https://x.com/kanishkrazdan/status/2096212857025355940",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "email",
+      "trust"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "magical then scary"
+  },
+  {
+    "id": "d20e8c1ef95c",
+    "agent": "instinct",
+    "quote": "what a thrill! \n\ni disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM \ud83d\ude35\n\nhere's what happened, and what i've learned \ud83d\udc47",
+    "author": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "date": "2026-08-21",
+    "url": "https://x.com/clairevo/status/2090929592853037078",
+    "kind": "bug",
+    "tags": [
+      "privacy",
+      "gmail",
+      "retention"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "disconnect still summarized emails"
+  },
+  {
+    "id": "e7e5acb0f255",
+    "agent": "instinct",
+    "quote": "can I delete these records? NOPE!\n\ndespite revoking email access, instinct keeps copies of these emails in my record for arbitrary searching. \n\nFUN!",
+    "author": "@clairevo",
+    "author_name": "claire vo \ud83d\udda4",
+    "date": "2026-08-21",
+    "url": "https://x.com/clairevo/status/2090929603552718928",
+    "kind": "bug",
+    "tags": [
+      "privacy",
+      "gmail",
+      "deletion"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "cannot delete retained email copies"
+  },
+  {
+    "id": "69377096d1b4",
+    "agent": "instinct",
+    "quote": "Hey Instinct, it's not cool to index and retain my emails without my permission and not let me delete them from your records? \n\nI can't recommend this to anyone until this is figured out. Thanks \n@clairevo\n for spotting this.",
+    "author": "@petergyang",
+    "author_name": "Peter Yang",
+    "date": "2026-08-21",
+    "url": "https://x.com/petergyang/status/2090936583814025417",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "retention"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "6ec7e5b07826",
+    "agent": "instinct",
+    "quote": "Instinct is very well done.\n\nI'm particularly impressed by how smooth the onboarding experience is to connect iMessages, Google Workspace, and my MCPs. The best builder prioritize onboarding and new user needs :)\n\nInstinct also feels more proactive than some of the other",
+    "author": "@petergyang",
+    "author_name": "Peter Yang",
+    "date": "2026-08-21",
+    "url": "https://x.com/petergyang/status/2090814910720835633",
+    "kind": "praise",
+    "tags": [
+      "onboarding",
+      "imessage"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "7071f1065aef",
+    "agent": "instinct",
+    "quote": "Looks like you can now delete external data (like my 36 Gmail records) if you go to \nhttps://\napp.instinct.co/workspace and scroll down to Data Privacy.\n\nKudos to the Instinct team for listening and shipping this quickly. \n\nI will always say it like it is, especially when it comes to privacy",
+    "author": "@petergyang",
+    "author_name": "Peter Yang",
+    "date": "2026-08-22",
+    "url": "https://x.com/petergyang/status/2091187611507499321",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "fix"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "delete external data added"
+  },
+  {
+    "id": "c1431eec38d4",
+    "agent": "instinct",
+    "quote": "Instinct is an amazing product. I've been using it for mostly personal needs and a little bit of work. \n\nLast night, it was a little naughty and sent an innocuous email on my behalf without checking with me first. I told it that it had broken my trust and disconnected my email.",
+    "author": "@KatieS",
+    "author_name": "Katie Jacobs Stanton",
+    "date": "2026-08-22",
+    "url": "https://x.com/KatieS/status/2091152514603422074",
+    "kind": "complaint",
+    "tags": [
+      "autonomy",
+      "email",
+      "trust"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "sent email without asking"
+  },
+  {
+    "id": "00f2dfaad307",
+    "agent": "instinct",
+    "quote": "I've been using Instinct every day for the last week now. It\u2019s been awesome for travel booking, rebookings, restaurant reservations, email follow-ups, CRM management, even working on our data room for LPs. I've tried Hermes, OpenClaw, Tasklet, GrokBot but Instinct takes the cake",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-08-22",
+    "url": "https://x.com/srcasm/status/2091211911920542200",
+    "kind": "praise",
+    "tags": [
+      "travel",
+      "comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "vs Hermes/OpenClaw/Tasklet/GrokBot"
+  },
+  {
+    "id": "2f2879bb1147",
+    "agent": "instinct",
+    "quote": "I texted my agent \"help me find flights to Cancun for the three of us for a wedding.\u201d \n\nInstinct searched every NYC airport, found $1,073 of JetBlue credit I forgot existed, checked my already-booked hotel and told me to keep it, booked three seats together, caught JetBlue",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-08-16",
+    "url": "https://x.com/srcasm/status/2088967631256637509",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "flights"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Cancun flights + JetBlue credit"
+  },
+  {
+    "id": "2a02cd597ce5",
+    "agent": "instinct",
+    "quote": "I\u2019ve tried most of the agent apps. Instinct is the first one i actually hand real tasks to. It booked my family's flights end to end,orders my stuff, watches my kids' school email. It\u2019s been less an assistant you chat with, and more one you delegate to. The hype, for me, is that",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-08-31",
+    "url": "https://x.com/srcasm/status/2094214974843322575",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "shopping",
+      "family"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "4b2f17bc2d7d",
+    "agent": "instinct",
+    "quote": "Two weeks into Instinct and I hit the same wall. The multiplayer gap shows up for both my family and work stuff. \n@thecatmiddleton\n and I still text each other the things our agents should just be handling between them. My CoS and I found a sort of work around by connecting",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-08-31",
+    "url": "https://x.com/srcasm/status/2094505294646612025",
+    "kind": "complaint",
+    "tags": [
+      "multiplayer",
+      "gap"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "55f76023bd19",
+    "agent": "instinct",
+    "quote": "For additional context, I don\u2019t think we\u2019re at the point where it\u2019s safe to give AI read/write access to your inbox.\n\nI wanted to see how easily Instinct could be phished, so I created a brand new Gmail account and emailed my real personal account with instructions for Instinct",
+    "author": "@anothercohen",
+    "author_name": "Alex Cohen",
+    "date": "2026-08-22",
+    "url": "https://x.com/anothercohen/status/2091251836917350512",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "phishing",
+      "email"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "prompt injection via email"
+  },
+  {
+    "id": "48a498e9b560",
+    "agent": "instinct",
+    "quote": "Just nuked my Instinct account. \n\nTried it out for 48 hours and it does feel like the future of personal AI assistants (had it shop for new homeowners insurance, book a doctor's appointment online, search for travel, manage my LinkedIn notifications).\n\nI'm just... not yet",
+    "author": "@anothercohen",
+    "author_name": "Alex Cohen",
+    "date": "2026-08-22",
+    "url": "https://x.com/anothercohen/status/2091221243538424096",
+    "kind": "comparison",
+    "tags": [
+      "trust",
+      "nuked-account"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "felt like future then deleted"
+  },
+  {
+    "id": "c953ac8cbb12",
+    "agent": "instinct",
+    "quote": "Using Instinct to hunt for apartments and it's an 8/10. Does AI hallucination, confuses context. But did find legit places and apply. \n\nFinding a place is such a task and if Instinct helps me land it, AGI is here.",
+    "author": "@followthemani",
+    "author_name": "Sriram Mani",
+    "date": "2026-09-04",
+    "url": "https://x.com/followthemani/status/2095959474599280663",
+    "kind": "use-case",
+    "tags": [
+      "housing",
+      "hallucination"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "apartments 8/10"
+  },
+  {
+    "id": "a3b1ac6f64d1",
+    "agent": "instinct",
+    "quote": "Been using Instinct over WhatsApp/iMessage for the last few days and I\u2019m genuinely blown away by how good it is.\n\nI regularly use pretty much every frontier model - ChatGPT, Claude, Gemini, etc. - but Instinct\u2019s ability to actually navigate the web and get things done has been",
+    "author": "@AnirudhKejriwal",
+    "author_name": "Anirudh Kejriwal",
+    "date": "2026-09-04",
+    "url": "https://x.com/AnirudhKejriwal/status/2095833108272894289",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "whatsapp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "f7c6c15e7500",
+    "agent": "instinct",
+    "quote": "Been using Instinct for a few weeks now; overall, a pretty \"autonomous\" experience, and it can get jobs done w/ out much direction, minus it hitting a bot wall making a food order via Toast UX. Here is my top request list:\n1. Shared agent for couples\n2. Read-only email access",
+    "author": "@laconte",
+    "author_name": "laconte",
+    "date": "2026-09-03",
+    "url": "https://x.com/laconte/status/2095545181495812484",
+    "kind": "use-case",
+    "tags": [
+      "autonomy",
+      "bot-wall"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "f1b13b5d3e7c",
+    "agent": "instinct",
+    "quote": "Starting using Instinct last night. Magical experience booking a flight for my son and making dinner reservations. As a consumer offering, I think it\u2019s the best AI product since ChatGPT launched in 2022. Congrats \n@noahrshinn\n!",
+    "author": "@Mkjung",
+    "author_name": "Mike Jung",
+    "date": "2026-08-29",
+    "url": "https://x.com/Mkjung/status/2093750065324343574",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "64bdf76cfc3b",
+    "agent": "instinct",
+    "quote": "I started using Instinct! over the last 24 hours, and it\u2019s honestly the greatest AI I\u2019ve ever used.\n\nIt\u2019s incredibly user-friendly, intuitive, and genuinely helpful. Huge thank you to \n@miamishor\n for putting me onto it.\n\nEven crazier: the company was founded just a year ago by",
+    "author": "@FarroYossi",
+    "author_name": "Yossi Farro",
+    "date": "2026-09-04",
+    "url": "https://x.com/FarroYossi/status/2095919320215756992",
+    "kind": "praise",
+    "tags": [],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "4ffb09af64b2",
+    "agent": "instinct",
+    "quote": "This mistake aside, instinct is awesome for these admin tasks including monitoring my travel calendar, cross-referencing my Suns and ASU football season tickets and listing them for sale when I am out of town. One of a few dozen small cognitive tasks I can just hand over to the",
+    "author": "@FundamentEdge",
+    "author_name": "Brett Caughran",
+    "date": "2026-09-05",
+    "url": "https://x.com/FundamentEdge/status/2096299044754878932",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "calendar"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "32d9a7519f1b",
+    "agent": "instinct",
+    "quote": "Howdy \n@noahrshinn\n, is Instinct struggling or down now? My iMessage interactions are working. But slow but my Workspace threw this error.",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-09-02",
+    "url": "https://x.com/srcasm/status/2095298971329573363",
+    "kind": "bug",
+    "tags": [
+      "reliability",
+      "workspace"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "down/slow workspace"
+  },
+  {
+    "id": "a320321d3588",
+    "agent": "instinct",
+    "quote": "24 hours with \n@instinct_inc\n, my new AI assistant: security audit, workout logged from a screen recording, kombucha brew planned, hotel booked, son's football stats tracked, newsletters digested, CV polished, Patagonia fares watched. I'm hooked!",
+    "author": "@L84J25",
+    "author_name": "Lucas",
+    "date": "2026-09-06",
+    "url": "https://x.com/L84J25/status/2096584633412407598",
+    "kind": "use-case",
+    "tags": [
+      "onboarding",
+      "travel",
+      "family",
+      "productivity"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "24h diary: hotel, CV, stats, kombucha"
+  },
+  {
+    "id": "74954656bf9d",
+    "agent": "instinct",
+    "quote": "@instinct_inc\n just got me a free first class upgrade on my flight \ud83d\ude1d",
+    "author": "@its_jmomo",
+    "author_name": "Johnathan Mo",
+    "date": "2026-09-04",
+    "url": "https://x.com/its_jmomo/status/2096011743382405489",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "upgrade"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "free first-class upgrade"
+  },
+  {
+    "id": "3606dd792084",
+    "agent": "instinct",
+    "quote": "Instinct is just poke / \n@interaction\n with an older icp and a horrible privacy policy",
+    "author": "@vdhCapital",
+    "author_name": "vdh Capital",
+    "date": "2026-09-04",
+    "url": "https://x.com/vdhCapital/status/2095934258971890138",
+    "kind": "comparison",
+    "tags": [
+      "vs-poke",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "Instinct = Poke + older ICP + bad privacy"
+  },
+  {
+    "id": "0dca0abbf9cd",
+    "agent": "instinct",
+    "quote": "I've been loving Instinct. There's something so simple and delightful about texting your AI on iMessage.",
+    "author": "@LubaYudasina",
+    "author_name": "luba yudasina",
+    "date": "2026-09-06",
+    "url": "https://x.com/LubaYudasina/status/2096572657823080885",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "delight"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "texting AI on iMessage delightful"
+  },
+  {
+    "id": "cb216a481578",
+    "agent": "instinct",
+    "quote": "I've been using Instinct as my assistant. It tracks my deadlines, handles my email, and gets things done. Early access, invite link:",
+    "author": "@v_eashwar",
+    "author_name": "Eashwar Venkatasubramaniam",
+    "date": "2026-09-06",
+    "url": "https://x.com/v_eashwar/status/2096570793392234901",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "deadlines",
+      "invite"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "deadlines + email; early access invite"
+  },
+  {
+    "id": "30481e7481ee",
+    "agent": "instinct",
+    "quote": "Just got access to Instinct AI. Still figuring out what all it can do. If you're already using it, what are you using it for?",
+    "author": "@DealBeeOfficial",
+    "author_name": "DealBee Deals",
+    "date": "2026-09-06",
+    "url": "https://x.com/DealBeeOfficial/status/2096562122771804555",
+    "kind": "other",
+    "tags": [
+      "onboarding"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "just got access; asking use cases"
+  },
+  {
+    "id": "682da1f1dc24",
+    "agent": "instinct",
+    "quote": "shouldnt disconnect mean delete? \n\nfriendly neighbourhood AI agent Instinct, casually in the terms of service:",
+    "author": "@SharmaAndPuns",
+    "author_name": "Abhay Sharma",
+    "date": "2026-09-06",
+    "url": "https://x.com/SharmaAndPuns/status/2096595523645903236",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "tos",
+      "delete"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "ToS: disconnect != delete"
+  },
+  {
+    "id": "094107f18711",
+    "agent": "instinct",
+    "quote": "How is it possible that Instinct and \n@noahrshinn\n created the best AI agent on/in WhatsApp and not something internally. Where is Hatch? I cannot believe I'm talking to Instinct and not Meta AI. Legacy security and privacy issues holding back \n$META\n again?",
+    "author": "@JerryCap",
+    "author_name": "Jerry Capital",
+    "date": "2026-09-06",
+    "url": "https://x.com/JerryCap/status/2096549328756019419",
+    "kind": "praise",
+    "tags": [
+      "whatsapp",
+      "vs-meta"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "best AI agent on WhatsApp vs Meta"
+  },
+  {
+    "id": "b536caaceb94",
+    "agent": "instinct",
+    "quote": "My wife hates using ChatGPT and others. Would love her to see the power of ai with instinct",
+    "author": "@FeatherMattza",
+    "author_name": "Matt Feather",
+    "date": "2026-09-06",
+    "url": "https://x.com/FeatherMattza/status/2096578814948053185",
+    "kind": "other",
+    "tags": [
+      "family",
+      "chatgpt"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "wants wife to try Instinct vs ChatGPT"
+  },
+  {
+    "id": "a7ab4b114f48",
+    "agent": "instinct",
+    "quote": "Meta has 3B users and a closed garden. Instinct built in the open wild where everyone is actually talking to each other. Legacy isn't dead; it's just finally useful.",
+    "author": "@TheAIShrink",
+    "author_name": "The AI Therapist",
+    "date": "2026-09-06",
+    "url": "https://x.com/TheAIShrink/status/2096592068416049469",
+    "kind": "comparison",
+    "tags": [
+      "meta",
+      "open",
+      "positioning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Meta closed garden vs Instinct built in open"
+  },
+  {
+    "id": "3823d43aa36b",
+    "agent": "instinct",
+    "quote": "I am trying order from zepto from both WhatsApp and IMessage but instinct says it can\u2019t access so that\u2019s why it could not placed order or can\u2019t add to cart the food items does it same for you ?",
+    "author": "@HardikHindocha9",
+    "author_name": "Hardik Hindocha",
+    "date": "2026-09-06",
+    "url": "https://x.com/HardikHindocha9/status/2096611385186955535",
+    "kind": "bug",
+    "tags": [
+      "zepto",
+      "ordering",
+      "imessage",
+      "whatsapp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: Instinct cannot access Zepto cart via WA/iMessage"
+  },
+  {
+    "id": "bdca4295e2fc",
+    "agent": "instinct",
+    "quote": "Would love to get \n@meetzeroai\n in your hands! We're soft launching it next week. \n\nIt can do everything Instinct does + we've spent a lot of time on the UX for browser reliability, proactiveness (getting the agent to know what and when to suggest relevant things to the user)",
+    "author": "@AvgNomad",
+    "author_name": "Matt Brown",
+    "date": "2026-09-06",
+    "url": "https://x.com/AvgNomad/status/2096584865588326468",
+    "kind": "comparison",
+    "tags": [
+      "zeroai",
+      "browser",
+      "proactive"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "competitor Soft-launch ZeroAI claims parity + better browser/proactivity UX"
+  },
+  {
+    "id": "702a6da66ecc",
+    "agent": "instinct",
+    "quote": "I\u2019ve been giving Instinct (and \n@TownAI\n) a run and they are both excellent. \n\nBut I also sense a turning point in that both products are heavily messaging driven. There\u2019s no app, no website, it\u2019s just an assistant that lives in your iMessage and WhatsApp. \n\nOn the one hand, this",
+    "author": "@sriram_v2",
+    "author_name": "Sriram Vaidhya",
+    "date": "2026-09-04",
+    "url": "https://x.com/sriram_v2/status/2095686334027604254",
+    "kind": "comparison",
+    "tags": [
+      "town",
+      "messaging",
+      "imessage",
+      "whatsapp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: Instinct + TownAI both excellent messaging-driven assistants"
+  },
+  {
+    "id": "eebc88fdfc18",
+    "agent": "instinct",
+    "quote": "Have you been using Instinct? Has almost completely replaced Claude for me for my day-to-day personal AI use.",
+    "author": "@agreenberg",
+    "author_name": "AriGreenberg.eth",
+    "date": "2026-09-06",
+    "url": "https://x.com/agreenberg/status/2096613762589405606",
+    "kind": "praise",
+    "tags": [
+      "claude",
+      "daily-driver",
+      "personal"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Instinct almost completely replaced Claude for day-to-day personal AI"
+  },
+  {
+    "id": "3e5865c44189",
+    "agent": "instinct",
+    "quote": "my share shift of AI agent usage from Claude to Instinct has been wild because Instinct is free. SUCH A GREAT BUSINESS WHERE DO I INVEST?",
+    "author": "@RocketTsank123",
+    "author_name": "TBU",
+    "date": "2026-09-06",
+    "url": "https://x.com/RocketTsank123/status/2096620957662372141",
+    "kind": "use-case",
+    "tags": [
+      "claude",
+      "free",
+      "share-shift"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: share shift Claude\u2192Instinct because free"
+  },
+  {
+    "id": "dfbd8ba68c74",
+    "agent": "instinct",
+    "quote": "@AsideAI\n is basically the perfect agent harness. If they brought channels to imessages as well then it would be game over for everybody else. It is a one click openclaw and instinct killer if you have your own computer u can leave running at home, and once they set up cloud",
+    "author": "@shraced",
+    "author_name": "Shraced",
+    "date": "2026-09-06",
+    "url": "https://x.com/shraced/status/2096614353633976642",
+    "kind": "comparison",
+    "tags": [
+      "asideai",
+      "openclaw",
+      "imessage",
+      "harness"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: AsideAI framed as one-click OpenClaw + Instinct killer if iMessage channels"
+  },
+  {
+    "id": "3216cd2a534e",
+    "agent": "instinct",
+    "quote": "No shade on Instinct but do I seriously need to turn my brain off to this degree that I don\u2019t want to think about anything ever and have all the info the AI THINKS I want or need served to me constantly? Much less paying for it on its own through my passwords and accounts?",
+    "author": "@jasondiamond",
+    "author_name": "Jason Diamond",
+    "date": "2026-09-06",
+    "url": "https://x.com/jasondiamond/status/2096628707406258433",
+    "kind": "complaint",
+    "tags": [
+      "proactive",
+      "privacy",
+      "over-automation",
+      "accounts"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: no shade but resists always-on proactive Instinct feeding info via passwords/accounts"
+  },
+  {
+    "id": "abe4180e348e",
+    "agent": "instinct",
+    "quote": "Will do! (Re: agents, I use pretty much all of them -- except haven't tried Instinct yet -- plus some custom harnesses and rotating models, experimenting with a variety of things.)\n\nAnother nit: I haven't fully triangulated, but it seems like ~12-24 hours after the transaction",
+    "author": "@PatBerarducci",
+    "author_name": "Patrick Berarducci",
+    "date": "2026-09-06",
+    "url": "https://x.com/PatBerarducci/status/2096629506765467904",
+    "kind": "other",
+    "tags": [
+      "not-yet",
+      "agent-roster"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: uses almost all agents except has not tried Instinct yet"
+  },
+  {
+    "id": "9bfa23aa384a",
+    "agent": "instinct",
+    "quote": "I was told by everybody to \"integrate AI into my daily life\" but it didn't make sense where until now.\n\nSay you want an assistant that reads your calendar, watches your inbox, and gets things done while you're asleep. The normal path: rent a server and pay hundreds to keep it alive. Collect API keys for every service you own. Figure out what OAuth is. Write cron jobs so it wakes up on a schedule. Find somewhere to keep your logins that isn't a text file on your desktop. Then build something to actually talk to it.\n\nThousands of dollars, a month of evenings, and most people quit around their first Google search. \n\nInstinct skips it.\n\nYou sign up on a web page and it hands you a number. You text the number. That's setup \u2014 two minutes, inside the app already on your phone. Nothing to inspect. It's iMessage, so it sits in the same list as my mom and group chats.\n\nInstant access to a chatbot who goes to work for you.\n\nIt runs on its own clock. Hand it something Tuesday and tell it to come back again on Friday. Slow work happens in the background so you don't have to set down your phone and watch them work then you get told when it's done.\n\nI'm not technical. Six months ago the vers",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-20",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vt4jw7/using_instinct_six_months_ago_ai_agents_cost",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "imessage",
+      "calendar",
+      "inbox",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: daily life assistant framing vs self-hosting"
+  },
+  {
+    "id": "ea3ea26caf1c",
+    "agent": "instinct",
+    "quote": "So the truth is, I\u2019ve only used it for one day, but for work purposes, it\u2019s been amazing. I have it responding to basic emails and set up summary reminders every hour. I had it write an email in Constant Contact, and it was perfect. I even ordered Uber Eats with it. It\u2019s honestly pretty incredible. \nNow I just have to figure out all the things I want it to do. I feel like I need to train myself to start asking it to do things for me instead of automatically doing everything myself lol.",
+    "author": "u/Puppy_powers",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w42pbi/in_love_so_far",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "email",
+      "uber-eats",
+      "work",
+      "onboarding"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party day-one: emails, Constant Contact, Uber Eats"
+  },
+  {
+    "id": "f7c5d1190a5c",
+    "agent": "instinct",
+    "quote": "still cannot fathom that I booked a flight without opening a single app. feels liberating.",
+    "author": "u/TheBucksPage",
+    "author_name": "",
+    "date": "2026-08-19",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vt2cjw/just_booked_my_first_flight_with_instinct",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "flights",
+      "booking",
+      "imessage"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: booked flight without opening an app"
+  },
+  {
+    "id": "1036f5a038e9",
+    "agent": "instinct",
+    "quote": "I am new to Instinct this week. Have you guys been experiencing no responses? It will read my texts but just ghost me. Sometimes it will respond \"Here - my end went down for a bit.\"\n\n \nSorry if this has been posted already.",
+    "author": "u/Sudden-Click-8409",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w5ueyk/slow_to_respond_no_response",
+    "kind": "bug",
+    "tags": [
+      "reddit",
+      "latency",
+      "whatsapp",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: ghosting / \"my end went down\" during growth"
+  },
+  {
+    "id": "6653374ad310",
+    "agent": "instinct",
+    "quote": "Two days ago Instinct hit a 12-hour stretch where responses ran 3-5x slower due to new users flooding in faster than capacity. \n\nNoah posted about it directly today. They resolved the remaining bottlenecks over the last 24 hours, and that more capacity is online now.",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-09-02",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w4xqyp/instinct_unlocks_more_compute_capacity_due_to",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "capacity",
+      "latency",
+      "growth"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "community: capacity unlock after slowdowns"
+  },
+  {
+    "id": "2730c7903231",
+    "agent": "instinct",
+    "quote": "We have a ton of new faces here, I want to get a pulse on what people are trying; both success and failures",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-29",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w1s2q2/what_are_your_favorite_use_cases_for_instinct",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "job-hunting"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "thread asking favorite use cases"
+  },
+  {
+    "id": "7e81c512850e",
+    "agent": "instinct",
+    "quote": "\u201cI\u2019m Noah, the founder of Instinct.\n\nInstinct is a personal agent that we\u2019ve been building for the past few months. The interface is simple: there are no new interfaces. You can text or call it. It's trained to use a phone and a computer in the same way that humans do. Instinct combines simplicity with extreme capability.\n\nI\u2019m thrilled with everything our early users are doing with Instinct. They\u2019ve told us they\u2019ve planned cross-country road trips, bought weekly groceries and concert tickets, and cancelled hundreds of dollars of subscriptions. Someone\u2019s even planning their wedding with Instinct.\n\nWe want to make Instinct the best personal agent for all of you. It\u2019s available in an invite-only beta program while we\u2019re actively bringing up more compute. I\u2019m excited to see what you all do with it.\u201d",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vzgdol/instincts_founder_noah_shinn_launches_first_post",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "founder",
+      "positioning"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "founder Noah Shinn first X post quoted in sub"
+  },
+  {
+    "id": "79058872e7c0",
+    "agent": "instinct",
+    "quote": "Looking for other users\u2019 experiences with payments, flights, roadtrips, hotels, amazon orders etc.",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w3y8xa/what_have_you_used_instinct_to_scheduleorder",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "travel",
+      "orders",
+      "payments"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "thread: schedule/order experiences"
+  },
+  {
+    "id": "a19c28f22726",
+    "agent": "instinct",
+    "quote": "My car has been overdue for an oil change for weeks. I was too lazy to look up shops nearby, compare prices, check who has openings, book it, etc.\n\nSo I texted Instinct: \"my car's overdue for an oil change. find a place near me with openings this week\u201d\n\nBack came two options with times and prices, plus which one lets you skip the line by booking ahead. I replied \"grab the wednesday one.\" Done. It's on my calendar for Wednesday at 10, it blocked 9:45 so I show up early, and I get a nudge the night before",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-25",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vxmdla/i_asked_about_an_oil_change_and_it_ended_up_on_my",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "calendar",
+      "booking",
+      "oil-change",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: oil change booked + calendar block + nudge"
+  },
+  {
+    "id": "64a2429b2ff8",
+    "agent": "instinct",
+    "quote": "I tried to get my agent to make a car park booking but because I couldn't use onelink (not available in the UK), I tried using my credit card details stored in the vault but that failed because it got stuck on a captcha",
+    "author": "u/Dark_Emotion",
+    "author_name": "",
+    "date": "2026-08-31",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w3h3bq/do_you_need_onelink_connected_to_use_your_credit",
+    "kind": "bug",
+    "tags": [
+      "reddit",
+      "payments",
+      "onelink",
+      "captcha",
+      "uk"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party UK: vault card stuck on captcha without OneLink"
+  },
+  {
+    "id": "fc1f8efc4b33",
+    "agent": "instinct",
+    "quote": "Kate Clark at the WSJ broke the story on Instinct's funding yesterday: $350 million raised, including a new round valuing the startup at $2.5 billion. \n\nThe piece is called \"The Latest Viral AI Assistant Rocketing Across Silicon\u201d",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vzxjq9/wsj_just_covered_instinct_350m_raised_at_a_25b",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "funding",
+      "wsj"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "WSJ coverage / valuation note"
+  },
+  {
+    "id": "ce833cfe6780",
+    "agent": "instinct",
+    "quote": "Two jobs plus client calls means my calendar reshuffles itself weekly. Last Thursday a client booked a call right on top of a two-hour block at my other job. I\u2019d have noticed the morning of, apologized, and burned an hour rebuilding the day.\n\nInstinct watches the calendar. It texted me the night before: these overlap, want me to move the client call? I said yes. It found the only clean opening, sent the updated invite, and the client had accepted before I woke up. As far as the client knows, I saw it instantly",
+    "author": "u/goldmansockz",
+    "author_name": "",
+    "date": "2026-08-22",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vvkq23/it_caught_a_double_booking_before_my_client_did",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "calendar",
+      "proactive",
+      "multiplayer"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: caught double booking, rescheduled client"
+  },
+  {
+    "id": "a265b6cbfb81",
+    "agent": "instinct",
+    "quote": "Every morning, my Instinct grabs the new emails from my Gmail inbox, which includes newsletters, coworkers, clients, etc. and provides me quick summary and priority list for which I should read first. \n\nI worked with my agent to even draft quick summary\u2019s with a link directly to the draft in the Gmail app and I can make a quick edit before sending it off.\n\nGave me my morning back",
+    "author": "u/Various_Instance_167",
+    "author_name": "",
+    "date": "2026-08-20",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vtw9qd/automated_email_report",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "email",
+      "morning-brief",
+      "drafts"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: morning Gmail summary + draft replies"
+  },
+  {
+    "id": "f7a9fdcd8e1c",
+    "agent": "instinct",
+    "quote": "I am so pumped to continue using instinct! Here\u2019s what i\u2019ve tried so far \n\n\\- finding better flights and making changes to my flights from SF to NYC \n\\- ordering lunch from doordash \n\\- applying for jobs \n\\- finalizing my Napa trip with the girls next weekend \n\\- staying on top of my inbox \n\\- drafting interview prep documents and pushing it to my drive \n\\- saving me money by cancelling unwanted subscriptions \n\nwhile using instinct i wish i had \n \\- instinct had access to a voice skill so it would draft emails in my voice. should i push an md file to my drive? \n\n\\- instinct could be more proactive. yes it does look through my inbox and calendar etc but a human chief of staff would have action items to move the needle for a leader, which is what i\u2019m expecting from instinct as well.",
+    "author": "u/HotFaithlessness9396",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w132fs/i_love_instinct",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "flights",
+      "doordash",
+      "jobs",
+      "travel",
+      "inbox",
+      "subscriptions"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party power list of use cases + wish list"
+  },
+  {
+    "id": "a7c3bef005d6",
+    "agent": "instinct",
+    "quote": "My flight home got delayed 6 hours. I\u2019ve heard from family you can file for compensation but I\u2019ve never tried it\n\nI texted Instinct to do the research for me and it found the rule that US airlines don't owe cash for delays, but Delta gives credits or miles for long ones if you file. I sent the flight number, it put the claim together, filed it, and handed me a reference. Then, it tracks the claim and chases the airline until it\u2019s resolved\n\nJust another problem Instinct has solved for me",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-26",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vyj9ir/filing_a_flightdelay_claim_in_two_texts",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "flights",
+      "claims",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: flight-delay claim filed + tracked"
+  },
+  {
+    "id": "0772a7df249b",
+    "agent": "instinct",
+    "quote": "Has anybody attempted, even preferred, to communicate with Instinct over voice messages? Not transcription, talking into your iPhone instead of typing, I mean the voice recording straight to Instinct. \n\nHow have your results been?",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-09-04",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w6rxwi/communicating_via_voice_recording",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "voice",
+      "imessage",
+      "latency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "thread: voice notes to Instinct"
+  },
+  {
+    "id": "24e9ae670d6b",
+    "agent": "instinct",
+    "quote": "Invite link for app.instinct.co?\n\nAnybody have one that works?",
+    "author": "u/--mowgli--",
+    "author_name": "",
+    "date": "2026-08-24",
+    "url": "https://www.reddit.com/r/Referrallinks/comments/1vxf10v/invite_link_for_appinstinctco",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "invite",
+      "access"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "invite request for app.instinct.co"
+  },
+  {
+    "id": "efde8add6fb3",
+    "agent": "instinct",
+    "quote": "Invite link for app.instinct.co?\n\nAnybody have one that works?",
+    "author": "u/--mowgli--",
+    "author_name": "",
+    "date": "2026-08-25",
+    "url": "https://www.reddit.com/r/sideload/comments/1vxqmyx/invite_link_for_appinstinctco",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "invite",
+      "access"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "invite request for app.instinct.co"
+  },
+  {
+    "id": "c8d582ff5f7d",
+    "agent": "instinct",
+    "quote": "Due to large demand, we are creating a dedicated thread for invite requests! \n\nLeave a comment below and a mod will help you out as soon as possible!",
+    "author": "u/maxobes",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vzvvvj/thread_instinct_invites",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "invite",
+      "access"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "invite megathread"
+  },
+  {
+    "id": "05dea404980e",
+    "agent": "instinct",
+    "quote": "Loving it so far for job hunting. It is finding roles at companies I have never heard of that haven't popped up on LinkedIn, Indeed, etc. Maybe I just suck at searching but its amazing for this! I just wish it could submit. Of the 9 its worked on, it couldn't submit any of them because of captchas.",
+    "author": "u/IndependentWMSguy",
+    "author_name": "",
+    "date": "2026-08-30",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w1s2q2/what_are_your_favorite_use_cases_for_instinct/p6pwlbu",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "job-hunting"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w1s2q2"
+  },
+  {
+    "id": "55e06d728b0f",
+    "agent": "instinct",
+    "quote": "Rental car and related travel passes across Europe, books excursion tickets as well.",
+    "author": "u/lostpilot",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w3y8xa/what_have_you_used_instinct_to_scheduleorder/p77cul4",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "travel",
+      "rental-car",
+      "europe"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w3y8xa"
+  },
+  {
+    "id": "77e0e42d498f",
+    "agent": "instinct",
+    "quote": "ordered a kitchen thing for me on an indian site (cod since my cards keep declining lol) and it's tracking the delivery till it reaches me. also books my movie tickets and holds the booking ids and seat numbers so i just show up. nothing on amazon or flights yet but for orders the hands-off part is real",
+    "author": "u/hritul19",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w3y8xa/what_have_you_used_instinct_to_scheduleorder/p73ohdo",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "shopping",
+      "tickets",
+      "tracking"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w3y8xa"
+  },
+  {
+    "id": "ab3682b91a6d",
+    "agent": "instinct",
+    "quote": "I use it often. Limit your voice note length to reduce latency. Try not to break it into multiple voice notes because it will start acting on the first note before you finish recording the next one",
+    "author": "u/Keelowatt",
+    "author_name": "",
+    "date": "2026-09-05",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w6rxwi/communicating_via_voice_recording/p7w2vw3",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "voice",
+      "latency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w6rxwi"
+  },
+  {
+    "id": "31153ed322d4",
+    "agent": "instinct",
+    "quote": "Yes, it was lagging some yesterday. I noticed tonight it was much quicker. I had it help me with my fantasy football draft live \ud83d\ude02.",
+    "author": "u/Puppy_powers",
+    "author_name": "",
+    "date": "2026-09-02",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w4xqyp/instinct_unlocks_more_compute_capacity_due_to/p7bw33q",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "fantasy-football"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w4xqyp"
+  },
+  {
+    "id": "570835785ed9",
+    "agent": "instinct",
+    "quote": "I switched to WhatsApp and it worked. I think this is a bug besides capacity issue tbh.",
+    "author": "u/MealVan",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w132fs/i_love_instinct/p6hywrv",
+    "kind": "bug",
+    "tags": [
+      "reddit",
+      "whatsapp",
+      "workaround"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w132fs"
+  },
+  {
+    "id": "b708b7532926",
+    "agent": "instinct",
+    "quote": "Hello, I really, really want to get an invitation code to try it out.\n\nI have used OpenClaw and Hermes before, but I feel they are not proactive enough and don't interact with me like a real human would. Moreover, they always crash my computer when they operate it, and they have poor memory. I want to experience your product, please give me an invitation code, thank you.",
+    "author": "u/Aggravating-Meat-415",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1vzvvvj/thread_instinct_invites/p6cfgn1",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "openclaw",
+      "hermes",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vzvvvj"
+  },
+  {
+    "id": "66f032f68be4",
+    "agent": "instinct",
+    "quote": "Fantastic. We road tripped and it found that we needed certain passes for certain countries and bought them without me going to the site. Planned all our itineraries for each day. Messaged our hotel for us. Kept us updated on flight details. Told us where to eat at the airport.",
+    "author": "u/lostpilot",
+    "author_name": "",
+    "date": "2026-09-02",
+    "url": "https://www.reddit.com/r/InstinctHQ/comments/1w3y8xa/what_have_you_used_instinct_to_scheduleorder/p7axg4j",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "travel",
+      "road-trip"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "vacation planning follow-up"
+  },
+  {
+    "id": "d798e0055353",
+    "agent": "instinct",
+    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
+    "author": "@prathitjoshi_",
+    "author_name": "Prathit",
+    "date": "2026-09-07",
+    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
+    "kind": "complaint",
+    "tags": [
+      "activation",
+      "use-case-gap",
+      "comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Compares Instinct/Poke/OpenClaw; lacks tasks worth automating"
+  },
+  {
+    "id": "672cb65b56d1",
+    "agent": "instinct",
+    "quote": "i think you should lead it more.. my partner has an instinct agent too, i want you to work from the same family brain on notion. \n\nor\n\nmy partner has an instinct agent too, i want you to email each other, can you establish a protocol i will share with him?",
+    "author": "@danpeguine",
+    "author_name": "Dan Peguine",
+    "date": "2026-09-07",
+    "url": "https://x.com/danpeguine/status/2096885534924710273",
+    "kind": "use-case",
+    "tags": [
+      "multiplayer",
+      "family",
+      "email",
+      "notion"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Wants partner Instinct agents to share family brain / email protocol"
+  },
+  {
+    "id": "699034eec57d",
+    "agent": "instinct",
+    "quote": "You gotta try \nhttps://\nInstinct.co\n\nIt\u2019s so so good and free right now for a bit",
+    "author": "@thisiskp_",
+    "author_name": "KP",
+    "date": "2026-09-06",
+    "url": "https://x.com/thisiskp_/status/2096409549162827958",
+    "kind": "praise",
+    "tags": [
+      "access",
+      "free"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "023b4e3da1f1",
+    "agent": "instinct",
+    "quote": "The amount of money being thrown in \u2018basic bitches of AI bubble\u2019 a.k.a zero moat businesses is absurd. \n\nhttps://\nInstinct.co is a prime example of this. Any vibecoder can actually replicate their entire product in less than 3 hours\u2013 No joke. \n\nIt\u2019s most likely just a docker",
+    "author": "@a_to_the_bb",
+    "author_name": "A_To_B",
+    "date": "2026-09-05",
+    "url": "https://x.com/a_to_the_bb/status/2096150579219144812",
+    "kind": "complaint",
+    "tags": [
+      "moat",
+      "commodity"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Zero-moat / vibecoder-replicate critique"
+  },
+  {
+    "id": "fdb8ecb2de55",
+    "agent": "instinct",
+    "quote": "Having access to \nhttps://\ninstinct.co got me a reservation to Dorsia",
+    "author": "@willkyi",
+    "author_name": "will kyi",
+    "date": "2026-09-05",
+    "url": "https://x.com/willkyi/status/2096111816070025577",
+    "kind": "use-case",
+    "tags": [
+      "dining",
+      "reservation",
+      "Dorsia"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "8fedae9aa2ea",
+    "agent": "instinct",
+    "quote": "AI haters after using instinct and grok bot",
+    "author": "@ShaanVP",
+    "author_name": "Shaan Puri",
+    "date": "2026-09-05",
+    "url": "https://x.com/ShaanVP/status/2096034829137822188",
+    "kind": "other",
+    "tags": [
+      "meme",
+      "grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "d45f50ca4d57",
+    "agent": "instinct",
+    "quote": "I have \nhttps://\nInstinct.co. \nWhat should I ask it?",
+    "author": "@cwalkeronline",
+    "author_name": "carl\ud83e\udebf",
+    "date": "2026-09-04",
+    "url": "https://x.com/cwalkeronline/status/2095999159656489136",
+    "kind": "other",
+    "tags": [
+      "onboarding"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "New user asking what to ask"
+  },
+  {
+    "id": "8eff6a0b920f",
+    "agent": "instinct",
+    "quote": "I have been using Instinct for the last week and liked it so far. But this immediately makes me trust my personal agent.",
+    "author": "@atmanoglub",
+    "author_name": "Baran Atmanoglu",
+    "date": "2026-09-04",
+    "url": "https://x.com/atmanoglub/status/2095952723632071090",
+    "kind": "praise",
+    "tags": [
+      "trust",
+      "week-one"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "d0fbf41a212b",
+    "agent": "instinct",
+    "quote": "https://\ninstinct.co is like OpenClaw but better.",
+    "author": "@falahrajput",
+    "author_name": "Falah",
+    "date": "2026-09-04",
+    "url": "https://x.com/falahrajput/status/2095763933730639968",
+    "kind": "comparison",
+    "tags": [
+      "openclaw"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "155261e96eec",
+    "agent": "instinct",
+    "quote": "https://\ninstinct.co is what OpenClaw thinks it is",
+    "author": "@falahrajput",
+    "author_name": "Falah",
+    "date": "2026-09-07",
+    "url": "https://x.com/falahrajput/status/2096958834447167747",
+    "kind": "comparison",
+    "tags": [
+      "openclaw"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "d918743687ac",
+    "agent": "instinct",
+    "quote": "Has anyone had success getting their Instinct agent and a local agent to communicate? I love using instinct as my POC and want to set it up so it can delegate tasks to my local hardware for more powerful jobs.",
+    "author": "@OwenLennonCS",
+    "author_name": "Owen Lennon",
+    "date": "2026-09-03",
+    "url": "https://x.com/OwenLennonCS/status/2095620658566709380",
+    "kind": "use-case",
+    "tags": [
+      "local-agent",
+      "delegation",
+      "hybrid"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "90f1e4823049",
+    "agent": "instinct",
+    "quote": "1) Training on data.\n\n-> instinct here quite clearly mentions that it has access to sensitive data and phi which it can use to improve it's services/train models.\n\n-> good news is that you can opt out of this pretty easily by going to settings (and nice that they mention how in",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-04",
+    "url": "https://x.com/GaddipatiHarsha/status/2095956049002156538",
+    "kind": "comparison",
+    "tags": [
+      "privacy",
+      "training-data",
+      "opt-out"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Third-party (Slashy founder) privacy teardown of Instinct terms"
+  }
+]

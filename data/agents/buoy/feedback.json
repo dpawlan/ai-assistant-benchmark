@@ -1,0 +1,246 @@
+[
+  {
+    "id": "ae6993a5a4cb",
+    "agent": "buoy",
+    "quote": "Buoy can bid on eBay with an agent, but where is a per-site kill switch?\n\nBuoy says passwords stay out of chat and logs. Its privacy notice lists passwords among data it may collect. Not proof of exposure.\n\nBuilders: revoke per site or approve purchases?\n\nhttps://\nbuoy.chat/privacy",
+    "author": "@0xPixelBaron",
+    "author_name": "0xBaron | AI Security",
+    "date": "2026-09-01",
+    "url": "https://x.com/0xPixelBaron/status/2094920127259050369",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "permissions",
+      "ebay"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "kill switch / password concerns"
+  },
+  {
+    "id": "9ec65c0951e1",
+    "agent": "buoy",
+    "quote": "give \nhttp://\nbuoy.chat a try! it has a cloud browser made for remote sign in, and runs even while your phone is turned off",
+    "author": "@riccqi",
+    "author_name": "Richard Qi \ud83d\udc1f",
+    "date": "2026-07-31",
+    "url": "https://x.com/riccqi/status/2082993819377930666",
+    "kind": "other",
+    "tags": [
+      "cloud-browser",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "founder: cloud browser claim"
+  },
+  {
+    "id": "49384f415808",
+    "agent": "buoy",
+    "quote": "Try \nhttps://\nbuoy.chat, it\u2019ll find work to do for you",
+    "author": "@riccqi",
+    "author_name": "Richard Qi \ud83d\udc1f",
+    "date": "2026-08-27",
+    "url": "https://x.com/riccqi/status/2093066284649136311",
+    "kind": "other",
+    "tags": [
+      "proactive"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "founder invite/demo claim"
+  },
+  {
+    "id": "66f8aeeea4a6",
+    "agent": "buoy",
+    "quote": "We\u2019re working on the best interface and agent harness for getting real work done on your phone\n\nhttp://\nbuoy.chat",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-06-23",
+    "url": "https://x.com/ronithhh/status/2069260036459901389",
+    "kind": "other",
+    "tags": [
+      "mobile",
+      "interface"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "cofounder positioning"
+  },
+  {
+    "id": "95e49c335f8e",
+    "agent": "buoy",
+    "quote": "we've solved the browser login aspect of this with \nhttp://\nbuoy.chat, lmk if you want to give it a try!",
+    "author": "@riccqi",
+    "author_name": "Richard Qi \ud83d\udc1f",
+    "date": "2026-08-23",
+    "url": "https://x.com/riccqi/status/2091584554704498759",
+    "kind": "other",
+    "tags": [
+      "browser",
+      "login",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "solved browser login aspect"
+  },
+  {
+    "id": "b1035e8baf51",
+    "agent": "buoy",
+    "quote": "if your main usage is while on the go, id highly recommend checking out what we're building at \nhttps://\nbuoy.chat",
+    "author": "@riccqi",
+    "author_name": "Richard Qi \ud83d\udc1f",
+    "date": "2026-08-19",
+    "url": "https://x.com/riccqi/status/2090186337051939317",
+    "kind": "other",
+    "tags": [
+      "mobile",
+      "on-the-go",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "recommend for on-the-go usage"
+  },
+  {
+    "id": "94304f333c00",
+    "agent": "buoy",
+    "quote": "I can invite you to \nhttps://\nbuoy.chat !",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-09-05",
+    "url": "https://x.com/ronithhh/status/2096293627135955066",
+    "kind": "other",
+    "tags": [
+      "invite",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "invite to buoy.chat"
+  },
+  {
+    "id": "76902795600a",
+    "agent": "buoy",
+    "quote": "Please sign up at \nhttps://\nbuoy.chat and we will add you in the next batch of invites!",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-09-03",
+    "url": "https://x.com/ronithhh/status/2095440072317534234",
+    "kind": "other",
+    "tags": [
+      "invite",
+      "waitlist",
+      "team"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "team invite batch signup"
+  },
+  {
+    "id": "966c31a2b5e6",
+    "agent": "buoy",
+    "quote": "https://\nbuoy.chat will do it for you, 100%",
+    "author": "@riccqi",
+    "author_name": "Richard Qi \ud83d\udc1f",
+    "date": "2026-08-28",
+    "url": "https://x.com/riccqi/status/2093137660374368419",
+    "kind": "other",
+    "tags": [
+      "founder",
+      "demo"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder: buoy will do it for you"
+  },
+  {
+    "id": "240d05a5447f",
+    "agent": "buoy",
+    "quote": "you can try it out at \nhttps://\nbuoy.chat btw",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-09-01",
+    "url": "https://x.com/ronithhh/status/2094591616589946906",
+    "kind": "other",
+    "tags": [
+      "invite",
+      "team"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "team: try buoy.chat"
+  },
+  {
+    "id": "139cefef4bfa",
+    "agent": "buoy",
+    "quote": "Identity is not yet solved. Most approaches are risky without an overarching standard like OAuth but for Agent Delegation on Consumer accounts. Saw approaches like \nhttps://\nbuoy.chat \nhttps://\nx.com/ronithhh/statu\ns/2094574949826691219?s=20\n\u2026\nwhich is borderline grey. Nevertheless, direction is clear.",
+    "author": "@SandeepInjarapu",
+    "author_name": "Sandeep Injarapu",
+    "date": "2026-09-01",
+    "url": "https://x.com/SandeepInjarapu/status/2094680002206003408",
+    "kind": "other",
+    "tags": [
+      "identity",
+      "oauth",
+      "delegation"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: cites buoy.chat in agent-delegation identity discussion"
+  },
+  {
+    "id": "937efc9cc1a4",
+    "agent": "buoy",
+    "quote": "For example, I literally only gave it the link to my x account. From there Buoy searched X, found my linked GitHub page (which currently 404s as I privated it), and even decided to look at my HuggingFace profile somehow. I\u2019ve never seen an AI agent so willing to be proactive.",
+    "author": "@Dexifried",
+    "author_name": "Austin",
+    "date": "2026-09-02",
+    "url": "https://x.com/Dexifried/status/2095224112494842058",
+    "kind": "use-case",
+    "tags": [
+      "research",
+      "x",
+      "github"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:19:24.062649+00:00",
+    "notes": "User: Buoy searched X/GitHub/HF from just an X link."
+  },
+  {
+    "id": "268f257d8919",
+    "agent": "buoy",
+    "quote": "Which is why you think this is irrelevant. WKWebView does not automatically support passkeys, unless it has Apple\u2019s web browser entitlement, which isn\u2019t granted for in-app browsers.\n\nBuoy should consider itself an agent-enabled web browser!",
+    "author": "@andrewe",
+    "author_name": "Andrew Escobar",
+    "date": "2026-09-03",
+    "url": "https://x.com/andrewe/status/2095360969278898211",
+    "kind": "other",
+    "tags": [
+      "passkeys",
+      "webview"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:19:24.062649+00:00",
+    "notes": "Technical note treating Buoy as agent browser (passkeys/WKWebView)."
+  },
+  {
+    "id": "4673b655b7e2",
+    "agent": "buoy",
+    "quote": "We built the most secure, simple way to sign an agent into websites from your phone.\n\nThe agent never receives your password. Not in the chat, not in the logs.\n\nThis works across all sites, and any sign in patterns.",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-08-31",
+    "url": "https://x.com/ronithhh/status/2094574949826691219",
+    "kind": "other",
+    "tags": [
+      "auth",
+      "security",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:19:24.062649+00:00",
+    "notes": "Buoy founder on passwordless agent sign-in."
+  }
+]

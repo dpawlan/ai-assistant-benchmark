@@ -1,0 +1,19 @@
+{
+  "slug": "skydive",
+  "name": "Skydive",
+  "site": "https://www.skydive.com/",
+  "handles": [
+    "Skydive",
+    "getskydive"
+  ],
+  "status": "stretch",
+  "product_class": "agent_builder",
+  "notes": "Company agent-builder (Slack/email/iMessage coworkers). On board as builder platform; expect N/A on personal single-assistant use cases.",
+  "likely_applicable": [
+    "third_party_integrations",
+    "multiplayer_groups",
+    "chained_tasks",
+    "email_replies"
+  ],
+  "public_signal": "medium"
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "7a1baa449846",
+    "agent": "hirealpha",
+    "quote": "Try \nhttps://\nhirealpha.chat\n\nIt's an assistant that texts you like a real person. Every morning it sends you a brief built from your Gmail and calendar, and another one at night. Tell it what you ate, how you slept, what you trained, what you spent, and it just remembers it all",
+    "author": "@shank2600",
+    "author_name": "Sashank",
+    "date": "2026-09-05",
+    "url": "https://x.com/shank2600/status/2096338207088812307",
+    "kind": "other",
+    "tags": [
+      "briefing",
+      "imessage"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "morning/night brief from Gmail+calendar"
+  },
+  {
+    "id": "2dee481d6ee0",
+    "agent": "hirealpha",
+    "quote": "Fuck grok \n@bot\n use \nhttps://\nHirealpha.chat instead",
+    "author": "@shank2600",
+    "author_name": "Sashank",
+    "date": "2026-08-30",
+    "url": "https://x.com/shank2600/status/2093977353668210738",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "use HireAlpha instead of Grok Bot"
+  },
+  {
+    "id": "e225e0ee121f",
+    "agent": "hirealpha",
+    "quote": "HireAlpha is a small product with a simple thesis: the best place for an AI assistant is not another app you have to remember to open. It is the message thread you already live in. So we built three of them, and each one is a contact you text.\n\nFriend keeps your personal life on",
+    "author": "@shank2600",
+    "author_name": "Sashank",
+    "date": "2026-08-29",
+    "url": "https://x.com/shank2600/status/2093816010000470197",
+    "kind": "other",
+    "tags": [
+      "positioning",
+      "messaging",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder thesis: assistant lives in message thread"
+  },
+  {
+    "id": "4e279cd8787c",
+    "agent": "hirealpha",
+    "quote": "You don't have one friend for everything.\n\nYou have a friend who knows you. A coworker who gets your work. A cofounder who shares the mission.\n\nSo why does every AI come as one generic chatbot?\n\nToday I'm launching HireAlpha: hireable agents that live in iMessage.\n\nA Friend. A",
+    "author": "@shank2600",
+    "author_name": "Sashank",
+    "date": "2026-08-29",
+    "url": "https://x.com/shank2600/status/2093532520184975558",
+    "kind": "other",
+    "tags": [
+      "coworker",
+      "cofounder",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder: multi-role friends metaphor for HireAlpha"
+  }
+]

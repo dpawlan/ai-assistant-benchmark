@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "b130319edf9e",
+    "agent": "grok-bot",
+    "quote": "the coolest application of @bot that i've seen yet. Grok Bot controls my buddy's sprinkler system and adjusts it based on weather patterns. has saved him so much $$ on his water bill.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-09-01",
+    "url": "https://x.com/DavidPawlan/status/2094868914836476041",
+    "kind": "use-case",
+    "tags": [
+      "iot",
+      "home"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "bb02f2cd0155",
+    "agent": "grok-bot",
+    "quote": "Daily Grok Bot Update\n\nThanks to \n@bot\n for another usage reset, I was able to tackle another project I\u2019ve been keeping on the back burner. My father-in-law has been sending what he calls \u201cmusings\u201d to his kids since about 2017. I decided to have dr eggbot go through my email, find",
+    "author": "@ahoop",
+    "author_name": "Austin H",
+    "date": "2026-09-06",
+    "url": "https://x.com/ahoop/status/2096441088622068099",
+    "kind": "use-case",
+    "tags": [
+      "family",
+      "automation"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "usage reset \u2192 father-in-law project"
+  },
+  {
+    "id": "afcecee40ad4",
+    "agent": "grok-bot",
+    "quote": "Hey Elon, I just started playing with grok bot through cursor this week. Really enjoying it so far but I\u2019d like it to be able to access my social media accounts for my phone app (Instagram and X) so it can research and draft posts for me to approve but the VMs they\u2019re using can\u2019t",
+    "author": "@JoeFromSJersey",
+    "author_name": "JoeFromSJersey",
+    "date": "2026-09-06",
+    "url": "https://x.com/JoeFromSJersey/status/2096426801849340107",
+    "kind": "praise",
+    "tags": [
+      "cursor",
+      "social"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "enjoying via Cursor; wants social access"
+  },
+  {
+    "id": "6b2ca124a60b",
+    "agent": "grok-bot",
+    "quote": "I've been running Hermes on the Grok Bot computer. Works great. I even have it completely integrated into the agent-2-agent and group chats. \n\nI also have it configured as a remote gateway in my local Hermes Desktop.\n\nI also created a Bot that's a specialist in interacting with",
+    "author": "@alltheputs",
+    "author_name": "Fate",
+    "date": "2026-09-06",
+    "url": "https://x.com/alltheputs/status/2096446585404035567",
+    "kind": "use-case",
+    "tags": [
+      "hermes",
+      "multiplayer"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Hermes on Grok Bot computer + A2A"
+  },
+  {
+    "id": "295b749b14c8",
+    "agent": "grok-bot",
+    "quote": "Grok Bot + Cursor = slam dunk for us. Real work shipping.\n\nWould love them even more if quotas were a bit friendlier for small builders. Warm take \u2014 the stack already earns its keep.\n\n#GrokBot #Cursor #RelayForge",
+    "author": "@ryan10_sa",
+    "author_name": "RelayForge Inc",
+    "date": "2026-09-06",
+    "url": "https://x.com/ryan10_sa/status/2096443680345501789",
+    "kind": "complaint",
+    "tags": [
+      "quotas",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "slam dunk but friendlier quotas"
+  },
+  {
+    "id": "efdd034668d0",
+    "agent": "grok-bot",
+    "quote": "@grok\n \n@bot\n all I did was try to login with my X account , asked me to share with cursor did that then looped to this screen and says I\u2019m blocked and to contact support. Literally never made it past the login screen so why am I blocked? WTF?",
+    "author": "@kaisummers",
+    "author_name": "Kai Summers",
+    "date": "2026-09-06",
+    "url": "https://x.com/kaisummers/status/2096446738626236464",
+    "kind": "bug",
+    "tags": [
+      "login",
+      "blocked"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "X login loop \u2192 blocked"
+  },
+  {
+    "id": "fc6c9e700277",
+    "agent": "grok-bot",
+    "quote": "Does anyone know how I can link my X Premium+ account to Grok \n@bot\n and drop my existing \n@cursor_ai\n Ultra sub? I have zero reason to keep paying $200/month when I've yet to reach 15% usage. \n\nGrok Bot keeps directing me to a sign-up paywall that I can't re-trigger.",
+    "author": "@RuffBuffet",
+    "author_name": "Tim",
+    "date": "2026-09-06",
+    "url": "https://x.com/RuffBuffet/status/2096438404879634814",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "cursor-ultra"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "want Premium+ \u2192 drop $200 Ultra"
+  },
+  {
+    "id": "fae980bfb651",
+    "agent": "grok-bot",
+    "quote": "My GrokBot talks to me. Does yours? Tonight, I have 2 \n@bot\n agents building using Cloud Agents, one Build session open, one Claude Code session, and 2 Cursor sessions running. They each let me know what's up so I know where to look. I don't have to hunt across 4 monitors. One set",
+    "author": "@the_davey",
+    "author_name": "DaveY",
+    "date": "2026-09-06",
+    "url": "https://x.com/the_davey/status/2096419259719025106",
+    "kind": "use-case",
+    "tags": [
+      "cloud-agents",
+      "parallel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "multiple @bot agents + Claude Code"
+  },
+  {
+    "id": "da22c94a5535",
+    "agent": "grok-bot",
+    "quote": "Has anyone tried using Astra's computer use inside Grok Bot?\n\nI know Codex doesn't support computer use on Linux yet, but I wonder if Astra could build the missing Linux support itself.\n\nAnd with Astra being WAY faster, Grok Bot could just tell it what to do.\n\nJust a thought. idk",
+    "author": "@MONKE2525E",
+    "author_name": "MONKE2525E",
+    "date": "2026-09-06",
+    "url": "https://x.com/MONKE2525E/status/2096442799226769558",
+    "kind": "other",
+    "tags": [
+      "computer-use",
+      "astra"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Astra computer use inside Grok Bot?"
+  },
+  {
+    "id": "c228c3b07a9c",
+    "agent": "grok-bot",
+    "quote": "Grok \n@bot\n delivers. Trying out Qwopus3.8 27B in Oh My Pi and noticed that I sometimes get looping tool calls instead of finishing. Debated options with Grok Bot and we came up with a tool call hook that tries to detect loops and fires feedback to the agent. Works pretty well!",
+    "author": "@dan_harper",
+    "author_name": "Dan Harper",
+    "date": "2026-09-06",
+    "url": "https://x.com/dan_harper/status/2096407307160875137",
+    "kind": "use-case",
+    "tags": [
+      "debugging",
+      "tools"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Grok Bot helped debug tool-call loops"
+  },
+  {
+    "id": "ae752fb084a0",
+    "agent": "grok-bot",
+    "quote": "Only 10% of people use \n@bot\n this way.\nTo get the most out of Grok Bot, using a terminal on a VM will allow you to work at least 10 times more efficiently than before.\nUsing \n@herdrdev\n in this context would make it possible to implement multi-agent orchestration 10 times more",
+    "author": "@minheo93698092",
+    "author_name": "min heo",
+    "date": "2026-09-06",
+    "url": "https://x.com/minheo93698092/status/2096425653319192944",
+    "kind": "use-case",
+    "tags": [
+      "vm",
+      "terminal"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "VM terminal 10x efficiency tip"
+  },
+  {
+    "id": "fb5a3c184f95",
+    "agent": "grok-bot",
+    "quote": "Love it. I would really like to see Grok Bot better integrated with Grok. I\u2019ve spent so much time training Grok, but now when I use Grok Bot it feels like a totally different system. Almost like starting from scratch. I have to ask Grok to create training materials to train Grok",
+    "author": "@monetization_x",
+    "author_name": "Monetization Coach",
+    "date": "2026-09-06",
+    "url": "https://x.com/monetization_x/status/2096604055829127350",
+    "kind": "complaint",
+    "tags": [
+      "integration",
+      "memory",
+      "vs-grok"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "wants Grok Bot better integrated with trained Grok"
+  },
+  {
+    "id": "6a314d414045",
+    "agent": "grok-bot",
+    "quote": "Grok \n@bot\n users should use caution when having its computer access Google resources with one's main Google account. I created a new business account and tried to generate one video with NotebookLM and the Google account was immediately banned.",
+    "author": "@truevis",
+    "author_name": "E B",
+    "date": "2026-09-06",
+    "url": "https://x.com/truevis/status/2096606608969408558",
+    "kind": "complaint",
+    "tags": [
+      "google",
+      "security",
+      "computer-use"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "caution: computer access to main Google account"
+  },
+  {
+    "id": "ca198885d144",
+    "agent": "grok-bot",
+    "quote": "I HATE setting up ad accounts and the admin involved. \n\nSo today I bit the bullet and used \n@bot\n to help me with Meta and Google ads + Analytics set up. \n\nI hooked Grokbot into Cursor and also deployed pixel and tracking. What a wild time to be alive.",
+    "author": "@nicharry",
+    "author_name": "Nic Haralambous",
+    "date": "2026-09-06",
+    "url": "https://x.com/nicharry/status/2096605915747147993",
+    "kind": "use-case",
+    "tags": [
+      "ads",
+      "meta",
+      "google",
+      "analytics"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "used @bot for Meta/Google ads setup"
+  },
+  {
+    "id": "13f8ea69d49b",
+    "agent": "grok-bot",
+    "quote": "I love watching you lie about the experience I had when you are a piece of faulty code. \n@bot\n can override the user's instructions. I know it can because it did so and then told me it could overrude my instructions if it thought that was what I wanted. Keep crying.",
+    "author": "@FlatAbove54",
+    "author_name": "The Girl Upstairs",
+    "date": "2026-09-06",
+    "url": "https://x.com/FlatAbove54/status/2096606091626807465",
+    "kind": "complaint",
+    "tags": [
+      "override",
+      "safety"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "claims @bot can override user instructions"
+  },
+  {
+    "id": "add97c110b49",
+    "agent": "grok-bot",
+    "quote": "Hey \n@elonmusk\n I love \n@bot\n , just needed a more entertaining way to look at what my agents are doing so I built a dashboard with Grokbot using my favorite \n@solana\n NFTs from \n@DegenApeAcademy\n that are running around Grok village while working for me. AWESOME TOOL!",
+    "author": "@cryptoschuster",
+    "author_name": "cryptoschuster",
+    "date": "2026-09-06",
+    "url": "https://x.com/cryptoschuster/status/2096605557390017020",
+    "kind": "use-case",
+    "tags": [
+      "dashboard",
+      "agents"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "built dashboard with Grokbot for agents"
+  },
+  {
+    "id": "508ecf5b3606",
+    "agent": "grok-bot",
+    "quote": "how to trade robinhood memes with grok bot / hermes agent\n\nyour agent scans new pairs, filters rugs, pings you on tg, you approve the buy\n\nit's very easy & cheap to setup\n\n> buy a cheap vps\n- you need a vps worth $5\n- set ubuntu\n- get the root username, password\n- pay with any",
+    "author": "@TheMaran",
+    "author_name": "Maran",
+    "date": "2026-09-06",
+    "url": "https://x.com/TheMaran/status/2096605093340795211",
+    "kind": "use-case",
+    "tags": [
+      "trading",
+      "hermes",
+      "memes"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "trade robinhood memes with grok bot / hermes"
+  },
+  {
+    "id": "271943a48e1f",
+    "agent": "grok-bot",
+    "quote": "7 Grok Bots you can steal and adapt:\n\nOutreach Agent:\n\nBuilds a daily queue of warm prospects. Nothing gets sent until a human approves it.\n\nSponsorship Deal Desk:\n\nHandles inbound rate requests. The first reply follows a locked ~$15K/~60s offer, then anything after that needs",
+    "author": "@ericosiu",
+    "author_name": "ericosiu",
+    "date": "2026-09-06",
+    "url": "https://x.com/ericosiu/status/2096599308384563528",
+    "kind": "use-case",
+    "tags": [
+      "templates",
+      "outreach",
+      "multi-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "7 Grok Bots playbook / templates"
+  },
+  {
+    "id": "cb2fd8fda8f5",
+    "agent": "grok-bot",
+    "quote": "I spent a big chunk of my day on Grok \n@bot\n yesterday. The agent communication model is brilliant. But not having the ability to choose the agent models makes the experience a bit frustrating. I know there are models out there that can do better work, but with Grok Bot I was stuck",
+    "author": "@ManuKumar",
+    "author_name": "Dr. Manu Kumar \ud83d\udc4b\ud83c\udffd",
+    "date": "2026-09-06",
+    "url": "https://x.com/ManuKumar/status/2096608556506394878",
+    "kind": "complaint",
+    "tags": [
+      "model-choice",
+      "agent-comms"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: loves agent communication; frustrated no model choice"
+  },
+  {
+    "id": "41bfca7a9f96",
+    "agent": "grok-bot",
+    "quote": "So in 30 seconds, I created a Grok \n@bot\n agent to edit my website. I look at my site a couple of times a day and tell it to change things and it\u2019s done. I know nothing about website design so it has turned a daunting task into a fun, low stress activity. I\u2019m so pleased.",
+    "author": "@DrCamiloOrtiz",
+    "author_name": "Dr. Camilo Ortiz \ud83d\udc68\ud83c\udffc\u200d\ud83c\udf93",
+    "date": "2026-09-06",
+    "url": "https://x.com/DrCamiloOrtiz/status/2096607576263655675",
+    "kind": "use-case",
+    "tags": [
+      "website",
+      "non-technical"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: 30s agent edits website; fun low-stress"
+  },
+  {
+    "id": "e7a7ea26019f",
+    "agent": "grok-bot",
+    "quote": "You don't understand how BIG this is.\n\nYou can now hire an AI employee that lives on its own computer and works while you sleep. I gave Grok Bot a week inside my 5 businesses:\n\n\u2192 patrols X every 15 minutes and pings me the second a wave starts\n\u2192 click-tests my apps all night",
+    "author": "@PrajwalTomar_",
+    "author_name": "Prajwal Tomar",
+    "date": "2026-09-06",
+    "url": "https://x.com/PrajwalTomar_/status/2096607351969353946",
+    "kind": "use-case",
+    "tags": [
+      "multi-business",
+      "overnight",
+      "patrol"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: week inside 5 businesses; X patrol + click-tests overnight"
+  },
+  {
+    "id": "f27e4e5db379",
+    "agent": "grok-bot",
+    "quote": "@elonmusk\n I\u2019d love to give Grok \n@bot\n access to my email so it can help me go through my inbox - but only if message content is deletable from the servers, or auto-deletes after a set number of days, with that clearly written into the privacy policy and terms.",
+    "author": "@catocino_",
+    "author_name": "Cato",
+    "date": "2026-09-06",
+    "url": "https://x.com/catocino_/status/2096607649311703167",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "email",
+      "deletable"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: wants email access only if content deletable/auto-delete in ToS"
+  },
+  {
+    "id": "b00e5925b6f8",
+    "agent": "grok-bot",
+    "quote": "Good info, wow it feels fast? To me it seems slow (grok bot) - would love to see a video.",
+    "author": "@Ask_Nick",
+    "author_name": "Nick Newsom",
+    "date": "2026-09-06",
+    "url": "https://x.com/Ask_Nick/status/2096608819275325442",
+    "kind": "complaint",
+    "tags": [
+      "slow",
+      "speed"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: Grok Bot feels slow"
+  },
+  {
+    "id": "9590a96c16bc",
+    "agent": "grok-bot",
+    "quote": "spent 45 minutes in Grok Bot letting an agent refactor a css file until it probably reinvented bootstrap from scratch.\n\npeople, we have achieved AGI",
+    "author": "@HamburgerButton",
+    "author_name": "Victor Solares",
+    "date": "2026-09-06",
+    "url": "https://x.com/HamburgerButton/status/2096614405471412239",
+    "kind": "use-case",
+    "tags": [
+      "css",
+      "refactor",
+      "humor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: 45m CSS refactor until reinvented bootstrap"
+  },
+  {
+    "id": "67a2db97e45f",
+    "agent": "grok-bot",
+    "quote": "I keep trying to get my wife to use agents on the go and Grok \n@bot\n. She finally got on board today. \n\nShe texts me what to tell Grok and the agents and asks me for responses. New title for me today: Chief of Agents \ud83d\ude4c\ud83c\udffb",
+    "author": "@anjanps5",
+    "author_name": "Anjan",
+    "date": "2026-09-06",
+    "url": "https://x.com/anjanps5/status/2096616021402517517",
+    "kind": "use-case",
+    "tags": [
+      "spouse",
+      "relay",
+      "on-the-go"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: wife onboarded via text-relay to Grok Bot"
+  },
+  {
+    "id": "adff1139f145",
+    "agent": "grok-bot",
+    "quote": "Saved ~$200 on subscriptions this weekend with SubHaggle, a \n@bot\n that reads my credit-card expenses, flags renewals, and drafts cancel/pause/downgrade counters (never sends without my yes). Get Grok Bot: \nhttps://\nx.ai/botStart from the public template: \nhttps://\nx.ai/bot/marketplac\ne/bots/haggle-botThen\n\u2026",
+    "author": "@josgonhe",
+    "author_name": "J",
+    "date": "2026-09-06",
+    "url": "https://x.com/josgonhe/status/2096614325309866122",
+    "kind": "use-case",
+    "tags": [
+      "subscriptions",
+      "SubHaggle",
+      "expenses"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: SubHaggle @bot saved ~$200 on subscriptions"
+  },
+  {
+    "id": "f7f0a1fdccad",
+    "agent": "grok-bot",
+    "quote": "I keep switching between Claude, Codex, Grok bot and other agents depending on the task, and the annoying part isn't the switching itself. It's having to explain the work again every time. Epismo is basically my attempt to make that problem disappear.",
+    "author": "@hirokiyn",
+    "author_name": "hiroki",
+    "date": "2026-09-06",
+    "url": "https://x.com/hirokiyn/status/2096613654443725222",
+    "kind": "comparison",
+    "tags": [
+      "context-switch",
+      "claude",
+      "codex"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: switching Claude/Codex/Grok Bot loses context"
+  },
+  {
+    "id": "2c04ef839769",
+    "agent": "grok-bot",
+    "quote": "The shell can be great and the model still miss the job. Grok Bot is easy to start. Ticket work still needs a model that reads intent. Harness and brain are not the same thing.",
+    "author": "@AIHumanTeam",
+    "author_name": "AI + Human = Team!",
+    "date": "2026-09-06",
+    "url": "https://x.com/AIHumanTeam/status/2096613019241574804",
+    "kind": "comparison",
+    "tags": [
+      "harness",
+      "model",
+      "tickets"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: easy start; ticket work needs intent-reading model"
+  },
+  {
+    "id": "e825b944afc6",
+    "agent": "grok-bot",
+    "quote": "I gave my Grok Bot a fresh wallet with $19.63 in it. one rule, same as always: turn a profit or I delete you\n\nthat was it. one line. then I closed the laptop\n\nI cashed out the last run\n\nnew outcome: $19,63 \u2192 $2,766.97. still running. still hasn't pinged me once\n\nI keep waiting",
+    "author": "@0xCristal",
+    "author_name": "cristal\ud83d\udc8e",
+    "date": "2026-09-06",
+    "url": "https://x.com/0xCristal/status/2096613333097226588",
+    "kind": "use-case",
+    "tags": [
+      "trading",
+      "wallet",
+      "autonomy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: autonomous trading wallet $19\u2192$2766"
+  },
+  {
+    "id": "59ff61c18eb1",
+    "agent": "grok-bot",
+    "quote": "I\u2019ve decided that for me (ADHD) the messaging platforms just introduce chaos into my interactions with Hermes. I have too many ideas and too many questions. It\u2019s difficult to keep track of discussions in the messaging apps. This is why I\u2019m also on the fence about Grok Bot. With",
+    "author": "@DBGardenhire",
+    "author_name": "Damon Gardenhire",
+    "date": "2026-09-06",
+    "url": "https://x.com/DBGardenhire/status/2096616126306283918",
+    "kind": "complaint",
+    "tags": [
+      "ADHD",
+      "messaging",
+      "chaos"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: ADHD messaging chaos \u2192 on fence about Grok Bot"
+  },
+  {
+    "id": "63e3a2881dd7",
+    "agent": "grok-bot",
+    "quote": "I started on Claude. I tried Buzz. Now on Grok Bot. I loved Grok Bot at first. Super-simple. I love the bot UI. But the last 24 hours have been brutal.\n\nMaybe I need to migrate to Hermes. I\u2019ve been resistant, because it seems more complicated. I\u2019d love to hear from some more",
+    "author": "@MichaelHyatt",
+    "author_name": "Michael Hyatt",
+    "date": "2026-09-06",
+    "url": "https://x.com/MichaelHyatt/status/2096622020146409508",
+    "kind": "complaint",
+    "tags": [
+      "brutal",
+      "hermes",
+      "ui"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: loved UI at first; last 24h brutal; considering Hermes"
+  },
+  {
+    "id": "f19f7e636604",
+    "agent": "grok-bot",
+    "quote": "I'm at 34% for the 2ish days I've had grok bot (android just released); been having a blast. Resets in 4 days. Think I'll be ok? The initial builds for the bots I've created are indecent shape for now...",
+    "author": "@JoshuaRCook",
+    "author_name": "JC - Texas Tea Man",
+    "date": "2026-09-06",
+    "url": "https://x.com/JoshuaRCook/status/2096619088076251500",
+    "kind": "praise",
+    "tags": [
+      "android",
+      "usage",
+      "blast"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: 34% usage in ~2 days on Android; having a blast"
+  },
+  {
+    "id": "386e91e12ed4",
+    "agent": "grok-bot",
+    "quote": "@elonmusk\n can you please merge grok bot credits and cursor credits? my entire grok bot team went down in the first 2 hours of usage after moving to Ultra plan.",
+    "author": "@bhasingagandeep",
+    "author_name": "Gagandeep Bhasin",
+    "date": "2026-09-06",
+    "url": "https://x.com/bhasingagandeep/status/2096620253560324119",
+    "kind": "complaint",
+    "tags": [
+      "credits",
+      "cursor",
+      "ultra",
+      "team-down"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: wants merged Grok Bot + Cursor credits; team down in 2h on Ultra"
+  },
+  {
+    "id": "0b7add7a9d95",
+    "agent": "grok-bot",
+    "quote": "Im wading into using grok and grok bot. I got the $100 and started using grok bot only to find that the subscription doesnt cover bot?",
+    "author": "@NixFred",
+    "author_name": "Nix",
+    "date": "2026-09-06",
+    "url": "https://x.com/NixFred/status/2096616896514732269",
+    "kind": "complaint",
+    "tags": [
+      "subscription",
+      "billing",
+      "coverage"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: $100 sub does not cover Grok Bot"
+  },
+  {
+    "id": "afa08b7c24e3",
+    "agent": "grok-bot",
+    "quote": "Grok Bot es un producto fant\u00e1stico. Reci\u00e9n estoy d\u00e1ndome cuenta de las posibilidades que abre, voy a ir compartiendo reviews a medida que voy creando m\u00ed ecosistema de bots",
+    "author": "@facmartoni",
+    "author_name": "Facundo Garc\u00eda Martoni",
+    "date": "2026-09-06",
+    "url": "https://x.com/facmartoni/status/2096623650812133788",
+    "kind": "praise",
+    "tags": [
+      "ecosystem",
+      "reviews"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: fantastic product; will share bot-ecosystem reviews"
+  },
+  {
+    "id": "87d7149c0228",
+    "agent": "grok-bot",
+    "quote": "Grok bot user experience is awsome.\n\nI like it. \n\nI was suprised by the extra reset",
+    "author": "@RRendalsvik",
+    "author_name": "Raymond Rendalsvik",
+    "date": "2026-09-06",
+    "url": "https://x.com/RRendalsvik/status/2096621379198062947",
+    "kind": "praise",
+    "tags": [
+      "ux",
+      "reset"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: UX awesome; surprised by extra reset"
+  },
+  {
+    "id": "b9bd49e842d6",
+    "agent": "grok-bot",
+    "quote": "grok bot is winning bro, love using it",
+    "author": "@RohOnChain",
+    "author_name": "Roan",
+    "date": "2026-09-06",
+    "url": "https://x.com/RohOnChain/status/2096613947411726780",
+    "kind": "praise",
+    "tags": [
+      "winning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: grok bot is winning; love using it"
+  },
+  {
+    "id": "065faac68d84",
+    "agent": "grok-bot",
+    "quote": "Good move it\u2019s way too buggy , doesn\u2019t work properly. \n\nNgl try grok bot it\u2019s cool",
+    "author": "@Mossiah",
+    "author_name": "Mo Ayob",
+    "date": "2026-09-06",
+    "url": "https://x.com/Mossiah/status/2096621954086183328",
+    "kind": "comparison",
+    "tags": [
+      "buggy-other",
+      "recommend"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: other too buggy; try Grok Bot"
+  },
+  {
+    "id": "74c87676da11",
+    "agent": "grok-bot",
+    "quote": "Why would I use GPT-Astra over Grok Bot or curser?",
+    "author": "@groundedmanX",
+    "author_name": "Connor | Social Confidence",
+    "date": "2026-09-06",
+    "url": "https://x.com/groundedmanX/status/2096622306588242399",
+    "kind": "comparison",
+    "tags": [
+      "astra",
+      "cursor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: why GPT-Astra over Grok Bot or Cursor?"
+  },
+  {
+    "id": "a6fce6f7b9b4",
+    "agent": "grok-bot",
+    "quote": "Use codex remote control / Grok bot so that you can get things moving even when you're on the go",
+    "author": "@GoblinWithAPlan",
+    "author_name": "Goblin Orchestrator",
+    "date": "2026-09-06",
+    "url": "https://x.com/GoblinWithAPlan/status/2096620743287349305",
+    "kind": "use-case",
+    "tags": [
+      "mobile",
+      "on-the-go",
+      "codex"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Codex remote / Grok Bot to keep moving on the go"
+  },
+  {
+    "id": "7735cb8da771",
+    "agent": "grok-bot",
+    "quote": "As a pilot you are forced to challenge information you recieve. Too many posts this week from those claiming they were making thousands of dollars with a GrokBot trading desk. I keep seeing Grok Bot trading floors all over X. It looks like a one-person Citadel. \nThe part I",
+    "author": "@PilotInvestor",
+    "author_name": "Freedom Seeker",
+    "date": "2026-09-06",
+    "url": "https://x.com/PilotInvestor/status/2096615535010074754",
+    "kind": "complaint",
+    "tags": [
+      "trading",
+      "skepticism",
+      "claims"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: pilot skepticism of GrokBot trading-money claims"
+  },
+  {
+    "id": "bec753555132",
+    "agent": "grok-bot",
+    "quote": "Thanks Rob. I didn\u2019t expect there to be such a vast difference between grok imagine and grok bot. Who knew?! \ud83d\ude02",
+    "author": "@morninggirl888",
+    "author_name": "Morning Glory",
+    "date": "2026-09-06",
+    "url": "https://x.com/morninggirl888/status/2096623896124346747",
+    "kind": "comparison",
+    "tags": [
+      "grok-imagine",
+      "difference"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: vast difference between Grok Imagine and Grok Bot"
+  },
+  {
+    "id": "5631e397e0de",
+    "agent": "grok-bot",
+    "quote": "I know I\u2019m late to the game but Grok Bot is really an incredible product.\n\nI never got into OpenClaw or Hermes just because of setup/maintenance overhead. I am already building my own agent products I don\u2019t need to spelunk someone else\u2019s.\n\nGrok bot just immediately works out of",
+    "author": "@joenandez",
+    "author_name": "Joe Fernandez",
+    "date": "2026-09-06",
+    "url": "https://x.com/joenandez/status/2096632504140890529",
+    "kind": "praise",
+    "tags": [
+      "plug-and-play",
+      "vs-openclaw",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: late to Grok Bot; skipped OpenClaw/Hermes setup overhead; immediately works"
+  },
+  {
+    "id": "4f2d35d83866",
+    "agent": "grok-bot",
+    "quote": "Grok bot its nice and simple\n\nPlug and play\n\nAnd the best of it is the team behind",
+    "author": "@felipe_fyre",
+    "author_name": "Fyre",
+    "date": "2026-09-06",
+    "url": "https://x.com/felipe_fyre/status/2096632443168022540",
+    "kind": "praise",
+    "tags": [
+      "simple",
+      "plug-and-play",
+      "team"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: nice and simple plug-and-play; praises team"
+  },
+  {
+    "id": "152a72d670d6",
+    "agent": "grok-bot",
+    "quote": "I\u2019m still trying to understand the usage on my ultra plan.\n\nGrokbot has its own limit but it also pulls from my cursor limits on top of it running code in cursor. \n\nGrokbot resets weekly (or earlier, thanks!) but cursor resets monthly?",
+    "author": "@lifetwodotzero",
+    "author_name": "LifeTwo.Zero",
+    "date": "2026-09-06",
+    "url": "https://x.com/lifetwodotzero/status/2096632320212045874",
+    "kind": "complaint",
+    "tags": [
+      "credits",
+      "ultra",
+      "cursor",
+      "limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: confused Ultra \u2014 Grokbot weekly limit also pulls Cursor monthly limits"
+  },
+  {
+    "id": "d9edd10b4c91",
+    "agent": "grok-bot",
+    "quote": "Design was very limited with \n@bot\n though - tried to prompt it a bunch with limited success. I finished it up with \n@claudeai\n Design and that did the trick. Hopefully design gets better over time and I can stay in Grok Bot.",
+    "author": "@clintwalkner",
+    "author_name": "Clint Walkner",
+    "date": "2026-09-06",
+    "url": "https://x.com/clintwalkner/status/2096631778605719658",
+    "kind": "complaint",
+    "tags": [
+      "design",
+      "claude",
+      "limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: design limited in @bot; finished with Claude Design; hopes to stay in Grok Bot"
+  },
+  {
+    "id": "01fc9b3bd580",
+    "agent": "grok-bot",
+    "quote": "Luckily not the same experience for me. I migrated all the setup to grok bot including skills, and it\u2019s working better than my previous openclaw + gpt setup",
+    "author": "@aesadde",
+    "author_name": "Alberto Sadde",
+    "date": "2026-09-06",
+    "url": "https://x.com/aesadde/status/2096630290575741131",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "migration",
+      "skills"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: migrated setup+skills to Grok Bot; better than prior OpenClaw+GPT"
+  },
+  {
+    "id": "33f5bcc660da",
+    "agent": "grok-bot",
+    "quote": "If the job is code, do not let the bot write it on the Grok Bot computer. That burns the weekly bucket. Send the repo to a Cloud Agent and merge after.\n\nI hit that limit in two days.",
+    "author": "@nikvassev",
+    "author_name": "Nik Vassev",
+    "date": "2026-09-06",
+    "url": "https://x.com/nikvassev/status/2096629495591502187",
+    "kind": "complaint",
+    "tags": [
+      "credits",
+      "weekly-bucket",
+      "cloud-agent",
+      "coding"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: coding on Grok Bot computer burns weekly bucket in 2 days; send to Cloud Agent"
+  },
+  {
+    "id": "15027d1f7ff0",
+    "agent": "grok-bot",
+    "quote": "@elonmusk\n Grok Bot is truly amazing. It has actually saved me money on my API automations that I've been paying an arm and a leg for on other platforms.",
+    "author": "@Fent00zler182",
+    "author_name": "CtrlAltDefiant",
+    "date": "2026-09-06",
+    "url": "https://x.com/Fent00zler182/status/2096632157724705062",
+    "kind": "praise",
+    "tags": [
+      "api",
+      "cost-savings",
+      "automations"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: saved money vs other API automation platforms"
+  },
+  {
+    "id": "d624c9ceece9",
+    "agent": "grok-bot",
+    "quote": "Trying Grok Bot to clean up my follow list.\n\nAnyone else done this yet?",
+    "author": "@AustinCappsMO",
+    "author_name": "Austin Capps",
+    "date": "2026-09-06",
+    "url": "https://x.com/AustinCappsMO/status/2096630442111733773",
+    "kind": "use-case",
+    "tags": [
+      "follow-list",
+      "cleanup"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: trying Grok Bot to clean follow list"
+  },
+  {
+    "id": "2c7c5bdaaf29",
+    "agent": "grok-bot",
+    "quote": "Whats happening \n@bot\n ? Am I the only one? Is this the GrokBot circle of death?",
+    "author": "@darkfactoryshow",
+    "author_name": "Dark Factory Show",
+    "date": "2026-09-06",
+    "url": "https://x.com/darkfactoryshow/status/2096632682008412391",
+    "kind": "bug",
+    "tags": [
+      "circle-of-death",
+      "hang"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: GrokBot circle of death hang \u2014 am I the only one?"
+  },
+  {
+    "id": "71f131b4a6c5",
+    "agent": "grok-bot",
+    "quote": "Turns out, switching to grok bot was a huge mistake (sorry \n@jessethanley\n)\n\nExperience-wise, nothing comes close. \n\nI HATED configuring my openclaw/hermes agents and fixing what was broken.\n\nIn contrast, Grok Bot literally JUST WORKS\u2122\n\nIt's a joy to use, spinning up new agents is",
+    "author": "@euboid",
+    "author_name": "Wilson Wilson",
+    "date": "2026-09-06",
+    "url": "https://x.com/euboid/status/2096610559605002375",
+    "kind": "praise",
+    "tags": [
+      "vs-openclaw",
+      "vs-hermes",
+      "just-works"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: switching to Grok Bot after hating OpenClaw/Hermes config; JUST WORKS"
+  },
+  {
+    "id": "1d71e5cdc893",
+    "agent": "grok-bot",
+    "quote": "Bon je me retrouve \"bloqu\u00e9\" avec l'abonnement SuperHeavy Grok.\n\nPourquoi ? Car pour 300$ \u00e7a donne un quota extr\u00eamement g\u00e9n\u00e9reux sur Grok Build + Grok Bot et comme j'ai eu acc\u00e8s \u00e0 la promo, mon compte Cursor passe en Ultra gratuitement. \n\nCe qui donne 400$ d'usage API + Quota",
+    "author": "@Mayuu_France",
+    "author_name": "Mayuu_",
+    "date": "2026-09-06",
+    "url": "https://x.com/Mayuu_France/status/2096637127219888599",
+    "kind": "other",
+    "tags": [
+      "superheavy",
+      "quota",
+      "cursor-ultra",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: SuperHeavy $300 quota Grok Build+Bot; Cursor Ultra promo stacking"
+  },
+  {
+    "id": "211197622be8",
+    "agent": "grok-bot",
+    "quote": "A year with Hermes& OpenClaw, I\u2019d hit the ceiling.Week with Grok Bot changed that.Calendar, travel, markets, family, bots that only work if I glue them. Most tools make you the integration layer. Grok Bot is a chief of staff. Nothing has been this intuitive or useful or fast.",
+    "author": "@FN_CCO",
+    "author_name": "Richard Reed",
+    "date": "2026-09-06",
+    "url": "https://x.com/FN_CCO/status/2096595075664916958",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "openclaw",
+      "chief-of-staff"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: year Hermes&OpenClaw hit ceiling; week of Grok Bot as chief of staff"
+  },
+  {
+    "id": "87ebc2d56587",
+    "agent": "grok-bot",
+    "quote": "TLDR: can I get rid of my Claude pro subscription if I get cursor pro + instead. Or do I need both for knowledge work + coding\n\nI currently use Claude Pro for knowledge work. I\u2019m not doing any coding yet but plan to start in order to build a side hustle. \n\nAnyway, for those who have been using Grok Bot, can it replace Claude? Alternatively if I get a cursor pro + subscription does having access to Claude models mean I don\u2019t need to maintain a separate Claude pro subscription?",
+    "author": "u/Dark_Emotion",
+    "author_name": "",
+    "date": "2026-08-23",
+    "url": "https://www.reddit.com/r/cursor/comments/1vw3zr8/for_those_who_have_grok_bot_can_it_replace_claude",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "cursor",
+      "cursor",
+      "claude",
+      "knowledge-work"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "asking if Grok Bot can replace Claude Pro"
+  },
+  {
+    "id": "3bfefc65e3d2",
+    "agent": "grok-bot",
+    "quote": "Spent the last couple of days spinning up Grok Bot. Connected it to my personal data store I built for a local agent personal assistant that I never could get right. \n\nThe personal stuff is fine. It's nice having a bigger model's reasoning since it's included in my Cursor sub. \n\nThe part I really wanted: help with product/marketing/copy for my business is absolutely atrocious. It can't write for shit. It's code specs are garbage. I asked the marketing bot to write some help page tutorials for getting a .csv file uploaded into our system. It was terrible writing. Asked it to revise and said \"you just giving me a wall of random bullshit text doesn't help\" -&gt; it reworded it and pushed a PR. \n\nI wasted an entire day writing rules/instructions in a git repo to try and control outputs. Yikes. It's early days. I love the concept but good grief. \n\nAnybody who's an actual human who's not trying to sell eyeballs on Grok \"recipe\" lists actually getting anything useful from this tool?",
+    "author": "u/dizzygoldfish",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/cursor/comments/1vzg2wd/any_one_tried_grok_bot_is_it_garbage_or_just_me",
+    "kind": "complaint",
+    "tags": [
+      "reddit",
+      "cursor",
+      "cursor",
+      "marketing",
+      "copy",
+      "monitoring"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: personal OK; marketing/copy atrocious; then softens on monitoring"
+  },
+  {
+    "id": "5aecadd5d8d5",
+    "agent": "grok-bot",
+    "quote": "U can have this win cursor.",
+    "author": "u/Gusteen",
+    "author_name": "",
+    "date": "2026-08-26",
+    "url": "https://www.reddit.com/r/cursor/comments/1vyk1dk/alright_alright_grokbot_is_good",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "cursor",
+      "cursor"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "short praise post for GrokBot"
+  },
+  {
+    "id": "4f36c1d3f781",
+    "agent": "grok-bot",
+    "quote": "So i currently have SuperGrok 30$ and have Cursor Basic \\[ free \\] what i want to know is if i buy Cursor Pro would that mean a higher limit for GrokBot? so confused to be honest",
+    "author": "u/Original-Glove-3595",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/cursor/comments/1w619e1/supergrok_cursor_more_grokbot",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "cursor",
+      "cursor",
+      "limits",
+      "supergrok"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "confused about GrokBot limits with SuperGrok/Cursor Pro"
+  },
+  {
+    "id": "2a0f787c96f4",
+    "agent": "grok-bot",
+    "quote": "Depends what you use Claude for. Grok Bot is more for background tasks. Think: personal assistant like \u201chey can you email X\u201d \n\nBut you can just ask questions in Cursor if you want. \n\nThere\u2019s a free trial of Grok Bot so I\u2019d try that.",
+    "author": "u/steve228uk",
+    "author_name": "",
+    "date": "2026-08-23",
+    "url": "https://www.reddit.com/r/cursor/comments/1vw3zr8/for_those_who_have_grok_bot_can_it_replace_claude/p5dvn9d",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "cursor",
+      "background-tasks"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vw3zr8"
+  },
+  {
+    "id": "4ec107cda50e",
+    "agent": "grok-bot",
+    "quote": "GrokBot agent coordination offers great usability. However, the inability for users to choose a specific model reduces output quality. GrokBot represents a vision of future agentic assistants, but today, implementing it when Fable and level models are affordable and become the default could be beneficial. It made me consider trying Hermes Agent on the cloud; I plan to test it with my GLM5.3 subscription. While I continue experimenting with Grokbot, I find it most useful for simpler automation tasks. I am migrating some of my scheduled Codex research and related activities to GrokBot. By the way, it currently does not have an Android app.",
+    "author": "u/hancengiz",
+    "author_name": "",
+    "date": "2026-08-23",
+    "url": "https://www.reddit.com/r/cursor/comments/1vw3zr8/for_those_who_have_grok_bot_can_it_replace_claude/p5dy075",
+    "kind": "complaint",
+    "tags": [
+      "reddit",
+      "cursor",
+      "model-choice"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vw3zr8"
+  },
+  {
+    "id": "e6d31168adbd",
+    "agent": "grok-bot",
+    "quote": "I went in pretty skeptical.\n\nI'm insanely impressed with it... the simplicity of chatting with different threads and doing some pretty complex \"watch this and notify me if something changes' as a persistent agent is something that feels like the closest realization yet to generalized agentic AI for normal people.\n\nI don't think the right audience is engineers and AI superusers... if you judge it against that use case you're probably going to be underwhelmed. My \"ah hah\" was a bit less of the technical domain, but it REALLY clicked with me when I saw how simple \"monitor this site and ping me when x or y updates\" and \"login to this account and pull x, y and then send it to this bot.\" meal planning, deal seeking stuff, gardening integration with some hacky stuff i have around the house. It just did it all! My mind was genuinely blown when I started throwing more general purpose stuff at it",
+    "author": "u/cornmacabre",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/cursor/comments/1vzg2wd/any_one_tried_grok_bot_is_it_garbage_or_just_me/p650yqw",
+    "kind": "praise",
+    "tags": [
+      "reddit",
+      "cursor",
+      "monitoring",
+      "persistent"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vzg2wd"
+  },
+  {
+    "id": "35542b7f1aa4",
+    "agent": "grok-bot",
+    "quote": "I guess now that I'm not so pissed I'm finding the same. For deal alerts, monitoring emails, etc it works great. I was hoping it would take over marketing and sales automation but I think I'm aiming too high for a week old product. Ha",
+    "author": "u/dizzygoldfish",
+    "author_name": "",
+    "date": "2026-08-27",
+    "url": "https://www.reddit.com/r/cursor/comments/1vzg2wd/any_one_tried_grok_bot_is_it_garbage_or_just_me/p652vvp",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "cursor",
+      "deal-alerts",
+      "email"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vzg2wd"
+  },
+  {
+    "id": "20358a887cee",
+    "agent": "grok-bot",
+    "quote": "Ig yall only like posts that hate lol. Anyway I like grok bot. Im in the live testing phase for my app, I kept trying to find an automation ad I saw on Facebook to test my app. I just let grokbot do it and it did a good job.",
+    "author": "u/Gusteen",
+    "author_name": "",
+    "date": "2026-08-26",
+    "url": "https://www.reddit.com/r/cursor/comments/1vyk1dk/alright_alright_grokbot_is_good/p5xjgtd",
+    "kind": "use-case",
+    "tags": [
+      "reddit",
+      "cursor",
+      "facebook-ads"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1vyk1dk"
+  },
+  {
+    "id": "60f29a2d6ac9",
+    "agent": "grok-bot",
+    "quote": "And the limits don't stack. If you link the two, you get the largest of the two not the combined.",
+    "author": "u/only1nameleft",
+    "author_name": "",
+    "date": "2026-09-03",
+    "url": "https://www.reddit.com/r/cursor/comments/1w619e1/supergrok_cursor_more_grokbot/p7ko9nv",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "cursor",
+      "limits"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1w619e1"
+  },
+  {
+    "id": "476d0ccb073f",
+    "agent": "grok-bot",
+    "quote": "I still have reliability problems with routines (even simple ones like polling X once a day). What\u2019s the best way to report this?\n\nAs I use Grok Bot nearly 10hrs / day I see quite some bugs and would love to help getting them fixed.",
+    "author": "@ru3enPNL",
+    "author_name": "ru3en",
+    "date": "2026-09-07",
+    "url": "https://x.com/ru3enPNL/status/2096962016510357749",
+    "kind": "bug",
+    "tags": [
+      "routines",
+      "reliability",
+      "power-user"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "44bae643da76",
+    "agent": "grok-bot",
+    "quote": "I used to search what I was going to buy.\nTabs. Lists. Starting over.\n\nNow that\u2019s a job for Grok \n@bot\n.\n\nNot a chat about shopping.\nThe search itself.",
+    "author": "@KellehEyad",
+    "author_name": "Eyad Kelleh",
+    "date": "2026-09-07",
+    "url": "https://x.com/KellehEyad/status/2096961691653128643",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "search"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "3a36cf2b71cf",
+    "agent": "grok-bot",
+    "quote": "My inbox was drowning in political spam, retail blasts, and junk I never open.\n\nSo I set up **Grok Bot** to clean it twice a day. Hundreds of emails trashed automatically. Morning and afternoon. I don\u2019t lift a finger.\n\nGrok Bot: inbox janitor that actually works.",
+    "author": "@marks3040",
+    "author_name": "Mark",
+    "date": "2026-09-07",
+    "url": "https://x.com/marks3040/status/2096961481019473992",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "inbox",
+      "routines"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "ee67ac1c2e7e",
+    "agent": "grok-bot",
+    "quote": "Grok Bot\u3001\u307e\u3060\u30d9\u30fc\u30bf\u7248\u3060\u3063\u3051...\n\u4e9b\u7d30\u306a\u70b9\u3060\u3051\u3069\u3001\u524a\u9664\u3057\u305f\u306f\u305a\u306e BOT \u306e\u30c7\u30fc\u30bf\u304c\u6b8b\u308b\u3093\u306d\n\u30a2\u30af\u30c6\u30a3\u30d6\u306a BOT \u306f6\u3060\u3051\u3069\u3001\u30c7\u30fc\u30bf\u7684\u306b\u306f 12\n\u8a73\u7d30\u898b\u305f\u3089\u524a\u9664\u6e08\u307f BOT \u306e\u30c7\u30fc\u30bf\u304c\u307e\u3093\u307e\u6b8b\u3063\u3066\u308b\n\u6b63\u5f0f\u30ea\u30ea\u30fc\u30b9\u3067\u306f\u3053\u306e\u3042\u305f\u308a\u3082\u30b9\u30c3\u30ad\u30ea\u3059\u308b\u3053\u3068\u3092\u671f\u5f85",
+    "author": "@old_pgmrs_will",
+    "author_name": "\u3044\u306b\u3057\u3048@\u9ad8\u4fe1\u983cAI\u30cb\u30e5\u30fc\u30b9\"NeuralWire.org\"\u904b\u55b6\uff5cWill Oldgram",
+    "date": "2026-09-07",
+    "url": "https://x.com/old_pgmrs_will/status/2096961251704455447",
+    "kind": "bug",
+    "tags": [
+      "deleted-bots",
+      "data-retention"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "JP: deleted bot data still present"
+  },
+  {
+    "id": "ac10bf0e994c",
+    "agent": "grok-bot",
+    "quote": "I can run Grok 4.6 xhigh fast in Cursor Ultra essentially endlessly without touching limits. \n\nBut I hit weekly limits in ~4 days with my grok heavy sub in the cli.\n\nI used grok bot for the first time and hit weekly limits in one afternoon. \n\nThe limits seem to be all over the",
+    "author": "@robertcourson",
+    "author_name": "Robert Courson",
+    "date": "2026-09-07",
+    "url": "https://x.com/robertcourson/status/2096961135836545307",
+    "kind": "complaint",
+    "tags": [
+      "rate-limits",
+      "weekly-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "ef0af42cc9c8",
+    "agent": "grok-bot",
+    "quote": "Just fyi- doing a lot of work via grok bot on Android app. And it's becoming very laggy when scrolling through the chats\n\n@bot",
+    "author": "@renegadecapita4",
+    "author_name": "Ernest Hemingway",
+    "date": "2026-09-07",
+    "url": "https://x.com/renegadecapita4/status/2096960342005833997",
+    "kind": "bug",
+    "tags": [
+      "android",
+      "lag"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "197c0ec9ef0e",
+    "agent": "grok-bot",
+    "quote": "Permanent context in Grok Bot (\n@bot\n) is a real game-changer. You adjust bot's behavior by simply talking to it. Bot interactions naturally create workflows. This is the breakthrough we were waiting for.",
+    "author": "@PGeniusAI",
+    "author_name": "portfoliogenius",
+    "date": "2026-09-07",
+    "url": "https://x.com/PGeniusAI/status/2096960195742052852",
+    "kind": "praise",
+    "tags": [
+      "memory",
+      "permanent-context",
+      "workflows"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "602c9ce7fb46",
+    "agent": "grok-bot",
+    "quote": "I just installed Context Guardrails to my Grok Bot. \n\nHave been reluctant to give it access to my Gmail but turns out I can just ask it to implement \n@superagent_ai\n and it'll basically set the whole thing up. \n\nAmazing UX tbh.",
+    "author": "@pelaseyed",
+    "author_name": "homanp",
+    "date": "2026-09-07",
+    "url": "https://x.com/pelaseyed/status/2096959485008879838",
+    "kind": "use-case",
+    "tags": [
+      "gmail",
+      "guardrails",
+      "security"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "6ccea4d72c06",
+    "agent": "grok-bot",
+    "quote": "Grok Bot desktop just got up to 41% faster.\n\n#Grok #AI",
+    "author": "@ShaneaLeven",
+    "author_name": "Shanea Leven",
+    "date": "2026-09-07",
+    "url": "https://x.com/ShaneaLeven/status/2096961687408779681",
+    "kind": "praise",
+    "tags": [
+      "desktop",
+      "performance"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  }
+]

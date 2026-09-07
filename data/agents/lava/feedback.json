@@ -1,0 +1,171 @@
+[
+  {
+    "id": "c3f15b95630f",
+    "agent": "lava",
+    "quote": "I've been loving Lava agent in Slack!",
+    "author": "@jimjimma5",
+    "author_name": "James Colistra",
+    "date": "2026-09-03",
+    "url": "https://x.com/jimjimma5/status/2095308881467453571",
+    "kind": "praise",
+    "tags": [
+      "slack",
+      "third-party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "third-party: loving Lava agent in Slack"
+  },
+  {
+    "id": "c9d54c1eff94",
+    "agent": "lava",
+    "quote": "I would add \n@trylava\n , and try outreach. Any agent capable of helping get leads and facilitating distribution is a must",
+    "author": "@Robert_Topkifer",
+    "author_name": "Robert.tk",
+    "date": "2026-09-06",
+    "url": "https://x.com/Robert_Topkifer/status/2096623858321121654",
+    "kind": "other",
+    "tags": [
+      "outreach",
+      "leads",
+      "third-party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "third-party: would add @trylava for outreach/leads distribution"
+  },
+  {
+    "id": "cdfbbd1e58cf",
+    "agent": "lava",
+    "quote": "Your Lava agent already worked on your desktop. Now it also meets you in Slack.\n\nOne agent. Two ways to reach it.\n\nMessage it in a DM or mention it in a channel. It runs as you, with your tools. \n\nhttps://\nlava.so",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-09-02",
+    "url": "https://x.com/trylava/status/2095135044381675562",
+    "kind": "other",
+    "tags": [
+      "desktop",
+      "slack",
+      "channels",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "official: desktop agent now also in Slack DM/mention"
+  },
+  {
+    "id": "25d64add7847",
+    "agent": "lava",
+    "quote": "Lava Desktop is live today. An AI agent that lives alongside your apps and does the work through their APIs. Read in Gmail, post in Slack, approve before it sends. It turns a conversation into a routine the agent runs for you.\n\nhttps://\nlava.so/lavadesktop",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-08-26",
+    "url": "https://x.com/trylava/status/2092748987212185875",
+    "kind": "other",
+    "tags": [
+      "desktop",
+      "gmail",
+      "slack",
+      "routines",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "official: Lava Desktop live \u2014 apps via APIs, approve before send"
+  },
+  {
+    "id": "3247b5eadf91",
+    "agent": "lava",
+    "quote": "Lava Desktop is now live. We built it for the people still doing by hand what AI should be doing for them. It turns a conversation into a routine the agent runs for you.\n\nhttps://\nlava.so/lavadesktop",
+    "author": "@MitchJones_",
+    "author_name": "Mitchell Jones",
+    "date": "2026-08-27",
+    "url": "https://x.com/MitchJones_/status/2092764094973477346",
+    "kind": "other",
+    "tags": [
+      "desktop",
+      "routines",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: Lava Desktop live; conversation \u2192 routine"
+  },
+  {
+    "id": "24132d8beef0",
+    "agent": "lava",
+    "quote": "We built the Lava Agent, an AI agent that works across your apps. For a while it only lived on your desktop, so you could ask it to check your calendar, draft a reply, update a deal, and once you set it up, run those as routines on its own. Now it's in Slack too.",
+    "author": "@MitchJones_",
+    "author_name": "Mitchell Jones",
+    "date": "2026-09-02",
+    "url": "https://x.com/MitchJones_/status/2095134939054227675",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "crm",
+      "slack",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: desktop agent calendar/reply/deal update; now Slack too"
+  },
+  {
+    "id": "2e3909d20e02",
+    "agent": "lava",
+    "quote": "Always so cool to see how \n@trylava\n customers are using Lava to do things from moving part orders in ERPs to building their lists in CRMs!",
+    "author": "@MitchJones_",
+    "author_name": "Mitchell Jones",
+    "date": "2026-09-02",
+    "url": "https://x.com/MitchJones_/status/2095233342761296008",
+    "kind": "use-case",
+    "tags": [
+      "erp",
+      "crm",
+      "customers",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "founder: customers moving part orders in ERPs / building CRM lists"
+  },
+  {
+    "id": "6039250821f6",
+    "agent": "lava",
+    "quote": "Routines are live: workflows that run on a schedule in the cloud, with no one watching. New apps in the catalog include Shopify, Asana, Canva, and Figma. Connect your tools to Lava once, and the agent reaches everything from there. \nhttp://\nlava.so",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-08-13",
+    "url": "https://x.com/trylava/status/2087690640976945585",
+    "kind": "other",
+    "tags": [
+      "routines",
+      "shopify",
+      "asana",
+      "figma",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "official: scheduled cloud routines; Shopify/Asana/Canva/Figma"
+  },
+  {
+    "id": "8e20f3e4c4a1",
+    "agent": "lava",
+    "quote": "LinkedIn research is not a standard feature in any MCP server.\n\nOur daily meeting prep workflow does it anyway, through Lava's connection to hundreds of providers. It reads your calendar, checks past emails, and sends one brief.\n\nLink in the first comment. DM us for setup help.",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-07-08",
+    "url": "https://x.com/trylava/status/2074924011205558610",
+    "kind": "use-case",
+    "tags": [
+      "meeting-prep",
+      "linkedin",
+      "calendar",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T19:51:49.538229+00:00",
+    "notes": "official: daily meeting prep via LinkedIn research + calendar + email"
+  }
+]

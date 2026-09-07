@@ -1,0 +1,11 @@
+{
+  "slug": "shuffle",
+  "name": "Shuffle",
+  "site": "https://shuffle.cool/",
+  "handles": [
+    "Shuffle"
+  ],
+  "status": "confirmed",
+  "notes": "shuffle.cool/@addshuffle quiet; avoid textshuffle confusion.",
+  "public_signal": "low"
+}

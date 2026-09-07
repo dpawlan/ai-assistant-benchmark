@@ -1,0 +1,72 @@
+[
+  {
+    "key": "online_task",
+    "label": "Carrying out an online task",
+    "group": "core"
+  },
+  {
+    "key": "recommendation_quality",
+    "label": "Recommendation quality",
+    "group": "core"
+  },
+  {
+    "key": "purchasing",
+    "label": "Purchasing a product",
+    "group": "core"
+  },
+  {
+    "key": "email_replies",
+    "label": "Responding to emails",
+    "group": "core"
+  },
+  {
+    "key": "proactive_behavior",
+    "label": "Proactive behavior",
+    "group": "core"
+  },
+  {
+    "key": "running_routine",
+    "label": "Running a routine",
+    "group": "core"
+  },
+  {
+    "key": "third_party_integrations",
+    "label": "Third-party integrations",
+    "group": "core"
+  },
+  {
+    "key": "memory",
+    "label": "Memory",
+    "group": "endorsed"
+  },
+  {
+    "key": "personality",
+    "label": "Personality",
+    "group": "endorsed"
+  },
+  {
+    "key": "phone_calls",
+    "label": "Phone calls",
+    "group": "endorsed"
+  },
+  {
+    "key": "multiplayer_groups",
+    "label": "Multiplayer / groups",
+    "group": "endorsed"
+  },
+  {
+    "key": "chained_tasks",
+    "label": "Chained tasks",
+    "group": "endorsed"
+  },
+  {
+    "key": "proactive_restraint",
+    "label": "Proactive restraint",
+    "group": "endorsed"
+  },
+  {
+    "key": "content_creation_games",
+    "label": "Content creation / games",
+    "group": "endorsed"
+  }
+]

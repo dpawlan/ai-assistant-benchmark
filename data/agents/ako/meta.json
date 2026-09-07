@@ -1,0 +1,22 @@
+{
+  "slug": "ako",
+  "name": "Ako",
+  "site": "https://withako.com/",
+  "handles": [
+    "Ako",
+    "withako",
+    "with_ako",
+    "ntkris"
+  ],
+  "status": "stretch",
+  "product_class": "team_ai_employee",
+  "notes": "Team AI employee on Slack/WhatsApp/email. On board for work-teammate use cases; expect N/A on personal lifestyle PA categories.",
+  "likely_applicable": [
+    "email_replies",
+    "multiplayer_groups",
+    "third_party_integrations",
+    "proactive_behavior",
+    "running_routine"
+  ],
+  "public_signal": "low"
+}

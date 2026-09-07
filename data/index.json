@@ -1,0 +1,329 @@
+{
+  "updated": "2026-09-07",
+  "agent_count": 40,
+  "feedback_count": 795,
+  "confirmed": 30,
+  "stretch": 10,
+  "agents": [
+    {
+      "slug": "ako",
+      "name": "Ako",
+      "status": "stretch",
+      "site": "https://withako.com/",
+      "feedback_count": 8,
+      "public_signal": "low"
+    },
+    {
+      "slug": "asaply",
+      "name": "Asaply",
+      "status": "confirmed",
+      "site": "https://asaply.ai/",
+      "feedback_count": 9,
+      "public_signal": "low"
+    },
+    {
+      "slug": "asmi",
+      "name": "Asmi",
+      "status": "confirmed",
+      "site": "https://asmiai.com/",
+      "feedback_count": 16,
+      "public_signal": null
+    },
+    {
+      "slug": "boba",
+      "name": "Boba",
+      "status": "confirmed",
+      "site": "https://trygist.ai/",
+      "feedback_count": 2,
+      "public_signal": "low"
+    },
+    {
+      "slug": "buoy",
+      "name": "Buoy",
+      "status": "confirmed",
+      "site": "https://buoy.chat/",
+      "feedback_count": 14,
+      "public_signal": "low"
+    },
+    {
+      "slug": "caddy",
+      "name": "Caddy",
+      "status": "confirmed",
+      "site": "https://caddy.app/",
+      "feedback_count": 18,
+      "public_signal": null
+    },
+    {
+      "slug": "catch",
+      "name": "Catch",
+      "status": "confirmed",
+      "site": "https://catchagent.ai/",
+      "feedback_count": 26,
+      "public_signal": null
+    },
+    {
+      "slug": "folk",
+      "name": "Folk",
+      "status": "confirmed",
+      "site": "https://www.folk.com/",
+      "feedback_count": 15,
+      "public_signal": "medium"
+    },
+    {
+      "slug": "grok-bot",
+      "name": "Grok Bot",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 73,
+      "public_signal": null
+    },
+    {
+      "slug": "halo",
+      "name": "Halo",
+      "status": "confirmed",
+      "site": "https://meethalo.app/",
+      "feedback_count": 5,
+      "public_signal": "low"
+    },
+    {
+      "slug": "hirealpha",
+      "name": "HireAlpha",
+      "status": "confirmed",
+      "site": "https://hirealpha.chat/",
+      "feedback_count": 4,
+      "public_signal": "low"
+    },
+    {
+      "slug": "instinct",
+      "name": "Instinct",
+      "status": "confirmed",
+      "site": "https://instinct.co/",
+      "feedback_count": 85,
+      "public_signal": null
+    },
+    {
+      "slug": "joshu",
+      "name": "Joshu",
+      "status": "confirmed",
+      "site": "https://joshu.me/",
+      "feedback_count": 19,
+      "public_signal": null
+    },
+    {
+      "slug": "lava",
+      "name": "Lava",
+      "status": "stretch",
+      "site": "https://www.lava.so/",
+      "feedback_count": 9,
+      "public_signal": "low"
+    },
+    {
+      "slug": "lucas",
+      "name": "Lucas",
+      "status": "confirmed",
+      "site": "https://meetlucas.ai/",
+      "feedback_count": 11,
+      "public_signal": "low"
+    },
+    {
+      "slug": "mana",
+      "name": "Mana",
+      "status": "confirmed",
+      "site": "https://mana.space/",
+      "feedback_count": 10,
+      "public_signal": "low"
+    },
+    {
+      "slug": "miso",
+      "name": "Miso",
+      "status": "confirmed",
+      "site": "https://miso.com/",
+      "feedback_count": 17,
+      "public_signal": "high"
+    },
+    {
+      "slug": "moves",
+      "name": "Moves",
+      "status": "stretch",
+      "site": null,
+      "feedback_count": 0,
+      "public_signal": "unknown"
+    },
+    {
+      "slug": "ollie",
+      "name": "Ollie",
+      "status": "confirmed",
+      "site": "https://ollie.ai/",
+      "feedback_count": 24,
+      "public_signal": null
+    },
+    {
+      "slug": "openinstinct",
+      "name": "OpenInstinct",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 17,
+      "public_signal": null
+    },
+    {
+      "slug": "orchid",
+      "name": "Orchid",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 29,
+      "public_signal": null
+    },
+    {
+      "slug": "pally",
+      "name": "Pally",
+      "status": "confirmed",
+      "site": "https://pally.com/",
+      "feedback_count": 20,
+      "public_signal": null
+    },
+    {
+      "slug": "personal-local",
+      "name": "personal/local",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 52,
+      "public_signal": null
+    },
+    {
+      "slug": "pneum",
+      "name": "Pneum.ai",
+      "status": "stretch",
+      "site": "https://pneum.ai/",
+      "feedback_count": 0,
+      "public_signal": "low"
+    },
+    {
+      "slug": "poke",
+      "name": "Poke",
+      "status": "confirmed",
+      "site": "https://poke.com/",
+      "feedback_count": 36,
+      "public_signal": null
+    },
+    {
+      "slug": "shoponscout",
+      "name": "ShopOnScout / Scout",
+      "status": "stretch",
+      "site": "https://shoponscout.com/",
+      "feedback_count": 10,
+      "public_signal": "low"
+    },
+    {
+      "slug": "shuffle",
+      "name": "Shuffle",
+      "status": "confirmed",
+      "site": "https://shuffle.cool/",
+      "feedback_count": 4,
+      "public_signal": "low"
+    },
+    {
+      "slug": "sircle",
+      "name": "Sircle",
+      "status": "stretch",
+      "site": null,
+      "feedback_count": 0,
+      "public_signal": "unknown"
+    },
+    {
+      "slug": "skydive",
+      "name": "Skydive",
+      "status": "stretch",
+      "site": "https://www.skydive.com/",
+      "feedback_count": 19,
+      "public_signal": "medium"
+    },
+    {
+      "slug": "slashy",
+      "name": "Slashy",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 36,
+      "public_signal": null
+    },
+    {
+      "slug": "soar",
+      "name": "Soar",
+      "status": "confirmed",
+      "site": "https://joinsoar.co/",
+      "feedback_count": 25,
+      "public_signal": null
+    },
+    {
+      "slug": "synorb",
+      "name": "Synorb",
+      "status": "stretch",
+      "site": "https://synorb.com/",
+      "feedback_count": 8,
+      "public_signal": "medium"
+    },
+    {
+      "slug": "szn",
+      "name": "szn",
+      "status": "confirmed",
+      "site": "https://theszn.ai/",
+      "feedback_count": 20,
+      "public_signal": null
+    },
+    {
+      "slug": "text-zero",
+      "name": "Text Zero",
+      "status": "stretch",
+      "site": "https://meetzero.ai/",
+      "feedback_count": 9,
+      "public_signal": "low"
+    },
+    {
+      "slug": "tinynature",
+      "name": "tinyNature",
+      "status": "confirmed",
+      "site": "https://tinypeople.ai/",
+      "feedback_count": 19,
+      "public_signal": "medium"
+    },
+    {
+      "slug": "tomo",
+      "name": "Tomo",
+      "status": "confirmed",
+      "site": "https://tomo.ai/",
+      "feedback_count": 24,
+      "public_signal": null
+    },
+    {
+      "slug": "town",
+      "name": "Town",
+      "status": "confirmed",
+      "site": "https://www.town.com/",
+      "feedback_count": 36,
+      "public_signal": null
+    },
+    {
+      "slug": "vellum",
+      "name": "Vellum",
+      "status": "confirmed",
+      "site": "",
+      "feedback_count": 34,
+      "public_signal": null
+    },
+    {
+      "slug": "wajo-fo",
+      "name": "Wajo / Fo",
+      "status": "confirmed",
+      "site": "https://wajo.ai/",
+      "feedback_count": 25,
+      "public_signal": null
+    },
+    {
+      "slug": "waldo",
+      "name": "Waldo",
+      "status": "stretch",
+      "site": "https://heywaldo.in/",
+      "feedback_count": 7,
+      "public_signal": "low"
+    }
+  ]
+}

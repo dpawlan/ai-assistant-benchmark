@@ -13,3 +13,8 @@ Site: https://miso.com/
 - [praise] @martinmartinmro: @paulbz  you should try  @bookwithmiso . Humans + ai to book travel
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-07) @paulbz: love to try.. appears to not be available in UK

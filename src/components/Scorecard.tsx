@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
-import { CompareRow, Comparison, OUTCOME_LABEL, cardImagePath, cardPath, comparePath, shortDate, verdict } from '@/lib/compare-shared';
+import { CompareRow, Comparison, OUTCOME_LABEL, cardPath, comparePath, shortDate, verdict } from '@/lib/compare-shared';
 import { Run } from '@/lib/types';
 
 interface ScorecardProps {
@@ -23,25 +23,23 @@ function Check() {
   );
 }
 
-function RunLine({ run, slug }: { run: Run | null; slug: string }) {
-  if (!run) return <span className="hh-run empty">Not tested</span>;
-  const thread = run.evidence_url ? (
-    run.evidence_url.startsWith('/') ? (
-      <Link href={run.evidence_url}>Thread</Link>
-    ) : (
-      <a href={run.evidence_url} target="_blank" rel="noopener noreferrer">
-        Evidence
-      </a>
-    )
-  ) : (
-    <Link href={`/agents/${slug}`}>Profile</Link>
-  );
+/** The score itself is the link: to the thread when there is one, otherwise to the profile. */
+function ScoreLink({ run, slug, value, win }: { run: Run | null; slug: string; value: CompareRow['a']; win: boolean }) {
+  const href = run?.evidence_url && run.evidence_url.startsWith('/') ? run.evidence_url : `/agents/${slug}`;
+  const label = run?.evidence_url && run.evidence_url.startsWith('/') ? 'Read the thread' : 'Open profile';
   return (
-    <span className="hh-run">
-      <span className="hh-run-meta">
-        {OUTCOME_LABEL[run.outcome] ?? run.outcome} · {run.protocol === 'task' ? 'test' : 'observed'} · {shortDate(run.date)} · {thread}
-      </span>
-      {run.notes && <span className="hh-note">{run.notes}</span>}
+    <Link href={href} className={`hh-score${win ? ' win' : ''}`} title={run ? label : 'Not tested'}>
+      <ScoreCell value={value} />
+      {win && <Check />}
+    </Link>
+  );
+}
+
+function Meta({ run }: { run: Run | null }) {
+  if (!run) return <span className="hh-meta empty">Not tested</span>;
+  return (
+    <span className="hh-meta">
+      {OUTCOME_LABEL[run.outcome] ?? run.outcome} · {run.protocol === 'task' ? 'test' : 'observed'} · {shortDate(run.date)}
     </span>
   );
 }
@@ -51,8 +49,6 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   const { a, b, rows } = comparison;
   const [focus, setFocus] = useState<string[]>(initialFocus);
   const [copied, setCopied] = useState(false);
-  const [note, setNote] = useState<string | null>(null);
-  const [busy, setBusy] = useState(false);
 
   const ordered = (keys: string[]) => rows.map(r => r.key).filter(k => keys.includes(k));
 
@@ -72,11 +68,6 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   const postOnX = () => {
     const intent = `https://x.com/intent/post?${new URLSearchParams({ text: shareText, url: url() }).toString()}`;
     window.open(intent, '_blank', 'noopener,noreferrer');
-  };
-
-  const flash = (text: string) => {
-    setNote(text);
-    setTimeout(() => setNote(null), 3500);
   };
 
   const copy = async () => {
@@ -101,56 +92,7 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
     copy();
   };
 
-  const imagePath = cardImagePath(a.slug, b.slug, focus);
-  const imageUrl = () => window.location.origin + imagePath;
   const fileName = `${a.slug}-vs-${b.slug}${focus.length ? '-' + focus.join('-') : ''}.png`;
-
-  const fetchCard = async () => {
-    const res = await fetch(cardPath(a.slug, b.slug, focus));
-    if (!res.ok) throw new Error(`card ${res.status}`);
-    return res.blob();
-  };
-
-  /** Hand the PNG itself to the share sheet (phones), else copy the image (desktop), else download it. */
-  const shareCard = async () => {
-    setBusy(true);
-    try {
-      const blob = await fetchCard();
-      const file = new File([blob], fileName, { type: 'image/png' });
-      if (typeof navigator.share === 'function' && navigator.canShare?.({ files: [file] })) {
-        try {
-          await navigator.share({ files: [file], title: v.headline, text: `${shareText} ${url()}` });
-          return;
-        } catch {
-          return; /* cancelled */
-        }
-      }
-      if (typeof ClipboardItem !== 'undefined' && navigator.clipboard?.write) {
-        try {
-          await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
-          flash('Card copied as an image. Paste it anywhere.');
-          return;
-        } catch {
-          /* clipboard blocked: fall through */
-        }
-      }
-      window.location.href = cardPath(a.slug, b.slug, focus, true);
-      flash('Downloading the card.');
-    } catch {
-      flash('Could not load the card. Try the download link.');
-    } finally {
-      setBusy(false);
-    }
-  };
-
-  const copyImageLink = async () => {
-    try {
-      await navigator.clipboard.writeText(imageUrl());
-      flash('Image link copied.');
-    } catch {
-      window.prompt('Copy this image link', imageUrl());
-    }
-  };
 
   const winner = v.tally.a === v.tally.b ? null : v.tally.a > v.tally.b ? 'a' : 'b';
 
@@ -197,52 +139,21 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
       </header>
 
       <div className="hh-tools">
-        <div className="hh-tool-group">
-          <span className="hh-tool-label">Link</span>
-          <button type="button" className="btn primary" onClick={share}>
-            {copied ? 'Link copied' : 'Share'}
+        <button type="button" className="btn primary" onClick={share}>
+          {copied ? 'Link copied' : 'Share'}
+        </button>
+        <button type="button" className="btn ghost" onClick={postOnX}>
+          Post on X
+        </button>
+        <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)} download={fileName}>
+          Save card
+        </a>
+        {focus.length > 0 && (
+          <button type="button" className="hh-clear" onClick={() => update([])}>
+            Clear highlights
           </button>
-          <button type="button" className="btn ghost" onClick={copy}>
-            Copy link
-          </button>
-          <button type="button" className="btn ghost" onClick={postOnX}>
-            Post on X
-          </button>
-        </div>
-        <div className="hh-tool-group">
-          <span className="hh-tool-label">Card</span>
-          <button type="button" className="btn primary" onClick={shareCard} disabled={busy}>
-            {busy ? 'Preparing…' : 'Share card'}
-          </button>
-          <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)} download={fileName}>
-            Download PNG
-          </a>
-          <button type="button" className="btn ghost" onClick={copyImageLink}>
-            Copy image link
-          </button>
-        </div>
-        <div className="hh-tool-group">
-          <Link className="btn ghost" href={comparePath(b.slug, a.slug, focus)}>
-            Swap sides
-          </Link>
-          {focus.length > 0 && (
-            <button type="button" className="hh-clear" onClick={() => update([])}>
-              Clear highlights
-            </button>
-          )}
-        </div>
+        )}
       </div>
-      {note && (
-        <p className="hh-note-flash" role="status">
-          {note}
-        </p>
-      )}
-
-      <p className="hh-hint">
-        {focus.length
-          ? `${focus.length} ${focus.length === 1 ? 'dimension' : 'dimensions'} highlighted. The tally, link and share card follow your picks.`
-          : 'Tap a dimension to highlight it. The tally, link and share card follow your picks.'}
-      </p>
 
       <div className={`hh-rows${focus.length ? ' focused' : ''}`} aria-label={`${a.name} vs ${b.name} by dimension`}>
         {rows.map(row => (
@@ -250,18 +161,6 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
         ))}
       </div>
 
-      <section className="hh-card">
-        <h2 className="ag-h2">Share card</h2>
-        <p className="ag-sub">This is the image behind the link preview. Tap it to open full size, or press and hold to save on a phone.</p>
-        <a className="hh-card-link" href={imagePath} target="_blank" rel="noopener noreferrer">
-          {/* Rendered by /api/og/compare; a plain img so the preview always matches the real card. */}
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img className="hh-card-img" src={cardPath(a.slug, b.slug, focus)} width={1200} height={630} alt={`${v.headline}. ${v.detail}`} />
-        </a>
-        <p className="hh-card-url">
-          <code>{imagePath}</code>
-        </p>
-      </section>
     </div>
   );
 }
@@ -271,30 +170,26 @@ function Row({ row, a, b, on, toggle }: { row: CompareRow; a: string; b: string;
   return (
     <div className={`hh-row ${state}${on ? ' on' : ''}`}>
       <div className="hh-side hh-a">
-        <span className="hh-scoreline">
-          {row.winner === 'a' && <Check />}
-          <ScoreCell value={row.a} />
-        </span>
-        <RunLine run={row.runA} slug={a} />
-        {row.opinionA && (
-          <span className="hh-op">
-            <OpinionCell stat={row.opinionA} compact /> public
+        <ScoreLink run={row.runA} slug={a} value={row.a} win={row.winner === 'a'} />
+        <Meta run={row.runA} />
+        {row.runA?.notes && (
+          <span className="hh-note" title={row.runA.notes}>
+            {row.runA.notes}
           </span>
         )}
       </div>
       <button type="button" className="hh-cat" onClick={toggle} aria-pressed={on} title={on ? 'Remove highlight' : 'Highlight this dimension'}>
         <span className="hh-cat-label">{row.label}</span>
-        <span className="hh-cat-sub">{row.winner === 'tie' ? 'Tie' : row.winner === null ? 'Not compared' : on ? 'Highlighted' : ''}</span>
+        {(row.winner === 'tie' || row.winner === null || on) && (
+          <span className="hh-cat-sub">{row.winner === 'tie' ? 'Tie' : row.winner === null ? 'Not compared' : 'Highlighted'}</span>
+        )}
       </button>
       <div className="hh-side hh-b">
-        <span className="hh-scoreline">
-          <ScoreCell value={row.b} />
-          {row.winner === 'b' && <Check />}
-        </span>
-        <RunLine run={row.runB} slug={b} />
-        {row.opinionB && (
-          <span className="hh-op">
-            <OpinionCell stat={row.opinionB} compact /> public
+        <ScoreLink run={row.runB} slug={b} value={row.b} win={row.winner === 'b'} />
+        <Meta run={row.runB} />
+        {row.runB?.notes && (
+          <span className="hh-note" title={row.runB.notes}>
+            {row.runB.notes}
           </span>
         )}
       </div>

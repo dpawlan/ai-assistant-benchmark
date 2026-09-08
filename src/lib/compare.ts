@@ -27,8 +27,20 @@ export function parseFocus(raw: string | undefined | null): string[] {
     .filter(k => wanted.has(k));
 }
 
-/** Build the head-to-head for two slugs, or null when either is unknown. */
+/**
+ * Build the head-to-head for two slugs, or null when either is unknown.
+ * The leader is always the left side: the pair is reordered by tally (then overall score, then name),
+ * so /compare/a-vs-b and /compare/b-vs-a render the same page.
+ */
 export function buildComparison(aSlug: string, bSlug: string): Comparison | null {
+  const first = buildOrdered(aSlug, bSlug);
+  if (!first) return null;
+  const t = first.tally;
+  const aLeads = t.a > t.b || (t.a === t.b && (first.a.overall ?? -1) >= (first.b.overall ?? -1));
+  return aLeads ? first : buildOrdered(bSlug, aSlug);
+}
+
+function buildOrdered(aSlug: string, bSlug: string): Comparison | null {
   const a = getAgentDetail(aSlug);
   const b = getAgentDetail(bSlug);
   if (!a || !b || a.slug === b.slug) return null;

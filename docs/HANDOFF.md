@@ -20,6 +20,8 @@ npm run imessage:analyze                                 # -> usage.json (public
 # David scores the drafts: score 1-10 + outcome pass|partial|fail; fix category guesses
 npm run imessage:approve                                 # -> runs.json + evidence/<id>.json (public)
 npm run build
+# Assistants that live in WhatsApp (Muse): export the chat from WhatsApp (chat > name > Export Chat > Without Media) and
+# `node scripts/imessage.mjs import-whatsapp --slug muse --file <export.txt> --me "David Pawlan"`, then analyze/approve as usual.
 # Notes on runs must describe the test (what was asked, what happened), never the scoring. To fill missing ones:
 node scripts/imessage.mjs excerpts --slug grok-bot --missing   # read the redacted episode per run
 node scripts/imessage.mjs notes --slug grok-bot --file notes.json

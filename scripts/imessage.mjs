@@ -7,6 +7,8 @@
  *   node scripts/imessage.mjs approve  [--slug ...] [--publish-excerpts]   scored drafts -> runs.json + public evidence
  *   node scripts/imessage.mjs status
  *   node scripts/imessage.mjs discover [--db ...] [--since ...]   list one-to-one threads so you can map numbers to slugs
+ *   node scripts/imessage.mjs import-whatsapp --slug muse --file ~/Downloads/_chat.txt [--me "David"] [--dayfirst]
+ *                                       a WhatsApp "Export Chat" file becomes the transcript; then analyze/approve as usual
  *   node scripts/imessage.mjs excerpts --slug grok-bot [--missing]  print the redacted episode behind each run (for writing notes)
  *   node scripts/imessage.mjs notes --slug grok-bot --file notes.json   apply {runId: "one-line note"} into runs.json
  *
@@ -59,7 +61,7 @@ function parseArgs(argv) {
 
 async function main() {
   const cmd = parseArgs(process.argv.slice(2));
-  const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes };
+  const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes, 'import-whatsapp': importWhatsApp };
   if (!commands[cmd]) {
     console.error(fs.readFileSync(new URL(import.meta.url)).toString().split('*/')[0].replace('/**', '').replace(/^ \* ?/gm, ''));
     process.exit(1);
@@ -318,6 +320,72 @@ async function discover() {
   }
   console.log('\nAdd assistant numbers to imessage_handles in data/sources.json. Threads with people are listed too; nothing is exported until a number is mapped.');
   db.close();
+}
+
+/* ---------- import: WhatsApp export -> transcript ---------- */
+
+const WA_LINE = /^\u200e?\[?(\d{1,2})[\/.](\d{1,2})[\/.](\d{2,4}),? (\d{1,2}):(\d{2})(?::(\d{2}))?\s?([AaPp][Mm])?\]?\s?[-–]?\s?([^:]+?):\s?(.*)$/;
+
+/** Parse a WhatsApp "Export Chat" text file (iOS or Android format) into transcript messages. Exported for tests. */
+export function parseWhatsApp(text, { agentName, me, dayFirst = false }) {
+  const out = [];
+  let cur = null;
+  const isAgent = sender => {
+    const s = sender.toLowerCase();
+    if (me && s === me.toLowerCase()) return false;
+    return s.includes(agentName.toLowerCase());
+  };
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.replace(/\u200e|\u202f/g, ' ').trim();
+    const m = WA_LINE.exec(line);
+    if (m) {
+      let [, a, b, y, hh, mm, ss, ap, sender, body] = m;
+      const day = dayFirst ? Number(a) : Number(b);
+      const month = dayFirst ? Number(b) : Number(a);
+      let year = Number(y);
+      if (year < 100) year += 2000;
+      let hour = Number(hh);
+      if (ap) {
+        const pm = ap.toLowerCase() === 'pm';
+        if (pm && hour < 12) hour += 12;
+        if (!pm && hour === 12) hour = 0;
+      }
+      const ts = new Date(year, month - 1, day, hour, Number(mm), Number(ss ?? 0)).toISOString();
+      sender = sender.trim();
+      const attachment = /<attached:|omitted>|\bomitted\b/i.test(body);
+      cur = { id: out.length + 1, ts, from: isAgent(sender) ? 'agent' : 'me', text: attachment ? '' : body.trim(), attachment, service: 'WhatsApp' };
+      out.push(cur);
+    } else if (cur && line && !/^Messages and calls are end-to-end encrypted/i.test(line)) {
+      cur.text = (cur.text ? cur.text + '\n' : '') + line;
+    }
+  }
+  return out.filter(m => m.text || m.attachment);
+}
+
+async function importWhatsApp() {
+  const file = opts.file ? String(opts.file).replace(/^~/, os.homedir()) : fail('Pass --file <WhatsApp export .txt>');
+  if (slugs.length !== 1) fail('Pass exactly one --slug');
+  const slug = slugs[0];
+  const text = fs.readFileSync(file, 'utf-8');
+  const messages = parseWhatsApp(text, { agentName: sources[slug].name.split(' /')[0], me: opts.me ? String(opts.me) : undefined, dayFirst: Boolean(opts.dayfirst) });
+  if (!messages.length) fail('No messages parsed. Check the file is a WhatsApp "Export Chat" text export; try --dayfirst if dates are d/m/y.');
+  const agentMsgs = messages.filter(m => m.from === 'agent').length;
+  if (!agentMsgs) fail(`Parsed ${messages.length} messages but none from "${sources[slug].name}". Pass --me "<your name in the export>".`);
+  const existing = readJson(transcriptFile(slug), null);
+  const merged = existing ? [...existing.messages] : [];
+  const seen = new Set(merged.map(m => m.ts + '|' + m.text));
+  let added = 0;
+  for (const m of messages) {
+    const key = m.ts + '|' + m.text;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    merged.push({ ...m, id: merged.length + 1 });
+    added++;
+  }
+  merged.sort((a, b) => a.ts.localeCompare(b.ts));
+  writeJson(transcriptFile(slug), { slug, handles: sources[slug].imessage_handles ?? [], source: 'whatsapp-export', exported_at: new Date().toISOString(), chats: [path.basename(file)], messages: merged });
+  console.log(`${slug}: ${messages.length} messages in file (${agentMsgs} from the assistant), ${added} new, ${merged.length} total -> ${path.relative(ROOT, transcriptFile(slug))}`);
+  console.log('Next: node scripts/imessage.mjs analyze --slug ' + slug);
 }
 
 /* ---------- analyze ---------- */

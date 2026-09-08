@@ -14,7 +14,7 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-cbbcd8"
@@ -24,7 +24,7 @@
     "category": "chained_tasks",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-1142bd"
@@ -74,7 +74,7 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-75751a"
@@ -84,7 +84,7 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
@@ -124,7 +124,7 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-361e63"
@@ -134,7 +134,7 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Nati | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-658962"
@@ -184,7 +184,7 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-27",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-83b894"
@@ -254,7 +254,7 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-30",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-e16984"
@@ -264,7 +264,7 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-08-30",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
@@ -274,7 +274,7 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 8,
+    "score": 9,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 9)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-31fc33"
@@ -354,7 +354,7 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
@@ -374,7 +374,7 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-02",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-02-166c88"
@@ -384,7 +384,7 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-04",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 7)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-c4133d"
@@ -414,7 +414,7 @@
     "category": "recommendation_quality",
     "protocol": "observed",
     "date": "2026-09-05",
-    "score": 6,
+    "score": 7,
     "outcome": "partial",
     "notes": "auto: signals-based; source=Fantasy Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-e51cab"
@@ -434,7 +434,7 @@
     "category": "personality",
     "protocol": "observed",
     "date": "2026-09-06",
-    "score": 6,
+    "score": 7,
     "outcome": "partial",
     "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-a17a8c"
@@ -444,7 +444,7 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-6a95d1"
@@ -464,7 +464,7 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
     "notes": "auto: signals-based; source=Fantasy Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-ef3d33"

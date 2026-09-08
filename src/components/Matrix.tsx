@@ -29,7 +29,7 @@ function benchValue(agent: Agent, key: SortKey): number {
 function opinionValue(agent: Agent, key: SortKey): number {
   if (key === 'endorsed') return agent.opinionOverall.n;
   if (key === 'speed') return benchValue(agent, key);
-  return opinionRank(key === 'core' ? agent.opinionOverall : agent.opinion[key]);
+  return key === 'core' ? opinionRank(agent.opinionOverall, agent.focus !== null) : opinionRank(agent.opinion[key]);
 }
 
 function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
@@ -137,7 +137,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                     </Link>
                   </th>
                   <td className="mx-agg">
-                    {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.core} aggregate />}
+                    {opinion ? <OpinionCell stat={agent.opinionOverall} focus={agent.focus} /> : <ScoreCell value={agent.core} aggregate />}
                   </td>
                   {!opinion && (
                     <td className={`mx-agg mx-speed${sort === 'speed' ? ' sorted' : ''}`}>
@@ -182,6 +182,12 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <span className="op-v">20%</span>
           </span>{' '}
           negative
+          <span className="key-gap" />
+          <span className="sc op sc-5">
+            <span className="op-v">100%</span>
+            <span className="op-n">travel</span>
+          </span>{' '}
+          single-purpose, ranked after general assistants
           <span className="key-gap" />
           <span className="sc op sc-5 thin">
             <span className="op-v">100%</span>

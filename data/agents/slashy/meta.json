@@ -8,5 +8,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "The AI assistant that does email for you",
-  "icon": "/logos/slashy.png"
+  "icon": "/logos/slashy.png",
+  "focus": "email"
 }

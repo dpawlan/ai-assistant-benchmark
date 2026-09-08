@@ -173,7 +173,8 @@
       "feedback_count": 65,
       "public_signal": "high",
       "tagline": "Personal AI travel agent, over iMessage",
-      "icon": "/logos/miso.png"
+      "icon": "/logos/miso.png",
+      "focus": "travel"
     },
     {
       "slug": "moves",
@@ -263,7 +264,8 @@
       "feedback_count": 44,
       "public_signal": "low",
       "tagline": "Your retail therapist. Talk to shop.",
-      "icon": "/logos/shoponscout.png"
+      "icon": "/logos/shoponscout.png",
+      "focus": "shopping"
     },
     {
       "slug": "shuffle",
@@ -273,7 +275,8 @@
       "feedback_count": 4,
       "public_signal": "low",
       "tagline": "AI you can text and call for images, memes and more",
-      "icon": "/logos/shuffle.png"
+      "icon": "/logos/shuffle.png",
+      "focus": "games"
     },
     {
       "slug": "sircle",
@@ -303,7 +306,8 @@
       "feedback_count": 139,
       "public_signal": null,
       "tagline": "The AI assistant that does email for you",
-      "icon": "/logos/slashy.png"
+      "icon": "/logos/slashy.png",
+      "focus": "email"
     },
     {
       "slug": "soar",
@@ -313,7 +317,8 @@
       "feedback_count": 82,
       "public_signal": null,
       "tagline": "Your personal travel companion",
-      "icon": "/logos/soar.png"
+      "icon": "/logos/soar.png",
+      "focus": "travel"
     },
     {
       "slug": "synorb",

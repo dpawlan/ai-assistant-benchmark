@@ -145,6 +145,8 @@ export interface AgentMeta {
   likely_applicable?: string[];
   tagline?: string;
   icon?: string | null;
+  /** Single-purpose products ("travel", "email"): ranked after general assistants in overall opinion. */
+  focus?: string;
 }
 
 export interface AgentScores {
@@ -160,6 +162,7 @@ export interface RosterEntry {
   public_signal: PublicSignal;
   tagline?: string;
   icon?: string | null;
+  focus?: string;
 }
 
 export interface IndexData {
@@ -180,6 +183,8 @@ export interface Agent {
   publicSignal: PublicSignal;
   tagline: string;
   icon: string | null;
+  /** Single-purpose product, e.g. "travel". Null for general assistants. */
+  focus: string | null;
   /** Derived per-category scores: latest run wins, then scores.json, then N/A pre-fill for stretch products. */
   scores: AgentScores;
   /** Latest run per category, when one exists. */

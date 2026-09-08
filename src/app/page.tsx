@@ -11,7 +11,7 @@ export default function HomePage() {
   const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
 
   return (
-    <div className="wrap">
+    <div className="wrap wide">
       <div className="page-head">
         <h1 className="page-title">Scorecard</h1>
         <p className="page-sub">

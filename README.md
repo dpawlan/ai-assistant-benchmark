@@ -212,6 +212,7 @@ npm run imessage:analyze -- --slug poke     # usage.json (public counts + reply 
 # open runs.draft.json: set score 1-10 and outcome pass|partial|fail on real tests, fix the category guess if needed
 npm run imessage:approve -- --slug poke     # -> runs.json + evidence/<id>.json (public: category, date, timings; no message text)
 node scripts/imessage.mjs discover          # lists every one-to-one thread so you can map numbers to slugs
+node scripts/imessage.mjs import-text --slug muse --file muse.txt --date 2026-09-08   # pasted transcript: lines start "Me:" / "Muse:", optional [3:04 PM]
 node scripts/imessage.mjs import-whatsapp --slug muse --file ~/Downloads/_chat.txt   # WhatsApp "Export Chat" -> transcript, then analyze/approve as usual
 node scripts/imessage.mjs excerpts --slug grok-bot --missing   # print the thread behind each run that has no descriptive note
 node scripts/imessage.mjs notes --slug grok-bot --file notes.json  # apply { runId: "what was asked and what happened" }

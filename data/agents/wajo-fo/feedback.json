@@ -59,7 +59,9 @@
     "kind": "use-case",
     "tags": [
       "calendar",
-      "reschedule"
+      "reschedule",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -76,7 +78,9 @@
     "kind": "other",
     "tags": [
       "launch",
-      "action-agent"
+      "action-agent",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -92,7 +96,9 @@
     "url": "https://x.com/shivanipod/status/2094860664846381525",
     "kind": "other",
     "tags": [
-      "growth"
+      "growth",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -109,7 +115,9 @@
     "kind": "other",
     "tags": [
       "privacy",
-      "security"
+      "security",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -178,7 +186,9 @@
     "tags": [
       "slack",
       "morning-brief",
-      "calls"
+      "calls",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -196,7 +206,9 @@
     "tags": [
       "imessage",
       "booking",
-      "demo"
+      "demo",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -267,7 +279,9 @@
     "tags": [
       "meals",
       "cart",
-      "partner"
+      "partner",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -285,7 +299,9 @@
     "tags": [
       "launch",
       "party",
-      "usage"
+      "usage",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -405,7 +421,9 @@
     "url": "https://x.com/shivanipod/status/2091390999528694021",
     "kind": "use-case",
     "tags": [
-      "parenting"
+      "parenting",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
@@ -421,7 +439,9 @@
     "url": "https://x.com/shivanipod/status/2091394612862890181",
     "kind": "use-case",
     "tags": [
-      "phone"
+      "phone",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
@@ -589,7 +609,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.281Z",
@@ -764,23 +786,6 @@
     "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas"
   },
   {
-    "id": "b65b29c32a5d",
-    "agent": "wajo-fo",
-    "quote": "fazendo as guias do santo e consigo escutar dentro da minha cabeça o \" A Yawo, wu alé, wu alá, kèé wajo \" e to chorando",
-    "author": "@hhtrickele",
-    "author_name": "discorde ai na sua casa",
-    "date": "2026-06-21",
-    "url": "https://x.com/hhtrickele/status/2068537491099979919",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.282Z",
-    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas"
-  },
-  {
     "id": "97455da3681f",
     "agent": "wajo-fo",
     "quote": "if you're building a 10-person unicorn, this dinner is for you.\n\nai-native founders. SF. config week.\npre-seed / seed. invite only. ~20 spots.\n\nno panels. no slides. just the right room.\n\napply → http://luma.com/wajo-1aqj",
@@ -794,40 +799,6 @@
       "x",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.282Z",
-    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas"
-  },
-  {
-    "id": "be1def7d3b79",
-    "agent": "wajo-fo",
-    "quote": "#和音祭 #和ロック\n\nTitle 賽の目、零\n5:21 Male Vo.\n[Wajo (和情) Cyber Rock]\nhttps://suno.com/song/0379ff3a-dbb6-43f9-a32b-76c27c04aef8\n\n古代戦記を起点に、\n博打漫画の詰んだ判断倫理と、\nアウトレイジ映画の乾いた間を混ぜた\n和情サイバーロック。\n\n2X世紀、約82億人が属するグローバル指定互助会。\nその会長が、AIの出した「最適解」を理解したうえで、\nそれでも別の答えを選ぼうとする、その瞬間の歌。\n\nアルゴリズムで割り切れぬ、\n人の情（こころ）と意地（いじ）を。\n\n『ガリアAI戦記 鐵の穹窿』次回予告BGM\n「Bittersweet Breakthrough（ほろ苦い突破口）」カバー。",
-    "author": "@zoi_shiki",
-    "author_name": "ぞい式",
-    "date": "2026-01-31",
-    "url": "https://x.com/zoi_shiki/status/2017610277760737740",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.282Z",
-    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas"
-  },
-  {
-    "id": "776530fa4923",
-    "agent": "wajo-fo",
-    "quote": "壮大なるおまけ２　その１４？\n\n賽の目、零\n5:21\n\n[Wajo (和情) Cyber Rock]\nhttps://suno.com/song/0379ff3a-dbb6-43f9-a32b-76c27c04aef8\n\nアルゴリズムで割り切れぬ、\n人の情（こころ）と意地（いじ）を。\n\n#ガリアAI戦記 #SunoAI #AI音楽",
-    "author": "@zoi_shiki",
-    "author_name": "ぞい式",
-    "date": "2026-01-31",
-    "url": "https://x.com/zoi_shiki/status/2017540484210831642",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.282Z",

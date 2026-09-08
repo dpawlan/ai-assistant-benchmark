@@ -44,7 +44,9 @@
     "kind": "use-case",
     "tags": [
       "safety",
-      "travel"
+      "travel",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -78,7 +80,9 @@
     "kind": "other",
     "tags": [
       "funding",
-      "positioning"
+      "positioning",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -95,7 +99,9 @@
     "kind": "other",
     "tags": [
       "dms",
-      "ghosting"
+      "ghosting",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -358,59 +364,6 @@
       "reply",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: \"pally.com\" | via x402atlas"
-  },
-  {
-    "id": "6a70ca534718",
-    "agent": "pally",
-    "quote": "@samuraipreneur Yes brother\n\nhttp://pally.com check them and waitlist your spot",
-    "author": "@TechByMarkandey",
-    "author_name": "Markandey Sharma",
-    "date": "2025-01-02",
-    "url": "https://x.com/TechByMarkandey/status/1874795069011849446",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: \"pally.com\" | via x402atlas"
-  },
-  {
-    "id": "62710f773e0b",
-    "agent": "pally",
-    "quote": "3 inspiring SaaS ideas we love ❤️\n\n1. http://indiemerger.com by @AlexBelogubov  (Find a co-founder for SaaS in minutes)\n\n2. http://pally.com by @Timb03 (Manage ALL your socials, in one place)\n\n3. http://puffcount.com by @StevenCravotta (The #1 quit vaping App)",
-    "author": "@ploomaagency",
-    "author_name": "Plooma | WordPress Management",
-    "date": "2024-08-01",
-    "url": "https://x.com/ploomaagency/status/1818942115264499869",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: \"pally.com\" | via x402atlas"
-  },
-  {
-    "id": "4d404faf7bbc",
-    "agent": "pally",
-    "quote": "@AndySkraga @oliver__com Just check http://pally.com - most of their backlinks come from free tools.",
-    "author": "@onlinedopamine",
-    "author_name": "Vik",
-    "date": "2024-07-15",
-    "url": "https://x.com/onlinedopamine/status/1812835669586145430",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.617Z",
@@ -1208,7 +1161,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.161Z",
@@ -1246,7 +1201,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.161Z",

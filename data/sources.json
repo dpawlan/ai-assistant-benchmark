@@ -187,7 +187,8 @@
       "handles": [
         "try_caddy",
         "ConnorWaslo",
-        "sanchetio"
+        "sanchetio",
+        "cooperbrown9"
       ],
       "domain": "caddy.app",
       "x_queries": [
@@ -261,7 +262,9 @@
       "handles": [
         "nozomioai",
         "try_folk",
-        "arlanr"
+        "arlanr",
+        "chenxinyan04",
+        "rahaincrease"
       ],
       "domain": "folk.com",
       "x_queries": [
@@ -299,7 +302,9 @@
     "grok-bot": {
       "name": "Grok Bot",
       "handles": [
-        "bot"
+        "bot",
+        "romanugarte_",
+        "joshkim"
       ],
       "domain": "grok.com",
       "x_queries": [
@@ -487,7 +492,10 @@
     "lucas": {
       "name": "Lucas",
       "handles": [
-        "meetlucasai"
+        "meetlucasai",
+        "MaxDerevy",
+        "b2bsaasbunny",
+        "imjayliang"
       ],
       "domain": "meetlucas.ai",
       "x_queries": [
@@ -612,7 +620,8 @@
       "name": "Ollie",
       "handles": [
         "heyollieai",
-        "blennon_"
+        "blennon_",
+        "christyshannon"
       ],
       "domain": "ollie.ai",
       "x_queries": [
@@ -645,7 +654,11 @@
       "name": "OpenInstinct",
       "handles": [
         "merit_systems",
-        "DavidPawlan"
+        "DavidPawlan",
+        "samrags_",
+        "0xMasonH",
+        "samagra_sharma",
+        "rsproule"
       ],
       "domain": "openinstinct.sh",
       "x_queries": [
@@ -676,7 +689,12 @@
       "name": "Orchid",
       "handles": [
         "orchid_hq",
-        "x6c75"
+        "x6c75",
+        "theCTO",
+        "nizzyabi",
+        "adamghaida",
+        "Swedish_chef",
+        "leodev"
       ],
       "domain": "orchid.ai",
       "x_queries": [
@@ -744,7 +762,8 @@
     "personal-local": {
       "name": "personal/local",
       "handles": [
-        "openclaw"
+        "openclaw",
+        "steipete"
       ],
       "domain": null,
       "x_queries": [
@@ -860,7 +879,8 @@
     "shuffle": {
       "name": "Shuffle",
       "handles": [
-        "ebeezy_eth"
+        "ebeezy_eth",
+        "slopdotwtf"
       ],
       "domain": "shuffle.cool",
       "x_queries": [
@@ -917,7 +937,8 @@
       "handles": [
         "getskydive",
         "dhruvamin",
-        "rainn_vibes"
+        "rainn_vibes",
+        "zariazinn"
       ],
       "domain": "skydive.com",
       "x_queries": [
@@ -985,7 +1006,8 @@
       "name": "Soar",
       "handles": [
         "soarapp",
-        "stannostudio"
+        "stannostudio",
+        "ymy1806"
       ],
       "domain": "joinsoar.co",
       "x_queries": [
@@ -1152,7 +1174,8 @@
       "handles": [
         "tomo",
         "justoutquan",
-        "raymondhechen"
+        "raymondhechen",
+        "Jackyhuang"
       ],
       "domain": "tomo.ai",
       "x_queries": [
@@ -1183,7 +1206,8 @@
     "town": {
       "name": "Town",
       "handles": [
-        "TownAI"
+        "TownAI",
+        "jgreze"
       ],
       "domain": "town.com",
       "x_queries": [
@@ -1220,7 +1244,13 @@
     "vellum": {
       "name": "Vellum",
       "handles": [
-        "vellum_ai"
+        "vellum_ai",
+        "marinatrajk",
+        "anitakirkovska",
+        "dvargasfuertes",
+        "kyronis_talks",
+        "kimiatehrani",
+        "grim_tonal"
       ],
       "domain": "vellum.ai",
       "x_queries": [
@@ -1256,7 +1286,8 @@
       "name": "Wajo / Fo",
       "handles": [
         "wajo_ai",
-        "shivanipod"
+        "shivanipod",
+        "galdawave"
       ],
       "domain": "wajo.ai",
       "x_queries": [

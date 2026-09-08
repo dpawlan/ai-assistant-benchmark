@@ -10,7 +10,9 @@
     "kind": "use-case",
     "tags": [
       "vendors",
-      "bookings"
+      "bookings",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -27,7 +29,9 @@
     "kind": "use-case",
     "tags": [
       "fitness",
-      "bookings"
+      "bookings",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -77,7 +81,9 @@
     "url": "https://x.com/nikhilgupta91/status/2092111234065908027",
     "kind": "other",
     "tags": [
-      "preview"
+      "preview",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -168,7 +174,9 @@
     "kind": "other",
     "tags": [
       "life-admin",
-      "positioning"
+      "positioning",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -241,7 +249,9 @@
     "kind": "other",
     "tags": [
       "discovery",
-      "cofounder"
+      "cofounder",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -349,7 +359,10 @@
     "date": "2026-08-30",
     "url": "https://x.com/nikhilgupta91/status/2094195754416164894",
     "kind": "praise",
-    "tags": [],
+    "tags": [
+      "founder",
+      "vendor"
+    ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
     "notes": "weekday-2026-09-07 batch B; founder pitch; thin but product-named"
@@ -579,7 +592,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:16:31.983Z",
@@ -597,7 +612,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:16:31.983Z",
@@ -660,23 +677,6 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:16:31.984Z",
-    "notes": "query: \"szn ai\" OR \"szn assistant\" OR \"szn agent\" | via x402atlas"
-  },
-  {
-    "id": "9fbcb1009205",
-    "agent": "szn",
-    "quote": "The short term fun is nearly over.\n\nCongrats to mini Base szn AI winners - $Gitlawb et al\n\nBut for now - Careful with over exposure onchain. https://t.co/OSdgfdLlmv",
-    "author": "@BernieOnChain",
-    "author_name": "Bernie.",
-    "date": "2026-05-21",
-    "url": "https://x.com/BernieOnChain/status/2057488391948619792",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:16:31.985Z",
     "notes": "query: \"szn ai\" OR \"szn assistant\" OR \"szn agent\" | via x402atlas"
   }
 ]

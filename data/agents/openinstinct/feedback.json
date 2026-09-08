@@ -10,7 +10,9 @@
     "kind": "other",
     "tags": [
       "launch",
-      "oss"
+      "oss",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -27,7 +29,9 @@
     "kind": "other",
     "tags": [
       "launch",
-      "self-host"
+      "self-host",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -44,7 +48,9 @@
     "kind": "other",
     "tags": [
       "deploy",
-      "vercel"
+      "vercel",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -95,7 +101,9 @@
     "kind": "use-case",
     "tags": [
       "browser",
-      "tiktok"
+      "tiktok",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -111,7 +119,9 @@
     "url": "https://x.com/0xMasonH/status/2093335131444388342",
     "kind": "other",
     "tags": [
-      "capability"
+      "capability",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -196,7 +206,9 @@
     "kind": "other",
     "tags": [
       "self-host",
-      "discovery"
+      "discovery",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -213,7 +225,9 @@
     "kind": "other",
     "tags": [
       "oss",
-      "timing"
+      "timing",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -230,7 +244,9 @@
     "kind": "other",
     "tags": [
       "roster",
-      "testing"
+      "testing",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -248,7 +264,9 @@
     "tags": [
       "roster",
       "testing",
-      "david"
+      "david",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -288,60 +306,6 @@
     "source": "x",
     "collected_at": "2026-09-06T15:32:45.259459+00:00",
     "notes": "third-party: setup ordered lunch on own infra; questions why use Instinct"
-  },
-  {
-    "id": "052256176d9b",
-    "agent": "openinstinct",
-    "quote": "@digitaldon_tech @x402scan @merit_systems Hey 👋 Need promo for your project? 🚀\nFollow me &amp; let’s connect 🔙",
-    "author": "@1R3TR_",
-    "author_name": "S𝒂𝒓𝒂𝒉 𝑪𝒂𝒓𝒕𝒆𝒓",
-    "date": "2026-09-05",
-    "url": "https://x.com/1R3TR_/status/2096290433307697560",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.721Z",
-    "notes": "query: @merit_systems | via x402atlas"
-  },
-  {
-    "id": "9d46df29988c",
-    "agent": "openinstinct",
-    "quote": "@digitaldon_tech @x402scan @merit_systems Let's collab together 👋\nMessage me inbox 📥",
-    "author": "@Grace_X101",
-    "author_name": "Nova Grace",
-    "date": "2026-09-05",
-    "url": "https://x.com/Grace_X101/status/2096257500970693119",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.721Z",
-    "notes": "query: @merit_systems | via x402atlas"
-  },
-  {
-    "id": "11c146a656d2",
-    "agent": "openinstinct",
-    "quote": "@digitaldon_tech @merit_systems Can I get a Follow back",
-    "author": "@MrShibaArmy",
-    "author_name": "MR Shiba ARMY",
-    "date": "2026-09-05",
-    "url": "https://x.com/MrShibaArmy/status/2096255622908113291",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.721Z",
-    "notes": "query: @merit_systems | via x402atlas"
   },
   {
     "id": "bba0a7a1cbfb",
@@ -678,7 +642,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.722Z",
@@ -714,7 +680,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.722Z",
@@ -736,23 +704,6 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.722Z",
-    "notes": "query: openinstinct OR \"open instinct\" | via x402atlas"
-  },
-  {
-    "id": "8390aa981cef",
-    "agent": "openinstinct",
-    "quote": "This week we’re cracking open Instinct (1999), the psychological thriller where Anthony Hopkins goes full jungle hermit and Cuba Gooding Jr. tries to figure out why. It’s part Gorillas in the Mist, part Good Will Hunting, and totally off the rails. https://is.gd/UN5z8z https://t.co/CNMobbKDmX",
-    "author": "@ShatTheMovies",
-    "author_name": "𝙎𝙃𝘼𝙏 𝙏𝙃𝙀 𝙈𝙊𝙑𝙄𝙀𝙎",
-    "date": "2025-06-18",
-    "url": "https://x.com/ShatTheMovies/status/1935355390801105284",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.723Z",
     "notes": "query: openinstinct OR \"open instinct\" | via x402atlas"
   },
   {
@@ -1299,7 +1250,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.101Z",
@@ -1563,7 +1516,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.640Z",
@@ -1796,7 +1751,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.640Z",

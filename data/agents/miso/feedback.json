@@ -29,7 +29,9 @@
     "tags": [
       "travel",
       "booking",
-      "recommendation"
+      "recommendation",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -62,7 +64,9 @@
     "kind": "other",
     "tags": [
       "roster",
-      "yes"
+      "yes",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
@@ -912,24 +916,6 @@
     "author_name": "garborg",
     "date": "2025-11-14",
     "url": "https://x.com/garborg/status/1989440354316423333",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.590Z",
-    "notes": "query: @bookwithmiso | via x402atlas"
-  },
-  {
-    "id": "e93b8774de8f",
-    "agent": "miso",
-    "quote": "@bookwithmiso @bdguan DM me pls",
-    "author": "@NewsFinOil",
-    "author_name": "Boar On The Shale Floor",
-    "date": "2025-11-14",
-    "url": "https://x.com/NewsFinOil/status/1989435748702113949",
     "kind": "other",
     "tags": [
       "auto",

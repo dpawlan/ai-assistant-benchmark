@@ -13,7 +13,9 @@
       "B2B",
       "platform-fees",
       "adoption",
-      "Perplexity"
+      "Perplexity",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T14:14:17Z",
@@ -492,7 +494,9 @@
     "tags": [
       "imessage",
       "slack",
-      "ea"
+      "ea",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -529,7 +533,8 @@
       "reddit",
       "email",
       "email",
-      "founder-story"
+      "founder-story",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -546,7 +551,9 @@
     "kind": "other",
     "tags": [
       "imessage",
-      "email"
+      "email",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -1474,42 +1481,6 @@
       "x",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.527Z",
-    "notes": "query: @slashy | via x402atlas"
-  },
-  {
-    "id": "20139bb134bc",
-    "agent": "slashy",
-    "quote": "@tyedyeninja04 @kydavis25 Yea when he was booted I just didn’t interact with him. Think he showed up in one of @slashy x chats one night I was there and that’s about it. Best to just avoid.",
-    "author": "@LineGutter",
-    "author_name": "Kojiro 幸次郎 Brushard (open 0/4)",
-    "date": "2025-03-26",
-    "url": "https://x.com/LineGutter/status/1904685932608962956",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.527Z",
-    "notes": "query: @slashy | via x402atlas"
-  },
-  {
-    "id": "8774c65cc119",
-    "agent": "slashy",
-    "quote": "@nixbambi @slashy @art18bvg @MasMeinung das Kind kann doch argumentieren, dass es zwar nicht auf Netflix verzichten möchte, aber gerne *Vorschlag einfügen* gestrichen werden kann. und dann kann die Familie gemeinsam entscheiden, ob das für alle Sinn  ergibt.\ntraut Kindern mal was zu, die sind nicht alle dumm",
-    "author": "@Kommentarteuse",
-    "author_name": "Conny",
-    "date": "2024-05-02",
-    "url": "https://x.com/Kommentarteuse/status/1785946070746345951",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.527Z",

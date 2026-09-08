@@ -1095,7 +1095,9 @@
     "kind": "other",
     "tags": [
       "bugs",
-      "upgrade"
+      "upgrade",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -1112,7 +1114,9 @@
     "kind": "other",
     "tags": [
       "team",
-      "dogfood"
+      "dogfood",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -1423,7 +1427,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.649Z",
@@ -1441,7 +1447,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.649Z",
@@ -2124,24 +2132,6 @@
     "notes": "query: @openclaw | via x402atlas"
   },
   {
-    "id": "74357dce67a0",
-    "agent": "personal-local",
-    "quote": "@TinyHumansAISol @openclaw @steipete Nothing can stop Tiny",
-    "author": "@bye_bye1000",
-    "author_name": "Spyder",
-    "date": "2026-09-08",
-    "url": "https://x.com/bye_bye1000/status/2097235211788411017",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.472Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
     "id": "2430eaeccbdb",
     "agent": "personal-local",
     "quote": "@driderk @openclaw the silly pass is the part that stays. every release tightens something and you go wire around it again. the box isn't mine anymore, it's rerun's, and i stopped losing evenings to releases https://t.co/nw72EqVXz1",
@@ -2201,24 +2191,6 @@
     "author_name": "Empire👑",
     "date": "2026-09-08",
     "url": "https://x.com/cryptoempire74/status/2097222749735223577",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.472Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
-    "id": "5ac897c88f09",
-    "agent": "personal-local",
-    "quote": "@TinyHumansAISol @openclaw @steipete This is just the beginning. $TINY hasn't start",
-    "author": "@Em_my187",
-    "author_name": "OPTIMIST 🔥🔥🔥",
-    "date": "2026-09-08",
-    "url": "https://x.com/Em_my187/status/2097222653018841125",
     "kind": "other",
     "tags": [
       "auto",
@@ -2502,77 +2474,6 @@
       "auto",
       "x",
       "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.187Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
-    "id": "42f93ec5e045",
-    "agent": "personal-local",
-    "quote": "@TinyHumansAISol @openclaw @steipete The sky is the starting point",
-    "author": "@GravityGr8",
-    "author_name": "GravityGr8 ⚓",
-    "date": "2026-09-08",
-    "url": "https://x.com/GravityGr8/status/2097221583248973837",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.187Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
-    "id": "fad19c113a36",
-    "agent": "personal-local",
-    "quote": "@TinyHumansAISol @openclaw @steipete I hope he get the message :)",
-    "author": "@crypto_chad023",
-    "author_name": "crypto_chad",
-    "date": "2026-09-08",
-    "url": "https://x.com/crypto_chad023/status/2097221492043907233",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.187Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
-    "id": "2b04a4b6ee75",
-    "agent": "personal-local",
-    "quote": "@TinyHumansAISol @openclaw @steipete And tiny will continue to trend",
-    "author": "@Soundboy_Kelvin",
-    "author_name": "kelvin",
-    "date": "2026-09-08",
-    "url": "https://x.com/Soundboy_Kelvin/status/2097221327480328505",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.187Z",
-    "notes": "query: @openclaw | via x402atlas"
-  },
-  {
-    "id": "59207c7a3701",
-    "agent": "personal-local",
-    "quote": "Let that sink in: $Tiny got more github stars than @openclaw today (Sorry @steipete) ⭐️⭐️⭐️⭐️⭐️\nWe’re still in the very early stages and have so much potential in so many areas. The sky’s not the limit.\nhttps://x.com/senamakel/status/2097213056187294049",
-    "author": "@TinyHumansAISol",
-    "author_name": "Tiny",
-    "date": "2026-09-08",
-    "url": "https://x.com/TinyHumansAISol/status/2097221085775220869",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.187Z",
@@ -2930,23 +2831,6 @@
       "auto",
       "x",
       "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.188Z",
-    "notes": "query: openclaw | via x402atlas"
-  },
-  {
-    "id": "b566faddbded",
-    "agent": "personal-local",
-    "quote": "一天之内净赚45,918美元？💰 据称，这仅用一台Mac Mini，一个AI提示，外加OpenClaw自动化实现。无需交易经验或编程技能。这个AI交易机器人全天候在Polymarket运行，据报道每天潜在收益可达约5万美元，交易ETH、SOL、XRP等市场，市场周期在5至15分钟。手动交易的时代可能真的要结束了，AI交易机器人正成为新趋势。Not financial advice。想了解更多操作细节？关注我，点赞并转发！#Polymarket",
-    "author": "@oddsOnPMKT",
-    "author_name": "Alex — Polymarket Odd",
-    "date": "2026-09-08",
-    "url": "https://x.com/oddsOnPMKT/status/2097324411875385584",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.188Z",

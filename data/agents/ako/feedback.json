@@ -54,7 +54,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: guardrails \u2014 disable external communication while allowing internal"
+    "notes": "founder: guardrails — disable external communication while allowing internal"
   },
   {
     "id": "9644840e522b",
@@ -132,7 +132,7 @@
   {
     "id": "68c11aa9dfc9",
     "agent": "ako",
-    "quote": "Ako is very exciting to work on because it\u2019s forcing us to solve critical problems for agents:\n\n- Infra for agents (virtual computers, storage)\n- QA for tasks (skill development, evals) \n- Governance (RBAC)\n\nThese will be important in any version of the world going forward.",
+    "quote": "Ako is very exciting to work on because it’s forcing us to solve critical problems for agents:\n\n- Infra for agents (virtual computers, storage)\n- QA for tasks (skill development, evals) \n- Governance (RBAC)\n\nThese will be important in any version of the world going forward.",
     "author": "@ntkris",
     "author_name": "Krishna",
     "date": "2026-04-17",

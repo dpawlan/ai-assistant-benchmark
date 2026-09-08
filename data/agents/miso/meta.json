@@ -10,5 +10,6 @@
   "notes": "iMessage personal AI travel agent (book/change/cancel flights & hotels). bookwithmiso.com redirects to miso.com. David replied Yessir on @martinmartinmro mention.",
   "public_signal": "high",
   "tagline": "Personal AI travel agent, over iMessage",
-  "icon": "/logos/miso.png"
+  "icon": "/logos/miso.png",
+  "focus": "travel"
 }

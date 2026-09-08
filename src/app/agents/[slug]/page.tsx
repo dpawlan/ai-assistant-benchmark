@@ -91,6 +91,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
             )}
             <div className="ag-chips">
               <span className={`chip${isStretch ? '' : ' blue'}`}>{isStretch ? 'Stretch' : 'Confirmed'}</span>
+              {agent.focus && <span className="chip">{agent.focus[0].toUpperCase() + agent.focus.slice(1)} only</span>}
               {productClass && <span className="chip">{productClass}</span>}
               {signal && <span className="chip">{signal}</span>}
             </div>

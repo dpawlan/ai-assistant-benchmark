@@ -6,9 +6,11 @@ interface OpinionCellProps {
   stat: OpinionStat | undefined;
   /** Category cells: dashed edge only for thin samples, bare count when unscored. Overall cells spell it out. */
   compact?: boolean;
+  /** Single-purpose label ("travel") shown under the overall share. */
+  focus?: string | null;
 }
 
-export function OpinionCell({ stat, compact = false }: OpinionCellProps) {
+export function OpinionCell({ stat, compact = false, focus = null }: OpinionCellProps) {
   if (!stat || stat.n === 0) {
     return (
       <span className="sc sc-null" title="No public quotes about this">
@@ -30,9 +32,9 @@ export function OpinionCell({ stat, compact = false }: OpinionCellProps) {
   const cls =
     stat.score >= 0.85 ? 'sc-5' : stat.score >= 0.7 ? 'sc-4' : stat.score >= 0.55 ? 'sc-3' : stat.score >= 0.45 ? 'sc-0' : stat.score >= 0.3 ? 'sc-n1' : 'sc-n2';
   return (
-    <span className={`sc op ${cls}${thin ? ' thin' : ''}`} title={`${pct}% positive. ${title}${thin ? '. Thin sample.' : ''}`}>
+    <span className={`sc op ${cls}${thin ? ' thin' : ''}`} title={`${pct}% positive. ${title}${thin ? '. Thin sample.' : ''}${focus ? `. ${focus} only.` : ''}`}>
       <span className="op-v">{pct}%</span>
-      {thin && !compact && <span className="op-n">thin</span>}
+      {!compact && (thin ? <span className="op-n">thin</span> : focus ? <span className="op-n">{focus}</span> : null)}
     </span>
   );
 }

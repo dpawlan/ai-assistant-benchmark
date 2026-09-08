@@ -294,6 +294,7 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     publicSignal: entry.public_signal,
     tagline: entry.tagline ?? '',
     icon: entry.icon ?? null,
+    focus: entry.focus ?? null,
     ...deriveScores(entry, meta, categories),
     ...deriveOpinion(entry.slug, categories),
     usage: getUsage(entry.slug),

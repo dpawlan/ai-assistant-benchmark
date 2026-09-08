@@ -1341,6 +1341,39 @@
         "waldoapp"
       ],
       "imessage_handles": []
+    },
+    "muse": {
+      "name": "Muse",
+      "handles": [
+        "Meta",
+        "AIatMeta"
+      ],
+      "domain": "muse.ai",
+      "x_queries": [
+        "\"muse.ai\"",
+        "\"meta muse\"",
+        "muse (meta OR agent OR assistant) -\"music\""
+      ],
+      "reddit_queries": [
+        "\"muse.ai\"",
+        "\"meta muse\""
+      ],
+      "hn_queries": [
+        "\"muse.ai\"",
+        "\"meta muse\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "muse.ai",
+        "meta muse",
+        "muse agent",
+        "muse app",
+        "@meta muse",
+        "muse ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Meta's Muse (2026-09-08). Name collides with the Muse music/other apps; queries pair it with Meta/agent. App Store id unknown at launch: run `collect find-apps --slug muse` in a few days."
     }
   },
   "_redact_terms": [

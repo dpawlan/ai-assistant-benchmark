@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-09-06-78a056",
+  "agent": "grok-bot",
+  "category": "email_replies",
+  "protocol": "observed",
+  "date": "2026-09-06",
+  "signals": {
+    "turns": 8,
+    "my_messages": 1,
+    "agent_messages": 7,
+    "first_reply_s": 33,
+    "duration_min": 44,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

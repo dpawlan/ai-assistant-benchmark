@@ -35,3 +35,7 @@ Needs Full Disk Access for the terminal and Node 22.13+ (built-in SQLite). If `d
 ## Layout reminders
 
 Design system is imessage.store's: system font, seven color tokens, sidebar + hairline rows, one blue accent. Light only. All styling in `src/app/globals.css`. Scorecard matrix is `src/components/Matrix.tsx`; opinion math is in `src/lib/data.ts` (`deriveOpinion`) and `src/lib/score.ts`.
+
+## Grok Bot first-party chats
+
+Grok Bot row evidence can also come from box agent chats (`source: grok-bot-chats` in `data/agents/grok-bot/usage.json`), built with `scripts/grokbot.mjs` / the box analyzer. Same privacy rules as iMessage: no message text in git; only usage, runs, and signals-only evidence JSON.

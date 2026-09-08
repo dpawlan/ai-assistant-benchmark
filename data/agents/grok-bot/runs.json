@@ -1,0 +1,492 @@
+[
+  {
+    "id": "grok-bot-2026-08-17-b4fadb",
+    "category": "chained_tasks",
+    "protocol": "observed",
+    "date": "2026-08-17",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-17-b4fadb"
+  },
+  {
+    "id": "grok-bot-2026-08-19-cbbcd8",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-19",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-cbbcd8"
+  },
+  {
+    "id": "grok-bot-2026-08-19-1142bd",
+    "category": "chained_tasks",
+    "protocol": "observed",
+    "date": "2026-08-19",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-1142bd"
+  },
+  {
+    "id": "grok-bot-2026-08-19-6816c4",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-19",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "auto: signals-based; source=Nati",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-6816c4"
+  },
+  {
+    "id": "grok-bot-2026-08-19-4addba",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-19",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-4addba"
+  },
+  {
+    "id": "grok-bot-2026-08-20-1d1adc",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-1d1adc"
+  },
+  {
+    "id": "grok-bot-2026-08-20-401ff6",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Life Cleaner",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-401ff6"
+  },
+  {
+    "id": "grok-bot-2026-08-20-75751a",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-75751a"
+  },
+  {
+    "id": "grok-bot-2026-08-20-232496",
+    "category": "content_creation_games",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
+  },
+  {
+    "id": "grok-bot-2026-08-20-ee4646",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-ee4646"
+  },
+  {
+    "id": "grok-bot-2026-08-20-184af4",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-184af4"
+  },
+  {
+    "id": "grok-bot-2026-08-21-e0c246",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-e0c246"
+  },
+  {
+    "id": "grok-bot-2026-08-21-361e63",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-361e63"
+  },
+  {
+    "id": "grok-bot-2026-08-21-658962",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Nati",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-658962"
+  },
+  {
+    "id": "grok-bot-2026-08-21-8c38c0",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-8c38c0"
+  },
+  {
+    "id": "grok-bot-2026-08-21-d60a29",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-d60a29"
+  },
+  {
+    "id": "grok-bot-2026-08-21-20bd08",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-20bd08"
+  },
+  {
+    "id": "grok-bot-2026-08-23-d72f5d",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-23",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-23-d72f5d"
+  },
+  {
+    "id": "grok-bot-2026-08-27-83b894",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-27",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-83b894"
+  },
+  {
+    "id": "grok-bot-2026-08-27-367958",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-27",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-367958"
+  },
+  {
+    "id": "grok-bot-2026-08-27-e5d784",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-27",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-e5d784"
+  },
+  {
+    "id": "grok-bot-2026-08-28-e26439",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-28",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-28-e26439"
+  },
+  {
+    "id": "grok-bot-2026-08-29-24048a",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-29",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-24048a"
+  },
+  {
+    "id": "grok-bot-2026-08-29-633cc0",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-29",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-633cc0"
+  },
+  {
+    "id": "grok-bot-2026-08-29-a1c650",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-29",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-a1c650"
+  },
+  {
+    "id": "grok-bot-2026-08-30-e16984",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-30",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-e16984"
+  },
+  {
+    "id": "grok-bot-2026-08-30-55614e",
+    "category": "content_creation_games",
+    "protocol": "observed",
+    "date": "2026-08-30",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
+  },
+  {
+    "id": "grok-bot-2026-08-31-31fc33",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-31fc33"
+  },
+  {
+    "id": "grok-bot-2026-08-31-049b2a",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-049b2a"
+  },
+  {
+    "id": "grok-bot-2026-08-31-28cf13",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-28cf13"
+  },
+  {
+    "id": "grok-bot-2026-08-31-72888a",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-72888a"
+  },
+  {
+    "id": "grok-bot-2026-08-31-4a2564",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Guap Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-4a2564"
+  },
+  {
+    "id": "grok-bot-2026-09-01-412b7c",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-412b7c"
+  },
+  {
+    "id": "grok-bot-2026-09-01-ef9185",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-ef9185"
+  },
+  {
+    "id": "grok-bot-2026-09-01-071ec9",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-071ec9"
+  },
+  {
+    "id": "grok-bot-2026-09-01-97e3b8",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Dave Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
+  },
+  {
+    "id": "grok-bot-2026-09-01-6d0b46",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-6d0b46"
+  },
+  {
+    "id": "grok-bot-2026-09-02-166c88",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-02",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-02-166c88"
+  },
+  {
+    "id": "grok-bot-2026-09-04-c4133d",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-04",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-c4133d"
+  },
+  {
+    "id": "grok-bot-2026-09-04-1d0a8c",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-04",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-1d0a8c"
+  },
+  {
+    "id": "grok-bot-2026-09-05-0ec163",
+    "category": "content_creation_games",
+    "protocol": "observed",
+    "date": "2026-09-05",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-0ec163"
+  },
+  {
+    "id": "grok-bot-2026-09-05-e51cab",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-09-05",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Fantasy Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-e51cab"
+  },
+  {
+    "id": "grok-bot-2026-09-06-78a056",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-09-06",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-78a056"
+  },
+  {
+    "id": "grok-bot-2026-09-06-a17a8c",
+    "category": "personality",
+    "protocol": "observed",
+    "date": "2026-09-06",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-a17a8c"
+  },
+  {
+    "id": "grok-bot-2026-09-07-6a95d1",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-07",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Agency Review",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-6a95d1"
+  },
+  {
+    "id": "grok-bot-2026-09-07-baea65",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-07",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-baea65"
+  },
+  {
+    "id": "grok-bot-2026-09-07-ef3d33",
+    "category": "content_creation_games",
+    "protocol": "observed",
+    "date": "2026-09-07",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=Fantasy Bot",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-ef3d33"
+  },
+  {
+    "id": "grok-bot-2026-09-07-b1963d",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-07",
+    "score": 6,
+    "outcome": "pass",
+    "notes": "auto: signals-based; source=AI Bench",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-b1963d"
+  },
+  {
+    "id": "grok-bot-2026-09-07-58cf54",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-09-07",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "auto: signals-based; source=Social",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-58cf54"
+  }
+]

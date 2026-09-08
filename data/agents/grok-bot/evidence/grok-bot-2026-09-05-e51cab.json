@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-09-05-e51cab",
+  "agent": "grok-bot",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-09-05",
+  "signals": {
+    "turns": 13,
+    "my_messages": 3,
+    "agent_messages": 10,
+    "first_reply_s": 15,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

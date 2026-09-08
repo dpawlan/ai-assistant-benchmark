@@ -89,7 +89,7 @@ export default async function EvidencePage({ params }: Props) {
           </span>
           {s.agent_initiated && <span>started by the assistant</span>}
           {s.agent_asked_question && <span>it asked a question</span>}
-          {s.agent_said_cant && <span>it said it couldn&apos;t</span>}
+          {s.agent_said_cant && run?.outcome !== 'pass' && <span>it said it couldn&apos;t</span>}
         </p>
       </div>
 
@@ -125,7 +125,19 @@ export default async function EvidencePage({ params }: Props) {
           </div>
           <div className="ev-private-row">
             <span className="il">How it ended</span>
-            <span className="iv">{s.agent_said_done ? 'It reported the task done' : s.agent_said_cant ? "It said it couldn't" : 'No explicit completion message'}</span>
+            <span className="iv">
+              {run?.outcome === 'pass'
+                ? 'Completed'
+                : run?.outcome === 'partial'
+                  ? 'Partly completed'
+                  : run?.outcome === 'fail'
+                    ? s.agent_said_cant
+                      ? "Not completed; it said it couldn't"
+                      : 'Not completed'
+                    : s.agent_said_done
+                      ? 'It reported the task done'
+                      : '—'}
+            </span>
           </div>
         </div>
       )}

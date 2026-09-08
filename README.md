@@ -223,6 +223,10 @@ Each assistant's number goes in `imessage_handles` in `data/sources.json`. Group
 - Do not fabricate or paraphrase quotes
 - Maintain kind labels: praise, complaint, use-case, bug, comparison, other
 
+## Share images
+
+`npm run og` renders `public/og/site.png` and one card per assistant (logo + name) from `data/index.json`; profile pages and the home page reference them as Open Graph / Twitter images. Re-run after adding assistants or logos. Set `NEXT_PUBLIC_SITE_URL` in Vercel so the absolute image URLs are right (falls back to the Vercel production URL).
+
 ## Request form
 
 `POST /api/request` turns each "Request a test" submission into a GitHub issue labeled `request` (the queue) and an email (the alert). Both are best-effort; without the env vars it just logs. Set in Vercel:

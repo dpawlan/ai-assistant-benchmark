@@ -18,3 +18,12 @@
 - [complaint] @ChristianLempa: Hmm I think that probably matches automating too much. I've fallen in the same trap with DevOps tactics too, like adding OpenClaw + Automations and in the end I
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+21 rows)._
+
+**New this scan:**
+- (2026-09-08) u/ShabzSparq: OpenClaw 9.2 gateway won't start. Here's every crash loop and the fix. Four releases in ten days (2.0 on Aug 30, then 8.2, 9.1, 9.2 by Sep 6
+- (2026-09-08) u/Grimmoner: I spent today proving my own bug report wrong, found something worse (137927) Continuation of Bug report saga.   This is a long one. There's
+- (2026-09-07) u/ilias_from_ilios: Okay Astra is insane. I have OpenClaw 2 and have setup a main with glm5.3 flash and have sub-agents with heavy tasks on Astra.   I have them
+- (2026-09-07) u/Ok_Television8309: Why OpenClaw over Hermes? Hi all, when OpenClaw was in its earlier days back in February I rushed to try it out, and I was absolutely impres
+- (2026-09-07) u/coccoinomane: Help: OpenClaw 2.0 with Astra being very obnoxious Hi,   After installing 2026.9.2 and switching to Astra, my Claw has become a bigot.   It 

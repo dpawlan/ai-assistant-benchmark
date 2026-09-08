@@ -103,7 +103,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             {core.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
-            <col className="c-agg" />
+            {!opinion && <col className="c-agg" />}
             {endorsed.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
@@ -116,14 +116,14 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               {opinion ? header('core', 'Overall', 'mx-agg', 'overall sentiment') : header('core', 'Core', 'mx-agg', 'core mean')}
               {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time')}
               {core.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
-              {opinion ? header('endorsed', 'Quotes', 'mx-agg mx-div', 'quotes read') : header('endorsed', 'Endorsed', 'mx-agg mx-div', 'endorsed mean')}
-              {endorsed.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
+              {!opinion && header('endorsed', 'Endorsed', 'mx-agg mx-div', 'endorsed mean')}
+              {endorsed.map((c, i) => header(c.key, short[c.key] ?? c.label, opinion && i === 0 ? 'mx-div' : '', c.label))}
             </tr>
           </thead>
           {groups.map(group => (
             <tbody key={group.title}>
               <tr className="mx-group">
-                <th scope="rowgroup" colSpan={categories.length + (opinion ? 3 : 4)}>
+                <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 4)}>
                   {group.title}
                   <span className="mx-count">{group.rows.length}</span>
                 </th>
@@ -146,19 +146,17 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                   )}
                   {core.map(c => (
                     <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-                      {opinion ? <OpinionCell stat={agent.opinion[c.key]} /> : <ScoreCell value={agent.scores[c.key]} />}
+                      {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
                     </td>
                   ))}
-                  <td className="mx-agg mx-div">
-                    {opinion ? (
-                      <span className={`sc ${agent.opinionOverall.n ? 'sc-count' : 'sc-null'}`}>{agent.opinionOverall.n || '—'}</span>
-                    ) : (
+                  {!opinion && (
+                    <td className="mx-agg mx-div">
                       <ScoreCell value={agent.endorsed} aggregate />
-                    )}
-                  </td>
-                  {endorsed.map(c => (
-                    <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-                      {opinion ? <OpinionCell stat={agent.opinion[c.key]} /> : <ScoreCell value={agent.scores[c.key]} />}
+                    </td>
+                  )}
+                  {endorsed.map((c, i) => (
+                    <td key={c.key} className={`${opinion && i === 0 ? 'mx-div' : ''}${sort === c.key ? ' sorted' : ''}`.trim() || undefined}>
+                      {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
                     </td>
                   ))}
                 </tr>

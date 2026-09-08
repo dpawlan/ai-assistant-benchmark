@@ -210,6 +210,11 @@ button {
   padding: 0 22px;
 }
 
+/* The scorecard needs room for 14 named columns. */
+.wrap.wide {
+  max-width: 1280px;
+}
+
 .scrim {
   position: fixed;
   inset: 0;
@@ -1409,13 +1414,13 @@ footer a:hover {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  min-width: 860px;
+  min-width: 1150px;
   font-size: 14px;
   table-layout: fixed;
 }
 
 .matrix col.c-name {
-  width: 128px;
+  width: 176px;
 }
 
 .matrix col.c-agg {
@@ -1423,7 +1428,7 @@ footer a:hover {
 }
 
 .matrix col.c-cat {
-  width: 53px;
+  width: 62px;
 }
 
 .matrix th,
@@ -1840,7 +1845,7 @@ a.cat-row:hover .cat-label {
   vertical-align: 1px;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1400px) {
   .matrix-wrap {
     overflow: visible;
   }

@@ -11,14 +11,26 @@ export function scoreBucket(score: number): 1 | 2 | 3 | 4 | 5 {
 
 import type { OpinionStat } from './types';
 
+/** Signed quotes below this count are a thin sample: shown with a marker and ranked after solid samples. */
+export const THIN_SAMPLE = 15;
+
+export function isThin(stat: OpinionStat | undefined): boolean {
+  return !!stat && stat.score !== null && stat.pos + stat.neg < THIN_SAMPLE;
+}
+
 /**
- * Ordering key for opinion cells: the displayed share, so the sort matches what the reader sees.
- * Unscored cells (too few signed quotes) rank below any scored cell, by sample size; empty cells last.
+ * Ordering key for opinion cells: the Wilson lower bound (95%) of the positive share, so a 100% from six
+ * quotes ranks below an 83% from eighty. Thin samples rank after every solid one; unscored cells after
+ * those, by sample size; empty cells last.
  */
 export function opinionRank(stat: OpinionStat | undefined): number {
   if (!stat || stat.n === 0) return -3;
   if (stat.score === null) return -2 + stat.n / 1000;
-  return stat.score;
+  const n = stat.pos + stat.neg;
+  const p = stat.pos / n;
+  const z = 1.96;
+  const lb = (p + (z * z) / (2 * n) - z * Math.sqrt((p * (1 - p) + (z * z) / (4 * n)) / n)) / (1 + (z * z) / n);
+  return isThin(stat) ? -1 + lb : lb;
 }
 
 /** Reply-time bucket on the same 1–5 ramp: under 15s is best, over 5 minutes is worst. */

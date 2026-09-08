@@ -2304,3 +2304,17 @@ a.cat-row:hover .cat-label {
   height: 1px;
   overflow: hidden;
 }
+
+/* Thin-sample opinion cells: same color, dashed edge, small marker */
+.sc.op.thin {
+  box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, 0.55);
+  outline: 1.5px dashed rgba(29, 29, 31, 0.35);
+  outline-offset: -1.5px;
+}
+
+.sc.op.thin .op-n {
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}

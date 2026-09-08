@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-export { scoreBucket, opinionRank } from './score';
+export { scoreBucket, opinionRank, isThin, THIN_SAMPLE } from './score';
 import { opinionRank } from './score';
 import {
   Agent,

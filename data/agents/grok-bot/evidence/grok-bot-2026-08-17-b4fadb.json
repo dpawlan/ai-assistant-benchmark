@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-08-17-b4fadb",
+  "agent": "grok-bot",
+  "category": "chained_tasks",
+  "protocol": "observed",
+  "date": "2026-08-17",
+  "signals": {
+    "turns": 18,
+    "my_messages": 5,
+    "agent_messages": 13,
+    "first_reply_s": 29,
+    "duration_min": 21,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

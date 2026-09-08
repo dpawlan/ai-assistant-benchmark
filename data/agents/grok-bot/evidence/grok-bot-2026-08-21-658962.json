@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-08-21-658962",
+  "agent": "grok-bot",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2026-08-21",
+  "signals": {
+    "turns": 35,
+    "my_messages": 6,
+    "agent_messages": 29,
+    "first_reply_s": 9,
+    "duration_min": 28,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

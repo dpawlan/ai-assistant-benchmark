@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-09-06-a17a8c",
+  "agent": "grok-bot",
+  "category": "personality",
+  "protocol": "observed",
+  "date": "2026-09-06",
+  "signals": {
+    "turns": 19,
+    "my_messages": 3,
+    "agent_messages": 16,
+    "first_reply_s": 36,
+    "duration_min": 220,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

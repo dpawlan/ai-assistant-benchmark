@@ -43,7 +43,7 @@ export function LatestFeed({ items, categoryLabels }: LatestFeedProps) {
                     {categoryLabels[item.run.category] ?? item.run.category}
                   </Link>
                   {' · '}
-                  {OUTCOME[item.run.outcome] ?? item.run.outcome} · {item.run.protocol === 'task' ? 'published test' : 'observed in use'}
+                  {OUTCOME[item.run.outcome] ?? item.run.outcome} · {item.run.protocol === 'task' ? 'test' : 'observed'}
                   {item.run.notes ? ` · ${item.run.notes}` : ''}
                   {item.run.evidence_url && (
                     <>

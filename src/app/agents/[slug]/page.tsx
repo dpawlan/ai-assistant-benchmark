@@ -106,7 +106,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className="ag-stat">
                 {agent.testedCount === 0
                   ? 'Not tested yet'
-                  : `${agent.testedCount} of ${categories.length} categories tested (${agent.taskRuns} published test${agent.taskRuns === 1 ? '' : 's'}, ${agent.observedRuns} observed)`}
+                  : `${agent.testedCount} of ${categories.length} tested`}
               </span>
               {agent.opinionOverall.n > 0 && (
                 <span className="ag-stat ag-stat-op">
@@ -130,9 +130,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
         <section className="ag-scores">
           <h2 className="ag-h2">Scores</h2>
-          <p className="ag-sub">
-            One published test per category, scored 1–10 after real use. Blanks are untested, not zero.
-          </p>
           <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={categories} quoteCounts={quoteCounts} />
         </section>
 
@@ -141,7 +138,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
           <p className="ag-sub">
             {quotes.length === 0
               ? 'No public quotes collected yet.'
-              : `${quotes.length} public ${quotes.length === 1 ? 'quote' : 'quotes'}, each linked to its source. Nothing paraphrased.`}
+              : `${quotes.length} ${quotes.length === 1 ? 'quote' : 'quotes'}, linked to source.`}
           </p>
           <QuoteList feedback={quotes} categoryLabels={categoryLabels} />
         </section>
@@ -150,7 +147,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
           {agent.usage && (
             <section className="hands-on">
               <h2 className="ag-h2">Hands-on</h2>
-              <p className="ag-sub">From the reviewer&apos;s own thread with {agent.name}. Counts and timings only; the messages stay private.</p>
+              <p className="ag-sub">From the reviewer&apos;s own thread. Messages stay private.</p>
               <div className="info-list">
                 <div className="info-row">
                   <span className="il">Messages exchanged</span>

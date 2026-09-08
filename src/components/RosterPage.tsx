@@ -6,11 +6,11 @@ import { Shelf } from './Shelf';
 const COPY: Record<AgentStatus, { title: string; sub: string }> = {
   confirmed: {
     title: 'Confirmed',
-    sub: 'Personal assistants you text. Every one of these gets the full 14-category review.',
+    sub: 'Personal assistants you text.',
   },
   stretch: {
     title: 'Stretch',
-    sub: 'Voice, hardware, desktop and infra products. They stay on the board and score N/A where the rubric doesn’t apply.',
+    sub: 'Voice, hardware, desktop and infra. N/A where the rubric doesn’t apply.',
   },
 };
 

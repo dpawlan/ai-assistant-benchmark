@@ -139,7 +139,7 @@ export async function POST(request: NextRequest) {
     timestamp: new Date().toISOString(),
     agentName,
     agentUrl: clip(payload.agentUrl, MAX.agentUrl) || null,
-    categories: Array.isArray(payload.categories) ? payload.categories.filter(c => typeof c === 'string').slice(0, 14) : [],
+    categories: Array.isArray(payload.categories) ? payload.categories.filter(c => typeof c === 'string').slice(0, 15) : [],
     contact: clip(payload.contact, MAX.contact) || null,
     notes: clip(payload.notes, MAX.notes) || null,
   };

@@ -2,13 +2,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { ImageResponse } from 'next/og';
 import { NextRequest } from 'next/server';
-import { buildComparison, parseFocus, publicFile, verdict } from '@/lib/compare';
+import { buildComparison, parseFocus, parsePair, publicFile, verdict } from '@/lib/compare';
 import { CompareRow } from '@/lib/compare-shared';
 import { scoreBucket } from '@/lib/score';
 import { ScoreValue } from '@/lib/types';
 
 /**
  * The head-to-head share card, 1200x630. GET /api/og/compare?a=poke&b=instinct[&focus=email_replies,purchasing][&download=1]
+ * Also reachable as /compare/poke-vs-instinct[/<focus>]/card.png (rewrite in next.config, `pair=` param).
  * Rendered on demand so highlighted dimensions get their own image; cached at the edge for a day.
  */
 
@@ -117,11 +118,16 @@ function Score({ value }: { value: ScoreValue }) {
 
 export async function GET(req: NextRequest) {
   const q = req.nextUrl.searchParams;
-  const a = q.get('a') ?? '';
-  const b = q.get('b') ?? '';
+  // Rewritten from /compare/<pair>[/<focus>]/card.png: a route handler sees the original URL, not the
+  // destination query, so read the pair and focus straight off the path in that case.
+  const pretty = /^\/compare\/([^/]+)(?:\/([^/]+))?\/card\.png$/.exec(req.nextUrl.pathname);
+  const pairRaw = pretty?.[1] ?? q.get('pair');
+  const pair = pairRaw ? parsePair(decodeURIComponent(pairRaw)) : null;
+  const a = pair?.[0] ?? q.get('a') ?? '';
+  const b = pair?.[1] ?? q.get('b') ?? '';
   const c = a && b ? buildComparison(a, b) : null;
   if (!c) return new Response('Unknown pair', { status: 404 });
-  const focus = parseFocus(q.get('focus'));
+  const focus = parseFocus(pretty ? pretty[2] : q.get('focus'));
   const v = verdict(c, focus);
 
   // Rows on the card: the highlighted ones, else every decided row; at most six, in rubric order.
@@ -167,13 +173,13 @@ export async function GET(req: NextRequest) {
               <span style={{ fontSize: 20, color: SEC, marginTop: 4 }}>{c.a.overall === null ? 'Not tested yet' : `${c.a.overall.toFixed(1)} overall`}</span>
             </div>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flexGrow: 1, minWidth: 0 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 352, flexShrink: 0 }}>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 14, fontSize: compact ? 84 : 104, fontWeight: 700, letterSpacing: -4, lineHeight: 1 }}>
               <span style={{ color: lead === 'b' ? SEC : TEXT }}>{v.tally.a}</span>
               <span style={{ color: '#c7c7cc', fontSize: compact ? 60 : 72 }}>–</span>
               <span style={{ color: lead === 'a' ? SEC : TEXT }}>{v.tally.b}</span>
             </div>
-            <span style={{ fontSize: 20, color: SEC, marginTop: 6, textAlign: 'center' }}>{v.detail.replace(/\.$/, '')}</span>
+            <span style={{ fontSize: 19, color: SEC, marginTop: 6, textAlign: 'center', lineHeight: 1.25 }}>{v.detail.replace(/\.$/, '')}</span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-end', gap: 22, width: 360, flexShrink: 0 }}>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }}>

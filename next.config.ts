@@ -7,6 +7,13 @@ const nextConfig: NextConfig = {
     '/compare/**': ['./data/**/*'],
     '/api/og/compare': ['./data/**/*', './public/logos/**/*', './src/assets/fonts/*'],
   },
+  async rewrites() {
+    // A pasteable image address for the head-to-head card; the API route does the rendering.
+    return [
+      { source: '/compare/:pair/card.png', destination: '/api/og/compare?pair=:pair' },
+      { source: '/compare/:pair/:focus/card.png', destination: '/api/og/compare?pair=:pair&focus=:focus' },
+    ];
+  },
   async redirects() {
     return [
       { source: '/categories', destination: '/dimensions', permanent: true },

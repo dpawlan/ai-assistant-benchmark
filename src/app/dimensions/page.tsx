@@ -5,7 +5,7 @@ import { Agent, Category } from '@/lib/types';
 
 export const metadata: Metadata = {
   title: 'Dimensions',
-  description: 'The 14 dimensions every assistant is scored on. Each one is a published test and a ranking.',
+  description: 'The 15 dimensions every assistant is scored on. Each one is a published test and a ranking.',
 };
 
 export default function CategoriesPage() {

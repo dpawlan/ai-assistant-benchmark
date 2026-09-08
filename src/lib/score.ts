@@ -11,19 +11,14 @@ export function scoreBucket(score: number): 1 | 2 | 3 | 4 | 5 {
 
 import type { OpinionStat } from './types';
 
-/** Pseudo-count for shrinking opinion scores by sample size when ordering. */
-export const OPINION_PRIOR = 5;
-
 /**
- * Score used for ORDERING only: the net score shrunk toward zero by sample size,
- * so three glowing quotes don't outrank thirty mixed ones. Displayed values stay raw.
+ * Ordering key for opinion cells: the displayed share, so the sort matches what the reader sees.
+ * Unscored cells (too few signed quotes) rank below any scored cell, by sample size; empty cells last.
  */
 export function opinionRank(stat: OpinionStat | undefined): number {
   if (!stat || stat.n === 0) return -3;
   if (stat.score === null) return -2 + stat.n / 1000;
-  const signed = stat.pos + stat.neg;
-  // Share of positive, centered on an even split, shrunk toward the split by sample size.
-  return (stat.score - 0.5) * (signed / (signed + OPINION_PRIOR));
+  return stat.score;
 }
 
 /** Reply-time bucket on the same 1–5 ramp: under 15s is best, over 5 minutes is worst. */

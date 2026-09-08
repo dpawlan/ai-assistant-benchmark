@@ -82,7 +82,8 @@
     "tags": [
       "health",
       "calendar",
-      "money"
+      "money",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -99,7 +100,8 @@
     "kind": "praise",
     "tags": [
       "whatsapp",
-      "savings"
+      "savings",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
@@ -118,7 +120,8 @@
       "whatsapp",
       "imessage",
       "telegram",
-      "no-app"
+      "no-app",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
@@ -206,7 +209,8 @@
     "tags": [
       "memory",
       "proactive",
-      "vs-agents"
+      "vs-agents",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
@@ -223,7 +227,8 @@
     "kind": "praise",
     "tags": [
       "whatsapp",
-      "adoption"
+      "adoption",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -240,7 +245,8 @@
     "kind": "praise",
     "tags": [
       "proactive",
-      "actions"
+      "actions",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -259,7 +265,8 @@
       "gmail",
       "calendar",
       "proactive",
-      "messaging"
+      "messaging",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -278,7 +285,8 @@
       "imessage",
       "telegram",
       "whatsapp",
-      "calendar"
+      "calendar",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -296,7 +304,8 @@
     "tags": [
       "diary",
       "trust",
-      "productivity"
+      "productivity",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
@@ -803,7 +812,8 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.576Z",
@@ -1224,7 +1234,8 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.251Z",
@@ -1242,7 +1253,8 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.251Z",
@@ -1260,7 +1272,8 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.251Z",
@@ -1278,7 +1291,8 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.251Z",

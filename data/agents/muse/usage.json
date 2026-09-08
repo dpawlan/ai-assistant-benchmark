@@ -1,0 +1,16 @@
+{
+  "source": "reported",
+  "exported_at": "2026-09-08",
+  "analyzed_at": "2026-09-08",
+  "messages": 26,
+  "from_me": 9,
+  "from_agent": 17,
+  "days_active": 1,
+  "first": "2026-09-08",
+  "last": "2026-09-08",
+  "median_reply_s": 7,
+  "p90_reply_s": 10,
+  "unanswered": 0,
+  "proactive_messages": 0,
+  "episodes": 7
+}

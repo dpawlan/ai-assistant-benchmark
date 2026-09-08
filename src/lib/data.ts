@@ -73,14 +73,14 @@ export const CATEGORY_SHORT: Record<string, string> = {
   proactive_behavior: 'Proactive',
   running_routine: 'Routines',
   third_party_integrations: 'Connected apps',
-  permissions_privacy: 'Permissions',
+  permissions_privacy: 'Privacy',
   memory: 'Memory',
   personality: 'Personality',
   phone_calls: 'Phone calls',
   multiplayer_groups: 'Group chats',
   chained_tasks: 'Multi-step',
   proactive_restraint: 'Restraint',
-  content_creation_games: 'Images & games',
+  content_creation_games: 'Images',
 };
 
 const PRODUCT_CLASS_LABELS: Record<string, string> = {

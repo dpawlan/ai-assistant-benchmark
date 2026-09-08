@@ -35,7 +35,7 @@
     "cc41fcee523b": {
       "memory": "pos",
       "proactive_behavior": "pos",
-      "third_party_integrations": "neg"
+      "third_party_integrations": "neutral"
     },
     "8fbb4106420a": {
       "online_task": "pos"
@@ -167,7 +167,7 @@
       "general": "neutral"
     },
     "387016e376cd": {
-      "general": "neg"
+      "general": "neutral"
     },
     "16f637d85ea1": {
       "general": "pos"
@@ -181,5 +181,6 @@
     "ba3ab15e153c": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

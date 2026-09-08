@@ -216,13 +216,14 @@
       "general": "pos"
     },
     "1e32a37e8668": {
-      "general": "neg"
+      "general": "neutral"
     },
     "888d0ee805d3": {
-      "general": "neg"
+      "general": "neutral"
     },
     "1a11eb7edb97": {
-      "general": "neg"
+      "general": "neutral"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

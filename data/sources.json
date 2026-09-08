@@ -394,13 +394,11 @@
     "instinct": {
       "name": "Instinct",
       "handles": [
-        "instinct_inc",
         "noahrshinn"
       ],
       "domain": "instinct.co",
       "x_queries": [
-        "\"instinct.co\"",
-        "@instinct_inc"
+        "\"instinct.co\""
       ],
       "reddit_queries": [
         "\"instinct.co\"",
@@ -414,8 +412,6 @@
       "ph_slug": null,
       "match": [
         "instinct.co",
-        "@instinct_inc",
-        "instinct_inc",
         "instinct ai",
         "instinct assistant",
         "instinct agent",
@@ -423,7 +419,8 @@
         "instinct.ai",
         "instinctapp"
       ],
-      "imessage_handles": []
+      "imessage_handles": [],
+      "_note": "@instinct_inc is a different company. Product handle unknown; founder is @noahrshinn. Match on instinct.co and \"instinct\" + assistant/agent/ai."
     },
     "joshu": {
       "name": "Joshu",

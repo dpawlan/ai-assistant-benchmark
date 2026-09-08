@@ -479,16 +479,16 @@
       "general": "pos"
     },
     "aea48941acb5": {
-      "general": "neg"
+      "general": "neutral"
     },
     "af45d96a0274": {
       "general": "neg"
     },
     "2dd017777038": {
-      "general": "neg"
+      "general": "neutral"
     },
     "aea59ee7a162": {
-      "general": "neg"
+      "general": "neutral"
     },
     "edd6dfbd6a99": {
       "purchasing": "pos",
@@ -498,5 +498,6 @@
     "9fc3c2635a3a": {
       "personality": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

@@ -101,7 +101,7 @@ The scorecard has a second view, **Public opinion**, built from the quotes. `dat
 }
 ```
 
-Rules: quotes tagged `founder` are excluded even if listed; quotes from vendor or team accounts, investors, and obvious coordinated promotion were skipped; general praise or complaints with no category ("it's amazing", "it's been flaky") are not counted, so the opinion view only reflects what people say about specific jobs. A category shows a net score `(pos − neg) / (pos + neg)` once it has at least 3 signed quotes; below that it shows the count. `mixed` counts as one positive and one negative. Opinion never feeds the benchmark score.
+Rules: quotes tagged `founder` are excluded even if listed; quotes from vendor or team accounts, investors, and obvious coordinated promotion were skipped; general praise or complaints with no category ("it's amazing", "it's been flaky") are not counted, so the opinion view only reflects what people say about specific jobs. A category shows the share of positive quotes once it has at least 3 signed quotes; below that it shows the count. `mixed` (praise with a caveat) counts as positive. Questions, outage pings and commentary about the company rather than the product are `neutral`. Opinion never feeds the benchmark score.
 
 Derivation rules: latest run wins → `scores.json` value → for stretch products with a non-empty `likely_applicable` list, every other category is `"n/a"` → otherwise `null` (shown as —). Core and Endorsed means exclude N/A and nulls.
 

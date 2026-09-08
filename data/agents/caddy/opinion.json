@@ -1,0 +1,27 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "d30b66314dc0": {
+      "recommendation_quality": "pos"
+    },
+    "7b1eaa333d43": {
+      "recommendation_quality": "pos",
+      "third_party_integrations": "pos"
+    },
+    "a094fa83a4be": {
+      "proactive_restraint": "neg",
+      "personality": "neg"
+    },
+    "ac6b8c28e0ca": {
+      "general": "pos"
+    },
+    "781ff6a33221": {
+      "general": "pos"
+    },
+    "9702873e5415": {
+      "general": "pos"
+    }
+  }
+}

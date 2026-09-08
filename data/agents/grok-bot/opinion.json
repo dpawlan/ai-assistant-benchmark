@@ -1,0 +1,192 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "b130319edf9e": {
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos",
+      "running_routine": "pos"
+    },
+    "bb02f2cd0155": {
+      "online_task": "pos"
+    },
+    "afcecee40ad4": {
+      "third_party_integrations": "neg"
+    },
+    "6b2ca124a60b": {
+      "multiplayer_groups": "pos",
+      "third_party_integrations": "pos"
+    },
+    "fae980bfb651": {
+      "proactive_behavior": "pos"
+    },
+    "fb5a3c184f95": {
+      "memory": "neg"
+    },
+    "6a314d414045": {
+      "online_task": "neg",
+      "third_party_integrations": "neg"
+    },
+    "ca198885d144": {
+      "online_task": "pos",
+      "third_party_integrations": "pos"
+    },
+    "13f8ea69d49b": {
+      "proactive_restraint": "neg"
+    },
+    "add97c110b49": {
+      "content_creation_games": "pos"
+    },
+    "271943a48e1f": {
+      "running_routine": "neutral",
+      "proactive_restraint": "pos"
+    },
+    "41bfca7a9f96": {
+      "content_creation_games": "pos",
+      "online_task": "pos"
+    },
+    "e7a7ea26019f": {
+      "running_routine": "pos",
+      "proactive_behavior": "pos"
+    },
+    "adff1139f145": {
+      "proactive_behavior": "pos",
+      "proactive_restraint": "pos",
+      "running_routine": "pos"
+    },
+    "f7f0a1fdccad": {
+      "memory": "neg"
+    },
+    "2c04ef839769": {
+      "online_task": "neg"
+    },
+    "d9edd10b4c91": {
+      "content_creation_games": "neg"
+    },
+    "15027d1f7ff0": {
+      "running_routine": "pos"
+    },
+    "d624c9ceece9": {
+      "online_task": "neutral"
+    },
+    "211197622be8": {
+      "third_party_integrations": "pos",
+      "online_task": "pos",
+      "chained_tasks": "pos"
+    },
+    "3bfefc65e3d2": {
+      "content_creation_games": "neg"
+    },
+    "2a0f787c96f4": {
+      "running_routine": "neutral"
+    },
+    "4ec107cda50e": {
+      "running_routine": "pos",
+      "online_task": "neg"
+    },
+    "e6d31168adbd": {
+      "proactive_behavior": "pos",
+      "running_routine": "pos",
+      "online_task": "pos"
+    },
+    "35542b7f1aa4": {
+      "proactive_behavior": "pos",
+      "running_routine": "pos",
+      "content_creation_games": "neg"
+    },
+    "20358a887cee": {
+      "online_task": "pos"
+    },
+    "476d0ccb073f": {
+      "running_routine": "neg"
+    },
+    "44bae643da76": {
+      "purchasing": "pos",
+      "recommendation_quality": "pos"
+    },
+    "3a36cf2b71cf": {
+      "running_routine": "pos",
+      "third_party_integrations": "pos"
+    },
+    "197c0ec9ef0e": {
+      "memory": "pos"
+    },
+    "602c9ce7fb46": {
+      "third_party_integrations": "pos",
+      "proactive_restraint": "pos"
+    },
+    "295b749b14c8": {
+      "general": "mixed"
+    },
+    "efdd034668d0": {
+      "general": "neg"
+    },
+    "fc6c9e700277": {
+      "general": "neg"
+    },
+    "cb2fd8fda8f5": {
+      "general": "mixed"
+    },
+    "b00e5925b6f8": {
+      "general": "neg"
+    },
+    "59ff61c18eb1": {
+      "general": "neg"
+    },
+    "63e3a2881dd7": {
+      "general": "neg"
+    },
+    "f19f7e636604": {
+      "general": "pos"
+    },
+    "386e91e12ed4": {
+      "general": "neg"
+    },
+    "0b7add7a9d95": {
+      "general": "neg"
+    },
+    "afa08b7c24e3": {
+      "general": "pos"
+    },
+    "87d7149c0228": {
+      "general": "pos"
+    },
+    "b9bd49e842d6": {
+      "general": "pos"
+    },
+    "065faac68d84": {
+      "general": "pos"
+    },
+    "5631e397e0de": {
+      "general": "pos"
+    },
+    "4f2d35d83866": {
+      "general": "pos"
+    },
+    "152a72d670d6": {
+      "general": "neg"
+    },
+    "01fc9b3bd580": {
+      "general": "pos"
+    },
+    "33f5bcc660da": {
+      "general": "neg"
+    },
+    "2c7c5bdaaf29": {
+      "general": "neg"
+    },
+    "71f131b4a6c5": {
+      "general": "pos"
+    },
+    "ee67ac1c2e7e": {
+      "general": "neg"
+    },
+    "ac10bf0e994c": {
+      "general": "neg"
+    },
+    "ef0af42cc9c8": {
+      "general": "neg"
+    }
+  }
+}

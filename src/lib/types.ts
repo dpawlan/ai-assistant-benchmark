@@ -6,12 +6,111 @@ export type FeedbackKind = 'praise' | 'complaint' | 'use-case' | 'bug' | 'compar
 
 export type PublicSignal = 'low' | 'medium' | 'high' | 'unknown' | null;
 
-export type ScoreValue = number | null;
+/** null = not tested yet, "n/a" = out of scope for this product, number = tested score (1–10) */
+export type ScoreValue = number | 'n/a' | null;
+
+export type RunOutcome = 'pass' | 'partial' | 'fail' | 'n/a';
+
+/** How one public quote reads on one rubric category. */
+export type Sentiment = 'pos' | 'neg' | 'mixed' | 'neutral';
+
+/** data/agents/<slug>/opinion.json: per-quote, per-category sentiment, classified by reading each quote. */
+export interface OpinionFile {
+  classified_by: string;
+  date: string;
+  reviewed: boolean;
+  quotes: Record<string, Record<string, Sentiment>>;
+}
+
+export interface OpinionStat {
+  pos: number;
+  neg: number;
+  neutral: number;
+  /** Quotes that speak to this category at all. */
+  n: number;
+  /** (pos - neg) / (pos + neg), or null below the minimum signed sample. */
+  score: number | null;
+}
 
 export interface Category {
   key: string;
   label: string;
   group: CategoryGroup;
+}
+
+/** The published test for one category. */
+export interface Task {
+  key: string;
+  task: string;
+  prompt: string;
+  pass: string[];
+  anchors: Record<string, string>;
+}
+
+export interface TaskSet {
+  version: string;
+  scale: string;
+  tasks: Task[];
+}
+
+/** One logged test of one agent on one category. Scores are derived from these. */
+export interface Run {
+  id: string;
+  category: string;
+  date: string;
+  score: number | 'n/a';
+  outcome: RunOutcome;
+  notes?: string;
+  evidence_url?: string;
+}
+
+/** data/agents/<slug>/usage.json: derived from the reviewer's own iMessage thread with the assistant. */
+export interface Usage {
+  source: 'imessage';
+  exported_at: string;
+  analyzed_at: string;
+  messages: number;
+  from_me: number;
+  from_agent: number;
+  days_active: number;
+  first: string | null;
+  last: string | null;
+  median_reply_s: number | null;
+  p90_reply_s: number | null;
+  unanswered: number;
+  proactive_messages: number;
+  episodes: number;
+}
+
+export interface ExcerptMessage {
+  from: 'me' | 'agent';
+  ts: string;
+  text: string;
+  attachment?: boolean;
+}
+
+export interface EvidenceSignals {
+  turns: number;
+  my_messages: number;
+  agent_messages: number;
+  first_reply_s: number | null;
+  duration_min: number;
+  agent_said_done: boolean;
+  agent_said_cant: boolean;
+  agent_asked_question: boolean;
+  agent_initiated: boolean;
+}
+
+/** data/agents/<slug>/evidence/<id>.json: the redacted excerpt behind one run. */
+export interface Evidence {
+  id: string;
+  agent: string;
+  category: string;
+  date: string;
+  signals: EvidenceSignals;
+  excerpt: ExcerptMessage[];
+  redacted: boolean;
+  published_at: string;
 }
 
 export interface Feedback {
@@ -36,6 +135,11 @@ export interface AgentMeta {
   handles: string[];
   status: AgentStatus;
   notes: string;
+  product_class?: string | null;
+  public_signal?: PublicSignal;
+  likely_applicable?: string[];
+  tagline?: string;
+  icon?: string | null;
 }
 
 export interface AgentScores {
@@ -49,6 +153,8 @@ export interface RosterEntry {
   site: string | null;
   feedback_count: number;
   public_signal: PublicSignal;
+  tagline?: string;
+  icon?: string | null;
 }
 
 export interface IndexData {
@@ -67,8 +173,26 @@ export interface Agent {
   status: AgentStatus;
   feedbackCount: number;
   publicSignal: PublicSignal;
+  tagline: string;
+  icon: string | null;
+  /** Derived per-category scores: latest run wins, then scores.json, then N/A pre-fill for stretch products. */
+  scores: AgentScores;
+  /** Latest run per category, when one exists. */
+  latestRuns: Record<string, Run>;
+  /** Mean of numeric core scores, null when none. */
+  core: number | null;
+  /** Mean of numeric endorsed scores, null when none. */
+  endorsed: number | null;
+  /** Categories with a numeric score. */
+  testedCount: number;
+  /** Date of the most recent run, if any. */
+  lastTested: string | null;
+  /** Public opinion per category, from opinion.json. Founder posts excluded. */
+  opinion: Record<string, OpinionStat>;
+  opinionOverall: OpinionStat;
+  /** Hands-on usage from the reviewer's own thread, when exported. */
+  usage: Usage | null;
   meta?: AgentMeta;
-  scores?: AgentScores;
   feedback?: Feedback[];
   summary?: string;
 }

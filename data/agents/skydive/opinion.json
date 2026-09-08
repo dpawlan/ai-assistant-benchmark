@@ -1,0 +1,42 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "31e4e3fa3f2c": {
+      "multiplayer_groups": "pos"
+    },
+    "ceab524fb391": {
+      "email_replies": "pos",
+      "third_party_integrations": "pos"
+    },
+    "f8a8fa6445ea": {
+      "third_party_integrations": "pos",
+      "recommendation_quality": "pos"
+    },
+    "427fe66ff417": {
+      "running_routine": "pos",
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos"
+    },
+    "53a4144c77e9": {
+      "online_task": "pos"
+    },
+    "b53535564d68": {
+      "online_task": "pos",
+      "running_routine": "pos"
+    },
+    "7ca14d0845b8": {
+      "general": "pos"
+    },
+    "44b03f2b2167": {
+      "general": "pos"
+    },
+    "9011469b7be1": {
+      "general": "pos"
+    },
+    "c959a4fd4796": {
+      "general": "pos"
+    }
+  }
+}

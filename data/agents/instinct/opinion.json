@@ -1,0 +1,238 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "310601343781": {
+      "online_task": "pos",
+      "purchasing": "mixed"
+    },
+    "d6ffb530940a": {
+      "online_task": "mixed",
+      "proactive_behavior": "pos",
+      "phone_calls": "neg"
+    },
+    "bc6eacf47e11": {
+      "online_task": "pos"
+    },
+    "95ebe8639a59": {
+      "proactive_behavior": "pos",
+      "online_task": "pos"
+    },
+    "0e10d85a0375": {
+      "third_party_integrations": "pos",
+      "online_task": "pos"
+    },
+    "6fc75b8d5546": {
+      "proactive_restraint": "neg"
+    },
+    "d20e8c1ef95c": {
+      "proactive_restraint": "neg",
+      "third_party_integrations": "neg"
+    },
+    "e7e5acb0f255": {
+      "proactive_restraint": "neg"
+    },
+    "69377096d1b4": {
+      "proactive_restraint": "neg"
+    },
+    "6ec7e5b07826": {
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos"
+    },
+    "7071f1065aef": {
+      "proactive_restraint": "neutral"
+    },
+    "c1431eec38d4": {
+      "proactive_restraint": "neg",
+      "email_replies": "neutral"
+    },
+    "00f2dfaad307": {
+      "online_task": "pos",
+      "email_replies": "pos",
+      "third_party_integrations": "pos"
+    },
+    "2f2879bb1147": {
+      "online_task": "pos",
+      "chained_tasks": "pos"
+    },
+    "2a02cd597ce5": {
+      "online_task": "pos",
+      "purchasing": "pos",
+      "proactive_behavior": "pos"
+    },
+    "4b2f17bc2d7d": {
+      "multiplayer_groups": "neg"
+    },
+    "55f76023bd19": {
+      "proactive_restraint": "neg"
+    },
+    "48a498e9b560": {
+      "online_task": "pos",
+      "proactive_restraint": "neg"
+    },
+    "c953ac8cbb12": {
+      "online_task": "mixed"
+    },
+    "a3b1ac6f64d1": {
+      "online_task": "pos"
+    },
+    "f7c6c15e7500": {
+      "online_task": "mixed",
+      "multiplayer_groups": "neg"
+    },
+    "f1b13b5d3e7c": {
+      "online_task": "pos"
+    },
+    "4ffb09af64b2": {
+      "proactive_behavior": "pos",
+      "third_party_integrations": "pos",
+      "online_task": "pos"
+    },
+    "a320321d3588": {
+      "online_task": "pos",
+      "proactive_behavior": "pos",
+      "running_routine": "pos"
+    },
+    "74954656bf9d": {
+      "online_task": "pos"
+    },
+    "0dca0abbf9cd": {
+      "personality": "pos"
+    },
+    "cb216a481578": {
+      "email_replies": "pos",
+      "proactive_behavior": "pos"
+    },
+    "3823d43aa36b": {
+      "purchasing": "neg"
+    },
+    "3216cd2a534e": {
+      "proactive_restraint": "neg",
+      "proactive_behavior": "neg"
+    },
+    "9bfa23aa384a": {
+      "running_routine": "pos",
+      "proactive_behavior": "pos",
+      "third_party_integrations": "pos"
+    },
+    "ea3ea26caf1c": {
+      "email_replies": "pos",
+      "running_routine": "pos",
+      "purchasing": "pos",
+      "online_task": "pos"
+    },
+    "f7c5d1190a5c": {
+      "online_task": "pos"
+    },
+    "a19c28f22726": {
+      "online_task": "pos",
+      "recommendation_quality": "pos",
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos"
+    },
+    "64a2429b2ff8": {
+      "online_task": "neg",
+      "purchasing": "neg"
+    },
+    "ce833cfe6780": {
+      "proactive_behavior": "pos",
+      "third_party_integrations": "pos",
+      "email_replies": "pos"
+    },
+    "a265b6cbfb81": {
+      "running_routine": "pos",
+      "email_replies": "pos"
+    },
+    "f7a9fdcd8e1c": {
+      "online_task": "pos",
+      "purchasing": "pos",
+      "email_replies": "mixed",
+      "proactive_behavior": "mixed"
+    },
+    "a7c3bef005d6": {
+      "online_task": "pos",
+      "chained_tasks": "pos",
+      "proactive_behavior": "pos"
+    },
+    "05dea404980e": {
+      "recommendation_quality": "pos",
+      "online_task": "neg"
+    },
+    "55e06d728b0f": {
+      "online_task": "pos",
+      "purchasing": "pos"
+    },
+    "77e0e42d498f": {
+      "purchasing": "pos",
+      "proactive_behavior": "pos"
+    },
+    "66f032f68be4": {
+      "online_task": "pos",
+      "purchasing": "pos",
+      "recommendation_quality": "pos",
+      "proactive_behavior": "pos",
+      "chained_tasks": "pos"
+    },
+    "672cb65b56d1": {
+      "multiplayer_groups": "neg"
+    },
+    "fdb8ecb2de55": {
+      "online_task": "pos"
+    },
+    "a4961831018c": {
+      "general": "pos"
+    },
+    "c81920eae690": {
+      "general": "neg"
+    },
+    "64bdf76cfc3b": {
+      "general": "pos"
+    },
+    "32d9a7519f1b": {
+      "general": "neg"
+    },
+    "3606dd792084": {
+      "general": "neg"
+    },
+    "682da1f1dc24": {
+      "general": "neg"
+    },
+    "094107f18711": {
+      "general": "pos"
+    },
+    "a7ab4b114f48": {
+      "general": "pos"
+    },
+    "702a6da66ecc": {
+      "general": "pos"
+    },
+    "eebc88fdfc18": {
+      "general": "pos"
+    },
+    "1036f5a038e9": {
+      "general": "neg"
+    },
+    "570835785ed9": {
+      "general": "neg"
+    },
+    "d798e0055353": {
+      "general": "neg"
+    },
+    "699034eec57d": {
+      "general": "pos"
+    },
+    "023b4e3da1f1": {
+      "general": "neg"
+    },
+    "8eff6a0b920f": {
+      "general": "pos"
+    },
+    "d0fbf41a212b": {
+      "general": "pos"
+    },
+    "155261e96eec": {
+      "general": "pos"
+    }
+  }
+}

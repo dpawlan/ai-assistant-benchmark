@@ -1,0 +1,1295 @@
+{
+  "_comment": "Per-assistant search config for scripts/collect.mjs. Edit freely: add handles, app ids (from `collect find-apps`), Product Hunt slugs, extra queries. `imessage_handles`: the phone/email you text this assistant on (used by scripts/imessage.mjs). `_redact_terms`: names to mask in published excerpts.",
+  "agents": {
+    "ako": {
+      "name": "Ako",
+      "handles": [
+        "withako",
+        "with_ako",
+        "ntkris"
+      ],
+      "domain": "withako.com",
+      "x_queries": [
+        "\"withako.com\"",
+        "@withako",
+        "@with_ako",
+        "@ntkris",
+        "\"ako ai\" OR \"ako assistant\" OR \"ako agent\""
+      ],
+      "reddit_queries": [
+        "\"withako.com\"",
+        "\"ako ai\""
+      ],
+      "hn_queries": [
+        "\"withako.com\"",
+        "\"ako ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "withako.com",
+        "@withako",
+        "@with_ako",
+        "@ntkris",
+        "withako",
+        "with_ako",
+        "ntkris",
+        "ako ai",
+        "ako assistant",
+        "ako agent",
+        "akoai",
+        "ako.ai",
+        "akoapp"
+      ],
+      "imessage_handles": []
+    },
+    "asaply": {
+      "name": "Asaply",
+      "handles": [
+        "AsaplyAi"
+      ],
+      "domain": "asaply.ai",
+      "x_queries": [
+        "\"asaply.ai\"",
+        "@AsaplyAi",
+        "\"asaply\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"asaply.ai\"",
+        "\"asaply\""
+      ],
+      "hn_queries": [
+        "\"asaply.ai\"",
+        "\"asaply\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "asaply.ai",
+        "@AsaplyAi",
+        "asaplyai",
+        "asaply"
+      ],
+      "imessage_handles": [
+        "+16282644787"
+      ]
+    },
+    "asmi": {
+      "name": "Asmi",
+      "handles": [
+        "AsmiAIOriginal"
+      ],
+      "domain": "asmiai.com",
+      "x_queries": [
+        "\"asmiai.com\"",
+        "@AsmiAIOriginal",
+        "\"asmi ai\" OR \"asmi assistant\" OR \"asmi agent\""
+      ],
+      "reddit_queries": [
+        "\"asmiai.com\"",
+        "\"asmi ai\""
+      ],
+      "hn_queries": [
+        "\"asmiai.com\"",
+        "\"asmi ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "asmiai.com",
+        "@AsmiAIOriginal",
+        "asmiaioriginal",
+        "asmi ai",
+        "asmi assistant",
+        "asmi agent",
+        "asmiai",
+        "asmi.ai",
+        "asmiapp"
+      ],
+      "imessage_handles": [
+        "+14082303488"
+      ]
+    },
+    "boba": {
+      "name": "Boba",
+      "handles": [
+        "getboba"
+      ],
+      "domain": "trygist.ai",
+      "x_queries": [
+        "\"trygist.ai\"",
+        "@getboba",
+        "\"boba ai\" OR \"boba assistant\" OR \"boba agent\""
+      ],
+      "reddit_queries": [
+        "\"trygist.ai\"",
+        "\"boba ai\""
+      ],
+      "hn_queries": [
+        "\"trygist.ai\"",
+        "\"boba ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "trygist.ai",
+        "@getboba",
+        "getboba",
+        "boba ai",
+        "boba assistant",
+        "boba agent",
+        "bobaai",
+        "boba.ai",
+        "bobaapp"
+      ],
+      "imessage_handles": []
+    },
+    "buoy": {
+      "name": "Buoy",
+      "handles": [
+        "buoychat"
+      ],
+      "domain": "buoy.chat",
+      "x_queries": [
+        "\"buoy.chat\"",
+        "@buoychat",
+        "\"buoy ai\" OR \"buoy assistant\" OR \"buoy agent\""
+      ],
+      "reddit_queries": [
+        "\"buoy.chat\"",
+        "\"buoy ai\""
+      ],
+      "hn_queries": [
+        "\"buoy.chat\"",
+        "\"buoy ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "buoy.chat",
+        "@buoychat",
+        "buoychat",
+        "buoy ai",
+        "buoy assistant",
+        "buoy agent",
+        "buoyai",
+        "buoy.ai",
+        "buoyapp"
+      ],
+      "imessage_handles": []
+    },
+    "caddy": {
+      "name": "Caddy",
+      "handles": [
+        "try_caddy"
+      ],
+      "domain": "caddy.app",
+      "x_queries": [
+        "\"caddy.app\"",
+        "@try_caddy",
+        "\"caddy ai\" OR \"caddy assistant\" OR \"caddy agent\""
+      ],
+      "reddit_queries": [
+        "\"caddy.app\"",
+        "\"caddy ai\""
+      ],
+      "hn_queries": [
+        "\"caddy.app\"",
+        "\"caddy ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "caddy.app",
+        "@try_caddy",
+        "try_caddy",
+        "caddy ai",
+        "caddy assistant",
+        "caddy agent",
+        "caddyai",
+        "caddy.ai",
+        "caddyapp"
+      ],
+      "imessage_handles": [
+        "+12064039093"
+      ]
+    },
+    "catch": {
+      "name": "Catch",
+      "handles": [
+        "catchagent"
+      ],
+      "domain": "catchagent.ai",
+      "x_queries": [
+        "\"catchagent.ai\"",
+        "@catchagent",
+        "\"catch ai\" OR \"catch assistant\" OR \"catch agent\""
+      ],
+      "reddit_queries": [
+        "\"catchagent.ai\"",
+        "\"catch ai\""
+      ],
+      "hn_queries": [
+        "\"catchagent.ai\"",
+        "\"catch ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "catchagent.ai",
+        "@catchagent",
+        "catchagent",
+        "catch ai",
+        "catch assistant",
+        "catch agent",
+        "catchai",
+        "catch.ai",
+        "catchapp"
+      ],
+      "imessage_handles": [
+        "+13124980805"
+      ]
+    },
+    "folk": {
+      "name": "Folk",
+      "handles": [
+        "nozomioai",
+        "try_folk"
+      ],
+      "domain": "folk.com",
+      "x_queries": [
+        "\"folk.com\"",
+        "@nozomioai",
+        "@try_folk",
+        "\"folk ai\" OR \"folk assistant\" OR \"folk agent\""
+      ],
+      "reddit_queries": [
+        "\"folk.com\"",
+        "\"folk ai\""
+      ],
+      "hn_queries": [
+        "\"folk.com\"",
+        "\"folk ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "folk.com",
+        "@nozomioai",
+        "@try_folk",
+        "nozomioai",
+        "try_folk",
+        "folk ai",
+        "folk assistant",
+        "folk agent",
+        "folkai",
+        "folk.ai",
+        "folkapp"
+      ],
+      "imessage_handles": [
+        "+12053561587"
+      ]
+    },
+    "grok-bot": {
+      "name": "Grok Bot",
+      "handles": [
+        "bot"
+      ],
+      "domain": "grok.com",
+      "x_queries": [
+        "\"grok.com\"",
+        "@bot",
+        "\"grok bot\" OR grokbot"
+      ],
+      "reddit_queries": [
+        "\"grok.com\""
+      ],
+      "hn_queries": [
+        "\"grok.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "grok.com",
+        "@bot",
+        "grok bot",
+        "grokbot"
+      ],
+      "_note": "App id 6670324846 is the general Grok chat app; its reviews are not about Grok Bot. Left empty on purpose.",
+      "imessage_handles": []
+    },
+    "halo": {
+      "name": "Halo",
+      "handles": [
+        "meethalo"
+      ],
+      "domain": "meethalo.app",
+      "x_queries": [
+        "\"meethalo.app\"",
+        "@meethalo",
+        "\"halo ai\" OR \"halo assistant\" OR \"halo agent\""
+      ],
+      "reddit_queries": [
+        "\"meethalo.app\"",
+        "\"halo ai\""
+      ],
+      "hn_queries": [
+        "\"meethalo.app\"",
+        "\"halo ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "meethalo.app",
+        "@meethalo",
+        "meethalo",
+        "halo ai",
+        "halo assistant",
+        "halo agent",
+        "haloai",
+        "halo.ai",
+        "haloapp"
+      ],
+      "imessage_handles": []
+    },
+    "hirealpha": {
+      "name": "HireAlpha",
+      "handles": [
+        "Alpha"
+      ],
+      "domain": "hirealpha.chat",
+      "x_queries": [
+        "\"hirealpha.chat\"",
+        "@Alpha",
+        "\"hirealpha\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"hirealpha.chat\"",
+        "\"hirealpha\""
+      ],
+      "hn_queries": [
+        "\"hirealpha.chat\"",
+        "\"hirealpha\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hirealpha.chat",
+        "@Alpha",
+        "alpha",
+        "hirealpha"
+      ],
+      "imessage_handles": []
+    },
+    "instinct": {
+      "name": "Instinct",
+      "handles": [
+        "instinct_inc"
+      ],
+      "domain": "instinct.co",
+      "x_queries": [
+        "\"instinct.co\"",
+        "@instinct_inc",
+        "\"instinct ai\" OR \"instinct assistant\" OR \"instinct agent\""
+      ],
+      "reddit_queries": [
+        "\"instinct.co\"",
+        "\"instinct\""
+      ],
+      "hn_queries": [
+        "\"instinct.co\"",
+        "\"instinct\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "instinct.co",
+        "@instinct_inc",
+        "instinct_inc",
+        "instinct ai",
+        "instinct assistant",
+        "instinct agent",
+        "instinctai",
+        "instinct.ai",
+        "instinctapp"
+      ],
+      "imessage_handles": []
+    },
+    "joshu": {
+      "name": "Joshu",
+      "handles": [],
+      "domain": "joshu.me",
+      "x_queries": [
+        "\"joshu.me\"",
+        "\"joshu ai\" OR \"joshu assistant\" OR \"joshu agent\""
+      ],
+      "reddit_queries": [
+        "\"joshu.me\"",
+        "\"joshu ai\""
+      ],
+      "hn_queries": [
+        "\"joshu.me\"",
+        "\"joshu ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "joshu.me",
+        "joshu ai",
+        "joshu assistant",
+        "joshu agent",
+        "joshuai",
+        "joshu.ai",
+        "joshuapp"
+      ],
+      "imessage_handles": []
+    },
+    "lava": {
+      "name": "Lava",
+      "handles": [
+        "trylava"
+      ],
+      "domain": "lava.so",
+      "x_queries": [
+        "\"lava.so\"",
+        "@trylava",
+        "\"lava ai\" OR \"lava assistant\" OR \"lava agent\""
+      ],
+      "reddit_queries": [
+        "\"lava.so\"",
+        "\"lava ai\""
+      ],
+      "hn_queries": [
+        "\"lava.so\"",
+        "\"lava ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "lava.so",
+        "@trylava",
+        "trylava",
+        "lava ai",
+        "lava assistant",
+        "lava agent",
+        "lavaai",
+        "lava.ai",
+        "lavaapp"
+      ],
+      "imessage_handles": []
+    },
+    "lucas": {
+      "name": "Lucas",
+      "handles": [
+        "meetlucasai"
+      ],
+      "domain": "meetlucas.ai",
+      "x_queries": [
+        "\"meetlucas.ai\"",
+        "@meetlucasai",
+        "\"lucas ai\" OR \"lucas assistant\" OR \"lucas agent\""
+      ],
+      "reddit_queries": [
+        "\"meetlucas.ai\"",
+        "\"lucas ai\""
+      ],
+      "hn_queries": [
+        "\"meetlucas.ai\"",
+        "\"lucas ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "meetlucas.ai",
+        "@meetlucasai",
+        "meetlucasai",
+        "lucas ai",
+        "lucas assistant",
+        "lucas agent",
+        "lucasai",
+        "lucas.ai",
+        "lucasapp"
+      ],
+      "imessage_handles": [
+        "+447496278788"
+      ]
+    },
+    "mana": {
+      "name": "Mana",
+      "handles": [],
+      "domain": "mana.space",
+      "x_queries": [
+        "\"mana.space\"",
+        "\"mana ai\" OR \"mana assistant\" OR \"mana agent\""
+      ],
+      "reddit_queries": [
+        "\"mana.space\"",
+        "\"mana ai\""
+      ],
+      "hn_queries": [
+        "\"mana.space\"",
+        "\"mana ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "mana.space",
+        "mana ai",
+        "mana assistant",
+        "mana agent",
+        "manaai",
+        "mana.ai",
+        "manaapp"
+      ],
+      "imessage_handles": []
+    },
+    "miso": {
+      "name": "Miso",
+      "handles": [
+        "bookwithmiso"
+      ],
+      "domain": "miso.com",
+      "x_queries": [
+        "\"miso.com\"",
+        "@bookwithmiso",
+        "\"miso ai\" OR \"miso assistant\" OR \"miso agent\""
+      ],
+      "reddit_queries": [
+        "\"miso.com\"",
+        "\"miso ai\""
+      ],
+      "hn_queries": [
+        "\"miso.com\"",
+        "\"miso ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "miso.com",
+        "@bookwithmiso",
+        "bookwithmiso",
+        "miso ai",
+        "miso assistant",
+        "miso agent",
+        "misoai",
+        "miso.ai",
+        "misoapp"
+      ],
+      "imessage_handles": [
+        "+16504054503"
+      ]
+    },
+    "moves": {
+      "name": "Moves",
+      "handles": [],
+      "domain": null,
+      "x_queries": [
+        "\"moves ai\" OR \"moves assistant\" OR \"moves agent\""
+      ],
+      "reddit_queries": [
+        "\"moves ai\""
+      ],
+      "hn_queries": [
+        "\"moves ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "moves ai",
+        "moves assistant",
+        "moves agent",
+        "movesai",
+        "moves.ai",
+        "movesapp"
+      ],
+      "imessage_handles": []
+    },
+    "ollie": {
+      "name": "Ollie",
+      "handles": [
+        "heyollieai"
+      ],
+      "domain": "ollie.ai",
+      "x_queries": [
+        "\"ollie.ai\"",
+        "@heyollieai",
+        "\"ollie ai\" OR \"ollie assistant\" OR \"ollie agent\""
+      ],
+      "reddit_queries": [
+        "\"ollie.ai\"",
+        "\"ollie ai\""
+      ],
+      "hn_queries": [
+        "\"ollie.ai\"",
+        "\"ollie ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "ollie.ai",
+        "@heyollieai",
+        "heyollieai",
+        "ollie ai",
+        "ollie assistant",
+        "ollie agent",
+        "ollieai",
+        "ollieapp"
+      ],
+      "imessage_handles": []
+    },
+    "openinstinct": {
+      "name": "OpenInstinct",
+      "handles": [
+        "merit_systems"
+      ],
+      "domain": "openinstinct.sh",
+      "x_queries": [
+        "\"openinstinct.sh\"",
+        "@merit_systems",
+        "openinstinct OR \"open instinct\""
+      ],
+      "reddit_queries": [
+        "\"openinstinct.sh\""
+      ],
+      "hn_queries": [
+        "\"openinstinct.sh\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "openinstinct.sh",
+        "@merit_systems",
+        "merit_systems",
+        "openinstinct",
+        "open instinct"
+      ],
+      "imessage_handles": []
+    },
+    "orchid": {
+      "name": "Orchid",
+      "handles": [
+        "orchid_hq"
+      ],
+      "domain": "orchid.ai",
+      "x_queries": [
+        "\"orchid.ai\"",
+        "@orchid_hq",
+        "\"orchid ai\" OR \"orchid assistant\" OR \"orchid agent\""
+      ],
+      "reddit_queries": [
+        "\"orchid.ai\"",
+        "\"orchid ai\""
+      ],
+      "hn_queries": [
+        "\"orchid.ai\"",
+        "\"orchid ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "orchid.ai",
+        "@orchid_hq",
+        "orchid_hq",
+        "orchid ai",
+        "orchid assistant",
+        "orchid agent",
+        "orchidai",
+        "orchidapp"
+      ],
+      "imessage_handles": [
+        "+14152999916"
+      ]
+    },
+    "pally": {
+      "name": "Pally",
+      "handles": [
+        "pallyai"
+      ],
+      "domain": "pally.com",
+      "x_queries": [
+        "\"pally.com\"",
+        "@pallyai",
+        "\"pally ai\" OR \"pally assistant\" OR \"pally agent\""
+      ],
+      "reddit_queries": [
+        "\"pally.com\"",
+        "\"pally ai\""
+      ],
+      "hn_queries": [
+        "\"pally.com\"",
+        "\"pally ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "pally.com",
+        "@pallyai",
+        "pallyai",
+        "pally ai",
+        "pally assistant",
+        "pally agent",
+        "pally.ai",
+        "pallyapp"
+      ],
+      "imessage_handles": []
+    },
+    "personal-local": {
+      "name": "personal/local",
+      "handles": [
+        "openclaw"
+      ],
+      "domain": null,
+      "x_queries": [
+        "@openclaw",
+        "openclaw"
+      ],
+      "reddit_queries": [],
+      "hn_queries": [],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "@openclaw",
+        "openclaw",
+        "open claw"
+      ],
+      "imessage_handles": []
+    },
+    "pneum": {
+      "name": "Pneum.ai",
+      "handles": [
+        "Pneum",
+        "pneumai"
+      ],
+      "domain": "pneum.ai",
+      "x_queries": [
+        "\"pneum.ai\"",
+        "@Pneum",
+        "@pneumai",
+        "\"pneum.ai\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"pneum.ai\""
+      ],
+      "hn_queries": [
+        "\"pneum.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "pneum.ai",
+        "@Pneum",
+        "@pneumai",
+        "pneum",
+        "pneumai"
+      ],
+      "imessage_handles": []
+    },
+    "poke": {
+      "name": "Poke",
+      "handles": [
+        "interaction"
+      ],
+      "domain": "poke.com",
+      "x_queries": [
+        "\"poke.com\"",
+        "@interaction",
+        "\"poke ai\" OR \"poke assistant\" OR \"poke agent\""
+      ],
+      "reddit_queries": [
+        "\"poke.com\"",
+        "\"poke ai\""
+      ],
+      "hn_queries": [
+        "\"poke.com\"",
+        "\"poke ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "poke.com",
+        "@interaction",
+        "interaction",
+        "poke ai",
+        "poke assistant",
+        "poke agent",
+        "pokeai",
+        "poke.ai",
+        "pokeapp"
+      ],
+      "imessage_handles": []
+    },
+    "shoponscout": {
+      "name": "ShopOnScout / Scout",
+      "handles": [
+        "shoponscout"
+      ],
+      "domain": "shoponscout.com",
+      "x_queries": [
+        "\"shoponscout.com\"",
+        "@shoponscout",
+        "\"shoponscout\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"shoponscout.com\""
+      ],
+      "hn_queries": [
+        "\"shoponscout.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "shoponscout.com",
+        "@shoponscout",
+        "shoponscout"
+      ],
+      "imessage_handles": []
+    },
+    "shuffle": {
+      "name": "Shuffle",
+      "handles": [],
+      "domain": "shuffle.cool",
+      "x_queries": [
+        "\"shuffle.cool\"",
+        "\"shuffle ai\" OR \"shuffle assistant\" OR \"shuffle agent\""
+      ],
+      "reddit_queries": [
+        "\"shuffle.cool\"",
+        "\"shuffle ai\""
+      ],
+      "hn_queries": [
+        "\"shuffle.cool\"",
+        "\"shuffle ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "shuffle.cool",
+        "shuffle ai",
+        "shuffle assistant",
+        "shuffle agent",
+        "shuffleai",
+        "shuffle.ai",
+        "shuffleapp"
+      ],
+      "imessage_handles": []
+    },
+    "sircle": {
+      "name": "Sircle",
+      "handles": [],
+      "domain": null,
+      "x_queries": [
+        "\"sircle ai\" OR \"sircle assistant\" OR \"sircle agent\""
+      ],
+      "reddit_queries": [
+        "\"sircle ai\""
+      ],
+      "hn_queries": [
+        "\"sircle ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "sircle ai",
+        "sircle assistant",
+        "sircle agent",
+        "sircleai",
+        "sircle.ai",
+        "sircleapp"
+      ],
+      "imessage_handles": []
+    },
+    "skydive": {
+      "name": "Skydive",
+      "handles": [
+        "getskydive"
+      ],
+      "domain": "skydive.com",
+      "x_queries": [
+        "\"skydive.com\"",
+        "@getskydive",
+        "\"skydive ai\" OR \"skydive assistant\" OR \"skydive agent\""
+      ],
+      "reddit_queries": [
+        "\"skydive.com\"",
+        "\"skydive ai\""
+      ],
+      "hn_queries": [
+        "\"skydive.com\"",
+        "\"skydive ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "skydive.com",
+        "@getskydive",
+        "getskydive",
+        "skydive ai",
+        "skydive assistant",
+        "skydive agent",
+        "skydiveai",
+        "skydive.ai",
+        "skydiveapp"
+      ],
+      "imessage_handles": []
+    },
+    "slashy": {
+      "name": "Slashy",
+      "handles": [
+        "slashyemail",
+        "slashy"
+      ],
+      "domain": "slashy.com",
+      "x_queries": [
+        "\"slashy.com\"",
+        "@slashyemail",
+        "@slashy",
+        "\"slashy\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"slashy.com\"",
+        "\"slashy\""
+      ],
+      "hn_queries": [
+        "\"slashy.com\"",
+        "\"slashy\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "slashy.com",
+        "@slashyemail",
+        "@slashy",
+        "slashyemail",
+        "slashy"
+      ],
+      "imessage_handles": []
+    },
+    "soar": {
+      "name": "Soar",
+      "handles": [
+        "soarapp"
+      ],
+      "domain": "joinsoar.co",
+      "x_queries": [
+        "\"joinsoar.co\"",
+        "@soarapp",
+        "\"soar ai\" OR \"soar assistant\" OR \"soar agent\""
+      ],
+      "reddit_queries": [
+        "\"joinsoar.co\"",
+        "\"soar ai\""
+      ],
+      "hn_queries": [
+        "\"joinsoar.co\"",
+        "\"soar ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "joinsoar.co",
+        "@soarapp",
+        "soarapp",
+        "soar ai",
+        "soar assistant",
+        "soar agent",
+        "soarai",
+        "soar.ai"
+      ],
+      "imessage_handles": [
+        "+14242492855"
+      ]
+    },
+    "synorb": {
+      "name": "Synorb",
+      "handles": [
+        "synorb"
+      ],
+      "domain": "synorb.com",
+      "x_queries": [
+        "\"synorb.com\"",
+        "@synorb",
+        "\"synorb ai\" OR \"synorb assistant\" OR \"synorb agent\""
+      ],
+      "reddit_queries": [
+        "\"synorb.com\"",
+        "\"synorb ai\""
+      ],
+      "hn_queries": [
+        "\"synorb.com\"",
+        "\"synorb ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "synorb.com",
+        "@synorb",
+        "synorb",
+        "synorb ai",
+        "synorb assistant",
+        "synorb agent",
+        "synorbai",
+        "synorb.ai",
+        "synorbapp"
+      ],
+      "imessage_handles": []
+    },
+    "szn": {
+      "name": "szn",
+      "handles": [
+        "thesznai"
+      ],
+      "domain": "theszn.ai",
+      "x_queries": [
+        "\"theszn.ai\"",
+        "@thesznai",
+        "\"szn ai\" OR \"szn assistant\" OR \"szn agent\""
+      ],
+      "reddit_queries": [
+        "\"theszn.ai\"",
+        "\"szn ai\""
+      ],
+      "hn_queries": [
+        "\"theszn.ai\"",
+        "\"szn ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "theszn.ai",
+        "@thesznai",
+        "thesznai",
+        "szn ai",
+        "szn assistant",
+        "szn agent",
+        "sznai",
+        "szn.ai",
+        "sznapp"
+      ],
+      "imessage_handles": []
+    },
+    "text-zero": {
+      "name": "Text Zero",
+      "handles": [
+        "meetzeroai"
+      ],
+      "domain": "meetzero.ai",
+      "x_queries": [
+        "\"meetzero.ai\"",
+        "@meetzeroai",
+        "\"text zero\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"meetzero.ai\""
+      ],
+      "hn_queries": [
+        "\"meetzero.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "meetzero.ai",
+        "@meetzeroai",
+        "meetzeroai",
+        "text zero"
+      ],
+      "imessage_handles": []
+    },
+    "tinynature": {
+      "name": "tinyNature",
+      "handles": [
+        "NaturaAI"
+      ],
+      "domain": "tinypeople.ai",
+      "x_queries": [
+        "\"tinypeople.ai\"",
+        "@NaturaAI",
+        "\"tinynature\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"tinypeople.ai\"",
+        "\"tinynature\""
+      ],
+      "hn_queries": [
+        "\"tinypeople.ai\"",
+        "\"tinynature\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tinypeople.ai",
+        "@NaturaAI",
+        "naturaai",
+        "tinynature"
+      ],
+      "imessage_handles": [
+        "+14155837547"
+      ]
+    },
+    "tomo": {
+      "name": "Tomo",
+      "handles": [
+        "tomo"
+      ],
+      "domain": "tomo.ai",
+      "x_queries": [
+        "\"tomo.ai\"",
+        "@tomo",
+        "\"tomo ai\" OR \"tomo assistant\" OR \"tomo agent\""
+      ],
+      "reddit_queries": [
+        "\"tomo.ai\"",
+        "\"tomo ai\""
+      ],
+      "hn_queries": [
+        "\"tomo.ai\"",
+        "\"tomo ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tomo.ai",
+        "@tomo",
+        "tomo ai",
+        "tomo assistant",
+        "tomo agent",
+        "tomoai",
+        "tomoapp"
+      ],
+      "imessage_handles": []
+    },
+    "town": {
+      "name": "Town",
+      "handles": [
+        "TownAI"
+      ],
+      "domain": "town.com",
+      "x_queries": [
+        "\"town.com\"",
+        "@TownAI",
+        "\"town ai\" OR \"town assistant\" OR \"town agent\""
+      ],
+      "reddit_queries": [
+        "\"town.com\"",
+        "\"town ai\""
+      ],
+      "hn_queries": [
+        "\"town.com\"",
+        "\"town ai\""
+      ],
+      "appstore_ids": [
+        6759411716
+      ],
+      "ph_slug": null,
+      "match": [
+        "town.com",
+        "@TownAI",
+        "townai",
+        "town ai",
+        "town assistant",
+        "town agent",
+        "town.ai",
+        "townapp"
+      ],
+      "imessage_handles": []
+    },
+    "vellum": {
+      "name": "Vellum",
+      "handles": [
+        "vellum_ai"
+      ],
+      "domain": "vellum.ai",
+      "x_queries": [
+        "\"vellum.ai\"",
+        "@vellum_ai",
+        "\"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\""
+      ],
+      "reddit_queries": [
+        "\"vellum.ai\"",
+        "\"vellum ai\""
+      ],
+      "hn_queries": [
+        "\"vellum.ai\"",
+        "\"vellum ai\""
+      ],
+      "appstore_ids": [
+        6759934423
+      ],
+      "ph_slug": null,
+      "match": [
+        "vellum.ai",
+        "@vellum_ai",
+        "vellum_ai",
+        "vellum ai",
+        "vellum assistant",
+        "vellum agent",
+        "vellumai",
+        "vellumapp"
+      ],
+      "imessage_handles": []
+    },
+    "wajo-fo": {
+      "name": "Wajo / Fo",
+      "handles": [
+        "wajo_ai"
+      ],
+      "domain": "wajo.ai",
+      "x_queries": [
+        "\"wajo.ai\"",
+        "@wajo_ai",
+        "\"wajo\" (ai OR assistant OR agent)"
+      ],
+      "reddit_queries": [
+        "\"wajo.ai\""
+      ],
+      "hn_queries": [
+        "\"wajo.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "wajo.ai",
+        "@wajo_ai",
+        "wajo_ai",
+        "wajo"
+      ],
+      "imessage_handles": []
+    },
+    "waldo": {
+      "name": "Waldo",
+      "handles": [
+        "heyywaldo"
+      ],
+      "domain": "heywaldo.in",
+      "x_queries": [
+        "\"heywaldo.in\"",
+        "@heyywaldo",
+        "\"waldo ai\" OR \"waldo assistant\" OR \"waldo agent\""
+      ],
+      "reddit_queries": [
+        "\"heywaldo.in\"",
+        "\"waldo ai\""
+      ],
+      "hn_queries": [
+        "\"heywaldo.in\"",
+        "\"waldo ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "heywaldo.in",
+        "@heyywaldo",
+        "heyywaldo",
+        "waldo ai",
+        "waldo assistant",
+        "waldo agent",
+        "waldoai",
+        "waldo.ai",
+        "waldoapp"
+      ],
+      "imessage_handles": []
+    }
+  },
+  "_redact_terms": [
+    "Sam"
+  ]
+}

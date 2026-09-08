@@ -1,0 +1,67 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "f29495308e4c": {
+      "proactive_behavior": "pos"
+    },
+    "79c881041bfb": {
+      "proactive_behavior": "pos",
+      "memory": "pos"
+    },
+    "a49466d78a0e": {
+      "content_creation_games": "pos"
+    },
+    "54a01be01b74": {
+      "running_routine": "pos",
+      "proactive_behavior": "pos"
+    },
+    "da5b78911568": {
+      "content_creation_games": "neg"
+    },
+    "1ad5836fbb01": {
+      "multiplayer_groups": "neg"
+    },
+    "fdb1f9761681": {
+      "third_party_integrations": "neg"
+    },
+    "edd5bbcd82ec": {
+      "proactive_behavior": "pos"
+    },
+    "091fcee84c7c": {
+      "proactive_behavior": "pos",
+      "running_routine": "pos",
+      "online_task": "neg"
+    },
+    "88deb3487632": {
+      "memory": "neg"
+    },
+    "4f26f6cd0617": {
+      "memory": "pos",
+      "proactive_behavior": "pos",
+      "personality": "pos"
+    },
+    "dc4cc78a9e55": {
+      "personality": "mixed"
+    },
+    "ed96d5832abf": {
+      "memory": "pos"
+    },
+    "2cc891d85b9f": {
+      "proactive_behavior": "pos"
+    },
+    "cba504053c16": {
+      "personality": "pos"
+    },
+    "b4804e1a0d5a": {
+      "content_creation_games": "pos"
+    },
+    "1755ec387856": {
+      "general": "pos"
+    },
+    "4148569638d7": {
+      "general": "pos"
+    }
+  }
+}

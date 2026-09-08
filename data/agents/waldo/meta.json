@@ -10,5 +10,7 @@
   "product_class": "unconfirmed",
   "notes": "Pre-alpha personal AI (@heyywaldo / heywaldo.in). Productivity+health positioning; not broadly shipped. Name collisions remain; skip waldo.fyi.",
   "likely_applicable": [],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "Action layer for the human day",
+  "icon": "/logos/waldo.png"
 }

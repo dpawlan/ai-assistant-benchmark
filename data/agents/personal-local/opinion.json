@@ -1,0 +1,119 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "68070ac0b972": {
+      "running_routine": "neutral"
+    },
+    "81bfaf657453": {
+      "third_party_integrations": "pos"
+    },
+    "8190669b1077": {
+      "online_task": "pos",
+      "multiplayer_groups": "neutral"
+    },
+    "3c829fd681d7": {
+      "running_routine": "pos",
+      "proactive_restraint": "pos"
+    },
+    "67cd46b6c1f4": {
+      "content_creation_games": "pos"
+    },
+    "049f90daa24c": {
+      "multiplayer_groups": "pos"
+    },
+    "b047da01390e": {
+      "multiplayer_groups": "pos"
+    },
+    "cb84fa2d4607": {
+      "memory": "neg",
+      "running_routine": "pos"
+    },
+    "888ad2b52d99": {
+      "running_routine": "neg"
+    },
+    "1d9b731b9eb1": {
+      "proactive_restraint": "neg"
+    },
+    "b003a39e0775": {
+      "running_routine": "pos",
+      "third_party_integrations": "pos"
+    },
+    "ab489892312a": {
+      "general": "neg"
+    },
+    "0fd430887375": {
+      "general": "pos"
+    },
+    "46fbd7299be2": {
+      "general": "mixed"
+    },
+    "d2fc3259b87e": {
+      "general": "neg"
+    },
+    "3cdcf7265fd7": {
+      "general": "neg"
+    },
+    "a2176ca406d5": {
+      "general": "mixed"
+    },
+    "c554eb9f7df8": {
+      "general": "pos"
+    },
+    "f3334e2bba8c": {
+      "general": "neg"
+    },
+    "0ca0cb13ccb6": {
+      "general": "neg"
+    },
+    "f2d00e6a0a63": {
+      "general": "neg"
+    },
+    "f13ad9966669": {
+      "general": "pos"
+    },
+    "7cbd2272abcd": {
+      "general": "neg"
+    },
+    "8f7d99af1286": {
+      "general": "neg"
+    },
+    "60d97acba665": {
+      "general": "neg"
+    },
+    "f2a7fa3ef0a3": {
+      "general": "neg"
+    },
+    "a1f0c719b60b": {
+      "general": "neg"
+    },
+    "43006397b347": {
+      "general": "neg"
+    },
+    "4a274cfbd2bf": {
+      "general": "pos"
+    },
+    "474a8dbda582": {
+      "general": "pos"
+    },
+    "afaf2dafaf3f": {
+      "general": "neg"
+    },
+    "5feef6b12f0d": {
+      "general": "neg"
+    },
+    "c28a38984044": {
+      "general": "neg"
+    },
+    "561fbda5a844": {
+      "general": "neg"
+    },
+    "6d01abc62a2e": {
+      "general": "neg"
+    },
+    "d798e0055353": {
+      "general": "neg"
+    }
+  }
+}

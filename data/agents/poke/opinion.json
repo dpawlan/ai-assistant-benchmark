@@ -1,0 +1,94 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "8390dba288b9": {
+      "online_task": "pos",
+      "recommendation_quality": "pos",
+      "proactive_behavior": "pos"
+    },
+    "a4f64e435fb3": {
+      "recommendation_quality": "pos",
+      "online_task": "pos"
+    },
+    "d2ef1a61d751": {
+      "third_party_integrations": "pos"
+    },
+    "33816aa70d4d": {
+      "personality": "pos",
+      "phone_calls": "neg",
+      "online_task": "neg",
+      "email_replies": "neutral"
+    },
+    "741bb7f38ddb": {
+      "personality": "pos"
+    },
+    "d26f3dbf7ba5": {
+      "running_routine": "neg",
+      "memory": "neg"
+    },
+    "15108419a68a": {
+      "personality": "mixed"
+    },
+    "251ef4310e1d": {
+      "personality": "pos"
+    },
+    "11fa7ba38418": {
+      "personality": "pos"
+    },
+    "2c66b4917595": {
+      "proactive_behavior": "pos",
+      "running_routine": "pos"
+    },
+    "33f29b155156": {
+      "purchasing": "pos"
+    },
+    "2de2892742de": {
+      "memory": "neg"
+    },
+    "3d5943740a79": {
+      "proactive_behavior": "neg"
+    },
+    "f84bb024e707": {
+      "proactive_behavior": "pos",
+      "running_routine": "pos"
+    },
+    "883d6d27f598": {
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos",
+      "running_routine": "pos",
+      "memory": "neg"
+    },
+    "a4961831018c": {
+      "general": "pos"
+    },
+    "02d7142ca5b4": {
+      "general": "neg"
+    },
+    "8ed9983213bc": {
+      "general": "neg"
+    },
+    "a7ebec6ab11d": {
+      "general": "mixed"
+    },
+    "7bb8db836f64": {
+      "general": "neg"
+    },
+    "fdf5ae10f695": {
+      "general": "pos"
+    },
+    "e9745140c50d": {
+      "general": "pos"
+    },
+    "7bd285efda78": {
+      "general": "neg"
+    },
+    "72702a90b82f": {
+      "general": "neg"
+    },
+    "d798e0055353": {
+      "general": "neg"
+    }
+  }
+}

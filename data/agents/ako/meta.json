@@ -18,5 +18,7 @@
     "proactive_behavior",
     "running_routine"
   ],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "An AI employee for your team, with its own email and workspace",
+  "icon": "/logos/ako.png"
 }

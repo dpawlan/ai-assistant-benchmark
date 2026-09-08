@@ -1,34 +1,34 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
+import type { Metadata } from 'next';
+import './globals.css';
+import { Shell } from '@/components/Shell';
+import { Sidebar } from '@/components/Sidebar';
+import { Footer } from '@/components/Footer';
+import { getCategories, getIndexData } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: "AI Assistant Benchmark | Compare AI Personal Assistants",
-  description: "Public scorecard for AI personal assistants. Wirecutter-style comparison with consistent metrics across ChatGPT, Claude, Gemini, Copilot, and 40+ AI tools.",
-  keywords: ["AI assistant", "ChatGPT", "Claude", "Gemini", "comparison", "benchmark", "scorecard"],
+  title: {
+    default: 'Assistant Benchmark',
+    template: '%s | Assistant Benchmark',
+  },
+  description:
+    'A public scorecard for AI assistants you can text. Every assistant scored on the same 14 categories, backed by real public quotes.',
   openGraph: {
-    title: "AI Assistant Benchmark",
-    description: "Compare AI personal assistants with consistent metrics and real user feedback",
-    type: "website",
+    title: 'Assistant Benchmark',
+    description: 'Which assistant is actually worth texting? One rubric, real quotes, no sponsored rankings.',
+    type: 'website',
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: LayoutProps<'/'>) {
+  const categories = getCategories();
+  const index = getIndexData();
+
   return (
-    <html lang="en" className={`${inter.variable} h-full`}>
-      <body className="min-h-full flex flex-col bg-background text-foreground antialiased">
-        <Header />
-        <main className="flex-1">
+    <html lang="en">
+      <body>
+        <Shell sidebar={<Sidebar categories={categories} />} footer={<Footer index={index} />}>
           {children}
-        </main>
-        <Footer />
+        </Shell>
       </body>
     </html>
   );

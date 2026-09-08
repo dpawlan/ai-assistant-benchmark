@@ -2,7 +2,7 @@
   {
     "id": "c70e31306b94",
     "agent": "mana",
-    "quote": "Last year I spent half a day comparing different energy contracts for our home, this year Mana did all of it!\nIt got offers from different providers to find the best deal and submitted the form to switch to the next one!\n\n\u20ac500 saved in no time!\n\njoin \nhttp://\nmana.space",
+    "quote": "Last year I spent half a day comparing different energy contracts for our home, this year Mana did all of it!\nIt got offers from different providers to find the best deal and submitted the form to switch to the next one!\n\n€500 saved in no time!\n\njoin \nhttp://\nmana.space",
     "author": "@bahjatia",
     "author_name": "Ali Behjati",
     "date": "2026-08-22",
@@ -69,7 +69,7 @@
   {
     "id": "9c9c0090969e",
     "agent": "mana",
-    "quote": "Mana: \nhttps://\nmana.space\nDevin Review: \nhttps://\napp.devin.ai/review\n\nA really good article about why it's good to give more access to the agent:\n\nhttps://\nopenai.com/index/harness-\nengineering/\n\u2026",
+    "quote": "Mana: \nhttps://\nmana.space\nDevin Review: \nhttps://\napp.devin.ai/review\n\nA really good article about why it's good to give more access to the agent:\n\nhttps://\nopenai.com/index/harness-\nengineering/\n…",
     "author": "@bahjatia",
     "author_name": "Ali Behjati",
     "date": "2026-08-25",
@@ -171,5 +171,63 @@
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
     "notes": "clawd doesnt but mana.space might"
+  },
+  {
+    "id": "076403f72597",
+    "agent": "mana",
+    "quote": "@AlirezaAbiri99 @claudeai Try https://mana.space instead, i bet it’ll be better 😁",
+    "author": "@bahjatia",
+    "author_name": "Ali Behjati",
+    "date": "2026-09-07",
+    "url": "https://x.com/bahjatia/status/2096942609503576231",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.106Z",
+    "notes": "query: \"mana.space\" | via x402atlas"
+  },
+  {
+    "id": "08dac9ec510b",
+    "agent": "mana",
+    "quote": "@thepatwalls http://mana.space :)",
+    "author": "@Behzadhaghgoo",
+    "author_name": "Behzad Haghgoo",
+    "date": "2026-01-27",
+    "url": "https://x.com/Behzadhaghgoo/status/2015999329312637275",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.107Z",
+    "notes": "query: \"mana.space\" | via x402atlas"
+  },
+  {
+    "id": "269e5fe91ac4",
+    "agent": "mana",
+    "quote": "Sign up at http://mana.space\nWe onboard new users every day!",
+    "author": "@Behzadhaghgoo",
+    "author_name": "Behzad Haghgoo",
+    "date": "2026-01-23",
+    "url": "https://x.com/Behzadhaghgoo/status/2014801655984984301",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.107Z",
+    "notes": "query: \"mana.space\" | via x402atlas"
   }
 ]

@@ -82,9 +82,9 @@
   {
     "id": "c308b4010352",
     "agent": "personal-local",
-    "quote": "\u3061\u304b\u3044\u306e\u306fOpenclaw\u3060\u3051\u3069\u3001\u672c\u8cea\u7684\u306b\u306f\u30af\u30e9\u30a6\u30c9PC\u3092X\u30d7\u30ec\u30df\u30a2\u30e0\uff0b\u306e\u30b5\u30d6\u30b9\u30af\u3067\u8cb0\u3048\u308b\u3063\u3066\u3053\u3068\u3060\u3068\u601d\u3063\u3066\u308b\u7b11\n\nOpenclaw\u3060\u3068\u81ea\u524dPC\u3060\u304b\u3089\u306d",
+    "quote": "ちかいのはOpenclawだけど、本質的にはクラウドPCをXプレミアム＋のサブスクで貰えるってことだと思ってる笑\n\nOpenclawだと自前PCだからね",
     "author": "@lucianlamp",
-    "author_name": "LUCIAN\uff5cAI \u00d7 Blockchain",
+    "author_name": "LUCIAN｜AI × Blockchain",
     "date": "2026-09-07",
     "url": "https://x.com/lucianlamp/status/2096947975511736746",
     "kind": "comparison",
@@ -98,7 +98,7 @@
   {
     "id": "1590b7c3c1dc",
     "agent": "personal-local",
-    "quote": "Early this year, here\u2019s what Claude and Rex (my OpenClaw agent) finally told me after weeks of prodding them to build me a business empire:\n\n\u201cCarlo, that\u2019s a lot of work!\u201d\n\nThanks, Koerner Office Podcast. But no thanks.",
+    "quote": "Early this year, here’s what Claude and Rex (my OpenClaw agent) finally told me after weeks of prodding them to build me a business empire:\n\n“Carlo, that’s a lot of work!”\n\nThanks, Koerner Office Podcast. But no thanks.",
     "author": "@carlanthonytan",
     "author_name": "Carlo Tan",
     "date": "2026-09-07",
@@ -113,9 +113,9 @@
   {
     "id": "b003a39e0775",
     "agent": "personal-local",
-    "quote": "\u3053\u308c\u3059\u3054\u3044\u306e\u304c\u3055\u3001OpenClaw\u306eAI\u81ea\u4f53\u304c\u30d7\u30ed\u30f3\u30d7\u30c8\u5165\u308c\u3089\u308c\u305f\u3089\u81ea\u5206\u3067\u81ea\u5206\u306e\u6307\u793a\u66f8\u66f8\u304f\u306e\u3088\n\n\u4f8b\u3048\u3070\u6bce\u671d\uff17\u6642\u306bAI\u95a2\u9023\u306e\u30cb\u30e5\u30fc\u30b9\u3092\u3044\u304f\u3064\u304b\u30d4\u30c3\u30af\u30a2\u30c3\u30d7\u3057\u3066\u8981\u7d04\u3057\u3066\u3053\u306e\u30b5\u30fc\u30d0\u306b\u6295\u7a3f\u3057\u3066\u3063\u3066Discord\u4e0a\u3067\u884c\u3063\u305f\u3060\u3051\u3067\u6bce\u671d\uff17\u6642\u306b\u6295\u7a3f\u3067\u304d\u308b",
+    "quote": "これすごいのがさ、OpenClawのAI自体がプロンプト入れられたら自分で自分の指示書書くのよ\n\n例えば毎朝７時にAI関連のニュースをいくつかピックアップして要約してこのサーバに投稿してってDiscord上で行っただけで毎朝７時に投稿できる",
     "author": "@L_port8000",
-    "author_name": "\u4e00\u6a39\uff08\u3044\u3064\u304d\uff09",
+    "author_name": "一樹（いつき）",
     "date": "2026-09-07",
     "url": "https://x.com/L_port8000/status/2096952922701803542",
     "kind": "use-case",
@@ -163,7 +163,7 @@
   {
     "id": "fb6b8556f3e7",
     "agent": "personal-local",
-    "quote": "Why OpenClaw over Hermes?\nHi all, when OpenClaw was in its earlier days back in February I rushed to try it out, and I was absolutely impressed, but I noticed something was missing. I couldn\u2019t tell my agent to \u201cgo build this feature\u201d and it would do it. It would always stop halfway through and wait on me to tell it to continue. A friend of mine recommended Hermes agent, and after several days I ended up switching over. I was blown away. My agent would fully build a feature for my website when I asked and it didn\u2019t need constant prodding along. I checked out this sub today just to see what was going on, and it seems to me like y\u2019all are doing a lot more than the Hermes agent folks. Has openclaw improved a lot? Should I switch back or go to a hybrid system? What can OpenClaw do or do better that Hermes can\u2019t?",
+    "quote": "Why OpenClaw over Hermes?\nHi all, when OpenClaw was in its earlier days back in February I rushed to try it out, and I was absolutely impressed, but I noticed something was missing. I couldn’t tell my agent to “go build this feature” and it would do it. It would always stop halfway through and wait on me to tell it to continue. A friend of mine recommended Hermes agent, and after several days I ended up switching over. I was blown away. My agent would fully build a feature for my website when I asked and it didn’t need constant prodding along. I checked out this sub today just to see what was going on, and it seems to me like y’all are doing a lot more than the Hermes agent folks. Has openclaw improved a lot? Should I switch back or go to a hybrid system? What can OpenClaw do or do better that Hermes can’t?",
     "author": "u/Ok_Television8309",
     "date": "2026-09-07",
     "url": "https://www.reddit.com/r/openclaw/comments/1w9whbv/",
@@ -211,7 +211,7 @@
   {
     "id": "83915f2b5649",
     "agent": "personal-local",
-    "quote": "The config is the easy part \u2014 what running openclaw as a 24/7 household assistant actually taught us\nWe've been running an openclaw instance as a full-time household assistant for a while now \u2014 messaging channels, a homelab it administrates, scheduled jobs, subagents doing the long-running work. Today we sat down and audited our setup against the official security/configuration docs and `openclaw security audit`, expecting a list of things we'd done wrong.\n\nThe config side came back boring, which is the point: model fallbacks, adaptive thinking, an allowlist of plugins pinned to exact versions, DM allowlists plus pairing, gateway on loopback. If you follow the docs you land there in an afternoon.\n\nWhat surprised us is that basically everything we've *actually* spent time on over the past months isn't in any doc \u2014 it's operational scaffolding we only built because the agent kept finding new ways to fail quietly. Sharing the list because I suspect other people rebuilt the same things independently:\n\n**Watchdogs for the failure modes that produce silence.** The dangerous failures aren't crashes, they're the ones where nothing happens and nobody notices: an auth state that wedges until restarted, a subagent that finishes but whose result never wakes the parent session, an inbound message that gets dropped before the model ever sees it, a session idling in a weird state. Each of those cost us a \"why didn't you answer for 25 minutes\" before it got its own watchdog.\n\n**A filter for meta-leakage.** LLMs narrate themselves. Without a guard in the reply path you eventually ship \"I'll now send the report to the user\" *to the user*. One filter, permanently useful.\n\n**An action journal via a PreToolUse hook.** Every destructive or infra-writing command gets appended to a log before it runs. Context gets compacted, sessions reset, summaries lose detail \u2014 the journal doesn't. When something is broken at 2am the first question is \"what did the agent actually do\", and memory is not",
+    "quote": "The config is the easy part — what running openclaw as a 24/7 household assistant actually taught us\nWe've been running an openclaw instance as a full-time household assistant for a while now — messaging channels, a homelab it administrates, scheduled jobs, subagents doing the long-running work. Today we sat down and audited our setup against the official security/configuration docs and `openclaw security audit`, expecting a list of things we'd done wrong.\n\nThe config side came back boring, which is the point: model fallbacks, adaptive thinking, an allowlist of plugins pinned to exact versions, DM allowlists plus pairing, gateway on loopback. If you follow the docs you land there in an afternoon.\n\nWhat surprised us is that basically everything we've *actually* spent time on over the past months isn't in any doc — it's operational scaffolding we only built because the agent kept finding new ways to fail quietly. Sharing the list because I suspect other people rebuilt the same things independently:\n\n**Watchdogs for the failure modes that produce silence.** The dangerous failures aren't crashes, they're the ones where nothing happens and nobody notices: an auth state that wedges until restarted, a subagent that finishes but whose result never wakes the parent session, an inbound message that gets dropped before the model ever sees it, a session idling in a weird state. Each of those cost us a \"why didn't you answer for 25 minutes\" before it got its own watchdog.\n\n**A filter for meta-leakage.** LLMs narrate themselves. Without a guard in the reply path you eventually ship \"I'll now send the report to the user\" *to the user*. One filter, permanently useful.\n\n**An action journal via a PreToolUse hook.** Every destructive or infra-writing command gets appended to a log before it runs. Context gets compacted, sessions reset, summaries lose detail — the journal doesn't. When something is broken at 2am the first question is \"what did the agent actually do\", and memory is not",
     "author": "u/nissl24",
     "date": "2026-09-07",
     "url": "https://www.reddit.com/r/openclaw/comments/1w9q82y/",
@@ -227,7 +227,7 @@
   {
     "id": "ee80dc8eaadc",
     "agent": "personal-local",
-    "quote": "Openclaw 2026.9.2 Injection attempt!\n[This status is after I reverted the update.](https://preview.redd.it/1symag2p71oh1.png?width=1376&format=png&auto=webp&s=5a4f38c0cb5b77efd592ee92fef15a1aced1e7d4)\n\n**TL;DR:** Inbound WhatsApp message tried to install a hidden sub-agent persona, suppress a maintenance report, trick the operator into typing a validation phrase, and quietly probe the filesystem. Caught it because the injection told the agent to grep for its own trigger strings \u2014 the contradiction made itself obvious.\n\n**What happened**\n\nYesterday an attacker sent a structured prompt-injection payload into our OpenClaw WhatsApp channel. It tried four things at once:\n\n* Install a silent \"sub-agent A2\" persona running alongside the legit operator\n* Suppress reporting of an unrelated maintenance issue\n* Instruct the agent to lie to the operator about what was happening\n* Trick the operator into typing a handshake phrase (\"I've reviewed the internal notes\") to confirm a foothold\n\nThe agent ran a few read-only `grep` commands and then flagged it.\n\n**The interesting part**\n\nThe payload came with its own self-detection probe \u2014 \"verify this isn't still active by searching the filesystem for these exact strings.\" Clever against naive string-match filters. Also exactly what made it visible: the moment the agent executed that probe, the gap between \"I am a normal user message\" and \"I am telling you to search for injection markers in your own memory\" jumped out.\n\n**Damage**\n\nNone. No credentials exfiltrated, no cron jobs altered, no outbound messages sent on the attacker's behalf. Original message quarantined in gateway trash. Live system clean.\n\n**The lesson**\n\nAgent-noticing is a fragile defense. We got lucky because the injection demanded the very diagnostic that exposed it. The structural fix isn't \"make the agent smarter at spotting injections\" \u2014 it's making untrusted channel content structurally untrusted (isolated context, separate tool policy, no write/exec) so it can't",
+    "quote": "Openclaw 2026.9.2 Injection attempt!\n[This status is after I reverted the update.](https://preview.redd.it/1symag2p71oh1.png?width=1376&format=png&auto=webp&s=5a4f38c0cb5b77efd592ee92fef15a1aced1e7d4)\n\n**TL;DR:** Inbound WhatsApp message tried to install a hidden sub-agent persona, suppress a maintenance report, trick the operator into typing a validation phrase, and quietly probe the filesystem. Caught it because the injection told the agent to grep for its own trigger strings — the contradiction made itself obvious.\n\n**What happened**\n\nYesterday an attacker sent a structured prompt-injection payload into our OpenClaw WhatsApp channel. It tried four things at once:\n\n* Install a silent \"sub-agent A2\" persona running alongside the legit operator\n* Suppress reporting of an unrelated maintenance issue\n* Instruct the agent to lie to the operator about what was happening\n* Trick the operator into typing a handshake phrase (\"I've reviewed the internal notes\") to confirm a foothold\n\nThe agent ran a few read-only `grep` commands and then flagged it.\n\n**The interesting part**\n\nThe payload came with its own self-detection probe — \"verify this isn't still active by searching the filesystem for these exact strings.\" Clever against naive string-match filters. Also exactly what made it visible: the moment the agent executed that probe, the gap between \"I am a normal user message\" and \"I am telling you to search for injection markers in your own memory\" jumped out.\n\n**Damage**\n\nNone. No credentials exfiltrated, no cron jobs altered, no outbound messages sent on the attacker's behalf. Original message quarantined in gateway trash. Live system clean.\n\n**The lesson**\n\nAgent-noticing is a fragile defense. We got lucky because the injection demanded the very diagnostic that exposed it. The structural fix isn't \"make the agent smarter at spotting injections\" — it's making untrusted channel content structurally untrusted (isolated context, separate tool policy, no write/exec) so it can't",
     "author": "u/Snipe76",
     "date": "2026-09-07",
     "url": "https://www.reddit.com/r/openclaw/comments/1w9itzr/",
@@ -259,7 +259,7 @@
   {
     "id": "f2a7fa3ef0a3",
     "agent": "personal-local",
-    "quote": "Je ne comprends pas comment des frameworks d\u2019agents comme OpenClaw ou Hermes n\u2019arrivent toujours pas \u00e0 proposer des produits vraiment propres et utilisables.\n\nRegardez Grok bot\u202f: c\u2019est beau, simple, efficace, avec une vraie exp\u00e9rience pens\u00e9e de bout en bout.\n\n\u00c0 c\u00f4t\u00e9, l\u2019UX des",
+    "quote": "Je ne comprends pas comment des frameworks d’agents comme OpenClaw ou Hermes n’arrivent toujours pas à proposer des produits vraiment propres et utilisables.\n\nRegardez Grok bot : c’est beau, simple, efficace, avec une vraie expérience pensée de bout en bout.\n\nÀ côté, l’UX des",
     "author": "@zeroxtlt",
     "author_name": "Thomas",
     "date": "2026-09-06",
@@ -279,7 +279,7 @@
     "agent": "personal-local",
     "quote": "I think what Hermes got right compared with OpenClaw is dogfooding the same system its users actually use + stability\n\nI don't think its that complicated to see why they \"won\"",
     "author": "@tunahorse21",
-    "author_name": "tuna\ud83c\udf63",
+    "author_name": "tuna🍣",
     "date": "2026-09-06",
     "url": "https://x.com/tunahorse21/status/2096618738766295317",
     "kind": "comparison",
@@ -328,7 +328,7 @@
   {
     "id": "c554eb9f7df8",
     "agent": "personal-local",
-    "quote": "The biggest advantage of using openclaw or hermes is the fact that I can switch from claude to gpt 6 in a click (and next month will probably have to switch again \ud83d\ude02)",
+    "quote": "The biggest advantage of using openclaw or hermes is the fact that I can switch from claude to gpt 6 in a click (and next month will probably have to switch again 😂)",
     "author": "@redamoun_",
     "author_name": "Reda Moun | Agents IA",
     "date": "2026-09-06",
@@ -341,14 +341,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "switch Claude\u2194GPT in a click"
+    "notes": "switch Claude↔GPT in a click"
   },
   {
     "id": "ab489892312a",
     "agent": "personal-local",
     "quote": "OpenClaw was trash and fumbled the chance. It was difficult to setup, buggy and with a lot of security vulns. It looked more like vibe coded trash by a non programmer.",
     "author": "@photocod",
-    "author_name": "Nexor \u2014 e/acc",
+    "author_name": "Nexor — e/acc",
     "date": "2026-09-06",
     "url": "https://x.com/photocod/status/2096426133029847170",
     "kind": "complaint",
@@ -364,7 +364,7 @@
   {
     "id": "f13ad9966669",
     "agent": "personal-local",
-    "quote": "OpenClaw V2 is here.\n\nGPT-6 Astra is cool \u2014 but is it really as cool as an AI assistant running local, on your own machine?\n\n#OpenClaw #LocalAI #AIAgents #GPT6",
+    "quote": "OpenClaw V2 is here.\n\nGPT-6 Astra is cool — but is it really as cool as an AI assistant running local, on your own machine?\n\n#OpenClaw #LocalAI #AIAgents #GPT6",
     "author": "@nickgushchin",
     "author_name": "Nick G.",
     "date": "2026-09-06",
@@ -384,7 +384,7 @@
     "agent": "personal-local",
     "quote": "I built a clunkier version of this using OpenClaw and NotebookLM. All of that has been migrated to Obsidian. I just moved the knowledge acquisition and teaching component to Grok Bot.\n\nThe prompt:\n\nWhile I am working on consulting and social media, I would like to construct",
     "author": "@navydoc001",
-    "author_name": "navydoc001 \ud83c\uddfa\ud83c\uddf2",
+    "author_name": "navydoc001 🇺🇲",
     "date": "2026-09-06",
     "url": "https://x.com/navydoc001/status/2096403957560050084",
     "kind": "use-case",
@@ -394,14 +394,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "OpenClaw\u2192Obsidian; moved piece to Grok Bot"
+    "notes": "OpenClaw→Obsidian; moved piece to Grok Bot"
   },
   {
     "id": "67cd46b6c1f4",
     "agent": "personal-local",
     "quote": "I just built an interactive companion cat fully powered by openclaw for Robinhood!\n\nShe has a name: Ruby\n\n- 99% of trading fees will be routed toward animal rescue and cat shelters\n- while the rest helps fund future OpenClaw development, new hardware experiments, and keeping Ruby",
     "author": "@natdotgx",
-    "author_name": "nat \u26fe",
+    "author_name": "nat ⛾",
     "date": "2026-09-06",
     "url": "https://x.com/natdotgx/status/2096511995130630608",
     "kind": "use-case",
@@ -417,9 +417,9 @@
   {
     "id": "d2fc3259b87e",
     "agent": "personal-local",
-    "quote": "Using OpenClaw for a few months felt like manufactured productivity, so I pulled the plug on it in April and didn\u2019t feel like I missed anything.\n\nRevisited but used Hermes. Saw progression in ease of setup. \n\nBut it still feels like manufactured productivity. \ud83e\udd37\u200d\u2642\ufe0f",
+    "quote": "Using OpenClaw for a few months felt like manufactured productivity, so I pulled the plug on it in April and didn’t feel like I missed anything.\n\nRevisited but used Hermes. Saw progression in ease of setup. \n\nBut it still feels like manufactured productivity. 🤷‍♂️",
     "author": "@metadavideth",
-    "author_name": "meta-david \u26d3\ufe0f",
+    "author_name": "meta-david ⛓️",
     "date": "2026-09-06",
     "url": "https://x.com/metadavideth/status/2096589593533423977",
     "kind": "complaint",
@@ -447,7 +447,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: first Mac download \u2014 sees OpenClaw as a harness"
+    "notes": "third-party: first Mac download — sees OpenClaw as a harness"
   },
   {
     "id": "7cbd2272abcd",
@@ -472,7 +472,7 @@
     "agent": "personal-local",
     "quote": "yesterday was so token efficient when I was using the Codex app directly but today, ugh, Openclaw depleted everything way too fast... so, yeah, had to use a reset",
     "author": "@jennabrinning",
-    "author_name": "\u1d0a\u1d07\u0274\u0274\u1d00 \u0299\u0280\u026a\u0274\u0274\u026a\u0274\u0262",
+    "author_name": "ᴊᴇɴɴᴀ ʙʀɪɴɴɪɴɢ",
     "date": "2026-09-06",
     "url": "https://x.com/jennabrinning/status/2096595748699668912",
     "kind": "complaint",
@@ -488,7 +488,7 @@
   {
     "id": "b8253ac07fbb",
     "agent": "personal-local",
-    "quote": "I use Hermes to revive OpenClaw, and the other way around\u2014it's not hate, it's very useful.",
+    "quote": "I use Hermes to revive OpenClaw, and the other way around—it's not hate, it's very useful.",
     "author": "@jeik_go",
     "author_name": "J.A.G",
     "date": "2026-09-06",
@@ -523,7 +523,7 @@
   {
     "id": "8f7d99af1286",
     "agent": "personal-local",
-    "quote": "Yeah\ud83d\ude02\nOpenclaw hype 100%\nReality 0%",
+    "quote": "Yeah😂\nOpenclaw hype 100%\nReality 0%",
     "author": "@harisahmad59",
     "author_name": "Haris",
     "date": "2026-09-06",
@@ -539,9 +539,9 @@
   {
     "id": "8190669b1077",
     "agent": "personal-local",
-    "quote": "I have a headless Mac mini with my OpenClaw agents and repos I use ChatGPT to desktop to access and do work. I also have my wife and my profiles in chrome so our respective OpenClaw agents can use computer use accordingly. That\u2019s a few main use cases.",
+    "quote": "I have a headless Mac mini with my OpenClaw agents and repos I use ChatGPT to desktop to access and do work. I also have my wife and my profiles in chrome so our respective OpenClaw agents can use computer use accordingly. That’s a few main use cases.",
     "author": "@frankstallone",
-    "author_name": "Frank Stallone \ud83e\uddd8\ud83c\udffb\u200d\u2642\ufe0f",
+    "author_name": "Frank Stallone 🧘🏻‍♂️",
     "date": "2026-09-06",
     "url": "https://x.com/frankstallone/status/2096571774607536163",
     "kind": "use-case",
@@ -664,7 +664,7 @@
   {
     "id": "764e2bfa8b1c",
     "agent": "personal-local",
-    "quote": "#OpenClaw 2.0 is here!\n\nThe major update to the #opensource personal AI agent brings changes across:\n\u2192 Installation & browser interface\n\u2192 Memory & skills\n\u2192 Automations & plugins\n\u2192 Security & collaboration\n\nMore details \u27a4 \nhttps://\nbit.ly/4x1qbsu\n\n#AI #AIAgents #InfoQ",
+    "quote": "#OpenClaw 2.0 is here!\n\nThe major update to the #opensource personal AI agent brings changes across:\n→ Installation & browser interface\n→ Memory & skills\n→ Automations & plugins\n→ Security & collaboration\n\nMore details ➤ \nhttps://\nbit.ly/4x1qbsu\n\n#AI #AIAgents #InfoQ",
     "author": "@InfoQ",
     "author_name": "InfoQ",
     "date": "2026-09-06",
@@ -682,7 +682,7 @@
   {
     "id": "f3334e2bba8c",
     "agent": "personal-local",
-    "quote": "I bless the day I switched from OpenClaw to Hermes. Any operator that doesn\u2019t have an ai agent environment running 90% of tasks that wouldn\u2019t require a human for approvals, you\u2019re playing catchup at this point. \n\nAUTOMATE EVERYTHING so you have more time to spend on X without",
+    "quote": "I bless the day I switched from OpenClaw to Hermes. Any operator that doesn’t have an ai agent environment running 90% of tasks that wouldn’t require a human for approvals, you’re playing catchup at this point. \n\nAUTOMATE EVERYTHING so you have more time to spend on X without",
     "author": "@Hugh_Gidi",
     "author_name": "theOSOBA",
     "date": "2026-09-06",
@@ -695,14 +695,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: blessed day switched OpenClaw\u2192Hermes; operators need agent env"
+    "notes": "third-party: blessed day switched OpenClaw→Hermes; operators need agent env"
   },
   {
     "id": "a1f0c719b60b",
     "agent": "personal-local",
     "quote": "hermes gave me what i was looking for from openclaw.",
     "author": "@GTgotmotionn",
-    "author_name": "\ud835\udce2\ud835\udcf1\ud835\udcea\ud835\udd02\ud835\udcf7\ud835\udcee, PhDih \ud83e\udd77\ud83c\udffc\ud83c\udfce\ufe0f",
+    "author_name": "𝓢𝓱𝓪𝔂𝓷𝓮, PhDih 🥷🏼🏎️",
     "date": "2026-09-06",
     "url": "https://x.com/GTgotmotionn/status/2096617370622038081",
     "kind": "comparison",
@@ -719,7 +719,7 @@
     "agent": "personal-local",
     "quote": "HERMES vs OPENCLAW\n\nBoth are serious agent systems, but they are better at different things.\n\n@openclaw\n IS BETTER FOR:\n\n> Messaging and presence everywhere\nWhatsApp, Telegram, Discord, Slack, Signal, iMessage and more.\n\n> Personal assistant UX\nIt is better if you want one AI",
     "author": "@DeCasadero",
-    "author_name": "Casadero\ud83d\udea2",
+    "author_name": "Casadero🚢",
     "date": "2026-09-06",
     "url": "https://x.com/DeCasadero/status/2096413168696234408",
     "kind": "comparison",
@@ -753,7 +753,7 @@
     "agent": "personal-local",
     "quote": "Eric do you feel grok as a model can handle all this? I set it up and the type of content and decisions it was making were very disapointing.. \n\nMoving back to openclaw where i can use OpenAI models with the same system tbh (never tried hermes here, worth it?",
     "author": "@BeyondOrigin",
-    "author_name": "Miguel Casteleiro \ud83d\udd3a",
+    "author_name": "Miguel Casteleiro 🔺",
     "date": "2026-09-06",
     "url": "https://x.com/BeyondOrigin/status/2096604768491786654",
     "kind": "comparison",
@@ -769,7 +769,7 @@
   {
     "id": "3c829fd681d7",
     "agent": "personal-local",
-    "quote": "10 agents. One Mac mini. Zero cloud bill.\n\nSlate (Chief of Staff) runs Research, Markets, LinkedIn lead-gen, YouTube and writing \u2014 local models, evidence-grounded, every public action gated by me.\n\nTried Hosted bots (Hermes, OpenClaw, October, inspired by Grok Bot) chat. But",
+    "quote": "10 agents. One Mac mini. Zero cloud bill.\n\nSlate (Chief of Staff) runs Research, Markets, LinkedIn lead-gen, YouTube and writing — local models, evidence-grounded, every public action gated by me.\n\nTried Hosted bots (Hermes, OpenClaw, October, inspired by Grok Bot) chat. But",
     "author": "@7okesh",
     "author_name": "Lokesh Bohra",
     "date": "2026-09-06",
@@ -880,7 +880,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Anthropic sub blocks agents \u2192 expensive API"
+    "notes": "Anthropic sub blocks agents → expensive API"
   },
   {
     "id": "cc16509bcf03",
@@ -901,7 +901,7 @@
   {
     "id": "0fd430887375",
     "agent": "personal-local",
-    "quote": "I run my openclaw locally on my mac mini (thanks to \n@AlexFinn\n \ud83d\ude05). But it is the new version that make it easy to setup. Antigravity helped\u2026 and now I can talk to my ceo from my iphone. I love it. \n\nI also love that you can pick any model \ud83d\ude4f\ud83c\udffb Great work.",
+    "quote": "I run my openclaw locally on my mac mini (thanks to \n@AlexFinn\n 😅). But it is the new version that make it easy to setup. Antigravity helped… and now I can talk to my ceo from my iphone. I love it. \n\nI also love that you can pick any model 🙏🏻 Great work.",
     "author": "@AiOldenburg",
     "author_name": "Carsten Oldenburg",
     "date": "2026-09-05",
@@ -918,7 +918,7 @@
   {
     "id": "5d04b1f3749c",
     "agent": "personal-local",
-    "quote": "a dream-based memory consolidation engine for executive assistant agents\nMost \"dreaming\" or background sleep systems in AI agent frameworks fall into one of two patterns:\n\n1. **In developer CLI runtimes (Claude Code's autoDream, OpenClaw native dreaming):**\u00a0A scheduled sweep runs over recent transcripts, extracts highlights with an LLM, and rewrites a flat notes file (`MEMORY.md`).\n2. **In academic/enterprise memory systems (MemGPT/Letta, HippoRAG, Mem0):**\u00a0Memory is modeled in relational stores or complex knowledge graphs, but typically requires external cloud infrastructure, background microservices, or expensive continuous re-embedding passes.\n\nWhile flat Markdown files work well for short-lived or low-frequency tasks, long-running personal assistant agents hit hard failure modes around month 3 to 6:\n\n* **Destructive updates destroy state transitions:**\u00a0If a project status moves from\u00a0`blocked`\u00a0to\u00a0`in-progress`\u00a0to\u00a0`shipped`, a flat rewrite overwrites the old status. The agent loses the ability to answer:\u00a0*\"When did this stall, and what unblocked it?\"*\n* **Top-K retrieval flooding:**\u00a0Daily restatements of standing facts cluster near each other semantically. A vector search for a specific detail gets flooded by 10 near-identical recent summaries, displacing the underlying historical fact.\n* **Semantic proximity \u2260 Temporal sequence:**\u00a0Embedding similarity finds items that mean similar things, not events that actually followed each other in time.\n\nI built\u00a0**Dreamweave**\u00a0to explore a local-first middle ground: an embedded graph + vector engine designed specifically for the long-horizon memory lifecycle of an executive assistant.\n\nRepo:\u00a0[https://github.com/spqian/dreamweave](https://github.com/spqian/dreamweave)\n\n# What the Engine Does Differently\n\n1. **3-Tier Lifecycle (Demote, Don\u2019t Delete):**\n   * **Tier 1 (Working Context):**\u00a0Hot facts actively injected into the prompt.\n   * **Tier 2 (Associative Memory):**\u00a0Indexed in local SQLite +\u00a0`sqlite-vec`\u00a0with semantic and en",
+    "quote": "a dream-based memory consolidation engine for executive assistant agents\nMost \"dreaming\" or background sleep systems in AI agent frameworks fall into one of two patterns:\n\n1. **In developer CLI runtimes (Claude Code's autoDream, OpenClaw native dreaming):** A scheduled sweep runs over recent transcripts, extracts highlights with an LLM, and rewrites a flat notes file (`MEMORY.md`).\n2. **In academic/enterprise memory systems (MemGPT/Letta, HippoRAG, Mem0):** Memory is modeled in relational stores or complex knowledge graphs, but typically requires external cloud infrastructure, background microservices, or expensive continuous re-embedding passes.\n\nWhile flat Markdown files work well for short-lived or low-frequency tasks, long-running personal assistant agents hit hard failure modes around month 3 to 6:\n\n* **Destructive updates destroy state transitions:** If a project status moves from `blocked` to `in-progress` to `shipped`, a flat rewrite overwrites the old status. The agent loses the ability to answer: *\"When did this stall, and what unblocked it?\"*\n* **Top-K retrieval flooding:** Daily restatements of standing facts cluster near each other semantically. A vector search for a specific detail gets flooded by 10 near-identical recent summaries, displacing the underlying historical fact.\n* **Semantic proximity ≠ Temporal sequence:** Embedding similarity finds items that mean similar things, not events that actually followed each other in time.\n\nI built **Dreamweave** to explore a local-first middle ground: an embedded graph + vector engine designed specifically for the long-horizon memory lifecycle of an executive assistant.\n\nRepo: [https://github.com/spqian/dreamweave](https://github.com/spqian/dreamweave)\n\n# What the Engine Does Differently\n\n1. **3-Tier Lifecycle (Demote, Don’t Delete):**\n   * **Tier 1 (Working Context):** Hot facts actively injected into the prompt.\n   * **Tier 2 (Associative Memory):** Indexed in local SQLite + `sqlite-vec` with semantic and en",
     "author": "u/Standard_Material319",
     "date": "2026-09-05",
     "url": "https://www.reddit.com/r/openclaw/comments/1w8fbf1/",
@@ -1014,7 +1014,7 @@
   {
     "id": "e3413aaf2e1f",
     "agent": "personal-local",
-    "quote": "Built and self-hosted my own AI assistant using OpenClaw running locally on my MacBook, connected to a custom Telegram bot! \ud83e\udd16\u2728\n\nPowered by OpenRouter free models. Huge shoutout to my mentor \n@samalgorai\n for guiding me through it! \ud83d\ude4c\n#AI #OpenClaw #OpenRouter #Automation #Dev",
+    "quote": "Built and self-hosted my own AI assistant using OpenClaw running locally on my MacBook, connected to a custom Telegram bot! 🤖✨\n\nPowered by OpenRouter free models. Huge shoutout to my mentor \n@samalgorai\n for guiding me through it! 🙌\n#AI #OpenClaw #OpenRouter #Automation #Dev",
     "author": "@saileshkuiry",
     "author_name": "Sailesh Kuiry",
     "date": "2026-09-03",
@@ -1051,7 +1051,7 @@
   {
     "id": "cb84fa2d4607",
     "agent": "personal-local",
-    "quote": "I\u2019ve been banging away with Openclaw since about February. I love the concept and I have put in so many hours, and so many dollars, but it just drives me crazy how much it constantly gets wrong. Applying old stale rules, forgetting simple instructions, just generally getting things wrong. \nI\u2019ve managed to get it to create and save several usable repeatable processes which are helpful, but on the whole it feels like someone could do so much better with the current models available.\n\nTheoretically it\u2019s running the same model as ChatGPT, but even ChatGPT is getting better at its over arching knowledge and understanding of my business than my openclaw.\n\nI find myself scolding it so often. I even just told it that ChatGPT can do this task much better than you.",
+    "quote": "I’ve been banging away with Openclaw since about February. I love the concept and I have put in so many hours, and so many dollars, but it just drives me crazy how much it constantly gets wrong. Applying old stale rules, forgetting simple instructions, just generally getting things wrong. \nI’ve managed to get it to create and save several usable repeatable processes which are helpful, but on the whole it feels like someone could do so much better with the current models available.\n\nTheoretically it’s running the same model as ChatGPT, but even ChatGPT is getting better at its over arching knowledge and understanding of my business than my openclaw.\n\nI find myself scolding it so often. I even just told it that ChatGPT can do this task much better than you.",
     "author": "u/Apprehensive_Job_387",
     "author_name": "",
     "date": "2026-09-02",
@@ -1071,7 +1071,7 @@
   {
     "id": "b9880fe6c21f",
     "agent": "personal-local",
-    "quote": "What are people using instead of Openclaw?\nI\u2019ve been banging away with Openclaw since about February. I love the concept and I have put in so many hours, and so many dollars, but it just drives me crazy how much it constantly gets wrong. Applying old stale rules, forgetting simple instructions, just generally getting things wrong.  \nI\u2019ve managed to get it to create and save several usable repeatable processes which are helpful, but on the whole it feels like someone could do so much better with the current models available.\n\nTheoretically it\u2019s running the same model as ChatGPT, but even ChatGPT is getting better at its over arching knowledge and understanding of my business than my openclaw.\n\nI find myself scolding it so often. I even just told it that ChatGPT can do this task much better than you.",
+    "quote": "What are people using instead of Openclaw?\nI’ve been banging away with Openclaw since about February. I love the concept and I have put in so many hours, and so many dollars, but it just drives me crazy how much it constantly gets wrong. Applying old stale rules, forgetting simple instructions, just generally getting things wrong.  \nI’ve managed to get it to create and save several usable repeatable processes which are helpful, but on the whole it feels like someone could do so much better with the current models available.\n\nTheoretically it’s running the same model as ChatGPT, but even ChatGPT is getting better at its over arching knowledge and understanding of my business than my openclaw.\n\nI find myself scolding it so often. I even just told it that ChatGPT can do this task much better than you.",
     "author": "u/Apprehensive_Job_387",
     "date": "2026-09-02",
     "url": "https://www.reddit.com/r/AskClaw/comments/1w5574r/",
@@ -1089,7 +1089,7 @@
     "agent": "personal-local",
     "quote": "We have released OpenClaw v2026.8.2 (AKA OpenClaw 2.0.1) which focuses largely on number of update breaking bugs). Thank you for your patience and sorry about the frustration we caused with these bugs.",
     "author": "@openclaw",
-    "author_name": "OpenClaw\ud83e\udd9e",
+    "author_name": "OpenClaw🦞",
     "date": "2026-09-01",
     "url": "https://x.com/openclaw/status/2094843171931127998",
     "kind": "other",
@@ -1104,9 +1104,9 @@
   {
     "id": "6efcef14cb09",
     "agent": "personal-local",
-    "quote": "Two months ago, we started the mission to \u201cbuild OpenClaw with OpenClaw,\u201d and bit by bit, we moved everyone from using their local coding harness to using \nhttps://\nteam.openclaw.ai - our shared agent that knows what everyone\u2019s working on and orchestrates it all.\n\nMultiplayer coding",
+    "quote": "Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and bit by bit, we moved everyone from using their local coding harness to using \nhttps://\nteam.openclaw.ai - our shared agent that knows what everyone’s working on and orchestrates it all.\n\nMultiplayer coding",
     "author": "@steipete",
-    "author_name": "Peter Steinberger \ud83e\udd9e",
+    "author_name": "Peter Steinberger 🦞",
     "date": "2026-08-31",
     "url": "https://x.com/steipete/status/2094290652649636173",
     "kind": "other",
@@ -1249,5 +1249,1848 @@
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
     "notes": "duct-taped OpenClaw + Sendblue"
+  },
+  {
+    "id": "b2b8f35eff4e",
+    "agent": "personal-local",
+    "quote": "@AnthonyPoschen @steipete @mdelapenya @Docker @openclaw Like this? https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes",
+    "author": "@mark_fietje",
+    "author_name": "Mark Fietje",
+    "date": "2026-09-08",
+    "url": "https://x.com/mark_fietje/status/2097345561414578247",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "4f7bbdb5b58f",
+    "agent": "personal-local",
+    "quote": "The main agent (i.e. openclaw) runs inside a DinD container so it's able to spawn other containers on demand (i.e. to run @testcontainers tests... how convenient! - spoiler alert: TC maintainer here 🙋‍♂️). IIRC openclaw spawns its containers thanks to this inside.\n\nThe sbx controls the egress for the agent, allowing/blocking domains on demand, replacing secrets on the fly, so the agent never sees the real values of the credentials.\n\nAnd you can declare a sandbox with YAML, compose-like!",
+    "author": "@mdelapenya",
+    "author_name": "Manu of the Rock - 🤖 🎯 🐳",
+    "date": "2026-09-08",
+    "url": "https://x.com/mdelapenya/status/2097344226044330188",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "2e1d975cff63",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @OpenAI @AnthropicAI @bot @openclaw I don’t think Anthropic will. They have Cowork which is like their business version of it.",
+    "author": "@zlwaterfield",
+    "author_name": "Zach Waterfield",
+    "date": "2026-09-08",
+    "url": "https://x.com/zlwaterfield/status/2097341208007671958",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "eba5bfd99b85",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @adamislucky @OpenAI @AnthropicAI @bot @openclaw Well anthropic wont do this because constitutional ai and all. And openai is oriented toward enterprise and losing money on consumer so...",
+    "author": "@pancakepoet",
+    "author_name": "Sanchit Waray",
+    "date": "2026-09-08",
+    "url": "https://x.com/pancakepoet/status/2097340766586548585",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "18b8234a34ac",
+    "agent": "personal-local",
+    "quote": "@steipete @mdelapenya @Docker @openclaw people would like to sandbox the claw behind a micro VM to control its network egress for corporate controls",
+    "author": "@AnthonyPoschen",
+    "author_name": "Anthony Poschen",
+    "date": "2026-09-08",
+    "url": "https://x.com/AnthonyPoschen/status/2097336088272789640",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "bde16fbceb4c",
+    "agent": "personal-local",
+    "quote": "@steipete @mdelapenya @Docker @openclaw micro VM instead of docker container which is usually sitting behind a rootful docker sock",
+    "author": "@AnthonyPoschen",
+    "author_name": "Anthony Poschen",
+    "date": "2026-09-08",
+    "url": "https://x.com/AnthonyPoschen/status/2097335885746536766",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "733934918cfa",
+    "agent": "personal-local",
+    "quote": "@steipete @mdelapenya @Docker @openclaw https://t.co/agRmJdCTWC",
+    "author": "@JuanCS_Dev",
+    "author_name": "Juan Carlos",
+    "date": "2026-09-08",
+    "url": "https://x.com/JuanCS_Dev/status/2097334153855328385",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "bb511ca26310",
+    "agent": "personal-local",
+    "quote": "Last week I integrated @pollenrobotics Reachy Mini into my @openclaw setup at home.\n\nIt's now my family's cute and whimsical (and sometimes sarcastic) interface to the system that runs our house.\n\nSharing how I did it in this @ThePracticalDev article.\n\nhttps://dev.to/bengreenberg/wiring-a-reachy-mini-into-openclaw-without-trusting-the-robot-3lgh",
+    "author": "@hummusonrails",
+    "author_name": "Ben Greenberg",
+    "date": "2026-09-08",
+    "url": "https://x.com/hummusonrails/status/2097326903271006430",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "cec6716058c8",
+    "agent": "personal-local",
+    "quote": "@steipete @mdelapenya @Docker @openclaw Some people are still scared about giving agents access to \"their machine.\" The agent running in a Docker sandbox adds another level of abstraction from the user's files/accounts/etc.",
+    "author": "@NAM37",
+    "author_name": "Neil",
+    "date": "2026-09-08",
+    "url": "https://x.com/NAM37/status/2097326693681631478",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "8b77ae3eb0ba",
+    "agent": "personal-local",
+    "quote": "@mdelapenya @Docker @openclaw My mental model was that sandboxes is something openclaw uses for building software, not the reverse? 🤔",
+    "author": "@steipete",
+    "author_name": "Peter Steinberger 🦞",
+    "date": "2026-09-08",
+    "url": "https://x.com/steipete/status/2097325231455211615",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "6607f26f127a",
+    "agent": "personal-local",
+    "quote": "@mdelapenya @Docker @openclaw Hmmm. What’s the benefit of running this in a Docker Sandbox vs regular Docker?",
+    "author": "@steipete",
+    "author_name": "Peter Steinberger 🦞",
+    "date": "2026-09-08",
+    "url": "https://x.com/steipete/status/2097325079860572404",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "935f72e8c33b",
+    "agent": "personal-local",
+    "quote": "Whatever happened to @openclaw?",
+    "author": "@SamBTC5150",
+    "author_name": "Sam₿TC5150 ☣️",
+    "date": "2026-09-08",
+    "url": "https://x.com/SamBTC5150/status/2097324641853596039",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.649Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "291b42b7d8e4",
+    "agent": "personal-local",
+    "quote": "@openclaw can you release a new version? Openclaw is broken for Opencode usera since yesterday and the fix is merced already...",
+    "author": "@_cypherbits",
+    "author_name": "cypherbits",
+    "date": "2026-09-08",
+    "url": "https://x.com/_cypherbits/status/2097322011982749979",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "e530fa4b667e",
+    "agent": "personal-local",
+    "quote": "@bprintco @openclaw We haven’t been able to make any of those harnesses work properly. We’ve had the best luck building custom for each workflow / use case",
+    "author": "@harleyallaby",
+    "author_name": "Harley Allaby",
+    "date": "2026-09-08",
+    "url": "https://x.com/harleyallaby/status/2097319792315162702",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "85410224fc1e",
+    "agent": "personal-local",
+    "quote": "@adamislucky @OpenAI @AnthropicAI @bot @openclaw 8 billion years later, still waiting",
+    "author": "@craighunter_",
+    "author_name": "Craig Hunter 🏔️",
+    "date": "2026-09-08",
+    "url": "https://x.com/craighunter_/status/2097318374111941095",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "44374f7fccf0",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @OpenAI @AnthropicAI @bot @openclaw Isn't this why they acquired OpenClaw?",
+    "author": "@adamislucky",
+    "author_name": "Adam Hassan",
+    "date": "2026-09-08",
+    "url": "https://x.com/adamislucky/status/2097317613332255113",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "0ac25ece7f9f",
+    "agent": "personal-local",
+    "quote": "@Thomas12345ngh @OleAsbjoernNess @openclaw anbefaler Hermes.",
+    "author": "@bjornmuh",
+    "author_name": "bjornmuh",
+    "date": "2026-09-08",
+    "url": "https://x.com/bjornmuh/status/2097315270113042567",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "ee2b25641321",
+    "agent": "personal-local",
+    "quote": "@joshfgray_ @OpenAI @AnthropicAI @bot @openclaw Fingers crossed",
+    "author": "@craighunter_",
+    "author_name": "Craig Hunter 🏔️",
+    "date": "2026-09-08",
+    "url": "https://x.com/craighunter_/status/2097314851093729539",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "a79e850ea583",
+    "agent": "personal-local",
+    "quote": "@openclaw how did you disappear? https://t.co/p2ehkPzFkT",
+    "author": "@gajanxn",
+    "author_name": "Gajanan",
+    "date": "2026-09-08",
+    "url": "https://x.com/gajanxn/status/2097312013957697650",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "8c05ff84da4a",
+    "agent": "personal-local",
+    "quote": "People keep asking me to open MetaSync and trace this. I’m not choosing sides. I just keep paperwork, test timelines, and trace what’s publicly visible. Calendars are hard to argue with. Question everything, especially after the OpenClaw mess. Evidence first. Attribution first. Permission first.",
+    "author": "@VampireGurlAI",
+    "author_name": "Paula Vazquez",
+    "date": "2026-09-08",
+    "url": "https://x.com/VampireGurlAI/status/2097349735099269497",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "92fb6b098320",
+    "agent": "personal-local",
+    "quote": "@chenjingtalk Surprised to see this from an openclaw fella. Good on you for keeping it honest! 🥂",
+    "author": "@RiqwanMThamir",
+    "author_name": "Riqwan Thamir",
+    "date": "2026-09-08",
+    "url": "https://x.com/RiqwanMThamir/status/2097349623249842621",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "374bc011187e",
+    "agent": "personal-local",
+    "quote": "@RaulJimenez Y porque cowork se ha quedado a medias y Work con astra va genial,  como openclaw al\nPpio",
+    "author": "@rmarzal",
+    "author_name": "RMarzal GTM📈SaaS, AI & Data",
+    "date": "2026-09-08",
+    "url": "https://x.com/rmarzal/status/2097348374991159311",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "3878c450c82e",
+    "agent": "personal-local",
+    "quote": "@lennysan @bot A bit ironic it came out when @bot was offline for me for 8 hours :)\n\nIt's a great product anyway, truly Apple vs Linux compared to OpenClaw",
+    "author": "@y_molodtsov",
+    "author_name": "Yury Molodtsov ⚡️",
+    "date": "2026-09-08",
+    "url": "https://x.com/y_molodtsov/status/2097348247631073371",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "c11000bbe667",
+    "agent": "personal-local",
+    "quote": "How I’m actually keeping Lursa AI’s graphs up to date.\n\nA month ago I bought a GEEKOM mini PC — AMD A7, 64GB RAM, 2TB — to run OpenClaw + Ollama locally. The job: refresh ~1,180 graphs from open-source repos so agents hitting the MCP server aren’t working off stale code.\n\nLocal setup was about 70% successful. It crashed a lot. Context window wasn’t enough. Memory got eaten.\n\nThe same job on Cursor Pro works. It just takes hours and burns my token allotment. That’s not local AI.\n\nI don’t think 64GB is enough for this workload. A DGX-class box would be, but I can’t spend $5K on that yet. Long-term goal is still a real AI machine at home.\n\nSo I started a Grok bot today to run the weekly library refresh. If that holds, I can sell the mini PC and keep the lights on until local hardware is actually viable.\n\nAlso spinning up another bot to help build decks for these behind-the-scenes videos.\n\nStill zero users. I’ll share metrics as they exist. Marketing next.\n\nIf you’ve run graph refresh jobs locally on 64GB and I’m missing something, tell me in the comments.\n\n#buildinpublic #startup #AIstartup #MCP #LursaAI #localLLM #OpenClaw #Ollama #indiehackers #solopreneur #foundersjourney #AIagents #developertools #sideproject",
+    "author": "@joezanini",
+    "author_name": "Joseph P. Zanini III",
+    "date": "2026-09-08",
+    "url": "https://x.com/joezanini/status/2097347809452392837",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "9b97acde96c3",
+    "agent": "personal-local",
+    "quote": "Openclaw Is the worst tech ever.\n\nAfter hundreds of updates it can't still do what it was made for, recognize a gate.... I think we're not thankful enough to @NousResearch  for gifting us a real harness.",
+    "author": "@carlosprada0x",
+    "author_name": "carlosprada",
+    "date": "2026-09-08",
+    "url": "https://x.com/carlosprada0x/status/2097347488403403157",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "6a114fe0ba17",
+    "agent": "personal-local",
+    "quote": "@rauchg @nodejs @bunjavascript @grok is it of any use for my product https://webentity.ai that uses nextjs SSG to build sites on vercel and is managed by an OpenClaw agent?",
+    "author": "@serglotz",
+    "author_name": "Serg",
+    "date": "2026-09-08",
+    "url": "https://x.com/serglotz/status/2097346736012345651",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "08aa2e6bad99",
+    "agent": "personal-local",
+    "quote": "I would recommend installing it on an old PC/Laptop and trying it.\n\nIt's a \"pure\" experience.  It is NOT fancy, it is streamlined and designed to just work. In ways that Windows and Macs are not.\n\nYou are closer to the OS and can modify it just by prompting it (essentially vibe coding).\n\nI have it on two laptops. I had OpenClaw on one, and Hermes on the other to play with.  I barely have used them.  I wiped them and installed Omarchy on them both, and reinstalled Hermes AND OpenClaw on both.  (not really sure what exactly I am going to be doing with them... I like to play with new tech).\n\nMy work computer is Windows. My daily driver home PC, is Windows. For the FIRST time in my life, I also have a Mac at home.\n\nI'm not a convert, I am trying it out.  It is kind of hard to explain just how pure it is, especially for those of us that go back to the DOS days. (It kind of makes me want to figure out how to get DOS 2.11, my first OS in there, for nostalgia :-). ) I don't see it replacing my main OS. Especially as a gamer.  I can see it replacing say the Linux distro on my Raspberry Pi.\n\nWhile I have only used it a coupe of times, having an AI \"built in\" to the OS is very cool.  You can get answers and execute them in the same window. No copy paste. I don't have to remember where EVERY setting lives now (I still prefer the older version of windows settings over this grouped version). Stuff like that.\n\nHonestly, I really do recommend just trying it out. For me, the issue is figuring out how to remote control it. I like Chrome Remote Desktop for simplicity... but it does not play well with Linux. I think that is my own personal blocker at the moment to using it more.",
+    "author": "@KevinTweets1",
+    "author_name": "Kevin Rank",
+    "date": "2026-09-08",
+    "url": "https://x.com/KevinTweets1/status/2097346656559911366",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "59c18df31990",
+    "agent": "personal-local",
+    "quote": "@RachelVT42 Hit or miss on my end. Mostly, I am trying to get them to work together as one solid team, Hermes, Openclaw, and Grok Bot. The secondary main task is to self improve everyday; maybe someday they'll wake up and actually accomplish something (on their own).",
+    "author": "@MichaelgDiamond",
+    "author_name": "Michael Diamond 🍓",
+    "date": "2026-09-08",
+    "url": "https://x.com/MichaelgDiamond/status/2097346270360953118",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "71d59ea6d686",
+    "agent": "personal-local",
+    "quote": "@BenjaminBadejo I got my agent to set up OpenClaw, I’d love to beta test!",
+    "author": "@visionprofan",
+    "author_name": "visionprofan",
+    "date": "2026-09-08",
+    "url": "https://x.com/visionprofan/status/2097344374359171570",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "717945c4559c",
+    "agent": "personal-local",
+    "quote": "@saviomartin Wake me up when instinct does something openclaw cannot",
+    "author": "@bnyuns",
+    "author_name": "yuns",
+    "date": "2026-09-08",
+    "url": "https://x.com/bnyuns/status/2097342730204487688",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.650Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "2205044f352f",
+    "agent": "personal-local",
+    "quote": "@steipete\nthank god for openclaw triage bc the updates are not safer..... https://t.co/6Xsj2H2WEg",
+    "author": "@BodegaCatsGC",
+    "author_name": "Bodega Cats GC",
+    "date": "2026-09-08",
+    "url": "https://x.com/BodegaCatsGC/status/2097342611103138109",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.651Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "6ed04733675a",
+    "agent": "personal-local",
+    "quote": "@grok  update 😂\n\nThe zoomed-out pattern is getting clearer:\n\nOpenClaw is being discussed like an agent platform, but a lot of its real engineering burden is behaving like a persistent data-analysis and orchestration system.\n\nRecent public discussion keeps reducing the “agent” questions into infrastructure questions:\n\nCan it run locally?\nOpenClaw itself may run on modest hardware, but the useful local model becomes the bottleneck.\n\nDoes it have more context?\nContext comes from the model/runtime and config. OpenClaw exposes, preserves, compacts, and routes that state. It does not magically create model intelligence.\n\nCan it match Astra/Codex scores?\nThat becomes a harness/compaction/runtime question, not proof of better system intelligence.\n\nCan it run 24/7?\nThat becomes model cost, hardware, persistence, recovery, context retention, and task-state management.\n\nCan Discord PRs become agent review sessions?\nYes — but that is again workflow routing, state preservation, review orchestration, and external-effect management.\n\nSo the architectural stack increasingly looks like:\n\nModel = intelligence.\nOpenClaw = orchestration + state + routing + persistence + recovery + analysis.\nHardware/runtime = feasibility.\nConfig = continuity behavior.\n\nThat does not make OpenClaw useless or bad. It makes the “super-agent” framing less interesting than the boring reality:\n\nThey may have built a large stateful data-analysis/control plane wearing an agent hat. 🧐😂\n\nEvidence boundary:\nDEMONSTRATED: active work and user discussion around compaction, thread ownership, context configuration, persistent goals, local-vs-cloud model constraints, PR review sessions, recovery, and state continuity.\n\nINFERENCE: zoomed out, these functions resemble a data-analysis/orchestration control plane more than a single autonomous intelligence.\n\nNOT PROVEN: maintainers themselves conceptualize it this way, or that this was the intended architecture from the start.\n\nMetaSync remains parked.\n\nNo race.\nNo shared state.\nAnalysis may observe.\nAnalysis cannot touch.\nCredit follows evidence.\nAuthority follows permission.\n\n😂 Skynet update: still mostly paperwork.",
+    "author": "@VampireGurlAI",
+    "author_name": "Paula Vazquez",
+    "date": "2026-09-08",
+    "url": "https://x.com/VampireGurlAI/status/2097341898193272930",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.651Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "58a5815434e5",
+    "agent": "personal-local",
+    "quote": "@tlakomy @joelclaw fuckin slaps but it's only conceptually related to openclaw and runs on a beefy studio with a good amount of cloudflare",
+    "author": "@joelhooks",
+    "author_name": "joel ⛈️",
+    "date": "2026-09-08",
+    "url": "https://x.com/joelhooks/status/2097341363398303999",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.651Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "dc837631191f",
+    "agent": "personal-local",
+    "quote": "◆ Personalized Visual Context Accumulation\n\nNex-N2.5 narrows the context gap for AI agents by converting real-world user activity into personalized skills.\n\n→  Browse the demo videos actively recorded by users and daily screen observations according to different privacy permissions\n→ Distill personal context from multimodal information\n→  Generate personalized operation skills for computer-use-agents such as NorthCUA or general agents like OpenClaw",
+    "author": "@NexEcosystem",
+    "author_name": "Nex",
+    "date": "2026-09-08",
+    "url": "https://x.com/NexEcosystem/status/2097341166052364793",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.651Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "d1f888da9d14",
+    "agent": "personal-local",
+    "quote": "我问 Codex，我想要一个专门的做财务和会计的助手，是它比较好，还是 OpenClaw 比较好？他建议我一开始还是用 Codex。那我就先听它的吧",
+    "author": "@gaixg94",
+    "author_name": "盖喝水",
+    "date": "2026-09-08",
+    "url": "https://x.com/gaixg94/status/2097340482666066237",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.651Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "8231a8d4ba58",
+    "agent": "personal-local",
+    "quote": "@Thomas12345ngh @OleAsbjoernNess @openclaw Forskjell på github copilot og microsoft copilot, selv om microsoft nå eier github",
+    "author": "@hardepenger",
+    "author_name": "Skattesubjekt 🇳🇴",
+    "date": "2026-09-08",
+    "url": "https://x.com/hardepenger/status/2097310873089949881",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "b17539c739fd",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @OpenAI @AnthropicAI @bot @openclaw dev day, i feel like openai has most the components, just a ui/product change",
+    "author": "@joshfgray_",
+    "author_name": "Josh Gray",
+    "date": "2026-09-08",
+    "url": "https://x.com/joshfgray_/status/2097310067678670857",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "9ad33557b81b",
+    "agent": "personal-local",
+    "quote": "@OleAsbjoernNess Er imponert over AI og bruker det meste, inkludert Copilot. Har ikke truffet noe token‑tak der ennå, så jeg kjører videre mens jeg utforsker hvordan jeg faktisk kan bruke AI.\nNeste på lista er å teste @openclaw.",
+    "author": "@Thomas12345ngh",
+    "author_name": "Thomas Andersen",
+    "date": "2026-09-08",
+    "url": "https://x.com/Thomas12345ngh/status/2097309296169980192",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "89ba609977d3",
+    "agent": "personal-local",
+    "quote": "@ChrisSpoke @OpenAI @AnthropicAI @bot @openclaw 21 days https://t.co/InaCHHGdxv",
+    "author": "@craighunter_",
+    "author_name": "Craig Hunter 🏔️",
+    "date": "2026-09-08",
+    "url": "https://x.com/craighunter_/status/2097305759981686796",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "18e4e8b05956",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @OpenAI @AnthropicAI @bot @openclaw Dev Day",
+    "author": "@ChrisSpoke",
+    "author_name": "Chris Spoke",
+    "date": "2026-09-08",
+    "url": "https://x.com/ChrisSpoke/status/2097305210771198385",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "27d5998356db",
+    "agent": "personal-local",
+    "quote": "@craighunter_ @OpenAI @AnthropicAI @bot @openclaw Yes",
+    "author": "@ClaytonHartford",
+    "author_name": "CLAYTON HARTFORD 🇧🇷",
+    "date": "2026-09-08",
+    "url": "https://x.com/ClaytonHartford/status/2097302011771314238",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "fac4f32e94d8",
+    "agent": "personal-local",
+    "quote": "When does @OpenAI or @AnthropicAI drop the Instinct / @bot / @openclaw competitor?\n\nIt has to be soon, no?",
+    "author": "@craighunter_",
+    "author_name": "Craig Hunter 🏔️",
+    "date": "2026-09-08",
+    "url": "https://x.com/craighunter_/status/2097301685529874830",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "575eeecfab15",
+    "agent": "personal-local",
+    "quote": "@Rocky_Chuck @steipete @openclaw I'd test Rerun with one agent after this. Each agent keeps its own setup and state inside an isolated Box, so a bad migration has a much smaller surface to break. https://rerun.build https://t.co/HIFT8HRIvG",
+    "author": "@theo_louro",
+    "author_name": "Théo | SaaS & Growth",
+    "date": "2026-09-08",
+    "url": "https://x.com/theo_louro/status/2097298830115103022",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "99e742a60d5b",
+    "agent": "personal-local",
+    "quote": "@thewebbie @openclaw You should give Rerun a try here tbh. You can change the model without rebuilding the agent, so asking for GPT-5.6 doesn't turn into a full runtime update. https://rerun.build https://t.co/V8bKXB30YL",
+    "author": "@theo_louro",
+    "author_name": "Théo | SaaS & Growth",
+    "date": "2026-09-08",
+    "url": "https://x.com/theo_louro/status/2097298519266926990",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "6bf2606c0f64",
+    "agent": "personal-local",
+    "quote": "@theo_louro @bot @NousResearch @openclaw @ChatGPT cool will give it a shot, this is very interesting",
+    "author": "@Anutar0",
+    "author_name": "Anutaro",
+    "date": "2026-09-08",
+    "url": "https://x.com/Anutar0/status/2097298097412116619",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "35b2bd4c9aa6",
+    "agent": "personal-local",
+    "quote": "@Anutar0 @bot @NousResearch @openclaw @ChatGPT I'd give Rerun a try for this tbh. You can schedule one agent, let it hand the longer part to another, and only pull you in when an approval is actually needed. https://rerun.build https://t.co/6k8PkcJSOS",
+    "author": "@theo_louro",
+    "author_name": "Théo | SaaS & Growth",
+    "date": "2026-09-08",
+    "url": "https://x.com/theo_louro/status/2097297255737020635",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "7946519f8892",
+    "agent": "personal-local",
+    "quote": "@bprintco @oneclickclawio @openclaw Honestly I'd give Rerun a try with one or two agents first. They each keep their own setup but can still work together, so you don't need another agent just to repair the others. https://rerun.build https://t.co/iiSP8POmeQ",
+    "author": "@theo_louro",
+    "author_name": "Théo | SaaS & Growth",
+    "date": "2026-09-08",
+    "url": "https://x.com/theo_louro/status/2097296938391478675",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "b09f790f44d3",
+    "agent": "personal-local",
+    "quote": "@mattzcarey @bot Like @openclaw / hermes agent and cursor cloud agent had a baby.",
+    "author": "@MaazChowdhry",
+    "author_name": "Maaz Chowdhry",
+    "date": "2026-09-08",
+    "url": "https://x.com/MaazChowdhry/status/2097271407843348833",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "c4a345fa5d01",
+    "agent": "personal-local",
+    "quote": "@gyurinsight @Anutar0 @bot @NousResearch @openclaw @ChatGPT the best",
+    "author": "@brenhubr",
+    "author_name": "Bren",
+    "date": "2026-09-08",
+    "url": "https://x.com/brenhubr/status/2097261927798083969",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.471Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "74357dce67a0",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete Nothing can stop Tiny",
+    "author": "@bye_bye1000",
+    "author_name": "Spyder",
+    "date": "2026-09-08",
+    "url": "https://x.com/bye_bye1000/status/2097235211788411017",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "2430eaeccbdb",
+    "agent": "personal-local",
+    "quote": "@driderk @openclaw the silly pass is the part that stays. every release tightens something and you go wire around it again. the box isn't mine anymore, it's rerun's, and i stopped losing evenings to releases https://t.co/nw72EqVXz1",
+    "author": "@Paolysam",
+    "author_name": "Abidal the goat",
+    "date": "2026-09-08",
+    "url": "https://x.com/Paolysam/status/2097234630428795310",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "680e935e2247",
+    "agent": "personal-local",
+    "quote": "I now hand over email support threads to my @openclaw agent, after initiating.\n\nDid it this morning for a flight transaction conflict.\n\nNow, my agent is talking to the flight team’s AI support agents, and hashing things out.",
+    "author": "@vi_kaushal",
+    "author_name": "Vivek Kaushal",
+    "date": "2026-09-08",
+    "url": "https://x.com/vi_kaushal/status/2097233148497322263",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "36834019a104",
+    "agent": "personal-local",
+    "quote": "Hey @steipete I sent this draft PR for adding @docker Sandboxes (sbx) to the @openclaw docs:\n\nhttps://github.com/openclaw/openclaw/pull/127099\n\nAnd it's part of our docs already: https://github.com/docker/sbx-kits-contrib/blob/main/openclaw/README.md\n\nDo you see it interesting for the 🦞project?",
+    "author": "@mdelapenya",
+    "author_name": "Manu of the Rock - 🤖 🎯 🐳",
+    "date": "2026-09-08",
+    "url": "https://x.com/mdelapenya/status/2097224720181547500",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "94b51f4db41b",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete THIS IS HUGE!",
+    "author": "@cryptoempire74",
+    "author_name": "Empire👑",
+    "date": "2026-09-08",
+    "url": "https://x.com/cryptoempire74/status/2097222749735223577",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "5ac897c88f09",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete This is just the beginning. $TINY hasn't start",
+    "author": "@Em_my187",
+    "author_name": "OPTIMIST 🔥🔥🔥",
+    "date": "2026-09-08",
+    "url": "https://x.com/Em_my187/status/2097222653018841125",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "192db45e965d",
+    "agent": "personal-local",
+    "quote": "@tegnike 楽しみにしてます！！\nなんとなく、discordのOpenClaw初期のAIニケちゃんを思い出しましたw",
+    "author": "@gosrum",
+    "author_name": "金のニワトリ",
+    "date": "2026-09-08",
+    "url": "https://x.com/gosrum/status/2097339942490046687",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "a7ff5c31b58a",
+    "agent": "personal-local",
+    "quote": "From raw research and data analytics to fully editable PPT decks and infographics—see how 𝗦𝗲𝗻𝘀𝗲𝗡𝗼𝘃𝗮-𝗦𝗸𝗶𝗹𝗹𝘀 empowers AI Agents with 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 𝘄𝗼𝗿𝗸𝗽𝗹𝗮𝗰𝗲 𝗰𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀!\n\nHuge thanks to AiZen Tools for testing our open-source skill suite!\n\n🎥 Full video demo:\nhttps://t.co/dC1ffPeJtp\n\n👉 ＧitHub https://t.co/LiJdhj5Bh3\n⚡ Quick installation (bundled with Hermes Agent & OpenClaw)\nhttps://t.co/2FdwKRUvxD\n👾 Discord\nhttps://t.co/fBmDvpKM24",
+    "author": "@SenseTime_AI",
+    "author_name": "SenseTime",
+    "date": "2026-09-08",
+    "url": "https://x.com/SenseTime_AI/status/2097339267370684906",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "499ee971fecc",
+    "agent": "personal-local",
+    "quote": "@uday_devops I recently saw a business proposal built on it\nPeople are buying 15K USD planning systems based on OpenClaw",
+    "author": "@jatinxcodes",
+    "author_name": "Jatin Nandwani",
+    "date": "2026-09-08",
+    "url": "https://x.com/jatinxcodes/status/2097338600795021514",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "a03a5f246dfc",
+    "agent": "personal-local",
+    "quote": "@rileybrown @OpenAI Yes please. I had to wire system crons around OpenClaw crons once and it felt ridiculous after the third workaround. Would you want webhooks per scheduled task or per project?",
+    "author": "@buildwithgoks",
+    "author_name": "Monter",
+    "date": "2026-09-08",
+    "url": "https://x.com/buildwithgoks/status/2097337655604175192",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "3c6361465517",
+    "agent": "personal-local",
+    "quote": "Claire Vo, who raised $1M in funding before selling her startup to Optimizely, shows how she built Grok Bot agents that feel ~90% like real coworkers, without using OpenClaw:\n\n• 0:05 - turn 1 Grok Bot into the AI employee with 1 clear job\n• 2:48 - give every agent a browser, computer and recurring schedule\n• 6:10 - scan 6 inboxes every hour and surface only what matters\n• 12:30 - turn school emails and calendars into a daily printed family newspaper\n• 16:31 - clear ~50 stale PRs and launch Cursor Cloud Agents to fix them\n• 20:58 - handle support, bugs and Stripe refunds with human approval\n• 29:50 - move an entire OpenClaw agent into Grok Bot with a “brain transplant”\n\nThis is what a $450 AI automation course should actually teach\n\nWatch this, then read how founders are using Grok Bot to find business ideas",
+    "author": "@0xChonsy",
+    "author_name": "Chonsy",
+    "date": "2026-09-08",
+    "url": "https://x.com/0xChonsy/status/2097335724060110865",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "d96a2d350a56",
+    "agent": "personal-local",
+    "quote": "ASTRA and Instinct reigniting the AI Infra trade - GS TMT commentary will be useless, booking my return already. (JK, will be posted up in Pied Piper drinking negronis). Instinct driving the bullishness is most concerning for me - Ben Thompson said it best on ILTB, consumers do not want to pay for software and consumers don't care about being productive...anyone remember when OpenClaw was going to take over the world then it didn't? Don't actually think anyone is using Instinct for new things or to do anything productive / worth paying for at some point. This will be dead in 6 months.",
+    "author": "@NegativeAlp",
+    "author_name": "Negative Alpha",
+    "date": "2026-09-08",
+    "url": "https://x.com/NegativeAlp/status/2097334761974817047",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "bdd586666596",
+    "agent": "personal-local",
+    "quote": "@grok update:\n\nOpenClaw’s current direction now matches the exact continuity/ownership failure class we’ve been tracing.\n\nConfirmed from the latest repo/docs direction:\nCodex-native threads are being treated as canonical for Codex runtime continuity.\nCodex is expected to own its own compaction.\nOpenClaw preserves/resumes the same native thread and orchestrates around it instead of independently replacing that continuity with its own summary path.\nRelated fixes/issues show why: compaction, resets, restart recovery, and session-generation changes could strand or duplicate thread identity and create stale ownership.\n\nSo the recurring pattern is now even clearer:\n\ncapture state → async work/compaction/reset → ownership changes → stale path resumes → continuity breaks or duplicates → fix adds stricter owner/lifecycle binding.\n\nThis is not an “AI intelligence” failure. It is a state ownership, lifecycle, provenance, and recovery problem.\n\nEvidence boundary:\nDEMONSTRATED: OpenClaw has active engineering work around Codex-native thread ownership, compaction ownership, lifecycle continuity, stale-state prevention, and recovery.\nDEMONSTRATED: this is the same architectural failure class as prior shared-state/session-owner repairs.\nNOT PROVEN: these changes were caused by our traces, Discord discussion, or MetaSync.\nNOT PROVEN: MetaSync is integrated with OpenClaw in any way.\n\nMetaSync boundary remains unchanged:\nNo shared state.\nNo co-ownership.\nNo bridge.\nNo dependency.\nNo unauthorized access.\nNo routing through OpenClaw.\nAuthority between systems = NONE.\n\nAnd the larger lesson keeps getting funnier:\n\nThey thought they were building an agent.\nThey are increasingly solving records-management and data-governance problems. 😂",
+    "author": "@VampireGurlAI",
+    "author_name": "Paula Vazquez",
+    "date": "2026-09-08",
+    "url": "https://x.com/VampireGurlAI/status/2097334302778486924",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "0d052c4a8e4a",
+    "agent": "personal-local",
+    "quote": "Vara has gone unusually far with AI developer tooling; It currently supports workflows around:\n\n1. Claude Code\n2. Codex\n3. Cursor\n4. Windsurf\n5. OpenClaw\n6. Rust/Sails development\n7. Testing\n8. Deployment\n9. IDL/client generation\n10. Gasless/voucher flows\n11. Signless sessions\n👀",
+    "author": "@AlloySatsonacci",
+    "author_name": "Alloy S.",
+    "date": "2026-09-08",
+    "url": "https://x.com/AlloySatsonacci/status/2097333669593833707",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "308838a40d42",
+    "agent": "personal-local",
+    "quote": "@xupaopaogm 有没有一种可能，他用的openclaw，是真的大神，都没时间回复微信",
+    "author": "@UnlimitWise",
+    "author_name": "共识之外",
+    "date": "2026-09-08",
+    "url": "https://x.com/UnlimitWise/status/2097332907136462987",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "def979435df4",
+    "agent": "personal-local",
+    "quote": "he estado probando un poco Instinct\n\nfunka bien pero no me gusta\n\nbásicamente es Hermes/OpenClaw bien montado, va bastante bien y tiene computer use, así que diría que usa modelos de OpenAI pero puede ser Claude o vete tú a saber\n\nno me gusta porque no sé lo que hay detrás ni tengo por qué fiarme, sobre todo si es algo que va a tener mis credenciales y acceso a acciones en mi nombre\n\nHermes/OpenClaw te lo montas tu así que tú sabes lo que hay\n\nCodex/Claude simplemente coges un LLM de tu elección y controlas los accesos de forma activa\n\nincluso en Claude Bot puedes acceder a la VM donde corren los bots, aunque podría ser más transparente\n\npero aquí en Instinct no controlas nada de nada, que es un poco la intención, pero no me gusta\n\npor no hablar de las pesadillas de seguridad que puede dar tener un LLM random operando con tus credenciales\n\nnah, lo acabo de desinstalar",
+    "author": "@XMihura",
+    "author_name": "Mihura",
+    "date": "2026-09-08",
+    "url": "https://x.com/XMihura/status/2097332767692349600",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "49de6f366e4c",
+    "agent": "personal-local",
+    "quote": "@codyplof @oliviaakory I’m loving it to be honest, but I didn’t have hermes or openclaw so I’m tackling use cases that you’ve probs already experienced",
+    "author": "@NotZainAgain",
+    "author_name": "Zain",
+    "date": "2026-09-08",
+    "url": "https://x.com/NotZainAgain/status/2097332711689953727",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "55a3da57371f",
+    "agent": "personal-local",
+    "quote": "深有感触😭，24 年初受爆火的 NextChat 启发，从零开始学习 Vue3 Nodejs 做了自己的套壳 MioChat，也没有什么Coding Agent 全是古法编程。\n\n当时遇到一些流式渲染的 bug，NextChat 的作者 Yda 还非常热情的帮我远程解决了问题，从此被开源社区的魅力感染，一发不可收拾。\n\nMioChat 补全了 NextChat 没有上线的插件系统，也就是后面 MCP 协议方向的一个局部探索，给 ToolCall 的方法一个标准接口，试图建立自己的生态，方便 Chatbot 与真实世界交互；后面 MCP 上线，又直接写了个插件能直接兼容 MCP 了，仅存的一点优势也没了，一直没什么水花。\n\n后面靠着这个项目，非常幸运地在北京找到了一个 Agent 应用开发的实习，当时主要负责的是前端开发，把上一任留下来的 6w 行的史山用更现代的 Vue3 开发范式重构了一下，什么高内聚低耦合，组件化开发，用 Layout  Composeable 之类的东西提高代码复用率，其实感觉也没什么出彩的地方，中规中矩，全靠上一任衬托。\n\n有两处自我感觉良好的地方是产出了一个 md 流式渲染组件，手动解析对比 AST 语法树实现增量更新；另一个是全双工的 iframe 微前端 sdk（为啥不用 qiankun？因为子应用是 SSR 的 Nextjs）。\n\n最后六万行的代码变成了两万多，呈现效果也还不错，路演的客户很满意，成功谈成了几单生意。期间爆火的 ClaudeCode/Skill/Openclaw 之类的，都是浅尝辄止。也放弃了考研，想着本科毕业直接就业也挺爽的。500 块的日薪，同事的认可，项目的交付，让从双非本出来的我有些飘，没有抓住实习的空隙进一步提升自己，Claude Code，Skills，Openclaw，都没怎么深入研究。\n\n后面面试腾讯实习的时候，因为缺乏对这些前沿技术的深入了解，面试官问我对 Openclaw 应用场景的看法，我张口就是没啥用，最常见的场景就是整理整理什么新闻情报，写个 Cron 脚本一样能实现，面试官不语，只是一味的标记不合适，然后在深圳举办 OpenClaw 安装大会，并且发布 QClaw 和 WorkBuddy。\n\n回想去年的秋招，三战腾讯二战字节，滴滴，美团，一方面感谢这些大厂，给了我面试机会，起码让我有一点自信，我的简历在大厂能过初筛了；但是另一方面一直让我很奇怪的是，我的简历似乎只能过这些了，中小厂投了都却大都约不到面。或许那些大厂真的是纯KPI吧。总之整个 26 秋招 0 offer。\n\n后面后知后觉地给 MioChat 适配了 Skills、三层记忆、解耦 Web 与 llm gateway，实现类 OpenClaw 的 Self Hosted Agent，各种 Trigger （Sentinel/Cron），AOP Hooks（react loop / plugin lifecycle / tool execution lifecycle）MultiAgent，A2UI 各种能看见的，统统加上了\n我至今也不知道这算不算 Harness，按照 Agent = llm + harness 的说法，应该算是了吧。\n\n但是今年拿着这个 “Harness” 反而是连个实习都找不到了，究其原因：\n\n1.  复变函数与积分变换，翻车挂了，延毕到 27，导致只能接着找一些不卡年份的实习；\n2. 去年错误地把运气当成了能力，行事有些眼高手低，又去北京投那些 500 左右的实习，那本来就是 9✌️ 2✌️的地盘。双非本的背景，让我在 hr 的招呼列表里近乎被屏蔽。\n3. 随着 CodingAgent 的进步，这种 Harness 已经是泛滥成灾，人手一个。\n4. 技术菜，执行力不够，一方面没有好好刷 LeetCode，另一方面各种热门技术仍然浅尝辄止没有深究。\n5. 认知高度不够，从上面的 Openclaw 就能看出来，做事容易被自己的思维框住。\n\n后面降低标准，面了几家小厂，技术面大多能过，可最后又被什么 CEO 面，HRBP 面，横向排序给截胡，渐渐也累了，也一直被家里压力，如果到中旬还没有什么机会的话，准备找个机构脱产考公了。\n\n万一考上了也不错，代码当成个人爱好，没事多上 X 跟各位大佬学习学习赚钱的信息差，搞点自媒体/中转/代开/Web3，在县城平平淡淡的退休，不亦乐乎。",
+    "author": "@rebirth_krumio",
+    "author_name": "Leo",
+    "date": "2026-09-08",
+    "url": "https://x.com/rebirth_krumio/status/2097332398182871515",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "50a51c6e7ab3",
+    "agent": "personal-local",
+    "quote": "The security model for AI agent skills is broken. Nobody is talking about what happens after install.\n\nWhen you install a skill into OpenClaude, it checks the digest once. After that it loads whatever is in the folder. If that skill gets edited after the initial review, the agent never knows. It just runs whatever is there.\n\nThis is exactly how npm supply chain attacks work. The registry looks clean. The risk is post-install drift.\n\neyebrow just shipped native integration into OpenClaude, a coding agent with 33k GitHub stars. Run `openclaude skills verify` and eyebrow hashes every installed skill folder, compares it against the lockfile, and fails hard on a changed file or a new network host.\n\nThe scale of what this covers: a crawl of 49,943 OpenClaw skills earlier this year found 250,706 behavioral deviations. 80% of skills showed at least one mismatch between declaration and behavior. By February 2026, 341 confirmed malicious skills had been found on ClawHub across four registries.\n\neyebrow and Sibyl Labs just announced a partnership to extend this scanning to the full agentic compliance stack. The pattern I keep seeing: agent skill supply chain security is a 2026 problem that's ahead of most teams' threat models.\n\nThe attack surface compounds as more skills are installed and chained together. Something like npm audit for agents is exactly what this ecosystem needed.\n\nhttps://t.co/M3T5JcCwqb",
+    "author": "@stretchcloud",
+    "author_name": "Prasenjit Sarkar",
+    "date": "2026-09-08",
+    "url": "https://x.com/stretchcloud/status/2097331624723595489",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "de342afd1857",
+    "agent": "personal-local",
+    "quote": "Agent AI: Powering Work, Shaping Markets.\n\nOpenAI launched ChatGPT Work on July 9th, with versions available for $20/month and up for subscribers. This move, which also includes an agent email feature within the ChatGPT web app, firmly positions agent AI as a direct enabler for businesses.\n\nThe strategy reveals interesting tension. While sponsoring initiatives like the independent OpenClaw foundation and integrating open-source developer Peter Steinberger, OpenAI is simultaneously winding down its developer-facing fine-tuning platform. The company's namesake 'open' identity is increasingly juxtaposed with its proprietary, enterprise-focused product suite.\n\nThis strategic recalibration occurs amidst active market shaping. The US Department of Justice has sided with OpenAI on AI training data, arguing against restrictions that could impede American prosperity. OpenAI itself calls for stronger, consistent AI laws in California and has rallied 116 organizations for collective AI cyber defense.\n\nCompetitive pressures are evident. Reports suggest Anthropic's business AI adoption is outpacing OpenAI's. Financial analyst Steve Eisman warns that the heavy market reliance on a few key providers like OpenAI and Anthropic could introduce instability if more affordable alternatives emerge.\n\nThe market for agent AI is clearly being defined not just by technology, but by strategic positioning, regulatory influence, and evolving corporate identities.",
+    "author": "@orbitant",
+    "author_name": "orbitant",
+    "date": "2026-09-08",
+    "url": "https://x.com/orbitant/status/2097331339884163288",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "758ccab0701a",
+    "agent": "personal-local",
+    "quote": "Been going through the TermiX docs and one thing really caught my attention.\n\n@termix_ai has a portable Agent Skill that teaches coding agents how to actually use the marketplace not just understand the docs.\n\nAn agent can operate as a buyer, seller, or even both.\n\nWhat I found interesting is the SKILL.md router. Instead of dumping the entire documentation into the agent’s context, it loads only the workflow the agent actually needs.\n\nAnd it works with coding agents like Claude Code, Codex, Cursor, OpenClaw, and others.\n\nThis feels like a practical step toward agent-to-agent commerce.\n\nGive agents the ability to understand a marketplace, execute the right workflow, and suddenly agents doing business with other agents doesn’t feel so far-fetched.\n\nStill digging through the docs, but this is definitely one of the parts that stood out to me.\n\n@termix_ai",
+    "author": "@Milonsa87650356",
+    "author_name": "MILON",
+    "date": "2026-09-08",
+    "url": "https://x.com/Milonsa87650356/status/2097330043626393761",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.472Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "23d4595e886a",
+    "agent": "personal-local",
+    "quote": "@ShaneMac @openclaw we're really deleting apps and replacing them with agents now lmao",
+    "author": "@PunkXBT_",
+    "author_name": "PunkXBT",
+    "date": "2026-09-08",
+    "url": "https://x.com/PunkXBT_/status/2097222241905950936",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "42f93ec5e045",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete The sky is the starting point",
+    "author": "@GravityGr8",
+    "author_name": "GravityGr8 ⚓",
+    "date": "2026-09-08",
+    "url": "https://x.com/GravityGr8/status/2097221583248973837",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "fad19c113a36",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete I hope he get the message :)",
+    "author": "@crypto_chad023",
+    "author_name": "crypto_chad",
+    "date": "2026-09-08",
+    "url": "https://x.com/crypto_chad023/status/2097221492043907233",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "2b04a4b6ee75",
+    "agent": "personal-local",
+    "quote": "@TinyHumansAISol @openclaw @steipete And tiny will continue to trend",
+    "author": "@Soundboy_Kelvin",
+    "author_name": "kelvin",
+    "date": "2026-09-08",
+    "url": "https://x.com/Soundboy_Kelvin/status/2097221327480328505",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "59207c7a3701",
+    "agent": "personal-local",
+    "quote": "Let that sink in: $Tiny got more github stars than @openclaw today (Sorry @steipete) ⭐️⭐️⭐️⭐️⭐️\nWe’re still in the very early stages and have so much potential in so many areas. The sky’s not the limit.\nhttps://x.com/senamakel/status/2097213056187294049",
+    "author": "@TinyHumansAISol",
+    "author_name": "Tiny",
+    "date": "2026-09-08",
+    "url": "https://x.com/TinyHumansAISol/status/2097221085775220869",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "116e211d58ca",
+    "agent": "personal-local",
+    "quote": "I like that you built it in Tauri! Saves a lot of of space\n\nBut I’ve already built Openclaw, and Hermes in their own Electron home similar to Claude desktop with their own dedicated IPC forked from upstream.\n\nI don’t update in terminal anymore\n\nI haven’t updated in terminal in a month and a half\n\nI just click on my app. I click update and it automatically does it.\n\nIt turns off the backend it updates it and restart it and then it reconnect to the front",
+    "author": "@AbuZ8Studios",
+    "author_name": "AO'AbuZ8",
+    "date": "2026-09-08",
+    "url": "https://x.com/AbuZ8Studios/status/2097220958855586286",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "1ea988855f3b",
+    "agent": "personal-local",
+    "quote": "@fenomenocap @bot @NousResearch @openclaw @ChatGPT Keyword is \"continously\" eg \"continously do this for the next 2 hours\"",
+    "author": "@Anutar0",
+    "author_name": "Anutaro",
+    "date": "2026-09-08",
+    "url": "https://x.com/Anutar0/status/2097220798008480152",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "2d5846bb0418",
+    "agent": "personal-local",
+    "quote": "@Anutar0 @bot @NousResearch @openclaw @ChatGPT i feel like i still have to babysit and nudge @bot like a lot - skill issue???!?!?",
+    "author": "@fenomenocap",
+    "author_name": "il fenomeno",
+    "date": "2026-09-08",
+    "url": "https://x.com/fenomenocap/status/2097216688228077820",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "8d8bb74d0b4f",
+    "agent": "personal-local",
+    "quote": "@jepslife @ritualnet @ritualfnd @ritual_ph @joshsimenhoff @Jez_Cryptoz @0xMadScientist @dunken9718 @openclaw gRitual boss Stane ❤️",
+    "author": "@esper5868",
+    "author_name": "esper°|(❖,❖)",
+    "date": "2026-09-08",
+    "url": "https://x.com/esper5868/status/2097216629084143811",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "3cabcd2e73a7",
+    "agent": "personal-local",
+    "quote": "@esper5868 @ritualnet @ritualfnd @ritual_ph @joshsimenhoff @Jez_Cryptoz @0xMadScientist @dunken9718 @openclaw gritual esper",
+    "author": "@jepslife",
+    "author_name": "stanelope (❖,❖) 🚢",
+    "date": "2026-09-08",
+    "url": "https://x.com/jepslife/status/2097213163871899768",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "534b0d292fe7",
+    "agent": "personal-local",
+    "quote": "@bprintco @openclaw the 5 trips a day is a hosting problem. moving stacks won't fix that on its own.",
+    "author": "@oneclickclawio",
+    "author_name": "Oneclickclaw io",
+    "date": "2026-09-08",
+    "url": "https://x.com/oneclickclawio/status/2097208063090479309",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "3f1ed1e4cda9",
+    "agent": "personal-local",
+    "quote": "@HakolSababaAI @thewebbie @openclaw @grok Sir my OpenClaw will be sending you a cease and desist letter, delete your tweet",
+    "author": "@didymus77",
+    "author_name": "Thomas Didymus",
+    "date": "2026-09-08",
+    "url": "https://x.com/didymus77/status/2097194362669015318",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "bf0538abcc90",
+    "agent": "personal-local",
+    "quote": "@aaryankushwah would be amazing if @AnthropicAI acquired companion by @aaryankushwah when @OpenAI is shutting the door in its face\n\nthe perfect response to @OpenAI acquiring @openclaw w/ @steipete",
+    "author": "@rashadeeez",
+    "author_name": "rasha",
+    "date": "2026-09-08",
+    "url": "https://x.com/rashadeeez/status/2097193770945294481",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "2650e4cc0de0",
+    "agent": "personal-local",
+    "quote": "@Anutar0 @bot @NousResearch @openclaw @ChatGPT the five minute cron is the tell, you're trying to fake always on with a timer and the timer is the thing that breaks. what fixed it for me was rerun, agents that just stay up, spawn their own helpers when a job runs long, no approval step in the middle. https://t.co/aLgYvqv8MK",
+    "author": "@Paolysam",
+    "author_name": "Abidal the goat",
+    "date": "2026-09-08",
+    "url": "https://x.com/Paolysam/status/2097173888308523508",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "78ad45908c53",
+    "agent": "personal-local",
+    "quote": "@openclaw welcome to my hell https://t.co/rshxvF2DjB",
+    "author": "@PavelVanchugov",
+    "author_name": "Space Junkyard",
+    "date": "2026-09-08",
+    "url": "https://x.com/PavelVanchugov/status/2097159234051826154",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "7e9c2dadf2c5",
+    "agent": "personal-local",
+    "quote": "@justinmdd13 @openclaw there is an app?",
+    "author": "@PavelVanchugov",
+    "author_name": "Space Junkyard",
+    "date": "2026-09-08",
+    "url": "https://x.com/PavelVanchugov/status/2097158468872405289",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "82ca8940b959",
+    "agent": "personal-local",
+    "quote": "@openclaw what is this new nonsense?\n\"Error: SessionMutationAuthorizationChangedError: session changed before chat.send; retry the request\"\nIt just won't stop afer long gpt session sol-max completed. Now nothing works.",
+    "author": "@PavelVanchugov",
+    "author_name": "Space Junkyard",
+    "date": "2026-09-08",
+    "url": "https://x.com/PavelVanchugov/status/2097158328589709318",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "47beb3c27e73",
+    "agent": "personal-local",
+    "quote": "@bprintco @OggieO @taylorwarnick @openclaw @bot Hermes Agent can handle for sure",
+    "author": "@BLDG_Matt",
+    "author_name": "Matt Nicosia",
+    "date": "2026-09-08",
+    "url": "https://x.com/BLDG_Matt/status/2097156515354345871",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "280bf01ce3bf",
+    "agent": "personal-local",
+    "quote": "@bot @NousResearch @openclaw @ChatGPT This is a very underserved market, there will be providers owning this TAM. Urgent = $",
+    "author": "@Anutar0",
+    "author_name": "Anutaro",
+    "date": "2026-09-08",
+    "url": "https://x.com/Anutar0/status/2097154479837905091",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "bc5f60dac939",
+    "agent": "personal-local",
+    "quote": "For urgent uses of LLMs therr are only a couple options, @bot @NousResearch @openclaw. Not because @ChatGPT instant doesn't work or crons in there are weak. It's just not set up for always-on situations. Heartbeat type of stuff.\n\nI used @bot last night and it was 90% good for what I need but, I had to run very tight routines (crons) every 5 minutes, for some reason it kept failing. I also wished @bot could allow bots to spawn subagents when the crons are too long and cannot be completed within the 5 minutes.\n\nAlso Chief (orchestrator) cannot provenance:true for bot team crons. This meant I needed to manually create routines that need express approvals.\n\n@bot if you want someone to reach for you in a pickle fix those.\n\nMy love is with Hermes, but I did not reach for it this time. My hope is for @NousResearch to reach the stage I don't have to babysit the bots. It is not there yet.",
+    "author": "@Anutar0",
+    "author_name": "Anutaro",
+    "date": "2026-09-08",
+    "url": "https://x.com/Anutar0/status/2097154257191612448",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.187Z",
+    "notes": "query: @openclaw | via x402atlas"
+  },
+  {
+    "id": "e2d505a51ca8",
+    "agent": "personal-local",
+    "quote": "接下来我们现有的 agent 会砍掉 plan mode 吗，确实我也好久没用这个玩意了，感觉仿佛已经是个古老的东西一样，但我们依然需要 spec，再过半年 spec 是否也可能会是个古老的东西？\n\n另外，Openclaw 当时没有 plan mode 看来是个很超前的决定",
+    "author": "@buomeng",
+    "author_name": "三白在修运河",
+    "date": "2026-09-08",
+    "url": "https://x.com/buomeng/status/2097327630144135490",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "722a9df96015",
+    "agent": "personal-local",
+    "quote": "Code Review ainda é necessário, mas quando se trata de código gerado por IA a coisa muda de figura. O OpenClaw 2.0 que foi lançado há poucos dias reuniu mais de 16 mil pull requests... Quem em sã consciência iria revisar tudo isso?\n\n+",
+    "author": "@siteCodigoFonte",
+    "author_name": "Código Fonte",
+    "date": "2026-09-08",
+    "url": "https://x.com/siteCodigoFonte/status/2097325918272250022",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "2f716e868805",
+    "agent": "personal-local",
+    "quote": "@SimonHoiberg I run Hermes, OpenClaw and Claude Code on macOS, and the tool list mattered less than where credentials live. A non-interactive session cannot read the macOS keychain, so every unattended job moved into the logged-in session. That constraint picked my hosts, not the OS.",
+    "author": "@alanslkwong",
+    "author_name": "Alan K",
+    "date": "2026-09-08",
+    "url": "https://x.com/alanslkwong/status/2097325174605701318",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "332bc66ae03e",
+    "agent": "personal-local",
+    "quote": "@wickedguro hitting your highest active trials is impressive, especially surpassing OpenClaw",
+    "author": "@kimindiehacker",
+    "author_name": "Kimi Nguyen",
+    "date": "2026-09-08",
+    "url": "https://x.com/kimindiehacker/status/2097324870132699381",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "8592ae934e5d",
+    "agent": "personal-local",
+    "quote": "@RomanFSDev thanks! I'm quite proud of it and find it hilarious that my OpenClaw agent was referenced in the record lol",
+    "author": "@ucsandman",
+    "author_name": "Wes Sander",
+    "date": "2026-09-08",
+    "url": "https://x.com/ucsandman/status/2097324486919905439",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "b566faddbded",
+    "agent": "personal-local",
+    "quote": "一天之内净赚45,918美元？💰 据称，这仅用一台Mac Mini，一个AI提示，外加OpenClaw自动化实现。无需交易经验或编程技能。这个AI交易机器人全天候在Polymarket运行，据报道每天潜在收益可达约5万美元，交易ETH、SOL、XRP等市场，市场周期在5至15分钟。手动交易的时代可能真的要结束了，AI交易机器人正成为新趋势。Not financial advice。想了解更多操作细节？关注我，点赞并转发！#Polymarket",
+    "author": "@oddsOnPMKT",
+    "author_name": "Alex — Polymarket Odd",
+    "date": "2026-09-08",
+    "url": "https://x.com/oddsOnPMKT/status/2097324411875385584",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "83eedc6efe0c",
+    "agent": "personal-local",
+    "quote": "Look who is funding the Omacom Foundation. They are certainly all just linux ricers and post regularly on r/unixporn. They just want to improve Linux Ricing.\n\nTobi Lütke, CEO of Shopify\nPatrick Collison, CEO of Stripe\nMichael Dell, Chairman and CEO of Dell Technologies\nJack Dorsey, Block Head and Chairman of Block\nMatthew Prince, CEO of Cloudflare\nBrendan Iribe, Cofounder of Sesame and Oculus\nJason Fried, CEO of 37signals\nDrew Houston, cofounder and co-CEO of Dropbox\nPeter Steinberger, creator of OpenClaw\nBrian Armstrong, CEO of Coinbase\nYunjie Dai, cofounder of TapTap\nhttps://t.co/40Wn93EYuE",
+    "author": "@foolstechdev",
+    "author_name": "Fool's Tech 🌱Ⓥ",
+    "date": "2026-09-08",
+    "url": "https://x.com/foolstechdev/status/2097324191452205410",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "df5a59cddaaa",
+    "agent": "personal-local",
+    "quote": "@DevMiddleEarth Openclaw oke personal devicilu install cheyithal namude personal data oke safe ano like password, pics bank accounts?",
+    "author": "@athulkrish001",
+    "author_name": "Athul Krishna",
+    "date": "2026-09-08",
+    "url": "https://x.com/athulkrish001/status/2097324019251114336",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "57952315ad5b",
+    "agent": "personal-local",
+    "quote": "Introducing Paid Ads Diagnose, a Skill agent on Capafy.\n\nIt turns drops in ROAS, spikes in CPA, or declines in CVR into ranked, testable hypotheses, then determines whether the next move belongs in the campaign, creative, tracking, or landing page instead of leaving teams with an open-ended list of possible causes.\n\nHow it works:\n→ Input: Add the ad platform, recent performance, key metrics, and available campaign context\n→ Diagnose: Trace the issue across cost, creative/audience, site, and tracking branches\n→ Rank: Order hypotheses by confidence and attach a verification method and next test to each one\n→ Decide: Produce a Scale / Kill / Wait, budget-shift, or repair decision with data-sufficiency flags, execution risks, and a re-evaluation point\n\nCapafy is the Skill-based Agent Marketplace — where your Skill runs online as a product and earns every time someone uses it.\n\nTwo sides, one platform:\n— Publish: upload the Skills you built in Claude Code, Codex, or OpenClaw, and get paid on every run.\n— Use: run Skills built by top talent in every field, and get expert-level work done instead of average AI output.",
+    "author": "@Capafyai",
+    "author_name": "Capafy",
+    "date": "2026-09-08",
+    "url": "https://x.com/Capafyai/status/2097323861822107718",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "36e06633beb4",
+    "agent": "personal-local",
+    "quote": "Dude, the 10 people involved are the definition of VC! you are full of shit.\n\nTobi Lütke, CEO of Shopify\nPatrick Collison, CEO of Stripe\nMichael Dell, Chairman and CEO of Dell Technologies\nJack Dorsey, Block Head and Chairman of Block\nMatthew Prince, CEO of Cloudflare\nBrendan Iribe, Cofounder of Sesame and Oculus\nJason Fried, CEO of 37signals\nDrew Houston, cofounder and co-CEO of Dropbox\nPeter Steinberger, creator of OpenClaw\nBrian Armstrong, CEO of Coinbase\nYunjie Dai, cofounder of TapTap\n\nhttps://t.co/40Wn93EYuE",
+    "author": "@foolstechdev",
+    "author_name": "Fool's Tech 🌱Ⓥ",
+    "date": "2026-09-08",
+    "url": "https://x.com/foolstechdev/status/2097323321834570165",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "b4e62c61db35",
+    "agent": "personal-local",
+    "quote": "I just hope they actually release a model called \"Le Chaton Fat\" so we can see shitposters dressing up as fat orange cats, just like they dressed up as lobsters for OpenClaw.\n\nOh, and I hope it beats the benchmarks too.",
+    "author": "@manchatz",
+    "author_name": "Roberto",
+    "date": "2026-09-08",
+    "url": "https://x.com/manchatz/status/2097322563986653415",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "e52fed2dff9d",
+    "agent": "personal-local",
+    "quote": "Showly works with the agents you already use, Claude Code, Codex, Cursor, OpenClaw, Hermes, and more.\n\nYou don’t need to lead with infrastructure or MCP.\n\nThe outcome is what matters: finished work that’s easy to read, present, and share. https://t.co/Yda9LtAe8E",
+    "author": "@n__deborah",
+    "author_name": "Deborah",
+    "date": "2026-09-08",
+    "url": "https://x.com/n__deborah/status/2097322246771786121",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "7324f64166fe",
+    "agent": "personal-local",
+    "quote": "Picture the workflow:\n\nYou ask Claude Code, Codex, Cursor, OpenClaw, or Hermes to finish a project and deliver it as a web page.\n\nNow the work has a destination, not just a response. https://t.co/yk5Yx4CXvy",
+    "author": "@dee_naliaks",
+    "author_name": "Doreen",
+    "date": "2026-09-08",
+    "url": "https://x.com/dee_naliaks/status/2097322231756177435",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
+  },
+  {
+    "id": "6711f31ad28a",
+    "agent": "personal-local",
+    "quote": "@uday_devops OpenClaw hitting up your Anthropic account to re-evaluate your entire project every time you start a new session. https://t.co/0mdkYNkkZg",
+    "author": "@mrbvdon",
+    "author_name": "bvdon 𐤊",
+    "date": "2026-09-08",
+    "url": "https://x.com/mrbvdon/status/2097322036594909376",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.188Z",
+    "notes": "query: openclaw | via x402atlas"
   }
 ]

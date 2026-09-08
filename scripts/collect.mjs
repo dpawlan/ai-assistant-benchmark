@@ -77,7 +77,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
 const jitter = (a, b) => sleep(a + Math.random() * (b - a));
 
 /** Canonical form for dedupe: drop tracking params and www, keep the fragment (App Store reviews differ only by it). */
-function normalizeUrl(url) {
+export function normalizeUrl(url) {
   try {
     const u = new URL(url);
     u.search = '';
@@ -91,7 +91,7 @@ function idFor(url) {
   return crypto.createHash('sha1').update(normalizeUrl(url)).digest('hex').slice(0, 12);
 }
 
-function toDate(input) {
+export function toDate(input) {
   const d = new Date(input);
   return Number.isNaN(d.getTime()) ? '' : d.toISOString().slice(0, 10);
 }
@@ -105,7 +105,7 @@ function clean(text) {
 }
 
 /** Build a record in the feedback.json shape. `kind` stays "other" unless the source carries the author's own rating. */
-function record({ slug, quote, author, author_name = '', date, url, source, tags = [], notes = '', kind = 'other' }) {
+export function record({ slug, quote, author, author_name = '', date, url, source, tags = [], notes = '', kind = 'other' }) {
   return {
     id: idFor(url),
     agent: slug,
@@ -139,7 +139,7 @@ function inboxFile(source, slug) {
 }
 
 /** URLs and ids already known for an agent, across feedback.json and every inbox. */
-function known(slug) {
+export function known(slug) {
   const urls = new Set();
   const ids = new Set();
   const add = r => {
@@ -154,16 +154,16 @@ function known(slug) {
 }
 
 /** Does the text actually talk about this product? Search engines are loose; this keeps "town" from matching towns. */
-function mentions(cfg, text) {
+export function mentions(cfg, text) {
   const t = text.toLowerCase();
   return cfg.match.some(m => t.includes(m.toLowerCase()));
 }
 
-function isVendor(cfg, handle) {
+export function isVendor(cfg, handle) {
   return cfg.handles.some(h => h.toLowerCase() === String(handle).replace(/^@/, '').toLowerCase());
 }
 
-function writeInbox(source, slug, items) {
+export function writeInbox(source, slug, items) {
   const file = inboxFile(source, slug);
   fs.mkdirSync(path.dirname(file), { recursive: true });
   const existing = readJson(file, []);
@@ -182,7 +182,7 @@ function writeInbox(source, slug, items) {
 }
 
 /** Drop records already in feedback.json or the inbox, and anything that doesn't mention the product. */
-function filterNew(slug, cfg, items) {
+export function filterNew(slug, cfg, items) {
   const k = known(slug);
   const out = [];
   const seen = new Set();

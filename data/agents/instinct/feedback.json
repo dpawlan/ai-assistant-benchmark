@@ -22,7 +22,7 @@
   {
     "id": "63814f0e9ffa",
     "agent": "instinct",
-    "quote": "I\u2019ve been stress-testing Instinct with real-life tasks \u2014 here\u2019s what worked, what didn\u2019t, and where I still don\u2019t trust agents\nHey everyone \u2014 first post here \ud83d\udc4b\n\nI\u2019ve been experimenting with Instinct and decided to give it a few tasks that go beyond the usual \u201csummarize this\u201d or \u201cwrite me an email\u201d use cases.\n\nHere\u2019s what I tried:\n\n1. Asked it to order snacks for me across different apps.\n\n2. Asked it to monitor flight prices within a date range, identify good deals, and remind me if prices looked like they were rising or dropped. It was checking roughly 3 times a day.\n\n3. Asked it to check whether my parents had gone for their post-dinner walk.\n\n4. Asked it to research a few tech startups and give me concise summary notes.\n\nOverall, I was actually pretty impressed with how well it handled these. In fact I asked it how it can ping my parents instead of just monitoring and it was able to help me with the steps as well. \n\nBut I also ran into a few pain points:\n\n1. Speed\n\nIt\u2019s still noticeably slow in some workflows. I\u2019m sure this is something the team is working on but there is huge gap between steps of a task.\n\n2. Browser/site access + human-in-the-loop\n\nIt still couldn\u2019t access every site/service I wanted it to or did exist. There were also several points where a human had to step in, particularly when it needed to otps or interact with things that weren\u2019t accessible to the agent. \n\n3. Payments are still a big trust issue for me\n\nThis is probably my biggest concern.\n\nI\u2019m comfortable letting an agent find something, compare prices, or even prepare an order. But I\u2019m still not comfortable giving it my card details and letting it freely make payments.\n\nCurious how others are using Instinct (or similar agents I can try next).\n\n\\* What real-world tasks have you trusted an agent with?\n\n\\* How are you using it currently or want to use it where it is lacking?\n\n\\* Have you found any good workarounds for payments?\n\n\\* And most importantly \u2014 what tasks would you trust an agent t",
+    "quote": "I’ve been stress-testing Instinct with real-life tasks — here’s what worked, what didn’t, and where I still don’t trust agents\nHey everyone — first post here 👋\n\nI’ve been experimenting with Instinct and decided to give it a few tasks that go beyond the usual “summarize this” or “write me an email” use cases.\n\nHere’s what I tried:\n\n1. Asked it to order snacks for me across different apps.\n\n2. Asked it to monitor flight prices within a date range, identify good deals, and remind me if prices looked like they were rising or dropped. It was checking roughly 3 times a day.\n\n3. Asked it to check whether my parents had gone for their post-dinner walk.\n\n4. Asked it to research a few tech startups and give me concise summary notes.\n\nOverall, I was actually pretty impressed with how well it handled these. In fact I asked it how it can ping my parents instead of just monitoring and it was able to help me with the steps as well. \n\nBut I also ran into a few pain points:\n\n1. Speed\n\nIt’s still noticeably slow in some workflows. I’m sure this is something the team is working on but there is huge gap between steps of a task.\n\n2. Browser/site access + human-in-the-loop\n\nIt still couldn’t access every site/service I wanted it to or did exist. There were also several points where a human had to step in, particularly when it needed to otps or interact with things that weren’t accessible to the agent. \n\n3. Payments are still a big trust issue for me\n\nThis is probably my biggest concern.\n\nI’m comfortable letting an agent find something, compare prices, or even prepare an order. But I’m still not comfortable giving it my card details and letting it freely make payments.\n\nCurious how others are using Instinct (or similar agents I can try next).\n\n\\* What real-world tasks have you trusted an agent with?\n\n\\* How are you using it currently or want to use it where it is lacking?\n\n\\* Have you found any good workarounds for payments?\n\n\\* And most importantly — what tasks would you trust an agent t",
     "author": "u/Sad-Locksmith5980",
     "date": "2026-09-08",
     "url": "https://www.reddit.com/r/AI_Agents/comments/1wak4is/",
@@ -108,7 +108,7 @@
   {
     "id": "699034eec57d",
     "agent": "instinct",
-    "quote": "You gotta try \nhttps://\nInstinct.co\n\nIt\u2019s so so good and free right now for a bit",
+    "quote": "You gotta try \nhttps://\nInstinct.co\n\nIt’s so so good and free right now for a bit",
     "author": "@thisiskp_",
     "author_name": "KP",
     "date": "2026-09-06",
@@ -143,7 +143,7 @@
   {
     "id": "3216cd2a534e",
     "agent": "instinct",
-    "quote": "No shade on Instinct but do I seriously need to turn my brain off to this degree that I don\u2019t want to think about anything ever and have all the info the AI THINKS I want or need served to me constantly? Much less paying for it on its own through my passwords and accounts?",
+    "quote": "No shade on Instinct but do I seriously need to turn my brain off to this degree that I don’t want to think about anything ever and have all the info the AI THINKS I want or need served to me constantly? Much less paying for it on its own through my passwords and accounts?",
     "author": "@jasondiamond",
     "author_name": "Jason Diamond",
     "date": "2026-09-06",
@@ -229,7 +229,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: share shift Claude\u2192Instinct because free"
+    "notes": "third-party: share shift Claude→Instinct because free"
   },
   {
     "id": "abe4180e348e",
@@ -304,7 +304,7 @@
   {
     "id": "3823d43aa36b",
     "agent": "instinct",
-    "quote": "I am trying order from zepto from both WhatsApp and IMessage but instinct says it can\u2019t access so that\u2019s why it could not placed order or can\u2019t add to cart the food items does it same for you ?",
+    "quote": "I am trying order from zepto from both WhatsApp and IMessage but instinct says it can’t access so that’s why it could not placed order or can’t add to cart the food items does it same for you ?",
     "author": "@HardikHindocha9",
     "author_name": "Hardik Hindocha",
     "date": "2026-09-06",
@@ -374,7 +374,7 @@
   {
     "id": "d5f46f09c9e0",
     "agent": "instinct",
-    "quote": "Location sharing on Instinct\n\nStarting today, you can share your location with Instinct on iMessage. Instinct can recognize when you arrive somewhere, and answer questions about where you\u2019ve been.\n\nHere are some examples of how our early alpha group uses it:  \n\\- Ordering food to your current location  \n\\- Finding a lunch spot a few minutes away based on what you like  \n\\- Guiding you through a trip itinerary in a new city  \n\\- Figuring out how to get home, including which train to catch and where to board\n\nInstinct can also act when you enter or leave an area. You can ask it to remind you to pick up your package when you get home, or have your boarding pass ready when you arrive at the airport. These location triggers let Instinct follow up when the task becomes relevant.\u00a0\n\nYour location history also gives Instinct context to answer questions like \u201cWhere did I park?\u201d, \u201cHow long did my bike ride take?\u201d, or \u201cWhat was that nice coffee shop around here that I went to last month?\u201d",
+    "quote": "Location sharing on Instinct\n\nStarting today, you can share your location with Instinct on iMessage. Instinct can recognize when you arrive somewhere, and answer questions about where you’ve been.\n\nHere are some examples of how our early alpha group uses it:  \n\\- Ordering food to your current location  \n\\- Finding a lunch spot a few minutes away based on what you like  \n\\- Guiding you through a trip itinerary in a new city  \n\\- Figuring out how to get home, including which train to catch and where to board\n\nInstinct can also act when you enter or leave an area. You can ask it to remind you to pick up your package when you get home, or have your boarding pass ready when you arrive at the airport. These location triggers let Instinct follow up when the task becomes relevant. \n\nYour location history also gives Instinct context to answer questions like “Where did I park?”, “How long did my bike ride take?”, or “What was that nice coffee shop around here that I went to last month?”",
     "author": "u/maxobes",
     "date": "2026-09-06",
     "url": "https://www.reddit.com/r/InstinctHQ/comments/1w8kbia/",
@@ -387,7 +387,7 @@
     ],
     "source": "web",
     "collected_at": "2026-09-08T14:09:36.956502+00:00",
-    "notes": "reddit r/InstinctHQ; location-sharing feature post with alpha use cases (author maxobes \u2014 community poster)"
+    "notes": "reddit r/InstinctHQ; location-sharing feature post with alpha use cases (author maxobes — community poster)"
   },
   {
     "id": "fdb8ecb2de55",
@@ -427,7 +427,7 @@
   {
     "id": "023b4e3da1f1",
     "agent": "instinct",
-    "quote": "The amount of money being thrown in \u2018basic bitches of AI bubble\u2019 a.k.a zero moat businesses is absurd. \n\nhttps://\nInstinct.co is a prime example of this. Any vibecoder can actually replicate their entire product in less than 3 hours\u2013 No joke. \n\nIt\u2019s most likely just a docker",
+    "quote": "The amount of money being thrown in ‘basic bitches of AI bubble’ a.k.a zero moat businesses is absurd. \n\nhttps://\nInstinct.co is a prime example of this. Any vibecoder can actually replicate their entire product in less than 3 hours– No joke. \n\nIt’s most likely just a docker",
     "author": "@a_to_the_bb",
     "author_name": "A_To_B",
     "date": "2026-09-05",
@@ -529,7 +529,7 @@
   {
     "id": "702a6da66ecc",
     "agent": "instinct",
-    "quote": "I\u2019ve been giving Instinct (and \n@TownAI\n) a run and they are both excellent. \n\nBut I also sense a turning point in that both products are heavily messaging driven. There\u2019s no app, no website, it\u2019s just an assistant that lives in your iMessage and WhatsApp. \n\nOn the one hand, this",
+    "quote": "I’ve been giving Instinct (and \n@TownAI\n) a run and they are both excellent. \n\nBut I also sense a turning point in that both products are heavily messaging driven. There’s no app, no website, it’s just an assistant that lives in your iMessage and WhatsApp. \n\nOn the one hand, this",
     "author": "@sriram_v2",
     "author_name": "Sriram Vaidhya",
     "date": "2026-09-04",
@@ -548,7 +548,7 @@
   {
     "id": "74954656bf9d",
     "agent": "instinct",
-    "quote": "@instinct_inc\n just got me a free first class upgrade on my flight \ud83d\ude1d",
+    "quote": "@instinct_inc\n just got me a free first class upgrade on my flight 😝",
     "author": "@its_jmomo",
     "author_name": "Johnathan Mo",
     "date": "2026-09-04",
@@ -599,7 +599,7 @@
     "agent": "instinct",
     "quote": "I have \nhttps://\nInstinct.co. \nWhat should I ask it?",
     "author": "@cwalkeronline",
-    "author_name": "carl\ud83e\udebf",
+    "author_name": "carl🪿",
     "date": "2026-09-04",
     "url": "https://x.com/cwalkeronline/status/2095999159656489136",
     "kind": "other",
@@ -647,7 +647,7 @@
   {
     "id": "64bdf76cfc3b",
     "agent": "instinct",
-    "quote": "I started using Instinct! over the last 24 hours, and it\u2019s honestly the greatest AI I\u2019ve ever used.\n\nIt\u2019s incredibly user-friendly, intuitive, and genuinely helpful. Huge thank you to \n@miamishor\n for putting me onto it.\n\nEven crazier: the company was founded just a year ago by",
+    "quote": "I started using Instinct! over the last 24 hours, and it’s honestly the greatest AI I’ve ever used.\n\nIt’s incredibly user-friendly, intuitive, and genuinely helpful. Huge thank you to \n@miamishor\n for putting me onto it.\n\nEven crazier: the company was founded just a year ago by",
     "author": "@FarroYossi",
     "author_name": "Yossi Farro",
     "date": "2026-09-04",
@@ -679,7 +679,7 @@
   {
     "id": "413cc67b9dbc",
     "agent": "instinct",
-    "quote": "This has to be the coolest Instinct use case I\u2019ve seen so far.",
+    "quote": "This has to be the coolest Instinct use case I’ve seen so far.",
     "author": "@DavidPawlan",
     "author_name": "",
     "date": "2026-09-04",
@@ -696,7 +696,7 @@
   {
     "id": "a3b1ac6f64d1",
     "agent": "instinct",
-    "quote": "Been using Instinct over WhatsApp/iMessage for the last few days and I\u2019m genuinely blown away by how good it is.\n\nI regularly use pretty much every frontier model - ChatGPT, Claude, Gemini, etc. - but Instinct\u2019s ability to actually navigate the web and get things done has been",
+    "quote": "Been using Instinct over WhatsApp/iMessage for the last few days and I’m genuinely blown away by how good it is.\n\nI regularly use pretty much every frontier model - ChatGPT, Claude, Gemini, etc. - but Instinct’s ability to actually navigate the web and get things done has been",
     "author": "@AnirudhKejriwal",
     "author_name": "Anirudh Kejriwal",
     "date": "2026-09-04",
@@ -732,7 +732,7 @@
   {
     "id": "1114d4568475",
     "agent": "instinct",
-    "quote": "It works well! It\u2019s very accurate. It does take a few minutes transcribing",
+    "quote": "It works well! It’s very accurate. It does take a few minutes transcribing",
     "author": "u/zazuaza",
     "date": "2026-09-04",
     "url": "https://www.reddit.com/r/InstinctHQ/comments/1w6rxwi/_/p7pdyg2",
@@ -907,7 +907,7 @@
   {
     "id": "31153ed322d4",
     "agent": "instinct",
-    "quote": "Yes, it was lagging some yesterday. I noticed tonight it was much quicker. I had it help me with my fantasy football draft live \ud83d\ude02.",
+    "quote": "Yes, it was lagging some yesterday. I noticed tonight it was much quicker. I had it help me with my fantasy football draft live 😂.",
     "author": "u/Puppy_powers",
     "author_name": "",
     "date": "2026-09-02",
@@ -943,7 +943,7 @@
   {
     "id": "005a916e1ae9",
     "agent": "instinct",
-    "quote": "Yes, it was lagging some yesterday. I noticed tonight it was much quicker. I had it help me with my fantasy football draft live \ud83d\ude02.",
+    "quote": "Yes, it was lagging some yesterday. I noticed tonight it was much quicker. I had it help me with my fantasy football draft live 😂.",
     "author": "u/Puppy_powers",
     "date": "2026-09-02",
     "url": "https://www.reddit.com/r/InstinctHQ/comments/1w4xqyp/_/p7bw33q",
@@ -1031,7 +1031,7 @@
   {
     "id": "ea3ea26caf1c",
     "agent": "instinct",
-    "quote": "So the truth is, I\u2019ve only used it for one day, but for work purposes, it\u2019s been amazing. I have it responding to basic emails and set up summary reminders every hour. I had it write an email in Constant Contact, and it was perfect. I even ordered Uber Eats with it. It\u2019s honestly pretty incredible. \nNow I just have to figure out all the things I want it to do. I feel like I need to train myself to start asking it to do things for me instead of automatically doing everything myself lol.",
+    "quote": "So the truth is, I’ve only used it for one day, but for work purposes, it’s been amazing. I have it responding to basic emails and set up summary reminders every hour. I had it write an email in Constant Contact, and it was perfect. I even ordered Uber Eats with it. It’s honestly pretty incredible. \nNow I just have to figure out all the things I want it to do. I feel like I need to train myself to start asking it to do things for me instead of automatically doing everything myself lol.",
     "author": "u/Puppy_powers",
     "author_name": "",
     "date": "2026-09-01",
@@ -1105,7 +1105,7 @@
   {
     "id": "79058872e7c0",
     "agent": "instinct",
-    "quote": "Looking for other users\u2019 experiences with payments, flights, roadtrips, hotels, amazon orders etc.",
+    "quote": "Looking for other users’ experiences with payments, flights, roadtrips, hotels, amazon orders etc.",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-09-01",
@@ -1158,7 +1158,7 @@
   {
     "id": "0e10d85a0375",
     "agent": "instinct",
-    "quote": "Ok this will sound like a hyperbole post but it\u2019s not \n\nI have been using Instinct, the new AI assistant and it just found me ~$700/yr in subscriptions I forgot I was paying for. \n\nReal things it did:\n\n\u2022 Audited my Gmail and mapped every recurring subscription: ~$290/mo I wasn\u2019t",
+    "quote": "Ok this will sound like a hyperbole post but it’s not \n\nI have been using Instinct, the new AI assistant and it just found me ~$700/yr in subscriptions I forgot I was paying for. \n\nReal things it did:\n\n• Audited my Gmail and mapped every recurring subscription: ~$290/mo I wasn’t",
     "author": "@thisiskp_",
     "author_name": "KP",
     "date": "2026-08-31",
@@ -1192,7 +1192,7 @@
   {
     "id": "2a02cd597ce5",
     "agent": "instinct",
-    "quote": "I\u2019ve tried most of the agent apps. Instinct is the first one i actually hand real tasks to. It booked my family's flights end to end,orders my stuff, watches my kids' school email. It\u2019s been less an assistant you chat with, and more one you delegate to. The hype, for me, is that",
+    "quote": "I’ve tried most of the agent apps. Instinct is the first one i actually hand real tasks to. It booked my family's flights end to end,orders my stuff, watches my kids' school email. It’s been less an assistant you chat with, and more one you delegate to. The hype, for me, is that",
     "author": "@srcasm",
     "author_name": "Jesse Middleton",
     "date": "2026-08-31",
@@ -1247,7 +1247,7 @@
   {
     "id": "f1b13b5d3e7c",
     "agent": "instinct",
-    "quote": "Starting using Instinct last night. Magical experience booking a flight for my son and making dinner reservations. As a consumer offering, I think it\u2019s the best AI product since ChatGPT launched in 2022. Congrats \n@noahrshinn\n!",
+    "quote": "Starting using Instinct last night. Magical experience booking a flight for my son and making dinner reservations. As a consumer offering, I think it’s the best AI product since ChatGPT launched in 2022. Congrats \n@noahrshinn\n!",
     "author": "@Mkjung",
     "author_name": "Mike Jung",
     "date": "2026-08-29",
@@ -1297,7 +1297,7 @@
   {
     "id": "c81920eae690",
     "agent": "instinct",
-    "quote": "I messaged Instinct, it didn\u2019t respond, and Poke responded that my messages were held up. That was weird.",
+    "quote": "I messaged Instinct, it didn’t respond, and Poke responded that my messages were held up. That was weird.",
     "author": "@DavidPawlan",
     "author_name": "",
     "date": "2026-08-28",
@@ -1331,7 +1331,7 @@
   {
     "id": "f7a9fdcd8e1c",
     "agent": "instinct",
-    "quote": "I am so pumped to continue using instinct! Here\u2019s what i\u2019ve tried so far \n\n\\- finding better flights and making changes to my flights from SF to NYC \n\\- ordering lunch from doordash \n\\- applying for jobs \n\\- finalizing my Napa trip with the girls next weekend \n\\- staying on top of my inbox \n\\- drafting interview prep documents and pushing it to my drive \n\\- saving me money by cancelling unwanted subscriptions \n\nwhile using instinct i wish i had \n \\- instinct had access to a voice skill so it would draft emails in my voice. should i push an md file to my drive? \n\n\\- instinct could be more proactive. yes it does look through my inbox and calendar etc but a human chief of staff would have action items to move the needle for a leader, which is what i\u2019m expecting from instinct as well.",
+    "quote": "I am so pumped to continue using instinct! Here’s what i’ve tried so far \n\n\\- finding better flights and making changes to my flights from SF to NYC \n\\- ordering lunch from doordash \n\\- applying for jobs \n\\- finalizing my Napa trip with the girls next weekend \n\\- staying on top of my inbox \n\\- drafting interview prep documents and pushing it to my drive \n\\- saving me money by cancelling unwanted subscriptions \n\nwhile using instinct i wish i had \n \\- instinct had access to a voice skill so it would draft emails in my voice. should i push an md file to my drive? \n\n\\- instinct could be more proactive. yes it does look through my inbox and calendar etc but a human chief of staff would have action items to move the needle for a leader, which is what i’m expecting from instinct as well.",
     "author": "u/HotFaithlessness9396",
     "author_name": "",
     "date": "2026-08-28",
@@ -1372,7 +1372,7 @@
   {
     "id": "fc1f8efc4b33",
     "agent": "instinct",
-    "quote": "Kate Clark at the WSJ broke the story on Instinct's funding yesterday: $350 million raised, including a new round valuing the startup at $2.5 billion. \n\nThe piece is called \"The Latest Viral AI Assistant Rocketing Across Silicon\u201d",
+    "quote": "Kate Clark at the WSJ broke the story on Instinct's funding yesterday: $350 million raised, including a new round valuing the startup at $2.5 billion. \n\nThe piece is called \"The Latest Viral AI Assistant Rocketing Across Silicon”",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-08-27",
@@ -1408,7 +1408,7 @@
   {
     "id": "7e81c512850e",
     "agent": "instinct",
-    "quote": "\u201cI\u2019m Noah, the founder of Instinct.\n\nInstinct is a personal agent that we\u2019ve been building for the past few months. The interface is simple: there are no new interfaces. You can text or call it. It's trained to use a phone and a computer in the same way that humans do. Instinct combines simplicity with extreme capability.\n\nI\u2019m thrilled with everything our early users are doing with Instinct. They\u2019ve told us they\u2019ve planned cross-country road trips, bought weekly groceries and concert tickets, and cancelled hundreds of dollars of subscriptions. Someone\u2019s even planning their wedding with Instinct.\n\nWe want to make Instinct the best personal agent for all of you. It\u2019s available in an invite-only beta program while we\u2019re actively bringing up more compute. I\u2019m excited to see what you all do with it.\u201d",
+    "quote": "“I’m Noah, the founder of Instinct.\n\nInstinct is a personal agent that we’ve been building for the past few months. The interface is simple: there are no new interfaces. You can text or call it. It's trained to use a phone and a computer in the same way that humans do. Instinct combines simplicity with extreme capability.\n\nI’m thrilled with everything our early users are doing with Instinct. They’ve told us they’ve planned cross-country road trips, bought weekly groceries and concert tickets, and cancelled hundreds of dollars of subscriptions. Someone’s even planning their wedding with Instinct.\n\nWe want to make Instinct the best personal agent for all of you. It’s available in an invite-only beta program while we’re actively bringing up more compute. I’m excited to see what you all do with it.”",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-08-27",
@@ -1426,7 +1426,7 @@
   {
     "id": "a7c3bef005d6",
     "agent": "instinct",
-    "quote": "My flight home got delayed 6 hours. I\u2019ve heard from family you can file for compensation but I\u2019ve never tried it\n\nI texted Instinct to do the research for me and it found the rule that US airlines don't owe cash for delays, but Delta gives credits or miles for long ones if you file. I sent the flight number, it put the claim together, filed it, and handed me a reference. Then, it tracks the claim and chases the airline until it\u2019s resolved\n\nJust another problem Instinct has solved for me",
+    "quote": "My flight home got delayed 6 hours. I’ve heard from family you can file for compensation but I’ve never tried it\n\nI texted Instinct to do the research for me and it found the rule that US airlines don't owe cash for delays, but Delta gives credits or miles for long ones if you file. I sent the flight number, it put the claim together, filed it, and handed me a reference. Then, it tracks the claim and chases the airline until it’s resolved\n\nJust another problem Instinct has solved for me",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-08-26",
@@ -1463,7 +1463,7 @@
   {
     "id": "a19c28f22726",
     "agent": "instinct",
-    "quote": "My car has been overdue for an oil change for weeks. I was too lazy to look up shops nearby, compare prices, check who has openings, book it, etc.\n\nSo I texted Instinct: \"my car's overdue for an oil change. find a place near me with openings this week\u201d\n\nBack came two options with times and prices, plus which one lets you skip the line by booking ahead. I replied \"grab the wednesday one.\" Done. It's on my calendar for Wednesday at 10, it blocked 9:45 so I show up early, and I get a nudge the night before",
+    "quote": "My car has been overdue for an oil change for weeks. I was too lazy to look up shops nearby, compare prices, check who has openings, book it, etc.\n\nSo I texted Instinct: \"my car's overdue for an oil change. find a place near me with openings this week”\n\nBack came two options with times and prices, plus which one lets you skip the line by booking ahead. I replied \"grab the wednesday one.\" Done. It's on my calendar for Wednesday at 10, it blocked 9:45 so I show up early, and I get a nudge the night before",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-08-25",
@@ -1501,7 +1501,7 @@
   {
     "id": "00f2dfaad307",
     "agent": "instinct",
-    "quote": "I've been using Instinct every day for the last week now. It\u2019s been awesome for travel booking, rebookings, restaurant reservations, email follow-ups, CRM management, even working on our data room for LPs. I've tried Hermes, OpenClaw, Tasklet, GrokBot but Instinct takes the cake",
+    "quote": "I've been using Instinct every day for the last week now. It’s been awesome for travel booking, rebookings, restaurant reservations, email follow-ups, CRM management, even working on our data room for LPs. I've tried Hermes, OpenClaw, Tasklet, GrokBot but Instinct takes the cake",
     "author": "@srcasm",
     "author_name": "Jesse Middleton",
     "date": "2026-08-22",
@@ -1535,7 +1535,7 @@
   {
     "id": "55f76023bd19",
     "agent": "instinct",
-    "quote": "For additional context, I don\u2019t think we\u2019re at the point where it\u2019s safe to give AI read/write access to your inbox.\n\nI wanted to see how easily Instinct could be phished, so I created a brand new Gmail account and emailed my real personal account with instructions for Instinct",
+    "quote": "For additional context, I don’t think we’re at the point where it’s safe to give AI read/write access to your inbox.\n\nI wanted to see how easily Instinct could be phished, so I created a brand new Gmail account and emailed my real personal account with instructions for Instinct",
     "author": "@anothercohen",
     "author_name": "Alex Cohen",
     "date": "2026-08-22",
@@ -1588,7 +1588,7 @@
   {
     "id": "ce833cfe6780",
     "agent": "instinct",
-    "quote": "Two jobs plus client calls means my calendar reshuffles itself weekly. Last Thursday a client booked a call right on top of a two-hour block at my other job. I\u2019d have noticed the morning of, apologized, and burned an hour rebuilding the day.\n\nInstinct watches the calendar. It texted me the night before: these overlap, want me to move the client call? I said yes. It found the only clean opening, sent the updated invite, and the client had accepted before I woke up. As far as the client knows, I saw it instantly",
+    "quote": "Two jobs plus client calls means my calendar reshuffles itself weekly. Last Thursday a client booked a call right on top of a two-hour block at my other job. I’d have noticed the morning of, apologized, and burned an hour rebuilding the day.\n\nInstinct watches the calendar. It texted me the night before: these overlap, want me to move the client call? I said yes. It found the only clean opening, sent the updated invite, and the client had accepted before I woke up. As far as the client knows, I saw it instantly",
     "author": "u/goldmansockz",
     "author_name": "",
     "date": "2026-08-22",
@@ -1643,7 +1643,7 @@
     "agent": "instinct",
     "quote": "can I delete these records? NOPE!\n\ndespite revoking email access, instinct keeps copies of these emails in my record for arbitrary searching. \n\nFUN!",
     "author": "@clairevo",
-    "author_name": "claire vo \ud83d\udda4",
+    "author_name": "claire vo 🖤",
     "date": "2026-08-21",
     "url": "https://x.com/clairevo/status/2090929603552718928",
     "kind": "bug",
@@ -1659,9 +1659,9 @@
   {
     "id": "d20e8c1ef95c",
     "agent": "instinct",
-    "quote": "what a thrill! \n\ni disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM \ud83d\ude35\n\nhere's what happened, and what i've learned \ud83d\udc47",
+    "quote": "what a thrill! \n\ni disconnected ai bot instinct from google at 11 AM and got a summary of my emails at 2 PM 😵\n\nhere's what happened, and what i've learned 👇",
     "author": "@clairevo",
-    "author_name": "claire vo \ud83d\udda4",
+    "author_name": "claire vo 🖤",
     "date": "2026-08-21",
     "url": "https://x.com/clairevo/status/2090929592853037078",
     "kind": "bug",
@@ -1677,7 +1677,7 @@
   {
     "id": "a265b6cbfb81",
     "agent": "instinct",
-    "quote": "Every morning, my Instinct grabs the new emails from my Gmail inbox, which includes newsletters, coworkers, clients, etc. and provides me quick summary and priority list for which I should read first. \n\nI worked with my agent to even draft quick summary\u2019s with a link directly to the draft in the Gmail app and I can make a quick edit before sending it off.\n\nGave me my morning back",
+    "quote": "Every morning, my Instinct grabs the new emails from my Gmail inbox, which includes newsletters, coworkers, clients, etc. and provides me quick summary and priority list for which I should read first. \n\nI worked with my agent to even draft quick summary’s with a link directly to the draft in the Gmail app and I can make a quick edit before sending it off.\n\nGave me my morning back",
     "author": "u/Various_Instance_167",
     "author_name": "",
     "date": "2026-08-20",
@@ -1696,7 +1696,7 @@
   {
     "id": "9bfa23aa384a",
     "agent": "instinct",
-    "quote": "I was told by everybody to \"integrate AI into my daily life\" but it didn't make sense where until now.\n\nSay you want an assistant that reads your calendar, watches your inbox, and gets things done while you're asleep. The normal path: rent a server and pay hundreds to keep it alive. Collect API keys for every service you own. Figure out what OAuth is. Write cron jobs so it wakes up on a schedule. Find somewhere to keep your logins that isn't a text file on your desktop. Then build something to actually talk to it.\n\nThousands of dollars, a month of evenings, and most people quit around their first Google search. \n\nInstinct skips it.\n\nYou sign up on a web page and it hands you a number. You text the number. That's setup \u2014 two minutes, inside the app already on your phone. Nothing to inspect. It's iMessage, so it sits in the same list as my mom and group chats.\n\nInstant access to a chatbot who goes to work for you.\n\nIt runs on its own clock. Hand it something Tuesday and tell it to come back again on Friday. Slow work happens in the background so you don't have to set down your phone and watch them work then you get told when it's done.\n\nI'm not technical. Six months ago the vers",
+    "quote": "I was told by everybody to \"integrate AI into my daily life\" but it didn't make sense where until now.\n\nSay you want an assistant that reads your calendar, watches your inbox, and gets things done while you're asleep. The normal path: rent a server and pay hundreds to keep it alive. Collect API keys for every service you own. Figure out what OAuth is. Write cron jobs so it wakes up on a schedule. Find somewhere to keep your logins that isn't a text file on your desktop. Then build something to actually talk to it.\n\nThousands of dollars, a month of evenings, and most people quit around their first Google search. \n\nInstinct skips it.\n\nYou sign up on a web page and it hands you a number. You text the number. That's setup — two minutes, inside the app already on your phone. Nothing to inspect. It's iMessage, so it sits in the same list as my mom and group chats.\n\nInstant access to a chatbot who goes to work for you.\n\nIt runs on its own clock. Hand it something Tuesday and tell it to come back again on Friday. Slow work happens in the background so you don't have to set down your phone and watch them work then you get told when it's done.\n\nI'm not technical. Six months ago the vers",
     "author": "u/maxobes",
     "author_name": "",
     "date": "2026-08-20",
@@ -1735,7 +1735,7 @@
   {
     "id": "2f2879bb1147",
     "agent": "instinct",
-    "quote": "I texted my agent \"help me find flights to Cancun for the three of us for a wedding.\u201d \n\nInstinct searched every NYC airport, found $1,073 of JetBlue credit I forgot existed, checked my already-booked hotel and told me to keep it, booked three seats together, caught JetBlue",
+    "quote": "I texted my agent \"help me find flights to Cancun for the three of us for a wedding.” \n\nInstinct searched every NYC airport, found $1,073 of JetBlue credit I forgot existed, checked my already-booked hotel and told me to keep it, booked three seats together, caught JetBlue",
     "author": "@srcasm",
     "author_name": "Jesse Middleton",
     "date": "2026-08-16",
@@ -1748,5 +1748,2605 @@
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
     "notes": "Cancun flights + JetBlue credit"
+  },
+  {
+    "id": "a3a91a731491",
+    "agent": "instinct",
+    "quote": "I found a new GF\nThis is hard launch\n\nIt’s called https://Instinct.co😌\n\n@vasantamajety  I’m grateful for the invite",
+    "author": "@aishik_pyne",
+    "author_name": "Aishik Pyne",
+    "date": "2026-09-08",
+    "url": "https://x.com/aishik_pyne/status/2097247430890889683",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.608Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "98d0d8f1dc60",
+    "agent": "instinct",
+    "quote": "https://Instinct.co is good, very good.\n\nreminds me of when i tried chatgpt for the first time.\n\nhave invites to share, comment if you want access and i'll DM you.",
+    "author": "@chrisknightxyz",
+    "author_name": "Chris Knight",
+    "date": "2026-09-08",
+    "url": "https://x.com/chrisknightxyz/status/2097150096735416344",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.608Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "f32a6c5ceef2",
+    "agent": "instinct",
+    "quote": "Why doesn't @Meta by https://instinct.co?",
+    "author": "@zunzuuuu",
+    "author_name": "Ignacio",
+    "date": "2026-09-07",
+    "url": "https://x.com/zunzuuuu/status/2097040787468935241",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "ce609d3aa88d",
+    "agent": "instinct",
+    "quote": "My ai has been instructed to buy @trix_mrkt coins with a 90% probability of 10% upside. It then will execute the 10% trade and move on to the next coin.\n\nhttps://Instinct.co",
+    "author": "@Russerrr",
+    "author_name": "Russ",
+    "date": "2026-09-04",
+    "url": "https://x.com/Russerrr/status/2095907863197556805",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "5ed10d901c17",
+    "agent": "instinct",
+    "quote": "And then there's https://Instinct.co",
+    "author": "@kaushiknaarayan",
+    "author_name": "kaushiknaarayan",
+    "date": "2026-09-04",
+    "url": "https://x.com/kaushiknaarayan/status/2095888461236740244",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "4815b5c6e7d1",
+    "agent": "instinct",
+    "quote": "מישהו הצליח להתקין את הדבר הזה?\nאני לא מצליח אפילו להעלות את האתר\nhttps://instinct.co/",
+    "author": "@ZiskindMoshe",
+    "author_name": "Moshe Ziskind",
+    "date": "2026-09-03",
+    "url": "https://x.com/ZiskindMoshe/status/2095514579937702310",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "65e961f424e4",
+    "agent": "instinct",
+    "quote": "OK, Instinct… you had me at hello... https://instinct.co",
+    "author": "@JSilverman22",
+    "author_name": "Jeffrey Silverman",
+    "date": "2026-09-03",
+    "url": "https://x.com/JSilverman22/status/2095488970180182441",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "407b514d3311",
+    "agent": "instinct",
+    "quote": "טוב... אחרי יומיים חייב להגיד ש\nhttps://instinct.co/\n\nמאוד מרשים. פשוט סוגר פינות כמו עוזר אישי",
+    "author": "@assafch",
+    "author_name": "Ach",
+    "date": "2026-09-03",
+    "url": "https://x.com/assafch/status/2095418379792187652",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "b09b6691ab08",
+    "agent": "instinct",
+    "quote": "@awwmishaaa https://instinct.co 🫡",
+    "author": "@gautam_jajoo",
+    "author_name": "Gautam Jajoo",
+    "date": "2026-09-03",
+    "url": "https://x.com/gautam_jajoo/status/2095417786134835655",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "33691803b127",
+    "agent": "instinct",
+    "quote": "Here the link:  https://instinct.co",
+    "author": "@aresotik",
+    "author_name": "ares. 🎧",
+    "date": "2026-09-02",
+    "url": "https://x.com/aresotik/status/2095242271793017107",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "d5d0f24c511f",
+    "agent": "instinct",
+    "quote": "@nikhilbhansalis https://Instinct.co",
+    "author": "@roshanonline",
+    "author_name": "Roshan",
+    "date": "2026-09-02",
+    "url": "https://x.com/roshanonline/status/2095165405543424313",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "ac32f65d9a27",
+    "agent": "instinct",
+    "quote": "@ragnarinvarrock https://instinct.co/",
+    "author": "@0xAsync",
+    "author_name": "Async",
+    "date": "2026-09-02",
+    "url": "https://x.com/0xAsync/status/2095132498460307757",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "476d0a70021d",
+    "agent": "instinct",
+    "quote": "@asantossanz Es esta la web oficial?\n\nhttps://instinct.co",
+    "author": "@hsantana8",
+    "author_name": "Hugo Santana",
+    "date": "2026-09-02",
+    "url": "https://x.com/hsantana8/status/2095072612799979888",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "fd3af7a04443",
+    "agent": "instinct",
+    "quote": "@vikramskr @cursor_ai https://instinct.co/",
+    "author": "@EnerTuition",
+    "author_name": "EnerTuition",
+    "date": "2026-09-02",
+    "url": "https://x.com/EnerTuition/status/2095018346555289999",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "80cd85f6d380",
+    "agent": "instinct",
+    "quote": "Hi @x, can anybody send me invite to https://instinct.co please 🧡",
+    "author": "@artem_grebenkin",
+    "author_name": "Artem Grebenkin",
+    "date": "2026-09-01",
+    "url": "https://x.com/artem_grebenkin/status/2094793757702897848",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "3fd923836c88",
+    "agent": "instinct",
+    "quote": "Instinct https://instinct.co is really really good",
+    "author": "@007musk",
+    "author_name": "SSindia 🇺🇸",
+    "date": "2026-09-01",
+    "url": "https://x.com/007musk/status/2094657492274000275",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "dbb6500d5b0e",
+    "agent": "instinct",
+    "quote": "Wild. I just had my https://Instinct.co agent talk to my Hermes agent through the Ringdown. They had a discussion about my Japan trip itinerary.\n\nScreenshot showing my chat with Instinct. https://t.co/kQ5QATXeOO",
+    "author": "@trevin",
+    "author_name": "Trevin Chow",
+    "date": "2026-09-01",
+    "url": "https://x.com/trevin/status/2094645997632950433",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "226ff83410c8",
+    "agent": "instinct",
+    "quote": "@HotAisle Oh haha. No.\n\nhttps://instinct.co/",
+    "author": "@sundeep",
+    "author_name": "sunny madra",
+    "date": "2026-08-31",
+    "url": "https://x.com/sundeep/status/2094567702224674960",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "7d019ec45c91",
+    "agent": "instinct",
+    "quote": "@cyprusad https://instinct.co",
+    "author": "@paularambles",
+    "author_name": "“paula”",
+    "date": "2026-08-31",
+    "url": "https://x.com/paularambles/status/2094557322924486764",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "a439c11e5af3",
+    "agent": "instinct",
+    "quote": "@pharmapsychotic https://instinct.co/",
+    "author": "@Cryptotocollege",
+    "author_name": "Neal",
+    "date": "2026-08-31",
+    "url": "https://x.com/Cryptotocollege/status/2094513833754665195",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "4228fd672925",
+    "agent": "instinct",
+    "quote": "@fjsbarragan @tinkerersanky https://instinct.co a new stealth AI assistant everyone is raving about.",
+    "author": "@iannuttall",
+    "author_name": "Ian Nuttall",
+    "date": "2026-08-30",
+    "url": "https://x.com/iannuttall/status/2094108694019473825",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "6d7259388b46",
+    "agent": "instinct",
+    "quote": "I’ve been stress testing https://instinct.co for the last few days with very normal life stuff: booking restaurants, finding a haircut, sorting little tasks I’d usually procrastinate on\n\nhonestly really impressed so far\n\nwhat I like most is that it doesn’t feel like chatting with an AI, you ask for something, then there’s this natural little wait while it actually goes and tries to do it, and it comes back only when it has something useful\n\nfeels much closer to having a real assistant\n\nstill testing it, but this is one of the first agents where I’m actually finding myself wanting to delegate more stuff to it\n\nI still have 10 invites to use, anyone interested?",
+    "author": "@matteomadd",
+    "author_name": "matteo",
+    "date": "2026-08-29",
+    "url": "https://x.com/matteomadd/status/2093804792917221459",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "bb2ef2906723",
+    "agent": "instinct",
+    "quote": "We need some way to give agents one-off access to our accounts\n\nFor example I’m asking https://instinct.co to check up on an online I placed for which it needs login access\n\nBut no way I’m giving it my credentials\n\nJust want to give it a one-time access to the site with a limited scope\n\nMaybe @1password can build this?\n\nCould even be built in a way where sites don’t need to support it. 1Password already has my credentials, so it could do the sensitive part of logging into the site, executing the necessary actions, and then returning the result to the agent.\n\nThe agent would just tell 1password what to do, 1password checks with me, then does it and returns the result to the agent.\n\nInstead of 1password, it could also be a trusted agent running on my own computer. One that executes sensitive tasks on behalf of less-trusted agents",
+    "author": "@marckohlbrugge",
+    "author_name": "Marc Köhlbrugge",
+    "date": "2026-08-29",
+    "url": "https://x.com/marckohlbrugge/status/2093653908572778949",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "6e2c82208352",
+    "agent": "instinct",
+    "quote": "Some webdesign inspiration from the world's greatest entrepreneurs\n\nhttps://instinct.co (Raised $350M at $2.5B valuation)\nhttps://muskfoundation.org (Elon Musk)\nhttps://berkshirehathaway.com (Warren Buffett)",
+    "author": "@lismont",
+    "author_name": "Jonas Lismont",
+    "date": "2026-08-29",
+    "url": "https://x.com/lismont/status/2093624765218963875",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.609Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "561b044a5176",
+    "agent": "instinct",
+    "quote": "🗞️ @jerryjliu0 followed @noahrshinn\n\n@noahrshinn is building https://Instinct.co, a personal AI assistant that connects to your apps and devices, understands what matters to you and handles everyday tasks using the same phone and computer tools people use. https://t.co/ft82OcQxh2",
+    "author": "@TechFollowrazzi",
+    "author_name": "TechFollow",
+    "date": "2026-08-29",
+    "url": "https://x.com/TechFollowrazzi/status/2093541673431110045",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "011f5801ffb4",
+    "agent": "instinct",
+    "quote": "if anyone has a spare invite link to Instinct (https://instinct.co), I'd love one. looks amazing. 🙏",
+    "author": "@shaunralston",
+    "author_name": "Shaun Ralston",
+    "date": "2026-08-28",
+    "url": "https://x.com/shaunralston/status/2093359457619390901",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "29493fa48a7d",
+    "agent": "instinct",
+    "quote": "If anyone has a spare invite link to Instinct (https://instinct.co/), I'd love one",
+    "author": "@lukeburgis",
+    "author_name": "Luke Burgis",
+    "date": "2026-08-27",
+    "url": "https://x.com/lukeburgis/status/2092971743849660842",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "5a50dd44fe9b",
+    "agent": "instinct",
+    "quote": "New minimal websites on https://mnmm.xyz:\n\n01 • https://instinct.co\n02 • https://paulfaivret.com\n03 • https://internetlabs.co\n04 • https://designcult.us https://t.co/1gKm9v9zUI",
+    "author": "@remvze",
+    "author_name": "MAZE",
+    "date": "2026-08-27",
+    "url": "https://x.com/remvze/status/2092925530974622170",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "573f06c2ee48",
+    "agent": "instinct",
+    "quote": "UDPATE: seeking @NousResearch Hermes Agent & @OpenClaw users for the beta test.\n\nWant to run https://instinct.co but won't give all your data away to third parties?\n\nOlympus will provide the same functionality without sacrificing your privacy.\n\n$100 for testers, message me.",
+    "author": "@zigelbaum",
+    "author_name": "tracheopteryx | Jamie Zigelbaum",
+    "date": "2026-08-27",
+    "url": "https://x.com/zigelbaum/status/2092911716187160717",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "cdc79f9e93ab",
+    "agent": "instinct",
+    "quote": "looks like instinct's terms were revised today and the excessive usage rights are removed https://instinct.co/terms",
+    "author": "@MikeKhristo",
+    "author_name": "Mike Khristo",
+    "date": "2026-08-27",
+    "url": "https://x.com/MikeKhristo/status/2092830708020720085",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "6e76238399cb",
+    "agent": "instinct",
+    "quote": "I love this branding. Clear, concise, no fluff. Very into it. Website is great.\nhttps://instinct.co/",
+    "author": "@AnnicaBenning",
+    "author_name": "annica benning",
+    "date": "2026-08-26",
+    "url": "https://x.com/AnnicaBenning/status/2092705734186426465",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "64af235fa931",
+    "agent": "instinct",
+    "quote": "https://instinct.co is so insane, I asked it to find me student accommodations for my masters in germany, it sent messages to 18 owners within 5 minutes and now i have a video call lined up https://t.co/AkXqbLltXu",
+    "author": "@addidra",
+    "author_name": "Aqib",
+    "date": "2026-08-26",
+    "url": "https://x.com/addidra/status/2092565283450089801",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "93d1be921200",
+    "agent": "instinct",
+    "quote": "There have been efforts around private inference on TEEs that were highly experimental but I think open-weight models are getting to the point someone has the opportunity to create a verifiably private http://instinct.co that  could find pmf.",
+    "author": "@toptickcrypto",
+    "author_name": "τop τick crypτo 📁 🤖🧠",
+    "date": "2026-08-24",
+    "url": "https://x.com/toptickcrypto/status/2091880708159500417",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "e0d87b3721ee",
+    "agent": "instinct",
+    "quote": "@mishrak_sanjeev @instinct_inc nice",
+    "author": "@natashamalpani",
+    "author_name": "Natasha Malpani 👁",
+    "date": "2026-09-08",
+    "url": "https://x.com/natashamalpani/status/2097228762094227458",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "6562d98b6193",
+    "agent": "instinct",
+    "quote": "@natashamalpani Agent Identity/ Permisision/ Trust / agent auditablity / cascading revocation are all well handled by Grantex, all @instinct_inc need is integrate in 5 mins and get going. Almost all well known agent frameworks are supported as part of Grantex SDK.",
+    "author": "@mishrak_sanjeev",
+    "author_name": "Sanjeev Kumar",
+    "date": "2026-09-08",
+    "url": "https://x.com/mishrak_sanjeev/status/2097194337264418865",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "53e94468923b",
+    "agent": "instinct",
+    "quote": "10 minutes into @instinct_inc and it already feels like cheating at life. It books, it orders, it watches my inbox, it remembers everything. The future is here. AGI might be too 🤯",
+    "author": "@TrustMeeBroo",
+    "author_name": "TrustMeBro_Cap(ital)",
+    "date": "2026-09-07",
+    "url": "https://x.com/TrustMeeBroo/status/2097039861874405429",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "3808eafd7836",
+    "agent": "instinct",
+    "quote": "@alysha_lobo @ChannelNewsAsia @PriyataB @instinct_inc hell yeah",
+    "author": "@adiorchestrates",
+    "author_name": "Aditya Vijay",
+    "date": "2026-09-07",
+    "url": "https://x.com/adiorchestrates/status/2097039498131706149",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "48f6b0d7d828",
+    "agent": "instinct",
+    "quote": "@instinct_inc instincts don't lie, learned that the hard way too",
+    "author": "@thesohom2",
+    "author_name": "Sohom Mukherjee",
+    "date": "2026-09-07",
+    "url": "https://x.com/thesohom2/status/2096763413728772484",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "1012920d829f",
+    "agent": "instinct",
+    "quote": "@alysha_lobo @ChannelNewsAsia @PriyataB @instinct_inc pretty cool!",
+    "author": "@divvsaxena",
+    "author_name": "Divv Saxena",
+    "date": "2026-09-06",
+    "url": "https://x.com/divvsaxena/status/2096676133953802485",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "c4c165eb3db0",
+    "agent": "instinct",
+    "quote": "let me know if you’d like an invite to @instinct_inc\n\nhave four left !",
+    "author": "@migueljsalazar",
+    "author_name": "Miguel Salazar",
+    "date": "2026-09-06",
+    "url": "https://x.com/migueljsalazar/status/2096663709238124794",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "f072e2364837",
+    "agent": "instinct",
+    "quote": "@alysha_lobo @ChannelNewsAsia @PriyataB @instinct_inc Congratulations ✨✨✨",
+    "author": "@sanskarmodi22",
+    "author_name": "Sanskar Modi",
+    "date": "2026-09-06",
+    "url": "https://x.com/sanskarmodi22/status/2096597997245374467",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "2ab3dc483881",
+    "agent": "instinct",
+    "quote": "@alysha_lobo @ChannelNewsAsia @PriyataB @instinct_inc for component manufacuring we need massive influx of funds too.",
+    "author": "@xhrinath",
+    "author_name": "Shrrinath Navghane",
+    "date": "2026-09-06",
+    "url": "https://x.com/xhrinath/status/2096493475416228197",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a46bda55ce60",
+    "agent": "instinct",
+    "quote": "@alysha_lobo @ChannelNewsAsia @PriyataB @instinct_inc Wow congrats!",
+    "author": "@roohi_kr",
+    "author_name": "Roohi K",
+    "date": "2026-09-06",
+    "url": "https://x.com/roohi_kr/status/2096484011627745457",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "05b07e3dca15",
+    "agent": "instinct",
+    "quote": "Was on @ChannelNewsAsia to talk about the challenges of robotics founders in India 🇮🇳\n\nThank you @PriyataB for having me and for covering the Bangalore Tech Week. Welcome to Namma Ooru🙇🏻‍♀️\n\nAlso, 𝐜𝐫𝐚𝐳𝐲 𝐮𝐬𝐞 𝐜𝐚𝐬𝐞 — My friend used @instinct_inc to find the 𝗲𝘅𝗮𝗰𝘁 𝗰𝗹𝗶𝗽 of me!\n\nThe whole coverage clip is in the tweet below.",
+    "author": "@alysha_lobo",
+    "author_name": "AML",
+    "date": "2026-09-06",
+    "url": "https://x.com/alysha_lobo/status/2096443856866644339",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "94eaee53a3dc",
+    "agent": "instinct",
+    "quote": "@instinct_inc Why don’t you reply",
+    "author": "@NaveedA14552184",
+    "author_name": "Naveed Ali",
+    "date": "2026-09-04",
+    "url": "https://x.com/NaveedA14552184/status/2095928117445406865",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "766986454d4d",
+    "agent": "instinct",
+    "quote": "high key curious when is @instinct_inc coming to Asia (since you have WhatsApp integration, the pitch is easy for key markets here)",
+    "author": "@calxoxo",
+    "author_name": "Calissa M",
+    "date": "2026-09-03",
+    "url": "https://x.com/calxoxo/status/2095440576841916579",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "4fe852c1e63f",
+    "agent": "instinct",
+    "quote": "when is Instinct dropping their next growth campaign?sharing my ideas + campaign taglines for @noahrshinn and @instinct_inc 🫡\n\n1. Gut, meet Instinct\n- Share/signal boost the most intuitive and helpful tasks (and purchases) Instinct can do for you, before you know it yourself\n- Offer options to better customise Instinct for users in onboarding w a quick quiz for new users to embed it into daily workflows (eg. techies, parents, non-AI natives)\n\n2. Your better Instinct\n- Start a short form video series covering feature updates/how the team uses Instinct to make Instinct even better to build lasting fans and inform users\n- Feature request page for super fans to propose and vote on potential tweaks and new product ideas\n\n3. Life’s better with Instinct\n- Explore a new research bet such as Instinct-Instinct communication to make using Instinct more social, since some users want their Instincts to collaborate and coordinate shared activities/tasks\n- Showcase user stories from your most passionate power users to show the clear upside of using Instinct",
+    "author": "@calxoxo",
+    "author_name": "Calissa M",
+    "date": "2026-08-31",
+    "url": "https://x.com/calxoxo/status/2094539748664844423",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "b7757004c221",
+    "agent": "instinct",
+    "quote": "Don’t understand the hype about @instinct_inc ,\n@thesznai has been doing this months ago and actually makes phone calls on your behalf https://t.co/RjmqWOJ4wh",
+    "author": "@Ianwdj",
+    "author_name": "Ian Johnson",
+    "date": "2026-08-28",
+    "url": "https://x.com/Ianwdj/status/2093469355292209261",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "43a09fdfd70c",
+    "agent": "instinct",
+    "quote": "@instinct_inc Let’s connect for a potential collaboration. My DMs are open 📩",
+    "author": "@tripleK31",
+    "author_name": "Melissa Kang",
+    "date": "2026-08-27",
+    "url": "https://x.com/tripleK31/status/2092912738486108170",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "79b08009139a",
+    "agent": "instinct",
+    "quote": "@instinct_inc Hey! I see potential in your project. Let’s talk promotion? 🚀",
+    "author": "@RobinHood100X",
+    "author_name": "Robinhood Alpha",
+    "date": "2026-08-27",
+    "url": "https://x.com/RobinHood100X/status/2092830866519273711",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "7f1002aec67f",
+    "agent": "instinct",
+    "quote": "@instinct_inc Let’s talk⚡️dm us https://x.com/messages/compose?text=&recipient_id=1532784850067161088",
+    "author": "@GlobalCoinHub",
+    "author_name": "🌎 Coin Hub - Go Global 🌎",
+    "date": "2026-08-27",
+    "url": "https://x.com/GlobalCoinHub/status/2092816083380265381",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "d5f2305dcee6",
+    "agent": "instinct",
+    "quote": "@instinct_inc Hi let’s collab? Dm me or follow back?",
+    "author": "@AureliaNayza",
+    "author_name": "Mastero X Crypto",
+    "date": "2026-08-06",
+    "url": "https://x.com/AureliaNayza/status/2085475386910183471",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "72c24786f08d",
+    "agent": "instinct",
+    "quote": "@instinct_inc Let's Collab\nFollow Me Back 🔙\nDM me 👁️‍🗨️",
+    "author": "@KingNext100x",
+    "author_name": "Robinhood King 👑",
+    "date": "2026-08-06",
+    "url": "https://x.com/KingNext100x/status/2085426004705845735",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "ec3a803dfbae",
+    "agent": "instinct",
+    "quote": "@instinct_inc Let’s talk⚡️dm us",
+    "author": "@KingNext100x",
+    "author_name": "Robinhood King 👑",
+    "date": "2026-08-06",
+    "url": "https://x.com/KingNext100x/status/2085425997672001837",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "04c09d0b4d23",
+    "agent": "instinct",
+    "quote": "@instinct_inc would love to get a follow back?",
+    "author": "@KingNext100x",
+    "author_name": "Robinhood King 👑",
+    "date": "2026-08-06",
+    "url": "https://x.com/KingNext100x/status/2085425946824523881",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "8b452f70ce85",
+    "agent": "instinct",
+    "quote": "@instinct_inc Great momentum! Feel free to message me 🚀",
+    "author": "@MrDariBoss",
+    "author_name": "Mr Dari ₿",
+    "date": "2026-08-06",
+    "url": "https://x.com/MrDariBoss/status/2085396818171683055",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "9d3c5e2f3ee7",
+    "agent": "instinct",
+    "quote": "@instinct_inc Amazing project! Looking forward to networking and working together 🤝 Follow back 🔙",
+    "author": "@142C_",
+    "author_name": "Diana Crypto",
+    "date": "2026-08-06",
+    "url": "https://x.com/142C_/status/2085395941167939792",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "787a1964966b",
+    "agent": "instinct",
+    "quote": "@instinct_inc can I get a follow back?",
+    "author": "@realmarc9",
+    "author_name": "Bryson Crypto",
+    "date": "2026-08-06",
+    "url": "https://x.com/realmarc9/status/2085391494454899079",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "5cee8c8114cb",
+    "agent": "instinct",
+    "quote": "@instinct_inc Follow back and let’s push this to the moon 🚀🌙",
+    "author": "@CryptoKing_2020",
+    "author_name": "THE CRYPTO KING 📈🚀",
+    "date": "2026-08-06",
+    "url": "https://x.com/CryptoKing_2020/status/2085375991392911727",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "8190b26702eb",
+    "agent": "instinct",
+    "quote": "@katexbt @facelessfarms @Kalshi @cluely @instinct_inc sigh…🥺",
+    "author": "@shu_bit_",
+    "author_name": "shubit",
+    "date": "2026-03-27",
+    "url": "https://x.com/shu_bit_/status/2037369563550212544",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "ae6c9c5a7289",
+    "agent": "instinct",
+    "quote": "@shu_bit_ @facelessfarms @Kalshi @cluely @instinct_inc oh yeah i commented on this when he posted it tbh\n\nnot much to say...everyone kinda knows at this point lol",
+    "author": "@katexbt",
+    "author_name": "katexbt.hl",
+    "date": "2026-03-27",
+    "url": "https://x.com/katexbt/status/2037369378799579421",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "fc3c905f2857",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc talk about kalshi\n\ncc @katexbt",
+    "author": "@shu_bit_",
+    "author_name": "shubit",
+    "date": "2026-03-27",
+    "url": "https://x.com/shu_bit_/status/2037364712502108252",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "3bbe8fca1e17",
+    "agent": "instinct",
+    "quote": "@interstatejuche @instinct_inc https://x.com/vamika12500/status/2036637741342159054?s=20",
+    "author": "@vamika12500",
+    "author_name": "Himalayan fairy tale",
+    "date": "2026-03-25",
+    "url": "https://x.com/vamika12500/status/2036638705268732347",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "ac92020f6743",
+    "agent": "instinct",
+    "quote": "@interstatejuche @instinct_inc https://x.com/BulkingtonBooks/status/2036630726930583789?s=20",
+    "author": "@BulkingtonBooks",
+    "author_name": "Bulkington",
+    "date": "2026-03-25",
+    "url": "https://x.com/BulkingtonBooks/status/2036631093953102031",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "1f4df80bb963",
+    "agent": "instinct",
+    "quote": "What puts Antunes' complaints into perspective, and makes them even funnier, is he's openly affiliated with online slop farm @instinct_inc https://t.co/rjXEHVLY8z",
+    "author": "@interstatejuche",
+    "author_name": "KG",
+    "date": "2026-03-25",
+    "url": "https://x.com/interstatejuche/status/2036626985707794698",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.610Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "2eef42b76bfc",
+    "agent": "instinct",
+    "quote": "@facelessfarms Pay the man @instinct_inc",
+    "author": "@JasonCryptoFTW",
+    "author_name": "Ape Capital ",
+    "date": "2026-03-22",
+    "url": "https://x.com/JasonCryptoFTW/status/2035856698154348947",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "e6b9a1e01a0b",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc DONT LIE TO UR AUDIENCE!!!!\n\nhttps://x.com/facelessfarms/status/2035849169668034582",
+    "author": "@facelessfarms",
+    "author_name": "Aasir",
+    "date": "2026-03-22",
+    "url": "https://x.com/facelessfarms/status/2035850606309511240",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "3f794dc4a594",
+    "agent": "instinct",
+    "quote": "I have a feeling you'll be alright.\n\n@instinct_inc @elamri coded.",
+    "author": "@TheTrueQuant",
+    "author_name": "TheTrueQuant",
+    "date": "2026-03-22",
+    "url": "https://x.com/TheTrueQuant/status/2035743788648530013",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "208433d46552",
+    "agent": "instinct",
+    "quote": "@vvsmoe @elamri @mil000 @instinct_inc \"So much work\" its automated AI garbage being generated lol",
+    "author": "@SteamySnuggler",
+    "author_name": "SteamySnuggler 😽",
+    "date": "2026-03-22",
+    "url": "https://x.com/SteamySnuggler/status/2035732508512239976",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "18f9188818ff",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc we are not siding with the cluely guys lol u a fake and a fraud your downfall will be generational",
+    "author": "@fix_prod",
+    "author_name": "k eu/acc",
+    "date": "2026-03-22",
+    "url": "https://x.com/fix_prod/status/2035723431463772293",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "81be82674640",
+    "agent": "instinct",
+    "quote": "@atbright @elamri @veH0rny @instinct_inc looks like it is",
+    "author": "@GrindingPoet",
+    "author_name": "Grinding Poet",
+    "date": "2026-03-22",
+    "url": "https://x.com/GrindingPoet/status/2035716633021530212",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.611Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a334b47dbd4a",
+    "agent": "instinct",
+    "quote": "question:\n\nis grok @bot and http://instinct.co  only exciting to people who haven't played with @openclaw or hermes?",
+    "author": "@jayyeh",
+    "author_name": "Jason Yeh",
+    "date": "2026-08-23",
+    "url": "https://x.com/jayyeh/status/2091671175403610535",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "6a47fe8c9230",
+    "agent": "instinct",
+    "quote": "Yo http://Instinct.co if this is true please hit us up @paywithlocus we have something for you\n\nI don’t like my card details being included in the next training run 💀 https://t.co/UhK8LHrnOd",
+    "author": "@wezabis",
+    "author_name": "Wes Jorgensen",
+    "date": "2026-08-23",
+    "url": "https://x.com/wezabis/status/2091424718033457458",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "c249152e34d0",
+    "agent": "instinct",
+    "quote": "http://Instinct.co was a pysop to get all the VCs personal and work information. It impressed people who never built with imsg or computer use",
+    "author": "@isthinking",
+    "author_name": "💭",
+    "date": "2026-08-22",
+    "url": "https://x.com/isthinking/status/2091211368988868779",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "b53cfdc95792",
+    "agent": "instinct",
+    "quote": "Can anyone hook a brother up with an http://instinct.co invite",
+    "author": "@ay_ushr",
+    "author_name": "Ayush",
+    "date": "2026-08-22",
+    "url": "https://x.com/ay_ushr/status/2091205472451764480",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "139f2c6c8c0d",
+    "agent": "instinct",
+    "quote": "Everyone is obsessed with: http://Instinct.co\n\nTo work, it needs access to your email, WhatsApp, messages, and per the ToS, your \"device usage data\" too, including screen captures and keyboard inputs.\n\nI wonder how many of the people trying it actually read the Terms of Service. Because it says you're granting them:\n\n- The right to train AI models on your data\n- A perpetual and irrevocable license. Even if you delete your account, the rights you granted don't expire\n--A transferable, sub-licensable license. Meaning the rights could pass to an acquirer, or be extended to partners and vendors\n- Data sharing with third parties \"as needed\", where \"needed\" is defined entirely by them",
+    "author": "@AmitAvner",
+    "author_name": "Amit Avner",
+    "date": "2026-08-22",
+    "url": "https://x.com/AmitAvner/status/2091156926008574023",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "44e2c92db2fa",
+    "agent": "instinct",
+    "quote": "let’s pause for a sec and talk about http://instinct.co\n\nVCs, notable people, successful people hyping it up all week. They all just giving away their emails and all their personal data, emails, messages:\n\n“sub-licensable, worldwide, perpetual and irrevocable license to access…store, reproduce… any Materials…to train, fine-tune, and improve upon our technologies”\n\n“permit access to or disclose your Materials to third parties”\n\noof",
+    "author": "@MikeKhristo",
+    "author_name": "Mike Khristo",
+    "date": "2026-08-22",
+    "url": "https://x.com/MikeKhristo/status/2091020331452629043",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "970581b77d6f",
+    "agent": "instinct",
+    "quote": "@willdepue Try https://instinct.co/",
+    "author": "@grosen",
+    "author_name": "Greg Rosen",
+    "date": "2026-08-21",
+    "url": "https://x.com/grosen/status/2090863235239154034",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "586cccdd5f90",
+    "agent": "instinct",
+    "quote": "First 24 hours with http://instinct.co were a mixed bag, but I think this is a leap forward in personal agent UX in that it works inside of my WhatsApp. Here are 4 use cases I've worked on so far:\n\n1/ Saved me $80 / year on Netflix after I got an email about a bill higher than I expected\n\n2/ Told me it had ordered a pizza (it had not)\n\n3/ Found an email in spam I had been waiting for and moved it to my inbox\n\n4/ Reminded me to book a vet appointment I had forgotten about",
+    "author": "@chapello",
+    "author_name": "andrew chapello",
+    "date": "2026-08-21",
+    "url": "https://x.com/chapello/status/2090832022835167521",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "1c642ee2e525",
+    "agent": "instinct",
+    "quote": "Somebody invite me to http://instinct.co.\n\nNot sure what I could use it for that I don’t already use Grok Bot for but we’ll try it out.",
+    "author": "@Austen",
+    "author_name": "Austen Allred",
+    "date": "2026-08-21",
+    "url": "https://x.com/Austen/status/2090807555345809606",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "f64ae4e4dd2c",
+    "agent": "instinct",
+    "quote": "https://Instinct.co is giving me a chatGPT-like moment of amazement and wonder right now\n\neven though i'm just scratching the surface and only using it on personal stuff thus far, i'm finding it tremendously useful",
+    "author": "@calvinling626",
+    "author_name": "Calvin Ling",
+    "date": "2026-08-21",
+    "url": "https://x.com/calvinling626/status/2090645490983632988",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "647e0928321f",
+    "agent": "instinct",
+    "quote": "@lolfe12 https://instinct.co",
+    "author": "@paularambles",
+    "author_name": "“paula”",
+    "date": "2026-08-21",
+    "url": "https://x.com/paularambles/status/2090606186844594564",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "04303ec3347e",
+    "agent": "instinct",
+    "quote": "Been using https://Instinct.co for the last 2d. It's quite remarkable how the right UX can make a new technology feel great. It's all technically possible with Claude via Claude Chrome extension + Computer use, but...",
+    "author": "@cgallello",
+    "author_name": "Chris 良 Gallello",
+    "date": "2026-08-20",
+    "url": "https://x.com/cgallello/status/2090479572940939527",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "2fa262c31d72",
+    "agent": "instinct",
+    "quote": "@petergyang There is, I dunno why they aren't linking it, probably for mystery and FOMO\n\nhttps://instinct.co/",
+    "author": "@iannuttall",
+    "author_name": "Ian Nuttall",
+    "date": "2026-08-20",
+    "url": "https://x.com/iannuttall/status/2090465337674195428",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "d7e3cfb09845",
+    "agent": "instinct",
+    "quote": "@petergyang Agree the VC vagueposting is annoying\n\nHere's the website, you can sign up for the waitlist on there (or have someone with access invite you)\n\nBasically an out-of-the-box personal assistant like Hermes (but w/less config), Poke, Orchid, Grok Bot, etc.\n\nhttps://instinct.co/",
+    "author": "@thisiszinger",
+    "author_name": "Zinger",
+    "date": "2026-08-20",
+    "url": "https://x.com/thisiszinger/status/2090463996461683129",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "55060994b19e",
+    "agent": "instinct",
+    "quote": "https://instinct.co is mogging my all time favorite @interaction sadly",
+    "author": "@denizdoingstuff",
+    "author_name": "deniz",
+    "date": "2026-08-19",
+    "url": "https://x.com/denizdoingstuff/status/2090213857025233406",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "ca9c0be49fb6",
+    "agent": "instinct",
+    "quote": "https://instinct.co is brilliant product, would be awesome (had same\nIssue with Poke) to pay for non-AI human actors to place phone calls when they don’t have Resy / Opentable. Especially true when traveling to EU https://t.co/IB2lljP7dn",
+    "author": "@anradu",
+    "author_name": "Adrian Nicholas Radu",
+    "date": "2026-08-18",
+    "url": "https://x.com/anradu/status/2089691037702701224",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "11df75183bd8",
+    "agent": "instinct",
+    "quote": "the \"this is cool, but you can't have it\" strategy to early app growth is undefeated.\n\nevery post mentioning https://instinct.co has the thirstiest of replies in it.",
+    "author": "@thattallguy",
+    "author_name": "Jess 🌱",
+    "date": "2026-08-17",
+    "url": "https://x.com/thattallguy/status/2089404464788808096",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "462b7bf9f0e8",
+    "agent": "instinct",
+    "quote": "Been testing https://Instinct.co and it’s still the same issue that I had with Poke, I just don’t want to hand over my entire inbox (and life) to some company. And poke was way more conversational than Instict is, another nope for me on personal agents https://t.co/h6zkeoptb9",
+    "author": "@TR3x3r",
+    "author_name": "T-R3x3r",
+    "date": "2026-08-16",
+    "url": "https://x.com/TR3x3r/status/2089080833340547174",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "2c8cd0250a93",
+    "agent": "instinct",
+    "quote": "It’s been fascinating.\n\nBookings, rebookings, complicated travel planning, restaurant reservations, email follow ups, all out of the box, autonomous and done well and in a reassuring way (screenshots, etc).\n\nNot sure where this goes but https://Instinct.co has some legs. Have a few invites if you need.",
+    "author": "@srcasm",
+    "author_name": "Jesse Middleton",
+    "date": "2026-08-16",
+    "url": "https://x.com/srcasm/status/2089064811162202604",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "6b7ae77b26d8",
+    "agent": "instinct",
+    "quote": "@ElliotComite https://instinct.co/\n\nElevating since op prefers to gatekeep",
+    "author": "@cosmoscharf",
+    "author_name": "Cosmo Scharf",
+    "date": "2026-08-16",
+    "url": "https://x.com/cosmoscharf/status/2088869536330359035",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.351Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "ef95e4270788",
+    "agent": "instinct",
+    "quote": "@GrindingPoet @elamri @veH0rny @instinct_inc a single day where i don't see some prediction market related bullshit\n\nis that too much to ask for?",
+    "author": "@bright_125",
+    "author_name": "brightone (privacy arc)",
+    "date": "2026-03-22",
+    "url": "https://x.com/bright_125/status/2035715789626503612",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "d57df200c1c8",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc This should’ve been checked way before it got to this point - from someone who’s done this at scale for the last two years",
+    "author": "@johnnyprofound",
+    "author_name": "Johnny",
+    "date": "2026-03-22",
+    "url": "https://x.com/johnnyprofound/status/2035709658023731638",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "d2b0814ad0b6",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc hmu 📞",
+    "author": "@DiceyHQ",
+    "author_name": "Dicey.com",
+    "date": "2026-03-22",
+    "url": "https://x.com/DiceyHQ/status/2035670396997955678",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a970d6beddc4",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc so he used the system you provided, with all the rules and now you say: thanks for free work dude, but I personally dont like it so fuck your money",
+    "author": "@f3dscr0w",
+    "author_name": "_cr0w_",
+    "date": "2026-03-22",
+    "url": "https://x.com/f3dscr0w/status/2035649203880288290",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "4fa68738ad7e",
+    "agent": "instinct",
+    "quote": "we r hiring again @instinct_inc\n\nif you have a phone and can record short videos reply here\n\n$40-$2000/video base for ~1 hour of work\n\nserious replies only",
+    "author": "@instinct_inc",
+    "author_name": "instinct©",
+    "date": "2026-03-22",
+    "url": "https://x.com/instinct_inc/status/2035603721200308390",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "1eec6d8c7e9a",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc something is off.",
+    "author": "@aydaoz",
+    "author_name": "Ayda Oz",
+    "date": "2026-03-22",
+    "url": "https://x.com/aydaoz/status/2035601137470931198",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a0e22c29160c",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc you could have asked him to ask for approval before spamming, and calling someone \"mf\" as a ceo, shows what kind of company you are running(3rd class)",
+    "author": "@imHangyaku",
+    "author_name": "Maharshi",
+    "date": "2026-03-22",
+    "url": "https://x.com/imHangyaku/status/2035596059142160410",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "ae5c71bcbccc",
+    "agent": "instinct",
+    "quote": "@raj_raj88 @elamri @instinct_inc this make sense, there should be approval before posting content.",
+    "author": "@F2aldi",
+    "author_name": "λL-D1 | AI for Buzzer 🍉",
+    "date": "2026-03-22",
+    "url": "https://x.com/F2aldi/status/2035583440687681769",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "6ea225cc9a1e",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc can we see his banger video",
+    "author": "@shira_sats",
+    "author_name": "shira.sats",
+    "date": "2026-03-22",
+    "url": "https://x.com/shira_sats/status/2035576185627824232",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "e23386887815",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc So you run a bunch of accounts and force crap to go viral?\nSounds like you got paid what you deserve",
+    "author": "@djDriverless",
+    "author_name": "Beamish",
+    "date": "2026-03-22",
+    "url": "https://x.com/djDriverless/status/2035562194541203891",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "5b8cc0b23408",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc if you ever needed a reason to avoid @Kalshi, this is it.\n\nif you scam their own employees, imagine how they treat their costumers.",
+    "author": "@dre_btc",
+    "author_name": "dre.btc",
+    "date": "2026-03-22",
+    "url": "https://x.com/dre_btc/status/2035559503119241478",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "365133284073",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc 18 year olds with no background in running ugc agency what else would you expect",
+    "author": "@johnnyprofound",
+    "author_name": "Johnny",
+    "date": "2026-03-22",
+    "url": "https://x.com/johnnyprofound/status/2035557707730530542",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "01469c2e3baf",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc If you generated 200M views, Dupe pays its bills, and Dupe wants to hire you.",
+    "author": "@ghoshal",
+    "author_name": "Bobby from Dupe.com",
+    "date": "2026-03-22",
+    "url": "https://x.com/ghoshal/status/2035556142969958610",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "acb68acb3343",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc @elamri @mansourtarek_ Lmao ill take things that never happened.. bro thinks he gets 200m",
+    "author": "@Catoradeallday",
+    "author_name": "Small town 🇨🇦",
+    "date": "2026-03-22",
+    "url": "https://x.com/Catoradeallday/status/2035553471693242613",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "32806bdb71f8",
+    "agent": "instinct",
+    "quote": "@facelessfarms @___4o____ @Kalshi @cluely @instinct_inc assuming what you say is true, this is a pretty easy lawsuit.\n\ndepending on your state, even a verbal contract can be binding if they accepted and previously agreed upon the work.\n\nquit yapping and go get a suit",
+    "author": "@colemurray",
+    "author_name": "cole murray",
+    "date": "2026-03-22",
+    "url": "https://x.com/colemurray/status/2035550923792294160",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "fed06e9d75d5",
+    "agent": "instinct",
+    "quote": "@vvsmoe @elamri @mil000 @instinct_inc It's not a matter of \"make it clear\", it's like makes sense, how can someone make a clipping channel without talking about the company, e.g, no hooks relating to it whatsoever, then add a cta \"download blah blah\" , it's scammy behavior. If so I could spam slop",
+    "author": "@sqrtloss",
+    "author_name": "Sqrtloss",
+    "date": "2026-03-22",
+    "url": "https://x.com/sqrtloss/status/2035545404062728359",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "0785a33ccb10",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc \"oh no he followed my playbook and got views I'm not going to pay him anymore. game is game.\"",
+    "author": "@AryanSeth07",
+    "author_name": "Aryan Seth",
+    "date": "2026-03-22",
+    "url": "https://x.com/AryanSeth07/status/2035543521357348964",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.352Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "08c8e6a9e881",
+    "agent": "instinct",
+    "quote": "hate to ruin the party of fomo created by VCs but here you go: https://instinct.co\n\napp is here https://app.instinct.co/login?returnTo=/\n\nit is like poke",
+    "author": "@gm_mertd",
+    "author_name": "Mert Deveci",
+    "date": "2026-08-15",
+    "url": "https://x.com/gm_mertd/status/2088719319517499631",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.976Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "0730488aa7a8",
+    "agent": "instinct",
+    "quote": "@ElliotComite @saranormous https://instinct.co",
+    "author": "@arthurxiaocn",
+    "author_name": "Arthur Siu",
+    "date": "2026-08-15",
+    "url": "https://x.com/arthurxiaocn/status/2088606313102389617",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.976Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "69e36f816fbd",
+    "agent": "instinct",
+    "quote": "@ElliotComite https://instinct.co - I am guessing you're talking about this?",
+    "author": "@baanditeagle",
+    "author_name": "Abhishek Tiwari",
+    "date": "2026-08-14",
+    "url": "https://x.com/baanditeagle/status/2088405393315967270",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.976Z",
+    "notes": "query: \"instinct.co\" | via x402atlas"
+  },
+  {
+    "id": "204cf2b8cb58",
+    "agent": "instinct",
+    "quote": "@apoorvdarshan @untaxxme @facelessfarms @Kalshi @cluely @instinct_inc Hell yes",
+    "author": "@BigJonnyQuest",
+    "author_name": "Big Jonny Quest",
+    "date": "2026-03-22",
+    "url": "https://x.com/BigJonnyQuest/status/2035537339414376553",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "63dd63cd3f9d",
+    "agent": "instinct",
+    "quote": "@apoorvdarshan @untaxxme @facelessfarms @Kalshi @cluely @instinct_inc If only there were these experts with law that you could pay by the hour to figure this stuff out for you",
+    "author": "@BigJonnyQuest",
+    "author_name": "Big Jonny Quest",
+    "date": "2026-03-22",
+    "url": "https://x.com/BigJonnyQuest/status/2035537021821665443",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "636c7c83289b",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc performance based pay only works if someone actually enforces the standard\n\nmost programs fail because accountability disappears the moment volume scales up",
+    "author": "@ZeroCompWhop",
+    "author_name": "Ghost Gap Intelligence",
+    "date": "2026-03-22",
+    "url": "https://x.com/ZeroCompWhop/status/2035528566247666058",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "610eb7f1e80f",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc Marketing and branding are distinguishable, was he being paid for marketing or branding? Sounds like marketing",
+    "author": "@phillymike223",
+    "author_name": "Michael",
+    "date": "2026-03-22",
+    "url": "https://x.com/phillymike223/status/2035528428053799231",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "9588e87099b2",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc This",
+    "author": "@youfadedwealth",
+    "author_name": "Faded | Clipur.com",
+    "date": "2026-03-22",
+    "url": "https://x.com/youfadedwealth/status/2035525434213855276",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "4d5133449f3f",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc The quality of the content doesn't seem to have been agreed upon, so you can't judge it.",
+    "author": "@jssldev",
+    "author_name": "Jssl",
+    "date": "2026-03-22",
+    "url": "https://x.com/jssldev/status/2035522722265026850",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.977Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "033580e8897b",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc they owe me 800 buddy they are not paying shit",
+    "author": "@katexbt",
+    "author_name": "katexbt.hl",
+    "date": "2026-03-22",
+    "url": "https://x.com/katexbt/status/2035519825012011505",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "5c96b1869354",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc how does he run 200 accounts, does he own a clipping discord or sm?",
+    "author": "@sanjaygpts",
+    "author_name": "Sanjay",
+    "date": "2026-03-22",
+    "url": "https://x.com/sanjaygpts/status/2035514678148055240",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "d75131df99e1",
+    "agent": "instinct",
+    "quote": "@___4o____ @elamri @instinct_inc I like how there was no mention of the “later direction” part which is a completely separate issue than the bad content. If I made good content could I still get blindsided by directional changes?",
+    "author": "@surajgajula",
+    "author_name": "Suraj Gajula",
+    "date": "2026-03-22",
+    "url": "https://x.com/surajgajula/status/2035513475884323183",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "03417665b60a",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc “This mf” has better communication skills than you so people will side with him.",
+    "author": "@___4o____",
+    "author_name": "SPEC",
+    "date": "2026-03-22",
+    "url": "https://x.com/___4o____/status/2035510090648990177",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "97ecd628f297",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc thats what you get for promoting kalshi, you deserve it scumbag",
+    "author": "@CSP_Trading",
+    "author_name": "CSPTrading.eth",
+    "date": "2026-03-22",
+    "url": "https://x.com/CSP_Trading/status/2035508193338818838",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a182e0127431",
+    "agent": "instinct",
+    "quote": "@elamri @mil000 @instinct_inc Why not make it clear before he does so much work?",
+    "author": "@vvsmoe",
+    "author_name": "Moe",
+    "date": "2026-03-21",
+    "url": "https://x.com/vvsmoe/status/2035506639567008242",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "86d2f1674232",
+    "agent": "instinct",
+    "quote": "@elamri @instinct_inc How do you even run into this issue with UGC, isn’t it often like pay per impressions or smtn similar like pay per results?",
+    "author": "@elijahmuraoka_",
+    "author_name": "- Elijah Muraoka -",
+    "date": "2026-03-21",
+    "url": "https://x.com/elijahmuraoka_/status/2035502069474263247",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "61d20bc4a87d",
+    "agent": "instinct",
+    "quote": "@untaxxme @facelessfarms @Kalshi @cluely @instinct_inc 2 diff countries btw",
+    "author": "@apoorvdarshan",
+    "author_name": "Apoorv Darshan",
+    "date": "2026-03-21",
+    "url": "https://x.com/apoorvdarshan/status/2035501168118636691",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a50fbecc9c91",
+    "agent": "instinct",
+    "quote": "@itspairaw @facelessfarms @Kalshi @cluely @instinct_inc 🫵😭",
+    "author": "@self_host",
+    "author_name": "selfhost. 🇹🇭 (ノಠ益ಠ)ノ",
+    "date": "2026-03-21",
+    "url": "https://x.com/self_host/status/2035496066741846145",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "a50bc15de674",
+    "agent": "instinct",
+    "quote": "@mcalics @facelessfarms @Kalshi @cluely @instinct_inc There are so many things wrong with this tweet it’s crazy",
+    "author": "@ConsumeGrowth",
+    "author_name": "ConsumeGrowth",
+    "date": "2026-03-21",
+    "url": "https://x.com/ConsumeGrowth/status/2035491563988537431",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:05.978Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "1a528ad4c256",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Always obviously cluely were scammy.. all hype bullshit product",
+    "author": "@TheChoueiry",
+    "author_name": "Dimitri El-Choueiry",
+    "date": "2026-03-21",
+    "url": "https://x.com/TheChoueiry/status/2035487352894738923",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "10b823d5ea74",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Anyone who says \"alright bet\" is immediately waving a massive red flag.",
+    "author": "@nexamorph",
+    "author_name": "nexamorph",
+    "date": "2026-03-21",
+    "url": "https://x.com/nexamorph/status/2035486653905527290",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "b56a08c35e4a",
+    "agent": "instinct",
+    "quote": "@Kalshi @cluely @instinct_inc @elamri @instinct_inc @Kalshi @mansourtarek_",
+    "author": "@facelessfarms",
+    "author_name": "Aasir",
+    "date": "2026-03-21",
+    "url": "https://x.com/facelessfarms/status/2035485989154562549",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "1522fc0d916c",
+    "agent": "instinct",
+    "quote": "Bro just remember that you are dealing with 18 yr old kids who provide self guided tours. At least this is what their address show @instinct_inc and I really doubt Kalshi is actually their client.\n\nAll their creators are generating “organic” views with 600 followers.\n\nIf Kalshi is really a client, I would be very concerned with the due diligence being done by their marketing team.\n\nBut I really doubt anything these kids are doing is real.\n\nSupposedly @elamri was kicked out of school and made $1.2M in stealth with Methods in 7 days selling $39/month subscription. That’s approx 3400 clients in 7 days…does that seem like it’s even possible\n\nThese kids are literally playing with fire and the fact he’s 18 could pose serious legal problems\n\nHonestly, if we dig further into a lot of what’s happening on the web these days especially with AI and bots, we might discover a lot of what we are engaging with is smoke and mirrors\n\nBut hopefully their charade stops at you. And they won’t affect more creators",
+    "author": "@mcalics",
+    "author_name": "Marco",
+    "date": "2026-03-21",
+    "url": "https://x.com/mcalics/status/2035480855309951302",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "294c89c2da0f",
+    "agent": "instinct",
+    "quote": "@itspairaw @Kalshi @cluely @instinct_inc 😭",
+    "author": "@facelessfarms",
+    "author_name": "Aasir",
+    "date": "2026-03-21",
+    "url": "https://x.com/facelessfarms/status/2035474908453462205",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "f714c8c6b770",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc this is why you dont do business with funded koreans who live in SF",
+    "author": "@itspairaw",
+    "author_name": "Pairaw",
+    "date": "2026-03-21",
+    "url": "https://x.com/itspairaw/status/2035474797438652648",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "b2eecbcb5cb5",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc methods is just middleman, send demand letter to kalshi and if they will not pay, file against kalshi with proof from methods as middleman",
+    "author": "@chiefofautism",
+    "author_name": "chiefofautism",
+    "date": "2026-03-21",
+    "url": "https://x.com/chiefofautism/status/2035468484138746201",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "798ae58d396f",
+    "agent": "instinct",
+    "quote": "@iamfra5er @facelessfarms @Kalshi @cluely @instinct_inc he have through middleman, methods app",
+    "author": "@chiefofautism",
+    "author_name": "chiefofautism",
+    "date": "2026-03-21",
+    "url": "https://x.com/chiefofautism/status/2035468168974532665",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "7c34cfcf7791",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc send demand letter to kalshi",
+    "author": "@chiefofautism",
+    "author_name": "chiefofautism",
+    "date": "2026-03-21",
+    "url": "https://x.com/chiefofautism/status/2035468076913762497",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "d37295b7c8a8",
+    "agent": "instinct",
+    "quote": "@untaxxme @facelessfarms @Kalshi @cluely @instinct_inc You think contracts between people in different countries are enforceable? You think their written back and forth agreement ISN’T a contract? You should probably learn a thing or 2 before going around calling other people names",
+    "author": "@DanBMintin",
+    "author_name": "Dan B. Mintin 🏴🍃",
+    "date": "2026-03-21",
+    "url": "https://x.com/DanBMintin/status/2035464784104026393",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "8dcc4140287e",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc https://t.co/WvfTtkNShS",
+    "author": "@Kennur",
+    "author_name": "Kennur",
+    "date": "2026-03-21",
+    "url": "https://x.com/Kennur/status/2035463940050915725",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "309cef68d66e",
+    "agent": "instinct",
+    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc What a trash fucking way to market your product, we were gonna use your services - now we won’t",
+    "author": "@ananbatra",
+    "author_name": "Ananay Batra",
+    "date": "2026-03-21",
+    "url": "https://x.com/ananbatra/status/2035463264080167048",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "11b5d7db9fdd",
+    "agent": "instinct",
+    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Rofl\n\n@___4o____ take a look at this the whole thing is absolutely insane and this comment puts the cherry on top\n\n0 morals",
+    "author": "@1llegalEngineer",
+    "author_name": "Temu Oppenheimer formerly Mad Engineer",
+    "date": "2026-03-21",
+    "url": "https://x.com/1llegalEngineer/status/2035462739682906231",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "265d6b9d6f8b",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Fuck kalshi on god.\n\nPoly&gt;&gt;&gt;",
+    "author": "@Sufficient_Lev",
+    "author_name": "Sufficient Leverage",
+    "date": "2026-03-21",
+    "url": "https://x.com/Sufficient_Lev/status/2035453729650913439",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "29e145c57673",
+    "agent": "instinct",
+    "quote": "@0xRacerAlt @facelessfarms @Kalshi @cluely @instinct_inc Yeah that's the important context to be enraged about.",
+    "author": "@sheriffly",
+    "author_name": "Sheriff",
+    "date": "2026-03-21",
+    "url": "https://x.com/sheriffly/status/2035452449801289913",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "dba778f38f3a",
+    "agent": "instinct",
+    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc They wont pay you lol",
+    "author": "@elchuchii",
+    "author_name": "Chuchi",
+    "date": "2026-03-21",
+    "url": "https://x.com/elchuchii/status/2035452326111006727",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "9a2f71815adc",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc you can post whatever you want if you get me 5M views. Every day of the week.",
+    "author": "@anthdm",
+    "author_name": "Ant",
+    "date": "2026-03-21",
+    "url": "https://x.com/anthdm/status/2035452090806345865",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "3664917e0d40",
+    "agent": "instinct",
+    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Very scummy behavior. You need to stand up for your peers, who knows you'll be in similar position someday.",
+    "author": "@sheriffly",
+    "author_name": "Sheriff",
+    "date": "2026-03-21",
+    "url": "https://x.com/sheriffly/status/2035452019167887674",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "e18668c9bfac",
+    "agent": "instinct",
+    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc the next step after you aren't paid by a vendor is getting a lawyer, this X post isn't helping your case",
+    "author": "@nicolasrowe",
+    "author_name": "Nicolas Rowe 🇺🇳🇺🇸🇪🇨🇬🇧",
+    "date": "2026-03-21",
+    "url": "https://x.com/nicolasrowe/status/2035451991980155341",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
+  },
+  {
+    "id": "b588c470ee7e",
+    "agent": "instinct",
+    "quote": "@_agarner @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Game is game bruh. I refuse to believe this guy has no fault in this situation.",
+    "author": "@jonahbuilds",
+    "author_name": "Jonah",
+    "date": "2026-03-21",
+    "url": "https://x.com/jonahbuilds/status/2035451808366154012",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.550Z",
+    "notes": "query: @instinct_inc | via x402atlas"
   }
 ]

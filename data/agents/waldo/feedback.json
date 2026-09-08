@@ -56,7 +56,7 @@
   {
     "id": "41c0b4e90c22",
     "agent": "waldo",
-    "quote": "Personal AI shouldn\u2019t just know us better. It should represent us.\nCarry context across work + life, coordinate the agents and tools we already use, and keep responsibility for outcomes instead of becoming another thing we have to manage.\nBeen building around this.",
+    "quote": "Personal AI shouldn’t just know us better. It should represent us.\nCarry context across work + life, coordinate the agents and tools we already use, and keep responsibility for outcomes instead of becoming another thing we have to manage.\nBeen building around this.",
     "author": "@shivanshfulper",
     "author_name": "Shivansh Fulper",
     "date": "2026-09-01",
@@ -110,7 +110,7 @@
   {
     "id": "2ba00aec5b78",
     "agent": "waldo",
-    "quote": "The \u201cAction layer for the human day\u201d headline is memorable; I\u2019d pair it with one concrete first setup action above the fold so the alpha can test the simplicity promise immediately.",
+    "quote": "The “Action layer for the human day” headline is memorable; I’d pair it with one concrete first setup action above the fold so the alpha can test the simplicity promise immediately.",
     "author": "@MarcellCzako_37",
     "author_name": "Marcell",
     "date": "2026-09-05",
@@ -124,5 +124,81 @@
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
     "notes": "third-party UX: pair headline with concrete first setup action"
+  },
+  {
+    "id": "0c30ac781cef",
+    "agent": "waldo",
+    "quote": "@MarcellCzako_37 @NirantK @heyywaldo @heyywaldo noted...",
+    "author": "@shivanshfulper",
+    "author_name": "Shivansh Fulper",
+    "date": "2026-09-06",
+    "url": "https://x.com/shivanshfulper/status/2096434562675134521",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.307Z",
+    "notes": "query: @heyywaldo | via x402atlas"
+  },
+  {
+    "id": "3c07b967d84c",
+    "agent": "waldo",
+    "quote": "@shivanshfulper @heyywaldo yeah, DM when you're live!\n\nps, add a visible above the fold CTA here bhai",
+    "author": "@NirantK",
+    "author_name": "Nirant",
+    "date": "2026-09-05",
+    "url": "https://x.com/NirantK/status/2096261209087774885",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.307Z",
+    "notes": "query: @heyywaldo | via x402atlas"
+  },
+  {
+    "id": "d7d4633b924f",
+    "agent": "waldo",
+    "quote": "@shivanshfulper @heyywaldo this is the right way to do it. the first users should almost feel like co-builders.",
+    "author": "@sridharfyi",
+    "author_name": "Sridhar A",
+    "date": "2026-09-05",
+    "url": "https://x.com/sridharfyi/status/2096231722832822688",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.307Z",
+    "notes": "query: @heyywaldo | via x402atlas"
+  },
+  {
+    "id": "074474c1ad72",
+    "agent": "waldo",
+    "quote": "@DavidPawlan Have sub threads for your chats... We have that on @heyywaldo app or imo you can use discord if no slack.",
+    "author": "@shivanshfulper",
+    "author_name": "Shivansh Fulper",
+    "date": "2026-09-02",
+    "url": "https://x.com/shivanshfulper/status/2095210171597537432",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.307Z",
+    "notes": "query: @heyywaldo | via x402atlas"
   }
 ]

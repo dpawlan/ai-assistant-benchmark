@@ -22,7 +22,7 @@
     "agent": "buoy",
     "quote": "give \nhttp://\nbuoy.chat a try! it has a cloud browser made for remote sign in, and runs even while your phone is turned off",
     "author": "@riccqi",
-    "author_name": "Richard Qi \ud83d\udc1f",
+    "author_name": "Richard Qi 🐟",
     "date": "2026-07-31",
     "url": "https://x.com/riccqi/status/2082993819377930666",
     "kind": "other",
@@ -37,9 +37,9 @@
   {
     "id": "49384f415808",
     "agent": "buoy",
-    "quote": "Try \nhttps://\nbuoy.chat, it\u2019ll find work to do for you",
+    "quote": "Try \nhttps://\nbuoy.chat, it’ll find work to do for you",
     "author": "@riccqi",
-    "author_name": "Richard Qi \ud83d\udc1f",
+    "author_name": "Richard Qi 🐟",
     "date": "2026-08-27",
     "url": "https://x.com/riccqi/status/2093066284649136311",
     "kind": "other",
@@ -53,7 +53,7 @@
   {
     "id": "66f8aeeea4a6",
     "agent": "buoy",
-    "quote": "We\u2019re working on the best interface and agent harness for getting real work done on your phone\n\nhttp://\nbuoy.chat",
+    "quote": "We’re working on the best interface and agent harness for getting real work done on your phone\n\nhttp://\nbuoy.chat",
     "author": "@ronithhh",
     "author_name": "Ronith",
     "date": "2026-06-23",
@@ -72,7 +72,7 @@
     "agent": "buoy",
     "quote": "we've solved the browser login aspect of this with \nhttp://\nbuoy.chat, lmk if you want to give it a try!",
     "author": "@riccqi",
-    "author_name": "Richard Qi \ud83d\udc1f",
+    "author_name": "Richard Qi 🐟",
     "date": "2026-08-23",
     "url": "https://x.com/riccqi/status/2091584554704498759",
     "kind": "other",
@@ -90,7 +90,7 @@
     "agent": "buoy",
     "quote": "if your main usage is while on the go, id highly recommend checking out what we're building at \nhttps://\nbuoy.chat",
     "author": "@riccqi",
-    "author_name": "Richard Qi \ud83d\udc1f",
+    "author_name": "Richard Qi 🐟",
     "date": "2026-08-19",
     "url": "https://x.com/riccqi/status/2090186337051939317",
     "kind": "other",
@@ -143,7 +143,7 @@
     "agent": "buoy",
     "quote": "https://\nbuoy.chat will do it for you, 100%",
     "author": "@riccqi",
-    "author_name": "Richard Qi \ud83d\udc1f",
+    "author_name": "Richard Qi 🐟",
     "date": "2026-08-28",
     "url": "https://x.com/riccqi/status/2093137660374368419",
     "kind": "other",
@@ -175,7 +175,7 @@
   {
     "id": "139cefef4bfa",
     "agent": "buoy",
-    "quote": "Identity is not yet solved. Most approaches are risky without an overarching standard like OAuth but for Agent Delegation on Consumer accounts. Saw approaches like \nhttps://\nbuoy.chat \nhttps://\nx.com/ronithhh/statu\ns/2094574949826691219?s=20\n\u2026\nwhich is borderline grey. Nevertheless, direction is clear.",
+    "quote": "Identity is not yet solved. Most approaches are risky without an overarching standard like OAuth but for Agent Delegation on Consumer accounts. Saw approaches like \nhttps://\nbuoy.chat \nhttps://\nx.com/ronithhh/statu\ns/2094574949826691219?s=20\n…\nwhich is borderline grey. Nevertheless, direction is clear.",
     "author": "@SandeepInjarapu",
     "author_name": "Sandeep Injarapu",
     "date": "2026-09-01",
@@ -193,7 +193,7 @@
   {
     "id": "937efc9cc1a4",
     "agent": "buoy",
-    "quote": "For example, I literally only gave it the link to my x account. From there Buoy searched X, found my linked GitHub page (which currently 404s as I privated it), and even decided to look at my HuggingFace profile somehow. I\u2019ve never seen an AI agent so willing to be proactive.",
+    "quote": "For example, I literally only gave it the link to my x account. From there Buoy searched X, found my linked GitHub page (which currently 404s as I privated it), and even decided to look at my HuggingFace profile somehow. I’ve never seen an AI agent so willing to be proactive.",
     "author": "@Dexifried",
     "author_name": "Austin",
     "date": "2026-09-02",
@@ -211,7 +211,7 @@
   {
     "id": "268f257d8919",
     "agent": "buoy",
-    "quote": "Which is why you think this is irrelevant. WKWebView does not automatically support passkeys, unless it has Apple\u2019s web browser entitlement, which isn\u2019t granted for in-app browsers.\n\nBuoy should consider itself an agent-enabled web browser!",
+    "quote": "Which is why you think this is irrelevant. WKWebView does not automatically support passkeys, unless it has Apple’s web browser entitlement, which isn’t granted for in-app browsers.\n\nBuoy should consider itself an agent-enabled web browser!",
     "author": "@andrewe",
     "author_name": "Andrew Escobar",
     "date": "2026-09-03",
@@ -242,5 +242,65 @@
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
     "notes": "Buoy founder on passwordless agent sign-in."
+  },
+  {
+    "id": "de7feb312b0b",
+    "agent": "buoy",
+    "quote": "You can request access here: http://buoy.chat",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-07-16",
+    "url": "https://x.com/ronithhh/status/2077841744386011292",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:15:57.444Z",
+    "notes": "query: \"buoy.chat\" | via x402atlas"
+  },
+  {
+    "id": "4a476aa132d7",
+    "agent": "buoy",
+    "quote": "@0xDesigner you can do this with http://buoy.chat !",
+    "author": "@ronithhh",
+    "author_name": "Ronith",
+    "date": "2026-06-24",
+    "url": "https://x.com/ronithhh/status/2069669684748992736",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:15:57.444Z",
+    "notes": "query: \"buoy.chat\" | via x402atlas"
+  },
+  {
+    "id": "81b60288e806",
+    "agent": "buoy",
+    "quote": "@UltraLinx try http://buoy.chat",
+    "author": "@riccqi",
+    "author_name": "Richard Qi 🐟",
+    "date": "2026-06-23",
+    "url": "https://x.com/riccqi/status/2069285761892163779",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:15:57.444Z",
+    "notes": "query: \"buoy.chat\" | via x402atlas"
   }
 ]

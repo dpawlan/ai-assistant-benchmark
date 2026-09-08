@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-07-23-428438",
+  "agent": "poke",
+  "category": "personality",
+  "protocol": "observed",
+  "date": "2026-07-23",
+  "signals": {
+    "turns": 24,
+    "my_messages": 10,
+    "agent_messages": 14,
+    "first_reply_s": 8,
+    "duration_min": 256,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.525Z"
+}

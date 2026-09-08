@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-05-95cd22",
+  "agent": "instinct",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-09-05",
+  "signals": {
+    "turns": 8,
+    "my_messages": 2,
+    "agent_messages": 6,
+    "first_reply_s": 132,
+    "duration_min": 134,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.532Z"
+}

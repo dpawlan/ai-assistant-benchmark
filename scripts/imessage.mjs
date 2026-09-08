@@ -63,7 +63,10 @@ async function main() {
     process.exit(1);
   }
   const cfg = JSON.parse(fs.readFileSync(path.join(DATA, 'sources.json'), 'utf-8'));
+  // data/sources.local.json (gitignored) can add agents or override imessage_handles, so personal numbers stay off the public repo.
+  const local = readJson(path.join(DATA, 'sources.local.json'), { agents: {} });
   sources = cfg.agents;
+  for (const [slug, extra] of Object.entries(local.agents ?? {})) sources[slug] = { ...(sources[slug] ?? {}), ...extra };
   redactTerms = cfg._redact_terms ?? [];
   slugs = opts.slug ? String(opts.slug).split(',') : Object.keys(sources);
   for (const s of slugs) if (!sources[s]) fail(`Unknown slug "${s}". Add it to data/sources.json.`);

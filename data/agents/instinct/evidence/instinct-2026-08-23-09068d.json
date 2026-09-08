@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-08-23-09068d",
+  "agent": "instinct",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-08-23",
+  "signals": {
+    "turns": 3,
+    "my_messages": 0,
+    "agent_messages": 3,
+    "first_reply_s": 3,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-08T16:03:06.406Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "poke-2025-09-15-84e624",
+  "agent": "poke",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2025-09-15",
+  "signals": {
+    "turns": 17,
+    "my_messages": 5,
+    "agent_messages": 12,
+    "first_reply_s": 41,
+    "duration_min": 4,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-08T16:03:06.399Z"
+}

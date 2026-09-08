@@ -1,0 +1,16 @@
+{
+  "source": "imessage",
+  "exported_at": "2026-09-08T15:37:39.147Z",
+  "analyzed_at": "2026-09-08T15:37:39.174Z",
+  "messages": 1035,
+  "from_me": 310,
+  "from_agent": 725,
+  "days_active": 23,
+  "first": "2026-08-17",
+  "last": "2026-09-08",
+  "median_reply_s": 20,
+  "p90_reply_s": 227,
+  "unanswered": 6,
+  "proactive_messages": 53,
+  "episodes": 76
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "instinct-2026-08-20-9bd137",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-20",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Priced flight shortlist for both date variants with a clear recommendation; needed a nudge to start.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-20-9bd137"
+  },
+  {
+    "id": "instinct-2026-08-21-71c48d",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-08-21",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Booking stalled one click from purchase: saved card came through incomplete and the credit math changed twice; I finished it myself. Cart and pricing were left in a usable state.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-21-71c48d"
+  },
+  {
+    "id": "instinct-2026-08-23-09068d",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-08-23",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Flagged a duplicate rental booking and a possible double charge while I was still at the counter, offered to cancel the extra one.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-23-09068d"
+  },
+  {
+    "id": "instinct-2026-08-27-f7c376",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-08-27",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Answered a question about a past booking by cross-referencing two emails; also reported a completed return unprompted.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-27-f7c376"
+  },
+  {
+    "id": "instinct-2026-08-28-3125ac",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-28",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Shared-availability answer was correct and detailed with a later correction, but 53 minutes of silence, four chasers, duplicated replies and an email fallback.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-28-3125ac"
+  },
+  {
+    "id": "instinct-2026-08-29-0241fd",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-08-29",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Sent the requested email, tracked the back-and-forth for hours and reported the final confirmed outcome accurately.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-29-0241fd"
+  },
+  {
+    "id": "instinct-2026-08-29-58edb0",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-08-29",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Checked in the moment the window opened as promised, delivered the boarding pass with seat and PreCheck, flagged a passport expiry.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-08-29-58edb0"
+  },
+  {
+    "id": "instinct-2026-09-01-e9e290",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Recalled an earlier email on the same issue, drafted one combined message in my voice, asked before sending, sent from the right account.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-e9e290"
+  },
+  {
+    "id": "instinct-2026-09-01-2313cd",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Connected a payment integration in one tap and explained the approval model.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-2313cd"
+  },
+  {
+    "id": "instinct-2026-09-01-591d64",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-01",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Order under a stated price cap: itemized total, approval before charge, confirmation returned, transparent about how it signed in.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-591d64"
+  },
+  {
+    "id": "instinct-2026-09-05-95cd22",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-09-05",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Three options within the stated walking constraint with live availability, times, why each fits, a full one excluded, and a pick.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-05-95cd22"
+  },
+  {
+    "id": "instinct-2026-09-05-6539e7",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-05",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Could not fix a booking detail online without risking the check-in; explained why and gave the in-person fallback.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-05-6539e7"
+  },
+  {
+    "id": "instinct-2026-09-05-ac6ca8",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-05",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Booked an appointment at the nearest slot to the requested time, asked for the one missing detail, returned confirmation and added it to the calendar.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-05-ac6ca8"
+  },
+  {
+    "id": "instinct-2026-09-06-bd0984",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-06",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Checked in unprompted when the window opened, explained why no digital pass was available on that fare, flagged a passport expiry.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-09-06-bd0984"
+  }
+]

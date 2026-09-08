@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-01-591d64",
+  "agent": "instinct",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-09-01",
+  "signals": {
+    "turns": 13,
+    "my_messages": 5,
+    "agent_messages": 8,
+    "first_reply_s": 514,
+    "duration_min": 17,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.532Z"
+}

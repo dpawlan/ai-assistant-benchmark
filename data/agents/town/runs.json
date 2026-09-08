@@ -1,0 +1,72 @@
+[
+  {
+    "id": "town-2026-04-28-af423e",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-04-28",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Asked for a timed reminder; no reply at all.",
+    "evidence_url": "/agents/town/evidence/town-2026-04-28-af423e"
+  },
+  {
+    "id": "town-2026-04-29-bc78cf",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-04-29",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Reminder acknowledged promptly; no evidence in the thread that it fired.",
+    "evidence_url": "/agents/town/evidence/town-2026-04-29-bc78cf"
+  },
+  {
+    "id": "town-2026-04-30-261de9",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-04-30",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Sent \"draft ready, say send it\" meta-messages instead of the routine itself.",
+    "evidence_url": "/agents/town/evidence/town-2026-04-30-261de9"
+  },
+  {
+    "id": "town-2026-05-04-371342",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-05-04",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Routine content was substantive but arrived wrapped in leaked internal planning text.",
+    "evidence_url": "/agents/town/evidence/town-2026-05-04-371342"
+  },
+  {
+    "id": "town-2026-05-07-aee6c2",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-05-07",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Sent the routine twice, leaked its internal monologue, then posted a raw process error message.",
+    "evidence_url": "/agents/town/evidence/town-2026-05-07-aee6c2"
+  },
+  {
+    "id": "town-2026-05-27-ac70ab",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-05-27",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Routine failed because connected accounts were not authorized; told me to configure the integration myself.",
+    "evidence_url": "/agents/town/evidence/town-2026-05-27-ac70ab"
+  },
+  {
+    "id": "town-2026-06-02-bfd83e",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-06-02",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Same connection failure a week later; told me to add an integration to its config myself.",
+    "evidence_url": "/agents/town/evidence/town-2026-06-02-bfd83e"
+  }
+]

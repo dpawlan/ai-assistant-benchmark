@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-06-05-40571c",
+  "agent": "poke",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-06-05",
+  "signals": {
+    "turns": 16,
+    "my_messages": 8,
+    "agent_messages": 8,
+    "first_reply_s": 458,
+    "duration_min": 41,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.525Z"
+}

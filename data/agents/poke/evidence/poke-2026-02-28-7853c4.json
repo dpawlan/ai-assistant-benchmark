@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-02-28-7853c4",
+  "agent": "poke",
+  "category": "memory",
+  "protocol": "observed",
+  "date": "2026-02-28",
+  "signals": {
+    "turns": 5,
+    "my_messages": 1,
+    "agent_messages": 4,
+    "first_reply_s": 1,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-08T15:42:55.524Z"
+}

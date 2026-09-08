@@ -1,0 +1,19 @@
+{
+  "id": "town-2026-04-29-bc78cf",
+  "agent": "town",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-04-29",
+  "signals": {
+    "turns": 2,
+    "my_messages": 1,
+    "agent_messages": 1,
+    "first_reply_s": 16,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.530Z"
+}

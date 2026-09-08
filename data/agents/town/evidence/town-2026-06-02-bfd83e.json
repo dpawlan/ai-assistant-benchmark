@@ -1,0 +1,19 @@
+{
+  "id": "town-2026-06-02-bfd83e",
+  "agent": "town",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-06-02",
+  "signals": {
+    "turns": 2,
+    "my_messages": 0,
+    "agent_messages": 2,
+    "first_reply_s": 131,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-08T15:42:55.530Z"
+}

@@ -17,3 +17,9 @@ Site: https://catchagent.ai/
 - [praise] @amitkurz: Have tried a few ai admins over the past year, the experience with  @catchagent  the last few days has been other level 🤯  @therealnirs  is building one amazing
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-07) @shemag8: Agree, best I've used so far.
+- (2026-09-07) @earlysignalsvc: He interviewed more than 100 executive assistants while working as a VC, then quit to build one.  Catch (@catchagent) left stealth with an a

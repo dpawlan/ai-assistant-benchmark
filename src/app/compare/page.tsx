@@ -7,7 +7,7 @@ import { getAgents, getCategories } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'Head to head',
-  description: 'Pit two assistants against each other on the same 14 tests, see who takes each dimension, and share the scorecard.',
+  description: 'Pit two assistants against each other on the same 15 tests, see who takes each dimension, and share the scorecard.',
 };
 
 export default function CompareIndex() {

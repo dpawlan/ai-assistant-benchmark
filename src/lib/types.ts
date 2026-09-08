@@ -45,6 +45,8 @@ export interface Task {
   prompt: string;
   pass: string[];
   anchors: Record<string, string>;
+  /** Things a reader should know before comparing scores on this test. */
+  notes?: string[];
 }
 
 export interface TaskSet {

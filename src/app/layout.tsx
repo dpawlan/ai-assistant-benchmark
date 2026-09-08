@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: '%s | Assistant Benchmark',
   },
   description:
-    'A public scorecard for AI assistants you can text. Every assistant scored on the same 14 dimensions, backed by real public quotes.',
+    'A public scorecard for AI assistants you can text. Every assistant scored on the same 15 dimensions, backed by real public quotes.',
   openGraph: {
     title: 'Assistant Benchmark',
     description: 'Which assistant is actually worth texting? One rubric, real quotes, no sponsored rankings.',

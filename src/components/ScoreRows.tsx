@@ -13,7 +13,7 @@ interface ScoreRowsProps {
 
 const OUTCOME: Record<string, string> = { pass: 'Pass', partial: 'Partial', fail: 'Fail', 'n/a': 'N/A' };
 
-/** The 14 category rows. Scored rows show the run behind the number; rows with quotes link to them. */
+/** The 15 category rows. Scored rows show the run behind the number; rows with quotes link to them. */
 export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreRowsProps) {
   return (
     <div>

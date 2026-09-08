@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
-import { CompareRow, Comparison, OUTCOME_LABEL, cardPath, comparePath, shortDate, verdict } from '@/lib/compare-shared';
+import { CompareRow, Comparison, OUTCOME_LABEL, cardImagePath, cardPath, comparePath, shortDate, verdict } from '@/lib/compare-shared';
 import { Run } from '@/lib/types';
 
 interface ScorecardProps {
@@ -51,6 +51,8 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   const { a, b, rows } = comparison;
   const [focus, setFocus] = useState<string[]>(initialFocus);
   const [copied, setCopied] = useState(false);
+  const [note, setNote] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
 
   const ordered = (keys: string[]) => rows.map(r => r.key).filter(k => keys.includes(k));
 
@@ -70,6 +72,11 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   const postOnX = () => {
     const intent = `https://x.com/intent/post?${new URLSearchParams({ text: shareText, url: url() }).toString()}`;
     window.open(intent, '_blank', 'noopener,noreferrer');
+  };
+
+  const flash = (text: string) => {
+    setNote(text);
+    setTimeout(() => setNote(null), 3500);
   };
 
   const copy = async () => {
@@ -92,6 +99,57 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
       }
     }
     copy();
+  };
+
+  const imagePath = cardImagePath(a.slug, b.slug, focus);
+  const imageUrl = () => window.location.origin + imagePath;
+  const fileName = `${a.slug}-vs-${b.slug}${focus.length ? '-' + focus.join('-') : ''}.png`;
+
+  const fetchCard = async () => {
+    const res = await fetch(cardPath(a.slug, b.slug, focus));
+    if (!res.ok) throw new Error(`card ${res.status}`);
+    return res.blob();
+  };
+
+  /** Hand the PNG itself to the share sheet (phones), else copy the image (desktop), else download it. */
+  const shareCard = async () => {
+    setBusy(true);
+    try {
+      const blob = await fetchCard();
+      const file = new File([blob], fileName, { type: 'image/png' });
+      if (typeof navigator.share === 'function' && navigator.canShare?.({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: v.headline, text: `${shareText} ${url()}` });
+          return;
+        } catch {
+          return; /* cancelled */
+        }
+      }
+      if (typeof ClipboardItem !== 'undefined' && navigator.clipboard?.write) {
+        try {
+          await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+          flash('Card copied as an image. Paste it anywhere.');
+          return;
+        } catch {
+          /* clipboard blocked: fall through */
+        }
+      }
+      window.location.href = cardPath(a.slug, b.slug, focus, true);
+      flash('Downloading the card.');
+    } catch {
+      flash('Could not load the card. Try the download link.');
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const copyImageLink = async () => {
+    try {
+      await navigator.clipboard.writeText(imageUrl());
+      flash('Image link copied.');
+    } catch {
+      window.prompt('Copy this image link', imageUrl());
+    }
   };
 
   const winner = v.tally.a === v.tally.b ? null : v.tally.a > v.tally.b ? 'a' : 'b';
@@ -139,27 +197,46 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
       </header>
 
       <div className="hh-tools">
-        <button type="button" className="btn primary" onClick={share}>
-          {copied ? 'Link copied' : 'Share'}
-        </button>
-        <button type="button" className="btn ghost" onClick={copy}>
-          Copy link
-        </button>
-        <button type="button" className="btn ghost" onClick={postOnX}>
-          Post on X
-        </button>
-        <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)}>
-          Download card
-        </a>
-        <Link className="btn ghost" href={comparePath(b.slug, a.slug, focus)}>
-          Swap sides
-        </Link>
-        {focus.length > 0 && (
-          <button type="button" className="hh-clear" onClick={() => update([])}>
-            Clear highlights
+        <div className="hh-tool-group">
+          <span className="hh-tool-label">Link</span>
+          <button type="button" className="btn primary" onClick={share}>
+            {copied ? 'Link copied' : 'Share'}
           </button>
-        )}
+          <button type="button" className="btn ghost" onClick={copy}>
+            Copy link
+          </button>
+          <button type="button" className="btn ghost" onClick={postOnX}>
+            Post on X
+          </button>
+        </div>
+        <div className="hh-tool-group">
+          <span className="hh-tool-label">Card</span>
+          <button type="button" className="btn primary" onClick={shareCard} disabled={busy}>
+            {busy ? 'Preparing…' : 'Share card'}
+          </button>
+          <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)} download={fileName}>
+            Download PNG
+          </a>
+          <button type="button" className="btn ghost" onClick={copyImageLink}>
+            Copy image link
+          </button>
+        </div>
+        <div className="hh-tool-group">
+          <Link className="btn ghost" href={comparePath(b.slug, a.slug, focus)}>
+            Swap sides
+          </Link>
+          {focus.length > 0 && (
+            <button type="button" className="hh-clear" onClick={() => update([])}>
+              Clear highlights
+            </button>
+          )}
+        </div>
       </div>
+      {note && (
+        <p className="hh-note-flash" role="status">
+          {note}
+        </p>
+      )}
 
       <p className="hh-hint">
         {focus.length
@@ -175,10 +252,15 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
 
       <section className="hh-card">
         <h2 className="ag-h2">Share card</h2>
-        <p className="ag-sub">This is the image that appears when the link is shared.</p>
-        {/* Rendered by /api/og/compare; a plain img so the preview always matches the real card. */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="hh-card-img" src={cardPath(a.slug, b.slug, focus)} width={1200} height={630} alt={`${v.headline}. ${v.detail}`} />
+        <p className="ag-sub">This is the image behind the link preview. Tap it to open full size, or press and hold to save on a phone.</p>
+        <a className="hh-card-link" href={imagePath} target="_blank" rel="noopener noreferrer">
+          {/* Rendered by /api/og/compare; a plain img so the preview always matches the real card. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img className="hh-card-img" src={cardPath(a.slug, b.slug, focus)} width={1200} height={630} alt={`${v.headline}. ${v.detail}`} />
+        </a>
+        <p className="hh-card-url">
+          <code>{imagePath}</code>
+        </p>
       </section>
     </div>
   );

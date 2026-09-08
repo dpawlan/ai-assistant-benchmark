@@ -86,7 +86,7 @@ export function verdict(c: Comparison, focus: string[] = []): { headline: string
   if (t.compared === 0) {
     return {
       headline: `${c.a.name} vs ${c.b.name}`,
-      detail: focus.length ? `Neither has been tested on the highlighted ${noun(focus.length)} yet.` : 'Not tested head to head yet.',
+      detail: focus.length ? `Not tested on the highlighted ${noun(focus.length)} yet.` : 'Not tested head to head yet.',
       tally: t,
     };
   }
@@ -107,6 +107,11 @@ export function focusSegment(focus: string[]): string {
 export function comparePath(a: string, b: string, focus: string[] = []): string {
   const base = `/compare/${pairSlug(a, b)}`;
   return focus.length ? `${base}/${focusSegment(focus)}` : base;
+}
+
+/** Pretty, pasteable image URL: /compare/a-vs-b[/focus]/card.png (rewritten to the API route in next.config). */
+export function cardImagePath(a: string, b: string, focus: string[] = []): string {
+  return `${comparePath(a, b, focus)}/card.png`;
 }
 
 export function cardPath(a: string, b: string, focus: string[] = [], download = false): string {

@@ -89,6 +89,16 @@ export default async function CategoryPage({ params }: Props) {
               </div>
             </div>
           </div>
+          {task.notes?.length ? (
+            <div className="task-notes">
+              <h3 className="group-title">Before you compare</h3>
+              <ul className="task-list">
+                {task.notes.map(n => (
+                  <li key={n}>{n}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
         </section>
       )}
 

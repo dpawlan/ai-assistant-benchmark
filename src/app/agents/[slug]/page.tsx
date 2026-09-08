@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
   if (!agent) return { title: 'Not found' };
   return {
     title: agent.name,
-    description: `${agent.name}: ${agent.tagline}. Scores across 14 dimensions and ${agent.feedbackCount} public quotes.`,
+    description: `${agent.name}: ${agent.tagline}. Scores across 15 dimensions and ${agent.feedbackCount} public quotes.`,
     openGraph: {
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,

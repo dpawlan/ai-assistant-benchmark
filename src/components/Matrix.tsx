@@ -172,27 +172,24 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <p className="matrix-key">
           <span className="sc op sc-5">
             <span className="op-v">90%</span>
-            <span className="op-n">12</span>
           </span>{' '}
           positive
           <span className="key-gap" />
           <span className="sc op sc-0">
             <span className="op-v">50%</span>
-            <span className="op-n">6</span>
           </span>{' '}
           split
           <span className="key-gap" />
           <span className="sc op sc-n2">
             <span className="op-v">20%</span>
-            <span className="op-n">5</span>
           </span>{' '}
           negative
           <span className="key-gap" />
-          <span className="sc op sc-thin">
-            <span className="op-v">2</span>
-            <span className="op-n">quotes</span>
+          <span className="sc op sc-5 thin">
+            <span className="op-v">100%</span>
+            <span className="op-n">thin</span>
           </span>{' '}
-          too few
+          under 15 quotes
           <span className="key-gap" />
           <span className="sc sc-null">—</span> none
         </p>

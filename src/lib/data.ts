@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-export { scoreBucket, opinionRank, OPINION_PRIOR } from './score';
+export { scoreBucket, opinionRank } from './score';
 import { opinionRank } from './score';
 import {
   Agent,
@@ -141,8 +141,10 @@ export function getOpinion(slug: string): OpinionFile | null {
   return readJson<OpinionFile>(path.join(agentDir(slug), 'opinion.json'));
 }
 
+/** Posts that aren't independent opinion: the company, its staff, paid or coordinated launch promotion, affiliates. */
 export function isFounderPost(quote: Feedback): boolean {
-  return (quote.tags ?? []).includes('founder');
+  const tags = quote.tags ?? [];
+  return tags.includes('founder') || tags.includes('vendor') || tags.includes('promo');
 }
 
 /**

@@ -37,7 +37,7 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
   return [...list].sort(
     (a, b) =>
       value(b, key) - value(a, key) ||
-      (view === 'opinion' ? (b.opinion[key]?.n ?? 0) - (a.opinion[key]?.n ?? 0) : 0) ||
+      (view === 'opinion' ? (key === 'core' ? b.opinionOverall.n - a.opinionOverall.n : (b.opinion[key]?.n ?? 0) - (a.opinion[key]?.n ?? 0)) : 0) ||
       (b.core ?? -1) - (a.core ?? -1) ||
       b.feedbackCount - a.feedbackCount ||
       a.name.localeCompare(b.name),

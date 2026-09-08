@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-02-20-38d4fd",
+  "agent": "poke",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-02-20",
+  "signals": {
+    "turns": 6,
+    "my_messages": 1,
+    "agent_messages": 5,
+    "first_reply_s": 17,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.524Z"
+}

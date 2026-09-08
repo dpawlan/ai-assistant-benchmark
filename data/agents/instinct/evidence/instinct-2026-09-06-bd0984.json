@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-06-bd0984",
+  "agent": "instinct",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2026-09-06",
+  "signals": {
+    "turns": 8,
+    "my_messages": 2,
+    "agent_messages": 6,
+    "first_reply_s": 29,
+    "duration_min": 287,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:03:06.406Z"
+}

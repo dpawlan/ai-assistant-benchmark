@@ -44,3 +44,4 @@ next-env.d.ts
 data/agents/*/transcripts/
 data/agents/*/runs.draft.json
 !.env.example
+data/sources.local.json

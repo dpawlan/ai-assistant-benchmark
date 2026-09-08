@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-08-21-71c48d",
+  "agent": "instinct",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-08-21",
+  "signals": {
+    "turns": 16,
+    "my_messages": 4,
+    "agent_messages": 12,
+    "first_reply_s": 29,
+    "duration_min": 168,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.531Z"
+}

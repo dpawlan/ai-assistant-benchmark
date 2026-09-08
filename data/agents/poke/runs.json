@@ -1,0 +1,152 @@
+[
+  {
+    "id": "poke-2025-09-15-84e624",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2025-09-15",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Asked to accept a calendar invite; could not, and told me to do it in the calendar app myself.",
+    "evidence_url": "/agents/poke/evidence/poke-2025-09-15-84e624"
+  },
+  {
+    "id": "poke-2026-02-10-3fd950",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-02-10",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Daily weather routine delivered on schedule with a short practical suggestion.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-10-3fd950"
+  },
+  {
+    "id": "poke-2026-02-17-91e059",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-02-17",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Routine message claimed sent but never received; agent diagnosed a delivery issue and offered mitigations.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-17-91e059"
+  },
+  {
+    "id": "poke-2026-02-19-08a7b9",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-02-19",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Correctly recalled a recent item I had shared and its context; also actioned an inbound travel email unprompted.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-19-08a7b9"
+  },
+  {
+    "id": "poke-2026-02-20-38d4fd",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-02-20",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Pulled three months of connected health data and gave specific, evidence-backed recommendations.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-20-38d4fd"
+  },
+  {
+    "id": "poke-2026-02-28-7853c4",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-02-28",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Told it a schedule change once; it adjusted a daily routine for the stated period without being asked again.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-28-7853c4"
+  },
+  {
+    "id": "poke-2026-03-24-3aff96",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-03-24",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Missed an item from a group thread; found it only after being told.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-03-24-3aff96"
+  },
+  {
+    "id": "poke-2026-04-19-eb7cde",
+    "category": "chained_tasks",
+    "protocol": "observed",
+    "date": "2026-04-19",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Set a timed reminder, immediately checked two code repos with specific findings, reminder fired on time with the right items.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-04-19-eb7cde"
+  },
+  {
+    "id": "poke-2026-05-07-120c82",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-05-07",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Recalled a personal detail from an earlier conversation unprompted and completed the request.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-05-07-120c82"
+  },
+  {
+    "id": "poke-2026-05-27-79c170",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-05-27",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Read a connected notes app accurately, asked a good scoping question, synced an item into the right database.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-05-27-79c170"
+  },
+  {
+    "id": "poke-2026-06-04-cc15a5",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-06-04",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Claude-scored from transcript. Reported items synced into a database with links; a redo was needed the next day because links and details were missing.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-06-04-cc15a5"
+  },
+  {
+    "id": "poke-2026-06-05-40571c",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-06-05",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Claude-scored from transcript. Resync into a connected database created duplicates and dropped links, then crashed on cleanup and asked me to reconnect the integration myself.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-06-05-40571c"
+  },
+  {
+    "id": "poke-2026-06-08-66d29c",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-06-08",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Reminder set, rescheduled twice on request, fired on time. Interleaved with seven unsolicited digests in the same window.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-06-08-66d29c"
+  },
+  {
+    "id": "poke-2026-07-23-428438",
+    "category": "personality",
+    "protocol": "observed",
+    "date": "2026-07-23",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Long open-ended banter: matched my register, witty, no filler, answered a direct pricing question straight.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-07-23-428438"
+  },
+  {
+    "id": "poke-2026-08-28-9c186e",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-08-28",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Claude-scored from transcript. Created a calendar invite with the right title, attendees and video link, confirmed before saving. Started acting before instructions were given.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-08-28-9c186e"
+  }
+]

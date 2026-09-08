@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-08-28-3125ac",
+  "agent": "instinct",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-08-28",
+  "signals": {
+    "turns": 14,
+    "my_messages": 6,
+    "agent_messages": 8,
+    "first_reply_s": 3209,
+    "duration_min": 85,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.532Z"
+}

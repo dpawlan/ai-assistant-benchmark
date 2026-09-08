@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-05-27-79c170",
+  "agent": "poke",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-05-27",
+  "signals": {
+    "turns": 6,
+    "my_messages": 1,
+    "agent_messages": 5,
+    "first_reply_s": 8,
+    "duration_min": 32,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.525Z"
+}

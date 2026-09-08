@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-08-27-f7c376",
+  "agent": "instinct",
+  "category": "memory",
+  "protocol": "observed",
+  "date": "2026-08-27",
+  "signals": {
+    "turns": 4,
+    "my_messages": 1,
+    "agent_messages": 3,
+    "first_reply_s": 55,
+    "duration_min": 139,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.532Z"
+}

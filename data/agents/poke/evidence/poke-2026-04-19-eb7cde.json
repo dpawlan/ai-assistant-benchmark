@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-04-19-eb7cde",
+  "agent": "poke",
+  "category": "chained_tasks",
+  "protocol": "observed",
+  "date": "2026-04-19",
+  "signals": {
+    "turns": 9,
+    "my_messages": 1,
+    "agent_messages": 8,
+    "first_reply_s": 11,
+    "duration_min": 278,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.524Z"
+}

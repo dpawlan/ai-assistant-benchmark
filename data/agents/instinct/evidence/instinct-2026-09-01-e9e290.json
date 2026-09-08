@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-01-e9e290",
+  "agent": "instinct",
+  "category": "email_replies",
+  "protocol": "observed",
+  "date": "2026-09-01",
+  "signals": {
+    "turns": 9,
+    "my_messages": 2,
+    "agent_messages": 7,
+    "first_reply_s": 24,
+    "duration_min": 114,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.532Z"
+}

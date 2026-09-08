@@ -12,13 +12,13 @@ Every category has one published test (`data/tasks.json`: prompt, pass criteria,
 
 ### Current Data
 
-- **40 AI Assistants** (30 confirmed, 10 stretch)
+- **40 AI Assistants** in peer groups: general, travel, email, shopping, games, work & teams, infra & hardware (`kind` in `meta.json`)
 - **795 Feedback Items** from public discussions (X/Twitter, Reddit, etc.)
 - **14 Evaluation Categories** (7 core + 7 endorsed)
 
 ### Features
 
-- **Leaderboard** (`/`): ranked "Most discussed" list plus Confirmed and Stretch shelves; `/confirmed` and `/stretch` list everything
+- **Scorecard** (`/`): the 40 × 14 matrix with a Benchmark / Public opinion toggle and peer-group chips (`?kind=travel` etc.); General is the default view
 - **Agent profiles** (`/agents/<slug>`): identity block with logo and tagline, 14 score rows, public quotes filterable by kind, information column, related agents
 - **Categories** (`/categories`): the rubric, with anchors the sidebar links to, and how scoring works
 - **Request a test** (`/request`): form to suggest an assistant or send a correction

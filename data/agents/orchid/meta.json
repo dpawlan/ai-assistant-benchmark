@@ -9,5 +9,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "A personal assistant that lives in your messages",
-  "icon": "/logos/orchid.png"
+  "icon": "/logos/orchid.png",
+  "kind": "general"
 }

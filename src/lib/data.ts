@@ -294,7 +294,7 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     publicSignal: entry.public_signal,
     tagline: entry.tagline ?? '',
     icon: entry.icon ?? null,
-    focus: entry.focus ?? null,
+    kind: entry.kind ?? 'general',
     ...deriveScores(entry, meta, categories),
     ...deriveOpinion(entry.slug, categories),
     usage: getUsage(entry.slug),
@@ -375,11 +375,15 @@ export function getAgentDetail(slug: string): Agent | null {
   return { ...fromRoster(entry, getCategories()), meta, feedback, summary };
 }
 
-/** Other agents with the same status, best first. */
+/** Other agents in the same peer group, best first; general assistants fill in when the group is small. */
 export function getRelatedAgents(slug: string, limit = 6): Agent[] {
-  const self = getRoster().find(a => a.slug === slug);
+  const all = getAgents();
+  const self = all.find(a => a.slug === slug);
   if (!self) return [];
-  return rankAgents(getAgents().filter(a => a.status === self.status && a.slug !== slug)).slice(0, limit);
+  const peers = rankAgents(all.filter(a => a.kind === self.kind && a.slug !== slug));
+  if (peers.length >= limit) return peers.slice(0, limit);
+  const fill = rankAgents(all.filter(a => a.kind === 'general' && a.kind !== self.kind && a.slug !== slug));
+  return [...peers, ...fill].slice(0, limit);
 }
 
 /** Benchmark-wide coverage for the status strip. */

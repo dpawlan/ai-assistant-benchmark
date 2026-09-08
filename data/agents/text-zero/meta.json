@@ -19,5 +19,6 @@
   ],
   "public_signal": "low",
   "tagline": "24/7 concierge that runs your errands",
-  "icon": "/logos/text-zero.png"
+  "icon": "/logos/text-zero.png",
+  "kind": "infra"
 }

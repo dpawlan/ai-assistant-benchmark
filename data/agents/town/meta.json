@@ -9,5 +9,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "The assistant that learns how you work, then gets to work",
-  "icon": "/logos/town.png"
+  "icon": "/logos/town.png",
+  "kind": "general"
 }

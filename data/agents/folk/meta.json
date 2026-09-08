@@ -10,5 +10,6 @@
   "notes": "Personal AI in iMessage, Telegram, WhatsApp (Nozomio Labs). Suggested in categories thread; David asked for invite/details to add.",
   "public_signal": "medium",
   "tagline": "The friend in your texts",
-  "icon": "/logos/folk.png"
+  "icon": "/logos/folk.png",
+  "kind": "general"
 }

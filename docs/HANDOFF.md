@@ -32,6 +32,10 @@ Needs Full Disk Access for the terminal and Node 22.13+ (built-in SQLite). If `d
 - Whether to run `scripts/collect.mjs x` (needs his x.com cookies; against X's terms) and Reddit (needs a home IP or a free script app).
 - App Store ids and Product Hunt slugs in `data/sources.json` are mostly unfilled.
 
+## Peer groups
+
+Every agent has `kind` in `meta.json` and `index.json` (general | travel | email | shopping | games | work | infra; labels in `src/lib/kinds.ts`). The scorecard filters by it (chips, `?kind=`), General is the default, and rankings are within a group. `status` (confirmed/stretch) still exists in data and drives N/A pre-fill for stretch products, but it is no longer shown anywhere.
+
 ## Layout reminders
 
 Design system is imessage.store's: system font, seven color tokens, sidebar + hairline rows, one blue accent. Light only. All styling in `src/app/globals.css`. Scorecard matrix is `src/components/Matrix.tsx`; opinion math is in `src/lib/data.ts` (`deriveOpinion`) and `src/lib/score.ts`.

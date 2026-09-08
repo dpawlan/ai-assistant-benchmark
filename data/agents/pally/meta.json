@@ -8,5 +8,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "The AI personal assistant you text",
-  "icon": "/logos/pally.png"
+  "icon": "/logos/pally.png",
+  "kind": "general"
 }

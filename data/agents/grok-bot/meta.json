@@ -9,5 +9,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "xAI's Grok with real-time answers from the web and X",
-  "icon": "/logos/grok-bot.png"
+  "icon": "/logos/grok-bot.png",
+  "kind": "general"
 }

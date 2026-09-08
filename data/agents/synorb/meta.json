@@ -17,5 +17,6 @@
   ],
   "public_signal": "medium",
   "tagline": "Temporal context graph for AI agents",
-  "icon": "/logos/synorb.png"
+  "icon": "/logos/synorb.png",
+  "kind": "infra"
 }

@@ -9,5 +9,6 @@
   "notes": "Thin public X signal; keep in test roster.",
   "public_signal": "low",
   "tagline": "iOS assistant that runs web apps and scheduled tasks",
-  "icon": "/logos/buoy.png"
+  "icon": "/logos/buoy.png",
+  "kind": "general"
 }

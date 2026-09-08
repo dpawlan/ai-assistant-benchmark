@@ -2318,3 +2318,50 @@ a.cat-row:hover .cat-label {
   text-transform: uppercase;
   opacity: 0.85;
 }
+
+/* ---------- Peer-group chips above the scorecard ---------- */
+
+.kind-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0 14px;
+}
+
+.kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 980px;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.kind:hover {
+  background: var(--fill);
+}
+
+.kind.on {
+  background: var(--text);
+  border-color: var(--text);
+  color: #fff;
+}
+
+.kind-n {
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.55;
+}
+
+.kind.on .kind-n {
+  opacity: 0.7;
+}
+
+a.chip.blue:hover {
+  background: var(--blue-16);
+}

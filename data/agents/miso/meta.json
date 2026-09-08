@@ -11,5 +11,5 @@
   "public_signal": "high",
   "tagline": "Personal AI travel agent, over iMessage",
   "icon": "/logos/miso.png",
-  "focus": "travel"
+  "kind": "travel"
 }

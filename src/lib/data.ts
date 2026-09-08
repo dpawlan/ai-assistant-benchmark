@@ -64,7 +64,7 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 /** Column labels short enough for the matrix header. */
 export const CATEGORY_SHORT: Record<string, string> = {
   online_task: 'Online tasks',
-  recommendation_quality: 'Recommen\u00ADdations',
+  recommendation_quality: 'Picks',
   purchasing: 'Purchas\u00ADing',
   email_replies: 'Email',
   proactive_behavior: 'Proactive',

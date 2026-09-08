@@ -383,7 +383,8 @@
       "location",
       "imessage",
       "proactive",
-      "geofence"
+      "geofence",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-08T14:09:36.956502+00:00",
@@ -670,7 +671,9 @@
     "tags": [
       "travel",
       "proactive",
-      "check-in"
+      "check-in",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -687,7 +690,9 @@
     "kind": "use-case",
     "tags": [
       "media-retrieval",
-      "us-open"
+      "us-open",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -723,7 +728,8 @@
       "reddit",
       "voice",
       "imessage",
-      "latency"
+      "latency",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -882,7 +888,9 @@
       "travel",
       "flight-credit",
       "proactive",
-      "gap"
+      "gap",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -898,7 +906,9 @@
     "url": "https://x.com/DavidPawlan/status/2095166060810948809",
     "kind": "praise",
     "tags": [
-      "travel"
+      "travel",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -934,7 +944,8 @@
       "reddit",
       "capacity",
       "latency",
-      "growth"
+      "growth",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -968,7 +979,8 @@
     "tags": [
       "latency",
       "capacity",
-      "scale"
+      "scale",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-08T14:09:36.956502+00:00",
@@ -1022,7 +1034,9 @@
       "travel",
       "amazon",
       "drops",
-      "checkout"
+      "checkout",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -1115,7 +1129,8 @@
       "reddit",
       "travel",
       "orders",
-      "payments"
+      "payments",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1271,7 +1286,9 @@
     "url": "https://x.com/DavidPawlan/status/2093726017701457953",
     "kind": "comparison",
     "tags": [
-      "vs-poke"
+      "vs-poke",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -1288,7 +1305,8 @@
     "kind": "use-case",
     "tags": [
       "reddit",
-      "job-hunting"
+      "job-hunting",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1304,7 +1322,9 @@
     "url": "https://x.com/DavidPawlan/status/2093399388387250329",
     "kind": "bug",
     "tags": [
-      "reliability"
+      "reliability",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -1381,7 +1401,8 @@
     "tags": [
       "reddit",
       "funding",
-      "wsj"
+      "wsj",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1399,7 +1420,8 @@
     "tags": [
       "reddit",
       "invite",
-      "access"
+      "access",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1436,7 +1458,8 @@
       "reddit",
       "flights",
       "claims",
-      "proactive"
+      "proactive",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1474,7 +1497,8 @@
       "calendar",
       "booking",
       "oil-change",
-      "proactive"
+      "proactive",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -1707,7 +1731,8 @@
       "imessage",
       "calendar",
       "inbox",
-      "proactive"
+      "proactive",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -2585,258 +2610,6 @@
     "notes": "query: @instinct_inc | via x402atlas"
   },
   {
-    "id": "43a09fdfd70c",
-    "agent": "instinct",
-    "quote": "@instinct_inc Let’s connect for a potential collaboration. My DMs are open 📩",
-    "author": "@tripleK31",
-    "author_name": "Melissa Kang",
-    "date": "2026-08-27",
-    "url": "https://x.com/tripleK31/status/2092912738486108170",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "79b08009139a",
-    "agent": "instinct",
-    "quote": "@instinct_inc Hey! I see potential in your project. Let’s talk promotion? 🚀",
-    "author": "@RobinHood100X",
-    "author_name": "Robinhood Alpha",
-    "date": "2026-08-27",
-    "url": "https://x.com/RobinHood100X/status/2092830866519273711",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "7f1002aec67f",
-    "agent": "instinct",
-    "quote": "@instinct_inc Let’s talk⚡️dm us https://x.com/messages/compose?text=&recipient_id=1532784850067161088",
-    "author": "@GlobalCoinHub",
-    "author_name": "🌎 Coin Hub - Go Global 🌎",
-    "date": "2026-08-27",
-    "url": "https://x.com/GlobalCoinHub/status/2092816083380265381",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "d5f2305dcee6",
-    "agent": "instinct",
-    "quote": "@instinct_inc Hi let’s collab? Dm me or follow back?",
-    "author": "@AureliaNayza",
-    "author_name": "Mastero X Crypto",
-    "date": "2026-08-06",
-    "url": "https://x.com/AureliaNayza/status/2085475386910183471",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "72c24786f08d",
-    "agent": "instinct",
-    "quote": "@instinct_inc Let's Collab\nFollow Me Back 🔙\nDM me 👁️‍🗨️",
-    "author": "@KingNext100x",
-    "author_name": "Robinhood King 👑",
-    "date": "2026-08-06",
-    "url": "https://x.com/KingNext100x/status/2085426004705845735",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "ec3a803dfbae",
-    "agent": "instinct",
-    "quote": "@instinct_inc Let’s talk⚡️dm us",
-    "author": "@KingNext100x",
-    "author_name": "Robinhood King 👑",
-    "date": "2026-08-06",
-    "url": "https://x.com/KingNext100x/status/2085425997672001837",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "04c09d0b4d23",
-    "agent": "instinct",
-    "quote": "@instinct_inc would love to get a follow back?",
-    "author": "@KingNext100x",
-    "author_name": "Robinhood King 👑",
-    "date": "2026-08-06",
-    "url": "https://x.com/KingNext100x/status/2085425946824523881",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "8b452f70ce85",
-    "agent": "instinct",
-    "quote": "@instinct_inc Great momentum! Feel free to message me 🚀",
-    "author": "@MrDariBoss",
-    "author_name": "Mr Dari ₿",
-    "date": "2026-08-06",
-    "url": "https://x.com/MrDariBoss/status/2085396818171683055",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "9d3c5e2f3ee7",
-    "agent": "instinct",
-    "quote": "@instinct_inc Amazing project! Looking forward to networking and working together 🤝 Follow back 🔙",
-    "author": "@142C_",
-    "author_name": "Diana Crypto",
-    "date": "2026-08-06",
-    "url": "https://x.com/142C_/status/2085395941167939792",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "787a1964966b",
-    "agent": "instinct",
-    "quote": "@instinct_inc can I get a follow back?",
-    "author": "@realmarc9",
-    "author_name": "Bryson Crypto",
-    "date": "2026-08-06",
-    "url": "https://x.com/realmarc9/status/2085391494454899079",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "5cee8c8114cb",
-    "agent": "instinct",
-    "quote": "@instinct_inc Follow back and let’s push this to the moon 🚀🌙",
-    "author": "@CryptoKing_2020",
-    "author_name": "THE CRYPTO KING 📈🚀",
-    "date": "2026-08-06",
-    "url": "https://x.com/CryptoKing_2020/status/2085375991392911727",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "8190b26702eb",
-    "agent": "instinct",
-    "quote": "@katexbt @facelessfarms @Kalshi @cluely @instinct_inc sigh…🥺",
-    "author": "@shu_bit_",
-    "author_name": "shubit",
-    "date": "2026-03-27",
-    "url": "https://x.com/shu_bit_/status/2037369563550212544",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "ae6c9c5a7289",
-    "agent": "instinct",
-    "quote": "@shu_bit_ @facelessfarms @Kalshi @cluely @instinct_inc oh yeah i commented on this when he posted it tbh\n\nnot much to say...everyone kinda knows at this point lol",
-    "author": "@katexbt",
-    "author_name": "katexbt.hl",
-    "date": "2026-03-27",
-    "url": "https://x.com/katexbt/status/2037369378799579421",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "fc3c905f2857",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc talk about kalshi\n\ncc @katexbt",
-    "author": "@shu_bit_",
-    "author_name": "shubit",
-    "date": "2026-03-27",
-    "url": "https://x.com/shu_bit_/status/2037364712502108252",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
     "id": "3bbe8fca1e17",
     "agent": "instinct",
     "quote": "@interstatejuche @instinct_inc https://x.com/vamika12500/status/2036637741342159054?s=20",
@@ -2870,130 +2643,6 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "1f4df80bb963",
-    "agent": "instinct",
-    "quote": "What puts Antunes' complaints into perspective, and makes them even funnier, is he's openly affiliated with online slop farm @instinct_inc https://t.co/rjXEHVLY8z",
-    "author": "@interstatejuche",
-    "author_name": "KG",
-    "date": "2026-03-25",
-    "url": "https://x.com/interstatejuche/status/2036626985707794698",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.610Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "2eef42b76bfc",
-    "agent": "instinct",
-    "quote": "@facelessfarms Pay the man @instinct_inc",
-    "author": "@JasonCryptoFTW",
-    "author_name": "Ape Capital ",
-    "date": "2026-03-22",
-    "url": "https://x.com/JasonCryptoFTW/status/2035856698154348947",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "e6b9a1e01a0b",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc DONT LIE TO UR AUDIENCE!!!!\n\nhttps://x.com/facelessfarms/status/2035849169668034582",
-    "author": "@facelessfarms",
-    "author_name": "Aasir",
-    "date": "2026-03-22",
-    "url": "https://x.com/facelessfarms/status/2035850606309511240",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "3f794dc4a594",
-    "agent": "instinct",
-    "quote": "I have a feeling you'll be alright.\n\n@instinct_inc @elamri coded.",
-    "author": "@TheTrueQuant",
-    "author_name": "TheTrueQuant",
-    "date": "2026-03-22",
-    "url": "https://x.com/TheTrueQuant/status/2035743788648530013",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "208433d46552",
-    "agent": "instinct",
-    "quote": "@vvsmoe @elamri @mil000 @instinct_inc \"So much work\" its automated AI garbage being generated lol",
-    "author": "@SteamySnuggler",
-    "author_name": "SteamySnuggler 😽",
-    "date": "2026-03-22",
-    "url": "https://x.com/SteamySnuggler/status/2035732508512239976",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "18f9188818ff",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc we are not siding with the cluely guys lol u a fake and a fraud your downfall will be generational",
-    "author": "@fix_prod",
-    "author_name": "k eu/acc",
-    "date": "2026-03-22",
-    "url": "https://x.com/fix_prod/status/2035723431463772293",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "81be82674640",
-    "agent": "instinct",
-    "quote": "@atbright @elamri @veH0rny @instinct_inc looks like it is",
-    "author": "@GrindingPoet",
-    "author_name": "Grinding Poet",
-    "date": "2026-03-22",
-    "url": "https://x.com/GrindingPoet/status/2035716633021530212",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.611Z",
     "notes": "query: @instinct_inc | via x402atlas"
   },
   {
@@ -3342,78 +2991,6 @@
     "notes": "query: \"instinct.co\" | via x402atlas"
   },
   {
-    "id": "ef95e4270788",
-    "agent": "instinct",
-    "quote": "@GrindingPoet @elamri @veH0rny @instinct_inc a single day where i don't see some prediction market related bullshit\n\nis that too much to ask for?",
-    "author": "@bright_125",
-    "author_name": "brightone (privacy arc)",
-    "date": "2026-03-22",
-    "url": "https://x.com/bright_125/status/2035715789626503612",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "d57df200c1c8",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc This should’ve been checked way before it got to this point - from someone who’s done this at scale for the last two years",
-    "author": "@johnnyprofound",
-    "author_name": "Johnny",
-    "date": "2026-03-22",
-    "url": "https://x.com/johnnyprofound/status/2035709658023731638",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "d2b0814ad0b6",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc hmu 📞",
-    "author": "@DiceyHQ",
-    "author_name": "Dicey.com",
-    "date": "2026-03-22",
-    "url": "https://x.com/DiceyHQ/status/2035670396997955678",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "a970d6beddc4",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc so he used the system you provided, with all the rules and now you say: thanks for free work dude, but I personally dont like it so fuck your money",
-    "author": "@f3dscr0w",
-    "author_name": "_cr0w_",
-    "date": "2026-03-22",
-    "url": "https://x.com/f3dscr0w/status/2035649203880288290",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
     "id": "4fa68738ad7e",
     "agent": "instinct",
     "quote": "we r hiring again @instinct_inc\n\nif you have a phone and can record short videos reply here\n\n$40-$2000/video base for ~1 hour of work\n\nserious replies only",
@@ -3427,222 +3004,6 @@
       "x",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "1eec6d8c7e9a",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc something is off.",
-    "author": "@aydaoz",
-    "author_name": "Ayda Oz",
-    "date": "2026-03-22",
-    "url": "https://x.com/aydaoz/status/2035601137470931198",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "a0e22c29160c",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc you could have asked him to ask for approval before spamming, and calling someone \"mf\" as a ceo, shows what kind of company you are running(3rd class)",
-    "author": "@imHangyaku",
-    "author_name": "Maharshi",
-    "date": "2026-03-22",
-    "url": "https://x.com/imHangyaku/status/2035596059142160410",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "ae5c71bcbccc",
-    "agent": "instinct",
-    "quote": "@raj_raj88 @elamri @instinct_inc this make sense, there should be approval before posting content.",
-    "author": "@F2aldi",
-    "author_name": "λL-D1 | AI for Buzzer 🍉",
-    "date": "2026-03-22",
-    "url": "https://x.com/F2aldi/status/2035583440687681769",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "6ea225cc9a1e",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc can we see his banger video",
-    "author": "@shira_sats",
-    "author_name": "shira.sats",
-    "date": "2026-03-22",
-    "url": "https://x.com/shira_sats/status/2035576185627824232",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "e23386887815",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc So you run a bunch of accounts and force crap to go viral?\nSounds like you got paid what you deserve",
-    "author": "@djDriverless",
-    "author_name": "Beamish",
-    "date": "2026-03-22",
-    "url": "https://x.com/djDriverless/status/2035562194541203891",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "5b8cc0b23408",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc if you ever needed a reason to avoid @Kalshi, this is it.\n\nif you scam their own employees, imagine how they treat their costumers.",
-    "author": "@dre_btc",
-    "author_name": "dre.btc",
-    "date": "2026-03-22",
-    "url": "https://x.com/dre_btc/status/2035559503119241478",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "365133284073",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc 18 year olds with no background in running ugc agency what else would you expect",
-    "author": "@johnnyprofound",
-    "author_name": "Johnny",
-    "date": "2026-03-22",
-    "url": "https://x.com/johnnyprofound/status/2035557707730530542",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "01469c2e3baf",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc If you generated 200M views, Dupe pays its bills, and Dupe wants to hire you.",
-    "author": "@ghoshal",
-    "author_name": "Bobby from Dupe.com",
-    "date": "2026-03-22",
-    "url": "https://x.com/ghoshal/status/2035556142969958610",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "acb68acb3343",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc @elamri @mansourtarek_ Lmao ill take things that never happened.. bro thinks he gets 200m",
-    "author": "@Catoradeallday",
-    "author_name": "Small town 🇨🇦",
-    "date": "2026-03-22",
-    "url": "https://x.com/Catoradeallday/status/2035553471693242613",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "32806bdb71f8",
-    "agent": "instinct",
-    "quote": "@facelessfarms @___4o____ @Kalshi @cluely @instinct_inc assuming what you say is true, this is a pretty easy lawsuit.\n\ndepending on your state, even a verbal contract can be binding if they accepted and previously agreed upon the work.\n\nquit yapping and go get a suit",
-    "author": "@colemurray",
-    "author_name": "cole murray",
-    "date": "2026-03-22",
-    "url": "https://x.com/colemurray/status/2035550923792294160",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "fed06e9d75d5",
-    "agent": "instinct",
-    "quote": "@vvsmoe @elamri @mil000 @instinct_inc It's not a matter of \"make it clear\", it's like makes sense, how can someone make a clipping channel without talking about the company, e.g, no hooks relating to it whatsoever, then add a cta \"download blah blah\" , it's scammy behavior. If so I could spam slop",
-    "author": "@sqrtloss",
-    "author_name": "Sqrtloss",
-    "date": "2026-03-22",
-    "url": "https://x.com/sqrtloss/status/2035545404062728359",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.352Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "0785a33ccb10",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc \"oh no he followed my playbook and got views I'm not going to pay him anymore. game is game.\"",
-    "author": "@AryanSeth07",
-    "author_name": "Aryan Seth",
-    "date": "2026-03-22",
-    "url": "https://x.com/AryanSeth07/status/2035543521357348964",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.352Z",
@@ -3700,653 +3061,5 @@
     "source": "x",
     "collected_at": "2026-09-08T16:04:05.976Z",
     "notes": "query: \"instinct.co\" | via x402atlas"
-  },
-  {
-    "id": "204cf2b8cb58",
-    "agent": "instinct",
-    "quote": "@apoorvdarshan @untaxxme @facelessfarms @Kalshi @cluely @instinct_inc Hell yes",
-    "author": "@BigJonnyQuest",
-    "author_name": "Big Jonny Quest",
-    "date": "2026-03-22",
-    "url": "https://x.com/BigJonnyQuest/status/2035537339414376553",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "63dd63cd3f9d",
-    "agent": "instinct",
-    "quote": "@apoorvdarshan @untaxxme @facelessfarms @Kalshi @cluely @instinct_inc If only there were these experts with law that you could pay by the hour to figure this stuff out for you",
-    "author": "@BigJonnyQuest",
-    "author_name": "Big Jonny Quest",
-    "date": "2026-03-22",
-    "url": "https://x.com/BigJonnyQuest/status/2035537021821665443",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "636c7c83289b",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc performance based pay only works if someone actually enforces the standard\n\nmost programs fail because accountability disappears the moment volume scales up",
-    "author": "@ZeroCompWhop",
-    "author_name": "Ghost Gap Intelligence",
-    "date": "2026-03-22",
-    "url": "https://x.com/ZeroCompWhop/status/2035528566247666058",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "610eb7f1e80f",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc Marketing and branding are distinguishable, was he being paid for marketing or branding? Sounds like marketing",
-    "author": "@phillymike223",
-    "author_name": "Michael",
-    "date": "2026-03-22",
-    "url": "https://x.com/phillymike223/status/2035528428053799231",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "9588e87099b2",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc This",
-    "author": "@youfadedwealth",
-    "author_name": "Faded | Clipur.com",
-    "date": "2026-03-22",
-    "url": "https://x.com/youfadedwealth/status/2035525434213855276",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "4d5133449f3f",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc The quality of the content doesn't seem to have been agreed upon, so you can't judge it.",
-    "author": "@jssldev",
-    "author_name": "Jssl",
-    "date": "2026-03-22",
-    "url": "https://x.com/jssldev/status/2035522722265026850",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.977Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "033580e8897b",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc they owe me 800 buddy they are not paying shit",
-    "author": "@katexbt",
-    "author_name": "katexbt.hl",
-    "date": "2026-03-22",
-    "url": "https://x.com/katexbt/status/2035519825012011505",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "5c96b1869354",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc how does he run 200 accounts, does he own a clipping discord or sm?",
-    "author": "@sanjaygpts",
-    "author_name": "Sanjay",
-    "date": "2026-03-22",
-    "url": "https://x.com/sanjaygpts/status/2035514678148055240",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "d75131df99e1",
-    "agent": "instinct",
-    "quote": "@___4o____ @elamri @instinct_inc I like how there was no mention of the “later direction” part which is a completely separate issue than the bad content. If I made good content could I still get blindsided by directional changes?",
-    "author": "@surajgajula",
-    "author_name": "Suraj Gajula",
-    "date": "2026-03-22",
-    "url": "https://x.com/surajgajula/status/2035513475884323183",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "03417665b60a",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc “This mf” has better communication skills than you so people will side with him.",
-    "author": "@___4o____",
-    "author_name": "SPEC",
-    "date": "2026-03-22",
-    "url": "https://x.com/___4o____/status/2035510090648990177",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "97ecd628f297",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc thats what you get for promoting kalshi, you deserve it scumbag",
-    "author": "@CSP_Trading",
-    "author_name": "CSPTrading.eth",
-    "date": "2026-03-22",
-    "url": "https://x.com/CSP_Trading/status/2035508193338818838",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "a182e0127431",
-    "agent": "instinct",
-    "quote": "@elamri @mil000 @instinct_inc Why not make it clear before he does so much work?",
-    "author": "@vvsmoe",
-    "author_name": "Moe",
-    "date": "2026-03-21",
-    "url": "https://x.com/vvsmoe/status/2035506639567008242",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "86d2f1674232",
-    "agent": "instinct",
-    "quote": "@elamri @instinct_inc How do you even run into this issue with UGC, isn’t it often like pay per impressions or smtn similar like pay per results?",
-    "author": "@elijahmuraoka_",
-    "author_name": "- Elijah Muraoka -",
-    "date": "2026-03-21",
-    "url": "https://x.com/elijahmuraoka_/status/2035502069474263247",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "61d20bc4a87d",
-    "agent": "instinct",
-    "quote": "@untaxxme @facelessfarms @Kalshi @cluely @instinct_inc 2 diff countries btw",
-    "author": "@apoorvdarshan",
-    "author_name": "Apoorv Darshan",
-    "date": "2026-03-21",
-    "url": "https://x.com/apoorvdarshan/status/2035501168118636691",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "a50fbecc9c91",
-    "agent": "instinct",
-    "quote": "@itspairaw @facelessfarms @Kalshi @cluely @instinct_inc 🫵😭",
-    "author": "@self_host",
-    "author_name": "selfhost. 🇹🇭 (ノಠ益ಠ)ノ",
-    "date": "2026-03-21",
-    "url": "https://x.com/self_host/status/2035496066741846145",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "a50bc15de674",
-    "agent": "instinct",
-    "quote": "@mcalics @facelessfarms @Kalshi @cluely @instinct_inc There are so many things wrong with this tweet it’s crazy",
-    "author": "@ConsumeGrowth",
-    "author_name": "ConsumeGrowth",
-    "date": "2026-03-21",
-    "url": "https://x.com/ConsumeGrowth/status/2035491563988537431",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:05.978Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "1a528ad4c256",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Always obviously cluely were scammy.. all hype bullshit product",
-    "author": "@TheChoueiry",
-    "author_name": "Dimitri El-Choueiry",
-    "date": "2026-03-21",
-    "url": "https://x.com/TheChoueiry/status/2035487352894738923",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "10b823d5ea74",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Anyone who says \"alright bet\" is immediately waving a massive red flag.",
-    "author": "@nexamorph",
-    "author_name": "nexamorph",
-    "date": "2026-03-21",
-    "url": "https://x.com/nexamorph/status/2035486653905527290",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "b56a08c35e4a",
-    "agent": "instinct",
-    "quote": "@Kalshi @cluely @instinct_inc @elamri @instinct_inc @Kalshi @mansourtarek_",
-    "author": "@facelessfarms",
-    "author_name": "Aasir",
-    "date": "2026-03-21",
-    "url": "https://x.com/facelessfarms/status/2035485989154562549",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "1522fc0d916c",
-    "agent": "instinct",
-    "quote": "Bro just remember that you are dealing with 18 yr old kids who provide self guided tours. At least this is what their address show @instinct_inc and I really doubt Kalshi is actually their client.\n\nAll their creators are generating “organic” views with 600 followers.\n\nIf Kalshi is really a client, I would be very concerned with the due diligence being done by their marketing team.\n\nBut I really doubt anything these kids are doing is real.\n\nSupposedly @elamri was kicked out of school and made $1.2M in stealth with Methods in 7 days selling $39/month subscription. That’s approx 3400 clients in 7 days…does that seem like it’s even possible\n\nThese kids are literally playing with fire and the fact he’s 18 could pose serious legal problems\n\nHonestly, if we dig further into a lot of what’s happening on the web these days especially with AI and bots, we might discover a lot of what we are engaging with is smoke and mirrors\n\nBut hopefully their charade stops at you. And they won’t affect more creators",
-    "author": "@mcalics",
-    "author_name": "Marco",
-    "date": "2026-03-21",
-    "url": "https://x.com/mcalics/status/2035480855309951302",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "294c89c2da0f",
-    "agent": "instinct",
-    "quote": "@itspairaw @Kalshi @cluely @instinct_inc 😭",
-    "author": "@facelessfarms",
-    "author_name": "Aasir",
-    "date": "2026-03-21",
-    "url": "https://x.com/facelessfarms/status/2035474908453462205",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "f714c8c6b770",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc this is why you dont do business with funded koreans who live in SF",
-    "author": "@itspairaw",
-    "author_name": "Pairaw",
-    "date": "2026-03-21",
-    "url": "https://x.com/itspairaw/status/2035474797438652648",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "b2eecbcb5cb5",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc methods is just middleman, send demand letter to kalshi and if they will not pay, file against kalshi with proof from methods as middleman",
-    "author": "@chiefofautism",
-    "author_name": "chiefofautism",
-    "date": "2026-03-21",
-    "url": "https://x.com/chiefofautism/status/2035468484138746201",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "798ae58d396f",
-    "agent": "instinct",
-    "quote": "@iamfra5er @facelessfarms @Kalshi @cluely @instinct_inc he have through middleman, methods app",
-    "author": "@chiefofautism",
-    "author_name": "chiefofautism",
-    "date": "2026-03-21",
-    "url": "https://x.com/chiefofautism/status/2035468168974532665",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "7c34cfcf7791",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc send demand letter to kalshi",
-    "author": "@chiefofautism",
-    "author_name": "chiefofautism",
-    "date": "2026-03-21",
-    "url": "https://x.com/chiefofautism/status/2035468076913762497",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "d37295b7c8a8",
-    "agent": "instinct",
-    "quote": "@untaxxme @facelessfarms @Kalshi @cluely @instinct_inc You think contracts between people in different countries are enforceable? You think their written back and forth agreement ISN’T a contract? You should probably learn a thing or 2 before going around calling other people names",
-    "author": "@DanBMintin",
-    "author_name": "Dan B. Mintin 🏴🍃",
-    "date": "2026-03-21",
-    "url": "https://x.com/DanBMintin/status/2035464784104026393",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "8dcc4140287e",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc https://t.co/WvfTtkNShS",
-    "author": "@Kennur",
-    "author_name": "Kennur",
-    "date": "2026-03-21",
-    "url": "https://x.com/Kennur/status/2035463940050915725",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "309cef68d66e",
-    "agent": "instinct",
-    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc What a trash fucking way to market your product, we were gonna use your services - now we won’t",
-    "author": "@ananbatra",
-    "author_name": "Ananay Batra",
-    "date": "2026-03-21",
-    "url": "https://x.com/ananbatra/status/2035463264080167048",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "11b5d7db9fdd",
-    "agent": "instinct",
-    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Rofl\n\n@___4o____ take a look at this the whole thing is absolutely insane and this comment puts the cherry on top\n\n0 morals",
-    "author": "@1llegalEngineer",
-    "author_name": "Temu Oppenheimer formerly Mad Engineer",
-    "date": "2026-03-21",
-    "url": "https://x.com/1llegalEngineer/status/2035462739682906231",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "265d6b9d6f8b",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc Fuck kalshi on god.\n\nPoly&gt;&gt;&gt;",
-    "author": "@Sufficient_Lev",
-    "author_name": "Sufficient Leverage",
-    "date": "2026-03-21",
-    "url": "https://x.com/Sufficient_Lev/status/2035453729650913439",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "29e145c57673",
-    "agent": "instinct",
-    "quote": "@0xRacerAlt @facelessfarms @Kalshi @cluely @instinct_inc Yeah that's the important context to be enraged about.",
-    "author": "@sheriffly",
-    "author_name": "Sheriff",
-    "date": "2026-03-21",
-    "url": "https://x.com/sheriffly/status/2035452449801289913",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "dba778f38f3a",
-    "agent": "instinct",
-    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc They wont pay you lol",
-    "author": "@elchuchii",
-    "author_name": "Chuchi",
-    "date": "2026-03-21",
-    "url": "https://x.com/elchuchii/status/2035452326111006727",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "9a2f71815adc",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc you can post whatever you want if you get me 5M views. Every day of the week.",
-    "author": "@anthdm",
-    "author_name": "Ant",
-    "date": "2026-03-21",
-    "url": "https://x.com/anthdm/status/2035452090806345865",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "3664917e0d40",
-    "agent": "instinct",
-    "quote": "@jonahbuilds @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Very scummy behavior. You need to stand up for your peers, who knows you'll be in similar position someday.",
-    "author": "@sheriffly",
-    "author_name": "Sheriff",
-    "date": "2026-03-21",
-    "url": "https://x.com/sheriffly/status/2035452019167887674",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "e18668c9bfac",
-    "agent": "instinct",
-    "quote": "@facelessfarms @Kalshi @cluely @instinct_inc the next step after you aren't paid by a vendor is getting a lawyer, this X post isn't helping your case",
-    "author": "@nicolasrowe",
-    "author_name": "Nicolas Rowe 🇺🇳🇺🇸🇪🇨🇬🇧",
-    "date": "2026-03-21",
-    "url": "https://x.com/nicolasrowe/status/2035451991980155341",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
-  },
-  {
-    "id": "b588c470ee7e",
-    "agent": "instinct",
-    "quote": "@_agarner @facelessfarms @nicholasnlawton @Kalshi @cluely @instinct_inc Game is game bruh. I refuse to believe this guy has no fault in this situation.",
-    "author": "@jonahbuilds",
-    "author_name": "Jonah",
-    "date": "2026-03-21",
-    "url": "https://x.com/jonahbuilds/status/2035451808366154012",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.550Z",
-    "notes": "query: @instinct_inc | via x402atlas"
   }
 ]

@@ -1153,7 +1153,9 @@
     "kind": "use-case",
     "tags": [
       "iot",
-      "home"
+      "home",
+      "founder",
+      "vendor"
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
@@ -2328,23 +2330,6 @@
     "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
   },
   {
-    "id": "e8cba8753789",
-    "agent": "grok-bot",
-    "quote": "Want more overnight money and time plays like these?\nFollow @GrokBotMoney and RT so the next fleet finds you 👀\nhttps://grokbot.money/roundups/overnight-fleets",
-    "author": "@GrokBotMoney",
-    "author_name": "Grok Bot Money",
-    "date": "2026-09-08",
-    "url": "https://x.com/GrokBotMoney/status/2097342763708670459",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.039Z",
-    "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
-  },
-  {
     "id": "d357c773a727",
     "agent": "grok-bot",
     "quote": "@lennysan @bot Lenny\n\nPls checkout my grok bot marketplace 😭😭\n\n-&gt; https://thegrokbots.com ♥️",
@@ -2352,24 +2337,6 @@
     "author_name": "Vineeth",
     "date": "2026-09-08",
     "url": "https://x.com/vineeth_agi/status/2097342452332134819",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.039Z",
-    "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
-  },
-  {
-    "id": "ed3c53b11613",
-    "agent": "grok-bot",
-    "quote": "@rimtoln Five-job GitHub farm while they sleep 🚀\nhttps://grokbot.money/ways/five-job-github-farm",
-    "author": "@GrokBotMoney",
-    "author_name": "Grok Bot Money",
-    "date": "2026-09-08",
-    "url": "https://x.com/GrokBotMoney/status/2097342428474728644",
     "kind": "other",
     "tags": [
       "auto",
@@ -2408,7 +2375,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.039Z",
@@ -2566,24 +2535,6 @@
     "tags": [
       "auto",
       "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.039Z",
-    "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
-  },
-  {
-    "id": "9f6ac6470814",
-    "agent": "grok-bot",
-    "quote": "@permexpat Turbine Drive sales running through the night 💰\nhttps://grokbot.money/ways/turbine-drive-sales-overnight",
-    "author": "@GrokBotMoney",
-    "author_name": "Grok Bot Money",
-    "date": "2026-09-08",
-    "url": "https://x.com/GrokBotMoney/status/2097341591417414053",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.039Z",
@@ -2763,24 +2714,6 @@
     "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
   },
   {
-    "id": "94a4e0da41ed",
-    "agent": "grok-bot",
-    "quote": "@TheZiesel Overnight accounting handoff on autopilot 🔥\nhttps://grokbot.money/ways/overnight-accounting-transfer",
-    "author": "@GrokBotMoney",
-    "author_name": "Grok Bot Money",
-    "date": "2026-09-08",
-    "url": "https://x.com/GrokBotMoney/status/2097340639482380387",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.612Z",
-    "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
-  },
-  {
     "id": "28bef8e52603",
     "agent": "grok-bot",
     "quote": "このGrokbotもそうだけど\n社員投稿とか見たけどそりゃ無限で使えるからいろいろできるんだよといいたい\n普通に５万の最大ヘビーでなにかを動かそうとしたら１０アカあっても足らんぞ\n\nCodexもそうだけど社員枠無限にあるからバリバリ何でもできるんだろといいたい\n\n一般消費者はそんな枠ないから１０分の１くらいの評価にしないとやろうと思うことがなに１つできないという罠に陥る\n\nあ、これはClaudeもね\n\n社員枠なんか比較対象に全くならんからね\n一般人の実測が１番大事\n\n否定意見に１回でもいいね押さないとなかなかPostにでてこないからXのアルゴリズムもうまいことできてんなぁと思うわ",
@@ -2882,23 +2815,6 @@
       "auto",
       "x",
       "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.612Z",
-    "notes": "query: \"grok bot\" OR grokbot | via x402atlas"
-  },
-  {
-    "id": "a8ef510237c2",
-    "agent": "grok-bot",
-    "quote": "We looked at overnight Grok Bot fleets still crushing work while people sleep 😴\nThese 3 setups on the roundup are wild.\nhttps://grokbot.money/roundups/overnight-fleets",
-    "author": "@GrokBotMoney",
-    "author_name": "Grok Bot Money",
-    "date": "2026-09-08",
-    "url": "https://x.com/GrokBotMoney/status/2097339963691942016",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.612Z",

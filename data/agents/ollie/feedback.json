@@ -44,7 +44,9 @@
     "kind": "other",
     "tags": [
       "privacy",
-      "soc2"
+      "soc2",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -61,7 +63,9 @@
     "kind": "other",
     "tags": [
       "launch",
-      "family"
+      "family",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -78,7 +82,9 @@
     "kind": "other",
     "tags": [
       "positioning",
-      "moms"
+      "moms",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -163,7 +169,9 @@
     "tags": [
       "family",
       "schools",
-      "schedules"
+      "schedules",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -638,23 +646,6 @@
       "x",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "6ee65d6f070a",
-    "agent": "ollie",
-    "quote": "Just discovered Ollie AI. It chats with you about a person you want to buy gift for 🎁, and gives you a lot of 🔗 links to great gifts for that person.\nI had zero expectations, but Im surprised how well it works actually.\nhttps://ollie.ai/",
-    "author": "@tereza_tizkova",
-    "author_name": "Tereza Tizkova",
-    "date": "2024-01-02",
-    "url": "https://x.com/tereza_tizkova/status/1742195295281107199",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:31:13.148Z",
@@ -2201,7 +2192,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.071Z",

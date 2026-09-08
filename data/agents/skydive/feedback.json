@@ -304,7 +304,8 @@
     "tags": [
       "reddit",
       "security",
-      "permissions"
+      "permissions",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -338,7 +339,8 @@
     "kind": "use-case",
     "tags": [
       "reddit",
-      "2fa"
+      "2fa",
+      "founder"
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
@@ -664,7 +666,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:31:13.268Z",
@@ -718,7 +722,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:31:13.268Z",

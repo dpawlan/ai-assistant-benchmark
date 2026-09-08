@@ -94,7 +94,9 @@
     "kind": "other",
     "tags": [
       "brand",
-      "audio"
+      "audio",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
@@ -127,7 +129,9 @@
       "nyc",
       "resy",
       "imessage",
-      "company"
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -178,7 +182,9 @@
     "kind": "other",
     "tags": [
       "fitness",
-      "company"
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -213,7 +219,9 @@
     "kind": "other",
     "tags": [
       "team",
-      "feature"
+      "feature",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -246,7 +254,9 @@
     "kind": "other",
     "tags": [
       "intro",
-      "try"
+      "try",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:41:17.425206+00:00",
@@ -430,7 +440,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
@@ -1389,7 +1401,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",

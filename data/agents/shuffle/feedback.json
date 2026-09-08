@@ -2,7 +2,7 @@
   {
     "id": "7e133d727b95",
     "agent": "shuffle",
-    "quote": "Today, we\u2019re reintroducing text-to-generate Games on iMessage & SMS. \n\nYour personal AI game maker, one text away \u2192 \nhttps://\ntextshuffle.com \n\nText Shuffle when you wanna be entertained. There is a dashboard if you want to go deeper. Show us your first game with Shuffle in the",
+    "quote": "Today, we’re reintroducing text-to-generate Games on iMessage & SMS. \n\nYour personal AI game maker, one text away → \nhttps://\ntextshuffle.com \n\nText Shuffle when you wanna be entertained. There is a dashboard if you want to go deeper. Show us your first game with Shuffle in the",
     "author": "@ebeezy_eth",
     "author_name": "ebeezy",
     "date": "2026-09-04",
@@ -10,16 +10,18 @@
     "kind": "other",
     "tags": [
       "games",
-      "imessage"
+      "imessage",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "text-to-generate games on iMessage \u2014 textshuffle.com"
+    "notes": "text-to-generate games on iMessage — textshuffle.com"
   },
   {
     "id": "2c8b7005f45c",
     "agent": "shuffle",
-    "quote": "try shuffle text shuffle dot com\n\ni\u2019m building it \ud83e\udd1d",
+    "quote": "try shuffle text shuffle dot com\n\ni’m building it 🤝",
     "author": "@ebeezy_eth",
     "author_name": "ebeezy",
     "date": "2026-09-05",
@@ -44,11 +46,13 @@
     "tags": [
       "textshuffle",
       "capacity",
-      "adjacent"
+      "adjacent",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "textshuffle.com capacity note \u2014 NOT shuffle.cool"
+    "notes": "textshuffle.com capacity note — NOT shuffle.cool"
   },
   {
     "id": "df78e735a7f6",
@@ -66,6 +70,6 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "Shuffle - text shuffle dot com \u2014 NOT shuffle.cool"
+    "notes": "Shuffle - text shuffle dot com — NOT shuffle.cool"
   }
 ]

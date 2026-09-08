@@ -10,7 +10,9 @@
     "kind": "praise",
     "tags": [
       "personal",
-      "proactive"
+      "proactive",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -28,7 +30,9 @@
     "tags": [
       "subscriptions",
       "email",
-      "savings"
+      "savings",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -45,7 +49,9 @@
     "kind": "use-case",
     "tags": [
       "astra",
-      "build"
+      "build",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -96,7 +102,9 @@
     "kind": "comparison",
     "tags": [
       "vs-grok-bot",
-      "subagents"
+      "subagents",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -163,7 +171,9 @@
     "url": "https://x.com/marinatrajk/status/2094493653393715453",
     "kind": "praise",
     "tags": [
-      "mobile"
+      "mobile",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -182,7 +192,9 @@
       "openclaw",
       "migration",
       "mobile",
-      "company"
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -200,7 +212,9 @@
     "tags": [
       "cloud",
       "always-on",
-      "company"
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -216,7 +230,9 @@
     "url": "https://x.com/marinatrajk/status/2095976316545728871",
     "kind": "other",
     "tags": [
-      "demo"
+      "demo",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
@@ -234,7 +250,9 @@
     "tags": [
       "chrome",
       "browser",
-      "logged-in"
+      "logged-in",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -286,7 +304,9 @@
     "kind": "use-case",
     "tags": [
       "self-host",
-      "mobile"
+      "mobile",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -303,7 +323,9 @@
     "kind": "use-case",
     "tags": [
       "astra",
-      "chatgpt"
+      "chatgpt",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
@@ -374,7 +396,9 @@
     "kind": "praise",
     "tags": [
       "credits",
-      "advocate"
+      "advocate",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T15:32:45.259459+00:00",
@@ -390,7 +414,9 @@
     "url": "https://x.com/grim_tonal/status/2095169452480291001",
     "kind": "other",
     "tags": [
-      "recommend"
+      "recommend",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T15:32:45.259459+00:00",
@@ -462,7 +488,9 @@
     "kind": "other",
     "tags": [
       "benchmark",
-      "oss"
+      "oss",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
@@ -583,7 +611,9 @@
     "kind": "other",
     "tags": [
       "imessage",
-      "roadmap"
+      "roadmap",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:07:33Z",
@@ -601,7 +631,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.253Z",
@@ -619,7 +651,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.253Z",
@@ -637,7 +671,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.253Z",
@@ -674,7 +710,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.253Z",
@@ -711,7 +749,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.253Z",
@@ -729,7 +769,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.254Z",
@@ -746,7 +788,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.254Z",
@@ -764,7 +808,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.254Z",
@@ -782,7 +828,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.254Z",
@@ -818,7 +866,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.254Z",
@@ -996,7 +1046,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.255Z",
@@ -1049,7 +1101,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.255Z",
@@ -1094,24 +1148,6 @@
     "notes": "query: \"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\" | via x402atlas"
   },
   {
-    "id": "534a5cacfbcc",
-    "agent": "vellum",
-    "quote": "The final piece of the intelligence puzzle addresses the \"hallucination\" risk. When an attending\nphysician asks for a treatment plan for a patient with complex comorbidities (e.g., heart failure\nand renal insufficiency), the system cannot rely on a probabilistic guess from a generalist\nLLM.\nImplementation: Glass Health API\nThe architecture should seamlessly integrate the Glass Health API for high-stakes Clinical\nDecision Support. Glass utilizes a specialized agentic architecture that does not merely\npredict the next word; it drafts differential diagnoses and clinical plans grounded in a retrieval\nsystem that indexes millions of peer-reviewed articles and guidelines.7\nWhen a user in the \"Attending\" role queries the system, the application should act as a router:\ninstead of answering directly, it passes the clinical context to Glass. Glass returns a response\nwith evidence-based citations.\n\n8 This \"human-in-the-loop\" design, where the AI acts as a\ndrafter citing its sources rather than an oracle, is essential for liability protection and clinical\ntrust.\n\nPart II: Ambient Clinical Intelligence – The Physician’s\nInterface\nThe most immediate and tangible value proposition for practicing physicians and residents is\nthe eradication of \"pajama time\"—the hours spent documenting care after the clinic closes.\nTo change the future of medicine, this application must provide Ambient Clinical\nIntelligence (ACI): the ability to listen to a patient encounter and autonomously generate a\nstructured, billing-ready note.\n2.1 The Sensory Layer: Medical-Grade Speech Recognition\nThe quality of the final clinical note is strictly limited by the quality of the transcript. In medical\nsettings, generic speech-to-text (STT) engines fail when confronted with complex\npharmacologic names (e.g., \"hydrochlorothiazide\") or rapid-fire clinical jargon.\nThe Superior Choice: Deepgram Nova-3 Medical Model\nDeepgram has established itself as the leader in this niche with its Nova-3 Medical model.\nUnlike generalist models like OpenAI’s Whisper, Nova-3 is specifically fine-tuned on medical\naudio, resulting in significantly lower Word Error Rates (WER) for clinical terminology.10\n● Latency & Streaming: Deepgram supports streaming transcription with latency under\n300 milliseconds.\n\n11 This capability is vital for the application’s \"Real-Time Nudge\"\n\nfeature (discussed in Part III), where the system analyzes the conversation as it happens\nto prompt the doctor for missing information.\n● Infrastructure & Compliance: Crucially, Deepgram offers on-premises deployment\noptions.\n11 For large hospital systems that are legally or policy-bound to keep data within\ntheir own firewalls, this feature trumps cloud-only competitors. Deepgram is fully HIPAA\ncompliant and willing to sign Business Associate Agreements (BAAs), a non-negotiable\nrequirement.\n12\n\nThe Cloud Alternative: Azure AI Speech\nFor health systems already deeply integrated into the Microsoft/Epic ecosystem, Azure AI\nSpeech is a robust alternative. It benefits from Microsoft’s massive compliance infrastructure\nand seamless integration with other Azure healthcare services.13 However, for a standalone\napplication prioritizing speed and developer flexibility, Deepgram remains the more agile and\nperformant choice.\n2.2 The Synthesis Pipeline: From Transcript to SOAP Note\nOnce the audio is transcribed into a diarized JSON format (separating Clinician vs. Patient),\nthe text must be synthesized.\nImplementation Strategy:\nThe application should utilize a fine-tuned Llama 3 8B or 70B model (hosted on Groq or\nAzure) for this summarization task.\n● Why not GPT-4o? Summarization is a \"lossy\" task where extremely high reasoning\ncapability is less critical than adherence to format. A smaller, fine-tuned model can be\ntrained to strictly follow the hospital's specific note templates (e.g., \"Put ROS before\nPhysical Exam\") more reliably and cheaply than a zero-shot prompt to a frontier model.\n14\n● The \"https://t.co/l3YVHtDo1f\" Comparison: While platforms like https://t.co/l3YVHtDo1f offer pre-packaged \"AI Scribes\"\nand \"AI Nurses\"\n16\n, building a proprietary pipeline using Deepgram and Llama 3 offers the\napplication developer greater control over the unit economics and the ability to\ncustomize the \"voice\" of the notes for different specialties (e.g., creating a \"Psychiatry\"\nmodel vs. an \"Orthopedics\" model).\n\nPart III: The Autonomous Administrative Backend –\nHIS, Billing, and Coding\nIf Ambient Intelligence is the feature that sells the app to doctors, Autonomous Revenue\nCycle Management (RCM) is the feature that sells it to hospital CFOs. The future of\nmedicine involves automating the administrative friction that currently consumes up to 25% of\nhealthcare spending.\n3.1 The Coding Engine: Deterministic vs. Probabilistic\n\nThe industry is moving away from \"Computer-Assisted Coding\" (where a human reviews AI\nsuggestions) to \"Autonomous Coding\" (where the AI sends the bill directly). To achieve this,\nthe AI must be explainable.\nPrimary Integration: Nym Health\nNym Health stands out as the premier API for this function because it utilizes Clinical\nLanguage Understanding (CLU) rather than purely statistical deep learning.17\n● The Audit Trail: Unlike a \"black box\" LLM that might hallucinate an ICD-10 code, Nym’s\nengine traces every code back to the specific snippet of text in the chart that justifies it.\nThis \"traceability\" is the only way to defend against insurance audits and Recovery Audit\nContractor (RAC) clawbacks.\n18\n\n● Performance: Nym enables \"direct-to-bill\" automation for high-volume specialties like\nEmergency Medicine and Radiology, achieving accuracy rates (95%+) that allow hospitals\nto bypass human coders entirely for the majority of charts.\n20\n\nSecondary Option for Scale: Fathom Health\nFor extremely high-volume environments (e.g., large radiology groups or pathology labs),\nFathom Health is a strong contender. It reports automation rates exceeding 90% and is highly\noptimized for speed and scale.22 While Nym offers superior explainability for complex clinical\nencounters, Fathom may offer better unit economics for simpler, repetitive diagnostic coding.\n3.2 Clinical Documentation Improvement (CDI) Nudges\nA key innovation this app must implement is the Real-Time CDI Nudge.\n● Mechanism: As the physician speaks (processed by Deepgram) or writes, a lightweight\nbackground model (e.g., Phi-3.5 or Llama 3 8B) scans the text for billing specificity.\n● The \"Nudge\": If the doctor dictates \"Heart Failure,\" the system recognizes this as a\nnon-specific code (I50.9) which carries lower reimbursement and severity of illness\nscores. It immediately prompts the user: \"Please specify: Systolic, Diastolic, or\nCombined?\"\n● Impact: This proactive loop prevents the chart from being flagged by coders days later,\nreducing the \"Days Not Final Billed\" (DNFB) metric and significantly increasing hospital\nrevenue.\n24 Using a small, local model for this ensures zero latency and no per-token API\ncosts for these frequent checks.\n\nPart IV: High-Fidelity Educational Simulation – The\nVirtual Patient\nFor medical students and residents, the app replaces the antiquated \"See One, Do One, Teach\nOne\" model with \"Simulate Hundreds, Do One.\" The core of this is the Virtual Patient.\n\n4.1 The \"Perfect Network\" for Voice Interaction\nTo simulate a psychiatric patient in a manic state or a terrified trauma patient, text chat is\ninsufficient. The simulation must be voice-first, emotive, and instantaneous.\nThe Latency Budget (<500ms)\nTo achieve a natural conversation, the total time from the student speaking to the AI\nresponding must be under 500 milliseconds. A standard chain (Cloud STT -> Cloud LLM ->\nCloud TTS) often takes 2-3 seconds, breaking immersion.\nThe Recommended Stack:\n1. Transport: WebRTC. This peer-to-peer protocol minimizes network overhead compared\nto standard HTTP REST calls.\n25\n\n2. Input (STT): Deepgram Nova-3. Speed is paramount here. Deepgram’s streaming API\ncan return text in milliseconds.\n11\n\n3. The Brain (LLM): Llama 3 70B on Groq. This is the non-negotiable component for\nspeed. Groq’s inference speed allows the \"brain\" to generate the patient's response in\nnear real-time.\n6\n\n4. The Voice (TTS): ElevenLabs Turbo v2.5 vs. Deepgram Aura.\n○ Recommendation: Use ElevenLabs for high-fidelity scenarios (e.g., \"Breaking Bad\nNews,\" Psychiatry). Its emotional range is currently unmatched; it can whisper, shout,\nor cry, which is essential for realistic training.\n26\n\n○ Cost Optimization: For routine, low-emotion drills (e.g., taking a family history),\nswitch to Deepgram Aura. It is faster (Time-to-First-Byte <200ms) and significantly\ncheaper, preserving the budget for high-value simulations.\n28\n\n4.2 The \"Tutor Agent\" and Assessment\nWhile the student talks to the Virtual Patient, a second, silent AI agent must be observing.\n● The Evaluator: An instance of GPT-4o or DeepSeek-R1 receives the live transcript. It is\nprompted with a rubric (e.g., the \"Master Interview Rating Scale\"). It checks off items in\nreal-time: \"Did the student ask about allergies? [X] Yes.\".\n29\n\n● Feedback: Immediately post-encounter, the app presents this scorecard. If the student\nfailed a section, the OpenEvidence API is triggered to provide a cited explanation of the\nclinical concept missed, ensuring the feedback is grounded in literature, not AI\nhallucination.Part V: Interoperability – The Nervous System of the\nHospital\nAn app that cannot read or write to the hospital's EHR is a silo, and silos in medicine are\n\ndangerous.\n5.1 The Integration Layer: Redox Engine\nBuilding direct integrations with Epic, Cerner, Meditech, and Athenahealth is a multi-year\nengineering quagmire.\nPrimary Recommendation: Redox Engine\nRedox is the industry standard middleware. It abstracts the chaotic differences between HL7\nv2, C-CDA, and FHIR standards into a single, clean JSON API.31\n● Why Redox: It connects to over 11,900 healthcare organizations. More importantly,\nhospital CIOs trust it. Using Redox drastically shortens the security review and\nprocurement cycle compared to building custom FHIR adapters.\n● Functionality: It supports the critical bi-directional flows needed: pulling patient\ncontext (Demographics, Labs) to prime the AI, and pushing the generated Note and\nBilling Codes back into the chart.\n32\n\n5.2 Longitudinal Data Aggregation: Particle Health\nWhile Redox is excellent for the current hospital's data, physicians often need to know what\nhappened to the patient at other hospitals.\nSecondary Recommendation: Particle Health\nParticle Health connects to national Health Information Exchanges (HIEs) like CommonWell\nand Carequality.33\n● Use Case: The \"Pre-Rounding\" module. Before a resident sees a patient, the app uses\nParticle to pull records from outside networks. It then uses the John Snow Labs model\nto summarize this external history (e.g., \"Patient had a stress test at Mercy Hospital 3\nyears ago, result normal\").\n● Strategic Split: Use Redox for deep, write-capable integration with the host hospital.\nUse Particle for broad, read-only access to the patient's nationwide history.\n\nPart VI: Security, Infrastructure, and Cost Analysis\n6.1 HIPAA Compliance and BAA Structure\nSecurity in healthcare is binary: you are either compliant, or you are out of business.\n● The BAA Requirement: Every vendor selected—Deepgram, OpenAI, Nym, Redox, Groq,\nAWS/Google—offers a Business Associate Agreement (BAA). The application developer\nmust execute these agreements before processing a single byte of Protected Health\nInformation (PHI).\n12\n\n● The OpenAI Audio Caveat: As of late 2025, while OpenAI’s text APIs are HIPAA-eligible,\nthe Realtime API (Audio) has shown ambiguity regarding full BAA coverage in its\n\npreview phase.\n\n13 Until explicit confirmation is released, the architecture must decouple\nthe audio layer (using Deepgram for audio handling) and send only text to OpenAI/Azure\nto ensure strict compliance.\n6.2 Data Infrastructure\n● Cloud Provider: Google Cloud Platform (GCP) is currently distinguished by its\nHealthcare API, which offers a fully managed FHIR store and de-identification\ncapabilities that accelerate compliance.\n38\n\n● Vector Database: To support RAG (e.g., for the USMLE Tutor or looking up hospital\nprotocols), a vector database is required. Pinecone and Milvus offer HIPAA-compliant\nenterprise tiers. This allows the app to index the hospital's specific PDFs (e.g., \"Sepsis\nProtocol 2025\") and allow the AI to answer questions based only on those documents.\n39\n\n6.3 Cost Analysis\nThe economic viability of this app depends on routing.\nComponent Provider Pricing Model\n(Approx. 2025)\n\nStrategy for Scale\n\nInference (High\nIQ)\n\nOpenAI o1 ~$15-$60 / 1M\ntokens\n\nUse sparingly for\ncomplex student\ntutoring only.\n\nInference\n(Routine)\n\nLlama 3.3 70B\n(Groq)\n\n~$0.59 / 1M input\ntokens\n\nUse for 90% of\nchat/simulation\ntasks. 25x-50x\ncheaper than\nGPT-4o.\nTranscription Deepgram ~$0.0043 / min High volume\naffordable;\nessentially a utility\ncost.\n\nCoding Nym Health Per-chart fee Pass-through cost\nto hospital; justified\nby revenue uplift.\nIntegration Redox ~$50k/yr base + High barrier to\n\nfees entry; requires\nenterprise\ncontracts.\n\nThe \"Hybrid\" Model: The app should be architected to use local/open-source models\n(Llama 3, Phi-3.5) for high-frequency, low-risk tasks (summarization, simple chat, CDI nudges)\nand route to expensive proprietary models (JSL, Nym, Glass) only when high precision or\nliability protection is required.\n\nConclusion\nBuilding the application that \"changes the future of medicine\" is not a task of discovering a\nsingle revolutionary algorithm, but rather of architectural integration. The \"perfect network\"\nis a federated system:\n● It thinks with the precision of John Snow Labs and DeepSeek-R1.\n● It listens with the acuity of Deepgram.\n● It speaks with the empathy of ElevenLabs.\n● It bills with the transparency of Nym Health.\n● It connects with the universality of Redox.\nBy orchestrating these components through a latency-optimized, HIPAA-compliant\ninfrastructure, developers can deliver a tool that enhances the capabilities of every\nuser—from the first-year medical student simulating their first patient encounter to the\nveteran attending physician managing a complex caseload. This is not just an app; it is the\nnew digital infrastructure of clinical practice.\nWorks cited\n1. John Snow Labs New Suite of Medical Language Models Advance Industry\nBenchmarks, accessed December 12, 2025,\nhttps://t.co/tatU1vjXeS\n-models-advance-industry-benchmarks/\n2. The Top 10 Medical Large Language Models of 2025: A Deep Dive into\nPerformance, Safety, and Application - https://t.co/nYLa51MPm1, accessed December 12, 2025,\nhttps://t.co/A0Vpp02C4i\nd-to-know/\n3. Llama 3.3 70B is Here! 25x Cheaper than GPT-4o - Analytics Vidhya, accessed\nDecember 12, 2025,\nhttps://t.co/gGqmlGwHFu\n4. Llama 3.1 70b vs GPT-4o - LLM Comparison - AnotherWrapper, accessed\nDecember 12, 2025,https://t.co/lUdvK1M8rV\n5. Llama 3.3 70b vs GPT-4o - Vellum AI, accessed December 12, 2025,\nhttps://t.co/LFP3qwm2h7\n6. Groq llama-3.3-70b-versatile Pricing Calculator | API Cost Estimation - Helicone,\naccessed December 12, 2025,\nhttps://t.co/F8XirOi6VQ\n7. AI Clinical Decision Support API - Glass Health, accessed December 12, 2025,\nhttps://t.co/M2sySpMvlj\n8. Glass | AI Diagnosis & Clinical Decision Support (CDS), accessed December 12,\n2025, https://t.co/GrGdaW7m3a\n9. AI Clinical Decision Support | Ambient CDS - Glass Health, accessed December\n12, 2025, https://t.co/ELvMgIbkPY\n10. AI-Powered Medical Transcription - Deepgram, accessed December 12, 2025,\nhttps://t.co/QLvPako1L7\n11. Deepgram vs ElevenLabs: Which Enterprise Voice AI Platform Fits Your Production\nStack?, accessed December 12, 2025,\nhttps://t.co/cKoPHUJVVL\n12. Data Privacy Compliance | Deepgram's Docs, accessed December 12, 2025,\nhttps://t.co/ycOlqH7FVM\n13. Is the GPT-Realtime model in Azure covered under BAA for HIPAA compliance?,\naccessed December 12, 2025,\nhttps://t.co/xwRc6xv1Dk\ne-model-in-azure-covered-under-b\n14. Which small model is best for fine-tuning? We tested 12 of them by spending\n$10K - here's what we found : r/LocalLLaMA - Reddit, accessed December 12,\n2025,\nhttps://t.co/vlzgSn3Ksv\nbest_for_finetuning_we/\n15. Resource-Efficient Fine-Tuning of LLaMA-3.2-3B for Medical Chain-of-Thought\nReasoning, accessed December 12, 2025, https://t.co/jiDbh9m6MU\n16. Top 7 AI Healthcare Platforms 2025 | Expert Review - https://t.co/l3YVHtDo1f, accessed December\n12, 2025, https://t.co/falF5IKXkD\n17. Best 10 AI Medical Coders in 2025 | Accuracy & ROI - https://t.co/l3YVHtDo1f, accessed December\n12, 2025, https://t.co/pZQKvs4GX5\n18. Clinical documentation | Nym Health, accessed December 12, 2025,\nhttps://t.co/Z7YIBNW5EJ\n19. Clinical Language Understanding Technology | Translate Clinical Data - Nym\nHealth, accessed December 12, 2025,\nhttps://t.co/ecRPagLMW0\n20. 2025: Top AI Healthcare Companies Transforming Care - Prosper AI, accessed\nDecember 12, 2025,\nhttps://t.co/XY0eCbrnXw\n-watch\n21. Nym's Autonomous Medical Coding Engine, accessed December 12, 2025,\nhttps://t.co/MHWJobWIw8\n\n22. Fathom - Medical coding automation powered by AI, accessed December 12,\n2025, https://t.co/pA8t2NdmNU\n23. Top 10 Fathom Alternatives & Competitors - AVIA Marketplace, accessed\nDecember 12, 2025,\nhttps://t.co/dYbSD69Jjq\nes\n24. Medical Coding Software in 2025: Secure, AI-Powered Medical Coding & RCM -\nHathr AI, accessed December 12, 2025,\nhttps://t.co/sR9cKhNyTP\n25. Voice agents | OpenAI API, accessed December 12, 2025,\nhttps://t.co/Va12GGBjfH",
-    "author": "@DrGhattasMD",
-    "author_name": "The Unknown Known",
-    "date": "2026-08-01",
-    "url": "https://x.com/DrGhattasMD/status/2083553366794272908",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.255Z",
-    "notes": "query: \"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\" | via x402atlas"
-  },
-  {
     "id": "e5b697d89671",
     "agent": "vellum",
     "quote": "@prukalpa Prukalpa would love for you to test @vellum_ai, happy to send some free credits too!",
@@ -1123,7 +1159,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.783Z",
@@ -1140,7 +1178,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.783Z",
@@ -1394,7 +1434,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1430,7 +1472,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1509,24 +1553,6 @@
     "notes": "query: @vellum_ai | via x402atlas"
   },
   {
-    "id": "aef34aa16bcb",
-    "agent": "vellum",
-    "quote": "Contextual Cards: The UI presents \"cards\" for different data types (medications, allergies, labs) that can be manipulated, reordered, or expanded, creating a fluid workspace that replaces the rigid, click-heavy menus of the EHR.28\n________________\n7. Regulatory & Ethical Moats: Defending the OS\nTo operate at this scale and depth, OmniMed Pro must build defensible moats around regulation and safety.\n7.1 MedHELM Evaluation Framework\nTo prove superiority and safety, OmniMed Pro adopts the MedHELM (Holistic Evaluation of Large Language Models for Medical Applications) framework.7 Unlike static benchmarks (USMLE), MedHELM evaluates models on:\n* Clinical Utility: Is the answer helpful and actionable?\n* Safety/Harm: Did it suggest a fatal dosage or miss a critical red flag?\n* Bias: Does it perform equally well for all demographics?\n* Alignment: Does it follow the specific hospital's protocols?\nBy continuously running MedHELM evaluations on its hybrid outputs, OmniMed Pro provides a \"Quality Seal\" that single-model providers cannot match without deep integration into the hospital's data.\n7.2 Liability Frameworks\nIn a multi-model world, liability is complex. OmniMed Pro positions itself as a Clinical Decision Support (CDS) tool, not a diagnostic device. The \"Human-in-the-Loop\" is mandatory. By visualizing the debate and uncertainty, the OS places the final decision firmly in the hands of the clinician, mitigating liability risks associated with \"autonomous\" diagnosis.\n________________\n8. Conclusion: The Strategic Imperative\nThe OmniMed Pro 'Medical AI Operating System' represents the inevitable evolution of healthcare artificial intelligence. By moving beyond the \"Model-as-Product\" mindset and embracing an Architecture of Aggregation, it solves the fundamental trilemma of medical AI: Accuracy, Cost, and Trust.\n1. Leverage the Router to commoditize the giants (OpenAI, Anthropic) and extract the best capabilities of each.7\n2. Deploy the Consensus Engine (MCC) to achieve \"Super-Human\" reliability through adversarial debate.4\n3. Unleash the Swarms to automate the physical and administrative burdens of healthcare.14\n4. Infiltrate via Shadow AI to bypass bureaucratic inertia and win the hearts and minds of clinicians directly.6\nIn doing so, OmniMed Pro does not just \"outperform\" OpenAI; it contains them, turning their powerful models into mere components of a higher-order medical intelligence. This is the path to disrupting the global medical industry.\n________________\nTechnical Appendix: Implementation Roadmap\nA.1 Deploying the MCC Debate Engine\nTo implement the Model Confrontation and Collaboration (MCC) engine 4:\n1. Select Models: Integrate API endpoints for GPT-o1 (Moderator), Claude 3.7 (Reasoning), and DeepSeek-R1 (Critic).\n2. Define Prompts:\n   * Moderator: \"Compare the following diagnoses. If semantically identical, output FINAL. If divergent, initiate DEBATE_ROUND_1.\"\n   * Critic: \"Review the diagnosis provided by Model A. Identify any inconsistencies with the provided lab values. Cite clinical guidelines.\"\n3. Set Thresholds: If consensus > 0.8 similarity score, output. Else, iterate max 3 rounds.\n4. Fallback: If no consensus, route to \"Human-in-the-Loop\" queue.\nA.2 Building the \"Sidecar\" Extension\nTo build the \"Shadow AI\" browser extension 6:\n1. Manifest V3: Develop using Chrome Manifest V3 for security compliance.\n2. DOM Observer: Use a MutationObserver to detect when the EHR (e.g., Epic Hyperdrive web) loads a patient note field.\n3. Context Extraction: Scrape relevant DOM elements (vitals, meds) locally in the browser (client-side) to minimize data egress risks.\n4. Injection: Inject a floating \"FAB\" (Floating Action Button) or sidebar IFrame that contains the OmniMed chat interface.\n5. Clipboard Actions: Use the Clipboard API to paste generated text back into the EHR's focused input field.\nA.3 Setting up the Swarm Architecture\nTo orchestrate the Swarm 20:\n1. Orchestrator: Use a Python-based orchestrator (like Swarms API or LangGraph).\n2. State Management: Maintain a shared \"Case State\" object (JSON) that all agents can read/write to.\n3. Handoffs: Define explicit state transitions. if (labs_missing) -> route_to(Intake_Agent). if (diagnosis_ready) -> route_to(Synthesizer).\n4. Standardization: Ensure all agents output in structured JSON (FHIR format) to maintain data integrity across the swarm.\nWorks cited\n1. Measurement of retrieved chunk quality from real-world knowledge in retrieval-augmented generation: A Phase 1 foundational study - medRxiv, accessed February 8, 2026, https://t.co/W9lKzB7ON6\n2. 2026 AI Trends in US Healthcare - TATEEDA | GLOBAL, accessed February 8, 2026, https://t.co/lzVQl1k5MK\n3. Collaborative intelligence in AI: Evaluating the performance of a ..., accessed February 9, 2026, https://t.co/f4VwkEIljE\n4. Model confrontation and collaboration: A debate intelligence ..., accessed February 9, 2026, https://t.co/ocKk2phkLG\n5. Shadow AI: Providers are using unapproved tools to improve ..., accessed February 9, 2026, https://t.co/jk49lIVJkp\n6. AI Clinician Copilot - Chrome Extension for Any EHR - Medroid, accessed February 9, 2026, https://t.co/0nP6qlST10\n7. How To Build a Safe, Secure Medical AI Platform | Stanford HAI, accessed February 9, 2026, https://t.co/bSvoBO9McN\n8. Learning to reason with LLMs | OpenAI, accessed February 8, 2026, https://t.co/CEPJDVDPjC\n9. GPT-5 Benchmarks - Vellum AI, accessed February 8, 2026, https://t.co/JhKPD7ObX1\n10. Claude 3.7 Sonnet and Claude Code - Anthropic, accessed February 9, 2026, https://t.co/yTZO57daX7\n11. Challenges and Solutions in Applying Large Language Models to Guideline-Based Management Planning and Automated Medical Coding in Health Care: Algorithm Development and Validation - PMC - NIH, accessed February 8, 2026, https://t.co/DtKjGQ7fYg\n12. LLM Benchmarks in Life Sciences: Comprehensive Overview - IntuitionLabs, accessed February 9, 2026, https://t.co/Ib2DzipenV\n13. MedQA - Vals AI, accessed February 9, 2026, https://t.co/aNzJZhFcMq\n14. MONAI Integrates Advanced Agentic Architectures to Establish ..., accessed February 9, 2026, https://t.co/UQ5urzpdTv\n15. Overview — NVIDIA NIM for VISTA-3D, accessed February 9, 2026, https://t.co/EcqzXO9pab\n16. Design of an interface to communicate artificial intelligence-based ..., accessed February 9, 2026, https://t.co/9rvuvFV2jh\n17. Sankey diagram of LLM tasks and disease categories (with paper count more than 10) - ResearchGate, accessed February 9, 2026, https://t.co/kv27HtkLBY\n18. Overview of Sankey Flow Diagrams: Focusing on Symptom Trajectories in Older Adults with Advanced Cancer - PMC, accessed February 9, 2026, https://t.co/b9VuIFE9YA\n19. Building Medical Multi-Agent Systems with Swarms Rust: A Comprehensive Tutorial, accessed February 9, 2026, https://t.co/II51k7B7ns\n20. Multi-Agent Medical Decision Consensus Matrix System: An Intelligent Collaborative Framework for Oncology MDT Consultations - arXiv, accessed February 8, 2026, https://t.co/JnzCRFOhff\n21. AWS Prescriptive Guidance - Agentic AI patterns and workflows on ..., accessed February 9, 2026, https://t.co/uMmAH8EiAh\n22. 6 tips for using Anki flashcards: Make med school learning easier | AMA, accessed February 9, 2026, https://t.co/DeadcZpbXT\n23. How Solo Founders Are Building $1M+ SaaS Businesses (Using Only AI Tools) - Aakash Gupta, accessed February 9, 2026, https://t.co/N7MJvBpv2d\n24. A Use Case for Generative AI in Medical Education, accessed February 9, 2026, https://t.co/dpTx4NzrFW\n25. Governing Shadow AI in Healthcare | Cloud Security Solutions - ClearDATA, accessed February 9, 2026, https://t.co/bgMzmB69D3\n26. Supporting clinical reasoning through visual... : JAMIA - Journal of the American Medical Informatics Association - Ovid, accessed February 9, 2026, https://t.co/9yewmWetVY\n27. How to Build an AI Agent for Healthcare: A Generative UI Guide, accessed February 9, 2026, https://t.co/Vr65Y6boWX\n28. Dashboard Design: best practices and examples - Justinmind, accessed February 8, 2026, https://t.co/8ak3kbRg1L\n29. domdomegg/computer-use-mcp: Give AI models complete ... - GitHub, accessed February 8, 2026, https://t.co/CDyFCj1PQ0",
-    "author": "@DrGhattasMD",
-    "author_name": "The Unknown Known",
-    "date": "2026-07-31",
-    "url": "https://x.com/DrGhattasMD/status/2083330538220208555",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.785Z",
-    "notes": "query: \"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\" | via x402atlas"
-  },
-  {
     "id": "5a41298ea90d",
     "agent": "vellum",
     "quote": "Vellum Assistant embodied 🤯",
@@ -1556,25 +1582,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.785Z",
-    "notes": "query: \"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\" | via x402atlas"
-  },
-  {
-    "id": "54563704ea62",
-    "agent": "vellum",
-    "quote": "* Contextual Cards: The UI presents \"cards\" for different data types (medications, allergies, labs) that can be manipulated, reordered, or expanded, creating a fluid workspace that replaces the rigid, click-heavy menus of the EHR.28\n________________\n7. Regulatory & Ethical Moats: Defending the OS\nTo operate at this scale and depth, OmniMed Pro must build defensible moats around regulation and safety.\n7.1 MedHELM Evaluation Framework\nTo prove superiority and safety, OmniMed Pro adopts the MedHELM (Holistic Evaluation of Large Language Models for Medical Applications) framework.7 Unlike static benchmarks (USMLE), MedHELM evaluates models on:\n* Clinical Utility: Is the answer helpful and actionable?\n* Safety/Harm: Did it suggest a fatal dosage or miss a critical red flag?\n* Bias: Does it perform equally well for all demographics?\n* Alignment: Does it follow the specific hospital's protocols?\nBy continuously running MedHELM evaluations on its hybrid outputs, OmniMed Pro provides a \"Quality Seal\" that single-model providers cannot match without deep integration into the hospital's data.\n7.2 Liability Frameworks\nIn a multi-model world, liability is complex. OmniMed Pro positions itself as a Clinical Decision Support (CDS) tool, not a diagnostic device. The \"Human-in-the-Loop\" is mandatory. By visualizing the debate and uncertainty, the OS places the final decision firmly in the hands of the clinician, mitigating liability risks associated with \"autonomous\" diagnosis.\n________________\n8. Conclusion: The Strategic Imperative\nThe OmniMed Pro 'Medical AI Operating System' represents the inevitable evolution of healthcare artificial intelligence. By moving beyond the \"Model-as-Product\" mindset and embracing an Architecture of Aggregation, it solves the fundamental trilemma of medical AI: Accuracy, Cost, and Trust.\n1. Leverage the Router to commoditize the giants (OpenAI, Anthropic) and extract the best capabilities of each.7\n2. Deploy the Consensus Engine (MCC) to achieve \"Super-Human\" reliability through adversarial debate.4\n3. Unleash the Swarms to automate the physical and administrative burdens of healthcare.14\n4. Infiltrate via Shadow AI to bypass bureaucratic inertia and win the hearts and minds of clinicians directly.6\nIn doing so, OmniMed Pro does not just \"outperform\" OpenAI; it contains them, turning their powerful models into mere components of a higher-order medical intelligence. This is the path to disrupting the global medical industry.\n________________\nTechnical Appendix: Implementation Roadmap\nA.1 Deploying the MCC Debate Engine\nTo implement the Model Confrontation and Collaboration (MCC) engine 4:\n1. Select Models: Integrate API endpoints for GPT-o1 (Moderator), Claude 3.7 (Reasoning), and DeepSeek-R1 (Critic).\n2. Define Prompts:\n* Moderator: \"Compare the following diagnoses. If semantically identical, output FINAL. If divergent, initiate DEBATE_ROUND_1.\"\n* Critic: \"Review the diagnosis provided by Model A. Identify any inconsistencies with the provided lab values. Cite clinical guidelines.\"\n3. Set Thresholds: If consensus > 0.8 similarity score, output. Else, iterate max 3 rounds.\n4. Fallback: If no consensus, route to \"Human-in-the-Loop\" queue.\nA.2 Building the \"Sidecar\" Extension\nTo build the \"Shadow AI\" browser extension 6:\n1. Manifest V3: Develop using Chrome Manifest V3 for security compliance.\n2. DOM Observer: Use a MutationObserver to detect when the EHR (e.g., Epic Hyperdrive web) loads a patient note field.\n3. Context Extraction: Scrape relevant DOM elements (vitals, meds) locally in the browser (client-side) to minimize data egress risks.\n4. Injection: Inject a floating \"FAB\" (Floating Action Button) or sidebar IFrame that contains the OmniMed chat interface.\n5. Clipboard Actions: Use the Clipboard API to paste generated text back into the EHR's focused input field.\nA.3 Setting up the Swarm Architecture\nTo orchestrate the Swarm 20:\n1. Orchestrator: Use a Python-based orchestrator (like Swarms API or LangGraph).\n2. State Management: Maintain a shared \"Case State\" object (JSON) that all agents can read/write to.\n3. Handoffs: Define explicit state transitions. if (labs_missing) -> route_to(Intake_Agent). if (diagnosis_ready) -> route_to(Synthesizer).\n4. Standardization: Ensure all agents output in structured JSON (FHIR format) to maintain data integrity across the swarm.\nWorks cited\n1. Measurement of retrieved chunk quality from real-world knowledge in retrieval-augmented generation: A Phase 1 foundational study - medRxiv, accessed February 8, 2026, https://t.co/W9lKzB7ON6\n2. 2026 AI Trends in US Healthcare - TATEEDA | GLOBAL, accessed February 8, 2026, https://t.co/lzVQl1k5MK\n3. Collaborative intelligence in AI: Evaluating the performance of a ..., accessed February 9, 2026, https://t.co/f4VwkEIljE\n4. Model confrontation and collaboration: A debate intelligence ..., accessed February 9, 2026, https://t.co/ocKk2phkLG\n5. Shadow AI: Providers are using unapproved tools to improve ..., accessed February 9, 2026, https://t.co/jk49lIVJkp\n6. AI Clinician Copilot - Chrome Extension for Any EHR - Medroid, accessed February 9, 2026, https://t.co/0nP6qlST10\n7. How To Build a Safe, Secure Medical AI Platform | Stanford HAI, accessed February 9, 2026, https://t.co/bSvoBO9McN\n8. Learning to reason with LLMs | OpenAI, accessed February 8, 2026, https://t.co/CEPJDVDPjC\n9. GPT-5 Benchmarks - Vellum AI, accessed February 8, 2026, https://t.co/JhKPD7ObX1\n10. Claude 3.7 Sonnet and Claude Code - Anthropic, accessed February 9, 2026, https://t.co/yTZO57daX7\n11. Challenges and Solutions in Applying Large Language Models to Guideline-Based Management Planning and Automated Medical Coding in Health Care: Algorithm Development and Validation - PMC - NIH, accessed February 8, 2026, https://t.co/DtKjGQ7fYg\n12. LLM Benchmarks in Life Sciences: Comprehensive Overview - IntuitionLabs, accessed February 9, 2026, https://t.co/Ib2DzipenV\n13. MedQA - Vals AI, accessed February 9, 2026, https://t.co/aNzJZhFcMq\n14. MONAI Integrates Advanced Agentic Architectures to Establish ..., accessed February 9, 2026, https://t.co/UQ5urzpdTv\n15. Overview — NVIDIA NIM for VISTA-3D, accessed February 9, 2026, https://t.co/EcqzXO9pab\n16. Design of an interface to communicate artificial intelligence-based ..., accessed February 9, 2026, https://t.co/9rvuvFV2jh\n17. Sankey diagram of LLM tasks and disease categories (with paper count more than 10) - ResearchGate, accessed February 9, 2026, https://t.co/kv27HtkLBY\n18. Overview of Sankey Flow Diagrams: Focusing on Symptom Trajectories in Older Adults with Advanced Cancer - PMC, accessed February 9, 2026, https://t.co/b9VuIFE9YA\n19. Building Medical Multi-Agent Systems with Swarms Rust: A Comprehensive Tutorial, accessed February 9, 2026, https://t.co/II51k7B7ns\n20. Multi-Agent Medical Decision Consensus Matrix System: An Intelligent Collaborative Framework for Oncology MDT Consultations - arXiv, accessed February 8, 2026, https://t.co/JnzCRFOhff\n21. AWS Prescriptive Guidance - Agentic AI patterns and workflows on ..., accessed February 9, 2026, https://t.co/uMmAH8EiAh\n22. 6 tips for using Anki flashcards: Make med school learning easier | AMA, accessed February 9, 2026, https://t.co/DeadcZpbXT\n23. How Solo Founders Are Building $1M+ SaaS Businesses (Using Only AI Tools) - Aakash Gupta, accessed February 9, 2026, https://t.co/N7MJvBpv2d\n24. A Use Case for Generative AI in Medical Education, accessed February 9, 2026, https://t.co/dpTx4NzrFW\n25. Governing Shadow AI in Healthcare | Cloud Security Solutions - ClearDATA, accessed February 9, 2026, https://t.co/bgMzmB69D3\n26. Supporting clinical reasoning through visual... : JAMIA - Journal of the American Medical Informatics Association - Ovid, accessed February 9, 2026, https://t.co/9yewmWetVY\n27. How to Build an AI Agent for Healthcare: A Generative UI Guide, accessed February 9, 2026, https://t.co/Vr65Y6boWX\n28. Dashboard Design: best practices and examples - Justinmind, accessed February 8, 2026, https://t.co/8ak3kbRg1L\n29. domdomegg/computer-use-mcp: Give AI models complete ... - GitHub, accessed February 8, 2026,",
-    "author": "@DrGhattasMD",
-    "author_name": "The Unknown Known",
-    "date": "2026-07-31",
-    "url": "https://x.com/DrGhattasMD/status/2083158005281927182",
-    "kind": "other",
-    "tags": [
-      "auto",
       "x",
-      "reply"
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1591,7 +1601,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1625,7 +1637,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1661,7 +1675,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1678,7 +1694,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",
@@ -1715,7 +1733,9 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.785Z",

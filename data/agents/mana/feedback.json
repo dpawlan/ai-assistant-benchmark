@@ -27,7 +27,9 @@
     "kind": "other",
     "tags": [
       "ui",
-      "form-factor"
+      "form-factor",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
@@ -44,7 +46,9 @@
     "kind": "use-case",
     "tags": [
       "multiplayer",
-      "apps"
+      "apps",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",

@@ -468,7 +468,9 @@
     "tags": [
       "group-text",
       "browser",
-      "company"
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
@@ -573,7 +575,9 @@
     "kind": "use-case",
     "tags": [
       "timezone",
-      "calendar"
+      "calendar",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
@@ -725,7 +729,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.227Z",
@@ -1026,7 +1032,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.756Z",
@@ -1062,7 +1070,9 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "founder",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.756Z",

@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-08",
   "agent_count": 40,
-  "feedback_count": 2709,
+  "feedback_count": 2544,
   "confirmed": 30,
   "stretch": 10,
   "agents": [
@@ -30,7 +30,7 @@
       "name": "Asmi",
       "status": "confirmed",
       "site": "https://asmiai.com/",
-      "feedback_count": 23,
+      "feedback_count": 22,
       "public_signal": null,
       "tagline": "AI that handles your chores in the physical world",
       "icon": "/logos/asmi.png"
@@ -80,7 +80,7 @@
       "name": "Folk",
       "status": "confirmed",
       "site": "https://www.folk.com/",
-      "feedback_count": 238,
+      "feedback_count": 197,
       "public_signal": "medium",
       "tagline": "The friend in your texts",
       "icon": "/logos/folk.png"
@@ -90,7 +90,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 172,
+      "feedback_count": 167,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png"
@@ -110,7 +110,7 @@
       "name": "HireAlpha",
       "status": "confirmed",
       "site": "https://hirealpha.chat/",
-      "feedback_count": 24,
+      "feedback_count": 14,
       "public_signal": "low",
       "tagline": "Friend, coworker and cofounder as iMessage contacts",
       "icon": "/logos/hirealpha.png"
@@ -120,7 +120,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-      "feedback_count": 246,
+      "feedback_count": 173,
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png"
@@ -170,7 +170,7 @@
       "name": "Miso",
       "status": "confirmed",
       "site": "https://miso.com/",
-      "feedback_count": 66,
+      "feedback_count": 65,
       "public_signal": "high",
       "tagline": "Personal AI travel agent, over iMessage",
       "icon": "/logos/miso.png"
@@ -190,7 +190,7 @@
       "name": "Ollie",
       "status": "confirmed",
       "site": "https://ollie.ai/",
-      "feedback_count": 125,
+      "feedback_count": 124,
       "public_signal": null,
       "tagline": "Privacy-first assistant for email, calendar and reminders",
       "icon": "/logos/ollie.png"
@@ -200,7 +200,7 @@
       "name": "OpenInstinct",
       "status": "confirmed",
       "site": "https://openinstinct.sh/",
-      "feedback_count": 103,
+      "feedback_count": 99,
       "public_signal": null,
       "tagline": "Open-source assistant that lives in your iMessage thread",
       "icon": "/logos/openinstinct.png"
@@ -220,7 +220,7 @@
       "name": "Pally",
       "status": "confirmed",
       "site": "https://pally.com/",
-      "feedback_count": 77,
+      "feedback_count": 74,
       "public_signal": null,
       "tagline": "The AI personal assistant you text",
       "icon": "/logos/pally.png"
@@ -230,7 +230,7 @@
       "name": "personal/local",
       "status": "confirmed",
       "site": "",
-      "feedback_count": 177,
+      "feedback_count": 170,
       "public_signal": null,
       "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
       "icon": null
@@ -300,7 +300,7 @@
       "name": "Slashy",
       "status": "confirmed",
       "site": "https://www.slashy.com/",
-      "feedback_count": 141,
+      "feedback_count": 139,
       "public_signal": null,
       "tagline": "The AI assistant that does email for you",
       "icon": "/logos/slashy.png"
@@ -320,7 +320,7 @@
       "name": "Synorb",
       "status": "stretch",
       "site": "https://synorb.com/",
-      "feedback_count": 18,
+      "feedback_count": 17,
       "public_signal": "medium",
       "tagline": "Temporal context graph for AI agents",
       "icon": "/logos/synorb.png"
@@ -330,7 +330,7 @@
       "name": "szn",
       "status": "confirmed",
       "site": "https://theszn.ai/",
-      "feedback_count": 37,
+      "feedback_count": 36,
       "public_signal": null,
       "tagline": "The work behind your life",
       "icon": "/logos/szn.png"
@@ -350,7 +350,7 @@
       "name": "tinyNature",
       "status": "confirmed",
       "site": "https://tinypeople.ai/",
-      "feedback_count": 75,
+      "feedback_count": 74,
       "public_signal": "medium",
       "tagline": "Personal assistant for appointments, on WhatsApp",
       "icon": "/logos/tinynature.png"
@@ -360,7 +360,7 @@
       "name": "Tomo",
       "status": "confirmed",
       "site": "https://tomo.ai/",
-      "feedback_count": 70,
+      "feedback_count": 62,
       "public_signal": null,
       "tagline": "The personal AI that lives in your texts",
       "icon": "/logos/tomo.png"
@@ -380,7 +380,7 @@
       "name": "Vellum",
       "status": "confirmed",
       "site": "https://www.vellum.ai/",
-      "feedback_count": 100,
+      "feedback_count": 97,
       "public_signal": null,
       "tagline": "An assistant that knows you deeply and belongs to no one else",
       "icon": "/logos/vellum.png"
@@ -390,7 +390,7 @@
       "name": "Wajo / Fo",
       "status": "confirmed",
       "site": "https://wajo.ai/",
-      "feedback_count": 61,
+      "feedback_count": 58,
       "public_signal": null,
       "tagline": "Action agents that get things done in the physical world",
       "icon": "/logos/wajo-fo.png"

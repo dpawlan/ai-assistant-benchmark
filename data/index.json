@@ -11,7 +11,9 @@
       "status": "stretch",
       "site": "https://withako.com/",
       "feedback_count": 8,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "An AI employee for your team, with its own email and workspace",
+      "icon": "/logos/ako.png"
     },
     {
       "slug": "asaply",
@@ -19,7 +21,9 @@
       "status": "confirmed",
       "site": "https://asaply.ai/",
       "feedback_count": 9,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Text it, we run it: coffee, food, tickets and errands",
+      "icon": "/logos/asaply.png"
     },
     {
       "slug": "asmi",
@@ -27,7 +31,9 @@
       "status": "confirmed",
       "site": "https://asmiai.com/",
       "feedback_count": 16,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "AI that handles your chores in the physical world",
+      "icon": "/logos/asmi.png"
     },
     {
       "slug": "boba",
@@ -35,7 +41,9 @@
       "status": "confirmed",
       "site": "https://trygist.ai/",
       "feedback_count": 2,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "An AI you can text, one-on-one or in group chats",
+      "icon": "/logos/boba.png"
     },
     {
       "slug": "buoy",
@@ -43,7 +51,9 @@
       "status": "confirmed",
       "site": "https://buoy.chat/",
       "feedback_count": 14,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "iOS assistant that runs web apps and scheduled tasks",
+      "icon": "/logos/buoy.png"
     },
     {
       "slug": "caddy",
@@ -51,7 +61,9 @@
       "status": "confirmed",
       "site": "https://caddy.app/",
       "feedback_count": 18,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Your personal AI in Messages",
+      "icon": "/logos/caddy.png"
     },
     {
       "slug": "catch",
@@ -59,7 +71,9 @@
       "status": "confirmed",
       "site": "https://catchagent.ai/",
       "feedback_count": 26,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Your admin savior: scheduling, email and calls",
+      "icon": "/logos/catch.png"
     },
     {
       "slug": "folk",
@@ -67,15 +81,19 @@
       "status": "confirmed",
       "site": "https://www.folk.com/",
       "feedback_count": 15,
-      "public_signal": "medium"
+      "public_signal": "medium",
+      "tagline": "The friend in your texts",
+      "icon": "/logos/folk.png"
     },
     {
       "slug": "grok-bot",
       "name": "Grok Bot",
       "status": "confirmed",
-      "site": "",
+      "site": "https://grok.com/",
       "feedback_count": 73,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "xAI's Grok with real-time answers from the web and X",
+      "icon": "/logos/grok-bot.png"
     },
     {
       "slug": "halo",
@@ -83,7 +101,9 @@
       "status": "confirmed",
       "site": "https://meethalo.app/",
       "feedback_count": 5,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Automate your life, right from your iPhone",
+      "icon": "/logos/halo.png"
     },
     {
       "slug": "hirealpha",
@@ -91,7 +111,9 @@
       "status": "confirmed",
       "site": "https://hirealpha.chat/",
       "feedback_count": 4,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Friend, coworker and cofounder as iMessage contacts",
+      "icon": "/logos/hirealpha.png"
     },
     {
       "slug": "instinct",
@@ -99,7 +121,9 @@
       "status": "confirmed",
       "site": "https://instinct.co/",
       "feedback_count": 85,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "A personal assistant that takes action across your apps",
+      "icon": "/logos/instinct.png"
     },
     {
       "slug": "joshu",
@@ -107,7 +131,9 @@
       "status": "confirmed",
       "site": "https://joshu.me/",
       "feedback_count": 19,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "An assistant with a desk: its own computer, phone and email",
+      "icon": "/logos/joshu.png"
     },
     {
       "slug": "lava",
@@ -115,7 +141,9 @@
       "status": "stretch",
       "site": "https://www.lava.so/",
       "feedback_count": 9,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "One agent inside every tool you use",
+      "icon": "/logos/lava.png"
     },
     {
       "slug": "lucas",
@@ -123,7 +151,9 @@
       "status": "confirmed",
       "site": "https://meetlucas.ai/",
       "feedback_count": 11,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "The assistant that texts you first",
+      "icon": "/logos/lucas.png"
     },
     {
       "slug": "mana",
@@ -131,7 +161,9 @@
       "status": "confirmed",
       "site": "https://mana.space/",
       "feedback_count": 10,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "An AI-native OS where apps evolve with you",
+      "icon": "/logos/mana.png"
     },
     {
       "slug": "miso",
@@ -139,7 +171,9 @@
       "status": "confirmed",
       "site": "https://miso.com/",
       "feedback_count": 17,
-      "public_signal": "high"
+      "public_signal": "high",
+      "tagline": "Personal AI travel agent, over iMessage",
+      "icon": "/logos/miso.png"
     },
     {
       "slug": "moves",
@@ -147,7 +181,9 @@
       "status": "stretch",
       "site": null,
       "feedback_count": 0,
-      "public_signal": "unknown"
+      "public_signal": "unknown",
+      "tagline": "Not yet verified as a product",
+      "icon": null
     },
     {
       "slug": "ollie",
@@ -155,23 +191,29 @@
       "status": "confirmed",
       "site": "https://ollie.ai/",
       "feedback_count": 24,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Privacy-first assistant for email, calendar and reminders",
+      "icon": "/logos/ollie.png"
     },
     {
       "slug": "openinstinct",
       "name": "OpenInstinct",
       "status": "confirmed",
-      "site": "",
+      "site": "https://openinstinct.sh/",
       "feedback_count": 17,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Open-source assistant that lives in your iMessage thread",
+      "icon": "/logos/openinstinct.png"
     },
     {
       "slug": "orchid",
       "name": "Orchid",
       "status": "confirmed",
-      "site": "",
+      "site": "https://orchid.ai/",
       "feedback_count": 29,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "A personal assistant that lives in your messages",
+      "icon": "/logos/orchid.png"
     },
     {
       "slug": "pally",
@@ -179,7 +221,9 @@
       "status": "confirmed",
       "site": "https://pally.com/",
       "feedback_count": 20,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The AI personal assistant you text",
+      "icon": "/logos/pally.png"
     },
     {
       "slug": "personal-local",
@@ -187,7 +231,9 @@
       "status": "confirmed",
       "site": "",
       "feedback_count": 52,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
+      "icon": null
     },
     {
       "slug": "pneum",
@@ -195,7 +241,9 @@
       "status": "stretch",
       "site": "https://pneum.ai/",
       "feedback_count": 0,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Talk or type; it gets things done",
+      "icon": "/logos/pneum.png"
     },
     {
       "slug": "poke",
@@ -203,7 +251,9 @@
       "status": "confirmed",
       "site": "https://poke.com/",
       "feedback_count": 36,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The proactive assistant on Messages, WhatsApp and Telegram",
+      "icon": "/logos/poke.png"
     },
     {
       "slug": "shoponscout",
@@ -211,7 +261,9 @@
       "status": "stretch",
       "site": "https://shoponscout.com/",
       "feedback_count": 10,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Your retail therapist. Talk to shop.",
+      "icon": "/logos/shoponscout.png"
     },
     {
       "slug": "shuffle",
@@ -219,7 +271,9 @@
       "status": "confirmed",
       "site": "https://shuffle.cool/",
       "feedback_count": 4,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "AI you can text and call for images, memes and more",
+      "icon": "/logos/shuffle.png"
     },
     {
       "slug": "sircle",
@@ -227,7 +281,9 @@
       "status": "stretch",
       "site": null,
       "feedback_count": 0,
-      "public_signal": "unknown"
+      "public_signal": "unknown",
+      "tagline": "Not yet verified as a product",
+      "icon": null
     },
     {
       "slug": "skydive",
@@ -235,15 +291,19 @@
       "status": "stretch",
       "site": "https://www.skydive.com/",
       "feedback_count": 19,
-      "public_signal": "medium"
+      "public_signal": "medium",
+      "tagline": "Cloud agents you talk to in Slack, email or iMessage",
+      "icon": "/logos/skydive.png"
     },
     {
       "slug": "slashy",
       "name": "Slashy",
       "status": "confirmed",
-      "site": "",
+      "site": "https://www.slashy.com/",
       "feedback_count": 36,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The AI assistant that does email for you",
+      "icon": "/logos/slashy.png"
     },
     {
       "slug": "soar",
@@ -251,7 +311,9 @@
       "status": "confirmed",
       "site": "https://joinsoar.co/",
       "feedback_count": 25,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Your personal travel companion",
+      "icon": "/logos/soar.png"
     },
     {
       "slug": "synorb",
@@ -259,7 +321,9 @@
       "status": "stretch",
       "site": "https://synorb.com/",
       "feedback_count": 8,
-      "public_signal": "medium"
+      "public_signal": "medium",
+      "tagline": "Temporal context graph for AI agents",
+      "icon": "/logos/synorb.png"
     },
     {
       "slug": "szn",
@@ -267,7 +331,9 @@
       "status": "confirmed",
       "site": "https://theszn.ai/",
       "feedback_count": 20,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The work behind your life",
+      "icon": "/logos/szn.png"
     },
     {
       "slug": "text-zero",
@@ -275,7 +341,9 @@
       "status": "stretch",
       "site": "https://meetzero.ai/",
       "feedback_count": 9,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "24/7 concierge that runs your errands",
+      "icon": "/logos/text-zero.png"
     },
     {
       "slug": "tinynature",
@@ -283,7 +351,9 @@
       "status": "confirmed",
       "site": "https://tinypeople.ai/",
       "feedback_count": 19,
-      "public_signal": "medium"
+      "public_signal": "medium",
+      "tagline": "Personal assistant for appointments, on WhatsApp",
+      "icon": "/logos/tinynature.png"
     },
     {
       "slug": "tomo",
@@ -291,7 +361,9 @@
       "status": "confirmed",
       "site": "https://tomo.ai/",
       "feedback_count": 24,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The personal AI that lives in your texts",
+      "icon": "/logos/tomo.png"
     },
     {
       "slug": "town",
@@ -299,15 +371,19 @@
       "status": "confirmed",
       "site": "https://www.town.com/",
       "feedback_count": 36,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "The assistant that learns how you work, then gets to work",
+      "icon": "/logos/town.png"
     },
     {
       "slug": "vellum",
       "name": "Vellum",
       "status": "confirmed",
-      "site": "",
+      "site": "https://www.vellum.ai/",
       "feedback_count": 34,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "An assistant that knows you deeply and belongs to no one else",
+      "icon": "/logos/vellum.png"
     },
     {
       "slug": "wajo-fo",
@@ -315,7 +391,9 @@
       "status": "confirmed",
       "site": "https://wajo.ai/",
       "feedback_count": 25,
-      "public_signal": null
+      "public_signal": null,
+      "tagline": "Action agents that get things done in the physical world",
+      "icon": "/logos/wajo-fo.png"
     },
     {
       "slug": "waldo",
@@ -323,7 +401,9 @@
       "status": "stretch",
       "site": "https://heywaldo.in/",
       "feedback_count": 7,
-      "public_signal": "low"
+      "public_signal": "low",
+      "tagline": "Action layer for the human day",
+      "icon": "/logos/waldo.png"
     }
   ]
 }

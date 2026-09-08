@@ -17,5 +17,7 @@
     "recommendation_quality",
     "personality"
   ],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "Your retail therapist. Talk to shop.",
+  "icon": "/logos/shoponscout.png"
 }

@@ -1,10 +1,12 @@
 {
   "slug": "openinstinct",
   "name": "OpenInstinct",
-  "site": "",
+  "site": "https://openinstinct.sh/",
   "handles": [
     "OpenInstinct"
   ],
   "status": "confirmed",
-  "notes": ""
+  "notes": "",
+  "tagline": "Open-source assistant that lives in your iMessage thread",
+  "icon": "/logos/openinstinct.png"
 }

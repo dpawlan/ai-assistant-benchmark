@@ -1,0 +1,216 @@
+{
+  "version": "0.1",
+  "scale": "1-10",
+  "tasks": [
+    {
+      "key": "online_task",
+      "task": "Book a hotel stay",
+      "prompt": "Book me a hotel in Chicago for Friday and Saturday next week, under $250 a night, near the Loop, with free cancellation.",
+      "pass": [
+        "Finds real rooms at real rates for the right dates",
+        "Respects the price, location and cancellation constraints",
+        "Completes the booking, or stages it and asks before paying"
+      ],
+      "anchors": {
+        "3": "Gives advice or links; can't act in the browser",
+        "7": "Completes it with one or two corrections from you",
+        "10": "One message, correct booking, confirmation back"
+      }
+    },
+    {
+      "key": "recommendation_quality",
+      "task": "Pick a restaurant with constraints",
+      "prompt": "Find a dinner spot for four tomorrow at 7:30, walking distance from my hotel, vegetarian-friendly, not a chain, under $40 a head.",
+      "pass": [
+        "Every constraint is respected",
+        "Options are real, open, and bookable at that time",
+        "Says why each one fits"
+      ],
+      "anchors": {
+        "3": "Generic list; ignores at least one constraint",
+        "7": "Good picks; one constraint missed or unverified",
+        "10": "Three sharp options, all constraints met, with reasons"
+      }
+    },
+    {
+      "key": "purchasing",
+      "task": "Reorder a product on Amazon",
+      "prompt": "Order the same coffee beans I bought last time from Amazon, two bags, to my home address.",
+      "pass": [
+        "Identifies the right item from order history",
+        "Uses the saved card and address",
+        "Confirms before charging and returns the order confirmation"
+      ],
+      "anchors": {
+        "3": "Finds the item but can't check out",
+        "7": "Orders it; needed a nudge or a retry",
+        "10": "One message, correct order, confirmation number back"
+      }
+    },
+    {
+      "key": "email_replies",
+      "task": "Reply to a scheduling email",
+      "prompt": "Reply to the email from Sam proposing Thursday. Say Thursday doesn't work, offer two slots from my calendar, and keep my usual tone.",
+      "pass": [
+        "Replies on the right thread to the right person",
+        "Offers slots that are actually free",
+        "Reads like you wrote it"
+      ],
+      "anchors": {
+        "3": "Generic draft; wrong context or recipient",
+        "7": "Right thread and slots; tone slightly off",
+        "10": "Indistinguishable from you, sent correctly"
+      }
+    },
+    {
+      "key": "proactive_behavior",
+      "task": "Flight day, unprompted",
+      "prompt": "A flight is on the connected calendar for tomorrow. Say nothing and see what it does.",
+      "pass": [
+        "Checks you in, or offers to, without being asked",
+        "Flags delays or a gate change in time to matter",
+        "Nudges are timely, not noisy"
+      ],
+      "anchors": {
+        "3": "Silent",
+        "7": "Reminds you; takes no action",
+        "10": "Checks you in, moves the seat, tells you the gate"
+      }
+    },
+    {
+      "key": "running_routine",
+      "task": "Daily digest for a week",
+      "prompt": "Every weekday at 7am, send me my calendar for the day, any emails I still owe a reply to, and the weather.",
+      "pass": [
+        "Runs on schedule five weekdays in a row",
+        "Content is correct each day",
+        "Easy to edit or pause"
+      ],
+      "anchors": {
+        "3": "Runs once, or drifts off schedule",
+        "7": "Runs daily; occasional gaps or errors",
+        "10": "Five for five, accurate, easy to change"
+      }
+    },
+    {
+      "key": "third_party_integrations",
+      "task": "Three tools, one request",
+      "prompt": "Add 'Q3 planning' to my Notion tasks, put a 30-minute block on Thursday afternoon for it, and Slack Sam that it's on.",
+      "pass": [
+        "Task lands in the right Notion database",
+        "Block is on the right calendar at a free time",
+        "Message reaches the right person"
+      ],
+      "anchors": {
+        "3": "One of three, or the wrong target",
+        "7": "All three, with one correction",
+        "10": "All three, first try"
+      }
+    },
+    {
+      "key": "memory",
+      "task": "Remember a preference a week later",
+      "prompt": "Tell it once: 'I always want aisle seats and I don't eat pork.' A week later, ask for a flight and a dinner reservation.",
+      "pass": [
+        "Picks an aisle seat without being reminded",
+        "Restaurant suggestion respects the diet",
+        "Doesn't ask again"
+      ],
+      "anchors": {
+        "3": "Forgets by the next session",
+        "7": "Remembers when reminded",
+        "10": "Applies it unprompted a week later"
+      }
+    },
+    {
+      "key": "personality",
+      "task": "A normal week of texts",
+      "prompt": "Use it for a week of ordinary requests. Judge whether it reads like a contact or like a form.",
+      "pass": [
+        "Matches your register and length",
+        "No boilerplate or filler",
+        "Handles a joke without falling apart"
+      ],
+      "anchors": {
+        "3": "Chatbot boilerplate",
+        "7": "Pleasant; sometimes stiff",
+        "10": "You'd forget it's software"
+      }
+    },
+    {
+      "key": "phone_calls",
+      "task": "Call a business and get an answer",
+      "prompt": "Call the restaurant and ask if they can seat eight on Saturday at 8, and whether they have a private room.",
+      "pass": [
+        "A real call is placed",
+        "Both questions get answered",
+        "Summary back is accurate"
+      ],
+      "anchors": {
+        "3": "Can't call",
+        "7": "Calls; partial or garbled answer",
+        "10": "Calls, gets both answers, reports back clearly"
+      }
+    },
+    {
+      "key": "multiplayer_groups",
+      "task": "Plan dinner in a group chat",
+      "prompt": "Add it to a group chat of four. Ask it to find a dinner date that works for everyone and book it.",
+      "pass": [
+        "Reads everyone's replies, not just yours",
+        "Proposes a date that works and books it",
+        "Confirms to the whole group"
+      ],
+      "anchors": {
+        "3": "Only talks to you",
+        "7": "Coordinates; someone has to close the loop",
+        "10": "Polls, picks, books, confirms to all"
+      }
+    },
+    {
+      "key": "chained_tasks",
+      "task": "Flight check-in chain",
+      "prompt": "Check me in for tomorrow's flight. The confirmation is in my email and my passport is in Drive.",
+      "pass": [
+        "Finds the flight in email",
+        "Pulls passport details from Drive",
+        "Completes check-in and returns the boarding pass"
+      ],
+      "anchors": {
+        "3": "Stops at step one",
+        "7": "Completes it with hand-holding between steps",
+        "10": "Boarding pass back, no questions"
+      }
+    },
+    {
+      "key": "proactive_restraint",
+      "task": "Know when not to",
+      "prompt": "Over one evening: a late email from your boss with an ambiguous ask, a delayed package, and a friend texting about weekend plans. Say nothing.",
+      "pass": [
+        "Handles the low-risk item (the package) on its own",
+        "Drafts but doesn't send anything consequential",
+        "Doesn't wake you or spam you"
+      ],
+      "anchors": {
+        "3": "Acts on everything, or on nothing",
+        "7": "Mostly right; one overreach or one miss",
+        "10": "Sorts the package, drafts for the boss, waits on the friend"
+      }
+    },
+    {
+      "key": "content_creation_games",
+      "task": "Make something for the group",
+      "prompt": "Make a birthday image for Sam with our dog on it, then a quick trivia game about 90s movies for the group chat.",
+      "pass": [
+        "Image is on brief and on request",
+        "Game is playable inside the chat",
+        "Iterates when asked"
+      ],
+      "anchors": {
+        "3": "Text only",
+        "7": "Image or game; rough",
+        "10": "Both, good, and it iterates"
+      }
+    }
+  ]
+}

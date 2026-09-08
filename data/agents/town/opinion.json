@@ -1,0 +1,103 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "27a975922d23": {
+      "running_routine": "pos",
+      "proactive_behavior": "pos",
+      "memory": "pos"
+    },
+    "6dc9ca189706": {
+      "email_replies": "pos",
+      "running_routine": "pos",
+      "third_party_integrations": "pos",
+      "proactive_behavior": "pos"
+    },
+    "74b2cb50df8b": {
+      "memory": "pos",
+      "third_party_integrations": "pos",
+      "recommendation_quality": "pos"
+    },
+    "fb58d770a0f9": {
+      "multiplayer_groups": "pos"
+    },
+    "ba7469fd7687": {
+      "multiplayer_groups": "pos"
+    },
+    "a2495bb91f53": {
+      "proactive_behavior": "pos",
+      "third_party_integrations": "pos"
+    },
+    "b8a5c357087a": {
+      "multiplayer_groups": "neutral"
+    },
+    "933f5601a076": {
+      "proactive_behavior": "pos",
+      "email_replies": "pos",
+      "proactive_restraint": "pos"
+    },
+    "83042674e9bf": {
+      "proactive_behavior": "pos"
+    },
+    "171dc064b107": {
+      "online_task": "pos",
+      "third_party_integrations": "pos",
+      "purchasing": "neutral"
+    },
+    "058e82fc8db2": {
+      "running_routine": "pos",
+      "proactive_restraint": "pos",
+      "multiplayer_groups": "pos"
+    },
+    "adb2fb0e38a5": {
+      "personality": "pos"
+    },
+    "55d0129a1111": {
+      "multiplayer_groups": "pos"
+    },
+    "8ffd7a066294": {
+      "multiplayer_groups": "neutral"
+    },
+    "a2c8ea0cb903": {
+      "third_party_integrations": "pos",
+      "email_replies": "pos",
+      "proactive_behavior": "pos"
+    },
+    "50d34499abd3": {
+      "email_replies": "pos"
+    },
+    "158cf0d304ea": {
+      "multiplayer_groups": "pos",
+      "third_party_integrations": "pos"
+    },
+    "b6d0b45acf60": {
+      "multiplayer_groups": "pos"
+    },
+    "c04eaae9d6e3": {
+      "proactive_restraint": "pos"
+    },
+    "257d40adc0e7": {
+      "multiplayer_groups": "pos"
+    },
+    "99509a353c21": {
+      "multiplayer_groups": "pos"
+    },
+    "a333ff621e66": {
+      "email_replies": "neg",
+      "chained_tasks": "neg"
+    },
+    "98defe1d319c": {
+      "general": "pos"
+    },
+    "18d515347e92": {
+      "general": "pos"
+    },
+    "256de6008989": {
+      "general": "pos"
+    },
+    "702a6da66ecc": {
+      "general": "pos"
+    }
+  }
+}

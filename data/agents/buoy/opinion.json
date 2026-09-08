@@ -1,0 +1,15 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "ae6993a5a4cb": {
+      "purchasing": "neutral",
+      "proactive_restraint": "neg"
+    },
+    "937efc9cc1a4": {
+      "online_task": "pos",
+      "proactive_behavior": "pos"
+    }
+  }
+}

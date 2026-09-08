@@ -16,5 +16,7 @@
     "third_party_integrations",
     "purchasing"
   ],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "One agent inside every tool you use",
+  "icon": "/logos/lava.png"
 }

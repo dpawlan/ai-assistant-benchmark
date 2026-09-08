@@ -1,11 +1,13 @@
 {
   "slug": "grok-bot",
   "name": "Grok Bot",
-  "site": "",
+  "site": "https://grok.com/",
   "handles": [
     "bot",
     "Grok Bot"
   ],
   "status": "confirmed",
-  "notes": ""
+  "notes": "",
+  "tagline": "xAI's Grok with real-time answers from the web and X",
+  "icon": "/logos/grok-bot.png"
 }

@@ -17,5 +17,7 @@
     "proactive_behavior",
     "running_routine"
   ],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "24/7 concierge that runs your errands",
+  "icon": "/logos/text-zero.png"
 }

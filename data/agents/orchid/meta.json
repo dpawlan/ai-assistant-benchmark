@@ -1,11 +1,13 @@
 {
   "slug": "orchid",
   "name": "Orchid",
-  "site": "",
+  "site": "https://orchid.ai/",
   "handles": [
     "orchid_hq",
     "Orchid"
   ],
   "status": "confirmed",
-  "notes": ""
+  "notes": "",
+  "tagline": "A personal assistant that lives in your messages",
+  "icon": "/logos/orchid.png"
 }

@@ -15,5 +15,7 @@
     "third_party_integrations",
     "chained_tasks"
   ],
-  "public_signal": "medium"
+  "public_signal": "medium",
+  "tagline": "Temporal context graph for AI agents",
+  "icon": "/logos/synorb.png"
 }

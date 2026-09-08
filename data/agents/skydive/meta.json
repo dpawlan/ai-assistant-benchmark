@@ -15,5 +15,7 @@
     "chained_tasks",
     "email_replies"
   ],
-  "public_signal": "medium"
+  "public_signal": "medium",
+  "tagline": "Cloud agents you talk to in Slack, email or iMessage",
+  "icon": "/logos/skydive.png"
 }

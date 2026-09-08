@@ -1,11 +1,13 @@
 {
   "slug": "vellum",
   "name": "Vellum",
-  "site": "",
+  "site": "https://www.vellum.ai/",
   "handles": [
     "vellum_ai",
     "Vellum"
   ],
   "status": "confirmed",
-  "notes": ""
+  "notes": "",
+  "tagline": "An assistant that knows you deeply and belongs to no one else",
+  "icon": "/logos/vellum.png"
 }

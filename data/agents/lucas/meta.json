@@ -8,5 +8,7 @@
   ],
   "status": "confirmed",
   "notes": "Low end-user X diaries (company/BIP heavy); keep in test roster.",
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "The assistant that texts you first",
+  "icon": "/logos/lucas.png"
 }

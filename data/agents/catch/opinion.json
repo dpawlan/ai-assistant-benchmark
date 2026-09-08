@@ -1,0 +1,64 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-08",
+  "reviewed": false,
+  "quotes": {
+    "deabf7d1477d": {
+      "online_task": "pos",
+      "proactive_behavior": "pos",
+      "phone_calls": "pos"
+    },
+    "17ee697fd6cc": {
+      "email_replies": "pos",
+      "proactive_restraint": "pos"
+    },
+    "a9079f14f06d": {
+      "phone_calls": "pos"
+    },
+    "e476c411ac19": {
+      "online_task": "neg",
+      "proactive_restraint": "neg"
+    },
+    "3fc966fb84fa": {
+      "third_party_integrations": "pos",
+      "email_replies": "pos",
+      "chained_tasks": "pos",
+      "phone_calls": "pos"
+    },
+    "f59d94c7d9a6": {
+      "phone_calls": "mixed",
+      "running_routine": "pos",
+      "proactive_behavior": "pos",
+      "email_replies": "pos"
+    },
+    "ed41258424f4": {
+      "email_replies": "pos",
+      "proactive_behavior": "pos",
+      "proactive_restraint": "pos"
+    },
+    "caf1ffb2922e": {
+      "proactive_behavior": "pos",
+      "online_task": "pos"
+    },
+    "78f1af94d513": {
+      "phone_calls": "pos",
+      "online_task": "pos",
+      "email_replies": "pos",
+      "proactive_behavior": "pos"
+    },
+    "77a94f129c6b": {
+      "chained_tasks": "pos",
+      "email_replies": "pos",
+      "third_party_integrations": "pos"
+    },
+    "2325395f598f": {
+      "general": "pos"
+    },
+    "20d9b6d4f3fc": {
+      "general": "pos"
+    },
+    "57bc6b895d16": {
+      "general": "pos"
+    }
+  }
+}

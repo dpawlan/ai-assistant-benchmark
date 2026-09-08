@@ -1,10 +1,12 @@
 {
   "slug": "slashy",
   "name": "Slashy",
-  "site": "",
+  "site": "https://www.slashy.com/",
   "handles": [
     "Slashy"
   ],
   "status": "confirmed",
-  "notes": ""
+  "notes": "",
+  "tagline": "The AI assistant that does email for you",
+  "icon": "/logos/slashy.png"
 }

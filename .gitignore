@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# iMessage exports stay on your machine; only usage.json and approved evidence are published
+data/agents/*/transcripts/
+data/agents/*/runs.draft.json

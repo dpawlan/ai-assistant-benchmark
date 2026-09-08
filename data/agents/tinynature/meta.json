@@ -8,6 +8,8 @@
     "naturaumana"
   ],
   "status": "confirmed",
-  "notes": "NatureAI / Natura Umana \u2014 messaging PA (WhatsApp/iMessage/Telegram) + NatureOS/HumanPods stack.",
-  "public_signal": "medium"
+  "notes": "NatureAI / Natura Umana — messaging PA (WhatsApp/iMessage/Telegram) + NatureOS/HumanPods stack.",
+  "public_signal": "medium",
+  "tagline": "Personal assistant for appointments, on WhatsApp",
+  "icon": "/logos/tinynature.png"
 }

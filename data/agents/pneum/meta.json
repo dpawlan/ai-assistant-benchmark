@@ -13,5 +13,7 @@
     "phone_calls",
     "third_party_integrations"
   ],
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "Talk or type; it gets things done",
+  "icon": "/logos/pneum.png"
 }

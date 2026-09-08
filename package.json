@@ -6,7 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "collect:x": "node scripts/collect.mjs x",
+    "collect:reddit": "node scripts/collect.mjs reddit",
+    "collect:hn": "node scripts/collect.mjs hn",
+    "collect:appstore": "node scripts/collect.mjs appstore",
+    "collect:producthunt": "node scripts/collect.mjs producthunt",
+    "collect:find-apps": "node scripts/collect.mjs find-apps",
+    "collect:merge": "node scripts/collect.mjs merge",
+    "reindex": "node scripts/collect.mjs reindex",
+    "imessage:export": "node scripts/imessage.mjs export",
+    "imessage:analyze": "node scripts/imessage.mjs analyze",
+    "imessage:approve": "node scripts/imessage.mjs approve",
+    "imessage:status": "node scripts/imessage.mjs status"
   },
   "dependencies": {
     "next": "16.3.4",
@@ -20,6 +32,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
+    "playwright": "^1.63.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

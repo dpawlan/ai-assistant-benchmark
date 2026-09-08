@@ -7,5 +7,7 @@
   ],
   "status": "confirmed",
   "notes": "Low public X signal; keep in test roster.",
-  "public_signal": "low"
+  "public_signal": "low",
+  "tagline": "An AI-native OS where apps evolve with you",
+  "icon": "/logos/mana.png"
 }

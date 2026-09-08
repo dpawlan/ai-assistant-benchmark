@@ -1,112 +1,96 @@
 import { Metadata } from 'next';
-import { getCategories } from '@/lib/data';
+import Link from 'next/link';
+import { CATEGORY_DESCRIPTIONS, getAgents, getCategories, getTaskSet } from '@/lib/data';
+import { Agent, Category } from '@/lib/types';
 
 export const metadata: Metadata = {
-  title: 'Scoring Categories | AI Assistant Benchmark',
-  description: 'The 14 evaluation categories used to benchmark AI personal assistants. 7 core categories and 7 endorsed specialty areas.',
+  title: 'Categories',
+  description: 'The 14 categories every assistant is scored on: seven core, seven endorsed. Each one is a published test and a ranking.',
 };
 
 export default function CategoriesPage() {
   const categories = getCategories();
-  const coreCategories = categories.filter(c => c.group === 'core');
-  const endorsedCategories = categories.filter(c => c.group === 'endorsed');
+  const tasks = getTaskSet();
+  const agents = getAgents();
+  const core = categories.filter(c => c.group === 'core');
+  const endorsed = categories.filter(c => c.group === 'endorsed');
 
   return (
-    <div className="container-content py-8 md:py-12">
-      <header className="mb-8 md:mb-12">
-        <h1 className="text-display mb-3">Scoring Categories</h1>
-        <p className="text-body text-secondary max-w-xl">
-          Every AI assistant is evaluated across the same {categories.length} categories. 
-          This ensures fair, consistent comparisons regardless of the tool&apos;s specialty.
+    <div className="wrap">
+      <div className="page-head">
+        <h1 className="page-title">Categories</h1>
+        <p className="page-sub">
+          Every assistant is scored on the same {categories.length} tests, so a travel bot and a general assistant are judged
+          on identical ground. Each category is its own ranking; open one for the exact task and who leads it.
         </p>
-      </header>
+      </div>
 
-      <section className="mb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-8 h-8 rounded-lg bg-accent-tint flex items-center justify-center">
-            <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-          </div>
-          <div>
-            <h2 className="text-heading">Core Categories</h2>
-            <p className="text-caption text-secondary">Fundamental capabilities</p>
-          </div>
-        </div>
-
-        <div className="card overflow-hidden">
-          {coreCategories.map((category, index) => (
-            <div 
-              key={category.key} 
-              className="flex items-center gap-4 p-4 border-b border-divider last:border-b-0"
-            >
-              <span className="w-7 h-7 rounded-lg bg-accent-tint text-accent flex items-center justify-center text-caption font-semibold flex-shrink-0">
-                {index + 1}
-              </span>
-              <div className="flex-1 min-w-0">
-                <h3 className="text-body-semibold">{category.label}</h3>
-                <p className="text-caption text-secondary">
-                  Key: <code className="bg-bubble px-1.5 py-0.5 rounded text-micro">{category.key}</code>
-                </p>
-              </div>
-            </div>
+      <section className="shelf">
+        <h2 className="shelf-title">
+          <span className="shelf-head">Core</span>
+        </h2>
+        <p className="shelf-sub">The seven jobs a personal assistant has to do.</p>
+        <div className="cat-list">
+          {core.map((c, i) => (
+            <CategoryRow key={c.key} category={c} n={i + 1} task={tasks.tasks.find(t => t.key === c.key)?.task} agents={agents} />
           ))}
         </div>
       </section>
 
-      <section className="mb-8">
-        <div className="flex items-center gap-3 mb-4">
-          <div className="w-8 h-8 rounded-lg bg-stretch-bg flex items-center justify-center">
-            <svg className="w-4 h-4 text-stretch" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-            </svg>
-          </div>
-          <div>
-            <h2 className="text-heading">Endorsed Categories</h2>
-            <p className="text-caption text-secondary">Specialty areas</p>
-          </div>
-        </div>
-
-        <div className="card overflow-hidden">
-          {endorsedCategories.map((category, index) => (
-            <div 
-              key={category.key} 
-              className="flex items-center gap-4 p-4 border-b border-divider last:border-b-0"
-            >
-              <span className="w-7 h-7 rounded-lg bg-stretch-bg text-stretch flex items-center justify-center text-caption font-semibold flex-shrink-0">
-                {coreCategories.length + index + 1}
-              </span>
-              <div className="flex-1 min-w-0">
-                <h3 className="text-body-semibold">{category.label}</h3>
-                <p className="text-caption text-secondary">
-                  Key: <code className="bg-bubble px-1.5 py-0.5 rounded text-micro">{category.key}</code>
-                </p>
-              </div>
-            </div>
+      <section className="shelf">
+        <h2 className="shelf-title">
+          <span className="shelf-head">Endorsed</span>
+        </h2>
+        <p className="shelf-sub">Seven more that people asked for, and that separate a good assistant from a great one.</p>
+        <div className="cat-list">
+          {endorsed.map((c, i) => (
+            <CategoryRow key={c.key} category={c} n={core.length + i + 1} task={tasks.tasks.find(t => t.key === c.key)?.task} agents={agents} />
           ))}
         </div>
       </section>
 
-      <section className="card p-6">
-        <h3 className="text-heading mb-3">How We Score</h3>
-        <div className="space-y-3 text-body text-secondary">
-          <p>
-            Each category is scored on a 1-10 scale based on real-world testing, 
-            user feedback, and documented capabilities. Scores reflect practical 
-            performance, not marketing claims.
-          </p>
-          <div className="flex flex-wrap gap-4 pt-2">
-            <div className="flex items-center gap-2">
-              <span className="score-cell score-null text-[10px] px-2 py-0.5">Not tested</span>
-              <span className="text-caption">No data yet</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="score-cell score-na text-[10px] px-2 py-0.5">N/A</span>
-              <span className="text-caption">Doesn&apos;t apply</span>
-            </div>
+      <section className="how" id="how">
+        <h2 className="ag-h2">How scoring works</h2>
+        <p className="ag-sub">
+          Each category has one published task, run with the same wording for every assistant and scored 1–10 against
+          written anchors. A score exists only after a logged run with a date and evidence; nothing is scored from
+          marketing claims. Core and Endorsed means exclude N/A.
+        </p>
+        <div className="info-list">
+          <div className="info-row">
+            <span className="il">A tested score</span>
+            <span className="iv">1 – 10</span>
+          </div>
+          <div className="info-row">
+            <span className="il">Not tested yet</span>
+            <span className="iv empty">—</span>
+          </div>
+          <div className="info-row">
+            <span className="il">Doesn&apos;t apply to this product</span>
+            <span className="iv na">N/A</span>
+          </div>
+          <div className="info-row">
+            <span className="il">Benchmark version</span>
+            <span className="iv">v{tasks.version}</span>
           </div>
         </div>
       </section>
     </div>
+  );
+}
+
+function CategoryRow({ category, n, task, agents }: { category: Category; n: number; task?: string; agents: Agent[] }) {
+  const tested = agents.filter(a => typeof a.scores[category.key] === 'number').length;
+  return (
+    <Link href={`/categories/${category.key}`} className="cat-row" id={category.key}>
+      <span className="cat-num">{n}</span>
+      <span className="cat-body">
+        <span className="cat-label">{category.label}</span>
+        <span className="cat-desc">{task ? `Test: ${task}. ` : ''}{CATEGORY_DESCRIPTIONS[category.key] ?? ''}</span>
+      </span>
+      <span className="row-slot">
+        <span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span>
+      </span>
+    </Link>
   );
 }

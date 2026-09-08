@@ -69,7 +69,7 @@ export const CATEGORY_SHORT: Record<string, string> = {
   email_replies: 'Email',
   proactive_behavior: 'Proactive',
   running_routine: 'Routines',
-  third_party_integrations: 'Integrations',
+  third_party_integrations: 'Connected apps',
   memory: 'Memory',
   personality: 'Personality',
   phone_calls: 'Phone calls',

@@ -1541,10 +1541,9 @@ footer a:hover {
 }
 
 .mx-nm {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 92px;
+  white-space: normal;
+  line-height: 1.15;
+  font-size: 13.5px;
 }
 
 .matrix .mx-agg {
@@ -1626,7 +1625,7 @@ footer a:hover {
   }
 
   .mx-nm {
-    max-width: 92px;
+    font-size: 13px;
   }
 }
 

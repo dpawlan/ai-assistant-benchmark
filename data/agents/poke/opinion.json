@@ -85,7 +85,7 @@
       "general": "neg"
     },
     "72702a90b82f": {
-      "general": "neg"
+      "general": "neutral"
     },
     "d798e0055353": {
       "general": "neg"
@@ -187,7 +187,7 @@
       "general": "neutral"
     },
     "7170d3c1503e": {
-      "general": "neg"
+      "general": "neutral"
     },
     "2b2d4f12e781": {
       "general": "neutral"
@@ -212,7 +212,7 @@
       "general": "neutral"
     },
     "6581de6baa13": {
-      "general": "neg"
+      "general": "neutral"
     },
     "ff811b692ef8": {
       "general": "neutral"
@@ -233,7 +233,7 @@
       "general": "neutral"
     },
     "5bba8c289526": {
-      "general": "neg"
+      "general": "neutral"
     },
     "5cf84fb30c4e": {
       "general": "neutral"
@@ -296,8 +296,8 @@
       "general": "neutral"
     },
     "de9153a80b9b": {
-      "general": "neg",
-      "third_party_integrations": "neg"
+      "general": "neutral",
+      "third_party_integrations": "neutral"
     },
     "9c2bd5059704": {
       "general": "neutral"
@@ -305,5 +305,6 @@
     "92814b9ee1ef": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

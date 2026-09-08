@@ -171,7 +171,7 @@
       "general": "pos"
     },
     "2b1b7ed91b6a": {
-      "general": "neg"
+      "general": "neutral"
     },
     "925005e84228": {
       "general": "pos"
@@ -212,7 +212,7 @@
     },
     "16b959673511": {
       "general": "mixed",
-      "email_replies": "neg"
+      "email_replies": "neutral"
     },
     "0aa97156988d": {
       "general": "pos"
@@ -240,5 +240,6 @@
     "d5726f7a8542": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

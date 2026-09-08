@@ -144,10 +144,10 @@
       "general": "neutral"
     },
     "2d0fe11e2485": {
-      "general": "neg"
+      "general": "neutral"
     },
     "bef51c35067d": {
-      "general": "neg"
+      "general": "neutral"
     },
     "90f625b85455": {
       "general": "pos"
@@ -173,13 +173,14 @@
       "general": "pos"
     },
     "baf08a808168": {
-      "general": "neg"
+      "general": "neutral"
     },
     "543f445d2ad1": {
-      "general": "neg"
+      "general": "neutral"
     },
     "0ae7939c3504": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

@@ -12,7 +12,7 @@
       "online_task": "pos"
     },
     "afcecee40ad4": {
-      "third_party_integrations": "neg"
+      "third_party_integrations": "neutral"
     },
     "6b2ca124a60b": {
       "multiplayer_groups": "pos",
@@ -22,7 +22,7 @@
       "proactive_behavior": "pos"
     },
     "fb5a3c184f95": {
-      "memory": "neg"
+      "memory": "neutral"
     },
     "6a314d414045": {
       "online_task": "neg",
@@ -56,7 +56,7 @@
       "running_routine": "pos"
     },
     "f7f0a1fdccad": {
-      "memory": "neg"
+      "memory": "neutral"
     },
     "2c04ef839769": {
       "online_task": "neg"
@@ -93,7 +93,7 @@
     "35542b7f1aa4": {
       "proactive_behavior": "pos",
       "running_routine": "pos",
-      "content_creation_games": "neg"
+      "content_creation_games": "neutral"
     },
     "20358a887cee": {
       "online_task": "pos"
@@ -120,10 +120,10 @@
       "general": "mixed"
     },
     "efdd034668d0": {
-      "general": "neg"
+      "general": "neutral"
     },
     "fc6c9e700277": {
-      "general": "neg"
+      "general": "neutral"
     },
     "cb2fd8fda8f5": {
       "general": "mixed"
@@ -132,7 +132,7 @@
       "general": "neg"
     },
     "59ff61c18eb1": {
-      "general": "neg"
+      "general": "neutral"
     },
     "63e3a2881dd7": {
       "general": "neg"
@@ -141,10 +141,10 @@
       "general": "pos"
     },
     "386e91e12ed4": {
-      "general": "neg"
+      "general": "neutral"
     },
     "0b7add7a9d95": {
-      "general": "neg"
+      "general": "neutral"
     },
     "afa08b7c24e3": {
       "general": "pos"
@@ -165,16 +165,16 @@
       "general": "pos"
     },
     "152a72d670d6": {
-      "general": "neg"
+      "general": "neutral"
     },
     "01fc9b3bd580": {
       "general": "pos"
     },
     "33f5bcc660da": {
-      "general": "neg"
+      "general": "neutral"
     },
     "2c7c5bdaaf29": {
-      "general": "neg"
+      "general": "neutral"
     },
     "71f131b4a6c5": {
       "general": "pos"
@@ -234,7 +234,7 @@
       "general": "neutral"
     },
     "9590a96c16bc": {
-      "general": "neg"
+      "general": "neutral"
     },
     "a6fce6f7b9b4": {
       "general": "neutral"
@@ -272,13 +272,13 @@
       "general": "neutral"
     },
     "abacdc8dec93": {
-      "general": "neg"
+      "general": "neutral"
     },
     "c11000bbe667": {
       "general": "neutral"
     },
     "d2fed933a350": {
-      "general": "neg"
+      "general": "neutral"
     },
     "ab26ad505710": {
       "general": "neutral"
@@ -303,7 +303,7 @@
       "general": "pos"
     },
     "eda575e4df29": {
-      "general": "neg"
+      "general": "neutral"
     },
     "db82fc10532e": {
       "general": "pos"
@@ -313,7 +313,7 @@
       "running_routine": "pos"
     },
     "19e307d9aaf1": {
-      "memory": "neg",
+      "memory": "neutral",
       "general": "mixed"
     },
     "62df2c44aebd": {
@@ -353,7 +353,7 @@
       "general": "neutral"
     },
     "68e7d5cb5443": {
-      "general": "neg"
+      "general": "neutral"
     },
     "3f6ccdbbad47": {
       "general": "neutral"
@@ -414,10 +414,10 @@
       "general": "neutral"
     },
     "009345b6655d": {
-      "third_party_integrations": "neg"
+      "third_party_integrations": "neutral"
     },
     "23cbb01a5640": {
-      "general": "neg"
+      "general": "neutral"
     },
     "9136ebd47b7e": {
       "general": "neutral"
@@ -435,7 +435,7 @@
       "general": "pos"
     },
     "d4c4b175e9b7": {
-      "general": "neg"
+      "general": "neutral"
     },
     "59d335d29ce3": {
       "general": "neutral"
@@ -462,7 +462,7 @@
       "general": "neutral"
     },
     "c6613333029e": {
-      "general": "neg"
+      "general": "neutral"
     },
     "4b14b570fda4": {
       "general": "neutral"
@@ -483,7 +483,7 @@
       "general": "neutral"
     },
     "73e1565462c9": {
-      "general": "neg"
+      "general": "neutral"
     },
     "8b8f1703ee4a": {
       "general": "neutral"
@@ -499,7 +499,7 @@
       "general": "pos"
     },
     "28bef8e52603": {
-      "general": "neg"
+      "general": "neutral"
     },
     "f7bbb375da85": {
       "general": "neg"
@@ -528,5 +528,6 @@
     "47c7623665f1": {
       "general": "neutral"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

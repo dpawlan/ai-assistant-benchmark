@@ -31,7 +31,7 @@
       "running_routine": "pos"
     },
     "888ad2b52d99": {
-      "running_routine": "neg"
+      "running_routine": "neutral"
     },
     "1d9b731b9eb1": {
       "proactive_restraint": "neg"
@@ -101,10 +101,10 @@
       "general": "neg"
     },
     "5feef6b12f0d": {
-      "general": "neg"
+      "general": "neutral"
     },
     "c28a38984044": {
-      "general": "neg"
+      "general": "neutral"
     },
     "561fbda5a844": {
       "general": "neg"
@@ -161,7 +161,7 @@
       "general": "neg"
     },
     "1c6eb20b8a72": {
-      "proactive_behavior": "neg"
+      "proactive_behavior": "neutral"
     },
     "c308b4010352": {
       "general": "neutral"
@@ -196,7 +196,7 @@
       "general": "neutral"
     },
     "cffa9f69d914": {
-      "general": "neg"
+      "general": "neutral"
     },
     "691014ec5e6f": {
       "general": "neutral"
@@ -218,7 +218,7 @@
       "general": "neg"
     },
     "55fed0779ae0": {
-      "general": "neg"
+      "general": "neutral"
     },
     "4de158f71a2d": {
       "general": "neutral"
@@ -297,7 +297,7 @@
       "general": "neutral"
     },
     "a79e850ea583": {
-      "general": "neg"
+      "general": "neutral"
     },
     "8c05ff84da4a": {
       "general": "neutral"
@@ -309,7 +309,7 @@
       "general": "neutral"
     },
     "3878c450c82e": {
-      "general": "neg"
+      "general": "neutral"
     },
     "c11000bbe667": {
       "general": "pos",
@@ -455,7 +455,7 @@
       "general": "neutral"
     },
     "78ad45908c53": {
-      "general": "neg"
+      "general": "neutral"
     },
     "7e9c2dadf2c5": {
       "general": "neutral"
@@ -511,5 +511,6 @@
     "6711f31ad28a": {
       "general": "neg"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

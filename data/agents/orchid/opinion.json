@@ -4,7 +4,7 @@
   "reviewed": false,
   "quotes": {
     "2e75cbdf1aaa": {
-      "proactive_behavior": "neg"
+      "proactive_behavior": "neutral"
     },
     "11ab760dd20d": {
       "third_party_integrations": "pos"
@@ -298,16 +298,16 @@
       "general": "mixed"
     },
     "dde4d8a01036": {
-      "general": "neg"
+      "general": "neutral"
     },
     "b690a6f68914": {
-      "general": "neg"
+      "general": "neutral"
     },
     "0ac1aaeeb161": {
-      "general": "neg"
+      "general": "neutral"
     },
     "a044a8cf5fb8": {
-      "general": "neg"
+      "general": "neutral"
     },
     "82bc077c8f80": {
       "general": "pos"
@@ -317,7 +317,7 @@
       "general": "pos"
     },
     "ddeef16ea6e3": {
-      "general": "neg"
+      "general": "neutral"
     },
     "c011e243e820": {
       "general": "pos"
@@ -331,5 +331,6 @@
     "61bad5afe11e": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

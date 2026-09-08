@@ -79,7 +79,7 @@
     },
     "f7c6c15e7500": {
       "online_task": "mixed",
-      "multiplayer_groups": "neg"
+      "multiplayer_groups": "neutral"
     },
     "f1b13b5d3e7c": {
       "online_task": "pos"
@@ -175,7 +175,7 @@
       "chained_tasks": "pos"
     },
     "672cb65b56d1": {
-      "multiplayer_groups": "neg"
+      "multiplayer_groups": "neutral"
     },
     "fdb8ecb2de55": {
       "online_task": "pos"
@@ -190,7 +190,7 @@
       "general": "pos"
     },
     "32d9a7519f1b": {
-      "general": "neg"
+      "general": "neutral"
     },
     "3606dd792084": {
       "general": "neg"
@@ -211,10 +211,10 @@
       "general": "pos"
     },
     "1036f5a038e9": {
-      "general": "neg"
+      "general": "neutral"
     },
     "570835785ed9": {
-      "general": "neg"
+      "general": "neutral"
     },
     "d798e0055353": {
       "general": "neg"
@@ -223,7 +223,7 @@
       "general": "pos"
     },
     "023b4e3da1f1": {
-      "general": "neg"
+      "general": "neutral"
     },
     "8eff6a0b920f": {
       "general": "pos"
@@ -256,27 +256,6 @@
       "general": "neutral"
     },
     "a439c11e5af3": {
-      "general": "neutral"
-    },
-    "e0d87b3721ee": {
-      "general": "neutral"
-    },
-    "3808eafd7836": {
-      "general": "neutral"
-    },
-    "1012920d829f": {
-      "general": "neutral"
-    },
-    "f072e2364837": {
-      "general": "neutral"
-    },
-    "a46bda55ce60": {
-      "general": "neutral"
-    },
-    "3bbe8fca1e17": {
-      "general": "neutral"
-    },
-    "ac92020f6743": {
       "general": "neutral"
     },
     "970581b77d6f": {
@@ -318,11 +297,11 @@
     },
     "ab3682b91a6d": {
       "general": "pos",
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neutral"
     },
     "58352e93f6a4": {
       "general": "pos",
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neutral"
     },
     "d45f50ca4d57": {
       "general": "neutral"
@@ -337,14 +316,14 @@
       "general": "pos"
     },
     "14f3fa96988b": {
-      "general": "neg",
+      "general": "neutral",
       "personality": "pos"
     },
     "ba6c892e6562": {
-      "general": "neg"
+      "general": "neutral"
     },
     "7981c42191fb": {
-      "general": "neg"
+      "general": "neutral"
     },
     "31153ed322d4": {
       "general": "mixed"
@@ -396,7 +375,7 @@
       "general": "neutral"
     },
     "4815b5c6e7d1": {
-      "general": "neg"
+      "general": "neutral"
     },
     "65e961f424e4": {
       "general": "pos"
@@ -425,7 +404,7 @@
       "general": "pos"
     },
     "bb2ef2906723": {
-      "general": "neg"
+      "general": "neutral"
     },
     "6e2c82208352": {
       "general": "neutral"
@@ -459,9 +438,6 @@
     "93d1be921200": {
       "general": "neutral"
     },
-    "6562d98b6193": {
-      "general": "neutral"
-    },
     "53e94468923b": {
       "online_task": "pos",
       "purchasing": "pos",
@@ -469,20 +445,8 @@
       "memory": "pos",
       "general": "pos"
     },
-    "48f6b0d7d828": {
-      "general": "neutral"
-    },
     "c4c165eb3db0": {
       "general": "neutral"
-    },
-    "2ab3dc483881": {
-      "general": "neutral"
-    },
-    "05b07e3dca15": {
-      "general": "pos"
-    },
-    "94eaee53a3dc": {
-      "general": "neg"
     },
     "766986454d4d": {
       "general": "neutral"
@@ -491,26 +455,26 @@
       "general": "neutral"
     },
     "b7757004c221": {
-      "general": "neg",
-      "phone_calls": "neg"
+      "general": "neutral",
+      "phone_calls": "neutral"
     },
     "a334b47dbd4a": {
-      "general": "neg"
+      "general": "neutral"
     },
     "6a47fe8c9230": {
-      "general": "neg"
+      "general": "neutral"
     },
     "c249152e34d0": {
-      "general": "neg"
+      "general": "neutral"
     },
     "b53cfdc95792": {
       "general": "neutral"
     },
     "139f2c6c8c0d": {
-      "general": "neg"
+      "general": "neutral"
     },
     "44e2c92db2fa": {
-      "general": "neg"
+      "general": "neutral"
     },
     "586cccdd5f90": {
       "general": "mixed",
@@ -536,7 +500,7 @@
     },
     "ca9c0be49fb6": {
       "general": "pos",
-      "phone_calls": "neg"
+      "phone_calls": "neutral"
     },
     "11df75183bd8": {
       "general": "neutral"
@@ -560,5 +524,6 @@
     "69e36f816fbd": {
       "general": "neutral"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

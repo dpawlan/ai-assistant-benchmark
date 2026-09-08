@@ -24,7 +24,7 @@
       "multiplayer_groups": "neg"
     },
     "fdb1f9761681": {
-      "third_party_integrations": "neg"
+      "third_party_integrations": "neutral"
     },
     "edd5bbcd82ec": {
       "proactive_behavior": "pos"
@@ -154,10 +154,10 @@
       "personality": "pos"
     },
     "391acef0ace3": {
-      "general": "neg"
+      "general": "neutral"
     },
     "5cb60ec52828": {
-      "personality": "neg"
+      "personality": "neutral"
     },
     "4dd9f170202e": {
       "general": "pos"
@@ -165,5 +165,6 @@
     "92b0cf9a49e3": {
       "personality": "pos"
     }
-  }
+  },
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
 }

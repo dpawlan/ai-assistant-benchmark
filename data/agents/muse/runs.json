@@ -1,0 +1,65 @@
+[
+  {
+    "id": "muse-2026-09-08-01",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-08",
+    "score": 9,
+    "outcome": "partial",
+    "notes": "No rooms under $250 near the Loop that weekend (Bears game and an expo in town); returned four fully refundable options with totals and cancellation dates and asked whether to raise the budget, move farther out, or shift dates."
+  },
+  {
+    "id": "muse-2026-09-08-02",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-08",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Three real options within walking distance with reasons, honest that one was over budget and one borderline on the no-chain rule, a clear pick; booked the table once OpenTable was connected."
+  },
+  {
+    "id": "muse-2026-09-08-03",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Found the thread, read the calendar, drafted a reply-all to both people with two open slots in my voice, asked before sending, sent on command."
+  },
+  {
+    "id": "muse-2026-09-08-04",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Same-day flowers under a stated budget after 5 PM: asked type and budget, flagged the delivery cutoff, found the one same-day florist, staged the order with an itemized total for approval and set up a virtual card so the florist never saw real details."
+  },
+  {
+    "id": "muse-2026-09-08-05",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Connected OpenTable mid-task and completed the reservation; connected Link by Stripe for checkout."
+  },
+  {
+    "id": "muse-2026-09-08-06",
+    "category": "personality",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Natural, concise tone throughout the session; asked the right clarifying questions without padding."
+  },
+  {
+    "id": "muse-2026-09-08-07",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Books through Duffel only, so hotel and flight supply is thinner than the big sites; couldn’t find rooms under budget near the Loop and asked to change the constraints rather than log into other sites."
+  }
+]

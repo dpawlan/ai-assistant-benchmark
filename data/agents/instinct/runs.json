@@ -138,5 +138,14 @@
     "outcome": "pass",
     "notes": "Checked in unprompted when the window opened, explained why no digital pass was available on that fare, flagged a passport expiry.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-09-06-bd0984"
+  },
+  {
+    "id": "instinct-2026-09-08-travel",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-09-08",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Books flights and hotels by logging into my own accounts rather than a single aggregator, so it has the full supply of the big sites; end-to-end booking with check-in and boarding pass, seamless."
   }
 ]

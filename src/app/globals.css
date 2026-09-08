@@ -1414,21 +1414,21 @@ footer a:hover {
   border-collapse: separate;
   border-spacing: 0;
   width: 100%;
-  min-width: 1210px;
+  min-width: 1158px;
   font-size: 14px;
   table-layout: fixed;
 }
 
 .matrix col.c-name {
-  width: 176px;
+  width: 158px;
 }
 
 .matrix col.c-agg {
-  width: 54px;
+  width: 52px;
 }
 
 .matrix col.c-cat {
-  width: 58px;
+  width: 56px;
 }
 
 .matrix th,

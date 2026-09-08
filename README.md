@@ -4,7 +4,7 @@ Public scorecard for AI personal assistants — Wirecutter/RTINGS-style comparis
 
 ## Overview
 
-This is an independent, evidence-based comparison site for AI personal assistants. Every assistant is evaluated across the same 14 categories, ensuring fair comparisons regardless of the tool's specialty.
+This is an independent, evidence-based comparison site for AI personal assistants. Every assistant is evaluated across the same 15 categories, ensuring fair comparisons regardless of the tool's specialty.
 
 ### The benchmark
 
@@ -14,12 +14,12 @@ Every category has one published test (`data/tasks.json`: prompt, pass criteria,
 
 - **40 AI Assistants** in peer groups: general, travel, email, shopping, games, work & teams, infra & hardware (`kind` in `meta.json`)
 - **795 Feedback Items** from public discussions (X/Twitter, Reddit, etc.)
-- **14 Dimensions** (7 core + 7 endorsed)
+- **15 Dimensions** (8 core + 7 endorsed)
 
 ### Features
 
-- **Scorecard** (`/`): the 40 × 14 matrix with a Benchmark / Public opinion toggle and peer-group chips (`?kind=travel` etc.); General is the default view
-- **Agent profiles** (`/agents/<slug>`): identity block with logo and tagline, 14 score rows, public quotes filterable by kind, information column, related agents
+- **Scorecard** (`/`): the 40 × 15 matrix with a Benchmark / Public opinion toggle and peer-group chips (`?kind=travel` etc.); General is the default view
+- **Agent profiles** (`/agents/<slug>`): identity block with logo and tagline, 15 score rows, public quotes filterable by kind, information column, related agents
 - **Dimensions** (`/dimensions`): the rubric, with anchors the sidebar links to, and how scoring works
 - **Request a test** (`/request`): form to suggest an assistant or send a correction
 
@@ -59,7 +59,7 @@ All data lives in the `/data` directory:
 ```
 data/
 ├── index.json           # Roster summary with all agents
-├── categories.json      # 14 evaluation categories
+├── categories.json      # 15 evaluation categories
 ├── tasks.json           # The published test per category (prompt, pass criteria, anchors) + benchmark version
 ├── agents.json          # Full agent data dump
 └── agents/
@@ -158,7 +158,7 @@ Derivation rules: latest run wins → `scores.json` value → for stretch produc
 
 ## Categories
 
-### Core (7)
+### Core (8)
 1. Carrying out an online task
 2. Recommendation quality
 3. Purchasing a product
@@ -166,15 +166,16 @@ Derivation rules: latest run wins → `scores.json` value → for stretch produc
 5. Proactive behavior
 6. Running a routine
 7. Third-party integrations
+8. Permissions & privacy
 
 ### Endorsed (7)
-8. Memory
-9. Personality
-10. Phone calls
-11. Multiplayer / groups
-12. Chained tasks
-13. Proactive restraint
-14. Content creation / games
+9. Memory
+10. Personality
+11. Phone calls
+12. Multiplayer / groups
+13. Chained tasks
+14. Proactive restraint
+15. Content creation / games
 
 ## Updating Data
 

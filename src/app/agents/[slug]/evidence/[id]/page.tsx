@@ -60,7 +60,7 @@ export default async function EvidencePage({ params }: Props) {
 
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
-          {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/categories/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
+          {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/dimensions/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />

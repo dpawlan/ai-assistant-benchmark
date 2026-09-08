@@ -25,22 +25,22 @@ export function Sidebar({ categories }: SidebarProps) {
         <SidebarNav
           items={[
             { href: '/', label: 'Scorecard' },
-            { href: '/categories', label: 'Categories' },
+            { href: '/dimensions', label: 'Dimensions' },
           ]}
         />
 
         <div className="side-label">Assistants</div>
         <SidebarNav items={KINDS.map(k => ({ href: k.key === 'general' ? '/' : `/?kind=${k.key}`, label: k.label }))} />
 
-        <div className="side-label">Categories</div>
-        <SidebarNav items={categories.map(c => ({ href: `/categories/${c.key}`, label: CATEGORY_SHORT[c.key] ?? c.label }))} />
+        <div className="side-label">Dimensions</div>
+        <SidebarNav items={categories.map(c => ({ href: `/dimensions/${c.key}`, label: CATEGORY_SHORT[c.key] ?? c.label }))} />
       </div>
 
       <div className="side-foot">
         <Link href="/request" className="side-cta">
           Request a test
         </Link>
-        <Link href="/categories#how" className="side-sub">
+        <Link href="/dimensions#how" className="side-sub">
           How scoring works
         </Link>
       </div>

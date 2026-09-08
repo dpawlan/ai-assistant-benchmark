@@ -146,7 +146,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                 <span className="mx-label">Assistant</span>
               </th>
               {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time in the reviewer’s own thread')}
-              {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every category scored')}
+              {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every dimension scored')}
               {categories.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
             </tr>
           </thead>
@@ -223,7 +223,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <span className="key-gap" />
           <span className="sc sc-na">N/A</span> doesn&apos;t apply
           <span className="key-gap" />
-          <Link href="/categories#how">How scoring works</Link>
+          <Link href="/dimensions#how">How scoring works</Link>
         </p>
       )}
     </div>

@@ -87,7 +87,7 @@ export function QuoteList({ feedback, categoryLabels }: QuoteListProps) {
           <label className={`fselect${category ? ' on' : ''}`}>
             <span className="sr-only">Category</span>
             <select value={category} onChange={e => setCategory(e.target.value)} aria-label="Filter by category">
-              <option value="">Any category</option>
+              <option value="">Any dimension</option>
               {categoryKeys.map(k => (
                 <option key={k} value={k}>
                   {categoryLabels[k]} ({categoryCounts.get(k)})

@@ -72,7 +72,7 @@ export function QuoteItem({ quote, agent, categories = [], categoryLabels = {}, 
         <div className="q-meta">
           <span className="q-kind">{KIND_LABEL[quote.kind] ?? 'Other'}</span>
           {categories.map(c => (
-            <Link key={c} href={`/categories/${c}`} className="q-cat">
+            <Link key={c} href={`/dimensions/${c}`} className="q-cat">
               {categoryLabels[c] ?? c}
             </Link>
           ))}

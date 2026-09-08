@@ -4,7 +4,7 @@ import { Agent } from '@/lib/types';
 export function ScorePill({ agent }: { agent: Agent }) {
   if (agent.overall !== null) {
     return (
-      <span className="pill" title="Mean of every category scored">
+      <span className="pill" title="Mean of every dimension scored">
         {agent.overall.toFixed(1)}
       </span>
     );

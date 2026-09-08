@@ -46,7 +46,7 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <div className="wrap">
       <div className="ag-top">
-        <Link href="/categories" className="back">
+        <Link href="/dimensions" className="back">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M12 5l-5 5 5 5" />
           </svg>
@@ -56,7 +56,7 @@ export default async function CategoryPage({ params }: Props) {
 
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
-          Category {n} of {categories.length}
+          Dimension {n} of {categories.length}
         </p>
         <h1 className="page-title">{category.label}</h1>
         <p className="page-sub">{CATEGORY_DESCRIPTIONS[key]}</p>
@@ -205,14 +205,14 @@ export default async function CategoryPage({ params }: Props) {
 
       <nav className="pager">
         {prev ? (
-          <Link href={`/categories/${prev.key}`} className="btn ghost">
+          <Link href={`/dimensions/${prev.key}`} className="btn ghost">
             ‹ {prev.label}
           </Link>
         ) : (
           <span />
         )}
         {next && (
-          <Link href={`/categories/${next.key}`} className="btn ghost">
+          <Link href={`/dimensions/${next.key}`} className="btn ghost">
             {next.label} ›
           </Link>
         )}

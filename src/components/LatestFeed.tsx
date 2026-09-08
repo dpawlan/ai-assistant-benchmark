@@ -39,7 +39,7 @@ export function LatestFeed({ items, categoryLabels }: LatestFeedProps) {
               <div className="feed-run">
                 <ScoreCell value={item.run.score} />
                 <span className="feed-run-text">
-                  <Link href={`/categories/${item.run.category}`} className="feed-cat">
+                  <Link href={`/dimensions/${item.run.category}`} className="feed-cat">
                     {categoryLabels[item.run.category] ?? item.run.category}
                   </Link>
                   {' · '}
@@ -65,7 +65,7 @@ export function LatestFeed({ items, categoryLabels }: LatestFeedProps) {
                 <div className="q-meta">
                   <span className="feed-author">{item.quote.author || item.quote.author_name || 'Anonymous'}</span>
                   {item.categories.map(c => (
-                    <Link key={c} href={`/categories/${c}`} className="q-cat">
+                    <Link key={c} href={`/dimensions/${c}`} className="q-cat">
                       {categoryLabels[c] ?? c}
                     </Link>
                   ))}

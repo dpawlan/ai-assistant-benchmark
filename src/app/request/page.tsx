@@ -28,7 +28,7 @@ export default function RequestPage() {
             <span className="il">We check the assistant exists and is publicly available</span>
           </div>
           <div className="info-row">
-            <span className="il">It joins the queue, with your categories tested first</span>
+            <span className="il">It joins the queue, with your dimensions tested first</span>
           </div>
           <div className="info-row">
             <span className="il">Results go on the leaderboard; we&apos;ll tell you if you left contact info</span>

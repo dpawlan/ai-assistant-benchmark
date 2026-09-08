@@ -8,19 +8,19 @@ This is an independent, evidence-based comparison site for AI personal assistant
 
 ### The benchmark
 
-Every category has one published test (`data/tasks.json`: prompt, pass criteria, score anchors at 3 / 7 / 10). A score exists only when a run has been logged for it. The home page is the scorecard matrix; each category has its own ranking at `/categories/<key>`; each assistant keeps its profile at `/agents/<slug>`.
+Every category has one published test (`data/tasks.json`: prompt, pass criteria, score anchors at 3 / 7 / 10). A score exists only when a run has been logged for it. The home page is the scorecard matrix; each category has its own ranking at `/dimensions/<key>`; each assistant keeps its profile at `/agents/<slug>`.
 
 ### Current Data
 
 - **40 AI Assistants** in peer groups: general, travel, email, shopping, games, work & teams, infra & hardware (`kind` in `meta.json`)
 - **795 Feedback Items** from public discussions (X/Twitter, Reddit, etc.)
-- **14 Evaluation Categories** (7 core + 7 endorsed)
+- **14 Dimensions** (7 core + 7 endorsed)
 
 ### Features
 
 - **Scorecard** (`/`): the 40 × 14 matrix with a Benchmark / Public opinion toggle and peer-group chips (`?kind=travel` etc.); General is the default view
 - **Agent profiles** (`/agents/<slug>`): identity block with logo and tagline, 14 score rows, public quotes filterable by kind, information column, related agents
-- **Categories** (`/categories`): the rubric, with anchors the sidebar links to, and how scoring works
+- **Dimensions** (`/dimensions`): the rubric, with anchors the sidebar links to, and how scoring works
 - **Request a test** (`/request`): form to suggest an assistant or send a correction
 
 ## Design

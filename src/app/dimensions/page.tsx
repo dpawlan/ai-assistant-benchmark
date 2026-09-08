@@ -4,8 +4,8 @@ import { CATEGORY_DESCRIPTIONS, getAgents, getCategories, getTaskSet } from '@/l
 import { Agent, Category } from '@/lib/types';
 
 export const metadata: Metadata = {
-  title: 'Categories',
-  description: 'The 14 categories every assistant is scored on: seven core, seven endorsed. Each one is a published test and a ranking.',
+  title: 'Dimensions',
+  description: 'The 14 dimensions every assistant is scored on. Each one is a published test and a ranking.',
 };
 
 export default function CategoriesPage() {
@@ -16,13 +16,13 @@ export default function CategoriesPage() {
   return (
     <div className="wrap">
       <div className="page-head">
-        <h1 className="page-title">Categories</h1>
+        <h1 className="page-title">Dimensions</h1>
         <p className="page-sub">The same {categories.length} tests for every assistant. Open one for the task and the ranking.</p>
       </div>
 
       <section className="shelf">
         <h2 className="shelf-title">
-          <span className="shelf-head">{categories.length} categories</span>
+          <span className="shelf-head">{categories.length} dimensions</span>
         </h2>
         <div className="cat-list">
           {categories.map((c, i) => (
@@ -34,7 +34,7 @@ export default function CategoriesPage() {
       <section className="how" id="how">
         <h2 className="ag-h2">How scoring works</h2>
         <p className="ag-sub">
-          One published task per category, scored 1–10 against written anchors after real use. No score without a logged run.
+          One published task per dimension, scored 1–10 against written anchors after real use. No score without a logged run.
         </p>
         <div className="info-list">
           <div className="info-row">
@@ -62,7 +62,7 @@ export default function CategoriesPage() {
 function CategoryRow({ category, n, task, agents }: { category: Category; n: number; task?: string; agents: Agent[] }) {
   const tested = agents.filter(a => typeof a.scores[category.key] === 'number').length;
   return (
-    <Link href={`/categories/${category.key}`} className="cat-row" id={category.key}>
+    <Link href={`/dimensions/${category.key}`} className="cat-row" id={category.key}>
       <span className="cat-num">{n}</span>
       <span className="cat-body">
         <span className="cat-label">{category.label}</span>

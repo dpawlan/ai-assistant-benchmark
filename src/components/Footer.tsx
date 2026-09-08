@@ -10,7 +10,7 @@ export function Footer({ index }: { index: IndexData }) {
         {index.agent_count} assistants · {index.feedback_count} public quotes · updated {formatDate(index.updated)}
       </p>
       <p className="links">
-        <Link href="/categories">Categories</Link> · <Link href="/request">Request a test</Link>
+        <Link href="/dimensions">Dimensions</Link> · <Link href="/request">Request a test</Link>
       </p>
     </footer>
   );

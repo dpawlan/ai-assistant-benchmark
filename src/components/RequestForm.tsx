@@ -96,8 +96,8 @@ export function RequestForm({ categories }: RequestFormProps) {
       </div>
 
       <div className="field">
-        <label>Categories to test first</label>
-        <div className="choices" role="group" aria-label="Categories to test first">
+        <label>Dimensions to test first</label>
+        <div className="choices" role="group" aria-label="Dimensions to test first">
           {categories.map(c => {
             const on = data.categories.includes(c.key);
             return (

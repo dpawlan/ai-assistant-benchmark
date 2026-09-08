@@ -15,7 +15,7 @@ export default function HomePage() {
       <div className="page-head">
         <h1 className="page-title">Scorecard</h1>
         <p className="page-sub">
-          {index.agent_count} assistants, {categories.length} tests, one scale.
+          {index.agent_count} assistants, {categories.length} dimensions, one scale.
         </p>
       </div>
 

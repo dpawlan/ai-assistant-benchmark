@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
   if (!agent) return { title: 'Not found' };
   return {
     title: agent.name,
-    description: `${agent.name}: ${agent.tagline}. Scores across 14 categories and ${agent.feedbackCount} public quotes.`,
+    description: `${agent.name}: ${agent.tagline}. Scores across 14 dimensions and ${agent.feedbackCount} public quotes.`,
     openGraph: {
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,
@@ -215,7 +215,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className="iv">{agent.feedbackCount}</span>
             </div>
             <div className="info-row">
-              <span className="il">Categories scored</span>
+              <span className="il">Dimensions scored</span>
               <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {categories.length}</span>
             </div>
             <div className="info-row">

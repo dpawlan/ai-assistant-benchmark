@@ -27,7 +27,7 @@ export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreR
               return (
                 <div key={category.key} className={`info-row${hasLine ? ' has-run' : ''}`}>
                   <span className="il">
-                    <Link href={`/categories/${category.key}`} className="il-link">
+                    <Link href={`/dimensions/${category.key}`} className="il-link">
                       {category.label}
                     </Link>
                     {hasLine && (

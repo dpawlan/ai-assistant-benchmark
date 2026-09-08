@@ -20,6 +20,9 @@ npm run imessage:analyze                                 # -> usage.json (public
 # David scores the drafts: score 1-10 + outcome pass|partial|fail; fix category guesses
 npm run imessage:approve                                 # -> runs.json + evidence/<id>.json (public)
 npm run build
+# Notes on runs must describe the test (what was asked, what happened), never the scoring. To fill missing ones:
+node scripts/imessage.mjs excerpts --slug grok-bot --missing   # read the redacted episode per run
+node scripts/imessage.mjs notes --slug grok-bot --file notes.json
 ```
 
 Known mapping hints: the Town thread is saved in Contacts as **DEEPS**. Instinct issues each user a personal number. Poke (and probably Town) use Apple Messages for Business, so their handle is `urn:biz:<uuid>`, not a phone number. Ten numbers already in `sources.json` came from imessage.store's listing and may be stale; trust `discover`.

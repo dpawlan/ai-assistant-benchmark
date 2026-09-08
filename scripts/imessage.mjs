@@ -7,6 +7,8 @@
  *   node scripts/imessage.mjs approve  [--slug ...] [--publish-excerpts]   scored drafts -> runs.json + public evidence
  *   node scripts/imessage.mjs status
  *   node scripts/imessage.mjs discover [--db ...] [--since ...]   list one-to-one threads so you can map numbers to slugs
+ *   node scripts/imessage.mjs excerpts --slug grok-bot [--missing]  print the redacted episode behind each run (for writing notes)
+ *   node scripts/imessage.mjs notes --slug grok-bot --file notes.json   apply {runId: "one-line note"} into runs.json
  *
  * Runs on the Mac that has your Messages history. Terminal needs Full Disk Access
  * (System Settings > Privacy & Security > Full Disk Access). Needs Node 22.13+ (built-in SQLite, no installs).
@@ -57,7 +59,7 @@ function parseArgs(argv) {
 
 async function main() {
   const cmd = parseArgs(process.argv.slice(2));
-  const commands = { export: exportChats, analyze, approve, status, discover };
+  const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes };
   if (!commands[cmd]) {
     console.error(fs.readFileSync(new URL(import.meta.url)).toString().split('*/')[0].replace('/**', '').replace(/^ \* ?/gm, ''));
     process.exit(1);
@@ -499,7 +501,7 @@ async function analyze() {
       const allText = ep.messages.map(m => m.text).join('\n');
       const cat = categorize(allText, myText, tasks);
       if (!opts.all && (!cat.category || cat.confidence < minConfidence)) continue;
-      const id = `${slug}-${ep.start.slice(0, 10)}-${crypto.createHash('sha1').update(ep.start + (ep.messages[0]?.text ?? '')).digest('hex').slice(0, 6)}`;
+      const id = episodeId(slug, ep);
       if (byId.has(id)) continue; // keep any scoring you've already typed into the draft
       const firstMine = ep.messages.find(m => m.from === 'me')?.text ?? '';
       byId.set(id, {
@@ -557,6 +559,58 @@ async function approve() {
     console.log(`${slug}: ${ready.length} runs approved -> ${path.relative(ROOT, runsFile(slug))}`);
   }
   console.log(`${total} runs published (${publishExcerpts ? 'with redacted excerpts' : 'signals only, no message text'}). Rebuild the site to see them.`);
+}
+
+/* ---------- excerpts / notes: describe what happened in each approved run ---------- */
+
+function episodeId(slug, ep) {
+  return `${slug}-${ep.start.slice(0, 10)}-${crypto.createHash('sha1').update(ep.start + (ep.messages[0]?.text ?? '')).digest('hex').slice(0, 6)}`;
+}
+
+/** Print the redacted thread behind each run so a person can write a note that describes the test, not the score. */
+async function excerpts() {
+  for (const slug of slugs) {
+    const transcript = readJson(transcriptFile(slug), null);
+    const runs = readJson(runsFile(slug), []);
+    if (!transcript || !runs.length) continue;
+    const terms = [...redactTerms, ...(sources[slug].redact_terms ?? [])];
+    const { episodes } = analyzeTranscript(transcript.messages);
+    const byId = new Map(episodes.map(ep => [episodeId(slug, ep), ep]));
+    const wanted = runs.filter(r => !opts.missing || !(r.notes && r.notes.length > 40));
+    console.log(`\n#### ${slug}: ${wanted.length} run(s)${opts.missing ? ' without a descriptive note' : ''}`);
+    for (const r of wanted) {
+      const ep = byId.get(r.id);
+      console.log(`\n=== ${r.id} · ${r.category} · score ${r.score} · ${r.outcome} · note: ${JSON.stringify(r.notes ?? '')}`);
+      if (!ep) {
+        console.log('  (episode not found in the current transcript; re-run export)');
+        continue;
+      }
+      for (const m of ep.messages.slice(0, 30)) {
+        console.log(`  ${m.from === 'me' ? 'ME   ' : 'AGENT'} ${m.ts.slice(11, 16)}  ${redact(m.text, terms).replace(/\s+/g, ' ').slice(0, 400)}${m.attachment ? ' [attachment]' : ''}`);
+      }
+    }
+  }
+}
+
+/** Apply notes from a JSON file ({ runId: note }) to runs.json. Notes should say what was asked and what happened. */
+async function notes() {
+  const file = opts.file ? String(opts.file) : fail('Pass --file notes.json ({ "<run id>": "note" })');
+  const map = readJson(file, null);
+  if (!map) fail(`Could not read ${file}`);
+  let n = 0;
+  for (const slug of slugs) {
+    const runs = readJson(runsFile(slug), []);
+    let touched = false;
+    for (const r of runs) {
+      if (typeof map[r.id] === 'string') {
+        r.notes = map[r.id].trim();
+        touched = true;
+        n++;
+      }
+    }
+    if (touched) writeJson(runsFile(slug), runs);
+  }
+  console.log(`${n} note(s) applied`);
 }
 
 /* ---------- status ---------- */

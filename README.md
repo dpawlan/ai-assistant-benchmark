@@ -212,6 +212,8 @@ npm run imessage:analyze -- --slug poke     # usage.json (public counts + reply 
 # open runs.draft.json: set score 1-10 and outcome pass|partial|fail on real tests, fix the category guess if needed
 npm run imessage:approve -- --slug poke     # -> runs.json + evidence/<id>.json (public: category, date, timings; no message text)
 node scripts/imessage.mjs discover          # lists every one-to-one thread so you can map numbers to slugs
+node scripts/imessage.mjs excerpts --slug grok-bot --missing   # print the thread behind each run that has no descriptive note
+node scripts/imessage.mjs notes --slug grok-bot --file notes.json  # apply { runId: "what was asked and what happened" }
 ```
 
 Each assistant's number goes in `imessage_handles` in `data/sources.json`. Group chats are never exported. `analyze` splits the thread into episodes (one per task you started, or one the assistant started unprompted), guesses the rubric category from the wording, and records objective signals: first-reply time, turns, whether it said "done", whether it said it couldn't. Scores stay yours. Message text is never published by default: the evidence page at `/agents/<slug>/evidence/<id>` shows the category, date, score, and timings only. `approve --publish-excerpts` opts in to a redacted excerpt (emails, phones, addresses, card and confirmation numbers, links, names in `_redact_terms` masked). Each run carries `protocol`: `task` when you sent the published prompt, `observed` when it was a real-life episode scored after the fact; the site labels both. **Speed** in the scorecard is the median reply time from your thread, measured rather than judged, on a 15s / 45s / 2m / 5m ramp.

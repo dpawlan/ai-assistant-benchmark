@@ -8,9 +8,11 @@ interface FormData {
   categories: string[];
   contact: string;
   notes: string;
+  /** Honeypot; hidden from people, filled by bots. */
+  website: string;
 }
 
-const initial: FormData = { agentName: '', agentUrl: '', categories: [], contact: '', notes: '' };
+const initial: FormData = { agentName: '', agentUrl: '', categories: [], contact: '', notes: '', website: '' };
 
 interface RequestFormProps {
   categories: { key: string; label: string }[];
@@ -38,11 +40,16 @@ export function RequestForm({ categories }: RequestFormProps) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
       });
+      if (res.status === 429) throw new Error('rate');
       if (!res.ok) throw new Error(String(res.status));
       setDoneName(data.agentName.trim());
       setData(initial);
-    } catch {
-      setError('The request didn’t go through. Check your connection and try again.');
+    } catch (e) {
+      setError(
+        e instanceof Error && e.message === 'rate'
+          ? 'That’s a few requests in a row. Give it a few minutes and try again.'
+          : 'The request didn’t go through. Check your connection and try again.',
+      );
     } finally {
       setSubmitting(false);
     }
@@ -126,6 +133,11 @@ export function RequestForm({ categories }: RequestFormProps) {
           onChange={e => setData(d => ({ ...d, notes: e.target.value }))}
           placeholder="A use case worth testing, a correction to a listing, a link to a public thread…"
         />
+      </div>
+
+      <div className="hp" aria-hidden="true">
+        <label htmlFor="website">Website (leave empty)</label>
+        <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" value={data.website} onChange={e => setData(d => ({ ...d, website: e.target.value }))} />
       </div>
 
       {error && <div className="form-error" role="alert">{error}</div>}

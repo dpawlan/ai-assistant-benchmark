@@ -223,6 +223,19 @@ Each assistant's number goes in `imessage_handles` in `data/sources.json`. Group
 - Do not fabricate or paraphrase quotes
 - Maintain kind labels: praise, complaint, use-case, bug, comparison, other
 
+## Request form
+
+`POST /api/request` turns each "Request a test" submission into a GitHub issue labeled `request` (the queue) and an email (the alert). Both are best-effort; without the env vars it just logs. Set in Vercel:
+
+| Var | Purpose |
+|---|---|
+| `GITHUB_TOKEN` | fine-grained token, Issues: read/write on the repo |
+| `GITHUB_REPO` | default `dpawlan/ai-assistant-benchmark` |
+| `RESEND_API_KEY` | resend.com; free tier sends from `onboarding@resend.dev` until you verify a domain and set `RESEND_FROM` |
+| `REQUEST_TO` | default `davidmpawlan@gmail.com` |
+
+The form has a hidden honeypot field and a 5-per-10-minutes-per-IP limit.
+
 ## Deployment
 
 The site is optimized for static generation:

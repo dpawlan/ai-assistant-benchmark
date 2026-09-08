@@ -2295,3 +2295,12 @@ a.cat-row:hover .cat-label {
 .matrix .mx-speed {
   background: #f7f9fc;
 }
+
+/* Honeypot field: off-screen, never shown to people */
+.hp {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

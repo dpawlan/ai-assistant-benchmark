@@ -18,3 +18,8 @@
 - [complaint] @monetization_x: Love it. I would really like to see Grok Bot better integrated with Grok. I’ve spent so much time training Grok, but now when I use Grok Bot it feels like a tot
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-08) @tyhho0: WE'RE BUILDING GROKBOT X NOTION  Connect your Codex/Claude and: - Let us handle orchestration of work. - Let work be built through harnessed

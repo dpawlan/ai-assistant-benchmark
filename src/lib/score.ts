@@ -25,3 +25,12 @@ export function opinionRank(stat: OpinionStat | undefined): number {
   // Share of positive, centered on an even split, shrunk toward the split by sample size.
   return (stat.score - 0.5) * (signed / (signed + OPINION_PRIOR));
 }
+
+/** Reply-time bucket on the same 1–5 ramp: under 15s is best, over 5 minutes is worst. */
+export function speedBucket(seconds: number): 1 | 2 | 3 | 4 | 5 {
+  if (seconds <= 15) return 5;
+  if (seconds <= 45) return 4;
+  if (seconds <= 120) return 3;
+  if (seconds <= 300) return 2;
+  return 1;
+}

@@ -4,7 +4,7 @@
  *
  *   node scripts/imessage.mjs export   [--db ~/Library/Messages/chat.db] [--slug poke,town] [--since 2026-01-01]
  *   node scripts/imessage.mjs analyze  [--slug ...] [--all]      usage stats + draft runs, redacted
- *   node scripts/imessage.mjs approve  [--slug ...]              drafts you've scored -> runs.json + public evidence
+ *   node scripts/imessage.mjs approve  [--slug ...] [--publish-excerpts]   scored drafts -> runs.json + public evidence
  *   node scripts/imessage.mjs status
  *   node scripts/imessage.mjs discover [--db ...] [--since ...]   list one-to-one threads so you can map numbers to slugs
  *
@@ -13,11 +13,14 @@
  *
  * What stays private (gitignored): data/agents/<slug>/transcripts/ and runs.draft.json.
  * What gets published: data/agents/<slug>/usage.json (counts and latencies) and, once you approve a draft,
- * data/agents/<slug>/evidence/<id>.json (the redacted excerpt for that one test) plus the run in runs.json.
+ * data/agents/<slug>/evidence/<id>.json (category, date, timing signals) plus the run in runs.json.
+ * Message text is NOT published. The redacted excerpt in runs.draft.json is there so you can score; it stays
+ * private unless you pass `approve --publish-excerpts`, and even then it has been through redact():
+ * emails, phone numbers, street addresses, card numbers, long digit runs, confirmation codes, URLs (kept as
+ * their domain), and any names listed under `_redact_terms` in data/sources.json. Group chats are never exported.
  *
- * Every excerpt is redacted before it leaves the transcripts folder: emails, phone numbers, street addresses,
- * card numbers, long digit runs, confirmation codes, URLs (kept as their domain), and any names listed under
- * `_redact_terms` in data/sources.json. Group chats with humans are never exported.
+ * Each draft has `protocol`: "observed" (a real-life episode, categorized after the fact) or "task" (you sent
+ * the published prompt from data/tasks.json). analyze guesses; correct it when you score.
  */
 import fs from 'node:fs';
 import os from 'node:os';
@@ -336,7 +339,22 @@ const STOP = new Set('a an the and or of to for in on at with by from me my i yo
 
 function loadTasks() {
   const set = readJson(path.join(DATA, 'tasks.json'), { tasks: [] });
-  return set.tasks.map(t => ({ key: t.key, words: [...new Set(`${t.task} ${t.prompt}`.toLowerCase().replace(/[^a-z0-9\s'-]/g, ' ').split(/\s+/).filter(w => w.length > 3 && !STOP.has(w)))] }));
+  return set.tasks.map(t => ({
+    key: t.key,
+    prompt: t.prompt,
+    words: [...new Set(`${t.task} ${t.prompt}`.toLowerCase().replace(/[^a-z0-9\s'-]/g, ' ').split(/\s+/).filter(w => w.length > 3 && !STOP.has(w)))],
+  }));
+}
+
+/** "task" when the opening message is essentially the published prompt; otherwise "observed". Exported for tests. */
+export function guessProtocol(firstMyMessage, task) {
+  if (!task?.prompt || !firstMyMessage) return 'observed';
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(w => w.length > 2);
+  const prompt = new Set(norm(task.prompt));
+  const mine = norm(firstMyMessage);
+  if (!prompt.size || !mine.length) return 'observed';
+  const hit = mine.filter(w => prompt.has(w)).length;
+  return hit / prompt.size >= 0.6 ? 'task' : 'observed';
 }
 
 /** Score an episode against every category; return the ranked list with a rough confidence. */
@@ -480,11 +498,13 @@ async function analyze() {
       if (!opts.all && (!cat.category || cat.confidence < minConfidence)) continue;
       const id = `${slug}-${ep.start.slice(0, 10)}-${crypto.createHash('sha1').update(ep.start + (ep.messages[0]?.text ?? '')).digest('hex').slice(0, 6)}`;
       if (byId.has(id)) continue; // keep any scoring you've already typed into the draft
+      const firstMine = ep.messages.find(m => m.from === 'me')?.text ?? '';
       byId.set(id, {
         id,
         category: cat.category,
         category_confidence: cat.confidence,
         alternatives: cat.alternatives,
+        protocol: guessProtocol(firstMine, tasks.find(t => t.key === cat.category)),
         date: ep.start.slice(0, 10),
         signals: signalsFor(ep),
         excerpt: ep.messages.slice(0, 40).map(m => ({ from: m.from, ts: m.ts, text: redact(m.text, terms).slice(0, 600), ...(m.attachment ? { attachment: true } : {}) })),
@@ -498,12 +518,13 @@ async function analyze() {
     writeJson(draftFile(slug), drafts);
     console.log(`${slug}: ${stats.messages} msgs, ${stats.days_active} days, median reply ${stats.median_reply_s ?? '-'}s, ${stats.unanswered} unanswered, ${stats.proactive_messages} proactive · ${episodes.length} episodes, ${added} new drafts (${drafts.length} total) -> ${path.relative(ROOT, draftFile(slug))}`);
   }
-  console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" if the guess is wrong, then run: node scripts/imessage.mjs approve');
+  console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" and "protocol" (task|observed) if the guesses are wrong, then run: node scripts/imessage.mjs approve');
 }
 
 /* ---------- approve ---------- */
 
 async function approve() {
+  const publishExcerpts = Boolean(opts['publish-excerpts']);
   let total = 0;
   for (const slug of slugs) {
     const drafts = readJson(draftFile(slug), []);
@@ -513,17 +534,18 @@ async function approve() {
     const have = new Set(runs.map(r => r.id));
     for (const d of ready) {
       if (have.has(d.id)) continue;
+      const protocol = d.protocol === 'task' ? 'task' : 'observed';
       writeJson(path.join(evidenceDir(slug), `${d.id}.json`), {
         id: d.id,
         agent: slug,
         category: d.category,
+        protocol,
         date: d.date,
         signals: d.signals,
-        excerpt: d.excerpt,
-        redacted: true,
+        ...(publishExcerpts ? { excerpt: d.excerpt, redacted: true } : {}),
         published_at: new Date().toISOString(),
       });
-      runs.push({ id: d.id, category: d.category, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}` });
+      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}` });
       total++;
     }
     runs.sort((a, b) => a.date.localeCompare(b.date));
@@ -531,7 +553,7 @@ async function approve() {
     writeJson(draftFile(slug), drafts.filter(d => !ready.includes(d)));
     console.log(`${slug}: ${ready.length} runs approved -> ${path.relative(ROOT, runsFile(slug))}`);
   }
-  console.log(`${total} runs published with evidence. Rebuild the site to see them.`);
+  console.log(`${total} runs published (${publishExcerpts ? 'with redacted excerpts' : 'signals only, no message text'}). Rebuild the site to see them.`);
 }
 
 /* ---------- status ---------- */

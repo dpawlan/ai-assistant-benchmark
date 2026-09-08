@@ -54,9 +54,13 @@ export interface TaskSet {
 }
 
 /** One logged test of one agent on one category. Scores are derived from these. */
+/** "task": the published prompt was sent verbatim. "observed": a real-life episode scored after the fact. */
+export type RunProtocol = 'task' | 'observed';
+
 export interface Run {
   id: string;
   category: string;
+  protocol?: RunProtocol;
   date: string;
   score: number | 'n/a';
   outcome: RunOutcome;
@@ -101,15 +105,16 @@ export interface EvidenceSignals {
   agent_initiated: boolean;
 }
 
-/** data/agents/<slug>/evidence/<id>.json: the redacted excerpt behind one run. */
+/** data/agents/<slug>/evidence/<id>.json: what's published behind one run. Excerpts are optional and off by default. */
 export interface Evidence {
   id: string;
   agent: string;
   category: string;
+  protocol?: RunProtocol;
   date: string;
   signals: EvidenceSignals;
-  excerpt: ExcerptMessage[];
-  redacted: boolean;
+  excerpt?: ExcerptMessage[];
+  redacted?: boolean;
   published_at: string;
 }
 
@@ -185,6 +190,9 @@ export interface Agent {
   endorsed: number | null;
   /** Categories with a numeric score. */
   testedCount: number;
+  /** How many of the latest runs used the published prompt vs. were observed in real use. */
+  taskRuns: number;
+  observedRuns: number;
   /** Date of the most recent run, if any. */
   lastTested: string | null;
   /** Public opinion per category, from opinion.json. Founder posts excluded. */

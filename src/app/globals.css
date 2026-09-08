@@ -2265,3 +2265,33 @@ a.cat-row:hover .cat-label {
   font-size: 12.5px;
   color: var(--sec);
 }
+
+/* ---------- Evidence without transcript, speed column ---------- */
+
+.ev-private {
+  max-width: 560px;
+  margin-top: 22px;
+}
+
+.ev-private-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 0;
+  border-top: 1px solid var(--hair);
+  font-size: 15px;
+}
+
+.ev-private-row:first-child {
+  border-top: 0;
+}
+
+.ev-private-row .iv {
+  max-width: 60%;
+  white-space: normal;
+  text-align: right;
+}
+
+.matrix .mx-speed {
+  background: #f7f9fc;
+}

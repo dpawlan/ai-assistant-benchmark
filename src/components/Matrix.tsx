@@ -6,6 +6,7 @@ import { Agent, Category } from '@/lib/types';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
+import { SpeedCell } from './SpeedCell';
 import { opinionRank } from '@/lib/score';
 
 interface MatrixProps {
@@ -19,6 +20,7 @@ type SortKey = 'core' | 'endorsed' | string;
 
 function benchValue(agent: Agent, key: SortKey): number {
   if (key === 'core') return agent.core ?? -1;
+  if (key === 'speed') return agent.usage?.median_reply_s === null || agent.usage?.median_reply_s === undefined ? -1e9 : -agent.usage.median_reply_s;
   if (key === 'endorsed') return agent.endorsed ?? -1;
   const v = agent.scores[key];
   return typeof v === 'number' ? v : v === 'n/a' ? -2 : -1;
@@ -26,6 +28,7 @@ function benchValue(agent: Agent, key: SortKey): number {
 
 function opinionValue(agent: Agent, key: SortKey): number {
   if (key === 'endorsed') return agent.opinionOverall.n;
+  if (key === 'speed') return benchValue(agent, key);
   return opinionRank(key === 'core' ? agent.opinionOverall : agent.opinion[key]);
 }
 
@@ -108,6 +111,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <colgroup>
             <col className="c-name" />
             <col className="c-agg" />
+            {!opinion && <col className="c-agg" />}
             {core.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
@@ -124,6 +128,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               {opinion
                 ? header('core', 'Overall', 'positive', 'mx-agg', 'overall sentiment')
                 : header('core', 'Core', 'mean', 'mx-agg', 'core mean')}
+              {!opinion && header('speed', 'Speed', `${agents.filter(a => a.usage?.median_reply_s != null).length} measured`, 'mx-agg mx-speed', 'median reply time')}
               {core.map(c => header(c.key, short[c.key] ?? c.label, catSub(c.key), '', c.label))}
               {opinion
                 ? header('endorsed', 'Quotes', 'read', 'mx-agg mx-div', 'number of quotes')
@@ -134,7 +139,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           {groups.map(group => (
             <tbody key={group.title}>
               <tr className="mx-group">
-                <th scope="rowgroup" colSpan={categories.length + 3}>
+                <th scope="rowgroup" colSpan={categories.length + (opinion ? 3 : 4)}>
                   {group.title}
                   <span className="mx-count">{group.rows.length}</span>
                 </th>
@@ -150,6 +155,11 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                   <td className="mx-agg">
                     {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.core} aggregate />}
                   </td>
+                  {!opinion && (
+                    <td className={`mx-agg mx-speed${sort === 'speed' ? ' sorted' : ''}`}>
+                      <SpeedCell usage={agent.usage} />
+                    </td>
+                  )}
                   {core.map(c => (
                     <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
                       {opinion ? <OpinionCell stat={agent.opinion[c.key]} /> : <ScoreCell value={agent.scores[c.key]} />}
@@ -217,6 +227,8 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <span className="sc sc-null">—</span> not tested yet
           <span className="key-gap" />
           <span className="sc sc-na">N/A</span> doesn&apos;t apply
+          <span className="key-gap" />
+          <span className="sc sc-5">11s</span> speed: median reply in the reviewer&apos;s own thread, measured not judged
           <span className="key-gap" />
           <Link href="/categories#how">How scoring works</Link>
         </p>

@@ -4,9 +4,9 @@
     "category": "chained_tasks",
     "protocol": "observed",
     "date": "2026-08-17",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-17-b4fadb"
   },
   {
@@ -14,9 +14,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-cbbcd8"
   },
   {
@@ -24,9 +24,9 @@
     "category": "chained_tasks",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-1142bd"
   },
   {
@@ -34,9 +34,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 4,
+    "score": 3,
     "outcome": "fail",
-    "notes": "auto: signals-based; source=Nati",
+    "notes": "auto: signals-based; source=Nati | recalibrated 2026-09-08 to 7-8 band per David (was 4)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-6816c4"
   },
   {
@@ -44,9 +44,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-19",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-4addba"
   },
   {
@@ -54,9 +54,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 7)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-1d1adc"
   },
   {
@@ -64,9 +64,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Life Cleaner",
+    "notes": "auto: signals-based; source=Life Cleaner | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-401ff6"
   },
   {
@@ -74,9 +74,9 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-75751a"
   },
   {
@@ -84,9 +84,9 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
   },
   {
@@ -94,9 +94,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-ee4646"
   },
   {
@@ -104,9 +104,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-20",
-    "score": 4,
+    "score": 3,
     "outcome": "fail",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 4)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-184af4"
   },
   {
@@ -114,9 +114,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-e0c246"
   },
   {
@@ -124,9 +124,9 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-361e63"
   },
   {
@@ -134,9 +134,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Nati",
+    "notes": "auto: signals-based; source=Nati | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-658962"
   },
   {
@@ -144,9 +144,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-8c38c0"
   },
   {
@@ -154,9 +154,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 4,
+    "score": 3,
     "outcome": "fail",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 4)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-d60a29"
   },
   {
@@ -164,9 +164,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-21",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-20bd08"
   },
   {
@@ -174,9 +174,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-23",
-    "score": 2,
+    "score": 3,
     "outcome": "fail",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 2)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-23-d72f5d"
   },
   {
@@ -184,9 +184,9 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-27",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-83b894"
   },
   {
@@ -194,9 +194,9 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-27",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-367958"
   },
   {
@@ -204,9 +204,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-27",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-e5d784"
   },
   {
@@ -214,9 +214,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-28",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-28-e26439"
   },
   {
@@ -226,7 +226,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 8)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-24048a"
   },
   {
@@ -234,9 +234,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-29",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-633cc0"
   },
   {
@@ -244,9 +244,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-08-29",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-a1c650"
   },
   {
@@ -254,9 +254,9 @@
     "category": "email_replies",
     "protocol": "observed",
     "date": "2026-08-30",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-e16984"
   },
   {
@@ -264,9 +264,9 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-08-30",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
   },
   {
@@ -276,7 +276,7 @@
     "date": "2026-08-31",
     "score": 9,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 9)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-31fc33"
   },
   {
@@ -284,9 +284,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-049b2a"
   },
   {
@@ -294,9 +294,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-28cf13"
   },
   {
@@ -304,9 +304,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-72888a"
   },
   {
@@ -314,9 +314,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Guap Bot",
+    "notes": "auto: signals-based; source=Guap Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-4a2564"
   },
   {
@@ -324,9 +324,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 7)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-412b7c"
   },
   {
@@ -334,9 +334,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 9,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 9)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-ef9185"
   },
   {
@@ -344,9 +344,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-071ec9"
   },
   {
@@ -354,9 +354,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Dave Bot",
+    "notes": "auto: signals-based; source=Dave Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
   },
   {
@@ -364,9 +364,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-6d0b46"
   },
   {
@@ -374,9 +374,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-02",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-02-166c88"
   },
   {
@@ -384,9 +384,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-04",
-    "score": 7,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 7)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-c4133d"
   },
   {
@@ -394,9 +394,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-04",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-1d0a8c"
   },
   {
@@ -404,9 +404,9 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-09-05",
-    "score": 4,
+    "score": 3,
     "outcome": "fail",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 4)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-0ec163"
   },
   {
@@ -414,9 +414,9 @@
     "category": "recommendation_quality",
     "protocol": "observed",
     "date": "2026-09-05",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Fantasy Bot",
+    "notes": "auto: signals-based; source=Fantasy Bot | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-e51cab"
   },
   {
@@ -426,7 +426,7 @@
     "date": "2026-09-06",
     "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 8)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-78a056"
   },
   {
@@ -434,9 +434,9 @@
     "category": "personality",
     "protocol": "observed",
     "date": "2026-09-06",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-a17a8c"
   },
   {
@@ -444,9 +444,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Agency Review",
+    "notes": "auto: signals-based; source=Agency Review | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-6a95d1"
   },
   {
@@ -454,9 +454,9 @@
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-baea65"
   },
   {
@@ -464,9 +464,9 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=Fantasy Bot",
+    "notes": "auto: signals-based; source=Fantasy Bot | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-ef3d33"
   },
   {
@@ -474,9 +474,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 6,
+    "score": 8,
     "outcome": "pass",
-    "notes": "auto: signals-based; source=AI Bench",
+    "notes": "auto: signals-based; source=AI Bench | recalibrated 2026-09-08 to 7-8 band per David (was 6)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-b1963d"
   },
   {
@@ -484,9 +484,9 @@
     "category": "running_routine",
     "protocol": "observed",
     "date": "2026-09-07",
-    "score": 5,
+    "score": 7,
     "outcome": "partial",
-    "notes": "auto: signals-based; source=Social",
+    "notes": "auto: signals-based; source=Social | recalibrated 2026-09-08 to 7-8 band per David (was 5)",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-58cf54"
   }
 ]

@@ -46,30 +46,34 @@ function readText(file: string): string | undefined {
 
 export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   online_task: 'Completes a real browser or web workflow end to end, not just advice.',
+  travel: 'Finds, books and manages flights and hotels, including check-in and changes.',
   recommendation_quality: 'Relevance, taste and constraint-following when it suggests options.',
   purchasing: 'Finds, compares and completes (or correctly stages) a purchase.',
   email_replies: 'Drafts or sends replies in your voice, with the right context and recipients.',
   proactive_behavior: 'Acts or nudges usefully without being asked every step.',
   running_routine: 'Reliable scheduled and recurring work.',
   third_party_integrations: 'Uses connected tools like calendar, inbox and Notion correctly.',
+  permissions_privacy: 'Lets you scope what it can see and do, honors the rules you set, and revokes cleanly.',
   memory: 'Remembers your preferences, people and past requests across sessions.',
   personality: 'Has a voice worth talking to; reads like a contact, not a form.',
   phone_calls: 'Makes real phone calls on your behalf and reports back.',
   multiplayer_groups: 'Works in group chats with several people at once.',
   chained_tasks: 'Strings several steps across tools into one job, like a flight check-in.',
-  proactive_restraint: 'Acts before you knew you needed it, and knows when not to.',
+  proactive_restraint: 'Judgment on unprompted action: handles the small stuff, waits on the consequential.',
   content_creation_games: 'Makes images, video or games on request.',
 };
 
 /** Column labels short enough for the matrix header. */
 export const CATEGORY_SHORT: Record<string, string> = {
   online_task: 'Online tasks',
+  travel: 'Travel',
   recommendation_quality: 'Picks',
   purchasing: 'Purchasing',
   email_replies: 'Email',
   proactive_behavior: 'Proactive',
   running_routine: 'Routines',
   third_party_integrations: 'Connected apps',
+  permissions_privacy: 'Permissions',
   memory: 'Memory',
   personality: 'Personality',
   phone_calls: 'Phone calls',

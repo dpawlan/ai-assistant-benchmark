@@ -5,6 +5,11 @@
     "group": "core"
   },
   {
+    "key": "travel",
+    "label": "Travel booking",
+    "group": "core"
+  },
+  {
     "key": "recommendation_quality",
     "label": "Recommendation quality",
     "group": "core"
@@ -32,6 +37,11 @@
   {
     "key": "third_party_integrations",
     "label": "Third-party integrations",
+    "group": "core"
+  },
+  {
+    "key": "permissions_privacy",
+    "label": "Permissions & privacy",
     "group": "core"
   },
   {

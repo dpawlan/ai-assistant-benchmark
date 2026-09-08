@@ -94,17 +94,20 @@ function writeJson(file, value) {
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
 }
 
-/** Phone numbers compare by their last ten digits; emails by lowercase. */
+/**
+ * Phone numbers compare by their last ten digits; emails and Apple Messages for Business ids
+ * (`urn:biz:<uuid>`, used by Poke and others) by lowercase string.
+ */
 export function normalizeHandle(h) {
   const s = String(h ?? '').trim().toLowerCase();
-  if (s.includes('@')) return s;
+  if (s.includes('@') || s.startsWith('urn:')) return s;
   const digits = s.replace(/\D/g, '');
   return digits.slice(-10);
 }
 
 /** Messages store dates as nanoseconds (or, on old exports, seconds) since 2001-01-01. */
 export function appleDateToMs(d) {
-  const n = Number(d);
+  const n = Number(d); // BigInt from node:sqlite is fine here; the precision loss is sub-millisecond
   if (!n) return 0;
   const ms = n > 1e14 ? n / 1e6 : n > 1e11 ? n / 1e3 : n * 1000;
   return Math.round(ms + APPLE_EPOCH_MS);
@@ -145,7 +148,7 @@ export function redact(text, extraTerms = []) {
   let t = String(text ?? '');
   t = t.replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '[email]');
   t = t.replace(/https?:\/\/([^\s/]+)[^\s]*/gi, (_, host) => `[link: ${host.replace(/^www\./, '')}]`);
-  t = t.replace(/\b(?:\d[ -]?){13,19}\b/g, '[card]');
+  t = t.replace(/\b\d(?:[ -]?\d){12,18}\b/g, '[card]');
   t = t.replace(/(?:\+?1[ -.]?)?\(?\b\d{3}\)?[ -.]?\d{3}[ -.]?\d{4}\b/g, '[phone]');
   t = t.replace(new RegExp(`\\b\\d{1,6}\\s+(?:[A-Za-z0-9'.-]+\\s){1,4}${STREET}\\b\\.?(?:,?\\s*(?:apt|suite|unit|#)\\s*[\\w-]+)?`, 'gi'), '[address]');
   t = t.replace(/\b\d{5}(?:-\d{4})?\b/g, '[zip]');
@@ -178,15 +181,16 @@ async function exportChats() {
   for (const slug of slugs) for (const h of sources[slug].imessage_handles ?? []) byHandle.set(normalizeHandle(h), slug);
   if (byHandle.size === 0) fail('No imessage_handles configured for the selected assistants in data/sources.json.');
 
-  const chats = db
+  const chatsStmt = db
     .prepare(
       `SELECT c.ROWID AS id, c.chat_identifier, c.service_name, COUNT(chj.handle_id) AS participants, GROUP_CONCAT(h.id) AS handles
        FROM chat c
        JOIN chat_handle_join chj ON chj.chat_id = c.ROWID
        JOIN handle h ON h.ROWID = chj.handle_id
        GROUP BY c.ROWID`,
-    )
-    .all();
+    );
+  chatsStmt.setReadBigInts(true); // message dates are nanoseconds since 2001 and overflow a JS number
+  const chats = chatsStmt.all();
 
   const chatsBySlug = new Map();
   for (const c of chats) {
@@ -203,6 +207,7 @@ async function exportChats() {
      FROM message m JOIN chat_message_join j ON j.message_id = m.ROWID
      WHERE j.chat_id = ? ORDER BY m.date`,
   );
+  messageQuery.setReadBigInts(true);
 
   for (const slug of slugs) {
     const chatList = chatsBySlug.get(slug) ?? [];
@@ -214,15 +219,16 @@ async function exportChats() {
     const messages = [];
     for (const c of chatList) {
       for (const m of messageQuery.all(c.id)) {
-        if (seen.has(m.id)) continue;
-        seen.add(m.id);
+        const mid = Number(m.id);
+        if (seen.has(mid)) continue;
+        seen.add(mid);
         if (Number(m.item_type) !== 0) continue; // group events, etc.
         if (Number(m.assoc) >= 2000 && Number(m.assoc) < 4000) continue; // tapbacks / reactions
         const ms = appleDateToMs(m.date);
         if (ms < sinceMs) continue;
         const text = (m.text && String(m.text).trim()) || decodeAttributedBody(m.body);
         if (!text && !m.att) continue;
-        messages.push({ id: m.id, ts: new Date(ms).toISOString(), from: Number(m.is_from_me) ? 'me' : 'agent', text: text ?? '', attachment: Boolean(m.att), service: c.service_name });
+        messages.push({ id: mid, ts: new Date(ms).toISOString(), from: Number(m.is_from_me) ? 'me' : 'agent', text: text ?? '', attachment: Boolean(Number(m.att)), service: c.service_name });
       }
     }
     messages.sort((a, b) => a.ts.localeCompare(b.ts));
@@ -232,14 +238,54 @@ async function exportChats() {
   db.close();
 }
 
-/** List every one-to-one thread with its number, so unknown assistant numbers can be added to sources.json. */
+/** Best-effort map of phone/email -> contact name from the macOS Contacts databases, so threads are recognizable. */
+async function loadContacts() {
+  const names = new Map();
+  const base = path.join(os.homedir(), 'Library', 'Application Support', 'AddressBook');
+  const files = [];
+  const walk = dir => {
+    let entries = [];
+    try {
+      entries = fs.readdirSync(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory() && (e.name === 'Sources' || dir.endsWith('Sources'))) walk(full);
+      else if (e.isFile() && e.name.endsWith('.abcddb')) files.push(full);
+    }
+  };
+  walk(base);
+  const { DatabaseSync } = await import('node:sqlite');
+  for (const file of files) {
+    try {
+      const db = new DatabaseSync(file, { readOnly: true });
+      const label = r => [r.ZNICKNAME, [r.ZFIRSTNAME, r.ZLASTNAME].filter(Boolean).join(' '), r.ZORGANIZATION].filter(Boolean).join(' / ');
+      for (const r of db.prepare('SELECT p.ZFULLNUMBER AS h, c.ZFIRSTNAME, c.ZLASTNAME, c.ZNICKNAME, c.ZORGANIZATION FROM ZABCDPHONENUMBER p JOIN ZABCDRECORD c ON c.Z_PK = p.ZOWNER').all()) {
+        const key = normalizeHandle(r.h);
+        if (key && label(r)) names.set(key, label(r));
+      }
+      for (const r of db.prepare('SELECT e.ZADDRESS AS h, c.ZFIRSTNAME, c.ZLASTNAME, c.ZNICKNAME, c.ZORGANIZATION FROM ZABCDEMAILADDRESS e JOIN ZABCDRECORD c ON c.Z_PK = e.ZOWNER').all()) {
+        const key = normalizeHandle(r.h);
+        if (key && label(r)) names.set(key, label(r));
+      }
+      db.close();
+    } catch {
+      /* a Contacts source we can't read; skip it */
+    }
+  }
+  return names;
+}
+
+/** List every one-to-one thread with its number and contact name, so unknown assistant numbers can be added to sources.json. */
 async function discover() {
   const dbPath = String(opts.db ?? path.join(os.homedir(), 'Library', 'Messages', 'chat.db'));
   const sinceMs = new Date(opts.since ?? '2026-01-01').getTime();
   const db = await openDb(dbPath);
   const known = new Map();
   for (const [slug, cfg] of Object.entries(sources)) for (const h of cfg.imessage_handles ?? []) known.set(normalizeHandle(h), slug);
-  const rows = db
+  const stmt = db
     .prepare(
       `SELECT h.id AS handle, c.service_name AS service, COUNT(m.ROWID) AS n, MAX(m.date) AS last,
               (SELECT m2.text FROM message m2 JOIN chat_message_join j2 ON j2.message_id = m2.ROWID
@@ -251,13 +297,16 @@ async function discover() {
        JOIN message m ON m.ROWID = j.message_id
        WHERE (SELECT COUNT(*) FROM chat_handle_join x WHERE x.chat_id = c.ROWID) = 1
        GROUP BY c.ROWID HAVING n >= 3 ORDER BY n DESC`,
-    )
-    .all()
-    .filter(r => appleDateToMs(r.last) >= sinceMs);
-  console.log('handle                    service   msgs  last        mapped      first incoming message');
+    );
+  stmt.setReadBigInts(true);
+  const rows = stmt.all().filter(r => appleDateToMs(r.last) >= sinceMs);
+  const contacts = await loadContacts();
+  console.log('handle                    contact               service   msgs  last        mapped      first incoming message');
   for (const r of rows) {
-    const slug = known.get(normalizeHandle(r.handle)) ?? '';
-    console.log(`${String(r.handle).padEnd(25)} ${String(r.service).padEnd(9)} ${String(r.n).padStart(5)}  ${new Date(appleDateToMs(r.last)).toISOString().slice(0, 10)}  ${slug.padEnd(11)} ${String(r.first_in ?? '').replace(/\s+/g, ' ').slice(0, 60)}`);
+    const key = normalizeHandle(r.handle);
+    const slug = known.get(key) ?? '';
+    const name = contacts.get(key) ?? '';
+    console.log(`${String(r.handle).padEnd(25)} ${name.slice(0, 20).padEnd(21)} ${String(r.service).padEnd(9)} ${String(r.n).padStart(5)}  ${new Date(appleDateToMs(r.last)).toISOString().slice(0, 10)}  ${slug.padEnd(11)} ${String(r.first_in ?? '').replace(/\s+/g, ' ').slice(0, 60)}`);
   }
   console.log('\nAdd assistant numbers to imessage_handles in data/sources.json. Threads with people are listed too; nothing is exported until a number is mapped.');
   db.close();

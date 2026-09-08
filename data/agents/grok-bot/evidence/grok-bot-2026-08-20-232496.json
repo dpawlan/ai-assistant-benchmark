@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-08-20-232496",
+  "agent": "grok-bot",
+  "category": "content_creation_games",
+  "protocol": "observed",
+  "date": "2026-08-20",
+  "signals": {
+    "turns": 29,
+    "my_messages": 12,
+    "agent_messages": 17,
+    "first_reply_s": 20,
+    "duration_min": 32,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

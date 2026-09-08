@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-08-19-6816c4",
+  "agent": "grok-bot",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-08-19",
+  "signals": {
+    "turns": 19,
+    "my_messages": 2,
+    "agent_messages": 17,
+    "first_reply_s": 33,
+    "duration_min": 40,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

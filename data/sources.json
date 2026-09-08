@@ -319,8 +319,9 @@
         "grok bot",
         "grokbot"
       ],
-      "_note": "App id 6670324846 is the general Grok chat app; its reviews are not about Grok Bot. Left empty on purpose.",
-      "imessage_handles": []
+      "_note": "App id 6670324846 is the general Grok chat app; its reviews are not about Grok Bot. Left empty on purpose. Evidence source: grok-bot-chats (scripts/grokbot.mjs).",
+      "imessage_handles": [],
+      "_note_evidence": "First-party evidence source is grok-bot-chats (box agent store.db via scripts/grokbot.mjs), not App Store reviews."
     },
     "halo": {
       "name": "Halo",

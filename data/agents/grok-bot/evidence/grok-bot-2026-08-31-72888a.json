@@ -1,0 +1,19 @@
+{
+  "id": "grok-bot-2026-08-31-72888a",
+  "agent": "grok-bot",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-08-31",
+  "signals": {
+    "turns": 28,
+    "my_messages": 6,
+    "agent_messages": 22,
+    "first_reply_s": 23,
+    "duration_min": 60,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T16:45:03.181Z"
+}

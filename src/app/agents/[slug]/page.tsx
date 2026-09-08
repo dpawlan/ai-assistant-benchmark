@@ -106,7 +106,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className="ag-stat">
                 {agent.testedCount === 0
                   ? 'Not tested yet'
-                  : `${agent.testedCount} of ${categories.length} categories tested`}
+                  : `${agent.testedCount} of ${categories.length} categories tested (${agent.taskRuns} published test${agent.taskRuns === 1 ? '' : 's'}, ${agent.observedRuns} observed)`}
               </span>
               {agent.opinionOverall.n > 0 && (
                 <span className="ag-stat ag-stat-op">

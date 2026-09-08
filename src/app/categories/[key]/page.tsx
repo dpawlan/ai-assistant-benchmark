@@ -113,7 +113,7 @@ export default async function CategoryPage({ params }: Props) {
                   <span className="row-body">
                     <span className="row-name">{agent.name}</span>
                     <span className="row-tag">
-                      {run ? `${run.outcome === 'pass' ? 'Pass' : run.outcome === 'partial' ? 'Partial' : 'Fail'} · ${formatDate(run.date, 'short')}${run.notes ? ` · ${run.notes}` : ''}` : agent.tagline}
+                      {run ? `${run.outcome === 'pass' ? 'Pass' : run.outcome === 'partial' ? 'Partial' : 'Fail'} · ${run.protocol === 'task' ? 'published test' : 'observed in use'} · ${formatDate(run.date, 'short')}${run.notes ? ` · ${run.notes}` : ''}` : agent.tagline}
                     </span>
                   </span>
                   <span className="row-slot">

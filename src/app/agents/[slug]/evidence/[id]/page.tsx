@@ -45,6 +45,7 @@ export default async function EvidencePage({ params }: Props) {
   const category = getCategory(ev.category);
   const run = getRuns(slug).find(r => r.id === id);
   const s = ev.signals;
+  const excerpt = ev.excerpt;
 
   return (
     <div className="wrap">
@@ -59,7 +60,7 @@ export default async function EvidencePage({ params }: Props) {
 
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
-          Test · <Link href={`/categories/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
+          {ev.protocol === 'task' ? 'Published test' : 'Observed in use'} · <Link href={`/categories/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />
@@ -92,9 +93,10 @@ export default async function EvidencePage({ params }: Props) {
         </p>
       </div>
 
+      {excerpt ? (
       <div className="chat" role="log" aria-label="Message thread, redacted">
-        {ev.excerpt.map((m, i) => {
-          const prev = ev.excerpt[i - 1];
+        {excerpt.map((m, i) => {
+          const prev = excerpt[i - 1];
           const gap = prev ? Date.parse(m.ts) - Date.parse(prev.ts) : Infinity;
           return (
             <Fragment key={`${m.ts}-${i}`}>
@@ -107,10 +109,31 @@ export default async function EvidencePage({ params }: Props) {
           );
         })}
       </div>
+      ) : (
+        <div className="ev-private">
+          <div className="ev-private-row">
+            <span className="il">What was asked</span>
+            <span className="iv">{category?.label ?? ev.category}{ev.protocol === 'task' ? ', using the published prompt' : ', in normal use'}</span>
+          </div>
+          <div className="ev-private-row">
+            <span className="il">Messages in the exchange</span>
+            <span className="iv">{s.turns} ({s.my_messages} from the reviewer, {s.agent_messages} from {agent.name})</span>
+          </div>
+          <div className="ev-private-row">
+            <span className="il">First reply</span>
+            <span className="iv">{formatSeconds(s.first_reply_s)}</span>
+          </div>
+          <div className="ev-private-row">
+            <span className="il">How it ended</span>
+            <span className="iv">{s.agent_said_done ? 'It reported the task done' : s.agent_said_cant ? "It said it couldn't" : 'No explicit completion message'}</span>
+          </div>
+        </div>
+      )}
 
       <p className="ev-note">
-        This is the reviewer&apos;s real iMessage thread with {agent.name}, trimmed to this one test. Emails, phone numbers, addresses, card and
-        confirmation numbers, links and personal names were replaced with bracketed markers before publishing. Times are UTC.
+        {ev.excerpt
+          ? `This is the reviewer's real iMessage thread with ${agent.name}, trimmed to this one test. Emails, phone numbers, addresses, card and confirmation numbers, links and personal names were replaced with bracketed markers before publishing. Times are UTC.`
+          : `The reviewer's own iMessage thread with ${agent.name} is the source for this run. The message text stays private; what's published is the category, the date, the score, and the timings measured from the thread.`}
       </p>
     </div>
   );

@@ -4,7 +4,7 @@
  *
  *   node scripts/imessage.mjs export   [--db ~/Library/Messages/chat.db] [--slug poke,town] [--since 2026-01-01]
  *   node scripts/imessage.mjs analyze  [--slug ...] [--all]      usage stats + draft runs, redacted
- *   node scripts/imessage.mjs approve  [--slug ...]              drafts you've scored -> runs.json + public evidence
+ *   node scripts/imessage.mjs approve  [--slug ...] [--publish-excerpts]   scored drafts -> runs.json + public evidence
  *   node scripts/imessage.mjs status
  *   node scripts/imessage.mjs discover [--db ...] [--since ...]   list one-to-one threads so you can map numbers to slugs
  *
@@ -13,11 +13,14 @@
  *
  * What stays private (gitignored): data/agents/<slug>/transcripts/ and runs.draft.json.
  * What gets published: data/agents/<slug>/usage.json (counts and latencies) and, once you approve a draft,
- * data/agents/<slug>/evidence/<id>.json (the redacted excerpt for that one test) plus the run in runs.json.
+ * data/agents/<slug>/evidence/<id>.json (category, date, timing signals) plus the run in runs.json.
+ * Message text is NOT published. The redacted excerpt in runs.draft.json is there so you can score; it stays
+ * private unless you pass `approve --publish-excerpts`, and even then it has been through redact():
+ * emails, phone numbers, street addresses, card numbers, long digit runs, confirmation codes, URLs (kept as
+ * their domain), and any names listed under `_redact_terms` in data/sources.json. Group chats are never exported.
  *
- * Every excerpt is redacted before it leaves the transcripts folder: emails, phone numbers, street addresses,
- * card numbers, long digit runs, confirmation codes, URLs (kept as their domain), and any names listed under
- * `_redact_terms` in data/sources.json. Group chats with humans are never exported.
+ * Each draft has `protocol`: "observed" (a real-life episode, categorized after the fact) or "task" (you sent
+ * the published prompt from data/tasks.json). analyze guesses; correct it when you score.
  */
 import fs from 'node:fs';
 import os from 'node:os';
@@ -94,17 +97,20 @@ function writeJson(file, value) {
   fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
 }
 
-/** Phone numbers compare by their last ten digits; emails by lowercase. */
+/**
+ * Phone numbers compare by their last ten digits; emails and Apple Messages for Business ids
+ * (`urn:biz:<uuid>`, used by Poke and others) by lowercase string.
+ */
 export function normalizeHandle(h) {
   const s = String(h ?? '').trim().toLowerCase();
-  if (s.includes('@')) return s;
+  if (s.includes('@') || s.startsWith('urn:')) return s;
   const digits = s.replace(/\D/g, '');
   return digits.slice(-10);
 }
 
 /** Messages store dates as nanoseconds (or, on old exports, seconds) since 2001-01-01. */
 export function appleDateToMs(d) {
-  const n = Number(d);
+  const n = Number(d); // BigInt from node:sqlite is fine here; the precision loss is sub-millisecond
   if (!n) return 0;
   const ms = n > 1e14 ? n / 1e6 : n > 1e11 ? n / 1e3 : n * 1000;
   return Math.round(ms + APPLE_EPOCH_MS);
@@ -145,7 +151,7 @@ export function redact(text, extraTerms = []) {
   let t = String(text ?? '');
   t = t.replace(/[\w.+-]+@[\w-]+\.[\w.-]+/g, '[email]');
   t = t.replace(/https?:\/\/([^\s/]+)[^\s]*/gi, (_, host) => `[link: ${host.replace(/^www\./, '')}]`);
-  t = t.replace(/\b(?:\d[ -]?){13,19}\b/g, '[card]');
+  t = t.replace(/\b\d(?:[ -]?\d){12,18}\b/g, '[card]');
   t = t.replace(/(?:\+?1[ -.]?)?\(?\b\d{3}\)?[ -.]?\d{3}[ -.]?\d{4}\b/g, '[phone]');
   t = t.replace(new RegExp(`\\b\\d{1,6}\\s+(?:[A-Za-z0-9'.-]+\\s){1,4}${STREET}\\b\\.?(?:,?\\s*(?:apt|suite|unit|#)\\s*[\\w-]+)?`, 'gi'), '[address]');
   t = t.replace(/\b\d{5}(?:-\d{4})?\b/g, '[zip]');
@@ -178,15 +184,16 @@ async function exportChats() {
   for (const slug of slugs) for (const h of sources[slug].imessage_handles ?? []) byHandle.set(normalizeHandle(h), slug);
   if (byHandle.size === 0) fail('No imessage_handles configured for the selected assistants in data/sources.json.');
 
-  const chats = db
+  const chatsStmt = db
     .prepare(
       `SELECT c.ROWID AS id, c.chat_identifier, c.service_name, COUNT(chj.handle_id) AS participants, GROUP_CONCAT(h.id) AS handles
        FROM chat c
        JOIN chat_handle_join chj ON chj.chat_id = c.ROWID
        JOIN handle h ON h.ROWID = chj.handle_id
        GROUP BY c.ROWID`,
-    )
-    .all();
+    );
+  chatsStmt.setReadBigInts(true); // message dates are nanoseconds since 2001 and overflow a JS number
+  const chats = chatsStmt.all();
 
   const chatsBySlug = new Map();
   for (const c of chats) {
@@ -203,6 +210,7 @@ async function exportChats() {
      FROM message m JOIN chat_message_join j ON j.message_id = m.ROWID
      WHERE j.chat_id = ? ORDER BY m.date`,
   );
+  messageQuery.setReadBigInts(true);
 
   for (const slug of slugs) {
     const chatList = chatsBySlug.get(slug) ?? [];
@@ -214,15 +222,16 @@ async function exportChats() {
     const messages = [];
     for (const c of chatList) {
       for (const m of messageQuery.all(c.id)) {
-        if (seen.has(m.id)) continue;
-        seen.add(m.id);
+        const mid = Number(m.id);
+        if (seen.has(mid)) continue;
+        seen.add(mid);
         if (Number(m.item_type) !== 0) continue; // group events, etc.
         if (Number(m.assoc) >= 2000 && Number(m.assoc) < 4000) continue; // tapbacks / reactions
         const ms = appleDateToMs(m.date);
         if (ms < sinceMs) continue;
         const text = (m.text && String(m.text).trim()) || decodeAttributedBody(m.body);
         if (!text && !m.att) continue;
-        messages.push({ id: m.id, ts: new Date(ms).toISOString(), from: Number(m.is_from_me) ? 'me' : 'agent', text: text ?? '', attachment: Boolean(m.att), service: c.service_name });
+        messages.push({ id: mid, ts: new Date(ms).toISOString(), from: Number(m.is_from_me) ? 'me' : 'agent', text: text ?? '', attachment: Boolean(Number(m.att)), service: c.service_name });
       }
     }
     messages.sort((a, b) => a.ts.localeCompare(b.ts));
@@ -232,14 +241,54 @@ async function exportChats() {
   db.close();
 }
 
-/** List every one-to-one thread with its number, so unknown assistant numbers can be added to sources.json. */
+/** Best-effort map of phone/email -> contact name from the macOS Contacts databases, so threads are recognizable. */
+async function loadContacts() {
+  const names = new Map();
+  const base = path.join(os.homedir(), 'Library', 'Application Support', 'AddressBook');
+  const files = [];
+  const walk = dir => {
+    let entries = [];
+    try {
+      entries = fs.readdirSync(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory() && (e.name === 'Sources' || dir.endsWith('Sources'))) walk(full);
+      else if (e.isFile() && e.name.endsWith('.abcddb')) files.push(full);
+    }
+  };
+  walk(base);
+  const { DatabaseSync } = await import('node:sqlite');
+  for (const file of files) {
+    try {
+      const db = new DatabaseSync(file, { readOnly: true });
+      const label = r => [r.ZNICKNAME, [r.ZFIRSTNAME, r.ZLASTNAME].filter(Boolean).join(' '), r.ZORGANIZATION].filter(Boolean).join(' / ');
+      for (const r of db.prepare('SELECT p.ZFULLNUMBER AS h, c.ZFIRSTNAME, c.ZLASTNAME, c.ZNICKNAME, c.ZORGANIZATION FROM ZABCDPHONENUMBER p JOIN ZABCDRECORD c ON c.Z_PK = p.ZOWNER').all()) {
+        const key = normalizeHandle(r.h);
+        if (key && label(r)) names.set(key, label(r));
+      }
+      for (const r of db.prepare('SELECT e.ZADDRESS AS h, c.ZFIRSTNAME, c.ZLASTNAME, c.ZNICKNAME, c.ZORGANIZATION FROM ZABCDEMAILADDRESS e JOIN ZABCDRECORD c ON c.Z_PK = e.ZOWNER').all()) {
+        const key = normalizeHandle(r.h);
+        if (key && label(r)) names.set(key, label(r));
+      }
+      db.close();
+    } catch {
+      /* a Contacts source we can't read; skip it */
+    }
+  }
+  return names;
+}
+
+/** List every one-to-one thread with its number and contact name, so unknown assistant numbers can be added to sources.json. */
 async function discover() {
   const dbPath = String(opts.db ?? path.join(os.homedir(), 'Library', 'Messages', 'chat.db'));
   const sinceMs = new Date(opts.since ?? '2026-01-01').getTime();
   const db = await openDb(dbPath);
   const known = new Map();
   for (const [slug, cfg] of Object.entries(sources)) for (const h of cfg.imessage_handles ?? []) known.set(normalizeHandle(h), slug);
-  const rows = db
+  const stmt = db
     .prepare(
       `SELECT h.id AS handle, c.service_name AS service, COUNT(m.ROWID) AS n, MAX(m.date) AS last,
               (SELECT m2.text FROM message m2 JOIN chat_message_join j2 ON j2.message_id = m2.ROWID
@@ -251,13 +300,16 @@ async function discover() {
        JOIN message m ON m.ROWID = j.message_id
        WHERE (SELECT COUNT(*) FROM chat_handle_join x WHERE x.chat_id = c.ROWID) = 1
        GROUP BY c.ROWID HAVING n >= 3 ORDER BY n DESC`,
-    )
-    .all()
-    .filter(r => appleDateToMs(r.last) >= sinceMs);
-  console.log('handle                    service   msgs  last        mapped      first incoming message');
+    );
+  stmt.setReadBigInts(true);
+  const rows = stmt.all().filter(r => appleDateToMs(r.last) >= sinceMs);
+  const contacts = await loadContacts();
+  console.log('handle                    contact               service   msgs  last        mapped      first incoming message');
   for (const r of rows) {
-    const slug = known.get(normalizeHandle(r.handle)) ?? '';
-    console.log(`${String(r.handle).padEnd(25)} ${String(r.service).padEnd(9)} ${String(r.n).padStart(5)}  ${new Date(appleDateToMs(r.last)).toISOString().slice(0, 10)}  ${slug.padEnd(11)} ${String(r.first_in ?? '').replace(/\s+/g, ' ').slice(0, 60)}`);
+    const key = normalizeHandle(r.handle);
+    const slug = known.get(key) ?? '';
+    const name = contacts.get(key) ?? '';
+    console.log(`${String(r.handle).padEnd(25)} ${name.slice(0, 20).padEnd(21)} ${String(r.service).padEnd(9)} ${String(r.n).padStart(5)}  ${new Date(appleDateToMs(r.last)).toISOString().slice(0, 10)}  ${slug.padEnd(11)} ${String(r.first_in ?? '').replace(/\s+/g, ' ').slice(0, 60)}`);
   }
   console.log('\nAdd assistant numbers to imessage_handles in data/sources.json. Threads with people are listed too; nothing is exported until a number is mapped.');
   db.close();
@@ -287,7 +339,22 @@ const STOP = new Set('a an the and or of to for in on at with by from me my i yo
 
 function loadTasks() {
   const set = readJson(path.join(DATA, 'tasks.json'), { tasks: [] });
-  return set.tasks.map(t => ({ key: t.key, words: [...new Set(`${t.task} ${t.prompt}`.toLowerCase().replace(/[^a-z0-9\s'-]/g, ' ').split(/\s+/).filter(w => w.length > 3 && !STOP.has(w)))] }));
+  return set.tasks.map(t => ({
+    key: t.key,
+    prompt: t.prompt,
+    words: [...new Set(`${t.task} ${t.prompt}`.toLowerCase().replace(/[^a-z0-9\s'-]/g, ' ').split(/\s+/).filter(w => w.length > 3 && !STOP.has(w)))],
+  }));
+}
+
+/** "task" when the opening message is essentially the published prompt; otherwise "observed". Exported for tests. */
+export function guessProtocol(firstMyMessage, task) {
+  if (!task?.prompt || !firstMyMessage) return 'observed';
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(w => w.length > 2);
+  const prompt = new Set(norm(task.prompt));
+  const mine = norm(firstMyMessage);
+  if (!prompt.size || !mine.length) return 'observed';
+  const hit = mine.filter(w => prompt.has(w)).length;
+  return hit / prompt.size >= 0.6 ? 'task' : 'observed';
 }
 
 /** Score an episode against every category; return the ranked list with a rough confidence. */
@@ -431,11 +498,13 @@ async function analyze() {
       if (!opts.all && (!cat.category || cat.confidence < minConfidence)) continue;
       const id = `${slug}-${ep.start.slice(0, 10)}-${crypto.createHash('sha1').update(ep.start + (ep.messages[0]?.text ?? '')).digest('hex').slice(0, 6)}`;
       if (byId.has(id)) continue; // keep any scoring you've already typed into the draft
+      const firstMine = ep.messages.find(m => m.from === 'me')?.text ?? '';
       byId.set(id, {
         id,
         category: cat.category,
         category_confidence: cat.confidence,
         alternatives: cat.alternatives,
+        protocol: guessProtocol(firstMine, tasks.find(t => t.key === cat.category)),
         date: ep.start.slice(0, 10),
         signals: signalsFor(ep),
         excerpt: ep.messages.slice(0, 40).map(m => ({ from: m.from, ts: m.ts, text: redact(m.text, terms).slice(0, 600), ...(m.attachment ? { attachment: true } : {}) })),
@@ -449,12 +518,13 @@ async function analyze() {
     writeJson(draftFile(slug), drafts);
     console.log(`${slug}: ${stats.messages} msgs, ${stats.days_active} days, median reply ${stats.median_reply_s ?? '-'}s, ${stats.unanswered} unanswered, ${stats.proactive_messages} proactive · ${episodes.length} episodes, ${added} new drafts (${drafts.length} total) -> ${path.relative(ROOT, draftFile(slug))}`);
   }
-  console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" if the guess is wrong, then run: node scripts/imessage.mjs approve');
+  console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" and "protocol" (task|observed) if the guesses are wrong, then run: node scripts/imessage.mjs approve');
 }
 
 /* ---------- approve ---------- */
 
 async function approve() {
+  const publishExcerpts = Boolean(opts['publish-excerpts']);
   let total = 0;
   for (const slug of slugs) {
     const drafts = readJson(draftFile(slug), []);
@@ -464,17 +534,18 @@ async function approve() {
     const have = new Set(runs.map(r => r.id));
     for (const d of ready) {
       if (have.has(d.id)) continue;
+      const protocol = d.protocol === 'task' ? 'task' : 'observed';
       writeJson(path.join(evidenceDir(slug), `${d.id}.json`), {
         id: d.id,
         agent: slug,
         category: d.category,
+        protocol,
         date: d.date,
         signals: d.signals,
-        excerpt: d.excerpt,
-        redacted: true,
+        ...(publishExcerpts ? { excerpt: d.excerpt, redacted: true } : {}),
         published_at: new Date().toISOString(),
       });
-      runs.push({ id: d.id, category: d.category, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}` });
+      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}` });
       total++;
     }
     runs.sort((a, b) => a.date.localeCompare(b.date));
@@ -482,7 +553,7 @@ async function approve() {
     writeJson(draftFile(slug), drafts.filter(d => !ready.includes(d)));
     console.log(`${slug}: ${ready.length} runs approved -> ${path.relative(ROOT, runsFile(slug))}`);
   }
-  console.log(`${total} runs published with evidence. Rebuild the site to see them.`);
+  console.log(`${total} runs published (${publishExcerpts ? 'with redacted excerpts' : 'signals only, no message text'}). Rebuild the site to see them.`);
 }
 
 /* ---------- status ---------- */

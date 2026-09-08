@@ -243,12 +243,15 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
       .filter((v): v is number => typeof v === 'number');
 
   const lastTested = runs.length ? runs[runs.length - 1].date : null;
+  const latest = Object.values(latestRuns);
   return {
     scores,
     latestRuns,
     core: mean(numeric('core')),
     endorsed: mean(numeric('endorsed')),
     testedCount: Object.values(scores).filter(v => typeof v === 'number').length,
+    taskRuns: latest.filter(r => r.protocol === 'task').length,
+    observedRuns: latest.filter(r => r.protocol !== 'task').length,
     lastTested,
   };
 }

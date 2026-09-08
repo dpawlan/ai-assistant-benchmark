@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "agent_count": 40,
-  "feedback_count": 795,
+  "feedback_count": 839,
   "confirmed": 30,
   "stretch": 10,
   "agents": [
@@ -58,7 +58,7 @@
       "name": "Catch",
       "status": "confirmed",
       "site": "https://catchagent.ai/",
-      "feedback_count": 26,
+      "feedback_count": 28,
       "public_signal": null
     },
     {
@@ -74,7 +74,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "",
-      "feedback_count": 73,
+      "feedback_count": 74,
       "public_signal": null
     },
     {
@@ -98,7 +98,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-      "feedback_count": 85,
+      "feedback_count": 99,
       "public_signal": null
     },
     {
@@ -138,7 +138,7 @@
       "name": "Miso",
       "status": "confirmed",
       "site": "https://miso.com/",
-      "feedback_count": 17,
+      "feedback_count": 18,
       "public_signal": "high"
     },
     {
@@ -186,7 +186,7 @@
       "name": "personal/local",
       "status": "confirmed",
       "site": "",
-      "feedback_count": 52,
+      "feedback_count": 73,
       "public_signal": null
     },
     {
@@ -242,7 +242,7 @@
       "name": "Slashy",
       "status": "confirmed",
       "site": "",
-      "feedback_count": 36,
+      "feedback_count": 37,
       "public_signal": null
     },
     {
@@ -282,7 +282,7 @@
       "name": "tinyNature",
       "status": "confirmed",
       "site": "https://tinypeople.ai/",
-      "feedback_count": 19,
+      "feedback_count": 20,
       "public_signal": "medium"
     },
     {
@@ -298,7 +298,7 @@
       "name": "Town",
       "status": "confirmed",
       "site": "https://www.town.com/",
-      "feedback_count": 36,
+      "feedback_count": 39,
       "public_signal": null
     },
     {

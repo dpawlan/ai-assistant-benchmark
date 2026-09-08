@@ -152,8 +152,18 @@ export function isFounderPost(quote: Feedback): boolean {
  */
 export function hasJudgment(slug: string, quote: Feedback): boolean {
   const cats = getOpinion(slug)?.quotes[quote.id];
-  if (!cats) return true;
+  if (!cats) return hasSubstance(quote);
   return Object.values(cats).some(s => s !== 'neutral');
+}
+
+/** At least four words once @mentions and links are stripped; a bare tag or link-drop says nothing. */
+export function hasSubstance(quote: Feedback): boolean {
+  const words = (quote.quote ?? '')
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/@\w+/g, ' ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim();
+  return words ? words.split(' ').length >= 4 : false;
 }
 
 /** Quotes that render on the site for one agent: founder posts stay (labelled), neutral-only rows are hidden. */
@@ -166,14 +176,12 @@ function emptyStat(): OpinionStat {
   return { pos: 0, neg: 0, neutral: 0, n: 0, score: null };
 }
 
+/** A mixed quote is a rave with a caveat: the author's verdict is positive, so it counts as positive. */
 function addSentiment(stat: OpinionStat, s: Sentiment) {
   stat.n += 1;
-  if (s === 'pos') stat.pos += 1;
+  if (s === 'pos' || s === 'mixed') stat.pos += 1;
   else if (s === 'neg') stat.neg += 1;
-  else if (s === 'mixed') {
-    stat.pos += 1;
-    stat.neg += 1;
-  } else stat.neutral += 1;
+  else stat.neutral += 1;
 }
 
 function finalizeStat(stat: OpinionStat): OpinionStat {
@@ -204,7 +212,7 @@ function deriveOpinion(slug: string, categories: Category[]) {
       if (s === 'pos' || s === 'mixed') pos = true;
       if (s === 'neg' || s === 'mixed') neg = true;
     }
-    addSentiment(overall, pos && neg ? 'mixed' : pos ? 'pos' : neg ? 'neg' : 'neutral');
+    addSentiment(overall, pos ? 'pos' : neg ? 'neg' : 'neutral');
   }
   for (const key of Object.keys(opinion)) finalizeStat(opinion[key]);
   return { opinion, opinionOverall: finalizeStat(overall) };

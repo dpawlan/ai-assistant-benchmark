@@ -75,7 +75,7 @@
   {
     "id": "346f88f268a2",
     "agent": "asaply",
-    "quote": "Your calendar is fully booked tomorrow. Fortunately, your coffee isn\u2019t.",
+    "quote": "Your calendar is fully booked tomorrow. Fortunately, your coffee isn’t.",
     "author": "@AsaplyAi",
     "author_name": "Asaply",
     "date": "2026-09-02",
@@ -146,7 +146,7 @@
   {
     "id": "fb5d64995762",
     "agent": "asaply",
-    "quote": "We are building \n@AsaplyAi\n \nwhich is a a two-sided platform: consumer checkout engine that lets users order anything via iMessage and an AI-native merchant OS for the merchants.\n\nwe just submitted! \npls check us out! \u2764\ufe0f\n\n\n@far33d\n \n@emilybenn12\n \n@kenanhsaleh\n \n@tkexpress11\n \n\nThanks!",
+    "quote": "We are building \n@AsaplyAi\n \nwhich is a a two-sided platform: consumer checkout engine that lets users order anything via iMessage and an AI-native merchant OS for the merchants.\n\nwe just submitted! \npls check us out! ❤️\n\n\n@far33d\n \n@emilybenn12\n \n@kenanhsaleh\n \n@tkexpress11\n \n\nThanks!",
     "author": "@SaranBluri",
     "author_name": "Saran Bluri",
     "date": "2026-05-17",
@@ -159,5 +159,25 @@
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
     "notes": "Founder describing Asaply product (iMessage checkout)."
+  },
+  {
+    "id": "eb5e4ab72669",
+    "agent": "asaply",
+    "quote": "@DavidPawlan Asaply\n\nhttps://Asaply.ai\n\n@AsaplyAi",
+    "author": "@SaranBluri",
+    "author_name": "Saran Bluri",
+    "date": "2026-09-06",
+    "url": "https://x.com/SaranBluri/status/2096595758556348659",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:07:47.401Z",
+    "notes": "query: \"asaply.ai\" | via x402atlas (AgentCash) | reply to @DavidPawlan roster call; co-founder"
   }
 ]

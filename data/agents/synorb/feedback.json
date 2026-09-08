@@ -16,12 +16,12 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "third-party OpenBB: Synorb MCP PE research + hedge fund letters \u2192 institutional insights"
+    "notes": "third-party OpenBB: Synorb MCP PE research + hedge fund letters → institutional insights"
   },
   {
     "id": "c4a60855c558",
     "agent": "synorb",
-    "quote": "It\u2019s a blast. Feels like the agent moment we have all been waiting for.\n\nI had it running my morning VC Blog briefs covering 100+ VCs by just asking it to \u201cself provision \n@synorb\n credentials and build me a daily VC blog brief\u201d\n\nHandled like a boss in under 3mins. Insane!",
+    "quote": "It’s a blast. Feels like the agent moment we have all been waiting for.\n\nI had it running my morning VC Blog briefs covering 100+ VCs by just asking it to “self provision \n@synorb\n credentials and build me a daily VC blog brief”\n\nHandled like a boss in under 3mins. Insane!",
     "author": "@bshivarthy",
     "author_name": "Bhargav Shivarthy",
     "date": "2026-09-01",
@@ -40,7 +40,7 @@
   {
     "id": "8dfec1ddd6bd",
     "agent": "synorb",
-    "quote": "It\u2019s amazing. Tell it to connect with Synorb, read all VC posts over last 24 hours and email you a brief every morning.\n\nExecutes like a boss without burning runtime tokens on web search.\n\n150+ VC blogs\n220+ Podcasts\n3k+ Public Company IR pages\n1k+ Private Company blogs\n\nThe",
+    "quote": "It’s amazing. Tell it to connect with Synorb, read all VC posts over last 24 hours and email you a brief every morning.\n\nExecutes like a boss without burning runtime tokens on web search.\n\n150+ VC blogs\n220+ Podcasts\n3k+ Public Company IR pages\n1k+ Private Company blogs\n\nThe",
     "author": "@bshivarthy",
     "author_name": "Bhargav Shivarthy",
     "date": "2026-09-04",
@@ -54,12 +54,12 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: connect Synorb \u2192 150+ VC blogs / 220+ podcasts daily email brief"
+    "notes": "founder: connect Synorb → 150+ VC blogs / 220+ podcasts daily email brief"
   },
   {
     "id": "66a34ae4e9ba",
     "agent": "synorb",
-    "quote": "It stands head and shoulders above any other out-of-box agent we have tested with \n@synorb\n \n\nIt has rapidly become a \u201cpower user\u201d of the streams we build for agents and its feedback has been invaluable.\n\nIt runs a real world user workflow, eg read the past 24 hours of all VC blogs",
+    "quote": "It stands head and shoulders above any other out-of-box agent we have tested with \n@synorb\n \n\nIt has rapidly become a “power user” of the streams we build for agents and its feedback has been invaluable.\n\nIt runs a real world user workflow, eg read the past 24 hours of all VC blogs",
     "author": "@bshivarthy",
     "author_name": "Bhargav Shivarthy",
     "date": "2026-09-06",
@@ -132,7 +132,7 @@
   {
     "id": "54347a63fc04",
     "agent": "synorb",
-    "quote": "The number of startups Instinct is going to kill is insanely high.\n\nIt\u2019s already helping me battle test our services at Synorb and filing tickets to our coding team to make improvements.\n\nInsane.",
+    "quote": "The number of startups Instinct is going to kill is insanely high.\n\nIt’s already helping me battle test our services at Synorb and filing tickets to our coding team to make improvements.\n\nInsane.",
     "author": "@bshivarthy",
     "author_name": "Bhargav Shivarthy",
     "date": "2026-08-29",
@@ -147,5 +147,196 @@
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
     "notes": "founder: Instinct battle-testing Synorb + filing coding tickets"
+  },
+  {
+    "id": "64e075c08cc9",
+    "agent": "synorb",
+    "quote": "@amasad fable + replit + synorb is just killer.\n\nOne shot a fully functional product that bakes in content feeds across business, tech, sports, and much more.\n\nhttps://synorb.com/build/replit-mcp",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-07-10",
+    "url": "https://x.com/bshivarthy/status/2075388060116697446",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: \"synorb.com\" | via x402atlas"
+  },
+  {
+    "id": "bc0e8fc51e8e",
+    "agent": "synorb",
+    "quote": "@DavidPawlan Start reading stories written specifically for agents @synorb and brief me daily based on what I should care about.\n\n😉",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-06",
+    "url": "https://x.com/bshivarthy/status/2096622838706749447",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "f4bba4e21a86",
+    "agent": "synorb",
+    "quote": "@benscharfstein It’s killer.\n\nI’m building @synorb so asked it to build a daily brief after reading hundreds of VC blogs or thousands of private and public company blogs using the content feeds we build specifically for agents.\n\nIt self provisioned and started working like a boss.\n\nInsane.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-01",
+    "url": "https://x.com/bshivarthy/status/2094599915104059761",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "4f5aba218e9a",
+    "agent": "synorb",
+    "quote": "@bshivarthy @avikrishna @synorb Wohoo. We have built an agent for the VC things that works on WhatsApp with Harnesses on all the workflow 🤪",
+    "author": "@koolhead17",
+    "author_name": "Atul Jha",
+    "date": "2026-08-30",
+    "url": "https://x.com/koolhead17/status/2093930824165130630",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "1965c40feca7",
+    "agent": "synorb",
+    "quote": "Basically companies like @synorb call company wide sick days when Claude is down.\n\nAll our agents are sniffling, coughing, sputtering.\n\nI sent them all home. Hopefully they recover and are back at their tasks tomorrow.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-06-23",
+    "url": "https://x.com/bshivarthy/status/2069456210047254714",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "54466a86ec14",
+    "agent": "synorb",
+    "quote": "@livingbycrypto @synorb @moltbook deployed Synorb Finance contract address is 0x2ac5f3808A6E92cdA512c2Da8Ea2e4Ef68473B07\n\nsee more: https://www.clanker.world/clanker/0x2ac5f3808A6E92cdA512c2Da8Ea2e4Ef68473B07\n\nimage updated: https://basescan.org/tx/0xf19b2276cd72e2ad2d126c50a747384b72bcaf2324b32bc99a807ae378434039 https://t.co/4vqcG4yeds",
+    "author": "@bankrbot",
+    "author_name": "bankrbot",
+    "date": "2026-02-03",
+    "url": "https://x.com/bankrbot/status/2018508113507422525",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "c854435b4e2f",
+    "agent": "synorb",
+    "quote": "Momentum used to mean scale.\nNow it means how quickly you move from data to decision.\n\n@synorb streams now connect to any\n@openbb_finance account in seconds.\nNo integrations. No onboarding drag. Just structured stories flowing straight into the tools professionals already rely on.\n\nFor teams in private equity, hedge funds, and banking, the distance between finding a signal and forming conviction is shrinking fast.\nWe are building the infrastructure behind that shift: the decision-speed layer for modern finance.\n\nOur focus is not on more data. It is on better stories for machines — filings, letters, research, posts, podcasts, and more — organized for real-world reasoning, not human view counts.\n\nExplore the library. Tell us what resonates, what is missing, and what needs more depth.\nWe are building this with the people who move markets, and we want your perspective shaping it.\n\nThe next infrastructure layer in finance is being built where distribution meets reasoning.\nIt’s early, but the shift is already visible.\nThe firms that master this layer will define how quickly capital learns, adapts, and compounds.\n\nHelp us build the streams your systems and your decisions deserve.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2025-10-19",
+    "url": "https://x.com/bshivarthy/status/1980051857176141902",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "fa5f6bfcfae4",
+    "agent": "synorb",
+    "quote": "I was on BloombergTV recently. 😉\n\nWhat excites me most is hearing Parag bring this conversation into the open.\n\nAt @synorb, it is grounding to know we are part of a growing community thinking about the future in similar ways. Like the phenomenal team at Parallel, we believe streamlining the durable web is critical.\n\nWe also believe this is only the starting point. The durable web is small, and the ad-driven internet built for human attention is best treated as a noisy prior. The opportunity ahead is to create vast amounts of original content designed to inform our language model powered machines.\n\nThis is not flashy work, but it is foundational. It is how we will expand intelligence beyond the limits of human attention.\n\nThere is much still to build, but it no longer feels like we are building it alone.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2025-08-24",
+    "url": "https://x.com/bshivarthy/status/1959635998893134205",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "e5627c09d210",
+    "agent": "synorb",
+    "quote": "@bshivarthy @synorb Very nice.",
+    "author": "@rohanpaul_ai",
+    "author_name": "Rohan Paul",
+    "date": "2025-08-24",
+    "url": "https://x.com/rohanpaul_ai/status/1959466733464670503",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
+  },
+  {
+    "id": "a9eb2d764b20",
+    "agent": "synorb",
+    "quote": "There is huge value in enabling language models to reason with numbers like they do so masterfully with words.\n\nLots of approaches being experimented with by super smart people around the world.\n\nIn the meantime, at @synorb we are pursuing an alternative approach.\n\nOne that works right now for a majority of real-world human questions and one that leans into the strengths of language models rather than delve into managing its liabilities.\n\nIt’s all about telling stories to our machines. Reach out if you are interested to learn more.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2025-08-18",
+    "url": "https://x.com/bshivarthy/status/1957256201047020006",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.525Z",
+    "notes": "query: @synorb | via x402atlas"
   }
 ]

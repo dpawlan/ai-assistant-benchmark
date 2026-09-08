@@ -71,7 +71,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "official: Lava Desktop live \u2014 apps via APIs, approve before send"
+    "notes": "official: Lava Desktop live — apps via APIs, approve before send"
   },
   {
     "id": "3247b5eadf91",
@@ -89,7 +89,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: Lava Desktop live; conversation \u2192 routine"
+    "notes": "founder: Lava Desktop live; conversation → routine"
   },
   {
     "id": "24132d8beef0",
@@ -167,5 +167,139 @@
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
     "notes": "official: daily meeting prep via LinkedIn research + calendar + email"
+  },
+  {
+    "id": "68786349b6dc",
+    "agent": "lava",
+    "quote": "Try it at http://lava.so",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-06-10",
+    "url": "https://x.com/trylava/status/2064769597459386481",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.055Z",
+    "notes": "query: \"lava.so\" | via x402atlas"
+  },
+  {
+    "id": "1352a75928dc",
+    "agent": "lava",
+    "quote": "No key management. No separate installs. No rebuilding when a provider changes something. One setup. Every tool. http://lava.so",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-06-08",
+    "url": "https://x.com/trylava/status/2063999727989879284",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.055Z",
+    "notes": "query: \"lava.so\" | via x402atlas"
+  },
+  {
+    "id": "08925ce7b408",
+    "agent": "lava",
+    "quote": "NVIDIA just shipped tooling for autonomous AI agents at scale.\n\nYour routing layer isn't ready for what comes next.\n\nOne endpoint. 600+ models. Billing included. No markup.\n\nhttp://lava.so/products/gateway",
+    "author": "@trylava",
+    "author_name": "Lava",
+    "date": "2026-06-02",
+    "url": "https://x.com/trylava/status/2061795202537312441",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.055Z",
+    "notes": "query: \"lava.so\" | via x402atlas"
+  },
+  {
+    "id": "5b60dc19c1f0",
+    "agent": "lava",
+    "quote": "@FardeemM @MitchJones_ @trylava",
+    "author": "@cruzini0",
+    "author_name": "Isiah",
+    "date": "2026-09-07",
+    "url": "https://x.com/cruzini0/status/2096836627779764327",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.055Z",
+    "notes": "query: @trylava | via x402atlas"
+  },
+  {
+    "id": "3a80827f327d",
+    "agent": "lava",
+    "quote": "@Robert_Topkifer @trylava @chrisbarber @WisprFlow @boardyai 📠🌋📠",
+    "author": "@MitchJones_",
+    "author_name": "Mitchell Jones",
+    "date": "2026-09-06",
+    "url": "https://x.com/MitchJones_/status/2096714023316124126",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.056Z",
+    "notes": "query: @trylava | via x402atlas"
+  },
+  {
+    "id": "898a7d9cc095",
+    "agent": "lava",
+    "quote": "@chrisbarber I would add @WisprFlow and @trylava  for professional. @boardyai as well although not sure where he falls maybe both? As a founder these tools + some of the ones above are allowing me to push the limit of the whole \"1 man team\".",
+    "author": "@Robert_Topkifer",
+    "author_name": "Robert.tk",
+    "date": "2026-09-06",
+    "url": "https://x.com/Robert_Topkifer/status/2096711886767046916",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.056Z",
+    "notes": "query: @trylava | via x402atlas"
+  },
+  {
+    "id": "42377a513c22",
+    "agent": "lava",
+    "quote": "@AnthropicAI Opus 5 is now available in @trylava! You can try this and all models (OpenAI, GLM, Muse, Kimi) opened and closed in our AI workspace.",
+    "author": "@MitchJones_",
+    "author_name": "Mitchell Jones",
+    "date": "2026-07-24",
+    "url": "https://x.com/MitchJones_/status/2080763636004405613",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.056Z",
+    "notes": "query: @trylava | via x402atlas"
   }
 ]

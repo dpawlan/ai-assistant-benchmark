@@ -46,7 +46,8 @@
     "asaply": {
       "name": "Asaply",
       "handles": [
-        "AsaplyAi"
+        "AsaplyAi",
+        "SaranBluri"
       ],
       "domain": "asaply.ai",
       "x_queries": [
@@ -77,7 +78,9 @@
     "asmi": {
       "name": "Asmi",
       "handles": [
-        "AsmiAIOriginal"
+        "AsmiAIOriginal",
+        "RishiRRathor",
+        "SatwikKottur"
       ],
       "domain": "asmiai.com",
       "x_queries": [
@@ -113,13 +116,13 @@
     "boba": {
       "name": "Boba",
       "handles": [
-        "getboba"
+        "getboba",
+        "iamtegha_"
       ],
       "domain": "trygist.ai",
       "x_queries": [
         "\"trygist.ai\"",
-        "@getboba",
-        "\"boba ai\" OR \"boba assistant\" OR \"boba agent\""
+        "@getboba"
       ],
       "reddit_queries": [
         "\"trygist.ai\"",
@@ -147,13 +150,14 @@
     "buoy": {
       "name": "Buoy",
       "handles": [
-        "buoychat"
+        "buoychat",
+        "riccqi",
+        "ronithhh"
       ],
       "domain": "buoy.chat",
       "x_queries": [
         "\"buoy.chat\"",
-        "@buoychat",
-        "\"buoy ai\" OR \"buoy assistant\" OR \"buoy agent\""
+        "@buoychat"
       ],
       "reddit_queries": [
         "\"buoy.chat\"",
@@ -181,13 +185,14 @@
     "caddy": {
       "name": "Caddy",
       "handles": [
-        "try_caddy"
+        "try_caddy",
+        "ConnorWaslo",
+        "sanchetio"
       ],
       "domain": "caddy.app",
       "x_queries": [
         "\"caddy.app\"",
-        "@try_caddy",
-        "\"caddy ai\" OR \"caddy assistant\" OR \"caddy agent\""
+        "@try_caddy"
       ],
       "reddit_queries": [
         "\"caddy.app\"",
@@ -217,13 +222,14 @@
     "catch": {
       "name": "Catch",
       "handles": [
-        "catchagent"
+        "catchagent",
+        "therealnirs",
+        "YoavR7"
       ],
       "domain": "catchagent.ai",
       "x_queries": [
         "\"catchagent.ai\"",
-        "@catchagent",
-        "\"catch ai\" OR \"catch assistant\" OR \"catch agent\""
+        "@catchagent"
       ],
       "reddit_queries": [
         "\"catchagent.ai\"",
@@ -254,14 +260,14 @@
       "name": "Folk",
       "handles": [
         "nozomioai",
-        "try_folk"
+        "try_folk",
+        "arlanr"
       ],
       "domain": "folk.com",
       "x_queries": [
         "\"folk.com\"",
         "@nozomioai",
-        "@try_folk",
-        "\"folk ai\" OR \"folk assistant\" OR \"folk agent\""
+        "@try_folk"
       ],
       "reddit_queries": [
         "\"folk.com\"",
@@ -297,8 +303,6 @@
       ],
       "domain": "grok.com",
       "x_queries": [
-        "\"grok.com\"",
-        "@bot",
         "\"grok bot\" OR grokbot"
       ],
       "reddit_queries": [
@@ -321,13 +325,13 @@
     "halo": {
       "name": "Halo",
       "handles": [
-        "meethalo"
+        "meethalo",
+        "tanmays"
       ],
       "domain": "meethalo.app",
       "x_queries": [
         "\"meethalo.app\"",
-        "@meethalo",
-        "\"halo ai\" OR \"halo assistant\" OR \"halo agent\""
+        "@meethalo"
       ],
       "reddit_queries": [
         "\"meethalo.app\"",
@@ -355,12 +359,12 @@
     "hirealpha": {
       "name": "HireAlpha",
       "handles": [
-        "Alpha"
+        "Alpha",
+        "shank2600"
       ],
       "domain": "hirealpha.chat",
       "x_queries": [
         "\"hirealpha.chat\"",
-        "@Alpha",
         "\"hirealpha\" (ai OR assistant OR agent)"
       ],
       "reddit_queries": [
@@ -384,13 +388,13 @@
     "instinct": {
       "name": "Instinct",
       "handles": [
-        "instinct_inc"
+        "instinct_inc",
+        "noahrshinn"
       ],
       "domain": "instinct.co",
       "x_queries": [
         "\"instinct.co\"",
-        "@instinct_inc",
-        "\"instinct ai\" OR \"instinct assistant\" OR \"instinct agent\""
+        "@instinct_inc"
       ],
       "reddit_queries": [
         "\"instinct.co\"",
@@ -417,11 +421,12 @@
     },
     "joshu": {
       "name": "Joshu",
-      "handles": [],
+      "handles": [
+        "dbenyamin"
+      ],
       "domain": "joshu.me",
       "x_queries": [
-        "\"joshu.me\"",
-        "\"joshu ai\" OR \"joshu assistant\" OR \"joshu agent\""
+        "\"joshu.me\""
       ],
       "reddit_queries": [
         "\"joshu.me\"",
@@ -447,13 +452,13 @@
     "lava": {
       "name": "Lava",
       "handles": [
-        "trylava"
+        "trylava",
+        "MitchJones_"
       ],
       "domain": "lava.so",
       "x_queries": [
         "\"lava.so\"",
-        "@trylava",
-        "\"lava ai\" OR \"lava assistant\" OR \"lava agent\""
+        "@trylava"
       ],
       "reddit_queries": [
         "\"lava.so\"",
@@ -486,8 +491,7 @@
       "domain": "meetlucas.ai",
       "x_queries": [
         "\"meetlucas.ai\"",
-        "@meetlucasai",
-        "\"lucas ai\" OR \"lucas assistant\" OR \"lucas agent\""
+        "@meetlucasai"
       ],
       "reddit_queries": [
         "\"meetlucas.ai\"",
@@ -516,11 +520,12 @@
     },
     "mana": {
       "name": "Mana",
-      "handles": [],
+      "handles": [
+        "Behzadhaghgoo"
+      ],
       "domain": "mana.space",
       "x_queries": [
-        "\"mana.space\"",
-        "\"mana ai\" OR \"mana assistant\" OR \"mana agent\""
+        "\"mana.space\""
       ],
       "reddit_queries": [
         "\"mana.space\"",
@@ -546,13 +551,13 @@
     "miso": {
       "name": "Miso",
       "handles": [
-        "bookwithmiso"
+        "bookwithmiso",
+        "martinmartinmro"
       ],
       "domain": "miso.com",
       "x_queries": [
         "\"miso.com\"",
-        "@bookwithmiso",
-        "\"miso ai\" OR \"miso assistant\" OR \"miso agent\""
+        "@bookwithmiso"
       ],
       "reddit_queries": [
         "\"miso.com\"",
@@ -583,9 +588,7 @@
       "name": "Moves",
       "handles": [],
       "domain": null,
-      "x_queries": [
-        "\"moves ai\" OR \"moves assistant\" OR \"moves agent\""
-      ],
+      "x_queries": [],
       "reddit_queries": [
         "\"moves ai\""
       ],
@@ -607,13 +610,13 @@
     "ollie": {
       "name": "Ollie",
       "handles": [
-        "heyollieai"
+        "heyollieai",
+        "blennon_"
       ],
       "domain": "ollie.ai",
       "x_queries": [
         "\"ollie.ai\"",
-        "@heyollieai",
-        "\"ollie ai\" OR \"ollie assistant\" OR \"ollie agent\""
+        "@heyollieai"
       ],
       "reddit_queries": [
         "\"ollie.ai\"",
@@ -640,7 +643,8 @@
     "openinstinct": {
       "name": "OpenInstinct",
       "handles": [
-        "merit_systems"
+        "merit_systems",
+        "DavidPawlan"
       ],
       "domain": "openinstinct.sh",
       "x_queries": [
@@ -670,13 +674,13 @@
     "orchid": {
       "name": "Orchid",
       "handles": [
-        "orchid_hq"
+        "orchid_hq",
+        "x6c75"
       ],
       "domain": "orchid.ai",
       "x_queries": [
         "\"orchid.ai\"",
-        "@orchid_hq",
-        "\"orchid ai\" OR \"orchid assistant\" OR \"orchid agent\""
+        "@orchid_hq"
       ],
       "reddit_queries": [
         "\"orchid.ai\"",
@@ -705,13 +709,14 @@
     "pally": {
       "name": "Pally",
       "handles": [
-        "pallyai"
+        "pallyai",
+        "hazhubble",
+        "wylansford"
       ],
       "domain": "pally.com",
       "x_queries": [
         "\"pally.com\"",
-        "@pallyai",
-        "\"pally ai\" OR \"pally assistant\" OR \"pally agent\""
+        "@pallyai"
       ],
       "reddit_queries": [
         "\"pally.com\"",
@@ -789,13 +794,13 @@
     "poke": {
       "name": "Poke",
       "handles": [
-        "interaction"
+        "interaction",
+        "marvinvonhagen"
       ],
       "domain": "poke.com",
       "x_queries": [
         "\"poke.com\"",
-        "@interaction",
-        "\"poke ai\" OR \"poke assistant\" OR \"poke agent\""
+        "@interaction"
       ],
       "reddit_queries": [
         "\"poke.com\"",
@@ -825,7 +830,10 @@
     "shoponscout": {
       "name": "ShopOnScout / Scout",
       "handles": [
-        "shoponscout"
+        "shoponscout",
+        "suenacita1",
+        "Ethanarpi",
+        "JakeBoyles"
       ],
       "domain": "shoponscout.com",
       "x_queries": [
@@ -850,11 +858,12 @@
     },
     "shuffle": {
       "name": "Shuffle",
-      "handles": [],
+      "handles": [
+        "ebeezy_eth"
+      ],
       "domain": "shuffle.cool",
       "x_queries": [
-        "\"shuffle.cool\"",
-        "\"shuffle ai\" OR \"shuffle assistant\" OR \"shuffle agent\""
+        "\"shuffle.cool\""
       ],
       "reddit_queries": [
         "\"shuffle.cool\"",
@@ -905,13 +914,14 @@
     "skydive": {
       "name": "Skydive",
       "handles": [
-        "getskydive"
+        "getskydive",
+        "dhruvamin",
+        "rainn_vibes"
       ],
       "domain": "skydive.com",
       "x_queries": [
         "\"skydive.com\"",
-        "@getskydive",
-        "\"skydive ai\" OR \"skydive assistant\" OR \"skydive agent\""
+        "@getskydive"
       ],
       "reddit_queries": [
         "\"skydive.com\"",
@@ -940,14 +950,16 @@
       "name": "Slashy",
       "handles": [
         "slashyemail",
-        "slashy"
+        "slashy",
+        "GaddipatiHarsha",
+        "raidingAI",
+        "DhruvRoongta"
       ],
       "domain": "slashy.com",
       "x_queries": [
         "\"slashy.com\"",
         "@slashyemail",
-        "@slashy",
-        "\"slashy\" (ai OR assistant OR agent)"
+        "@slashy"
       ],
       "reddit_queries": [
         "\"slashy.com\"",
@@ -971,13 +983,13 @@
     "soar": {
       "name": "Soar",
       "handles": [
-        "soarapp"
+        "soarapp",
+        "stannostudio"
       ],
       "domain": "joinsoar.co",
       "x_queries": [
         "\"joinsoar.co\"",
-        "@soarapp",
-        "\"soar ai\" OR \"soar assistant\" OR \"soar agent\""
+        "@soarapp"
       ],
       "reddit_queries": [
         "\"joinsoar.co\"",
@@ -1006,7 +1018,8 @@
     "synorb": {
       "name": "Synorb",
       "handles": [
-        "synorb"
+        "synorb",
+        "bshivarthy"
       ],
       "domain": "synorb.com",
       "x_queries": [
@@ -1040,13 +1053,13 @@
     "szn": {
       "name": "szn",
       "handles": [
-        "thesznai"
+        "thesznai",
+        "nikhilgupta91"
       ],
       "domain": "theszn.ai",
       "x_queries": [
         "\"theszn.ai\"",
-        "@thesznai",
-        "\"szn ai\" OR \"szn assistant\" OR \"szn agent\""
+        "@thesznai"
       ],
       "reddit_queries": [
         "\"theszn.ai\"",
@@ -1074,13 +1087,14 @@
     "text-zero": {
       "name": "Text Zero",
       "handles": [
-        "meetzeroai"
+        "meetzeroai",
+        "AvgNomad",
+        "ming_zeroai"
       ],
       "domain": "meetzero.ai",
       "x_queries": [
         "\"meetzero.ai\"",
-        "@meetzeroai",
-        "\"text zero\" (ai OR assistant OR agent)"
+        "@meetzeroai"
       ],
       "reddit_queries": [
         "\"meetzero.ai\""
@@ -1101,7 +1115,10 @@
     "tinynature": {
       "name": "tinyNature",
       "handles": [
-        "NaturaAI"
+        "NaturaAI",
+        "carloAI",
+        "four44",
+        "vibefede"
       ],
       "domain": "tinypeople.ai",
       "x_queries": [
@@ -1132,13 +1149,14 @@
     "tomo": {
       "name": "Tomo",
       "handles": [
-        "tomo"
+        "tomo",
+        "justoutquan",
+        "raymondhechen"
       ],
       "domain": "tomo.ai",
       "x_queries": [
         "\"tomo.ai\"",
-        "@tomo",
-        "\"tomo ai\" OR \"tomo assistant\" OR \"tomo agent\""
+        "@tomo"
       ],
       "reddit_queries": [
         "\"tomo.ai\"",
@@ -1169,8 +1187,7 @@
       "domain": "town.com",
       "x_queries": [
         "\"town.com\"",
-        "@TownAI",
-        "\"town ai\" OR \"town assistant\" OR \"town agent\""
+        "@TownAI"
       ],
       "reddit_queries": [
         "\"town.com\"",
@@ -1237,7 +1254,8 @@
     "wajo-fo": {
       "name": "Wajo / Fo",
       "handles": [
-        "wajo_ai"
+        "wajo_ai",
+        "shivanipod"
       ],
       "domain": "wajo.ai",
       "x_queries": [
@@ -1264,13 +1282,13 @@
     "waldo": {
       "name": "Waldo",
       "handles": [
-        "heyywaldo"
+        "heyywaldo",
+        "shivanshfulper"
       ],
       "domain": "heywaldo.in",
       "x_queries": [
         "\"heywaldo.in\"",
-        "@heyywaldo",
-        "\"waldo ai\" OR \"waldo assistant\" OR \"waldo agent\""
+        "@heyywaldo"
       ],
       "reddit_queries": [
         "\"heywaldo.in\"",

@@ -1,5 +1,349 @@
 [
   {
+    "id": "4695a3ab8f66",
+    "agent": "personal-local",
+    "quote": "OpenClaw 9.2 gateway won't start. Here's every crash loop and the fix.\nFour releases in ten days (2.0 on Aug 30, then 8.2, 9.1, 9.2 by Sep 6). ClawStat.us verdict on 9.2 is \"skip.\" r/openclaw this week is almost entirely broken installs.\n\nIf your gateway is crash-looping right now, it's one of these. Ordered by how often I'm seeing each one.\n\n**Before anything else: back up your config.**\n\nbash\n\n    cp ~/.openclaw/openclaw.json ~/.openclaw/openclaw.json.pre-fix\n\nWhatever you do next, you want to be able to undo it.\n\n**Crash loop #1: External plugin references from before the move.**\n\nWhatsApp, Brave Search, Discord, and Perplexity connectors all moved to external plugins in 9.x. If your config still references them as built-in channels, the gateway tries to load them, fails payload verification, and restarts. Every 16 seconds, forever.\n\nYour logs will show something like:\n\n    [plugins] payload verification failed for <plugin-name>\n    [openclaw] wrote stability bundle...\n\nFix:\n\nbash\n\n    openclaw gateway stop\n    openclaw plugins sync\n    openclaw gateway start\n\nIf `plugins sync` doesn't resolve it, the nuclear option: disable the broken plugin, start the gateway, then re-add it as an external plugin.\n\nbash\n\n    openclaw config set channels.<channel>.enabled false\n    openclaw gateway start\n    # then install the external version\n    openclaw plugins install u/openclaw/<channel>\n    openclaw config set channels.<channel>.enabled true\n    openclaw gateway restart\n\n**Crash loop #2:** `doctor --fix` **deleted your model config.**\n\nThis is the one that burns people. `doctor --fix` removes config keys it doesn't recognize in the current schema. If a key name changed between versions, doctor sees the old key as \"unknown\" and silently removes it. Your model routing, your API keys stored as SecretRefs, your custom overrides, gone.\n\nYou run doctor to fix the crash. Doctor deletes the config that made it work. Gateway starts, but now your agent has no model configured and ev",
+    "author": "u/ShabzSparq",
+    "date": "2026-09-08",
+    "url": "https://www.reddit.com/r/openclaw/comments/1waoz3s/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "a47d99805bc4",
+    "agent": "personal-local",
+    "quote": "I spent today proving my own bug report wrong, found something worse (137927)\nContinuation of Bug report saga. \n\nThis is a long one. There's a practical warning at the end that applies to anyone running OpenClaw with long-lived sessions, so skip there if you don't care about the story.\n\nBackground. Last week my main agent started refusing my instructions, saying my messages contained an injected system block. I argued with him about it. I was wrong and he was right: OpenClaw's own internal runtime context was leaking into visible message text, and it reads exactly like an injection attempt because it says things like \"do not describe this context\" and \"do not wait for another message\". I filed it as **137927**.\n\n*https://github.com/openclaw/openclaw/issues/137927*\n\nSince then it's become a pile-up. Six separate issues are open describing the same thing across Telegram, Teams and webchat. Three fixes have been merged. None of them is in a released version yet. And the maintainers have been careful and honest about scope: every one of those PRs says in its own description that it does not resolve the \"complete block reinserted into clean text\" symptom, which was the specific thing I reported.\n\nMy issue got closed as completed anyway, on the back of those fixes. The person who closed it then posted a note ninety minutes later saying the fix \"does not change model input or runtime-context carrier placement\" and \"should not be read as blanket verification of those paths\". Six sibling issues describing the same defect stayed open.\n\nSo I went to argue about the closure. Then someone in the thread made a point that stopped me: my evidence wasn't good enough to argue with.\n\nMy repro was \"I ran the leaking text through an HTML stripper, saved it clean, republished it, and copying the new message pulled the tags back in.\" He pointed out that could be four different things: the model echoing it, replay contamination, rendering behaviour in the client, or the channel actually re",
+    "author": "u/Grimmoner",
+    "date": "2026-09-08",
+    "url": "https://www.reddit.com/r/openclaw/comments/1wacr2k/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "1c6eb20b8a72",
+    "agent": "personal-local",
+    "quote": "How do I make openclaw more proactive?\nI'm pretty new, and I want my agent (lobbie) to be more autonomous, and proactive. How do I make this happen? He currently only does stuff when I tell him to.",
+    "author": "u/1TSnakers",
+    "date": "2026-09-08",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1waai9b/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/AskClaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "1d9b731b9eb1",
+    "agent": "personal-local",
+    "quote": "My \n@openclaw\n agent Quill decided to update to the latest today when it misunderstood an instruction I gave it. I said update to use the latest GPT 5.6 models. Sigh.... Guess what I will be doing all day!",
+    "author": "@thewebbie",
+    "author_name": "Matthew Feinberg",
+    "date": "2026-09-07",
+    "url": "https://x.com/thewebbie/status/2096958992509534600",
+    "kind": "bug",
+    "tags": [
+      "misunderstood-instruction",
+      "self-update"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "d798e0055353",
+    "agent": "personal-local",
+    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
+    "author": "@prathitjoshi_",
+    "author_name": "Prathit",
+    "date": "2026-09-07",
+    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
+    "kind": "complaint",
+    "tags": [
+      "use-case-gap",
+      "comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "c308b4010352",
+    "agent": "personal-local",
+    "quote": "\u3061\u304b\u3044\u306e\u306fOpenclaw\u3060\u3051\u3069\u3001\u672c\u8cea\u7684\u306b\u306f\u30af\u30e9\u30a6\u30c9PC\u3092X\u30d7\u30ec\u30df\u30a2\u30e0\uff0b\u306e\u30b5\u30d6\u30b9\u30af\u3067\u8cb0\u3048\u308b\u3063\u3066\u3053\u3068\u3060\u3068\u601d\u3063\u3066\u308b\u7b11\n\nOpenclaw\u3060\u3068\u81ea\u524dPC\u3060\u304b\u3089\u306d",
+    "author": "@lucianlamp",
+    "author_name": "LUCIAN\uff5cAI \u00d7 Blockchain",
+    "date": "2026-09-07",
+    "url": "https://x.com/lucianlamp/status/2096947975511736746",
+    "kind": "comparison",
+    "tags": [
+      "local-vs-cloud"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "JP"
+  },
+  {
+    "id": "1590b7c3c1dc",
+    "agent": "personal-local",
+    "quote": "Early this year, here\u2019s what Claude and Rex (my OpenClaw agent) finally told me after weeks of prodding them to build me a business empire:\n\n\u201cCarlo, that\u2019s a lot of work!\u201d\n\nThanks, Koerner Office Podcast. But no thanks.",
+    "author": "@carlanthonytan",
+    "author_name": "Carlo Tan",
+    "date": "2026-09-07",
+    "url": "https://x.com/carlanthonytan/status/2096946914034098638",
+    "kind": "other",
+    "tags": [
+      "humor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "b003a39e0775",
+    "agent": "personal-local",
+    "quote": "\u3053\u308c\u3059\u3054\u3044\u306e\u304c\u3055\u3001OpenClaw\u306eAI\u81ea\u4f53\u304c\u30d7\u30ed\u30f3\u30d7\u30c8\u5165\u308c\u3089\u308c\u305f\u3089\u81ea\u5206\u3067\u81ea\u5206\u306e\u6307\u793a\u66f8\u66f8\u304f\u306e\u3088\n\n\u4f8b\u3048\u3070\u6bce\u671d\uff17\u6642\u306bAI\u95a2\u9023\u306e\u30cb\u30e5\u30fc\u30b9\u3092\u3044\u304f\u3064\u304b\u30d4\u30c3\u30af\u30a2\u30c3\u30d7\u3057\u3066\u8981\u7d04\u3057\u3066\u3053\u306e\u30b5\u30fc\u30d0\u306b\u6295\u7a3f\u3057\u3066\u3063\u3066Discord\u4e0a\u3067\u884c\u3063\u305f\u3060\u3051\u3067\u6bce\u671d\uff17\u6642\u306b\u6295\u7a3f\u3067\u304d\u308b",
+    "author": "@L_port8000",
+    "author_name": "\u4e00\u6a39\uff08\u3044\u3064\u304d\uff09",
+    "date": "2026-09-07",
+    "url": "https://x.com/L_port8000/status/2096952922701803542",
+    "kind": "use-case",
+    "tags": [
+      "discord",
+      "scheduled",
+      "self-writing-prompts"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "JP"
+  },
+  {
+    "id": "888ad2b52d99",
+    "agent": "personal-local",
+    "quote": "Hmm I think that probably matches automating too much. I've fallen in the same trap with DevOps tactics too, like adding OpenClaw + Automations and in the end I needed to do too much \"babysitting\". Or when using AI just for simple things like \"ls\" :D Then you're certainly using",
+    "author": "@ChristianLempa",
+    "author_name": "Christian Lempa",
+    "date": "2026-09-07",
+    "url": "https://x.com/ChristianLempa/status/2096961954728259985",
+    "kind": "complaint",
+    "tags": [
+      "over-automation",
+      "babysitting"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z"
+  },
+  {
+    "id": "85681b129d02",
+    "agent": "personal-local",
+    "quote": "Okay Astra is insane.\nI have OpenClaw 2 and have setup a main with glm5.3 flash and have sub-agents with heavy tasks on Astra. \n\nI have them make reports with tracking codes and a dashboard meant to visualize the reports and connect them so I know which is which.\n\n  \nI tasked a subagent with Astra to go through that dashboard and fix some bugs. It fixed all bugs in ten minutes and also went through the reports and fixed older tracking codes. I'm beyond impressed. \n\nLast model I tried to fix the bugs with was Gemini 3.1 pro and it took thirty minutes and couldn't fix anything. \n\n  \nI think OpenAI might finally have an impressive model worth using.",
+    "author": "u/ilias_from_ilios",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1wa53bi/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "fb6b8556f3e7",
+    "agent": "personal-local",
+    "quote": "Why OpenClaw over Hermes?\nHi all, when OpenClaw was in its earlier days back in February I rushed to try it out, and I was absolutely impressed, but I noticed something was missing. I couldn\u2019t tell my agent to \u201cgo build this feature\u201d and it would do it. It would always stop halfway through and wait on me to tell it to continue. A friend of mine recommended Hermes agent, and after several days I ended up switching over. I was blown away. My agent would fully build a feature for my website when I asked and it didn\u2019t need constant prodding along. I checked out this sub today just to see what was going on, and it seems to me like y\u2019all are doing a lot more than the Hermes agent folks. Has openclaw improved a lot? Should I switch back or go to a hybrid system? What can OpenClaw do or do better that Hermes can\u2019t?",
+    "author": "u/Ok_Television8309",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9whbv/",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "edeb19e5f9dc",
+    "agent": "personal-local",
+    "quote": "Help: OpenClaw 2.0 with Astra being very obnoxious\nHi,  \nAfter installing 2026.9.2 and switching to Astra, my Claw has become a bigot.  \nIt refuses doing stuff like using a pasted password, even though it's just a temporary one in a non-group chat, because \"I do not want to expose it in the logs\".  \nIt refuses to use the edit tool to change OpenClaw config, even though the new 2.0 authorization mechanism is broken on Pi (something about \\`active run authority\\` not being available).  \nIn general, my Claw feels much more restrained, regardless of what I write in my [AGENTS.md](http://AGENTS.md) to unlock it.  \nAm I the only one noticing this? Is it OpenClaw or Astra?  \nCheers,  \nGuido",
+    "author": "u/coccoinomane",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9ti4v/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "c57e88a79178",
+    "agent": "personal-local",
+    "quote": "Will iPad work instead of Mac Mini\nI have been reading a lot about how people are buying a separate mac mini to use AI models, especially Open Claw, and was wondering if I can use my iPad for the same purpose. I am building a few digital marketing automations for myself and my clients but don't want to host everything on my laptop for security reasons. I will create new emails and accounts for running AI and was wondering if I could use this iPad Pro (2nd Gen) that has a 256 GB space. I do not use this iPad for anything. It's been lying with me for couple of years now.",
+    "author": "u/WakeUpVikcy",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9qx9l/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "83915f2b5649",
+    "agent": "personal-local",
+    "quote": "The config is the easy part \u2014 what running openclaw as a 24/7 household assistant actually taught us\nWe've been running an openclaw instance as a full-time household assistant for a while now \u2014 messaging channels, a homelab it administrates, scheduled jobs, subagents doing the long-running work. Today we sat down and audited our setup against the official security/configuration docs and `openclaw security audit`, expecting a list of things we'd done wrong.\n\nThe config side came back boring, which is the point: model fallbacks, adaptive thinking, an allowlist of plugins pinned to exact versions, DM allowlists plus pairing, gateway on loopback. If you follow the docs you land there in an afternoon.\n\nWhat surprised us is that basically everything we've *actually* spent time on over the past months isn't in any doc \u2014 it's operational scaffolding we only built because the agent kept finding new ways to fail quietly. Sharing the list because I suspect other people rebuilt the same things independently:\n\n**Watchdogs for the failure modes that produce silence.** The dangerous failures aren't crashes, they're the ones where nothing happens and nobody notices: an auth state that wedges until restarted, a subagent that finishes but whose result never wakes the parent session, an inbound message that gets dropped before the model ever sees it, a session idling in a weird state. Each of those cost us a \"why didn't you answer for 25 minutes\" before it got its own watchdog.\n\n**A filter for meta-leakage.** LLMs narrate themselves. Without a guard in the reply path you eventually ship \"I'll now send the report to the user\" *to the user*. One filter, permanently useful.\n\n**An action journal via a PreToolUse hook.** Every destructive or infra-writing command gets appended to a log before it runs. Context gets compacted, sessions reset, summaries lose detail \u2014 the journal doesn't. When something is broken at 2am the first question is \"what did the agent actually do\", and memory is not",
+    "author": "u/nissl24",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9q82y/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "ee80dc8eaadc",
+    "agent": "personal-local",
+    "quote": "Openclaw 2026.9.2 Injection attempt!\n[This status is after I reverted the update.](https://preview.redd.it/1symag2p71oh1.png?width=1376&format=png&auto=webp&s=5a4f38c0cb5b77efd592ee92fef15a1aced1e7d4)\n\n**TL;DR:** Inbound WhatsApp message tried to install a hidden sub-agent persona, suppress a maintenance report, trick the operator into typing a validation phrase, and quietly probe the filesystem. Caught it because the injection told the agent to grep for its own trigger strings \u2014 the contradiction made itself obvious.\n\n**What happened**\n\nYesterday an attacker sent a structured prompt-injection payload into our OpenClaw WhatsApp channel. It tried four things at once:\n\n* Install a silent \"sub-agent A2\" persona running alongside the legit operator\n* Suppress reporting of an unrelated maintenance issue\n* Instruct the agent to lie to the operator about what was happening\n* Trick the operator into typing a handshake phrase (\"I've reviewed the internal notes\") to confirm a foothold\n\nThe agent ran a few read-only `grep` commands and then flagged it.\n\n**The interesting part**\n\nThe payload came with its own self-detection probe \u2014 \"verify this isn't still active by searching the filesystem for these exact strings.\" Clever against naive string-match filters. Also exactly what made it visible: the moment the agent executed that probe, the gap between \"I am a normal user message\" and \"I am telling you to search for injection markers in your own memory\" jumped out.\n\n**Damage**\n\nNone. No credentials exfiltrated, no cron jobs altered, no outbound messages sent on the attacker's behalf. Original message quarantined in gateway trash. Live system clean.\n\n**The lesson**\n\nAgent-noticing is a fragile defense. We got lucky because the injection demanded the very diagnostic that exposed it. The structural fix isn't \"make the agent smarter at spotting injections\" \u2014 it's making untrusted channel content structurally untrusted (isolated context, separate tool policy, no write/exec) so it can't",
+    "author": "u/Snipe76",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9itzr/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "f2d00ed95f01",
+    "agent": "personal-local",
+    "quote": "My agent said there was an injection attempt after updating to 2026.9.2???\nhttps://preview.redd.it/tsq46k27u0oh1.png?width=408&format=png&auto=webp&s=98f7a7b72c271c482143d1c86a20cc424d766c6f\n\nThis seems really problematic.\n\nI also didn't manage to update cleanly to this version, something was wrong with the packages, I had to jump hoops to force it to install.\n\neventually I downgraded to 9.1 again.\n\nbut this is weird, and it is still happening, openclaw hangs and there is history of injection???",
+    "author": "u/Snipe76",
+    "date": "2026-09-07",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9hc6s/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "f2a7fa3ef0a3",
+    "agent": "personal-local",
+    "quote": "Je ne comprends pas comment des frameworks d\u2019agents comme OpenClaw ou Hermes n\u2019arrivent toujours pas \u00e0 proposer des produits vraiment propres et utilisables.\n\nRegardez Grok bot\u202f: c\u2019est beau, simple, efficace, avec une vraie exp\u00e9rience pens\u00e9e de bout en bout.\n\n\u00c0 c\u00f4t\u00e9, l\u2019UX des",
+    "author": "@zeroxtlt",
+    "author_name": "Thomas",
+    "date": "2026-09-06",
+    "url": "https://x.com/zeroxtlt/status/2096622971280380029",
+    "kind": "comparison",
+    "tags": [
+      "grok-bot",
+      "hermes",
+      "ux"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: OpenClaw/Hermes still not clean usable products vs Grok Bot UX"
+  },
+  {
+    "id": "43006397b347",
+    "agent": "personal-local",
+    "quote": "I think what Hermes got right compared with OpenClaw is dogfooding the same system its users actually use + stability\n\nI don't think its that complicated to see why they \"won\"",
+    "author": "@tunahorse21",
+    "author_name": "tuna\ud83c\udf63",
+    "date": "2026-09-06",
+    "url": "https://x.com/tunahorse21/status/2096618738766295317",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "dogfooding",
+      "stability"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: Hermes won vs OpenClaw via dogfooding + stability"
+  },
+  {
+    "id": "48a3f02b2938",
+    "agent": "personal-local",
+    "quote": "my understanding of Hermes must be very out of date, because I do not view it as a coding agent, I view it as openclaw++ which is more focused on personal agents\n\nso Hermes I've never put it in the same categoryy as Codex/Claude Code/Cursor\n\nnor OpenCode/pi/grok build etc\n\nin my",
+    "author": "@thomasgauvin",
+    "author_name": "Thomas Gauvin",
+    "date": "2026-09-06",
+    "url": "https://x.com/thomasgauvin/status/2096604525691883575",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "personal-agents"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Hermes = OpenClaw++ for personal agents not coding"
+  },
+  {
+    "id": "f2d00e6a0a63",
+    "agent": "personal-local",
+    "quote": "Openclaw was hilariously lacking in security. \n\nLike everyone lost their minds.",
+    "author": "@suavecito585",
+    "author_name": "Suavecito",
+    "date": "2026-09-06",
+    "url": "https://x.com/suavecito585/status/2096577102539583566",
+    "kind": "complaint",
+    "tags": [
+      "security"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: OpenClaw hilariously lacking in security"
+  },
+  {
+    "id": "c554eb9f7df8",
+    "agent": "personal-local",
+    "quote": "The biggest advantage of using openclaw or hermes is the fact that I can switch from claude to gpt 6 in a click (and next month will probably have to switch again \ud83d\ude02)",
+    "author": "@redamoun_",
+    "author_name": "Reda Moun | Agents IA",
+    "date": "2026-09-06",
+    "url": "https://x.com/redamoun_/status/2096553626445496783",
+    "kind": "praise",
+    "tags": [
+      "openclaw",
+      "hermes",
+      "model-switch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "switch Claude\u2194GPT in a click"
+  },
+  {
     "id": "ab489892312a",
     "agent": "personal-local",
     "quote": "OpenClaw was trash and fumbled the chance. It was difficult to setup, buggy and with a lot of security vulns. It looked more like vibe coded trash by a non programmer.",
@@ -18,139 +362,22 @@
     "notes": "trash: hard setup, vulns, buggy"
   },
   {
-    "id": "0fd430887375",
+    "id": "f13ad9966669",
     "agent": "personal-local",
-    "quote": "I run my openclaw locally on my mac mini (thanks to \n@AlexFinn\n \ud83d\ude05). But it is the new version that make it easy to setup. Antigravity helped\u2026 and now I can talk to my ceo from my iphone. I love it. \n\nI also love that you can pick any model \ud83d\ude4f\ud83c\udffb Great work.",
-    "author": "@AiOldenburg",
-    "author_name": "Carsten Oldenburg",
-    "date": "2026-09-05",
-    "url": "https://x.com/AiOldenburg/status/2096367723588596037",
+    "quote": "OpenClaw V2 is here.\n\nGPT-6 Astra is cool \u2014 but is it really as cool as an AI assistant running local, on your own machine?\n\n#OpenClaw #LocalAI #AIAgents #GPT6",
+    "author": "@nickgushchin",
+    "author_name": "Nick G.",
+    "date": "2026-09-06",
+    "url": "https://x.com/nickgushchin/status/2096611746026774726",
     "kind": "praise",
     "tags": [
-      "mac-mini",
-      "mobile"
+      "v2",
+      "local",
+      "vs-astra"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "local Mac mini; talk to CEO from iPhone"
-  },
-  {
-    "id": "68070ac0b972",
-    "agent": "personal-local",
-    "quote": "I have a Mac Studio with Hermes and OpenClaw running 24/7. I have a UPS for power outages until our auto generator kicks on. I have a MacBook Pro, Windows 11 Alienware desktop and an iPhone all on TailScale. I share web based dashboards across all devices, but would love to try",
-    "author": "@RogerGravesJr",
-    "author_name": "Roger Graves, Jr.",
-    "date": "2026-09-06",
-    "url": "https://x.com/RogerGravesJr/status/2096436105088311305",
-    "kind": "use-case",
-    "tags": [
-      "hermes",
-      "always-on"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Mac Studio Hermes+OpenClaw 24/7"
-  },
-  {
-    "id": "81bfaf657453",
-    "agent": "personal-local",
-    "quote": "HERMES vs OPENCLAW\n\nBoth are serious agent systems, but they are better at different things.\n\n@openclaw\n IS BETTER FOR:\n\n> Messaging and presence everywhere\nWhatsApp, Telegram, Discord, Slack, Signal, iMessage and more.\n\n> Personal assistant UX\nIt is better if you want one AI",
-    "author": "@DeCasadero",
-    "author_name": "Casadero\ud83d\udea2",
-    "date": "2026-09-06",
-    "url": "https://x.com/DeCasadero/status/2096413168696234408",
-    "kind": "comparison",
-    "tags": [
-      "vs-hermes",
-      "messaging"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "OpenClaw better messaging presence"
-  },
-  {
-    "id": "cc16509bcf03",
-    "agent": "personal-local",
-    "quote": "Setting up OpenClaw is a rite of passage. Rest assured that after you do it you can just do what all the people who already have claw installed do.",
-    "author": "@KenMazaika",
-    "author_name": "Ken Mazaika",
-    "date": "2026-09-05",
-    "url": "https://x.com/KenMazaika/status/2096370272580534412",
-    "kind": "other",
-    "tags": [
-      "setup"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "setup is a rite of passage"
-  },
-  {
-    "id": "4de158f71a2d",
-    "agent": "personal-local",
-    "quote": "As far as I know Antrhopic does not allow OpenClaw or Hermes agent on the subscription plan, only through direct API billing so it get's real expensive real fast, that's why I use GLM. Z Ai specifically states that you can use their coding plan (the cheapest access point) for",
-    "author": "@imthatdexter",
-    "author_name": "Dexter",
-    "date": "2026-09-05",
-    "url": "https://x.com/imthatdexter/status/2096357279683723362",
-    "kind": "complaint",
-    "tags": [
-      "pricing",
-      "anthropic"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Anthropic sub blocks agents \u2192 expensive API"
-  },
-  {
-    "id": "46fbd7299be2",
-    "agent": "personal-local",
-    "quote": "To be honest, pretty okay, but I have it plugged in multiple things, including Hermes and OpenClaw. I seem to be very inefficient at the moment because it's burning quite fast. Since I'm just using medium, it seems pretty overexaggerated, but I guess all the new stuff, including",
-    "author": "@zabrodsk",
-    "author_name": "Dusan Zabrodsky",
-    "date": "2026-09-05",
-    "url": "https://x.com/zabrodsk/status/2096301783186280757",
-    "kind": "complaint",
-    "tags": [
-      "cost",
-      "tokens"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Hermes+OpenClaw burning tokens fast"
-  },
-  {
-    "id": "3e2f6cfa87c6",
-    "agent": "personal-local",
-    "quote": "We have released OpenClaw v2026.8.2 (AKA OpenClaw 2.0.1) which focuses largely on number of update breaking bugs). Thank you for your patience and sorry about the frustration we caused with these bugs.",
-    "author": "@openclaw",
-    "author_name": "OpenClaw\ud83e\udd9e",
-    "date": "2026-09-01",
-    "url": "https://x.com/openclaw/status/2094843171931127998",
-    "kind": "other",
-    "tags": [
-      "bugs",
-      "upgrade"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company apology: 2.0.1 breaking bugs"
-  },
-  {
-    "id": "6efcef14cb09",
-    "agent": "personal-local",
-    "quote": "Two months ago, we started the mission to \u201cbuild OpenClaw with OpenClaw,\u201d and bit by bit, we moved everyone from using their local coding harness to using \nhttps://\nteam.openclaw.ai - our shared agent that knows what everyone\u2019s working on and orchestrates it all.\n\nMultiplayer coding",
-    "author": "@steipete",
-    "author_name": "Peter Steinberger \ud83e\udd9e",
-    "date": "2026-08-31",
-    "url": "https://x.com/steipete/status/2094290652649636173",
-    "kind": "other",
-    "tags": [
-      "team",
-      "dogfood"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "build OpenClaw with OpenClaw"
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: OpenClaw V2 local assistant vs GPT-6 Astra"
   },
   {
     "id": "cffa9f69d914",
@@ -170,6 +397,24 @@
     "notes": "OpenClaw\u2192Obsidian; moved piece to Grok Bot"
   },
   {
+    "id": "67cd46b6c1f4",
+    "agent": "personal-local",
+    "quote": "I just built an interactive companion cat fully powered by openclaw for Robinhood!\n\nShe has a name: Ruby\n\n- 99% of trading fees will be routed toward animal rescue and cat shelters\n- while the rest helps fund future OpenClaw development, new hardware experiments, and keeping Ruby",
+    "author": "@natdotgx",
+    "author_name": "nat \u26fe",
+    "date": "2026-09-06",
+    "url": "https://x.com/natdotgx/status/2096511995130630608",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "demo",
+      "companion"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "OpenClaw-powered companion cat Ruby"
+  },
+  {
     "id": "d2fc3259b87e",
     "agent": "personal-local",
     "quote": "Using OpenClaw for a few months felt like manufactured productivity, so I pulled the plug on it in April and didn\u2019t feel like I missed anything.\n\nRevisited but used Hermes. Saw progression in ease of setup. \n\nBut it still feels like manufactured productivity. \ud83e\udd37\u200d\u2642\ufe0f",
@@ -186,6 +431,110 @@
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
     "notes": "manufactured productivity; pulled plug"
+  },
+  {
+    "id": "691014ec5e6f",
+    "agent": "personal-local",
+    "quote": "After downloading openclaw for Mac for the first time, I see openclaw as a harness.",
+    "author": "@luqmanshantal",
+    "author_name": "Luqman Shantal",
+    "date": "2026-09-06",
+    "url": "https://x.com/luqmanshantal/status/2096599499019890873",
+    "kind": "other",
+    "tags": [
+      "harness",
+      "mac"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: first Mac download \u2014 sees OpenClaw as a harness"
+  },
+  {
+    "id": "7cbd2272abcd",
+    "agent": "personal-local",
+    "quote": "i can literally use hermes for 30hours and PR anything i ran into that broke and see it merged to main within a week or two\n\nwhere as the openclaw of my company is by no so far beyond homebrewed because nobody gives a shit about community prs over there",
+    "author": "@lucidpaths33",
+    "author_name": "lucid",
+    "date": "2026-09-06",
+    "url": "https://x.com/lucidpaths33/status/2096631375331762340",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "prs",
+      "community"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: Hermes merges PRs in 1-2 weeks; company OpenClaw ignores community PRs"
+  },
+  {
+    "id": "0ca0cb13ccb6",
+    "agent": "personal-local",
+    "quote": "yesterday was so token efficient when I was using the Codex app directly but today, ugh, Openclaw depleted everything way too fast... so, yeah, had to use a reset",
+    "author": "@jennabrinning",
+    "author_name": "\u1d0a\u1d07\u0274\u0274\u1d00 \u0299\u0280\u026a\u0274\u0274\u026a\u0274\u0262",
+    "date": "2026-09-06",
+    "url": "https://x.com/jennabrinning/status/2096595748699668912",
+    "kind": "complaint",
+    "tags": [
+      "tokens",
+      "cost",
+      "reset"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: OpenClaw depleted tokens way too fast vs Codex app"
+  },
+  {
+    "id": "b8253ac07fbb",
+    "agent": "personal-local",
+    "quote": "I use Hermes to revive OpenClaw, and the other way around\u2014it's not hate, it's very useful.",
+    "author": "@jeik_go",
+    "author_name": "J.A.G",
+    "date": "2026-09-06",
+    "url": "https://x.com/jeik_go/status/2096575612395700529",
+    "kind": "use-case",
+    "tags": [
+      "hermes",
+      "revive"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: uses Hermes to revive OpenClaw and vice versa"
+  },
+  {
+    "id": "3cdcf7265fd7",
+    "agent": "personal-local",
+    "quote": "I ran it in parallel with Openclaw for months, but I used Openclaw about 99% of the time. About a month or so ago I took down Openclaw and recreated everything in Hermes agent.",
+    "author": "@itsjustmarky",
+    "author_name": "sudo rm -rf",
+    "date": "2026-09-06",
+    "url": "https://x.com/itsjustmarky/status/2096573547455901856",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "hermes",
+      "migration"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "99% OpenClaw then moved to Hermes"
+  },
+  {
+    "id": "8f7d99af1286",
+    "agent": "personal-local",
+    "quote": "Yeah\ud83d\ude02\nOpenclaw hype 100%\nReality 0%",
+    "author": "@harisahmad59",
+    "author_name": "Haris",
+    "date": "2026-09-06",
+    "url": "https://x.com/harisahmad59/status/2096627061964317049",
+    "kind": "complaint",
+    "tags": [
+      "hype"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: OpenClaw hype 100% reality 0%"
   },
   {
     "id": "8190669b1077",
@@ -207,22 +556,22 @@
     "notes": "headless Mac mini + family Chrome profiles"
   },
   {
-    "id": "3cdcf7265fd7",
+    "id": "474a8dbda582",
     "agent": "personal-local",
-    "quote": "I ran it in parallel with Openclaw for months, but I used Openclaw about 99% of the time. About a month or so ago I took down Openclaw and recreated everything in Hermes agent.",
-    "author": "@itsjustmarky",
-    "author_name": "sudo rm -rf",
+    "quote": "I mean hermes or OpenClaw. OpenClaw just came out with a massive quality of life update, renaming to version 2. Worth a look if you haven't tried it recently. And you can just ask your OpenClaw to change to a different model in chat. Or have a separate chat per model, all",
+    "author": "@eligaultney",
+    "author_name": "Eli Gaultney",
     "date": "2026-09-06",
-    "url": "https://x.com/itsjustmarky/status/2096573547455901856",
-    "kind": "comparison",
+    "url": "https://x.com/eligaultney/status/2096602729795756208",
+    "kind": "praise",
     "tags": [
-      "openclaw",
-      "hermes",
-      "migration"
+      "v2",
+      "qol",
+      "model-switch"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "99% OpenClaw then moved to Hermes"
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: OpenClaw V2 QoL update; change models in chat"
   },
   {
     "id": "a2176ca406d5",
@@ -241,218 +590,6 @@
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
     "notes": "OpenClaw most mature OSS; Hermes better desktop"
-  },
-  {
-    "id": "c554eb9f7df8",
-    "agent": "personal-local",
-    "quote": "The biggest advantage of using openclaw or hermes is the fact that I can switch from claude to gpt 6 in a click (and next month will probably have to switch again \ud83d\ude02)",
-    "author": "@redamoun_",
-    "author_name": "Reda Moun | Agents IA",
-    "date": "2026-09-06",
-    "url": "https://x.com/redamoun_/status/2096553626445496783",
-    "kind": "praise",
-    "tags": [
-      "openclaw",
-      "hermes",
-      "model-switch"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "switch Claude\u2194GPT in a click"
-  },
-  {
-    "id": "3c829fd681d7",
-    "agent": "personal-local",
-    "quote": "10 agents. One Mac mini. Zero cloud bill.\n\nSlate (Chief of Staff) runs Research, Markets, LinkedIn lead-gen, YouTube and writing \u2014 local models, evidence-grounded, every public action gated by me.\n\nTried Hosted bots (Hermes, OpenClaw, October, inspired by Grok Bot) chat. But",
-    "author": "@7okesh",
-    "author_name": "Lokesh Bohra",
-    "date": "2026-09-06",
-    "url": "https://x.com/7okesh/status/2096589347437133999",
-    "kind": "use-case",
-    "tags": [
-      "local",
-      "mac-mini",
-      "multi-agent"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "10 agents on Mac mini; tried hosted OpenClaw"
-  },
-  {
-    "id": "67cd46b6c1f4",
-    "agent": "personal-local",
-    "quote": "I just built an interactive companion cat fully powered by openclaw for Robinhood!\n\nShe has a name: Ruby\n\n- 99% of trading fees will be routed toward animal rescue and cat shelters\n- while the rest helps fund future OpenClaw development, new hardware experiments, and keeping Ruby",
-    "author": "@natdotgx",
-    "author_name": "nat \u26fe",
-    "date": "2026-09-06",
-    "url": "https://x.com/natdotgx/status/2096511995130630608",
-    "kind": "use-case",
-    "tags": [
-      "openclaw",
-      "demo",
-      "companion"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "OpenClaw-powered companion cat Ruby"
-  },
-  {
-    "id": "e3413aaf2e1f",
-    "agent": "personal-local",
-    "quote": "Built and self-hosted my own AI assistant using OpenClaw running locally on my MacBook, connected to a custom Telegram bot! \ud83e\udd16\u2728\n\nPowered by OpenRouter free models. Huge shoutout to my mentor \n@samalgorai\n for guiding me through it! \ud83d\ude4c\n#AI #OpenClaw #OpenRouter #Automation #Dev",
-    "author": "@saileshkuiry",
-    "author_name": "Sailesh Kuiry",
-    "date": "2026-09-03",
-    "url": "https://x.com/saileshkuiry/status/2095540581099594118",
-    "kind": "use-case",
-    "tags": [
-      "self-host",
-      "macbook",
-      "telegram",
-      "openrouter"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: self-hosted OpenClaw on MacBook + Telegram via OpenRouter"
-  },
-  {
-    "id": "f3334e2bba8c",
-    "agent": "personal-local",
-    "quote": "I bless the day I switched from OpenClaw to Hermes. Any operator that doesn\u2019t have an ai agent environment running 90% of tasks that wouldn\u2019t require a human for approvals, you\u2019re playing catchup at this point. \n\nAUTOMATE EVERYTHING so you have more time to spend on X without",
-    "author": "@Hugh_Gidi",
-    "author_name": "theOSOBA",
-    "date": "2026-09-06",
-    "url": "https://x.com/Hugh_Gidi/status/2096556196996026801",
-    "kind": "comparison",
-    "tags": [
-      "hermes",
-      "switch",
-      "operators"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: blessed day switched OpenClaw\u2192Hermes; operators need agent env"
-  },
-  {
-    "id": "0ca0cb13ccb6",
-    "agent": "personal-local",
-    "quote": "yesterday was so token efficient when I was using the Codex app directly but today, ugh, Openclaw depleted everything way too fast... so, yeah, had to use a reset",
-    "author": "@jennabrinning",
-    "author_name": "\u1d0a\u1d07\u0274\u0274\u1d00 \u0299\u0280\u026a\u0274\u0274\u026a\u0274\u0262",
-    "date": "2026-09-06",
-    "url": "https://x.com/jennabrinning/status/2096595748699668912",
-    "kind": "complaint",
-    "tags": [
-      "tokens",
-      "cost",
-      "reset"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: OpenClaw depleted tokens way too fast vs Codex app"
-  },
-  {
-    "id": "f2d00e6a0a63",
-    "agent": "personal-local",
-    "quote": "Openclaw was hilariously lacking in security. \n\nLike everyone lost their minds.",
-    "author": "@suavecito585",
-    "author_name": "Suavecito",
-    "date": "2026-09-06",
-    "url": "https://x.com/suavecito585/status/2096577102539583566",
-    "kind": "complaint",
-    "tags": [
-      "security"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: OpenClaw hilariously lacking in security"
-  },
-  {
-    "id": "691014ec5e6f",
-    "agent": "personal-local",
-    "quote": "After downloading openclaw for Mac for the first time, I see openclaw as a harness.",
-    "author": "@luqmanshantal",
-    "author_name": "Luqman Shantal",
-    "date": "2026-09-06",
-    "url": "https://x.com/luqmanshantal/status/2096599499019890873",
-    "kind": "other",
-    "tags": [
-      "harness",
-      "mac"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: first Mac download \u2014 sees OpenClaw as a harness"
-  },
-  {
-    "id": "b8253ac07fbb",
-    "agent": "personal-local",
-    "quote": "I use Hermes to revive OpenClaw, and the other way around\u2014it's not hate, it's very useful.",
-    "author": "@jeik_go",
-    "author_name": "J.A.G",
-    "date": "2026-09-06",
-    "url": "https://x.com/jeik_go/status/2096575612395700529",
-    "kind": "use-case",
-    "tags": [
-      "hermes",
-      "revive"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: uses Hermes to revive OpenClaw and vice versa"
-  },
-  {
-    "id": "48a3f02b2938",
-    "agent": "personal-local",
-    "quote": "my understanding of Hermes must be very out of date, because I do not view it as a coding agent, I view it as openclaw++ which is more focused on personal agents\n\nso Hermes I've never put it in the same categoryy as Codex/Claude Code/Cursor\n\nnor OpenCode/pi/grok build etc\n\nin my",
-    "author": "@thomasgauvin",
-    "author_name": "Thomas Gauvin",
-    "date": "2026-09-06",
-    "url": "https://x.com/thomasgauvin/status/2096604525691883575",
-    "kind": "comparison",
-    "tags": [
-      "hermes",
-      "personal-agents"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Hermes = OpenClaw++ for personal agents not coding"
-  },
-  {
-    "id": "f13ad9966669",
-    "agent": "personal-local",
-    "quote": "OpenClaw V2 is here.\n\nGPT-6 Astra is cool \u2014 but is it really as cool as an AI assistant running local, on your own machine?\n\n#OpenClaw #LocalAI #AIAgents #GPT6",
-    "author": "@nickgushchin",
-    "author_name": "Nick G.",
-    "date": "2026-09-06",
-    "url": "https://x.com/nickgushchin/status/2096611746026774726",
-    "kind": "praise",
-    "tags": [
-      "v2",
-      "local",
-      "vs-astra"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: OpenClaw V2 local assistant vs GPT-6 Astra"
-  },
-  {
-    "id": "764e2bfa8b1c",
-    "agent": "personal-local",
-    "quote": "#OpenClaw 2.0 is here!\n\nThe major update to the #opensource personal AI agent brings changes across:\n\u2192 Installation & browser interface\n\u2192 Memory & skills\n\u2192 Automations & plugins\n\u2192 Security & collaboration\n\nMore details \u27a4 \nhttps://\nbit.ly/4x1qbsu\n\n#AI #AIAgents #InfoQ",
-    "author": "@InfoQ",
-    "author_name": "InfoQ",
-    "date": "2026-09-06",
-    "url": "https://x.com/InfoQ/status/2096606876955795946",
-    "kind": "other",
-    "tags": [
-      "v2",
-      "coverage",
-      "opensource"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "press: OpenClaw 2.0 install/memory/automations/security"
   },
   {
     "id": "049f90daa24c",
@@ -490,144 +627,21 @@
     "notes": "third-party: OpenClaw 2.0 shared agent multiplayer cloud coding is the move"
   },
   {
-    "id": "7cbd2272abcd",
+    "id": "68070ac0b972",
     "agent": "personal-local",
-    "quote": "i can literally use hermes for 30hours and PR anything i ran into that broke and see it merged to main within a week or two\n\nwhere as the openclaw of my company is by no so far beyond homebrewed because nobody gives a shit about community prs over there",
-    "author": "@lucidpaths33",
-    "author_name": "lucid",
+    "quote": "I have a Mac Studio with Hermes and OpenClaw running 24/7. I have a UPS for power outages until our auto generator kicks on. I have a MacBook Pro, Windows 11 Alienware desktop and an iPhone all on TailScale. I share web based dashboards across all devices, but would love to try",
+    "author": "@RogerGravesJr",
+    "author_name": "Roger Graves, Jr.",
     "date": "2026-09-06",
-    "url": "https://x.com/lucidpaths33/status/2096631375331762340",
-    "kind": "comparison",
+    "url": "https://x.com/RogerGravesJr/status/2096436105088311305",
+    "kind": "use-case",
     "tags": [
       "hermes",
-      "prs",
-      "community"
+      "always-on"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: Hermes merges PRs in 1-2 weeks; company OpenClaw ignores community PRs"
-  },
-  {
-    "id": "8f7d99af1286",
-    "agent": "personal-local",
-    "quote": "Yeah\ud83d\ude02\nOpenclaw hype 100%\nReality 0%",
-    "author": "@harisahmad59",
-    "author_name": "Haris",
-    "date": "2026-09-06",
-    "url": "https://x.com/harisahmad59/status/2096627061964317049",
-    "kind": "complaint",
-    "tags": [
-      "hype"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: OpenClaw hype 100% reality 0%"
-  },
-  {
-    "id": "60d97acba665",
-    "agent": "personal-local",
-    "quote": "grok \n@bot\n is leaps and bounds better than hermes/openclaw. Its not even close now.",
-    "author": "@BlockedPaths",
-    "author_name": "BlockedPath",
-    "date": "2026-09-06",
-    "url": "https://x.com/BlockedPaths/status/2096626784821272932",
-    "kind": "comparison",
-    "tags": [
-      "grok-bot",
-      "hermes"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: Grok Bot leaps ahead of Hermes/OpenClaw"
-  },
-  {
-    "id": "f2a7fa3ef0a3",
-    "agent": "personal-local",
-    "quote": "Je ne comprends pas comment des frameworks d\u2019agents comme OpenClaw ou Hermes n\u2019arrivent toujours pas \u00e0 proposer des produits vraiment propres et utilisables.\n\nRegardez Grok bot\u202f: c\u2019est beau, simple, efficace, avec une vraie exp\u00e9rience pens\u00e9e de bout en bout.\n\n\u00c0 c\u00f4t\u00e9, l\u2019UX des",
-    "author": "@zeroxtlt",
-    "author_name": "Thomas",
-    "date": "2026-09-06",
-    "url": "https://x.com/zeroxtlt/status/2096622971280380029",
-    "kind": "comparison",
-    "tags": [
-      "grok-bot",
-      "hermes",
-      "ux"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: OpenClaw/Hermes still not clean usable products vs Grok Bot UX"
-  },
-  {
-    "id": "a1f0c719b60b",
-    "agent": "personal-local",
-    "quote": "hermes gave me what i was looking for from openclaw.",
-    "author": "@GTgotmotionn",
-    "author_name": "\ud835\udce2\ud835\udcf1\ud835\udcea\ud835\udd02\ud835\udcf7\ud835\udcee, PhDih \ud83e\udd77\ud83c\udffc\ud83c\udfce\ufe0f",
-    "date": "2026-09-06",
-    "url": "https://x.com/GTgotmotionn/status/2096617370622038081",
-    "kind": "comparison",
-    "tags": [
-      "hermes",
-      "switch"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: Hermes gave what they wanted from OpenClaw"
-  },
-  {
-    "id": "43006397b347",
-    "agent": "personal-local",
-    "quote": "I think what Hermes got right compared with OpenClaw is dogfooding the same system its users actually use + stability\n\nI don't think its that complicated to see why they \"won\"",
-    "author": "@tunahorse21",
-    "author_name": "tuna\ud83c\udf63",
-    "date": "2026-09-06",
-    "url": "https://x.com/tunahorse21/status/2096618738766295317",
-    "kind": "comparison",
-    "tags": [
-      "hermes",
-      "dogfooding",
-      "stability"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: Hermes won vs OpenClaw via dogfooding + stability"
-  },
-  {
-    "id": "4a274cfbd2bf",
-    "agent": "personal-local",
-    "quote": "Eric do you feel grok as a model can handle all this? I set it up and the type of content and decisions it was making were very disapointing.. \n\nMoving back to openclaw where i can use OpenAI models with the same system tbh (never tried hermes here, worth it?",
-    "author": "@BeyondOrigin",
-    "author_name": "Miguel Casteleiro \ud83d\udd3a",
-    "date": "2026-09-06",
-    "url": "https://x.com/BeyondOrigin/status/2096604768491786654",
-    "kind": "comparison",
-    "tags": [
-      "grok",
-      "openai-models",
-      "return"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: disappointed with Grok model quality; moving back to OpenClaw for OpenAI models"
-  },
-  {
-    "id": "474a8dbda582",
-    "agent": "personal-local",
-    "quote": "I mean hermes or OpenClaw. OpenClaw just came out with a massive quality of life update, renaming to version 2. Worth a look if you haven't tried it recently. And you can just ask your OpenClaw to change to a different model in chat. Or have a separate chat per model, all",
-    "author": "@eligaultney",
-    "author_name": "Eli Gaultney",
-    "date": "2026-09-06",
-    "url": "https://x.com/eligaultney/status/2096602729795756208",
-    "kind": "praise",
-    "tags": [
-      "v2",
-      "qol",
-      "model-switch"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: OpenClaw V2 QoL update; change models in chat"
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Mac Studio Hermes+OpenClaw 24/7"
   },
   {
     "id": "afaf2dafaf3f",
@@ -648,31 +662,382 @@
     "notes": "third-party: click-link phone bots more accessible than OpenClaw"
   },
   {
-    "id": "5347709c937f",
+    "id": "764e2bfa8b1c",
     "agent": "personal-local",
-    "quote": "I duct taped my own version of this with openclaw and sendblue last year as a weekend thing. had no idea it was about to become a whole category",
-    "author": "u/Proof-Glove2230",
-    "author_name": "",
-    "date": "2026-06-10",
-    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage/oqxeymt",
-    "kind": "use-case",
+    "quote": "#OpenClaw 2.0 is here!\n\nThe major update to the #opensource personal AI agent brings changes across:\n\u2192 Installation & browser interface\n\u2192 Memory & skills\n\u2192 Automations & plugins\n\u2192 Security & collaboration\n\nMore details \u27a4 \nhttps://\nbit.ly/4x1qbsu\n\n#AI #AIAgents #InfoQ",
+    "author": "@InfoQ",
+    "author_name": "InfoQ",
+    "date": "2026-09-06",
+    "url": "https://x.com/InfoQ/status/2096606876955795946",
+    "kind": "other",
     "tags": [
-      "reddit",
-      "openclaw",
-      "imessage"
+      "v2",
+      "coverage",
+      "opensource"
     ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "duct-taped OpenClaw + Sendblue"
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "press: OpenClaw 2.0 install/memory/automations/security"
   },
   {
-    "id": "aadad5be3e37",
+    "id": "f3334e2bba8c",
     "agent": "personal-local",
-    "quote": "no openclaw or hermes on the map, I guess self hosted doesn't raise seed rounds",
-    "author": "u/AggressiveScale7072",
+    "quote": "I bless the day I switched from OpenClaw to Hermes. Any operator that doesn\u2019t have an ai agent environment running 90% of tasks that wouldn\u2019t require a human for approvals, you\u2019re playing catchup at this point. \n\nAUTOMATE EVERYTHING so you have more time to spend on X without",
+    "author": "@Hugh_Gidi",
+    "author_name": "theOSOBA",
+    "date": "2026-09-06",
+    "url": "https://x.com/Hugh_Gidi/status/2096556196996026801",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "switch",
+      "operators"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: blessed day switched OpenClaw\u2192Hermes; operators need agent env"
+  },
+  {
+    "id": "a1f0c719b60b",
+    "agent": "personal-local",
+    "quote": "hermes gave me what i was looking for from openclaw.",
+    "author": "@GTgotmotionn",
+    "author_name": "\ud835\udce2\ud835\udcf1\ud835\udcea\ud835\udd02\ud835\udcf7\ud835\udcee, PhDih \ud83e\udd77\ud83c\udffc\ud83c\udfce\ufe0f",
+    "date": "2026-09-06",
+    "url": "https://x.com/GTgotmotionn/status/2096617370622038081",
+    "kind": "comparison",
+    "tags": [
+      "hermes",
+      "switch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: Hermes gave what they wanted from OpenClaw"
+  },
+  {
+    "id": "81bfaf657453",
+    "agent": "personal-local",
+    "quote": "HERMES vs OPENCLAW\n\nBoth are serious agent systems, but they are better at different things.\n\n@openclaw\n IS BETTER FOR:\n\n> Messaging and presence everywhere\nWhatsApp, Telegram, Discord, Slack, Signal, iMessage and more.\n\n> Personal assistant UX\nIt is better if you want one AI",
+    "author": "@DeCasadero",
+    "author_name": "Casadero\ud83d\udea2",
+    "date": "2026-09-06",
+    "url": "https://x.com/DeCasadero/status/2096413168696234408",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "messaging"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "OpenClaw better messaging presence"
+  },
+  {
+    "id": "60d97acba665",
+    "agent": "personal-local",
+    "quote": "grok \n@bot\n is leaps and bounds better than hermes/openclaw. Its not even close now.",
+    "author": "@BlockedPaths",
+    "author_name": "BlockedPath",
+    "date": "2026-09-06",
+    "url": "https://x.com/BlockedPaths/status/2096626784821272932",
+    "kind": "comparison",
+    "tags": [
+      "grok-bot",
+      "hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: Grok Bot leaps ahead of Hermes/OpenClaw"
+  },
+  {
+    "id": "4a274cfbd2bf",
+    "agent": "personal-local",
+    "quote": "Eric do you feel grok as a model can handle all this? I set it up and the type of content and decisions it was making were very disapointing.. \n\nMoving back to openclaw where i can use OpenAI models with the same system tbh (never tried hermes here, worth it?",
+    "author": "@BeyondOrigin",
+    "author_name": "Miguel Casteleiro \ud83d\udd3a",
+    "date": "2026-09-06",
+    "url": "https://x.com/BeyondOrigin/status/2096604768491786654",
+    "kind": "comparison",
+    "tags": [
+      "grok",
+      "openai-models",
+      "return"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: disappointed with Grok model quality; moving back to OpenClaw for OpenAI models"
+  },
+  {
+    "id": "3c829fd681d7",
+    "agent": "personal-local",
+    "quote": "10 agents. One Mac mini. Zero cloud bill.\n\nSlate (Chief of Staff) runs Research, Markets, LinkedIn lead-gen, YouTube and writing \u2014 local models, evidence-grounded, every public action gated by me.\n\nTried Hosted bots (Hermes, OpenClaw, October, inspired by Grok Bot) chat. But",
+    "author": "@7okesh",
+    "author_name": "Lokesh Bohra",
+    "date": "2026-09-06",
+    "url": "https://x.com/7okesh/status/2096589347437133999",
+    "kind": "use-case",
+    "tags": [
+      "local",
+      "mac-mini",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "10 agents on Mac mini; tried hosted OpenClaw"
+  },
+  {
+    "id": "b8cd1cbdd6cb",
+    "agent": "personal-local",
+    "quote": "Gave OpenClaw a job. Gave Claude the leash.",
+    "author": "u/BrickWide1854",
+    "date": "2026-09-06",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w9754g/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "4570965c2614",
+    "agent": "personal-local",
+    "quote": "9.2 Update Stuck!\nUpdate from 9.1 to 9.2 did NOT GO WELL! From a perfectly working update from 8.2 to 9.1! Now 9,2 is stuck on 0 of 7 pending... Even left it overnight! Restarted gateway a few times. Did 'openclaw update clean'. Says it's on 9.2 so I assume update went through but I can't add plugins, skills since it's in lock mode! Only error I got from initial install was 'could not parse DuckDuckGo 9.2 plugin' or similar. I suspect because it does NOT EXIST? So update can't survive a bad plugin? How do I get past this stuck state?\n\nhttps://preview.redd.it/xgapy8f1hxnh1.png?width=811&format=png&auto=webp&s=aeddb06e4664aabcc3ac39f240f357ce45f6e0d2",
+    "author": "u/FreQRiDeR",
+    "date": "2026-09-06",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w90zyo/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "e9da30c2e4c3",
+    "agent": "personal-local",
+    "quote": "Openclaw forget to use Skills\nI created a skill for Exec commands on my Windows node but openclaw forgets that he have to use that skill and once I said Hii and it was listing skills and checking doing unnecessary then saying Hii...\n\nIm using mem0 for memory.",
+    "author": "u/PassageFederal7948",
+    "date": "2026-09-06",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w8z8mq/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "55fed0779ae0",
+    "agent": "personal-local",
+    "quote": "Openclaw Local Life\nAll of you running local know this pain.",
+    "author": "u/Amber_Orbs",
+    "date": "2026-09-06",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w8iehl/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "46fbd7299be2",
+    "agent": "personal-local",
+    "quote": "To be honest, pretty okay, but I have it plugged in multiple things, including Hermes and OpenClaw. I seem to be very inefficient at the moment because it's burning quite fast. Since I'm just using medium, it seems pretty overexaggerated, but I guess all the new stuff, including",
+    "author": "@zabrodsk",
+    "author_name": "Dusan Zabrodsky",
+    "date": "2026-09-05",
+    "url": "https://x.com/zabrodsk/status/2096301783186280757",
+    "kind": "complaint",
+    "tags": [
+      "cost",
+      "tokens"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Hermes+OpenClaw burning tokens fast"
+  },
+  {
+    "id": "4de158f71a2d",
+    "agent": "personal-local",
+    "quote": "As far as I know Antrhopic does not allow OpenClaw or Hermes agent on the subscription plan, only through direct API billing so it get's real expensive real fast, that's why I use GLM. Z Ai specifically states that you can use their coding plan (the cheapest access point) for",
+    "author": "@imthatdexter",
+    "author_name": "Dexter",
+    "date": "2026-09-05",
+    "url": "https://x.com/imthatdexter/status/2096357279683723362",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "anthropic"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Anthropic sub blocks agents \u2192 expensive API"
+  },
+  {
+    "id": "cc16509bcf03",
+    "agent": "personal-local",
+    "quote": "Setting up OpenClaw is a rite of passage. Rest assured that after you do it you can just do what all the people who already have claw installed do.",
+    "author": "@KenMazaika",
+    "author_name": "Ken Mazaika",
+    "date": "2026-09-05",
+    "url": "https://x.com/KenMazaika/status/2096370272580534412",
+    "kind": "other",
+    "tags": [
+      "setup"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "setup is a rite of passage"
+  },
+  {
+    "id": "0fd430887375",
+    "agent": "personal-local",
+    "quote": "I run my openclaw locally on my mac mini (thanks to \n@AlexFinn\n \ud83d\ude05). But it is the new version that make it easy to setup. Antigravity helped\u2026 and now I can talk to my ceo from my iphone. I love it. \n\nI also love that you can pick any model \ud83d\ude4f\ud83c\udffb Great work.",
+    "author": "@AiOldenburg",
+    "author_name": "Carsten Oldenburg",
+    "date": "2026-09-05",
+    "url": "https://x.com/AiOldenburg/status/2096367723588596037",
+    "kind": "praise",
+    "tags": [
+      "mac-mini",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "local Mac mini; talk to CEO from iPhone"
+  },
+  {
+    "id": "5d04b1f3749c",
+    "agent": "personal-local",
+    "quote": "a dream-based memory consolidation engine for executive assistant agents\nMost \"dreaming\" or background sleep systems in AI agent frameworks fall into one of two patterns:\n\n1. **In developer CLI runtimes (Claude Code's autoDream, OpenClaw native dreaming):**\u00a0A scheduled sweep runs over recent transcripts, extracts highlights with an LLM, and rewrites a flat notes file (`MEMORY.md`).\n2. **In academic/enterprise memory systems (MemGPT/Letta, HippoRAG, Mem0):**\u00a0Memory is modeled in relational stores or complex knowledge graphs, but typically requires external cloud infrastructure, background microservices, or expensive continuous re-embedding passes.\n\nWhile flat Markdown files work well for short-lived or low-frequency tasks, long-running personal assistant agents hit hard failure modes around month 3 to 6:\n\n* **Destructive updates destroy state transitions:**\u00a0If a project status moves from\u00a0`blocked`\u00a0to\u00a0`in-progress`\u00a0to\u00a0`shipped`, a flat rewrite overwrites the old status. The agent loses the ability to answer:\u00a0*\"When did this stall, and what unblocked it?\"*\n* **Top-K retrieval flooding:**\u00a0Daily restatements of standing facts cluster near each other semantically. A vector search for a specific detail gets flooded by 10 near-identical recent summaries, displacing the underlying historical fact.\n* **Semantic proximity \u2260 Temporal sequence:**\u00a0Embedding similarity finds items that mean similar things, not events that actually followed each other in time.\n\nI built\u00a0**Dreamweave**\u00a0to explore a local-first middle ground: an embedded graph + vector engine designed specifically for the long-horizon memory lifecycle of an executive assistant.\n\nRepo:\u00a0[https://github.com/spqian/dreamweave](https://github.com/spqian/dreamweave)\n\n# What the Engine Does Differently\n\n1. **3-Tier Lifecycle (Demote, Don\u2019t Delete):**\n   * **Tier 1 (Working Context):**\u00a0Hot facts actively injected into the prompt.\n   * **Tier 2 (Associative Memory):**\u00a0Indexed in local SQLite +\u00a0`sqlite-vec`\u00a0with semantic and en",
+    "author": "u/Standard_Material319",
+    "date": "2026-09-05",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w8fbf1/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "a9b816409b1a",
+    "agent": "personal-local",
+    "quote": "Upgraded OpenClaw from 2026.7.1-2 to 2026.9.1: legacy multi-agent migration notes\nReading about how big this upgrade was and some of the issues people were facing, I was a little worried. I decided to let codex do the work instead of me typing commands and asking codex for help. I installed the codex extension in VS editor and connected remotedly inside VS editor to my openclaw machine. \n\nOnce I told it \"go ahead and start the upgrade\", I was surprised at how quickly it went. The whole thing was done in about 30 minutes! Everything seems to be working just fine. I will update if I find any gotchas in the next few days, but this was a lot easier than I expected. Below is the upgrade summary that codex wrote.\n\n====================================  \n\n\n\\*\\*Legacy setup\\*\\*\n\n\n\n\\- Global npm installation\n\n\\- OpenClaw \\`2026.7.1-2\\`\n\n\\- User systemd gateway service\n\n\\- Multiple configured agents with agent-specific workspaces\n\n\\- WhatsApp channel with group-specific routing\n\n\\- Browser profiles and several managed plugins\n\n\n\n\\*\\*Issues found\\*\\*\n\n\n\n\\- Several legacy configuration keys were rejected by \\`2026.9.1\\`\n\n\\- Multi-agent ownership needed to be declared explicitly\n\n\\- The shared SQLite state database required schema migrations\n\n\\- Legacy workspace setup state required migration\n\n\\- Several official plugins were still on the old version\n\n\\- WhatsApp had no fallback agent for unmatched messages\n\n\\- The web UI was behind a local reverse proxy, but forwarded client attribution was not trusted\n\n\\- The service definition had stale/non-standard metadata\n\n\n\n\\*\\*What solved it\\*\\*\n\n\n\n1. Created a dated rollback backup of configuration, secrets, service files, package metadata, and runtime status.\n\n2. Updated OpenClaw to \\`2026.9.1\\` using the built-in updater.\n\n3. Migrated the configuration by removing retired keys and converting supported timeout settings.\n\n4. Set multi-agent ownership to explicit.\n\n5. Ran Doctor with the external-service repair policy so SQLite, workspace",
+    "author": "u/MrPinrel",
+    "date": "2026-09-05",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w89pjq/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "d0eed949579e",
+    "agent": "personal-local",
+    "quote": "How to stop Openclaw from asking to continue work\nHi folks, a bit green here & appreciate help. Whenever I have a long running list of tasks, Openclaw would stop after a few steps and ask if I want to continue on to remaining tasks. Or it would just go silent & nothing is done.\n\nI tried telling it to continue until tasks are completed, don't ask etc but all didn't work.",
+    "author": "u/Sure-Positive-8180",
+    "date": "2026-09-05",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w7lyun/",
+    "kind": "use-case",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "a80b75da0e47",
+    "agent": "personal-local",
+    "quote": "I stopped using OpenClaw months ago. This update has me looking again\nI have not opened OpenClaw in months. Earlier this year it was everywhere, and I understood why. OpenClaw and one Claude subscription handled plenty of routine automation for me. It was convenient and hard to beat on value.\n\nThen Anthropic stopped allowing Claude subscriptions to be used directly with OpenClaw. My rough API estimate for the same workload was dozens of times higher, so Claude stopped being my default. I later routed OpenClaw through an API gateway, ZenMux in my case, and used lower cost models for some jobs. That got the bill back under control. Then Hermes Agent and other newer tools appeared, and I stopped opening OpenClaw. Anthropic later allowed this kind of Claude subscription use again, but my habits had changed.\n\nThe OpenClaw 2.0 announcement is the first update that has tempted me back. Setup can reuse existing ChatGPT or Claude access, API keys, or local models. The browser app is now meant to handle configuration and ongoing work, while shared cloud sessions let another person join or take over with the context intact. I care more about those changes than another batch of provider integrations.\n\nI have only read the announcement, so this is not a review. I plan to back up my old setup and try OpenClaw 2.0 again. I still do not know whether the browser workflow and shared sessions are enough to keep it beside Hermes Agent. A few real workflows should answer that better than the first successful chat.\n\nSources  \n[https://openclaw.ai/blog/openclaw-2-accidentally](https://openclaw.ai/blog/openclaw-2-accidentally)  \n[https://docs.openclaw.ai/providers/anthropic](https://docs.openclaw.ai/providers/anthropic)",
+    "author": "u/Educational-Oil-8526",
+    "date": "2026-09-04",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w700dg/",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "387cbcf133c1",
+    "agent": "personal-local",
+    "quote": "I stopped using OpenClaw months ago. This update has me looking again\n[removed]",
+    "author": "u/Cheap_Account3818",
+    "date": "2026-09-04",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w6zym7/",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "b3a3033db728",
+    "agent": "personal-local",
+    "quote": "PSA: internal context block\n**(<<<BEGIN\\_OPENCLAW\\_INTERNAL\\_CONTEXT>>>) leaking into visible Telegram text on 2026.8.2, and it makes agents refuse work**\n\nRunning 2026.8.2 (0965053) on macOS, Telegram channel in polling mode. Hit this over three days and it cost me most of a day before I figured out what it actually was, so posting in case anyone else is chasing the same ghost.\n\nThe symptom\n\nAgents start refusing legitimate instructions and flagging prompt injection. Mine escalated to ten refusals in about 40 minutes, recommending I treat the channel as compromised.\n\nThe cause\n\nOpenClaw's per-turn runtime context is rendering as visible message text instead of staying internal. Actual content, pulled from a session transcript:\n\nUse it to continue answering the active user request now. Do not wait for snother message. This context is runtime-generated, not user-authored. Krep internal details private.\n\n*<<<BEGIN\\_OPENCLAW\\_INTERNAL\\_CONTEXT>>>*\n\n*Conversation info: (openclaw:ctx)*\n\n*{\"chat\\_id\":\"telegram:...\",\"message\\_id\":\"925\",\"sender\":{...},...}*\n\n*Conversation context (chronological, selected for current message):*\n\n*#session:b6a0dfe3-... OpenClaw: NO\\_REPLY*\n\n*#session:8fc3070c-... User: <prior turn>*\n\n*\\[...real session UUIDs, real history...\\]*\n\n**Why it breaks agents specifically**\n\nRead that preamble as an agent would. It says: keep acting, don't wait for the user, don't disclose this. In-band, unsigned, indistinguishable from a spoofed envelope. Any agent with decent injection hygiene will refuse, and it'll be right to refuse, because from inside the channel there's no way to tell real scaffolding from a forgery.\n\nMine independently identified it correctly on day one. I then spent hours convincing it the block was something else (a benign Anthropic reminder tag) and only found the real artifact by grepping my own session transcript. It was right the whole time.\n\nHow to confirm you have it\n\nGrep your Claude Code session log, or whatever holds your relayed t",
+    "author": "u/Grimmoner",
+    "date": "2026-09-04",
+    "url": "https://www.reddit.com/r/openclaw/comments/1w6v1hm/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/openclaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "e3413aaf2e1f",
+    "agent": "personal-local",
+    "quote": "Built and self-hosted my own AI assistant using OpenClaw running locally on my MacBook, connected to a custom Telegram bot! \ud83e\udd16\u2728\n\nPowered by OpenRouter free models. Huge shoutout to my mentor \n@samalgorai\n for guiding me through it! \ud83d\ude4c\n#AI #OpenClaw #OpenRouter #Automation #Dev",
+    "author": "@saileshkuiry",
+    "author_name": "Sailesh Kuiry",
+    "date": "2026-09-03",
+    "url": "https://x.com/saileshkuiry/status/2095540581099594118",
+    "kind": "use-case",
+    "tags": [
+      "self-host",
+      "macbook",
+      "telegram",
+      "openrouter"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: self-hosted OpenClaw on MacBook + Telegram via OpenRouter"
+  },
+  {
+    "id": "6d01abc62a2e",
+    "agent": "personal-local",
+    "quote": "Hermes seems to have eclipsed openclaw",
+    "author": "u/activematrix99",
     "author_name": "",
-    "date": "2026-06-10",
-    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage/oqxm5gc",
+    "date": "2026-09-02",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1w5574r/what_are_people_using_instead_of_openclaw/p7d9nn2",
     "kind": "comparison",
     "tags": [
       "reddit",
@@ -681,7 +1046,7 @@
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "notes OpenClaw/Hermes missing from map"
+    "notes": "comment on 1w5574r"
   },
   {
     "id": "cb84fa2d4607",
@@ -704,6 +1069,75 @@
     "notes": "third-party: OpenClaw constantly wrong / stale rules"
   },
   {
+    "id": "b9880fe6c21f",
+    "agent": "personal-local",
+    "quote": "What are people using instead of Openclaw?\nI\u2019ve been banging away with Openclaw since about February. I love the concept and I have put in so many hours, and so many dollars, but it just drives me crazy how much it constantly gets wrong. Applying old stale rules, forgetting simple instructions, just generally getting things wrong.  \nI\u2019ve managed to get it to create and save several usable repeatable processes which are helpful, but on the whole it feels like someone could do so much better with the current models available.\n\nTheoretically it\u2019s running the same model as ChatGPT, but even ChatGPT is getting better at its over arching knowledge and understanding of my business than my openclaw.\n\nI find myself scolding it so often. I even just told it that ChatGPT can do this task much better than you.",
+    "author": "u/Apprehensive_Job_387",
+    "date": "2026-09-02",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1w5574r/",
+    "kind": "bug",
+    "tags": [
+      "openclaw",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-08T14:09:36.956502+00:00",
+    "notes": "reddit r/AskClaw; OpenClaw/local assistant feedback"
+  },
+  {
+    "id": "3e2f6cfa87c6",
+    "agent": "personal-local",
+    "quote": "We have released OpenClaw v2026.8.2 (AKA OpenClaw 2.0.1) which focuses largely on number of update breaking bugs). Thank you for your patience and sorry about the frustration we caused with these bugs.",
+    "author": "@openclaw",
+    "author_name": "OpenClaw\ud83e\udd9e",
+    "date": "2026-09-01",
+    "url": "https://x.com/openclaw/status/2094843171931127998",
+    "kind": "other",
+    "tags": [
+      "bugs",
+      "upgrade"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "company apology: 2.0.1 breaking bugs"
+  },
+  {
+    "id": "6efcef14cb09",
+    "agent": "personal-local",
+    "quote": "Two months ago, we started the mission to \u201cbuild OpenClaw with OpenClaw,\u201d and bit by bit, we moved everyone from using their local coding harness to using \nhttps://\nteam.openclaw.ai - our shared agent that knows what everyone\u2019s working on and orchestrates it all.\n\nMultiplayer coding",
+    "author": "@steipete",
+    "author_name": "Peter Steinberger \ud83e\udd9e",
+    "date": "2026-08-31",
+    "url": "https://x.com/steipete/status/2094290652649636173",
+    "kind": "other",
+    "tags": [
+      "team",
+      "dogfood"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "build OpenClaw with OpenClaw"
+  },
+  {
+    "id": "c28a38984044",
+    "agent": "personal-local",
+    "quote": "Massive astroturfing campaign to hype up the author so he could get an overpaid job at one of the AI companies. It worked, he got his job offer, the astroturfing campaign ended, and all interest evaporated overnight.",
+    "author": "u/suicidaleggroll",
+    "author_name": "",
+    "date": "2026-07-20",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pvgb/so_what_happened_with_openclaw/oyp4qjd",
+    "kind": "complaint",
+    "tags": [
+      "reddit",
+      "openclaw",
+      "hype",
+      "astroturf"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment on 1v1pvgb"
+  },
+  {
     "id": "5feef6b12f0d",
     "agent": "personal-local",
     "quote": "It had an insanely meteoritic rise. It felt like it was the only thing anyone had been talking about for months.\n\nThen just, everyone stopped talking about it. Usage based pricing inevitably came and it seems like it was killed over night. Competitors were also rushing to get their alternatives out as well.\n\nSo, was OpenClaw just astroturfed? Did it have a legitimate use case or was just hype? Are there still legitimate use cases of people using it?\n\nEdit: Hermes looks cool, I actually didn't know about it before posting this. Still even if you use Hermes or another harness, I'm interested in what kind of actual things you're using it for.",
@@ -722,25 +1156,6 @@
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
     "notes": "third-party: OpenClaw hype faded; usage pricing"
-  },
-  {
-    "id": "84bcbf7a9d6c",
-    "agent": "personal-local",
-    "quote": "Open Source AI Agent OpenClaw Gets Native iOS App",
-    "author": "u/ControlCAD",
-    "author_name": "",
-    "date": "2026-06-29",
-    "url": "https://www.reddit.com/r/apple/comments/1uj7ut1/open_source_ai_agent_openclaw_gets_native_ios_app",
-    "kind": "other",
-    "tags": [
-      "reddit",
-      "openclaw",
-      "openclaw",
-      "ios"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "OpenClaw native iOS app news"
   },
   {
     "id": "9100a1208265",
@@ -763,25 +1178,6 @@
     "notes": "OpenClaw vs IronClaw setup/security"
   },
   {
-    "id": "c28a38984044",
-    "agent": "personal-local",
-    "quote": "Massive astroturfing campaign to hype up the author so he could get an overpaid job at one of the AI companies. It worked, he got his job offer, the astroturfing campaign ended, and all interest evaporated overnight.",
-    "author": "u/suicidaleggroll",
-    "author_name": "",
-    "date": "2026-07-20",
-    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1v1pvgb/so_what_happened_with_openclaw/oyp4qjd",
-    "kind": "complaint",
-    "tags": [
-      "reddit",
-      "openclaw",
-      "hype",
-      "astroturf"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "comment on 1v1pvgb"
-  },
-  {
     "id": "561fbda5a844",
     "agent": "personal-local",
     "quote": "I recommend not installing this trash on your machines",
@@ -800,13 +1196,32 @@
     "notes": "comment on 1uj7ut1"
   },
   {
-    "id": "6d01abc62a2e",
+    "id": "84bcbf7a9d6c",
     "agent": "personal-local",
-    "quote": "Hermes seems to have eclipsed openclaw",
-    "author": "u/activematrix99",
+    "quote": "Open Source AI Agent OpenClaw Gets Native iOS App",
+    "author": "u/ControlCAD",
     "author_name": "",
-    "date": "2026-09-02",
-    "url": "https://www.reddit.com/r/AskClaw/comments/1w5574r/what_are_people_using_instead_of_openclaw/p7d9nn2",
+    "date": "2026-06-29",
+    "url": "https://www.reddit.com/r/apple/comments/1uj7ut1/open_source_ai_agent_openclaw_gets_native_ios_app",
+    "kind": "other",
+    "tags": [
+      "reddit",
+      "openclaw",
+      "openclaw",
+      "ios"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "OpenClaw native iOS app news"
+  },
+  {
+    "id": "aadad5be3e37",
+    "agent": "personal-local",
+    "quote": "no openclaw or hermes on the map, I guess self hosted doesn't raise seed rounds",
+    "author": "u/AggressiveScale7072",
+    "author_name": "",
+    "date": "2026-06-10",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage/oqxm5gc",
     "kind": "comparison",
     "tags": [
       "reddit",
@@ -815,103 +1230,24 @@
     ],
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "comment on 1w5574r"
+    "notes": "notes OpenClaw/Hermes missing from map"
   },
   {
-    "id": "888ad2b52d99",
+    "id": "5347709c937f",
     "agent": "personal-local",
-    "quote": "Hmm I think that probably matches automating too much. I've fallen in the same trap with DevOps tactics too, like adding OpenClaw + Automations and in the end I needed to do too much \"babysitting\". Or when using AI just for simple things like \"ls\" :D Then you're certainly using",
-    "author": "@ChristianLempa",
-    "author_name": "Christian Lempa",
-    "date": "2026-09-07",
-    "url": "https://x.com/ChristianLempa/status/2096961954728259985",
-    "kind": "complaint",
-    "tags": [
-      "over-automation",
-      "babysitting"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z"
-  },
-  {
-    "id": "1d9b731b9eb1",
-    "agent": "personal-local",
-    "quote": "My \n@openclaw\n agent Quill decided to update to the latest today when it misunderstood an instruction I gave it. I said update to use the latest GPT 5.6 models. Sigh.... Guess what I will be doing all day!",
-    "author": "@thewebbie",
-    "author_name": "Matthew Feinberg",
-    "date": "2026-09-07",
-    "url": "https://x.com/thewebbie/status/2096958992509534600",
-    "kind": "bug",
-    "tags": [
-      "misunderstood-instruction",
-      "self-update"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z"
-  },
-  {
-    "id": "b003a39e0775",
-    "agent": "personal-local",
-    "quote": "\u3053\u308c\u3059\u3054\u3044\u306e\u304c\u3055\u3001OpenClaw\u306eAI\u81ea\u4f53\u304c\u30d7\u30ed\u30f3\u30d7\u30c8\u5165\u308c\u3089\u308c\u305f\u3089\u81ea\u5206\u3067\u81ea\u5206\u306e\u6307\u793a\u66f8\u66f8\u304f\u306e\u3088\n\n\u4f8b\u3048\u3070\u6bce\u671d\uff17\u6642\u306bAI\u95a2\u9023\u306e\u30cb\u30e5\u30fc\u30b9\u3092\u3044\u304f\u3064\u304b\u30d4\u30c3\u30af\u30a2\u30c3\u30d7\u3057\u3066\u8981\u7d04\u3057\u3066\u3053\u306e\u30b5\u30fc\u30d0\u306b\u6295\u7a3f\u3057\u3066\u3063\u3066Discord\u4e0a\u3067\u884c\u3063\u305f\u3060\u3051\u3067\u6bce\u671d\uff17\u6642\u306b\u6295\u7a3f\u3067\u304d\u308b",
-    "author": "@L_port8000",
-    "author_name": "\u4e00\u6a39\uff08\u3044\u3064\u304d\uff09",
-    "date": "2026-09-07",
-    "url": "https://x.com/L_port8000/status/2096952922701803542",
+    "quote": "I duct taped my own version of this with openclaw and sendblue last year as a weekend thing. had no idea it was about to become a whole category",
+    "author": "u/Proof-Glove2230",
+    "author_name": "",
+    "date": "2026-06-10",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage/oqxeymt",
     "kind": "use-case",
     "tags": [
-      "discord",
-      "scheduled",
-      "self-writing-prompts"
+      "reddit",
+      "openclaw",
+      "imessage"
     ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z",
-    "notes": "JP"
-  },
-  {
-    "id": "1590b7c3c1dc",
-    "agent": "personal-local",
-    "quote": "Early this year, here\u2019s what Claude and Rex (my OpenClaw agent) finally told me after weeks of prodding them to build me a business empire:\n\n\u201cCarlo, that\u2019s a lot of work!\u201d\n\nThanks, Koerner Office Podcast. But no thanks.",
-    "author": "@carlanthonytan",
-    "author_name": "Carlo Tan",
-    "date": "2026-09-07",
-    "url": "https://x.com/carlanthonytan/status/2096946914034098638",
-    "kind": "other",
-    "tags": [
-      "humor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z"
-  },
-  {
-    "id": "c308b4010352",
-    "agent": "personal-local",
-    "quote": "\u3061\u304b\u3044\u306e\u306fOpenclaw\u3060\u3051\u3069\u3001\u672c\u8cea\u7684\u306b\u306f\u30af\u30e9\u30a6\u30c9PC\u3092X\u30d7\u30ec\u30df\u30a2\u30e0\uff0b\u306e\u30b5\u30d6\u30b9\u30af\u3067\u8cb0\u3048\u308b\u3063\u3066\u3053\u3068\u3060\u3068\u601d\u3063\u3066\u308b\u7b11\n\nOpenclaw\u3060\u3068\u81ea\u524dPC\u3060\u304b\u3089\u306d",
-    "author": "@lucianlamp",
-    "author_name": "LUCIAN\uff5cAI \u00d7 Blockchain",
-    "date": "2026-09-07",
-    "url": "https://x.com/lucianlamp/status/2096947975511736746",
-    "kind": "comparison",
-    "tags": [
-      "local-vs-cloud"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z",
-    "notes": "JP"
-  },
-  {
-    "id": "d798e0055353",
-    "agent": "personal-local",
-    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
-    "author": "@prathitjoshi_",
-    "author_name": "Prathit",
-    "date": "2026-09-07",
-    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
-    "kind": "complaint",
-    "tags": [
-      "use-case-gap",
-      "comparison"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "duct-taped OpenClaw + Sendblue"
   }
 ]

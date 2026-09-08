@@ -1,186 +1,76 @@
 [
   {
-    "id": "a115bc60d1c7",
+    "id": "6b05d7375292",
     "agent": "slashy",
-    "quote": "switched from superhuman to slashy and i don't think i'm going back\n\nslashy is everything i loved about superhuman but way more agentic. it actually handles things for me instead of just making it faster for me to handle things myself.\n\nsuperhuman is beautiful and fast but it",
-    "author": "@nickvasiles",
-    "author_name": "Nick Vasilescu",
-    "date": "2026-08-05",
-    "url": "https://x.com/nickvasiles/status/2084972686590005733",
-    "kind": "praise",
-    "tags": [
-      "superhuman",
-      "agentic"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "switched from Superhuman"
-  },
-  {
-    "id": "1b4263c9df08",
-    "agent": "slashy",
-    "quote": "Every day I go onto \n@Slashy\n and get my important label down to 0, just to see the drawing :)\n\nSure I love Slashy for other reasons like being able to see all my inboxes in one place, being able to chat with AI inside my inbox, and having it track follow ups for me.\n\nBut I think",
-    "author": "@michwirantono",
-    "author_name": "Michelle Marcelline",
-    "date": "2026-08-18",
-    "url": "https://x.com/michwirantono/status/2089789472816894453",
-    "kind": "praise",
-    "tags": [
-      "inbox-zero",
-      "unified"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "daily important label to 0"
-  },
-  {
-    "id": "d80eac0c273c",
-    "agent": "slashy",
-    "quote": "Check out Slashy - it\u2019s what Superhuman should have become. An inbox with AI drafts that sound like you and you can just hit send without rewriting everything. \n\nI was switching as the redesign hit and then jumped fully over. They\u2019re building some custom stuff for us as well",
-    "author": "@Loganullyott",
-    "author_name": "Logan Ullyott",
-    "date": "2026-09-04",
-    "url": "https://x.com/Loganullyott/status/2095748554723827980",
-    "kind": "praise",
-    "tags": [
-      "drafts",
-      "superhuman"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "what Superhuman should have become"
-  },
-  {
-    "id": "a8c319880c38",
-    "agent": "slashy",
-    "quote": "I'm now a \n@slashyemail\n ambassador!\n\nThey have built the best email client ever, and integrate AI in a non annoying way.\n\nCheck it out: \nhttp://\ndub.sh/slashy",
-    "author": "@leodev",
-    "author_name": "Leo - 15 y/o founder",
-    "date": "2026-08-21",
-    "url": "https://x.com/leodev/status/2090902247727055286",
-    "kind": "praise",
-    "tags": [
-      "email"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "ambassador: best email client"
-  },
-  {
-    "id": "420714a0768b",
-    "agent": "slashy",
-    "quote": "use \n@slashy\n insanely good",
-    "author": "@phanindra_ai",
-    "author_name": "Phanindra Reddy",
-    "date": "2026-09-04",
-    "url": "https://x.com/phanindra_ai/status/2095770617085825041",
-    "kind": "praise",
-    "tags": [],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "insanely good"
-  },
-  {
-    "id": "54e93c89a3c1",
-    "agent": "slashy",
-    "quote": "Gonna try \nhttps://\nslashy.com instead. Will report back.",
-    "author": "@zlwaterfield",
-    "author_name": "Zach Waterfield",
-    "date": "2026-09-04",
-    "url": "https://x.com/zlwaterfield/status/2095724408170053724",
-    "kind": "other",
-    "tags": [
-      "trial"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "gonna try, will report back"
-  },
-  {
-    "id": "05b310baa8da",
-    "agent": "slashy",
-    "quote": "Introducing \n@slashyemail\n imessage.\n\nThe first imessage assistant for email.\n\nWith Slashy\n-> Can voice memo a draft\n-> Have it send you a preview\n-> Open the preview in chat and manually edit/add formatting\n-> Use AI to polish it even more\n-> Send the email\n-> Get a text when",
+    "quote": "Vertical AI assistants with clear platform fees, I think will win in this space for enterprise/b2b\n\nPeople confuse VC with adoption.\n\nHaven't yet seen meaningful adoption in relevant markets for general assistants (outside of Perplexity assistant)",
     "author": "@GaddipatiHarsha",
     "author_name": "Harsha from Slashy",
-    "date": "2026-08-23",
-    "url": "https://x.com/GaddipatiHarsha/status/2091573523198378153",
-    "kind": "other",
+    "date": "2026-09-07",
+    "url": "https://x.com/GaddipatiHarsha/status/2096995771241701828",
+    "kind": "comparison",
     "tags": [
-      "imessage",
-      "email"
+      "enterprise",
+      "B2B",
+      "platform-fees",
+      "adoption",
+      "Perplexity"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: iMessage email assistant"
+    "collected_at": "2026-09-08T14:14:17Z",
+    "notes": "Slashy founder compares vertical and general assistants and separates VC attention from adoption."
   },
   {
-    "id": "0ba8612b2ad7",
+    "id": "23a8b9a0cb81",
     "agent": "slashy",
-    "quote": "We have a proactive iMessage/slack bot.\n\nAnd automations as well that run in background like meeting prep, auto replying, forwarding receipts etc like an EA \n\nThen have custom memory system with a separate agent that process all emails, meeting notes etc to develop rich context",
+    "quote": "Best combo: \n@PhotonHQ\n x \n@slashyemail\n \n\nJoin us at the \n@ycombinator\n pre party on Monday, it\u2019s gonna be a hit \ud83d\udd25",
+    "author": "@PhotonHQ",
+    "author_name": "Photon",
+    "date": "2026-09-06",
+    "url": "https://x.com/PhotonHQ/status/2096411193040855108",
+    "kind": "other",
+    "tags": [
+      "yc",
+      "collab",
+      "party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "partner: PhotonHQ x slashyemail YC pre-party"
+  },
+  {
+    "id": "6f4e477714cc",
+    "agent": "slashy",
+    "quote": "Have you used Slashy mcp?\n\nCurious what you like about sipehrjmans",
     "author": "@GaddipatiHarsha",
     "author_name": "Harsha from Slashy",
-    "date": "2026-09-01",
-    "url": "https://x.com/GaddipatiHarsha/status/2094665347362075001",
-    "kind": "other",
+    "date": "2026-09-06",
+    "url": "https://x.com/GaddipatiHarsha/status/2096478119314198719",
+    "kind": "use-case",
     "tags": [
-      "imessage",
-      "slack",
-      "ea"
+      "mcp",
+      "founder"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "proactive iMessage/Slack bot + automations"
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "founder: asks if people have used Slashy MCP"
   },
   {
-    "id": "46d43d814a06",
+    "id": "4494ec997539",
     "agent": "slashy",
-    "quote": "Switch to \nhttps://\nslashy.com. (You\u2019re welcome)",
-    "author": "@pomajp",
-    "author_name": "jonathan poma \u270c\ufe0f",
-    "date": "2026-09-04",
-    "url": "https://x.com/pomajp/status/2095866514519863616",
-    "kind": "other",
+    "quote": "I\u2019m eager to check the \n@slashyemail\n if it supports Office365. Thank you",
+    "author": "@optimusprim04",
+    "author_name": "\ud835\udd7a\ud835\udd95\ud835\udd99\ud835\udd8e\ud835\udd92\ud835\udd9a\ud835\udd98 \ud835\udd7b\ud835\udd97\ud835\udd8e\ud835\udd92\ud835\udd8a",
+    "date": "2026-09-05",
+    "url": "https://x.com/optimusprim04/status/2096133833188110377",
+    "kind": "use-case",
     "tags": [
-      "switch"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "switch to slashy.com"
-  },
-  {
-    "id": "87ab05c7bfe2",
-    "agent": "slashy",
-    "quote": "Personally, I grew quite frustrated with superhuman, and found the slashy experience to be peak (after trying cora mail, exomail, and maybe half a dozen others), great perf, excellent enterprise functinality (teams) and truly \"ai native\"\n\nIf it's been a while since you tried",
-    "author": "@AdvaitRaykar",
-    "author_name": "Advait Raykar",
-    "date": "2026-09-03",
-    "url": "https://x.com/AdvaitRaykar/status/2095500979391152599",
-    "kind": "praise",
-    "tags": [
-      "superhuman",
-      "ai-native",
-      "teams"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "frustrated with Superhuman; Slashy peak"
-  },
-  {
-    "id": "7e0032798292",
-    "agent": "slashy",
-    "quote": "Tried Slashy and enjoyed it, can\u2019t fully use it due to lack of outlook support. So back to superhuman for now unless this thread surfaces something",
-    "author": "@jackoregankenny",
-    "author_name": "Jack O'Regan Kenny \ud83c\uddee\ud83c\uddea",
-    "date": "2026-09-03",
-    "url": "https://x.com/jackoregankenny/status/2095569161061585104",
-    "kind": "complaint",
-    "tags": [
+      "office365",
       "outlook",
-      "gap"
+      "interest"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "enjoyed but no Outlook \u2192 back to Superhuman"
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: eager to try slashyemail if Office365 supported"
   },
   {
     "id": "d30a74477caa",
@@ -199,23 +89,6 @@
     "notes": "AI-first not shortcut-first"
   },
   {
-    "id": "e5b4138a0112",
-    "agent": "slashy",
-    "quote": "I don't connect my company account to slashy because I barely get any emails there, only for log in codes and if it's something important I get a notification for gmail.\n\nBut if anyone gets tons of emails to their personal email it's a blast using slashy, I love the auto label",
-    "author": "@leodev",
-    "author_name": "Leo - 15 y/o founder",
-    "date": "2026-09-04",
-    "url": "https://x.com/leodev/status/2095968967886283141",
-    "kind": "use-case",
-    "tags": [
-      "personal-email",
-      "auto-label"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "personal email blast; auto label love"
-  },
-  {
     "id": "95ebba837b9b",
     "agent": "slashy",
     "quote": "Best mobile app for email (their working on desktop version) no crazy feature just fire ux. If you want more fully featured email all (their mobile app is also pretty good) and don\u2019t mind paying \n@slashyemail\n is also great. Using Avec has been the only time ever I\u2019ve reached inbox",
@@ -231,161 +104,6 @@
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
     "notes": "Slashy fully featured vs Avec UX"
-  },
-  {
-    "id": "98bb299b0b4c",
-    "agent": "slashy",
-    "quote": "If you don't like the new acquired Superhuman, send an email to getmeoffsuperhuman@slashy.com\n\nWill set you up with a free month of Slashy :)\n\nWe have everything that Superhuman has, along with AI that works, voice-to-voice, an iMessage/Slack bot, Granola, and much much more",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-04",
-    "url": "https://x.com/GaddipatiHarsha/status/2095713128503976136",
-    "kind": "other",
-    "tags": [
-      "superhuman",
-      "imessage",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "getmeoffsuperhuman campaign + iMessage/Slack bot"
-  },
-  {
-    "id": "2d04befd24df",
-    "agent": "slashy",
-    "quote": "But tldr is pretty simple they started in 2012, we did in 2025 so there\u2019s a big difference in quality of ai features. We\u2019re much more a proactive assistant in your inbox",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-03",
-    "url": "https://x.com/GaddipatiHarsha/status/2095651208409288995",
-    "kind": "other",
-    "tags": [
-      "positioning",
-      "proactive",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "proactive assistant in inbox"
-  },
-  {
-    "id": "f85c244a0880",
-    "agent": "slashy",
-    "quote": "bruhhh i thought i were vibing w slashy",
-    "author": "@nizzyabi",
-    "author_name": "Nizzy",
-    "date": "2026-09-04",
-    "url": "https://x.com/nizzyabi/status/2095962165261762775",
-    "kind": "other",
-    "tags": [
-      "vibes"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "thought vibing with Slashy"
-  },
-  {
-    "id": "96a5f4841d09",
-    "agent": "slashy",
-    "quote": "I\u2019ve been using an agentic email client as my daily driver for two weeks (slashy). \n\nAgentic email is incredible. Only signal gets through. 90% of my emails are never seen. It learns from my replies and autodrafts replies.\n\nthis is what notion mail should have been- it\u2019s a shame",
-    "author": "@arshamg_",
-    "author_name": "arsham",
-    "date": "2026-08-31",
-    "url": "https://x.com/arshamg_/status/2094213982861066703",
-    "kind": "use-case",
-    "tags": [
-      "email",
-      "daily-driver",
-      "agentic"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "2 weeks daily driver; 90% email filtered"
-  },
-  {
-    "id": "a0ae0ef6ae55",
-    "agent": "slashy",
-    "quote": "Common question I get about Slashy.\n\n\"All these assistants are selling your data, how do we know you guys aren't\"\n\nGoing to start a breakdown of privacy policies, comparing to Slashy to explain why ours is worded our way, and my impressions of others.\n\nTo start Instinct \ud83e\uddf5",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-04",
-    "url": "https://x.com/GaddipatiHarsha/status/2095956047232147513",
-    "kind": "other",
-    "tags": [
-      "privacy",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "founder privacy breakdown vs assistants"
-  },
-  {
-    "id": "8237b1f6a8e7",
-    "agent": "slashy",
-    "quote": "Common email pattern we want to solve with our next iteration on auto-drafts.\n\nDraft is something like \n\n-> \"Here is our pricing attached\"\n\n-> User has to go manually attach pricing.\n\nSlashy should be able to know your pricing doc and attatch it for you \ud83d\udc40",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-05",
-    "url": "https://x.com/GaddipatiHarsha/status/2096051255080882604",
-    "kind": "use-case",
-    "tags": [
-      "auto-draft",
-      "email",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "auto-draft pricing attachment pattern"
-  },
-  {
-    "id": "1faabf41b63e",
-    "agent": "slashy",
-    "quote": "Yea pretty sure it depends on the company, but I think if wayne has a personal email and he's fine with using that he can use slashy there and maybe after liking it he can convince the people managing it. But I could be wrong, I think big companies need like some compliance",
-    "author": "@leodev",
-    "author_name": "Leo - 15 y/o founder",
-    "date": "2026-09-04",
-    "url": "https://x.com/leodev/status/2095967851689476447",
-    "kind": "use-case",
-    "tags": [
-      "personal-email"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "use Slashy on personal email"
-  },
-  {
-    "id": "5624dcf7e8b3",
-    "agent": "slashy",
-    "quote": "wayne you should give slashy a try:\n\nhttps://\ndub.sh/slashy\n\nit looks good, feels good, and so many actually useful features",
-    "author": "@leodev",
-    "author_name": "Leo - 15 y/o founder",
-    "date": "2026-09-04",
-    "url": "https://x.com/leodev/status/2095901072480928037",
-    "kind": "praise",
-    "tags": [
-      "recommend",
-      "features"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "third-party: looks/feels good; useful features \u2014 try Slashy"
-  },
-  {
-    "id": "1279f42869d2",
-    "agent": "slashy",
-    "quote": "one of the best products i use everyday to make my 80+ hour work weeks more manageable. \nhttp://\nslashy.ai",
-    "author": "@adavya_sharma",
-    "author_name": "Adavya Sharma",
-    "date": "2025-08-09",
-    "url": "https://x.com/adavya_sharma/status/1953999853882867978",
-    "kind": "praise",
-    "tags": [
-      "daily-driver",
-      "workweek"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "third-party: best everyday product for 80+ hour weeks"
   },
   {
     "id": "97b977776f0e",
@@ -425,22 +143,270 @@
     "notes": "founder: unified calendar + inbox view"
   },
   {
-    "id": "29adcf13c9a4",
+    "id": "0c6291f56ccc",
     "agent": "slashy",
-    "quote": "if you want to sort through emails faster, I recommend \n@slashyemail\n!\n\nI have no affiliation, just a fan of the product and as someone who used superhuman for several years, everytime I see superhuman, I feel compelled to call it out \ud83d\ude43 \n\n(even yc now recommends slashy over",
-    "author": "@AdvaitRaykar",
-    "author_name": "Advait Raykar",
-    "date": "2026-09-03",
-    "url": "https://x.com/AdvaitRaykar/status/2095492034819748242",
+    "quote": "I would use \nhttps://\nslashy.com for unified inbox",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-05",
+    "url": "https://x.com/GaddipatiHarsha/status/2096073109157867873",
+    "kind": "use-case",
+    "tags": [
+      "unified-inbox",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "founder: would use slashy.com for unified inbox"
+  },
+  {
+    "id": "8237b1f6a8e7",
+    "agent": "slashy",
+    "quote": "Common email pattern we want to solve with our next iteration on auto-drafts.\n\nDraft is something like \n\n-> \"Here is our pricing attached\"\n\n-> User has to go manually attach pricing.\n\nSlashy should be able to know your pricing doc and attatch it for you \ud83d\udc40",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-05",
+    "url": "https://x.com/GaddipatiHarsha/status/2096051255080882604",
+    "kind": "use-case",
+    "tags": [
+      "auto-draft",
+      "email",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "auto-draft pricing attachment pattern"
+  },
+  {
+    "id": "54e93c89a3c1",
+    "agent": "slashy",
+    "quote": "Gonna try \nhttps://\nslashy.com instead. Will report back.",
+    "author": "@zlwaterfield",
+    "author_name": "Zach Waterfield",
+    "date": "2026-09-04",
+    "url": "https://x.com/zlwaterfield/status/2095724408170053724",
+    "kind": "other",
+    "tags": [
+      "trial"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "gonna try, will report back"
+  },
+  {
+    "id": "8957ef643d8f",
+    "agent": "slashy",
+    "quote": "use slashy \n@GaddipatiHarsha",
+    "author": "@ryan_morr",
+    "author_name": "Ryan Morrissey",
+    "date": "2026-09-04",
+    "url": "https://x.com/ryan_morr/status/2095950116846977468",
     "kind": "praise",
     "tags": [
-      "email",
-      "superhuman",
       "recommend"
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: recommend @slashyemail vs Superhuman for sorting email"
+    "notes": "third-party: use slashy"
+  },
+  {
+    "id": "46d43d814a06",
+    "agent": "slashy",
+    "quote": "Switch to \nhttps://\nslashy.com. (You\u2019re welcome)",
+    "author": "@pomajp",
+    "author_name": "jonathan poma \u270c\ufe0f",
+    "date": "2026-09-04",
+    "url": "https://x.com/pomajp/status/2095866514519863616",
+    "kind": "other",
+    "tags": [
+      "switch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "switch to slashy.com"
+  },
+  {
+    "id": "420714a0768b",
+    "agent": "slashy",
+    "quote": "use \n@slashy\n insanely good",
+    "author": "@phanindra_ai",
+    "author_name": "Phanindra Reddy",
+    "date": "2026-09-04",
+    "url": "https://x.com/phanindra_ai/status/2095770617085825041",
+    "kind": "praise",
+    "tags": [],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "insanely good"
+  },
+  {
+    "id": "f85c244a0880",
+    "agent": "slashy",
+    "quote": "bruhhh i thought i were vibing w slashy",
+    "author": "@nizzyabi",
+    "author_name": "Nizzy",
+    "date": "2026-09-04",
+    "url": "https://x.com/nizzyabi/status/2095962165261762775",
+    "kind": "other",
+    "tags": [
+      "vibes"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "thought vibing with Slashy"
+  },
+  {
+    "id": "e5b4138a0112",
+    "agent": "slashy",
+    "quote": "I don't connect my company account to slashy because I barely get any emails there, only for log in codes and if it's something important I get a notification for gmail.\n\nBut if anyone gets tons of emails to their personal email it's a blast using slashy, I love the auto label",
+    "author": "@leodev",
+    "author_name": "Leo - 15 y/o founder",
+    "date": "2026-09-04",
+    "url": "https://x.com/leodev/status/2095968967886283141",
+    "kind": "use-case",
+    "tags": [
+      "personal-email",
+      "auto-label"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "personal email blast; auto label love"
+  },
+  {
+    "id": "1faabf41b63e",
+    "agent": "slashy",
+    "quote": "Yea pretty sure it depends on the company, but I think if wayne has a personal email and he's fine with using that he can use slashy there and maybe after liking it he can convince the people managing it. But I could be wrong, I think big companies need like some compliance",
+    "author": "@leodev",
+    "author_name": "Leo - 15 y/o founder",
+    "date": "2026-09-04",
+    "url": "https://x.com/leodev/status/2095967851689476447",
+    "kind": "use-case",
+    "tags": [
+      "personal-email"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "use Slashy on personal email"
+  },
+  {
+    "id": "5624dcf7e8b3",
+    "agent": "slashy",
+    "quote": "wayne you should give slashy a try:\n\nhttps://\ndub.sh/slashy\n\nit looks good, feels good, and so many actually useful features",
+    "author": "@leodev",
+    "author_name": "Leo - 15 y/o founder",
+    "date": "2026-09-04",
+    "url": "https://x.com/leodev/status/2095901072480928037",
+    "kind": "praise",
+    "tags": [
+      "recommend",
+      "features"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: looks/feels good; useful features \u2014 try Slashy"
+  },
+  {
+    "id": "c98e24c5d3bc",
+    "agent": "slashy",
+    "quote": "are you team \n@slashyemail\n or team \n@Superhuman\n ?",
+    "author": "@Naseem9brev",
+    "author_name": "Avinash",
+    "date": "2026-09-04",
+    "url": "https://x.com/Naseem9brev/status/2095969485488586906",
+    "kind": "comparison",
+    "tags": [
+      "superhuman",
+      "team-choice"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: team Slashyemail vs Superhuman question"
+  },
+  {
+    "id": "d80eac0c273c",
+    "agent": "slashy",
+    "quote": "Check out Slashy - it\u2019s what Superhuman should have become. An inbox with AI drafts that sound like you and you can just hit send without rewriting everything. \n\nI was switching as the redesign hit and then jumped fully over. They\u2019re building some custom stuff for us as well",
+    "author": "@Loganullyott",
+    "author_name": "Logan Ullyott",
+    "date": "2026-09-04",
+    "url": "https://x.com/Loganullyott/status/2095748554723827980",
+    "kind": "praise",
+    "tags": [
+      "drafts",
+      "superhuman"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "what Superhuman should have become"
+  },
+  {
+    "id": "a0ae0ef6ae55",
+    "agent": "slashy",
+    "quote": "Common question I get about Slashy.\n\n\"All these assistants are selling your data, how do we know you guys aren't\"\n\nGoing to start a breakdown of privacy policies, comparing to Slashy to explain why ours is worded our way, and my impressions of others.\n\nTo start Instinct \ud83e\uddf5",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-04",
+    "url": "https://x.com/GaddipatiHarsha/status/2095956047232147513",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder privacy breakdown vs assistants"
+  },
+  {
+    "id": "98bb299b0b4c",
+    "agent": "slashy",
+    "quote": "If you don't like the new acquired Superhuman, send an email to getmeoffsuperhuman@slashy.com\n\nWill set you up with a free month of Slashy :)\n\nWe have everything that Superhuman has, along with AI that works, voice-to-voice, an iMessage/Slack bot, Granola, and much much more",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-04",
+    "url": "https://x.com/GaddipatiHarsha/status/2095713128503976136",
+    "kind": "other",
+    "tags": [
+      "superhuman",
+      "imessage",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "getmeoffsuperhuman campaign + iMessage/Slack bot"
+  },
+  {
+    "id": "7e0032798292",
+    "agent": "slashy",
+    "quote": "Tried Slashy and enjoyed it, can\u2019t fully use it due to lack of outlook support. So back to superhuman for now unless this thread surfaces something",
+    "author": "@jackoregankenny",
+    "author_name": "Jack O'Regan Kenny \ud83c\uddee\ud83c\uddea",
+    "date": "2026-09-03",
+    "url": "https://x.com/jackoregankenny/status/2095569161061585104",
+    "kind": "complaint",
+    "tags": [
+      "outlook",
+      "gap"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "enjoyed but no Outlook \u2192 back to Superhuman"
+  },
+  {
+    "id": "c4b2e1353e80",
+    "agent": "slashy",
+    "quote": "Im trying Slashy (i dont like the name). But it feels good so far",
+    "author": "@itschrisjayden",
+    "author_name": "chris jayden",
+    "date": "2026-09-03",
+    "url": "https://x.com/itschrisjayden/status/2095417909778559086",
+    "kind": "praise",
+    "tags": [
+      "trial",
+      "ux"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: trying Slashy; dislikes name; feels good so far"
   },
   {
     "id": "31a9fe6a42b7",
@@ -461,124 +427,94 @@
     "notes": "third-party: loves team but moved to Superhuman for polish"
   },
   {
-    "id": "c4b2e1353e80",
+    "id": "2d04befd24df",
     "agent": "slashy",
-    "quote": "Im trying Slashy (i dont like the name). But it feels good so far",
-    "author": "@itschrisjayden",
-    "author_name": "chris jayden",
+    "quote": "But tldr is pretty simple they started in 2012, we did in 2025 so there\u2019s a big difference in quality of ai features. We\u2019re much more a proactive assistant in your inbox",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
     "date": "2026-09-03",
-    "url": "https://x.com/itschrisjayden/status/2095417909778559086",
-    "kind": "praise",
+    "url": "https://x.com/GaddipatiHarsha/status/2095651208409288995",
+    "kind": "other",
     "tags": [
-      "trial",
-      "ux"
+      "positioning",
+      "proactive",
+      "founder"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: trying Slashy; dislikes name; feels good so far"
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "proactive assistant in inbox"
   },
   {
-    "id": "8957ef643d8f",
+    "id": "87ab05c7bfe2",
     "agent": "slashy",
-    "quote": "use slashy \n@GaddipatiHarsha",
-    "author": "@ryan_morr",
-    "author_name": "Ryan Morrissey",
-    "date": "2026-09-04",
-    "url": "https://x.com/ryan_morr/status/2095950116846977468",
+    "quote": "Personally, I grew quite frustrated with superhuman, and found the slashy experience to be peak (after trying cora mail, exomail, and maybe half a dozen others), great perf, excellent enterprise functinality (teams) and truly \"ai native\"\n\nIf it's been a while since you tried",
+    "author": "@AdvaitRaykar",
+    "author_name": "Advait Raykar",
+    "date": "2026-09-03",
+    "url": "https://x.com/AdvaitRaykar/status/2095500979391152599",
     "kind": "praise",
     "tags": [
+      "superhuman",
+      "ai-native",
+      "teams"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "frustrated with Superhuman; Slashy peak"
+  },
+  {
+    "id": "29adcf13c9a4",
+    "agent": "slashy",
+    "quote": "if you want to sort through emails faster, I recommend \n@slashyemail\n!\n\nI have no affiliation, just a fan of the product and as someone who used superhuman for several years, everytime I see superhuman, I feel compelled to call it out \ud83d\ude43 \n\n(even yc now recommends slashy over",
+    "author": "@AdvaitRaykar",
+    "author_name": "Advait Raykar",
+    "date": "2026-09-03",
+    "url": "https://x.com/AdvaitRaykar/status/2095492034819748242",
+    "kind": "praise",
+    "tags": [
+      "email",
+      "superhuman",
       "recommend"
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: use slashy"
+    "notes": "third-party: recommend @slashyemail vs Superhuman for sorting email"
   },
   {
-    "id": "0c6291f56ccc",
+    "id": "0ba8612b2ad7",
     "agent": "slashy",
-    "quote": "I would use \nhttps://\nslashy.com for unified inbox",
+    "quote": "We have a proactive iMessage/slack bot.\n\nAnd automations as well that run in background like meeting prep, auto replying, forwarding receipts etc like an EA \n\nThen have custom memory system with a separate agent that process all emails, meeting notes etc to develop rich context",
     "author": "@GaddipatiHarsha",
     "author_name": "Harsha from Slashy",
-    "date": "2026-09-05",
-    "url": "https://x.com/GaddipatiHarsha/status/2096073109157867873",
-    "kind": "use-case",
-    "tags": [
-      "unified-inbox",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "founder: would use slashy.com for unified inbox"
-  },
-  {
-    "id": "4494ec997539",
-    "agent": "slashy",
-    "quote": "I\u2019m eager to check the \n@slashyemail\n if it supports Office365. Thank you",
-    "author": "@optimusprim04",
-    "author_name": "\ud835\udd7a\ud835\udd95\ud835\udd99\ud835\udd8e\ud835\udd92\ud835\udd9a\ud835\udd98 \ud835\udd7b\ud835\udd97\ud835\udd8e\ud835\udd92\ud835\udd8a",
-    "date": "2026-09-05",
-    "url": "https://x.com/optimusprim04/status/2096133833188110377",
-    "kind": "use-case",
-    "tags": [
-      "office365",
-      "outlook",
-      "interest"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: eager to try slashyemail if Office365 supported"
-  },
-  {
-    "id": "c98e24c5d3bc",
-    "agent": "slashy",
-    "quote": "are you team \n@slashyemail\n or team \n@Superhuman\n ?",
-    "author": "@Naseem9brev",
-    "author_name": "Avinash",
-    "date": "2026-09-04",
-    "url": "https://x.com/Naseem9brev/status/2095969485488586906",
-    "kind": "comparison",
-    "tags": [
-      "superhuman",
-      "team-choice"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: team Slashyemail vs Superhuman question"
-  },
-  {
-    "id": "23a8b9a0cb81",
-    "agent": "slashy",
-    "quote": "Best combo: \n@PhotonHQ\n x \n@slashyemail\n \n\nJoin us at the \n@ycombinator\n pre party on Monday, it\u2019s gonna be a hit \ud83d\udd25",
-    "author": "@PhotonHQ",
-    "author_name": "Photon",
-    "date": "2026-09-06",
-    "url": "https://x.com/PhotonHQ/status/2096411193040855108",
+    "date": "2026-09-01",
+    "url": "https://x.com/GaddipatiHarsha/status/2094665347362075001",
     "kind": "other",
     "tags": [
-      "yc",
-      "collab",
-      "party"
+      "imessage",
+      "slack",
+      "ea"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "partner: PhotonHQ x slashyemail YC pre-party"
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "proactive iMessage/Slack bot + automations"
   },
   {
-    "id": "6f4e477714cc",
+    "id": "96a5f4841d09",
     "agent": "slashy",
-    "quote": "Have you used Slashy mcp?\n\nCurious what you like about sipehrjmans",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-06",
-    "url": "https://x.com/GaddipatiHarsha/status/2096478119314198719",
+    "quote": "I\u2019ve been using an agentic email client as my daily driver for two weeks (slashy). \n\nAgentic email is incredible. Only signal gets through. 90% of my emails are never seen. It learns from my replies and autodrafts replies.\n\nthis is what notion mail should have been- it\u2019s a shame",
+    "author": "@arshamg_",
+    "author_name": "arsham",
+    "date": "2026-08-31",
+    "url": "https://x.com/arshamg_/status/2094213982861066703",
     "kind": "use-case",
     "tags": [
-      "mcp",
-      "founder"
+      "email",
+      "daily-driver",
+      "agentic"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "founder: asks if people have used Slashy MCP"
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "2 weeks daily driver; 90% email filtered"
   },
   {
     "id": "959ac11e44b0",
@@ -600,6 +536,73 @@
     "notes": "SlashFinancial writeup on Slashy email client"
   },
   {
+    "id": "05b310baa8da",
+    "agent": "slashy",
+    "quote": "Introducing \n@slashyemail\n imessage.\n\nThe first imessage assistant for email.\n\nWith Slashy\n-> Can voice memo a draft\n-> Have it send you a preview\n-> Open the preview in chat and manually edit/add formatting\n-> Use AI to polish it even more\n-> Send the email\n-> Get a text when",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-08-23",
+    "url": "https://x.com/GaddipatiHarsha/status/2091573523198378153",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "email"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: iMessage email assistant"
+  },
+  {
+    "id": "a8c319880c38",
+    "agent": "slashy",
+    "quote": "I'm now a \n@slashyemail\n ambassador!\n\nThey have built the best email client ever, and integrate AI in a non annoying way.\n\nCheck it out: \nhttp://\ndub.sh/slashy",
+    "author": "@leodev",
+    "author_name": "Leo - 15 y/o founder",
+    "date": "2026-08-21",
+    "url": "https://x.com/leodev/status/2090902247727055286",
+    "kind": "praise",
+    "tags": [
+      "email"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "ambassador: best email client"
+  },
+  {
+    "id": "1b4263c9df08",
+    "agent": "slashy",
+    "quote": "Every day I go onto \n@Slashy\n and get my important label down to 0, just to see the drawing :)\n\nSure I love Slashy for other reasons like being able to see all my inboxes in one place, being able to chat with AI inside my inbox, and having it track follow ups for me.\n\nBut I think",
+    "author": "@michwirantono",
+    "author_name": "Michelle Marcelline",
+    "date": "2026-08-18",
+    "url": "https://x.com/michwirantono/status/2089789472816894453",
+    "kind": "praise",
+    "tags": [
+      "inbox-zero",
+      "unified"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "daily important label to 0"
+  },
+  {
+    "id": "a115bc60d1c7",
+    "agent": "slashy",
+    "quote": "switched from superhuman to slashy and i don't think i'm going back\n\nslashy is everything i loved about superhuman but way more agentic. it actually handles things for me instead of just making it faster for me to handle things myself.\n\nsuperhuman is beautiful and fast but it",
+    "author": "@nickvasiles",
+    "author_name": "Nick Vasilescu",
+    "date": "2026-08-05",
+    "url": "https://x.com/nickvasiles/status/2084972686590005733",
+    "kind": "praise",
+    "tags": [
+      "superhuman",
+      "agentic"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "switched from Superhuman"
+  },
+  {
     "id": "34805d7a420b",
     "agent": "slashy",
     "quote": "Hey I just started my marketing agency about it 3 months ago and just discovered this sub (apologies if I\u2019m posting incorrectly here). I got my first few clients through networking and referrals, but now am actually trying to build a pipeline and shit\u2019s hitting the fan.\n\nRight now I\u2019m juggling maybe 5-6 clients and probably 15-20 prospects at diff stages. Not a ton prolly compared to a lot of you, but enough for me to be slipping. Last week I forgot to follow up with a warm lead and when I did they told me they had signed with a different agency already.\n\nSo I\u2019ve been looking at email tools to help me manage stuff better and narrowed it down to Superhuman and Slashy. Curious if anyone here has used either and has options.\n\nSuperhuman for me seems to be meant to have a fast email experience, along with being able to filter noise out of your inbox, but outside of that doesn\u2019t seem to be much better than Gmail. However, I\u2019ve seen online a lot of agency owners use it so I\u2019m sure it\u2019s much more useful than that. The auto reminders and ai drafting seem exciting as well.\n\nSlashy I saw on Twitter and it seems to be similar to Superhuman, but it also has a texting agent which for me feels b",
@@ -618,5 +621,22 @@
     "source": "web",
     "collected_at": "2026-09-06T21:06:36.340026+00:00",
     "notes": "third-party agency evaluating Slashy vs Superhuman"
+  },
+  {
+    "id": "1279f42869d2",
+    "agent": "slashy",
+    "quote": "one of the best products i use everyday to make my 80+ hour work weeks more manageable. \nhttp://\nslashy.ai",
+    "author": "@adavya_sharma",
+    "author_name": "Adavya Sharma",
+    "date": "2025-08-09",
+    "url": "https://x.com/adavya_sharma/status/1953999853882867978",
+    "kind": "praise",
+    "tags": [
+      "daily-driver",
+      "workweek"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: best everyday product for 80+ hour weeks"
   }
 ]

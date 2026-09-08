@@ -15,3 +15,10 @@ Site: https://www.town.com/
 - [comparison] @ebeezy_eth: Does Townie suck that much that you’d rather wait for Instinct? I haven’t tried it yet
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-08) @techbyved: Astra. Let's see what we can cook up. I have been onboarding my fam onto a self-built calendar bc they are too cooked to use Gcal lol, and w
+- (2026-09-08) @techbyved: @TownAI CEO mentioned this on the @HarryStebbings pod the other day, they are seeing a bunch of families onboard but tbh could be way better
+- (2026-09-08) @arukanism: familyOS sounds amazing. as per usual, the question is “who is building that?”

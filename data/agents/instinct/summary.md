@@ -22,3 +22,12 @@ Site: https://instinct.co/
 - [praise] @JerryCap: How is it possible that Instinct and  @noahrshinn  created the best AI agent on/in WhatsApp and not something internally. Where is Hatch? I cannot believe I'm t
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-08 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-09-08) @vedantshah2001: Instinct stores my passwords in a vault so it can log into my accounts for me. works great, but giving an ai standing access to your account
+- (2026-09-06) u/maxobes: Location sharing on Instinct  Starting today, you can share your location with Instinct on iMessage. Instinct can recognize when you arrive 
+- (2026-09-03) u/Sudden-Click-8409: I am new to Instinct this week. Have you guys been experiencing no responses? It will read my texts but just ghost me. Sometimes it will res
+- (2026-09-02) u/maxobes: Two days ago Instinct hit a 12-hour stretch where responses ran 3-5x slower due to new users flooding in faster than capacity.   Noah posted
+- (2026-09-04) u/zazuaza: It works well! It’s very accurate. It does take a few minutes transcribing

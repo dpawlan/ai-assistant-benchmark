@@ -2,6 +2,7 @@ import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getLatestFeed, 
 import { BenchmarkStrip } from '@/components/BenchmarkStrip';
 import { LatestFeed } from '@/components/LatestFeed';
 import { Matrix } from '@/components/Matrix';
+import { Suspense } from 'react';
 
 export default function HomePage() {
   const index = getIndexData();
@@ -22,7 +23,9 @@ export default function HomePage() {
       <BenchmarkStrip updated={index.updated} />
 
       <section className="shelf matrix-shelf">
-        <Matrix agents={rankAgents(agents)} categories={categories} short={CATEGORY_SHORT} />
+        <Suspense fallback={null}>
+          <Matrix agents={rankAgents(agents)} categories={categories} short={CATEGORY_SHORT} />
+        </Suspense>
       </section>
 
       <section className="shelf">

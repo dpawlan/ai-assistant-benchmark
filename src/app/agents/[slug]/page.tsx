@@ -20,6 +20,7 @@ import { ScoreRows } from '@/components/ScoreRows';
 import { ScoreCell } from '@/components/ScoreCell';
 import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
+import { KIND_LABEL, KINDS } from '@/lib/kinds';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -57,7 +58,9 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const categories = getCategories();
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
-  const isStretch = agent.status === 'stretch';
+  const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
+  const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
+  const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const productClass = productClassLabel(agent.meta?.product_class);
   const signal = agent.publicSignal && agent.publicSignal !== 'unknown' ? SIGNAL_LABEL[agent.publicSignal] : null;
@@ -90,8 +93,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
               </a>
             )}
             <div className="ag-chips">
-              <span className={`chip${isStretch ? '' : ' blue'}`}>{isStretch ? 'Stretch' : 'Confirmed'}</span>
-              {agent.focus && <span className="chip">{agent.focus[0].toUpperCase() + agent.focus.slice(1)} only</span>}
+              <Link href={kindHref} className="chip blue">{kindLabel}</Link>
               {productClass && <span className="chip">{productClass}</span>}
               {signal && <span className="chip">{signal}</span>}
             </div>
@@ -180,8 +182,8 @@ export default async function AgentPage({ params }: AgentPageProps) {
           <h2 className="ag-h2">Information</h2>
           <div className="info-list" style={{ marginTop: 8 }}>
             <div className="info-row">
-              <span className="il">Status</span>
-              <span className="iv">{isStretch ? 'Stretch' : 'Confirmed'}</span>
+              <span className="il">Group</span>
+              <span className="iv">{kindLabel}</span>
             </div>
             {productClass && (
               <div className="info-row">
@@ -231,14 +233,14 @@ export default async function AgentPage({ params }: AgentPageProps) {
       {related.length > 0 && (
         <section className="shelf">
           <h2 className="shelf-title">
-            <Link href={isStretch ? '/stretch' : '/confirmed'} className="shelf-head">
+            <Link href={kindHref} className="shelf-head">
               Keep exploring
               <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M8 5l5 5-5 5" />
               </svg>
             </Link>
           </h2>
-          <p className="shelf-sub">More {isStretch ? 'stretch products' : 'confirmed assistants'}</p>
+          <p className="shelf-sub">More {kindPlural}</p>
           <div className="shelf-grid">
             {related.map(a => (
               <AgentRow key={a.slug} agent={a} />

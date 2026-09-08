@@ -15,5 +15,6 @@
   ],
   "public_signal": "low",
   "tagline": "Talk or type; it gets things done",
-  "icon": "/logos/pneum.png"
+  "icon": "/logos/pneum.png",
+  "kind": "infra"
 }

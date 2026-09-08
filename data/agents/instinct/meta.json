@@ -8,5 +8,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "A personal assistant that takes action across your apps",
-  "icon": "/logos/instinct.png"
+  "icon": "/logos/instinct.png",
+  "kind": "general"
 }

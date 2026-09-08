@@ -1,8 +1,10 @@
 'use client';
 
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useMemo, useState } from 'react';
 import { Agent, Category } from '@/lib/types';
+import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
@@ -29,7 +31,7 @@ function benchValue(agent: Agent, key: SortKey): number {
 function opinionValue(agent: Agent, key: SortKey): number {
   if (key === 'endorsed') return agent.opinionOverall.n;
   if (key === 'speed') return benchValue(agent, key);
-  return key === 'core' ? opinionRank(agent.opinionOverall, agent.focus !== null) : opinionRank(agent.opinion[key]);
+  return opinionRank(key === 'core' ? agent.opinionOverall : agent.opinion[key]);
 }
 
 function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
@@ -45,19 +47,29 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
 }
 
 export function Matrix({ agents, categories, short }: MatrixProps) {
+  const router = useRouter();
+  const params = useSearchParams();
+  const kindParam = params.get('kind');
+  const kind: string = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('core');
   const core = categories.filter(c => c.group === 'core');
   const endorsed = categories.filter(c => c.group === 'endorsed');
   const opinion = view === 'opinion';
 
-  const groups = useMemo(
-    () => [
-      { title: 'Confirmed', rows: sortAgents(agents.filter(a => a.status === 'confirmed'), sort, view) },
-      { title: 'Stretch', rows: sortAgents(agents.filter(a => a.status === 'stretch'), sort, view) },
-    ],
-    [agents, sort, view],
-  );
+  const setKind = (k: string) => router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+
+  const counts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const a of agents) c[a.kind] = (c[a.kind] ?? 0) + 1;
+    return c;
+  }, [agents]);
+
+  // One group when a kind is selected; every kind in display order when showing all.
+  const groups = useMemo(() => {
+    const kinds = kind === 'all' ? KINDS.map(k => k.key).filter(k => counts[k]) : [kind];
+    return kinds.map(k => ({ key: k, title: KIND_LABEL[k] ?? k, rows: sortAgents(agents.filter(a => a.kind === k), sort, view) }));
+  }, [agents, sort, view, kind, counts]);
 
 
   const header = (key: SortKey, label: string, cls: string, full = label) => {
@@ -80,6 +92,19 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
 
   return (
     <div>
+      <div className="kind-bar" role="tablist" aria-label="Peer group">
+        {KINDS.filter(k => counts[k.key]).map(k => (
+          <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
+            {k.label}
+            <span className="kind-n">{counts[k.key]}</span>
+          </button>
+        ))}
+        <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
+          All
+          <span className="kind-n">{agents.length}</span>
+        </button>
+      </div>
+
       <div className="mx-bar">
         <div className="seg" role="tablist" aria-label="Scorecard view">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setView('benchmark')}>
@@ -121,13 +146,15 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             </tr>
           </thead>
           {groups.map(group => (
-            <tbody key={group.title}>
-              <tr className="mx-group">
-                <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 4)}>
-                  {group.title}
-                  <span className="mx-count">{group.rows.length}</span>
-                </th>
-              </tr>
+            <tbody key={group.key}>
+              {kind === 'all' && (
+                <tr className="mx-group">
+                  <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 4)}>
+                    {group.title}
+                    <span className="mx-count">{group.rows.length}</span>
+                  </th>
+                </tr>
+              )}
               {group.rows.map(agent => (
                 <tr key={agent.slug}>
                   <th scope="row" className="mx-name">
@@ -137,7 +164,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                     </Link>
                   </th>
                   <td className="mx-agg">
-                    {opinion ? <OpinionCell stat={agent.opinionOverall} focus={agent.focus} /> : <ScoreCell value={agent.core} aggregate />}
+                    {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.core} aggregate />}
                   </td>
                   {!opinion && (
                     <td className={`mx-agg mx-speed${sort === 'speed' ? ' sorted' : ''}`}>
@@ -182,12 +209,6 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <span className="op-v">20%</span>
           </span>{' '}
           negative
-          <span className="key-gap" />
-          <span className="sc op sc-5">
-            <span className="op-v">100%</span>
-            <span className="op-n">travel</span>
-          </span>{' '}
-          single-purpose, ranked after general assistants
           <span className="key-gap" />
           <span className="sc op sc-5 thin">
             <span className="op-v">100%</span>

@@ -20,5 +20,6 @@
   ],
   "public_signal": "low",
   "tagline": "An AI employee for your team, with its own email and workspace",
-  "icon": "/logos/ako.png"
+  "icon": "/logos/ako.png",
+  "kind": "work"
 }

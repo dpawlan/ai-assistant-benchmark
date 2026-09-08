@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Category } from '@/lib/types';
+import { KINDS } from '@/lib/kinds';
 import { SidebarNav } from './SidebarNav';
 
 interface SidebarProps {
@@ -25,11 +26,12 @@ export function Sidebar({ categories }: SidebarProps) {
         <SidebarNav
           items={[
             { href: '/', label: 'Scorecard' },
-            { href: '/confirmed', label: 'Confirmed' },
-            { href: '/stretch', label: 'Stretch' },
             { href: '/categories', label: 'Categories' },
           ]}
         />
+
+        <div className="side-label">Assistants</div>
+        <SidebarNav items={KINDS.map(k => ({ href: k.key === 'general' ? '/' : `/?kind=${k.key}`, label: k.label }))} />
 
         <div className="side-label">Core</div>
         <SidebarNav items={core.map(c => ({ href: `/categories/${c.key}`, label: c.label }))} />

@@ -9,5 +9,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "Your personal AI in Messages",
-  "icon": "/logos/caddy.png"
+  "icon": "/logos/caddy.png",
+  "kind": "general"
 }

@@ -10,5 +10,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
-  "icon": null
+  "icon": null,
+  "kind": "general"
 }

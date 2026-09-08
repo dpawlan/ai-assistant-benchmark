@@ -17,5 +17,6 @@
   ],
   "public_signal": "medium",
   "tagline": "Cloud agents you talk to in Slack, email or iMessage",
-  "icon": "/logos/skydive.png"
+  "icon": "/logos/skydive.png",
+  "kind": "work"
 }

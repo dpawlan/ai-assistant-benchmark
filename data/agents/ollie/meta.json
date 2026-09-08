@@ -8,5 +8,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "Privacy-first assistant for email, calendar and reminders",
-  "icon": "/logos/ollie.png"
+  "icon": "/logos/ollie.png",
+  "kind": "general"
 }

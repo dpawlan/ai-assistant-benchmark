@@ -19,5 +19,6 @@
     "personality"
   ],
   "tagline": "Automate your life, right from your iPhone",
-  "icon": "/logos/halo.png"
+  "icon": "/logos/halo.png",
+  "kind": "infra"
 }

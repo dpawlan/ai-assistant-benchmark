@@ -9,5 +9,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "An assistant that knows you deeply and belongs to no one else",
-  "icon": "/logos/vellum.png"
+  "icon": "/logos/vellum.png",
+  "kind": "general"
 }

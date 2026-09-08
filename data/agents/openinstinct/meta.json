@@ -8,5 +8,6 @@
   "status": "confirmed",
   "notes": "",
   "tagline": "Open-source assistant that lives in your iMessage thread",
-  "icon": "/logos/openinstinct.png"
+  "icon": "/logos/openinstinct.png",
+  "kind": "general"
 }

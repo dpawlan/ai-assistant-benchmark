@@ -10,5 +10,6 @@
   "notes": "Text-based errand assistant (coffee, tickets, rides, pickups). Suggested in review thread by @SaranBluri.",
   "public_signal": "low",
   "tagline": "Text it, we run it: coffee, food, tickets and errands",
-  "icon": "/logos/asaply.png"
+  "icon": "/logos/asaply.png",
+  "kind": "general"
 }

@@ -10,5 +10,6 @@
   "notes": "Low public X signal after multiple scrape passes; keep in test roster.",
   "public_signal": "low",
   "tagline": "An AI you can text, one-on-one or in group chats",
-  "icon": "/logos/boba.png"
+  "icon": "/logos/boba.png",
+  "kind": "general"
 }

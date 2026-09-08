@@ -20,20 +20,17 @@ export function isThin(stat: OpinionStat | undefined): boolean {
 
 /**
  * Ordering key for opinion cells: the Wilson lower bound (95%) of the positive share, so a 100% from six
- * quotes ranks below an 83% from eighty. Single-purpose products rank after general assistants (a travel
- * agent's 100% is 100% on one job); thin samples after those; unscored cells by sample size; empty last.
+ * quotes ranks below an 83% from eighty. Thin samples rank after every solid one; unscored cells after
+ * those, by sample size; empty cells last.
  */
-export function opinionRank(stat: OpinionStat | undefined, specialist = false): number {
+export function opinionRank(stat: OpinionStat | undefined): number {
   if (!stat || stat.n === 0) return -3;
   if (stat.score === null) return -2 + stat.n / 1000;
   const n = stat.pos + stat.neg;
   const p = stat.pos / n;
   const z = 1.96;
   const lb = (p + (z * z) / (2 * n) - z * Math.sqrt((p * (1 - p) + (z * z) / (4 * n)) / n)) / (1 + (z * z) / n);
-  // Tiers: general assistants, then single-purpose products, then thin samples.
-  if (isThin(stat)) return -1.5 + lb;
-  if (specialist) return -0.5 + lb;
-  return lb;
+  return isThin(stat) ? -1 + lb : lb;
 }
 
 /** Reply-time bucket on the same 1–5 ramp: under 15s is best, over 5 minutes is worst. */

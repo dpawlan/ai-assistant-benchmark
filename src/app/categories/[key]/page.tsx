@@ -56,7 +56,7 @@ export default async function CategoryPage({ params }: Props) {
 
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
-          {category.group === 'core' ? 'Core' : 'Endorsed'} · {n} of {categories.length}
+          Category {n} of {categories.length}
         </p>
         <h1 className="page-title">{category.label}</h1>
         <p className="page-sub">{CATEGORY_DESCRIPTIONS[key]}</p>

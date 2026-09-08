@@ -12,8 +12,6 @@ export default function CategoriesPage() {
   const categories = getCategories();
   const tasks = getTaskSet();
   const agents = getAgents();
-  const core = categories.filter(c => c.group === 'core');
-  const endorsed = categories.filter(c => c.group === 'endorsed');
 
   return (
     <div className="wrap">
@@ -24,22 +22,11 @@ export default function CategoriesPage() {
 
       <section className="shelf">
         <h2 className="shelf-title">
-          <span className="shelf-head">Core</span>
+          <span className="shelf-head">{categories.length} categories</span>
         </h2>
         <div className="cat-list">
-          {core.map((c, i) => (
+          {categories.map((c, i) => (
             <CategoryRow key={c.key} category={c} n={i + 1} task={tasks.tasks.find(t => t.key === c.key)?.task} agents={agents} />
-          ))}
-        </div>
-      </section>
-
-      <section className="shelf">
-        <h2 className="shelf-title">
-          <span className="shelf-head">Endorsed</span>
-        </h2>
-        <div className="cat-list">
-          {endorsed.map((c, i) => (
-            <CategoryRow key={c.key} category={c} n={core.length + i + 1} task={tasks.tasks.find(t => t.key === c.key)?.task} agents={agents} />
           ))}
         </div>
       </section>

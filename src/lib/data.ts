@@ -145,6 +145,23 @@ export function isFounderPost(quote: Feedback): boolean {
   return (quote.tags ?? []).includes('founder');
 }
 
+/**
+ * A quote is worth showing only if it says something: praise, a complaint, a use case, a mixed take.
+ * Bare mentions, link-drops and relayed marketing copy are classified all-neutral and stay out of the page
+ * (they remain in feedback.json as collected data). Unclassified quotes are shown until someone labels them.
+ */
+export function hasJudgment(slug: string, quote: Feedback): boolean {
+  const cats = getOpinion(slug)?.quotes[quote.id];
+  if (!cats) return true;
+  return Object.values(cats).some(s => s !== 'neutral');
+}
+
+/** Quotes that render on the site for one agent: founder posts stay (labelled), neutral-only rows are hidden. */
+export function getShownFeedback(slug: string): Feedback[] {
+  const feedback = readJson<Feedback[]>(path.join(agentDir(slug), 'feedback.json')) ?? [];
+  return feedback.filter(q => hasJudgment(slug, q));
+}
+
 function emptyStat(): OpinionStat {
   return { pos: 0, neg: 0, neutral: 0, n: 0, score: null };
 }
@@ -263,7 +280,7 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     name: entry.name,
     site: entry.site || null,
     status: entry.status,
-    feedbackCount: entry.feedback_count,
+    feedbackCount: getShownFeedback(entry.slug).length,
     publicSignal: entry.public_signal,
     tagline: entry.tagline ?? '',
     icon: entry.icon ?? null,
@@ -341,7 +358,7 @@ export function getAgentDetail(slug: string): Agent | null {
 
   const dir = agentDir(slug);
   const meta = readJson<AgentMeta>(path.join(dir, 'meta.json')) ?? undefined;
-  const feedback = readJson<Feedback[]>(path.join(dir, 'feedback.json')) ?? undefined;
+  const feedback = getShownFeedback(slug);
   const summary = readText(path.join(dir, 'summary.md'));
 
   return { ...fromRoster(entry, getCategories()), meta, feedback, summary };
@@ -415,7 +432,7 @@ export function getAllQuotes(): AttributedQuote[] {
     const feedback = readJson<Feedback[]>(path.join(agentDir(entry.slug), 'feedback.json')) ?? [];
     const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
     for (const quote of feedback) {
-      if (isFounderPost(quote)) continue;
+      if (isFounderPost(quote) || !hasJudgment(entry.slug, quote)) continue;
       out.push({ agent, quote, categories: quoteCategories(entry.slug, quote, map) });
     }
   }

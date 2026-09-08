@@ -60,7 +60,7 @@ export default async function EvidencePage({ params }: Props) {
 
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
-          {ev.protocol === 'task' ? 'Published test' : 'Observed in use'} · <Link href={`/categories/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
+          {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/categories/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />
@@ -131,9 +131,9 @@ export default async function EvidencePage({ params }: Props) {
       )}
 
       <p className="ev-note">
-        {ev.excerpt
-          ? `This is the reviewer's real iMessage thread with ${agent.name}, trimmed to this one test. Emails, phone numbers, addresses, card and confirmation numbers, links and personal names were replaced with bracketed markers before publishing. Times are UTC.`
-          : `The reviewer's own iMessage thread with ${agent.name} is the source for this run. The message text stays private; what's published is the category, the date, the score, and the timings measured from the thread.`}
+        {excerpt
+          ? `The reviewer's own thread with ${agent.name}, trimmed to this test. Personal details are masked. Times are UTC.`
+          : `From the reviewer's own thread with ${agent.name}. Message text stays private; only the category, date, score and timings are published.`}
       </p>
     </div>
   );

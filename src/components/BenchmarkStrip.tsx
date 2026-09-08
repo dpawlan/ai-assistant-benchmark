@@ -19,12 +19,6 @@ export function BenchmarkStrip({ updated }: { updated: string }) {
       </span>
       <span className="bench-sep" aria-hidden="true" />
       <span>{s.lastTested ? `last test ${formatDate(s.lastTested, 'short')}` : `data updated ${formatDate(updated, 'short')}`}</span>
-      {s.classifiedCount > 0 && (
-        <>
-          <span className="bench-sep" aria-hidden="true" />
-          <span>{s.classifiedCount} of {s.quoteCount} public quotes read for opinion</span>
-        </>
-      )}
     </div>
   );
 }

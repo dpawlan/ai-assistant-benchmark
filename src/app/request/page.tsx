@@ -15,7 +15,7 @@ export default function RequestPage() {
       <div className="page-head">
         <h1 className="page-title">Request a test</h1>
         <p className="page-sub">
-          Know an assistant that belongs here, or built one that&apos;s listed? Tell us what to test, or what to fix.
+          Suggest an assistant, or send a correction.
         </p>
       </div>
 

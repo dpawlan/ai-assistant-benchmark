@@ -40,7 +40,7 @@ export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreR
                       <span className="run-line">
                         {run && (
                           <>
-                            {OUTCOME[run.outcome] ?? run.outcome} · {run.protocol === 'task' ? 'published test' : 'observed in use'} · {formatDate(run.date, 'short')}
+                            {OUTCOME[run.outcome] ?? run.outcome} · {run.protocol === 'task' ? 'test' : 'observed'} · {formatDate(run.date, 'short')}
                             {run.notes ? ` · ${run.notes}` : ''}
                             {run.evidence_url && (
                               <>

@@ -66,7 +66,6 @@ export default async function CategoryPage({ params }: Props) {
         <section className="task-card">
           <div className="task-head">
             <h2 className="ag-h2">The test: {task.task}</h2>
-            <p className="ag-sub">Same wording for every assistant. Scored 1–10 against the anchors below.</p>
           </div>
           <blockquote className="task-prompt">{task.prompt}</blockquote>
           <div className="task-cols">
@@ -98,9 +97,7 @@ export default async function CategoryPage({ params }: Props) {
           <span className="shelf-head">Ranking</span>
         </h2>
         <p className="shelf-sub">
-          {scored.length === 0
-            ? 'No assistant has been tested on this yet. Rankings appear as runs are logged.'
-            : `${scored.length} tested. Ties keep the more-discussed assistant first.`}
+          {scored.length === 0 ? 'No runs yet.' : `${scored.length} tested.`}
         </p>
         {scored.length > 0 && (
           <div className="chart-list rank-list">
@@ -113,7 +110,7 @@ export default async function CategoryPage({ params }: Props) {
                   <span className="row-body">
                     <span className="row-name">{agent.name}</span>
                     <span className="row-tag">
-                      {run ? `${run.outcome === 'pass' ? 'Pass' : run.outcome === 'partial' ? 'Partial' : 'Fail'} · ${run.protocol === 'task' ? 'published test' : 'observed in use'} · ${formatDate(run.date, 'short')}${run.notes ? ` · ${run.notes}` : ''}` : agent.tagline}
+                      {run ? `${run.outcome === 'pass' ? 'Pass' : run.outcome === 'partial' ? 'Partial' : 'Fail'} · ${run.protocol === 'task' ? 'test' : 'observed'} · ${formatDate(run.date, 'short')}${run.notes ? ` · ${run.notes}` : ''}` : agent.tagline}
                     </span>
                   </span>
                   <span className="row-slot">
@@ -132,7 +129,7 @@ export default async function CategoryPage({ params }: Props) {
             <span className="shelf-head">Public opinion</span>
           </h2>
           <p className="shelf-sub">
-            Share of public quotes about this that are positive, per assistant. Founder posts excluded; a score needs at least 3 signed quotes.
+            Share of positive public quotes. Founder posts excluded.
           </p>
           <div className="chart-list rank-list">
             {opinion.map((agent, i) => {
@@ -162,7 +159,6 @@ export default async function CategoryPage({ params }: Props) {
           <h2 className="shelf-title">
             <span className="shelf-head">Not yet tested</span>
           </h2>
-          <p className="shelf-sub">{untested.length} assistants waiting on this run.</p>
           <div className="name-cloud">
             {untested.map(a => (
               <Link key={a.slug} href={`/agents/${a.slug}`} className="name-chip">
@@ -179,7 +175,7 @@ export default async function CategoryPage({ params }: Props) {
           <h2 className="shelf-title">
             <span className="shelf-head">Doesn&apos;t apply</span>
           </h2>
-          <p className="shelf-sub">Stretch products where this category is out of scope. They score N/A rather than zero.</p>
+          <p className="shelf-sub">Out of scope for these products.</p>
           <div className="name-cloud">
             {na.map(a => (
               <Link key={a.slug} href={`/agents/${a.slug}`} className="name-chip muted">
@@ -197,7 +193,7 @@ export default async function CategoryPage({ params }: Props) {
             <span className="shelf-head">What people say</span>
           </h2>
           <p className="shelf-sub">
-            {said.total} public {said.total === 1 ? 'quote' : 'quotes'} about this, across every assistant. Sentiment, not score.
+            {said.total} {said.total === 1 ? 'quote' : 'quotes'} about this.
           </p>
           <div className="quote-list">
             {said.items.map(q => (

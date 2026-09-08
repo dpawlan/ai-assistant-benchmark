@@ -59,15 +59,12 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
     [agents, sort, view],
   );
 
-  const testedIn = (key: string) => agents.filter(a => typeof a.scores[key] === 'number').length;
-  const talkedAbout = (key: string) => agents.reduce((n, a) => n + (a.opinion[key]?.n ?? 0), 0);
-  const anyOpinion = agents.some(a => a.opinionOverall.n > 0);
 
-  const header = (key: SortKey, label: string, sub: string | undefined, cls: string, full = label) => {
+  const header = (key: SortKey, label: string, cls: string, full = label) => {
     const active = sort === key;
     return (
       <th key={key} scope="col" className={`${cls}${active ? ' sorted' : ''}`.trim()} aria-sort={active ? 'descending' : 'none'}>
-        <button type="button" onClick={() => setSort(key)} title={`Sort by ${full}`}>
+        <button type="button" onClick={() => setSort(key)} title={full}>
           <span className="mx-label">
             {label}
             {active && (
@@ -76,16 +73,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               </svg>
             )}
           </span>
-          {sub !== undefined && <span className="mx-sub">{sub}</span>}
         </button>
       </th>
     );
-  };
-
-  const catSub = (key: string) => {
-    if (!opinion) return `${testedIn(key)} tested`;
-    const n = talkedAbout(key);
-    return `${n} ${n === 1 ? 'quote' : 'quotes'}`;
   };
 
   return (
@@ -100,9 +90,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           </button>
         </div>
         <p className="mx-caption">
-          {opinion
-            ? 'Share of public quotes that are positive, per category, read one by one. Founder posts excluded. Not a test result.'
-            : 'One published test per category, scored 1–10 after real use. Nothing here comes from social posts.'}
+          {opinion ? 'Share of positive public quotes. Founder posts excluded.' : 'Scored 1–10 after real use.'}
         </p>
       </div>
 
@@ -125,15 +113,11 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               <th scope="col" className="mx-name">
                 <span className="mx-label">Assistant</span>
               </th>
-              {opinion
-                ? header('core', 'Overall', 'positive', 'mx-agg', 'overall sentiment')
-                : header('core', 'Core', 'mean', 'mx-agg', 'core mean')}
-              {!opinion && header('speed', 'Speed', `${agents.filter(a => a.usage?.median_reply_s != null).length} measured`, 'mx-agg mx-speed', 'median reply time')}
-              {core.map(c => header(c.key, short[c.key] ?? c.label, catSub(c.key), '', c.label))}
-              {opinion
-                ? header('endorsed', 'Quotes', 'read', 'mx-agg mx-div', 'number of quotes')
-                : header('endorsed', 'Endorsed', 'mean', 'mx-agg mx-div', 'endorsed mean')}
-              {endorsed.map(c => header(c.key, short[c.key] ?? c.label, catSub(c.key), '', c.label))}
+              {opinion ? header('core', 'Overall', 'mx-agg', 'overall sentiment') : header('core', 'Core', 'mx-agg', 'core mean')}
+              {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time')}
+              {core.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
+              {opinion ? header('endorsed', 'Quotes', 'mx-agg mx-div', 'quotes read') : header('endorsed', 'Endorsed', 'mx-agg mx-div', 'endorsed mean')}
+              {endorsed.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
             </tr>
           </thead>
           {groups.map(group => (
@@ -190,7 +174,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <span className="op-v">90%</span>
             <span className="op-n">12</span>
           </span>{' '}
-          positive, from 12 quotes
+          positive
           <span className="key-gap" />
           <span className="sc op sc-0">
             <span className="op-v">50%</span>
@@ -202,33 +186,25 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <span className="op-v">20%</span>
             <span className="op-n">5</span>
           </span>{' '}
-          mostly negative
+          negative
           <span className="key-gap" />
           <span className="sc op sc-thin">
             <span className="op-v">2</span>
             <span className="op-n">quotes</span>
           </span>{' '}
-          too few to score
+          too few
           <span className="key-gap" />
-          <span className="sc sc-null">—</span> nothing said
-          <span className="key-gap" />
-          Sorted with a small-sample adjustment, so three quotes don&apos;t outrank thirty.
-          {!anyOpinion && (
-            <>
-              <span className="key-gap" />
-              No quotes classified yet.
-            </>
-          )}
+          <span className="sc sc-null">—</span> none
         </p>
       ) : (
         <p className="matrix-key">
-          <span className="sc sc-5">9</span> <span className="sc sc-3">6</span> <span className="sc sc-1">2</span> scored 1–10
+          <span className="sc sc-5">9</span> <span className="sc sc-3">6</span> <span className="sc sc-1">2</span> score
           <span className="key-gap" />
-          <span className="sc sc-null">—</span> not tested yet
+          <span className="sc sc-5">11s</span> median reply
+          <span className="key-gap" />
+          <span className="sc sc-null">—</span> not tested
           <span className="key-gap" />
           <span className="sc sc-na">N/A</span> doesn&apos;t apply
-          <span className="key-gap" />
-          <span className="sc sc-5">11s</span> speed: median reply in the reviewer&apos;s own thread, measured not judged
           <span className="key-gap" />
           <Link href="/categories#how">How scoring works</Link>
         </p>

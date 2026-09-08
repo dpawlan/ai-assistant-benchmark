@@ -1,98 +1,90 @@
 [
   {
-    "id": "31957662cb15",
+    "id": "2d0fe11e2485",
     "agent": "miso",
-    "quote": "@bookwithmiso\n is my favorite consumer platform of the year, have probably booked $50k+ in travel with it on the beta\n\nimessage-native, context aware and vertical-specific apps are the future \u2708\ufe0f",
-    "author": "@J__Cub",
-    "author_name": "jacob peters",
-    "date": "2026-09-01",
-    "url": "https://x.com/J__Cub/status/2094616494521135423",
+    "quote": "love to try.. appears to not be available in UK",
+    "author": "@paulbz",
+    "author_name": "Paul Murphy",
+    "date": "2026-09-07",
+    "url": "https://x.com/paulbz/status/2097002328750498139",
+    "kind": "complaint",
+    "tags": [
+      "availability",
+      "UK",
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T14:14:17Z",
+    "notes": "Interested prospective user reports Miso appears unavailable in the UK."
+  },
+  {
+    "id": "0ea743722f04",
+    "agent": "miso",
+    "quote": "@paulbz\n you should try \n@bookwithmiso\n. Humans + ai to book travel",
+    "author": "@martinmartinmro",
+    "author_name": "Martin Mrozowski",
+    "date": "2026-09-07",
+    "url": "https://x.com/martinmartinmro/status/2096933535089123572",
     "kind": "praise",
     "tags": [
-      "imessage",
       "travel",
-      "beta",
-      "spend"
+      "booking",
+      "recommendation"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: favorite consumer platform; $50k+ travel booked on beta"
+    "collected_at": "2026-09-07T14:19:24.062649+00:00",
+    "notes": "Clear @bookwithmiso travel AI rec."
   },
   {
-    "id": "c7b4ec7befe0",
+    "id": "10a9d0019dc7",
     "agent": "miso",
-    "quote": "Another \u201cno affiliation, not an investor, just a user/fan, and you should try it\u201d post. \n\nIn just 5 months since first trying it, Miso has booked me on 37 flights across 10 airlines, 35 airports, 4 continents while handling 12 changes/cancellations, monitoring 13 delays, and",
-    "author": "@chest",
-    "author_name": "Chester Ng \ud83c\udd96",
-    "date": "2026-09-01",
-    "url": "https://x.com/chest/status/2094903284788310237",
+    "quote": "Missing \n@bookwithmiso",
+    "author": "@NigelEgrari",
+    "author_name": "Nigel Egrari",
+    "date": "2026-09-06",
+    "url": "https://x.com/NigelEgrari/status/2096610790572970340",
     "kind": "praise",
     "tags": [
-      "flights",
-      "changes",
-      "delays",
-      "power-user"
+      "missing"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: 5mo user \u2014 37 flights, 12 changes, 13 delays monitored"
+    "notes": "third-party: Missing @bookwithmiso"
   },
   {
-    "id": "9a36db64dc17",
+    "id": "fb495fe40cbc",
     "agent": "miso",
-    "quote": "$6,500 for a business class seat from Barcelona to LA\n\nAt 6'2, 11 hours in economy is a nightmare. I refuse to pay that, and couldn't find a flight with miles.\n\nBut I knew there was a better way.\n\nMy friend \n@martinmartinmro\n gave me early access to \nhttp://\nMiso.com I sent",
-    "author": "@JamesonCamp",
-    "author_name": "James Camp \ud83d\udee0,\ud83d\udee0",
-    "date": "2026-08-21",
-    "url": "https://x.com/JamesonCamp/status/2090826918811906209",
-    "kind": "use-case",
+    "quote": "Yessir \ud83e\udee1",
+    "author": "@DavidPawlan",
+    "author_name": "David Pawlan",
+    "date": "2026-09-06",
+    "url": "https://x.com/DavidPawlan/status/2096648272127336637",
+    "kind": "other",
     "tags": [
-      "biz-class",
-      "miles",
-      "barcelona",
-      "la"
+      "roster",
+      "yes"
     ],
-    "source": "x",
+    "source": "david-post",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: used Miso early access vs $6500 biz seat BCN-LA"
+    "notes": "david-post: Yessir on Miso mention"
   },
   {
-    "id": "d0a20bce70ef",
+    "id": "400442924b56",
     "agent": "miso",
-    "quote": "Martin is the man, go try out \nhttp://\nmiso.com (incredible brand domain btw)!\nBeen a power user for a while time now. \nIt\u2019s like having a full time dedicated VA for all your trips. \nThey\u2019ll handle anything stressful that comes up 24/7. \nPlus they will get you sick deals on",
-    "author": "@mykomarci",
-    "author_name": "Myko",
-    "date": "2026-08-21",
-    "url": "https://x.com/mykomarci/status/2090937532511051969",
-    "kind": "praise",
+    "quote": "brah \n@martinmartinmro\n y'all cooked with the branding and lander of Miso can't wait to start using it \ud83e\udee1\n\nhttps://\nmiso.com",
+    "author": "@rabahrahil",
+    "author_name": "Rabah Rahil",
+    "date": "2026-09-02",
+    "url": "https://x.com/rabahrahil/status/2094940733958500646",
+    "kind": "other",
     "tags": [
-      "va",
-      "24-7",
-      "power-user",
-      "deals"
+      "branding",
+      "lander",
+      "waitlist"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: power user; like full-time travel VA 24/7"
-  },
-  {
-    "id": "ff0da162630d",
-    "agent": "miso",
-    "quote": "miso booked me and my gf NYC to Europe for 60k points + $400 lay flat biz class! \n\nno more hunting for deals. i litteraly imessage my own ai concierge. unreal \ud83e\udd2f",
-    "author": "@oliverbrocato",
-    "author_name": "oliverb",
-    "date": "2026-08-31",
-    "url": "https://x.com/oliverbrocato/status/2094543230943539651",
-    "kind": "use-case",
-    "tags": [
-      "points",
-      "biz-class",
-      "imessage",
-      "europe"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: NYC-Europe 60k points + $400 lay-flat via iMessage"
+    "notes": "third-party: cooked branding/lander; cannot wait to start"
   },
   {
     "id": "a9668fa1d4d7",
@@ -113,54 +105,21 @@
     "notes": "third-party/investor: using a year; backing; recommend"
   },
   {
-    "id": "a273394f7df7",
+    "id": "585ffaf15f4a",
     "agent": "miso",
-    "quote": "I\u2019ve been using \nhttp://\nmiso.com for months - it\u2019s amazing and I can\u2019t imagine not having it",
-    "author": "@SpamRoss",
-    "author_name": "Sam Ross",
-    "date": "2026-05-02",
-    "url": "https://x.com/SpamRoss/status/2050373511362019538",
-    "kind": "praise",
+    "quote": "Yep! Also 222 and Miso are using the official Apple Messages for Business platform, which also has a lot more features than iMessage",
+    "author": "@jjessup",
+    "author_name": "Jon Jessup - \u2601\ufe0f CEO",
+    "date": "2026-09-02",
+    "url": "https://x.com/jjessup/status/2095210591497662870",
+    "kind": "other",
     "tags": [
-      "months",
-      "habit"
+      "apple-messages-for-business",
+      "222"
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: using months; cannot imagine not having it"
-  },
-  {
-    "id": "8c3ee14d1271",
-    "agent": "miso",
-    "quote": "Just started using \n@bookwithmiso\n , and it\u2019s incredible!\n\niMessage texting to plan travel is sweet.\n\nGreat job \n@martinmartinmro",
-    "author": "@emmanuelgkamau",
-    "author_name": "Emmanuel Kamau \u2694\ufe0f",
-    "date": "2026-06-16",
-    "url": "https://x.com/emmanuelgkamau/status/2066906190232055831",
-    "kind": "praise",
-    "tags": [
-      "imessage",
-      "travel-planning"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: just started; iMessage travel planning sweet"
-  },
-  {
-    "id": "3ca467ab4bae",
-    "agent": "miso",
-    "quote": "I use \nhttp://\nmiso.com and love it. Gets it right every time",
-    "author": "@YacineSibous",
-    "author_name": "Yacine",
-    "date": "2026-02-26",
-    "url": "https://x.com/YacineSibous/status/2027116141517361241",
-    "kind": "praise",
-    "tags": [
-      "accuracy"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: use and love; gets it right every time"
+    "notes": "third-party: Miso uses Apple Messages for Business (more features than iMessage)"
   },
   {
     "id": "bef51c35067d",
@@ -182,56 +141,6 @@
     "notes": "third-party: agentic booking table stakes; asks Miso differentiator vs Soar/Instinct/etc"
   },
   {
-    "id": "10a9d0019dc7",
-    "agent": "miso",
-    "quote": "Missing \n@bookwithmiso",
-    "author": "@NigelEgrari",
-    "author_name": "Nigel Egrari",
-    "date": "2026-09-06",
-    "url": "https://x.com/NigelEgrari/status/2096610790572970340",
-    "kind": "praise",
-    "tags": [
-      "missing"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: Missing @bookwithmiso"
-  },
-  {
-    "id": "9345fcc85c7b",
-    "agent": "miso",
-    "quote": "Booked via \n@bookwithmiso\n and paid for on \n@atlascardhq",
-    "author": "@mykomarci",
-    "author_name": "Myko",
-    "date": "2026-08-31",
-    "url": "https://x.com/mykomarci/status/2094237308837060817",
-    "kind": "use-case",
-    "tags": [
-      "booking",
-      "atlas-card"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: booked via bookwithmiso; paid on Atlas"
-  },
-  {
-    "id": "585ffaf15f4a",
-    "agent": "miso",
-    "quote": "Yep! Also 222 and Miso are using the official Apple Messages for Business platform, which also has a lot more features than iMessage",
-    "author": "@jjessup",
-    "author_name": "Jon Jessup - \u2601\ufe0f CEO",
-    "date": "2026-09-02",
-    "url": "https://x.com/jjessup/status/2095210591497662870",
-    "kind": "other",
-    "tags": [
-      "apple-messages-for-business",
-      "222"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: Miso uses Apple Messages for Business (more features than iMessage)"
-  },
-  {
     "id": "efa9b947c2e2",
     "agent": "miso",
     "quote": "I know who powers Miso and Instinct and Tomo on iMessage their infra spend is going vertical / PMF never seen anything like it in my life.",
@@ -251,56 +160,165 @@
     "notes": "third-party: Miso/Instinct/Tomo iMessage infra spend going vertical / PMF"
   },
   {
-    "id": "400442924b56",
+    "id": "c7b4ec7befe0",
     "agent": "miso",
-    "quote": "brah \n@martinmartinmro\n y'all cooked with the branding and lander of Miso can't wait to start using it \ud83e\udee1\n\nhttps://\nmiso.com",
-    "author": "@rabahrahil",
-    "author_name": "Rabah Rahil",
-    "date": "2026-09-02",
-    "url": "https://x.com/rabahrahil/status/2094940733958500646",
-    "kind": "other",
-    "tags": [
-      "branding",
-      "lander",
-      "waitlist"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "third-party: cooked branding/lander; cannot wait to start"
-  },
-  {
-    "id": "fb495fe40cbc",
-    "agent": "miso",
-    "quote": "Yessir \ud83e\udee1",
-    "author": "@DavidPawlan",
-    "author_name": "David Pawlan",
-    "date": "2026-09-06",
-    "url": "https://x.com/DavidPawlan/status/2096648272127336637",
-    "kind": "other",
-    "tags": [
-      "roster",
-      "yes"
-    ],
-    "source": "david-post",
-    "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "david-post: Yessir on Miso mention"
-  },
-  {
-    "id": "0ea743722f04",
-    "agent": "miso",
-    "quote": "@paulbz\n you should try \n@bookwithmiso\n. Humans + ai to book travel",
-    "author": "@martinmartinmro",
-    "author_name": "Martin Mrozowski",
-    "date": "2026-09-07",
-    "url": "https://x.com/martinmartinmro/status/2096933535089123572",
+    "quote": "Another \u201cno affiliation, not an investor, just a user/fan, and you should try it\u201d post. \n\nIn just 5 months since first trying it, Miso has booked me on 37 flights across 10 airlines, 35 airports, 4 continents while handling 12 changes/cancellations, monitoring 13 delays, and",
+    "author": "@chest",
+    "author_name": "Chester Ng \ud83c\udd96",
+    "date": "2026-09-01",
+    "url": "https://x.com/chest/status/2094903284788310237",
     "kind": "praise",
     "tags": [
-      "travel",
-      "booking",
-      "recommendation"
+      "flights",
+      "changes",
+      "delays",
+      "power-user"
     ],
     "source": "x",
-    "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "Clear @bookwithmiso travel AI rec."
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: 5mo user \u2014 37 flights, 12 changes, 13 delays monitored"
+  },
+  {
+    "id": "31957662cb15",
+    "agent": "miso",
+    "quote": "@bookwithmiso\n is my favorite consumer platform of the year, have probably booked $50k+ in travel with it on the beta\n\nimessage-native, context aware and vertical-specific apps are the future \u2708\ufe0f",
+    "author": "@J__Cub",
+    "author_name": "jacob peters",
+    "date": "2026-09-01",
+    "url": "https://x.com/J__Cub/status/2094616494521135423",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "travel",
+      "beta",
+      "spend"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: favorite consumer platform; $50k+ travel booked on beta"
+  },
+  {
+    "id": "ff0da162630d",
+    "agent": "miso",
+    "quote": "miso booked me and my gf NYC to Europe for 60k points + $400 lay flat biz class! \n\nno more hunting for deals. i litteraly imessage my own ai concierge. unreal \ud83e\udd2f",
+    "author": "@oliverbrocato",
+    "author_name": "oliverb",
+    "date": "2026-08-31",
+    "url": "https://x.com/oliverbrocato/status/2094543230943539651",
+    "kind": "use-case",
+    "tags": [
+      "points",
+      "biz-class",
+      "imessage",
+      "europe"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: NYC-Europe 60k points + $400 lay-flat via iMessage"
+  },
+  {
+    "id": "9345fcc85c7b",
+    "agent": "miso",
+    "quote": "Booked via \n@bookwithmiso\n and paid for on \n@atlascardhq",
+    "author": "@mykomarci",
+    "author_name": "Myko",
+    "date": "2026-08-31",
+    "url": "https://x.com/mykomarci/status/2094237308837060817",
+    "kind": "use-case",
+    "tags": [
+      "booking",
+      "atlas-card"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: booked via bookwithmiso; paid on Atlas"
+  },
+  {
+    "id": "d0a20bce70ef",
+    "agent": "miso",
+    "quote": "Martin is the man, go try out \nhttp://\nmiso.com (incredible brand domain btw)!\nBeen a power user for a while time now. \nIt\u2019s like having a full time dedicated VA for all your trips. \nThey\u2019ll handle anything stressful that comes up 24/7. \nPlus they will get you sick deals on",
+    "author": "@mykomarci",
+    "author_name": "Myko",
+    "date": "2026-08-21",
+    "url": "https://x.com/mykomarci/status/2090937532511051969",
+    "kind": "praise",
+    "tags": [
+      "va",
+      "24-7",
+      "power-user",
+      "deals"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: power user; like full-time travel VA 24/7"
+  },
+  {
+    "id": "9a36db64dc17",
+    "agent": "miso",
+    "quote": "$6,500 for a business class seat from Barcelona to LA\n\nAt 6'2, 11 hours in economy is a nightmare. I refuse to pay that, and couldn't find a flight with miles.\n\nBut I knew there was a better way.\n\nMy friend \n@martinmartinmro\n gave me early access to \nhttp://\nMiso.com I sent",
+    "author": "@JamesonCamp",
+    "author_name": "James Camp \ud83d\udee0,\ud83d\udee0",
+    "date": "2026-08-21",
+    "url": "https://x.com/JamesonCamp/status/2090826918811906209",
+    "kind": "use-case",
+    "tags": [
+      "biz-class",
+      "miles",
+      "barcelona",
+      "la"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: used Miso early access vs $6500 biz seat BCN-LA"
+  },
+  {
+    "id": "8c3ee14d1271",
+    "agent": "miso",
+    "quote": "Just started using \n@bookwithmiso\n , and it\u2019s incredible!\n\niMessage texting to plan travel is sweet.\n\nGreat job \n@martinmartinmro",
+    "author": "@emmanuelgkamau",
+    "author_name": "Emmanuel Kamau \u2694\ufe0f",
+    "date": "2026-06-16",
+    "url": "https://x.com/emmanuelgkamau/status/2066906190232055831",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "travel-planning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: just started; iMessage travel planning sweet"
+  },
+  {
+    "id": "a273394f7df7",
+    "agent": "miso",
+    "quote": "I\u2019ve been using \nhttp://\nmiso.com for months - it\u2019s amazing and I can\u2019t imagine not having it",
+    "author": "@SpamRoss",
+    "author_name": "Sam Ross",
+    "date": "2026-05-02",
+    "url": "https://x.com/SpamRoss/status/2050373511362019538",
+    "kind": "praise",
+    "tags": [
+      "months",
+      "habit"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: using months; cannot imagine not having it"
+  },
+  {
+    "id": "3ca467ab4bae",
+    "agent": "miso",
+    "quote": "I use \nhttp://\nmiso.com and love it. Gets it right every time",
+    "author": "@YacineSibous",
+    "author_name": "Yacine",
+    "date": "2026-02-26",
+    "url": "https://x.com/YacineSibous/status/2027116141517361241",
+    "kind": "praise",
+    "tags": [
+      "accuracy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T18:43:08.110578+00:00",
+    "notes": "third-party: use and love; gets it right every time"
   }
 ]

@@ -153,7 +153,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
           {agent.usage && (
             <section className="hands-on">
               <h2 className="ag-h2">Hands-on</h2>
-              <p className="ag-sub">From the reviewer&apos;s own thread. Messages stay private.</p>
+              <p className="ag-sub">From the reviewer&apos;s own thread.</p>
               <div className="info-list">
                 <div className="info-row">
                   <span className="il">Messages exchanged</span>

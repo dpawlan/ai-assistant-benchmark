@@ -130,11 +130,9 @@ export default async function EvidencePage({ params }: Props) {
         </div>
       )}
 
-      <p className="ev-note">
-        {excerpt
-          ? `The reviewer's own thread with ${agent.name}, trimmed to this test. Personal details are masked. Times are UTC.`
-          : `From the reviewer's own thread with ${agent.name}. Message text stays private; only the category, date, score and timings are published.`}
-      </p>
+      {excerpt && (
+        <p className="ev-note">The reviewer&apos;s own thread with {agent.name}, trimmed to this test. Personal details are masked. Times are UTC.</p>
+      )}
     </div>
   );
 }

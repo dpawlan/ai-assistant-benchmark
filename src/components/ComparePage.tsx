@@ -56,7 +56,7 @@ export function ComparePage({ pair, focusRaw }: { pair: string; focusRaw?: strin
           {c.a.name} vs {c.b.name}
         </h1>
         <p className="page-sub">
-          Same {c.rows.length} tests, same 1–10 scale. The check goes to the higher latest score. Public opinion sits beside each score as a second read, but never decides a row.
+          Same {c.rows.length} tests, same scale. The check goes to the higher score.
         </p>
       </div>
 

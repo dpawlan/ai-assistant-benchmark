@@ -114,7 +114,10 @@ export interface Evidence {
   category: string;
   protocol?: RunProtocol;
   date: string;
-  signals: EvidenceSignals;
+  /** Timing signals from the message thread. Absent when the observation was made outside the thread (e.g. app setup). */
+  signals?: EvidenceSignals;
+  /** Where the observation was made when there is no thread behind it. */
+  context?: string;
   excerpt?: ExcerptMessage[];
   redacted?: boolean;
   published_at: string;

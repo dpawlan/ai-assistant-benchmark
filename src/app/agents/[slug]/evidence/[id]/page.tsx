@@ -77,6 +77,7 @@ export default async function EvidencePage({ params }: Props) {
           </div>
           {run && <ScoreCell value={run.score} />}
         </div>
+        {s && (
         <p className="ev-meta">
           <span>
             <b>{s.turns}</b> messages
@@ -91,6 +92,7 @@ export default async function EvidencePage({ params }: Props) {
           {s.agent_asked_question && <span>it asked a question</span>}
           {s.agent_said_cant && run?.outcome !== 'pass' && <span>it said it couldn&apos;t</span>}
         </p>
+        )}
       </div>
 
       {excerpt ? (
@@ -109,6 +111,21 @@ export default async function EvidencePage({ params }: Props) {
           );
         })}
       </div>
+      ) : !s ? (
+        <div className="ev-private">
+          <div className="ev-private-row">
+            <span className="il">What was checked</span>
+            <span className="iv">{category?.label ?? ev.category}, in normal use</span>
+          </div>
+          <div className="ev-private-row">
+            <span className="il">Where</span>
+            <span className="iv">{ev.context ?? 'Outside the message thread'}</span>
+          </div>
+          <div className="ev-private-row">
+            <span className="il">How it ended</span>
+            <span className="iv">{run?.outcome === 'pass' ? 'Passed' : run?.outcome === 'partial' ? 'Partly passed' : run?.outcome === 'fail' ? 'Did not pass' : '—'}</span>
+          </div>
+        </div>
       ) : (
         <div className="ev-private">
           <div className="ev-private-row">

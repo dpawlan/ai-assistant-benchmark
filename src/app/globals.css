@@ -2906,27 +2906,6 @@ a.chip.blue:hover {
 }
 
 /* head to head: share controls grouped by what they share */
-.hh-tools {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.hh-tool-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-}
-
-.hh-tool-label {
-  min-width: 34px;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--sec);
-}
 
 .hh-note-flash {
   margin: 10px 0 0;
@@ -2954,4 +2933,134 @@ a.chip.blue:hover {
 .hh-card-url code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 12px;
+}
+
+/* ---------- Head to head: the page is the card ---------- */
+
+.hh-tools {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 18px 0 6px;
+}
+
+.hh-tool-group,
+.hh-tool-label {
+  display: none;
+}
+
+.hh-swap {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--sec);
+}
+
+.hh-swap:hover {
+  color: var(--text);
+}
+
+.hh-rows {
+  margin-top: 10px;
+  border-top: 1px solid var(--hair);
+}
+
+.hh-row {
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 220px) minmax(0, 1fr);
+  align-items: center;
+  padding: 12px 0;
+  min-height: 72px;
+}
+
+.hh-side {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.hh-side.hh-a {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.hh-side.hh-b {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.hh-score {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  transition: transform 0.15s;
+}
+
+.hh-score:hover {
+  transform: translateY(-1px);
+}
+
+.hh-score:hover .sc {
+  box-shadow: 0 2px 8px rgba(10, 132, 255, 0.28);
+}
+
+.hh-score .sc {
+  min-width: 44px;
+  height: 34px;
+  font-size: 15px;
+  border-radius: 9px;
+}
+
+.hh-side.hh-a .hh-score {
+  flex-direction: row-reverse;
+}
+
+.hh-meta {
+  font-size: 12px;
+  color: var(--sec);
+}
+
+.hh-meta.empty {
+  color: #b0b0b5;
+}
+
+.hh-note {
+  max-width: 100%;
+  font-size: 12.5px;
+  line-height: 1.35;
+  color: var(--sec);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+}
+
+.hh-cat-label {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.hh-cat-sub {
+  font-size: 11.5px;
+  color: var(--sec);
+}
+
+@media (max-width: 699px) {
+  .hh-row {
+    grid-template-columns: minmax(0, 1fr) minmax(96px, 120px) minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .hh-note {
+    display: none;
+  }
+
+  .hh-score .sc {
+    min-width: 38px;
+    height: 30px;
+    font-size: 14px;
+  }
 }

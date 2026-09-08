@@ -18,7 +18,13 @@ export function BenchmarkStrip({ updated }: { updated: string }) {
         {s.testedCount} of {s.agentCount} tested
       </span>
       <span className="bench-sep" aria-hidden="true" />
-      <span>{s.lastTested ? `last test ${formatDate(s.lastTested, 'short')}` : `data updated ${formatDate(updated, 'short')}`}</span>
+      {s.lastTested && (
+        <>
+          <span>last test {formatDate(s.lastTested, 'short')}</span>
+          <span className="bench-sep" aria-hidden="true" />
+        </>
+      )}
+      <span>updated {formatDate(updated, 'short')}</span>
     </div>
   );
 }

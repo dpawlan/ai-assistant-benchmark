@@ -50,3 +50,7 @@ Design system is imessage.store's: system font, seven color tokens, sidebar + ha
 ## Grok Bot first-party chats
 
 Grok Bot row evidence can also come from box agent chats (`source: grok-bot-chats` in `data/agents/grok-bot/usage.json`), built with `scripts/grokbot.mjs` / the box analyzer. Same privacy rules as iMessage: no message text in git; only usage, runs, and signals-only evidence JSON.
+
+## Head to head (compare + share card)
+
+`/compare` picks two tested assistants; `/compare/<a>-vs-<b>` is the scorecard (both orders prebuilt for every pair with runs, other pairs render on demand). Each row goes to the higher latest-run score; ties and untested rows decide nothing. Public opinion is shown beside each score but never decides a row. Tapping a dimension highlights it: the tally, URL (`/compare/<a>-vs-<b>/<key>~<key>`, `~` separator because a comma made the client router loop on prefetch) and card follow the picks. The share image is rendered on demand by `src/app/api/og/compare/route.tsx` (`?a=&b=&focus=&download=1`, Inter from `src/assets/fonts`, logos from `public/logos`; `outputFileTracingIncludes` in `next.config.ts` ships data/fonts/logos with those functions). Logic: `src/lib/compare.ts` (server) and `src/lib/compare-shared.ts` (client-safe). UI: `Scorecard.tsx`, `ComparePage.tsx`, `PairPicker.tsx`; agent pages list opponents under "Head to head".

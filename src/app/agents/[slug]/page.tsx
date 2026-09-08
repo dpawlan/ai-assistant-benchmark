@@ -21,6 +21,7 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
+import { comparePath, getTestedAgents } from '@/lib/compare';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -65,6 +66,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const categories = getCategories();
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
+  const opponents = getTestedAgents().filter(a => a.slug !== slug);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
   const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
@@ -182,6 +184,24 @@ export default async function AgentPage({ params }: AgentPageProps) {
               </div>
             </section>
           )}
+          <section className="hh-opp">
+            <h2 className="ag-h2">Head to head</h2>
+            <p className="ag-sub">
+              {agent.testedCount > 0
+                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
+                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
+            </p>
+            {agent.testedCount > 0 && opponents.length > 0 && (
+              <div className="ag-chips">
+                {opponents.map(o => (
+                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
+                    vs {o.name}
+                  </Link>
+                ))}
+                <Link href="/compare" className="chip">All matchups</Link>
+              </div>
+            )}
+          </section>
           <h2 className="ag-h2">Information</h2>
           <div className="info-list" style={{ marginTop: 8 }}>
             <div className="info-row">

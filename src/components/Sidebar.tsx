@@ -26,6 +26,7 @@ export function Sidebar({ categories }: SidebarProps) {
           items={[
             { href: '/', label: 'Scorecard' },
             { href: '/dimensions', label: 'Dimensions' },
+            { href: '/compare', label: 'Head to head' },
           ]}
         />
 

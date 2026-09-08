@@ -1,18 +1,11 @@
 import { Agent } from '@/lib/types';
 
-/** Blue with the core mean once tested; until then the amount of public discussion, which is the only real signal. */
+/** Blue with the overall mean once tested; until then the amount of public discussion, which is the only real signal. */
 export function ScorePill({ agent }: { agent: Agent }) {
-  if (agent.core !== null) {
+  if (agent.overall !== null) {
     return (
-      <span className="pill" title="Mean of scored core categories">
-        {agent.core.toFixed(1)}
-      </span>
-    );
-  }
-  if (agent.endorsed !== null) {
-    return (
-      <span className="pill" title="Mean of scored endorsed categories (no core scores yet)">
-        {agent.endorsed.toFixed(1)}
+      <span className="pill" title="Mean of every category scored">
+        {agent.overall.toFixed(1)}
       </span>
     );
   }

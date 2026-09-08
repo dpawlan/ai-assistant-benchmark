@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Category } from '@/lib/types';
+import { CATEGORY_SHORT } from '@/lib/data';
 import { KINDS } from '@/lib/kinds';
 import { SidebarNav } from './SidebarNav';
 
@@ -8,8 +9,6 @@ interface SidebarProps {
 }
 
 export function Sidebar({ categories }: SidebarProps) {
-  const core = categories.filter(c => c.group === 'core');
-  const endorsed = categories.filter(c => c.group === 'endorsed');
 
   return (
     <>
@@ -33,11 +32,8 @@ export function Sidebar({ categories }: SidebarProps) {
         <div className="side-label">Assistants</div>
         <SidebarNav items={KINDS.map(k => ({ href: k.key === 'general' ? '/' : `/?kind=${k.key}`, label: k.label }))} />
 
-        <div className="side-label">Core</div>
-        <SidebarNav items={core.map(c => ({ href: `/categories/${c.key}`, label: c.label }))} />
-
-        <div className="side-label">Endorsed</div>
-        <SidebarNav items={endorsed.map(c => ({ href: `/categories/${c.key}`, label: c.label }))} />
+        <div className="side-label">Categories</div>
+        <SidebarNav items={categories.map(c => ({ href: `/categories/${c.key}`, label: CATEGORY_SHORT[c.key] ?? c.label }))} />
       </div>
 
       <div className="side-foot">

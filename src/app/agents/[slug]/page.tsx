@@ -99,12 +99,8 @@ export default async function AgentPage({ params }: AgentPageProps) {
             </div>
             <div className="ag-stats">
               <span className="ag-stat">
-                <ScoreCell value={agent.core} aggregate />
-                Core
-              </span>
-              <span className="ag-stat">
-                <ScoreCell value={agent.endorsed} aggregate />
-                Endorsed
+                <ScoreCell value={agent.overall} aggregate />
+                Overall
               </span>
               <span className="ag-stat">
                 {agent.testedCount === 0

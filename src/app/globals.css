@@ -1468,10 +1468,10 @@ footer a:hover {
   font-size: 10.8px;
   font-weight: 600;
   letter-spacing: -0.03em;
-  white-space: nowrap;
+  line-height: 1.1;
   max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  text-align: center;
+  overflow-wrap: normal;
 }
 
 .mx-sub {
@@ -2364,4 +2364,33 @@ a.cat-row:hover .cat-label {
 
 a.chip.blue:hover {
   background: var(--blue-16);
+}
+
+/* ---------- Scorecard group-label row and the Speed divider ---------- */
+
+.matrix thead .mx-groups th {
+  height: 22px;
+  border-bottom: 0;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.matrix thead .mx-groups + tr th {
+  top: 22px;
+}
+
+.matrix .mx-span {
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--sec);
+  text-align: center;
+}
+
+.matrix .mx-speed {
+  background: #f7f9fc;
+  border-right: 1px solid var(--line);
 }

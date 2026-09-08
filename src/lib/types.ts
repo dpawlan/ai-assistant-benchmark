@@ -189,6 +189,8 @@ export interface Agent {
   scores: AgentScores;
   /** Latest run per category, when one exists. */
   latestRuns: Record<string, Run>;
+  /** Mean of every numeric score, null when none. */
+  overall: number | null;
   /** Mean of numeric core scores, null when none. */
   core: number | null;
   /** Mean of numeric endorsed scores, null when none. */

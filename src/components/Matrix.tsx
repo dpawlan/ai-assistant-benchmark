@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useMemo, useState } from 'react';
+import { Suspense, useEffect, useMemo, useState } from 'react';
 import { Agent, Category } from '@/lib/types';
 import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
@@ -18,20 +18,18 @@ interface MatrixProps {
 }
 
 type View = 'benchmark' | 'opinion';
-type SortKey = 'core' | 'endorsed' | string;
+type SortKey = 'overall' | 'speed' | string;
 
 function benchValue(agent: Agent, key: SortKey): number {
-  if (key === 'core') return agent.core ?? -1;
+  if (key === 'overall') return agent.overall ?? -1;
   if (key === 'speed') return agent.usage?.median_reply_s === null || agent.usage?.median_reply_s === undefined ? -1e9 : -agent.usage.median_reply_s;
-  if (key === 'endorsed') return agent.endorsed ?? -1;
   const v = agent.scores[key];
   return typeof v === 'number' ? v : v === 'n/a' ? -2 : -1;
 }
 
 function opinionValue(agent: Agent, key: SortKey): number {
-  if (key === 'endorsed') return agent.opinionOverall.n;
   if (key === 'speed') return benchValue(agent, key);
-  return opinionRank(key === 'core' ? agent.opinionOverall : agent.opinion[key]);
+  return opinionRank(key === 'overall' ? agent.opinionOverall : agent.opinion[key]);
 }
 
 function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
@@ -39,25 +37,35 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
   return [...list].sort(
     (a, b) =>
       value(b, key) - value(a, key) ||
-      (view === 'opinion' ? (key === 'core' ? b.opinionOverall.n - a.opinionOverall.n : (b.opinion[key]?.n ?? 0) - (a.opinion[key]?.n ?? 0)) : 0) ||
-      (b.core ?? -1) - (a.core ?? -1) ||
+      (view === 'opinion' ? (key === 'overall' ? b.opinionOverall.n - a.opinionOverall.n : (b.opinion[key]?.n ?? 0) - (a.opinion[key]?.n ?? 0)) : 0) ||
+      (b.overall ?? -1) - (a.overall ?? -1) ||
       b.feedbackCount - a.feedbackCount ||
       a.name.localeCompare(b.name),
   );
 }
 
-export function Matrix({ agents, categories, short }: MatrixProps) {
-  const router = useRouter();
+/** Reads ?kind= after hydration so the grid itself can be prerendered with the default group. */
+function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
-  const kind: string = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
+  const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
+  useEffect(() => {
+    onKind(kind);
+  }, [kind, onKind]);
+  return null;
+}
+
+export function Matrix({ agents, categories, short }: MatrixProps) {
+  const router = useRouter();
+  const [kind, setKindState] = useState<string>('general');
   const [view, setView] = useState<View>('benchmark');
-  const [sort, setSort] = useState<SortKey>('core');
-  const core = categories.filter(c => c.group === 'core');
-  const endorsed = categories.filter(c => c.group === 'endorsed');
+  const [sort, setSort] = useState<SortKey>('overall');
   const opinion = view === 'opinion';
 
-  const setKind = (k: string) => router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+  const setKind = (k: string) => {
+    setKindState(k);
+    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+  };
 
   const counts = useMemo(() => {
     const c: Record<string, number> = {};
@@ -92,6 +100,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
 
   return (
     <div>
+      <Suspense fallback={null}>
+        <KindFromUrl onKind={setKindState} />
+      </Suspense>
       <div className="kind-bar" role="tablist" aria-label="Peer group">
         {KINDS.filter(k => counts[k.key]).map(k => (
           <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
@@ -123,13 +134,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <table className={`matrix${opinion ? ' opinion' : ''}`}>
           <colgroup>
             <col className="c-name" />
+            {!opinion && <col className="c-agg" />}
             <col className="c-agg" />
-            {!opinion && <col className="c-agg" />}
-            {core.map(c => (
-              <col key={c.key} className="c-cat" />
-            ))}
-            {!opinion && <col className="c-agg" />}
-            {endorsed.map(c => (
+            {categories.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
           </colgroup>
@@ -138,18 +145,16 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               <th scope="col" className="mx-name">
                 <span className="mx-label">Assistant</span>
               </th>
-              {opinion ? header('core', 'Overall', 'mx-agg', 'overall sentiment') : header('core', 'Core', 'mx-agg', 'core mean')}
-              {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time')}
-              {core.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
-              {!opinion && header('endorsed', 'Endorsed', 'mx-agg mx-div', 'endorsed mean')}
-              {endorsed.map((c, i) => header(c.key, short[c.key] ?? c.label, opinion && i === 0 ? 'mx-div' : '', c.label))}
+              {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time in the reviewer’s own thread')}
+              {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every category scored')}
+              {categories.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
             </tr>
           </thead>
           {groups.map(group => (
             <tbody key={group.key}>
               {kind === 'all' && (
                 <tr className="mx-group">
-                  <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 4)}>
+                  <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 3)}>
                     {group.title}
                     <span className="mx-count">{group.rows.length}</span>
                   </th>
@@ -163,26 +168,16 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                       <span className="mx-nm">{agent.name}</span>
                     </Link>
                   </th>
-                  <td className="mx-agg">
-                    {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.core} aggregate />}
-                  </td>
                   {!opinion && (
                     <td className={`mx-agg mx-speed${sort === 'speed' ? ' sorted' : ''}`}>
                       <SpeedCell usage={agent.usage} />
                     </td>
                   )}
-                  {core.map(c => (
+                  <td className={`mx-agg${sort === 'overall' ? ' sorted' : ''}`}>
+                    {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.overall} aggregate />}
+                  </td>
+                  {categories.map(c => (
                     <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-                      {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
-                    </td>
-                  ))}
-                  {!opinion && (
-                    <td className="mx-agg mx-div">
-                      <ScoreCell value={agent.endorsed} aggregate />
-                    </td>
-                  )}
-                  {endorsed.map((c, i) => (
-                    <td key={c.key} className={`${opinion && i === 0 ? 'mx-div' : ''}${sort === c.key ? ' sorted' : ''}`.trim() || undefined}>
                       {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
                     </td>
                   ))}

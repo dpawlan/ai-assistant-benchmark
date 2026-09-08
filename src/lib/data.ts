@@ -63,20 +63,20 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 
 /** Column labels short enough for the matrix header. */
 export const CATEGORY_SHORT: Record<string, string> = {
-  online_task: 'Online',
-  recommendation_quality: 'Recs',
-  purchasing: 'Buying',
+  online_task: 'Online tasks',
+  recommendation_quality: 'Recommen\u00ADdations',
+  purchasing: 'Purchas\u00ADing',
   email_replies: 'Email',
   proactive_behavior: 'Proactive',
   running_routine: 'Routines',
-  third_party_integrations: 'Tools',
+  third_party_integrations: 'Integra\u00ADtions',
   memory: 'Memory',
-  personality: 'Persona',
-  phone_calls: 'Calls',
-  multiplayer_groups: 'Groups',
-  chained_tasks: 'Chains',
+  personality: 'Person\u00ADality',
+  phone_calls: 'Phone calls',
+  multiplayer_groups: 'Group chats',
+  chained_tasks: 'Multi-step',
   proactive_restraint: 'Restraint',
-  content_creation_games: 'Creation',
+  content_creation_games: 'Images & games',
 };
 
 const PRODUCT_CLASS_LABELS: Record<string, string> = {
@@ -274,6 +274,7 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
   return {
     scores,
     latestRuns,
+    overall: mean([...numeric('core'), ...numeric('endorsed')]),
     core: mean(numeric('core')),
     endorsed: mean(numeric('endorsed')),
     testedCount: Object.values(scores).filter(v => typeof v === 'number').length,
@@ -334,12 +335,11 @@ export function getAgents(): Agent[] {
   return getRoster().map(entry => fromRoster(entry, categories));
 }
 
-/** Leaderboard order: core score, then endorsed, then how much public discussion exists. */
+/** Leaderboard order: overall score, then how much public discussion exists. */
 export function rankAgents(agents: Agent[]): Agent[] {
   return [...agents].sort(
     (a, b) =>
-      (b.core ?? -1) - (a.core ?? -1) ||
-      (b.endorsed ?? -1) - (a.endorsed ?? -1) ||
+      (b.overall ?? -1) - (a.overall ?? -1) ||
       b.feedbackCount - a.feedbackCount ||
       a.name.localeCompare(b.name),
   );

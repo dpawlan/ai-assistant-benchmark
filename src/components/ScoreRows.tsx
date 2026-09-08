@@ -15,17 +15,11 @@ const OUTCOME: Record<string, string> = { pass: 'Pass', partial: 'Partial', fail
 
 /** The 14 category rows. Scored rows show the run behind the number; rows with quotes link to them. */
 export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreRowsProps) {
-  const groups: { title: string; items: Category[] }[] = [
-    { title: 'Core', items: categories.filter(c => c.group === 'core') },
-    { title: 'Endorsed', items: categories.filter(c => c.group === 'endorsed') },
-  ];
-
   return (
     <div>
-      {groups.map(group => (
-        <div key={group.title}>
-          <h3 className="group-title">{group.title}</h3>
-          <div className="info-list">
+      {[{ items: categories }].map(group => (
+        <div key="all">
+          <div className="info-list" style={{ marginTop: 8 }}>
             {group.items.map(category => {
               const run = runs[category.key];
               const n = quoteCounts[category.key] ?? 0;

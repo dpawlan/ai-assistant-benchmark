@@ -9,6 +9,9 @@
  *   node scripts/imessage.mjs discover [--db ...] [--since ...]   list one-to-one threads so you can map numbers to slugs
  *   node scripts/imessage.mjs import-whatsapp --slug muse --file ~/Downloads/_chat.txt [--me "David"] [--dayfirst]
  *                                       a WhatsApp "Export Chat" file becomes the transcript; then analyze/approve as usual
+ *   node scripts/imessage.mjs import-text --slug muse --file muse-2026-09-08.txt [--date 2026-09-08]
+ *                                       a pasted transcript: lines start "Me:" or "Muse:", optional "[3:04 PM]" or "[15:04:12]" before the name;
+ *                                       a line "## 2026-09-08" sets the date for the lines after it. Without times, Speed stays blank.
  *   node scripts/imessage.mjs excerpts --slug grok-bot [--missing]  print the redacted episode behind each run (for writing notes)
  *   node scripts/imessage.mjs notes --slug grok-bot --file notes.json   apply {runId: "one-line note"} into runs.json
  *
@@ -61,7 +64,7 @@ function parseArgs(argv) {
 
 async function main() {
   const cmd = parseArgs(process.argv.slice(2));
-  const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes, 'import-whatsapp': importWhatsApp };
+  const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes, 'import-whatsapp': importWhatsApp, 'import-text': importText };
   if (!commands[cmd]) {
     console.error(fs.readFileSync(new URL(import.meta.url)).toString().split('*/')[0].replace('/**', '').replace(/^ \* ?/gm, ''));
     process.exit(1);
@@ -388,6 +391,86 @@ async function importWhatsApp() {
   console.log('Next: node scripts/imessage.mjs analyze --slug ' + slug);
 }
 
+/* ---------- import: pasted transcript -> transcript ---------- */
+
+const TEXT_LINE = /^(?:\[?\s*(\d{1,2}):(\d{2})(?::(\d{2}))?\s?([AaPp][Mm])?\s*\]?\s*)?(me|you|david|[a-z][a-z0-9 ._-]{0,30}?)\s*[:>\-–]\s+(.*)$/i;
+
+/**
+ * Parse a hand-pasted transcript. Each message starts with a speaker label ("Me:" / "Muse:"), optionally preceded by a
+ * time. Lines without a label continue the previous message. "## YYYY-MM-DD" sets the date. Exported for tests.
+ */
+export function parseText(text, { agentName, date }) {
+  const out = [];
+  let cur = null;
+  let day = date;
+  let seq = 0;
+  let timed = false;
+  const agentLc = agentName.toLowerCase();
+  for (const raw of text.split(/\r?\n/)) {
+    const line = raw.trim();
+    const d = /^##\s*(\d{4}-\d{2}-\d{2})/.exec(line);
+    if (d) {
+      day = d[1];
+      seq = 0;
+      cur = null;
+      continue;
+    }
+    const m = TEXT_LINE.exec(line);
+    const speaker = m ? m[5].trim().toLowerCase() : '';
+    const isMe = ['me', 'you', 'david'].includes(speaker);
+    const isAgent = speaker && (speaker === agentLc || speaker.includes(agentLc) || speaker === 'agent' || speaker === 'assistant');
+    if (m && (isMe || isAgent)) {
+      let ts;
+      if (m[1]) {
+        timed = true;
+        let hour = Number(m[1]);
+        if (m[4]) {
+          const pm = m[4].toLowerCase() === 'pm';
+          if (pm && hour < 12) hour += 12;
+          if (!pm && hour === 12) hour = 0;
+        }
+        ts = new Date(`${day}T${String(hour).padStart(2, '0')}:${m[2]}:${m[3] ?? '00'}`).toISOString();
+      } else {
+        // Untimed: one minute after the previous message (or 09:00 on that day) so order is preserved.
+        const prev = cur ? Date.parse(cur.ts) : Date.parse(`${day}T09:00:00`) - 60000;
+        ts = new Date(prev + 60000).toISOString();
+        seq++;
+      }
+      cur = { id: out.length + 1, ts, from: isAgent ? 'agent' : 'me', text: m[6].trim(), attachment: false, service: 'pasted' };
+      out.push(cur);
+    } else if (cur && line) {
+      cur.text += '\n' + line;
+    }
+  }
+  return { messages: out, timed };
+}
+
+async function importText() {
+  const file = opts.file ? String(opts.file).replace(/^~/, os.homedir()) : fail('Pass --file <pasted transcript .txt>');
+  if (slugs.length !== 1) fail('Pass exactly one --slug');
+  const slug = slugs[0];
+  const date = opts.date ? String(opts.date) : new Date().toISOString().slice(0, 10);
+  const { messages, timed } = parseText(fs.readFileSync(file, 'utf-8'), { agentName: sources[slug].name.split(' /')[0], date });
+  if (!messages.length) fail('No messages parsed. Start each message with "Me:" or "' + sources[slug].name + ':".');
+  if (!messages.some(m => m.from === 'agent')) fail(`No lines from "${sources[slug].name}". Label its messages "${sources[slug].name}:".`);
+  const existing = readJson(transcriptFile(slug), null);
+  const merged = existing ? [...existing.messages] : [];
+  const seen = new Set(merged.map(m => m.ts + '|' + m.text));
+  let added = 0;
+  for (const m of messages) {
+    const key = m.ts + '|' + m.text;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    merged.push({ ...m, id: merged.length + 1 });
+    added++;
+  }
+  merged.sort((a, b) => a.ts.localeCompare(b.ts));
+  const wasTimed = existing ? existing.timed !== false : true;
+  writeJson(transcriptFile(slug), { slug, handles: sources[slug].imessage_handles ?? [], source: 'pasted', timed: wasTimed && timed, exported_at: new Date().toISOString(), chats: [path.basename(file)], messages: merged });
+  console.log(`${slug}: ${messages.length} messages parsed (${timed ? 'with times' : 'no times: Speed will stay blank'}), ${added} new, ${merged.length} total -> ${path.relative(ROOT, transcriptFile(slug))}`);
+  console.log('Next: node scripts/imessage.mjs analyze --slug ' + slug);
+}
+
 /* ---------- analyze ---------- */
 
 /** Extra vocabulary per category, on top of the words in each task prompt. */
@@ -559,7 +642,13 @@ async function analyze() {
     if (!transcript) continue;
     const terms = [...redactTerms, ...(sources[slug].redact_terms ?? [])];
     const { stats, episodes } = analyzeTranscript(transcript.messages);
-    writeJson(usageFile(slug), { source: 'imessage', exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
+    if (transcript.timed === false) {
+      stats.median_reply_s = null;
+      stats.p90_reply_s = null;
+      stats.unanswered = 0;
+      stats.proactive_messages = 0;
+    }
+    writeJson(usageFile(slug), { source: transcript.source ?? 'imessage', exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
 
     const existing = readJson(draftFile(slug), []);
     const byId = new Map(existing.map(d => [d.id, d]));
@@ -579,7 +668,7 @@ async function analyze() {
         alternatives: cat.alternatives,
         protocol: guessProtocol(firstMine, tasks.find(t => t.key === cat.category)),
         date: ep.start.slice(0, 10),
-        signals: signalsFor(ep),
+        signals: transcript.timed === false ? { ...signalsFor(ep), first_reply_s: null, duration_min: 0 } : signalsFor(ep),
         excerpt: ep.messages.slice(0, 40).map(m => ({ from: m.from, ts: m.ts, text: redact(m.text, terms).slice(0, 600), ...(m.attachment ? { attachment: true } : {}) })),
         score: null,
         outcome: null,

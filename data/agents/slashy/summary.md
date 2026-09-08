@@ -11,3 +11,8 @@ Site: https://www.slashy.com/
 ## Reddit public scrape (2026-09-06)
 - Added **2** rows from public Reddit (source=`web`, tag=`reddit`). Prefer third-party; founder/mod OK when concrete.
 - Kinds: other×1, comparison×1
+
+_Updated 2026-09-08 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-07) @GaddipatiHarsha: Vertical AI assistants with clear platform fees, I think will win in this space for enterprise/b2b  People confuse VC with adoption.  Haven'

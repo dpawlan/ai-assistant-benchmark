@@ -18,7 +18,8 @@
     "imessage:export": "node scripts/imessage.mjs export",
     "imessage:analyze": "node scripts/imessage.mjs analyze",
     "imessage:approve": "node scripts/imessage.mjs approve",
-    "imessage:status": "node scripts/imessage.mjs status"
+    "imessage:status": "node scripts/imessage.mjs status",
+    "og": "python3 scripts/og.py"
   },
   "dependencies": {
     "next": "16.3.4",

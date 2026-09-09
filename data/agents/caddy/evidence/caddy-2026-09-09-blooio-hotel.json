@@ -1,0 +1,19 @@
+{
+  "id": "caddy-2026-09-09-blooio-hotel",
+  "agent": "caddy",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 22,
+    "my_messages": 9,
+    "agent_messages": 13,
+    "first_reply_s": 3,
+    "duration_min": 45,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T18:29:00.000Z"
+}

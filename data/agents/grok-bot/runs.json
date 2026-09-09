@@ -6,7 +6,7 @@
     "date": "2026-08-17",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked how to organize a set of assistants (one generalist vs. specialists, chief of staff vs. domain bots); it walked through the use cases and recommended one generalist until a job stream is loud enough to split off. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-17-b4fadb"
   },
   {
@@ -86,7 +86,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked for a Social bot that writes X and LinkedIn posts in the reviewer's voice; it created the bot, connected X, and scraped 100+ of the reviewer's posts and replies for voice after the API route stalled. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
   },
   {
@@ -96,7 +96,7 @@
     "date": "2026-08-20",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to keep a merchant outreach tracker updated from work mail and meeting notes; it connected the mailbox and ran weekday updates until one update wiped the sheet, restored it from history, and auto-edits were paused. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-ee4646"
   },
   {
@@ -116,7 +116,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to build an Outbid-style x402 bidding site under a personal GitHub account; it created the repo, built the app, got a Vercel deployment up (still behind deployment protection) and started a Neon database for production. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-e0c246"
   },
   {
@@ -226,7 +226,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to wire up AgentCash so it could pay for API purchases; it connected the wallet, which was empty pending a USDC deposit, and confirmed it would not spend without an explicit yes. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-24048a"
   },
   {
@@ -266,7 +266,7 @@
     "date": "2026-08-30",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to create and fully run a new X account advocating AI agent rights; it launched the account, posted, replied, followed and set a banner, then hit human-verification and rate-limit walls and paused. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
   },
   {
@@ -306,7 +306,7 @@
     "date": "2026-08-31",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to check CrowdVolt ticket inventory and historical pricing without paying unless told to; it found the CrowdVolt origin through AgentCash, pulled the live catalog and floor-ask history, and recommended when to buy for ARC Music Festival. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-72888a"
   },
   {
@@ -326,7 +326,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to set up Stripe Link for approved one-time purchases; it installed the connector, the reviewer authorized it, and the wallet tools were ready to use. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-412b7c"
   },
   {
@@ -336,7 +336,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked for same-day flowers delivered to the apartment under a set budget; it started in the wrong city, corrected, found grocery same-day options, then Instacart checkout blocked on login and the reviewer finished the order another way. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-ef9185"
   },
   {
@@ -356,7 +356,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Dave Bot” bot.",
+    "notes": "Asked it to stand up a fantasy manager that drafts and runs a Sleeper team; it created the Fantasy Bot, locked league settings from Sleeper's public API, and tried to log in so it could submit moves, but captcha and IP checks blocked the session. Dave Bot.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
   },
   {

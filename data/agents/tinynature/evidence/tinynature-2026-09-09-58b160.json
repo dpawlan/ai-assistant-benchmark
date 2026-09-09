@@ -1,0 +1,19 @@
+{
+  "id": "tinynature-2026-09-09-58b160",
+  "agent": "tinynature",
+  "category": "personality",
+  "protocol": "observed",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 13,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T17:56:56.313Z"
+}

@@ -32,7 +32,10 @@ export function shortDate(iso: string): string {
 
 function initial(item: Feedback): string {
   const s = (item.author_name || item.author || '?').replace(/^@/, '');
-  return s.charAt(0).toUpperCase() || '?';
+  // First full code point, not charAt(0): emoji and other astral characters split into a lone surrogate,
+  // which serializes differently on the server and in the browser (hydration mismatch).
+  const first = Array.from(s)[0] ?? '?';
+  return /\p{L}|\p{N}/u.test(first) ? first.toUpperCase() : '?';
 }
 
 interface QuoteItemProps {

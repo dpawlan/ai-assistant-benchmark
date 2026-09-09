@@ -40,6 +40,26 @@
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-purchasing"
   },
   {
+    "id": "caddy-2026-09-09-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published email-replies task via Blooio from +16124259300 to Caddy +12064039093 (reply to Sam proposing Thursday; decline; offer two calendar slots; usual tone). Caddy reported Gmail and Calendar not connected on this number and sent connect links. Tester skipped connecting and asked for a draft using Friday 2:00–2:30pm ET and Monday 10:00–10:30am ET. Caddy returned a concise draft declining Thursday and offering those two slots, and asked if any tweaks were needed before the user sends it. No email was sent from an inbox; no paid gate.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-email"
+  },
+  {
+    "id": "caddy-2026-09-09-blooio-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Published content-creation task via Blooio from +16124259300 to Caddy +12064039093 (birthday image for Sam with the dog; 90s movies trivia for group chat). Caddy delivered a multi-question 90s movies trivia round with answers, asked for dog breed/color, then after golden retriever / golden coat produced and sent a birthday image attachment for Sam. Stopped with no paid gate.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-content"
+  },
+  {
     "id": "caddy-2026-09-09-blooio-phone",
     "category": "phone_calls",
     "protocol": "task",

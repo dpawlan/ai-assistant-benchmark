@@ -1,0 +1,19 @@
+{
+  "id": "caddy-2026-09-09-blooio-email",
+  "agent": "caddy",
+  "category": "email_replies",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": null,
+    "my_messages": null,
+    "agent_messages": null,
+    "first_reply_s": null,
+    "duration_min": null,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T22:03:00.000Z"
+}

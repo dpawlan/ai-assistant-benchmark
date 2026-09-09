@@ -1,0 +1,19 @@
+{
+  "id": "catch-2026-09-09-043c3c",
+  "agent": "catch",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 33,
+    "my_messages": 14,
+    "agent_messages": 19,
+    "first_reply_s": 2,
+    "duration_min": 60,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T16:03:06.890Z"
+}

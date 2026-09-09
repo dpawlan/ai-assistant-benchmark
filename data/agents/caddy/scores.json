@@ -3,15 +3,15 @@
   "travel": 8,
   "recommendation_quality": 8,
   "purchasing": 7,
-  "email_replies": null,
+  "email_replies": 7,
   "proactive_behavior": null,
   "running_routine": null,
-  "third_party_integrations": null,
+  "third_party_integrations": 7,
   "memory": null,
   "personality": null,
-  "phone_calls": null,
+  "phone_calls": 3,
   "multiplayer_groups": "n/a",
   "chained_tasks": null,
   "proactive_restraint": null,
-  "content_creation_games": null
+  "content_creation_games": 8
 }

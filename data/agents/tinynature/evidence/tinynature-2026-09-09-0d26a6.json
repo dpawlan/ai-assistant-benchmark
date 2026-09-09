@@ -1,0 +1,19 @@
+{
+  "id": "tinynature-2026-09-09-0d26a6",
+  "agent": "tinynature",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 16,
+    "my_messages": 4,
+    "agent_messages": 12,
+    "first_reply_s": 9,
+    "duration_min": 4,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T17:56:56.313Z"
+}

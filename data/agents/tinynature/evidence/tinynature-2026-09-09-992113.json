@@ -1,0 +1,19 @@
+{
+  "id": "tinynature-2026-09-09-992113",
+  "agent": "tinynature",
+  "category": "memory",
+  "protocol": "observed",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 10,
+    "my_messages": 3,
+    "agent_messages": 7,
+    "first_reply_s": 9,
+    "duration_min": 6,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T17:56:56.313Z"
+}

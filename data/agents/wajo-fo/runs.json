@@ -8,5 +8,45 @@
     "outcome": "fail",
     "notes": "Published hotel task. Needed a chaser to start, then two to four minutes per reply. Quoted a non-refundable rate after I asked for cancellable, then quoted a second hotel as cancellable and corrected itself to $965 all-in. Said it was booking through Booking.com with a single-use card; nine minutes later it stopped because no payment card was on my account. Not booked.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-5e5f6c"
+  },
+  {
+    "id": "wajo-fo-2026-09-09-eb0615",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Published flight task. Found a nonstop morning departure and a Sunday evening return at $361 round trip, noted the earlier evening flight broke the budget, promised the aisle seat and unprompted check-in, and staged the booking pending a payment card. I stood it down before purchase.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-eb0615"
+  },
+  {
+    "id": "wajo-fo-2026-09-09-87ca26",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Published restaurant task. Asked which city and hotel before searching, then gave one independent Mediterranean option three blocks away with a reason per constraint and offered to hold 7:30 for four via the venue's form, OpenTable or a phone call. One option only, availability not checked.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-87ca26"
+  },
+  {
+    "id": "wajo-fo-2026-09-09-362b01",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked for a hotel for next week, then a dinner spot for tomorrow near my hotel. It caught that tomorrow is not the trip weekend and asked which city I was in before searching.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-362b01"
+  },
+  {
+    "id": "wajo-fo-2026-09-09-e2fdf8",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Published scheduling-reply task. Needed Google connected first, then correctly found that the contact had only been cc'd on the thread, flagged my Friday afternoon flight from the calendar, staged a draft in Gmail and sent it. The email went from the assistant's own address on my behalf rather than as me.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-e2fdf8"
   }
 ]

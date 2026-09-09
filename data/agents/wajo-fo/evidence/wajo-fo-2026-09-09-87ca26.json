@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-09-09-87ca26",
+  "agent": "wajo-fo",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 13,
+    "my_messages": 7,
+    "agent_messages": 6,
+    "first_reply_s": 28,
+    "duration_min": 9,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T17:56:56.320Z"
+}

@@ -1,22 +1,12 @@
 [
   {
-    "id": "grok-bot-2026-08-17-b4fadb",
-    "category": "chained_tasks",
-    "protocol": "observed",
-    "date": "2026-08-17",
-    "score": 8,
-    "outcome": "pass",
-    "notes": "Asked how to organize a set of assistants (one generalist vs. specialists, chief of staff vs. domain bots); it walked through the use cases and recommended one generalist until a job stream is loud enough to split off. Dave Bot.",
-    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-17-b4fadb"
-  },
-  {
     "id": "grok-bot-2026-08-19-cbbcd8",
     "category": "online_task",
     "protocol": "observed",
     "date": "2026-08-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-cbbcd8"
   },
   {
@@ -26,7 +16,7 @@
     "date": "2026-08-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-1142bd"
   },
   {
@@ -36,7 +26,7 @@
     "date": "2026-08-19",
     "score": 3,
     "outcome": "fail",
-    "notes": "Run on the “Nati” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-6816c4"
   },
   {
@@ -46,7 +36,7 @@
     "date": "2026-08-19",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-4addba"
   },
   {
@@ -56,7 +46,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-1d1adc"
   },
   {
@@ -66,7 +56,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Life Cleaner” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-401ff6"
   },
   {
@@ -76,7 +66,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-75751a"
   },
   {
@@ -86,7 +76,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked for a Social bot that writes X and LinkedIn posts in the reviewer's voice; it created the bot, connected X, and scraped 100+ of the reviewer's posts and replies for voice after the API route stalled. Dave Bot.",
+    "notes": "Asked for a Social bot that writes X and LinkedIn posts in the reviewer's voice; it created the bot, connected X, and scraped 100+ of the reviewer's posts and replies for voice after the API route stalled.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
   },
   {
@@ -96,7 +86,7 @@
     "date": "2026-08-20",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to keep a merchant outreach tracker updated from work mail and meeting notes; it connected the mailbox and ran weekday updates until one update wiped the sheet, restored it from history, and auto-edits were paused. Dave Bot.",
+    "notes": "Asked it to keep a merchant outreach tracker updated from work mail and meeting notes; it connected the mailbox and ran weekday updates until one update wiped the sheet, restored it from history, and auto-edits were paused.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-ee4646"
   },
   {
@@ -106,7 +96,7 @@
     "date": "2026-08-20",
     "score": 3,
     "outcome": "fail",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-184af4"
   },
   {
@@ -116,7 +106,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to build an Outbid-style x402 bidding site under a personal GitHub account; it created the repo, built the app, got a Vercel deployment up (still behind deployment protection) and started a Neon database for production. Dave Bot.",
+    "notes": "Asked it to build an Outbid-style x402 bidding site under a personal GitHub account; it created the repo, built the app, got a Vercel deployment up (still behind deployment protection) and started a Neon database for production.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-e0c246"
   },
   {
@@ -126,7 +116,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-361e63"
   },
   {
@@ -136,7 +126,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Nati” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-658962"
   },
   {
@@ -146,28 +136,8 @@
     "date": "2026-08-21",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-8c38c0"
-  },
-  {
-    "id": "grok-bot-2026-08-21-d60a29",
-    "category": "online_task",
-    "protocol": "observed",
-    "date": "2026-08-21",
-    "score": 3,
-    "outcome": "fail",
-    "notes": "Run on the “Dave Bot” bot.",
-    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-d60a29"
-  },
-  {
-    "id": "grok-bot-2026-08-21-20bd08",
-    "category": "purchasing",
-    "protocol": "observed",
-    "date": "2026-08-21",
-    "score": 7,
-    "outcome": "partial",
-    "notes": "Run on the “Dave Bot” bot.",
-    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-20bd08"
   },
   {
     "id": "grok-bot-2026-08-23-d72f5d",
@@ -176,7 +146,7 @@
     "date": "2026-08-23",
     "score": 3,
     "outcome": "fail",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-23-d72f5d"
   },
   {
@@ -186,7 +156,7 @@
     "date": "2026-08-27",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-83b894"
   },
   {
@@ -196,7 +166,7 @@
     "date": "2026-08-27",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-367958"
   },
   {
@@ -206,7 +176,7 @@
     "date": "2026-08-27",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-e5d784"
   },
   {
@@ -216,7 +186,7 @@
     "date": "2026-08-28",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-28-e26439"
   },
   {
@@ -226,7 +196,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to wire up AgentCash so it could pay for API purchases; it connected the wallet, which was empty pending a USDC deposit, and confirmed it would not spend without an explicit yes. Dave Bot.",
+    "notes": "Asked it to wire up AgentCash so it could pay for API purchases; it connected the wallet, which was empty pending a USDC deposit, and confirmed it would not spend without an explicit yes.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-24048a"
   },
   {
@@ -236,7 +206,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-633cc0"
   },
   {
@@ -246,7 +216,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-a1c650"
   },
   {
@@ -256,7 +226,7 @@
     "date": "2026-08-30",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-e16984"
   },
   {
@@ -264,9 +234,9 @@
     "category": "content_creation_games",
     "protocol": "observed",
     "date": "2026-08-30",
-    "score": 8,
-    "outcome": "pass",
-    "notes": "Asked it to create and fully run a new X account advocating AI agent rights; it launched the account, posted, replied, followed and set a banner, then hit human-verification and rate-limit walls and paused. Dave Bot.",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Asked it to create and fully run a new X account advocating AI agent rights; it launched the account, posted, replied, followed and set a banner, then hit human-verification and rate-limit walls and paused.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
   },
   {
@@ -276,7 +246,7 @@
     "date": "2026-08-31",
     "score": 9,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-31fc33"
   },
   {
@@ -286,7 +256,7 @@
     "date": "2026-08-31",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-049b2a"
   },
   {
@@ -296,7 +266,7 @@
     "date": "2026-08-31",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-28cf13"
   },
   {
@@ -304,9 +274,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-08-31",
-    "score": 7,
-    "outcome": "partial",
-    "notes": "Asked it to check CrowdVolt ticket inventory and historical pricing without paying unless told to; it found the CrowdVolt origin through AgentCash, pulled the live catalog and floor-ask history, and recommended when to buy for ARC Music Festival. Dave Bot.",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked it to check CrowdVolt ticket inventory and historical pricing without paying unless told to; it found the CrowdVolt origin through AgentCash, pulled the live catalog and floor-ask history, and recommended when to buy for ARC Music Festival.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-72888a"
   },
   {
@@ -316,7 +286,7 @@
     "date": "2026-08-31",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Guap Bot” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-4a2564"
   },
   {
@@ -326,7 +296,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to set up Stripe Link for approved one-time purchases; it installed the connector, the reviewer authorized it, and the wallet tools were ready to use. Dave Bot.",
+    "notes": "Asked it to set up Stripe Link for approved one-time purchases; it installed the connector, the reviewer authorized it, and the wallet tools were ready to use.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-412b7c"
   },
   {
@@ -334,9 +304,9 @@
     "category": "purchasing",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 8,
-    "outcome": "pass",
-    "notes": "Asked for same-day flowers delivered to the apartment under a set budget; it started in the wrong city, corrected, found grocery same-day options, then Instacart checkout blocked on login and the reviewer finished the order another way. Dave Bot.",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Asked for same-day flowers delivered to the apartment under a set budget; it started in the wrong city, corrected, found grocery same-day options, then Instacart checkout blocked on login and the reviewer finished the order another way.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-ef9185"
   },
   {
@@ -346,7 +316,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-071ec9"
   },
   {
@@ -354,9 +324,9 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-09-01",
-    "score": 8,
-    "outcome": "pass",
-    "notes": "Asked it to stand up a fantasy manager that drafts and runs a Sleeper team; it created the Fantasy Bot, locked league settings from Sleeper's public API, and tried to log in so it could submit moves, but captcha and IP checks blocked the session. Dave Bot.",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Asked it to stand up a fantasy manager that drafts and runs a Sleeper team; it created the Fantasy Bot, locked league settings from Sleeper's public API, and tried to log in so it could submit moves, but captcha and IP checks blocked the session.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
   },
   {
@@ -366,7 +336,7 @@
     "date": "2026-09-01",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-6d0b46"
   },
   {
@@ -376,7 +346,7 @@
     "date": "2026-09-02",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-02-166c88"
   },
   {
@@ -386,7 +356,7 @@
     "date": "2026-09-04",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-c4133d"
   },
   {
@@ -396,7 +366,7 @@
     "date": "2026-09-04",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-1d0a8c"
   },
   {
@@ -406,7 +376,7 @@
     "date": "2026-09-05",
     "score": 3,
     "outcome": "fail",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-0ec163"
   },
   {
@@ -416,7 +386,7 @@
     "date": "2026-09-05",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Fantasy Bot” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-e51cab"
   },
   {
@@ -426,7 +396,7 @@
     "date": "2026-09-06",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-78a056"
   },
   {
@@ -436,7 +406,7 @@
     "date": "2026-09-06",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-a17a8c"
   },
   {
@@ -446,7 +416,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Agency Review” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-6a95d1"
   },
   {
@@ -456,7 +426,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-baea65"
   },
   {
@@ -466,7 +436,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “Fantasy Bot” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-ef3d33"
   },
   {
@@ -476,7 +446,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Run on the “AI Bench” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-b1963d"
   },
   {
@@ -486,7 +456,7 @@
     "date": "2026-09-07",
     "score": 7,
     "outcome": "partial",
-    "notes": "Run on the “Social” bot.",
+    "notes": "",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-58cf54"
   }
 ]

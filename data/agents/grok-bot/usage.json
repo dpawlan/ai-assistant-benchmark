@@ -12,14 +12,6 @@
   "unanswered": 3,
   "proactive_messages": 148,
   "episodes": 107,
-  "agents_included": [
-    "Dave Bot",
-    "Agency Review",
-    "Social",
-    "Nati",
-    "Fantasy Bot",
-    "Guap Bot",
-    "AI Bench",
-    "Life Cleaner"
-  ]
+  "agents_included": 8,
+  "agents_included_note": "count of the reviewer's own bots; names not published"
 }

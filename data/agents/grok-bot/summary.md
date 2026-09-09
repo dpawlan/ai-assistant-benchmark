@@ -23,3 +23,12 @@ _Updated 2026-09-08 weekday vault scan (+1 rows)._
 
 **New this scan:**
 - (2026-09-08) @tyhho0: WE'RE BUILDING GROKBOT X NOTION  Connect your Codex/Claude and: - Let us handle orchestration of work. - Let work be built through harnessed
+
+_Updated 2026-09-09 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-08-12) jjcm: I've been using it for the last month or so. IMO in the same way we went from tab complete -> prompts -> agents, this feels like a next step
+- (2026-08-13) thenbrent: It was the software updates that prevented OpenClaw working for me. OpenClaw broke every update for a month, so I gave up and moved to Herme
+- (2026-08-12) dgellow: Are you all comfortable with the idea of agents running non stop with access to all your accounts? I would be so anxious all the time, think
+- (2026-08-13) ares623: But then whoever added them to the IDP becomes accountable for what the bots do.  By hijacking a real person's credentials, that person beco
+- (2026-08-28) @chrisalarcon: I am on the $100 SuperGrok Plus plan, and I spent the week attacking my own gaps. Three builds:  A mini marketing team that watches my analy

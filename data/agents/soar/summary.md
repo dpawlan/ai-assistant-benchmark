@@ -16,3 +16,8 @@ Site: https://joinsoar.co/
 - [use-case] @stannostudio: Soar app finding your travel history during onboarding 🌏⏳ @soarapp
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-09 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-08-09) Casey Mead: Hey Stanley! App looks cool! It links through Google though and I get nervous giving access to Gmail - is this how it pulls in all the booki

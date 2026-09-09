@@ -31,3 +31,8 @@ _Updated 2026-09-08 weekday vault scan (+14 rows)._
 - (2026-09-03) u/Sudden-Click-8409: I am new to Instinct this week. Have you guys been experiencing no responses? It will read my texts but just ghost me. Sometimes it will res
 - (2026-09-02) u/maxobes: Two days ago Instinct hit a 12-hour stretch where responses ran 3-5x slower due to new users flooding in faster than capacity.   Noah posted
 - (2026-09-04) u/zazuaza: It works well! It’s very accurate. It does take a few minutes transcribing
+
+_Updated 2026-09-09 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-08-24) sarahperez: Everyone is buzzing about Instinct, an AI personal assistant still in private access, not only for its incredible capabilities, but also for

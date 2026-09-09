@@ -18,3 +18,9 @@ _Updated 2026-09-08 weekday vault scan (+1 rows)._
 
 **New this scan:**
 - (2026-09-07) @paulbz: love to try.. appears to not be available in UK
+
+_Updated 2026-09-09 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-02) chest: In just 5 months since first trying it, Miso has booked me on 37 flights across 10 airlines, 35 airports, 4 continents while handling 12 cha
+- (2026-09-02) srulianatian: I've been following Miso from day one and this is an incredible product. I travel a ton and I'm borderline religious about using points and 

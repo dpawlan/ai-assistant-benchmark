@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-09-09-5e5f6c",
+  "agent": "wajo-fo",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 24,
+    "my_messages": 7,
+    "agent_messages": 17,
+    "first_reply_s": 8,
+    "duration_min": 64,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T16:11:03.076Z"
+}

@@ -1425,7 +1425,9 @@
       "hn_queries": [
         "\"zapia.com\""
       ],
-      "appstore_ids": [],
+      "appstore_ids": [
+        6470821480
+      ],
       "ph_slug": null,
       "match": [
         "zapia.com",
@@ -1434,7 +1436,7 @@
         "zapia_ai"
       ],
       "imessage_handles": [],
-      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+      "_note": "Added 2026-09-09 from a request-form submission. App Store id verified (BrainLogic AI, sellerUrl zapia.com)."
     },
     "bloome": {
       "name": "Bloome",
@@ -1566,7 +1568,9 @@
       "hn_queries": [
         "\"today.ai\""
       ],
-      "appstore_ids": [],
+      "appstore_ids": [
+        6760608312
+      ],
       "ph_slug": null,
       "match": [
         "today.ai",
@@ -1575,7 +1579,7 @@
         "todayai"
       ],
       "imessage_handles": [],
-      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+      "_note": "Added 2026-09-09 from a request-form submission. App Store id verified (Today AI PTE. LTD., sellerUrl today.ai). Name collides with many 'today' apps."
     },
     "migoo": {
       "name": "Migoo",

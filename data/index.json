@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-09",
   "agent_count": 54,
-  "feedback_count": 2573,
+  "feedback_count": 2593,
   "confirmed": 40,
   "stretch": 14,
   "agents": [
@@ -1029,7 +1029,7 @@
       "name": "Today",
       "status": "confirmed",
       "site": "https://today.ai/",
-      "feedback_count": 0,
+      "feedback_count": 1,
       "public_signal": "low",
       "tagline": "The assistant that knows you, and acts before you ask",
       "icon": "/logos/today.png",
@@ -1166,7 +1166,7 @@
       "name": "Zapia",
       "status": "confirmed",
       "site": "https://zapia.com/",
-      "feedback_count": 0,
+      "feedback_count": 19,
       "public_signal": "low",
       "tagline": "The AI that gets things done for you",
       "icon": "/logos/zapia.png",

@@ -66,10 +66,14 @@ function CategoryRow({ category, n, task, agents }: { category: Category; n: num
       <span className="cat-num">{n}</span>
       <span className="cat-body">
         <span className="cat-label">{category.label}</span>
-        <span className="cat-desc">{task ? `Test: ${task}. ` : ''}{CATEGORY_DESCRIPTIONS[category.key] ?? ''}</span>
+        <span className="cat-desc">{task ? `Test: ${task}. ` : ''}{CATEGORY_DESCRIPTIONS[category.key] ?? ''}{category.scored === false ? ' Subjective, so it is read from public quotes rather than scored.' : ''}</span>
       </span>
       <span className="row-slot">
-        <span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span>
+        {category.scored === false ? (
+          <span className="pill muted">Public opinion only</span>
+        ) : (
+          <span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span>
+        )}
       </span>
     </Link>
   );

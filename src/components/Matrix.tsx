@@ -61,6 +61,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const opinion = view === 'opinion';
+  const cols = opinion ? categories : categories.filter(c => c.scored !== false);
 
   const setKind = (k: string) => {
     setKindState(k);
@@ -136,7 +137,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <col className="c-name" />
             {!opinion && <col className="c-agg" />}
             <col className="c-agg" />
-            {categories.map(c => (
+            {cols.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
           </colgroup>
@@ -147,14 +148,14 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               </th>
               {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time in the reviewer’s own thread')}
               {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every dimension scored')}
-              {categories.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
+              {cols.map(c => header(c.key, short[c.key] ?? c.label, '', c.label))}
             </tr>
           </thead>
           {groups.map(group => (
             <tbody key={group.key}>
               {kind === 'all' && (
                 <tr className="mx-group">
-                  <th scope="rowgroup" colSpan={categories.length + (opinion ? 2 : 3)}>
+                  <th scope="rowgroup" colSpan={cols.length + (opinion ? 2 : 3)}>
                     {group.title}
                     <span className="mx-count">{group.rows.length}</span>
                   </th>
@@ -176,7 +177,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                   <td className={`mx-agg${sort === 'overall' ? ' sorted' : ''}`}>
                     {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.overall} aggregate />}
                   </td>
-                  {categories.map(c => (
+                  {cols.map(c => (
                     <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
                       {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
                     </td>

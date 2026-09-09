@@ -62,7 +62,13 @@ export default async function CategoryPage({ params }: Props) {
         <p className="page-sub">{CATEGORY_DESCRIPTIONS[key]}</p>
       </div>
 
-      {task && (
+      {category.scored === false && (
+        <p className="ag-sub" style={{ marginTop: 10 }}>
+          Personality is taste, so this dimension is not scored in the benchmark. The ranking below is public opinion only.
+        </p>
+      )}
+
+      {task && category.scored !== false && (
         <section className="task-card">
           <div className="task-head">
             <h2 className="ag-h2">The test: {task.task}</h2>
@@ -102,6 +108,7 @@ export default async function CategoryPage({ params }: Props) {
         </section>
       )}
 
+      {category.scored !== false && (
       <section className="shelf">
         <h2 className="shelf-title">
           <span className="shelf-head">Ranking</span>
@@ -132,6 +139,7 @@ export default async function CategoryPage({ params }: Props) {
           </div>
         )}
       </section>
+      )}
 
       {opinion.length > 0 && (
         <section className="shelf">
@@ -164,7 +172,7 @@ export default async function CategoryPage({ params }: Props) {
         </section>
       )}
 
-      {untested.length > 0 && (
+      {category.scored !== false && untested.length > 0 && (
         <section className="shelf">
           <h2 className="shelf-title">
             <span className="shelf-head">Not yet tested</span>
@@ -180,7 +188,7 @@ export default async function CategoryPage({ params }: Props) {
         </section>
       )}
 
-      {na.length > 0 && (
+      {category.scored !== false && na.length > 0 && (
         <section className="shelf">
           <h2 className="shelf-title">
             <span className="shelf-head">Doesn&apos;t apply</span>

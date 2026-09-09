@@ -36,6 +36,8 @@ export interface Category {
   key: string;
   label: string;
   group: CategoryGroup;
+  /** false = public-opinion only; never scored in the benchmark (e.g. personality, which is taste). */
+  scored?: boolean;
 }
 
 /** The published test for one category. */

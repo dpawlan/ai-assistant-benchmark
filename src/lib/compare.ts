@@ -1,5 +1,5 @@
 import path from 'node:path';
-import { CATEGORY_SHORT, getAgentDetail, getAgents, getCategories } from './data';
+import { CATEGORY_SHORT, getAgentDetail, getAgents, getCategories, getScoredCategories } from './data';
 import { Agent } from './types';
 import { CompareRow, CompareSide, Comparison, decide, tallyRows } from './compare-shared';
 
@@ -44,7 +44,7 @@ function buildOrdered(aSlug: string, bSlug: string): Comparison | null {
   const a = getAgentDetail(aSlug);
   const b = getAgentDetail(bSlug);
   if (!a || !b || a.slug === b.slug) return null;
-  const rows: CompareRow[] = getCategories().map(c => ({
+  const rows: CompareRow[] = getScoredCategories().map(c => ({
     key: c.key,
     label: c.label,
     short: CATEGORY_SHORT[c.key] ?? c.label,

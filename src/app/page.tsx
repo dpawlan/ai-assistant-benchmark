@@ -1,4 +1,4 @@
-import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getLatestFeed, rankAgents } from '@/lib/data';
+import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
 import { BenchmarkStrip } from '@/components/BenchmarkStrip';
 import { LatestFeed } from '@/components/LatestFeed';
 import { Matrix } from '@/components/Matrix';
@@ -15,7 +15,7 @@ export default function HomePage() {
       <div className="page-head">
         <h1 className="page-title">Scorecard</h1>
         <p className="page-sub">
-          {index.agent_count} assistants, {categories.length} dimensions, one scale.
+          {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale.
         </p>
       </div>
 

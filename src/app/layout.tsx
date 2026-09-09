@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { Shell } from '@/components/Shell';
 import { Sidebar } from '@/components/Sidebar';
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
         <Shell sidebar={<Sidebar categories={categories} />} footer={<Footer index={index} />}>
           {children}
         </Shell>
+        <Analytics />
       </body>
     </html>
   );

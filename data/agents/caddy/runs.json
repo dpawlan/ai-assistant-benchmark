@@ -1,0 +1,12 @@
+[
+  {
+    "id": "caddy-2026-09-09-blooio-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Published travel task via Blooio iMessage from +16124259300 to Caddy +12064039093. Caddy started booking United flight 1008 LGA–ORD round-trip, collected TSA traveler details, found basic economy ~$340 under the $400 cap, flagged that guaranteeing aisle both ways added ~$78 (~$418 over cap) and asked; tester authorized aisle seats. Hit a United insurance widget Caddy could not automate; tester cleared \"no insurance\" in Caddy's shared browser and reached the Payment information screen. Stopped before entering card details or completing booking. Check-in/boarding pass not applicable until purchase.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-travel"
+  }
+]

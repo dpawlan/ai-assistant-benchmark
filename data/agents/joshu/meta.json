@@ -9,5 +9,19 @@
   "notes": "",
   "tagline": "An assistant with a desk: its own computer, phone and email",
   "icon": "/logos/joshu.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "$95/mo hosted, or self-host (open source)",
+    "regions": "US hosted",
+    "channels": [
+      "Email",
+      "Phone",
+      "Telegram",
+      "Slack",
+      "Teams",
+      "Desktop"
+    ],
+    "checked": "2026-09-09"
+  }
 }

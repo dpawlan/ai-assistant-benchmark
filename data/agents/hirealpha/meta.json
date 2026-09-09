@@ -11,5 +11,14 @@
   "public_signal": "low",
   "tagline": "Friend, coworker and cofounder as iMessage contacts",
   "icon": "/logos/hirealpha.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "$19/mo per persona",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage"
+    ],
+    "checked": "2026-09-09"
+  }
 }

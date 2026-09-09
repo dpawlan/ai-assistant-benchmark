@@ -18,5 +18,17 @@
   "public_signal": "medium",
   "tagline": "Cloud agents you talk to in Slack, email or iMessage",
   "icon": "/logos/skydive.png",
-  "kind": "work"
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Starter $20/mo · Team $200/mo, plus usage",
+    "regions": "Not stated",
+    "channels": [
+      "Slack",
+      "Email",
+      "iMessage",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

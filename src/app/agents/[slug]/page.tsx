@@ -12,6 +12,7 @@ import {
   getRelatedAgents,
   getScoredCategories,
   getTagMap,
+  PRICING_LABEL,
   productClassLabel,
   quoteCategories,
 } from '@/lib/data';
@@ -105,6 +106,10 @@ export default async function AgentPage({ params }: AgentPageProps) {
             )}
             <div className="ag-chips">
               <Link href={kindHref} className="chip blue">{kindLabel}</Link>
+              {agent.access && agent.access.pricing !== 'unknown' && (
+                <span className="chip" title={agent.access.price}>{PRICING_LABEL[agent.access.pricing]}</span>
+              )}
+              {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
               {productClass && <span className="chip">{productClass}</span>}
               {signal && <span className="chip">{signal}</span>}
             </div>
@@ -215,6 +220,24 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 <span className="il">Product class</span>
                 <span className="iv">{productClass}</span>
               </div>
+            )}
+            {agent.access && (
+              <>
+                <div className="info-row">
+                  <span className="il">Price</span>
+                  <span className={`iv wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
+                </div>
+                <div className="info-row">
+                  <span className="il">Where</span>
+                  <span className={`iv wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
+                </div>
+                {agent.access.channels.length > 0 && (
+                  <div className="info-row">
+                    <span className="il">Use it in</span>
+                    <span className="iv wrap">{agent.access.channels.join(', ')}</span>
+                  </div>
+                )}
+              </>
             )}
             <div className="info-row">
               <span className="il">Website</span>

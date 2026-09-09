@@ -1,0 +1,35 @@
+{
+  "slug": "bloome",
+  "name": "Bloome",
+  "site": "https://bloome.ai/",
+  "handles": [
+    "bloome",
+    "bloome_ai"
+  ],
+  "status": "stretch",
+  "product_class": "career_agent",
+  "notes": "Job-search agent in WhatsApp: reads postings, applies when the fit is strong, tracks interviews. Requested via the form (issue #11).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "proactive_behavior",
+    "third_party_integrations",
+    "memory",
+    "proactive_restraint",
+    "chained_tasks",
+    "running_routine"
+  ],
+  "public_signal": "low",
+  "tagline": "Your career agent in WhatsApp",
+  "icon": "/logos/bloome.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (10 applications) · Pro €39/mo · Ultra €99/mo",
+    "regions": "International; Europe-focused",
+    "channels": [
+      "WhatsApp"
+    ],
+    "checked": "2026-09-09"
+  }
+}

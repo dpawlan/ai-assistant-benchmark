@@ -9,5 +9,16 @@
   "notes": "",
   "tagline": "The AI personal assistant you text",
   "icon": "/logos/pally.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro $25/mo · Max $100/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "RCS (Android)"
+    ],
+    "checked": "2026-09-09"
+  }
 }

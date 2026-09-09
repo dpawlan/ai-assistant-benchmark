@@ -9,5 +9,15 @@
   "notes": "",
   "tagline": "Open-source assistant that lives in your iMessage thread",
   "icon": "/logos/openinstinct.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, MIT licensed; you pay your own hosting",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

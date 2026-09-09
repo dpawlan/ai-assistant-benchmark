@@ -12,5 +12,17 @@
   "public_signal": "medium",
   "tagline": "Personal assistant for appointments, on WhatsApp",
   "icon": "/logos/tinynature.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp",
+      "iMessage",
+      "Telegram",
+      "HumanPods earbuds"
+    ],
+    "checked": "2026-09-09"
+  }
 }

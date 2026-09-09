@@ -9,5 +9,18 @@
   "notes": "",
   "tagline": "Your admin savior: scheduling, email and calls",
   "icon": "/logos/catch.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "$99/mo, 10-day free trial",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "Slack",
+      "Email",
+      "Phone"
+    ],
+    "checked": "2026-09-09"
+  }
 }

@@ -19,5 +19,14 @@
   "public_signal": "low",
   "tagline": "One agent inside every tool you use",
   "icon": "/logos/lava.png",
-  "kind": "work"
+  "kind": "work",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "Desktop app (Mac, Windows)"
+    ],
+    "checked": "2026-09-09"
+  }
 }

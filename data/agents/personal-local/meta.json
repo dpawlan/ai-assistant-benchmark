@@ -11,5 +11,14 @@
   "notes": "",
   "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
   "icon": null,
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free software; you pay model and hosting costs",
+    "regions": "Not stated",
+    "channels": [
+      "Self-hosted"
+    ],
+    "checked": "2026-09-09"
+  }
 }

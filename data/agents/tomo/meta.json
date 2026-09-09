@@ -10,5 +10,16 @@
   "notes": "",
   "tagline": "The personal AI that lives in your texts",
   "icon": "/logos/tomo.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "From $7.99/wk or $49.99/yr; Pro $19.99/mo; 3-day trial",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "iOS app"
+    ],
+    "checked": "2026-09-09"
+  }
 }

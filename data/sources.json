@@ -1346,7 +1346,10 @@
       "name": "Muse",
       "handles": [
         "Meta",
-        "AIatMeta"
+        "AIatMeta",
+        "Muse",
+        "finkd",
+        "alexandr_wang"
       ],
       "domain": "muse.ai",
       "x_queries": [
@@ -1374,6 +1377,379 @@
       ],
       "imessage_handles": [],
       "_note": "Meta's Muse (2026-09-08). Name collides with the Muse music/other apps; queries pair it with Meta/agent. App Store id unknown at launch: run `collect find-apps --slug muse` in a few days."
+    },
+    "flip": {
+      "name": "Flip",
+      "handles": [
+        "fliptexts",
+        "freddy_0x"
+      ],
+      "domain": "fliptexts.com",
+      "x_queries": [
+        "\"fliptexts.com\"",
+        "\"Flip\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"fliptexts.com\"",
+        "\"Flip\" assistant"
+      ],
+      "hn_queries": [
+        "\"fliptexts.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "fliptexts.com",
+        "flip",
+        "fliptexts",
+        "freddy_0x"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "zapia": {
+      "name": "Zapia",
+      "handles": [
+        "zapia",
+        "zapia_ai"
+      ],
+      "domain": "zapia.com",
+      "x_queries": [
+        "\"zapia.com\"",
+        "\"Zapia\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"zapia.com\"",
+        "\"Zapia\" assistant"
+      ],
+      "hn_queries": [
+        "\"zapia.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "zapia.com",
+        "zapia",
+        "zapia",
+        "zapia_ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "bloome": {
+      "name": "Bloome",
+      "handles": [
+        "bloome",
+        "bloome_ai"
+      ],
+      "domain": "bloome.ai",
+      "x_queries": [
+        "\"bloome.ai\"",
+        "\"Bloome\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"bloome.ai\"",
+        "\"Bloome\" assistant"
+      ],
+      "hn_queries": [
+        "\"bloome.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "bloome.ai",
+        "bloome",
+        "bloome",
+        "bloome_ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "central": {
+      "name": "Central",
+      "handles": [
+        "trycentral"
+      ],
+      "domain": "trycentral.com",
+      "x_queries": [
+        "\"trycentral.com\"",
+        "\"Central\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"trycentral.com\"",
+        "\"Central\" assistant"
+      ],
+      "hn_queries": [
+        "\"trycentral.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "trycentral.com",
+        "central",
+        "trycentral"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "letta": {
+      "name": "Letta Agent",
+      "handles": [
+        "Letta_AI",
+        "letta"
+      ],
+      "domain": "letta.com",
+      "x_queries": [
+        "\"letta.com\"",
+        "\"Letta Agent\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"letta.com\"",
+        "\"Letta Agent\" assistant"
+      ],
+      "hn_queries": [
+        "\"letta.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "letta.com",
+        "letta agent",
+        "letta_ai",
+        "letta"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "milo": {
+      "name": "Milo",
+      "handles": [
+        "joinhexagon"
+      ],
+      "domain": "joinhexagon.com",
+      "x_queries": [
+        "\"joinhexagon.com\"",
+        "\"Milo\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"joinhexagon.com\"",
+        "\"Milo\" assistant"
+      ],
+      "hn_queries": [
+        "\"joinhexagon.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "joinhexagon.com",
+        "milo",
+        "joinhexagon"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "today": {
+      "name": "Today",
+      "handles": [
+        "today_ai",
+        "todayai"
+      ],
+      "domain": "today.ai",
+      "x_queries": [
+        "\"today.ai\"",
+        "\"Today\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"today.ai\"",
+        "\"Today\" assistant"
+      ],
+      "hn_queries": [
+        "\"today.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "today.ai",
+        "today",
+        "today_ai",
+        "todayai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "migoo": {
+      "name": "Migoo",
+      "handles": [
+        "migoo_ai",
+        "migooai"
+      ],
+      "domain": "migoo.ai",
+      "x_queries": [
+        "\"migoo.ai\"",
+        "\"Migoo\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"migoo.ai\"",
+        "\"Migoo\" assistant"
+      ],
+      "hn_queries": [
+        "\"migoo.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "migoo.ai",
+        "migoo",
+        "migoo_ai",
+        "migooai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "sunny": {
+      "name": "Sunny",
+      "handles": [
+        "trysunny",
+        "tejiebear"
+      ],
+      "domain": "trysunny.app",
+      "x_queries": [
+        "\"trysunny.app\"",
+        "\"Sunny\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"trysunny.app\"",
+        "\"Sunny\" assistant"
+      ],
+      "hn_queries": [
+        "\"trysunny.app\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "trysunny.app",
+        "sunny",
+        "trysunny",
+        "tejiebear"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "kai": {
+      "name": "Kai",
+      "handles": [
+        "morgen_so",
+        "hirekai"
+      ],
+      "domain": "hirekai.ai",
+      "x_queries": [
+        "\"hirekai.ai\"",
+        "\"Kai\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"hirekai.ai\"",
+        "\"Kai\" assistant"
+      ],
+      "hn_queries": [
+        "\"hirekai.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hirekai.ai",
+        "kai",
+        "morgen_so",
+        "hirekai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "the-shadow": {
+      "name": "The Shadow",
+      "handles": [
+        "theshadow_io",
+        "sophonlabs"
+      ],
+      "domain": "theshadow.io",
+      "x_queries": [
+        "\"theshadow.io\"",
+        "\"The Shadow\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"theshadow.io\"",
+        "\"The Shadow\" assistant"
+      ],
+      "hn_queries": [
+        "\"theshadow.io\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "theshadow.io",
+        "the shadow",
+        "theshadow_io",
+        "sophonlabs"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "ezail": {
+      "name": "Ezail",
+      "handles": [
+        "ezailhq"
+      ],
+      "domain": "ezail.com",
+      "x_queries": [
+        "\"ezail.com\"",
+        "\"Ezail\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"ezail.com\"",
+        "\"Ezail\" assistant"
+      ],
+      "hn_queries": [
+        "\"ezail.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "ezail.com",
+        "ezail",
+        "ezailhq"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "cheqq": {
+      "name": "Cheqq",
+      "handles": [
+        "cheqq",
+        "cheqq_ai",
+        "elvisduru"
+      ],
+      "domain": "cheqq.ai",
+      "x_queries": [
+        "\"cheqq.ai\"",
+        "\"Cheqq\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"cheqq.ai\"",
+        "\"Cheqq\" assistant"
+      ],
+      "hn_queries": [
+        "\"cheqq.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "cheqq.ai",
+        "cheqq",
+        "cheqq",
+        "cheqq_ai",
+        "elvisduru"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
     }
   },
   "_redact_terms": [

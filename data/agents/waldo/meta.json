@@ -13,5 +13,15 @@
   "public_signal": "low",
   "tagline": "Action layer for the human day",
   "icon": "/logos/waldo.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Free to start; Pro tier planned; waitlist",
+    "regions": "Not stated",
+    "channels": [
+      "App",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

@@ -12,5 +12,12 @@
   "public_signal": "unknown",
   "tagline": "Not yet verified as a product",
   "icon": null,
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [],
+    "checked": "2026-09-09"
+  }
 }

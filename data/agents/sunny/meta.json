@@ -1,0 +1,26 @@
+{
+  "slug": "sunny",
+  "name": "Sunny",
+  "site": "https://trysunny.app/",
+  "handles": [
+    "trysunny",
+    "tejiebear"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Text-only assistant with its own phone number: email, calendar, reminders and routines, and it shows every email before it sends. Requested via the form (issue #18).",
+  "public_signal": "low",
+  "tagline": "The assistant you text",
+  "icon": null,
+  "kind": "email",
+  "access": {
+    "pricing": "paid",
+    "price": "$500/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS"
+    ],
+    "checked": "2026-09-09"
+  }
+}

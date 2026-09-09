@@ -16,5 +16,16 @@
   "public_signal": "low",
   "tagline": "Talk or type; it gets things done",
   "icon": "/logos/pneum.png",
-  "kind": "infra"
+  "kind": "infra",
+  "access": {
+    "pricing": "paid",
+    "price": "From $5.99/mo plus usage",
+    "regions": "Not stated",
+    "channels": [
+      "Voice",
+      "Web",
+      "Android app (alpha)"
+    ],
+    "checked": "2026-09-09"
+  }
 }

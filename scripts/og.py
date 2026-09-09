@@ -92,7 +92,9 @@ def card(mark, title, subtitle, out, title_size=72):
 def main():
     os.makedirs(OUT, exist_ok=True)
     index = json.load(open(os.path.join(ROOT, 'data', 'index.json')))
-    card(bubble_mark(200), 'Assistant Benchmark', f"{index['agent_count']} assistants, 14 tests, one scale.", os.path.join(OUT, 'site.png'))
+    cats = json.load(open(os.path.join(ROOT, 'data', 'categories.json')))
+    scored = sum(1 for c in cats if c.get('scored', True))
+    card(bubble_mark(200), 'Assistant Benchmark', f"{index['agent_count']} assistants, {scored} tests, one scale.", os.path.join(OUT, 'site.png'))
     print('site.png')
     for a in index['agents']:
         icon = os.path.join(ROOT, 'public', a['icon'].lstrip('/')) if a.get('icon') else None

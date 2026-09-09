@@ -11,5 +11,15 @@
   "public_signal": "high",
   "tagline": "Personal AI travel agent, over iMessage",
   "icon": "/logos/miso.png",
-  "kind": "travel"
+  "kind": "travel",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Waitlist; premium concierge",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage (Messages for Business)",
+      "iOS app"
+    ],
+    "checked": "2026-09-09"
+  }
 }

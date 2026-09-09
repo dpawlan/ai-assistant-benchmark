@@ -9,5 +9,17 @@
   "notes": "",
   "tagline": "AI that handles your chores in the physical world",
   "icon": "/logos/asmi.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free at launch",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "WhatsApp",
+      "iMessage",
+      "Phone"
+    ],
+    "checked": "2026-09-09"
+  }
 }

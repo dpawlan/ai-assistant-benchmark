@@ -10,5 +10,18 @@
   "notes": "",
   "tagline": "An assistant that knows you deeply and belongs to no one else",
   "icon": "/logos/vellum.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "credits",
+    "price": "Free credits to start; plans from $30/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Web",
+      "macOS",
+      "iOS",
+      "Slack",
+      "Telegram"
+    ],
+    "checked": "2026-09-09"
+  }
 }

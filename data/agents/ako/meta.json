@@ -21,5 +21,16 @@
   "public_signal": "low",
   "tagline": "An AI employee for your team, with its own email and workspace",
   "icon": "/logos/ako.png",
-  "kind": "work"
+  "kind": "work",
+  "access": {
+    "pricing": "credits",
+    "price": "Self-serve, credits",
+    "regions": "Not stated",
+    "channels": [
+      "Slack",
+      "WhatsApp",
+      "Email"
+    ],
+    "checked": "2026-09-09"
+  }
 }

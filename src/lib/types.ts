@@ -140,6 +140,15 @@ export interface Feedback {
   notes: string;
 }
 
+/** How you get it and what it costs, checked by hand on `checked`. */
+export interface Access {
+  pricing: 'free' | 'freemium' | 'paid' | 'credits' | 'per-order' | 'waitlist' | 'open-source' | 'unknown';
+  price: string;
+  regions: string;
+  channels: string[];
+  checked: string;
+}
+
 export interface AgentMeta {
   slug: string;
   name: string;
@@ -152,8 +161,9 @@ export interface AgentMeta {
   likely_applicable?: string[];
   tagline?: string;
   icon?: string | null;
-  /** Peer group: general | travel | email | shopping | games | work | infra. */
+  /** Peer group: general | travel | email | finance | shopping | games | work | infra. */
   kind?: string;
+  access?: Access;
 }
 
 export interface AgentScores {
@@ -170,6 +180,7 @@ export interface RosterEntry {
   tagline?: string;
   icon?: string | null;
   kind?: string;
+  access?: Access;
 }
 
 export interface IndexData {
@@ -192,6 +203,7 @@ export interface Agent {
   icon: string | null;
   /** Peer group; see src/lib/kinds.ts. */
   kind: string;
+  access: Access | null;
   /** Derived per-category scores: latest run wins, then scores.json, then N/A pre-fill for stretch products. */
   scores: AgentScores;
   /** Latest run per category, when one exists. */

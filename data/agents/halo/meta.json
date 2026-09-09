@@ -20,5 +20,14 @@
   ],
   "tagline": "Automate your life, right from your iPhone",
   "icon": "/logos/halo.png",
-  "kind": "infra"
+  "kind": "infra",
+  "access": {
+    "pricing": "paid",
+    "price": "$49 one-time (early bird), 7-day trial; launching soon",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app"
+    ],
+    "checked": "2026-09-09"
+  }
 }

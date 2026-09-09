@@ -309,6 +309,7 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     tagline: entry.tagline ?? '',
     icon: entry.icon ?? null,
     kind: entry.kind ?? 'general',
+    access: entry.access ?? null,
     ...deriveScores(entry, meta, categories),
     ...deriveOpinion(entry.slug, categories),
     usage: getUsage(entry.slug),
@@ -503,6 +504,17 @@ export function getLatestFeed(limit = 10, perAgent = 2, maxRuns = 4): FeedItem[]
   items.sort((a, b) => (b.date || '').localeCompare(a.date || '') || (a.kind === b.kind ? 0 : a.kind === 'run' ? -1 : 1));
   return items.slice(0, limit);
 }
+
+export const PRICING_LABEL: Record<string, string> = {
+  free: 'Free',
+  freemium: 'Free tier',
+  paid: 'Paid',
+  credits: 'Pay as you go',
+  'per-order': 'Per order',
+  waitlist: 'Waitlist',
+  'open-source': 'Open source',
+  unknown: 'Not stated',
+};
 
 export function displayDomain(site: string | null | undefined): string | null {
   if (!site) return null;

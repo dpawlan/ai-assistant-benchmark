@@ -1,0 +1,39 @@
+{
+  "slug": "central",
+  "name": "Central",
+  "site": "https://trycentral.com/",
+  "handles": [
+    "trycentral"
+  ],
+  "status": "stretch",
+  "product_class": "business_receptionist",
+  "notes": "AI receptionist and chat agent for businesses: answers calls and messages, qualifies leads, books, updates the CRM. Requested via the form (issue #12) with a link to its Ask Central assistant.",
+  "likely_applicable": [
+    "phone_calls",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "chained_tasks",
+    "online_task"
+  ],
+  "public_signal": "low",
+  "tagline": "Convert every customer, on every channel",
+  "icon": "/logos/central.png",
+  "kind": "work",
+  "access": {
+    "pricing": "unknown",
+    "price": "Book a demo for pricing",
+    "regions": "Not stated",
+    "channels": [
+      "Phone",
+      "SMS",
+      "WhatsApp",
+      "Web chat",
+      "Email",
+      "Instagram",
+      "Messenger",
+      "Web app"
+    ],
+    "checked": "2026-09-09"
+  }
+}

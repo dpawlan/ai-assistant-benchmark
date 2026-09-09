@@ -10,5 +10,16 @@
   "notes": "",
   "tagline": "xAI's Grok with real-time answers from the web and X",
   "icon": "/logos/grok-bot.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "Beta with SuperGrok Heavy ($300/mo)",
+    "regions": "Not stated",
+    "channels": [
+      "App",
+      "Web",
+      "X"
+    ],
+    "checked": "2026-09-09"
+  }
 }

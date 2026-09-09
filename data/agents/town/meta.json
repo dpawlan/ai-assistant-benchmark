@@ -10,5 +10,20 @@
   "notes": "",
   "tagline": "The assistant that learns how you work, then gets to work",
   "icon": "/logos/town.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (30 msgs/mo) · $15 · $49 · $99 · $199/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "Telegram",
+      "Slack",
+      "Email",
+      "iOS",
+      "macOS"
+    ],
+    "checked": "2026-09-09"
+  }
 }

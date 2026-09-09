@@ -1,0 +1,25 @@
+{
+  "slug": "the-shadow",
+  "name": "The Shadow",
+  "site": "https://theshadow.io/",
+  "handles": [
+    "theshadow_io",
+    "sophonlabs"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "WhatsApp assistant that runs a private cloud browser to handle bookings, shopping, forms and admin end to end. Requested via the form (issue #20).",
+  "public_signal": "low",
+  "tagline": "Life admin. Handled.",
+  "icon": "/logos/the-shadow.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp"
+    ],
+    "checked": "2026-09-09"
+  }
+}

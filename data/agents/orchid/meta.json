@@ -10,5 +10,18 @@
   "notes": "",
   "tagline": "A personal assistant that lives in your messages",
   "icon": "/logos/orchid.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start; paid plans",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Web",
+      "iOS",
+      "macOS"
+    ],
+    "checked": "2026-09-09"
+  }
 }

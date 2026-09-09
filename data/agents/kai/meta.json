@@ -1,0 +1,27 @@
+{
+  "slug": "kai",
+  "name": "Kai",
+  "site": "https://hirekai.ai/",
+  "handles": [
+    "morgen_so",
+    "hirekai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Executive assistant from the Morgen team: reads email, listens to meetings, watches the calendar and drafts replies and recaps. Requested via the form (issue #19).",
+  "public_signal": "low",
+  "tagline": "Your AI executive assistant, by Morgen",
+  "icon": "/logos/kai.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Free to try; $50/user/mo during beta ($100 at launch)",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-09-09"
+  }
+}

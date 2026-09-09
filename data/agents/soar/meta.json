@@ -10,5 +10,15 @@
   "notes": "",
   "tagline": "Your personal travel companion",
   "icon": "/logos/soar.png",
-  "kind": "travel"
+  "kind": "travel",
+  "access": {
+    "pricing": "free",
+    "price": "Free during beta; paid plans to follow",
+    "regions": "225+ countries",
+    "channels": [
+      "SMS",
+      "iOS app"
+    ],
+    "checked": "2026-09-09"
+  }
 }

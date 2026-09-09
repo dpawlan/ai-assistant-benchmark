@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-09-09-eb0615",
+  "agent": "wajo-fo",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 6,
+    "my_messages": 2,
+    "agent_messages": 4,
+    "first_reply_s": 34,
+    "duration_min": 6,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T17:56:56.319Z"
+}

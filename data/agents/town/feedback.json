@@ -1,5 +1,38 @@
 [
   {
+    "id": "8d9089a2ac22",
+    "agent": "town",
+    "quote": "It's the best I've tried yet!",
+    "author": "@NoamTenne",
+    "author_name": "Noam Tenne \ud83c\udfdc\ufe0f",
+    "date": "2026-09-09",
+    "url": "https://x.com/NoamTenne/status/2097593150701216124",
+    "kind": "praise",
+    "tags": [
+      "praise"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Direct reply about Town; brief but explicit comparative praise."
+  },
+  {
+    "id": "fb7535462134",
+    "agent": "town",
+    "quote": "Definitely thinking about checking out @TownAI, any tips I should know?",
+    "author": "@theZackStevens",
+    "author_name": "Zack",
+    "date": "2026-09-08",
+    "url": "https://x.com/theZackStevens/status/2097184747399340408",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "29cfab229a7e",
     "agent": "town",
     "quote": "Astra. Let's see what we can cook up. I have been onboarding my fam onto a self-built calendar bc they are too cooked to use Gcal lol, and we kept on confusing plans via WhatsApp.",
@@ -38,11 +71,121 @@
     "notes": "Commentary on Town family-onboarding traction and an unmet FamilyOS opportunity."
   },
   {
+    "id": "2f45b34119ac",
+    "agent": "town",
+    "quote": "@jhuber @TownAI That would be a no brainer worth it.",
+    "author": "@srikosuri",
+    "author_name": "Sri Kosuri",
+    "date": "2026-09-08",
+    "url": "https://x.com/srikosuri/status/2097158739111354539",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "f6870b8b6959",
+    "agent": "town",
+    "quote": "Imo, those that could win are those hyperpersonalized to a \"vertical\"\n\nStill bullish on: \n\n@TownAI\n\n\n@heyollieai\n\nVoice anyone? (@tommaxxing)\nThose working on this w unique hardware",
+    "author": "@sebtsaii",
+    "author_name": "Sebastian Tsai \ud83c\udf88",
+    "date": "2026-09-08",
+    "url": "https://x.com/sebtsaii/status/2097495159332098405",
+    "kind": "comparison",
+    "tags": [
+      "hyperpersonalization",
+      "vertical",
+      "voice",
+      "hardware"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Independent post says the author is still bullish on Town among vertically focused assistants."
+  },
+  {
+    "id": "5ab3913fcb34",
+    "agent": "town",
+    "quote": "Love the onboarding experience from @TownAI https://t.co/VRIZqlJ6UX",
+    "author": "@matjurena",
+    "author_name": "MJ",
+    "date": "2026-09-08",
+    "url": "https://x.com/matjurena/status/2097259217858007244",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "688b3c3576a9",
+    "agent": "town",
+    "quote": "@srikosuri Based on @TownAI precedent, $49/mo.",
+    "author": "@jhuber",
+    "author_name": "Jeff Huber \ud83c\uddfa\ud83c\uddf8",
+    "date": "2026-09-08",
+    "url": "https://x.com/jhuber/status/2097158254958895230",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "09d144323a09",
+    "agent": "town",
+    "quote": "@Anurag_Gup @TownAI We've got a lot of nice things coming your way at @TownAI over the coming week or two!",
+    "author": "@jgreze",
+    "author_name": "Jean-Denis Greze \ud83d\udca1",
+    "date": "2026-09-08",
+    "url": "https://x.com/jgreze/status/2097178013888844151",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "b03d5cce9677",
+    "agent": "town",
+    "quote": "@PeterDaggett @vocaleo_agent @TownAI @bot @claudeai @ChatGPT \ud83d\udc4b\ud83c\udffc",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-08",
+    "url": "https://x.com/hazhubble/status/2097133289689481367",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "a25257a38085",
     "agent": "town",
-    "quote": "familyOS sounds amazing. as per usual, the question is “who is building that?”",
+    "quote": "familyOS sounds amazing. as per usual, the question is \u201cwho is building that?\u201d",
     "author": "@arukanism",
-    "author_name": "aru (๑˃̵ᴗ˂̵)",
+    "author_name": "aru (\u0e51\u02c3\u0335\u1d17\u02c2\u0335)",
     "date": "2026-09-08",
     "url": "https://x.com/arukanism/status/2097287050005270771",
     "kind": "comparison",
@@ -54,6 +197,420 @@
     "source": "x",
     "collected_at": "2026-09-08T14:14:17Z",
     "notes": "Reply in the TownAI family-assistant discussion highlighting the missing product."
+  },
+  {
+    "id": "9be164dc2650",
+    "agent": "town",
+    "quote": "@Meta released Muse today, a personal agent competing with Instinct / @TownAI / @bot. One very notable thing it does differently than the rest is payment protection. If you have a \"bad bot\" moment (and we all will) it will cover you.\n\nI still think this is @Google and @Apple's golden opportunity, but Meta (FB, Insta, Whatsapp) has a deep running start on personalization, cheap compute, third + more advantage on things like password integrations, and deep pockets to ease people into trusting their bot for commerce. It's been a day.",
+    "author": "@armenberjikly",
+    "author_name": "Armen Berjikly",
+    "date": "2026-09-08",
+    "url": "https://x.com/armenberjikly/status/2097498018828468651",
+    "kind": "comparison",
+    "tags": [
+      "payment-protection",
+      "commerce",
+      "personalization",
+      "password-integrations"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Compares Muse with Town and highlights payment protection as a differentiator in personal agents."
+  },
+  {
+    "id": "64e613cf3e7f",
+    "agent": "town",
+    "quote": "@hazhubble @vocaleo_agent @TownAI @bot @claudeai @ChatGPT Shipped! https://t.co/868mEWg5hu",
+    "author": "@PeterDaggett",
+    "author_name": "Peter Daggett",
+    "date": "2026-09-08",
+    "url": "https://x.com/PeterDaggett/status/2097152855807254615",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.227Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "e351a9eb2991",
+    "agent": "town",
+    "quote": "@KanyeWestJS @TownAI @noahrshinn Havent tried town - tbh instinct being free and providing value right away is smart",
+    "author": "@NWischoff",
+    "author_name": "Nichole Wischoff",
+    "date": "2026-09-08",
+    "url": "https://x.com/NWischoff/status/2097119940884963407",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "180e1b663c2c",
+    "agent": "town",
+    "quote": "Weekend of AI assistants, found that I\u2019m starting to find strengths of each.\n\ninstinct ai got me a last minute reservation (75 minutes before the time), something neither Amex or Chase could do. Also the only assistant that I trust to check out\n\n@TownAI is one I\u2019ve paid for a few months and I\u2019ve found I trust it the most to write emails and remind me of deadlines.\n\nHaven\u2019t tried @bot yet, but high on the list after the new plan",
+    "author": "@Anurag_Gup",
+    "author_name": "Anurag Gupta",
+    "date": "2026-09-08",
+    "url": "https://x.com/Anurag_Gup/status/2097124327091286382",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "1909753728c0",
+    "agent": "town",
+    "quote": "When friends collaborate\n\n@jgreze \ud83e\udd1d @HarryStebbings\n\nJDG of @TownAI shares his perspective on competitive dynamics with the frontier models, Apple, Google and newcomers to the AI assistants space.\n\nHe also talks about my favorite subject: agent-to-agent (A2A) network effects.",
+    "author": "@soleio",
+    "author_name": "Soleio",
+    "date": "2026-09-07",
+    "url": "https://x.com/soleio/status/2097109798965633400",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "c939c2970a7c",
+    "agent": "town",
+    "quote": "@chowtato @TownAI The idea of letting multiple AI agents coordinate group schedules is chaos, but I honestly need to see how that turns out. Please update us on the inevitable drama.",
+    "author": "@sirshibaninja",
+    "author_name": "Colbert",
+    "date": "2026-09-07",
+    "url": "https://x.com/sirshibaninja/status/2097089278144843789",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "d8137a6baebc",
+    "agent": "town",
+    "quote": "@DavidPawlan Interested! maybe you could add @bot, @TownAI and Duckbill",
+    "author": "@kylemissionai",
+    "author_name": "Kyle G",
+    "date": "2026-09-07",
+    "url": "https://x.com/kylemissionai/status/2096991123164266695",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "7db007e309c6",
+    "agent": "town",
+    "quote": "@jgreze @CamiloBAcosta @TownAI i'd also love to be able to set a default mode - eg do 99% of my tasks on always allow &amp; on iOS app it's a pain bc the keyboard obscures the toggle.",
+    "author": "@iamsebdeb",
+    "author_name": "Sebastiaan Debrouwere",
+    "date": "2026-09-07",
+    "url": "https://x.com/iamsebdeb/status/2096795369363644514",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "e27dbfd3af59",
+    "agent": "town",
+    "quote": "Having a lot of fun adding @TownAI to group chats. It responds pretty quickly and is holding its own with my friends trying to turn it against me.\n\nNext steps is have each friend add their own townie into group chats and make them coordinate our schedules together.\n\nDoes anyone know why it defaulted to Chinese? Feeling like Kimi might also be the underlying model here.\n\nI also added town to the assistant email Instinct uses and now they have shared access. Will be interesting to see how the agents interact with each other.",
+    "author": "@chowtato",
+    "author_name": "sarah \ud83d\ude3e",
+    "date": "2026-09-07",
+    "url": "https://x.com/chowtato/status/2097080005217968470",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "d05d1b30714e",
+    "agent": "town",
+    "quote": "@HarryStebbings I already have @TownAI and Poke and Timeglass running. So will be interesting to see.",
+    "author": "@Scobleizer",
+    "author_name": "Robert Scoble",
+    "date": "2026-09-07",
+    "url": "https://x.com/Scobleizer/status/2096866241428521212",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "7ffa6bb41a8b",
+    "agent": "town",
+    "quote": "we know a lot of you are loving @vocaleo_agent x instinct, but if you're not on instinct, you can still use it\n\nwe just added setup guides for @TownAI @bot @claudeai and @ChatGPT\n\nwhat else are we missing? https://t.co/FuIo71vZ0b",
+    "author": "@PeterDaggett",
+    "author_name": "Peter Daggett",
+    "date": "2026-09-07",
+    "url": "https://x.com/PeterDaggett/status/2097064458363293784",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "d4c52986f0a5",
+    "agent": "town",
+    "quote": "Today I set up @TownAI and Instinct @noahrshinn at the same time. The town setup was way better, and the integrations were super easy. The whole thing felt just really powerful. I think Instinct is trying to be simpler by just reducing it to a messaging app. Even though Town has more features and more ways of interacting with it, I feel like Instinct's multitasking ability is better. They feel very different from each other, yet I keep going back and forth in my mind as to which I like better. Town feels more professional and powerful, and Instinct feels almost overly simple and yet has a surprising amount of horsepower.",
+    "author": "@KanyeWestJS",
+    "author_name": "K\u039bNy\u039e\u26a1\ufe0f\u24c2\ufe0f\ud83d\udd78",
+    "date": "2026-09-07",
+    "url": "https://x.com/KanyeWestJS/status/2097101992980332890",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "e718b2578946",
+    "agent": "town",
+    "quote": "@Scobleizer @HarryStebbings @TownAI Would love to see a post from you in a few days comparing and contrasting them all",
+    "author": "@KanyeWestJS",
+    "author_name": "K\u039bNy\u039e\u26a1\ufe0f\u24c2\ufe0f\ud83d\udd78",
+    "date": "2026-09-07",
+    "url": "https://x.com/KanyeWestJS/status/2097084218010726602",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "d1ca8adfd333",
+    "agent": "town",
+    "quote": "\ud83d\udd25The 2-Minute Drill\ud83d\udd25 Top Tech Stories, analysis by\n@CrossoverVC\n\n\ud83d\udca1Stories: @owner / @CivilGrid / @EmeraldAi_ / @perplexity_ai / @TownAI https://t.co/b9II5pmA9A",
+    "author": "@CrossoverVC",
+    "author_name": "Crossover VC",
+    "date": "2026-09-07",
+    "url": "https://x.com/CrossoverVC/status/2096991208115413057",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.228Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "df9601bcf693",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI What do you think about Instinct?",
+    "author": "@zhen_do_ob",
+    "author_name": "Zhen",
+    "date": "2026-09-06",
+    "url": "https://x.com/zhen_do_ob/status/2096728706224169290",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "888d0ee805d3",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI Full autonomy is the bar. If it can find the address, draft it and send it. Asking me to hit send is theater.",
+    "author": "@techalexpr",
+    "author_name": "Tech Alex",
+    "date": "2026-09-06",
+    "url": "https://x.com/techalexpr/status/2096732961785647197",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "b2a8bdbcb246",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI It\u2019s the only way. But also the team noticed your tweet first which is even better!",
+    "author": "@jgreze",
+    "author_name": "Jean-Denis Greze \ud83d\udca1",
+    "date": "2026-09-06",
+    "url": "https://x.com/jgreze/status/2096748005051506941",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "15d9886de0a4",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI Thanks for the feedback @CamiloBAcosta. You're right on both the toggles, the need to find them on the first place, and also not being able to email support@. Consider it all done.",
+    "author": "@jgreze",
+    "author_name": "Jean-Denis Greze \ud83d\udca1",
+    "date": "2026-09-06",
+    "url": "https://x.com/jgreze/status/2096745100718264499",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "6eb8750288ff",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI Maybe they just don\u2019t want you to send them emails lol",
+    "author": "@angli_ai",
+    "author_name": "Ang Li",
+    "date": "2026-09-06",
+    "url": "https://x.com/angli_ai/status/2096721182380921129",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "ee6bb2247114",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI Try Slashy?",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-09-06",
+    "url": "https://x.com/GaddipatiHarsha/status/2096710113382093086",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "1a11eb7edb97",
+    "agent": "town",
+    "quote": "@CamiloBAcosta @TownAI Asking for the support email, then not sending it: peak intern energy.",
+    "author": "@FReza1984",
+    "author_name": "Fajar M Reza",
+    "date": "2026-09-06",
+    "url": "https://x.com/FReza1984/status/2096703678497579194",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "eb4b3c7a6070",
+    "agent": "town",
+    "quote": "@jgreze @TownAI The ultimate in support responsiveness! Love it when founder CEOs are hands on like this",
+    "author": "@CamiloBAcosta",
+    "author_name": "Camilo Acosta",
+    "date": "2026-09-06",
+    "url": "https://x.com/CamiloBAcosta/status/2096745659819008032",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
+    "id": "1e32a37e8668",
+    "agent": "town",
+    "quote": "@techalexpr @TownAI Why bother delegating if I have to do half the task anyway",
+    "author": "@CamiloBAcosta",
+    "author_name": "Camilo Acosta",
+    "date": "2026-09-06",
+    "url": "https://x.com/CamiloBAcosta/status/2096744270531330338",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.756Z",
+    "notes": "query: @TownAI | via x402atlas"
   },
   {
     "id": "07925aa66d65",
@@ -91,7 +648,7 @@
   {
     "id": "ca31a71d01a8",
     "agent": "town",
-    "quote": "Does Townie suck that much that you’d rather wait for Instinct? I haven’t tried it yet",
+    "quote": "Does Townie suck that much that you\u2019d rather wait for Instinct? I haven\u2019t tried it yet",
     "author": "@ebeezy_eth",
     "author_name": "ebeezy",
     "date": "2026-09-05",
@@ -106,9 +663,27 @@
     "notes": "third-party: does Townie suck enough to wait for Instinct?"
   },
   {
+    "id": "7123fe18baeb",
+    "agent": "town",
+    "quote": "@DavidPawlan @TownAI",
+    "author": "@SamastVarma",
+    "author_name": "samast",
+    "date": "2026-09-05",
+    "url": "https://x.com/SamastVarma/status/2096302515201392648",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.757Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "ff6cec65e9ce",
     "agent": "town",
-    "quote": "Meet Fifa, my Townie. via \n@TownAI\n \nhttps://\ntown.com/townie/zn7tfe9\nc0zgqk6mpv8ps0rbxkx8dvant\n…",
+    "quote": "Meet Fifa, my Townie. via \n@TownAI\n \nhttps://\ntown.com/townie/zn7tfe9\nc0zgqk6mpv8ps0rbxkx8dvant\n\u2026",
     "author": "@AlexAtSnowflake",
     "author_name": "Alex Price",
     "date": "2026-09-05",
@@ -143,7 +718,7 @@
   {
     "id": "702a6da66ecc",
     "agent": "town",
-    "quote": "I’ve been giving Instinct (and \n@TownAI\n) a run and they are both excellent. \n\nBut I also sense a turning point in that both products are heavily messaging driven. There’s no app, no website, it’s just an assistant that lives in your iMessage and WhatsApp. \n\nOn the one hand, this",
+    "quote": "I\u2019ve been giving Instinct (and \n@TownAI\n) a run and they are both excellent. \n\nBut I also sense a turning point in that both products are heavily messaging driven. There\u2019s no app, no website, it\u2019s just an assistant that lives in your iMessage and WhatsApp. \n\nOn the one hand, this",
     "author": "@sriram_v2",
     "author_name": "Sriram Vaidhya",
     "date": "2026-09-04",
@@ -161,7 +736,7 @@
   {
     "id": "b8a5c357087a",
     "agent": "town",
-    "quote": "I should have known better...added my Townie to a group chat to coordinate plans and within 2 seconds its getting abused \n@TownAI\n 😭",
+    "quote": "I should have known better...added my Townie to a group chat to coordinate plans and within 2 seconds its getting abused \n@TownAI\n \ud83d\ude2d",
     "author": "@shazeem_K",
     "author_name": "Shazeem",
     "date": "2026-09-04",
@@ -175,11 +750,29 @@
     "notes": "abused in group chat"
   },
   {
+    "id": "0798bfa555dc",
+    "agent": "town",
+    "quote": "FT:\n\n@TownAI",
+    "author": "@pukerrainbrow",
+    "author_name": "Pukerainbow \ud83e\udd2e\ud83c\udf08",
+    "date": "2026-09-04",
+    "url": "https://x.com/pukerrainbrow/status/2095951047982469435",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.757Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "62db9e16cf72",
     "agent": "town",
-    "quote": "A guy named his AI assistant after his own grey hair.\n\nInvestors are about to value the company at $1 billion.\n\nThe company is Town. Founded in late 2024 by Jean-Denis Gréze, former CTO of Plaid, and Tony Vincent, former director of applied AI at Google.\n\nGréze spent seven years",
+    "quote": "A guy named his AI assistant after his own grey hair.\n\nInvestors are about to value the company at $1 billion.\n\nThe company is Town. Founded in late 2024 by Jean-Denis Gr\u00e9ze, former CTO of Plaid, and Tony Vincent, former director of applied AI at Google.\n\nGr\u00e9ze spent seven years",
     "author": "@pukerrainbrow",
-    "author_name": "Pukerainbow 🤮🌈",
+    "author_name": "Pukerainbow \ud83e\udd2e\ud83c\udf08",
     "date": "2026-09-04",
     "url": "https://x.com/pukerrainbrow/status/2095951035944825164",
     "kind": "other",
@@ -195,7 +788,7 @@
   {
     "id": "55d0129a1111",
     "agent": "town",
-    "quote": "Omg congrats!!! I have been completely obsessed with Town - find me in the ambassadors channel :) I can’t wait to see what you do with the brand!\n\nScreenshot of my husband, me, and our townies in a group text 🤣",
+    "quote": "Omg congrats!!! I have been completely obsessed with Town - find me in the ambassadors channel :) I can\u2019t wait to see what you do with the brand!\n\nScreenshot of my husband, me, and our townies in a group text \ud83e\udd23",
     "author": "@jessperate",
     "author_name": "Jess Rosenberg",
     "date": "2026-09-04",
@@ -212,9 +805,27 @@
     "notes": "third-party: obsessed with Town; husband+townies group text screenshot"
   },
   {
+    "id": "a26e325d16f2",
+    "agent": "town",
+    "quote": "@shazeem_K @TownAI \ud83d\ude02\ud83d\ude02\ud83d\ude02",
+    "author": "@jasleen2020",
+    "author_name": "Jas",
+    "date": "2026-09-04",
+    "url": "https://x.com/jasleen2020/status/2095955307214045475",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.757Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "058e82fc8db2",
     "agent": "town",
-    "quote": "had the same observation at the time (\nhttps://\nx.com/iamsebdeb/stat\nus/2018466153195360300\n…) but i actually think \n@TownAI\n is much closer.\n\nhave been using both and town blows instinct out of the water on everything:\n- multi-threading\n- ux/ui\n- safety / trust\n- routines / automation\n- agent-to-agent collab\n...",
+    "quote": "had the same observation at the time (\nhttps://\nx.com/iamsebdeb/stat\nus/2018466153195360300\n\u2026) but i actually think \n@TownAI\n is much closer.\n\nhave been using both and town blows instinct out of the water on everything:\n- multi-threading\n- ux/ui\n- safety / trust\n- routines / automation\n- agent-to-agent collab\n...",
     "author": "@iamsebdeb",
     "author_name": "Sebastiaan Debrouwere",
     "date": "2026-09-04",
@@ -267,7 +878,7 @@
   {
     "id": "1fce1cd229a2",
     "agent": "town",
-    "quote": "wait is town sort of like grok bot? as in you can have multiple agents? instinct is great but it’s just one lol",
+    "quote": "wait is town sort of like grok bot? as in you can have multiple agents? instinct is great but it\u2019s just one lol",
     "author": "@YarlCung",
     "author_name": "jarl cung",
     "date": "2026-09-04",
@@ -300,9 +911,27 @@
     "notes": "Townie doubles as life coach"
   },
   {
+    "id": "e9e70271d3f4",
+    "agent": "town",
+    "quote": "@sriram_v2 @TownAI Town has desktop and web apps",
+    "author": "@CamiloBAcosta",
+    "author_name": "Camilo Acosta",
+    "date": "2026-09-04",
+    "url": "https://x.com/CamiloBAcosta/status/2095994660166734163",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.757Z",
+    "notes": "query: @TownAI | via x402atlas"
+  },
+  {
     "id": "04ce794ea540",
     "agent": "town",
-    "quote": "Not to hock more software, but \n@TownAI\n might be worth trying out. 👀",
+    "quote": "Not to hock more software, but \n@TownAI\n might be worth trying out. \ud83d\udc40",
     "author": "@AaronRobbs",
     "author_name": "Aaron Robbs",
     "date": "2026-09-04",
@@ -318,7 +947,7 @@
   {
     "id": "3957dfae5872",
     "agent": "town",
-    "quote": "Now that I can add \n@TownAI\n to group texts, my townie needed a pfp refresh. \n\nPresenting the all new Hadden: \nhttps://\ntown.com/townie/zn7yem3\nety9yr1j4ad5njt22gd8dqr4f\n…",
+    "quote": "Now that I can add \n@TownAI\n to group texts, my townie needed a pfp refresh. \n\nPresenting the all new Hadden: \nhttps://\ntown.com/townie/zn7yem3\nety9yr1j4ad5njt22gd8dqr4f\n\u2026",
     "author": "@soleio",
     "author_name": "Soleio",
     "date": "2026-09-03",
@@ -352,7 +981,7 @@
   {
     "id": "fb58d770a0f9",
     "agent": "town",
-    "quote": "Perhaps the one thing better than collaborating with my Townie is my Townie working with other Townies—without me getting involved. \n\nStarting today, you can add your Townie to a group text, and they can handle things with your coworkers, friends, and family—and their Townies.💙",
+    "quote": "Perhaps the one thing better than collaborating with my Townie is my Townie working with other Townies\u2014without me getting involved. \n\nStarting today, you can add your Townie to a group text, and they can handle things with your coworkers, friends, and family\u2014and their Townies.\ud83d\udc99",
     "author": "@kirstenagreen",
     "author_name": "Kirsten Green",
     "date": "2026-09-03",
@@ -422,7 +1051,7 @@
   {
     "id": "158cf0d304ea",
     "agent": "town",
-    "quote": "When your new \n@TownAI\n group chat with your wife reveals that she trusts your Townie with the kid's after-school schedule more than you 🤷",
+    "quote": "When your new \n@TownAI\n group chat with your wife reveals that she trusts your Townie with the kid's after-school schedule more than you \ud83e\udd37",
     "author": "@glichtenthal",
     "author_name": "Greg Lichtenthal",
     "date": "2026-09-03",
@@ -569,7 +1198,7 @@
     "agent": "town",
     "quote": "When my Townie notices the other side's AI getting timezones wrong:\n\n\"The invite is showing a 12:15am-1am PT slot -- looks like a timezone glitch, since we'd landed on 12:15-1pm PT. Mind confirming the time and resending?\"",
     "author": "@jgreze",
-    "author_name": "Jean-Denis Greze 💡",
+    "author_name": "Jean-Denis Greze \ud83d\udca1",
     "date": "2026-08-22",
     "url": "https://x.com/jgreze/status/2091200495541232018",
     "kind": "use-case",
@@ -603,9 +1232,9 @@
   {
     "id": "98defe1d319c",
     "agent": "town",
-    "quote": "I’ve been using \n@TownAI\n for a while, so I wasn’t blown away by the UX of \n@bot\n like X reports (I can see why it would be magical if you’ve never used town or \n@interaction\n). However, I think they have nailed computer use which is the hidden gem here. \n\nI’ve automated my LinkedIn",
+    "quote": "I\u2019ve been using \n@TownAI\n for a while, so I wasn\u2019t blown away by the UX of \n@bot\n like X reports (I can see why it would be magical if you\u2019ve never used town or \n@interaction\n). However, I think they have nailed computer use which is the hidden gem here. \n\nI\u2019ve automated my LinkedIn",
     "author": "@prukalpa",
-    "author_name": "Prukalpa ✨",
+    "author_name": "Prukalpa \u2728",
     "date": "2026-08-17",
     "url": "https://x.com/prukalpa/status/2089221006460330446",
     "kind": "comparison",
@@ -682,580 +1311,5 @@
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
     "notes": ""
-  },
-  {
-    "id": "5ab3913fcb34",
-    "agent": "town",
-    "quote": "Love the onboarding experience from @TownAI https://t.co/VRIZqlJ6UX",
-    "author": "@matjurena",
-    "author_name": "MJ",
-    "date": "2026-09-08",
-    "url": "https://x.com/matjurena/status/2097259217858007244",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "fb7535462134",
-    "agent": "town",
-    "quote": "Definitely thinking about checking out @TownAI, any tips I should know?",
-    "author": "@theZackStevens",
-    "author_name": "Zack",
-    "date": "2026-09-08",
-    "url": "https://x.com/theZackStevens/status/2097184747399340408",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "09d144323a09",
-    "agent": "town",
-    "quote": "@Anurag_Gup @TownAI We've got a lot of nice things coming your way at @TownAI over the coming week or two!",
-    "author": "@jgreze",
-    "author_name": "Jean-Denis Greze 💡",
-    "date": "2026-09-08",
-    "url": "https://x.com/jgreze/status/2097178013888844151",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "2f45b34119ac",
-    "agent": "town",
-    "quote": "@jhuber @TownAI That would be a no brainer worth it.",
-    "author": "@srikosuri",
-    "author_name": "Sri Kosuri",
-    "date": "2026-09-08",
-    "url": "https://x.com/srikosuri/status/2097158739111354539",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "688b3c3576a9",
-    "agent": "town",
-    "quote": "@srikosuri Based on @TownAI precedent, $49/mo.",
-    "author": "@jhuber",
-    "author_name": "Jeff Huber 🇺🇸",
-    "date": "2026-09-08",
-    "url": "https://x.com/jhuber/status/2097158254958895230",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "64e613cf3e7f",
-    "agent": "town",
-    "quote": "@hazhubble @vocaleo_agent @TownAI @bot @claudeai @ChatGPT Shipped! https://t.co/868mEWg5hu",
-    "author": "@PeterDaggett",
-    "author_name": "Peter Daggett",
-    "date": "2026-09-08",
-    "url": "https://x.com/PeterDaggett/status/2097152855807254615",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "b03d5cce9677",
-    "agent": "town",
-    "quote": "@PeterDaggett @vocaleo_agent @TownAI @bot @claudeai @ChatGPT 👋🏼",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-08",
-    "url": "https://x.com/hazhubble/status/2097133289689481367",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.227Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "180e1b663c2c",
-    "agent": "town",
-    "quote": "Weekend of AI assistants, found that I’m starting to find strengths of each.\n\ninstinct ai got me a last minute reservation (75 minutes before the time), something neither Amex or Chase could do. Also the only assistant that I trust to check out\n\n@TownAI is one I’ve paid for a few months and I’ve found I trust it the most to write emails and remind me of deadlines.\n\nHaven’t tried @bot yet, but high on the list after the new plan",
-    "author": "@Anurag_Gup",
-    "author_name": "Anurag Gupta",
-    "date": "2026-09-08",
-    "url": "https://x.com/Anurag_Gup/status/2097124327091286382",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "e351a9eb2991",
-    "agent": "town",
-    "quote": "@KanyeWestJS @TownAI @noahrshinn Havent tried town - tbh instinct being free and providing value right away is smart",
-    "author": "@NWischoff",
-    "author_name": "Nichole Wischoff",
-    "date": "2026-09-08",
-    "url": "https://x.com/NWischoff/status/2097119940884963407",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "1909753728c0",
-    "agent": "town",
-    "quote": "When friends collaborate\n\n@jgreze 🤝 @HarryStebbings\n\nJDG of @TownAI shares his perspective on competitive dynamics with the frontier models, Apple, Google and newcomers to the AI assistants space.\n\nHe also talks about my favorite subject: agent-to-agent (A2A) network effects.",
-    "author": "@soleio",
-    "author_name": "Soleio",
-    "date": "2026-09-07",
-    "url": "https://x.com/soleio/status/2097109798965633400",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "d4c52986f0a5",
-    "agent": "town",
-    "quote": "Today I set up @TownAI and Instinct @noahrshinn at the same time. The town setup was way better, and the integrations were super easy. The whole thing felt just really powerful. I think Instinct is trying to be simpler by just reducing it to a messaging app. Even though Town has more features and more ways of interacting with it, I feel like Instinct's multitasking ability is better. They feel very different from each other, yet I keep going back and forth in my mind as to which I like better. Town feels more professional and powerful, and Instinct feels almost overly simple and yet has a surprising amount of horsepower.",
-    "author": "@KanyeWestJS",
-    "author_name": "KΛNyΞ⚡️Ⓜ️🕸",
-    "date": "2026-09-07",
-    "url": "https://x.com/KanyeWestJS/status/2097101992980332890",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "c939c2970a7c",
-    "agent": "town",
-    "quote": "@chowtato @TownAI The idea of letting multiple AI agents coordinate group schedules is chaos, but I honestly need to see how that turns out. Please update us on the inevitable drama.",
-    "author": "@sirshibaninja",
-    "author_name": "Colbert",
-    "date": "2026-09-07",
-    "url": "https://x.com/sirshibaninja/status/2097089278144843789",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "e718b2578946",
-    "agent": "town",
-    "quote": "@Scobleizer @HarryStebbings @TownAI Would love to see a post from you in a few days comparing and contrasting them all",
-    "author": "@KanyeWestJS",
-    "author_name": "KΛNyΞ⚡️Ⓜ️🕸",
-    "date": "2026-09-07",
-    "url": "https://x.com/KanyeWestJS/status/2097084218010726602",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "e27dbfd3af59",
-    "agent": "town",
-    "quote": "Having a lot of fun adding @TownAI to group chats. It responds pretty quickly and is holding its own with my friends trying to turn it against me.\n\nNext steps is have each friend add their own townie into group chats and make them coordinate our schedules together.\n\nDoes anyone know why it defaulted to Chinese? Feeling like Kimi might also be the underlying model here.\n\nI also added town to the assistant email Instinct uses and now they have shared access. Will be interesting to see how the agents interact with each other.",
-    "author": "@chowtato",
-    "author_name": "sarah 😾",
-    "date": "2026-09-07",
-    "url": "https://x.com/chowtato/status/2097080005217968470",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "7ffa6bb41a8b",
-    "agent": "town",
-    "quote": "we know a lot of you are loving @vocaleo_agent x instinct, but if you're not on instinct, you can still use it\n\nwe just added setup guides for @TownAI @bot @claudeai and @ChatGPT\n\nwhat else are we missing? https://t.co/FuIo71vZ0b",
-    "author": "@PeterDaggett",
-    "author_name": "Peter Daggett",
-    "date": "2026-09-07",
-    "url": "https://x.com/PeterDaggett/status/2097064458363293784",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "d1ca8adfd333",
-    "agent": "town",
-    "quote": "🔥The 2-Minute Drill🔥 Top Tech Stories, analysis by\n@CrossoverVC\n\n💡Stories: @owner / @CivilGrid / @EmeraldAi_ / @perplexity_ai / @TownAI https://t.co/b9II5pmA9A",
-    "author": "@CrossoverVC",
-    "author_name": "Crossover VC",
-    "date": "2026-09-07",
-    "url": "https://x.com/CrossoverVC/status/2096991208115413057",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.228Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "d8137a6baebc",
-    "agent": "town",
-    "quote": "@DavidPawlan Interested! maybe you could add @bot, @TownAI and Duckbill",
-    "author": "@kylemissionai",
-    "author_name": "Kyle G",
-    "date": "2026-09-07",
-    "url": "https://x.com/kylemissionai/status/2096991123164266695",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "d05d1b30714e",
-    "agent": "town",
-    "quote": "@HarryStebbings I already have @TownAI and Poke and Timeglass running. So will be interesting to see.",
-    "author": "@Scobleizer",
-    "author_name": "Robert Scoble",
-    "date": "2026-09-07",
-    "url": "https://x.com/Scobleizer/status/2096866241428521212",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "7db007e309c6",
-    "agent": "town",
-    "quote": "@jgreze @CamiloBAcosta @TownAI i'd also love to be able to set a default mode - eg do 99% of my tasks on always allow &amp; on iOS app it's a pain bc the keyboard obscures the toggle.",
-    "author": "@iamsebdeb",
-    "author_name": "Sebastiaan Debrouwere",
-    "date": "2026-09-07",
-    "url": "https://x.com/iamsebdeb/status/2096795369363644514",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "b2a8bdbcb246",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI It’s the only way. But also the team noticed your tweet first which is even better!",
-    "author": "@jgreze",
-    "author_name": "Jean-Denis Greze 💡",
-    "date": "2026-09-06",
-    "url": "https://x.com/jgreze/status/2096748005051506941",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "eb4b3c7a6070",
-    "agent": "town",
-    "quote": "@jgreze @TownAI The ultimate in support responsiveness! Love it when founder CEOs are hands on like this",
-    "author": "@CamiloBAcosta",
-    "author_name": "Camilo Acosta",
-    "date": "2026-09-06",
-    "url": "https://x.com/CamiloBAcosta/status/2096745659819008032",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "15d9886de0a4",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI Thanks for the feedback @CamiloBAcosta. You're right on both the toggles, the need to find them on the first place, and also not being able to email support@. Consider it all done.",
-    "author": "@jgreze",
-    "author_name": "Jean-Denis Greze 💡",
-    "date": "2026-09-06",
-    "url": "https://x.com/jgreze/status/2096745100718264499",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "1e32a37e8668",
-    "agent": "town",
-    "quote": "@techalexpr @TownAI Why bother delegating if I have to do half the task anyway",
-    "author": "@CamiloBAcosta",
-    "author_name": "Camilo Acosta",
-    "date": "2026-09-06",
-    "url": "https://x.com/CamiloBAcosta/status/2096744270531330338",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "888d0ee805d3",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI Full autonomy is the bar. If it can find the address, draft it and send it. Asking me to hit send is theater.",
-    "author": "@techalexpr",
-    "author_name": "Tech Alex",
-    "date": "2026-09-06",
-    "url": "https://x.com/techalexpr/status/2096732961785647197",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "df9601bcf693",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI What do you think about Instinct?",
-    "author": "@zhen_do_ob",
-    "author_name": "Zhen",
-    "date": "2026-09-06",
-    "url": "https://x.com/zhen_do_ob/status/2096728706224169290",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "6eb8750288ff",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI Maybe they just don’t want you to send them emails lol",
-    "author": "@angli_ai",
-    "author_name": "Ang Li",
-    "date": "2026-09-06",
-    "url": "https://x.com/angli_ai/status/2096721182380921129",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "ee6bb2247114",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI Try Slashy?",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-09-06",
-    "url": "https://x.com/GaddipatiHarsha/status/2096710113382093086",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "1a11eb7edb97",
-    "agent": "town",
-    "quote": "@CamiloBAcosta @TownAI Asking for the support email, then not sending it: peak intern energy.",
-    "author": "@FReza1984",
-    "author_name": "Fajar M Reza",
-    "date": "2026-09-06",
-    "url": "https://x.com/FReza1984/status/2096703678497579194",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.756Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "7123fe18baeb",
-    "agent": "town",
-    "quote": "@DavidPawlan @TownAI",
-    "author": "@SamastVarma",
-    "author_name": "samast",
-    "date": "2026-09-05",
-    "url": "https://x.com/SamastVarma/status/2096302515201392648",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.757Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "e9e70271d3f4",
-    "agent": "town",
-    "quote": "@sriram_v2 @TownAI Town has desktop and web apps",
-    "author": "@CamiloBAcosta",
-    "author_name": "Camilo Acosta",
-    "date": "2026-09-04",
-    "url": "https://x.com/CamiloBAcosta/status/2095994660166734163",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.757Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "a26e325d16f2",
-    "agent": "town",
-    "quote": "@shazeem_K @TownAI 😂😂😂",
-    "author": "@jasleen2020",
-    "author_name": "Jas",
-    "date": "2026-09-04",
-    "url": "https://x.com/jasleen2020/status/2095955307214045475",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.757Z",
-    "notes": "query: @TownAI | via x402atlas"
-  },
-  {
-    "id": "0798bfa555dc",
-    "agent": "town",
-    "quote": "FT:\n\n@TownAI",
-    "author": "@pukerrainbrow",
-    "author_name": "Pukerainbow 🤮🌈",
-    "date": "2026-09-04",
-    "url": "https://x.com/pukerrainbrow/status/2095951047982469435",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.757Z",
-    "notes": "query: @TownAI | via x402atlas"
   }
 ]

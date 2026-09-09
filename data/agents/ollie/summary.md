@@ -13,3 +13,9 @@ Site: https://ollie.ai/
 - [complaint] @FundamentEdge: I’ve become reflexively skeptical of the coordinated “VC launch slop” playbook on X  But I actually have a fairly large spec of personal logistics things I’ve b
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-09 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-07-13) usecarly: Use Ollie if you want a text-only assistant that quietly watches your inbox and calendar and pings you; use Ohai if you want an app-based sh
+- (2026-09-08) @sebtsaii: Imo, those that could win are those hyperpersonalized to a "vertical"  Still bullish on:   @TownAI   @heyollieai  Voice anyone? (@tommaxxing

@@ -1,0 +1,78 @@
+{
+  "classified_by": "Claude (read in session, not an API batch)",
+  "date": "2026-09-09",
+  "reviewed": false,
+  "quotes": {
+    "90b8d09fe434": {
+      "general": "pos"
+    },
+    "db7c1efbf295": {
+      "general": "pos"
+    },
+    "f99d954f0e27": {
+      "general": "pos",
+      "third_party_integrations": "pos"
+    },
+    "40d660e68f19": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "6432698a0f8e": {
+      "general": "pos"
+    },
+    "7c6bb24f7c32": {
+      "general": "pos",
+      "email_replies": "pos",
+      "proactive_behavior": "pos",
+      "chained_tasks": "pos"
+    },
+    "9934d7f70ecb": {
+      "general": "pos"
+    },
+    "cd734417dd0f": {
+      "general": "pos"
+    },
+    "9b49d0736725": {
+      "general": "pos"
+    },
+    "d08dd02bcc89": {
+      "general": "pos"
+    },
+    "39c171b7da0e": {
+      "general": "pos",
+      "third_party_integrations": "pos",
+      "running_routine": "pos"
+    },
+    "e4210073594d": {
+      "general": "pos",
+      "third_party_integrations": "pos",
+      "online_task": "pos"
+    },
+    "bb0e1af7f6a8": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "3b5c6d513023": {
+      "general": "pos"
+    },
+    "c534a2a5f53e": {
+      "general": "pos",
+      "third_party_integrations": "pos"
+    },
+    "4b9eacf0abd3": {
+      "general": "pos"
+    },
+    "d3717c6a23c0": {
+      "general": "pos",
+      "memory": "pos"
+    },
+    "47ccea99db02": {
+      "general": "neg",
+      "online_task": "neg"
+    },
+    "2f3ce8fcf080": {
+      "general": "pos",
+      "third_party_integrations": "pos"
+    }
+  }
+}

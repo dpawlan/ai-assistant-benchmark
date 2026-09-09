@@ -1,0 +1,37 @@
+{
+  "slug": "cheqq",
+  "name": "Cheqq",
+  "site": "https://cheqq.ai/",
+  "handles": [
+    "cheqq",
+    "cheqq_ai",
+    "elvisduru"
+  ],
+  "status": "stretch",
+  "product_class": "ops_workspace",
+  "notes": "Operations workspace: describe what you need and it builds the data, automations and apps, with a browser companion extension. Requested via the form (issue #22).",
+  "likely_applicable": [
+    "online_task",
+    "running_routine",
+    "third_party_integrations",
+    "email_replies",
+    "memory",
+    "chained_tasks",
+    "proactive_behavior",
+    "permissions_privacy"
+  ],
+  "public_signal": "low",
+  "tagline": "The AI workspace that runs your operations",
+  "icon": "/logos/cheqq.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro $16/seat/mo · Business $39/seat/mo · Team $199/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Web",
+      "Browser extension"
+    ],
+    "checked": "2026-09-09"
+  }
+}

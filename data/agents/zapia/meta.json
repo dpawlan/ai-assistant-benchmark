@@ -1,0 +1,27 @@
+{
+  "slug": "zapia",
+  "name": "Zapia",
+  "site": "https://zapia.com/",
+  "handles": [
+    "zapia",
+    "zapia_ai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal assistant that watches email, calendar and messages and acts across connected apps; WhatsApp connector can drive the user's own WhatsApp. Requested via the form (issue #10).",
+  "public_signal": "low",
+  "tagline": "The AI that gets things done for you",
+  "icon": "/logos/zapia.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro · Ultra (prices in-app)",
+    "regions": "Latin America and Europe",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "WhatsApp"
+    ],
+    "checked": "2026-09-09"
+  }
+}

@@ -10,5 +10,16 @@
   "notes": "",
   "tagline": "The proactive assistant on Messages, WhatsApp and Telegram",
   "icon": "/logos/poke.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro $19/mo · Ultra $199/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "Telegram"
+    ],
+    "checked": "2026-09-09"
+  }
 }

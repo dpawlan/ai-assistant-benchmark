@@ -3,6 +3,7 @@ export const KINDS = [
   { key: 'general', label: 'General', plural: 'general assistants' },
   { key: 'travel', label: 'Travel', plural: 'travel assistants' },
   { key: 'email', label: 'Email', plural: 'email assistants' },
+  { key: 'finance', label: 'Finance', plural: 'finance assistants' },
   { key: 'shopping', label: 'Shopping', plural: 'shopping assistants' },
   { key: 'games', label: 'Games', plural: 'game makers' },
   { key: 'work', label: 'Work & teams', plural: 'team and agent-builder products' },

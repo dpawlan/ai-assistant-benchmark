@@ -9,5 +9,16 @@
   "notes": "",
   "tagline": "The AI assistant that does email for you",
   "icon": "/logos/slashy.png",
-  "kind": "email"
+  "kind": "email",
+  "access": {
+    "pricing": "paid",
+    "price": "$25–30/mo, 7-day trial; Gmail only",
+    "regions": "Not stated",
+    "channels": [
+      "App",
+      "Web",
+      "iMessage"
+    ],
+    "checked": "2026-09-09"
+  }
 }

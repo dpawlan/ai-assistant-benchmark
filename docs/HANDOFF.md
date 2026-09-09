@@ -41,7 +41,11 @@ Needs Full Disk Access for the terminal and Node 22.13+ (built-in SQLite). If `d
 
 ## Peer groups
 
-Every agent has `kind` in `meta.json` and `index.json` (general | travel | email | shopping | games | work | infra; labels in `src/lib/kinds.ts`). The scorecard filters by it (chips, `?kind=`), General is the default, and rankings are within a group. `status` (confirmed/stretch) still exists in data and drives N/A pre-fill for stretch products, but it is no longer shown anywhere.
+Every agent has `kind` in `meta.json` and `index.json` (general | travel | email | finance | shopping | games | work | infra; labels in `src/lib/kinds.ts`). The scorecard filters by it (chips, `?kind=`), General is the default, and rankings are within a group. `status` (confirmed/stretch) still exists in data and drives N/A pre-fill for stretch products, but it is no longer shown anywhere.
+
+## Access (price, regions, channels)
+
+`meta.json`/`index.json` carry `access` (see README). Values were researched by hand on 2026-09-09 from each vendor's site; `checked` is that date. Most vendors don't state regions, so "Not stated" is the honest default. Requests that arrive via the form (GitHub issues labelled `request`) become roster entries with `access` filled in and `public_signal: low`; run `python3 scripts/og.py` and `npm run reindex` after adding one.
 
 ## Layout reminders
 

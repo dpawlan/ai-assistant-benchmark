@@ -10,5 +10,15 @@
   "notes": "",
   "tagline": "The work behind your life",
   "icon": "/logos/szn.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Waitlist / early preview",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Phone"
+    ],
+    "checked": "2026-09-09"
+  }
 }

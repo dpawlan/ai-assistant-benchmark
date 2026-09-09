@@ -74,6 +74,10 @@ data/
 
 Dimensions with `"scored": false` in `categories.json` (personality) are public-opinion only: they appear in the opinion view and on their dimension page but are never scored, never counted in Overall, and have no task.
 
+### Access (price, regions, channels)
+
+`meta.json` and `index.json` carry `access`: `pricing` (free | freemium | paid | credits | per-order | waitlist | open-source | unknown), a human `price` line, `regions` ("US only, 18+", "225+ countries", "Not stated"), `channels`, and `checked` (the date it was verified). Shown as chips and Information rows on profiles. Update by hand; most sites don't state regions, so "Not stated" is common and honest.
+
 ### Runs Schema
 
 One record per test you run. The latest run per category is the score shown everywhere.
@@ -256,6 +260,20 @@ npm run build
 ```
 
 Recommended: Deploy to Vercel for optimal Next.js performance.
+
+### Analytics
+
+Vercel Web Analytics (`@vercel/analytics`, mounted in `src/app/layout.tsx`). No key or env var; enable Analytics on the Vercel project and it starts counting on the next deploy. Nothing is sent from local dev. Custom events, all without personal data:
+
+| Event | Where | Props |
+|---|---|---|
+| `share_card` | Head-to-head "Share" | `pair`, `focus`, `method` (sheet or copy) |
+| `post_on_x` | Head-to-head "Post on X" | `pair`, `focus` |
+| `save_card` | Head-to-head "Save card" | `pair`, `focus` |
+| `kind_filter` | Scorecard peer-group chips | `kind` |
+| `request_submitted` | Request form, after a successful send | none |
+
+Card image fetches (`/compare/<pair>/card.png`) are server responses and never load the script, so they are not counted.
 
 ## License
 

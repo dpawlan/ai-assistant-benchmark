@@ -9,5 +9,16 @@
   "notes": "",
   "tagline": "A personal assistant that takes action across your apps",
   "icon": "/logos/instinct.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Free during private beta; invite or waitlist",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "Phone"
+    ],
+    "checked": "2026-09-09"
+  }
 }

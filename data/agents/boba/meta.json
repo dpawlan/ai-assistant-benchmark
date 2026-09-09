@@ -11,5 +11,15 @@
   "public_signal": "low",
   "tagline": "An AI you can text, one-on-one or in group chats",
   "icon": "/logos/boba.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free, no ads",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "RCS (Android)"
+    ],
+    "checked": "2026-09-09"
+  }
 }

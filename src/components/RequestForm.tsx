@@ -1,6 +1,7 @@
 'use client';
 
 import { FormEvent, useState } from 'react';
+import { track } from '@vercel/analytics';
 
 interface FormData {
   agentName: string;
@@ -42,6 +43,7 @@ export function RequestForm({ categories }: RequestFormProps) {
       });
       if (res.status === 429) throw new Error('rate');
       if (!res.ok) throw new Error(String(res.status));
+      track('request_submitted');
       setDoneName(data.agentName.trim());
       setData(initial);
     } catch (e) {

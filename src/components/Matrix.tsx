@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useMemo, useState } from 'react';
+import { track } from '@vercel/analytics';
 import { Agent, Category } from '@/lib/types';
 import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
@@ -64,6 +65,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
 
   const setKind = (k: string) => {
+    track('kind_filter', { kind: k });
     setKindState(k);
     router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
   };

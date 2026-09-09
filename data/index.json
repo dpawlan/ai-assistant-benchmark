@@ -1,9 +1,9 @@
 {
   "updated": "2026-09-09",
-  "agent_count": 41,
+  "agent_count": 54,
   "feedback_count": 2573,
-  "confirmed": 31,
-  "stretch": 10,
+  "confirmed": 40,
+  "stretch": 14,
   "agents": [
     {
       "slug": "ako",
@@ -14,7 +14,18 @@
       "public_signal": "low",
       "tagline": "An AI employee for your team, with its own email and workspace",
       "icon": "/logos/ako.png",
-      "kind": "work"
+      "kind": "work",
+      "access": {
+        "pricing": "credits",
+        "price": "Self-serve, credits",
+        "regions": "Not stated",
+        "channels": [
+          "Slack",
+          "WhatsApp",
+          "Email"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "asaply",
@@ -25,7 +36,17 @@
       "public_signal": "low",
       "tagline": "Text it, we run it: coffee, food, tickets and errands",
       "icon": "/logos/asaply.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "per-order",
+        "price": "Service fee per order, no subscription",
+        "regions": "Rolling out by neighborhood",
+        "channels": [
+          "SMS",
+          "iMessage"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "asmi",
@@ -36,7 +57,39 @@
       "public_signal": null,
       "tagline": "AI that handles your chores in the physical world",
       "icon": "/logos/asmi.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free at launch",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "WhatsApp",
+          "iMessage",
+          "Phone"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "bloome",
+      "name": "Bloome",
+      "status": "stretch",
+      "site": "https://bloome.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your career agent in WhatsApp",
+      "icon": "/logos/bloome.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (10 applications) · Pro €39/mo · Ultra €99/mo",
+        "regions": "International; Europe-focused",
+        "channels": [
+          "WhatsApp"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "boba",
@@ -47,7 +100,17 @@
       "public_signal": "low",
       "tagline": "An AI you can text, one-on-one or in group chats",
       "icon": "/logos/boba.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free, no ads",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "RCS (Android)"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "buoy",
@@ -58,7 +121,16 @@
       "public_signal": "low",
       "tagline": "iOS assistant that runs web apps and scheduled tasks",
       "icon": "/logos/buoy.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Waitlist (TestFlight)",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "caddy",
@@ -69,7 +141,17 @@
       "public_signal": null,
       "tagline": "Your personal AI in Messages",
       "icon": "/logos/caddy.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free (public beta)",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "RCS (Android)"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "catch",
@@ -80,7 +162,111 @@
       "public_signal": null,
       "tagline": "Your admin savior: scheduling, email and calls",
       "icon": "/logos/catch.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$99/mo, 10-day free trial",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "Slack",
+          "Email",
+          "Phone"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "central",
+      "name": "Central",
+      "status": "stretch",
+      "site": "https://trycentral.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Convert every customer, on every channel",
+      "icon": "/logos/central.png",
+      "kind": "work",
+      "access": {
+        "pricing": "unknown",
+        "price": "Book a demo for pricing",
+        "regions": "Not stated",
+        "channels": [
+          "Phone",
+          "SMS",
+          "WhatsApp",
+          "Web chat",
+          "Email",
+          "Instagram",
+          "Messenger",
+          "Web app"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "cheqq",
+      "name": "Cheqq",
+      "status": "stretch",
+      "site": "https://cheqq.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI workspace that runs your operations",
+      "icon": "/logos/cheqq.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro $16/seat/mo · Business $39/seat/mo · Team $199/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Web",
+          "Browser extension"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "ezail",
+      "name": "Ezail",
+      "status": "confirmed",
+      "site": "https://www.ezail.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Stop managing your inbox. Start delegating it.",
+      "icon": "/logos/ezail.png",
+      "kind": "email",
+      "access": {
+        "pricing": "paid",
+        "price": "From $9/mo, 7-day free trial",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "Telegram",
+          "Teams",
+          "Slack"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "flip",
+      "name": "Flip",
+      "status": "stretch",
+      "site": "https://fliptexts.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your money manager, in iMessage",
+      "icon": "/logos/flip.png",
+      "kind": "finance",
+      "access": {
+        "pricing": "paid",
+        "price": "$9.99/mo billed annually, or $19.99/mo monthly",
+        "regions": "US (connects to US banks and brokerages)",
+        "channels": [
+          "iMessage"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "folk",
@@ -91,7 +277,19 @@
       "public_signal": "medium",
       "tagline": "The friend in your texts",
       "icon": "/logos/folk.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro $9.99/mo · Max $100/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Telegram",
+          "WhatsApp",
+          "Discord"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "grok-bot",
@@ -102,7 +300,18 @@
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "Beta with SuperGrok Heavy ($300/mo)",
+        "regions": "Not stated",
+        "channels": [
+          "App",
+          "Web",
+          "X"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "halo",
@@ -113,7 +322,16 @@
       "public_signal": "low",
       "tagline": "Automate your life, right from your iPhone",
       "icon": "/logos/halo.png",
-      "kind": "infra"
+      "kind": "infra",
+      "access": {
+        "pricing": "paid",
+        "price": "$49 one-time (early bird), 7-day trial; launching soon",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "hirealpha",
@@ -124,7 +342,16 @@
       "public_signal": "low",
       "tagline": "Friend, coworker and cofounder as iMessage contacts",
       "icon": "/logos/hirealpha.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$19/mo per persona",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "instinct",
@@ -135,7 +362,18 @@
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Free during private beta; invite or waitlist",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "Phone"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "joshu",
@@ -146,7 +384,43 @@
       "public_signal": null,
       "tagline": "An assistant with a desk: its own computer, phone and email",
       "icon": "/logos/joshu.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$95/mo hosted, or self-host (open source)",
+        "regions": "US hosted",
+        "channels": [
+          "Email",
+          "Phone",
+          "Telegram",
+          "Slack",
+          "Teams",
+          "Desktop"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "kai",
+      "name": "Kai",
+      "status": "confirmed",
+      "site": "https://hirekai.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI executive assistant, by Morgen",
+      "icon": "/logos/kai.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Free to try; $50/user/mo during beta ($100 at launch)",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "lava",
@@ -157,7 +431,41 @@
       "public_signal": "low",
       "tagline": "One agent inside every tool you use",
       "icon": "/logos/lava.png",
-      "kind": "work"
+      "kind": "work",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "Desktop app (Mac, Windows)"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "letta",
+      "name": "Letta Agent",
+      "status": "confirmed",
+      "site": "https://www.letta.com/agent/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A personalized agent that remembers and learns",
+      "icon": "/logos/letta.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free with your own API keys (3 agents) · Pro $20/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Desktop app (macOS, Windows, Linux)",
+          "Web",
+          "CLI",
+          "Slack",
+          "Discord",
+          "Telegram"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "lucas",
@@ -168,7 +476,16 @@
       "public_signal": "low",
       "tagline": "The assistant that texts you first",
       "icon": "/logos/lucas.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "UK-based",
+        "channels": [
+          "iMessage"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "mana",
@@ -179,7 +496,63 @@
       "public_signal": "low",
       "tagline": "An AI-native OS where apps evolve with you",
       "icon": "/logos/mana.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "migoo",
+      "name": "Migoo",
+      "status": "confirmed",
+      "site": "https://migoo.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Auto your tasks for work and life",
+      "icon": "/logos/migoo.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Android app"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "milo",
+      "name": "Milo",
+      "status": "confirmed",
+      "site": "https://milo.joinhexagon.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The assistant that runs your work life",
+      "icon": "/logos/milo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "macOS app",
+          "Windows",
+          "iMessage",
+          "WhatsApp",
+          "Slack",
+          "Email",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "miso",
@@ -190,7 +563,17 @@
       "public_signal": "high",
       "tagline": "Personal AI travel agent, over iMessage",
       "icon": "/logos/miso.png",
-      "kind": "travel"
+      "kind": "travel",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Waitlist; premium concierge",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage (Messages for Business)",
+          "iOS app"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "moves",
@@ -201,7 +584,14 @@
       "public_signal": "unknown",
       "tagline": "Not yet verified as a product",
       "icon": null,
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "muse",
@@ -210,9 +600,21 @@
       "site": "https://muse.ai/",
       "feedback_count": 0,
       "public_signal": null,
-      "tagline": "Meta\u2019s personal AI agent for everyday tasks",
+      "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · $20/mo · $100/mo",
+        "regions": "US only, 18+",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "Web",
+          "WhatsApp"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "ollie",
@@ -223,7 +625,17 @@
       "public_signal": null,
       "tagline": "Privacy-first assistant for email, calendar and reminders",
       "icon": "/logos/ollie.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "From $10/mo ($7/mo annual), 7-day trial",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "App"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "openinstinct",
@@ -234,7 +646,17 @@
       "public_signal": null,
       "tagline": "Open-source assistant that lives in your iMessage thread",
       "icon": "/logos/openinstinct.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT licensed; you pay your own hosting",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "orchid",
@@ -245,7 +667,20 @@
       "public_signal": null,
       "tagline": "A personal assistant that lives in your messages",
       "icon": "/logos/orchid.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start; paid plans",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Web",
+          "iOS",
+          "macOS"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "pally",
@@ -256,7 +691,18 @@
       "public_signal": null,
       "tagline": "The AI personal assistant you text",
       "icon": "/logos/pally.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro $25/mo · Max $100/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "RCS (Android)"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "personal-local",
@@ -267,7 +713,16 @@
       "public_signal": null,
       "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
       "icon": null,
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free software; you pay model and hosting costs",
+        "regions": "Not stated",
+        "channels": [
+          "Self-hosted"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "pneum",
@@ -278,7 +733,18 @@
       "public_signal": "low",
       "tagline": "Talk or type; it gets things done",
       "icon": "/logos/pneum.png",
-      "kind": "infra"
+      "kind": "infra",
+      "access": {
+        "pricing": "paid",
+        "price": "From $5.99/mo plus usage",
+        "regions": "Not stated",
+        "channels": [
+          "Voice",
+          "Web",
+          "Android app (alpha)"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "poke",
@@ -289,7 +755,18 @@
       "public_signal": null,
       "tagline": "The proactive assistant on Messages, WhatsApp and Telegram",
       "icon": "/logos/poke.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro $19/mo · Ultra $199/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "Telegram"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "shoponscout",
@@ -300,7 +777,18 @@
       "public_signal": "low",
       "tagline": "Your retail therapist. Talk to shop.",
       "icon": "/logos/shoponscout.png",
-      "kind": "shopping"
+      "kind": "shopping",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "shuffle",
@@ -311,7 +799,18 @@
       "public_signal": "low",
       "tagline": "AI you can text and call for images, memes and more",
       "icon": "/logos/shuffle.png",
-      "kind": "games"
+      "kind": "games",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "sircle",
@@ -322,7 +821,14 @@
       "public_signal": "unknown",
       "tagline": "Not yet verified as a product",
       "icon": null,
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "skydive",
@@ -333,7 +839,19 @@
       "public_signal": "medium",
       "tagline": "Cloud agents you talk to in Slack, email or iMessage",
       "icon": "/logos/skydive.png",
-      "kind": "work"
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Starter $20/mo · Team $200/mo, plus usage",
+        "regions": "Not stated",
+        "channels": [
+          "Slack",
+          "Email",
+          "iMessage",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "slashy",
@@ -344,7 +862,18 @@
       "public_signal": null,
       "tagline": "The AI assistant that does email for you",
       "icon": "/logos/slashy.png",
-      "kind": "email"
+      "kind": "email",
+      "access": {
+        "pricing": "paid",
+        "price": "$25–30/mo, 7-day trial; Gmail only",
+        "regions": "Not stated",
+        "channels": [
+          "App",
+          "Web",
+          "iMessage"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "soar",
@@ -355,7 +884,38 @@
       "public_signal": null,
       "tagline": "Your personal travel companion",
       "icon": "/logos/soar.png",
-      "kind": "travel"
+      "kind": "travel",
+      "access": {
+        "pricing": "free",
+        "price": "Free during beta; paid plans to follow",
+        "regions": "225+ countries",
+        "channels": [
+          "SMS",
+          "iOS app"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "sunny",
+      "name": "Sunny",
+      "status": "confirmed",
+      "site": "https://trysunny.app/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The assistant you text",
+      "icon": null,
+      "kind": "email",
+      "access": {
+        "pricing": "paid",
+        "price": "$500/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "synorb",
@@ -366,7 +926,17 @@
       "public_signal": "medium",
       "tagline": "Temporal context graph for AI agents",
       "icon": "/logos/synorb.png",
-      "kind": "infra"
+      "kind": "infra",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free tier · Streams to $1,000/mo",
+        "regions": "Not stated",
+        "channels": [
+          "API",
+          "MCP"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "szn",
@@ -377,7 +947,17 @@
       "public_signal": null,
       "tagline": "The work behind your life",
       "icon": "/logos/szn.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Waitlist / early preview",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Phone"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "text-zero",
@@ -388,7 +968,38 @@
       "public_signal": "low",
       "tagline": "24/7 concierge that runs your errands",
       "icon": "/logos/text-zero.png",
-      "kind": "infra"
+      "kind": "infra",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Closed beta; ring on pre-order",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "Telegram",
+          "Ring"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "the-shadow",
+      "name": "The Shadow",
+      "status": "confirmed",
+      "site": "https://theshadow.io/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Life admin. Handled.",
+      "icon": "/logos/the-shadow.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "tinynature",
@@ -399,7 +1010,40 @@
       "public_signal": "medium",
       "tagline": "Personal assistant for appointments, on WhatsApp",
       "icon": "/logos/tinynature.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "iMessage",
+          "Telegram",
+          "HumanPods earbuds"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "today",
+      "name": "Today",
+      "status": "confirmed",
+      "site": "https://today.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The assistant that knows you, and acts before you ask",
+      "icon": "/logos/today.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "App",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "tomo",
@@ -410,7 +1054,18 @@
       "public_signal": null,
       "tagline": "The personal AI that lives in your texts",
       "icon": "/logos/tomo.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "From $7.99/wk or $49.99/yr; Pro $19.99/mo; 3-day trial",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "iOS app"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "town",
@@ -421,7 +1076,22 @@
       "public_signal": null,
       "tagline": "The assistant that learns how you work, then gets to work",
       "icon": "/logos/town.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (30 msgs/mo) · $15 · $49 · $99 · $199/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "Telegram",
+          "Slack",
+          "Email",
+          "iOS",
+          "macOS"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "vellum",
@@ -432,7 +1102,20 @@
       "public_signal": null,
       "tagline": "An assistant that knows you deeply and belongs to no one else",
       "icon": "/logos/vellum.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "credits",
+        "price": "Free credits to start; plans from $30/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Web",
+          "macOS",
+          "iOS",
+          "Slack",
+          "Telegram"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "wajo-fo",
@@ -443,7 +1126,19 @@
       "public_signal": null,
       "tagline": "Action agents that get things done in the physical world",
       "icon": "/logos/wajo-fo.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro $99/mo (waitlist)",
+        "regions": "Not stated",
+        "channels": [
+          "Email",
+          "Slack",
+          "SMS",
+          "Phone"
+        ],
+        "checked": "2026-09-09"
+      }
     },
     {
       "slug": "waldo",
@@ -454,7 +1149,39 @@
       "public_signal": "low",
       "tagline": "Action layer for the human day",
       "icon": "/logos/waldo.png",
-      "kind": "general"
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Free to start; Pro tier planned; waitlist",
+        "regions": "Not stated",
+        "channels": [
+          "App",
+          "Web"
+        ],
+        "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "zapia",
+      "name": "Zapia",
+      "status": "confirmed",
+      "site": "https://zapia.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI that gets things done for you",
+      "icon": "/logos/zapia.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro · Ultra (prices in-app)",
+        "regions": "Latin America and Europe",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "WhatsApp"
+        ],
+        "checked": "2026-09-09"
+      }
     }
   ]
 }

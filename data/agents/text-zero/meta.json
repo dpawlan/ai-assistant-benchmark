@@ -20,5 +20,16 @@
   "public_signal": "low",
   "tagline": "24/7 concierge that runs your errands",
   "icon": "/logos/text-zero.png",
-  "kind": "infra"
+  "kind": "infra",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Closed beta; ring on pre-order",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp",
+      "Telegram",
+      "Ring"
+    ],
+    "checked": "2026-09-09"
+  }
 }

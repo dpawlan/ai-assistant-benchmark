@@ -18,5 +18,15 @@
   "public_signal": "medium",
   "tagline": "Temporal context graph for AI agents",
   "icon": "/logos/synorb.png",
-  "kind": "infra"
+  "kind": "infra",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free tier · Streams to $1,000/mo",
+    "regions": "Not stated",
+    "channels": [
+      "API",
+      "MCP"
+    ],
+    "checked": "2026-09-09"
+  }
 }

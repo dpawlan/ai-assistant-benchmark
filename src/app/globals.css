@@ -3064,3 +3064,11 @@ a.chip.blue:hover {
     font-size: 14px;
   }
 }
+
+/* Info rows that can hold a sentence (price, regions, channels) */
+.iv.wrap {
+  white-space: normal;
+  max-width: 62%;
+  text-align: right;
+  line-height: 1.3;
+}

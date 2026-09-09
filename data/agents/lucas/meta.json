@@ -11,5 +11,14 @@
   "public_signal": "low",
   "tagline": "The assistant that texts you first",
   "icon": "/logos/lucas.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "UK-based",
+    "channels": [
+      "iMessage"
+    ],
+    "checked": "2026-09-09"
+  }
 }

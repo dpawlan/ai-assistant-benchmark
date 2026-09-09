@@ -10,5 +10,17 @@
   "tagline": "Meta’s personal AI agent for everyday tasks",
   "icon": "/logos/muse.png",
   "kind": "general",
-  "product_class": null
+  "product_class": null,
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · $20/mo · $100/mo",
+    "regions": "US only, 18+",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "Web",
+      "WhatsApp"
+    ],
+    "checked": "2026-09-09"
+  }
 }

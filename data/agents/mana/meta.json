@@ -10,5 +10,14 @@
   "public_signal": "low",
   "tagline": "An AI-native OS where apps evolve with you",
   "icon": "/logos/mana.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

@@ -1,0 +1,30 @@
+{
+  "slug": "milo",
+  "name": "Milo",
+  "site": "https://milo.joinhexagon.com/",
+  "handles": [
+    "joinhexagon"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hexagon's work assistant: one keystroke on the Mac, or text it on iMessage, WhatsApp, Slack or email; runs multi-step tasks across 1,000+ apps. Requested via the form (issue #15).",
+  "public_signal": "low",
+  "tagline": "The assistant that runs your work life",
+  "icon": "/logos/milo.png",
+  "kind": "work",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "macOS app",
+      "Windows",
+      "iMessage",
+      "WhatsApp",
+      "Slack",
+      "Email",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
+}

@@ -11,5 +11,15 @@
   "public_signal": "low",
   "tagline": "Text it, we run it: coffee, food, tickets and errands",
   "icon": "/logos/asaply.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "per-order",
+    "price": "Service fee per order, no subscription",
+    "regions": "Rolling out by neighborhood",
+    "channels": [
+      "SMS",
+      "iMessage"
+    ],
+    "checked": "2026-09-09"
+  }
 }

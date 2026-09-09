@@ -20,5 +20,16 @@
   "public_signal": "low",
   "tagline": "Your retail therapist. Talk to shop.",
   "icon": "/logos/shoponscout.png",
-  "kind": "shopping"
+  "kind": "shopping",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

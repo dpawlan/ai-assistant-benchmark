@@ -1,0 +1,30 @@
+{
+  "slug": "letta",
+  "name": "Letta Agent",
+  "site": "https://www.letta.com/agent/",
+  "handles": [
+    "Letta_AI",
+    "letta"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Stateful personal agent from Letta: desktop app, web chat, CLI and Slack/Discord/Telegram; bring your own model keys. Requested via the form (issue #13).",
+  "public_signal": "low",
+  "tagline": "A personalized agent that remembers and learns",
+  "icon": "/logos/letta.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free with your own API keys (3 agents) · Pro $20/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Desktop app (macOS, Windows, Linux)",
+      "Web",
+      "CLI",
+      "Slack",
+      "Discord",
+      "Telegram"
+    ],
+    "checked": "2026-09-09"
+  }
+}

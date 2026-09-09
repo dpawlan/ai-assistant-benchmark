@@ -1,0 +1,26 @@
+{
+  "slug": "today",
+  "name": "Today",
+  "site": "https://today.ai/",
+  "handles": [
+    "today_ai",
+    "todayai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal assistant with a living memory system, cloud computers for browsing and files, and proactive nudges across devices. Requested via the form (issue #16).",
+  "public_signal": "low",
+  "tagline": "The assistant that knows you, and acts before you ask",
+  "icon": "/logos/today.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "App",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
+}

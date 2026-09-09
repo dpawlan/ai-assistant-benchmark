@@ -1,0 +1,26 @@
+{
+  "slug": "migoo",
+  "name": "Migoo",
+  "site": "https://migoo.ai/",
+  "handles": [
+    "migoo_ai",
+    "migooai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Proactive assistant across email, calendar, meetings, reports, LinkedIn and CVs; lives in iMessage and an Android app; reported to be a Sea initiative. Requested via the form (issue #17).",
+  "public_signal": "low",
+  "tagline": "Auto your tasks for work and life",
+  "icon": "/logos/migoo.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Android app"
+    ],
+    "checked": "2026-09-09"
+  }
+}

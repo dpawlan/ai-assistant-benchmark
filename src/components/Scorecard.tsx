@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { track } from '@vercel/analytics';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
@@ -65,7 +66,10 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   /** Read at click time so the link carries whatever host the page is actually on. */
   const url = () => window.location.origin + pagePath;
   const shareText = `${v.headline}. ${v.detail}`;
+  const pair = `${a.slug}-vs-${b.slug}`;
+  const eventProps = () => ({ pair, focus: focus.join(',') });
   const postOnX = () => {
+    track('post_on_x', eventProps());
     const intent = `https://x.com/intent/post?${new URLSearchParams({ text: shareText, url: url() }).toString()}`;
     window.open(intent, '_blank', 'noopener,noreferrer');
   };
@@ -81,6 +85,7 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
   };
 
   const share = async () => {
+    track('share_card', { ...eventProps(), method: typeof navigator.share === 'function' ? 'sheet' : 'copy' });
     if (typeof navigator.share === 'function') {
       try {
         await navigator.share({ title: v.headline, text: shareText, url: url() });
@@ -145,7 +150,7 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
         <button type="button" className="btn ghost" onClick={postOnX}>
           Post on X
         </button>
-        <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)} download={fileName}>
+        <a className="btn ghost" href={cardPath(a.slug, b.slug, focus, true)} download={fileName} onClick={() => track('save_card', eventProps())}>
           Save card
         </a>
         {focus.length > 0 && (

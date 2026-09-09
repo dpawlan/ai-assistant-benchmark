@@ -11,5 +11,17 @@
   "public_signal": "medium",
   "tagline": "The friend in your texts",
   "icon": "/logos/folk.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro $9.99/mo · Max $100/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Telegram",
+      "WhatsApp",
+      "Discord"
+    ],
+    "checked": "2026-09-09"
+  }
 }

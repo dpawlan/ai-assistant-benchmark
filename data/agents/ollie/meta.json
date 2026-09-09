@@ -9,5 +9,15 @@
   "notes": "",
   "tagline": "Privacy-first assistant for email, calendar and reminders",
   "icon": "/logos/ollie.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "From $10/mo ($7/mo annual), 7-day trial",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "App"
+    ],
+    "checked": "2026-09-09"
+  }
 }

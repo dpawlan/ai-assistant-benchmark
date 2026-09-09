@@ -1,0 +1,36 @@
+{
+  "slug": "flip",
+  "name": "Flip",
+  "site": "https://fliptexts.com/",
+  "handles": [
+    "fliptexts",
+    "freddy_0x"
+  ],
+  "status": "stretch",
+  "product_class": "finance_assistant",
+  "notes": "AI money manager in iMessage: balances, paying people back, bill splits, subscriptions, stock trades. Requested via the form (issue #9).",
+  "likely_applicable": [
+    "online_task",
+    "proactive_behavior",
+    "third_party_integrations",
+    "memory",
+    "running_routine",
+    "purchasing",
+    "permissions_privacy",
+    "proactive_restraint",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Your money manager, in iMessage",
+  "icon": "/logos/flip.png",
+  "kind": "finance",
+  "access": {
+    "pricing": "paid",
+    "price": "$9.99/mo billed annually, or $19.99/mo monthly",
+    "regions": "US (connects to US banks and brokerages)",
+    "channels": [
+      "iMessage"
+    ],
+    "checked": "2026-09-09"
+  }
+}

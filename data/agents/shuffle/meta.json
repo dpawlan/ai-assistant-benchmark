@@ -10,5 +10,16 @@
   "public_signal": "low",
   "tagline": "AI you can text and call for images, memes and more",
   "icon": "/logos/shuffle.png",
-  "kind": "games"
+  "kind": "games",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Web"
+    ],
+    "checked": "2026-09-09"
+  }
 }

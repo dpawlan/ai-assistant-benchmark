@@ -10,5 +10,14 @@
   "public_signal": "low",
   "tagline": "iOS assistant that runs web apps and scheduled tasks",
   "icon": "/logos/buoy.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Waitlist (TestFlight)",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app"
+    ],
+    "checked": "2026-09-09"
+  }
 }

@@ -11,5 +11,17 @@
   "notes": "",
   "tagline": "Action agents that get things done in the physical world",
   "icon": "/logos/wajo-fo.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro $99/mo (waitlist)",
+    "regions": "Not stated",
+    "channels": [
+      "Email",
+      "Slack",
+      "SMS",
+      "Phone"
+    ],
+    "checked": "2026-09-09"
+  }
 }

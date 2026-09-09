@@ -10,5 +10,15 @@
   "notes": "",
   "tagline": "Your personal AI in Messages",
   "icon": "/logos/caddy.png",
-  "kind": "general"
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free (public beta)",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "RCS (Android)"
+    ],
+    "checked": "2026-09-09"
+  }
 }

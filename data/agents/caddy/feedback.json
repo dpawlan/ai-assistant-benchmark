@@ -1,412 +1,21 @@
 [
   {
-    "id": "ac6b8c28e0ca",
+    "id": "19da9ed94ebe",
     "agent": "caddy",
-    "quote": "Why is it so pretty. \n\nI use \n@try_caddy\n everyday.",
-    "author": "@bbjzoom",
-    "author_name": "Ben",
-    "date": "2026-09-03",
-    "url": "https://x.com/bbjzoom/status/2095628392955531760",
-    "kind": "praise",
-    "tags": [
-      "daily-use"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": ""
-  },
-  {
-    "id": "d30b66314dc0",
-    "agent": "caddy",
-    "quote": "Caddy finding a $2 beer pays for itself already",
-    "author": "@hudsonliao",
-    "author_name": "hudson",
-    "date": "2026-08-27",
-    "url": "https://x.com/hudsonliao/status/2093003823296250102",
-    "kind": "use-case",
-    "tags": [
-      "savings",
-      "local"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "$2 beer find"
-  },
-  {
-    "id": "7b1eaa333d43",
-    "agent": "caddy",
-    "quote": "My favorite way to use Caddy is to get it to help me find gallery openings + lectures… then put those on my cal 😎\n\nWorking with \n@ConnorWaslo\n + \n@sanchetio\n was a real delight. Unusual to find such strong dedication to excellence in such funny and grounded people.",
-    "author": "@_hannahswann",
-    "author_name": "Hannah Swann",
-    "date": "2026-08-20",
-    "url": "https://x.com/_hannahswann/status/2090505584764244413",
-    "kind": "use-case",
-    "tags": [
-      "events",
-      "calendar"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "gallery openings + lectures"
-  },
-  {
-    "id": "a094fa83a4be",
-    "agent": "caddy",
-    "quote": "I just tried \n@try_caddy\n \n\nIt’s a great product, but here are a few things I didn’t like:\n\n- It pushed Gmail before I asked for it\n- it kept pitching features instead of following the conversation\n- It asked too many questions back-to-back\n- Even after I asked it to slow down, it",
-    "author": "@StackDhruv",
-    "author_name": "dhruvieiei",
-    "date": "2026-08-01",
-    "url": "https://x.com/StackDhruv/status/2083557806179758199",
-    "kind": "complaint",
-    "tags": [
-      "onboarding",
-      "upsell"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "pushed Gmail / pitched features"
-  },
-  {
-    "id": "dd1ad071e243",
-    "agent": "caddy",
-    "quote": "Caddy (YC F25) has moved from a desktop voice interface to a 𝗽𝗿𝗼𝗮𝗰𝘁𝗶𝘃𝗲 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗔𝗜 𝗶𝗻 𝗶𝗠𝗲𝘀𝘀𝗮𝗴𝗲—using context from connected work apps to help users complete tasks from an ongoing conversation.\n\nThe original product could see what was on screen and",
-    "author": "@heybackchannel",
-    "author_name": "backchannel",
-    "date": "2026-09-04",
-    "url": "https://x.com/heybackchannel/status/2095893397395656800",
-    "kind": "other",
-    "tags": [
-      "imessage",
-      "proactive"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "product positioning"
-  },
-  {
-    "id": "d24b77dcc984",
-    "agent": "caddy",
-    "quote": "excited to announce that we're launching an in house foley studio at \n@try_caddy",
+    "quote": "oh shit I didn\u2019t know this existed \n\n\n@try_caddy\n found me $50 I\u2019ll take that",
     "author": "@ConnorWaslo",
     "author_name": "Connor Waslo",
-    "date": "2026-09-04",
-    "url": "https://x.com/ConnorWaslo/status/2095889007963992370",
-    "kind": "other",
-    "tags": [
-      "brand",
-      "audio",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "company: foley studio"
-  },
-  {
-    "id": "781ff6a33221",
-    "agent": "caddy",
-    "quote": "Yesssss Caddy take the wheel",
-    "author": "@_hannahswann",
-    "author_name": "Hannah Swann",
-    "date": "2026-08-27",
-    "url": "https://x.com/_hannahswann/status/2093018142649803171",
-    "kind": "praise",
-    "tags": [],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Caddy take the wheel"
-  },
-  {
-    "id": "de0d831c387c",
-    "agent": "caddy",
-    "quote": "This is our love letter to NYC 🗽\n\nWe taught Caddy how to live here.\n\nBook the resy. Plan drinks with friends. Find an apartment. Check the subway. Track down a Citi Bike. Forget waiting in line.\n\nJust text Caddy",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-08-27",
-    "url": "https://x.com/try_caddy/status/2092997757422141557",
-    "kind": "other",
-    "tags": [
-      "nyc",
-      "resy",
-      "imessage",
-      "company",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "NYC love letter: Resy, subway, Citi Bike"
-  },
-  {
-    "id": "5b0d6d2ceabe",
-    "agent": "caddy",
-    "quote": "✨New Work ✨\n\n@try_caddy\n is a personal AI built to help people stay on top of work and life.\n\nUsing AI is often a heavy lift: technical & demanding. Caddy takes a different approach, meeting people exactly where they are and making the whole experience feel light.",
-    "author": "@_hannahswann",
-    "author_name": "Hannah Swann",
-    "date": "2026-08-20",
-    "url": "https://x.com/_hannahswann/status/2090504754107466135",
-    "kind": "other",
-    "tags": [
-      "brand",
-      "positioning"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "personal AI meeting people where they are"
-  },
-  {
-    "id": "c737496a4242",
-    "agent": "caddy",
-    "quote": "The story of \n@try_caddy\n!\n\nLive now! ⬇️",
-    "author": "@alexpathoo",
-    "author_name": "Alex Patho",
-    "date": "2026-09-03",
-    "url": "https://x.com/alexpathoo/status/2095596114347167985",
-    "kind": "other",
-    "tags": [
-      "story",
-      "coverage"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "story of try_caddy live"
-  },
-  {
-    "id": "0c589ece0efe",
-    "agent": "caddy",
-    "quote": "Caddy's your new personal trainer\n\nSet your goals, track your progress, and finally stop skipping leg day\n\nIntroducing Caddy for fitness",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-08-18",
-    "url": "https://x.com/try_caddy/status/2089736606211055843",
-    "kind": "other",
-    "tags": [
-      "fitness",
-      "company",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Caddy for fitness"
-  },
-  {
-    "id": "4476df5d978e",
-    "agent": "caddy",
-    "quote": "Never show up to a meeting unprepared again.\n\nVideo best experienced with headphones 🎧",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-09-03",
-    "url": "https://x.com/try_caddy/status/2095534240448360638",
+    "date": "2026-09-08",
+    "url": "https://x.com/ConnorWaslo/status/2097527712088830007",
     "kind": "use-case",
     "tags": [
-      "meetings",
-      "prep",
-      "founder"
+      "money-found",
+      "discovery",
+      "praise"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "never show up unprepared — meeting prep"
-  },
-  {
-    "id": "acea6e410f3e",
-    "agent": "caddy",
-    "quote": "This is the only feature I use and I work here \n\n@try_caddy",
-    "author": "@cooperbrown9",
-    "author_name": "Cooper",
-    "date": "2026-06-17",
-    "url": "https://x.com/cooperbrown9/status/2067277716282384782",
-    "kind": "other",
-    "tags": [
-      "team",
-      "feature",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "team member: only feature I use"
-  },
-  {
-    "id": "9702873e5415",
-    "agent": "caddy",
-    "quote": "Missing \n@try_caddy\n and \n@HeyNoahAI",
-    "author": "@after_ephemera",
-    "author_name": "jk",
-    "date": "2026-06-10",
-    "url": "https://x.com/after_ephemera/status/2064856963717181633",
-    "kind": "praise",
-    "tags": [
-      "missing"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "Missing @try_caddy"
-  },
-  {
-    "id": "cb7f7cdf9adf",
-    "agent": "caddy",
-    "quote": "Stoked to hear what you think of \n@try_caddy",
-    "author": "@ConnorWaslo",
-    "author_name": "Connor Waslo",
-    "date": "2026-09-05",
-    "url": "https://x.com/ConnorWaslo/status/2096319553332539450",
-    "kind": "other",
-    "tags": [
-      "intro",
-      "try",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: stoked to hear what you think of @try_caddy"
-  },
-  {
-    "id": "011dbbe5857d",
-    "agent": "caddy",
-    "quote": "best audio i've heard on a launch video!",
-    "author": "@rvmie_",
-    "author_name": "Ramie Khoury",
-    "date": "2026-09-03",
-    "url": "https://x.com/rvmie_/status/2095536956583100465",
-    "kind": "praise",
-    "tags": [
-      "launch-video",
-      "audio"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: best audio heard on a launch video"
-  },
-  {
-    "id": "bd68d792f498",
-    "agent": "caddy",
-    "quote": "Absolutely crushing it.",
-    "author": "@sfakkawi",
-    "author_name": "Sami",
-    "date": "2026-09-03",
-    "url": "https://x.com/sfakkawi/status/2095541517079237063",
-    "kind": "praise",
-    "tags": [
-      "launch"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: absolutely crushing it"
-  },
-  {
-    "id": "ca181285b7f9",
-    "agent": "caddy",
-    "quote": "Not the Caddy Labs I imagined but we'll take it.",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-09-04",
-    "url": "https://x.com/try_caddy/status/2095889524492558838",
-    "kind": "other",
-    "tags": [
-      "brand",
-      "labs",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "founder: Not the Caddy Labs I imagined but we will take it"
-  },
-  {
-    "id": "02115c4e762f",
-    "agent": "caddy",
-    "quote": "https://caddy.app/",
-    "author": "@thelinqapp",
-    "author_name": "Linq",
-    "date": "2026-09-03",
-    "url": "https://x.com/thelinqapp/status/2095595114278314335",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
-  },
-  {
-    "id": "ce7cc079d7f1",
-    "agent": "caddy",
-    "quote": "Make life in the city easier at\n\nhttps://caddy.app/nyc",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-08-27",
-    "url": "https://x.com/try_caddy/status/2092997759062118469",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
-  },
-  {
-    "id": "7969972e9193",
-    "agent": "caddy",
-    "quote": "get fit at https://caddy.app/",
-    "author": "@try_caddy",
-    "author_name": "Caddy",
-    "date": "2026-08-18",
-    "url": "https://x.com/try_caddy/status/2089738960050225198",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
-  },
-  {
-    "id": "a008300c754e",
-    "agent": "caddy",
-    "quote": "color picker &gt; dark/light mode\nhttp://caddy.app https://t.co/95a3msK6ob",
-    "author": "@imanradjavi",
-    "author_name": "Iman Radjavi",
-    "date": "2026-07-06",
-    "url": "https://x.com/imanradjavi/status/2074020112860913936",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
-  },
-  {
-    "id": "0d8827084719",
-    "agent": "caddy",
-    "quote": "free while we’re in public beta\n\nhttps://caddy.app/",
-    "author": "@ConnorWaslo",
-    "author_name": "Connor Waslo",
-    "date": "2026-04-30",
-    "url": "https://x.com/ConnorWaslo/status/2049868962716868734",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "User says Caddy found $50 for them after discovering the service."
   },
   {
     "id": "c2e7cd34d77d",
@@ -431,7 +40,7 @@
   {
     "id": "0abae18f2d24",
     "agent": "caddy",
-    "quote": "@ConnorWaslo @try_caddy 🫡",
+    "quote": "@ConnorWaslo @try_caddy \ud83e\udee1",
     "author": "@DavidPawlan",
     "author_name": "David Pawlan",
     "date": "2026-09-05",
@@ -449,6 +58,43 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "cb7f7cdf9adf",
+    "agent": "caddy",
+    "quote": "Stoked to hear what you think of \n@try_caddy",
+    "author": "@ConnorWaslo",
+    "author_name": "Connor Waslo",
+    "date": "2026-09-05",
+    "url": "https://x.com/ConnorWaslo/status/2096319553332539450",
+    "kind": "other",
+    "tags": [
+      "intro",
+      "try",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: stoked to hear what you think of @try_caddy"
+  },
+  {
+    "id": "ca181285b7f9",
+    "agent": "caddy",
+    "quote": "Not the Caddy Labs I imagined but we'll take it.",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
+    "date": "2026-09-04",
+    "url": "https://x.com/try_caddy/status/2095889524492558838",
+    "kind": "other",
+    "tags": [
+      "brand",
+      "labs",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "founder: Not the Caddy Labs I imagined but we will take it"
+  },
+  {
     "id": "58f2b5f2bb7b",
     "agent": "caddy",
     "quote": "@try_caddy not the woahhhh",
@@ -456,6 +102,41 @@
     "author_name": "Mehul Agarwal",
     "date": "2026-09-04",
     "url": "https://x.com/meh_agarwal/status/2095941737730748739",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "dd1ad071e243",
+    "agent": "caddy",
+    "quote": "Caddy (YC F25) has moved from a desktop voice interface to a \ud835\uddfd\ud835\uddff\ud835\uddfc\ud835\uddee\ud835\uddf0\ud835\ude01\ud835\uddf6\ud835\ude03\ud835\uddf2 \ud835\uddfd\ud835\uddf2\ud835\uddff\ud835\ude00\ud835\uddfc\ud835\uddfb\ud835\uddee\ud835\uddf9 \ud835\uddd4\ud835\udddc \ud835\uddf6\ud835\uddfb \ud835\uddf6\ud835\udde0\ud835\uddf2\ud835\ude00\ud835\ude00\ud835\uddee\ud835\uddf4\ud835\uddf2\u2014using context from connected work apps to help users complete tasks from an ongoing conversation.\n\nThe original product could see what was on screen and",
+    "author": "@heybackchannel",
+    "author_name": "backchannel",
+    "date": "2026-09-04",
+    "url": "https://x.com/heybackchannel/status/2095893397395656800",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "proactive"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "product positioning"
+  },
+  {
+    "id": "5b35feb1bfd2",
+    "agent": "caddy",
+    "quote": "@try_caddy This is too good",
+    "author": "@byAmirHanna",
+    "author_name": "Amir Hanna \ud83e\udd9c",
+    "date": "2026-09-04",
+    "url": "https://x.com/byAmirHanna/status/2095677670101328080",
     "kind": "other",
     "tags": [
       "auto",
@@ -485,13 +166,69 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "5b35feb1bfd2",
+    "id": "d24b77dcc984",
     "agent": "caddy",
-    "quote": "@try_caddy This is too good",
-    "author": "@byAmirHanna",
-    "author_name": "Amir Hanna 🦜",
+    "quote": "excited to announce that we're launching an in house foley studio at \n@try_caddy",
+    "author": "@ConnorWaslo",
+    "author_name": "Connor Waslo",
     "date": "2026-09-04",
-    "url": "https://x.com/byAmirHanna/status/2095677670101328080",
+    "url": "https://x.com/ConnorWaslo/status/2095889007963992370",
+    "kind": "other",
+    "tags": [
+      "brand",
+      "audio",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "company: foley studio"
+  },
+  {
+    "id": "2233bd515b79",
+    "agent": "caddy",
+    "quote": "We took the same backend. We threw it into email, we threw it into Slack, we threw it into iMessage. iMessage immediately took off. ... it took off for us. Like we just started using it all the time. Our friends started using it. We were proud to share it with people, which is really one of our biggest goals. ... the pickup was crazy, like the usage just spiked.",
+    "author": "rajiv",
+    "author_name": "Rajiv (Caddy cofounder, via Linq)",
+    "date": "2026-09-04",
+    "url": "https://linqapp.com/blog/what-happened-when-caddy-moved-its-assistant-to-texting",
+    "kind": "use-case",
+    "tags": [
+      "imessage",
+      "channel-experiment",
+      "product-pivot",
+      "linq"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Sep 4 Linq case study: Caddy A/B'd email/Slack/iMessage; iMessage drove usage spike."
+  },
+  {
+    "id": "4476df5d978e",
+    "agent": "caddy",
+    "quote": "Never show up to a meeting unprepared again.\n\nVideo best experienced with headphones \ud83c\udfa7",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
+    "date": "2026-09-03",
+    "url": "https://x.com/try_caddy/status/2095534240448360638",
+    "kind": "use-case",
+    "tags": [
+      "meetings",
+      "prep",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "never show up unprepared \u2014 meeting prep"
+  },
+  {
+    "id": "02115c4e762f",
+    "agent": "caddy",
+    "quote": "https://caddy.app/",
+    "author": "@thelinqapp",
+    "author_name": "Linq",
+    "date": "2026-09-03",
+    "url": "https://x.com/thelinqapp/status/2095595114278314335",
     "kind": "other",
     "tags": [
       "auto",
@@ -500,16 +237,49 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas"
   },
   {
-    "id": "a9dd84e90d9f",
+    "id": "bd68d792f498",
     "agent": "caddy",
-    "quote": "@try_caddy y’all should checkout https://agnost.ai for monitoring your agent in prod!",
-    "author": "@StackDhruv",
-    "author_name": "dhruvieiei",
+    "quote": "Absolutely crushing it.",
+    "author": "@sfakkawi",
+    "author_name": "Sami",
     "date": "2026-09-03",
-    "url": "https://x.com/StackDhruv/status/2095600549597225349",
+    "url": "https://x.com/sfakkawi/status/2095541517079237063",
+    "kind": "praise",
+    "tags": [
+      "launch"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: absolutely crushing it"
+  },
+  {
+    "id": "011dbbe5857d",
+    "agent": "caddy",
+    "quote": "best audio i've heard on a launch video!",
+    "author": "@rvmie_",
+    "author_name": "Ramie Khoury",
+    "date": "2026-09-03",
+    "url": "https://x.com/rvmie_/status/2095536956583100465",
+    "kind": "praise",
+    "tags": [
+      "launch-video",
+      "audio"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "third-party: best audio heard on a launch video"
+  },
+  {
+    "id": "5485f9346396",
+    "agent": "caddy",
+    "quote": "@try_caddy hahaha audio is so good",
+    "author": "@rishipenmetcha",
+    "author_name": "rishi",
+    "date": "2026-09-03",
+    "url": "https://x.com/rishipenmetcha/status/2095537339795734793",
     "kind": "other",
     "tags": [
       "auto",
@@ -539,13 +309,46 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "5485f9346396",
+    "id": "ac6b8c28e0ca",
     "agent": "caddy",
-    "quote": "@try_caddy hahaha audio is so good",
-    "author": "@rishipenmetcha",
-    "author_name": "rishi",
+    "quote": "Why is it so pretty. \n\nI use \n@try_caddy\n everyday.",
+    "author": "@bbjzoom",
+    "author_name": "Ben",
     "date": "2026-09-03",
-    "url": "https://x.com/rishipenmetcha/status/2095537339795734793",
+    "url": "https://x.com/bbjzoom/status/2095628392955531760",
+    "kind": "praise",
+    "tags": [
+      "daily-use"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "c737496a4242",
+    "agent": "caddy",
+    "quote": "The story of \n@try_caddy\n!\n\nLive now! \u2b07\ufe0f",
+    "author": "@alexpathoo",
+    "author_name": "Alex Patho",
+    "date": "2026-09-03",
+    "url": "https://x.com/alexpathoo/status/2095596114347167985",
+    "kind": "other",
+    "tags": [
+      "story",
+      "coverage"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "story of try_caddy live"
+  },
+  {
+    "id": "a9dd84e90d9f",
+    "agent": "caddy",
+    "quote": "@try_caddy y\u2019all should checkout https://agnost.ai for monitoring your agent in prod!",
+    "author": "@StackDhruv",
+    "author_name": "dhruvieiei",
+    "date": "2026-09-03",
+    "url": "https://x.com/StackDhruv/status/2095600549597225349",
     "kind": "other",
     "tags": [
       "auto",
@@ -574,6 +377,47 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "ce7cc079d7f1",
+    "agent": "caddy",
+    "quote": "Make life in the city easier at\n\nhttps://caddy.app/nyc",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
+    "date": "2026-08-27",
+    "url": "https://x.com/try_caddy/status/2092997759062118469",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: \"caddy.app\" | via x402atlas"
+  },
+  {
+    "id": "de0d831c387c",
+    "agent": "caddy",
+    "quote": "This is our love letter to NYC \ud83d\uddfd\n\nWe taught Caddy how to live here.\n\nBook the resy. Plan drinks with friends. Find an apartment. Check the subway. Track down a Citi Bike. Forget waiting in line.\n\nJust text Caddy",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
+    "date": "2026-08-27",
+    "url": "https://x.com/try_caddy/status/2092997757422141557",
+    "kind": "other",
+    "tags": [
+      "nyc",
+      "resy",
+      "imessage",
+      "company",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "NYC love letter: Resy, subway, Citi Bike"
+  },
+  {
     "id": "f2386c5a04ca",
     "agent": "caddy",
     "quote": "@try_caddy makes me wanna go",
@@ -592,9 +436,40 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "d30b66314dc0",
+    "agent": "caddy",
+    "quote": "Caddy finding a $2 beer pays for itself already",
+    "author": "@hudsonliao",
+    "author_name": "hudson",
+    "date": "2026-08-27",
+    "url": "https://x.com/hudsonliao/status/2093003823296250102",
+    "kind": "use-case",
+    "tags": [
+      "savings",
+      "local"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "$2 beer find"
+  },
+  {
+    "id": "781ff6a33221",
+    "agent": "caddy",
+    "quote": "Yesssss Caddy take the wheel",
+    "author": "@_hannahswann",
+    "author_name": "Hannah Swann",
+    "date": "2026-08-27",
+    "url": "https://x.com/_hannahswann/status/2093018142649803171",
+    "kind": "praise",
+    "tags": [],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Caddy take the wheel"
+  },
+  {
     "id": "97d1ecaf5a5f",
     "agent": "caddy",
-    "quote": "@hudsonliao @try_caddy a beautiful sight in this city 🥲",
+    "quote": "@hudsonliao @try_caddy a beautiful sight in this city \ud83e\udd72",
     "author": "@ConnorWaslo",
     "author_name": "Connor Waslo",
     "date": "2026-08-27",
@@ -612,27 +487,9 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "411f249239cf",
-    "agent": "caddy",
-    "quote": "@try_caddy @_hannahswann it’s damn hard to pick, they’re all so good😭",
-    "author": "@sajjadjairaj",
-    "author_name": "sajjad",
-    "date": "2026-08-20",
-    "url": "https://x.com/sajjadjairaj/status/2090530320621936746",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
     "id": "65d6cefa7f0e",
     "agent": "caddy",
-    "quote": "@try_caddy @_hannahswann gimme chrome caddy 🥸☝️",
+    "quote": "@try_caddy @_hannahswann gimme chrome caddy \ud83e\udd78\u261d\ufe0f",
     "author": "@winsondieu",
     "author_name": "w",
     "date": "2026-08-20",
@@ -686,6 +543,24 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "411f249239cf",
+    "agent": "caddy",
+    "quote": "@try_caddy @_hannahswann it\u2019s damn hard to pick, they\u2019re all so good\ud83d\ude2d",
+    "author": "@sajjadjairaj",
+    "author_name": "sajjad",
+    "date": "2026-08-20",
+    "url": "https://x.com/sajjadjairaj/status/2090530320621936746",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "cb41a322d690",
     "agent": "caddy",
     "quote": "@try_caddy @_hannahswann oh let's go https://t.co/pOoN96e6FD",
@@ -702,6 +577,76 @@
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
     "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "04ba793a619a",
+    "agent": "caddy",
+    "quote": "@try_caddy @ConnorWaslo @sanchetio Check out the case study \u2b07\ufe0f\nhttps://wearefamilystyle.com/caddy",
+    "author": "@_hannahswann",
+    "author_name": "Hannah Swann",
+    "date": "2026-08-20",
+    "url": "https://x.com/_hannahswann/status/2090505710412980312",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "7b1eaa333d43",
+    "agent": "caddy",
+    "quote": "My favorite way to use Caddy is to get it to help me find gallery openings + lectures\u2026 then put those on my cal \ud83d\ude0e\n\nWorking with \n@ConnorWaslo\n + \n@sanchetio\n was a real delight. Unusual to find such strong dedication to excellence in such funny and grounded people.",
+    "author": "@_hannahswann",
+    "author_name": "Hannah Swann",
+    "date": "2026-08-20",
+    "url": "https://x.com/_hannahswann/status/2090505584764244413",
+    "kind": "use-case",
+    "tags": [
+      "events",
+      "calendar"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "gallery openings + lectures"
+  },
+  {
+    "id": "926c63a82812",
+    "agent": "caddy",
+    "quote": "@try_caddy We partnered with @try_caddy defining their POV, identity, and how brand comes into the product. The identity is rooted in the feeling of setting down a heavy backpack: more space, more momentum, and a better day in flow. https://t.co/xhu1zkWQkX",
+    "author": "@_hannahswann",
+    "author_name": "Hannah Swann",
+    "date": "2026-08-20",
+    "url": "https://x.com/_hannahswann/status/2090505260880019689",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.005Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "5b0d6d2ceabe",
+    "agent": "caddy",
+    "quote": "\u2728New Work \u2728\n\n@try_caddy\n is a personal AI built to help people stay on top of work and life.\n\nUsing AI is often a heavy lift: technical & demanding. Caddy takes a different approach, meeting people exactly where they are and making the whole experience feel light.",
+    "author": "@_hannahswann",
+    "author_name": "Hannah Swann",
+    "date": "2026-08-20",
+    "url": "https://x.com/_hannahswann/status/2090504754107466135",
+    "kind": "other",
+    "tags": [
+      "brand",
+      "positioning"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "personal AI meeting people where they are"
   },
   {
     "id": "f10a2f0a50f1",
@@ -724,85 +669,52 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "04ba793a619a",
+    "id": "7969972e9193",
     "agent": "caddy",
-    "quote": "@try_caddy @ConnorWaslo @sanchetio Check out the case study ⬇️\nhttps://wearefamilystyle.com/caddy",
-    "author": "@_hannahswann",
-    "author_name": "Hannah Swann",
-    "date": "2026-08-20",
-    "url": "https://x.com/_hannahswann/status/2090505710412980312",
+    "quote": "get fit at https://caddy.app/",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
+    "date": "2026-08-18",
+    "url": "https://x.com/try_caddy/status/2089738960050225198",
     "kind": "other",
     "tags": [
       "auto",
       "x",
-      "reply"
+      "vendor",
+      "reply",
+      "founder"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas"
   },
   {
-    "id": "926c63a82812",
+    "id": "0c589ece0efe",
     "agent": "caddy",
-    "quote": "@try_caddy We partnered with @try_caddy defining their POV, identity, and how brand comes into the product. The identity is rooted in the feeling of setting down a heavy backpack: more space, more momentum, and a better day in flow. https://t.co/xhu1zkWQkX",
-    "author": "@_hannahswann",
-    "author_name": "Hannah Swann",
-    "date": "2026-08-20",
-    "url": "https://x.com/_hannahswann/status/2090505260880019689",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "db2c718aec72",
-    "agent": "caddy",
-    "quote": "@try_caddy congrats on the launch!",
-    "author": "@Qromerolauro",
-    "author_name": "Quentin Romero Lauro",
+    "quote": "Caddy's your new personal trainer\n\nSet your goals, track your progress, and finally stop skipping leg day\n\nIntroducing Caddy for fitness",
+    "author": "@try_caddy",
+    "author_name": "Caddy",
     "date": "2026-08-18",
-    "url": "https://x.com/Qromerolauro/status/2089783076591395154",
+    "url": "https://x.com/try_caddy/status/2089736606211055843",
     "kind": "other",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "fitness",
+      "company",
+      "founder",
+      "vendor"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "Caddy for fitness"
   },
   {
     "id": "100615d3d4fb",
     "agent": "caddy",
-    "quote": "@try_caddy never skipping leg day again 🦾",
+    "quote": "@try_caddy never skipping leg day again \ud83e\uddbe",
     "author": "@mrp_opo",
     "author_name": "Porsev.A",
     "date": "2026-08-18",
     "url": "https://x.com/mrp_opo/status/2089765906012393828",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "e010843d6c6c",
-    "agent": "caddy",
-    "quote": "@try_caddy Needed this!",
-    "author": "@MattiasLindll",
-    "author_name": "Mattias Lindell",
-    "date": "2026-08-18",
-    "url": "https://x.com/MattiasLindll/status/2089749979254448299",
     "kind": "other",
     "tags": [
       "auto",
@@ -834,7 +746,7 @@
   {
     "id": "5d330cda8682",
     "agent": "caddy",
-    "quote": "@try_caddy lfg!! 🔥🔥",
+    "quote": "@try_caddy lfg!! \ud83d\udd25\ud83d\udd25",
     "author": "@bitcoinbasha",
     "author_name": "Soheil Parry",
     "date": "2026-08-18",
@@ -850,9 +762,45 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "db2c718aec72",
+    "agent": "caddy",
+    "quote": "@try_caddy congrats on the launch!",
+    "author": "@Qromerolauro",
+    "author_name": "Quentin Romero Lauro",
+    "date": "2026-08-18",
+    "url": "https://x.com/Qromerolauro/status/2089783076591395154",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.005Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "e010843d6c6c",
+    "agent": "caddy",
+    "quote": "@try_caddy Needed this!",
+    "author": "@MattiasLindll",
+    "author_name": "Mattias Lindell",
+    "date": "2026-08-18",
+    "url": "https://x.com/MattiasLindll/status/2089749979254448299",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.005Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "8ae53027bea2",
     "agent": "caddy",
-    "quote": "Thanks for joining us at 4:30am et Chris 😅 @try_caddy https://t.co/5ixNoMzgHc",
+    "quote": "Thanks for joining us at 4:30am et Chris \ud83d\ude05 @try_caddy https://t.co/5ixNoMzgHc",
     "author": "@thelinqapp",
     "author_name": "Linq",
     "date": "2026-08-01",
@@ -865,6 +813,23 @@
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
     "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "a094fa83a4be",
+    "agent": "caddy",
+    "quote": "I just tried \n@try_caddy\n \n\nIt\u2019s a great product, but here are a few things I didn\u2019t like:\n\n- It pushed Gmail before I asked for it\n- it kept pitching features instead of following the conversation\n- It asked too many questions back-to-back\n- Even after I asked it to slow down, it",
+    "author": "@StackDhruv",
+    "author_name": "dhruvieiei",
+    "date": "2026-08-01",
+    "url": "https://x.com/StackDhruv/status/2083557806179758199",
+    "kind": "complaint",
+    "tags": [
+      "onboarding",
+      "upsell"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "pushed Gmail / pitched features"
   },
   {
     "id": "efc20f041e1c",
@@ -883,6 +848,62 @@
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
     "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "a008300c754e",
+    "agent": "caddy",
+    "quote": "color picker &gt; dark/light mode\nhttp://caddy.app https://t.co/95a3msK6ob",
+    "author": "@imanradjavi",
+    "author_name": "Iman Radjavi",
+    "date": "2026-07-06",
+    "url": "https://x.com/imanradjavi/status/2074020112860913936",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: \"caddy.app\" | via x402atlas"
+  },
+  {
+    "id": "acea6e410f3e",
+    "agent": "caddy",
+    "quote": "This is the only feature I use and I work here \n\n@try_caddy",
+    "author": "@cooperbrown9",
+    "author_name": "Cooper",
+    "date": "2026-06-17",
+    "url": "https://x.com/cooperbrown9/status/2067277716282384782",
+    "kind": "other",
+    "tags": [
+      "team",
+      "feature",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "team member: only feature I use"
+  },
+  {
+    "id": "1b5624308542",
+    "agent": "caddy",
+    "quote": "I asked Otto to compare itself to Caddy, and it told me: \"i dont touch email at all, and i def cant do the receipt organizing / google drive stuff. caddy sounds way more automation-heavy\" ... \"sounds like caddy is handling the productivity/email workflow stuff really well for u.\" So it admitted Caddy does more, then tried to upsell me anyway. ... And if you're interested in a legitimately helpful still-free-for-now proactive AI assistant, try Caddy.",
+    "author": "nikkigoodson",
+    "author_name": "Nikki Goodson",
+    "date": "2026-06-17",
+    "url": "https://www.linkedin.com/posts/nikkigoodson_otto-activity-7473055632015708161-PWo5",
+    "kind": "comparison",
+    "tags": [
+      "sidekicks",
+      "otto",
+      "email",
+      "receipts",
+      "referral"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "User compared Sidekicks/Otto vs Caddy; competitor conceded Caddy stronger on email/automation; user recommends Caddy."
   },
   {
     "id": "ac41e146623f",
@@ -905,9 +926,25 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "9702873e5415",
+    "agent": "caddy",
+    "quote": "Missing \n@try_caddy\n and \n@HeyNoahAI",
+    "author": "@after_ephemera",
+    "author_name": "jk",
+    "date": "2026-06-10",
+    "url": "https://x.com/after_ephemera/status/2064856963717181633",
+    "kind": "praise",
+    "tags": [
+      "missing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Missing @try_caddy"
+  },
+  {
     "id": "20129c0083bf",
     "agent": "caddy",
-    "quote": "@theajdesign @try_caddy ty ajay 😄",
+    "quote": "@theajdesign @try_caddy ty ajay \ud83d\ude04",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-09",
@@ -925,7 +962,7 @@
   {
     "id": "303ff6bc0858",
     "agent": "caddy",
-    "quote": "@CedrikStephen @try_caddy too kind Ced 🤍",
+    "quote": "@CedrikStephen @try_caddy too kind Ced \ud83e\udd0d",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-08",
@@ -941,27 +978,9 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "1cf800d5f33c",
-    "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy too good",
-    "author": "@CedrikStephen",
-    "author_name": "Cedrik Stephen",
-    "date": "2026-06-08",
-    "url": "https://x.com/CedrikStephen/status/2064091523885539824",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
     "id": "75e7a5b71331",
     "agent": "caddy",
-    "quote": "@editorjacobb @try_caddy thanks a lot Jacob! Appreciate it 🤍",
+    "quote": "@editorjacobb @try_caddy thanks a lot Jacob! Appreciate it \ud83e\udd0d",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-08",
@@ -994,9 +1013,27 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "1cf800d5f33c",
+    "agent": "caddy",
+    "quote": "@iamnotsrc @try_caddy too good",
+    "author": "@CedrikStephen",
+    "author_name": "Cedrik Stephen",
+    "date": "2026-06-08",
+    "url": "https://x.com/CedrikStephen/status/2064091523885539824",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "1a1eb12a2048",
     "agent": "caddy",
-    "quote": "@zaffarrh @try_caddy 🙏🏻 thanks!",
+    "quote": "@zaffarrh @try_caddy \ud83d\ude4f\ud83c\udffb thanks!",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-06",
@@ -1032,7 +1069,7 @@
   {
     "id": "3b32467a4788",
     "agent": "caddy",
-    "quote": "@asifalihunzai @try_caddy ✌️",
+    "quote": "@asifalihunzai @try_caddy \u270c\ufe0f",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1050,7 +1087,7 @@
   {
     "id": "1bd52ec5a90c",
     "agent": "caddy",
-    "quote": "@damini_designs @try_caddy 🙏🏻",
+    "quote": "@damini_designs @try_caddy \ud83d\ude4f\ud83c\udffb",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1086,7 +1123,7 @@
   {
     "id": "a11d146e7441",
     "agent": "caddy",
-    "quote": "@Vedantdzn @try_caddy Thanks a lot 😄",
+    "quote": "@Vedantdzn @try_caddy Thanks a lot \ud83d\ude04",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1104,7 +1141,7 @@
   {
     "id": "1f48d4ba045f",
     "agent": "caddy",
-    "quote": "@brandsonsmith @try_caddy 🙌🏻",
+    "quote": "@brandsonsmith @try_caddy \ud83d\ude4c\ud83c\udffb",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1120,243 +1157,9 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "02de6afd62d0",
-    "agent": "caddy",
-    "quote": "@nicalo06 @try_caddy 🎨",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062622400097722703",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "ec5741bbde17",
-    "agent": "caddy",
-    "quote": "@mmaung____ @try_caddy appreciate it min 👏🏻",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062619995876528136",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "f4325f14721b",
-    "agent": "caddy",
-    "quote": "@FrattaliMa57189 @try_caddy too kind 🤍",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062619921972867445",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "876c67fe8337",
-    "agent": "caddy",
-    "quote": "@its_sslvr @try_caddy thanks sha!! 😄",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062619882043171179",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "2a5e45c193e7",
-    "agent": "caddy",
-    "quote": "@aecyydesign @try_caddy tyty 🫡",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062619819426386058",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "8a6c43e63108",
-    "agent": "caddy",
-    "quote": "@DominicEkom_ @try_caddy 🙏🏻",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062619780213870947",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "4fd7297d932b",
-    "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy Looks great 🔥",
-    "author": "@aecyydesign",
-    "author_name": "Szymon",
-    "date": "2026-06-04",
-    "url": "https://x.com/aecyydesign/status/2062604602625695777",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "0cc40d85a747",
-    "agent": "caddy",
-    "quote": "@JCKHLRY @try_caddy thanks man 🤟🏻",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062599881324118130",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "c9203890e0b0",
-    "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy dope work!",
-    "author": "@JCKHLRY",
-    "author_name": "JACKⒿ",
-    "date": "2026-06-04",
-    "url": "https://x.com/JCKHLRY/status/2062599675832586590",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "9105bf5b68d0",
-    "agent": "caddy",
-    "quote": "@Peterpangfx @try_caddy ty Peter! 🏌️",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062598287350272414",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "5ecdc0332e09",
-    "agent": "caddy",
-    "quote": "@bylorenzodesign @try_caddy thanks a lot man 🤍",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062597312086466949",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "5337c4791b6c",
-    "agent": "caddy",
-    "quote": "@phumvisuals @try_caddy thank you phum! appreciate it 🫶🏻",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062597243765412202",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "938befba3d6b",
-    "agent": "caddy",
-    "quote": "@sanchetio @try_caddy it was my pleasure! glad to have met some great people like you and @ConnorWaslo ✌️",
-    "author": "@iamnotsrc",
-    "author_name": "src",
-    "date": "2026-06-04",
-    "url": "https://x.com/iamnotsrc/status/2062597109480599635",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
     "id": "230a38adb8f6",
     "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy appreciated the opportunity to work with you @iamnotsrc 🔥",
+    "quote": "@iamnotsrc @try_caddy appreciated the opportunity to work with you @iamnotsrc \ud83d\udd25",
     "author": "@sanchetio",
     "author_name": "Rajiv Sancheti",
     "date": "2026-06-04",
@@ -1374,6 +1177,204 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "02de6afd62d0",
+    "agent": "caddy",
+    "quote": "@nicalo06 @try_caddy \ud83c\udfa8",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062622400097722703",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "ec5741bbde17",
+    "agent": "caddy",
+    "quote": "@mmaung____ @try_caddy appreciate it min \ud83d\udc4f\ud83c\udffb",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062619995876528136",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "f4325f14721b",
+    "agent": "caddy",
+    "quote": "@FrattaliMa57189 @try_caddy too kind \ud83e\udd0d",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062619921972867445",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "876c67fe8337",
+    "agent": "caddy",
+    "quote": "@its_sslvr @try_caddy thanks sha!! \ud83d\ude04",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062619882043171179",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "2a5e45c193e7",
+    "agent": "caddy",
+    "quote": "@aecyydesign @try_caddy tyty \ud83e\udee1",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062619819426386058",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "8a6c43e63108",
+    "agent": "caddy",
+    "quote": "@DominicEkom_ @try_caddy \ud83d\ude4f\ud83c\udffb",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062619780213870947",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "0cc40d85a747",
+    "agent": "caddy",
+    "quote": "@JCKHLRY @try_caddy thanks man \ud83e\udd1f\ud83c\udffb",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062599881324118130",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "9105bf5b68d0",
+    "agent": "caddy",
+    "quote": "@Peterpangfx @try_caddy ty Peter! \ud83c\udfcc\ufe0f",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062598287350272414",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.328Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "5ecdc0332e09",
+    "agent": "caddy",
+    "quote": "@bylorenzodesign @try_caddy thanks a lot man \ud83e\udd0d",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062597312086466949",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.328Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "5337c4791b6c",
+    "agent": "caddy",
+    "quote": "@phumvisuals @try_caddy thank you phum! appreciate it \ud83e\udef6\ud83c\udffb",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062597243765412202",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.328Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "938befba3d6b",
+    "agent": "caddy",
+    "quote": "@sanchetio @try_caddy it was my pleasure! glad to have met some great people like you and @ConnorWaslo \u270c\ufe0f",
+    "author": "@iamnotsrc",
+    "author_name": "src",
+    "date": "2026-06-04",
+    "url": "https://x.com/iamnotsrc/status/2062597109480599635",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.328Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "b4d2e19ce406",
     "agent": "caddy",
     "quote": "new work for @try_caddy https://t.co/aEWx1ygcm4",
@@ -1385,6 +1386,42 @@
     "tags": [
       "auto",
       "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.328Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "4fd7297d932b",
+    "agent": "caddy",
+    "quote": "@iamnotsrc @try_caddy Looks great \ud83d\udd25",
+    "author": "@aecyydesign",
+    "author_name": "Szymon",
+    "date": "2026-06-04",
+    "url": "https://x.com/aecyydesign/status/2062604602625695777",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.506Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "c9203890e0b0",
+    "agent": "caddy",
+    "quote": "@iamnotsrc @try_caddy dope work!",
+    "author": "@JCKHLRY",
+    "author_name": "JACK\u24bf",
+    "date": "2026-06-04",
+    "url": "https://x.com/JCKHLRY/status/2062599675832586590",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
@@ -1410,9 +1447,29 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "0d8827084719",
+    "agent": "caddy",
+    "quote": "free while we\u2019re in public beta\n\nhttps://caddy.app/",
+    "author": "@ConnorWaslo",
+    "author_name": "Connor Waslo",
+    "date": "2026-04-30",
+    "url": "https://x.com/ConnorWaslo/status/2049868962716868734",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:39:50.004Z",
+    "notes": "query: \"caddy.app\" | via x402atlas"
+  },
+  {
     "id": "7645593a795a",
     "agent": "caddy",
-    "quote": "We added 6 new integrations to @try_caddy last week. Anything else we should add 👀\n\n@linear @github @Zoom @todoist @Outlook @SlackHQ https://t.co/RbwRu7MamV",
+    "quote": "We added 6 new integrations to @try_caddy last week. Anything else we should add \ud83d\udc40\n\n@linear @github @Zoom @todoist @Outlook @SlackHQ https://t.co/RbwRu7MamV",
     "author": "@sanchetio",
     "author_name": "Rajiv Sancheti",
     "date": "2026-02-23",
@@ -1467,7 +1524,7 @@
   {
     "id": "6c8954d4edb2",
     "agent": "caddy",
-    "quote": "First there was the keyboard…then there was the mouse…now there’s Caddy (@try_caddy) – a new way to control your computer and apps with your voice.\n\n@connorwaslo and @sanchetio are building something special.",
+    "quote": "First there was the keyboard\u2026then there was the mouse\u2026now there\u2019s Caddy (@try_caddy) \u2013 a new way to control your computer and apps with your voice.\n\n@connorwaslo and @sanchetio are building something special.",
     "author": "@aaron_epstein",
     "author_name": "Aaron Epstein",
     "date": "2025-11-11",
@@ -1482,9 +1539,27 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "079cd982d868",
+    "agent": "caddy",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Domains like Try+Name, Get+Name, or Use+Name reflect the lowest tier of branding \u2014 something truly great founders should avoid, especially if you aim to be even 1% as detail-perfect as Steve Jobs.",
+    "author": "@Superintell_",
+    "author_name": "\u26a1 superintelligence",
+    "date": "2025-11-07",
+    "url": "https://x.com/Superintell_/status/1986599469039951894",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.329Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "105f6e7de5b4",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio 🚀🚀🚀",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio \ud83d\ude80\ud83d\ude80\ud83d\ude80",
     "author": "@GJarrosson",
     "author_name": "Gabriel Jarrosson",
     "date": "2025-11-07",
@@ -1518,56 +1593,20 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "079cd982d868",
+    "id": "989990ae3520",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Domains like Try+Name, Get+Name, or Use+Name reflect the lowest tier of branding — something truly great founders should avoid, especially if you aim to be even 1% as detail-perfect as Steve Jobs.",
-    "author": "@Superintell_",
-    "author_name": "⚡ superintelligence",
-    "date": "2025-11-07",
-    "url": "https://x.com/Superintell_/status/1986599469039951894",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "01b96bf4b35d",
-    "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio I prefer the version that was made by a thirteen year old boy",
-    "author": "@boneGPT",
-    "author_name": "bone",
+    "quote": "Caddy (@try_caddy) lets you control your computer and every app with your voice.\n\nBefore Caddy, @connorwaslo and @sanchetio led product, design, and incubation for all of Loom\u2019s AI launches.\n\nhttps://www.ycombinator.com/launches/OmH-caddy-the-voice-interface-for-your-computer https://t.co/y8BLNwKGXC",
+    "author": "@ycombinator",
+    "author_name": "Y Combinator",
     "date": "2025-11-06",
-    "url": "https://x.com/boneGPT/status/1986572999894413703",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "71bb30d9e622",
-    "agent": "caddy",
-    "quote": "Excited to share this interview with @ConnorWaslo, cofounder/CEO of @try_caddy. Caddy is the voice interface for your computer. Control apps with your voice, not keyboard. They also just announced they are in YC's current batch.\n\nWe cover:\n- Connor’s early journey and the origin story behind Caddy\n- Working with his cofounder Rajiv and navigating hard pivots\n- Lessons from Loom and seeing a company grow through acquisition\n- Craft, quality, and standards behind Caddy’s private beta\n- How Caddy works: function-key capture, screenshots, tickets, calendar creation, Slack updates\n- SF vs. NYC: differences in tech energy, density, and culture\n- Life inside Y Combinator and how Demo Day pressure speeds execution\n- Building in a fast-moving AI landscape and deciding what to ship\n- Why context and tone matter in AI products\n- The rise of video + AI: what’s impressive, early, and a bit scary\n- Founder routines, workload, and staying sane in SF\n- Community, YC batch dynamics, and why teammates matter\n- Connor’s “billboard philosophy” about choosing who you work with",
-    "author": "@Mat_Sherman",
-    "author_name": "Mat Sherman",
-    "date": "2025-11-06",
-    "url": "https://x.com/Mat_Sherman/status/1986535057243447405",
+    "url": "https://x.com/ycombinator/status/1986508911923662924",
     "kind": "other",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:56:00.329Z",
+    "collected_at": "2026-09-08T16:09:26.078Z",
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
@@ -1591,53 +1630,18 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "0182f355e603",
+    "id": "21b86510fd07",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio congrats guys, awesome video!",
-    "author": "@gautamparanjape",
-    "author_name": "Gautam Paranjape",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Great idea and timing.\nWishing the Caddy crew a smooth rollout.",
+    "author": "@octo_rent",
+    "author_name": "Octo",
     "date": "2025-11-06",
-    "url": "https://x.com/gautamparanjape/status/1986532143825346660",
+    "url": "https://x.com/octo_rent/status/1986510562227011608",
     "kind": "other",
     "tags": [
       "auto",
       "x",
       "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "713bc24bee59",
-    "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio LFG Caddy!!!",
-    "author": "@MaxMinsker",
-    "author_name": "Max Minsker",
-    "date": "2025-11-06",
-    "url": "https://x.com/MaxMinsker/status/1986522601683071073",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "221db75551ac",
-    "agent": "caddy",
-    "quote": "@ConnorWaslo and @sanchetio are some of the most cracked and customer-obsessed founders I've ever met\n\nthey're building @try_caddy to let you control your computer with your voice\n\npowered by memory and context from @hyperspell\n\nLFG 🚀🚀🚀",
-    "author": "@contextconor",
-    "author_name": "conor brennan-burke",
-    "date": "2025-11-06",
-    "url": "https://x.com/contextconor/status/1986517702098227586",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
@@ -1680,18 +1684,35 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "bdc706c4486c",
+    "id": "0182f355e603",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Let’s go Caddy!",
-    "author": "@Sampear_12",
-    "author_name": "samika sanghvi",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio congrats guys, awesome video!",
+    "author": "@gautamparanjape",
+    "author_name": "Gautam Paranjape",
     "date": "2025-11-06",
-    "url": "https://x.com/Sampear_12/status/1986515759833751562",
+    "url": "https://x.com/gautamparanjape/status/1986532143825346660",
     "kind": "other",
     "tags": [
       "auto",
       "x",
       "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.329Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "221db75551ac",
+    "agent": "caddy",
+    "quote": "@ConnorWaslo and @sanchetio are some of the most cracked and customer-obsessed founders I've ever met\n\nthey're building @try_caddy to let you control your computer with your voice\n\npowered by memory and context from @hyperspell\n\nLFG \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+    "author": "@contextconor",
+    "author_name": "conor brennan-burke",
+    "date": "2025-11-06",
+    "url": "https://x.com/contextconor/status/1986517702098227586",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
@@ -1705,6 +1726,42 @@
     "author_name": "Chintan Parikh",
     "date": "2025-11-06",
     "url": "https://x.com/chintanparikh94/status/1986514733747614034",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.078Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "01b96bf4b35d",
+    "agent": "caddy",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio I prefer the version that was made by a thirteen year old boy",
+    "author": "@boneGPT",
+    "author_name": "bone",
+    "date": "2025-11-06",
+    "url": "https://x.com/boneGPT/status/1986572999894413703",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.329Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
+    "id": "bdc706c4486c",
+    "agent": "caddy",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Let\u2019s go Caddy!",
+    "author": "@Sampear_12",
+    "author_name": "samika sanghvi",
+    "date": "2025-11-06",
+    "url": "https://x.com/Sampear_12/status/1986515759833751562",
     "kind": "other",
     "tags": [
       "auto",
@@ -1734,6 +1791,24 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
+    "id": "713bc24bee59",
+    "agent": "caddy",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio LFG Caddy!!!",
+    "author": "@MaxMinsker",
+    "author_name": "Max Minsker",
+    "date": "2025-11-06",
+    "url": "https://x.com/MaxMinsker/status/1986522601683071073",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.329Z",
+    "notes": "query: @try_caddy | via x402atlas"
+  },
+  {
     "id": "2b20f5151499",
     "agent": "caddy",
     "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Love the video, really cool product",
@@ -1752,21 +1827,20 @@
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
-    "id": "21b86510fd07",
+    "id": "71bb30d9e622",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Great idea and timing.\nWishing the Caddy crew a smooth rollout.",
-    "author": "@octo_rent",
-    "author_name": "Octo",
+    "quote": "Excited to share this interview with @ConnorWaslo, cofounder/CEO of @try_caddy. Caddy is the voice interface for your computer. Control apps with your voice, not keyboard. They also just announced they are in YC's current batch.\n\nWe cover:\n- Connor\u2019s early journey and the origin story behind Caddy\n- Working with his cofounder Rajiv and navigating hard pivots\n- Lessons from Loom and seeing a company grow through acquisition\n- Craft, quality, and standards behind Caddy\u2019s private beta\n- How Caddy works: function-key capture, screenshots, tickets, calendar creation, Slack updates\n- SF vs. NYC: differences in tech energy, density, and culture\n- Life inside Y Combinator and how Demo Day pressure speeds execution\n- Building in a fast-moving AI landscape and deciding what to ship\n- Why context and tone matter in AI products\n- The rise of video + AI: what\u2019s impressive, early, and a bit scary\n- Founder routines, workload, and staying sane in SF\n- Community, YC batch dynamics, and why teammates matter\n- Connor\u2019s \u201cbillboard philosophy\u201d about choosing who you work with",
+    "author": "@Mat_Sherman",
+    "author_name": "Mat Sherman",
     "date": "2025-11-06",
-    "url": "https://x.com/octo_rent/status/1986510562227011608",
+    "url": "https://x.com/Mat_Sherman/status/1986535057243447405",
     "kind": "other",
     "tags": [
       "auto",
-      "x",
-      "reply"
+      "x"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.078Z",
+    "collected_at": "2026-09-08T15:56:00.329Z",
     "notes": "query: @try_caddy | via x402atlas"
   },
   {
@@ -1784,23 +1858,6 @@
       "reply",
       "vendor",
       "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
-  },
-  {
-    "id": "989990ae3520",
-    "agent": "caddy",
-    "quote": "Caddy (@try_caddy) lets you control your computer and every app with your voice.\n\nBefore Caddy, @connorwaslo and @sanchetio led product, design, and incubation for all of Loom’s AI launches.\n\nhttps://www.ycombinator.com/launches/OmH-caddy-the-voice-interface-for-your-computer https://t.co/y8BLNwKGXC",
-    "author": "@ycombinator",
-    "author_name": "Y Combinator",
-    "date": "2025-11-06",
-    "url": "https://x.com/ycombinator/status/1986508911923662924",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",

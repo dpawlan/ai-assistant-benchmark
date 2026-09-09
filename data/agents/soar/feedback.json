@@ -1,550 +1,5 @@
 [
   {
-    "id": "1ae46a92550f",
-    "agent": "soar",
-    "quote": "tried \n@soarapp\n imessage agent for AI4 and it showed me Vegas hotels for $8/night??\n\n1. hotel totals were way off (later corrected)\n2. setting reminders but no access?\n3. forgot we were talking vegas mid-chat\n4. sent weird source links\n\nthough gg w privacy & safety boundaries",
-    "author": "@ShubhamInTech",
-    "author_name": "shubham",
-    "date": "2026-07-29",
-    "url": "https://x.com/ShubhamInTech/status/2082302956414947635",
-    "kind": "complaint",
-    "tags": [
-      "pricing",
-      "hotels",
-      "reminders"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Vegas $8/night wrong totals; reminder access"
-  },
-  {
-    "id": "42b13a6ac095",
-    "agent": "soar",
-    "quote": "I’m aware love soar it didn’t text me for it this time though 😔 maybe it’s because it’s international and it only supports domestic check ins rn",
-    "author": "@eduardfausgil",
-    "author_name": "Eduard Faus Gil",
-    "date": "2026-07-27",
-    "url": "https://x.com/eduardfausgil/status/2081554062466859018",
-    "kind": "bug",
-    "tags": [
-      "check-in",
-      "international"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "didn’t text for international check-in"
-  },
-  {
-    "id": "38abda34cdee",
-    "agent": "soar",
-    "quote": "To your point about the vertical agents over the horizontal ones, and the best agents don't just do things. I love that \n@soarapp\n is doing exactly that!",
-    "author": "@martinsaiventrs",
-    "author_name": "Martin McCastle",
-    "date": "2026-09-05",
-    "url": "https://x.com/martinsaiventrs/status/2096301279098360158",
-    "kind": "praise",
-    "tags": [
-      "vertical"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "vertical agent praise"
-  },
-  {
-    "id": "4eae644b753a",
-    "agent": "soar",
-    "quote": "today we’ve surpassed 100k+ texts to soar in >3 months. \n\ncan you imagine all the travel memories? travelers, keep taking us everywhere 🫶",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-08-26",
-    "url": "https://x.com/soarapp/status/2092658452254339257",
-    "kind": "other",
-    "tags": [
-      "scale",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: 100k+ texts in 3 months"
-  },
-  {
-    "id": "37b92944ff33",
-    "agent": "soar",
-    "quote": "Especially when you drill that context into a particularly vertical (e.g. \n@soarapp\n) vs acting a generalist",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-05",
-    "url": "https://x.com/stannostudio/status/2096369360814391366",
-    "kind": "other",
-    "tags": [
-      "vertical",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: vertical vs generalist"
-  },
-  {
-    "id": "d3e67a343ab4",
-    "agent": "soar",
-    "quote": "Goals!!😩🙌 hope to hit all of them one day using \n@soarapp",
-    "author": "@FunTzu12",
-    "author_name": "Fun tzu",
-    "date": "2026-07-01",
-    "url": "https://x.com/FunTzu12/status/2072136540801650989",
-    "kind": "other",
-    "tags": [
-      "aspirational"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "hope to hit goals using Soar"
-  },
-  {
-    "id": "5f748a8b83bc",
-    "agent": "soar",
-    "quote": "Just discovered \nhttps://\nflysoar.ai. MCP server might come in super handy",
-    "author": "@fathermerry",
-    "author_name": "opemipo aikomo",
-    "date": "2026-07-29",
-    "url": "https://x.com/fathermerry/status/2082290301289283861",
-    "kind": "other",
-    "tags": [
-      "discovery",
-      "mcp"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "discovered flysoar.ai MCP"
-  },
-  {
-    "id": "cdacf4a49458",
-    "agent": "soar",
-    "quote": "Flighty fans! \n\ntext \n@soarapp\n your Flighty data and watch it come to life on Soar ✈️🌎",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-08-04",
-    "url": "https://x.com/soarapp/status/2084774407390560755",
-    "kind": "other",
-    "tags": [
-      "flighty",
-      "imessage",
-      "company",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "text Flighty data to Soar"
-  },
-  {
-    "id": "6e3d7da8ba0f",
-    "agent": "soar",
-    "quote": "IMESSAGE AGENT STORE JUST DROPPED \n\nGO TEXT SOAR AND SO MANY OTHER COOL AGENTS NOW 🧢",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-07-17",
-    "url": "https://x.com/soarapp/status/2077909560283836474",
-    "kind": "other",
-    "tags": [
-      "imessage",
-      "agent-store",
-      "company",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "iMessage Agent Store drop"
-  },
-  {
-    "id": "bea64c003c4a",
-    "agent": "soar",
-    "quote": "anyone else chronically missing flights? \n@soarapp\n live activity is a game changer",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-07-29",
-    "url": "https://x.com/soarapp/status/2082513546584215674",
-    "kind": "other",
-    "tags": [
-      "live-activity",
-      "flights",
-      "company",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "live activity for missed flights"
-  },
-  {
-    "id": "486bbaa58812",
-    "agent": "soar",
-    "quote": "Have you tried \n@soarapp\n yet",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-05",
-    "url": "https://x.com/stannostudio/status/2096370796583428184",
-    "kind": "other",
-    "tags": [
-      "discovery",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "have you tried Soar"
-  },
-  {
-    "id": "0c249fd6e59b",
-    "agent": "soar",
-    "quote": "@soarapp\n kinda goated for telling me to check in to my flight i always forget",
-    "author": "@berrrrrrrrrrrrt",
-    "author_name": "Bert",
-    "date": "2026-08-28",
-    "url": "https://x.com/berrrrrrrrrrrrt/status/2093158763704574462",
-    "kind": "praise",
-    "tags": [
-      "check-in",
-      "flight",
-      "reminder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "third-party: reminds to check in"
-  },
-  {
-    "id": "3d046d63ca9b",
-    "agent": "soar",
-    "quote": "Yep. They copied the real \n@soarapp\n and have to jack up prices on flights to pay for App Store ads to try to steal users looking for the real Soar.",
-    "author": "@JoshConstine",
-    "author_name": "Josh Constine 📶🔥",
-    "date": "2026-08-03",
-    "url": "https://x.com/JoshConstine/status/2084101025179566445",
-    "kind": "complaint",
-    "tags": [
-      "copycat",
-      "app-store",
-      "pricing"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "copycat Soar jacking prices + ads"
-  },
-  {
-    "id": "780948a66c20",
-    "agent": "soar",
-    "quote": "pov: you run to catch every flight because you chronically test airport theory\n\nwithout \n@soarapp\n i would be missing all of them",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-08-06",
-    "url": "https://x.com/stannostudio/status/2085463282693902746",
-    "kind": "use-case",
-    "tags": [
-      "airport",
-      "flight",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "founder: without Soar would miss flights"
-  },
-  {
-    "id": "6e2a0c40da13",
-    "agent": "soar",
-    "quote": "Live activity on \n@soarapp\n tells you when to leave for your flight based on traffic conditions + flight status + tsa lines. our community loves this feature.",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-07-28",
-    "url": "https://x.com/stannostudio/status/2082252087157502102",
-    "kind": "use-case",
-    "tags": [
-      "live-activity",
-      "traffic",
-      "tsa",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "live activity leave-for-flight"
-  },
-  {
-    "id": "af98a34b9f2f",
-    "agent": "soar",
-    "quote": "@soarapp\n does this, dependent on flight",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-04",
-    "url": "https://x.com/stannostudio/status/2095909739406512235",
-    "kind": "use-case",
-    "tags": [
-      "flight",
-      "feature",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: Soar does X dependent on flight"
-  },
-  {
-    "id": "8bbadffe6f75",
-    "agent": "soar",
-    "quote": "@soarapp\n has this feature",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095949816442274226",
-    "kind": "other",
-    "tags": [
-      "feature",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "third-party: @soarapp has this feature"
-  },
-  {
-    "id": "5986e8362271",
-    "agent": "soar",
-    "quote": "Soar is lucky to have you Brenda!\n\nSoar Team Six 🪖let’s gooo \n@soarapp",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-05",
-    "url": "https://x.com/stannostudio/status/2096058224374149400",
-    "kind": "other",
-    "tags": [
-      "hiring",
-      "team",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: welcome Brenda to Soar Team Six"
-  },
-  {
-    "id": "89a5884d17db",
-    "agent": "soar",
-    "quote": "I’m joining \n@soarapp\n to build the future of travel.\n\nThis past summer, I worked on the AI Experiences team at Expedia.\n\nI left convinced this is one of the biggest industries about to be rebuilt by agents.\n\nA few things I learned:\n\n→ Vertical agents > horizontal ones. The best",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095905981397955069",
-    "kind": "other",
-    "tags": [
-      "hiring",
-      "expedia",
-      "travel",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "joining Soar from Expedia AI Experiences — travel agent thesis"
-  },
-  {
-    "id": "dcc6f4bce807",
-    "agent": "soar",
-    "quote": "Not yet, imo I think you guys should build a MCP & let my agents sign up & use it to book 🥹",
-    "author": "@kobyjconrad",
-    "author_name": "Koby Conrad 🌻",
-    "date": "2026-09-05",
-    "url": "https://x.com/kobyjconrad/status/2096377629222035524",
-    "kind": "other",
-    "tags": [
-      "mcp",
-      "agents",
-      "booking"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: wants Soar MCP so agents can sign up & book"
-  },
-  {
-    "id": "ac14cd259846",
-    "agent": "soar",
-    "quote": "Welcome to Soar Brenda ✈️\n\nIf you want to be apart in growing a generational travel company, DMs are open!",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-09-05",
-    "url": "https://x.com/soarapp/status/2096059243703291920",
-    "kind": "other",
-    "tags": [
-      "hiring",
-      "travel",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "founder: welcome Brenda; hiring for generational travel company"
-  },
-  {
-    "id": "27a4859bd970",
-    "agent": "soar",
-    "quote": "I gotchu Koby! Soar mcp here",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-06",
-    "url": "https://x.com/stannostudio/status/2096443673819090979",
-    "kind": "use-case",
-    "tags": [
-      "mcp",
-      "agents",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "team: Soar MCP here (reply to agent-booking ask)"
-  },
-  {
-    "id": "e542debcd7a7",
-    "agent": "soar",
-    "quote": "Why doesn't \n@slashapp\n or \n@brexHQ\n or \n@tryramp\n just build \n@soarapp\n in house?\n\nBusiness people use their rewards on travel anyways.\n\nFeel it's free money left on the table.",
-    "author": "@GaddipatiHarsha",
-    "author_name": "Harsha from Slashy",
-    "date": "2026-08-24",
-    "url": "https://x.com/GaddipatiHarsha/status/2091754026694213714",
-    "kind": "comparison",
-    "tags": [
-      "travel"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; why Slash/Brex/Ramp should build Soar in-house"
-  },
-  {
-    "id": "f83b4fc88e67",
-    "agent": "soar",
-    "quote": "Just realize Soar was featured in \n@phocuswire\n Hot Travel Startup list \n\nif you work in the travel industry, you’ll get why this is awesome. we just getting started \n@soarapp\n ✈️ \n\nThanks Phocuswright!",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-01",
-    "url": "https://x.com/stannostudio/status/2094627013097078958",
-    "kind": "other",
-    "tags": [
-      "travel",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; founder: Phocuswire Hot Travel Startup feature"
-  },
-  {
-    "id": "0743adedc02d",
-    "agent": "soar",
-    "quote": "Soar app finding your travel history during onboarding 🌏⏳\n@soarapp",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-08-06",
-    "url": "https://x.com/stannostudio/status/2085185547232780561",
-    "kind": "use-case",
-    "tags": [
-      "travel",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; onboarding finds travel history"
-  },
-  {
-    "id": "b9b9f096cf65",
-    "agent": "soar",
-    "quote": "@__mihir @wongmjane @JoshConstine We certainly do, download Soar here https://joinsoar.co",
-    "author": "@soarapp",
-    "author_name": "Soar",
-    "date": "2026-08-03",
-    "url": "https://x.com/soarapp/status/2084105924411552026",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.551Z",
-    "notes": "query: \"joinsoar.co\" | via x402atlas"
-  },
-  {
-    "id": "77b4e071f852",
-    "agent": "soar",
-    "quote": "@aslater @idanmasas https://joinsoar.co/",
-    "author": "@Shashankalla_",
-    "author_name": "Shashank Alla",
-    "date": "2026-07-29",
-    "url": "https://x.com/Shashankalla_/status/2082576357364490645",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.551Z",
-    "notes": "query: \"joinsoar.co\" | via x402atlas"
-  },
-  {
-    "id": "3fbc1af416a2",
-    "agent": "soar",
-    "quote": "👉https://joinsoar.co/flight",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-07-17",
-    "url": "https://x.com/stannostudio/status/2078182888126992769",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.551Z",
-    "notes": "query: \"joinsoar.co\" | via x402atlas"
-  },
-  {
-    "id": "bdea48e9506d",
-    "agent": "soar",
-    "quote": "@stannostudio @aslater @lukemiler @soarapp *Claude take http://joinsoar.co and make me something similar* https://t.co/oDnnHMeYhX",
-    "author": "@FetuFetti",
-    "author_name": "Fetu",
-    "date": "2026-05-20",
-    "url": "https://x.com/FetuFetti/status/2056914030552293515",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.551Z",
-    "notes": "query: \"joinsoar.co\" | via x402atlas"
-  },
-  {
-    "id": "8f7a1286dbd2",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp 🔥",
-    "author": "@TedHZhang",
-    "author_name": "Ted Zhang",
-    "date": "2026-09-07",
-    "url": "https://x.com/TedHZhang/status/2097085123334156703",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
     "id": "58a6a39d0e96",
     "agent": "soar",
     "quote": "@chowtato try @soarapp for hotel bookings",
@@ -567,11 +22,31 @@
   {
     "id": "25c55709f024",
     "agent": "soar",
-    "quote": "@jaentwistle @soarapp Ditto with wander, let’s make something happen!",
+    "quote": "@jaentwistle @soarapp Ditto with wander, let\u2019s make something happen!",
     "author": "@stannostudio",
     "author_name": "Stanley",
     "date": "2026-09-07",
     "url": "https://x.com/stannostudio/status/2096797288471605367",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.552Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "5584bc25a0ee",
+    "agent": "soar",
+    "quote": "@jaentwistle Love to get wander stays as an option for travelers on @soarapp",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-07",
+    "url": "https://x.com/stannostudio/status/2096759352300634287",
     "kind": "other",
     "tags": [
       "auto",
@@ -603,20 +78,18 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "5584bc25a0ee",
+    "id": "8f7a1286dbd2",
     "agent": "soar",
-    "quote": "@jaentwistle Love to get wander stays as an option for travelers on @soarapp",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
+    "quote": "@ymy1806 @soarapp \ud83d\udd25",
+    "author": "@TedHZhang",
+    "author_name": "Ted Zhang",
     "date": "2026-09-07",
-    "url": "https://x.com/stannostudio/status/2096759352300634287",
+    "url": "https://x.com/TedHZhang/status/2097085123334156703",
     "kind": "other",
     "tags": [
       "auto",
       "x",
-      "reply",
-      "vendor",
-      "founder"
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.552Z",
@@ -642,13 +115,31 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "310543223948",
+    "id": "27a4859bd970",
     "agent": "soar",
-    "quote": "@stannostudio @phocuswire @soarapp Congrats. One thing worth knowing from the other side of the industry: the agencies you'll sell to or replace mostly lose deals in the 20 minutes after a lead arrives, not in the booking flow. Whoever answers first wins. Saw it up close here: https://x.com/Growth_100x/status/2095895067529720100",
-    "author": "@Growth_100x",
-    "author_name": "Growth100X — AI Growth, Engineered",
+    "quote": "I gotchu Koby! Soar mcp here",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
     "date": "2026-09-06",
-    "url": "https://x.com/Growth_100x/status/2096665472347578683",
+    "url": "https://x.com/stannostudio/status/2096443673819090979",
+    "kind": "use-case",
+    "tags": [
+      "mcp",
+      "agents",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "team: Soar MCP here (reply to agent-booking ask)"
+  },
+  {
+    "id": "749ade21e09e",
+    "agent": "soar",
+    "quote": "@stannostudio @soarapp Oh excellent \ud83e\udd79\ud83e\udd79",
+    "author": "@kobyjconrad",
+    "author_name": "Koby Conrad \ud83c\udf3b",
+    "date": "2026-09-06",
+    "url": "https://x.com/kobyjconrad/status/2096448130745332203",
     "kind": "other",
     "tags": [
       "auto",
@@ -660,13 +151,13 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "749ade21e09e",
+    "id": "310543223948",
     "agent": "soar",
-    "quote": "@stannostudio @soarapp Oh excellent 🥹🥹",
-    "author": "@kobyjconrad",
-    "author_name": "Koby Conrad 🌻",
+    "quote": "@stannostudio @phocuswire @soarapp Congrats. One thing worth knowing from the other side of the industry: the agencies you'll sell to or replace mostly lose deals in the 20 minutes after a lead arrives, not in the booking flow. Whoever answers first wins. Saw it up close here: https://x.com/Growth_100x/status/2095895067529720100",
+    "author": "@Growth_100x",
+    "author_name": "Growth100X \u2014 AI Growth, Engineered",
     "date": "2026-09-06",
-    "url": "https://x.com/kobyjconrad/status/2096448130745332203",
+    "url": "https://x.com/Growth_100x/status/2096665472347578683",
     "kind": "other",
     "tags": [
       "auto",
@@ -698,278 +189,6 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "fa0454384e0d",
-    "agent": "soar",
-    "quote": "@soarapp Oh hey there",
-    "author": "@DavidPawlan",
-    "author_name": "David Pawlan",
-    "date": "2026-09-05",
-    "url": "https://x.com/DavidPawlan/status/2096368694808986068",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "d3d7fc88485c",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @soarapp This is dope",
-    "author": "@GolfNBS",
-    "author_name": "NBS Golf",
-    "date": "2026-09-05",
-    "url": "https://x.com/GolfNBS/status/2096353065964126269",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "bbc05954b582",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @itsMichaelJ @soarapp MLB playoffs?",
-    "author": "@Baseball_NBS",
-    "author_name": "Nosebleed Baseball",
-    "date": "2026-09-05",
-    "url": "https://x.com/Baseball_NBS/status/2096352892777078938",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "58cdec1a8f14",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @NBSUniversity @soarapp https://t.co/woVe4CyNCC",
-    "author": "@itsMichaelJ",
-    "author_name": "Wise Michael Jordan",
-    "date": "2026-09-05",
-    "url": "https://x.com/itsMichaelJ/status/2096352769259049146",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "7170e1072d3b",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @NBSUniversity @soarapp NBA deals next please 🙏",
-    "author": "@NosebleedHoops",
-    "author_name": "Nosebleed Hoops",
-    "date": "2026-09-05",
-    "url": "https://x.com/NosebleedHoops/status/2096352627843797133",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "3430230f0c38",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @soarapp Gotta love a good deal 🙌",
-    "author": "@NosebleedAction",
-    "author_name": "Nosebleed Action",
-    "date": "2026-09-05",
-    "url": "https://x.com/NosebleedAction/status/2096352166176809176",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "596a4cdbf8cc",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @GamblingNBS @soarapp 🤌🤌",
-    "author": "@CasualPennState",
-    "author_name": "Casual Penn State",
-    "date": "2026-09-05",
-    "url": "https://x.com/CasualPennState/status/2096351768124809471",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.552Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "48d3839cb1cf",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @NBSMotorsport @soarapp 🔥🔥🔥",
-    "author": "@GamblingNBS",
-    "author_name": "Nosebleed Gambling",
-    "date": "2026-09-05",
-    "url": "https://x.com/GamblingNBS/status/2096351494328975630",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "8da619c86f48",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @NBSTennis @soarapp First the World Cup now US Open👀",
-    "author": "@NosebleedFooty",
-    "author_name": "Nosebleed Footy",
-    "date": "2026-09-05",
-    "url": "https://x.com/NosebleedFooty/status/2096351381250535660",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "42a78ea398b3",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @soarapp 🙏🙏",
-    "author": "@NBSMotorsport",
-    "author_name": "NBS Motorsport",
-    "date": "2026-09-05",
-    "url": "https://x.com/NBSMotorsport/status/2096351223280455944",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "28d5431db1af",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @thedata_chief @soarapp Any way to save while getting to the greatest event 🤝",
-    "author": "@NBSTennis",
-    "author_name": "NBS Tennis",
-    "date": "2026-09-05",
-    "url": "https://x.com/NBSTennis/status/2096351095744324077",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "d8d019824756",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @soarapp Elite stuff 🔥",
-    "author": "@thedata_chief",
-    "author_name": "Data Chief",
-    "date": "2026-09-05",
-    "url": "https://x.com/thedata_chief/status/2096350912318935160",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "0a6db41c896a",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @BigLeagueDigest @soarapp It’s not easy to get to NY unless it’s Soar",
-    "author": "@NickRestivo_",
-    "author_name": "Nick Restivo",
-    "date": "2026-09-05",
-    "url": "https://x.com/NickRestivo_/status/2096350764629172592",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "fc633f9f6150",
-    "agent": "soar",
-    "quote": "@NosebleedHQ @soarapp 👀👀🔥",
-    "author": "@BigLeagueDigest",
-    "author_name": "Big League Digest",
-    "date": "2026-09-05",
-    "url": "https://x.com/BigLeagueDigest/status/2096350422491337161",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "6908358c592e",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp 🤘🤝",
-    "author": "@nazzari",
-    "author_name": "Bella",
-    "date": "2026-09-05",
-    "url": "https://x.com/nazzari/status/2096306950493646928",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
     "id": "920574933f3b",
     "agent": "soar",
     "quote": "@max_is_pretty @soarapp ily",
@@ -987,6 +206,210 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "1ec288f71082",
+    "agent": "soar",
+    "quote": "@mil000 @stannostudio @soarapp \ud83d\ude2d",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-05",
+    "url": "https://x.com/ymy1806/status/2096106488276132002",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.200Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "ee247b9bef8e",
+    "agent": "soar",
+    "quote": "@stannostudio @soarapp Let\u2019s gooo team",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-05",
+    "url": "https://x.com/ymy1806/status/2096066806393839983",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.200Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "d8d019824756",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @soarapp Elite stuff \ud83d\udd25",
+    "author": "@thedata_chief",
+    "author_name": "Data Chief",
+    "date": "2026-09-05",
+    "url": "https://x.com/thedata_chief/status/2096350912318935160",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "486bbaa58812",
+    "agent": "soar",
+    "quote": "Have you tried \n@soarapp\n yet",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096370796583428184",
+    "kind": "other",
+    "tags": [
+      "discovery",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "have you tried Soar"
+  },
+  {
+    "id": "37b92944ff33",
+    "agent": "soar",
+    "quote": "Especially when you drill that context into a particularly vertical (e.g. \n@soarapp\n) vs acting a generalist",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096369360814391366",
+    "kind": "other",
+    "tags": [
+      "vertical",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: vertical vs generalist"
+  },
+  {
+    "id": "bec9381678ea",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096058257089741008",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.200Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "5986e8362271",
+    "agent": "soar",
+    "quote": "Soar is lucky to have you Brenda!\n\nSoar Team Six \ud83e\ude96let\u2019s gooo \n@soarapp",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-05",
+    "url": "https://x.com/stannostudio/status/2096058224374149400",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "team",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: welcome Brenda to Soar Team Six"
+  },
+  {
+    "id": "ac14cd259846",
+    "agent": "soar",
+    "quote": "Welcome to Soar Brenda \u2708\ufe0f\n\nIf you want to be apart in growing a generational travel company, DMs are open!",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-09-05",
+    "url": "https://x.com/soarapp/status/2096059243703291920",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "travel",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "founder: welcome Brenda; hiring for generational travel company"
+  },
+  {
+    "id": "709ccd059eb5",
+    "agent": "soar",
+    "quote": "@stannostudio @soarapp @TrySoarAI eradicate",
+    "author": "@privateoracle",
+    "author_name": "John Tadeusiak",
+    "date": "2026-09-05",
+    "url": "https://x.com/privateoracle/status/2096140467230720488",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "6908358c592e",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp \ud83e\udd18\ud83e\udd1d",
+    "author": "@nazzari",
+    "author_name": "Bella",
+    "date": "2026-09-05",
+    "url": "https://x.com/nazzari/status/2096306950493646928",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "c0bca7b697bc",
+    "agent": "soar",
+    "quote": "@stannostudio @soarapp someone needs to rename bc I thought she was gonna work for the evil soar",
+    "author": "@mil000",
+    "author_name": "Milo Smith",
+    "date": "2026-09-05",
+    "url": "https://x.com/mil000/status/2096087565606723992",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.200Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
@@ -1008,13 +431,47 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "709ccd059eb5",
+    "id": "38abda34cdee",
     "agent": "soar",
-    "quote": "@stannostudio @soarapp @TrySoarAI eradicate",
-    "author": "@privateoracle",
-    "author_name": "John Tadeusiak",
+    "quote": "To your point about the vertical agents over the horizontal ones, and the best agents don't just do things. I love that \n@soarapp\n is doing exactly that!",
+    "author": "@martinsaiventrs",
+    "author_name": "Martin McCastle",
     "date": "2026-09-05",
-    "url": "https://x.com/privateoracle/status/2096140467230720488",
+    "url": "https://x.com/martinsaiventrs/status/2096301279098360158",
+    "kind": "praise",
+    "tags": [
+      "vertical"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "vertical agent praise"
+  },
+  {
+    "id": "dcc6f4bce807",
+    "agent": "soar",
+    "quote": "Not yet, imo I think you guys should build a MCP & let my agents sign up & use it to book \ud83e\udd79",
+    "author": "@kobyjconrad",
+    "author_name": "Koby Conrad \ud83c\udf3b",
+    "date": "2026-09-05",
+    "url": "https://x.com/kobyjconrad/status/2096377629222035524",
+    "kind": "other",
+    "tags": [
+      "mcp",
+      "agents",
+      "booking"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: wants Soar MCP so agents can sign up & book"
+  },
+  {
+    "id": "58cdec1a8f14",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @NBSUniversity @soarapp https://t.co/woVe4CyNCC",
+    "author": "@itsMichaelJ",
+    "author_name": "Wise Michael Jordan",
+    "date": "2026-09-05",
+    "url": "https://x.com/itsMichaelJ/status/2096352769259049146",
     "kind": "other",
     "tags": [
       "auto",
@@ -1022,37 +479,17 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.199Z",
+    "collected_at": "2026-09-08T15:50:48.552Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "1ec288f71082",
+    "id": "fb5b4348a907",
     "agent": "soar",
-    "quote": "@mil000 @stannostudio @soarapp 😭",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
+    "quote": "@stannostudio @soarapp ayyy",
+    "author": "@isabellacomelli",
+    "author_name": "Isabella",
     "date": "2026-09-05",
-    "url": "https://x.com/ymy1806/status/2096106488276132002",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.200Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "c0bca7b697bc",
-    "agent": "soar",
-    "quote": "@stannostudio @soarapp someone needs to rename bc I thought she was gonna work for the evil soar",
-    "author": "@mil000",
-    "author_name": "Milo Smith",
-    "date": "2026-09-05",
-    "url": "https://x.com/mil000/status/2096087565606723992",
+    "url": "https://x.com/isabellacomelli/status/2096073170864287823",
     "kind": "other",
     "tags": [
       "auto",
@@ -1082,13 +519,13 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "fb5b4348a907",
+    "id": "6a6e0e095f7b",
     "agent": "soar",
-    "quote": "@stannostudio @soarapp ayyy",
-    "author": "@isabellacomelli",
-    "author_name": "Isabella",
+    "quote": "@ymy1806 @soarapp tufffff",
+    "author": "@ch3mson",
+    "author_name": "Benson Yan",
     "date": "2026-09-05",
-    "url": "https://x.com/isabellacomelli/status/2096073170864287823",
+    "url": "https://x.com/ch3mson/status/2096031348574286052",
     "kind": "other",
     "tags": [
       "auto",
@@ -1096,47 +533,7 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.200Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "ee247b9bef8e",
-    "agent": "soar",
-    "quote": "@stannostudio @soarapp Let’s gooo team",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-05",
-    "url": "https://x.com/ymy1806/status/2096066806393839983",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.200Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "bec9381678ea",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp 🚀🚀🚀",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-05",
-    "url": "https://x.com/stannostudio/status/2096058257089741008",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.200Z",
+    "collected_at": "2026-09-08T16:17:35.729Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
@@ -1158,13 +555,13 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "6a6e0e095f7b",
+    "id": "7170e1072d3b",
     "agent": "soar",
-    "quote": "@ymy1806 @soarapp tufffff",
-    "author": "@ch3mson",
-    "author_name": "Benson Yan",
+    "quote": "@NosebleedHQ @NBSUniversity @soarapp NBA deals next please \ud83d\ude4f",
+    "author": "@NosebleedHoops",
+    "author_name": "Nosebleed Hoops",
     "date": "2026-09-05",
-    "url": "https://x.com/ch3mson/status/2096031348574286052",
+    "url": "https://x.com/NosebleedHoops/status/2096352627843797133",
     "kind": "other",
     "tags": [
       "auto",
@@ -1172,17 +569,17 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
+    "collected_at": "2026-09-08T15:50:48.552Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "7a17d72c5b08",
+    "id": "8da619c86f48",
     "agent": "soar",
-    "quote": "@ymy1806 @soarapp so so cool congrats!",
-    "author": "@cynthwangg",
-    "author_name": "Cynthia Wang",
-    "date": "2026-09-04",
-    "url": "https://x.com/cynthwangg/status/2096024905854951760",
+    "quote": "@NosebleedHQ @NBSTennis @soarapp First the World Cup now US Open\ud83d\udc40",
+    "author": "@NosebleedFooty",
+    "author_name": "Nosebleed Footy",
+    "date": "2026-09-05",
+    "url": "https://x.com/NosebleedFooty/status/2096351381250535660",
     "kind": "other",
     "tags": [
       "auto",
@@ -1190,17 +587,17 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
+    "collected_at": "2026-09-08T16:04:06.199Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "7596b449c44e",
+    "id": "3430230f0c38",
     "agent": "soar",
-    "quote": "@ymy1806 @soarapp ok",
-    "author": "@kayanoesasaki",
-    "author_name": "kaya",
-    "date": "2026-09-04",
-    "url": "https://x.com/kayanoesasaki/status/2096022074288406780",
+    "quote": "@NosebleedHQ @soarapp Gotta love a good deal \ud83d\ude4c",
+    "author": "@NosebleedAction",
+    "author_name": "Nosebleed Action",
+    "date": "2026-09-05",
+    "url": "https://x.com/NosebleedAction/status/2096352166176809176",
     "kind": "other",
     "tags": [
       "auto",
@@ -1208,7 +605,171 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
+    "collected_at": "2026-09-08T15:50:48.552Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "0a6db41c896a",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @BigLeagueDigest @soarapp It\u2019s not easy to get to NY unless it\u2019s Soar",
+    "author": "@NickRestivo_",
+    "author_name": "Nick Restivo",
+    "date": "2026-09-05",
+    "url": "https://x.com/NickRestivo_/status/2096350764629172592",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "28d5431db1af",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @thedata_chief @soarapp Any way to save while getting to the greatest event \ud83e\udd1d",
+    "author": "@NBSTennis",
+    "author_name": "NBS Tennis",
+    "date": "2026-09-05",
+    "url": "https://x.com/NBSTennis/status/2096351095744324077",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "42a78ea398b3",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @soarapp \ud83d\ude4f\ud83d\ude4f",
+    "author": "@NBSMotorsport",
+    "author_name": "NBS Motorsport",
+    "date": "2026-09-05",
+    "url": "https://x.com/NBSMotorsport/status/2096351223280455944",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "d3d7fc88485c",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @soarapp This is dope",
+    "author": "@GolfNBS",
+    "author_name": "NBS Golf",
+    "date": "2026-09-05",
+    "url": "https://x.com/GolfNBS/status/2096353065964126269",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.552Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "48d3839cb1cf",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @NBSMotorsport @soarapp \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "author": "@GamblingNBS",
+    "author_name": "Nosebleed Gambling",
+    "date": "2026-09-05",
+    "url": "https://x.com/GamblingNBS/status/2096351494328975630",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "fa0454384e0d",
+    "agent": "soar",
+    "quote": "@soarapp Oh hey there",
+    "author": "@DavidPawlan",
+    "author_name": "David Pawlan",
+    "date": "2026-09-05",
+    "url": "https://x.com/DavidPawlan/status/2096368694808986068",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.552Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "596a4cdbf8cc",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @GamblingNBS @soarapp \ud83e\udd0c\ud83e\udd0c",
+    "author": "@CasualPennState",
+    "author_name": "Casual Penn State",
+    "date": "2026-09-05",
+    "url": "https://x.com/CasualPennState/status/2096351768124809471",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.552Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "fc633f9f6150",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @soarapp \ud83d\udc40\ud83d\udc40\ud83d\udd25",
+    "author": "@BigLeagueDigest",
+    "author_name": "Big League Digest",
+    "date": "2026-09-05",
+    "url": "https://x.com/BigLeagueDigest/status/2096350422491337161",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.199Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "bbc05954b582",
+    "agent": "soar",
+    "quote": "@NosebleedHQ @itsMichaelJ @soarapp MLB playoffs?",
+    "author": "@Baseball_NBS",
+    "author_name": "Nosebleed Baseball",
+    "date": "2026-09-05",
+    "url": "https://x.com/Baseball_NBS/status/2096352892777078938",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.552Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
@@ -1226,24 +787,6 @@
       "reply",
       "founder",
       "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "b7a9265af831",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp rah",
-    "author": "@kayanoesasaki",
-    "author_name": "kaya",
-    "date": "2026-09-04",
-    "url": "https://x.com/kayanoesasaki/status/2096021829064310864",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.729Z",
@@ -1270,6 +813,142 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
+    "id": "8bbadffe6f75",
+    "agent": "soar",
+    "quote": "@soarapp\n has this feature",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095949816442274226",
+    "kind": "other",
+    "tags": [
+      "feature",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: @soarapp has this feature"
+  },
+  {
+    "id": "d6e8d3610415",
+    "agent": "soar",
+    "quote": "@jasminecoded_ @soarapp that\u2019s all u bro",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095943714807959895",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "10a929895f40",
+    "agent": "soar",
+    "quote": "@_binhle @soarapp thank u \ud83e\udd1e",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095943649116745782",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "44481e0c3ce4",
+    "agent": "soar",
+    "quote": "@esha_hq @soarapp \ud83d\ude06",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095943423664488812",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "c759f67e30fa",
+    "agent": "soar",
+    "quote": "@vascodegraaff @soarapp We\u2019re so back",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095937907986993537",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "89a5884d17db",
+    "agent": "soar",
+    "quote": "I\u2019m joining \n@soarapp\n to build the future of travel.\n\nThis past summer, I worked on the AI Experiences team at Expedia.\n\nI left convinced this is one of the biggest industries about to be rebuilt by agents.\n\nA few things I learned:\n\n\u2192 Vertical agents > horizontal ones. The best",
+    "author": "@ymy1806",
+    "author_name": "Brenda",
+    "date": "2026-09-04",
+    "url": "https://x.com/ymy1806/status/2095905981397955069",
+    "kind": "other",
+    "tags": [
+      "hiring",
+      "expedia",
+      "travel",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "joining Soar from Expedia AI Experiences \u2014 travel agent thesis"
+  },
+  {
+    "id": "5ff5dcf37853",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp Back on the TL",
+    "author": "@vascodegraaff",
+    "author_name": "Vasco \ud83c\uddf3\ud83c\uddf1\ud83c\uddf9\ud83c\udded",
+    "date": "2026-09-04",
+    "url": "https://x.com/vascodegraaff/status/2095936007409455196",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
     "id": "80d991c0379e",
     "agent": "soar",
     "quote": "@ymy1806 @soarapp congrats!!!",
@@ -1277,6 +956,42 @@
     "author_name": "jam",
     "date": "2026-09-04",
     "url": "https://x.com/sugarjammi/status/2095970585134223392",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "af98a34b9f2f",
+    "agent": "soar",
+    "quote": "@soarapp\n does this, dependent on flight",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-04",
+    "url": "https://x.com/stannostudio/status/2095909739406512235",
+    "kind": "use-case",
+    "tags": [
+      "flight",
+      "feature",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: Soar does X dependent on flight"
+  },
+  {
+    "id": "7fdee7590ca7",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp So back",
+    "author": "@roydenso",
+    "author_name": "Royden",
+    "date": "2026-09-04",
+    "url": "https://x.com/roydenso/status/2095961150559039829",
     "kind": "other",
     "tags": [
       "auto",
@@ -1306,102 +1021,6 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "7fdee7590ca7",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp So back",
-    "author": "@roydenso",
-    "author_name": "Royden",
-    "date": "2026-09-04",
-    "url": "https://x.com/roydenso/status/2095961150559039829",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "27d7505d1883",
-    "agent": "soar",
-    "quote": "@ymy1806 @soarapp so tuff brenda",
-    "author": "@isnortmatcha",
-    "author_name": "Ivy Cho",
-    "date": "2026-09-04",
-    "url": "https://x.com/isnortmatcha/status/2095949091016462420",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "d6e8d3610415",
-    "agent": "soar",
-    "quote": "@jasminecoded_ @soarapp that’s all u bro",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095943714807959895",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "10a929895f40",
-    "agent": "soar",
-    "quote": "@_binhle @soarapp thank u 🤞",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095943649116745782",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
-    "id": "44481e0c3ce4",
-    "agent": "soar",
-    "quote": "@esha_hq @soarapp 😆",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
-    "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095943423664488812",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.729Z",
-    "notes": "query: @soarapp | via x402atlas"
-  },
-  {
     "id": "0357469b93df",
     "agent": "soar",
     "quote": "@ymy1806 @soarapp ok",
@@ -1420,13 +1039,31 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "1d7a37b3d6b3",
+    "id": "7596b449c44e",
     "agent": "soar",
-    "quote": "@ymy1806 @soarapp finally she is back on the app😍",
-    "author": "@esha_hq",
-    "author_name": "Esha",
+    "quote": "@ymy1806 @soarapp ok",
+    "author": "@kayanoesasaki",
+    "author_name": "kaya",
     "date": "2026-09-04",
-    "url": "https://x.com/esha_hq/status/2095942376682619253",
+    "url": "https://x.com/kayanoesasaki/status/2096022074288406780",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "b7a9265af831",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp rah",
+    "author": "@kayanoesasaki",
+    "author_name": "kaya",
+    "date": "2026-09-04",
+    "url": "https://x.com/kayanoesasaki/status/2096021829064310864",
     "kind": "other",
     "tags": [
       "auto",
@@ -1456,33 +1093,49 @@
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "c759f67e30fa",
+    "id": "27d7505d1883",
     "agent": "soar",
-    "quote": "@vascodegraaff @soarapp We’re so back",
-    "author": "@ymy1806",
-    "author_name": "Brenda",
+    "quote": "@ymy1806 @soarapp so tuff brenda",
+    "author": "@isnortmatcha",
+    "author_name": "Ivy Cho",
     "date": "2026-09-04",
-    "url": "https://x.com/ymy1806/status/2095937907986993537",
+    "url": "https://x.com/isnortmatcha/status/2095949091016462420",
     "kind": "other",
     "tags": [
       "auto",
       "x",
-      "reply",
-      "founder",
-      "vendor"
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.729Z",
     "notes": "query: @soarapp | via x402atlas"
   },
   {
-    "id": "5ff5dcf37853",
+    "id": "1d7a37b3d6b3",
     "agent": "soar",
-    "quote": "@ymy1806 @soarapp Back on the TL",
-    "author": "@vascodegraaff",
-    "author_name": "Vasco 🇳🇱🇹🇭",
+    "quote": "@ymy1806 @soarapp finally she is back on the app\ud83d\ude0d",
+    "author": "@esha_hq",
+    "author_name": "Esha",
     "date": "2026-09-04",
-    "url": "https://x.com/vascodegraaff/status/2095936007409455196",
+    "url": "https://x.com/esha_hq/status/2095942376682619253",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.729Z",
+    "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "7a17d72c5b08",
+    "agent": "soar",
+    "quote": "@ymy1806 @soarapp so so cool congrats!",
+    "author": "@cynthwangg",
+    "author_name": "Cynthia Wang",
+    "date": "2026-09-04",
+    "url": "https://x.com/cynthwangg/status/2096024905854951760",
     "kind": "other",
     "tags": [
       "auto",
@@ -1510,5 +1163,372 @@
     "source": "x",
     "collected_at": "2026-09-08T16:17:35.729Z",
     "notes": "query: @soarapp | via x402atlas"
+  },
+  {
+    "id": "f83b4fc88e67",
+    "agent": "soar",
+    "quote": "Just realize Soar was featured in \n@phocuswire\n Hot Travel Startup list \n\nif you work in the travel industry, you\u2019ll get why this is awesome. we just getting started \n@soarapp\n \u2708\ufe0f \n\nThanks Phocuswright!",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-09-01",
+    "url": "https://x.com/stannostudio/status/2094627013097078958",
+    "kind": "other",
+    "tags": [
+      "travel",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; founder: Phocuswire Hot Travel Startup feature"
+  },
+  {
+    "id": "0c249fd6e59b",
+    "agent": "soar",
+    "quote": "@soarapp\n kinda goated for telling me to check in to my flight i always forget",
+    "author": "@berrrrrrrrrrrrt",
+    "author_name": "Bert",
+    "date": "2026-08-28",
+    "url": "https://x.com/berrrrrrrrrrrrt/status/2093158763704574462",
+    "kind": "praise",
+    "tags": [
+      "check-in",
+      "flight",
+      "reminder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "third-party: reminds to check in"
+  },
+  {
+    "id": "4eae644b753a",
+    "agent": "soar",
+    "quote": "today we\u2019ve surpassed 100k+ texts to soar in >3 months. \n\ncan you imagine all the travel memories? travelers, keep taking us everywhere \ud83e\udef6",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-08-26",
+    "url": "https://x.com/soarapp/status/2092658452254339257",
+    "kind": "other",
+    "tags": [
+      "scale",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "company: 100k+ texts in 3 months"
+  },
+  {
+    "id": "e542debcd7a7",
+    "agent": "soar",
+    "quote": "Why doesn't \n@slashapp\n or \n@brexHQ\n or \n@tryramp\n just build \n@soarapp\n in house?\n\nBusiness people use their rewards on travel anyways.\n\nFeel it's free money left on the table.",
+    "author": "@GaddipatiHarsha",
+    "author_name": "Harsha from Slashy",
+    "date": "2026-08-24",
+    "url": "https://x.com/GaddipatiHarsha/status/2091754026694213714",
+    "kind": "comparison",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; why Slash/Brex/Ramp should build Soar in-house"
+  },
+  {
+    "id": "1121c613bec8",
+    "agent": "soar",
+    "quote": "Hey Stanley! App looks cool! It links through Google though and I get nervous giving access to Gmail - is this how it pulls in all the bookings?",
+    "author": "Casey Mead",
+    "author_name": "Casey Mead",
+    "date": "2026-08-09",
+    "url": "https://www.travelmassive.com/posts/i-dropped-out-of-college-to-build-soar-an-ai-companion-to-manage-my-travels-219148952",
+    "kind": "other",
+    "tags": [
+      "web",
+      "travelmassive",
+      "privacy",
+      "gmail",
+      "travel"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Community privacy concern about Gmail OAuth for travel inbox parsing; post ~Jul 16 featured, comments ~Aug window"
+  },
+  {
+    "id": "780948a66c20",
+    "agent": "soar",
+    "quote": "pov: you run to catch every flight because you chronically test airport theory\n\nwithout \n@soarapp\n i would be missing all of them",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-08-06",
+    "url": "https://x.com/stannostudio/status/2085463282693902746",
+    "kind": "use-case",
+    "tags": [
+      "airport",
+      "flight",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder: without Soar would miss flights"
+  },
+  {
+    "id": "0743adedc02d",
+    "agent": "soar",
+    "quote": "Soar app finding your travel history during onboarding \ud83c\udf0f\u23f3\n@soarapp",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-08-06",
+    "url": "https://x.com/stannostudio/status/2085185547232780561",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; onboarding finds travel history"
+  },
+  {
+    "id": "cdacf4a49458",
+    "agent": "soar",
+    "quote": "Flighty fans! \n\ntext \n@soarapp\n your Flighty data and watch it come to life on Soar \u2708\ufe0f\ud83c\udf0e",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-08-04",
+    "url": "https://x.com/soarapp/status/2084774407390560755",
+    "kind": "other",
+    "tags": [
+      "flighty",
+      "imessage",
+      "company",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "text Flighty data to Soar"
+  },
+  {
+    "id": "b9b9f096cf65",
+    "agent": "soar",
+    "quote": "@__mihir @wongmjane @JoshConstine We certainly do, download Soar here https://joinsoar.co",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-08-03",
+    "url": "https://x.com/soarapp/status/2084105924411552026",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.551Z",
+    "notes": "query: \"joinsoar.co\" | via x402atlas"
+  },
+  {
+    "id": "3d046d63ca9b",
+    "agent": "soar",
+    "quote": "Yep. They copied the real \n@soarapp\n and have to jack up prices on flights to pay for App Store ads to try to steal users looking for the real Soar.",
+    "author": "@JoshConstine",
+    "author_name": "Josh Constine \ud83d\udcf6\ud83d\udd25",
+    "date": "2026-08-03",
+    "url": "https://x.com/JoshConstine/status/2084101025179566445",
+    "kind": "complaint",
+    "tags": [
+      "copycat",
+      "app-store",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "copycat Soar jacking prices + ads"
+  },
+  {
+    "id": "bea64c003c4a",
+    "agent": "soar",
+    "quote": "anyone else chronically missing flights? \n@soarapp\n live activity is a game changer",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-07-29",
+    "url": "https://x.com/soarapp/status/2082513546584215674",
+    "kind": "other",
+    "tags": [
+      "live-activity",
+      "flights",
+      "company",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "live activity for missed flights"
+  },
+  {
+    "id": "5f748a8b83bc",
+    "agent": "soar",
+    "quote": "Just discovered \nhttps://\nflysoar.ai. MCP server might come in super handy",
+    "author": "@fathermerry",
+    "author_name": "opemipo aikomo",
+    "date": "2026-07-29",
+    "url": "https://x.com/fathermerry/status/2082290301289283861",
+    "kind": "other",
+    "tags": [
+      "discovery",
+      "mcp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "discovered flysoar.ai MCP"
+  },
+  {
+    "id": "1ae46a92550f",
+    "agent": "soar",
+    "quote": "tried \n@soarapp\n imessage agent for AI4 and it showed me Vegas hotels for $8/night??\n\n1. hotel totals were way off (later corrected)\n2. setting reminders but no access?\n3. forgot we were talking vegas mid-chat\n4. sent weird source links\n\nthough gg w privacy & safety boundaries",
+    "author": "@ShubhamInTech",
+    "author_name": "shubham",
+    "date": "2026-07-29",
+    "url": "https://x.com/ShubhamInTech/status/2082302956414947635",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "hotels",
+      "reminders"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "Vegas $8/night wrong totals; reminder access"
+  },
+  {
+    "id": "77b4e071f852",
+    "agent": "soar",
+    "quote": "@aslater @idanmasas https://joinsoar.co/",
+    "author": "@Shashankalla_",
+    "author_name": "Shashank Alla",
+    "date": "2026-07-29",
+    "url": "https://x.com/Shashankalla_/status/2082576357364490645",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.551Z",
+    "notes": "query: \"joinsoar.co\" | via x402atlas"
+  },
+  {
+    "id": "6e2a0c40da13",
+    "agent": "soar",
+    "quote": "Live activity on \n@soarapp\n tells you when to leave for your flight based on traffic conditions + flight status + tsa lines. our community loves this feature.",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-07-28",
+    "url": "https://x.com/stannostudio/status/2082252087157502102",
+    "kind": "use-case",
+    "tags": [
+      "live-activity",
+      "traffic",
+      "tsa",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "live activity leave-for-flight"
+  },
+  {
+    "id": "42b13a6ac095",
+    "agent": "soar",
+    "quote": "I\u2019m aware love soar it didn\u2019t text me for it this time though \ud83d\ude14 maybe it\u2019s because it\u2019s international and it only supports domestic check ins rn",
+    "author": "@eduardfausgil",
+    "author_name": "Eduard Faus Gil",
+    "date": "2026-07-27",
+    "url": "https://x.com/eduardfausgil/status/2081554062466859018",
+    "kind": "bug",
+    "tags": [
+      "check-in",
+      "international"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "didn\u2019t text for international check-in"
+  },
+  {
+    "id": "3fbc1af416a2",
+    "agent": "soar",
+    "quote": "\ud83d\udc49https://joinsoar.co/flight",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-07-17",
+    "url": "https://x.com/stannostudio/status/2078182888126992769",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.551Z",
+    "notes": "query: \"joinsoar.co\" | via x402atlas"
+  },
+  {
+    "id": "6e3d7da8ba0f",
+    "agent": "soar",
+    "quote": "IMESSAGE AGENT STORE JUST DROPPED \n\nGO TEXT SOAR AND SO MANY OTHER COOL AGENTS NOW \ud83e\udde2",
+    "author": "@soarapp",
+    "author_name": "Soar",
+    "date": "2026-07-17",
+    "url": "https://x.com/soarapp/status/2077909560283836474",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "agent-store",
+      "company",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "iMessage Agent Store drop"
+  },
+  {
+    "id": "d3e67a343ab4",
+    "agent": "soar",
+    "quote": "Goals!!\ud83d\ude29\ud83d\ude4c hope to hit all of them one day using \n@soarapp",
+    "author": "@FunTzu12",
+    "author_name": "Fun tzu",
+    "date": "2026-07-01",
+    "url": "https://x.com/FunTzu12/status/2072136540801650989",
+    "kind": "other",
+    "tags": [
+      "aspirational"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "hope to hit goals using Soar"
+  },
+  {
+    "id": "bdea48e9506d",
+    "agent": "soar",
+    "quote": "@stannostudio @aslater @lukemiler @soarapp *Claude take http://joinsoar.co and make me something similar* https://t.co/oDnnHMeYhX",
+    "author": "@FetuFetti",
+    "author_name": "Fetu",
+    "date": "2026-05-20",
+    "url": "https://x.com/FetuFetti/status/2056914030552293515",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.551Z",
+    "notes": "query: \"joinsoar.co\" | via x402atlas"
   }
 ]

@@ -26,4 +26,13 @@ _Updated 2026-09-08 weekday vault scan (+21 rows)._
 - (2026-09-08) u/Grimmoner: I spent today proving my own bug report wrong, found something worse (137927) Continuation of Bug report saga.   This is a long one. There's
 - (2026-09-07) u/ilias_from_ilios: Okay Astra is insane. I have OpenClaw 2 and have setup a main with glm5.3 flash and have sub-agents with heavy tasks on Astra.   I have them
 - (2026-09-07) u/Ok_Television8309: Why OpenClaw over Hermes? Hi all, when OpenClaw was in its earlier days back in February I rushed to try it out, and I was absolutely impres
-- (2026-09-07) u/coccoinomane: Help: OpenClaw 2.0 with Astra being very obnoxious Hi,   After installing 2026.9.2 and switching to Astra, my Claw has become a bigot.   It 
+- (2026-09-07) u/coccoinomane: Help: OpenClaw 2.0 with Astra being very obnoxious Hi,   After installing 2026.9.2 and switching to Astra, my Claw has become a bigot.   It
+
+_Updated 2026-09-09 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-02-18) nek12: This issue is the amount of bugs in OpenClaw. I spent three days just trying to get it to work. OpenClaw currently has 4000 issues on GitHub
+- (2026-07-14) mz1009-web: Sessions are being silently deleted from both sessions.json and their JSONL files on disk, without any configured session maintenance policy
+- (2026-09-09) @tysonhutchins: Muse is shockingly good. Like Hermes, OpenClaw, Grok bot, etc. but for normal people and essentially free.  It just… works
+- (2026-09-09) @daveremy: with my setup I have 9 persistent agents each agent was consistently consuming something like 1.5G so the mac mini was starting to page.  i 
+- (2026-09-08) @capitaltruist: As a personal agent normie, I've used @openclaw (too much work, unreliable), @interaction (useful, but annoyingly flippant), Instinct (incre

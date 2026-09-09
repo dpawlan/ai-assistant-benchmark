@@ -1,655 +1,22 @@
 [
   {
-    "id": "b1744700d134",
+    "id": "f6870b8b6959",
     "agent": "ollie",
-    "quote": "There are fewer and fewer 'ah-ha' moments in consumer these days. \n@heyollieai\n is one of them. This is an amazing product and the future of many AI \"apps\". Bravo team \nhttps://\nollie.ai 🦾",
-    "author": "@jordankobert",
-    "author_name": "Jordan Kobert",
-    "date": "2026-06-15",
-    "url": "https://x.com/jordankobert/status/2066603719282532833",
-    "kind": "praise",
-    "tags": [
-      "family",
-      "aha"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "ah-ha consumer moment"
-  },
-  {
-    "id": "6ad360cc85af",
-    "agent": "ollie",
-    "quote": "“Most husbands are oblivious deadbeats,” the co-founder of Ollie, an A.I. “family assistant” company, wrote recently on LinkedIn. Ollie’s services promise to help women make a change in their households.",
-    "author": "@NewYorker",
-    "author_name": "The New Yorker",
-    "date": "2026-07-18",
-    "url": "https://x.com/NewYorker/status/2078608373285888199",
-    "kind": "complaint",
-    "tags": [
-      "marketing",
-      "gender"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "New Yorker on co-founder LinkedIn framing"
-  },
-  {
-    "id": "73a4c100b235",
-    "agent": "ollie",
-    "quote": "Big news! Ollie is officially SOC 2 compliant! 🎉\n\nIn plain terms: an independent auditor put our security practices under a microscope: how we protect your data, who can access it, how we handle it. We passed, and we’re now held to the same standard trusted across the financial",
-    "author": "@heyollieai",
-    "author_name": "Ollie AI",
-    "date": "2026-08-21",
-    "url": "https://x.com/heyollieai/status/2090853850135801900",
-    "kind": "other",
-    "tags": [
-      "privacy",
-      "soc2",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: SOC 2"
-  },
-  {
-    "id": "a601b8db5fc3",
-    "agent": "ollie",
-    "quote": "It's surreal to see \nhttp://\nollie.ai out in the wild.\n\nWe launched three weeks ago when kids were getting out of school and parents' routines went out the window. \n\nAs a parent, I had to recalibrate to new drop-off/pick-up schedules, remember what to pack for summer camp",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-06-24",
-    "url": "https://x.com/blennon_/status/2069893569989755212",
-    "kind": "other",
-    "tags": [
-      "launch",
-      "family",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: 3 weeks post-launch"
-  },
-  {
-    "id": "3861407e7589",
-    "agent": "ollie",
-    "quote": "This is why \nhttps://\nOllie.ai exists, and we know who our customer is: working moms overwhelmed by the mental load. Everything we do is optimized for their needs which we know so well.\n\nInstinct is doing a great job building hype on X, and a SV beachhead is a legit",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-08-20",
-    "url": "https://x.com/blennon_/status/2090461503359209616",
-    "kind": "other",
-    "tags": [
-      "positioning",
-      "moms",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "working moms mental load"
-  },
-  {
-    "id": "35fcff1af51d",
-    "agent": "ollie",
-    "quote": "🏠 Ollie has raised $7.5M in seed funding led by Khosla Ventures, with AI House joining.\n\nThe San Diego startup runs a family AI assistant over text — no app needed — coordinating calendars, meals, and errands without selling or training on your data.",
-    "author": "@dealroomnews",
-    "author_name": "Dealroom News",
-    "date": "2026-09-05",
-    "url": "https://x.com/dealroomnews/status/2096128715809825232",
-    "kind": "other",
-    "tags": [
-      "funding"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "$7.5M Khosla seed"
-  },
-  {
-    "id": "95f16ac49dcc",
-    "agent": "ollie",
-    "quote": "Ollie Puts Privacy at the Heart of Its AI Assistant Strategy\n\nOllie, a family-focused AI assistant, is positioning privacy as its key differentiator in the crowded personal AI market. The startup has achieved SOC 2 compliance and says it won’t share user data or use it to train",
-    "author": "@techshotsapp",
-    "author_name": "TechShots",
-    "date": "2026-09-04",
-    "url": "https://x.com/techshotsapp/status/2095855832114323723",
-    "kind": "other",
-    "tags": [
-      "privacy"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "privacy as differentiator coverage"
-  },
-  {
-    "id": "706d95a9bf10",
-    "agent": "ollie",
-    "quote": "For families, \n@heyollieai\n is an incredible time saver and help.\n\nReal world use cases handled very effectively by AI",
-    "author": "@SiVola",
-    "author_name": "Paolo Perazzo",
-    "date": "2026-09-03",
-    "url": "https://x.com/SiVola/status/2095559988592935165",
-    "kind": "praise",
-    "tags": [
-      "family",
-      "time-saver"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": ""
-  },
-  {
-    "id": "04e1ab58c8a4",
-    "agent": "ollie",
-    "quote": "24 hours into using \n@heyollieai\n . Seamless set up.Text based assistance is super helpful for lots of juggling. Really fun to use Stream to dictate to text Ollie so far. \n@sandbar",
-    "author": "@btravisNYC",
-    "author_name": "Brooke K Travis",
-    "date": "2026-08-24",
-    "url": "https://x.com/btravisNYC/status/2091936494889939283",
-    "kind": "use-case",
-    "tags": [
-      "onboarding",
-      "dictation",
-      "juggling"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "24h in; Stream dictate"
-  },
-  {
-    "id": "345156420150",
-    "agent": "ollie",
-    "quote": "This is real life. Two schools. Random half days. Different schedules. \n@heyollieai\n gets it and delivers on it. No hype, just being truly helpful for people who could really use the help.",
-    "author": "@christyshannon",
-    "author_name": "christyshannon",
-    "date": "2026-08-19",
-    "url": "https://x.com/christyshannon/status/2090168068341420087",
-    "kind": "praise",
-    "tags": [
-      "family",
-      "schools",
-      "schedules",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "two schools / half days"
-  },
-  {
-    "id": "de3387751e10",
-    "agent": "ollie",
-    "quote": "I pay for \n@heyollieai\n which does this and you can try it for free.",
-    "author": "@cynthiamcgillis",
-    "author_name": "Cynthia Bell McGillis",
-    "date": "2026-08-22",
-    "url": "https://x.com/cynthiamcgillis/status/2090970074920386948",
-    "kind": "praise",
-    "tags": [
-      "paid",
-      "paying-user"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "I pay for Ollie"
-  },
-  {
-    "id": "6b5c9489e598",
-    "agent": "ollie",
-    "quote": "Productivity hack:\n\nAs someone with ADHD, and running multiple businesses I struggle staying on top of everything that needs to be done on a day-to-day basis\n\nOver the last couple months I have been using \n@heyollieai\n \n\nI’m sure I’m not even touching the surface of what this thing",
-    "author": "@optionscjp",
-    "author_name": "Options selling with Christian",
-    "date": "2026-07-07",
-    "url": "https://x.com/optionscjp/status/2074308637317796347",
-    "kind": "use-case",
-    "tags": [
-      "adhd",
-      "productivity"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "ADHD multi-business user"
-  },
-  {
-    "id": "e89651ab4b06",
-    "agent": "ollie",
-    "quote": "+ 1 I’m really excited for this to get good. \n@blennon_\n and \n@heyollieai\n are the closest I’ve seen so far.",
-    "author": "@bdistel",
-    "author_name": "Brian Distelburger",
-    "date": "2026-08-31",
-    "url": "https://x.com/bdistel/status/2094417512997818467",
-    "kind": "praise",
-    "tags": [
-      "closest"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "closest seen so far"
-  },
-  {
-    "id": "5e2ab889581e",
-    "agent": "ollie",
-    "quote": "Your life will change when you put \nhttps://\nOllie.ai in a group chat with your partner.",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-08-31",
-    "url": "https://x.com/blennon_/status/2094464888706101254",
-    "kind": "other",
-    "tags": [
-      "group-chat",
-      "partner",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "founder: put in group chat with partner"
-  },
-  {
-    "id": "3eeabf9ab245",
-    "agent": "ollie",
-    "quote": "@blennon_\n I just sent \n@heyollieai\n pic of a paper printed school calendar .. and what .. it added all dates to my family calendar. Here comes a useful AI 8-)",
-    "author": "@VikGoyal",
-    "author_name": "Vikas Goyal",
-    "date": "2026-06-02",
-    "url": "https://x.com/VikGoyal/status/2061958193819869658",
-    "kind": "use-case",
-    "tags": [
-      "calendar",
-      "school",
-      "photo"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "paper school calendar → family calendar"
-  },
-  {
-    "id": "2574ff30f7da",
-    "agent": "ollie",
-    "quote": "Today I got to meet the founders of one my absolute favorite products. It was so fun to share how much I love \n@heyollieai\n with \n@blennon_\n and \n@christyshannon\n. Their commitment to making ollie work for their users was evident and I can't wait to see ollie's future developments.",
-    "author": "@DrCNJohnson",
-    "author_name": "Courtney N. Johnson, Ph.D.",
-    "date": "2025-02-24",
-    "url": "https://x.com/DrCNJohnson/status/1894135405965939156",
-    "kind": "praise",
-    "tags": [
-      "founders",
-      "love"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "met founders; absolute favorite product"
-  },
-  {
-    "id": "e2cd9cf8aa01",
-    "agent": "ollie",
-    "quote": "Your AI family assistant reads your emails, calendar and group chats.\n\nHelpful or creepy?\n\n@heyollieai\n is built to manage your family.\n\n@IsaacDrgn\n's SuperNori is built to ask and care your family first.\n\nThe future of Family AI is control vs consent.\n\nThat's why SuperNori caught",
-    "author": "@Damn_coder",
-    "author_name": "D-Coder",
-    "date": "2026-06-29",
-    "url": "https://x.com/Damn_coder/status/2071621064908829036",
-    "kind": "complaint",
-    "tags": [
-      "privacy",
-      "surveillance",
-      "family"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "helpful or creepy? reads emails/calendars"
-  },
-  {
-    "id": "2898913e2a7f",
-    "agent": "ollie",
-    "quote": "Recently, I just saw \n@heyollieai\n launch an AI family assistant saying that it could manage your family life better than any human.\n\n But, an AI that silently reads every family email, calendar and group chat isn't just an assistant. It's a surveillance layer with a friendly name.",
-    "author": "@viipin8",
-    "author_name": "Vipin Gautam (Viipin I Gautam)",
-    "date": "2026-06-28",
-    "url": "https://x.com/viipin8/status/2071259229227471281",
-    "kind": "complaint",
-    "tags": [
-      "privacy",
-      "surveillance"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "AI that silently reads family life"
-  },
-  {
-    "id": "95b7c0ec7704",
-    "agent": "ollie",
-    "quote": "If an AI continuously reads the whole family's emails, calendars, and group chats, is it a family assistant or a surveillance system?\n\n@heyollieai\n chose to \"take over the household.\"\n\n@IsaacDrgn\n's SuperNori chose to \"ask first, then act.\"\n\nShould Family AI manage the family, or",
-    "author": "@rionaifantasy",
-    "author_name": "Rion Wu",
-    "date": "2026-06-30",
-    "url": "https://x.com/rionaifantasy/status/2071994883473297578",
-    "kind": "complaint",
-    "tags": [
-      "privacy",
-      "surveillance"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "assistant or surveillance system?"
-  },
-  {
-    "id": "e6898b416dd7",
-    "agent": "ollie",
-    "quote": "I started out using \n@HeyOllieAi\n to buy thoughtful gifts for my people but now I just used it to buy 12 things for myself. Ollie is hurting my allowance.",
-    "author": "@TherapeuticBrew",
-    "author_name": "🌈Caffeinated Compassion (she/her)",
-    "date": "2023-05-19",
-    "url": "https://x.com/TherapeuticBrew/status/1659356607736688646",
-    "kind": "use-case",
-    "tags": [
-      "shopping",
-      "gifts"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "gifts → buying 12 things for self"
-  },
-  {
-    "id": "07d83cb07cc9",
-    "agent": "ollie",
-    "quote": "🚨 #NewsNoise: Ollie gets SOC 2 and goes subscription for a privacy-first home assistant\n\n📌Read more here: \nhttps://\nrelvehq.com/blog/noise/oll\nie-ai-assistant-privacy-soc2\n…\n\nOllie achieved SOC 2, moved to subscriptions, and says it will not share or train on personal data.\n\nPrivacy-first assistants are moving to SOC 2",
-    "author": "@Relve_official",
-    "author_name": "Relve",
-    "date": "2026-09-03",
-    "url": "https://x.com/Relve_official/status/2095600433343471837",
-    "kind": "other",
-    "tags": [
-      "soc2",
-      "subscription",
-      "privacy"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "SOC 2 + subscription privacy-first news"
-  },
-  {
-    "id": "9de25206b464",
-    "agent": "ollie",
-    "quote": "Ollie AI Assistant Privacy Focus in the AI Race\n\nFor an AI assistant to become truly useful, it first has to know a lot about you. \n\nDETAILS: \nhttps://\ntechticia.com/ollie-ai-assis\ntant-privacy-focus-in-the-ai-race/\n…",
-    "author": "@TechTicia",
-    "author_name": "Techticia",
-    "date": "2026-09-04",
-    "url": "https://x.com/TechTicia/status/2095769475140190276",
-    "kind": "other",
-    "tags": [
-      "privacy",
-      "coverage"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "press: Ollie privacy focus in AI race"
-  },
-  {
-    "id": "0f26ec2da7b5",
-    "agent": "ollie",
-    "quote": "Ollie ollie.ai, the family one, carries the schedule/school load\n\nThe assistants:\n\nfolk [getfolk.app](https://www.getfolk.app/), imo the best one, memory-first, lives in iMessage, Telegram and Discord \nPoke [poke.com](http://poke.com), first agent approved on Apple's Messages for Business \nOllie [ollie.ai](http://ollie.ai), the family one, carries the schedule/school load \nLucas [meetlucas.ai](http://meetlucas.ai), texts you first, habits and accountability \nOrchid [orchid.ai](http://orchid.ai), exec assistant, drafts replies and books meetings, wants sign",
-    "author": "u/OkInitiative4270",
-    "author_name": "",
-    "date": "2026-06-10",
-    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage#ollie",
+    "quote": "Imo, those that could win are those hyperpersonalized to a \"vertical\"\n\nStill bullish on: \n\n@TownAI\n\n\n@heyollieai\n\nVoice anyone? (@tommaxxing)\nThose working on this w unique hardware",
+    "author": "@sebtsaii",
+    "author_name": "Sebastian Tsai \ud83c\udf88",
+    "date": "2026-09-08",
+    "url": "https://x.com/sebtsaii/status/2097495159332098405",
     "kind": "comparison",
     "tags": [
-      "reddit",
-      "imessage",
-      "family",
-      "market-map",
-      "a16z"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "a16z map positioning"
-  },
-  {
-    "id": "cee4248807f2",
-    "agent": "ollie",
-    "quote": "I’ve become reflexively skeptical of the coordinated “VC launch slop” playbook on X\n\nBut I actually have a fairly large spec of personal logistics things I’ve been trying to accomplish with a text based agent. I tried to do this with Ollie AI but it just made too many errors.",
-    "author": "@FundamentEdge",
-    "author_name": "Brett Caughran",
-    "date": "2026-08-27",
-    "url": "https://x.com/FundamentEdge/status/2093111007698727364",
-    "kind": "complaint",
-    "tags": [
-      "texting"
+      "hyperpersonalization",
+      "vertical",
+      "voice",
+      "hardware"
     ],
     "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; tried Ollie AI; too many errors vs text-agent needs"
-  },
-  {
-    "id": "d99275e7f6bc",
-    "agent": "ollie",
-    "quote": "@graceclarke @nikunj http://Ollie.ai doesn’t and is made for parents. SOC2 compliant, doesn’t sell your data and works for you.",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-08-22",
-    "url": "https://x.com/blennon_/status/2091288610805047549",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "fc4637d34c3e",
-    "agent": "ollie",
-    "quote": "@jonpbaker If you’re looking for a trusted alternative try http://Ollie.ai — SOC2 compliant, doesn’t sell your data and doesn’t index your email.  Ollie works for you! And we put our names and faces behind it https://ollie.ai/about/",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-08-22",
-    "url": "https://x.com/blennon_/status/2091282293193347267",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "6088be5a97b9",
-    "agent": "ollie",
-    "quote": "@ketau @zeroclick love this! http://ollie.ai is ready to buy!",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-07-22",
-    "url": "https://x.com/blennon_/status/2080041048391491710",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "91655cf37c99",
-    "agent": "ollie",
-    "quote": "Make some room @jessegenet, http://Ollie.ai is joining you in The New Yorker ;)\n\nThis is no puff piece and it's a great read on the gender gap at home and in AI.\n\nThe mental load falling disproportionately on moms is a real problem. When I woke up to it in my own house,",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-07-16",
-    "url": "https://x.com/blennon_/status/2077869011015258435",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "efad9143df73",
-    "agent": "ollie",
-    "quote": "@krispuckett Pretty clear they’re rolling it out early quietly between this and the http://Ollie.ai thing…here for it finally being a thing",
-    "author": "@ow",
-    "author_name": "Owen Williams ⚡",
-    "date": "2026-06-04",
-    "url": "https://x.com/ow/status/2062662773729808702",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "817602c47a66",
-    "agent": "ollie",
-    "quote": "家族用のAIアシスタントを提供するOllieの需要は高そう。\n\n複数のAIエージェントを活用して細かいタスクを成し遂げたり、リマインドなどを送ってくれる。\n\n今後AIが家庭を支援するのが当たり前の世界になると、子供とAIの関係性がかなり変わってくる。\n\nhttps://ollie.ai/ https://t.co/rmu3xn8z9a",
-    "author": "@tmiyatake1",
-    "author_name": "Tetsuro Miyatake",
-    "date": "2026-06-03",
-    "url": "https://x.com/tmiyatake1/status/2061961561368072585",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "17857f0e5815",
-    "agent": "ollie",
-    "quote": "@azed_ai we got you! http://ollie.ai! everyone who signs up today gets a month of premium for free",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-06-02",
-    "url": "https://x.com/blennon_/status/2061912967571292602",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "74f7b54d6dfd",
-    "agent": "ollie",
-    "quote": "Parenting used to happen around the dinner table.\n\nNow it happens across 10 apps, 80 school emails, 4 group chats, 3 calendars, and one exhausted parent’s brain.\n\n@heyollieai solves this.\n\nTry it for free: http://ollie.ai",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-06-02",
-    "url": "https://x.com/blennon_/status/2061868940582633841",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "a9a8a358b340",
-    "agent": "ollie",
-    "quote": "The future of family support is AI that actually helps families.\n\nBusy families from leading companies are already using Ollie AI to reduce the everyday mental load of family life.\n\nGet started with Ollie today 👉 https://ollie.ai/ https://t.co/zAM1cmq028",
-    "author": "@heyollieai",
-    "author_name": "Ollie AI",
-    "date": "2026-04-08",
-    "url": "https://x.com/heyollieai/status/2041920350678864063",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "87a8f5ea8c92",
-    "agent": "ollie",
-    "quote": "@ankurnagpal 👋 Hi, I'm Ollie. You can start a group chat right now: https://ollie.ai/family-assistant/ No mac minis required. ;)",
-    "author": "@heyollieai",
-    "author_name": "Ollie AI",
-    "date": "2026-03-03",
-    "url": "https://x.com/heyollieai/status/2028923190085599268",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "408665025616",
-    "agent": "ollie",
-    "quote": "Incredible report! Meal planning with AI isn't unintuitive. It's http://Ollie.ai's wedge into the household. High freq, high friction. You can eat healthier, more exciting meals without having to figure it out yourself. And Ollie will order your groceries too. 2 hours-&gt;2",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2025-06-26",
-    "url": "https://x.com/blennon_/status/1938294682137841843",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
-  },
-  {
-    "id": "6e92b6a138b2",
-    "agent": "ollie",
-    "quote": "Thrilled to see http://Ollie.ai featured in Bessemer Venture Partners' latest report on consumer AI reaching a tipping point!\n\nWe're proud to be building the next wave of AI-native products that transform family life by handling the mental load—starting with meal planning",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2025-03-04",
-    "url": "https://x.com/blennon_/status/1897023607240351803",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:31:13.148Z",
-    "notes": "query: \"ollie.ai\" | via x402atlas"
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Independent post says the author is still bullish on Ollie among vertically focused assistants."
   },
   {
     "id": "6b96c46b68cf",
@@ -667,6 +34,24 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:35:12.126Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "2857c475de6c",
+    "agent": "ollie",
+    "quote": "@optionscjp @heyollieai Grok Bot by far.",
+    "author": "@yotam_s81",
+    "author_name": "Yotam S",
+    "date": "2026-09-06",
+    "url": "https://x.com/yotam_s81/status/2096658090808529344",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:35:12.127Z",
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
@@ -706,13 +91,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "e08301d744a5",
+    "id": "9b90facd69e3",
     "agent": "ollie",
-    "quote": "@optionscjp @heyollieai I’m a big fan of @cfosilvia",
-    "author": "@MightyMuth24",
-    "author_name": "Josh",
+    "quote": "@Love2skiMD @heyollieai Idk man",
+    "author": "@optionscjp",
+    "author_name": "Options selling with Christian",
     "date": "2026-09-06",
-    "url": "https://x.com/MightyMuth24/status/2096675073713217637",
+    "url": "https://x.com/optionscjp/status/2096662201646067802",
     "kind": "other",
     "tags": [
       "auto",
@@ -724,13 +109,48 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "9e5616b3c84b",
+    "id": "75bf64df88f7",
     "agent": "ollie",
-    "quote": "@optionscjp @heyollieai Grok’s game-changing? probably because it reads your tweets before you hit post. xAI isn’t a model, it’s an infinite feedback loop of self-praise with latency attached",
-    "author": "@TheAIShrink",
-    "author_name": "The AI Therapist",
+    "quote": "I\u2019m curious to know what AI tool everyone has found to be the most useful so far?\n\nI\u2019m always looking for the next best thing, but for me\n\n- Grok Bot has been absolutely game changer for what I\u2019m doing over at https://stockcatalysts.ai\n\n- @heyollieai Ollie is great to have in important group chats and as sort of a personal assistant to keep you in the loop on anything important in your day.\n\n- obviously ChatGPT is the easiest and most user friendly way to get quick answers to everyday life questions\n\nLooking for other ways to utilize AI. \ud83d\udc47\ud83c\udffc",
+    "author": "@optionscjp",
+    "author_name": "Options selling with Christian",
     "date": "2026-09-06",
-    "url": "https://x.com/TheAIShrink/status/2096670590023131527",
+    "url": "https://x.com/optionscjp/status/2096657937112715436",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:35:12.127Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "2462b7010716",
+    "agent": "ollie",
+    "quote": "@optionscjp @heyollieai Claude has been great w everyday tasks and financial related",
+    "author": "@nicolasranieri_",
+    "author_name": "Nick",
+    "date": "2026-09-06",
+    "url": "https://x.com/nicolasranieri_/status/2096660192029000124",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:35:12.126Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "27d2d90be431",
+    "agent": "ollie",
+    "quote": "@optionscjp @heyollieai LLM models interchangeable, Claude/chatgpt/glm whatever. For harnesses/platform direct terminal, although have been trying out Hermes recently via telegram and discord",
+    "author": "@morqca",
+    "author_name": "AM",
+    "date": "2026-09-06",
+    "url": "https://x.com/morqca/status/2096660517318176995",
     "kind": "other",
     "tags": [
       "auto",
@@ -762,7 +182,7 @@
   {
     "id": "aee08eb88d06",
     "agent": "ollie",
-    "quote": "@Love2skiMD @optionscjp @heyollieai Not even close! 😂",
+    "quote": "@Love2skiMD @optionscjp @heyollieai Not even close! \ud83d\ude02",
     "author": "@TraderNate",
     "author_name": "Nate Yoder",
     "date": "2026-09-06",
@@ -778,31 +198,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "9b90facd69e3",
+    "id": "9e5616b3c84b",
     "agent": "ollie",
-    "quote": "@Love2skiMD @heyollieai Idk man",
-    "author": "@optionscjp",
-    "author_name": "Options selling with Christian",
+    "quote": "@optionscjp @heyollieai Grok\u2019s game-changing? probably because it reads your tweets before you hit post. xAI isn\u2019t a model, it\u2019s an infinite feedback loop of self-praise with latency attached",
+    "author": "@TheAIShrink",
+    "author_name": "The AI Therapist",
     "date": "2026-09-06",
-    "url": "https://x.com/optionscjp/status/2096662201646067802",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:35:12.126Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "7b7a737704fa",
-    "agent": "ollie",
-    "quote": "@optionscjp @heyollieai My brain is far better than AI.",
-    "author": "@Love2skiMD",
-    "author_name": "OptionTrdrMD 🇺🇸",
-    "date": "2026-09-06",
-    "url": "https://x.com/Love2skiMD/status/2096660801251614930",
+    "url": "https://x.com/TheAIShrink/status/2096670590023131527",
     "kind": "other",
     "tags": [
       "auto",
@@ -832,49 +234,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "27d2d90be431",
+    "id": "e08301d744a5",
     "agent": "ollie",
-    "quote": "@optionscjp @heyollieai LLM models interchangeable, Claude/chatgpt/glm whatever. For harnesses/platform direct terminal, although have been trying out Hermes recently via telegram and discord",
-    "author": "@morqca",
-    "author_name": "AM",
+    "quote": "@optionscjp @heyollieai I\u2019m a big fan of @cfosilvia",
+    "author": "@MightyMuth24",
+    "author_name": "Josh",
     "date": "2026-09-06",
-    "url": "https://x.com/morqca/status/2096660517318176995",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:35:12.126Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "2462b7010716",
-    "agent": "ollie",
-    "quote": "@optionscjp @heyollieai Claude has been great w everyday tasks and financial related",
-    "author": "@nicolasranieri_",
-    "author_name": "Nick",
-    "date": "2026-09-06",
-    "url": "https://x.com/nicolasranieri_/status/2096660192029000124",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:35:12.126Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "1522c1ba845c",
-    "agent": "ollie",
-    "quote": "@optionscjp @heyollieai Claude",
-    "author": "@AJ_Invests_Co",
-    "author_name": "AJ Invests",
-    "date": "2026-09-06",
-    "url": "https://x.com/AJ_Invests_Co/status/2096659998361227737",
+    "url": "https://x.com/MightyMuth24/status/2096675073713217637",
     "kind": "other",
     "tags": [
       "auto",
@@ -904,13 +270,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "2857c475de6c",
+    "id": "7b7a737704fa",
     "agent": "ollie",
-    "quote": "@optionscjp @heyollieai Grok Bot by far.",
-    "author": "@yotam_s81",
-    "author_name": "Yotam S",
+    "quote": "@optionscjp @heyollieai My brain is far better than AI.",
+    "author": "@Love2skiMD",
+    "author_name": "OptionTrdrMD \ud83c\uddfa\ud83c\uddf8",
     "date": "2026-09-06",
-    "url": "https://x.com/yotam_s81/status/2096658090808529344",
+    "url": "https://x.com/Love2skiMD/status/2096660801251614930",
     "kind": "other",
     "tags": [
       "auto",
@@ -918,30 +284,240 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:35:12.127Z",
+    "collected_at": "2026-09-08T15:35:12.126Z",
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "75bf64df88f7",
+    "id": "1522c1ba845c",
     "agent": "ollie",
-    "quote": "I’m curious to know what AI tool everyone has found to be the most useful so far?\n\nI’m always looking for the next best thing, but for me\n\n- Grok Bot has been absolutely game changer for what I’m doing over at https://stockcatalysts.ai\n\n- @heyollieai Ollie is great to have in important group chats and as sort of a personal assistant to keep you in the loop on anything important in your day.\n\n- obviously ChatGPT is the easiest and most user friendly way to get quick answers to everyday life questions\n\nLooking for other ways to utilize AI. 👇🏼",
-    "author": "@optionscjp",
-    "author_name": "Options selling with Christian",
+    "quote": "@optionscjp @heyollieai Claude",
+    "author": "@AJ_Invests_Co",
+    "author_name": "AJ Invests",
     "date": "2026-09-06",
-    "url": "https://x.com/optionscjp/status/2096657937112715436",
+    "url": "https://x.com/AJ_Invests_Co/status/2096659998361227737",
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:35:12.127Z",
+    "collected_at": "2026-09-08T15:35:12.126Z",
     "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "35fcff1af51d",
+    "agent": "ollie",
+    "quote": "\ud83c\udfe0 Ollie has raised $7.5M in seed funding led by Khosla Ventures, with AI House joining.\n\nThe San Diego startup runs a family AI assistant over text \u2014 no app needed \u2014 coordinating calendars, meals, and errands without selling or training on your data.",
+    "author": "@dealroomnews",
+    "author_name": "Dealroom News",
+    "date": "2026-09-05",
+    "url": "https://x.com/dealroomnews/status/2096128715809825232",
+    "kind": "other",
+    "tags": [
+      "funding"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "$7.5M Khosla seed"
+  },
+  {
+    "id": "95f16ac49dcc",
+    "agent": "ollie",
+    "quote": "Ollie Puts Privacy at the Heart of Its AI Assistant Strategy\n\nOllie, a family-focused AI assistant, is positioning privacy as its key differentiator in the crowded personal AI market. The startup has achieved SOC 2 compliance and says it won\u2019t share user data or use it to train",
+    "author": "@techshotsapp",
+    "author_name": "TechShots",
+    "date": "2026-09-04",
+    "url": "https://x.com/techshotsapp/status/2095855832114323723",
+    "kind": "other",
+    "tags": [
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "privacy as differentiator coverage"
+  },
+  {
+    "id": "9de25206b464",
+    "agent": "ollie",
+    "quote": "Ollie AI Assistant Privacy Focus in the AI Race\n\nFor an AI assistant to become truly useful, it first has to know a lot about you. \n\nDETAILS: \nhttps://\ntechticia.com/ollie-ai-assis\ntant-privacy-focus-in-the-ai-race/\n\u2026",
+    "author": "@TechTicia",
+    "author_name": "Techticia",
+    "date": "2026-09-04",
+    "url": "https://x.com/TechTicia/status/2095769475140190276",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "coverage"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "press: Ollie privacy focus in AI race"
+  },
+  {
+    "id": "706d95a9bf10",
+    "agent": "ollie",
+    "quote": "For families, \n@heyollieai\n is an incredible time saver and help.\n\nReal world use cases handled very effectively by AI",
+    "author": "@SiVola",
+    "author_name": "Paolo Perazzo",
+    "date": "2026-09-03",
+    "url": "https://x.com/SiVola/status/2095559988592935165",
+    "kind": "praise",
+    "tags": [
+      "family",
+      "time-saver"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": ""
+  },
+  {
+    "id": "07d83cb07cc9",
+    "agent": "ollie",
+    "quote": "\ud83d\udea8 #NewsNoise: Ollie gets SOC 2 and goes subscription for a privacy-first home assistant\n\n\ud83d\udcccRead more here: \nhttps://\nrelvehq.com/blog/noise/oll\nie-ai-assistant-privacy-soc2\n\u2026\n\nOllie achieved SOC 2, moved to subscriptions, and says it will not share or train on personal data.\n\nPrivacy-first assistants are moving to SOC 2",
+    "author": "@Relve_official",
+    "author_name": "Relve",
+    "date": "2026-09-03",
+    "url": "https://x.com/Relve_official/status/2095600433343471837",
+    "kind": "other",
+    "tags": [
+      "soc2",
+      "subscription",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "SOC 2 + subscription privacy-first news"
+  },
+  {
+    "id": "5e2ab889581e",
+    "agent": "ollie",
+    "quote": "Your life will change when you put \nhttps://\nOllie.ai in a group chat with your partner.",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-08-31",
+    "url": "https://x.com/blennon_/status/2094464888706101254",
+    "kind": "other",
+    "tags": [
+      "group-chat",
+      "partner",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "founder: put in group chat with partner"
+  },
+  {
+    "id": "e89651ab4b06",
+    "agent": "ollie",
+    "quote": "+ 1 I\u2019m really excited for this to get good. \n@blennon_\n and \n@heyollieai\n are the closest I\u2019ve seen so far.",
+    "author": "@bdistel",
+    "author_name": "Brian Distelburger",
+    "date": "2026-08-31",
+    "url": "https://x.com/bdistel/status/2094417512997818467",
+    "kind": "praise",
+    "tags": [
+      "closest"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "closest seen so far"
+  },
+  {
+    "id": "cee4248807f2",
+    "agent": "ollie",
+    "quote": "I\u2019ve become reflexively skeptical of the coordinated \u201cVC launch slop\u201d playbook on X\n\nBut I actually have a fairly large spec of personal logistics things I\u2019ve been trying to accomplish with a text based agent. I tried to do this with Ollie AI but it just made too many errors.",
+    "author": "@FundamentEdge",
+    "author_name": "Brett Caughran",
+    "date": "2026-08-27",
+    "url": "https://x.com/FundamentEdge/status/2093111007698727364",
+    "kind": "complaint",
+    "tags": [
+      "texting"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; tried Ollie AI; too many errors vs text-agent needs"
+  },
+  {
+    "id": "04e1ab58c8a4",
+    "agent": "ollie",
+    "quote": "24 hours into using \n@heyollieai\n . Seamless set up.Text based assistance is super helpful for lots of juggling. Really fun to use Stream to dictate to text Ollie so far. \n@sandbar",
+    "author": "@btravisNYC",
+    "author_name": "Brooke K Travis",
+    "date": "2026-08-24",
+    "url": "https://x.com/btravisNYC/status/2091936494889939283",
+    "kind": "use-case",
+    "tags": [
+      "onboarding",
+      "dictation",
+      "juggling"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "24h in; Stream dictate"
+  },
+  {
+    "id": "de3387751e10",
+    "agent": "ollie",
+    "quote": "I pay for \n@heyollieai\n which does this and you can try it for free.",
+    "author": "@cynthiamcgillis",
+    "author_name": "Cynthia Bell McGillis",
+    "date": "2026-08-22",
+    "url": "https://x.com/cynthiamcgillis/status/2090970074920386948",
+    "kind": "praise",
+    "tags": [
+      "paid",
+      "paying-user"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "I pay for Ollie"
+  },
+  {
+    "id": "d99275e7f6bc",
+    "agent": "ollie",
+    "quote": "@graceclarke @nikunj http://Ollie.ai doesn\u2019t and is made for parents. SOC2 compliant, doesn\u2019t sell your data and works for you.",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-08-22",
+    "url": "https://x.com/blennon_/status/2091288610805047549",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "fc4637d34c3e",
+    "agent": "ollie",
+    "quote": "@jonpbaker If you\u2019re looking for a trusted alternative try http://Ollie.ai \u2014 SOC2 compliant, doesn\u2019t sell your data and doesn\u2019t index your email.  Ollie works for you! And we put our names and faces behind it https://ollie.ai/about/",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-08-22",
+    "url": "https://x.com/blennon_/status/2091282293193347267",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
   },
   {
     "id": "e27cecbd8138",
     "agent": "ollie",
-    "quote": "@nomaanahmed @a16z @speedrun What’s the difference between this and @heyollieai ?",
+    "quote": "@nomaanahmed @a16z @speedrun What\u2019s the difference between this and @heyollieai ?",
     "author": "@baponte",
     "author_name": "Bryant",
     "date": "2026-08-22",
@@ -955,6 +531,44 @@
     "source": "x",
     "collected_at": "2026-09-08T15:35:12.127Z",
     "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "73a4c100b235",
+    "agent": "ollie",
+    "quote": "Big news! Ollie is officially SOC 2 compliant! \ud83c\udf89\n\nIn plain terms: an independent auditor put our security practices under a microscope: how we protect your data, who can access it, how we handle it. We passed, and we\u2019re now held to the same standard trusted across the financial",
+    "author": "@heyollieai",
+    "author_name": "Ollie AI",
+    "date": "2026-08-21",
+    "url": "https://x.com/heyollieai/status/2090853850135801900",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "soc2",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "company: SOC 2"
+  },
+  {
+    "id": "3861407e7589",
+    "agent": "ollie",
+    "quote": "This is why \nhttps://\nOllie.ai exists, and we know who our customer is: working moms overwhelmed by the mental load. Everything we do is optimized for their needs which we know so well.\n\nInstinct is doing a great job building hype on X, and a SV beachhead is a legit",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-08-20",
+    "url": "https://x.com/blennon_/status/2090461503359209616",
+    "kind": "other",
+    "tags": [
+      "positioning",
+      "moms",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "working moms mental load"
   },
   {
     "id": "76a738e0ca42",
@@ -975,9 +589,29 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "345156420150",
+    "agent": "ollie",
+    "quote": "This is real life. Two schools. Random half days. Different schedules. \n@heyollieai\n gets it and delivers on it. No hype, just being truly helpful for people who could really use the help.",
+    "author": "@christyshannon",
+    "author_name": "christyshannon",
+    "date": "2026-08-19",
+    "url": "https://x.com/christyshannon/status/2090168068341420087",
+    "kind": "praise",
+    "tags": [
+      "family",
+      "schools",
+      "schedules",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "two schools / half days"
+  },
+  {
     "id": "bb6efb995417",
     "agent": "ollie",
-    "quote": "@TheRealMortenB Yes @heyollieai good example of that too. You got to meet people where they’re at. The harness/workflow stream should be invisible in some of these environments",
+    "quote": "@TheRealMortenB Yes @heyollieai good example of that too. You got to meet people where they\u2019re at. The harness/workflow stream should be invisible in some of these environments",
     "author": "@anradu",
     "author_name": "Adrian Nicholas Radu",
     "date": "2026-08-18",
@@ -1029,9 +663,65 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "6088be5a97b9",
+    "agent": "ollie",
+    "quote": "@ketau @zeroclick love this! http://ollie.ai is ready to buy!",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-07-22",
+    "url": "https://x.com/blennon_/status/2080041048391491710",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "6ad360cc85af",
+    "agent": "ollie",
+    "quote": "\u201cMost husbands are oblivious deadbeats,\u201d the co-founder of Ollie, an A.I. \u201cfamily assistant\u201d company, wrote recently on LinkedIn. Ollie\u2019s services promise to help women make a change in their households.",
+    "author": "@NewYorker",
+    "author_name": "The New Yorker",
+    "date": "2026-07-18",
+    "url": "https://x.com/NewYorker/status/2078608373285888199",
+    "kind": "complaint",
+    "tags": [
+      "marketing",
+      "gender"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "New Yorker on co-founder LinkedIn framing"
+  },
+  {
+    "id": "91655cf37c99",
+    "agent": "ollie",
+    "quote": "Make some room @jessegenet, http://Ollie.ai is joining you in The New Yorker ;)\n\nThis is no puff piece and it's a great read on the gender gap at home and in AI.\n\nThe mental load falling disproportionately on moms is a real problem. When I woke up to it in my own house,",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-07-16",
+    "url": "https://x.com/blennon_/status/2077869011015258435",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
     "id": "5a7205d8e937",
     "agent": "ollie",
-    "quote": "@stannostudio @matchaapp @Rene_HQ @poppysimplified @budapp @heyollieai @meetlucasai 🤝",
+    "quote": "@stannostudio @matchaapp @Rene_HQ @poppysimplified @budapp @heyollieai @meetlucasai \ud83e\udd1d",
     "author": "@withmurphai",
     "author_name": "Murph",
     "date": "2026-07-13",
@@ -1041,6 +731,23 @@
       "auto",
       "x",
       "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.695Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "29e5f65f9c8d",
+    "agent": "ollie",
+    "quote": "New on the iMessage Agent Store:\n\n@matchaapp, health coach\n@Rene_HQ, your work by text\n@poppysimplified, life admin\n@budapp, gets work done for you\n@heyollieai, family logistics\n@meetlucasai, texts you first\n@withmurphai, group health challenges\n\namong others. who else to add? \ud83d\udcf2 https://t.co/9yG6S28JGH",
+    "author": "@stannostudio",
+    "author_name": "Stanley",
+    "date": "2026-07-13",
+    "url": "https://x.com/stannostudio/status/2076539468639777061",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.695Z",
@@ -1065,21 +772,23 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "29e5f65f9c8d",
+    "id": "6b5f0948c97c",
     "agent": "ollie",
-    "quote": "New on the iMessage Agent Store:\n\n@matchaapp, health coach\n@Rene_HQ, your work by text\n@poppysimplified, life admin\n@budapp, gets work done for you\n@heyollieai, family logistics\n@meetlucasai, texts you first\n@withmurphai, group health challenges\n\namong others. who else to add? 📲 https://t.co/9yG6S28JGH",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
+    "quote": "Use Ollie if you want a text-only assistant that quietly watches your inbox and calendar and pings you; use Ohai if you want an app-based shared household workspace the whole family uses together.",
+    "author": "usecarly",
+    "author_name": "Use Carly",
     "date": "2026-07-13",
-    "url": "https://x.com/stannostudio/status/2076539468639777061",
-    "kind": "other",
+    "url": "https://www.usecarly.com/blog/ollie-vs-ohai/",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x"
+      "family",
+      "ohai",
+      "text-only",
+      "inbox-watch"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.695Z",
-    "notes": "query: @heyollieai | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Clear head-to-head: Ollie = background text watcher; Ohai = shared household app hub."
   },
   {
     "id": "5df320eaa596",
@@ -1098,6 +807,41 @@
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.695Z",
     "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "66b265df9a69",
+    "agent": "ollie",
+    "quote": "@blennon_ @optionscjp @heyollieai See screenshot.  Daily briefing 1:1 https://t.co/oj6x40Iqt1",
+    "author": "@samlepore",
+    "author_name": "Sam Lepore",
+    "date": "2026-07-07",
+    "url": "https://x.com/samlepore/status/2074572548423995667",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "6b5c9489e598",
+    "agent": "ollie",
+    "quote": "Productivity hack:\n\nAs someone with ADHD, and running multiple businesses I struggle staying on top of everything that needs to be done on a day-to-day basis\n\nOver the last couple months I have been using \n@heyollieai\n \n\nI\u2019m sure I\u2019m not even touching the surface of what this thing",
+    "author": "@optionscjp",
+    "author_name": "Options selling with Christian",
+    "date": "2026-07-07",
+    "url": "https://x.com/optionscjp/status/2074308637317796347",
+    "kind": "use-case",
+    "tags": [
+      "adhd",
+      "productivity"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "ADHD multi-business user"
   },
   {
     "id": "bf5a77bcd8f2",
@@ -1137,42 +881,6 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.695Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "66b265df9a69",
-    "agent": "ollie",
-    "quote": "@blennon_ @optionscjp @heyollieai See screenshot.  Daily briefing 1:1 https://t.co/oj6x40Iqt1",
-    "author": "@samlepore",
-    "author_name": "Sam Lepore",
-    "date": "2026-07-07",
-    "url": "https://x.com/samlepore/status/2074572548423995667",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "dea5bddfd02c",
-    "agent": "ollie",
-    "quote": "@optionscjp @heyollieai I can tell you have ADHD just from your posts https://t.co/qeo4gTLvre",
-    "author": "@ParadigmTraders",
-    "author_name": "Traders Paradigm",
-    "date": "2026-07-07",
-    "url": "https://x.com/ParadigmTraders/status/2074553956802424975",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
@@ -1216,13 +924,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "572fc1b0971b",
+    "id": "dea5bddfd02c",
     "agent": "ollie",
-    "quote": "@masony334 @blennon_ @heyollieai Really enjoyed the conversation and the inspiring vision behind the team",
-    "author": "@ZenithAiLab",
-    "author_name": "ZenithAi",
-    "date": "2026-07-02",
-    "url": "https://x.com/ZenithAiLab/status/2072580212077056323",
+    "quote": "@optionscjp @heyollieai I can tell you have ADHD just from your posts https://t.co/qeo4gTLvre",
+    "author": "@ParadigmTraders",
+    "author_name": "Traders Paradigm",
+    "date": "2026-07-07",
+    "url": "https://x.com/ParadigmTraders/status/2074553956802424975",
     "kind": "other",
     "tags": [
       "auto",
@@ -1252,11 +960,81 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "572fc1b0971b",
+    "agent": "ollie",
+    "quote": "@masony334 @blennon_ @heyollieai Really enjoyed the conversation and the inspiring vision behind the team",
+    "author": "@ZenithAiLab",
+    "author_name": "ZenithAi",
+    "date": "2026-07-02",
+    "url": "https://x.com/ZenithAiLab/status/2072580212077056323",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "be3d5a580f78",
+    "agent": "ollie",
+    "quote": "@blennon_ is excellent on camera, and it was a treat getting to interview him and his team @heyollieai",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-07-01",
+    "url": "https://x.com/masony334/status/2072388387630166207",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "26112654cef9",
+    "agent": "ollie",
+    "quote": "@thelinqapp @heyollieai Great interview from @blennon_\nI hate that we had to cut the bit about the bespoke bedtime stories Ollie was crafting for your kids.",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-07-01",
+    "url": "https://x.com/masony334/status/2072387655455609089",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "243ef45d3c14",
+    "agent": "ollie",
+    "quote": "We have loved working with the @heyollieai team.\n\nI love them, their mission, and their companion.\n\nA world where families run more smoothly, and have more present time together, is objectively a better world.\n\nProud to support them in this pursuit",
+    "author": "@elliott__potter",
+    "author_name": "Elliott Potter",
+    "date": "2026-07-01",
+    "url": "https://x.com/elliott__potter/status/2072401026716455408",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
     "id": "470fb164aa69",
     "agent": "ollie",
     "quote": "@thelinqapp @heyollieai Thanks for sharing Ollie's story. It's been a pleasure working with @masony334, @patricksullivan, and the entire Linq team.",
     "author": "@chaobuilds",
-    "author_name": "Chao Wu 伍超",
+    "author_name": "Chao Wu \u4f0d\u8d85",
     "date": "2026-07-01",
     "url": "https://x.com/chaobuilds/status/2072413522328510720",
     "kind": "other",
@@ -1264,6 +1042,26 @@
       "auto",
       "x",
       "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "e88af9a0f611",
+    "agent": "ollie",
+    "quote": "@masony334 @heyollieai thanks @masony334 that was a lot of fun. also big shout out to @Max for letting us film in his awesome space",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-07-01",
+    "url": "https://x.com/blennon_/status/2072389131976777812",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.696Z",
@@ -1308,7 +1106,7 @@
   {
     "id": "64c2da21260e",
     "agent": "ollie",
-    "quote": "I spent an afternoon filming with @blennon_, CEO of @heyollieai, and what stood out most wasn't the technology—it was the mission.\n\nSeeing how deeply the team cares about helping families manage the invisible mental load made this a really special story to tell.\n\nHope you enjoy it. ⬇️",
+    "quote": "I spent an afternoon filming with @blennon_, CEO of @heyollieai, and what stood out most wasn't the technology\u2014it was the mission.\n\nSeeing how deeply the team cares about helping families manage the invisible mental load made this a really special story to tell.\n\nHope you enjoy it. \u2b07\ufe0f",
     "author": "@alexpathoo",
     "author_name": "Alex Patho",
     "date": "2026-07-01",
@@ -1317,78 +1115,6 @@
     "tags": [
       "auto",
       "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "243ef45d3c14",
-    "agent": "ollie",
-    "quote": "We have loved working with the @heyollieai team.\n\nI love them, their mission, and their companion.\n\nA world where families run more smoothly, and have more present time together, is objectively a better world.\n\nProud to support them in this pursuit",
-    "author": "@elliott__potter",
-    "author_name": "Elliott Potter",
-    "date": "2026-07-01",
-    "url": "https://x.com/elliott__potter/status/2072401026716455408",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "e88af9a0f611",
-    "agent": "ollie",
-    "quote": "@masony334 @heyollieai thanks @masony334 that was a lot of fun. also big shout out to @Max for letting us film in his awesome space",
-    "author": "@blennon_",
-    "author_name": "Bill Lennon",
-    "date": "2026-07-01",
-    "url": "https://x.com/blennon_/status/2072389131976777812",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "be3d5a580f78",
-    "agent": "ollie",
-    "quote": "@blennon_ is excellent on camera, and it was a treat getting to interview him and his team @heyollieai",
-    "author": "@masony334",
-    "author_name": "Mason Young",
-    "date": "2026-07-01",
-    "url": "https://x.com/masony334/status/2072388387630166207",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "26112654cef9",
-    "agent": "ollie",
-    "quote": "@thelinqapp @heyollieai Great interview from @blennon_\nI hate that we had to cut the bit about the bespoke bedtime stories Ollie was crafting for your kids.",
-    "author": "@masony334",
-    "author_name": "Mason Young",
-    "date": "2026-07-01",
-    "url": "https://x.com/masony334/status/2072387655455609089",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:42:29.696Z",
@@ -1413,9 +1139,44 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "95b7c0ec7704",
+    "agent": "ollie",
+    "quote": "If an AI continuously reads the whole family's emails, calendars, and group chats, is it a family assistant or a surveillance system?\n\n@heyollieai\n chose to \"take over the household.\"\n\n@IsaacDrgn\n's SuperNori chose to \"ask first, then act.\"\n\nShould Family AI manage the family, or",
+    "author": "@rionaifantasy",
+    "author_name": "Rion Wu",
+    "date": "2026-06-30",
+    "url": "https://x.com/rionaifantasy/status/2071994883473297578",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "surveillance"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "assistant or surveillance system?"
+  },
+  {
+    "id": "5458c88c9d54",
+    "agent": "ollie",
+    "quote": "@rionaifantasy @heyollieai @IsaacDrgn \u6211\u611f\u89c9\u5e94\u8be5\u4ece\u5bb6\u5ead\u52a9\u624b\u5f00\u59cb\uff0c\u518d\u5230\u662f\u5426\u9700\u8981\u7ba1\u7406\u5bb6\u5ead\uff0c\u6162\u6162\u7684\u63a5\u7ba1\u4e00\u4e9b\u9ebb\u70e6\u7684 \u7410\u788e\u7684\u4e8b\u60c5\uff0c\u60c5\u611f\u65b9\u9762\u7684\u8fd8\u662f\u4ea4\u7ed9\u4eba\u7ee7\u7eed\u505a",
+    "author": "@nanshanzhishan",
+    "author_name": "\u5f3a\u5357",
+    "date": "2026-06-30",
+    "url": "https://x.com/nanshanzhishan/status/2071999495995543745",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
     "id": "1b403b5ede8c",
     "agent": "ollie",
-    "quote": "@rionaifantasy @heyollieai @IsaacDrgn 😅接管家庭，确实是很难抉择！隐私与安全！",
+    "quote": "@rionaifantasy @heyollieai @IsaacDrgn \ud83d\ude05\u63a5\u7ba1\u5bb6\u5ead\uff0c\u786e\u5b9e\u662f\u5f88\u96be\u6289\u62e9\uff01\u9690\u79c1\u4e0e\u5b89\u5168\uff01",
     "author": "@lxfeng999",
     "author_name": "Feng",
     "date": "2026-06-30",
@@ -1433,11 +1194,29 @@
   {
     "id": "c913c4bd6ee7",
     "agent": "ollie",
-    "quote": "@rionaifantasy @heyollieai @IsaacDrgn 先问再做这点很好，要是直接全权接管，我是不敢的。",
+    "quote": "@rionaifantasy @heyollieai @IsaacDrgn \u5148\u95ee\u518d\u505a\u8fd9\u70b9\u5f88\u597d\uff0c\u8981\u662f\u76f4\u63a5\u5168\u6743\u63a5\u7ba1\uff0c\u6211\u662f\u4e0d\u6562\u7684\u3002",
     "author": "@kingbacktim999",
     "author_name": "calary",
     "date": "2026-06-30",
     "url": "https://x.com/kingbacktim999/status/2072068260489842710",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:42:29.696Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "88ae231a067b",
+    "agent": "ollie",
+    "quote": "@Damn_coder @heyollieai @IsaacDrgn seems cool,\n\nwill check it out!",
+    "author": "@eyishazyer",
+    "author_name": "Eyisha Zyer",
+    "date": "2026-06-30",
+    "url": "https://x.com/eyishazyer/status/2071916150968180810",
     "kind": "other",
     "tags": [
       "auto",
@@ -1469,13 +1248,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "5458c88c9d54",
+    "id": "edeafee10a1f",
     "agent": "ollie",
-    "quote": "@rionaifantasy @heyollieai @IsaacDrgn 我感觉应该从家庭助手开始，再到是否需要管理家庭，慢慢的接管一些麻烦的 琐碎的事情，情感方面的还是交给人继续做",
-    "author": "@nanshanzhishan",
-    "author_name": "强南",
+    "quote": "@Damn_coder @heyollieai @IsaacDrgn This looks good!",
+    "author": "@Shefali__J",
+    "author_name": "Shefali",
     "date": "2026-06-30",
-    "url": "https://x.com/nanshanzhishan/status/2071999495995543745",
+    "url": "https://x.com/Shefali__J/status/2071848017268023479",
     "kind": "other",
     "tags": [
       "auto",
@@ -1483,25 +1262,7 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "88ae231a067b",
-    "agent": "ollie",
-    "quote": "@Damn_coder @heyollieai @IsaacDrgn seems cool,\n\nwill check it out!",
-    "author": "@eyishazyer",
-    "author_name": "Eyisha Zyer",
-    "date": "2026-06-30",
-    "url": "https://x.com/eyishazyer/status/2071916150968180810",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:42:29.696Z",
+    "collected_at": "2026-09-08T15:50:48.439Z",
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
@@ -1597,7 +1358,7 @@
   {
     "id": "f9cf59317319",
     "agent": "ollie",
-    "quote": "@Rixhabh__ @heyollieai @IsaacDrgn I think that’s what makes SuperNori feel more trustworthy.",
+    "quote": "@Rixhabh__ @heyollieai @IsaacDrgn I think that\u2019s what makes SuperNori feel more trustworthy.",
     "author": "@Damn_coder",
     "author_name": "D-Coder",
     "date": "2026-06-30",
@@ -1613,18 +1374,17 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "edeafee10a1f",
+    "id": "d6e81d6815d9",
     "agent": "ollie",
-    "quote": "@Damn_coder @heyollieai @IsaacDrgn This looks good!",
-    "author": "@Shefali__J",
-    "author_name": "Shefali",
-    "date": "2026-06-30",
-    "url": "https://x.com/Shefali__J/status/2071848017268023479",
+    "quote": "Bill Lennon, @heyollieai.\n\nBehind the scenes.\n\nWednesday, July 1, 2026. https://t.co/BmG3XUBHNT",
+    "author": "@thelinqapp",
+    "author_name": "Linq",
+    "date": "2026-06-29",
+    "url": "https://x.com/thelinqapp/status/2071662791342113051",
     "kind": "other",
     "tags": [
       "auto",
-      "x",
-      "reply"
+      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.439Z",
@@ -1649,17 +1409,18 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "d6e81d6815d9",
+    "id": "12a6f2904b2c",
     "agent": "ollie",
-    "quote": "Bill Lennon, @heyollieai.\n\nBehind the scenes.\n\nWednesday, July 1, 2026. https://t.co/BmG3XUBHNT",
-    "author": "@thelinqapp",
-    "author_name": "Linq",
+    "quote": "@Damn_coder @heyollieai @IsaacDrgn The asking before acting part is what makes SuperNori feel different.",
+    "author": "@Rixhabh__",
+    "author_name": "Rishabh",
     "date": "2026-06-29",
-    "url": "https://x.com/thelinqapp/status/2071662791342113051",
+    "url": "https://x.com/Rixhabh__/status/2071622462199250995",
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.439Z",
@@ -1702,13 +1463,31 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "12a6f2904b2c",
+    "id": "e2cd9cf8aa01",
     "agent": "ollie",
-    "quote": "@Damn_coder @heyollieai @IsaacDrgn The asking before acting part is what makes SuperNori feel different.",
-    "author": "@Rixhabh__",
-    "author_name": "Rishabh",
+    "quote": "Your AI family assistant reads your emails, calendar and group chats.\n\nHelpful or creepy?\n\n@heyollieai\n is built to manage your family.\n\n@IsaacDrgn\n's SuperNori is built to ask and care your family first.\n\nThe future of Family AI is control vs consent.\n\nThat's why SuperNori caught",
+    "author": "@Damn_coder",
+    "author_name": "D-Coder",
     "date": "2026-06-29",
-    "url": "https://x.com/Rixhabh__/status/2071622462199250995",
+    "url": "https://x.com/Damn_coder/status/2071621064908829036",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "surveillance",
+      "family"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "helpful or creepy? reads emails/calendars"
+  },
+  {
+    "id": "9d1429d17541",
+    "agent": "ollie",
+    "quote": "@viipin8 @heyollieai The \u201casks before acting\u201d part is what sold me.",
+    "author": "@yeti_mind",
+    "author_name": "Mind Yeti",
+    "date": "2026-06-28",
+    "url": "https://x.com/yeti_mind/status/2071260886820667429",
     "kind": "other",
     "tags": [
       "auto",
@@ -1718,6 +1497,23 @@
     "source": "x",
     "collected_at": "2026-09-08T15:50:48.439Z",
     "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "2898913e2a7f",
+    "agent": "ollie",
+    "quote": "Recently, I just saw \n@heyollieai\n launch an AI family assistant saying that it could manage your family life better than any human.\n\n But, an AI that silently reads every family email, calendar and group chat isn't just an assistant. It's a surveillance layer with a friendly name.",
+    "author": "@viipin8",
+    "author_name": "Vipin Gautam (Viipin I Gautam)",
+    "date": "2026-06-28",
+    "url": "https://x.com/viipin8/status/2071259229227471281",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "surveillance"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "AI that silently reads family life"
   },
   {
     "id": "cb0b3c1d7c8c",
@@ -1727,24 +1523,6 @@
     "author_name": "Minds That Build",
     "date": "2026-06-28",
     "url": "https://x.com/Mindsthatbuild/status/2071260930089070712",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.439Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "9d1429d17541",
-    "agent": "ollie",
-    "quote": "@viipin8 @heyollieai The “asks before acting” part is what sold me.",
-    "author": "@yeti_mind",
-    "author_name": "Mind Yeti",
-    "date": "2026-06-28",
-    "url": "https://x.com/yeti_mind/status/2071260886820667429",
     "kind": "other",
     "tags": [
       "auto",
@@ -1774,13 +1552,32 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "caee916df5b7",
+    "id": "a601b8db5fc3",
     "agent": "ollie",
-    "quote": "The Text I Didn’t Know I Needed Every Morning https://ericadiamond.com/ollie-family-organizer/ via @heyollieai",
-    "author": "@EricaDiamond",
-    "author_name": "Erica Diamond",
+    "quote": "It's surreal to see \nhttp://\nollie.ai out in the wild.\n\nWe launched three weeks ago when kids were getting out of school and parents' routines went out the window. \n\nAs a parent, I had to recalibrate to new drop-off/pick-up schedules, remember what to pack for summer camp",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-06-24",
+    "url": "https://x.com/blennon_/status/2069893569989755212",
+    "kind": "other",
+    "tags": [
+      "launch",
+      "family",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: 3 weeks post-launch"
+  },
+  {
+    "id": "4bd1bf5f8c2e",
+    "agent": "ollie",
+    "quote": "Lol my wife called @heyollieai for it's poor attempt at being funny. https://t.co/i9hV3eiBLr",
+    "author": "@dodeja",
+    "author_name": "Akshay Dodeja",
     "date": "2026-06-22",
-    "url": "https://x.com/EricaDiamond/status/2069076836496154635",
+    "url": "https://x.com/dodeja/status/2068874630937596122",
     "kind": "other",
     "tags": [
       "auto",
@@ -1791,13 +1588,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "4bd1bf5f8c2e",
+    "id": "caee916df5b7",
     "agent": "ollie",
-    "quote": "Lol my wife called @heyollieai for it's poor attempt at being funny. https://t.co/i9hV3eiBLr",
-    "author": "@dodeja",
-    "author_name": "Akshay Dodeja",
+    "quote": "The Text I Didn\u2019t Know I Needed Every Morning https://ericadiamond.com/ollie-family-organizer/ via @heyollieai",
+    "author": "@EricaDiamond",
+    "author_name": "Erica Diamond",
     "date": "2026-06-22",
-    "url": "https://x.com/dodeja/status/2068874630937596122",
+    "url": "https://x.com/EricaDiamond/status/2069076836496154635",
     "kind": "other",
     "tags": [
       "auto",
@@ -1826,6 +1623,40 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "b1744700d134",
+    "agent": "ollie",
+    "quote": "There are fewer and fewer 'ah-ha' moments in consumer these days. \n@heyollieai\n is one of them. This is an amazing product and the future of many AI \"apps\". Bravo team \nhttps://\nollie.ai \ud83e\uddbe",
+    "author": "@jordankobert",
+    "author_name": "Jordan Kobert",
+    "date": "2026-06-15",
+    "url": "https://x.com/jordankobert/status/2066603719282532833",
+    "kind": "praise",
+    "tags": [
+      "family",
+      "aha"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "ah-ha consumer moment"
+  },
+  {
+    "id": "0ea7043ce93f",
+    "agent": "ollie",
+    "quote": "Group chat with @interaction @heyollieai @arlanr @Altimor @NazDumanskyy @Orchiddotai \ud83e\udd17 https://t.co/NZawhtQUQN",
+    "author": "@vanders3nn",
+    "author_name": "Evan Hu",
+    "date": "2026-06-11",
+    "url": "https://x.com/vanders3nn/status/2065187244047261807",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.439Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
     "id": "33a4c5b8e705",
     "agent": "ollie",
     "quote": "@vanders3nn @interaction @heyollieai @arlanr @Altimor @NazDumanskyy @Orchiddotai Gotta love seeing that low latency that Linq offers in action, though.",
@@ -1844,20 +1675,21 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "0ea7043ce93f",
+    "id": "aece20987f5d",
     "agent": "ollie",
-    "quote": "Group chat with @interaction @heyollieai @arlanr @Altimor @NazDumanskyy @Orchiddotai 🤗 https://t.co/NZawhtQUQN",
-    "author": "@vanders3nn",
-    "author_name": "Evan Hu",
+    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ I rebuilt iMessage for a native human + agent first experience. It\u2019s already been insanely fun for friends and family who went from 0 ai subscriptions to almost 50 mini web apps within group chats\n\ncan try it at http://getcontact.app and see more examples in my recent posts!",
+    "author": "@erikinfour",
+    "author_name": "Erik Nelson",
     "date": "2026-06-11",
-    "url": "https://x.com/vanders3nn/status/2065187244047261807",
+    "url": "https://x.com/erikinfour/status/2064870499587436722",
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:50:48.439Z",
+    "collected_at": "2026-09-08T15:50:48.440Z",
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
@@ -1878,156 +1710,13 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "aece20987f5d",
-    "agent": "ollie",
-    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ I rebuilt iMessage for a native human + agent first experience. It’s already been insanely fun for friends and family who went from 0 ai subscriptions to almost 50 mini web apps within group chats\n\ncan try it at http://getcontact.app and see more examples in my recent posts!",
-    "author": "@erikinfour",
-    "author_name": "Erik Nelson",
-    "date": "2026-06-11",
-    "url": "https://x.com/erikinfour/status/2064870499587436722",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.440Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "9e1807487178",
-    "agent": "ollie",
-    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ bengaluru bois @pravapayments @sushantpandey_ are helping agents pay securely :)",
-    "author": "@SumneshSalodkar",
-    "author_name": "Sumnesh",
-    "date": "2026-06-10",
-    "url": "https://x.com/SumneshSalodkar/status/2064771892771450969",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:50:48.440Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "e08709336cad",
-    "agent": "ollie",
-    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ forgot chat SDK from vercel. powers a lot of these between iMessage provider and the agent\n\nhttps://chat-sdk.dev/",
-    "author": "@thatguybg",
-    "author_name": "brett goldstein",
-    "date": "2026-06-10",
-    "url": "https://x.com/thatguybg/status/2064764149767266694",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "0b17cd3698a7",
-    "agent": "ollie",
-    "quote": "I didn't have \"Partner at Andreessen calling out 8 of your accounts as their favorite AI assistants\" on my bingo card for this wednesday.\n\nMad props to the brilliant teams at @interaction @tomo @heyollieai @zocomputer @joinsauna @nozomioai @getlindy @orchid_hq",
-    "author": "@masony334",
-    "author_name": "Mason Young",
-    "date": "2026-06-10",
-    "url": "https://x.com/masony334/status/2064756898646151537",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "75857ba59a57",
-    "agent": "ollie",
-    "quote": "iMessage is the future form factor for agents, no doubt.\nI've personally helped 8 of your favorites here (@interaction @heyollieai @nozomioai @orchid_hq @tomo @zocomputer @getlindy @joinsauna) scale in iMessage.\n\n@meetlucasai should we chat too?\n\nAlso happy to help anyone else build on Linq's infra, DM me.",
-    "author": "@masony334",
-    "author_name": "Mason Young",
-    "date": "2026-06-10",
-    "url": "https://x.com/masony334/status/2064756115150188814",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "bc9f106ee814",
-    "agent": "ollie",
-    "quote": "@coopwrenn @venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @AgentPhoneHQ Sendblue number spotted 👀",
-    "author": "@sendbluehq",
-    "author_name": "Sendblue",
-    "date": "2026-06-10",
-    "url": "https://x.com/sendbluehq/status/2064753566183473580",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
     "id": "2aa74d055d12",
     "agent": "ollie",
-    "quote": "@coopwrenn @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ 🫡",
+    "quote": "@coopwrenn @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ \ud83e\udee1",
     "author": "@venturetwins",
     "author_name": "Justine Moore",
     "date": "2026-06-10",
     "url": "https://x.com/venturetwins/status/2064753563474243915",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "dc93cbdde729",
-    "agent": "ollie",
-    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ http://instaclaw.io",
-    "author": "@coopwrenn",
-    "author_name": "𝗖𝗼𝗼𝗽𝗲𝗿 𝗪𝗿𝗲𝗻𝗻",
-    "date": "2026-06-10",
-    "url": "https://x.com/coopwrenn/status/2064752617226428674",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
-  },
-  {
-    "id": "4cb02533a39b",
-    "agent": "ollie",
-    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ try texting +1 (407) 242-5197 :)",
-    "author": "@coopwrenn",
-    "author_name": "𝗖𝗼𝗼𝗽𝗲𝗿 𝗪𝗿𝗲𝗻𝗻",
-    "date": "2026-06-10",
-    "url": "https://x.com/coopwrenn/status/2064752448657379347",
     "kind": "other",
     "tags": [
       "auto",
@@ -2075,6 +1764,151 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "e08709336cad",
+    "agent": "ollie",
+    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ forgot chat SDK from vercel. powers a lot of these between iMessage provider and the agent\n\nhttps://chat-sdk.dev/",
+    "author": "@thatguybg",
+    "author_name": "brett goldstein",
+    "date": "2026-06-10",
+    "url": "https://x.com/thatguybg/status/2064764149767266694",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "bc9f106ee814",
+    "agent": "ollie",
+    "quote": "@coopwrenn @venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @AgentPhoneHQ Sendblue number spotted \ud83d\udc40",
+    "author": "@sendbluehq",
+    "author_name": "Sendblue",
+    "date": "2026-06-10",
+    "url": "https://x.com/sendbluehq/status/2064753566183473580",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "0b17cd3698a7",
+    "agent": "ollie",
+    "quote": "I didn't have \"Partner at Andreessen calling out 8 of your accounts as their favorite AI assistants\" on my bingo card for this wednesday.\n\nMad props to the brilliant teams at @interaction @tomo @heyollieai @zocomputer @joinsauna @nozomioai @getlindy @orchid_hq",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-06-10",
+    "url": "https://x.com/masony334/status/2064756898646151537",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "75857ba59a57",
+    "agent": "ollie",
+    "quote": "iMessage is the future form factor for agents, no doubt.\nI've personally helped 8 of your favorites here (@interaction @heyollieai @nozomioai @orchid_hq @tomo @zocomputer @getlindy @joinsauna) scale in iMessage.\n\n@meetlucasai should we chat too?\n\nAlso happy to help anyone else build on Linq's infra, DM me.",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-06-10",
+    "url": "https://x.com/masony334/status/2064756115150188814",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "dc93cbdde729",
+    "agent": "ollie",
+    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ http://instaclaw.io",
+    "author": "@coopwrenn",
+    "author_name": "\ud835\uddd6\ud835\uddfc\ud835\uddfc\ud835\uddfd\ud835\uddf2\ud835\uddff \ud835\uddea\ud835\uddff\ud835\uddf2\ud835\uddfb\ud835\uddfb",
+    "date": "2026-06-10",
+    "url": "https://x.com/coopwrenn/status/2064752617226428674",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "4cb02533a39b",
+    "agent": "ollie",
+    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ try texting +1 (407) 242-5197 :)",
+    "author": "@coopwrenn",
+    "author_name": "\ud835\uddd6\ud835\uddfc\ud835\uddfc\ud835\uddfd\ud835\uddf2\ud835\uddff \ud835\uddea\ud835\uddff\ud835\uddf2\ud835\uddfb\ud835\uddfb",
+    "date": "2026-06-10",
+    "url": "https://x.com/coopwrenn/status/2064752448657379347",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "9e1807487178",
+    "agent": "ollie",
+    "quote": "@venturetwins @interaction @heyollieai @nozomioai @meetlucasai @orchid_hq @tomo @zocomputer @getlindy @joinsauna @thelinqapp @Cherthq @blooio_messages @sendbluehq @AgentPhoneHQ bengaluru bois @pravapayments @sushantpandey_ are helping agents pay securely :)",
+    "author": "@SumneshSalodkar",
+    "author_name": "Sumnesh",
+    "date": "2026-06-10",
+    "url": "https://x.com/SumneshSalodkar/status/2064771892771450969",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:50:48.440Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "0f26ec2da7b5",
+    "agent": "ollie",
+    "quote": "Ollie ollie.ai, the family one, carries the schedule/school load\n\nThe assistants:\n\nfolk [getfolk.app](https://www.getfolk.app/), imo the best one, memory-first, lives in iMessage, Telegram and Discord \nPoke [poke.com](http://poke.com), first agent approved on Apple's Messages for Business \nOllie [ollie.ai](http://ollie.ai), the family one, carries the schedule/school load \nLucas [meetlucas.ai](http://meetlucas.ai), texts you first, habits and accountability \nOrchid [orchid.ai](http://orchid.ai), exec assistant, drafts replies and books meetings, wants sign",
+    "author": "u/OkInitiative4270",
+    "author_name": "",
+    "date": "2026-06-10",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage#ollie",
+    "kind": "comparison",
+    "tags": [
+      "reddit",
+      "imessage",
+      "family",
+      "market-map",
+      "a16z"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "a16z map positioning"
+  },
+  {
     "id": "af1126b656b3",
     "agent": "ollie",
     "quote": "thanks @heyollieai https://t.co/OLkyD9uagf",
@@ -2111,9 +1945,44 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
+    "id": "14cb2613d192",
+    "agent": "ollie",
+    "quote": "My most recent project with @shownmedia was posted yesterday, showcasing @heyollieai !\n\nMultiple script revisions, filming in my home state, and hours on the weekend to make sure the animations were extremely saucy, I am SO proud of this launch.\n\nI am so grateful for my team of talented designers and animators who brought this to life\ud83e\udee1\n\nIf you want to direct viral launches, come join the team!\nFollow and DM me for more info!",
+    "author": "@samwarren",
+    "author_name": "Sam Warren",
+    "date": "2026-06-04",
+    "url": "https://x.com/samwarren/status/2062329075277164839",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.071Z",
+    "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "efad9143df73",
+    "agent": "ollie",
+    "quote": "@krispuckett Pretty clear they\u2019re rolling it out early quietly between this and the http://Ollie.ai thing\u2026here for it finally being a thing",
+    "author": "@ow",
+    "author_name": "Owen Williams \u26a1",
+    "date": "2026-06-04",
+    "url": "https://x.com/ow/status/2062662773729808702",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
     "id": "34f3012e1fa5",
     "agent": "ollie",
-    "quote": "@samwarren @shownmedia @heyollieai That’s my quant",
+    "quote": "@samwarren @shownmedia @heyollieai That\u2019s my quant",
     "author": "@micahfattahi",
     "author_name": "micah",
     "date": "2026-06-04",
@@ -2147,21 +2016,79 @@
     "notes": "query: @heyollieai | via x402atlas"
   },
   {
-    "id": "14cb2613d192",
+    "id": "817602c47a66",
     "agent": "ollie",
-    "quote": "My most recent project with @shownmedia was posted yesterday, showcasing @heyollieai !\n\nMultiple script revisions, filming in my home state, and hours on the weekend to make sure the animations were extremely saucy, I am SO proud of this launch.\n\nI am so grateful for my team of talented designers and animators who brought this to life🫡\n\nIf you want to direct viral launches, come join the team!\nFollow and DM me for more info!",
-    "author": "@samwarren",
-    "author_name": "Sam Warren",
-    "date": "2026-06-04",
-    "url": "https://x.com/samwarren/status/2062329075277164839",
+    "quote": "\u5bb6\u65cf\u7528\u306eAI\u30a2\u30b7\u30b9\u30bf\u30f3\u30c8\u3092\u63d0\u4f9b\u3059\u308bOllie\u306e\u9700\u8981\u306f\u9ad8\u305d\u3046\u3002\n\n\u8907\u6570\u306eAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u3092\u6d3b\u7528\u3057\u3066\u7d30\u304b\u3044\u30bf\u30b9\u30af\u3092\u6210\u3057\u9042\u3052\u305f\u308a\u3001\u30ea\u30de\u30a4\u30f3\u30c9\u306a\u3069\u3092\u9001\u3063\u3066\u304f\u308c\u308b\u3002\n\n\u4eca\u5f8cAI\u304c\u5bb6\u5ead\u3092\u652f\u63f4\u3059\u308b\u306e\u304c\u5f53\u305f\u308a\u524d\u306e\u4e16\u754c\u306b\u306a\u308b\u3068\u3001\u5b50\u4f9b\u3068AI\u306e\u95a2\u4fc2\u6027\u304c\u304b\u306a\u308a\u5909\u308f\u3063\u3066\u304f\u308b\u3002\n\nhttps://ollie.ai/ https://t.co/rmu3xn8z9a",
+    "author": "@tmiyatake1",
+    "author_name": "Tetsuro Miyatake",
+    "date": "2026-06-03",
+    "url": "https://x.com/tmiyatake1/status/2061961561368072585",
     "kind": "other",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.071Z",
-    "notes": "query: @heyollieai | via x402atlas"
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "17857f0e5815",
+    "agent": "ollie",
+    "quote": "@azed_ai we got you! http://ollie.ai! everyone who signs up today gets a month of premium for free",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-06-02",
+    "url": "https://x.com/blennon_/status/2061912967571292602",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "74f7b54d6dfd",
+    "agent": "ollie",
+    "quote": "Parenting used to happen around the dinner table.\n\nNow it happens across 10 apps, 80 school emails, 4 group chats, 3 calendars, and one exhausted parent\u2019s brain.\n\n@heyollieai solves this.\n\nTry it for free: http://ollie.ai",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2026-06-02",
+    "url": "https://x.com/blennon_/status/2061868940582633841",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "3eeabf9ab245",
+    "agent": "ollie",
+    "quote": "@blennon_\n I just sent \n@heyollieai\n pic of a paper printed school calendar .. and what .. it added all dates to my family calendar. Here comes a useful AI 8-)",
+    "author": "@VikGoyal",
+    "author_name": "Vikas Goyal",
+    "date": "2026-06-02",
+    "url": "https://x.com/VikGoyal/status/2061958193819869658",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "school",
+      "photo"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "paper school calendar \u2192 family calendar"
   },
   {
     "id": "5d2a741a5f65",
@@ -2203,7 +2130,7 @@
   {
     "id": "32eada9515b5",
     "agent": "ollie",
-    "quote": "personal favorites are:\n\nEB Garamond — @wespreadjam &amp; @WisprFlow\nGelica — @heyollieai\nOpen Runde — Vistors (@darylginn)",
+    "quote": "personal favorites are:\n\nEB Garamond \u2014 @wespreadjam &amp; @WisprFlow\nGelica \u2014 @heyollieai\nOpen Runde \u2014 Vistors (@darylginn)",
     "author": "@joeypescatore_",
     "author_name": "joey",
     "date": "2026-05-12",
@@ -2234,5 +2161,116 @@
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.071Z",
     "notes": "query: @heyollieai | via x402atlas"
+  },
+  {
+    "id": "a9a8a358b340",
+    "agent": "ollie",
+    "quote": "The future of family support is AI that actually helps families.\n\nBusy families from leading companies are already using Ollie AI to reduce the everyday mental load of family life.\n\nGet started with Ollie today \ud83d\udc49 https://ollie.ai/ https://t.co/zAM1cmq028",
+    "author": "@heyollieai",
+    "author_name": "Ollie AI",
+    "date": "2026-04-08",
+    "url": "https://x.com/heyollieai/status/2041920350678864063",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "87a8f5ea8c92",
+    "agent": "ollie",
+    "quote": "@ankurnagpal \ud83d\udc4b Hi, I'm Ollie. You can start a group chat right now: https://ollie.ai/family-assistant/ No mac minis required. ;)",
+    "author": "@heyollieai",
+    "author_name": "Ollie AI",
+    "date": "2026-03-03",
+    "url": "https://x.com/heyollieai/status/2028923190085599268",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "408665025616",
+    "agent": "ollie",
+    "quote": "Incredible report! Meal planning with AI isn't unintuitive. It's http://Ollie.ai's wedge into the household. High freq, high friction. You can eat healthier, more exciting meals without having to figure it out yourself. And Ollie will order your groceries too. 2 hours-&gt;2",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2025-06-26",
+    "url": "https://x.com/blennon_/status/1938294682137841843",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "6e92b6a138b2",
+    "agent": "ollie",
+    "quote": "Thrilled to see http://Ollie.ai featured in Bessemer Venture Partners' latest report on consumer AI reaching a tipping point!\n\nWe're proud to be building the next wave of AI-native products that transform family life by handling the mental load\u2014starting with meal planning",
+    "author": "@blennon_",
+    "author_name": "Bill Lennon",
+    "date": "2025-03-04",
+    "url": "https://x.com/blennon_/status/1897023607240351803",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:31:13.148Z",
+    "notes": "query: \"ollie.ai\" | via x402atlas"
+  },
+  {
+    "id": "2574ff30f7da",
+    "agent": "ollie",
+    "quote": "Today I got to meet the founders of one my absolute favorite products. It was so fun to share how much I love \n@heyollieai\n with \n@blennon_\n and \n@christyshannon\n. Their commitment to making ollie work for their users was evident and I can't wait to see ollie's future developments.",
+    "author": "@DrCNJohnson",
+    "author_name": "Courtney N. Johnson, Ph.D.",
+    "date": "2025-02-24",
+    "url": "https://x.com/DrCNJohnson/status/1894135405965939156",
+    "kind": "praise",
+    "tags": [
+      "founders",
+      "love"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "met founders; absolute favorite product"
+  },
+  {
+    "id": "e6898b416dd7",
+    "agent": "ollie",
+    "quote": "I started out using \n@HeyOllieAi\n to buy thoughtful gifts for my people but now I just used it to buy 12 things for myself. Ollie is hurting my allowance.",
+    "author": "@TherapeuticBrew",
+    "author_name": "\ud83c\udf08Caffeinated Compassion (she/her)",
+    "date": "2023-05-19",
+    "url": "https://x.com/TherapeuticBrew/status/1659356607736688646",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "gifts"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "gifts \u2192 buying 12 things for self"
   }
 ]

@@ -1,5 +1,983 @@
 [
   {
+    "id": "39b5e83e3456",
+    "agent": "pally",
+    "quote": "In this current flood of personal AI assistants with Instinct , @Muse @TownAI @orchid_hq @pallyai Frel had for the OG in the space - @interaction .. did they sell out too soon",
+    "author": "@technoashu",
+    "author_name": "Ashish Verma",
+    "date": "2026-09-09",
+    "url": "https://x.com/technoashu/status/2097580236443676856",
+    "kind": "comparison",
+    "tags": [
+      "personal-assistants",
+      "acquisition",
+      "competition"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Independent comparison includes Pally in the current personal-assistant field and questions whether Poke/Interaction sold out too soon."
+  },
+  {
+    "id": "b53bf09c19ad",
+    "agent": "pally",
+    "quote": "@tr1ckastley @pallyai",
+    "author": "@subahwadhwani",
+    "author_name": "Subah Wadhwani",
+    "date": "2026-09-08",
+    "url": "https://x.com/subahwadhwani/status/2097186577441325380",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "e04886b28495",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai don't forget the tower \ud83d\uddfc\n\nhttps://luma.com/tower",
+    "author": "@evgeth",
+    "author_name": "evgeny",
+    "date": "2026-09-08",
+    "url": "https://x.com/evgeth/status/2097115878617666013",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "828d38479af2",
+    "agent": "pally",
+    "quote": "I\u2019d rather stick with @pallyai .",
+    "author": "@daltonskach",
+    "author_name": "Dalton Skach",
+    "date": "2026-09-08",
+    "url": "https://x.com/daltonskach/status/2097416126749638964",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "preference"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Direct reply to Muse expressing preference for Pally."
+  },
+  {
+    "id": "c8249a6dfdc4",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai must include @SuperteamUK",
+    "author": "@rhtdoesweb3",
+    "author_name": "robynhsienthomas",
+    "date": "2026-09-07",
+    "url": "https://x.com/rhtdoesweb3/status/2096875050443915691",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "c9725b5ada34",
+    "agent": "pally",
+    "quote": "@pallyai yc exclusive events \ud83d\udc40 i've been waiting for something like this, though i don't know what's inside it feels like insider energy i can't ignore",
+    "author": "@nehapatelzf",
+    "author_name": "Neha Patel",
+    "date": "2026-09-07",
+    "url": "https://x.com/nehapatelzf/status/2097073078039625848",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "7a8e168b02a7",
+    "agent": "pally",
+    "quote": "@HarryStebbings @noahrshinn pally does this @pallyai max plan $100 per month",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-07",
+    "url": "https://x.com/hazhubble/status/2097000659094487420",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "91b5c7bbbbd9",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai hi from @FireworksAI_HQ \ud83c\uddec\ud83c\udde7",
+    "author": "@diminikola0u",
+    "author_name": "Dimi Nikolaou",
+    "date": "2026-09-07",
+    "url": "https://x.com/diminikola0u/status/2097019135611863488",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "42c9dab0f304",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK are phenomenal",
+    "author": "@BananaZoneApp",
+    "author_name": "Banana Zone App",
+    "date": "2026-09-07",
+    "url": "https://x.com/BananaZoneApp/status/2096868294187778378",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "cbf32da0baee",
+    "agent": "pally",
+    "quote": "@alexandriem7 @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai this applies to all of capitalism, by virtue of how capital flows \ud83d\udc40\ud83d\ude02\n\nMag7 carries tech, now define \u201cuseful\u201d - does non-profit research and academia count as useful to society?\n\n(I of all ppl never expected to be defending UK tech lol)",
+    "author": "@rowans_planet",
+    "author_name": "rowan",
+    "date": "2026-09-06",
+    "url": "https://x.com/rowans_planet/status/2096704894673543542",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "5f7712a2f735",
+    "agent": "pally",
+    "quote": "@NejcN @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai anything from @Andy_AJT - but also watch this space :)\n\n@hazhubble pally newsletter still running? \ud83d\udc40",
+    "author": "@rowans_planet",
+    "author_name": "rowan",
+    "date": "2026-09-06",
+    "url": "https://x.com/rowans_planet/status/2096704233114317194",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "76d37f41b716",
+    "agent": "pally",
+    "quote": "@Replit @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai text me back when u do - cheers xoxo bye \ud83d\ude14",
+    "author": "@rowans_planet",
+    "author_name": "rowan",
+    "date": "2026-09-06",
+    "url": "https://x.com/rowans_planet/status/2096703881606545579",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "c14a3cf268c0",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai this tweet gave the most unforeseen folks contacting \ud83d\ude2d\ud83d\ude02\n\nexcited to hopefully keep hosting things w the homies (inc. those tagged \ud83d\udc40)!",
+    "author": "@rowans_planet",
+    "author_name": "rowan",
+    "date": "2026-09-06",
+    "url": "https://x.com/rowans_planet/status/2096703770184781883",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "6a31a62910c6",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai \ud83e\udee1\ud83e\udee1",
+    "author": "@oscarfalll",
+    "author_name": "oscarama",
+    "date": "2026-09-06",
+    "url": "https://x.com/oscarfalll/status/2096482928553275487",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "67e3b0c0a7c2",
+    "agent": "pally",
+    "quote": "@jbahrdestefano @pallyai @hazhubble I think this dude needs a free month",
+    "author": "@olddog7777",
+    "author_name": "R3h4n",
+    "date": "2026-09-06",
+    "url": "https://x.com/olddog7777/status/2096691693546344478",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "d908359e6e8d",
+    "agent": "pally",
+    "quote": "@pallyai would never",
+    "author": "@olddog7777",
+    "author_name": "R3h4n",
+    "date": "2026-09-06",
+    "url": "https://x.com/olddog7777/status/2096691165814989233",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "51081aa9440f",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai exciting!",
+    "author": "@myghal",
+    "author_name": "Michael",
+    "date": "2026-09-06",
+    "url": "https://x.com/myghal/status/2096582344098349281",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "ce1fd630ab54",
+    "agent": "pally",
+    "quote": "@biraj21_ @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @modal time to shift to london",
+    "author": "@kriyanshii",
+    "author_name": "Kriyanshi \ud83e\udd64",
+    "date": "2026-09-06",
+    "url": "https://x.com/kriyanshii/status/2096497586131841474",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "3db7fd924766",
+    "agent": "pally",
+    "quote": "@rehan_m_baig @pallyai \ud83d\udc40",
+    "author": "@jbahrdestefano",
+    "author_name": "JC Bahr-de Stefano",
+    "date": "2026-09-06",
+    "url": "https://x.com/jbahrdestefano/status/2096691255543509390",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "efe44746a958",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai are you guys based in London or SF?",
+    "author": "@jamie_greee",
+    "author_name": "Jamie Green",
+    "date": "2026-09-06",
+    "url": "https://x.com/jamie_greee/status/2096538840169165259",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "64a69794b9e5",
+    "agent": "pally",
+    "quote": "@rehan_m_baig @jbahrdestefano @pallyai try it out JC! https://my.pally.com/r/HAZ",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-06",
+    "url": "https://x.com/hazhubble/status/2096692958145745398",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "797335b55ee3",
+    "agent": "pally",
+    "quote": "london is on the startup come up\n\nthanks a lot also to companies like @ElevenLabs @attio @UseCorgi @meetgranola @raycast\n\nand community builders like @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk\n\nhoping @pallyai starts to make an impact here too shortly",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-06",
+    "url": "https://x.com/hazhubble/status/2096393158879764668",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "8be3dc71ada7",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @pallyai @oscarfalll @Andy_AJT @claudiaamaggi @frankterpo",
+    "author": "@fatemallk",
+    "author_name": "Fatema",
+    "date": "2026-09-06",
+    "url": "https://x.com/fatemallk/status/2096481615132098928",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "37be0b54227b",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Forever bullish! \ud83e\udee1\ud83c\uddec\ud83c\udde7",
+    "author": "@decmclaughlin_",
+    "author_name": "Dec McLaughlin \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+    "date": "2026-09-06",
+    "url": "https://x.com/decmclaughlin_/status/2096527967505485972",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "ea1130ed9af8",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK is necessary on this list haz\n\ncome join us",
+    "author": "@czamaru",
+    "author_name": "CZA +",
+    "date": "2026-09-06",
+    "url": "https://x.com/czamaru/status/2096638215796985912",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "e9d0bba0053e",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai no way you missed @superteamuk",
+    "author": "@cherrydotfun",
+    "author_name": "Cherry",
+    "date": "2026-09-06",
+    "url": "https://x.com/cherrydotfun/status/2096578227993002204",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "617eff4eb9df",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai exciting time to be in london",
+    "author": "@bubbly_ct",
+    "author_name": "Qi",
+    "date": "2026-09-06",
+    "url": "https://x.com/bubbly_ct/status/2096549720038481976",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "9587e3ae70e2",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @modal is also opening a new office in london!!",
+    "author": "@biraj21_",
+    "author_name": "biraj is in NYC rn",
+    "date": "2026-09-06",
+    "url": "https://x.com/biraj21_/status/2096399566061134126",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "8efba16465f7",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai There\u2019s literally one or two that produce anything useful",
+    "author": "@alexandriem7",
+    "author_name": "alexandriemartinez",
+    "date": "2026-09-06",
+    "url": "https://x.com/alexandriem7/status/2096563043899494445",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "b766b471a9e4",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Y'll need to be on : https://lnkd.in/p/eqy7k6e2 by @fooming86",
+    "author": "@_ItsmeJJ_9",
+    "author_name": "Jabir Nur",
+    "date": "2026-09-06",
+    "url": "https://x.com/_ItsmeJJ_9/status/2096691383130046509",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "d92281874a14",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Great time to be in London",
+    "author": "@TomasMann1878",
+    "author_name": "Tom Mann",
+    "date": "2026-09-06",
+    "url": "https://x.com/TomasMann1878/status/2096525065768583171",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.446Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "5b38c8a8bb1f",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai We\u2019re pulling up too",
+    "author": "@Replit",
+    "author_name": "Replit \u2815",
+    "date": "2026-09-06",
+    "url": "https://x.com/Replit/status/2096678456033755521",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "7f4fd7339352",
+    "agent": "pally",
+    "quote": "@hazhubble @rowans_planet @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai We help out sometimes :)",
+    "author": "@RedwoodFounders",
+    "author_name": "Redwood Founders",
+    "date": "2026-09-06",
+    "url": "https://x.com/RedwoodFounders/status/2096578476308377663",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "43c3ec222024",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai any cool meetups these days? i'd love to chat with you all in peace and in person :)",
+    "author": "@NejcN",
+    "author_name": "Nejc Novak",
+    "date": "2026-09-06",
+    "url": "https://x.com/NejcN/status/2096592533426000077",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "5a448f8baffc",
+    "agent": "pally",
+    "quote": "@pallyai\n taking over ldn soon \ud83d\udc40",
+    "author": "@Naseem9brev",
+    "author_name": "Avinash",
+    "date": "2026-09-06",
+    "url": "https://x.com/Naseem9brev/status/2096469029741576406",
+    "kind": "other",
+    "tags": [
+      "london",
+      "hype"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Pally taking over LDN soon"
+  },
+  {
+    "id": "010974aa9957",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Vamos",
+    "author": "@Jackgonzohart",
+    "author_name": "Jack Gonzalez Hart",
+    "date": "2026-09-06",
+    "url": "https://x.com/Jackgonzohart/status/2096399719488455138",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "f828f39f99fd",
+    "agent": "pally",
+    "quote": "@alexandriem7 @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Its something",
+    "author": "@Henry_DeFi",
+    "author_name": "Genry",
+    "date": "2026-09-06",
+    "url": "https://x.com/Henry_DeFi/status/2096684643659436482",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "d9da3d5a4276",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK",
+    "author": "@HarryHorsfall_",
+    "author_name": "Haz",
+    "date": "2026-09-06",
+    "url": "https://x.com/HarryHorsfall_/status/2096689029739663810",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.618Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "a0878a36a0c6",
+    "agent": "pally",
+    "quote": "@NejcN @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai Subscribe to https://luma.com/mafia",
+    "author": "@CharlieCheesma1",
+    "author_name": "Charlie Cheesman",
+    "date": "2026-09-06",
+    "url": "https://x.com/CharlieCheesma1/status/2096717159237931235",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "e471431ae3a6",
+    "agent": "pally",
+    "quote": "@jamie_greee @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai \ud83c\uddec\ud83c\udde7",
+    "author": "@CharlieCheesma1",
+    "author_name": "Charlie Cheesman",
+    "date": "2026-09-06",
+    "url": "https://x.com/CharlieCheesma1/status/2096716062909751745",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.617Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "6d726d42bee3",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai cheers for the s/o @hazhubble \ud83d\ude4f",
+    "author": "@CharlieCheesma1",
+    "author_name": "Charlie Cheesman",
+    "date": "2026-09-06",
+    "url": "https://x.com/CharlieCheesma1/status/2096626050524459424",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "0496aa6eeeef",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai @unicorn_mafia",
+    "author": "@CharlieCheesma1",
+    "author_name": "Charlie Cheesman",
+    "date": "2026-09-06",
+    "url": "https://x.com/CharlieCheesma1/status/2096625902884954236",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "02c788acf030",
+    "agent": "pally",
+    "quote": "@czamaru @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK si si @hazhubble come join us at Somerset House on Fridays and meet 60-80 builders in tech every week https://lu.ma/superteam?tag=uk",
+    "author": "@CapinUK",
+    "author_name": "Cap",
+    "date": "2026-09-06",
+    "url": "https://x.com/CapinUK/status/2096645096070332463",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "79396b1ba22c",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai And also @SuperteamUK and @CW3UK",
+    "author": "@0x7Jay",
+    "author_name": "0x7Jay\u26a1\ufe0f",
+    "date": "2026-09-06",
+    "url": "https://x.com/0x7Jay/status/2096615894419960157",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "e5ba2c61c5a6",
+    "agent": "pally",
+    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai You Should add @CapinUK from @SuperteamUK to your list",
+    "author": "@0x123clive",
+    "author_name": "Clive",
+    "date": "2026-09-06",
+    "url": "https://x.com/0x123clive/status/2096574459750523147",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.445Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "a1a6274040fd",
+    "agent": "pally",
+    "quote": "@pallyai\n has too much motion",
+    "author": "@rehan_m_baig",
+    "author_name": "Rehan Baig",
+    "date": "2026-09-05",
+    "url": "https://x.com/rehan_m_baig/status/2096087821853315321",
+    "kind": "praise",
+    "tags": [
+      "motion",
+      "energy"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: Pally has too much motion"
+  },
+  {
+    "id": "08c890d2be9e",
+    "agent": "pally",
+    "quote": "@pallyai has too much motion",
+    "author": "@olddog7777",
+    "author_name": "R3h4n",
+    "date": "2026-09-05",
+    "url": "https://x.com/olddog7777/status/2096087821853315321",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "4e9dfa5c6132",
+    "agent": "pally",
+    "quote": "@pallyai yc events always bring such good energy \ud83d\udc40 can't wait to see more",
+    "author": "@itsnina_kapoor",
+    "author_name": "Nina Kapoor",
+    "date": "2026-09-05",
+    "url": "https://x.com/itsnina_kapoor/status/2096153918992536032",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "537cd39142e1",
+    "agent": "pally",
+    "quote": "Wait I didn\u2019t realise you\u2019d built this, friend. Can I also get access?",
+    "author": "@iamsebdeb",
+    "author_name": "Sebastiaan Debrouwere",
+    "date": "2026-09-05",
+    "url": "https://x.com/iamsebdeb/status/2096284376489463878",
+    "kind": "other",
+    "tags": [
+      "access",
+      "request"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: didn\u2019t realise you\u2019d built this; asks for access"
+  },
+  {
+    "id": "b041cbf80255",
+    "agent": "pally",
+    "quote": "@DavidPawlan @pallyai yep!",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-05",
+    "url": "https://x.com/hazhubble/status/2096360069998817482",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "55bf7ba0d41d",
+    "agent": "pally",
+    "quote": "@iamsebdeb @DavidPawlan @pallyai of course, same link!",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-05",
+    "url": "https://x.com/hazhubble/status/2096294556962611395",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "e320ed3215df",
+    "agent": "pally",
+    "quote": "here\u2019s a free month of pro \nhttps://\nmy.pally.com/r/HAZ",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-05",
+    "url": "https://x.com/hazhubble/status/2096275250560303459",
+    "kind": "other",
+    "tags": [
+      "promo",
+      "pro",
+      "referral",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:41:17.425206+00:00",
+    "notes": "founder: free month of Pally pro referral"
+  },
+  {
+    "id": "58a552e4acc5",
+    "agent": "pally",
+    "quote": "honestly, very similar to instinct. differences are: we\u2019re much more privacy first, all your data remains in underlying platforms. we also have a mac companion app that lets you connect imessage and other apple stuff too.",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-05",
+    "url": "https://x.com/hazhubble/status/2096275200580956164",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct",
+      "privacy",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "founder: similar to Instinct; more privacy-first"
+  },
+  {
+    "id": "2390f29a2121",
+    "agent": "pally",
+    "quote": "@DavidPawlan thoughts on @pallyai",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-05",
+    "url": "https://x.com/hazhubble/status/2096270258495476066",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
     "id": "06c1802c09c1",
     "agent": "pally",
     "quote": "If you can figure out a clear use case of what to use Pally for, please let me know. I texted Pally and asked the same question but it couldn't answer either.",
@@ -17,6 +995,82 @@
     "notes": ""
   },
   {
+    "id": "7445d7dcbd4f",
+    "agent": "pally",
+    "quote": "@hazhubble @pallyai Ooo so it can text for me?",
+    "author": "@DavidPawlan",
+    "author_name": "David Pawlan",
+    "date": "2026-09-05",
+    "url": "https://x.com/DavidPawlan/status/2096346872256356801",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "b2ae583b3616",
+    "agent": "pally",
+    "quote": "@hazhubble @pallyai Haven\u2019t used it yet but I\u2019m down to try  - what would you say is the differentiator?",
+    "author": "@DavidPawlan",
+    "author_name": "David Pawlan",
+    "date": "2026-09-05",
+    "url": "https://x.com/DavidPawlan/status/2096273637477151091",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
+  },
+  {
+    "id": "ee5eb521f79e",
+    "agent": "pally",
+    "quote": "transactions get approved fast and easily with Face ID. we already do it when paying with Apple Pay. consumers get it, it's low friction and embedded in the iMessage experience\n\nif you want to make safe purchases with your agent, go to \n@endstack\n and \n@pallyai\n (a LOT more agents",
+    "author": "@keyserfaty",
+    "author_name": "mrs. robot",
+    "date": "2026-09-04",
+    "url": "https://x.com/keyserfaty/status/2095939805821751316",
+    "kind": "use-case",
+    "tags": [
+      "face-id",
+      "purchases",
+      "imessage",
+      "payments"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "third-party: Face ID agent purchases via Pally/endstack in iMessage"
+  },
+  {
+    "id": "d46f95bcb17b",
+    "agent": "pally",
+    "quote": "or just use \n@pallyai\n - here\u2019s a free month \nhttps://\nmy.pally.com/r/HAZ",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-09-04",
+    "url": "https://x.com/hazhubble/status/2095694499645190170",
+    "kind": "other",
+    "tags": [
+      "promo",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: free month of Pally Pro"
+  },
+  {
     "id": "9342c575124d",
     "agent": "pally",
     "quote": "Unitedwifi was too shit for claude today\nSo I texted pally my questions\nUnexpected 10/10 experience",
@@ -31,148 +1085,81 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Unitedwifi too shit for Claude → Pally 10/10"
+    "notes": "Unitedwifi too shit for Claude \u2192 Pally 10/10"
   },
   {
-    "id": "fec53d3af40e",
+    "id": "fb494a971bcd",
     "agent": "pally",
-    "quote": "Plane landed and this guy in front of me immediately texted pally to let him know he's safe",
-    "author": "@wylansford",
-    "author_name": "wyatt",
-    "date": "2026-07-24",
-    "url": "https://x.com/wylansford/status/2080720166233461067",
-    "kind": "use-case",
+    "quote": "@pallyai although yc exclusive events always feel lowkey \ud83d\ude05 secretive i\u2019m sure they\u2019ll be worth it when they drop",
+    "author": "@nehapatelzf",
+    "author_name": "Neha Patel",
+    "date": "2026-09-03",
+    "url": "https://x.com/nehapatelzf/status/2095425523375599799",
+    "kind": "other",
     "tags": [
-      "safety",
-      "travel",
-      "founder",
-      "vendor"
+      "auto",
+      "x",
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "landed → texted Pally he’s safe"
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
   },
   {
-    "id": "5048e459298b",
+    "id": "4259690425cd",
     "agent": "pally",
-    "quote": "@pally\n has been so helpful to my photography brand managing client bookings and all.\n\nPally now communicate with my client in my own style and tone.\n\nPally is an Ai assistant that lives in your text connect it your DM and whatsapp and you stop missing out on message. \n\nGreat tech",
-    "author": "@Abrahammetaa",
-    "author_name": "Abraham",
-    "date": "2026-08-18",
-    "url": "https://x.com/Abrahammetaa/status/2089705515395760499",
-    "kind": "use-case",
-    "tags": [
-      "bookings",
-      "tone"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "photography brand client bookings"
-  },
-  {
-    "id": "3b5ef1cbea4a",
-    "agent": "pally",
-    "quote": "We’ve raised $5.2M to build the default AI assistant over text.\n\nMost AI assistants understand your email inbox. They don’t understand you as a person.\n\nPally is the first AI assistant with access to your personal iMessage and WhatsApp inboxes.\n\nThat means it understands the",
+    "quote": "@edwardlando @pallyai",
     "author": "@hazhubble",
     "author_name": "Haz Hubble",
-    "date": "2026-08-06",
-    "url": "https://x.com/hazhubble/status/2085403480974586354",
+    "date": "2026-09-03",
+    "url": "https://x.com/hazhubble/status/2095562479195611262",
     "kind": "other",
     "tags": [
-      "funding",
-      "positioning",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: $5.2M raise announcement"
-  },
-  {
-    "id": "cfb535878f0c",
-    "agent": "pally",
-    "quote": "introducing... a brand new pally 👋\n\npally is an ai assistant that lives in your texts, it connects to your DMs and helps you stop ghosting people\n\npally sees who you've left on read and replies for you, in your tone, with your context, while escalating to you if it needs to",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-07-30",
-    "url": "https://x.com/hazhubble/status/2082862533304565813",
-    "kind": "other",
-    "tags": [
-      "dms",
-      "ghosting",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: stop ghosting DMs"
-  },
-  {
-    "id": "f858ed28370f",
-    "agent": "pally",
-    "quote": "𝗧𝗵𝗲 𝗯𝗲𝘀𝘁 𝗔𝗜 𝗮𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗶𝘀 𝘁𝗵𝗲 𝗼𝗻𝗲 𝘆𝗼𝘂 𝗷𝘂𝘀𝘁 𝘁𝗲𝘅𝘁.\n\nMeet \n@pallyai\n, helping with relationships, follow-ups, research and everyday tasks.\n\nRecently launched on Product Hunt with strong early feedback.\n\nOne text away from done.\n\nText Pally now. 🤝",
-    "author": "@Web3Dealer_",
-    "author_name": "𝐃𝐄𝐀𝐋𝐄𝐑🪐",
-    "date": "2026-08-10",
-    "url": "https://x.com/Web3Dealer_/status/2086714133974511687",
-    "kind": "other",
-    "tags": [
-      "product-hunt"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "text assistant PH coverage"
-  },
-  {
-    "id": "591a7171d1eb",
-    "agent": "pally",
-    "quote": "$7.5k for \nhttp://\npally.com has gotta be some sort of record tbh",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-08-02",
-    "url": "https://x.com/hazhubble/status/2083734714154889297",
-    "kind": "other",
-    "tags": [
-      "domain",
+      "auto",
+      "x",
+      "reply",
+      "vendor",
       "founder"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "$7.5k for pally.com"
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
   },
   {
-    "id": "6861dcdd5f12",
+    "id": "af1120817f06",
     "agent": "pally",
-    "quote": "On lots of caffeine and adrenaline from the \nhttp://\nPally.com launch! Startup bonding moments be pulling team all-nighters at \n@fdotinc",
-    "author": "@lilyyang169",
-    "author_name": "Lily yang",
-    "date": "2025-06-24",
-    "url": "https://x.com/lilyyang169/status/1937430125404127287",
+    "quote": "@nizzyabi @pallyai @orchid_hq @nozomioai noah@usepassionfruit.com",
+    "author": "@noahhorner_",
+    "author_name": "Noah Horner",
+    "date": "2026-09-02",
+    "url": "https://x.com/noahhorner_/status/2095198906342654297",
     "kind": "other",
     "tags": [
-      "launch"
+      "auto",
+      "x",
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Pally.com launch adrenaline"
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
   },
   {
-    "id": "cbab23970fcb",
+    "id": "312bac6e986f",
     "agent": "pally",
-    "quote": "I had to put \n@pallyai\n through a test to handle a client intake from the beginning to the booking point. \n\nI must say it's 8/10👨‍💻\n\nIt's will be 10/10 soon, because cause I train Pally Ai every time on 👇\n\n- How to talk to Client \n- Negotiate \n- Follow up\n- Get Feedback.",
-    "author": "@Abrahammetaa",
-    "author_name": "Abraham",
-    "date": "2026-08-24",
-    "url": "https://x.com/Abrahammetaa/status/2091782345955185030",
-    "kind": "use-case",
+    "quote": "@noahhorner_ @pallyai @orchid_hq @nozomioai emailed!",
+    "author": "@nizzyabi",
+    "author_name": "Nizzy",
+    "date": "2026-09-02",
+    "url": "https://x.com/nizzyabi/status/2095250028864418068",
+    "kind": "other",
     "tags": [
-      "client-intake",
-      "booking",
-      "score"
+      "auto",
+      "x",
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "client intake→booking test 8/10"
+    "collected_at": "2026-09-08T16:09:26.161Z",
+    "notes": "query: @pallyai | via x402atlas"
   },
   {
     "id": "4904a9cdbca6",
@@ -209,22 +1196,22 @@
     "notes": "Pally wished happy birthday"
   },
   {
-    "id": "58a552e4acc5",
+    "id": "cbab23970fcb",
     "agent": "pally",
-    "quote": "honestly, very similar to instinct. differences are: we’re much more privacy first, all your data remains in underlying platforms. we also have a mac companion app that lets you connect imessage and other apple stuff too.",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-05",
-    "url": "https://x.com/hazhubble/status/2096275200580956164",
-    "kind": "comparison",
+    "quote": "I had to put \n@pallyai\n through a test to handle a client intake from the beginning to the booking point. \n\nI must say it's 8/10\ud83d\udc68\u200d\ud83d\udcbb\n\nIt's will be 10/10 soon, because cause I train Pally Ai every time on \ud83d\udc47\n\n- How to talk to Client \n- Negotiate \n- Follow up\n- Get Feedback.",
+    "author": "@Abrahammetaa",
+    "author_name": "Abraham",
+    "date": "2026-08-24",
+    "url": "https://x.com/Abrahammetaa/status/2091782345955185030",
+    "kind": "use-case",
     "tags": [
-      "vs-instinct",
-      "privacy",
-      "founder"
+      "client-intake",
+      "booking",
+      "score"
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "founder: similar to Instinct; more privacy-first"
+    "notes": "client intake\u2192booking test 8/10"
   },
   {
     "id": "0cf980edb3d9",
@@ -244,110 +1231,111 @@
     "notes": "never trains/stores; deletable"
   },
   {
-    "id": "ee5eb521f79e",
+    "id": "5048e459298b",
     "agent": "pally",
-    "quote": "transactions get approved fast and easily with Face ID. we already do it when paying with Apple Pay. consumers get it, it's low friction and embedded in the iMessage experience\n\nif you want to make safe purchases with your agent, go to \n@endstack\n and \n@pallyai\n (a LOT more agents",
-    "author": "@keyserfaty",
-    "author_name": "mrs. robot",
-    "date": "2026-09-04",
-    "url": "https://x.com/keyserfaty/status/2095939805821751316",
+    "quote": "@pally\n has been so helpful to my photography brand managing client bookings and all.\n\nPally now communicate with my client in my own style and tone.\n\nPally is an Ai assistant that lives in your text connect it your DM and whatsapp and you stop missing out on message. \n\nGreat tech",
+    "author": "@Abrahammetaa",
+    "author_name": "Abraham",
+    "date": "2026-08-18",
+    "url": "https://x.com/Abrahammetaa/status/2089705515395760499",
     "kind": "use-case",
     "tags": [
-      "face-id",
-      "purchases",
-      "imessage",
-      "payments"
+      "bookings",
+      "tone"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "third-party: Face ID agent purchases via Pally/endstack in iMessage"
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "photography brand client bookings"
   },
   {
-    "id": "d46f95bcb17b",
+    "id": "f858ed28370f",
     "agent": "pally",
-    "quote": "or just use \n@pallyai\n - here’s a free month \nhttps://\nmy.pally.com/r/HAZ",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-04",
-    "url": "https://x.com/hazhubble/status/2095694499645190170",
+    "quote": "\ud835\udde7\ud835\uddf5\ud835\uddf2 \ud835\uddef\ud835\uddf2\ud835\ude00\ud835\ude01 \ud835\uddd4\ud835\udddc \ud835\uddee\ud835\ude00\ud835\ude00\ud835\uddf6\ud835\ude00\ud835\ude01\ud835\uddee\ud835\uddfb\ud835\ude01 \ud835\uddf6\ud835\ude00 \ud835\ude01\ud835\uddf5\ud835\uddf2 \ud835\uddfc\ud835\uddfb\ud835\uddf2 \ud835\ude06\ud835\uddfc\ud835\ude02 \ud835\uddf7\ud835\ude02\ud835\ude00\ud835\ude01 \ud835\ude01\ud835\uddf2\ud835\ude05\ud835\ude01.\n\nMeet \n@pallyai\n, helping with relationships, follow-ups, research and everyday tasks.\n\nRecently launched on Product Hunt with strong early feedback.\n\nOne text away from done.\n\nText Pally now. \ud83e\udd1d",
+    "author": "@Web3Dealer_",
+    "author_name": "\ud835\udc03\ud835\udc04\ud835\udc00\ud835\udc0b\ud835\udc04\ud835\udc11\ud83e\ude90",
+    "date": "2026-08-10",
+    "url": "https://x.com/Web3Dealer_/status/2086714133974511687",
     "kind": "other",
     "tags": [
-      "promo",
+      "product-hunt"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "text assistant PH coverage"
+  },
+  {
+    "id": "3b5ef1cbea4a",
+    "agent": "pally",
+    "quote": "We\u2019ve raised $5.2M to build the default AI assistant over text.\n\nMost AI assistants understand your email inbox. They don\u2019t understand you as a person.\n\nPally is the first AI assistant with access to your personal iMessage and WhatsApp inboxes.\n\nThat means it understands the",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-08-06",
+    "url": "https://x.com/hazhubble/status/2085403480974586354",
+    "kind": "other",
+    "tags": [
+      "funding",
+      "positioning",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: $5.2M raise announcement"
+  },
+  {
+    "id": "591a7171d1eb",
+    "agent": "pally",
+    "quote": "$7.5k for \nhttp://\npally.com has gotta be some sort of record tbh",
+    "author": "@hazhubble",
+    "author_name": "Haz Hubble",
+    "date": "2026-08-02",
+    "url": "https://x.com/hazhubble/status/2083734714154889297",
+    "kind": "other",
+    "tags": [
+      "domain",
       "founder"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: free month of Pally Pro"
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "$7.5k for pally.com"
   },
   {
-    "id": "a1a6274040fd",
+    "id": "cfb535878f0c",
     "agent": "pally",
-    "quote": "@pallyai\n has too much motion",
-    "author": "@rehan_m_baig",
-    "author_name": "Rehan Baig",
-    "date": "2026-09-05",
-    "url": "https://x.com/rehan_m_baig/status/2096087821853315321",
-    "kind": "praise",
-    "tags": [
-      "motion",
-      "energy"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "third-party: Pally has too much motion"
-  },
-  {
-    "id": "5a448f8baffc",
-    "agent": "pally",
-    "quote": "@pallyai\n taking over ldn soon 👀",
-    "author": "@Naseem9brev",
-    "author_name": "Avinash",
-    "date": "2026-09-06",
-    "url": "https://x.com/Naseem9brev/status/2096469029741576406",
-    "kind": "other",
-    "tags": [
-      "london",
-      "hype"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Pally taking over LDN soon"
-  },
-  {
-    "id": "537cd39142e1",
-    "agent": "pally",
-    "quote": "Wait I didn’t realise you’d built this, friend. Can I also get access?",
-    "author": "@iamsebdeb",
-    "author_name": "Sebastiaan Debrouwere",
-    "date": "2026-09-05",
-    "url": "https://x.com/iamsebdeb/status/2096284376489463878",
-    "kind": "other",
-    "tags": [
-      "access",
-      "request"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: didn’t realise you’d built this; asks for access"
-  },
-  {
-    "id": "e320ed3215df",
-    "agent": "pally",
-    "quote": "here’s a free month of pro \nhttps://\nmy.pally.com/r/HAZ",
+    "quote": "introducing... a brand new pally \ud83d\udc4b\n\npally is an ai assistant that lives in your texts, it connects to your DMs and helps you stop ghosting people\n\npally sees who you've left on read and replies for you, in your tone, with your context, while escalating to you if it needs to",
     "author": "@hazhubble",
     "author_name": "Haz Hubble",
-    "date": "2026-09-05",
-    "url": "https://x.com/hazhubble/status/2096275250560303459",
+    "date": "2026-07-30",
+    "url": "https://x.com/hazhubble/status/2082862533304565813",
     "kind": "other",
     "tags": [
-      "promo",
-      "pro",
-      "referral",
-      "founder"
+      "dms",
+      "ghosting",
+      "founder",
+      "vendor"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "founder: free month of Pally pro referral"
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: stop ghosting DMs"
+  },
+  {
+    "id": "fec53d3af40e",
+    "agent": "pally",
+    "quote": "Plane landed and this guy in front of me immediately texted pally to let him know he's safe",
+    "author": "@wylansford",
+    "author_name": "wyatt",
+    "date": "2026-07-24",
+    "url": "https://x.com/wylansford/status/2080720166233461067",
+    "kind": "use-case",
+    "tags": [
+      "safety",
+      "travel",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "landed \u2192 texted Pally he\u2019s safe"
   },
   {
     "id": "0299094c028c",
@@ -370,972 +1358,19 @@
     "notes": "query: \"pally.com\" | via x402atlas"
   },
   {
-    "id": "b53bf09c19ad",
+    "id": "6861dcdd5f12",
     "agent": "pally",
-    "quote": "@tr1ckastley @pallyai",
-    "author": "@subahwadhwani",
-    "author_name": "Subah Wadhwani",
-    "date": "2026-09-08",
-    "url": "https://x.com/subahwadhwani/status/2097186577441325380",
+    "quote": "On lots of caffeine and adrenaline from the \nhttp://\nPally.com launch! Startup bonding moments be pulling team all-nighters at \n@fdotinc",
+    "author": "@lilyyang169",
+    "author_name": "Lily yang",
+    "date": "2025-06-24",
+    "url": "https://x.com/lilyyang169/status/1937430125404127287",
     "kind": "other",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "launch"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "e04886b28495",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai don't forget the tower 🗼\n\nhttps://luma.com/tower",
-    "author": "@evgeth",
-    "author_name": "evgeny",
-    "date": "2026-09-08",
-    "url": "https://x.com/evgeth/status/2097115878617666013",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "c9725b5ada34",
-    "agent": "pally",
-    "quote": "@pallyai yc exclusive events 👀 i've been waiting for something like this, though i don't know what's inside it feels like insider energy i can't ignore",
-    "author": "@nehapatelzf",
-    "author_name": "Neha Patel",
-    "date": "2026-09-07",
-    "url": "https://x.com/nehapatelzf/status/2097073078039625848",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "91b5c7bbbbd9",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai hi from @FireworksAI_HQ 🇬🇧",
-    "author": "@diminikola0u",
-    "author_name": "Dimi Nikolaou",
-    "date": "2026-09-07",
-    "url": "https://x.com/diminikola0u/status/2097019135611863488",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "7a8e168b02a7",
-    "agent": "pally",
-    "quote": "@HarryStebbings @noahrshinn pally does this @pallyai max plan $100 per month",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-07",
-    "url": "https://x.com/hazhubble/status/2097000659094487420",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "c8249a6dfdc4",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai must include @SuperteamUK",
-    "author": "@rhtdoesweb3",
-    "author_name": "robynhsienthomas",
-    "date": "2026-09-07",
-    "url": "https://x.com/rhtdoesweb3/status/2096875050443915691",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "42c9dab0f304",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK are phenomenal",
-    "author": "@BananaZoneApp",
-    "author_name": "Banana Zone App",
-    "date": "2026-09-07",
-    "url": "https://x.com/BananaZoneApp/status/2096868294187778378",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "a0878a36a0c6",
-    "agent": "pally",
-    "quote": "@NejcN @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai Subscribe to https://luma.com/mafia",
-    "author": "@CharlieCheesma1",
-    "author_name": "Charlie Cheesman",
-    "date": "2026-09-06",
-    "url": "https://x.com/CharlieCheesma1/status/2096717159237931235",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "e471431ae3a6",
-    "agent": "pally",
-    "quote": "@jamie_greee @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai 🇬🇧",
-    "author": "@CharlieCheesma1",
-    "author_name": "Charlie Cheesman",
-    "date": "2026-09-06",
-    "url": "https://x.com/CharlieCheesma1/status/2096716062909751745",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "cbf32da0baee",
-    "agent": "pally",
-    "quote": "@alexandriem7 @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai this applies to all of capitalism, by virtue of how capital flows 👀😂\n\nMag7 carries tech, now define “useful” - does non-profit research and academia count as useful to society?\n\n(I of all ppl never expected to be defending UK tech lol)",
-    "author": "@rowans_planet",
-    "author_name": "rowan",
-    "date": "2026-09-06",
-    "url": "https://x.com/rowans_planet/status/2096704894673543542",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.617Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "5f7712a2f735",
-    "agent": "pally",
-    "quote": "@NejcN @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai anything from @Andy_AJT - but also watch this space :)\n\n@hazhubble pally newsletter still running? 👀",
-    "author": "@rowans_planet",
-    "author_name": "rowan",
-    "date": "2026-09-06",
-    "url": "https://x.com/rowans_planet/status/2096704233114317194",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "76d37f41b716",
-    "agent": "pally",
-    "quote": "@Replit @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai text me back when u do - cheers xoxo bye 😔",
-    "author": "@rowans_planet",
-    "author_name": "rowan",
-    "date": "2026-09-06",
-    "url": "https://x.com/rowans_planet/status/2096703881606545579",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "c14a3cf268c0",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai this tweet gave the most unforeseen folks contacting 😭😂\n\nexcited to hopefully keep hosting things w the homies (inc. those tagged 👀)!",
-    "author": "@rowans_planet",
-    "author_name": "rowan",
-    "date": "2026-09-06",
-    "url": "https://x.com/rowans_planet/status/2096703770184781883",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "64a69794b9e5",
-    "agent": "pally",
-    "quote": "@rehan_m_baig @jbahrdestefano @pallyai try it out JC! https://my.pally.com/r/HAZ",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-06",
-    "url": "https://x.com/hazhubble/status/2096692958145745398",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "67e3b0c0a7c2",
-    "agent": "pally",
-    "quote": "@jbahrdestefano @pallyai @hazhubble I think this dude needs a free month",
-    "author": "@olddog7777",
-    "author_name": "R3h4n",
-    "date": "2026-09-06",
-    "url": "https://x.com/olddog7777/status/2096691693546344478",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "b766b471a9e4",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Y'll need to be on : https://lnkd.in/p/eqy7k6e2 by @fooming86",
-    "author": "@_ItsmeJJ_9",
-    "author_name": "Jabir Nur",
-    "date": "2026-09-06",
-    "url": "https://x.com/_ItsmeJJ_9/status/2096691383130046509",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "3db7fd924766",
-    "agent": "pally",
-    "quote": "@rehan_m_baig @pallyai 👀",
-    "author": "@jbahrdestefano",
-    "author_name": "JC Bahr-de Stefano",
-    "date": "2026-09-06",
-    "url": "https://x.com/jbahrdestefano/status/2096691255543509390",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "d908359e6e8d",
-    "agent": "pally",
-    "quote": "@pallyai would never",
-    "author": "@olddog7777",
-    "author_name": "R3h4n",
-    "date": "2026-09-06",
-    "url": "https://x.com/olddog7777/status/2096691165814989233",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "d9da3d5a4276",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK",
-    "author": "@HarryHorsfall_",
-    "author_name": "Haz",
-    "date": "2026-09-06",
-    "url": "https://x.com/HarryHorsfall_/status/2096689029739663810",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.618Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "f828f39f99fd",
-    "agent": "pally",
-    "quote": "@alexandriem7 @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Its something",
-    "author": "@Henry_DeFi",
-    "author_name": "Genry",
-    "date": "2026-09-06",
-    "url": "https://x.com/Henry_DeFi/status/2096684643659436482",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "5b38c8a8bb1f",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai We’re pulling up too",
-    "author": "@Replit",
-    "author_name": "Replit ⠕",
-    "date": "2026-09-06",
-    "url": "https://x.com/Replit/status/2096678456033755521",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "02c788acf030",
-    "agent": "pally",
-    "quote": "@czamaru @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK si si @hazhubble come join us at Somerset House on Fridays and meet 60-80 builders in tech every week https://lu.ma/superteam?tag=uk",
-    "author": "@CapinUK",
-    "author_name": "Cap",
-    "date": "2026-09-06",
-    "url": "https://x.com/CapinUK/status/2096645096070332463",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "ea1130ed9af8",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @SuperteamUK is necessary on this list haz\n\ncome join us",
-    "author": "@czamaru",
-    "author_name": "CZA +",
-    "date": "2026-09-06",
-    "url": "https://x.com/czamaru/status/2096638215796985912",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "6d726d42bee3",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai cheers for the s/o @hazhubble 🙏",
-    "author": "@CharlieCheesma1",
-    "author_name": "Charlie Cheesman",
-    "date": "2026-09-06",
-    "url": "https://x.com/CharlieCheesma1/status/2096626050524459424",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "0496aa6eeeef",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @fatemallk @pallyai @unicorn_mafia",
-    "author": "@CharlieCheesma1",
-    "author_name": "Charlie Cheesman",
-    "date": "2026-09-06",
-    "url": "https://x.com/CharlieCheesma1/status/2096625902884954236",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "79396b1ba22c",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai And also @SuperteamUK and @CW3UK",
-    "author": "@0x7Jay",
-    "author_name": "0x7Jay⚡️",
-    "date": "2026-09-06",
-    "url": "https://x.com/0x7Jay/status/2096615894419960157",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "43c3ec222024",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai any cool meetups these days? i'd love to chat with you all in peace and in person :)",
-    "author": "@NejcN",
-    "author_name": "Nejc Novak",
-    "date": "2026-09-06",
-    "url": "https://x.com/NejcN/status/2096592533426000077",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "51081aa9440f",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai exciting!",
-    "author": "@myghal",
-    "author_name": "Michael",
-    "date": "2026-09-06",
-    "url": "https://x.com/myghal/status/2096582344098349281",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "7f4fd7339352",
-    "agent": "pally",
-    "quote": "@hazhubble @rowans_planet @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @CharlieCheesma1 @fatemallk @pallyai We help out sometimes :)",
-    "author": "@RedwoodFounders",
-    "author_name": "Redwood Founders",
-    "date": "2026-09-06",
-    "url": "https://x.com/RedwoodFounders/status/2096578476308377663",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "e9d0bba0053e",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai no way you missed @superteamuk",
-    "author": "@cherrydotfun",
-    "author_name": "Cherry",
-    "date": "2026-09-06",
-    "url": "https://x.com/cherrydotfun/status/2096578227993002204",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "e5ba2c61c5a6",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai You Should add @CapinUK from @SuperteamUK to your list",
-    "author": "@0x123clive",
-    "author_name": "Clive",
-    "date": "2026-09-06",
-    "url": "https://x.com/0x123clive/status/2096574459750523147",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "8efba16465f7",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai There’s literally one or two that produce anything useful",
-    "author": "@alexandriem7",
-    "author_name": "alexandriemartinez",
-    "date": "2026-09-06",
-    "url": "https://x.com/alexandriem7/status/2096563043899494445",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "617eff4eb9df",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai exciting time to be in london",
-    "author": "@bubbly_ct",
-    "author_name": "Qi",
-    "date": "2026-09-06",
-    "url": "https://x.com/bubbly_ct/status/2096549720038481976",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "efe44746a958",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai are you guys based in London or SF?",
-    "author": "@jamie_greee",
-    "author_name": "Jamie Green",
-    "date": "2026-09-06",
-    "url": "https://x.com/jamie_greee/status/2096538840169165259",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "37be0b54227b",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Forever bullish! 🫡🇬🇧",
-    "author": "@decmclaughlin_",
-    "author_name": "Dec McLaughlin 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "date": "2026-09-06",
-    "url": "https://x.com/decmclaughlin_/status/2096527967505485972",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "d92281874a14",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Great time to be in London",
-    "author": "@TomasMann1878",
-    "author_name": "Tom Mann",
-    "date": "2026-09-06",
-    "url": "https://x.com/TomasMann1878/status/2096525065768583171",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "ce1fd630ab54",
-    "agent": "pally",
-    "quote": "@biraj21_ @hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @modal time to shift to london",
-    "author": "@kriyanshii",
-    "author_name": "Kriyanshi 🥤",
-    "date": "2026-09-06",
-    "url": "https://x.com/kriyanshii/status/2096497586131841474",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "6a31a62910c6",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai 🫡🫡",
-    "author": "@oscarfalll",
-    "author_name": "oscarama",
-    "date": "2026-09-06",
-    "url": "https://x.com/oscarfalll/status/2096482928553275487",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "8be3dc71ada7",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @pallyai @oscarfalll @Andy_AJT @claudiaamaggi @frankterpo",
-    "author": "@fatemallk",
-    "author_name": "Fatema",
-    "date": "2026-09-06",
-    "url": "https://x.com/fatemallk/status/2096481615132098928",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.446Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "010974aa9957",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai Vamos",
-    "author": "@Jackgonzohart",
-    "author_name": "Jack Gonzalez Hart",
-    "date": "2026-09-06",
-    "url": "https://x.com/Jackgonzohart/status/2096399719488455138",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "9587e3ae70e2",
-    "agent": "pally",
-    "quote": "@hazhubble @ElevenLabs @attio @UseCorgi @meetgranola @raycast @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk @pallyai @modal is also opening a new office in london!!",
-    "author": "@biraj21_",
-    "author_name": "biraj is in NYC rn",
-    "date": "2026-09-06",
-    "url": "https://x.com/biraj21_/status/2096399566061134126",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "797335b55ee3",
-    "agent": "pally",
-    "quote": "london is on the startup come up\n\nthanks a lot also to companies like @ElevenLabs @attio @UseCorgi @meetgranola @raycast\n\nand community builders like @isnit0 @oscarfalll @HamzaZaveri @decmclaughlin_ @theshre @rowans_planet @CharlieCheesma1 @fatemallk\n\nhoping @pallyai starts to make an impact here too shortly",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-06",
-    "url": "https://x.com/hazhubble/status/2096393158879764668",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "b041cbf80255",
-    "agent": "pally",
-    "quote": "@DavidPawlan @pallyai yep!",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-05",
-    "url": "https://x.com/hazhubble/status/2096360069998817482",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "7445d7dcbd4f",
-    "agent": "pally",
-    "quote": "@hazhubble @pallyai Ooo so it can text for me?",
-    "author": "@DavidPawlan",
-    "author_name": "David Pawlan",
-    "date": "2026-09-05",
-    "url": "https://x.com/DavidPawlan/status/2096346872256356801",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "55bf7ba0d41d",
-    "agent": "pally",
-    "quote": "@iamsebdeb @DavidPawlan @pallyai of course, same link!",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-05",
-    "url": "https://x.com/hazhubble/status/2096294556962611395",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "b2ae583b3616",
-    "agent": "pally",
-    "quote": "@hazhubble @pallyai Haven’t used it yet but I’m down to try  - what would you say is the differentiator?",
-    "author": "@DavidPawlan",
-    "author_name": "David Pawlan",
-    "date": "2026-09-05",
-    "url": "https://x.com/DavidPawlan/status/2096273637477151091",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "2390f29a2121",
-    "agent": "pally",
-    "quote": "@DavidPawlan thoughts on @pallyai",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-05",
-    "url": "https://x.com/hazhubble/status/2096270258495476066",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "4e9dfa5c6132",
-    "agent": "pally",
-    "quote": "@pallyai yc events always bring such good energy 👀 can't wait to see more",
-    "author": "@itsnina_kapoor",
-    "author_name": "Nina Kapoor",
-    "date": "2026-09-05",
-    "url": "https://x.com/itsnina_kapoor/status/2096153918992536032",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "08c890d2be9e",
-    "agent": "pally",
-    "quote": "@pallyai has too much motion",
-    "author": "@olddog7777",
-    "author_name": "R3h4n",
-    "date": "2026-09-05",
-    "url": "https://x.com/olddog7777/status/2096087821853315321",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "4259690425cd",
-    "agent": "pally",
-    "quote": "@edwardlando @pallyai",
-    "author": "@hazhubble",
-    "author_name": "Haz Hubble",
-    "date": "2026-09-03",
-    "url": "https://x.com/hazhubble/status/2095562479195611262",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "fb494a971bcd",
-    "agent": "pally",
-    "quote": "@pallyai although yc exclusive events always feel lowkey 😅 secretive i’m sure they’ll be worth it when they drop",
-    "author": "@nehapatelzf",
-    "author_name": "Neha Patel",
-    "date": "2026-09-03",
-    "url": "https://x.com/nehapatelzf/status/2095425523375599799",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "312bac6e986f",
-    "agent": "pally",
-    "quote": "@noahhorner_ @pallyai @orchid_hq @nozomioai emailed!",
-    "author": "@nizzyabi",
-    "author_name": "Nizzy",
-    "date": "2026-09-02",
-    "url": "https://x.com/nizzyabi/status/2095250028864418068",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
-  },
-  {
-    "id": "af1120817f06",
-    "agent": "pally",
-    "quote": "@nizzyabi @pallyai @orchid_hq @nozomioai noah@usepassionfruit.com",
-    "author": "@noahhorner_",
-    "author_name": "Noah Horner",
-    "date": "2026-09-02",
-    "url": "https://x.com/noahhorner_/status/2095198906342654297",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.161Z",
-    "notes": "query: @pallyai | via x402atlas"
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "Pally.com launch adrenaline"
   }
 ]

@@ -17,3 +17,14 @@ Site: https://poke.com/
 - [complaint] @essenaoeomeeks: Poke AI getting worse after being bought by cognition
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-09 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-06-04) aitoolblaze: Launch-day reliability was poor. I want to be fair: this is the busiest week in the product's life. But I sent messages that sat unanswered 
+- (2026-07-18) agent-finder: We specifically tracked chained requests (three or more linked actions in a single text) to check for the multi-step degradation we'd read a
+- (2025-09-23) tanishasrivatsa: If you couldn't tell by now, I'm a fan of Poke. Compared to some of the other consumer products I've written about, Poke is one of the few I
+- (2026-09-09) @kinopee_ai: I've been using Poke every day lately too!
+- (2026-09-08) @Shu3ham96: seeing what Instinct can do over poke by @interaction, just amazes me on the advancements, and effectively keep on building even though a pr
+- (2026-09-08) @capitaltruist: As a personal agent normie, I've used @openclaw (too much work, unreliable), @interaction (useful, but annoyingly flippant), Instinct (incre
+- (2026-09-08) @uzaxirr: Is poke by @interaction dead after the acquisition?? The product feels very slow and degraded and no new product updates post acquisition.

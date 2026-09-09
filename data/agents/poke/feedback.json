@@ -1,634 +1,44 @@
 [
   {
-    "id": "a4961831018c",
+    "id": "c0b72166fd42",
     "agent": "poke",
-    "quote": "Instinct = way smarter. Poke = way faster.",
-    "author": "@DavidPawlan",
-    "author_name": "",
-    "date": "2026-08-29",
-    "url": "https://x.com/DavidPawlan/status/2093726017701457953",
-    "kind": "comparison",
-    "tags": [
-      "vs-instinct",
-      "founder",
-      "vendor"
-    ],
-    "source": "david-post",
-    "collected_at": "2026-09-06T03:35:37.329063+00:00",
-    "notes": ""
-  },
-  {
-    "id": "c81920eae690",
-    "agent": "poke",
-    "quote": "I messaged Instinct, it didn’t respond, and Poke responded that my messages were held up. That was weird.",
-    "author": "@DavidPawlan",
-    "author_name": "",
-    "date": "2026-08-28",
-    "url": "https://x.com/DavidPawlan/status/2093399388387250329",
-    "kind": "bug",
-    "tags": [
-      "reliability",
-      "routing",
-      "founder",
-      "vendor"
-    ],
-    "source": "david-post",
-    "collected_at": "2026-09-06T03:35:37.329063+00:00",
-    "notes": ""
-  },
-  {
-    "id": "f000f7237bd2",
-    "agent": "poke",
-    "quote": "Say hi to the new Poke! 🌴\n\nNow officially approved by Apple to text on Apple Messages.\n\nAs the first and only AI agent. Chat now: \nhttp://\nPoke.com",
-    "author": "@interaction",
-    "author_name": "Poke",
-    "date": "2026-06-04",
-    "url": "https://x.com/interaction/status/2062575428213285352",
-    "kind": "other",
-    "tags": [
-      "imessage",
-      "launch",
-      "apple",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "company: Apple Messages approval"
-  },
-  {
-    "id": "8390dba288b9",
-    "agent": "poke",
-    "quote": "1. it's really good at helping me plan trips. i exclusively used poke as my ai assistant while travelling back to the us from japan (with a stop in hawaii), it helped me in every step from boarding times to itinerary planning",
-    "author": "@danmaruchi",
-    "author_name": "danny nguyen",
-    "date": "2025-10-02",
-    "url": "https://x.com/danmaruchi/status/1973881605153575270",
+    "quote": "I've been using Poke every day lately too!",
+    "author": "@kinopee_ai",
+    "author_name": "Kinopee",
+    "date": "2026-09-09",
+    "url": "https://x.com/kinopee_ai/status/2097548710800691443",
     "kind": "use-case",
     "tags": [
-      "travel"
+      "daily-use",
+      "praise"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "trip planning Japan/Hawaii"
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Independent user reports daily Poke usage."
   },
   {
-    "id": "a4f64e435fb3",
+    "id": "722b08337b57",
     "agent": "poke",
-    "quote": "Planned an entire Hamburg trip for the group — train from Berlin, sightseeing spots, restaurant for 6, things to do around our hotel — all the way through to MJ The Musical 🎶 My secret weapon? My AI assistant Poke from \n@interaction\n 🤖✨\n\n#AI #TravelPlanning #MJTheMusical",
-    "author": "@cemvogt",
-    "author_name": "Cem",
-    "date": "2026-04-03",
-    "url": "https://x.com/cemvogt/status/2039956094907298218",
-    "kind": "use-case",
-    "tags": [
-      "travel"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Hamburg group trip"
-  },
-  {
-    "id": "02d7142ca5b4",
-    "agent": "poke",
-    "quote": "AI is never taking over us, not like this\n\nVery good job \n@interaction\n poke has been working like shit lately 🔥🔥🔥",
-    "author": "@ThisIsDaMatt",
-    "author_name": "ThisIsDaMatt ",
-    "date": "2026-08-27",
-    "url": "https://x.com/ThisIsDaMatt/status/2093096612515995893",
+    "quote": "Is poke by @interaction dead after the acquisition??\nThe product feels very slow and degraded and no new product updates post acquisition.",
+    "author": "@uzaxirr",
+    "author_name": "Uzair",
+    "date": "2026-09-08",
+    "url": "https://x.com/uzaxirr/status/2097386237854437377",
     "kind": "complaint",
     "tags": [
-      "reliability"
+      "slow",
+      "degraded",
+      "acquisition",
+      "updates"
     ],
     "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "working like shit lately"
-  },
-  {
-    "id": "8ed9983213bc",
-    "agent": "poke",
-    "quote": "Poke AI getting worse after being bought by cognition",
-    "author": "@essenaoeomeeks",
-    "author_name": "Michael Holder",
-    "date": "2026-09-06",
-    "url": "https://x.com/essenaoeomeeks/status/2096435611049640122",
-    "kind": "complaint",
-    "tags": [
-      "cognition",
-      "regression"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "worse after Cognition buy"
-  },
-  {
-    "id": "c0f3a54bfcd1",
-    "agent": "poke",
-    "quote": "@interaction\n Poke has been an amazing entry into my AI Agentic portfolio. \n\nMostly because I’m not using it as suggested. \n\nI don’t need an agent to read my emails\nOr reply to them. I don’t need it to look at a calendar \n\nWhat I do need is an agent that can maintain long and",
-    "author": "@RubberDucky_AI",
-    "author_name": "AI SAT",
-    "date": "2025-10-07",
-    "url": "https://x.com/RubberDucky_AI/status/1975565857007779965",
-    "kind": "use-case",
-    "tags": [
-      "nonstandard"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "not using as suggested"
-  },
-  {
-    "id": "d2ef1a61d751",
-    "agent": "poke",
-    "quote": "I got my pebble index 01 ring connected to \n@interaction\n poke so now I can add stuff to my calendar by speaking into a ring. Amazing.",
-    "author": "@MikeWallsQC",
-    "author_name": "Mike Walls",
-    "date": "2026-08-21",
-    "url": "https://x.com/MikeWallsQC/status/2090599025258987861",
-    "kind": "use-case",
-    "tags": [
-      "wearable",
-      "calendar"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "pebble ring"
-  },
-  {
-    "id": "33816aa70d4d",
-    "agent": "poke",
-    "quote": "i’m a power user of \n@interaction\n but keep thinking what real things can i get done: currently it’s largely an email reader, a to do list, and a very funny bot (amazing product btw) \n\ngiving poke a phone no, email alias and a browser use ability would be a game changer",
-    "author": "@PPaloju",
-    "author_name": "prajwal",
-    "date": "2026-07-30",
-    "url": "https://x.com/PPaloju/status/2082906183288111126",
-    "kind": "complaint",
-    "tags": [
-      "depth"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "email reader / todo / funny bot"
-  },
-  {
-    "id": "741bb7f38ddb",
-    "agent": "poke",
-    "quote": "I love Poke from \n@interaction\n - it is the most \"fun\" AI I have ever used!",
-    "author": "@m_d_br",
-    "author_name": "Malan",
-    "date": "2026-07-06",
-    "url": "https://x.com/m_d_br/status/2074154992584241497",
-    "kind": "praise",
-    "tags": [
-      "personality"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "most fun AI"
-  },
-  {
-    "id": "a7ebec6ab11d",
-    "agent": "poke",
-    "quote": "I love Poke, it's amazing.\n\nBut I'm not paying 200 per month for it lol",
-    "author": "@TatataToddC",
-    "author_name": "Vincent Adultman",
-    "date": "2026-06-18",
-    "url": "https://x.com/TatataToddC/status/2067707402971992139",
-    "kind": "complaint",
-    "tags": [
-      "pricing"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "not paying $200/mo"
-  },
-  {
-    "id": "d26f3dbf7ba5",
-    "agent": "poke",
-    "quote": "As much as I love poke I’m having issues triggering two automations daily do I need the pro for that? All I want is ai news which already has a recipe and exchange rates for the day poke keeps forgetting",
-    "author": "@furkan_plus",
-    "author_name": "Furkan+",
-    "date": "2026-06-18",
-    "url": "https://x.com/furkan_plus/status/2067691366549774663",
-    "kind": "bug",
-    "tags": [
-      "automations",
-      "memory"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "forgets daily automations"
-  },
-  {
-    "id": "7bb8db836f64",
-    "agent": "poke",
-    "quote": "Same... spent a fair amount creating a \nhttp://\npoke.site and now it's broken w/ a database lock.. no response to emails to \n@poke\n since Thursday. In process of moving it all away. It also told me that Biden is visiting Norway today, then admitted it was 3 year old news",
-    "author": "@LordArche",
-    "author_name": "oGeneo",
-    "date": "2026-07-13",
-    "url": "https://x.com/LordArche/status/2076748100862148798",
-    "kind": "bug",
-    "tags": [
-      "reliability",
-      "support"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "poke.site broken, no support"
-  },
-  {
-    "id": "fdf5ae10f695",
-    "agent": "poke",
-    "quote": "It's not like slow but generally Poke is almost instant. While Orchid takes like 3-5 seconds. Is there a reason for that?",
-    "author": "@Gentraxyz",
-    "author_name": "Gentra",
-    "date": "2026-06-24",
-    "url": "https://x.com/Gentraxyz/status/2069863904268697860",
-    "kind": "comparison",
-    "tags": [
-      "latency",
-      "vs-orchid"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Poke instant vs Orchid 3-5s"
-  },
-  {
-    "id": "e9745140c50d",
-    "agent": "poke",
-    "quote": "iMessage based agent products will always fail. it is extremely obvious why.\n\nThis goes for instinct, poke, etc.\n\nIt has nothing to do with product quality. they are great products!",
-    "author": "@1_missthesun",
-    "author_name": "i miss the sun",
-    "date": "2026-09-01",
-    "url": "https://x.com/1_missthesun/status/2094594883797602796",
-    "kind": "complaint",
-    "tags": [
-      "imessage",
-      "form-factor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "iMessage agents will fail"
-  },
-  {
-    "id": "8df0388dc524",
-    "agent": "poke",
-    "quote": "Personal AI has a new contender, Instinct feels like Poke++ but exposes a lot of ChatGPT-esque writing and wording.\n\nGiven what Codex/ChatGPT can already do with my Mac and remote control - the only differentiator remains the system instruction (which don't seem to add a lot of",
-    "author": "@sdrth",
-    "author_name": "Siddharth Jaiswal",
-    "date": "2026-08-21",
-    "url": "https://x.com/sdrth/status/2090724858330268058",
-    "kind": "comparison",
-    "tags": [
-      "vs-instinct"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Instinct feels like Poke++"
-  },
-  {
-    "id": "15108419a68a",
-    "agent": "poke",
-    "quote": "this \n@interaction\n. I’ve been missing the message backgrounds, reactions… the things that made poke feel… different \n\nlove the new human update, but the free customizable fun things are missing",
-    "author": "@brockandru",
-    "author_name": "Brock",
-    "date": "2026-06-26",
-    "url": "https://x.com/brockandru/status/2070488270979396013",
-    "kind": "complaint",
-    "tags": [
-      "ux",
-      "personality"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "missing message backgrounds/fun"
-  },
-  {
-    "id": "251ef4310e1d",
-    "agent": "poke",
-    "quote": "Bro just gets my random intrusive thoughts at 2 AM 😭\nI love you Poke by \n@interaction",
-    "author": "@Coobyk_",
-    "author_name": "Coobyk",
-    "date": "2026-08-24",
-    "url": "https://x.com/Coobyk_/status/2091685571210940435",
-    "kind": "praise",
-    "tags": [
-      "personality"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": ""
-  },
-  {
-    "id": "11fa7ba38418",
-    "agent": "poke",
-    "quote": "A lot of people would be fine using ai for work if it was more like \n@interaction\n’s poke.\n\nSlop is killing your drive to work .\n\nCommunication be effective .\n\nI dont need a wall of text what i need is a easy to Talk to main orchestrator whom summarizes and ensures that i know",
-    "author": "@Aikun011",
-    "author_name": "Megamind",
-    "date": "2026-09-06",
-    "url": "https://x.com/Aikun011/status/2096546873855430960",
-    "kind": "praise",
-    "tags": [
-      "work",
-      "orchestrator",
-      "communication"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "want AI more like Poke; anti-slop"
-  },
-  {
-    "id": "2c66b4917595",
-    "agent": "poke",
-    "quote": "How do you catch the next \n$MEME\n on #RobinhoodChain before CT posts 1000x pnl screenshots?\n\nI built a \n@interaction\n Poke recipe that texts you SMS alerts for breakout runners and whale buys on \n@RobinhoodApp\n\nNo chart watching\nJust a text when real momentum ignites\n\n👉",
-    "author": "@DNAdotGM",
-    "author_name": "🧬.gm",
-    "date": "2026-09-05",
-    "url": "https://x.com/DNAdotGM/status/2096102350259888156",
-    "kind": "use-case",
-    "tags": [
-      "recipes",
-      "sms",
-      "crypto"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "Poke recipe SMS alerts for meme coins"
-  },
-  {
-    "id": "33f29b155156",
-    "agent": "poke",
-    "quote": "install this recipe, and try to send a voice note while you check items in your kitchen to \n@interaction\n and watch it organize your messy audio note into a structured cart in real-time. thank me later :)",
-    "author": "@HarshitKhemani",
-    "author_name": "Harshit Khemani",
-    "date": "2026-09-04",
-    "url": "https://x.com/HarshitKhemani/status/2095876310174433708",
-    "kind": "use-case",
-    "tags": [
-      "recipes",
-      "voice",
-      "shopping"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "voice note → structured grocery cart"
-  },
-  {
-    "id": "68e37317cd92",
-    "agent": "poke",
-    "quote": "The advantage of funding nowadays is distribution + offering generous free tiers for years. Then exit/sell; study the playbook \n@marvinvonhagen\n played with poke \n@interaction\n.",
-    "author": "@serglotz",
-    "author_name": "Serg",
-    "date": "2026-09-04",
-    "url": "https://x.com/serglotz/status/2095806225040527616",
-    "kind": "other",
-    "tags": [
-      "funding",
-      "distribution",
-      "free-tier"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Poke free-tier distribution playbook"
-  },
-  {
-    "id": "3606dd792084",
-    "agent": "poke",
-    "quote": "Instinct is just poke / \n@interaction\n with an older icp and a horrible privacy policy",
-    "author": "@vdhCapital",
-    "author_name": "vdh Capital",
-    "date": "2026-09-04",
-    "url": "https://x.com/vdhCapital/status/2095934258971890138",
-    "kind": "comparison",
-    "tags": [
-      "instinct",
-      "privacy",
-      "icp"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Instinct = Poke + older ICP + horrible privacy policy"
-  },
-  {
-    "id": "7bd285efda78",
-    "agent": "poke",
-    "quote": "way better Poke got dumb",
-    "author": "@denizdoingstuff",
-    "author_name": "deniz",
-    "date": "2026-09-03",
-    "url": "https://x.com/denizdoingstuff/status/2095474742417330487",
-    "kind": "complaint",
-    "tags": [
-      "quality",
-      "dumb"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Poke got dumb"
-  },
-  {
-    "id": "cf1b633ec410",
-    "agent": "poke",
-    "quote": "Also try out \nhttps://\npoke.com, just to see a competitor’s product.",
-    "author": "@_hemantg",
-    "author_name": "Hemant G.",
-    "date": "2026-09-03",
-    "url": "https://x.com/_hemantg/status/2095396655235465647",
-    "kind": "other",
-    "tags": [
-      "competitor",
-      "try"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: try poke.com as competitor product"
-  },
-  {
-    "id": "2de2892742de",
-    "agent": "poke",
-    "quote": "I’ve tried Poke AI after seeing it on the news as the first third-party AI agent officially approved for Apple's Messages.\n\nI like the concept of having a proactive AI assistant inside your iMessage, but I’d like an alternative that lives inside a separate app, I'm trying to see if there are any alternatives. Do you guys know any Poke alternatives that offer similar text-to-action functionality and also have a good memory, like a companion, thanks\n\n**Edit:** I'm using Daimon for a bit now and this is probably the closest thing to what I was looking for. It feels much more like a personal companion than an assistant, it remembers little things from previous conversations, I use it to dump thoughts, talk through decisions and keep track of stuff I want to come back to later. The conversations also feel way less transactional than most AI assistants I've tried.\n\nFor my use case at least, Daimon has probably been the best Poke alternative so far.",
-    "author": "u/michaeltabuac8",
-    "author_name": "",
-    "date": "2026-07-18",
-    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best",
-    "kind": "comparison",
-    "tags": [
-      "reddit",
-      "imessage",
-      "alternatives",
-      "apple-messages"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "third-party seeking Poke alternatives after Apple Messages approval news"
-  },
-  {
-    "id": "5115153aa6ed",
-    "agent": "poke",
-    "quote": "Poke is a new AI agent startup that lets users access a personal assistant through familiar messaging platforms like iMessage, SMS, Telegram, and WhatsApp, without needing to install any software.\n\n**Key Details:**\n\n* **Founded** by Marvin von Hagen and Felix Schlegel under *The Interaction Company of California*, based in Palo Alto; the product launched publicly in March 2026.\n* **Functionality** includes daily planning, calendar management, health tracking, smart home control, photo editing, email alerts, medication reminders, and news updates — all via text message.\n* **No app required** — users simply visit [Poke.com](http://Poke.com), enter their phone number, and start chatting.\n* **Pre-built \"recipes\"** allow users to automate tasks using integrations with Gmail, Google Calendar, Strava, Oura, GitHub, Notion, and many more services.\n* **Funding** totals $25 million ($15M seed + $10M additional), with a post-money valuation of **$300 million**; backed by Spark Capital, General Catalyst, and notable angels including the Collison brothers (Stripe) and Logan Paul.\n* **Pricing** is flexible — free for basic use, with costs scaling based on real-time inference needs (estimated $10",
-    "author": "u/Money-Ranger-6520",
-    "author_name": "",
-    "date": "2026-04-09",
-    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a",
-    "kind": "other",
-    "tags": [
-      "reddit",
-      "imessage",
-      "sms",
-      "telegram",
-      "whatsapp",
-      "launch"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "product writeup: Poke via messaging platforms"
-  },
-  {
-    "id": "4bf64ca14e8d",
-    "agent": "poke",
-    "quote": "From the article:\n\nLaunched in March, Poke is one of the first AI agents designed to be accessible to everyday users who don’t have the technical skill set or inclination to work with command-line tools or more complex agentic systems, like OpenClaw. Today, Poke can help with common activities, like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message. To date, it’s relayed some 100 million messages, the company tells TechCrunch.\n\nThe AI service operates over SMS, Telegram, and, in some markets, WhatsApp. Now, Poke will be able to add iMessage to its supported platforms.\n\nThe news of Poke’s launch on Apple’s Messages for Business comes just days ahead of Apple’s anticipated Worldwide Developers Conference on Monday, where it’s expected to introduce an AI-optimized version of Siri along with other AI tools and services for app developers. It has also been rumored that Apple would open its App Store to AI agents.\n\n[Read more on TechCrunch.](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)",
-    "author": "u/techcrunch",
-    "author_name": "",
-    "date": "2026-06-04",
-    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1twy4ch/apple_approves_poke_as_the_first_ai_agent_on_its",
-    "kind": "other",
-    "tags": [
-      "reddit",
-      "apple-messages",
-      "imessage",
-      "openclaw"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "TechCrunch/AI sub: Apple approves Poke on Messages for Business"
-  },
-  {
-    "id": "3d5943740a79",
-    "agent": "poke",
-    "quote": "Right now I’m using saner ai instead of poke ai, because it has the proactive day brief, live inside another apps and has a workspace ui for me to work. Think you gonna like it, I also got recommend this from Reddit, I’m another sub lol",
-    "author": "u/xoammOl4561",
-    "author_name": "",
-    "date": "2026-07-23",
-    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oz7gjih",
-    "kind": "comparison",
-    "tags": [
-      "reddit",
-      "alternatives",
-      "proactive"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "comment: using saner ai instead of poke"
-  },
-  {
-    "id": "8d6dee91fa34",
-    "agent": "poke",
-    "quote": "wow \"just wrappers around GPT\" what is this 2023",
-    "author": "u/olliollie",
-    "author_name": "",
-    "date": "2026-07-21",
-    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oyy6tde",
-    "kind": "other",
-    "tags": [
-      "reddit"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "comment reacting to wrapper critique"
-  },
-  {
-    "id": "f84bb024e707",
-    "agent": "poke",
-    "quote": "You gotta get in on this! Poke AI changed my life within 15 minutes of starting to use it. I found out about it through Vaibhave Sisinty , founder of Outskill, where I did my AI training. I was an early adopter of LLMs and AI and favor Claude for keeping me on task, quickly brainstorming (or longer stuff). I do not use AI to manage my emails or sales funnels, etc. As a strategic copywriter and executive ghostwriter, my correspondence is direct and doesn't have a broad enough scope that I need assistance in that way. \n \nWhat I really needed was something like Claude that would track my time and engage actively on daily activities rather than passively follow up like Claude. Claude doesn't get in touch with me at 1:45 to see if I did the thing I said I would, even though it says things lik",
-    "author": "u/Rattle333",
-    "author_name": "",
-    "date": "2026-04-13",
-    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/ofxu88p",
-    "kind": "praise",
-    "tags": [
-      "reddit"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "third-party: changed life within 15 minutes"
-  },
-  {
-    "id": "72702a90b82f",
-    "agent": "poke",
-    "quote": "Is there a reason I can't sent prompts? The button to send a request to the AI is grayed out.",
-    "author": "u/Contempt_Awe",
-    "author_name": "",
-    "date": "2026-07-19",
-    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/oyfaap5",
-    "kind": "bug",
-    "tags": [
-      "reddit",
-      "ui"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "send button grayed out"
-  },
-  {
-    "id": "91867648d899",
-    "agent": "poke",
-    "quote": "The assistants:\n\nfolk [getfolk.app](https://www.getfolk.app/), imo the best one, memory-first, lives in iMessage, Telegram and Discord \nPoke [poke.com](http://poke.com), first agent approved on Apple's Messages for Business \nOllie [ollie.ai](http://ollie.ai), the family one, carries the schedule/school load \nLucas [meetlucas.ai](http://meetlucas.ai), texts you first, habits and accountability \nOrchid [orchid.ai](http://orchid.ai), exec assistant, drafts replies and books meetings, wants sign-off before sending \nTomo [tomo.ai](http://tomo.ai), goal tracking, coach that checks in on you \nZo [zo.computer](http://zo.computer), you text an actual cloud computer, comes with its own Linux server \nLindy [lindy.ai](http://lindy.ai), the work/EA one, also runs over SMS \nSauna [sauna.ai](http://sauna.ai), team memory, also lives in Slack and email\n\nThe infra layer:\n\nLinq [linqapp.com](http:",
-    "author": "u/OkInitiative4270",
-    "author_name": "",
-    "date": "2026-06-10",
-    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage",
-    "kind": "comparison",
-    "tags": [
-      "reddit",
-      "imessage",
-      "market-map",
-      "a16z"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "a16z iMessage assistants market map lists Poke"
-  },
-  {
-    "id": "883d6d27f598",
-    "agent": "poke",
-    "quote": "# 2. Poke\n\n**Website:** poke.com **Best for:** integrations and proactive nudges\n\n**Pros:**\n\n* Strong integrations with Gmail, Calendar, Notion, and other tools\n* Can text you first, which is important for an actual assistant\n* More polished and visible than most products in the category\n* Good for reminders, scheduling, and connected workflows\n\n**Cons:**\n\n* Memory does not feel as central as Folk\n* More focused on integrations and proactive messages than becoming your long-term personal context layer\n* Pricing and access can be a bit harder to understand\n\n**My take:** Probably the best option if you care more about integrations than memory.",
-    "author": "u/Alone-Coyote3916",
-    "author_name": "",
-    "date": "2026-06-24",
-    "url": "https://www.reddit.com/r/AskVibecoders/comments/1ue5epn/ive_tested_all_personal_ai_assistants_so_you_dont#poke-review",
-    "kind": "comparison",
-    "tags": [
-      "reddit",
-      "integrations",
-      "proactive",
-      "review"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-06T21:06:36.340026+00:00",
-    "notes": "third-party review: Poke integrations"
-  },
-  {
-    "id": "d798e0055353",
-    "agent": "poke",
-    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
-    "author": "@prathitjoshi_",
-    "author_name": "Prathit",
-    "date": "2026-09-07",
-    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
-    "kind": "complaint",
-    "tags": [
-      "activation",
-      "use-case-gap",
-      "comparison"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:07:33Z",
-    "notes": "Same post; Poke named in task-gap complaint"
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "User complaint about post-acquisition performance and lack of updates."
   },
   {
     "id": "fb546c74631e",
     "agent": "poke",
-    "quote": "@0xTykoo 没体验出和 https://poke.com 等本质区别，虽然融资规模天壤之别",
+    "quote": "@0xTykoo \u6ca1\u4f53\u9a8c\u51fa\u548c https://poke.com \u7b49\u672c\u8d28\u533a\u522b\uff0c\u867d\u7136\u878d\u8d44\u89c4\u6a21\u5929\u58e4\u4e4b\u522b",
     "author": "@thejingtao",
     "author_name": "Jingtao Wang",
     "date": "2026-09-08",
@@ -644,30 +54,13 @@
     "notes": "query: \"poke.com\" | via x402atlas"
   },
   {
-    "id": "6deb5a3858ff",
+    "id": "061345c915b7",
     "agent": "poke",
-    "quote": "Interesting to think about how https://Poke.com was the exact same product thesis as Instinct, just a tad early. Got so much exactly right looking back.\n\nPerhaps with a couple more model improvements and a couple months, things would've turned out differently.\n\nBut also not too late. An opportunity for @cognition to move past coding into the mass market.",
-    "author": "@RPavuluri",
-    "author_name": "Rohan Pavuluri",
-    "date": "2026-09-07",
-    "url": "https://x.com/RPavuluri/status/2097050889189998865",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.703Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
-  },
-  {
-    "id": "6bc30031876e",
-    "agent": "poke",
-    "quote": "@bargava https://poke.com/",
-    "author": "@narayananh",
-    "author_name": "Narayanan Hariharan",
-    "date": "2026-09-07",
-    "url": "https://x.com/narayananh/status/2096957608670421063",
+    "quote": "@HarshitKhemani @interaction lmaoo",
+    "author": "@sidposting",
+    "author_name": "Siddhartha",
+    "date": "2026-09-08",
+    "url": "https://x.com/sidposting/status/2097200497883287751",
     "kind": "other",
     "tags": [
       "auto",
@@ -676,25 +69,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
-  },
-  {
-    "id": "0d3e55fc92ba",
-    "agent": "poke",
-    "quote": "@eranyac לא הבנתי את ההתלהבות,\nמה ההבדל בינו לבין https://poke.com שקיים כבר תקופה ומאושר על ידי אפל.",
-    "author": "@IsraelPartyX",
-    "author_name": "Israel Party",
-    "date": "2026-09-07",
-    "url": "https://x.com/IsraelPartyX/status/2096918598707020135",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: @interaction | via x402atlas"
   },
   {
     "id": "fc72324c61a2",
@@ -709,40 +84,6 @@
       "auto",
       "x",
       "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "ffdb347499f7",
-    "agent": "poke",
-    "quote": "i let @interaction + gpt 6 astra be my growth eng\n\ni now have a receipt deck that i flick away to check my transactions https://t.co/BUBbEsiaIV",
-    "author": "@aarozco",
-    "author_name": "ao",
-    "date": "2026-09-08",
-    "url": "https://x.com/aarozco/status/2097329893570957649",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "5dabb979f8e1",
-    "agent": "poke",
-    "quote": "@interaction https://t.co/tOJsTYTPbk",
-    "author": "@ezShroom",
-    "author_name": "Queen Elizabeth II",
-    "date": "2026-09-08",
-    "url": "https://x.com/ezShroom/status/2097317318023868762",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
@@ -785,18 +126,17 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "061345c915b7",
+    "id": "5dabb979f8e1",
     "agent": "poke",
-    "quote": "@HarshitKhemani @interaction lmaoo",
-    "author": "@sidposting",
-    "author_name": "Siddhartha",
+    "quote": "@interaction https://t.co/tOJsTYTPbk",
+    "author": "@ezShroom",
+    "author_name": "Queen Elizabeth II",
     "date": "2026-09-08",
-    "url": "https://x.com/sidposting/status/2097200497883287751",
+    "url": "https://x.com/ezShroom/status/2097317318023868762",
     "kind": "other",
     "tags": [
       "auto",
-      "x",
-      "reply"
+      "x"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
@@ -821,9 +161,66 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
+    "id": "02b5ee7799c2",
+    "agent": "poke",
+    "quote": "As a personal agent normie, I've used @openclaw (too much work, unreliable), @interaction (useful, but annoyingly flippant), Instinct (incredibly capable, but not integrated with iMessage like Poke).\n\nI think Meta will come out with the best personal agent experience, and @Muse appears to be that. But it's probably too good, where it optimizes for time spent in-app / equivalence of mindless doomscrolling.\n\nI realize now I want multiple agents in imessage that are A+ at what they do.\nI want a travel agent that's extremely good at booking travel, a cooking agent that doesn't just pull from SEO-optimized recipes, a fitness agent for my prefs, and an all-purpose agent for overall research.\n\nAnd one place to gather my context for all my agents to pull from (loving @falconer_ai mcp for this ofc...)\n\nAll I know is juggling multiple topics in one message agent chat is a terrible experience.",
+    "author": "@capitaltruist",
+    "author_name": "Dave Nunez",
+    "date": "2026-09-08",
+    "url": "https://x.com/capitaltruist/status/2097420610842636394",
+    "kind": "comparison",
+    "tags": [
+      "iMessage",
+      "multi-agent",
+      "travel",
+      "cooking",
+      "fitness",
+      "research",
+      "UX"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Detailed independent comparison: Poke is iMessage-integrated; user wants specialized agents and says multi-topic agent chat is terrible UX."
+  },
+  {
+    "id": "ffdb347499f7",
+    "agent": "poke",
+    "quote": "i let @interaction + gpt 6 astra be my growth eng\n\ni now have a receipt deck that i flick away to check my transactions https://t.co/BUBbEsiaIV",
+    "author": "@aarozco",
+    "author_name": "ao",
+    "date": "2026-09-08",
+    "url": "https://x.com/aarozco/status/2097329893570957649",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.704Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "6c25c8a393f8",
+    "agent": "poke",
+    "quote": "seeing what Instinct can do over poke by @interaction, just amazes me on the advancements, and effectively keep on building even though a product might already exist",
+    "author": "@Shu3ham96",
+    "author_name": "Shubham",
+    "date": "2026-09-08",
+    "url": "https://x.com/Shu3ham96/status/2097449558926360958",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "capability",
+      "product-development"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Compares Instinct's capabilities with Poke and praises continued building despite an existing product."
+  },
+  {
     "id": "f78248dc4770",
     "agent": "poke",
-    "quote": "HAPPY BIRTHDAY @interaction 😭 https://t.co/acvdujOoLV",
+    "quote": "HAPPY BIRTHDAY @interaction \ud83d\ude2d https://t.co/acvdujOoLV",
     "author": "@HarshitKhemani",
     "author_name": "Harshit Khemani",
     "date": "2026-09-08",
@@ -838,13 +235,13 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "7170d3c1503e",
+    "id": "6581de6baa13",
     "agent": "poke",
-    "quote": "@strimblez @AlexPallNY @interaction sorta failed Paris bench 😂 https://t.co/IvI4MoEWTf",
-    "author": "@raghavrmehta",
-    "author_name": "Raghav Raj Mehta",
+    "quote": "@theaaron @cognition @interaction fumbling? i think thats what its called these days",
+    "author": "@x6c75",
+    "author_name": "lu",
     "date": "2026-09-07",
-    "url": "https://x.com/raghavrmehta/status/2097034280199479499",
+    "url": "https://x.com/x6c75/status/2096772214993351123",
     "kind": "other",
     "tags": [
       "auto",
@@ -852,41 +249,7 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "2b2d4f12e781",
-    "agent": "poke",
-    "quote": "Reminder that Poke @interaction fought Meta in EU courts to let them allow AI Agents on WhatsApp.\n\nNow WA is going to charge per message delivered so your cost becomes Token + some cents to WhatsApp.\n\nOct 1.",
-    "author": "@sdrth",
-    "author_name": "Siddharth Jaiswal",
-    "date": "2026-09-07",
-    "url": "https://x.com/sdrth/status/2096999695860249016",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "32949d7df812",
-    "agent": "poke",
-    "quote": "Dear @interaction , I love Poke but it feels like he is getting dumber everyday I feel like I have to correct him every time we need something a little bit of nuance I already told him to lookup recent info before committing but he still makes mistakes frequently. https://t.co/hyxI5tbxld",
-    "author": "@furkan_plus",
-    "author_name": "Furkan+",
-    "date": "2026-09-07",
-    "url": "https://x.com/furkan_plus/status/2096990388263268469",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.704Z",
+    "collected_at": "2026-09-08T15:45:36.705Z",
     "notes": "query: @interaction | via x402atlas"
   },
   {
@@ -910,7 +273,7 @@
   {
     "id": "2b826cda172e",
     "agent": "poke",
-    "quote": "@HarryStebbings @noahrshinn I have the same thing on poke / @interaction, basically free and less privacy issues… really don’t get why mainstream VC X is obsessed with instinct when poke has been around for over a year",
+    "quote": "@HarryStebbings @noahrshinn I have the same thing on poke / @interaction, basically free and less privacy issues\u2026 really don\u2019t get why mainstream VC X is obsessed with instinct when poke has been around for over a year",
     "author": "@vdhCapital",
     "author_name": "vdh Capital",
     "date": "2026-09-07",
@@ -924,6 +287,76 @@
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
     "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "ff811b692ef8",
+    "agent": "poke",
+    "quote": "what is @cognition doing with @interaction Poke? https://t.co/D95LIg4DMe",
+    "author": "@theaaron",
+    "author_name": "Aaron Makelky",
+    "date": "2026-09-07",
+    "url": "https://x.com/theaaron/status/2096771812491440389",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.705Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "2b2d4f12e781",
+    "agent": "poke",
+    "quote": "Reminder that Poke @interaction fought Meta in EU courts to let them allow AI Agents on WhatsApp.\n\nNow WA is going to charge per message delivered so your cost becomes Token + some cents to WhatsApp.\n\nOct 1.",
+    "author": "@sdrth",
+    "author_name": "Siddharth Jaiswal",
+    "date": "2026-09-07",
+    "url": "https://x.com/sdrth/status/2096999695860249016",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.704Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "7170d3c1503e",
+    "agent": "poke",
+    "quote": "@strimblez @AlexPallNY @interaction sorta failed Paris bench \ud83d\ude02 https://t.co/IvI4MoEWTf",
+    "author": "@raghavrmehta",
+    "author_name": "Raghav Raj Mehta",
+    "date": "2026-09-07",
+    "url": "https://x.com/raghavrmehta/status/2097034280199479499",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.704Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "d798e0055353",
+    "agent": "poke",
+    "quote": "Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.\n\nWith instinct, poke and openclaw the biggest issue is the lack of tasks that i want to automate\n\nIm talking about normie usecases and not the job related tasks like review my pr or",
+    "author": "@prathitjoshi_",
+    "author_name": "Prathit",
+    "date": "2026-09-07",
+    "url": "https://x.com/prathitjoshi_/status/2096934208883323076",
+    "kind": "complaint",
+    "tags": [
+      "activation",
+      "use-case-gap",
+      "comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:07:33Z",
+    "notes": "Same post; Poke named in task-gap complaint"
   },
   {
     "id": "f12097157c20",
@@ -944,20 +377,41 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "490b802ac14d",
+    "id": "6bc30031876e",
     "agent": "poke",
-    "quote": "@interaction how did you guys become so successful?",
-    "author": "@Nacoja_H",
-    "author_name": "Nando Hemmelskamp",
+    "quote": "@bargava https://poke.com/",
+    "author": "@narayananh",
+    "author_name": "Narayanan Hariharan",
     "date": "2026-09-07",
-    "url": "https://x.com/Nacoja_H/status/2096915535921291484",
+    "url": "https://x.com/narayananh/status/2096957608670421063",
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
+    "notes": "query: \"poke.com\" | via x402atlas"
+  },
+  {
+    "id": "c856bcfee89a",
+    "agent": "poke",
+    "quote": "@theaaron @cognition @interaction \ud83d\udc40\ud83d\udc40",
+    "author": "@marvinvonhagen",
+    "author_name": "Marvin von Hagen",
+    "date": "2026-09-07",
+    "url": "https://x.com/marvinvonhagen/status/2096785190878400588",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.705Z",
     "notes": "query: @interaction | via x402atlas"
   },
   {
@@ -979,11 +433,28 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
+    "id": "32949d7df812",
+    "agent": "poke",
+    "quote": "Dear @interaction , I love Poke but it feels like he is getting dumber everyday I feel like I have to correct him every time we need something a little bit of nuance I already told him to lookup recent info before committing but he still makes mistakes frequently. https://t.co/hyxI5tbxld",
+    "author": "@furkan_plus",
+    "author_name": "Furkan+",
+    "date": "2026-09-07",
+    "url": "https://x.com/furkan_plus/status/2096990388263268469",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.704Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
     "id": "d1d8689eb567",
     "agent": "poke",
     "quote": "@x6c75 @theaaron @cognition @interaction yup",
     "author": "@Simemeulation",
-    "author_name": "💁🏽‍♂️Aston🦦",
+    "author_name": "\ud83d\udc81\ud83c\udffd\u200d\u2642\ufe0fAston\ud83e\udda6",
     "date": "2026-09-07",
     "url": "https://x.com/Simemeulation/status/2096810797284376772",
     "kind": "other",
@@ -997,33 +468,47 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "c856bcfee89a",
+    "id": "6deb5a3858ff",
     "agent": "poke",
-    "quote": "@theaaron @cognition @interaction 👀👀",
-    "author": "@marvinvonhagen",
-    "author_name": "Marvin von Hagen",
+    "quote": "Interesting to think about how https://Poke.com was the exact same product thesis as Instinct, just a tad early. Got so much exactly right looking back.\n\nPerhaps with a couple more model improvements and a couple months, things would've turned out differently.\n\nBut also not too late. An opportunity for @cognition to move past coding into the mass market.",
+    "author": "@RPavuluri",
+    "author_name": "Rohan Pavuluri",
     "date": "2026-09-07",
-    "url": "https://x.com/marvinvonhagen/status/2096785190878400588",
+    "url": "https://x.com/RPavuluri/status/2097050889189998865",
     "kind": "other",
     "tags": [
       "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
+      "x"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:45:36.705Z",
+    "collected_at": "2026-09-08T15:45:36.703Z",
+    "notes": "query: \"poke.com\" | via x402atlas"
+  },
+  {
+    "id": "490b802ac14d",
+    "agent": "poke",
+    "quote": "@interaction how did you guys become so successful?",
+    "author": "@Nacoja_H",
+    "author_name": "Nando Hemmelskamp",
+    "date": "2026-09-07",
+    "url": "https://x.com/Nacoja_H/status/2096915535921291484",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:45:36.704Z",
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "6581de6baa13",
+    "id": "0d3e55fc92ba",
     "agent": "poke",
-    "quote": "@theaaron @cognition @interaction fumbling? i think thats what its called these days",
-    "author": "@x6c75",
-    "author_name": "lu",
+    "quote": "@eranyac \u05dc\u05d0 \u05d4\u05d1\u05e0\u05ea\u05d9 \u05d0\u05ea \u05d4\u05d4\u05ea\u05dc\u05d4\u05d1\u05d5\u05ea,\n\u05de\u05d4 \u05d4\u05d4\u05d1\u05d3\u05dc \u05d1\u05d9\u05e0\u05d5 \u05dc\u05d1\u05d9\u05df https://poke.com \u05e9\u05e7\u05d9\u05d9\u05dd \u05db\u05d1\u05e8 \u05ea\u05e7\u05d5\u05e4\u05d4 \u05d5\u05de\u05d0\u05d5\u05e9\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d0\u05e4\u05dc.",
+    "author": "@IsraelPartyX",
+    "author_name": "Israel Party",
     "date": "2026-09-07",
-    "url": "https://x.com/x6c75/status/2096772214993351123",
+    "url": "https://x.com/IsraelPartyX/status/2096918598707020135",
     "kind": "other",
     "tags": [
       "auto",
@@ -1031,41 +516,7 @@
       "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "ff811b692ef8",
-    "agent": "poke",
-    "quote": "what is @cognition doing with @interaction Poke? https://t.co/D95LIg4DMe",
-    "author": "@theaaron",
-    "author_name": "Aaron Makelky",
-    "date": "2026-09-07",
-    "url": "https://x.com/theaaron/status/2096771812491440389",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "fa4208d42d29",
-    "agent": "poke",
-    "quote": "https://poke.com/",
-    "author": "@attrip",
-    "author_name": "attrip",
-    "date": "2026-09-01",
-    "url": "https://x.com/attrip/status/2094934463474258423",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.499Z",
+    "collected_at": "2026-09-08T15:45:36.704Z",
     "notes": "query: \"poke.com\" | via x402atlas"
   },
   {
@@ -1104,27 +555,9 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "48d5776142bb",
-    "agent": "poke",
-    "quote": "@sakshiseninsane @interaction @bot haha, do share if you try!!",
-    "author": "@1sqre",
-    "author_name": "Anil 🪐🌷",
-    "date": "2026-09-06",
-    "url": "https://x.com/1sqre/status/2096625039177396547",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
     "id": "7bbf61bae137",
     "agent": "poke",
-    "quote": "@1sqre @interaction @bot Only difference is\nI haven’t used others yet",
+    "quote": "@1sqre @interaction @bot Only difference is\nI haven\u2019t used others yet",
     "author": "@sakshiseninsane",
     "author_name": "Sakshi S",
     "date": "2026-09-06",
@@ -1157,29 +590,11 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "d74eefcdfad3",
-    "agent": "poke",
-    "quote": "@sakshiseninsane how's it different from @interaction or even @bot ?",
-    "author": "@1sqre",
-    "author_name": "Anil 🪐🌷",
-    "date": "2026-09-06",
-    "url": "https://x.com/1sqre/status/2096579385889567213",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
     "id": "5bba8c289526",
     "agent": "poke",
-    "quote": "@interaction Estão sumidos... cade voces?",
+    "quote": "@interaction Est\u00e3o sumidos... cade voces?",
     "author": "@fazedordecodigo",
-    "author_name": "Delatorre ➔ onmind.com.br",
+    "author_name": "Delatorre \u2794 onmind.com.br",
     "date": "2026-09-06",
     "url": "https://x.com/fazedordecodigo/status/2096388565907153052",
     "kind": "other",
@@ -1193,13 +608,48 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "5cf84fb30c4e",
+    "id": "8ed9983213bc",
     "agent": "poke",
-    "quote": "@jacobmparis @interaction took me a second lol",
-    "author": "@AdamHoltererer",
-    "author_name": "Adam Holter",
-    "date": "2026-09-05",
-    "url": "https://x.com/AdamHoltererer/status/2096345353469460523",
+    "quote": "Poke AI getting worse after being bought by cognition",
+    "author": "@essenaoeomeeks",
+    "author_name": "Michael Holder",
+    "date": "2026-09-06",
+    "url": "https://x.com/essenaoeomeeks/status/2096435611049640122",
+    "kind": "complaint",
+    "tags": [
+      "cognition",
+      "regression"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "worse after Cognition buy"
+  },
+  {
+    "id": "11fa7ba38418",
+    "agent": "poke",
+    "quote": "A lot of people would be fine using ai for work if it was more like \n@interaction\n\u2019s poke.\n\nSlop is killing your drive to work .\n\nCommunication be effective .\n\nI dont need a wall of text what i need is a easy to Talk to main orchestrator whom summarizes and ensures that i know",
+    "author": "@Aikun011",
+    "author_name": "Megamind",
+    "date": "2026-09-06",
+    "url": "https://x.com/Aikun011/status/2096546873855430960",
+    "kind": "praise",
+    "tags": [
+      "work",
+      "orchestrator",
+      "communication"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "want AI more like Poke; anti-slop"
+  },
+  {
+    "id": "48d5776142bb",
+    "agent": "poke",
+    "quote": "@sakshiseninsane @interaction @bot haha, do share if you try!!",
+    "author": "@1sqre",
+    "author_name": "Anil \ud83e\ude90\ud83c\udf37",
+    "date": "2026-09-06",
+    "url": "https://x.com/1sqre/status/2096625039177396547",
     "kind": "other",
     "tags": [
       "auto",
@@ -1211,48 +661,13 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "57098d021f88",
+    "id": "d74eefcdfad3",
     "agent": "poke",
-    "quote": "@noahrshinn @interaction when?",
-    "author": "@BrandonGarland",
-    "author_name": "Brandon Garland",
-    "date": "2026-09-05",
-    "url": "https://x.com/BrandonGarland/status/2096339497524813825",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "83ebed2a3b8a",
-    "agent": "poke",
-    "quote": "canada is FURIOUS that @interaction switched to mongodb https://t.co/meaEltl9mx",
-    "author": "@jacobmparis",
-    "author_name": "jacob paris ▲",
-    "date": "2026-09-05",
-    "url": "https://x.com/jacobmparis/status/2096301845840818321",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
-  },
-  {
-    "id": "8fdd457a3723",
-    "agent": "poke",
-    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto speed matters on RH — alerts before the screenshot meta is the edge",
-    "author": "@c0rtex1100X",
-    "author_name": "Trenchwerk",
-    "date": "2026-09-05",
-    "url": "https://x.com/c0rtex1100X/status/2096117429109735828",
+    "quote": "@sakshiseninsane how's it different from @interaction or even @bot ?",
+    "author": "@1sqre",
+    "author_name": "Anil \ud83e\ude90\ud83c\udf37",
+    "date": "2026-09-06",
+    "url": "https://x.com/1sqre/status/2096579385889567213",
     "kind": "other",
     "tags": [
       "auto",
@@ -1282,11 +697,64 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
+    "id": "83ebed2a3b8a",
+    "agent": "poke",
+    "quote": "canada is FURIOUS that @interaction switched to mongodb https://t.co/meaEltl9mx",
+    "author": "@jacobmparis",
+    "author_name": "jacob paris \u25b2",
+    "date": "2026-09-05",
+    "url": "https://x.com/jacobmparis/status/2096301845840818321",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.499Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "8fdd457a3723",
+    "agent": "poke",
+    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto speed matters on RH \u2014 alerts before the screenshot meta is the edge",
+    "author": "@c0rtex1100X",
+    "author_name": "Trenchwerk",
+    "date": "2026-09-05",
+    "url": "https://x.com/c0rtex1100X/status/2096117429109735828",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.499Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "e2da2d163119",
+    "agent": "poke",
+    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto the cleanest alerts are still the ones that catch the first weird wick \ud83d\ude02",
+    "author": "@c0rtex1100X",
+    "author_name": "Trenchwerk",
+    "date": "2026-09-05",
+    "url": "https://x.com/c0rtex1100X/status/2096098519509615080",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.499Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
     "id": "a36211f5d636",
     "agent": "poke",
     "quote": "@c0rtex1100X @interaction @RobinhoodApp @RobinhoodCrypto - 15 min scan interval\n- $60k LP floor\n- $25k 1h / $100k 24h vol\n- 2-4h pair age window",
     "author": "@DNAdotGM",
-    "author_name": "🧬.gm",
+    "author_name": "\ud83e\uddec.gm",
     "date": "2026-09-05",
     "url": "https://x.com/DNAdotGM/status/2096102632532459905",
     "kind": "other",
@@ -1302,9 +770,9 @@
   {
     "id": "5632a9039792",
     "agent": "poke",
-    "quote": "@0xDrRick @interaction @RobinhoodApp @RobinhoodCrypto 🎯",
+    "quote": "@0xDrRick @interaction @RobinhoodApp @RobinhoodCrypto \ud83c\udfaf",
     "author": "@DNAdotGM",
-    "author_name": "🧬.gm",
+    "author_name": "\ud83e\uddec.gm",
     "date": "2026-09-05",
     "url": "https://x.com/DNAdotGM/status/2096102432908759043",
     "kind": "other",
@@ -1318,13 +786,31 @@
     "notes": "query: @interaction | via x402atlas"
   },
   {
-    "id": "e2da2d163119",
+    "id": "2c66b4917595",
     "agent": "poke",
-    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto the cleanest alerts are still the ones that catch the first weird wick 😂",
-    "author": "@c0rtex1100X",
-    "author_name": "Trenchwerk",
+    "quote": "How do you catch the next \n$MEME\n on #RobinhoodChain before CT posts 1000x pnl screenshots?\n\nI built a \n@interaction\n Poke recipe that texts you SMS alerts for breakout runners and whale buys on \n@RobinhoodApp\n\nNo chart watching\nJust a text when real momentum ignites\n\n\ud83d\udc49",
+    "author": "@DNAdotGM",
+    "author_name": "\ud83e\uddec.gm",
     "date": "2026-09-05",
-    "url": "https://x.com/c0rtex1100X/status/2096098519509615080",
+    "url": "https://x.com/DNAdotGM/status/2096102350259888156",
+    "kind": "use-case",
+    "tags": [
+      "recipes",
+      "sms",
+      "crypto"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "Poke recipe SMS alerts for meme coins"
+  },
+  {
+    "id": "57098d021f88",
+    "agent": "poke",
+    "quote": "@noahrshinn @interaction when?",
+    "author": "@BrandonGarland",
+    "author_name": "Brandon Garland",
+    "date": "2026-09-05",
+    "url": "https://x.com/BrandonGarland/status/2096339497524813825",
     "kind": "other",
     "tags": [
       "auto",
@@ -1334,6 +820,42 @@
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
     "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "5cf84fb30c4e",
+    "agent": "poke",
+    "quote": "@jacobmparis @interaction took me a second lol",
+    "author": "@AdamHoltererer",
+    "author_name": "Adam Holter",
+    "date": "2026-09-05",
+    "url": "https://x.com/AdamHoltererer/status/2096345353469460523",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.499Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "3606dd792084",
+    "agent": "poke",
+    "quote": "Instinct is just poke / \n@interaction\n with an older icp and a horrible privacy policy",
+    "author": "@vdhCapital",
+    "author_name": "vdh Capital",
+    "date": "2026-09-04",
+    "url": "https://x.com/vdhCapital/status/2095934258971890138",
+    "kind": "comparison",
+    "tags": [
+      "instinct",
+      "privacy",
+      "icp"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Instinct = Poke + older ICP + horrible privacy policy"
   },
   {
     "id": "4be90c5c2fce",
@@ -1352,6 +874,533 @@
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
     "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "16a4f0132c41",
+    "agent": "poke",
+    "quote": "What's going on @interaction ? Sending random messages to me \ud83d\ude05 https://t.co/rkpGZ9CvF0",
+    "author": "@tobiastornros",
+    "author_name": "tobias",
+    "date": "2026-09-04",
+    "url": "https://x.com/tobiastornros/status/2095781979023138970",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "68e37317cd92",
+    "agent": "poke",
+    "quote": "The advantage of funding nowadays is distribution + offering generous free tiers for years. Then exit/sell; study the playbook \n@marvinvonhagen\n played with poke \n@interaction\n.",
+    "author": "@serglotz",
+    "author_name": "Serg",
+    "date": "2026-09-04",
+    "url": "https://x.com/serglotz/status/2095806225040527616",
+    "kind": "other",
+    "tags": [
+      "funding",
+      "distribution",
+      "free-tier"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:08:38.301308+00:00",
+    "notes": "Poke free-tier distribution playbook"
+  },
+  {
+    "id": "f70ea7202d2a",
+    "agent": "poke",
+    "quote": "@tobiastornros @interaction You\u2019ve been chosen to by them. Lisan al-Gaib",
+    "author": "@noah_eacc",
+    "author_name": "haon",
+    "date": "2026-09-04",
+    "url": "https://x.com/noah_eacc/status/2095794741459759440",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "8b9265d39535",
+    "agent": "poke",
+    "quote": "@fromsinaimportx @interaction circling back!  btw we are having the best imessage agent contest and you should def submit! happy shipping: https://x.com/PhotonHQ/status/2095652251880784100?s=20",
+    "author": "@PhotonHQ",
+    "author_name": "Photon",
+    "date": "2026-09-04",
+    "url": "https://x.com/PhotonHQ/status/2095765567835930796",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "67c23809676a",
+    "agent": "poke",
+    "quote": "@serglotz @yongfook @marvinvonhagen @interaction Yeah I think that's it. The network and intros that come with being tied to a VC fund/angels (as opposed to the indies selling to indies pattern) and enough $ to burn through for user acquisition. Very possible to thrive as a smart indie though.",
+    "author": "@OttoLorner",
+    "author_name": "Otto Lorner",
+    "date": "2026-09-04",
+    "url": "https://x.com/OttoLorner/status/2095810452123009412",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "3b09ed3e56c7",
+    "agent": "poke",
+    "quote": "Twent just killed @monogram_ai @openclaw , Instinct, Gemini android app, @agi_inc , @interaction  , @tomo",
+    "author": "@Jeff9James",
+    "author_name": "Jeffrin James\ud83c\udd97\ufe0f",
+    "date": "2026-09-04",
+    "url": "https://x.com/Jeff9James/status/2095833597819367886",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "33f29b155156",
+    "agent": "poke",
+    "quote": "install this recipe, and try to send a voice note while you check items in your kitchen to \n@interaction\n and watch it organize your messy audio note into a structured cart in real-time. thank me later :)",
+    "author": "@HarshitKhemani",
+    "author_name": "Harshit Khemani",
+    "date": "2026-09-04",
+    "url": "https://x.com/HarshitKhemani/status/2095876310174433708",
+    "kind": "use-case",
+    "tags": [
+      "recipes",
+      "voice",
+      "shopping"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "voice note \u2192 structured grocery cart"
+  },
+  {
+    "id": "543a6ce9e422",
+    "agent": "poke",
+    "quote": "@ishaandey_ @antigravity our @interaction bro got deepmind pilled",
+    "author": "@vedanth_jadhav",
+    "author_name": "Vedanth",
+    "date": "2026-09-03",
+    "url": "https://x.com/vedanth_jadhav/status/2095442162154704974",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "086814d46b32",
+    "agent": "poke",
+    "quote": "@ViceroyArthur @interaction \ud83d\ude2d",
+    "author": "@rohanpatraxyz",
+    "author_name": "Rohan Patra",
+    "date": "2026-09-03",
+    "url": "https://x.com/rohanpatraxyz/status/2095368827835957574",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "6af6f2043cd4",
+    "agent": "poke",
+    "quote": "it's going down almost everyone hour that even @interaction pokie is sending me pings\n\nwelp, astra is too powerful https://t.co/VYKVH6XKtn",
+    "author": "@notjazii",
+    "author_name": "J A Z I I",
+    "date": "2026-09-03",
+    "url": "https://x.com/notjazii/status/2095507838848340393",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "9c2bd5059704",
+    "agent": "poke",
+    "quote": "@HarshitKhemani @interaction vedanta did\nthing is this seems to be pretty attuned to india\nwhatsapp integration seems really solid and onboarding took like 120 seconds",
+    "author": "@marlbholo",
+    "author_name": "kabir (off meds)",
+    "date": "2026-09-03",
+    "url": "https://x.com/marlbholo/status/2095397593220329750",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "7bd285efda78",
+    "agent": "poke",
+    "quote": "way better Poke got dumb",
+    "author": "@denizdoingstuff",
+    "author_name": "deniz",
+    "date": "2026-09-03",
+    "url": "https://x.com/denizdoingstuff/status/2095474742417330487",
+    "kind": "complaint",
+    "tags": [
+      "quality",
+      "dumb"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: Poke got dumb"
+  },
+  {
+    "id": "17b2837985b1",
+    "agent": "poke",
+    "quote": "@ybhrdwj similar 2 @interaction",
+    "author": "@ayushmokal6",
+    "author_name": "Ayush Mokal",
+    "date": "2026-09-03",
+    "url": "https://x.com/ayushmokal6/status/2095452736414478350",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "92814b9ee1ef",
+    "agent": "poke",
+    "quote": "started using @interaction again and wow it is REALLY good \u2026",
+    "author": "@adiaddxyz",
+    "author_name": "aditya addepalli",
+    "date": "2026-09-03",
+    "url": "https://x.com/adiaddxyz/status/2095345234800513081",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "cf1b633ec410",
+    "agent": "poke",
+    "quote": "Also try out \nhttps://\npoke.com, just to see a competitor\u2019s product.",
+    "author": "@_hemantg",
+    "author_name": "Hemant G.",
+    "date": "2026-09-03",
+    "url": "https://x.com/_hemantg/status/2095396655235465647",
+    "kind": "other",
+    "tags": [
+      "competitor",
+      "try"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "third-party: try poke.com as competitor product"
+  },
+  {
+    "id": "96d1f65a0355",
+    "agent": "poke",
+    "quote": "@notjazii @interaction English?",
+    "author": "@StatSnipe",
+    "author_name": "Stat Snipe Analytics \uea00",
+    "date": "2026-09-03",
+    "url": "https://x.com/StatSnipe/status/2095540039073870076",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "2243a1476d9c",
+    "agent": "poke",
+    "quote": "@spacedouut_twt @interaction is @marvinvonhagen gonna snap? https://t.co/aww7XlBRbC",
+    "author": "@Netwarfare420",
+    "author_name": "Carlos",
+    "date": "2026-09-03",
+    "url": "https://x.com/Netwarfare420/status/2095482591273189789",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "bd7409844932",
+    "agent": "poke",
+    "quote": "@notjazii @interaction You text a bot like that?",
+    "author": "@MouseGoBurr",
+    "author_name": "High Th\u263bts",
+    "date": "2026-09-03",
+    "url": "https://x.com/MouseGoBurr/status/2095598890867429442",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "0aa080def636",
+    "agent": "poke",
+    "quote": "@_ketansahu @bot @GUSTAVOSCHMIDT yes! kinda like @interaction\nhttps://www.shloked.com/openpoke",
+    "author": "@HarshitKhemani",
+    "author_name": "Harshit Khemani",
+    "date": "2026-09-03",
+    "url": "https://x.com/HarshitKhemani/status/2095506517017723375",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "de9153a80b9b",
+    "agent": "poke",
+    "quote": "@marlbholo @interaction oo, yea poke isn't available on WhatsApp in India cuz of some policy issues from Meta (it used to be) \ud83d\udc94",
+    "author": "@HarshitKhemani",
+    "author_name": "Harshit Khemani",
+    "date": "2026-09-03",
+    "url": "https://x.com/HarshitKhemani/status/2095398092598358136",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "1bb51624b343",
+    "agent": "poke",
+    "quote": "@marlbholo try poke @interaction",
+    "author": "@HarshitKhemani",
+    "author_name": "Harshit Khemani",
+    "date": "2026-09-03",
+    "url": "https://x.com/HarshitKhemani/status/2095396778380288470",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "24943d1484b9",
+    "agent": "poke",
+    "quote": "@ybhrdwj wasnt @interaction supposed to be like this, what changed with instinct for you?",
+    "author": "@Anushlinux",
+    "author_name": "Anushrut",
+    "date": "2026-09-03",
+    "url": "https://x.com/Anushlinux/status/2095460546279780498",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:09:26.223Z",
+    "notes": "query: @interaction | via x402atlas"
+  },
+  {
+    "id": "fa4208d42d29",
+    "agent": "poke",
+    "quote": "https://poke.com/",
+    "author": "@attrip",
+    "author_name": "attrip",
+    "date": "2026-09-01",
+    "url": "https://x.com/attrip/status/2094934463474258423",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T15:56:00.499Z",
+    "notes": "query: \"poke.com\" | via x402atlas"
+  },
+  {
+    "id": "e9745140c50d",
+    "agent": "poke",
+    "quote": "iMessage based agent products will always fail. it is extremely obvious why.\n\nThis goes for instinct, poke, etc.\n\nIt has nothing to do with product quality. they are great products!",
+    "author": "@1_missthesun",
+    "author_name": "i miss the sun",
+    "date": "2026-09-01",
+    "url": "https://x.com/1_missthesun/status/2094594883797602796",
+    "kind": "complaint",
+    "tags": [
+      "imessage",
+      "form-factor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "iMessage agents will fail"
+  },
+  {
+    "id": "a4961831018c",
+    "agent": "poke",
+    "quote": "Instinct = way smarter. Poke = way faster.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-29",
+    "url": "https://x.com/DavidPawlan/status/2093726017701457953",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct",
+      "founder",
+      "vendor"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "c81920eae690",
+    "agent": "poke",
+    "quote": "I messaged Instinct, it didn\u2019t respond, and Poke responded that my messages were held up. That was weird.",
+    "author": "@DavidPawlan",
+    "author_name": "",
+    "date": "2026-08-28",
+    "url": "https://x.com/DavidPawlan/status/2093399388387250329",
+    "kind": "bug",
+    "tags": [
+      "reliability",
+      "routing",
+      "founder",
+      "vendor"
+    ],
+    "source": "david-post",
+    "collected_at": "2026-09-06T03:35:37.329063+00:00",
+    "notes": ""
+  },
+  {
+    "id": "02d7142ca5b4",
+    "agent": "poke",
+    "quote": "AI is never taking over us, not like this\n\nVery good job \n@interaction\n poke has been working like shit lately \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "author": "@ThisIsDaMatt",
+    "author_name": "ThisIsDaMatt \uea00",
+    "date": "2026-08-27",
+    "url": "https://x.com/ThisIsDaMatt/status/2093096612515995893",
+    "kind": "complaint",
+    "tags": [
+      "reliability"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "working like shit lately"
+  },
+  {
+    "id": "251ef4310e1d",
+    "agent": "poke",
+    "quote": "Bro just gets my random intrusive thoughts at 2 AM \ud83d\ude2d\nI love you Poke by \n@interaction",
+    "author": "@Coobyk_",
+    "author_name": "Coobyk",
+    "date": "2026-08-24",
+    "url": "https://x.com/Coobyk_/status/2091685571210940435",
+    "kind": "praise",
+    "tags": [
+      "personality"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": ""
+  },
+  {
+    "id": "8df0388dc524",
+    "agent": "poke",
+    "quote": "Personal AI has a new contender, Instinct feels like Poke++ but exposes a lot of ChatGPT-esque writing and wording.\n\nGiven what Codex/ChatGPT can already do with my Mac and remote control - the only differentiator remains the system instruction (which don't seem to add a lot of",
+    "author": "@sdrth",
+    "author_name": "Siddharth Jaiswal",
+    "date": "2026-08-21",
+    "url": "https://x.com/sdrth/status/2090724858330268058",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Instinct feels like Poke++"
+  },
+  {
+    "id": "d2ef1a61d751",
+    "agent": "poke",
+    "quote": "I got my pebble index 01 ring connected to \n@interaction\n poke so now I can add stuff to my calendar by speaking into a ring. Amazing.",
+    "author": "@MikeWallsQC",
+    "author_name": "Mike Walls",
+    "date": "2026-08-21",
+    "url": "https://x.com/MikeWallsQC/status/2090599025258987861",
+    "kind": "use-case",
+    "tags": [
+      "wearable",
+      "calendar"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "pebble ring"
   },
   {
     "id": "4c0687af8ea3",
@@ -1407,324 +1456,408 @@
     "notes": "query: \"poke.com\" | via x402atlas"
   },
   {
-    "id": "3b09ed3e56c7",
+    "id": "33816aa70d4d",
     "agent": "poke",
-    "quote": "Twent just killed @monogram_ai @openclaw , Instinct, Gemini android app, @agi_inc , @interaction  , @tomo",
-    "author": "@Jeff9James",
-    "author_name": "Jeffrin James🆗️",
-    "date": "2026-09-04",
-    "url": "https://x.com/Jeff9James/status/2095833597819367886",
-    "kind": "other",
+    "quote": "i\u2019m a power user of \n@interaction\n but keep thinking what real things can i get done: currently it\u2019s largely an email reader, a to do list, and a very funny bot (amazing product btw) \n\ngiving poke a phone no, email alias and a browser use ability would be a game changer",
+    "author": "@PPaloju",
+    "author_name": "prajwal",
+    "date": "2026-07-30",
+    "url": "https://x.com/PPaloju/status/2082906183288111126",
+    "kind": "complaint",
     "tags": [
-      "auto",
-      "x"
+      "depth"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "email reader / todo / funny bot"
   },
   {
-    "id": "67c23809676a",
+    "id": "3d5943740a79",
     "agent": "poke",
-    "quote": "@serglotz @yongfook @marvinvonhagen @interaction Yeah I think that's it. The network and intros that come with being tied to a VC fund/angels (as opposed to the indies selling to indies pattern) and enough $ to burn through for user acquisition. Very possible to thrive as a smart indie though.",
-    "author": "@OttoLorner",
-    "author_name": "Otto Lorner",
-    "date": "2026-09-04",
-    "url": "https://x.com/OttoLorner/status/2095810452123009412",
-    "kind": "other",
+    "quote": "Right now I\u2019m using saner ai instead of poke ai, because it has the proactive day brief, live inside another apps and has a workspace ui for me to work. Think you gonna like it, I also got recommend this from Reddit, I\u2019m another sub lol",
+    "author": "u/xoammOl4561",
+    "author_name": "",
+    "date": "2026-07-23",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oz7gjih",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit",
+      "alternatives",
+      "proactive"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment: using saner ai instead of poke"
   },
   {
-    "id": "f70ea7202d2a",
+    "id": "8d6dee91fa34",
     "agent": "poke",
-    "quote": "@tobiastornros @interaction You’ve been chosen to by them. Lisan al-Gaib",
-    "author": "@noah_eacc",
-    "author_name": "haon",
-    "date": "2026-09-04",
-    "url": "https://x.com/noah_eacc/status/2095794741459759440",
+    "quote": "wow \"just wrappers around GPT\" what is this 2023",
+    "author": "u/olliollie",
+    "author_name": "",
+    "date": "2026-07-21",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best/oyy6tde",
     "kind": "other",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "comment reacting to wrapper critique"
   },
   {
-    "id": "16a4f0132c41",
+    "id": "72702a90b82f",
     "agent": "poke",
-    "quote": "What's going on @interaction ? Sending random messages to me 😅 https://t.co/rkpGZ9CvF0",
-    "author": "@tobiastornros",
-    "author_name": "tobias",
-    "date": "2026-09-04",
-    "url": "https://x.com/tobiastornros/status/2095781979023138970",
-    "kind": "other",
+    "quote": "Is there a reason I can't sent prompts? The button to send a request to the AI is grayed out.",
+    "author": "u/Contempt_Awe",
+    "author_name": "",
+    "date": "2026-07-19",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/oyfaap5",
+    "kind": "bug",
     "tags": [
-      "auto",
-      "x"
+      "reddit",
+      "ui"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "send button grayed out"
   },
   {
-    "id": "8b9265d39535",
+    "id": "2de2892742de",
     "agent": "poke",
-    "quote": "@fromsinaimportx @interaction circling back!  btw we are having the best imessage agent contest and you should def submit! happy shipping: https://x.com/PhotonHQ/status/2095652251880784100?s=20",
-    "author": "@PhotonHQ",
-    "author_name": "Photon",
-    "date": "2026-09-04",
-    "url": "https://x.com/PhotonHQ/status/2095765567835930796",
-    "kind": "other",
+    "quote": "I\u2019ve tried Poke AI after seeing it on the news as the first third-party AI agent officially approved for Apple's Messages.\n\nI like the concept of having a proactive AI assistant inside your iMessage, but I\u2019d like an alternative that lives inside a separate app, I'm trying to see if there are any alternatives. Do you guys know any Poke alternatives that offer similar text-to-action functionality and also have a good memory, like a companion, thanks\n\n**Edit:** I'm using Daimon for a bit now and this is probably the closest thing to what I was looking for. It feels much more like a personal companion than an assistant, it remembers little things from previous conversations, I use it to dump thoughts, talk through decisions and keep track of stuff I want to come back to later. The conversations also feel way less transactional than most AI assistants I've tried.\n\nFor my use case at least, Daimon has probably been the best Poke alternative so far.",
+    "author": "u/michaeltabuac8",
+    "author_name": "",
+    "date": "2026-07-18",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1uzxhjg/i_need_an_ai_personal_assistant_what_are_the_best",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit",
+      "imessage",
+      "alternatives",
+      "apple-messages"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party seeking Poke alternatives after Apple Messages approval news"
   },
   {
-    "id": "bd7409844932",
+    "id": "c4348cf87c36",
     "agent": "poke",
-    "quote": "@notjazii @interaction You text a bot like that?",
-    "author": "@MouseGoBurr",
-    "author_name": "High Th☻ts",
-    "date": "2026-09-03",
-    "url": "https://x.com/MouseGoBurr/status/2095598890867429442",
-    "kind": "other",
+    "quote": "We specifically tracked chained requests (three or more linked actions in a single text) to check for the multi-step degradation we'd read about in user reports, and confirmed it: single and two-step requests succeeded in our informal tracking around 90% of the time, while three-plus step chains dropped closer to 60% success without follow-up clarification.",
+    "author": "agent-finder",
+    "author_name": "Atlas / Todd Stearn",
+    "date": "2026-07-18",
+    "url": "https://agent-finder.co/reviews/poke",
+    "kind": "bug",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "multi-step",
+      "reliability",
+      "testing"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "3-week July 2026 test quantifying multi-step failure rate."
   },
   {
-    "id": "96d1f65a0355",
+    "id": "7bb8db836f64",
     "agent": "poke",
-    "quote": "@notjazii @interaction English?",
-    "author": "@StatSnipe",
-    "author_name": "Stat Snipe Analytics ",
-    "date": "2026-09-03",
-    "url": "https://x.com/StatSnipe/status/2095540039073870076",
-    "kind": "other",
+    "quote": "Same... spent a fair amount creating a \nhttp://\npoke.site and now it's broken w/ a database lock.. no response to emails to \n@poke\n since Thursday. In process of moving it all away. It also told me that Biden is visiting Norway today, then admitted it was 3 year old news",
+    "author": "@LordArche",
+    "author_name": "oGeneo",
+    "date": "2026-07-13",
+    "url": "https://x.com/LordArche/status/2076748100862148798",
+    "kind": "bug",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reliability",
+      "support"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "poke.site broken, no support"
   },
   {
-    "id": "6af6f2043cd4",
+    "id": "741bb7f38ddb",
     "agent": "poke",
-    "quote": "it's going down almost everyone hour that even @interaction pokie is sending me pings\n\nwelp, astra is too powerful https://t.co/VYKVH6XKtn",
-    "author": "@notjazii",
-    "author_name": "J A Z I I",
-    "date": "2026-09-03",
-    "url": "https://x.com/notjazii/status/2095507838848340393",
-    "kind": "other",
+    "quote": "I love Poke from \n@interaction\n - it is the most \"fun\" AI I have ever used!",
+    "author": "@m_d_br",
+    "author_name": "Malan",
+    "date": "2026-07-06",
+    "url": "https://x.com/m_d_br/status/2074154992584241497",
+    "kind": "praise",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "personality"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "most fun AI"
   },
   {
-    "id": "0aa080def636",
+    "id": "15108419a68a",
     "agent": "poke",
-    "quote": "@_ketansahu @bot @GUSTAVOSCHMIDT yes! kinda like @interaction\nhttps://www.shloked.com/openpoke",
-    "author": "@HarshitKhemani",
-    "author_name": "Harshit Khemani",
-    "date": "2026-09-03",
-    "url": "https://x.com/HarshitKhemani/status/2095506517017723375",
-    "kind": "other",
+    "quote": "this \n@interaction\n. I\u2019ve been missing the message backgrounds, reactions\u2026 the things that made poke feel\u2026 different \n\nlove the new human update, but the free customizable fun things are missing",
+    "author": "@brockandru",
+    "author_name": "Brock",
+    "date": "2026-06-26",
+    "url": "https://x.com/brockandru/status/2070488270979396013",
+    "kind": "complaint",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "ux",
+      "personality"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "missing message backgrounds/fun"
   },
   {
-    "id": "2243a1476d9c",
+    "id": "fdf5ae10f695",
     "agent": "poke",
-    "quote": "@spacedouut_twt @interaction is @marvinvonhagen gonna snap? https://t.co/aww7XlBRbC",
-    "author": "@Netwarfare420",
-    "author_name": "Carlos",
-    "date": "2026-09-03",
-    "url": "https://x.com/Netwarfare420/status/2095482591273189789",
-    "kind": "other",
+    "quote": "It's not like slow but generally Poke is almost instant. While Orchid takes like 3-5 seconds. Is there a reason for that?",
+    "author": "@Gentraxyz",
+    "author_name": "Gentra",
+    "date": "2026-06-24",
+    "url": "https://x.com/Gentraxyz/status/2069863904268697860",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "latency",
+      "vs-orchid"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Poke instant vs Orchid 3-5s"
   },
   {
-    "id": "24943d1484b9",
+    "id": "883d6d27f598",
     "agent": "poke",
-    "quote": "@ybhrdwj wasnt @interaction supposed to be like this, what changed with instinct for you?",
-    "author": "@Anushlinux",
-    "author_name": "Anushrut",
-    "date": "2026-09-03",
-    "url": "https://x.com/Anushlinux/status/2095460546279780498",
-    "kind": "other",
+    "quote": "# 2. Poke\n\n**Website:** poke.com **Best for:** integrations and proactive nudges\n\n**Pros:**\n\n* Strong integrations with Gmail, Calendar, Notion, and other tools\n* Can text you first, which is important for an actual assistant\n* More polished and visible than most products in the category\n* Good for reminders, scheduling, and connected workflows\n\n**Cons:**\n\n* Memory does not feel as central as Folk\n* More focused on integrations and proactive messages than becoming your long-term personal context layer\n* Pricing and access can be a bit harder to understand\n\n**My take:** Probably the best option if you care more about integrations than memory.",
+    "author": "u/Alone-Coyote3916",
+    "author_name": "",
+    "date": "2026-06-24",
+    "url": "https://www.reddit.com/r/AskVibecoders/comments/1ue5epn/ive_tested_all_personal_ai_assistants_so_you_dont#poke-review",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit",
+      "integrations",
+      "proactive",
+      "review"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party review: Poke integrations"
   },
   {
-    "id": "17b2837985b1",
+    "id": "d26f3dbf7ba5",
     "agent": "poke",
-    "quote": "@ybhrdwj similar 2 @interaction",
-    "author": "@ayushmokal6",
-    "author_name": "Ayush Mokal",
-    "date": "2026-09-03",
-    "url": "https://x.com/ayushmokal6/status/2095452736414478350",
-    "kind": "other",
+    "quote": "As much as I love poke I\u2019m having issues triggering two automations daily do I need the pro for that? All I want is ai news which already has a recipe and exchange rates for the day poke keeps forgetting",
+    "author": "@furkan_plus",
+    "author_name": "Furkan+",
+    "date": "2026-06-18",
+    "url": "https://x.com/furkan_plus/status/2067691366549774663",
+    "kind": "bug",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "automations",
+      "memory"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "forgets daily automations"
   },
   {
-    "id": "543a6ce9e422",
+    "id": "a7ebec6ab11d",
     "agent": "poke",
-    "quote": "@ishaandey_ @antigravity our @interaction bro got deepmind pilled",
-    "author": "@vedanth_jadhav",
-    "author_name": "Vedanth",
-    "date": "2026-09-03",
-    "url": "https://x.com/vedanth_jadhav/status/2095442162154704974",
-    "kind": "other",
+    "quote": "I love Poke, it's amazing.\n\nBut I'm not paying 200 per month for it lol",
+    "author": "@TatataToddC",
+    "author_name": "Vincent Adultman",
+    "date": "2026-06-18",
+    "url": "https://x.com/TatataToddC/status/2067707402971992139",
+    "kind": "complaint",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "pricing"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "not paying $200/mo"
   },
   {
-    "id": "de9153a80b9b",
+    "id": "91867648d899",
     "agent": "poke",
-    "quote": "@marlbholo @interaction oo, yea poke isn't available on WhatsApp in India cuz of some policy issues from Meta (it used to be) 💔",
-    "author": "@HarshitKhemani",
-    "author_name": "Harshit Khemani",
-    "date": "2026-09-03",
-    "url": "https://x.com/HarshitKhemani/status/2095398092598358136",
-    "kind": "other",
+    "quote": "The assistants:\n\nfolk [getfolk.app](https://www.getfolk.app/), imo the best one, memory-first, lives in iMessage, Telegram and Discord \nPoke [poke.com](http://poke.com), first agent approved on Apple's Messages for Business \nOllie [ollie.ai](http://ollie.ai), the family one, carries the schedule/school load \nLucas [meetlucas.ai](http://meetlucas.ai), texts you first, habits and accountability \nOrchid [orchid.ai](http://orchid.ai), exec assistant, drafts replies and books meetings, wants sign-off before sending \nTomo [tomo.ai](http://tomo.ai), goal tracking, coach that checks in on you \nZo [zo.computer](http://zo.computer), you text an actual cloud computer, comes with its own Linux server \nLindy [lindy.ai](http://lindy.ai), the work/EA one, also runs over SMS \nSauna [sauna.ai](http://sauna.ai), team memory, also lives in Slack and email\n\nThe infra layer:\n\nLinq [linqapp.com](http:",
+    "author": "u/OkInitiative4270",
+    "author_name": "",
+    "date": "2026-06-10",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1u2gwcn/a16z_new_market_map_ai_assistants_in_imessage",
+    "kind": "comparison",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit",
+      "imessage",
+      "market-map",
+      "a16z"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "a16z iMessage assistants market map lists Poke"
   },
   {
-    "id": "9c2bd5059704",
+    "id": "f000f7237bd2",
     "agent": "poke",
-    "quote": "@HarshitKhemani @interaction vedanta did\nthing is this seems to be pretty attuned to india\nwhatsapp integration seems really solid and onboarding took like 120 seconds",
-    "author": "@marlbholo",
-    "author_name": "kabir (off meds)",
-    "date": "2026-09-03",
-    "url": "https://x.com/marlbholo/status/2095397593220329750",
+    "quote": "Say hi to the new Poke! \ud83c\udf34\n\nNow officially approved by Apple to text on Apple Messages.\n\nAs the first and only AI agent. Chat now: \nhttp://\nPoke.com",
+    "author": "@interaction",
+    "author_name": "Poke",
+    "date": "2026-06-04",
+    "url": "https://x.com/interaction/status/2062575428213285352",
     "kind": "other",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "imessage",
+      "launch",
+      "apple",
+      "founder",
+      "vendor"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "company: Apple Messages approval"
   },
   {
-    "id": "1bb51624b343",
+    "id": "4bf64ca14e8d",
     "agent": "poke",
-    "quote": "@marlbholo try poke @interaction",
-    "author": "@HarshitKhemani",
-    "author_name": "Harshit Khemani",
-    "date": "2026-09-03",
-    "url": "https://x.com/HarshitKhemani/status/2095396778380288470",
+    "quote": "From the article:\n\nLaunched in March,\u00a0Poke is one of the first AI agents designed to be accessible to everyday users who don\u2019t have the technical skill set or inclination to work with command-line tools or more complex agentic systems, like OpenClaw. Today, Poke can help with common activities, like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message. To date, it\u2019s relayed some 100 million messages, the company tells TechCrunch.\n\nThe AI service operates over SMS, Telegram, and, in some markets, WhatsApp. Now, Poke will be able to add iMessage to its supported platforms.\n\nThe news of Poke\u2019s launch on Apple\u2019s Messages for Business comes just days ahead of Apple\u2019s anticipated\u00a0Worldwide Developers Conference on Monday,\u00a0where it\u2019s expected to introduce an AI-optimized version of Siri along with other AI tools and services for app developers. It has also been\u00a0rumored\u00a0that Apple would open its App Store to AI agents.\n\n[Read more on TechCrunch.](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)",
+    "author": "u/techcrunch",
+    "author_name": "",
+    "date": "2026-06-04",
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1twy4ch/apple_approves_poke_as_the_first_ai_agent_on_its",
     "kind": "other",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "reddit",
+      "apple-messages",
+      "imessage",
+      "openclaw"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "TechCrunch/AI sub: Apple approves Poke on Messages for Business"
   },
   {
-    "id": "086814d46b32",
+    "id": "dc2f6f2a88f6",
     "agent": "poke",
-    "quote": "@ViceroyArthur @interaction 😭",
-    "author": "@rohanpatraxyz",
-    "author_name": "Rohan Patra",
-    "date": "2026-09-03",
-    "url": "https://x.com/rohanpatraxyz/status/2095368827835957574",
-    "kind": "other",
+    "quote": "Launch-day reliability was poor. I want to be fair: this is the busiest week in the product's life. But I sent messages that sat unanswered for ten-plus minutes, and a couple that seemed to vanish entirely. For an assistant whose whole pitch is \"it's right there in your texts,\" latency is not a cosmetic problem: a slow assistant in a fast medium feels broken.",
+    "author": "aitoolblaze",
+    "author_name": "AIToolBlaze",
+    "date": "2026-06-04",
+    "url": "https://aitoolblaze.com/blog/poke-ai-imessage-agent-review-2026",
+    "kind": "bug",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "latency",
+      "imessage",
+      "apple-messages-for-business",
+      "reliability"
     ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Hands-on review during Apple Messages for Business approval surge; concrete latency/dropped-reply bugs."
   },
   {
-    "id": "92814b9ee1ef",
+    "id": "f84bb024e707",
     "agent": "poke",
-    "quote": "started using @interaction again and wow it is REALLY good …",
-    "author": "@adiaddxyz",
-    "author_name": "aditya addepalli",
-    "date": "2026-09-03",
-    "url": "https://x.com/adiaddxyz/status/2095345234800513081",
+    "quote": "You gotta get in on this! Poke AI changed my life within 15 minutes of starting to use it. I found out about it through Vaibhave Sisinty , founder of Outskill, where I did my AI training. I was an early adopter of LLMs and AI and favor Claude for keeping me on task, quickly brainstorming (or longer stuff). I do not use AI to manage my emails or sales funnels, etc. As a strategic copywriter and executive ghostwriter, my correspondence is direct and doesn't have a broad enough scope that I need assistance in that way. \n \nWhat I really needed was something like Claude that would track my time and engage actively on daily activities rather than passively follow up like Claude. Claude doesn't get in touch with me at 1:45 to see if I did the thing I said I would, even though it says things lik",
+    "author": "u/Rattle333",
+    "author_name": "",
+    "date": "2026-04-13",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a/ofxu88p",
+    "kind": "praise",
+    "tags": [
+      "reddit"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "third-party: changed life within 15 minutes"
+  },
+  {
+    "id": "5115153aa6ed",
+    "agent": "poke",
+    "quote": "Poke is a new AI agent startup that lets users access a personal assistant through familiar messaging platforms like iMessage, SMS, Telegram, and WhatsApp, without needing to install any software.\n\n**Key Details:**\n\n* **Founded**\u00a0by Marvin von Hagen and Felix Schlegel under\u00a0*The Interaction Company of California*, based in Palo Alto; the product launched publicly in March 2026.\n* **Functionality**\u00a0includes daily planning, calendar management, health tracking, smart home control, photo editing, email alerts, medication reminders, and news updates \u2014 all via text message.\n* **No app required**\u00a0\u2014 users simply visit [Poke.com](http://Poke.com), enter their phone number, and start chatting.\n* **Pre-built \"recipes\"**\u00a0allow users to automate tasks using integrations with Gmail, Google Calendar, Strava, Oura, GitHub, Notion, and many more services.\n* **Funding**\u00a0totals $25 million ($15M seed + $10M additional), with a post-money valuation of\u00a0**$300 million**; backed by Spark Capital, General Catalyst, and notable angels including the Collison brothers (Stripe) and Logan Paul.\n* **Pricing**\u00a0is flexible \u2014 free for basic use, with costs scaling based on real-time inference needs (estimated $10",
+    "author": "u/Money-Ranger-6520",
+    "author_name": "",
+    "date": "2026-04-09",
+    "url": "https://www.reddit.com/r/Agent_AI/comments/1sgpsyl/poke_makes_using_ai_agents_as_easy_as_sending_a",
     "kind": "other",
     "tags": [
-      "auto",
-      "x"
+      "reddit",
+      "imessage",
+      "sms",
+      "telegram",
+      "whatsapp",
+      "launch"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-06T21:06:36.340026+00:00",
+    "notes": "product writeup: Poke via messaging platforms"
+  },
+  {
+    "id": "a4f64e435fb3",
+    "agent": "poke",
+    "quote": "Planned an entire Hamburg trip for the group \u2014 train from Berlin, sightseeing spots, restaurant for 6, things to do around our hotel \u2014 all the way through to MJ The Musical \ud83c\udfb6 My secret weapon? My AI assistant Poke from \n@interaction\n \ud83e\udd16\u2728\n\n#AI #TravelPlanning #MJTheMusical",
+    "author": "@cemvogt",
+    "author_name": "Cem",
+    "date": "2026-04-03",
+    "url": "https://x.com/cemvogt/status/2039956094907298218",
+    "kind": "use-case",
+    "tags": [
+      "travel"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "Hamburg group trip"
+  },
+  {
+    "id": "c0f3a54bfcd1",
+    "agent": "poke",
+    "quote": "@interaction\n Poke has been an amazing entry into my AI Agentic portfolio. \n\nMostly because I\u2019m not using it as suggested. \n\nI don\u2019t need an agent to read my emails\nOr reply to them. I don\u2019t need it to look at a calendar \n\nWhat I do need is an agent that can maintain long and",
+    "author": "@RubberDucky_AI",
+    "author_name": "AI SAT",
+    "date": "2025-10-07",
+    "url": "https://x.com/RubberDucky_AI/status/1975565857007779965",
+    "kind": "use-case",
+    "tags": [
+      "nonstandard"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "not using as suggested"
+  },
+  {
+    "id": "8390dba288b9",
+    "agent": "poke",
+    "quote": "1. it's really good at helping me plan trips. i exclusively used poke as my ai assistant while travelling back to the us from japan (with a stop in hawaii), it helped me in every step from boarding times to itinerary planning",
+    "author": "@danmaruchi",
+    "author_name": "danny nguyen",
+    "date": "2025-10-02",
+    "url": "https://x.com/danmaruchi/status/1973881605153575270",
+    "kind": "use-case",
+    "tags": [
+      "travel"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T03:51:19.770012+00:00",
+    "notes": "trip planning Japan/Hawaii"
+  },
+  {
+    "id": "c10b50ec0a6d",
+    "agent": "poke",
+    "quote": "If you couldn't tell by now, I'm a fan of Poke. Compared to some of the other consumer products I've written about, Poke is one of the few I've continued to use after my initial trial \u2014 and the only one that's gotten me to put down actual money for a subscription. ... So far, I've used Poke to send me curated morning newsletters, respond to emails for my on-campus job, remind me to listen to the Hanuman Chalisa on Tuesdays and Saturdays, and check into my flights.",
+    "author": "tanishasrivatsa",
+    "author_name": "Tanisha Srivatsa",
+    "date": "2025-09-23",
+    "url": "https://tanishasrivatsa.substack.com/p/i-spent-30-minutes-arguing-with-a",
+    "kind": "use-case",
+    "tags": [
+      "negotiation",
+      "paid",
+      "email",
+      "flight-checkin",
+      "reminders"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-09T14:04:21Z",
+    "notes": "Long-form user essay; paid after negotiating price; concrete personal use cases. Older but URL new vs vault."
   }
 ]

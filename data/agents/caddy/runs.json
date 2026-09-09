@@ -80,6 +80,16 @@
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-integrations"
   },
   {
+    "id": "caddy-2026-09-09-blooio-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published chained-tasks prompt via Blooio from +16124259300 to Caddy +12064039093 (check in for tomorrow's flight using confirmation in email and passport in Drive). Caddy correctly reported Gmail and Drive were not connected, sent connect links for both, and offered to complete check-in once connected. Tester stopped at the connect gate (did not authenticate).",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-chained"
+  },
+  {
     "id": "caddy-2026-09-09-blooio-multiplayer",
     "category": "multiplayer_groups",
     "protocol": "task",

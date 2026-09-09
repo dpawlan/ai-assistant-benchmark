@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getCategories } from '@/lib/data';
+import { getScoredCategories } from '@/lib/data';
 import { RequestForm } from '@/components/RequestForm';
 
 export const metadata: Metadata = {
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function RequestPage() {
-  const categories = getCategories();
+  const categories = getScoredCategories();
 
   return (
     <div className="wrap">

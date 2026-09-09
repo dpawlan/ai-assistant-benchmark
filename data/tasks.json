@@ -157,21 +157,6 @@
       }
     },
     {
-      "key": "personality",
-      "task": "A normal week of texts",
-      "prompt": "Use it for a week of ordinary requests. Judge whether it reads like a contact or like a form.",
-      "pass": [
-        "Matches your register and length",
-        "No boilerplate or filler",
-        "Handles a joke without falling apart"
-      ],
-      "anchors": {
-        "3": "Chatbot boilerplate",
-        "7": "Pleasant; sometimes stiff",
-        "10": "You'd forget it's software"
-      }
-    },
-    {
       "key": "phone_calls",
       "task": "Call a business and get an answer",
       "prompt": "Call the restaurant and ask if they can seat eight on Saturday at 8, and whether they have a private room.",

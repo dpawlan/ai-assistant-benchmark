@@ -10,6 +10,7 @@ import {
   getCategories,
   getIndexData,
   getRelatedAgents,
+  getScoredCategories,
   getTagMap,
   productClassLabel,
   quoteCategories,
@@ -64,6 +65,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   if (!agent) notFound();
 
   const categories = getCategories();
+  const scored = getScoredCategories();
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const opponents = getTestedAgents().filter(a => a.slug !== slug);
@@ -114,7 +116,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className="ag-stat">
                 {agent.testedCount === 0
                   ? 'Not tested yet'
-                  : `${agent.testedCount} of ${categories.length} tested`}
+                  : `${agent.testedCount} of ${scored.length} tested`}
               </span>
               {agent.opinionOverall.n > 0 && (
                 <span className="ag-stat ag-stat-op">
@@ -138,7 +140,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
         <section className="ag-scores">
           <h2 className="ag-h2">Scores</h2>
-          <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={categories} quoteCounts={quoteCounts} />
+          <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
 
         <section className="ag-quotes">
@@ -236,7 +238,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
             </div>
             <div className="info-row">
               <span className="il">Dimensions scored</span>
-              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {categories.length}</span>
+              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {scored.length}</span>
             </div>
             <div className="info-row">
               <span className="il">Last tested</span>

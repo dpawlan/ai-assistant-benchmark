@@ -52,7 +52,8 @@
   {
     "key": "personality",
     "label": "Personality",
-    "group": "endorsed"
+    "group": "endorsed",
+    "scored": false
   },
   {
     "key": "phone_calls",

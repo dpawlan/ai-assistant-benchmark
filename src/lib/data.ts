@@ -73,7 +73,7 @@ export const CATEGORY_SHORT: Record<string, string> = {
   proactive_behavior: 'Proactive',
   running_routine: 'Routines',
   third_party_integrations: 'Connected apps',
-  permissions_privacy: 'Privacy',
+  permissions_privacy: 'Permissions',
   memory: 'Memory',
   personality: 'Personality',
   phone_calls: 'Phone calls',
@@ -109,6 +109,15 @@ export function getIndexData(): IndexData {
 
 export function getCategories(): Category[] {
   return readJson<Category[]>(path.join(DATA_DIR, 'categories.json')) ?? [];
+}
+
+/** Dimensions the benchmark scores. Opinion-only dimensions (scored: false) are excluded everywhere scores appear. */
+export function getScoredCategories(): Category[] {
+  return getCategories().filter(c => c.scored !== false);
+}
+
+export function isScoredCategory(key: string): boolean {
+  return getCategories().some(c => c.key === key && c.scored !== false);
 }
 
 export function getCategory(key: string): Category | null {
@@ -269,7 +278,7 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
 
   const numeric = (group: Category['group']) =>
     categories
-      .filter(c => c.group === group)
+      .filter(c => c.group === group && c.scored !== false)
       .map(c => scores[c.key])
       .filter((v): v is number => typeof v === 'number');
 
@@ -281,7 +290,7 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
     overall: mean([...numeric('core'), ...numeric('endorsed')]),
     core: mean(numeric('core')),
     endorsed: mean(numeric('endorsed')),
-    testedCount: Object.values(scores).filter(v => typeof v === 'number').length,
+    testedCount: categories.filter(c => c.scored !== false && typeof scores[c.key] === 'number').length,
     taskRuns: latest.filter(r => r.protocol === 'task').length,
     observedRuns: latest.filter(r => r.protocol !== 'task').length,
     lastTested,

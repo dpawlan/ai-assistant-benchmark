@@ -72,6 +72,8 @@ data/
         └── summary.md   # Internal research notes (not rendered)
 ```
 
+Dimensions with `"scored": false` in `categories.json` (personality) are public-opinion only: they appear in the opinion view and on their dimension page but are never scored, never counted in Overall, and have no task.
+
 ### Runs Schema
 
 One record per test you run. The latest run per category is the score shown everywhere.

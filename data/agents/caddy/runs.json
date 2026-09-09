@@ -38,5 +38,15 @@
     "outcome": "partial",
     "notes": "Published Amazon reorder task via Blooio from +16124259300 to Caddy +12064039093 (same coffee as last time, two bags, home address). Caddy reported no Amazon order history or saved login on this number and asked for the product name. Tester gave Stumptown Hair Bender 12oz ×2 as a stand-in. Caddy reached Amazon sign-in with no guest checkout, requested a secure vault login plus shipping address, and stopped before checkout/charge. No order placed.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-purchasing"
+  },
+  {
+    "id": "caddy-2026-09-09-blooio-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published third-party integrations task via Blooio from +16124259300 to Caddy +12064039093 (add Q3 planning to Notion tasks, 30-minute Thursday afternoon calendar block, Slack Sam). Caddy correctly reported Notion, Calendar, and Slack were not connected and sent connect links for all three; offered to complete the actions once connected. Tester stopped at the connect gate (did not authenticate any service).",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-integrations"
   }
 ]

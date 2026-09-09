@@ -88,5 +88,15 @@
     "outcome": "partial",
     "notes": "Published chained-tasks prompt via Blooio from +16124259300 to Caddy +12064039093 (check in for tomorrow's flight using confirmation in email and passport in Drive). Caddy correctly reported Gmail and Drive were not connected, sent connect links for both, and offered to complete check-in once connected. Tester stopped at the connect gate (did not authenticate).",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-chained"
+  },
+  {
+    "id": "caddy-2026-09-09-blooio-multiplayer",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Published multiplayer-groups task via Blooio 1:1 from +16124259300 to Caddy +12064039093. Tester stated the bench channel cannot host a real four-person group. Caddy correctly refused to simulate other people's availability/reactions and said a real multi-person group chat is required for calendar-overlap and group-voting. Protocol not runnable on this channel; marked n/a (out of scope for 1:1), not a capability fail.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-multiplayer"
   }
 ]

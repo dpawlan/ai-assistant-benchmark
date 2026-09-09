@@ -1,0 +1,19 @@
+{
+  "id": "caddy-2026-09-09-blooio-multiplayer",
+  "agent": "caddy",
+  "category": "multiplayer_groups",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 4,
+    "my_messages": 2,
+    "agent_messages": 2,
+    "first_reply_s": null,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-09T22:17:00.000Z"
+}

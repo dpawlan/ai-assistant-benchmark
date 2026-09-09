@@ -653,6 +653,7 @@ async function analyze() {
 
     const existing = readJson(draftFile(slug), []);
     const byId = new Map(existing.map(d => [d.id, d]));
+    const approved = new Set(readJson(runsFile(slug), []).map(r => r.id)); // approve() removes drafts, so do not resurrect them
     let added = 0;
     for (const ep of episodes) {
       const myText = ep.messages.filter(m => m.from === 'me').map(m => m.text).join('\n');
@@ -661,6 +662,7 @@ async function analyze() {
       if (!opts.all && (!cat.category || cat.confidence < minConfidence)) continue;
       const id = episodeId(slug, ep);
       if (byId.has(id)) continue; // keep any scoring you've already typed into the draft
+      if (approved.has(id)) continue;
       const firstMine = ep.messages.find(m => m.from === 'me')?.text ?? '';
       byId.set(id, {
         id,

@@ -24,28 +24,34 @@
       "online_task": "pos"
     },
     "6fc75b8d5546": {
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neg",
+      "permissions_privacy": "neg"
     },
     "d20e8c1ef95c": {
       "proactive_restraint": "neg",
-      "third_party_integrations": "neg"
+      "third_party_integrations": "neg",
+      "permissions_privacy": "neg"
     },
     "e7e5acb0f255": {
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neg",
+      "permissions_privacy": "neg"
     },
     "69377096d1b4": {
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neg",
+      "permissions_privacy": "neg"
     },
     "6ec7e5b07826": {
       "third_party_integrations": "pos",
       "proactive_behavior": "pos"
     },
     "7071f1065aef": {
-      "proactive_restraint": "neutral"
+      "proactive_restraint": "neutral",
+      "permissions_privacy": "pos"
     },
     "c1431eec38d4": {
       "proactive_restraint": "neg",
-      "email_replies": "neutral"
+      "email_replies": "neutral",
+      "permissions_privacy": "neg"
     },
     "00f2dfaad307": {
       "online_task": "pos",
@@ -65,11 +71,13 @@
       "multiplayer_groups": "neg"
     },
     "55f76023bd19": {
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neg",
+      "permissions_privacy": "neg"
     },
     "48a498e9b560": {
       "online_task": "pos",
-      "proactive_restraint": "neg"
+      "proactive_restraint": "neg",
+      "permissions_privacy": "neg"
     },
     "c953ac8cbb12": {
       "online_task": "mixed"
@@ -109,7 +117,8 @@
     },
     "3216cd2a534e": {
       "proactive_restraint": "neg",
-      "proactive_behavior": "neg"
+      "proactive_behavior": "neg",
+      "permissions_privacy": "neg"
     },
     "9bfa23aa384a": {
       "running_routine": "pos",
@@ -193,10 +202,12 @@
       "general": "neutral"
     },
     "3606dd792084": {
-      "general": "neg"
+      "general": "neg",
+      "permissions_privacy": "neg"
     },
     "682da1f1dc24": {
-      "general": "neg"
+      "general": "neg",
+      "permissions_privacy": "neg"
     },
     "094107f18711": {
       "general": "pos"
@@ -226,7 +237,8 @@
       "general": "neutral"
     },
     "8eff6a0b920f": {
-      "general": "pos"
+      "general": "pos",
+      "permissions_privacy": "neutral"
     },
     "d0fbf41a212b": {
       "general": "pos"
@@ -269,7 +281,8 @@
     },
     "8a64bd8c3f94": {
       "online_task": "pos",
-      "general": "mixed"
+      "general": "mixed",
+      "permissions_privacy": "mixed"
     },
     "63814f0e9ffa": {
       "general": "mixed"
@@ -307,7 +320,8 @@
       "general": "neutral"
     },
     "90f1e4823049": {
-      "general": "mixed"
+      "general": "mixed",
+      "permissions_privacy": "mixed"
     },
     "1114d4568475": {
       "general": "pos"
@@ -525,5 +539,5 @@
       "general": "neutral"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral | 2026-09-08: permissions_privacy classified for the 14 quotes tagged privacy/security/trust/deletion; invite-access and free-access quotes left unclassified"
 }

@@ -487,7 +487,8 @@ const CATEGORY_WORDS = {
   phone_calls: ['call', 'phone', 'ring them', 'dial', 'on the phone', 'voicemail'],
   multiplayer_groups: ['group', 'everyone', 'my wife', 'my husband', 'my partner', 'the team', 'we all', 'friends'],
   chained_tasks: ['then', 'after that', 'and then', 'passport', 'boarding pass', 'check-in chain', 'find it in', 'from my email', 'from drive'],
-  proactive_restraint: ["don't send", 'do not send', 'ask me first', 'before you', 'check with me', 'without asking', 'permission', 'confirm before'],
+  permissions_privacy: ['read-only', 'read only', 'only read', 'access to my', 'revoke', 'disconnect', 'remove access', 'delete my data', 'privacy', 'password', 'vault', 'log out', 'sign out', 'never send', 'never spend', 'never pay', 'permission', 'scope'],
+  proactive_restraint: ["don't send", 'do not send', 'ask me first', 'before you', 'check with me', 'without asking', 'confirm before'],
   content_creation_games: ['image', 'picture', 'meme', 'game', 'trivia', 'video', 'draw', 'generate', 'make me a'],
 };
 

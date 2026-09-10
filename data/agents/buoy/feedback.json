@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "kill switch / password concerns"
+    "notes": "kill switch / password concerns",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 126,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9ec65c0951e1",
@@ -34,7 +41,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "founder: cloud browser claim"
+    "notes": "founder: cloud browser claim",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 230,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "49384f415808",
@@ -52,7 +66,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "founder invite/demo claim"
+    "notes": "founder invite/demo claim",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 0,
+      "views": 696,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "66f8aeeea4a6",
@@ -71,7 +92,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "cofounder positioning"
+    "notes": "cofounder positioning",
+    "metrics": {
+      "likes": 156,
+      "reposts": 6,
+      "replies": 13,
+      "views": 19089,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "95e49c335f8e",
@@ -89,7 +117,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "solved browser login aspect"
+    "notes": "solved browser login aspect",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 129,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b1035e8baf51",
@@ -107,7 +142,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "recommend for on-the-go usage"
+    "notes": "recommend for on-the-go usage",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 251,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "94304f333c00",
@@ -124,7 +166,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "invite to buoy.chat"
+    "notes": "invite to buoy.chat",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 3,
+      "views": 1487,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "76902795600a",
@@ -144,7 +193,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "team invite batch signup"
+    "notes": "team invite batch signup",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 45,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "966c31a2b5e6",
@@ -161,7 +217,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "founder: buoy will do it for you"
+    "notes": "founder: buoy will do it for you",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 342,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "240d05a5447f",
@@ -180,7 +243,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "team: try buoy.chat"
+    "notes": "team: try buoy.chat",
+    "metrics": {
+      "likes": 58,
+      "reposts": 1,
+      "replies": 9,
+      "views": 13111,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "139cefef4bfa",
@@ -198,7 +268,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: cites buoy.chat in agent-delegation identity discussion"
+    "notes": "third-party: cites buoy.chat in agent-delegation identity discussion",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "937efc9cc1a4",
@@ -216,7 +293,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "User: Buoy searched X/GitHub/HF from just an X link."
+    "notes": "User: Buoy searched X/GitHub/HF from just an X link.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "268f257d8919",
@@ -233,7 +317,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "Technical note treating Buoy as agent browser (passkeys/WKWebView)."
+    "notes": "Technical note treating Buoy as agent browser (passkeys/WKWebView).",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 68,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4673b655b7e2",
@@ -251,7 +342,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "Buoy founder on passwordless agent sign-in."
+    "notes": "Buoy founder on passwordless agent sign-in.",
+    "metrics": {
+      "likes": 822,
+      "reposts": 19,
+      "replies": 72,
+      "views": 375409,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "de7feb312b0b",
@@ -271,7 +369,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:15:57.444Z",
-    "notes": "query: \"buoy.chat\" | via x402atlas"
+    "notes": "query: \"buoy.chat\" | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 954,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4a476aa132d7",
@@ -291,7 +396,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:15:57.444Z",
-    "notes": "query: \"buoy.chat\" | via x402atlas"
+    "notes": "query: \"buoy.chat\" | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 536,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "81b60288e806",
@@ -311,6 +423,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:15:57.444Z",
-    "notes": "query: \"buoy.chat\" | via x402atlas"
+    "notes": "query: \"buoy.chat\" | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 512,
+      "fetched": "2026-09-10"
+    }
   }
 ]

@@ -14,7 +14,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-09T14:04:21Z",
-    "notes": "Independent user reports daily Poke usage."
+    "notes": "Independent user reports daily Poke usage.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 1,
+      "views": 267,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "722b08337b57",
@@ -33,12 +40,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-09T14:04:21Z",
-    "notes": "User complaint about post-acquisition performance and lack of updates."
+    "notes": "User complaint about post-acquisition performance and lack of updates.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 127,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fb546c74631e",
     "agent": "poke",
-    "quote": "@0xTykoo \u6ca1\u4f53\u9a8c\u51fa\u548c https://poke.com \u7b49\u672c\u8d28\u533a\u522b\uff0c\u867d\u7136\u878d\u8d44\u89c4\u6a21\u5929\u58e4\u4e4b\u522b",
+    "quote": "@0xTykoo 没体验出和 https://poke.com 等本质区别，虽然融资规模天壤之别",
     "author": "@thejingtao",
     "author_name": "Jingtao Wang",
     "date": "2026-09-08",
@@ -51,7 +65,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.703Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "061345c915b7",
@@ -69,7 +90,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 86,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fc72324c61a2",
@@ -87,7 +115,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 154,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7100dc1398d7",
@@ -105,7 +140,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 8,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "61b5d2fa2bbb",
@@ -123,7 +165,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5dabb979f8e1",
@@ -140,7 +189,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 9,
+      "reposts": 2,
+      "replies": 1,
+      "views": 320,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3b3269761342",
@@ -158,7 +214,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 58,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "02b5ee7799c2",
@@ -180,7 +243,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-09T14:04:21Z",
-    "notes": "Detailed independent comparison: Poke is iMessage-integrated; user wants specialized agents and says multi-topic agent chat is terrible UX."
+    "notes": "Detailed independent comparison: Poke is iMessage-integrated; user wants specialized agents and says multi-topic agent chat is terrible UX.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 987,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ffdb347499f7",
@@ -197,7 +267,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6c25c8a393f8",
@@ -215,12 +292,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-09T14:04:21Z",
-    "notes": "Compares Instinct's capabilities with Poke and praises continued building despite an existing product."
+    "notes": "Compares Instinct's capabilities with Poke and praises continued building despite an existing product.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f78248dc4770",
     "agent": "poke",
-    "quote": "HAPPY BIRTHDAY @interaction \ud83d\ude2d https://t.co/acvdujOoLV",
+    "quote": "HAPPY BIRTHDAY @interaction 😭 https://t.co/acvdujOoLV",
     "author": "@HarshitKhemani",
     "author_name": "Harshit Khemani",
     "date": "2026-09-08",
@@ -232,7 +316,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 1,
+      "views": 861,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6581de6baa13",
@@ -250,7 +341,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 77,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "10e0d36e023b",
@@ -268,12 +366,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 293,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2b826cda172e",
     "agent": "poke",
-    "quote": "@HarryStebbings @noahrshinn I have the same thing on poke / @interaction, basically free and less privacy issues\u2026 really don\u2019t get why mainstream VC X is obsessed with instinct when poke has been around for over a year",
+    "quote": "@HarryStebbings @noahrshinn I have the same thing on poke / @interaction, basically free and less privacy issues… really don’t get why mainstream VC X is obsessed with instinct when poke has been around for over a year",
     "author": "@vdhCapital",
     "author_name": "vdh Capital",
     "date": "2026-09-07",
@@ -286,7 +391,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1195,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ff811b692ef8",
@@ -303,7 +415,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 710,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2b2d4f12e781",
@@ -320,12 +439,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7170d3c1503e",
     "agent": "poke",
-    "quote": "@strimblez @AlexPallNY @interaction sorta failed Paris bench \ud83d\ude02 https://t.co/IvI4MoEWTf",
+    "quote": "@strimblez @AlexPallNY @interaction sorta failed Paris bench 😂 https://t.co/IvI4MoEWTf",
     "author": "@raghavrmehta",
     "author_name": "Raghav Raj Mehta",
     "date": "2026-09-07",
@@ -338,7 +464,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 498,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d798e0055353",
@@ -356,7 +489,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:07:33Z",
-    "notes": "Same post; Poke named in task-gap complaint"
+    "notes": "Same post; Poke named in task-gap complaint",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 206,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f12097157c20",
@@ -374,7 +514,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 373,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6bc30031876e",
@@ -392,12 +539,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c856bcfee89a",
     "agent": "poke",
-    "quote": "@theaaron @cognition @interaction \ud83d\udc40\ud83d\udc40",
+    "quote": "@theaaron @cognition @interaction 👀👀",
     "author": "@marvinvonhagen",
     "author_name": "Marvin von Hagen",
     "date": "2026-09-07",
@@ -412,7 +566,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 194,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "dd1a230c183b",
@@ -430,7 +591,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "32949d7df812",
@@ -447,14 +615,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 38,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d1d8689eb567",
     "agent": "poke",
     "quote": "@x6c75 @theaaron @cognition @interaction yup",
     "author": "@Simemeulation",
-    "author_name": "\ud83d\udc81\ud83c\udffd\u200d\u2642\ufe0fAston\ud83e\udda6",
+    "author_name": "💁🏽‍♂️Aston🦦",
     "date": "2026-09-07",
     "url": "https://x.com/Simemeulation/status/2096810797284376772",
     "kind": "other",
@@ -465,7 +640,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.705Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6deb5a3858ff",
@@ -482,7 +664,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.703Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 20,
+      "reposts": 0,
+      "replies": 4,
+      "views": 7591,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "490b802ac14d",
@@ -499,12 +688,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0d3e55fc92ba",
     "agent": "poke",
-    "quote": "@eranyac \u05dc\u05d0 \u05d4\u05d1\u05e0\u05ea\u05d9 \u05d0\u05ea \u05d4\u05d4\u05ea\u05dc\u05d4\u05d1\u05d5\u05ea,\n\u05de\u05d4 \u05d4\u05d4\u05d1\u05d3\u05dc \u05d1\u05d9\u05e0\u05d5 \u05dc\u05d1\u05d9\u05df https://poke.com \u05e9\u05e7\u05d9\u05d9\u05dd \u05db\u05d1\u05e8 \u05ea\u05e7\u05d5\u05e4\u05d4 \u05d5\u05de\u05d0\u05d5\u05e9\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d0\u05e4\u05dc.",
+    "quote": "@eranyac לא הבנתי את ההתלהבות,\nמה ההבדל בינו לבין https://poke.com שקיים כבר תקופה ומאושר על ידי אפל.",
     "author": "@IsraelPartyX",
     "author_name": "Israel Party",
     "date": "2026-09-07",
@@ -517,7 +713,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.704Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ef5a26f08914",
@@ -535,7 +738,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f79ce12ad06b",
@@ -552,12 +762,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 194,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7bbf61bae137",
     "agent": "poke",
-    "quote": "@1sqre @interaction @bot Only difference is\nI haven\u2019t used others yet",
+    "quote": "@1sqre @interaction @bot Only difference is\nI haven’t used others yet",
     "author": "@sakshiseninsane",
     "author_name": "Sakshi S",
     "date": "2026-09-06",
@@ -570,7 +787,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 96,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ef6505ed507b",
@@ -587,14 +811,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5bba8c289526",
     "agent": "poke",
-    "quote": "@interaction Est\u00e3o sumidos... cade voces?",
+    "quote": "@interaction Estão sumidos... cade voces?",
     "author": "@fazedordecodigo",
-    "author_name": "Delatorre \u2794 onmind.com.br",
+    "author_name": "Delatorre ➔ onmind.com.br",
     "date": "2026-09-06",
     "url": "https://x.com/fazedordecodigo/status/2096388565907153052",
     "kind": "other",
@@ -605,7 +836,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 14,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8ed9983213bc",
@@ -622,12 +860,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "worse after Cognition buy"
+    "notes": "worse after Cognition buy",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "11fa7ba38418",
     "agent": "poke",
-    "quote": "A lot of people would be fine using ai for work if it was more like \n@interaction\n\u2019s poke.\n\nSlop is killing your drive to work .\n\nCommunication be effective .\n\nI dont need a wall of text what i need is a easy to Talk to main orchestrator whom summarizes and ensures that i know",
+    "quote": "A lot of people would be fine using ai for work if it was more like \n@interaction\n’s poke.\n\nSlop is killing your drive to work .\n\nCommunication be effective .\n\nI dont need a wall of text what i need is a easy to Talk to main orchestrator whom summarizes and ensures that i know",
     "author": "@Aikun011",
     "author_name": "Megamind",
     "date": "2026-09-06",
@@ -640,14 +885,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "want AI more like Poke; anti-slop"
+    "notes": "want AI more like Poke; anti-slop",
+    "metrics": {
+      "likes": 6,
+      "reposts": 2,
+      "replies": 0,
+      "views": 853,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "48d5776142bb",
     "agent": "poke",
     "quote": "@sakshiseninsane @interaction @bot haha, do share if you try!!",
     "author": "@1sqre",
-    "author_name": "Anil \ud83e\ude90\ud83c\udf37",
+    "author_name": "Anil 🪐🌷",
     "date": "2026-09-06",
     "url": "https://x.com/1sqre/status/2096625039177396547",
     "kind": "other",
@@ -658,14 +910,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 48,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d74eefcdfad3",
     "agent": "poke",
     "quote": "@sakshiseninsane how's it different from @interaction or even @bot ?",
     "author": "@1sqre",
-    "author_name": "Anil \ud83e\ude90\ud83c\udf37",
+    "author_name": "Anil 🪐🌷",
     "date": "2026-09-06",
     "url": "https://x.com/1sqre/status/2096579385889567213",
     "kind": "other",
@@ -676,7 +935,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 117,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d39528c35614",
@@ -694,14 +960,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 48,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "83ebed2a3b8a",
     "agent": "poke",
     "quote": "canada is FURIOUS that @interaction switched to mongodb https://t.co/meaEltl9mx",
     "author": "@jacobmparis",
-    "author_name": "jacob paris \u25b2",
+    "author_name": "jacob paris ▲",
     "date": "2026-09-05",
     "url": "https://x.com/jacobmparis/status/2096301845840818321",
     "kind": "other",
@@ -711,12 +984,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 18,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2028,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8fdd457a3723",
     "agent": "poke",
-    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto speed matters on RH \u2014 alerts before the screenshot meta is the edge",
+    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto speed matters on RH — alerts before the screenshot meta is the edge",
     "author": "@c0rtex1100X",
     "author_name": "Trenchwerk",
     "date": "2026-09-05",
@@ -729,12 +1009,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 36,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e2da2d163119",
     "agent": "poke",
-    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto the cleanest alerts are still the ones that catch the first weird wick \ud83d\ude02",
+    "quote": "@DNAdotGM @interaction @RobinhoodApp @RobinhoodCrypto the cleanest alerts are still the ones that catch the first weird wick 😂",
     "author": "@c0rtex1100X",
     "author_name": "Trenchwerk",
     "date": "2026-09-05",
@@ -747,14 +1034,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a36211f5d636",
     "agent": "poke",
     "quote": "@c0rtex1100X @interaction @RobinhoodApp @RobinhoodCrypto - 15 min scan interval\n- $60k LP floor\n- $25k 1h / $100k 24h vol\n- 2-4h pair age window",
     "author": "@DNAdotGM",
-    "author_name": "\ud83e\uddec.gm",
+    "author_name": "🧬.gm",
     "date": "2026-09-05",
     "url": "https://x.com/DNAdotGM/status/2096102632532459905",
     "kind": "other",
@@ -765,14 +1059,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5632a9039792",
     "agent": "poke",
-    "quote": "@0xDrRick @interaction @RobinhoodApp @RobinhoodCrypto \ud83c\udfaf",
+    "quote": "@0xDrRick @interaction @RobinhoodApp @RobinhoodCrypto 🎯",
     "author": "@DNAdotGM",
-    "author_name": "\ud83e\uddec.gm",
+    "author_name": "🧬.gm",
     "date": "2026-09-05",
     "url": "https://x.com/DNAdotGM/status/2096102432908759043",
     "kind": "other",
@@ -783,14 +1084,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2c66b4917595",
     "agent": "poke",
-    "quote": "How do you catch the next \n$MEME\n on #RobinhoodChain before CT posts 1000x pnl screenshots?\n\nI built a \n@interaction\n Poke recipe that texts you SMS alerts for breakout runners and whale buys on \n@RobinhoodApp\n\nNo chart watching\nJust a text when real momentum ignites\n\n\ud83d\udc49",
+    "quote": "How do you catch the next \n$MEME\n on #RobinhoodChain before CT posts 1000x pnl screenshots?\n\nI built a \n@interaction\n Poke recipe that texts you SMS alerts for breakout runners and whale buys on \n@RobinhoodApp\n\nNo chart watching\nJust a text when real momentum ignites\n\n👉",
     "author": "@DNAdotGM",
-    "author_name": "\ud83e\uddec.gm",
+    "author_name": "🧬.gm",
     "date": "2026-09-05",
     "url": "https://x.com/DNAdotGM/status/2096102350259888156",
     "kind": "use-case",
@@ -801,7 +1109,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "Poke recipe SMS alerts for meme coins"
+    "notes": "Poke recipe SMS alerts for meme coins",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 113,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "57098d021f88",
@@ -819,7 +1134,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 101,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5cf84fb30c4e",
@@ -837,7 +1159,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 72,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3606dd792084",
@@ -855,7 +1184,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Instinct = Poke + older ICP + horrible privacy policy"
+    "notes": "third-party: Instinct = Poke + older ICP + horrible privacy policy",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 70,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4be90c5c2fce",
@@ -873,12 +1209,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "16a4f0132c41",
     "agent": "poke",
-    "quote": "What's going on @interaction ? Sending random messages to me \ud83d\ude05 https://t.co/rkpGZ9CvF0",
+    "quote": "What's going on @interaction ? Sending random messages to me 😅 https://t.co/rkpGZ9CvF0",
     "author": "@tobiastornros",
     "author_name": "tobias",
     "date": "2026-09-04",
@@ -890,7 +1233,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 516,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "68e37317cd92",
@@ -908,12 +1258,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Poke free-tier distribution playbook"
+    "notes": "Poke free-tier distribution playbook",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 242,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f70ea7202d2a",
     "agent": "poke",
-    "quote": "@tobiastornros @interaction You\u2019ve been chosen to by them. Lisan al-Gaib",
+    "quote": "@tobiastornros @interaction You’ve been chosen to by them. Lisan al-Gaib",
     "author": "@noah_eacc",
     "author_name": "haon",
     "date": "2026-09-04",
@@ -926,7 +1283,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8b9265d39535",
@@ -944,7 +1308,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 175,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "67c23809676a",
@@ -962,14 +1333,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3b09ed3e56c7",
     "agent": "poke",
     "quote": "Twent just killed @monogram_ai @openclaw , Instinct, Gemini android app, @agi_inc , @interaction  , @tomo",
     "author": "@Jeff9James",
-    "author_name": "Jeffrin James\ud83c\udd97\ufe0f",
+    "author_name": "Jeffrin James🆗️",
     "date": "2026-09-04",
     "url": "https://x.com/Jeff9James/status/2095833597819367886",
     "kind": "other",
@@ -979,7 +1357,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 96,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "33f29b155156",
@@ -997,7 +1382,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "voice note \u2192 structured grocery cart"
+    "notes": "voice note → structured grocery cart",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "543a6ce9e422",
@@ -1015,12 +1407,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 29,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "086814d46b32",
     "agent": "poke",
-    "quote": "@ViceroyArthur @interaction \ud83d\ude2d",
+    "quote": "@ViceroyArthur @interaction 😭",
     "author": "@rohanpatraxyz",
     "author_name": "Rohan Patra",
     "date": "2026-09-03",
@@ -1033,7 +1432,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6af6f2043cd4",
@@ -1051,7 +1457,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 22,
+      "reposts": 0,
+      "replies": 2,
+      "views": 15361,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9c2bd5059704",
@@ -1069,7 +1482,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 68,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7bd285efda78",
@@ -1086,7 +1506,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: Poke got dumb"
+    "notes": "third-party: Poke got dumb",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "17b2837985b1",
@@ -1104,12 +1531,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 70,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "92814b9ee1ef",
     "agent": "poke",
-    "quote": "started using @interaction again and wow it is REALLY good \u2026",
+    "quote": "started using @interaction again and wow it is REALLY good …",
     "author": "@adiaddxyz",
     "author_name": "aditya addepalli",
     "date": "2026-09-03",
@@ -1121,12 +1555,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 95,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "cf1b633ec410",
     "agent": "poke",
-    "quote": "Also try out \nhttps://\npoke.com, just to see a competitor\u2019s product.",
+    "quote": "Also try out \nhttps://\npoke.com, just to see a competitor’s product.",
     "author": "@_hemantg",
     "author_name": "Hemant G.",
     "date": "2026-09-03",
@@ -1138,14 +1579,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: try poke.com as competitor product"
+    "notes": "third-party: try poke.com as competitor product",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 18,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "96d1f65a0355",
     "agent": "poke",
     "quote": "@notjazii @interaction English?",
     "author": "@StatSnipe",
-    "author_name": "Stat Snipe Analytics \uea00",
+    "author_name": "Stat Snipe Analytics ",
     "date": "2026-09-03",
     "url": "https://x.com/StatSnipe/status/2095540039073870076",
     "kind": "other",
@@ -1156,7 +1604,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 148,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2243a1476d9c",
@@ -1174,14 +1629,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bd7409844932",
     "agent": "poke",
     "quote": "@notjazii @interaction You text a bot like that?",
     "author": "@MouseGoBurr",
-    "author_name": "High Th\u263bts",
+    "author_name": "High Th☻ts",
     "date": "2026-09-03",
     "url": "https://x.com/MouseGoBurr/status/2095598890867429442",
     "kind": "other",
@@ -1192,7 +1654,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0aa080def636",
@@ -1210,12 +1679,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "de9153a80b9b",
     "agent": "poke",
-    "quote": "@marlbholo @interaction oo, yea poke isn't available on WhatsApp in India cuz of some policy issues from Meta (it used to be) \ud83d\udc94",
+    "quote": "@marlbholo @interaction oo, yea poke isn't available on WhatsApp in India cuz of some policy issues from Meta (it used to be) 💔",
     "author": "@HarshitKhemani",
     "author_name": "Harshit Khemani",
     "date": "2026-09-03",
@@ -1228,7 +1704,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1bb51624b343",
@@ -1246,7 +1729,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 54,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "24943d1484b9",
@@ -1264,7 +1754,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.223Z",
-    "notes": "query: @interaction | via x402atlas"
+    "notes": "query: @interaction | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 278,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fa4208d42d29",
@@ -1281,7 +1778,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.499Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 170,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e9745140c50d",
@@ -1298,7 +1802,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "iMessage agents will fail"
+    "notes": "iMessage agents will fail",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5238,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a4961831018c",
@@ -1316,12 +1827,19 @@
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
-    "notes": ""
+    "notes": "",
+    "metrics": {
+      "likes": 22,
+      "reposts": 0,
+      "replies": 3,
+      "views": 2580,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c81920eae690",
     "agent": "poke",
-    "quote": "I messaged Instinct, it didn\u2019t respond, and Poke responded that my messages were held up. That was weird.",
+    "quote": "I messaged Instinct, it didn’t respond, and Poke responded that my messages were held up. That was weird.",
     "author": "@DavidPawlan",
     "author_name": "",
     "date": "2026-08-28",
@@ -1335,14 +1853,21 @@
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T03:35:37.329063+00:00",
-    "notes": ""
+    "notes": "",
+    "metrics": {
+      "likes": 14,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2121,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "02d7142ca5b4",
     "agent": "poke",
-    "quote": "AI is never taking over us, not like this\n\nVery good job \n@interaction\n poke has been working like shit lately \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "quote": "AI is never taking over us, not like this\n\nVery good job \n@interaction\n poke has been working like shit lately 🔥🔥🔥",
     "author": "@ThisIsDaMatt",
-    "author_name": "ThisIsDaMatt \uea00",
+    "author_name": "ThisIsDaMatt ",
     "date": "2026-08-27",
     "url": "https://x.com/ThisIsDaMatt/status/2093096612515995893",
     "kind": "complaint",
@@ -1351,12 +1876,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "working like shit lately"
+    "notes": "working like shit lately",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 245,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "251ef4310e1d",
     "agent": "poke",
-    "quote": "Bro just gets my random intrusive thoughts at 2 AM \ud83d\ude2d\nI love you Poke by \n@interaction",
+    "quote": "Bro just gets my random intrusive thoughts at 2 AM 😭\nI love you Poke by \n@interaction",
     "author": "@Coobyk_",
     "author_name": "Coobyk",
     "date": "2026-08-24",
@@ -1367,7 +1899,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": ""
+    "notes": "",
+    "metrics": {
+      "likes": 11,
+      "reposts": 2,
+      "replies": 2,
+      "views": 910,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8df0388dc524",
@@ -1383,7 +1922,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Instinct feels like Poke++"
+    "notes": "Instinct feels like Poke++",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 954,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d2ef1a61d751",
@@ -1400,7 +1946,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "pebble ring"
+    "notes": "pebble ring",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 111,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4c0687af8ea3",
@@ -1417,7 +1970,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.222Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 22,
+      "reposts": 2,
+      "replies": 0,
+      "views": 2126,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "005c16721f93",
@@ -1435,7 +1995,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.222Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 188,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "048165dfd76d",
@@ -1453,12 +2020,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.222Z",
-    "notes": "query: \"poke.com\" | via x402atlas"
+    "notes": "query: \"poke.com\" | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 114,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "33816aa70d4d",
     "agent": "poke",
-    "quote": "i\u2019m a power user of \n@interaction\n but keep thinking what real things can i get done: currently it\u2019s largely an email reader, a to do list, and a very funny bot (amazing product btw) \n\ngiving poke a phone no, email alias and a browser use ability would be a game changer",
+    "quote": "i’m a power user of \n@interaction\n but keep thinking what real things can i get done: currently it’s largely an email reader, a to do list, and a very funny bot (amazing product btw) \n\ngiving poke a phone no, email alias and a browser use ability would be a game changer",
     "author": "@PPaloju",
     "author_name": "prajwal",
     "date": "2026-07-30",
@@ -1469,12 +2043,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "email reader / todo / funny bot"
+    "notes": "email reader / todo / funny bot",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1126,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3d5943740a79",
     "agent": "poke",
-    "quote": "Right now I\u2019m using saner ai instead of poke ai, because it has the proactive day brief, live inside another apps and has a workspace ui for me to work. Think you gonna like it, I also got recommend this from Reddit, I\u2019m another sub lol",
+    "quote": "Right now I’m using saner ai instead of poke ai, because it has the proactive day brief, live inside another apps and has a workspace ui for me to work. Think you gonna like it, I also got recommend this from Reddit, I’m another sub lol",
     "author": "u/xoammOl4561",
     "author_name": "",
     "date": "2026-07-23",
@@ -1525,7 +2106,7 @@
   {
     "id": "2de2892742de",
     "agent": "poke",
-    "quote": "I\u2019ve tried Poke AI after seeing it on the news as the first third-party AI agent officially approved for Apple's Messages.\n\nI like the concept of having a proactive AI assistant inside your iMessage, but I\u2019d like an alternative that lives inside a separate app, I'm trying to see if there are any alternatives. Do you guys know any Poke alternatives that offer similar text-to-action functionality and also have a good memory, like a companion, thanks\n\n**Edit:** I'm using Daimon for a bit now and this is probably the closest thing to what I was looking for. It feels much more like a personal companion than an assistant, it remembers little things from previous conversations, I use it to dump thoughts, talk through decisions and keep track of stuff I want to come back to later. The conversations also feel way less transactional than most AI assistants I've tried.\n\nFor my use case at least, Daimon has probably been the best Poke alternative so far.",
+    "quote": "I’ve tried Poke AI after seeing it on the news as the first third-party AI agent officially approved for Apple's Messages.\n\nI like the concept of having a proactive AI assistant inside your iMessage, but I’d like an alternative that lives inside a separate app, I'm trying to see if there are any alternatives. Do you guys know any Poke alternatives that offer similar text-to-action functionality and also have a good memory, like a companion, thanks\n\n**Edit:** I'm using Daimon for a bit now and this is probably the closest thing to what I was looking for. It feels much more like a personal companion than an assistant, it remembers little things from previous conversations, I use it to dump thoughts, talk through decisions and keep track of stuff I want to come back to later. The conversations also feel way less transactional than most AI assistants I've tried.\n\nFor my use case at least, Daimon has probably been the best Poke alternative so far.",
     "author": "u/michaeltabuac8",
     "author_name": "",
     "date": "2026-07-18",
@@ -1574,7 +2155,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "poke.site broken, no support"
+    "notes": "poke.site broken, no support",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "741bb7f38ddb",
@@ -1590,12 +2178,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "most fun AI"
+    "notes": "most fun AI",
+    "metrics": {
+      "likes": 25,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2825,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "15108419a68a",
     "agent": "poke",
-    "quote": "this \n@interaction\n. I\u2019ve been missing the message backgrounds, reactions\u2026 the things that made poke feel\u2026 different \n\nlove the new human update, but the free customizable fun things are missing",
+    "quote": "this \n@interaction\n. I’ve been missing the message backgrounds, reactions… the things that made poke feel… different \n\nlove the new human update, but the free customizable fun things are missing",
     "author": "@brockandru",
     "author_name": "Brock",
     "date": "2026-06-26",
@@ -1607,7 +2202,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "missing message backgrounds/fun"
+    "notes": "missing message backgrounds/fun",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 752,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fdf5ae10f695",
@@ -1624,7 +2226,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Poke instant vs Orchid 3-5s"
+    "notes": "Poke instant vs Orchid 3-5s",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 35,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "883d6d27f598",
@@ -1648,7 +2257,7 @@
   {
     "id": "d26f3dbf7ba5",
     "agent": "poke",
-    "quote": "As much as I love poke I\u2019m having issues triggering two automations daily do I need the pro for that? All I want is ai news which already has a recipe and exchange rates for the day poke keeps forgetting",
+    "quote": "As much as I love poke I’m having issues triggering two automations daily do I need the pro for that? All I want is ai news which already has a recipe and exchange rates for the day poke keeps forgetting",
     "author": "@furkan_plus",
     "author_name": "Furkan+",
     "date": "2026-06-18",
@@ -1660,7 +2269,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "forgets daily automations"
+    "notes": "forgets daily automations",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 360,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a7ebec6ab11d",
@@ -1676,7 +2292,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "not paying $200/mo"
+    "notes": "not paying $200/mo",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 837,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "91867648d899",
@@ -1700,7 +2323,7 @@
   {
     "id": "f000f7237bd2",
     "agent": "poke",
-    "quote": "Say hi to the new Poke! \ud83c\udf34\n\nNow officially approved by Apple to text on Apple Messages.\n\nAs the first and only AI agent. Chat now: \nhttp://\nPoke.com",
+    "quote": "Say hi to the new Poke! 🌴\n\nNow officially approved by Apple to text on Apple Messages.\n\nAs the first and only AI agent. Chat now: \nhttp://\nPoke.com",
     "author": "@interaction",
     "author_name": "Poke",
     "date": "2026-06-04",
@@ -1715,12 +2338,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "company: Apple Messages approval"
+    "notes": "company: Apple Messages approval",
+    "metrics": {
+      "likes": 5486,
+      "reposts": 238,
+      "replies": 437,
+      "views": 5030630,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4bf64ca14e8d",
     "agent": "poke",
-    "quote": "From the article:\n\nLaunched in March,\u00a0Poke is one of the first AI agents designed to be accessible to everyday users who don\u2019t have the technical skill set or inclination to work with command-line tools or more complex agentic systems, like OpenClaw. Today, Poke can help with common activities, like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message. To date, it\u2019s relayed some 100 million messages, the company tells TechCrunch.\n\nThe AI service operates over SMS, Telegram, and, in some markets, WhatsApp. Now, Poke will be able to add iMessage to its supported platforms.\n\nThe news of Poke\u2019s launch on Apple\u2019s Messages for Business comes just days ahead of Apple\u2019s anticipated\u00a0Worldwide Developers Conference on Monday,\u00a0where it\u2019s expected to introduce an AI-optimized version of Siri along with other AI tools and services for app developers. It has also been\u00a0rumored\u00a0that Apple would open its App Store to AI agents.\n\n[Read more on TechCrunch.](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)",
+    "quote": "From the article:\n\nLaunched in March, Poke is one of the first AI agents designed to be accessible to everyday users who don’t have the technical skill set or inclination to work with command-line tools or more complex agentic systems, like OpenClaw. Today, Poke can help with common activities, like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message. To date, it’s relayed some 100 million messages, the company tells TechCrunch.\n\nThe AI service operates over SMS, Telegram, and, in some markets, WhatsApp. Now, Poke will be able to add iMessage to its supported platforms.\n\nThe news of Poke’s launch on Apple’s Messages for Business comes just days ahead of Apple’s anticipated Worldwide Developers Conference on Monday, where it’s expected to introduce an AI-optimized version of Siri along with other AI tools and services for app developers. It has also been rumored that Apple would open its App Store to AI agents.\n\n[Read more on TechCrunch.](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/)",
     "author": "u/techcrunch",
     "author_name": "",
     "date": "2026-06-04",
@@ -1774,7 +2404,7 @@
   {
     "id": "5115153aa6ed",
     "agent": "poke",
-    "quote": "Poke is a new AI agent startup that lets users access a personal assistant through familiar messaging platforms like iMessage, SMS, Telegram, and WhatsApp, without needing to install any software.\n\n**Key Details:**\n\n* **Founded**\u00a0by Marvin von Hagen and Felix Schlegel under\u00a0*The Interaction Company of California*, based in Palo Alto; the product launched publicly in March 2026.\n* **Functionality**\u00a0includes daily planning, calendar management, health tracking, smart home control, photo editing, email alerts, medication reminders, and news updates \u2014 all via text message.\n* **No app required**\u00a0\u2014 users simply visit [Poke.com](http://Poke.com), enter their phone number, and start chatting.\n* **Pre-built \"recipes\"**\u00a0allow users to automate tasks using integrations with Gmail, Google Calendar, Strava, Oura, GitHub, Notion, and many more services.\n* **Funding**\u00a0totals $25 million ($15M seed + $10M additional), with a post-money valuation of\u00a0**$300 million**; backed by Spark Capital, General Catalyst, and notable angels including the Collison brothers (Stripe) and Logan Paul.\n* **Pricing**\u00a0is flexible \u2014 free for basic use, with costs scaling based on real-time inference needs (estimated $10",
+    "quote": "Poke is a new AI agent startup that lets users access a personal assistant through familiar messaging platforms like iMessage, SMS, Telegram, and WhatsApp, without needing to install any software.\n\n**Key Details:**\n\n* **Founded** by Marvin von Hagen and Felix Schlegel under *The Interaction Company of California*, based in Palo Alto; the product launched publicly in March 2026.\n* **Functionality** includes daily planning, calendar management, health tracking, smart home control, photo editing, email alerts, medication reminders, and news updates — all via text message.\n* **No app required** — users simply visit [Poke.com](http://Poke.com), enter their phone number, and start chatting.\n* **Pre-built \"recipes\"** allow users to automate tasks using integrations with Gmail, Google Calendar, Strava, Oura, GitHub, Notion, and many more services.\n* **Funding** totals $25 million ($15M seed + $10M additional), with a post-money valuation of **$300 million**; backed by Spark Capital, General Catalyst, and notable angels including the Collison brothers (Stripe) and Logan Paul.\n* **Pricing** is flexible — free for basic use, with costs scaling based on real-time inference needs (estimated $10",
     "author": "u/Money-Ranger-6520",
     "author_name": "",
     "date": "2026-04-09",
@@ -1795,7 +2425,7 @@
   {
     "id": "a4f64e435fb3",
     "agent": "poke",
-    "quote": "Planned an entire Hamburg trip for the group \u2014 train from Berlin, sightseeing spots, restaurant for 6, things to do around our hotel \u2014 all the way through to MJ The Musical \ud83c\udfb6 My secret weapon? My AI assistant Poke from \n@interaction\n \ud83e\udd16\u2728\n\n#AI #TravelPlanning #MJTheMusical",
+    "quote": "Planned an entire Hamburg trip for the group — train from Berlin, sightseeing spots, restaurant for 6, things to do around our hotel — all the way through to MJ The Musical 🎶 My secret weapon? My AI assistant Poke from \n@interaction\n 🤖✨\n\n#AI #TravelPlanning #MJTheMusical",
     "author": "@cemvogt",
     "author_name": "Cem",
     "date": "2026-04-03",
@@ -1806,12 +2436,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Hamburg group trip"
+    "notes": "Hamburg group trip",
+    "metrics": {
+      "likes": 8,
+      "reposts": 1,
+      "replies": 2,
+      "views": 1225,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c0f3a54bfcd1",
     "agent": "poke",
-    "quote": "@interaction\n Poke has been an amazing entry into my AI Agentic portfolio. \n\nMostly because I\u2019m not using it as suggested. \n\nI don\u2019t need an agent to read my emails\nOr reply to them. I don\u2019t need it to look at a calendar \n\nWhat I do need is an agent that can maintain long and",
+    "quote": "@interaction\n Poke has been an amazing entry into my AI Agentic portfolio. \n\nMostly because I’m not using it as suggested. \n\nI don’t need an agent to read my emails\nOr reply to them. I don’t need it to look at a calendar \n\nWhat I do need is an agent that can maintain long and",
     "author": "@RubberDucky_AI",
     "author_name": "AI SAT",
     "date": "2025-10-07",
@@ -1822,7 +2459,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "not using as suggested"
+    "notes": "not using as suggested",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1186,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8390dba288b9",
@@ -1838,12 +2482,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "trip planning Japan/Hawaii"
+    "notes": "trip planning Japan/Hawaii",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 314,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c10b50ec0a6d",
     "agent": "poke",
-    "quote": "If you couldn't tell by now, I'm a fan of Poke. Compared to some of the other consumer products I've written about, Poke is one of the few I've continued to use after my initial trial \u2014 and the only one that's gotten me to put down actual money for a subscription. ... So far, I've used Poke to send me curated morning newsletters, respond to emails for my on-campus job, remind me to listen to the Hanuman Chalisa on Tuesdays and Saturdays, and check into my flights.",
+    "quote": "If you couldn't tell by now, I'm a fan of Poke. Compared to some of the other consumer products I've written about, Poke is one of the few I've continued to use after my initial trial — and the only one that's gotten me to put down actual money for a subscription. ... So far, I've used Poke to send me curated morning newsletters, respond to emails for my on-campus job, remind me to listen to the Hanuman Chalisa on Tuesdays and Saturdays, and check into my flights.",
     "author": "tanishasrivatsa",
     "author_name": "Tanisha Srivatsa",
     "date": "2025-09-23",

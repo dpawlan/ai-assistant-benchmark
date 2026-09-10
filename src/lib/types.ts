@@ -138,7 +138,20 @@ export interface Feedback {
   source: string;
   collected_at: string;
   notes: string;
+  /** Public engagement on the original post, fetched by scripts/engagement.mjs. */
+  metrics?: QuoteMetrics;
 }
+
+export interface QuoteMetrics {
+  likes?: number;
+  reposts?: number;
+  replies?: number;
+  views?: number | null;
+  fetched: string;
+  /** The post was deleted or is unavailable. */
+  missing?: boolean;
+}
+
 
 /** How you get it and what it costs, checked by hand on `checked`. */
 export interface Access {

@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: heywaldo.in manifesto; offering early access"
+    "notes": "founder: heywaldo.in manifesto; offering early access",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 213,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "faacfd25d207",
@@ -33,7 +40,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: opening first alpha cohort to pressure-test @heyywaldo"
+    "notes": "founder: opening first alpha cohort to pressure-test @heyywaldo",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 64,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6f514ffa3e59",
@@ -51,7 +65,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: similar to personal AI space; productivity + health twist"
+    "notes": "founder: similar to personal AI space; productivity + health twist",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 95,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "41c0b4e90c22",
@@ -69,7 +90,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: personal AI should represent us across work+life"
+    "notes": "founder: personal AI should represent us across work+life",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 31,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1603fb124029",
@@ -87,7 +115,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: launch soon; heywaldo.in is main landing; simplify setup"
+    "notes": "founder: launch soon; heywaldo.in is main landing; simplify setup",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 83,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2784f178368e",
@@ -105,7 +140,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "third-party: love idea but landing page friction / expected setup effort"
+    "notes": "third-party: love idea but landing page friction / expected setup effort",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 169,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2ba00aec5b78",
@@ -123,7 +165,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "third-party UX: pair headline with concrete first setup action"
+    "notes": "third-party UX: pair headline with concrete first setup action",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 63,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0c30ac781cef",
@@ -143,7 +192,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.307Z",
-    "notes": "query: @heyywaldo | via x402atlas"
+    "notes": "query: @heyywaldo | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3c07b967d84c",
@@ -161,7 +217,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.307Z",
-    "notes": "query: @heyywaldo | via x402atlas"
+    "notes": "query: @heyywaldo | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d7d4633b924f",
@@ -179,7 +242,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.307Z",
-    "notes": "query: @heyywaldo | via x402atlas"
+    "notes": "query: @heyywaldo | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 49,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "074474c1ad72",
@@ -199,6 +269,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:04:06.307Z",
-    "notes": "query: @heyywaldo | via x402atlas"
+    "notes": "query: @heyywaldo | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   }
 ]

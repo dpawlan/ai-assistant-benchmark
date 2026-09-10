@@ -23,6 +23,14 @@ export function sourceName(item: Feedback): string {
   return 'source';
 }
 
+/** 1234 -> 1.2K, 12345 -> 12K. */
+export function compact(n: number): string {
+  if (n < 1000) return String(n);
+  if (n < 10_000) return `${(n / 1000).toFixed(1).replace(/\.0$/, '')}K`;
+  if (n < 1_000_000) return `${Math.round(n / 1000)}K`;
+  return `${(n / 1_000_000).toFixed(1).replace(/\.0$/, '')}M`;
+}
+
 export function shortDate(iso: string): string {
   const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso);
   if (!m) return iso;
@@ -73,6 +81,12 @@ export function QuoteItem({ quote, agent, categories = [], categoryLabels = {}, 
         </div>
         <p className={`q-text${clamp ? ' clamp' : ''}`}>{quote.quote}</p>
         <div className="q-meta">
+          {quote.metrics && !quote.metrics.missing && (quote.metrics.likes ?? 0) > 0 && (
+            <span className="q-stat" title="Engagement on the original post">
+              {compact(quote.metrics.likes ?? 0)} likes
+              {(quote.metrics.reposts ?? 0) > 0 && ` · ${compact(quote.metrics.reposts ?? 0)} reposts`}
+            </span>
+          )}
           <span className="q-kind">{KIND_LABEL[quote.kind] ?? 'Other'}</span>
           {categories.map(c => (
             <Link key={c} href={`/dimensions/${c}`} className="q-cat">

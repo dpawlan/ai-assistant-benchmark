@@ -27,6 +27,7 @@ export function Sidebar({ categories }: SidebarProps) {
             { href: '/', label: 'Scorecard' },
             { href: '/dimensions', label: 'Dimensions' },
             { href: '/compare', label: 'Head to head' },
+            { href: '/use-cases', label: 'Use cases' },
           ]}
         />
 

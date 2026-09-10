@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: 1M messages"
+    "notes": "company: 1M messages",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 303,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a2a6fecfeba8",
@@ -33,7 +40,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: chase late parcels"
+    "notes": "company: chase late parcels",
+    "metrics": {
+      "likes": 8,
+      "reposts": 1,
+      "replies": 2,
+      "views": 2104,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "738b40cc0dd0",
@@ -51,7 +65,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: Todoist via text"
+    "notes": "company: Todoist via text",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 4,
+      "views": 2766,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2a9ec8c34de4",
@@ -69,7 +90,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: Notion integration"
+    "notes": "company: Notion integration",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2174,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "20a4c46b7880",
@@ -89,7 +117,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "public text number"
+    "notes": "public text number",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 245,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0e5617a49fec",
@@ -108,7 +143,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "updated and shipped"
+    "notes": "updated and shipped",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2636,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "58299311e917",
@@ -126,7 +168,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Agent Store listing: texts you first"
+    "notes": "Agent Store listing: texts you first",
+    "metrics": {
+      "likes": 61,
+      "reposts": 3,
+      "replies": 9,
+      "views": 16360,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c4e80a415c45",
@@ -146,7 +195,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "T-25; Lucas proactive today"
+    "notes": "T-25; Lucas proactive today",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1006,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5cce944ccc11",
@@ -166,7 +222,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "launching meetlucasai <25 days"
+    "notes": "launching meetlucasai <25 days",
+    "metrics": {
+      "likes": 215,
+      "reposts": 2,
+      "replies": 60,
+      "views": 17533,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ca17f1207fb3",
@@ -185,7 +248,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "cofounder intro; launching Lucas"
+    "notes": "cofounder intro; launching Lucas",
+    "metrics": {
+      "likes": 27,
+      "reposts": 0,
+      "replies": 11,
+      "views": 2194,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4606a3667dcb",
@@ -222,7 +292,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: \"meetlucas.ai\" | via x402atlas"
+    "notes": "query: \"meetlucas.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 2,
+      "views": 201,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5627d922e788",
@@ -240,7 +317,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1431ac14c953",
@@ -258,7 +342,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1aeb4c0c601d",
@@ -276,7 +367,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3fc45a9501a7",
@@ -294,7 +392,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "dd424614f1b1",
@@ -312,7 +417,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 3,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "724e4d5013a7",
@@ -330,7 +442,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 8,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "129f4938f946",
@@ -348,7 +467,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.079Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 15,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "340de1e79267",
@@ -366,7 +492,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 6,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c3563e9ee3fd",
@@ -384,7 +517,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 6,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a2945c3dc0f5",
@@ -402,7 +542,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 14,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f871e5849db4",
@@ -420,7 +567,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d837652de8ee",
@@ -438,7 +592,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9311f0ca47b4",
@@ -456,7 +617,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 11,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3f6460390cf2",
@@ -474,7 +642,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 22,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "47fbbae39216",
@@ -492,7 +667,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3f5eac6d1a0d",
@@ -510,7 +692,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ce806975c39a",
@@ -528,7 +717,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "51341e22bb6e",
@@ -546,7 +742,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3cbb4fbb2bb4",
@@ -564,7 +767,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 26,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2796fb86b208",
@@ -582,7 +792,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.080Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 29,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7b3deb2f276e",
@@ -599,7 +816,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 27,
+      "reposts": 1,
+      "replies": 9,
+      "views": 875,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "171657125395",
@@ -617,7 +841,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9216a306f210",
@@ -637,7 +868,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 2,
+      "views": 93,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b40fbec446af",
@@ -654,7 +892,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 74,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "83bb229bb257",
@@ -674,7 +919,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "eda68e138f18",
@@ -692,7 +944,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 13,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "124a99e73648",
@@ -710,7 +969,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ef1d371076eb",
@@ -730,7 +996,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 25,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "da1663902a55",
@@ -750,7 +1023,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 242,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a090d427d249",
@@ -768,7 +1048,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c16be2e295a1",
@@ -786,7 +1073,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "aaeb8d3fa6a1",
@@ -806,7 +1100,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 94,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8f790e89de14",
@@ -826,7 +1127,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 130,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f7ec4beb73d1",
@@ -844,7 +1152,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "53a952241501",
@@ -862,7 +1177,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8454eba63f2c",
@@ -880,7 +1202,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "878d260e373a",
@@ -898,7 +1227,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e621b3a916b9",
@@ -916,7 +1252,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8dba859502ab",
@@ -934,7 +1277,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8bd00c3a36eb",
@@ -952,7 +1302,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.563Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c8f09d8d6b66",
@@ -970,7 +1327,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "526577eca785",
@@ -988,7 +1352,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "26fa6bb5d079",
@@ -1006,7 +1377,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 59,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3734ba9c1e80",
@@ -1024,7 +1402,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 41,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f1f574eee2a2",
@@ -1042,7 +1427,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0a3e0c443678",
@@ -1060,7 +1452,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 47,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3919a48b2bd8",
@@ -1078,7 +1477,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 62,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e48e6e4723cf",
@@ -1096,7 +1502,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 81,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7c86ddaac54a",
@@ -1114,7 +1527,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 95,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "505288e64654",
@@ -1132,7 +1552,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 69,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5caf85242278",
@@ -1152,7 +1579,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 338,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d86465f455e6",
@@ -1170,7 +1604,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 81,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0dc2413df14c",
@@ -1188,7 +1629,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 389,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "eb6da471b771",
@@ -1208,7 +1656,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 236,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f5485c99b0f3",
@@ -1228,7 +1683,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 510,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fb2c83108ee3",
@@ -1248,7 +1710,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 335,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "be55bfa40ce5",
@@ -1268,7 +1737,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 180,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5310f901d941",
@@ -1286,7 +1762,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 241,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "faa23446801b",
@@ -1304,7 +1787,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 173,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "be7b0c0a85d4",
@@ -1323,7 +1813,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.388Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 16,
+      "reposts": 0,
+      "replies": 4,
+      "views": 2896,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "29fad028afe6",
@@ -1341,7 +1838,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 221,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2d06adcbaefa",
@@ -1359,7 +1863,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 401,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ba9541710359",
@@ -1377,7 +1888,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "97340311b4a7",
@@ -1397,7 +1915,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 35,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "78528b908b3e",
@@ -1415,7 +1940,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 27,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "924c8aadea48",
@@ -1433,7 +1965,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bf0dca694afc",
@@ -1451,7 +1990,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ff80af86dd46",
@@ -1471,7 +2017,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 291,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7f561567ab3b",
@@ -1491,7 +2044,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 481,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "27e604044f74",
@@ -1511,7 +2071,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 186,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a3c1537ab9f4",
@@ -1531,7 +2098,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 221,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "aeb96fd56a02",
@@ -1549,7 +2123,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 319,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bca28dfdf8df",
@@ -1567,7 +2148,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 259,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f10d59d72ccc",
@@ -1585,7 +2173,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 575,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "33f11be5ecda",
@@ -1603,7 +2198,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 207,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2fdda0c0a0b6",
@@ -1623,7 +2225,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 274,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d31361283f1d",
@@ -1641,7 +2250,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 109,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ed733dd6795d",
@@ -1659,7 +2275,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 123,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "61befc7ff58c",
@@ -1677,7 +2300,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "95e639e98006",
@@ -1695,6 +2325,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.107Z",
-    "notes": "query: @meetlucasai | via x402atlas"
+    "notes": "query: @meetlucasai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "fetched": "2026-09-10"
+    }
   }
 ]

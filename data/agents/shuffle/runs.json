@@ -30,6 +30,16 @@
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-rec"
   },
   {
+    "id": "shuffle-2026-09-09-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Published purchasing via Blooio from +16124259300 to Shuffle +16463823248 (reorder Amazon coffee ×2). No purchase history on bench number; redirected to Stumptown Hair Bender 12oz ×2. Amazon checkout path hit errors; on Stumptown.com path Shuffle collected guest name, tester shipping address and email provided, then stalled on an identity-check error before the card screen. Run ended without payment.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-purchasing"
+  },
+  {
     "id": "shuffle-2026-09-09-blooio-email",
     "category": "email_replies",
     "protocol": "task",

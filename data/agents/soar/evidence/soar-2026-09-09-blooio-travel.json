@@ -1,0 +1,19 @@
+{
+  "id": "soar-2026-09-09-blooio-travel",
+  "agent": "soar",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 14,
+    "my_messages": 5,
+    "agent_messages": 9,
+    "first_reply_s": 3,
+    "duration_min": 18,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T01:06:00.000Z"
+}

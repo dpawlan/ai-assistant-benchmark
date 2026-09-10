@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-blooio-email",
+  "agent": "szn",
+  "category": "email_replies",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T17:40:00.000Z"
+}

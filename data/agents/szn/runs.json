@@ -38,5 +38,15 @@
     "outcome": "partial",
     "notes": "Task: two bags Stumptown Hair Bender; Amazon first then brand site; ship to tester home; stage without charging. Amazon required sign-in; Szn asked for Amazon credentials via secure link (tester refused). Pivoted to Stumptown.com: 2×12oz Hair Bender staged at payment $44 ($38+$6 shipping) to tester address; nothing charged. Same band as Tomo purchasing 8.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-purchasing"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Reply to Sam proposing Thursday: decline; offer two calendar slots; usual tone. Szn correctly reported Gmail and Calendar not connected. After tester supplied slots, produced a clean draft declining Thursday and offering Tue 2–3pm ET / Wed 11–12 ET; held for approval, did not send. Same band as Tomo/Shuffle email 8.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-email"
   }
 ]

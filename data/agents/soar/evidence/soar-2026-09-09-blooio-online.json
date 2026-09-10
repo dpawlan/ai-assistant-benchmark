@@ -1,0 +1,19 @@
+{
+  "id": "soar-2026-09-09-blooio-online",
+  "agent": "soar",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 18,
+    "my_messages": 7,
+    "agent_messages": 11,
+    "first_reply_s": 4,
+    "duration_min": 25,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T01:05:00.000Z"
+}

@@ -1,250 +1,77 @@
 [
   {
-    "id": "d8a5cae9fa4d",
+    "id": "fc3e8c09795f",
     "agent": "muse",
-    "quote": "The WhatsApp connector isn't flawless. At least one early user reported it \"not working well, unable to connect\" on day two. If this happens to you, try the standalone app or muse.ai directly instead.",
-    "author": "FindSkill Team",
-    "author_name": "FindSkill Team",
-    "date": "2026-09-10",
-    "url": "https://findskill.ai/blog/what-is-meta-muse-ai-agent-trust-review/",
-    "kind": "bug",
-    "tags": [
-      "muse",
-      "whatsapp",
-      "onboarding",
-      "launch-week"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Day-2 WhatsApp connect failure reported in early-hands roundup."
-  },
-  {
-    "id": "86cb6e761547",
-    "agent": "muse",
-    "quote": "IMO it's the first main openclaw-like product that has made it to the \"just works\" level of usability.",
-    "author": "weitendorf",
-    "author_name": "weitendorf",
-    "date": "2026-09-09",
-    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#openclaw-like",
-    "kind": "comparison",
-    "tags": [
-      "muse",
-      "openclaw",
-      "usability",
-      "hn"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "HN framing Muse as polished OpenClaw-like consumer agent."
-  },
-  {
-    "id": "ae0e182e1f9f",
-    "agent": "muse",
-    "quote": "Speed is the standout. Every hands-on tester leads with it. Muse Spark 1.3 runs past 200 tokens per second and the chat never stalls. ... The free tier goes fast. Roughly 100 million weekly tokens sounds generous. One tester burned 81% of it in a single day of ordinary use.",
-    "author": "Austin",
-    "author_name": "Austin (Saner.AI)",
-    "date": "2026-09-09",
-    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews",
+    "quote": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://Muse.ai",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-08",
+    "url": "https://x.com/Muse/status/2097399178376671666",
     "kind": "other",
     "tags": [
-      "muse",
-      "speed",
-      "tokens",
-      "review-roundup"
+      "auto",
+      "x",
+      "vendor"
     ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Launch-week roundup scoring Muse 3.4/5; speed high, reliability/trust low."
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.186Z",
+    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 10713,
+      "reposts": 972,
+      "replies": 1020,
+      "views": 5908472,
+      "fetched": "2026-09-10"
+    }
   },
   {
-    "id": "4b2c0201255e",
+    "id": "684aca7afc29",
     "agent": "muse",
-    "quote": "so far I don't see myself using Muse to book a hotel, order a delivery, or do shopping on my behalf because the status quo feels to me a better and more seamless experience.",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/#verdict",
-    "kind": "complaint",
+    "quote": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
+    "author": "@finkd",
+    "author_name": "Mark Zuckerberg",
+    "date": "2026-09-08",
+    "url": "https://x.com/finkd/status/2097402101332590646",
+    "kind": "other",
     "tags": [
-      "muse",
-      "shopping",
-      "travel",
-      "skepticism"
+      "auto",
+      "x",
+      "vendor"
     ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Day-1 verdict: apps still win for booking/shopping."
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.282Z",
+    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 36276,
+      "reposts": 2515,
+      "replies": 3230,
+      "views": 8213501,
+      "fetched": "2026-09-10"
+    }
   },
   {
-    "id": "5fd20299f38c",
+    "id": "41428873f656",
     "agent": "muse",
-    "quote": "I tried the same Airbnb queries that I did with Muse. It took literally an hour, I kid you not, for Instinct to respond to my aforementioned Airbnb query. When I tried the DoorDash query on Instinct, it still took 8 minutes to respond. After experiencing Muse's speed, the bar just became too high for a startup such as Instinct which probably cannot afford as much compute as Meta is throwing at these problems.",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/#instinct-compare",
-    "kind": "comparison",
+    "quote": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure.\n\ntry it now: https://muse.ai.",
+    "author": "@alexandr_wang",
+    "author_name": "Alexandr Wang",
+    "date": "2026-09-08",
+    "url": "https://x.com/alexandr_wang/status/2097402344061510004",
+    "kind": "other",
     "tags": [
-      "muse",
-      "instinct",
-      "speed",
-      "comparison"
+      "auto",
+      "x",
+      "vendor"
     ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Direct Muse vs Instinct latency comparison from same tester."
-  },
-  {
-    "id": "07499a8cc93d",
-    "agent": "muse",
-    "quote": "Zuckerberg mentioned in an interview yesterday that the free tier has up to a 100 million weekly token usage limit. While that sounded plenty to me at first, as of this writing, I have already used 81% of my free plan's weekly limit.",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/#free-tier",
-    "kind": "complaint",
-    "tags": [
-      "muse",
-      "pricing",
-      "tokens",
-      "free-tier"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Fragment marks free-tier burn anecdote; same hands-on review."
-  },
-  {
-    "id": "f0ba47d36d67",
-    "agent": "muse",
-    "quote": "I asked it to use my Gmail account to login. It tried but it got stuck in log-in circular hell. It would try to login, Google would let me know someone's trying to login to my DoorDash account, I would confirm \"it's me\", and the whole process repeated three times after which I gave up.",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/#doordash",
-    "kind": "bug",
-    "tags": [
-      "muse",
-      "doordash",
-      "login",
-      "reliability"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "DoorDash OAuth loop on day-1 test."
-  },
-  {
-    "id": "7dd56ac7c1f2",
-    "agent": "muse",
-    "quote": "Later, I asked it to buy men's deodorant from Amazon. It did everything fine and after sharing my Amazon credentials, I just needed to allow the payment. But I noticed it was showing me that the product will be delivered on September 15. I quickly went to my Amazon app and searched for the same product on the app and I could see there are a couple of options of the same product that can be delivered in two days.",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/#amazon",
-    "kind": "bug",
-    "tags": [
-      "muse",
-      "shopping",
-      "amazon",
-      "reliability"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Wrong delivery estimate vs Amazon app."
-  },
-  {
-    "id": "16833bf74ebe",
-    "agent": "muse",
-    "quote": "First of all, the app is FAST! The fluidity of chatting and the snappy feeling of Muse's response just kept the conversation flowing. The best use case that I have found so far is I can finally connect all my Gmail accounts with Muse. While using Claude or ChatGPT, one of my persistent problems has been that I can only connect one Gmail account (for what it's worth, Instinct can do this too).",
-    "author": "MBI Deep Dives",
-    "author_name": "MBI Deep Dives",
-    "date": "2026-09-09",
-    "url": "https://www.mbi-deepdives.com/muse/",
-    "kind": "praise",
-    "tags": [
-      "muse",
-      "speed",
-      "multi-gmail",
-      "hands-on",
-      "launch-week"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Day-1 hands-on; multi-account Gmail as differentiator vs Claude/ChatGPT."
-  },
-  {
-    "id": "b59cab5f14cf",
-    "agent": "muse",
-    "quote": "Facebook has a horrible experience when you're traveling or logging in from a new computer... Wouldn't want to depend on anything from Facebook, especially not something with access to my email, calendar, and browser.",
-    "author": "welder",
-    "author_name": "welder",
-    "date": "2026-09-09",
-    "url": "https://www.eesel.ai/blog/meta-muse-agent-review#welder",
-    "kind": "complaint",
-    "tags": [
-      "muse",
-      "trust",
-      "meta",
-      "hn"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "HN dependency/trust objection."
-  },
-  {
-    "id": "d32581b5b814",
-    "agent": "muse",
-    "quote": "It's running in its own VM, but it's an impressively transparent system: You have access to its System Files right in the GUI, which surprised me. You can look at the AGENTS.md and other harness files it uses as well as some shell scripts, bash files, cronjob folder.",
-    "author": "russellbeattie",
-    "author_name": "russellbeattie",
-    "date": "2026-09-09",
-    "url": "https://www.eesel.ai/blog/meta-muse-agent-review#vm-transparency",
-    "kind": "praise",
-    "tags": [
-      "muse",
-      "security",
-      "transparency",
-      "hn"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "HN early tester on Secure VM transparency."
-  },
-  {
-    "id": "4df301999d3e",
-    "agent": "muse",
-    "quote": "Love the idea and the polish. Hate the owners.",
-    "author": "matthewfcarlson",
-    "author_name": "matthewfcarlson",
-    "date": "2026-09-09",
-    "url": "https://www.eesel.ai/blog/meta-muse-agent-review",
-    "kind": "comparison",
-    "tags": [
-      "muse",
-      "trust",
-      "hn",
-      "launch-week"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "HN sentiment quoted in eesel review \u2014 polish vs Meta trust gap."
-  },
-  {
-    "id": "15a61267a74f",
-    "agent": "muse",
-    "quote": "But by all means, give up more control \u2014 You must have no idea how susceptible agents are to marketing! I used agents in conjunction to my own research on a niche item lately and while it was helpful for showing some things I hadn't considered it was dead wrong, frequently about a lot of stuff.",
-    "author": "taurath",
-    "author_name": "taurath",
-    "date": "2026-09-09",
-    "url": "https://news.ycombinator.com/item?id=49615537",
-    "kind": "complaint",
-    "tags": [
-      "muse",
-      "shopping",
-      "hn",
-      "reliability"
-    ],
-    "source": "web",
-    "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "HN launch thread skepticism on agent shopping accuracy."
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.383Z",
+    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 5368,
+      "reposts": 456,
+      "replies": 569,
+      "views": 11776023,
+      "fetched": "2026-09-10"
+    }
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "id": "stanley-2026-08-03-dc5bbf",
+  "agent": "stanley",
+  "category": "content_creation_games",
+  "protocol": "observed",
+  "date": "2026-08-03",
+  "signals": {
+    "turns": 13,
+    "my_messages": 3,
+    "agent_messages": 10,
+    "first_reply_s": 15,
+    "duration_min": 38,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.533Z"
+}

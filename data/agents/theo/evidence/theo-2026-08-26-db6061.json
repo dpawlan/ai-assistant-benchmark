@@ -1,0 +1,19 @@
+{
+  "id": "theo-2026-08-26-db6061",
+  "agent": "theo",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-08-26",
+  "signals": {
+    "turns": 11,
+    "my_messages": 4,
+    "agent_messages": 7,
+    "first_reply_s": 21,
+    "duration_min": 34,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.533Z"
+}

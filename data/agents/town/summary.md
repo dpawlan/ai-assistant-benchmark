@@ -29,3 +29,8 @@ _Updated 2026-09-09 weekday vault scan (+3 rows)._
 - (2026-09-08) @sebtsaii: Imo, those that could win are those hyperpersonalized to a "vertical"  Still bullish on:   @TownAI   @heyollieai  Voice anyone? (@tommaxxing
 - (2026-09-09) @NoamTenne: It's the best I've tried yet!
 - (2026-09-08) @armenberjikly: @Meta released Muse today, a personal agent competing with Instinct / @TownAI / @bot. One very notable thing it does differently than the re
+
+_Updated 2026-09-10 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-01) UseCarly: Choose Pally if you want one assistant inside your personal messages and daily life. Choose Town if you want one assistant learning and oper

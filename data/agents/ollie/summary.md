@@ -19,3 +19,9 @@ _Updated 2026-09-09 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-07-13) usecarly: Use Ollie if you want a text-only assistant that quietly watches your inbox and calendar and pings you; use Ohai if you want an app-based sh
 - (2026-09-08) @sebtsaii: Imo, those that could win are those hyperpersonalized to a "vertical"  Still bullish on:   @TownAI   @heyollieai  Voice anyone? (@tommaxxing
+
+_Updated 2026-09-10 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-09) Relve: Ollie AI assistant is pitching a privacy-first household helper after achieving SOC 2 compliance and adopting a subscription business model.
+- (2026-09-09) The UNN: Ollie, an innovative AI platform based in San Diego, has announced that it has successfully secured $7.5 million in seed financing. The inve

@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-10",
   "agent_count": 58,
-  "feedback_count": 2593,
+  "feedback_count": 2631,
   "confirmed": 42,
   "stretch": 16,
   "agents": [
@@ -104,7 +104,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free (10 applications) · Pro €39/mo · Ultra €99/mo",
+        "price": "Free (10 applications) \u00b7 Pro \u20ac39/mo \u00b7 Ultra \u20ac99/mo",
         "regions": "International; Europe-focused",
         "channels": [
           "WhatsApp"
@@ -179,7 +179,7 @@
       "name": "Catch",
       "status": "confirmed",
       "site": "https://catchagent.ai/",
-      "feedback_count": 116,
+      "feedback_count": 120,
       "public_signal": null,
       "tagline": "Your admin savior: scheduling, email and calls",
       "icon": "/logos/catch.png",
@@ -237,7 +237,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $16/seat/mo · Business $39/seat/mo · Team $199/mo",
+        "price": "Free \u00b7 Pro $16/seat/mo \u00b7 Business $39/seat/mo \u00b7 Team $199/mo",
         "regions": "Not stated",
         "channels": [
           "Web",
@@ -301,7 +301,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $9.99/mo · Max $100/mo",
+        "price": "Free \u00b7 Pro $9.99/mo \u00b7 Max $100/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -317,7 +317,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 172,
+      "feedback_count": 176,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",
@@ -379,7 +379,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-      "feedback_count": 161,
+      "feedback_count": 167,
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png",
@@ -475,7 +475,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free with your own API keys (3 agents) · Pro $20/mo",
+        "price": "Free with your own API keys (3 agents) \u00b7 Pro $20/mo",
         "regions": "Not stated",
         "channels": [
           "Desktop app (macOS, Windows, Linux)",
@@ -500,7 +500,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free tier · Plus (paid; $15/mo student rate)",
+        "price": "Free tier \u00b7 Plus (paid; $15/mo student rate)",
         "regions": "Not stated",
         "channels": [
           "macOS app",
@@ -642,14 +642,14 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 0,
+      "feedback_count": 13,
       "public_signal": null,
-      "tagline": "Meta’s personal AI agent for everyday tasks",
+      "tagline": "Meta\u2019s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · $20/mo · $100/mo",
+        "price": "Free \u00b7 $20/mo \u00b7 $100/mo",
         "regions": "US only, 18+",
         "channels": [
           "iOS app",
@@ -665,7 +665,7 @@
       "name": "Ollie",
       "status": "confirmed",
       "site": "https://ollie.ai/",
-      "feedback_count": 126,
+      "feedback_count": 128,
       "public_signal": null,
       "tagline": "Privacy-first assistant for email, calendar and reminders",
       "icon": "/logos/ollie.png",
@@ -738,7 +738,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Solo $39 · Team $59 · Business $89 per seat/mo; credits meter work",
+        "price": "Solo $39 \u00b7 Team $59 \u00b7 Business $89 per seat/mo; credits meter work",
         "regions": "US and EU data residency options",
         "channels": [
           "Slack",
@@ -756,14 +756,14 @@
       "name": "Pally",
       "status": "confirmed",
       "site": "https://pally.com/",
-      "feedback_count": 76,
+      "feedback_count": 77,
       "public_signal": null,
       "tagline": "The AI personal assistant you text",
       "icon": "/logos/pally.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $25/mo · Max $100/mo",
+        "price": "Free \u00b7 Pro $25/mo \u00b7 Max $100/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -778,7 +778,7 @@
       "name": "personal/local",
       "status": "confirmed",
       "site": "",
-      "feedback_count": 175,
+      "feedback_count": 180,
       "public_signal": null,
       "tagline": "Self-hosted setup (OpenClaw, Claude Code)",
       "icon": null,
@@ -820,14 +820,14 @@
       "name": "Poke",
       "status": "confirmed",
       "site": "https://poke.com/",
-      "feedback_count": 105,
+      "feedback_count": 107,
       "public_signal": null,
       "tagline": "The proactive assistant on Messages, WhatsApp and Telegram",
       "icon": "/logos/poke.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $19/mo · Ultra $199/mo",
+        "price": "Free \u00b7 Pro $19/mo \u00b7 Ultra $199/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -893,7 +893,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Pro $199/mo · Max $299/mo; 7-day money-back",
+        "price": "Pro $199/mo \u00b7 Max $299/mo; 7-day money-back",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -932,7 +932,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Starter $20/mo · Team $200/mo, plus usage",
+        "price": "Starter $20/mo \u00b7 Team $200/mo, plus usage",
         "regions": "Not stated",
         "channels": [
           "Slack",
@@ -955,7 +955,7 @@
       "kind": "email",
       "access": {
         "pricing": "paid",
-        "price": "$25–30/mo, 7-day trial; Gmail only",
+        "price": "$25\u201330/mo, 7-day trial; Gmail only",
         "regions": "Not stated",
         "channels": [
           "App",
@@ -1019,7 +1019,7 @@
       "kind": "infra",
       "access": {
         "pricing": "freemium",
-        "price": "Free tier · Streams to $1,000/mo",
+        "price": "Free tier \u00b7 Streams to $1,000/mo",
         "regions": "Not stated",
         "channels": [
           "API",
@@ -1162,14 +1162,14 @@
       "name": "Town",
       "status": "confirmed",
       "site": "https://www.town.com/",
-      "feedback_count": 74,
+      "feedback_count": 75,
       "public_signal": null,
       "tagline": "The assistant that learns how you work, then gets to work",
       "icon": "/logos/town.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free (30 msgs/mo) · $15 · $49 · $99 · $199/mo",
+        "price": "Free (30 msgs/mo) \u00b7 $15 \u00b7 $49 \u00b7 $99 \u00b7 $199/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1219,7 +1219,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $99/mo (waitlist)",
+        "price": "Free \u00b7 Pro $99/mo (waitlist)",
         "regions": "Not stated",
         "channels": [
           "Email",
@@ -1263,7 +1263,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro · Ultra (prices in-app)",
+        "price": "Free \u00b7 Pro \u00b7 Ultra (prices in-app)",
         "regions": "Latin America and Europe",
         "channels": [
           "iOS app",

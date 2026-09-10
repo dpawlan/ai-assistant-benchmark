@@ -30,3 +30,11 @@ _Updated 2026-09-09 weekday vault scan (+3 rows)._
 - (2026-09-02) shay-yahal: I'm a proud user of Catch for months now, and f*cking love it. At some point during the last year scheduling became too much. I of course tr
 - (2026-09-02) amit-mandelbaum: Catch is one of the best AI Assistants out there, it's super easy to use, trustworthy like no other tool, and can do pretty much everything,
 - (2026-09-02) theagentlog: This is a new entrant in the same space as Instinct and Poke: a personal AI assistant that does real admin work, not just chat. ... Catch ca
+
+_Updated 2026-09-10 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-03) Daniel Levi: For example, if an executive books a flight but has no hotel reservation, Catch can check rates at the hotel that person usually uses and as
+- (2026-09-02) Progressive Robot: Catch AI is the rare admin assistant launch that leads with the telephone rather than the inbox. ... The phone channel is worth enabling ear
+- (2026-05-01) reddit-user: i'm using catchagent.ai for almost 5 months now. works great for a lot of admin related tasks- email, schedule, tasks, reminders. i would ra
+- (2026-05-01) reddit-user: this was the first time my agent actually completed part of that job. it didn't book my flight, which i don't think is supported yet, but it

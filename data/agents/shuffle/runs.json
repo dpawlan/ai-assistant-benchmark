@@ -8,5 +8,15 @@
     "outcome": "pass",
     "notes": "Chicago hotel Fri–Sat next week, under $250/night near the Loop, free cancellation. Asked for guest name, recovered from an initial booking-path error by switching to Booking.com, returned two free-cancellation Loop options under budget (Club Quarters Hotel Central Loop ~$129/night and Cambria Hotel Chicago Loop Theatre District), then advanced Club Quarters for David Pawlan to the payment/card screen. Run ended at pre-payment boundary by tester protocol.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-online"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published travel task via Blooio from +16124259300 to Shuffle +16463823248 (NYC–Chicago round-trip Fri morning / Sun evening, aisle, under $400; check-in + boarding pass when window opens). After traveler details for guest David Pawlan, Shuffle staged United LGA–ORD: Fri ~8:15am→10:05am ORD, Sun return ~6:45pm→10:00pm LGA, aisle seats both legs, total ~$318 under budget, stopped at payment/card screen. Check-in/boarding pass noted as post-ticket. Run ended at pre-payment boundary by tester protocol.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-travel"
   }
 ]

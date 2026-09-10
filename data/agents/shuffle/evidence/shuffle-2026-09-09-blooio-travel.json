@@ -1,0 +1,19 @@
+{
+  "id": "shuffle-2026-09-09-blooio-travel",
+  "agent": "shuffle",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "turns": 12,
+    "my_messages": 4,
+    "agent_messages": 8,
+    "first_reply_s": 5,
+    "duration_min": 15,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T01:44:00.000Z"
+}

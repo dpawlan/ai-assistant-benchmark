@@ -1,0 +1,33 @@
+{
+  "slug": "doubao",
+  "name": "Doubao",
+  "site": "https://www.doubao.com/",
+  "handles": [
+    "doubao"
+  ],
+  "status": "stretch",
+  "product_class": "general_chatbot",
+  "notes": "ByteDance's consumer AI assistant (豆包): web and mobile apps, Chinese-language first, with chat, writing, translation, coding and video generation. Not a messaging-native agent; on the board as a stretch product. Requested via the form (issue #77).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "memory",
+    "content_creation_games",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "ByteDance's AI assistant for chat, writing, translation and coding",
+  "icon": "/logos/doubao.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free",
+    "regions": "China-focused; Chinese-language first",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "Web"
+    ],
+    "checked": "2026-09-10"
+  }
+}

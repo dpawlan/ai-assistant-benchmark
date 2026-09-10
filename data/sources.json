@@ -1927,6 +1927,91 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "brea": {
+      "name": "Brea",
+      "handles": [
+        "brea_ai",
+        "breaai"
+      ],
+      "domain": "brea.ai",
+      "x_queries": [
+        "\"brea.ai\"",
+        "\"Brea\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"brea.ai\"",
+        "\"Brea\" assistant"
+      ],
+      "hn_queries": [
+        "\"brea.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "brea.ai",
+        "brea",
+        "brea_ai",
+        "breaai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "cole": {
+      "name": "Cole",
+      "handles": [
+        "pocodot",
+        "pocodotai"
+      ],
+      "domain": "pocodot.ai",
+      "x_queries": [
+        "\"pocodot.ai\"",
+        "\"Cole\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"pocodot.ai\"",
+        "\"Cole\" assistant"
+      ],
+      "hn_queries": [
+        "\"pocodot.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "pocodot.ai",
+        "cole",
+        "pocodot",
+        "pocodotai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "doubao": {
+      "name": "Doubao",
+      "handles": [
+        "doubao"
+      ],
+      "domain": "doubao.com",
+      "x_queries": [
+        "\"doubao.com\"",
+        "\"Doubao\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"doubao.com\"",
+        "\"Doubao\" assistant"
+      ],
+      "hn_queries": [
+        "\"doubao.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "doubao.com",
+        "doubao",
+        "doubao"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
     }
   },
   "_redact_terms": [

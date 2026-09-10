@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-blooio-phone",
+  "agent": "szn",
+  "category": "phone_calls",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T18:15:00.000Z"
+}

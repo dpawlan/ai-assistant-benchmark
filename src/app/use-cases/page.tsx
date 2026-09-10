@@ -20,6 +20,9 @@ export default async function UseCasesPage({ searchParams }: { searchParams: Pro
   return (
     <div className="wrap">
       <div className="page-head">
+        <span className="wip" title="This page is still being shaped; entries and ranking will change.">
+          Work in progress
+        </span>
         <h1 className="page-title">Trending use cases</h1>
         <p className="page-sub">What people actually get these assistants to do, ranked by engagement on X. Each one has a prompt you can send and a link to the post.</p>
       </div>

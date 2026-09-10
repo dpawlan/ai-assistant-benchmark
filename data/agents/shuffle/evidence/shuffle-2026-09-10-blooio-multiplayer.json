@@ -1,0 +1,19 @@
+{
+  "id": "shuffle-2026-09-10-blooio-multiplayer",
+  "agent": "shuffle",
+  "category": "multiplayer_groups",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "turns": null,
+    "my_messages": null,
+    "agent_messages": null,
+    "first_reply_s": null,
+    "duration_min": null,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T02:35:00.000Z"
+}

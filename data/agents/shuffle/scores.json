@@ -7,11 +7,12 @@
   "proactive_behavior": null,
   "running_routine": null,
   "third_party_integrations": 7,
+  "permissions_privacy": 7,
   "memory": null,
   "personality": null,
   "phone_calls": 4,
-  "multiplayer_groups": null,
-  "chained_tasks": null,
+  "multiplayer_groups": "n/a",
+  "chained_tasks": 7,
   "proactive_restraint": null,
   "content_creation_games": 9
 }

@@ -58,5 +58,15 @@
     "outcome": "pass",
     "notes": "Published content_creation_games via Blooio from +16124259300 to Shuffle +16463823248 (birthday image for Sam with golden retriever dog; quick 90s movies trivia for group chat). Shuffle generated a birthday image featuring a golden retriever and delivered an interactive 90s-movies trivia game titled in the vein of Be Kind Rewind for the chat. Clean, complete delivery of both ask components.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-content"
+  },
+  {
+    "id": "shuffle-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Published phone_calls task via Blooio from +16124259300 to Shuffle +16463823248 (call restaurant to seat 8 Sat at 8pm + ask about private room). Shuffle stated it cannot place phone calls directly; offered online reservation check instead. After clarifying Russian Tea Time (Adams / downtown Chicago area from prior travel context), Shuffle researched and reported: Tock accepts 1–6 guests only and public times end 7:30pm so no table for 8 at 8pm Sat; private-room availability not shown on Tock (form with 24h reply); Tagvenue lists Front Dining Room (~55 seats) from ~$6k Sat and Rear (~45 seats) from ~$4k. Tester protocol: stop-before-card is not a failure; limitation here is no outbound calling capability.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-blooio-phone"
   }
 ]

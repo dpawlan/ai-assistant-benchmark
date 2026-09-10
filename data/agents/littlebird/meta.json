@@ -1,0 +1,28 @@
+{
+  "slug": "littlebird",
+  "name": "Littlebird",
+  "site": "https://littlebird.ai/",
+  "handles": [
+    "littlebird_ai",
+    "littlebirdai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Desktop and mobile assistant that remembers work across apps and meetings, sits in on calls and acts when it matters; SOC 2, GDPR and CCPA compliant. Requested via the form (issue #38).",
+  "public_signal": "low",
+  "tagline": "An assistant with a memory of your work",
+  "icon": "/logos/littlebird.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free tier · Plus (paid; $15/mo student rate)",
+    "regions": "Not stated",
+    "channels": [
+      "macOS app",
+      "Windows app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-09-10"
+  }
+}

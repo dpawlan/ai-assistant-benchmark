@@ -1,0 +1,14 @@
+{
+  "id": "shuffle-2026-09-09-blooio-online",
+  "agent": "shuffle",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "agent_asked_question": true,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T01:37:00.000Z"
+}

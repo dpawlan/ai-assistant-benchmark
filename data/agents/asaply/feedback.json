@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: ordered Chopt using text via @AsaplyAi"
+    "notes": "founder: ordered Chopt using text via @AsaplyAi",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 0,
+      "views": 702,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "33fcadf4c4a6",
@@ -33,7 +40,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: NYC we are live asaply.ai"
+    "notes": "founder: NYC we are live asaply.ai",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 63,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4392f4a21dfa",
@@ -51,7 +65,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: beta live asaply.ai"
+    "notes": "founder: beta live asaply.ai",
+    "metrics": {
+      "likes": 5,
+      "reposts": 2,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "00edd0c756cc",
@@ -70,7 +91,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: coffee from one text on Yale campus"
+    "notes": "founder: coffee from one text on Yale campus",
+    "metrics": {
+      "likes": 4,
+      "reposts": 2,
+      "replies": 0,
+      "views": 136,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "346f88f268a2",
@@ -89,7 +117,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: calendar booked / coffee positioning"
+    "notes": "founder: calendar booked / coffee positioning",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2db6dfb2a44e",
@@ -107,7 +142,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "founder: Asaply YC top 10% / back to work"
+    "notes": "founder: Asaply YC top 10% / back to work",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 125,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "038171d0dd87",
@@ -126,7 +168,14 @@
     ],
     "source": "david-post",
     "collected_at": "2026-09-06T18:43:08.110578+00:00",
-    "notes": "david-post: Oh baby (reply on Asaply mention)"
+    "notes": "david-post: Oh baby (reply on Asaply mention)",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 152,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "77c5308c1fe2",
@@ -143,7 +192,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "iMessage Agent Store listing mentioning @AsaplyAi."
+    "notes": "iMessage Agent Store listing mentioning @AsaplyAi.",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 362,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "fb5d64995762",
@@ -160,7 +216,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:19:24.062649+00:00",
-    "notes": "Founder describing Asaply product (iMessage checkout)."
+    "notes": "Founder describing Asaply product (iMessage checkout).",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 1,
+      "views": 163,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "eb5e4ab72669",
@@ -180,6 +243,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:07:47.401Z",
-    "notes": "query: \"asaply.ai\" | via x402atlas (AgentCash) | reply to @DavidPawlan roster call; co-founder"
+    "notes": "query: \"asaply.ai\" | via x402atlas (AgentCash) | reply to @DavidPawlan roster call; co-founder",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 207,
+      "fetched": "2026-09-10"
+    }
   }
 ]

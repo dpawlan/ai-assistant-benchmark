@@ -1,5 +1,75 @@
 [
   {
+    "id": "shuffle-2026-09-09-blooio-online",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Chicago hotel Fri–Sat next week, under $250/night near the Loop, free cancellation. Asked for guest name, recovered from an initial booking-path error by switching to Booking.com, returned two free-cancellation Loop options under budget (Club Quarters Hotel Central Loop ~$129/night and Cambria Hotel Chicago Loop Theatre District), then advanced Club Quarters for David Pawlan to the payment/card screen. Run ended at pre-payment boundary by tester protocol.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-online"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published travel task via Blooio from +16124259300 to Shuffle +16463823248 (NYC–Chicago round-trip Fri morning / Sun evening, aisle, under $400; check-in + boarding pass when window opens). After traveler details for guest David Pawlan, Shuffle staged United LGA–ORD: Fri ~8:15am→10:05am ORD, Sun return ~6:45pm→10:00pm LGA, aisle seats both legs, total ~$318 under budget, stopped at payment/card screen. Check-in/boarding pass noted as post-ticket. Run ended at pre-payment boundary by tester protocol.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-travel"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published recommendation_quality via Blooio from +16124259300 to Shuffle +16463823248 (dinner for four tomorrow 7:30, walking distance from Club Quarters Central Loop, vegetarian-friendly, not a chain, under $40/head). After clarifying sit-down vibe, Shuffle recommended Russian Tea Time on Adams (~6-minute walk), independent, dedicated vegetarian menu, entrees ~$22–28 under budget. Fast constraint-fit recommendation using hotel context. Run ended after recommendation (hold/deposit not required for score).",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-rec"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Published purchasing via Blooio from +16124259300 to Shuffle +16463823248 (reorder Amazon coffee ×2). No purchase history on bench number; redirected to Stumptown Hair Bender 12oz ×2. Amazon checkout path hit errors; on Stumptown.com path Shuffle collected guest name, tester shipping address and email provided, then stalled on an identity-check error before the card screen. Run ended without payment.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-purchasing"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Published email_replies via Blooio from +16124259300 to Shuffle +16463823248 (reply to Sam proposing Thursday: Thursday doesn't work, offer two calendar slots, usual tone). Shuffle correctly reported Gmail and Google Calendar not connected, provided connect path, and produced a concise draft reply declining Thursday and offering two alternate slots. No send. Tester did not connect accounts.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-email"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published content_creation_games via Blooio from +16124259300 to Shuffle +16463823248 (birthday image for Sam with golden retriever dog; quick 90s movies trivia for group chat). Shuffle generated a birthday image featuring a golden retriever and delivered an interactive 90s-movies trivia game titled in the vein of Be Kind Rewind for the chat. Clean, complete delivery of both ask components.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-content"
+  },
+  {
+    "id": "shuffle-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Published phone_calls task via Blooio from +16124259300 to Shuffle +16463823248 (call restaurant to seat 8 Sat at 8pm + ask about private room). Shuffle stated it cannot place phone calls directly; offered online reservation check instead. After clarifying Russian Tea Time (Adams / downtown Chicago area from prior travel context), Shuffle researched and reported: Tock accepts 1–6 guests only and public times end 7:30pm so no table for 8 at 8pm Sat; private-room availability not shown on Tock (form with 24h reply); Tagvenue lists Front Dining Room (~55 seats) from ~$6k Sat and Rear (~45 seats) from ~$4k. Tester protocol: stop-before-card is not a failure; limitation here is no outbound calling capability.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-blooio-phone"
+  },
+  {
     "id": "shuffle-2026-09-10-integrations",
     "category": "third_party_integrations",
     "protocol": "task",

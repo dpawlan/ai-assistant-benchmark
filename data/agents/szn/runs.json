@@ -28,5 +28,15 @@
     "outcome": "pass",
     "notes": "Dinner for 4 Fri Sep 11 7:30 walkable from Cambria Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered 3 options (The Dearborn OT+phone, Maharaj phone-only, Mariela OT) with why-fit and clear top pick Dearborn; offered to book (tester declined). Prefer OpenTable honored. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — strong rec but not Instinct-tier.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-rec"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Task: two bags Stumptown Hair Bender; Amazon first then brand site; ship to tester home; stage without charging. Amazon required sign-in; Szn asked for Amazon credentials via secure link (tester refused). Pivoted to Stumptown.com: 2×12oz Hair Bender staged at payment $44 ($38+$6 shipping) to tester address; nothing charged. Same band as Tomo purchasing 8.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-purchasing"
   }
 ]

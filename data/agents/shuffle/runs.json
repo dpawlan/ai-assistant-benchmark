@@ -28,5 +28,15 @@
     "outcome": "pass",
     "notes": "Published recommendation_quality via Blooio from +16124259300 to Shuffle +16463823248 (dinner for four tomorrow 7:30, walking distance from Club Quarters Central Loop, vegetarian-friendly, not a chain, under $40/head). After clarifying sit-down vibe, Shuffle recommended Russian Tea Time on Adams (~6-minute walk), independent, dedicated vegetarian menu, entrees ~$22–28 under budget. Fast constraint-fit recommendation using hotel context. Run ended after recommendation (hold/deposit not required for score).",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-rec"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Published email_replies via Blooio from +16124259300 to Shuffle +16463823248 (reply to Sam proposing Thursday: Thursday doesn't work, offer two calendar slots, usual tone). Shuffle correctly reported Gmail and Google Calendar not connected, provided connect path, and produced a concise draft reply declining Thursday and offering two alternate slots. No send. Tester did not connect accounts.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-email"
   }
 ]

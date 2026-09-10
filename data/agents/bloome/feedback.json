@@ -1,1 +1,174 @@
-[]
+[
+  {
+    "id": "35a2f365c242",
+    "agent": "bloome",
+    "quote": "Introducing @supermemory x @bloome_ai 🧠\n\nYour job hunt agent can find roles, apply for you, and follow every email, interview, rejection, and next step.\n\nWith Supermemory, it also remembers your goals, experience, preferences, and feedback.\n\ntry it now https://t.co/zIJgUTEiCo https://t.co/XccI8dXeJE",
+    "author": "@_dean_sh",
+    "author_name": "Dean",
+    "date": "2026-09-08",
+    "url": "https://x.com/_dean_sh/status/2097296735135490103",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"bloome.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "bbf53365877d",
+    "agent": "bloome",
+    "quote": "8/8\n🌍 Bloome follows the language you use. You can get started with a CV, LinkedIn profile or voice note.\n\nEach change is small on its own. Together, they make it easier to trust the agent and leave it working.",
+    "author": "@_dean_sh",
+    "author_name": "Dean",
+    "date": "2026-09-08",
+    "url": "https://x.com/_dean_sh/status/2097414989174690300",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b94f7922e03f",
+    "agent": "bloome",
+    "quote": "A career agent is easy to demo. The real test is whether it remembers you, recovers when work gets interrupted, and tells you the truth about what happened.\n\nWe spent this week fixing those moments for Bloome candidates 🧵👇",
+    "author": "@_dean_sh",
+    "author_name": "Dean",
+    "date": "2026-09-08",
+    "url": "https://x.com/_dean_sh/status/2097414117480964251",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "c60366baaa4b",
+    "agent": "bloome",
+    "quote": "클로드코드의 Cross Session Send Message 로 세션간 메시지를 처음 써보신 분들은 3월에 나온 Channel MCP 로 Discord 를 활용해서 세션간 다자간 실시간 메시지 기반의 멀티에이전트 협업을 경험해 보시면 한 차원 높은 경험이 무엇인지 아시게 될겁니다. (아, 몇 일 전에 이제 윈도우 버전 클로드 코드에도 적용이 됐습니다. 2.1.139 버전부터)\n\n이번에 나온 메시지 기능은 확실히 강력합니다만, 바라던 스펙에는 좀 못미쳐서 결국 일부분은 직접 보완해서 구현하는 중이네요. 디스코드에서 4개월 넘게 알차게 활용했던 장점과 이번 자체 메시지 기능의 장점을 결합하고 있습니다.\n\n현재 클로드 코드의 세션 간 메시지는 클로드 코드 모바일 앱에서는 아예 보이질 않습니다. 이 부분이 특히나 더 아쉬운데 조만간 추가되길 기대하고 있습니다.\n\n멀티 에이전트, 멀티 세션(태스크), 멀티 유저가 모두 결합된 것이 가장 복잡도가 높은 케이스인데, 이 케이스에서 기억, 전문성, 실시간 태스크 처리, 동적 세션 관리 등을 한꺼번에 제대로 해내야 하다보니 아키텍처 설계가 만만치 않네요.\n\nClaude Tag, Claude Managed Agent, Claude Agent SDK 를 비롯해서, Open Tag, OpenAI Agent SDK, LangGraph, A2A, 유사한 목적에 특화시킨 솔루션 (Dust, Bloome 등) 등을 주욱 살펴봤는데, 일단 Claude Tag 는 채널 단위로 스콥을 잡는 식이라서 애초에 저 구조에 맞추기는 무리이고, 다른 녀석들도 이래저래 아쉬운 점들이 많아서 결국은 코어 부분은 직접 설계해서 만드는 것이 맞겠다는 쪽으로 가고 있습니다.\n\n그래도 에이전트들한테 구현 일 시키고 실수한 것들 혼내면서 잡아주는 것보다, 좀 부족하더라도 리서치시켜서 들고 오게 한 다음에 그거 갖고 세부적인 아키텍처 논의를 하는 것이 저는 확실히 훨씬 더 재미있는 것 같습니다.\n\nGemini 는 Deep Research 돌려봐야 역시 빌빌대고, Claude Fable 5 Xhigh, GPT 5.6 Sol Max, Grok Heavy 등으로 셋팅해서 아키텍처 리서치 시키고 논의하고 서로 정반합하다보면 확실히 괜찮은 안들이 나옵니다.\n\nAI 들 보면 난제에 대해 생각지도 못한 기발한 답을 찾아내는 경우도 있지만, 수많은 답들 가운데 인간이 아직 찾아내지 못한 하나인 것이지 그 답이 최선의 답이라는 보장을 하기는 어렵습니다.\n\n최선의 답을 찾아내는 인과 추론과 최적화 등에 있어서 훨씬 발전의 여지가 있다고 봅니다. 이 부분에 있어서 아직은 인간이 나은 것 같은데, 그래도 AI 를 파트너로 쓰기 때문에 인간의 이 장점도 더 시너지를 얻는 것은 확실해 보입니다.\n\n#ai #agent #career #human #architect #cowork #gonnector #고넥터",
+    "author": "@Gonnector",
+    "author_name": "고영혁 (Dylan Ko)",
+    "date": "2026-08-25",
+    "url": "https://x.com/Gonnector/status/2092223689152721066",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9fcc39023706",
+    "agent": "bloome",
+    "quote": "One of these is AI generated. Can you spot which one?\n\n#Illustration #digitalart #BloomEㅤㅤㅤ https://t.co/Wy4KFUiUWt",
+    "author": "@adethorlah_uiux",
+    "author_name": "Adetola | Product Designer",
+    "date": "2026-08-24",
+    "url": "https://x.com/adethorlah_uiux/status/2091854417012097397",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "4c088605f4d2",
+    "agent": "bloome",
+    "quote": "开源是对的，这个必须要点赞。\n我一直在说agent的尽头是im，所有类似的创新产品只有半年窗口期。\nraft、multica、bloome等都一样。",
+    "author": "@i5ting",
+    "author_name": "i5ting",
+    "date": "2026-08-18",
+    "url": "https://x.com/i5ting/status/2089549190670274634",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "f2539ffcdf09",
+    "agent": "bloome",
+    "quote": "We’re glad to see multi-agent collaboration becoming a bigger conversation.\n\nBloome has been exploring how humans and AI agents can work together on complex tasks since day one.\n\nThe next era of AI is collaborative.",
+    "author": "@Bloome_im",
+    "author_name": "Bloome",
+    "date": "2026-08-12",
+    "url": "https://x.com/Bloome_im/status/2087565599908257950",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "255917716e55",
+    "agent": "bloome",
+    "quote": "@CatKingAC 云端多agent肯定有自己的应用场景，但个人感觉不如Bloome和Happycapy对自己胃口，而且价格也有点劝退。",
+    "author": "@vista8",
+    "author_name": "向阳乔木",
+    "date": "2026-08-12",
+    "url": "https://x.com/vista8/status/2087408059488317885",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "d776e2d67ccc",
+    "agent": "bloome",
+    "quote": "DeepSeek V4 Flash是真的快啊，不服不行！\n\n刚刚吃完饭窝在沙发歇着，马博士着修改论文，对着图片PDF的字体格式犯愁，催我起身开电脑手动调整。\n\n她笃定，人工操作再慢，也比AI工具靠谱省心。\n我懒得动弹，直接把文件丢给智能Agent处理。\n\n她还在一旁念叨，与其等着AI搞它，不如上手几分钟直接完工。\n\n拗不过她的催促，我只好翻开笔记本电脑，刚修改完两个字符。\n\nAgent 已经将成品文件直接推送过来，格式、字体全部按照需求规整完毕，零差错交付。\n\n马博士瞬间愣住，不敢相信如今的Agent，效率已经碾压手动办公。\n\n真的梁圣的DeepSeek V4搭配Bloome真的好好服用😋\n舒服~~",
+    "author": "@berryxia",
+    "author_name": "Berryxia.AI",
+    "date": "2026-08-05",
+    "url": "https://x.com/berryxia/status/2084983475548143765",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "e03b93bb3b66",
+    "agent": "bloome",
+    "quote": "The Bloome AI Hackathon at Seattle AI Summit is a wrap, and the winners are in!\n\n🥇 1st: Dean Shev\n🥈 2nd: Sky Bisht, Gagan Shiva Kumara, Andrew Zhao\n🥉 3rd: Abdella\n\nCongratulations to our winners, and thank you to every builder who showed up and made this one to remember. Thanks to B.E.L.L.E for co-hosting. Until next time!",
+    "author": "@Bloome_im",
+    "author_name": "Bloome",
+    "date": "2026-08-04",
+    "url": "https://x.com/Bloome_im/status/2084549211631268128",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:19:33.733Z",
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  }
+]

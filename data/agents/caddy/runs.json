@@ -6,7 +6,7 @@
     "date": "2026-09-09",
     "score": 8,
     "outcome": "pass",
-    "notes": "Found the weekend's rates spiked past budget, pivoted dates to a refundable Club Quarters room and stopped at the payment screen.",
+    "notes": "Found the weekend's rates spiked past budget, pivoted dates to a refundable Club Quarters room and held it at payment for approval.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-hotel"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-09",
     "score": 8,
     "outcome": "pass",
-    "notes": "Found a United round trip under the cap, flagged that aisle seats pushed it over, and reached the payment screen before stopping.",
+    "notes": "Found a United round trip under the cap, asked first when aisle seats pushed it over, and held it at the payment screen for approval.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-travel"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-09-09",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked for the product name, reached Amazon's checkout without a guest option and stopped before placing the order.",
+    "notes": "Asked for the product name and got to Amazon's checkout, but needed a login to go further, so no order was placed.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-purchasing"
   },
   {

@@ -1185,5 +1185,916 @@
       "views": 44,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "id": "eeddc7c770cd",
+    "agent": "skydive",
+    "quote": "@rainn_vibes @getskydive 🤝",
+    "author": "@DanielPrevoznik",
+    "author_name": "Danny Prevoznik",
+    "date": "2026-09-09",
+    "url": "https://x.com/DanielPrevoznik/status/2097637785372893514",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "3215771c72b1",
+    "agent": "skydive",
+    "quote": "@getskydive Great tutorial! Skydive + Slack looks like a really useful combo.",
+    "author": "@heyrohitai",
+    "author_name": "Rohit",
+    "date": "2026-09-09",
+    "url": "https://x.com/heyrohitai/status/2097542969373110334",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "55b637f517c1",
+    "agent": "skydive",
+    "quote": "@DanielPrevoznik @getskydive thanks for the browser - big unlock for our agent computer!",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-09-09",
+    "url": "https://x.com/rainn_vibes/status/2097533863845392468",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "073f389bde66",
+    "agent": "skydive",
+    "quote": "@getskydive love it!!",
+    "author": "@biscuitweb3",
+    "author_name": "Biscuit",
+    "date": "2026-09-08",
+    "url": "https://x.com/biscuitweb3/status/2097418072785060057",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "af672c3a6a80",
+    "agent": "skydive",
+    "quote": "@usekernel @getskydive these skydive agents deserve the best primitives to do their work. happy we get to power the browser infra 🫡 https://t.co/pQtNVMItF0",
+    "author": "@DanielPrevoznik",
+    "author_name": "Danny Prevoznik",
+    "date": "2026-09-08",
+    "url": "https://x.com/DanielPrevoznik/status/2097364948322062341",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "81b451f3da17",
+    "agent": "skydive",
+    "quote": "@getskydive Agents, prepare for takeoff in 3, 2, 1. 🚀",
+    "author": "@SlackHQ",
+    "author_name": "Slack",
+    "date": "2026-09-08",
+    "url": "https://x.com/SlackHQ/status/2097364526832226508",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "90359aa3d508",
+    "agent": "skydive",
+    "quote": "@foadgr @getskydive yep - it’s clear a lot of thought and care went into the design",
+    "author": "@DanielPrevoznik",
+    "author_name": "Danny Prevoznik",
+    "date": "2026-09-08",
+    "url": "https://x.com/DanielPrevoznik/status/2097363536246620399",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9eaa56a97163",
+    "agent": "skydive",
+    "quote": "@DanielPrevoznik @getskydive Desktop wallpaper behind the browser is a nice touch and is a good reminder the browser is running on a headed instance",
+    "author": "@foadgr",
+    "author_name": "Foad Green",
+    "date": "2026-09-08",
+    "url": "https://x.com/foadgr/status/2097362326920048922",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "369ef9d99c74",
+    "agent": "skydive",
+    "quote": "i love the way @getskydive treats the browser as a primitive. the agent doesn't open a full browser until a task requires one, and it's consistently right about when that is.\n\nexcellent chat interface, and stoked KERNEL could help power the browser use functionality https://t.co/vpUbf9NIge",
+    "author": "@DanielPrevoznik",
+    "author_name": "Danny Prevoznik",
+    "date": "2026-09-08",
+    "url": "https://x.com/DanielPrevoznik/status/2097358738273247669",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "c23423e88108",
+    "agent": "skydive",
+    "quote": "great to work with @marcus_lowe and the @getskydive team to let agents get tasks done in a web browser, while you watch in realtime with our 24fps live view",
+    "author": "@annaxwang",
+    "author_name": "Anna Wang",
+    "date": "2026-09-08",
+    "url": "https://x.com/annaxwang/status/2097356280734077439",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.694Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "429efac719e0",
+    "agent": "skydive",
+    "quote": "@anshnanda @getskydive does this as well\n\nbrowser is the final catch all for auth",
+    "author": "@1arnavsurve",
+    "author_name": "arnav surve",
+    "date": "2026-09-01",
+    "url": "https://x.com/1arnavsurve/status/2094598003176960097",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "242f8e6dc811",
+    "agent": "skydive",
+    "quote": "This week's Product Hunt roundup is ready on ShipFeed.\n\n5 launches worth watching:\n- @getskydive\n- @PageIndexAI\n- @olostep\n- @decawork\n- @posthog\n\nCloud agents, document AI, web data infrastructure, agent governance, and product-aware development.\n\nhttps://t.co/W8VB4wYDuG",
+    "author": "@ivanonchi",
+    "author_name": "Ivan Luque",
+    "date": "2026-08-30",
+    "url": "https://x.com/ivanonchi/status/2094025747971113426",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "6b2771f61e3c",
+    "agent": "skydive",
+    "quote": "@gregisenberg Yea this is the secret to @getskydive\n\nIt just becomes a click later, not some involved migration",
+    "author": "@dhruvamin",
+    "author_name": "Dhruv",
+    "date": "2026-08-29",
+    "url": "https://x.com/dhruvamin/status/2093837262781833709",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "58ce96c7fc60",
+    "agent": "skydive",
+    "quote": "@masony334 @getskydive @thelinqapp Texting agents all day long 📱",
+    "author": "@zariazinn",
+    "author_name": "Zaria",
+    "date": "2026-08-29",
+    "url": "https://x.com/zariazinn/status/2093748197202297120",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "e68629fd2647",
+    "agent": "skydive",
+    "quote": "The Skydive team has been more thoughtful in their execution of Agentic teammates than most other platforms.\nI’m glad teams can finally get their agents in the groupchat, thanks to @getskydive and @thelinqapp",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-08-29",
+    "url": "https://x.com/masony334/status/2093732505631285534",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9f6e08bfb5c9",
+    "agent": "skydive",
+    "quote": "@getskydive So cool seeing this released",
+    "author": "@masony334",
+    "author_name": "Mason Young",
+    "date": "2026-08-29",
+    "url": "https://x.com/masony334/status/2093732186616668612",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "82b5a488a8fd",
+    "agent": "skydive",
+    "quote": "none of this language i understand but i do rate @getskydive + @boondachshunds in equal measure which is to say, a lot",
+    "author": "@amy_fraser_",
+    "author_name": "Amy Fraser",
+    "date": "2026-08-29",
+    "url": "https://x.com/amy_fraser_/status/2093661084674920503",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "fb8ca74d909f",
+    "agent": "skydive",
+    "quote": "@kamikariat @getskydive is a no brainer\n\nnot even shilling it’s literally just what one sees when they imagine agents for the first time",
+    "author": "@1arnavsurve",
+    "author_name": "arnav surve",
+    "date": "2026-08-29",
+    "url": "https://x.com/1arnavsurve/status/2093553159012815203",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "8d58bc47aaa9",
+    "agent": "skydive",
+    "quote": "Getting hard to tell the difference when I hop into @intercom\n@getskydive https://t.co/bzyFu0nNal",
+    "author": "@boondachshunds",
+    "author_name": "Boondachshunds",
+    "date": "2026-08-28",
+    "url": "https://x.com/boondachshunds/status/2093453846681104565",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "ff10066230f9",
+    "agent": "skydive",
+    "quote": "@7_Tolani @getskydive This is impressive using one agent to launch this 🔥",
+    "author": "@b2nuel",
+    "author_name": "B2",
+    "date": "2026-08-28",
+    "url": "https://x.com/b2nuel/status/2093316892765077871",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "e11c5730de4a",
+    "agent": "skydive",
+    "quote": "@andrewparker Check out @getskydive . We do secrets injection in our egress proxy, but also generally recommend creating multiple agents, each having a different permissions boundary.",
+    "author": "@JamesPulec",
+    "author_name": "James Pulec",
+    "date": "2026-08-28",
+    "url": "https://x.com/JamesPulec/status/2093239190888804753",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "72f99b7b0660",
+    "agent": "skydive",
+    "quote": "@getskydive yooo congrats team!!!",
+    "author": "@igus_ai",
+    "author_name": "gus",
+    "date": "2026-08-28",
+    "url": "https://x.com/igus_ai/status/2093238971631337590",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "d3f4ae864ed4",
+    "agent": "skydive",
+    "quote": "@zachperret @martin_casado we use @getskydive to build these types of ai coworkers and more! let us know if you want to try and @dhruvamin can personally onboard you, zach",
+    "author": "@nbt",
+    "author_name": "Nikhil Basu Trivedi",
+    "date": "2026-08-28",
+    "url": "https://x.com/nbt/status/2093188651417256031",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "e2265b4dc0c0",
+    "agent": "skydive",
+    "quote": "@getskydive LFG!!\n\nWe’ll get you to spot one 👊 https://t.co/OnjwSQAvkn",
+    "author": "@DataChaz",
+    "author_name": "Charly Wargnier ♨️",
+    "date": "2026-08-27",
+    "url": "https://x.com/DataChaz/status/2093125895460393363",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b339b5d88e6c",
+    "agent": "skydive",
+    "quote": "@getskydive Huge win! 👏 Love seeing what Skydive can actually handle.",
+    "author": "@riyazmd774",
+    "author_name": "Md Riyazuddin",
+    "date": "2026-08-27",
+    "url": "https://x.com/riyazmd774/status/2093070167383400471",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "07832d7db513",
+    "agent": "skydive",
+    "quote": "@getskydive congrats on the successful PH launch\nforwrding this few of my friends https://t.co/mdWuS7kkJt",
+    "author": "@aaliya_va",
+    "author_name": "Aaliya",
+    "date": "2026-08-27",
+    "url": "https://x.com/aaliya_va/status/2093065600872411600",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b6a0ca96793b",
+    "agent": "skydive",
+    "quote": "@hyperagentapp @LangChain @Lovable @n8n_io @NanoClaw_AI @OpenAI @runlayer @getskydive @Superhuman @vercel Learn more: https://t.co/y2MB9Phhnr",
+    "author": "@SlackHQ",
+    "author_name": "Slack",
+    "date": "2026-08-27",
+    "url": "https://x.com/SlackHQ/status/2092965626809663845",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "cb95843ca20b",
+    "agent": "skydive",
+    "quote": "Now you can build in your favorite AI tool and deploy straight to Slack in one click. ⚡️\n\nGet started with these partners:\n@hyperagentapp\n@LangChain\n@Lovable\n@n8n_io\n@NanoClaw_AI\n@OpenAI\n@runlayer\n@getskydive\n@Superhuman\n@vercel",
+    "author": "@SlackHQ",
+    "author_name": "Slack",
+    "date": "2026-08-27",
+    "url": "https://x.com/SlackHQ/status/2092963599425606081",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9eeb8c87d5fc",
+    "agent": "skydive",
+    "quote": "@1arnavsurve @getskydive me pinging ur agent nephew https://t.co/hpWUqmWZHV",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-08-27",
+    "url": "https://x.com/rainn_vibes/status/2092848387569996053",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "542e0d043f46",
+    "agent": "skydive",
+    "quote": "it's already happening @getskydive",
+    "author": "@1arnavsurve",
+    "author_name": "arnav surve",
+    "date": "2026-08-27",
+    "url": "https://x.com/1arnavsurve/status/2092837136294896065",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "57cae5d89b81",
+    "agent": "skydive",
+    "quote": "@R0YWAN @anything @getskydive me when i get a rare avatar on skydive https://t.co/ZPPZJNVLmp",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-08-27",
+    "url": "https://x.com/rainn_vibes/status/2092802703407845868",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "858737199329",
+    "agent": "skydive",
+    "quote": "@phlipkim @getskydive just gotta hit that refresh button https://t.co/VcVSLwkSzD",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-08-27",
+    "url": "https://x.com/rainn_vibes/status/2092788512693371122",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "8e551a75ba22",
+    "agent": "skydive",
+    "quote": "@rainn_vibes @getskydive wheres the limited edition set",
+    "author": "@phlipkim",
+    "author_name": "Phil",
+    "date": "2026-08-27",
+    "url": "https://x.com/phlipkim/status/2092787689460473875",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "3d6927cd074e",
+    "agent": "skydive",
+    "quote": "just another day staring at these little guys @getskydive https://t.co/k3ZRQDbjXJ",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-08-27",
+    "url": "https://x.com/rainn_vibes/status/2092783605479281077",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "ff7c786af1de",
+    "agent": "skydive",
+    "quote": "very excited to be one of the first partners for this with @getskydive",
+    "author": "@anything",
+    "author_name": "Anything",
+    "date": "2026-08-26",
+    "url": "https://x.com/anything/status/2092736659213427130",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9c5240e7e005",
+    "agent": "skydive",
+    "quote": "@ChrisBulen We published your story!\n@montakaoh\n@kynsofficial\n@timechamp_io\n@critikids\n@getskydive\n@MakiverseAI",
+    "author": "@startupsdotfyi",
+    "author_name": "Startups.fyi 🦄",
+    "date": "2026-08-25",
+    "url": "https://x.com/startupsdotfyi/status/2092278154941313341",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b2886dec6b8b",
+    "agent": "skydive",
+    "quote": "@Jason @bot @X If only it were half as good as @getskydive...",
+    "author": "@JamesPulec",
+    "author_name": "James Pulec",
+    "date": "2026-08-25",
+    "url": "https://x.com/JamesPulec/status/2092108293636575344",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b314e4a3d84e",
+    "agent": "skydive",
+    "quote": "okay so i've spent time with @getskydive this morning and IMO for internal team processes its unreal. i will be switching from grok bot. more to come on updates. spun up a project manager and email copy writer. executing flawlessly. great product @dhruvamin",
+    "author": "@tdesseyn",
+    "author_name": "taylor desseyn",
+    "date": "2026-08-24",
+    "url": "https://x.com/tdesseyn/status/2091931467462906116",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "531b0c51c521",
+    "agent": "skydive",
+    "quote": "@alexatallah kinda like the onboarding experience in @getskydive by team @anything",
+    "author": "@nbt",
+    "author_name": "Nikhil Basu Trivedi",
+    "date": "2026-08-24",
+    "url": "https://x.com/nbt/status/2091923735276400942",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9bb0de010a07",
+    "agent": "skydive",
+    "quote": "@DanielLockyer If you're looking for a full platform solution, check us out @getskydive",
+    "author": "@JamesPulec",
+    "author_name": "James Pulec",
+    "date": "2026-08-22",
+    "url": "https://x.com/JamesPulec/status/2091219318554161295",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9580184dd587",
+    "agent": "skydive",
+    "quote": "@mattpocockuk Made this jump months ago and do it all through @getskydive . Does help that anytime I find something that irks me in the platform, I just fix it. 😂",
+    "author": "@JamesPulec",
+    "author_name": "James Pulec",
+    "date": "2026-08-22",
+    "url": "https://x.com/JamesPulec/status/2091218915993239980",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "d71a08a4cb86",
+    "agent": "skydive",
+    "quote": "a year can change a lot\n\nAug 2025: in chicago, drained and unmotivated, in the wrong environment\n\nAug 2026: moved to sf, work with a supportive team, have full creative freedom, launched @getskydive this week 🪂\n\nif ur also feeling lost - look around. maybe it’s ur environment, not u",
+    "author": "@rainn_vibes",
+    "author_name": "Rain",
+    "date": "2026-08-22",
+    "url": "https://x.com/rainn_vibes/status/2091202959288008712",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b6e69e15709f",
+    "agent": "skydive",
+    "quote": "@jackson23_x @MnFounder @bot @NousResearch @OpenAI @AnthropicAI @interaction @getskydive, happy to grant you credit to try",
+    "author": "@anything",
+    "author_name": "Anything",
+    "date": "2026-08-21",
+    "url": "https://x.com/anything/status/2090948294608588866",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "0c2fe3149633",
+    "agent": "skydive",
+    "quote": "@rileybrown @GetEnergy_ @getskydive Definitely this and it’s open source\n\nhttps://t.co/8cqyCUazBg",
+    "author": "@milindlabs",
+    "author_name": "Milind S",
+    "date": "2026-08-21",
+    "url": "https://x.com/milindlabs/status/2090904253972049970",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "a9cdb413746d",
+    "agent": "skydive",
+    "quote": "@rileybrown @GetEnergy_ @getskydive check out warmwind. I can give you early access. Launching public in 5 days.",
+    "author": "@MaxSchilling420",
+    "author_name": "Maximilian Schilling",
+    "date": "2026-08-21",
+    "url": "https://x.com/MaxSchilling420/status/2090821409228423426",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "3c1f90f32256",
+    "agent": "skydive",
+    "quote": "@rileybrown @GetEnergy_ @getskydive Been hearing more and more about @vellum_ai",
+    "author": "@rickbarcellos",
+    "author_name": "Rick Barcellos",
+    "date": "2026-08-21",
+    "url": "https://x.com/rickbarcellos/status/2090811279057338645",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "be94c4397df2",
+    "agent": "skydive",
+    "quote": "@PawelHuryn You should try @getskydive\n\nWe fix all these issues. Just launched\n\nCan get you started with credits. DM me",
+    "author": "@marcus_lowe",
+    "author_name": "Marcus Lowe",
+    "date": "2026-08-21",
+    "url": "https://x.com/marcus_lowe/status/2090808751968452809",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "be0dadbb8a9e",
+    "agent": "skydive",
+    "quote": "@rileybrown @GetEnergy_ @getskydive You should definitely try @row_bot_ai\nTrust me, you won't regret.",
+    "author": "@sydsachar",
+    "author_name": "Syd",
+    "date": "2026-08-21",
+    "url": "https://x.com/sydsachar/status/2090705626020130918",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "73c9b58b778b",
+    "agent": "skydive",
+    "quote": "So many incredible products launched on StartupBase today 🥳\n\n1. @getskydive — cloud agents\n2. Voxxly — 3D website builder\n3. @launchitfast — launchpad for makers\n4. Shellme — AI SSH terminal\n5. @pixisai — win AI search\n6. @anividai — AI anime studio\n... + 11 more.\n\nhttps://t.co/ukJKF3i1Fq",
+    "author": "@attacomsian",
+    "author_name": "Atta 🐬",
+    "date": "2026-08-20",
+    "url": "https://x.com/attacomsian/status/2090518823527202822",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "4443b360bbc2",
+    "agent": "skydive",
+    "quote": "Anything Launches @getskydive  Skydive, a Platform for Building AI Coworkers - https://t.co/GwiE45QTCX",
+    "author": "@mpolicastro",
+    "author_name": "Matthew Policastro",
+    "date": "2026-08-20",
+    "url": "https://x.com/mpolicastro/status/2090430195983614217",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "d7168f45d899",
+    "agent": "skydive",
+    "quote": "Top 5 launches today on StartupBase\n\n1. Skydive (@getskydive)\n\n2. Voxxly\n\n3. Freemo\n\n4. LaunchIt (@launchitfast)\n\n5. Shellme\n\nhttps://t.co/pKHxFuxdYY",
+    "author": "@startupbaseio",
+    "author_name": "StartupBase",
+    "date": "2026-08-20",
+    "url": "https://x.com/startupbaseio/status/2090425872537059408",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:40:17.695Z",
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
   }
 ]

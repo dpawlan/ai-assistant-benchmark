@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "d01d424291cc",
+    "agent": "sifta",
+    "quote": "The future of real estate won’t be another dashboard.\n\nIt’ll be an AI workforce working alongside realtors, right where their business already happens.\n\nFor realtors, that’s iMessage.\n\nSifta agents don’t just answer questions when prompted. They do the work: remembering every prospect, following up when someone goes quiet, booking showings, pulling comps, and keeping conversations moving.\n\nNo new app to manage. No new workflow to learn.\n\nJust AI working alongside realtors in the conversations they already have.",
+    "author": "@BriggsBuilds",
+    "author_name": "Bristol",
+    "date": "2026-09-09",
+    "url": "https://x.com/BriggsBuilds/status/2097755578655293749",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T22:09:30.571Z",
+    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9e1000e8594a",
+    "agent": "sifta",
+    "quote": "Sifta catches your leads, remembers every client and deal, chases your lenders, and books your showings from iMessage.\n\nyour real estate business runs from your texts now.\n\ntext it on the imessage agent store. made by @SiftaAI https://t.co/L8u9WD0MvW",
+    "author": "@textagents",
+    "author_name": "iMessage Agent Store",
+    "date": "2026-09-09",
+    "url": "https://x.com/textagents/status/2097724310169534585",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T22:09:30.572Z",
+    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  }
+]

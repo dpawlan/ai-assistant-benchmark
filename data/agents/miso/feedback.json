@@ -1671,5 +1671,23 @@
       "views": 669,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "id": "f5e8adaeefb2",
+    "agent": "miso",
+    "quote": "@martinmartinmro @paulbz @bookwithmiso Also how long does waitlist take ? Looks like a cool product",
+    "author": "@NathanielJ001",
+    "author_name": "Nathaniel Jacobson",
+    "date": "2026-09-10",
+    "url": "https://x.com/NathanielJ001/status/2098039911022534666",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T18:47:47.700Z",
+    "notes": "query: @bookwithmiso since:2026-08-01 until:2026-09-10 -filter:retweets"
   }
 ]

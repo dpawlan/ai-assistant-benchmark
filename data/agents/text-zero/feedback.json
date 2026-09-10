@@ -815,5 +815,97 @@
       "views": 5762,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "id": "5ccfb0d67ff4",
+    "agent": "text-zero",
+    "quote": "What? You still go into the Uber app and book your own cabs? Sucks to be you.\n\nI just slave my @meetzeroai to do it for me. https://t.co/hBQA5sYBmu",
+    "author": "@AvgNomad",
+    "author_name": "Matt Brown",
+    "date": "2026-09-10",
+    "url": "https://x.com/AvgNomad/status/2097984014095470969",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:58:32.358Z",
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "67c8e8aa3060",
+    "agent": "text-zero",
+    "quote": "@imkientrinh @meetzeroai https://t.co/wrPgDzMxOk",
+    "author": "@AvgNomad",
+    "author_name": "Matt Brown",
+    "date": "2026-09-09",
+    "url": "https://x.com/AvgNomad/status/2097622072843436528",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:58:32.358Z",
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "c8d98cfcdbb3",
+    "agent": "text-zero",
+    "quote": "@AvgNomad @meetzeroai awesome work💛",
+    "author": "@imkientrinh",
+    "author_name": "Kien Trinh",
+    "date": "2026-09-09",
+    "url": "https://x.com/imkientrinh/status/2097620670683422981",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:58:32.358Z",
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "6deacd383256",
+    "agent": "text-zero",
+    "quote": "@peer_rich Legit! I feel like X algo is only feeding me posts related to Instinct, Bot, Poke... and now Muse 😭\n\nWhen will it be @meetzeroai's time!",
+    "author": "@AvgNomad",
+    "author_name": "Matt Brown",
+    "date": "2026-09-09",
+    "url": "https://x.com/AvgNomad/status/2097618513825501365",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:58:32.358Z",
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "7dac78d53c50",
+    "agent": "text-zero",
+    "quote": "Having troubles at home? Need someone to cover for you? @meetzeroai is built for the Asians that have parents like this 👇 https://t.co/YctJegqrzo",
+    "author": "@AvgNomad",
+    "author_name": "Matt Brown",
+    "date": "2026-09-09",
+    "url": "https://x.com/AvgNomad/status/2097617407712076094",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:58:32.358Z",
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
   }
 ]

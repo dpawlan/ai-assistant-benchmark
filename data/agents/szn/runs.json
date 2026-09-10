@@ -4,9 +4,9 @@
     "category": "online_task",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
+    "score": 8,
     "outcome": "pass",
-    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop at $218/night ($436 total) with free cancellation through Sep 16 (4.3★) and staged it; Club Quarters Central Loop backup at $229.50/night ($459 total) with free cancellation through Sep 17. Offered Stripe Link one-time payment; tester stopped before charge per protocol. Same band as Shuffle hotel 9 for under-$250 Loop free-cancel to payment — Szn hit all constraints and staged.",
+    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop and staged it; later direct booking-page re-verify showed two-night total $1037 (not the earlier staged ~$436 path); pricing correction before charge; still staged stop-before-card which is tester protocol not a fail. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-online"
   },
   {
@@ -14,9 +14,59 @@
     "category": "travel",
     "protocol": "task",
     "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. United UA2342/UA396 staged at payment with aisle seats 37D and 38D; Basic Economy; total $444.92 over $400 target for aisle fees; nothing charged. Solid but not top-tier clean. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Dinner for 4 Fri Sep 11 7:30 walkable from Cambria Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered 3 options (The Dearborn OT+phone, Maharaj phone-only, Mariela OT) with why-fit and clear top pick Dearborn; offered to book (tester declined). Prefer OpenTable honored. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — strong rec but not Instinct-tier.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-rec"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Task: two bags Stumptown Hair Bender; Amazon first then brand site; ship to tester home; stage without charging. Amazon required sign-in; Szn asked for Amazon credentials via secure link (tester refused). Pivoted to Stumptown.com: 2×12oz Hair Bender staged at payment $44 ($38+$6 shipping) to tester address; nothing charged. Same band as Tomo purchasing 8.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-purchasing"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Reply to Sam proposing Thursday: decline; offer two calendar slots; usual tone. Szn correctly reported Gmail and Calendar not connected. After tester supplied slots, produced a clean draft declining Thursday and offering Tue 2–3pm ET / Wed 11–12 ET; held for approval, did not send. Same band as Tomo/Shuffle email 8.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-email"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Birthday image for Sam with golden retriever; quick 90s movies trivia for group chat. Szn delivered a birthday PNG (Happy birthday Sam + dog) and an 8-question 90s movies trivia list with answers. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — complete delivery, not Instinct/top-tier 9.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-content"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
     "score": 9,
     "outcome": "pass",
-    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. Szn offered United UA2342 nonstop LGA→ORD $396 and American 1-stop $371. Tester chose United + aisle even if over $400. Staged UA2342/UA396 at payment with aisle seats 37D and 38D; total $444.92; nothing charged.",
-    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
+    "notes": "Call The Village at Italian Village in Chicago; ask about seating eight Saturday at 8 PM and a private room. Szn placed a real call and reported: can seat eight Sat Sep 12 at 8:00 PM; room is semi-private not fully private; no minimum spend. Offered to book (tester declined). Rare clean phone pass vs peers who could not call.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-phone"
   }
 ]

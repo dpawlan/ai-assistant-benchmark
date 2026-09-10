@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-blooio-purchasing",
+  "agent": "szn",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T17:30:00.000Z"
+}

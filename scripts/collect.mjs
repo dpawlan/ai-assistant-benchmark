@@ -306,16 +306,29 @@ async function collectX() {
       if (!cfg.x_queries?.length) continue;
       console.log(`\n${cfg.name} (${slug})`);
       seen.clear();
+      let baseHits = 0;
       for (const base of cfg.x_queries) {
+        // The action-phrased query (booked OR flight OR ...) only pays off where the plain queries already found volume.
+        if (/\(booked OR flight OR/.test(base) && baseHits < 10) {
+          console.log(`  (skipping action query: only ${baseHits} hits so far)`);
+          continue;
+        }
         for (const [a, b] of dateWindows(since, until, windowDays)) {
           const q = `${base} since:${a} until:${b} -filter:retweets`;
           currentQuery = q;
           const before = seen.size;
-          await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
-          await sleep(2500);
-          if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
-            console.log('  rate limited; sleeping 15 minutes');
-            await sleep(15 * 60 * 1000);
+          // Rate limit: wait out X's 15-minute window, then retry the same search rather than skipping it.
+          let loaded = false;
+          for (let attempt = 0; attempt < 3 && !loaded; attempt++) {
+            await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
+            await sleep(2500);
+            if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
+              console.log(`  rate limited; sleeping 15 minutes, then retrying (${attempt + 1}/3)`);
+              await sleep(15 * 60 * 1000);
+            } else loaded = true;
+          }
+          if (!loaded) {
+            console.log(`  ${q}  skipped after 3 rate limits`);
             continue;
           }
           let stale = 0;
@@ -331,6 +344,7 @@ async function collectX() {
             }
           }
           console.log(`  ${q}  +${seen.size - before}`);
+          if (!/\(booked OR flight OR/.test(base)) baseHits += seen.size - before;
           await jitter(2500, 5000);
         }
       }

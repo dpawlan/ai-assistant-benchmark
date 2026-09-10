@@ -1,9 +1,9 @@
 {
   "updated": "2026-09-10",
-  "agent_count": 58,
+  "agent_count": 61,
   "feedback_count": 2705,
-  "confirmed": 42,
-  "stretch": 16,
+  "confirmed": 44,
+  "stretch": 17,
   "agents": [
     {
       "slug": "aeon",
@@ -134,6 +134,30 @@
       }
     },
     {
+      "slug": "brea",
+      "name": "Brea",
+      "status": "confirmed",
+      "site": "https://brea.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI that gets things done",
+      "icon": "/logos/brea.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Starter $9/mo · Pro $39/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "RCS (Android)",
+          "Telegram",
+          "Web"
+        ],
+        "checked": "2026-09-10"
+      }
+    },
+    {
       "slug": "buoy",
       "name": "Buoy",
       "status": "confirmed",
@@ -244,6 +268,56 @@
           "Browser extension"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "cole",
+      "name": "Cole",
+      "status": "confirmed",
+      "site": "https://pocodot.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI coworker that works everywhere your team works",
+      "icon": "/logos/cole.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (150 credits/mo) · Pro $49/mo · Max $199/mo",
+        "regions": "Global; 29 languages",
+        "channels": [
+          "Slack",
+          "Microsoft Teams",
+          "WhatsApp",
+          "Telegram",
+          "iMessage",
+          "LINE",
+          "Email",
+          "Phone",
+          "Web"
+        ],
+        "checked": "2026-09-10"
+      }
+    },
+    {
+      "slug": "doubao",
+      "name": "Doubao",
+      "status": "stretch",
+      "site": "https://www.doubao.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "ByteDance's AI assistant for chat, writing, translation and coding",
+      "icon": "/logos/doubao.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free",
+        "regions": "China-focused; Chinese-language first",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "Web"
+        ],
+        "checked": "2026-09-10"
       }
     },
     {

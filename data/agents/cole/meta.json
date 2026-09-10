@@ -1,0 +1,33 @@
+{
+  "slug": "cole",
+  "name": "Cole",
+  "site": "https://pocodot.ai/",
+  "handles": [
+    "pocodot",
+    "pocodotai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Pocodot's AI chief of staff: lives in Slack, Teams, WhatsApp, Telegram, LINE, iMessage and email, joins calls, drafts comms, books travel and triages inboxes in 29 languages. Company registered in Thailand. Requested via the form (issue #59).",
+  "public_signal": "low",
+  "tagline": "The AI coworker that works everywhere your team works",
+  "icon": "/logos/cole.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (150 credits/mo) · Pro $49/mo · Max $199/mo",
+    "regions": "Global; 29 languages",
+    "channels": [
+      "Slack",
+      "Microsoft Teams",
+      "WhatsApp",
+      "Telegram",
+      "iMessage",
+      "LINE",
+      "Email",
+      "Phone",
+      "Web"
+    ],
+    "checked": "2026-09-10"
+  }
+}

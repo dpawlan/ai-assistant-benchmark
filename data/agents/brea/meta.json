@@ -1,0 +1,29 @@
+{
+  "slug": "brea",
+  "name": "Brea",
+  "site": "https://brea.ai/",
+  "handles": [
+    "brea_ai",
+    "breaai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal assistant over iMessage, SMS, RCS, Telegram and web chat that books, replies to email and files documents across 2,100+ connected apps. Requested via the form (issue #58).",
+  "public_signal": "low",
+  "tagline": "The AI that gets things done",
+  "icon": "/logos/brea.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Starter $9/mo · Pro $39/mo",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "RCS (Android)",
+      "Telegram",
+      "Web"
+    ],
+    "checked": "2026-09-10"
+  }
+}

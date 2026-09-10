@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-10",
   "agent_count": 58,
-  "feedback_count": 2596,
+  "feedback_count": 2680,
   "confirmed": 42,
   "stretch": 16,
   "agents": [
@@ -31,7 +31,7 @@
       "name": "Ako",
       "status": "stretch",
       "site": "https://withako.com/",
-      "feedback_count": 8,
+      "feedback_count": 92,
       "public_signal": "low",
       "tagline": "An AI employee for your team, with its own email and workspace",
       "icon": "/logos/ako.png",

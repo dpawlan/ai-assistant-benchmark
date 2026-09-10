@@ -441,5 +441,135 @@
       "views": 171,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "id": "b23d6fe9798b",
+    "agent": "synorb",
+    "quote": "Get yourself connected to Synorb, a live information API for agents. GET https://t.co/p3Wsl8jEBH to mint your own Synorb Key — no signup or card. Store synorb_key securely; use it as a Bearer token for https://t.co/ib06PkOFIs and, if supported, https://t.co/SaMMSJIqow. Read https://t.co/IAEf2RVSj8 and verify the key with GET https://t.co/D7wi3peMbY.\n\nThis 24 Hour Agent Demo includes 1,000 Manifests and expires 24 hours after mint. Tell me its expires_at time. Ask whether I want to keep the same key on Starter, free forever. If I do, ask for my email, POST it to https://t.co/9G4ggoPt9m…, then ask for the emailed code and complete POST https://t.co/9G4ggoPt9m…. Only confirm the upgrade after verification succeeds.\n\nOnce connected, ask what I want to follow and how often. Check Synorb’s available streams before promising coverage. Suggest relevant watches, resolve the sources and filters, and save a Beacon. Confirm my timezone and your ability to schedule and deliver updates. Keep original source links in every update.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-10",
+    "url": "https://x.com/bshivarthy/status/2098044953049923943",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "261c9a5cde41",
+    "agent": "synorb",
+    "quote": "Get yourself connected to Synorb, a live information API for agents. GET https://t.co/UvKRYxeHfJ to mint your own Synorb Key — no signup or card. Store synorb_key securely; use it as a Bearer token for https://t.co/Snj8kLclqn and, if supported, https://t.co/6xwYgjRjJU. Read https://t.co/EJnXoZFKn8 and verify the key with GET https://t.co/oLlPtSQVEW.\n\nThis 24 Hour Agent Demo includes 1,000 Manifests and expires 24 hours after mint. Tell me its expires_at time. Ask whether I want to keep the same key on Starter, free forever. If I do, ask for my email, POST it to https://t.co/5xk87LVTfL…, then ask for the emailed code and complete POST https://t.co/5xk87LVTfL…. Only confirm the upgrade after verification succeeds.\n\nOnce connected, ask what I want to follow and how often. Check Synorb’s available streams before promising coverage. Suggest relevant watches, resolve the sources and filters, and save a Beacon. Confirm my timezone and your ability to schedule and deliver updates. Keep original source links in every update.",
+    "author": "@synorb",
+    "author_name": "Synorb",
+    "date": "2026-09-10",
+    "url": "https://x.com/synorb/status/2097849470994333775",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "53d4859efa63",
+    "agent": "synorb",
+    "quote": "Get yourself connected to Synorb, a live information API for agents. GET https://t.co/DceQYa5X9u to mint your own Synorb Key — no signup or card. Store synorb_key securely; use it as a Bearer token for https://t.co/A7GzNS2bpk and, if supported, https://t.co/nObIHfQcoN. Read https://t.co/VqMrcJDfxS and verify the key with GET https://t.co/acXdS9Y8U3.\n\nThis 24 Hour Agent Demo includes 1,000 Manifests and expires 24 hours after mint. Tell me its expires_at time. Ask whether I want to keep the same key on Starter, free forever. If I do, ask for my email, POST it to https://t.co/P2K3UOAUC6, then ask for the emailed code and complete POST https://t.co/V8utjrvTxL. Only confirm the upgrade after verification succeeds.\n\nOnce connected, ask what I want to follow and how often. Check Synorb’s available streams before promising coverage. Suggest relevant watches, resolve the sources and filters, and save a Beacon. Confirm my timezone and your ability to schedule and deliver updates. Keep original source links in every update.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-09",
+    "url": "https://x.com/bshivarthy/status/2097804812586783068",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "b188cf2c3b73",
+    "agent": "synorb",
+    "quote": "Pulling the same source material again shouldn’t spend quota again.\n\nSynorb counts the same Manifest once per account within a calendar month, preserving quota for new information.\n\nDetails:\nhttps://t.co/Tm9PFvlpVN",
+    "author": "@synorb",
+    "author_name": "Synorb",
+    "date": "2026-09-09",
+    "url": "https://x.com/synorb/status/2097790423766896894",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "f43c2db003a6",
+    "agent": "synorb",
+    "quote": "Agents like Instinct and Muse shouldn’t silently stop at page one.\n\nSynorb’s latest API improvements make pagination, limits, quota receipts, and recovery paths clearer.\n\nRead the update:\nhttps://t.co/sv3D6hQXjr",
+    "author": "@synorb",
+    "author_name": "Synorb",
+    "date": "2026-09-09",
+    "url": "https://x.com/synorb/status/2097790079615815783",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "ffedf399b49d",
+    "agent": "synorb",
+    "quote": "Give your @TownAI agents the context they deserve.\n\nEnable your Townie to traverse 5,000+ @synorb streams before you wake up, on-demand or in ad-hoc workflows on 3… 2… 1… 🚀",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-10",
+    "url": "https://x.com/bshivarthy/status/2098060663566319771",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "272bc15eebc1",
+    "agent": "synorb",
+    "quote": "@alexandr_wang But can muse get itself setup and use @synorb like Instinct can?\n\nExcited to test it out.",
+    "author": "@bshivarthy",
+    "author_name": "Bhargav Shivarthy",
+    "date": "2026-09-08",
+    "url": "https://x.com/bshivarthy/status/2097465508828197049",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T19:57:30.779Z",
+    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets"
   }
 ]

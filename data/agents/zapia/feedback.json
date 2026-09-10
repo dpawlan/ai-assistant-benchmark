@@ -359,5 +359,56 @@
     "source": "appstore",
     "collected_at": "2026-09-09T15:24:55.499Z",
     "notes": "5★, version 1.7.0"
+  },
+  {
+    "id": "4fe6f7c4cad0",
+    "agent": "zapia",
+    "quote": "Si todavía no participaste en el #MundialZapia, este es tu recordatorio para hacerlo este fin de semana.\n\nGraba algo simple. Cuenta qué haces con Zapia. Muestra ese uso que te resuelve la vida.\n\nLa fecha se extendió hasta el 23 de agosto.\n\n👉 https://t.co/eRmfk9vBqS",
+    "author": "@ZapiaAI",
+    "author_name": "Zapia",
+    "date": "2026-08-09",
+    "url": "https://x.com/ZapiaAI/status/2086448663409135792",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:11:18.347Z",
+    "notes": "query: \"zapia.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "a78c1698ca3b",
+    "agent": "zapia",
+    "quote": "Uruguay's AI ecosystem raised US$26.3M since 2023, with Zapia alone securing US$19.3M including a US$7M round in March 2026. Montevideo is emerging as a regional AI hub.\nSource: Rio Times Online\n#ProLatam #latam",
+    "author": "@prolatamglobal",
+    "author_name": "Pro-Latam",
+    "date": "2026-09-10",
+    "url": "https://x.com/prolatamglobal/status/2098049087345938771",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:11:18.347Z",
+    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "7cbf5134c02d",
+    "agent": "zapia",
+    "quote": "¡Fuerte noticia sobre inteligencia artificial en Uruguay!\n\nContada por @naaraperez3\n\nZapia AI, la empresa de IA más importante que tiene Uruguay, cerró un acuerdo con el gigante chino Tencent, el conglomerado tecnológico y de internet más valioso de China.\n\nBuscan que los chinos, además, instalen un datacenter en el país.\n\nMás info: https://t.co/gjpnN1TkHZ",
+    "author": "@juanpdemarco",
+    "author_name": "Juan Pablo De Marco",
+    "date": "2026-08-07",
+    "url": "https://x.com/juanpdemarco/status/2085741291426431100",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:11:18.347Z",
+    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
   }
 ]

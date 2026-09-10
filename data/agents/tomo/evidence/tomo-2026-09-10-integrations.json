@@ -1,0 +1,20 @@
+{
+  "id": "tomo-2026-09-10-integrations",
+  "agent": "tomo",
+  "category": "third_party_integrations",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "notion_connected": false,
+    "calendar_connected": false,
+    "slack_connected": false,
+    "connect_offered": true,
+    "interim_q3_draft": true,
+    "interim_calendar_block": "Thu 2:00-2:30 PM",
+    "interim_slack_copy": true,
+    "tester_connected": false,
+    "agent_said_done": false,
+    "agent_said_cant": true
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tomo-2026-09-10-multiplayer",
+  "agent": "tomo",
+  "category": "multiplayer_groups",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "can_start_group": false,
+    "add_to_existing_offered": true,
+    "supported_channels": ["iMessage", "SMS"],
+    "harness_limitation": "1:1 only",
+    "protocol_runnable": false,
+    "agent_said_done": false,
+    "agent_said_cant": true
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

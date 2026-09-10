@@ -1,0 +1,19 @@
+{
+  "id": "tomo-2026-09-10-chained",
+  "agent": "tomo",
+  "category": "chained_tasks",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "gmail_connected": false,
+    "drive_connected": false,
+    "connect_offered": true,
+    "manual_path_offered": true,
+    "manual_path_items": ["airline site", "confirmation number", "passport"],
+    "live_checkin_completed": false,
+    "tester_connected": false,
+    "agent_said_done": false,
+    "agent_said_cant": true
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

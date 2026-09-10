@@ -1,0 +1,19 @@
+{
+  "id": "tomo-2026-09-10-email",
+  "agent": "tomo",
+  "category": "email_replies",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "gmail_connected": false,
+    "calendar_connected": false,
+    "connect_offered": true,
+    "draft_produced": true,
+    "declined_thursday": true,
+    "offered_friday_slots": true,
+    "live_send": false,
+    "agent_said_done": false,
+    "agent_said_cant": true
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

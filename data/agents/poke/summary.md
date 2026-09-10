@@ -28,3 +28,9 @@ _Updated 2026-09-09 weekday vault scan (+7 rows)._
 - (2026-09-08) @Shu3ham96: seeing what Instinct can do over poke by @interaction, just amazes me on the advancements, and effectively keep on building even though a pr
 - (2026-09-08) @capitaltruist: As a personal agent normie, I've used @openclaw (too much work, unreliable), @interaction (useful, but annoyingly flippant), Instinct (incre
 - (2026-09-08) @uzaxirr: Is poke by @interaction dead after the acquisition?? The product feels very slow and degraded and no new product updates post acquisition.
+
+_Updated 2026-09-10 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-09) Josh: Overall, I was impressed by how naturally Poke fits into something I already use every day: texting. Being able to manage emails, check my c
+- (2026-09-09) Josh: Email triage isn't very sharp yet, so it can bury something urgent while forwarding something trivial. Only supports Gmail and Outlook for e

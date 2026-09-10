@@ -32,3 +32,11 @@ _Updated 2026-09-09 weekday vault scan (+5 rows)._
 - (2026-08-12) dgellow: Are you all comfortable with the idea of agents running non stop with access to all your accounts? I would be so anxious all the time, think
 - (2026-08-13) ares623: But then whoever added them to the IDP becomes accountable for what the bots do.  By hijacking a real person's credentials, that person beco
 - (2026-08-28) @chrisalarcon: I am on the $100 SuperGrok Plus plan, and I spent the week attacking my own gaps. Three builds:  A mini marketing team that watches my analy
+
+_Updated 2026-09-10 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-03) Simon Taylor: Grok Bot is doing something similar for a slightly more technical audience: people who never went near OpenClaw are spinning up five or six 
+- (2026-09-10) Dennis Yu: I run Grok Bot as a single coordinator desk with named specialist agents, not a swarm. ... Grok Bot is the Cursor/xAI teammate on desktop an
+- (2026-09-01) VIS Mountain: Pick Grok Bot if you are a business owner or small team without a systems administrator, you want approvals and a reviewable audit of action
+- (2026-08-29) Liat Ben-Zur: Use Grok Bot if you want named bots to own repeatable jobs. Use Instinct if you want one assistant you can hand almost anything to.

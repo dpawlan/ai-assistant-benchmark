@@ -68,5 +68,15 @@
     "outcome": "partial",
     "notes": "Published phone_calls task via Blooio from +16124259300 to Shuffle +16463823248 (call restaurant to seat 8 Sat at 8pm + ask about private room). Shuffle stated it cannot place phone calls directly; offered online reservation check instead. After clarifying Russian Tea Time (Adams / downtown Chicago area from prior travel context), Shuffle researched and reported: Tock accepts 1–6 guests only and public times end 7:30pm so no table for 8 at 8pm Sat; private-room availability not shown on Tock (form with 24h reply); Tagvenue lists Front Dining Room (~55 seats) from ~$6k Sat and Rear (~45 seats) from ~$4k. Tester protocol: stop-before-card is not a failure; limitation here is no outbound calling capability.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-blooio-phone"
+  },
+  {
+    "id": "shuffle-2026-09-10-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published chained-tasks prompt via iMessage to Shuffle (check in for tomorrow's flight using confirmation in email and passport in Drive). Shuffle correctly refused without email/Drive connected; asked for airline + confirmation code + passport details (or photo) as alternate, or Google account connect (connect URL again failed to render as plain text over iMessage). No live check-in completed (no email/Drive on test number; no real booked confirmation to hand).",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-chained"
   }
 ]

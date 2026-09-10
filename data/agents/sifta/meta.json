@@ -1,0 +1,36 @@
+{
+  "slug": "sifta",
+  "name": "Sifta",
+  "site": "https://joinsifta.com/",
+  "handles": [
+    "siftaai"
+  ],
+  "status": "stretch",
+  "product_class": "vertical_ops_assistant",
+  "notes": "Text-based operating system for real estate agents: catches and answers leads, books showings, pulls comps, chases lenders and deadlines, briefs the agent each morning. Requested via the form (issue #30).",
+  "likely_applicable": [
+    "proactive_behavior",
+    "recommendation_quality",
+    "email_replies",
+    "third_party_integrations",
+    "running_routine",
+    "memory",
+    "permissions_privacy",
+    "multiplayer_groups",
+    "phone_calls"
+  ],
+  "public_signal": "low",
+  "tagline": "AI that runs your real estate business",
+  "icon": "/logos/sifta.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Pro $199/mo · Max $299/mo; 7-day money-back",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS"
+    ],
+    "checked": "2026-09-10"
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "shuffle-2026-09-10-blooio-multiplayer",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Published multiplayer-groups task via Blooio 1:1 iMessage. Tester asked if Shuffle can join/create a group chat of four to find a dinner date and book it. Shuffle said it cannot start a group chat from its end, but the user can add its number to an existing group like any contact and it will help lock a date/spot and book. Tester harness is 1:1 Blooio iMessage with no three friends available, so the full multiplayer pass criteria were not runnable. Protocol not runnable on this channel; marked n/a (out of scope for 1:1), not a capability fail.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-blooio-multiplayer"
+  }
+]

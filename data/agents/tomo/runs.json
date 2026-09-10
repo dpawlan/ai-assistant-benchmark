@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tomo-2026-09-10-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published third-party integrations task via iMessage to Tomo (add Q3 planning to Notion tasks, 30-min Thursday afternoon calendar block, Slack Sam). Tomo correctly reported Notion, Calendar, and Slack were not connected and offered a tomo.ai connect flow; interim workaround: drafted Notion task name, calendar block Thu Sep 17 2:00–2:30 PM, Slack draft message. Slack has no automated integration. Did not complete the three target actions (no live Notion/Calendar/Slack). Same band as Shuffle/Caddy integrations 7.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-integrations"
+  }
+]

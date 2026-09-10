@@ -1,0 +1,20 @@
+{
+  "id": "tomo-2026-09-10-content",
+  "agent": "tomo",
+  "category": "content_creation_games",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "image_generated": true,
+    "image_delivered": true,
+    "image_format": "jpeg",
+    "delivery_channel": "iMessage",
+    "trivia_game_delivered": true,
+    "trivia_interactive": true,
+    "trivia_feedback_provided": true,
+    "playable_in_thread": true,
+    "agent_said_done": true,
+    "agent_said_cant": false
+  },
+  "published_at": "2026-09-10T14:46:00.000Z"
+}

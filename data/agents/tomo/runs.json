@@ -28,5 +28,15 @@
     "outcome": "partial",
     "notes": "Dinner for 4 tomorrow 7:30, walking from Club Quarters Central Loop, vegetarian-friendly, not a chain, under $40/head; asked for 2–3 options + pick. Tomo returned three independent spots within 5–10 min walk: (1) The Village at Italian Village (71 W Monroe) ~2 min, pastas ~$20–24; (2) The Gage (24 S Michigan) ~8 min, seasonal pasta ~$26 / zucchini sandwich ~$18; (3) The Marq (60 W Adams) across street, shareables/mains under ~$35. Pick: The Village. Attempted hold for 4 at 7:30 — blocked by Resy sign-in; offered secure Resy connect link. Tester did not connect (stop before account linking / paywall protocol). –1 for Resy connect path risking account ban for tester.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-rec"
+  },
+  {
+    "id": "tomo-2026-09-10-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Birthday image for Sam with golden retriever + 90s movie trivia playable in chat. Tomo generated and delivered a birthday card image (jpeg via iMessage), then ran an interactive 90s movies trivia game with questions covering Pulp Fiction (Royale with Cheese), The Matrix (red pill), and Jurassic Park (Barbasol shaving cream can). Provided correct/incorrect feedback after each answer. Fully playable in-thread. Clean, complete delivery of both ask components. Calibrated to Shuffle content 9.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-content"
   }
 ]

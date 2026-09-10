@@ -14,7 +14,8 @@
         "@withako",
         "@with_ako",
         "@ntkris",
-        "\"ako ai\" OR \"ako assistant\" OR \"ako agent\""
+        "\"ako ai\" OR \"ako assistant\" OR \"ako agent\"",
+        "(\"withako.com\" OR @withako OR @with_ako) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"withako.com\"",
@@ -53,7 +54,8 @@
       "x_queries": [
         "\"asaply.ai\"",
         "@AsaplyAi",
-        "\"asaply\" (ai OR assistant OR agent)"
+        "\"asaply\" (ai OR assistant OR agent)",
+        "(\"asaply.ai\" OR @AsaplyAi OR @SaranBluri) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"asaply.ai\"",
@@ -86,7 +88,8 @@
       "x_queries": [
         "\"asmiai.com\"",
         "@AsmiAIOriginal",
-        "\"asmi ai\" OR \"asmi assistant\" OR \"asmi agent\""
+        "\"asmi ai\" OR \"asmi assistant\" OR \"asmi agent\"",
+        "(\"asmiai.com\" OR @AsmiAIOriginal OR @RishiRRathor) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"asmiai.com\"",
@@ -122,7 +125,8 @@
       "domain": "trygist.ai",
       "x_queries": [
         "\"trygist.ai\"",
-        "@getboba"
+        "@getboba",
+        "(\"trygist.ai\" OR @getboba OR @iamtegha_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"trygist.ai\"",
@@ -157,7 +161,8 @@
       "domain": "buoy.chat",
       "x_queries": [
         "\"buoy.chat\"",
-        "@buoychat"
+        "@buoychat",
+        "(\"buoy.chat\" OR @buoychat OR @riccqi) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"buoy.chat\"",
@@ -193,7 +198,8 @@
       "domain": "caddy.app",
       "x_queries": [
         "\"caddy.app\"",
-        "@try_caddy"
+        "@try_caddy",
+        "(\"caddy.app\" OR @try_caddy OR @ConnorWaslo) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"caddy.app\"",
@@ -230,7 +236,8 @@
       "domain": "catchagent.ai",
       "x_queries": [
         "\"catchagent.ai\"",
-        "@catchagent"
+        "@catchagent",
+        "(\"catchagent.ai\" OR @catchagent OR @therealnirs) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"catchagent.ai\"",
@@ -271,7 +278,8 @@
       "x_queries": [
         "\"folk.com\"",
         "@nozomioai",
-        "@try_folk"
+        "@try_folk",
+        "(\"folk.com\" OR @nozomioai OR @try_folk) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"folk.com\"",
@@ -309,7 +317,8 @@
       ],
       "domain": "grok.com",
       "x_queries": [
-        "\"grok bot\" OR grokbot"
+        "\"grok bot\" OR grokbot",
+        "(\"grok.com\" OR @bot OR @romanugarte_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"grok.com\""
@@ -338,7 +347,8 @@
       "domain": "meethalo.app",
       "x_queries": [
         "\"meethalo.app\"",
-        "@meethalo"
+        "@meethalo",
+        "(\"meethalo.app\" OR @meethalo OR @tanmays) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"meethalo.app\"",
@@ -372,7 +382,8 @@
       "domain": "hirealpha.chat",
       "x_queries": [
         "\"hirealpha.chat\"",
-        "\"hirealpha\" (ai OR assistant OR agent)"
+        "\"hirealpha\" (ai OR assistant OR agent)",
+        "(\"hirealpha.chat\" OR @Alpha OR @shank2600) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"hirealpha.chat\"",
@@ -399,7 +410,8 @@
       ],
       "domain": "instinct.co",
       "x_queries": [
-        "\"instinct.co\""
+        "\"instinct.co\"",
+        "(\"instinct.co\" OR @noahrshinn) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"instinct.co\"",
@@ -430,7 +442,8 @@
       ],
       "domain": "joshu.me",
       "x_queries": [
-        "\"joshu.me\""
+        "\"joshu.me\"",
+        "(\"joshu.me\" OR @dbenyamin) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"joshu.me\"",
@@ -462,7 +475,8 @@
       "domain": "lava.so",
       "x_queries": [
         "\"lava.so\"",
-        "@trylava"
+        "@trylava",
+        "(\"lava.so\" OR @trylava OR @MitchJones_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"lava.so\"",
@@ -498,7 +512,8 @@
       "domain": "meetlucas.ai",
       "x_queries": [
         "\"meetlucas.ai\"",
-        "@meetlucasai"
+        "@meetlucasai",
+        "(\"meetlucas.ai\" OR @meetlucasai OR @MaxDerevy) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"meetlucas.ai\"",
@@ -532,7 +547,8 @@
       ],
       "domain": "mana.space",
       "x_queries": [
-        "\"mana.space\""
+        "\"mana.space\"",
+        "(\"mana.space\" OR @Behzadhaghgoo) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"mana.space\"",
@@ -564,7 +580,8 @@
       "domain": "miso.com",
       "x_queries": [
         "\"miso.com\"",
-        "@bookwithmiso"
+        "@bookwithmiso",
+        "(\"miso.com\" OR @bookwithmiso OR @martinmartinmro) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"miso.com\"",
@@ -624,7 +641,8 @@
       "domain": "ollie.ai",
       "x_queries": [
         "\"ollie.ai\"",
-        "@heyollieai"
+        "@heyollieai",
+        "(\"ollie.ai\" OR @heyollieai OR @blennon_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"ollie.ai\"",
@@ -662,7 +680,8 @@
       "x_queries": [
         "\"openinstinct.sh\"",
         "@merit_systems",
-        "openinstinct OR \"open instinct\""
+        "openinstinct OR \"open instinct\"",
+        "(\"openinstinct.sh\" OR @merit_systems OR @DavidPawlan) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"openinstinct.sh\""
@@ -697,7 +716,8 @@
       "domain": "orchid.ai",
       "x_queries": [
         "\"orchid.ai\"",
-        "@orchid_hq"
+        "@orchid_hq",
+        "(\"orchid.ai\" OR @orchid_hq OR @x6c75) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"orchid.ai\"",
@@ -733,7 +753,8 @@
       "domain": "pally.com",
       "x_queries": [
         "\"pally.com\"",
-        "@pallyai"
+        "@pallyai",
+        "(\"pally.com\" OR @pallyai OR @hazhubble) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"pally.com\"",
@@ -790,7 +811,8 @@
         "\"pneum.ai\"",
         "@Pneum",
         "@pneumai",
-        "\"pneum.ai\" (ai OR assistant OR agent)"
+        "\"pneum.ai\" (ai OR assistant OR agent)",
+        "(\"pneum.ai\" OR @Pneum OR @pneumai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"pneum.ai\""
@@ -818,7 +840,8 @@
       "domain": "poke.com",
       "x_queries": [
         "\"poke.com\"",
-        "@interaction"
+        "@interaction",
+        "(\"poke.com\" OR @interaction OR @marvinvonhagen) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"poke.com\"",
@@ -857,7 +880,8 @@
       "x_queries": [
         "\"shoponscout.com\"",
         "@shoponscout",
-        "\"shoponscout\" (ai OR assistant OR agent)"
+        "\"shoponscout\" (ai OR assistant OR agent)",
+        "(\"shoponscout.com\" OR @shoponscout OR @suenacita1) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"shoponscout.com\""
@@ -882,7 +906,8 @@
       ],
       "domain": "shuffle.cool",
       "x_queries": [
-        "\"shuffle.cool\""
+        "\"shuffle.cool\"",
+        "(\"shuffle.cool\" OR @ebeezy_eth OR @slopdotwtf) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"shuffle.cool\"",
@@ -941,7 +966,8 @@
       "domain": "skydive.com",
       "x_queries": [
         "\"skydive.com\"",
-        "@getskydive"
+        "@getskydive",
+        "(\"skydive.com\" OR @getskydive OR @dhruvamin) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"skydive.com\"",
@@ -979,7 +1005,8 @@
       "x_queries": [
         "\"slashy.com\"",
         "@slashyemail",
-        "@slashy"
+        "@slashy",
+        "(\"slashy.com\" OR @slashyemail OR @slashy) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"slashy.com\"",
@@ -1010,7 +1037,8 @@
       "domain": "joinsoar.co",
       "x_queries": [
         "\"joinsoar.co\"",
-        "@soarapp"
+        "@soarapp",
+        "(\"joinsoar.co\" OR @soarapp OR @stannostudio) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"joinsoar.co\"",
@@ -1046,7 +1074,8 @@
       "x_queries": [
         "\"synorb.com\"",
         "@synorb",
-        "\"synorb ai\" OR \"synorb assistant\" OR \"synorb agent\""
+        "\"synorb ai\" OR \"synorb assistant\" OR \"synorb agent\"",
+        "(\"synorb.com\" OR @synorb OR @bshivarthy) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"synorb.com\"",
@@ -1080,7 +1109,8 @@
       "domain": "theszn.ai",
       "x_queries": [
         "\"theszn.ai\"",
-        "@thesznai"
+        "@thesznai",
+        "(\"theszn.ai\" OR @thesznai OR @nikhilgupta91) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"theszn.ai\"",
@@ -1115,7 +1145,8 @@
       "domain": "meetzero.ai",
       "x_queries": [
         "\"meetzero.ai\"",
-        "@meetzeroai"
+        "@meetzeroai",
+        "(\"meetzero.ai\" OR @meetzeroai OR @AvgNomad) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"meetzero.ai\""
@@ -1145,7 +1176,8 @@
       "x_queries": [
         "\"tinypeople.ai\"",
         "@NaturaAI",
-        "\"tinynature\" (ai OR assistant OR agent)"
+        "\"tinynature\" (ai OR assistant OR agent)",
+        "(\"tinypeople.ai\" OR @NaturaAI OR @carloAI) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"tinypeople.ai\"",
@@ -1179,7 +1211,8 @@
       "domain": "tomo.ai",
       "x_queries": [
         "\"tomo.ai\"",
-        "@tomo"
+        "@tomo",
+        "(\"tomo.ai\" OR @tomo OR @justoutquan) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"tomo.ai\"",
@@ -1211,7 +1244,8 @@
       "domain": "town.com",
       "x_queries": [
         "\"town.com\"",
-        "@TownAI"
+        "@TownAI",
+        "(\"town.com\" OR @TownAI OR @jgreze) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"town.com\"",
@@ -1255,7 +1289,8 @@
       "x_queries": [
         "\"vellum.ai\"",
         "@vellum_ai",
-        "\"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\""
+        "\"vellum ai\" OR \"vellum assistant\" OR \"vellum agent\"",
+        "(\"vellum.ai\" OR @vellum_ai OR @marinatrajk) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"vellum.ai\"",
@@ -1292,7 +1327,8 @@
       "x_queries": [
         "\"wajo.ai\"",
         "@wajo_ai",
-        "\"wajo\" (ai OR assistant OR agent)"
+        "\"wajo\" (ai OR assistant OR agent)",
+        "(\"wajo.ai\" OR @wajo_ai OR @shivanipod) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"wajo.ai\""
@@ -1321,7 +1357,8 @@
       "domain": "heywaldo.in",
       "x_queries": [
         "\"heywaldo.in\"",
-        "@heyywaldo"
+        "@heyywaldo",
+        "(\"heywaldo.in\" OR @heyywaldo OR @shivanshfulper) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"heywaldo.in\"",
@@ -1359,7 +1396,8 @@
       "x_queries": [
         "\"muse.ai\"",
         "\"meta muse\"",
-        "muse (meta OR agent OR assistant) -\"music\""
+        "muse (meta OR agent OR assistant) -\"music\"",
+        "(\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"muse.ai\"",
@@ -1391,7 +1429,8 @@
       "domain": "fliptexts.com",
       "x_queries": [
         "\"fliptexts.com\"",
-        "\"Flip\" (assistant OR agent OR ai)"
+        "\"Flip\" (assistant OR agent OR ai)",
+        "(\"fliptexts.com\" OR @fliptexts OR @freddy_0x) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"fliptexts.com\"",
@@ -1420,7 +1459,8 @@
       "domain": "zapia.com",
       "x_queries": [
         "\"zapia.com\"",
-        "\"Zapia\" (assistant OR agent OR ai)"
+        "\"Zapia\" (assistant OR agent OR ai)",
+        "(\"zapia.com\" OR @zapia OR @zapia_ai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"zapia.com\"",
@@ -1451,7 +1491,8 @@
       "domain": "bloome.ai",
       "x_queries": [
         "\"bloome.ai\"",
-        "\"Bloome\" (assistant OR agent OR ai)"
+        "\"Bloome\" (assistant OR agent OR ai)",
+        "(\"bloome.ai\" OR @bloome OR @bloome_ai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"bloome.ai\"",
@@ -1479,7 +1520,8 @@
       "domain": "trycentral.com",
       "x_queries": [
         "\"trycentral.com\"",
-        "\"Central\" (assistant OR agent OR ai)"
+        "\"Central\" (assistant OR agent OR ai)",
+        "(\"trycentral.com\" OR @trycentral) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"trycentral.com\"",
@@ -1507,7 +1549,8 @@
       "domain": "letta.com",
       "x_queries": [
         "\"letta.com\"",
-        "\"Letta Agent\" (assistant OR agent OR ai)"
+        "\"Letta Agent\" (assistant OR agent OR ai)",
+        "(\"letta.com\" OR @Letta_AI OR @letta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"letta.com\"",
@@ -1535,7 +1578,8 @@
       "domain": "joinhexagon.com",
       "x_queries": [
         "\"joinhexagon.com\"",
-        "\"Milo\" (assistant OR agent OR ai)"
+        "\"Milo\" (assistant OR agent OR ai)",
+        "(\"joinhexagon.com\" OR @joinhexagon) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"joinhexagon.com\"",
@@ -1563,7 +1607,8 @@
       "domain": "today.ai",
       "x_queries": [
         "\"today.ai\"",
-        "\"Today\" (assistant OR agent OR ai)"
+        "\"Today\" (assistant OR agent OR ai)",
+        "(\"today.ai\" OR @today_ai OR @todayai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"today.ai\"",
@@ -1594,7 +1639,8 @@
       "domain": "migoo.ai",
       "x_queries": [
         "\"migoo.ai\"",
-        "\"Migoo\" (assistant OR agent OR ai)"
+        "\"Migoo\" (assistant OR agent OR ai)",
+        "(\"migoo.ai\" OR @migoo_ai OR @migooai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"migoo.ai\"",
@@ -1623,7 +1669,8 @@
       "domain": "trysunny.app",
       "x_queries": [
         "\"trysunny.app\"",
-        "\"Sunny\" (assistant OR agent OR ai)"
+        "\"Sunny\" (assistant OR agent OR ai)",
+        "(\"trysunny.app\" OR @trysunny OR @tejiebear) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"trysunny.app\"",
@@ -1652,7 +1699,8 @@
       "domain": "hirekai.ai",
       "x_queries": [
         "\"hirekai.ai\"",
-        "\"Kai\" (assistant OR agent OR ai)"
+        "\"Kai\" (assistant OR agent OR ai)",
+        "(\"hirekai.ai\" OR @morgen_so OR @hirekai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"hirekai.ai\"",
@@ -1681,7 +1729,8 @@
       "domain": "theshadow.io",
       "x_queries": [
         "\"theshadow.io\"",
-        "\"The Shadow\" (assistant OR agent OR ai)"
+        "\"The Shadow\" (assistant OR agent OR ai)",
+        "(\"theshadow.io\" OR @theshadow_io OR @sophonlabs) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"theshadow.io\"",
@@ -1709,7 +1758,8 @@
       "domain": "ezail.com",
       "x_queries": [
         "\"ezail.com\"",
-        "\"Ezail\" (assistant OR agent OR ai)"
+        "\"Ezail\" (assistant OR agent OR ai)",
+        "(\"ezail.com\" OR @ezailhq) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"ezail.com\"",
@@ -1738,7 +1788,8 @@
       "domain": "cheqq.ai",
       "x_queries": [
         "\"cheqq.ai\"",
-        "\"Cheqq\" (assistant OR agent OR ai)"
+        "\"Cheqq\" (assistant OR agent OR ai)",
+        "(\"cheqq.ai\" OR @cheqq OR @cheqq_ai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"cheqq.ai\"",
@@ -1768,7 +1819,8 @@
       "domain": "aeon.fun",
       "x_queries": [
         "\"aeon.fun\"",
-        "\"Aeon\" (assistant OR agent OR ai)"
+        "\"Aeon\" (assistant OR agent OR ai)",
+        "(\"aeon.fun\" OR @aeonframework OR @aaronjmars) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"aeon.fun\"",
@@ -1797,7 +1849,8 @@
       "domain": "oz.anyreach.ai",
       "x_queries": [
         "\"oz.anyreach.ai\"",
-        "\"Oz\" (assistant OR agent OR ai)"
+        "\"Oz\" (assistant OR agent OR ai)",
+        "(\"oz.anyreach.ai\" OR @anyreach OR @anyreachai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"oz.anyreach.ai\"",
@@ -1825,7 +1878,8 @@
       "domain": "joinsifta.com",
       "x_queries": [
         "\"joinsifta.com\"",
-        "\"Sifta\" (assistant OR agent OR ai)"
+        "\"Sifta\" (assistant OR agent OR ai)",
+        "(\"joinsifta.com\" OR @siftaai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"joinsifta.com\"",
@@ -1853,7 +1907,8 @@
       "domain": "littlebird.ai",
       "x_queries": [
         "\"littlebird.ai\"",
-        "\"Littlebird\" (assistant OR agent OR ai)"
+        "\"Littlebird\" (assistant OR agent OR ai)",
+        "(\"littlebird.ai\" OR @littlebird_ai OR @littlebirdai) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
       ],
       "reddit_queries": [
         "\"littlebird.ai\"",

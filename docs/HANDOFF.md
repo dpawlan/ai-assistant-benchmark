@@ -59,7 +59,7 @@ David's Grok Bot bots are private: never publish their names (runs.json notes, u
 
 ## Trending use cases
 
-`src/app/use-cases/page.tsx` + `getTrendingUseCases` in `src/lib/data.ts`. Ranking is engagement on the original post (`quote.metrics`, from `scripts/engagement.mjs` via api.fxtwitter.com) with a recency half-life; only `kind: use-case` quotes, no founder/vendor posts, minimum engagement 5. David wanted this general ("trending"), not per-assistant curation; the assistant chips are a filter, not the structure. Run `node scripts/engagement.mjs` after each merge so new quotes get counts.
+`src/app/use-cases/page.tsx` + `getUseCases` in `src/lib/data.ts`, fed by `data/use-cases.json`: each entry is a post someone wrote about something an assistant actually did, summarized by hand (title, one line, a prompt marked `posted` when the poster shared their words or `assumed` when we wrote one, optional caveat for failures and unverified claims). David's rule: summarize the use case, don't reprint the tweet; link back to it. Ranking is engagement on the original post (`quote.metrics`, from `scripts/engagement.mjs` via api.fxtwitter.com) with a 60-day half-life. Founder/vendor posts stay out. Add entries by reading new high-engagement posts (any kind, not only `use-case`) and appending to the JSON. Run `node scripts/engagement.mjs` after each merge so new quotes get counts.
 
 ## Head to head (compare + share card)
 

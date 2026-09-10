@@ -24,7 +24,10 @@ npm run build
 # `node scripts/imessage.mjs import-whatsapp --slug muse --file <export.txt> --me "David Pawlan"`, then analyze/approve as usual.
 # Assistants with no export (the Muse app): David pastes the conversation into a text file, one message per line starting
 # "Me:" or "Muse:" (optional "[3:04 PM]" first, "## YYYY-MM-DD" to change day), then `import-text --slug muse --file <txt>`.
-# Notes on runs must describe the test (what was asked, what happened), never the scoring. To fill missing ones:
+# Notes on runs are public: one sentence, under 140 chars, third person, what was asked and what the assistant did.
+# Business names it chose are fine. Never phone numbers, people's names, the harness (Blooio, tester), David's account or
+# setup state (not connected, connect links, logins, cards, trials), or scoring talk (score, band, protocol, n/a, per David).
+# `npm run lint:notes` enforces this and runs before every build; `notes` and `approve` refuse violating notes. To fill missing ones:
 node scripts/imessage.mjs excerpts --slug grok-bot --missing   # read the redacted episode per run
 node scripts/imessage.mjs notes --slug grok-bot --file notes.json
 ```

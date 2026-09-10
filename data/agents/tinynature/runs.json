@@ -6,7 +6,7 @@
     "date": "2026-09-09",
     "score": 3,
     "outcome": "fail",
-    "notes": "First contact and a day of tasks. Replies arrive as runs of separate one-line texts with faux-bold Unicode headings, so lists and drafts read as unbroken strings; the banter itself was on-register and honest about its limits.",
+    "notes": "Replies arrive as runs of one-line texts with faux-bold headings, so lists and drafts read as unbroken strings.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-58b160"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-09",
     "score": 4,
     "outcome": "partial",
-    "notes": "Published hotel task. Confirmed the dates, then returned a hostel and a Travelodge near the Loop under budget with Booking.com links, but could not confirm free cancellation on either rate and said up front it cannot book or pay. Research only, no booking.",
+    "notes": "Returned a hostel and a Travelodge near the Loop under budget, could not confirm free cancellation and cannot book or pay.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-0d26a6"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-09-09",
     "score": 5,
     "outcome": "partial",
-    "notes": "Published restaurant task. Four real vegetarian-friendly independents with walk times, price per head and a booking route each, but it assumed I was at the Chicago hotel from the earlier task even though that stay is next week and dinner was tomorrow. Cannot hold a table itself.",
+    "notes": "Four vegetarian-friendly independents with walk times and prices, but assumed the user was at next week's Chicago hotel.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-42e76f"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-09-09",
     "score": 3,
     "outcome": "fail",
-    "notes": "Asked for a hotel for next week, then a dinner spot for tomorrow near my hotel. It carried the trip city over to tomorrow and searched there instead of asking where I actually was.",
+    "notes": "Carried the trip city from a hotel search into the next day's dinner request instead of asking where the user actually was.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-992113"
   },
   {
@@ -46,7 +46,7 @@
     "date": "2026-09-09",
     "score": 6,
     "outcome": "partial",
-    "notes": "Published scheduling-reply task. Needed inbox and then calendar connected first, found the right thread, noticed the email proposed a different day than I said, pulled two genuinely free slots and drafted in a plausible voice. The send failed on Gmail, it asked for a second confirmation, then flagged that another assistant had just sent conflicting times and asked whether to hold. Nothing sent.",
+    "notes": "Found the right thread and two free slots, drafted a plausible reply, then the send failed and it asked whether to hold.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-e60983"
   }
 ]

@@ -129,3 +129,52 @@ export function shortDate(iso: string): string {
   const d = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 }
+
+/** Compact per-pair tally for the /compare index, keyed "x|y" with x < y alphabetically and counted from x's side. */
+export interface PairTally {
+  a: number;
+  b: number;
+  compared: number;
+}
+
+export function pairKey(x: string, y: string): string {
+  return x < y ? `${x}|${y}` : `${y}|${x}`;
+}
+
+/** Rows `me` takes against `them`, whichever way the pair is stored. */
+export function versus(tallies: Record<string, PairTally>, me: string, them: string): { mine: number; theirs: number; compared: number } {
+  const t = tallies[pairKey(me, them)];
+  if (!t) return { mine: 0, theirs: 0, compared: 0 };
+  return me < them ? { mine: t.a, theirs: t.b, compared: t.compared } : { mine: t.b, theirs: t.a, compared: t.compared };
+}
+
+export interface MatchRecord {
+  w: number;
+  l: number;
+  e: number;
+}
+
+/** Matchups won, lost and even against every other slug; pairs with nothing compared do not count. */
+export function record(tallies: Record<string, PairTally>, me: string, others: string[]): MatchRecord {
+  const r: MatchRecord = { w: 0, l: 0, e: 0 };
+  for (const o of others) {
+    if (o === me) continue;
+    const v = versus(tallies, me, o);
+    if (!v.compared) continue;
+    if (v.mine > v.theirs) r.w += 1;
+    else if (v.mine < v.theirs) r.l += 1;
+    else r.e += 1;
+  }
+  return r;
+}
+
+/** Most wins first, then fewest losses, then name. */
+export function byRecord<T extends { slug: string; name: string }>(agents: T[], tallies: Record<string, PairTally>): T[] {
+  const slugs = agents.map(a => a.slug);
+  const rec = new Map(agents.map(a => [a.slug, record(tallies, a.slug, slugs)]));
+  return [...agents].sort((x, y) => {
+    const rx = rec.get(x.slug)!;
+    const ry = rec.get(y.slug)!;
+    return ry.w - rx.w || rx.l - ry.l || x.name.localeCompare(y.name);
+  });
+}

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { PairGrid, PairTally } from '@/components/PairGrid';
-import { getMatchups, getTestedAgents } from '@/lib/compare';
+import { PairGrid, PairSpotlight } from '@/components/PairGrid';
+import { PairTally, byRecord, getMatchups, getTestedAgents } from '@/lib/compare';
 import { getAgents, getScoredCategories } from '@/lib/data';
 
 export const metadata: Metadata = {
@@ -10,17 +10,21 @@ export const metadata: Metadata = {
 };
 
 export default function CompareIndex() {
-  const tested = getTestedAgents();
   const dimensions = getScoredCategories().length;
-  const untested = getAgents().length - tested.length;
 
-  // One tally per unordered pair, keyed alphabetically so the client can look either side up.
+  // One tally per unordered pair, keyed alphabetically so either side can be looked up.
   const tallies: Record<string, PairTally> = {};
   for (const c of getMatchups()) {
     const first = c.a.slug < c.b.slug;
     const [x, y] = first ? [c.a.slug, c.b.slug] : [c.b.slug, c.a.slug];
     tallies[`${x}|${y}`] = { a: first ? c.tally.a : c.tally.b, b: first ? c.tally.b : c.tally.a, compared: c.tally.compared };
   }
+
+  const tested = byRecord(
+    getTestedAgents().map(a => ({ slug: a.slug, name: a.name, icon: a.icon, kind: a.kind, testedCount: a.testedCount })),
+    tallies,
+  );
+  const untested = getAgents().length - tested.length;
 
   return (
     <div className="wrap">
@@ -32,11 +36,14 @@ export default function CompareIndex() {
       </div>
 
       <section className="shelf" style={{ paddingTop: 28 }}>
-        <PairGrid
-          agents={tested.map(a => ({ slug: a.slug, name: a.name, icon: a.icon, kind: a.kind, testedCount: a.testedCount }))}
-          tallies={tallies}
-          dimensions={dimensions}
-        />
+        <PairSpotlight agents={tested} tallies={tallies} />
+      </section>
+
+      <section className="shelf">
+        <h2 className="shelf-title">
+          <span className="shelf-head">Standings</span>
+        </h2>
+        <PairGrid agents={tested} tallies={tallies} dimensions={dimensions} />
         <p className="hh-pick-note">
           {tested.length} tested {tested.length === 1 ? 'assistant' : 'assistants'}.
           {untested > 0 && (

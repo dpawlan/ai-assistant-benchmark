@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { Suspense, useEffect, useState } from 'react';
 import { track } from '@vercel/analytics';
 import { AgentIcon } from './AgentIcon';
-import { comparePath } from '@/lib/compare-shared';
+import { PairTally, comparePath, record, versus } from '@/lib/compare-shared';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
 
 export interface GridAgent {
@@ -16,41 +16,11 @@ export interface GridAgent {
   testedCount: number;
 }
 
-/** Tally for one unordered pair, keyed "a|b" with a < b alphabetically, counted from a's point of view. */
-export interface PairTally {
-  a: number;
-  b: number;
-  compared: number;
-}
-
 interface PairGridProps {
+  /** Already ranked: most matchups won first. */
   agents: GridAgent[];
   tallies: Record<string, PairTally>;
   dimensions: number;
-}
-
-function key(x: string, y: string): string {
-  return x < y ? `${x}|${y}` : `${y}|${x}`;
-}
-
-/** Wins, losses and compared rows for `me` against `them`, regardless of how the pair is stored. */
-function versus(tallies: Record<string, PairTally>, me: string, them: string): { mine: number; theirs: number; compared: number } {
-  const t = tallies[key(me, them)];
-  if (!t) return { mine: 0, theirs: 0, compared: 0 };
-  return me < them ? { mine: t.a, theirs: t.b, compared: t.compared } : { mine: t.b, theirs: t.a, compared: t.compared };
-}
-
-function record(tallies: Record<string, PairTally>, me: string, others: GridAgent[]): { w: number; l: number; e: number } {
-  const r = { w: 0, l: 0, e: 0 };
-  for (const o of others) {
-    if (o.slug === me) continue;
-    const v = versus(tallies, me, o.slug);
-    if (!v.compared) continue;
-    if (v.mine > v.theirs) r.w += 1;
-    else if (v.mine < v.theirs) r.l += 1;
-    else r.e += 1;
-  }
-  return r;
 }
 
 /** Reads ?a= after hydration so the grid can be prerendered with nothing picked. */
@@ -64,14 +34,92 @@ function PickedFromUrl({ agents, onPick }: { agents: GridAgent[]; onPick: (slug:
   return null;
 }
 
+/** Who leads a pair from `me`'s side, for tile colouring and captions. */
+function state(v: { mine: number; theirs: number; compared: number }): 'open' | 'lead' | 'trail' | 'even' {
+  if (!v.compared) return 'open';
+  return v.mine > v.theirs ? 'lead' : v.mine < v.theirs ? 'trail' : 'even';
+}
+
 /**
- * Logo grid for /compare. Tap an assistant to see every opponent with the current tally; tap an opponent to open
- * the scorecard. Grouped by peer group when more than one group has tested assistants.
+ * Spotlight for /compare: two dropdowns and a live tally that opens the scorecard.
+ * Defaults to the top two of the ranking.
+ */
+export function PairSpotlight({ agents, tallies }: { agents: GridAgent[]; tallies: Record<string, PairTally> }) {
+  const [a, setA] = useState(agents[0]?.slug ?? '');
+  const [b, setB] = useState(agents[1]?.slug ?? '');
+  const A = agents.find(x => x.slug === a);
+  const B = agents.find(x => x.slug === b);
+  if (!A || !B) return null;
+  const same = a === b;
+  const v = versus(tallies, a, b);
+  const s = state(v);
+  const caption = same
+    ? 'Pick two different assistants'
+    : s === 'open'
+      ? 'No dimension tested on both sides yet'
+      : s === 'even'
+        ? `Even over ${v.compared} compared`
+        : `${s === 'lead' ? A.name : B.name} leads over ${v.compared} compared`;
+  const href = comparePath(a, b);
+
+  const select = (value: string, onChange: (v: string) => void, label: string) => (
+    <label className="hh-spot-side">
+      <span className="hh-pick-label">{label}</span>
+      <select value={value} onChange={e => onChange(e.target.value)}>
+        {agents.map(o => (
+          <option key={o.slug} value={o.slug}>
+            {o.name}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+
+  return (
+    <div className="hh-spot">
+      <div className="hh-spot-form">
+        {select(a, setA, 'Left')}
+        <span className="hh-vs">vs</span>
+        {select(b, setB, 'Right')}
+      </div>
+      {same ? (
+        <div className="hh-spot-preview off">
+          <span className="hh-spot-caption">{caption}</span>
+        </div>
+      ) : (
+        <Link href={href} className="hh-spot-preview" onClick={() => track('hh_open', { pair: `${a}-vs-${b}`, via: 'spotlight' })}>
+          <span className="hh-spot-fighter">
+            <AgentIcon name={A.name} icon={A.icon} size={56} />
+            <span className="hh-spot-name">{A.name}</span>
+          </span>
+          <span className="hh-spot-mid">
+            <span className={`hh-spot-num ${s}`}>
+              <b className={s === 'lead' ? 'on' : ''}>{v.mine}</b>
+              <span className="hh-spot-dash">–</span>
+              <b className={s === 'trail' ? 'on' : ''}>{v.theirs}</b>
+            </span>
+            <span className="hh-spot-caption">{caption}</span>
+            <span className="hh-spot-cta">Open scorecard</span>
+          </span>
+          <span className="hh-spot-fighter right">
+            <span className="hh-spot-name">{B.name}</span>
+            <AgentIcon name={B.name} icon={B.icon} size={56} />
+          </span>
+        </Link>
+      )}
+    </div>
+  );
+}
+
+/**
+ * Logo grid for /compare, ranked by matchups won. Tap an assistant to see every opponent with the current tally;
+ * tap an opponent to open the scorecard. Grouped by peer group when more than one group has tested assistants.
  */
 export function PairGrid({ agents, tallies, dimensions }: PairGridProps) {
   const router = useRouter();
   const [picked, setPickedState] = useState<string | null>(null);
   const me = picked ? agents.find(a => a.slug === picked) ?? null : null;
+  const slugs = agents.map(a => a.slug);
 
   const setPicked = (slug: string | null, push = true) => {
     setPickedState(slug);
@@ -85,34 +133,40 @@ export function PairGrid({ agents, tallies, dimensions }: PairGridProps) {
       return;
     }
     if (slug === me.slug) return;
-    track('hh_open', { pair: `${me.slug}-vs-${slug}` });
+    track('hh_open', { pair: `${me.slug}-vs-${slug}`, via: 'grid' });
     router.push(comparePath(me.slug, slug));
   };
 
   const groups = KINDS.map(k => ({ key: k.key, title: KIND_LABEL[k.key], rows: agents.filter(a => a.kind === k.key) })).filter(g => g.rows.length);
   const grouped = groups.length > 1;
 
-  const tile = (a: GridAgent) => {
+  const tile = (a: GridAgent, i: number) => {
     if (me) {
       if (a.slug === me.slug) return null;
       const v = versus(tallies, me.slug, a.slug);
-      const state = !v.compared ? 'open' : v.mine > v.theirs ? 'lead' : v.mine < v.theirs ? 'trail' : 'even';
+      const s = state(v);
       return (
-        <Link key={a.slug} href={comparePath(me.slug, a.slug)} className={`hh-tile ${state}`} onClick={() => track('hh_open', { pair: `${me.slug}-vs-${a.slug}` })}>
+        <Link
+          key={a.slug}
+          href={comparePath(me.slug, a.slug)}
+          className={`hh-tile ${s}`}
+          onClick={() => track('hh_open', { pair: `${me.slug}-vs-${a.slug}`, via: 'grid' })}
+        >
           <AgentIcon name={a.name} icon={a.icon} size={64} />
           <span className="hh-tile-name">{a.name}</span>
           <span className="hh-tile-num">
             {v.mine}–{v.theirs}
           </span>
           <span className="hh-tile-sub">
-            {!v.compared ? 'not compared yet' : state === 'lead' ? `${me.name} leads` : state === 'trail' ? `${a.name} leads` : 'even'}
+            {s === 'open' ? 'not compared yet' : s === 'lead' ? `${me.name} leads` : s === 'trail' ? `${a.name} leads` : 'even'}
           </span>
         </Link>
       );
     }
-    const r = record(tallies, a.slug, agents);
+    const r = record(tallies, a.slug, slugs);
     return (
       <button key={a.slug} type="button" className="hh-tile" onClick={() => pick(a.slug)}>
+        <span className="hh-tile-rank">{i + 1}</span>
         <AgentIcon name={a.name} icon={a.icon} size={64} />
         <span className="hh-tile-name">{a.name}</span>
         <span className="hh-tile-num">
@@ -145,13 +199,14 @@ export function PairGrid({ agents, tallies, dimensions }: PairGridProps) {
         </div>
       ) : (
         <p className="hh-pick-note" style={{ marginTop: 0 }}>
-          Pick an assistant to see every head to head. The record counts matchups won, lost and even.
+          Ranked by matchups won. Pick an assistant to see every head to head; the record reads won–lost, with a third number for even
+          matchups.
         </p>
       )}
 
       {grouped ? (
         groups.map(g => {
-          const tiles = g.rows.map(tile).filter(Boolean);
+          const tiles = g.rows.map(a => tile(a, agents.indexOf(a))).filter(Boolean);
           if (!tiles.length) return null;
           return (
             <div key={g.key} className="hh-group">

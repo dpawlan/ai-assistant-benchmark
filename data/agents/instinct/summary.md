@@ -36,3 +36,13 @@ _Updated 2026-09-09 weekday vault scan (+1 rows)._
 
 **New this scan:**
 - (2026-08-24) sarahperez: Everyone is buzzing about Instinct, an AI personal assistant still in private access, not only for its incredible capabilities, but also for
+
+_Updated 2026-09-10 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-09) MBI Deep Dives: I tried the same Airbnb queries that I did with Muse. It took literally an hour, I kid you not, for Instinct to respond to my aforementioned
+- (2026-09-08) Pranav Dixit: Here's everything that Instinct — an invitation-only AI assistant going viral among Silicon Valley tech types — has done for me over the pas
+- (2026-09-03) Simon Taylor: "You know that thing we did? Move it back 90 minutes." I said that to Instinct this morning. And it knew exactly what I meant. ... Instinct 
+- (2026-09-03) Simon Taylor: In five days, Sheel Mohnot used Instinct to find an in-network podiatrist and fill in the forms, negotiate a Comcast bill from $100 to $60, 
+- (2026-09-09) jvwww: I use Instinct and I'm very happy with it so far. It has booked some restaurants for me, replied to some personal admin-related emails, and 
+- (2026-09-09) @losingmyego: Instinct has shown me that it can derive context and establish a sense of timing. I haven't seen another agent combine the two this successf

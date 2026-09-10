@@ -1,0 +1,14 @@
+{
+  "id": "shuffle-2026-09-09-blooio-purchasing",
+  "agent": "shuffle",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-09-09",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T02:08:00.000Z"
+}

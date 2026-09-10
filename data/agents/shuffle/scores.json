@@ -1,17 +1,18 @@
 {
   "online_task": 9,
-  "travel": null,
-  "recommendation_quality": null,
-  "purchasing": null,
-  "email_replies": null,
+  "travel": 9,
+  "recommendation_quality": 9,
+  "purchasing": 8,
+  "email_replies": 8,
   "proactive_behavior": null,
   "running_routine": null,
-  "third_party_integrations": null,
+  "third_party_integrations": 7,
+  "permissions_privacy": 7,
   "memory": null,
   "personality": null,
-  "phone_calls": null,
-  "multiplayer_groups": null,
-  "chained_tasks": null,
+  "phone_calls": 4,
+  "multiplayer_groups": "n/a",
+  "chained_tasks": 7,
   "proactive_restraint": null,
-  "content_creation_games": null
+  "content_creation_games": 9
 }

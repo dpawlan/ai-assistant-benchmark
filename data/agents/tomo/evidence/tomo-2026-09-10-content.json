@@ -1,0 +1,19 @@
+{
+  "id": "tomo-2026-09-10-content",
+  "agent": "tomo",
+  "category": "content_creation_games",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "birthday_image_delivered": true,
+    "image_format": "jpeg",
+    "golden_retriever_included": true,
+    "trivia_interactive": true,
+    "trivia_movies": ["Pulp Fiction", "The Matrix", "Jurassic Park"],
+    "trivia_playable_in_chat": true,
+    "correct_feedback_count": 3,
+    "agent_said_done": true,
+    "agent_said_cant": false
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

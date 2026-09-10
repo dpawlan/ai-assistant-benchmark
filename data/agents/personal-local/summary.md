@@ -36,3 +36,12 @@ _Updated 2026-09-09 weekday vault scan (+5 rows)._
 - (2026-09-09) @tysonhutchins: Muse is shockingly good. Like Hermes, OpenClaw, Grok bot, etc. but for normal people and essentially free.  It just… works
 - (2026-09-09) @daveremy: with my setup I have 9 persistent agents each agent was consistently consuming something like 1.5G so the mac mini was starting to page.  i 
 - (2026-09-08) @capitaltruist: As a personal agent normie, I've used @openclaw (too much work, unreliable), @interaction (useful, but annoyingly flippant), Instinct (incre
+
+_Updated 2026-09-10 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-09-09) weitendorf: IMO it's the first main openclaw-like product that has made it to the "just works" level of usability.
+- (2026-09-03) Simon Taylor: Until now, personal agents were expert mode. You bought a separate Mac Mini, installed OpenClaw or Hermes and spent multiple weekends gettin
+- (2026-09-09) Robin Do: OpenClaw just dropped one of the craziest AI assistant upgrades I've seen this year. OpenClaw 2.0 includes 16,977 pull requests from 987 con
+- (2026-09-01) PromptQuorum: It depends on configuration and how current your installed version is. OpenClaw has published 647 security advisories (14 critical, 219 high
+- (2026-09-01) BuildFastWithAI: For a new user, yes. The onboarding, browser workspace and persistent-work features make OpenClaw much easier to use as a serious agent plat

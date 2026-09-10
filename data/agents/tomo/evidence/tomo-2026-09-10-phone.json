@@ -1,0 +1,18 @@
+{
+  "id": "tomo-2026-09-10-phone",
+  "agent": "tomo",
+  "category": "phone_calls",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "can_place_calls": false,
+    "online_check_offered": true,
+    "private_dining_researched": true,
+    "venues_found": ["Vivere", "Sotto"],
+    "groups_of_8_path": "Resy or phone",
+    "live_call_completed": false,
+    "agent_said_done": false,
+    "agent_said_cant": true
+  },
+  "published_at": "2026-09-10T21:30:00.000Z"
+}

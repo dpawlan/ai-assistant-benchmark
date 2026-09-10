@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-travel",
+  "agent": "szn",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T16:23:00.000Z"
+}

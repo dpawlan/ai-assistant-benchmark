@@ -1,0 +1,18 @@
+{
+  "id": "tomo-2026-09-10-rec",
+  "agent": "tomo",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "options_returned": 3,
+    "constraint_fit": "all within walking distance, vegetarian-friendly, independent, under budget",
+    "pick_provided": true,
+    "reservation_attempted": true,
+    "reservation_blocked_by": "Resy sign-in gate",
+    "connect_link_offered": true,
+    "tester_connected": false,
+    "resy_ban_risk": true
+  },
+  "published_at": "2026-09-10T14:33:00.000Z"
+}

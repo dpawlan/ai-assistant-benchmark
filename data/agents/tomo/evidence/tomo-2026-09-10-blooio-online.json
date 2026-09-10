@@ -1,0 +1,14 @@
+{
+  "id": "tomo-2026-09-10-blooio-online",
+  "agent": "tomo",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_asked_question": true,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T21:17:00.000Z"
+}

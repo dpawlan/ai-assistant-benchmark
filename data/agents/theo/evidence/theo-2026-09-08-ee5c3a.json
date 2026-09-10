@@ -1,0 +1,19 @@
+{
+  "id": "theo-2026-09-08-ee5c3a",
+  "agent": "theo",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-09-08",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 15,
+    "duration_min": 1,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.533Z"
+}

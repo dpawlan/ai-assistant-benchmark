@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "fc3e8c09795f",
+    "agent": "muse",
+    "quote": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://Muse.ai",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-08",
+    "url": "https://x.com/Muse/status/2097399178376671666",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.186Z",
+    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)"
+  },
+  {
+    "id": "684aca7afc29",
+    "agent": "muse",
+    "quote": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
+    "author": "@finkd",
+    "author_name": "Mark Zuckerberg",
+    "date": "2026-09-08",
+    "url": "https://x.com/finkd/status/2097402101332590646",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.282Z",
+    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)"
+  },
+  {
+    "id": "41428873f656",
+    "agent": "muse",
+    "quote": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure.\n\ntry it now: https://muse.ai.",
+    "author": "@alexandr_wang",
+    "author_name": "Alexandr Wang",
+    "date": "2026-09-08",
+    "url": "https://x.com/alexandr_wang/status/2097402344061510004",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.383Z",
+    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)"
+  }
+]

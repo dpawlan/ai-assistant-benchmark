@@ -1,0 +1,19 @@
+{
+  "id": "theo-2026-09-05-5b257c",
+  "agent": "theo",
+  "category": "proactive_restraint",
+  "protocol": "observed",
+  "date": "2026-09-05",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 12,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-08T15:42:55.533Z"
+}

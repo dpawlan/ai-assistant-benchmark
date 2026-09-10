@@ -1758,6 +1758,120 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "aeon": {
+      "name": "Aeon",
+      "handles": [
+        "aeonframework",
+        "aaronjmars"
+      ],
+      "domain": "aeon.fun",
+      "x_queries": [
+        "\"aeon.fun\"",
+        "\"Aeon\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"aeon.fun\"",
+        "\"Aeon\" assistant"
+      ],
+      "hn_queries": [
+        "\"aeon.fun\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "aeon.fun",
+        "aeon",
+        "aeonframework",
+        "aaronjmars"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "oz": {
+      "name": "Oz",
+      "handles": [
+        "anyreach",
+        "anyreachai"
+      ],
+      "domain": "oz.anyreach.ai",
+      "x_queries": [
+        "\"oz.anyreach.ai\"",
+        "\"Oz\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"oz.anyreach.ai\"",
+        "\"Oz\" assistant"
+      ],
+      "hn_queries": [
+        "\"oz.anyreach.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "oz.anyreach.ai",
+        "oz",
+        "anyreach",
+        "anyreachai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "sifta": {
+      "name": "Sifta",
+      "handles": [
+        "siftaai"
+      ],
+      "domain": "joinsifta.com",
+      "x_queries": [
+        "\"joinsifta.com\"",
+        "\"Sifta\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"joinsifta.com\"",
+        "\"Sifta\" assistant"
+      ],
+      "hn_queries": [
+        "\"joinsifta.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "joinsifta.com",
+        "sifta",
+        "siftaai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "littlebird": {
+      "name": "Littlebird",
+      "handles": [
+        "littlebird_ai",
+        "littlebirdai"
+      ],
+      "domain": "littlebird.ai",
+      "x_queries": [
+        "\"littlebird.ai\"",
+        "\"Littlebird\" (assistant OR agent OR ai)"
+      ],
+      "reddit_queries": [
+        "\"littlebird.ai\"",
+        "\"Littlebird\" assistant"
+      ],
+      "hn_queries": [
+        "\"littlebird.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "littlebird.ai",
+        "littlebird",
+        "littlebird_ai",
+        "littlebirdai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
     }
   },
   "_redact_terms": [

@@ -12,6 +12,7 @@ const siteUrl =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  applicationName: 'Assistant Benchmark',
   title: {
     default: 'Assistant Benchmark',
     template: '%s | Assistant Benchmark',
@@ -33,6 +34,15 @@ export const metadata: Metadata = {
   },
 };
 
+/** Tells Google the site's name for the line above the URL in results (it reads this from the homepage). */
+const siteJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Assistant Benchmark',
+  alternateName: ['AI Assistant Benchmark', 'assistantbenchmark'],
+  url: siteUrl,
+};
+
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   const categories = getCategories();
   const index = getIndexData();
@@ -44,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           {children}
         </Shell>
         <Analytics />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }} />
       </body>
     </html>
   );

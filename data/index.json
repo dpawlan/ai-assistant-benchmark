@@ -1,10 +1,31 @@
 {
   "updated": "2026-09-10",
-  "agent_count": 54,
+  "agent_count": 58,
   "feedback_count": 2593,
-  "confirmed": 40,
-  "stretch": 14,
+  "confirmed": 42,
+  "stretch": 16,
   "agents": [
+    {
+      "slug": "aeon",
+      "name": "Aeon",
+      "status": "stretch",
+      "site": "https://www.aeon.fun/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The most autonomous agent framework",
+      "icon": "/logos/aeon.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT licensed; self-hosted, you pay your own model costs",
+        "regions": "Not stated",
+        "channels": [
+          "Self-hosted (GitHub Actions)",
+          "Web dashboard"
+        ],
+        "checked": "2026-09-10"
+      }
+    },
     {
       "slug": "ako",
       "name": "Ako",
@@ -468,6 +489,29 @@
       }
     },
     {
+      "slug": "littlebird",
+      "name": "Littlebird",
+      "status": "confirmed",
+      "site": "https://littlebird.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An assistant with a memory of your work",
+      "icon": "/logos/littlebird.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free tier · Plus (paid; $15/mo student rate)",
+        "regions": "Not stated",
+        "channels": [
+          "macOS app",
+          "Windows app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-09-10"
+      }
+    },
+    {
       "slug": "lucas",
       "name": "Lucas",
       "status": "confirmed",
@@ -683,6 +727,31 @@
       }
     },
     {
+      "slug": "oz",
+      "name": "Oz",
+      "status": "confirmed",
+      "site": "https://oz.anyreach.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Ask. It's done.",
+      "icon": "/logos/oz.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Solo $39 · Team $59 · Business $89 per seat/mo; credits meter work",
+        "regions": "US and EU data residency options",
+        "channels": [
+          "Slack",
+          "Microsoft Teams",
+          "Email",
+          "iOS app",
+          "Phone",
+          "Web"
+        ],
+        "checked": "2026-09-10"
+      }
+    },
+    {
       "slug": "pally",
       "name": "Pally",
       "status": "confirmed",
@@ -810,6 +879,27 @@
           "Web"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "sifta",
+      "name": "Sifta",
+      "status": "stretch",
+      "site": "https://joinsifta.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "AI that runs your real estate business",
+      "icon": "/logos/sifta.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Pro $199/mo · Max $299/mo; 7-day money-back",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-10"
       }
     },
     {

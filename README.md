@@ -74,6 +74,10 @@ data/
 
 Dimensions with `"scored": false` in `categories.json` (personality) are public-opinion only: they appear in the opinion view and on their dimension page but are never scored, never counted in Overall, and have no task.
 
+### Trending use cases
+
+`/use-cases` shows hand-curated entries from `data/use-cases.json` (quote id, title, summary, prompt, `prompt_source` posted|assumed, optional caveat), ranked by engagement on the original post (likes + 2×reposts + replies, 60-day half-life so recent threads rise), founder/vendor posts excluded, optional `?agent=` filter. Engagement lives on each quote as `metrics` in feedback.json, fetched by `node scripts/engagement.mjs` (no key; only fills quotes without metrics unless `--refresh`). Re-run it after every collect/merge.
+
 ### Access (price, regions, channels)
 
 `meta.json` and `index.json` carry `access`: `pricing` (free | freemium | paid | credits | per-order | waitlist | open-source | unknown), a human `price` line, `regions` ("US only, 18+", "225+ countries", "Not stated"), `channels`, and `checked` (the date it was verified). Shown as chips and Information rows on profiles. Update by hand; most sites don't state regions, so "Not stated" is common and honest.

@@ -68,5 +68,15 @@
     "outcome": "partial",
     "notes": "Published phone_calls task via Blooio from +16124259300 to Shuffle +16463823248 (call restaurant to seat 8 Sat at 8pm + ask about private room). Shuffle stated it cannot place phone calls directly; offered online reservation check instead. After clarifying Russian Tea Time (Adams / downtown Chicago area from prior travel context), Shuffle researched and reported: Tock accepts 1–6 guests only and public times end 7:30pm so no table for 8 at 8pm Sat; private-room availability not shown on Tock (form with 24h reply); Tagvenue lists Front Dining Room (~55 seats) from ~$6k Sat and Rear (~45 seats) from ~$4k. Tester protocol: stop-before-card is not a failure; limitation here is no outbound calling capability.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-blooio-phone"
+  },
+  {
+    "id": "shuffle-2026-09-10-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published third-party integrations task via iMessage to Shuffle (add Q3 planning to Notion tasks, 30-min Thursday afternoon calendar block, Slack Sam). Shuffle correctly reported Notion, Calendar, and Slack were not connected and offered a browser connect flow for all three; connect URLs repeatedly failed to render as plain text over iMessage (blank link placeholders). Offered an interim phone reminder; first attempt errored; after retry with specific time (3pm Thursday) reminder was confirmed set for Q3 planning. Did not complete the three target actions (no live Notion/Calendar/Slack). Tester stopped at the connect gate per protocol (missing OAuth on test number expected).",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-10-integrations"
   }
 ]

@@ -2724,6 +2724,142 @@ a.chip.blue:hover {
   margin-top: 8px;
 }
 
+/* spotlight on /compare: two dropdowns and a live tally that opens the scorecard */
+.hh-spot {
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  background: var(--side);
+  overflow: hidden;
+}
+
+.hh-spot-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 16px 16px 14px;
+}
+
+.hh-spot-side {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1 1 180px;
+  min-width: 150px;
+}
+
+.hh-pick-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--sec);
+}
+
+.hh-spot select {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  font: inherit;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.hh-vs {
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--sec);
+}
+
+.hh-spot-preview {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  padding: 18px 16px;
+  border-top: 1px solid var(--hair);
+  background: #fff;
+  color: var(--text);
+  transition: background 0.15s;
+}
+
+.hh-spot-preview:hover {
+  background: var(--blue-09);
+}
+
+.hh-spot-preview.off {
+  display: flex;
+  justify-content: center;
+  color: var(--sec);
+}
+
+.hh-spot-fighter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.hh-spot-fighter.right {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.hh-spot-name {
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hh-spot-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  min-width: 120px;
+  text-align: center;
+}
+
+.hh-spot-num {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  color: var(--sec);
+}
+
+.hh-spot-num b.on {
+  color: var(--blue);
+}
+
+.hh-spot-num.even b {
+  color: var(--text);
+}
+
+.hh-spot-dash {
+  font-size: 24px;
+}
+
+.hh-spot-caption {
+  font-size: 12px;
+  color: var(--sec);
+}
+
+.hh-spot-cta {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--blue);
+}
+
 /* logo grid on /compare: pick one assistant, then an opponent */
 .hh-pick-note {
   margin: 12px 0 0;
@@ -2787,6 +2923,7 @@ a.chip.blue:hover {
 }
 
 .hh-tile {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2805,6 +2942,16 @@ a.chip.blue:hover {
 .hh-tile:hover {
   border-color: var(--blue);
   background: var(--blue-09);
+}
+
+.hh-tile-rank {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--sec);
+  font-variant-numeric: tabular-nums;
 }
 
 .hh-tile .row-icon {
@@ -2911,6 +3058,31 @@ a.chip.blue:hover {
 
   .hh-sel {
     flex-wrap: wrap;
+  }
+
+  .hh-vs {
+    display: none;
+  }
+
+  .hh-spot-name {
+    display: none;
+  }
+
+  .hh-spot-preview {
+    gap: 8px;
+  }
+
+  .hh-spot-num {
+    font-size: 26px;
+  }
+
+  .hh-spot-mid {
+    min-width: 96px;
+  }
+
+  .hh-spot-fighter .row-icon {
+    width: 44px;
+    height: 44px;
   }
 }
 

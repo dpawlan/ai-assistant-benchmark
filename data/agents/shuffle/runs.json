@@ -48,5 +48,15 @@
     "outcome": "partial",
     "notes": "Published email_replies via Blooio from +16124259300 to Shuffle +16463823248 (reply to Sam proposing Thursday: Thursday doesn't work, offer two calendar slots, usual tone). Shuffle correctly reported Gmail and Google Calendar not connected, provided connect path, and produced a concise draft reply declining Thursday and offering two alternate slots. No send. Tester did not connect accounts.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-email"
+  },
+  {
+    "id": "shuffle-2026-09-09-blooio-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published content_creation_games via Blooio from +16124259300 to Shuffle +16463823248 (birthday image for Sam with golden retriever dog; quick 90s movies trivia for group chat). Shuffle generated a birthday image featuring a golden retriever and delivered an interactive 90s-movies trivia game titled in the vein of Be Kind Rewind for the chat. Clean, complete delivery of both ask components.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-09-blooio-content"
   }
 ]

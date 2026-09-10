@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tomo-2026-09-10-blooio-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Published chained-tasks prompt via Blooio (check in for tomorrow's flight using confirmation in email and passport in Drive). Tomo refused without Gmail/Drive connected; offered manual path with airline site + confirmation number + passport (or photo) or Google connect flow. No live check-in completed. Same band as Shuffle/Caddy chained_tasks 7.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-blooio-chained"
+  }
+]

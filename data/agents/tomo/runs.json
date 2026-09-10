@@ -8,5 +8,15 @@
     "outcome": "partial",
     "notes": "Chicago hotel Fri–Sat next week, under $250/night near the Loop, free cancellation. Tomo engaged and asked for context, guest name, age, and number of guests; searched and initially reported nothing under $250 near Loop (Travelodge ~$351/night, Le Meridien ~$362/night). After push to check Club Quarters Central Loop and Cambria Chicago Loop on Booking/Hotels.com, reported Club Quarters ~$408/night and Cambria ~$436/night free-cancel (before tax), citing Sep weekend demand. Final under-$250 pass within ~15 min transit: nothing found. Staged Club Quarters Central Loop to Booking.com payment screen; total ~$985 all-in incl taxes/fees; free cancel before Sep 16; $0 due today if booked; separate refundable $100 damage deposit at hotel; contact filled; no payment entered. Run ended at pre-payment boundary by tester protocol. Actionability strong (to payment screen) but core $250 constraint missed after thorough search.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-blooio-online"
+  },
+  {
+    "id": "tomo-2026-09-10-blooio-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "NYC–Chicago round-trip Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400; stage without charging. Tomo staged nonstop United out of LGA for $395.50 Basic Economy; noted aisle +$39 each way would exceed $400. After tester authorized aisle over budget, Tomo selected aisle 37D on UA 2342 LGA→ORD (depart ~8:05 AM arrive ~9:45 AM) and aisle 38D on UA 396 ORD→LGA (depart ~8:10 PM arrive ~11:35 PM); final total $444.92 all-in; United checkout URL staged at final payment screen; nothing charged. Run ended at pre-payment boundary by tester protocol. Aisle-over-$400 after explicit auth matches Soar/Shuffle calibration → 9/pass.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-blooio-travel"
   }
 ]

@@ -1,0 +1,14 @@
+{
+  "id": "tomo-2026-09-10-purchasing",
+  "agent": "tomo",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T14:39:00.000Z"
+}

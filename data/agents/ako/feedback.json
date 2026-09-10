@@ -16,7 +16,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: launching Ako AI teammate for Slack/WhatsApp"
+    "notes": "founder: launching Ako AI teammate for Slack/WhatsApp",
+    "metrics": {
+      "likes": 45,
+      "reposts": 9,
+      "replies": 19,
+      "views": 10277,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0650b433abaa",
@@ -35,7 +42,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: own WhatsApp number + email identity as colleague"
+    "notes": "founder: own WhatsApp number + email identity as colleague",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 300,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "834c2f6764ca",
@@ -54,7 +68,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: guardrails — disable external communication while allowing internal"
+    "notes": "founder: guardrails — disable external communication while allowing internal",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 176,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9644840e522b",
@@ -72,7 +93,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "third-party: hooked 24h; dreams about it; try withako waitlist"
+    "notes": "third-party: hooked 24h; dreams about it; try withako waitlist",
+    "metrics": {
+      "likes": 6,
+      "reposts": 2,
+      "replies": 1,
+      "views": 1457,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7544926d72e0",
@@ -90,7 +118,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: uses Ako for admin so team focuses on relationships"
+    "notes": "founder: uses Ako for admin so team focuses on relationships",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 136,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ddc3c030f8a7",
@@ -108,7 +143,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: more control e.g. disable reaching external parties"
+    "notes": "founder: more control e.g. disable reaching external parties",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 192,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7e9407b666b3",
@@ -127,7 +169,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: multiplayer on Slack and WhatsApp"
+    "notes": "founder: multiplayer on Slack and WhatsApp",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 77,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "68c11aa9dfc9",
@@ -146,6 +195,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T19:51:49.538229+00:00",
-    "notes": "founder: solving agent infra/QA/governance"
+    "notes": "founder: solving agent infra/QA/governance",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 143,
+      "fetched": "2026-09-10"
+    }
   }
 ]

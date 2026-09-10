@@ -2,7 +2,7 @@
   {
     "id": "19da9ed94ebe",
     "agent": "caddy",
-    "quote": "oh shit I didn\u2019t know this existed \n\n\n@try_caddy\n found me $50 I\u2019ll take that",
+    "quote": "oh shit I didn’t know this existed \n\n\n@try_caddy\n found me $50 I’ll take that",
     "author": "@ConnorWaslo",
     "author_name": "Connor Waslo",
     "date": "2026-09-08",
@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-09T14:04:21Z",
-    "notes": "User says Caddy found $50 for them after discovering the service."
+    "notes": "User says Caddy found $50 for them after discovering the service.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 151,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c2e7cd34d77d",
@@ -35,12 +42,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 159,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0abae18f2d24",
     "agent": "caddy",
-    "quote": "@ConnorWaslo @try_caddy \ud83e\udee1",
+    "quote": "@ConnorWaslo @try_caddy 🫡",
     "author": "@DavidPawlan",
     "author_name": "David Pawlan",
     "date": "2026-09-05",
@@ -55,7 +69,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 482,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "cb7f7cdf9adf",
@@ -74,7 +95,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: stoked to hear what you think of @try_caddy"
+    "notes": "third-party: stoked to hear what you think of @try_caddy",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 701,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ca181285b7f9",
@@ -92,7 +120,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "founder: Not the Caddy Labs I imagined but we will take it"
+    "notes": "founder: Not the Caddy Labs I imagined but we will take it",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 868,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "58f2b5f2bb7b",
@@ -110,12 +145,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "dd1ad071e243",
     "agent": "caddy",
-    "quote": "Caddy (YC F25) has moved from a desktop voice interface to a \ud835\uddfd\ud835\uddff\ud835\uddfc\ud835\uddee\ud835\uddf0\ud835\ude01\ud835\uddf6\ud835\ude03\ud835\uddf2 \ud835\uddfd\ud835\uddf2\ud835\uddff\ud835\ude00\ud835\uddfc\ud835\uddfb\ud835\uddee\ud835\uddf9 \ud835\uddd4\ud835\udddc \ud835\uddf6\ud835\uddfb \ud835\uddf6\ud835\udde0\ud835\uddf2\ud835\ude00\ud835\ude00\ud835\uddee\ud835\uddf4\ud835\uddf2\u2014using context from connected work apps to help users complete tasks from an ongoing conversation.\n\nThe original product could see what was on screen and",
+    "quote": "Caddy (YC F25) has moved from a desktop voice interface to a 𝗽𝗿𝗼𝗮𝗰𝘁𝗶𝘃𝗲 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹 𝗔𝗜 𝗶𝗻 𝗶𝗠𝗲𝘀𝘀𝗮𝗴𝗲—using context from connected work apps to help users complete tasks from an ongoing conversation.\n\nThe original product could see what was on screen and",
     "author": "@heybackchannel",
     "author_name": "backchannel",
     "date": "2026-09-04",
@@ -127,14 +169,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "product positioning"
+    "notes": "product positioning",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 179,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5b35feb1bfd2",
     "agent": "caddy",
     "quote": "@try_caddy This is too good",
     "author": "@byAmirHanna",
-    "author_name": "Amir Hanna \ud83e\udd9c",
+    "author_name": "Amir Hanna 🦜",
     "date": "2026-09-04",
     "url": "https://x.com/byAmirHanna/status/2095677670101328080",
     "kind": "other",
@@ -145,7 +194,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3e9bfdcc7272",
@@ -163,7 +219,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d24b77dcc984",
@@ -182,7 +245,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "company: foley studio"
+    "notes": "company: foley studio",
+    "metrics": {
+      "likes": 22,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2515,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2233bd515b79",
@@ -206,7 +276,7 @@
   {
     "id": "4476df5d978e",
     "agent": "caddy",
-    "quote": "Never show up to a meeting unprepared again.\n\nVideo best experienced with headphones \ud83c\udfa7",
+    "quote": "Never show up to a meeting unprepared again.\n\nVideo best experienced with headphones 🎧",
     "author": "@try_caddy",
     "author_name": "Caddy",
     "date": "2026-09-03",
@@ -219,7 +289,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "never show up unprepared \u2014 meeting prep"
+    "notes": "never show up unprepared — meeting prep",
+    "metrics": {
+      "likes": 47,
+      "reposts": 4,
+      "replies": 7,
+      "views": 4625,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "02115c4e762f",
@@ -237,7 +314,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 533,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bd68d792f498",
@@ -253,7 +337,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: absolutely crushing it"
+    "notes": "third-party: absolutely crushing it",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 134,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "011dbbe5857d",
@@ -270,7 +361,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:41:17.425206+00:00",
-    "notes": "third-party: best audio heard on a launch video"
+    "notes": "third-party: best audio heard on a launch video",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 127,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5485f9346396",
@@ -288,7 +386,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 116,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "63a849a0cef7",
@@ -306,7 +411,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 89,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ac6b8c28e0ca",
@@ -322,12 +434,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": ""
+    "notes": "",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 456,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c737496a4242",
     "agent": "caddy",
-    "quote": "The story of \n@try_caddy\n!\n\nLive now! \u2b07\ufe0f",
+    "quote": "The story of \n@try_caddy\n!\n\nLive now! ⬇️",
     "author": "@alexpathoo",
     "author_name": "Alex Patho",
     "date": "2026-09-03",
@@ -339,12 +458,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "story of try_caddy live"
+    "notes": "story of try_caddy live",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 283,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a9dd84e90d9f",
     "agent": "caddy",
-    "quote": "@try_caddy y\u2019all should checkout https://agnost.ai for monitoring your agent in prod!",
+    "quote": "@try_caddy y’all should checkout https://agnost.ai for monitoring your agent in prod!",
     "author": "@StackDhruv",
     "author_name": "dhruvieiei",
     "date": "2026-09-03",
@@ -357,7 +483,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d01811d2c008",
@@ -374,7 +507,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 13,
+      "reposts": 2,
+      "replies": 0,
+      "views": 1549,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ce7cc079d7f1",
@@ -394,12 +534,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 666,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "de0d831c387c",
     "agent": "caddy",
-    "quote": "This is our love letter to NYC \ud83d\uddfd\n\nWe taught Caddy how to live here.\n\nBook the resy. Plan drinks with friends. Find an apartment. Check the subway. Track down a Citi Bike. Forget waiting in line.\n\nJust text Caddy",
+    "quote": "This is our love letter to NYC 🗽\n\nWe taught Caddy how to live here.\n\nBook the resy. Plan drinks with friends. Find an apartment. Check the subway. Track down a Citi Bike. Forget waiting in line.\n\nJust text Caddy",
     "author": "@try_caddy",
     "author_name": "Caddy",
     "date": "2026-08-27",
@@ -415,7 +562,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "NYC love letter: Resy, subway, Citi Bike"
+    "notes": "NYC love letter: Resy, subway, Citi Bike",
+    "metrics": {
+      "likes": 69,
+      "reposts": 8,
+      "replies": 9,
+      "views": 13698,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f2386c5a04ca",
@@ -433,7 +587,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 158,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d30b66314dc0",
@@ -450,7 +611,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "$2 beer find"
+    "notes": "$2 beer find",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 172,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "781ff6a33221",
@@ -464,12 +632,19 @@
     "tags": [],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "Caddy take the wheel"
+    "notes": "Caddy take the wheel",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 156,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "97d1ecaf5a5f",
     "agent": "caddy",
-    "quote": "@hudsonliao @try_caddy a beautiful sight in this city \ud83e\udd72",
+    "quote": "@hudsonliao @try_caddy a beautiful sight in this city 🥲",
     "author": "@ConnorWaslo",
     "author_name": "Connor Waslo",
     "date": "2026-08-27",
@@ -484,12 +659,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "65d6cefa7f0e",
     "agent": "caddy",
-    "quote": "@try_caddy @_hannahswann gimme chrome caddy \ud83e\udd78\u261d\ufe0f",
+    "quote": "@try_caddy @_hannahswann gimme chrome caddy 🥸☝️",
     "author": "@winsondieu",
     "author_name": "w",
     "date": "2026-08-20",
@@ -502,7 +684,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "67bac9ea7289",
@@ -520,7 +709,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 58,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "47c3c483aa2b",
@@ -540,12 +736,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "411f249239cf",
     "agent": "caddy",
-    "quote": "@try_caddy @_hannahswann it\u2019s damn hard to pick, they\u2019re all so good\ud83d\ude2d",
+    "quote": "@try_caddy @_hannahswann it’s damn hard to pick, they’re all so good😭",
     "author": "@sajjadjairaj",
     "author_name": "sajjad",
     "date": "2026-08-20",
@@ -558,7 +761,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "cb41a322d690",
@@ -576,12 +786,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 197,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "04ba793a619a",
     "agent": "caddy",
-    "quote": "@try_caddy @ConnorWaslo @sanchetio Check out the case study \u2b07\ufe0f\nhttps://wearefamilystyle.com/caddy",
+    "quote": "@try_caddy @ConnorWaslo @sanchetio Check out the case study ⬇️\nhttps://wearefamilystyle.com/caddy",
     "author": "@_hannahswann",
     "author_name": "Hannah Swann",
     "date": "2026-08-20",
@@ -594,12 +811,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 69,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7b1eaa333d43",
     "agent": "caddy",
-    "quote": "My favorite way to use Caddy is to get it to help me find gallery openings + lectures\u2026 then put those on my cal \ud83d\ude0e\n\nWorking with \n@ConnorWaslo\n + \n@sanchetio\n was a real delight. Unusual to find such strong dedication to excellence in such funny and grounded people.",
+    "quote": "My favorite way to use Caddy is to get it to help me find gallery openings + lectures… then put those on my cal 😎\n\nWorking with \n@ConnorWaslo\n + \n@sanchetio\n was a real delight. Unusual to find such strong dedication to excellence in such funny and grounded people.",
     "author": "@_hannahswann",
     "author_name": "Hannah Swann",
     "date": "2026-08-20",
@@ -611,7 +835,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "gallery openings + lectures"
+    "notes": "gallery openings + lectures",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 174,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "926c63a82812",
@@ -629,12 +860,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 242,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5b0d6d2ceabe",
     "agent": "caddy",
-    "quote": "\u2728New Work \u2728\n\n@try_caddy\n is a personal AI built to help people stay on top of work and life.\n\nUsing AI is often a heavy lift: technical & demanding. Caddy takes a different approach, meeting people exactly where they are and making the whole experience feel light.",
+    "quote": "✨New Work ✨\n\n@try_caddy\n is a personal AI built to help people stay on top of work and life.\n\nUsing AI is often a heavy lift: technical & demanding. Caddy takes a different approach, meeting people exactly where they are and making the whole experience feel light.",
     "author": "@_hannahswann",
     "author_name": "Hannah Swann",
     "date": "2026-08-20",
@@ -646,7 +884,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "personal AI meeting people where they are"
+    "notes": "personal AI meeting people where they are",
+    "metrics": {
+      "likes": 42,
+      "reposts": 2,
+      "replies": 8,
+      "views": 2377,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f10a2f0a50f1",
@@ -666,7 +911,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 109,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7969972e9193",
@@ -686,7 +938,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 386,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0c589ece0efe",
@@ -705,12 +964,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:08:38.301308+00:00",
-    "notes": "Caddy for fitness"
+    "notes": "Caddy for fitness",
+    "metrics": {
+      "likes": 87,
+      "reposts": 10,
+      "replies": 10,
+      "views": 11152,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "100615d3d4fb",
     "agent": "caddy",
-    "quote": "@try_caddy never skipping leg day again \ud83e\uddbe",
+    "quote": "@try_caddy never skipping leg day again 🦾",
     "author": "@mrp_opo",
     "author_name": "Porsev.A",
     "date": "2026-08-18",
@@ -723,7 +989,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 136,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "344e9dd768c1",
@@ -741,12 +1014,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 251,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5d330cda8682",
     "agent": "caddy",
-    "quote": "@try_caddy lfg!! \ud83d\udd25\ud83d\udd25",
+    "quote": "@try_caddy lfg!! 🔥🔥",
     "author": "@bitcoinbasha",
     "author_name": "Soheil Parry",
     "date": "2026-08-18",
@@ -759,7 +1039,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 144,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "db2c718aec72",
@@ -777,7 +1064,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 142,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e010843d6c6c",
@@ -795,12 +1089,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 133,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8ae53027bea2",
     "agent": "caddy",
-    "quote": "Thanks for joining us at 4:30am et Chris \ud83d\ude05 @try_caddy https://t.co/5ixNoMzgHc",
+    "quote": "Thanks for joining us at 4:30am et Chris 😅 @try_caddy https://t.co/5ixNoMzgHc",
     "author": "@thelinqapp",
     "author_name": "Linq",
     "date": "2026-08-01",
@@ -812,12 +1113,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2508,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a094fa83a4be",
     "agent": "caddy",
-    "quote": "I just tried \n@try_caddy\n \n\nIt\u2019s a great product, but here are a few things I didn\u2019t like:\n\n- It pushed Gmail before I asked for it\n- it kept pitching features instead of following the conversation\n- It asked too many questions back-to-back\n- Even after I asked it to slow down, it",
+    "quote": "I just tried \n@try_caddy\n \n\nIt’s a great product, but here are a few things I didn’t like:\n\n- It pushed Gmail before I asked for it\n- it kept pitching features instead of following the conversation\n- It asked too many questions back-to-back\n- Even after I asked it to slow down, it",
     "author": "@StackDhruv",
     "author_name": "dhruvieiei",
     "date": "2026-08-01",
@@ -829,7 +1137,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T03:51:19.770012+00:00",
-    "notes": "pushed Gmail / pitched features"
+    "notes": "pushed Gmail / pitched features",
+    "metrics": {
+      "likes": 26,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1809,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "efc20f041e1c",
@@ -847,7 +1162,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 139,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a008300c754e",
@@ -864,7 +1186,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas",
+    "metrics": {
+      "likes": 7,
+      "reposts": 2,
+      "replies": 1,
+      "views": 1597,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "acea6e410f3e",
@@ -883,7 +1212,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "team member: only feature I use"
+    "notes": "team member: only feature I use",
+    "metrics": {
+      "likes": 4,
+      "reposts": 2,
+      "replies": 0,
+      "views": 660,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1b5624308542",
@@ -923,7 +1259,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.005Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 368,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9702873e5415",
@@ -939,12 +1282,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "Missing @try_caddy"
+    "notes": "Missing @try_caddy",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 74,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "20129c0083bf",
     "agent": "caddy",
-    "quote": "@theajdesign @try_caddy ty ajay \ud83d\ude04",
+    "quote": "@theajdesign @try_caddy ty ajay 😄",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-09",
@@ -957,12 +1307,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "303ff6bc0858",
     "agent": "caddy",
-    "quote": "@CedrikStephen @try_caddy too kind Ced \ud83e\udd0d",
+    "quote": "@CedrikStephen @try_caddy too kind Ced 🤍",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-08",
@@ -975,12 +1332,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 94,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "75e7a5b71331",
     "agent": "caddy",
-    "quote": "@editorjacobb @try_caddy thanks a lot Jacob! Appreciate it \ud83e\udd0d",
+    "quote": "@editorjacobb @try_caddy thanks a lot Jacob! Appreciate it 🤍",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-08",
@@ -993,7 +1357,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 25,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ec2fd217720a",
@@ -1010,7 +1381,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 47,
+      "reposts": 0,
+      "replies": 6,
+      "views": 2382,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1cf800d5f33c",
@@ -1028,12 +1406,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 687,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1a1eb12a2048",
     "agent": "caddy",
-    "quote": "@zaffarrh @try_caddy \ud83d\ude4f\ud83c\udffb thanks!",
+    "quote": "@zaffarrh @try_caddy 🙏🏻 thanks!",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-06",
@@ -1046,7 +1431,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "432de7bfc0a9",
@@ -1064,12 +1456,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3b32467a4788",
     "agent": "caddy",
-    "quote": "@asifalihunzai @try_caddy \u270c\ufe0f",
+    "quote": "@asifalihunzai @try_caddy ✌️",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1082,12 +1481,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1bd52ec5a90c",
     "agent": "caddy",
-    "quote": "@damini_designs @try_caddy \ud83d\ude4f\ud83c\udffb",
+    "quote": "@damini_designs @try_caddy 🙏🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1100,7 +1506,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "178882964053",
@@ -1118,12 +1531,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 13,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a11d146e7441",
     "agent": "caddy",
-    "quote": "@Vedantdzn @try_caddy Thanks a lot \ud83d\ude04",
+    "quote": "@Vedantdzn @try_caddy Thanks a lot 😄",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1136,12 +1556,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1f48d4ba045f",
     "agent": "caddy",
-    "quote": "@brandsonsmith @try_caddy \ud83d\ude4c\ud83c\udffb",
+    "quote": "@brandsonsmith @try_caddy 🙌🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-05",
@@ -1154,12 +1581,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 58,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "230a38adb8f6",
     "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy appreciated the opportunity to work with you @iamnotsrc \ud83d\udd25",
+    "quote": "@iamnotsrc @try_caddy appreciated the opportunity to work with you @iamnotsrc 🔥",
     "author": "@sanchetio",
     "author_name": "Rajiv Sancheti",
     "date": "2026-06-04",
@@ -1174,12 +1608,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 163,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "02de6afd62d0",
     "agent": "caddy",
-    "quote": "@nicalo06 @try_caddy \ud83c\udfa8",
+    "quote": "@nicalo06 @try_caddy 🎨",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1192,12 +1633,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ec5741bbde17",
     "agent": "caddy",
-    "quote": "@mmaung____ @try_caddy appreciate it min \ud83d\udc4f\ud83c\udffb",
+    "quote": "@mmaung____ @try_caddy appreciate it min 👏🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1210,12 +1658,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 62,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f4325f14721b",
     "agent": "caddy",
-    "quote": "@FrattaliMa57189 @try_caddy too kind \ud83e\udd0d",
+    "quote": "@FrattaliMa57189 @try_caddy too kind 🤍",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1228,12 +1683,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "876c67fe8337",
     "agent": "caddy",
-    "quote": "@its_sslvr @try_caddy thanks sha!! \ud83d\ude04",
+    "quote": "@its_sslvr @try_caddy thanks sha!! 😄",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1246,12 +1708,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2a5e45c193e7",
     "agent": "caddy",
-    "quote": "@aecyydesign @try_caddy tyty \ud83e\udee1",
+    "quote": "@aecyydesign @try_caddy tyty 🫡",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1264,12 +1733,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 74,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8a6c43e63108",
     "agent": "caddy",
-    "quote": "@DominicEkom_ @try_caddy \ud83d\ude4f\ud83c\udffb",
+    "quote": "@DominicEkom_ @try_caddy 🙏🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1282,12 +1758,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0cc40d85a747",
     "agent": "caddy",
-    "quote": "@JCKHLRY @try_caddy thanks man \ud83e\udd1f\ud83c\udffb",
+    "quote": "@JCKHLRY @try_caddy thanks man 🤟🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1300,12 +1783,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 224,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9105bf5b68d0",
     "agent": "caddy",
-    "quote": "@Peterpangfx @try_caddy ty Peter! \ud83c\udfcc\ufe0f",
+    "quote": "@Peterpangfx @try_caddy ty Peter! 🏌️",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1318,12 +1808,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5ecdc0332e09",
     "agent": "caddy",
-    "quote": "@bylorenzodesign @try_caddy thanks a lot man \ud83e\udd0d",
+    "quote": "@bylorenzodesign @try_caddy thanks a lot man 🤍",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1336,12 +1833,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 163,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5337c4791b6c",
     "agent": "caddy",
-    "quote": "@phumvisuals @try_caddy thank you phum! appreciate it \ud83e\udef6\ud83c\udffb",
+    "quote": "@phumvisuals @try_caddy thank you phum! appreciate it 🫶🏻",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1354,12 +1858,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "938befba3d6b",
     "agent": "caddy",
-    "quote": "@sanchetio @try_caddy it was my pleasure! glad to have met some great people like you and @ConnorWaslo \u270c\ufe0f",
+    "quote": "@sanchetio @try_caddy it was my pleasure! glad to have met some great people like you and @ConnorWaslo ✌️",
     "author": "@iamnotsrc",
     "author_name": "src",
     "date": "2026-06-04",
@@ -1372,7 +1883,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 141,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b4d2e19ce406",
@@ -1389,12 +1907,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 189,
+      "reposts": 4,
+      "replies": 21,
+      "views": 10986,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4fd7297d932b",
     "agent": "caddy",
-    "quote": "@iamnotsrc @try_caddy Looks great \ud83d\udd25",
+    "quote": "@iamnotsrc @try_caddy Looks great 🔥",
     "author": "@aecyydesign",
     "author_name": "Szymon",
     "date": "2026-06-04",
@@ -1407,14 +1932,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.506Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 256,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c9203890e0b0",
     "agent": "caddy",
     "quote": "@iamnotsrc @try_caddy dope work!",
     "author": "@JCKHLRY",
-    "author_name": "JACK\u24bf",
+    "author_name": "JACKⒿ",
     "date": "2026-06-04",
     "url": "https://x.com/JCKHLRY/status/2062599675832586590",
     "kind": "other",
@@ -1425,7 +1957,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 387,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ccaa5775d297",
@@ -1444,12 +1983,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 0,
+      "views": 492,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0d8827084719",
     "agent": "caddy",
-    "quote": "free while we\u2019re in public beta\n\nhttps://caddy.app/",
+    "quote": "free while we’re in public beta\n\nhttps://caddy.app/",
     "author": "@ConnorWaslo",
     "author_name": "Connor Waslo",
     "date": "2026-04-30",
@@ -1464,12 +2010,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.004Z",
-    "notes": "query: \"caddy.app\" | via x402atlas"
+    "notes": "query: \"caddy.app\" | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 482,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7645593a795a",
     "agent": "caddy",
-    "quote": "We added 6 new integrations to @try_caddy last week. Anything else we should add \ud83d\udc40\n\n@linear @github @Zoom @todoist @Outlook @SlackHQ https://t.co/RbwRu7MamV",
+    "quote": "We added 6 new integrations to @try_caddy last week. Anything else we should add 👀\n\n@linear @github @Zoom @todoist @Outlook @SlackHQ https://t.co/RbwRu7MamV",
     "author": "@sanchetio",
     "author_name": "Rajiv Sancheti",
     "date": "2026-02-23",
@@ -1483,7 +2036,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 429,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1148822af724",
@@ -1501,7 +2061,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 165,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "271c81a0b6a9",
@@ -1519,12 +2086,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 14,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1062,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6c8954d4edb2",
     "agent": "caddy",
-    "quote": "First there was the keyboard\u2026then there was the mouse\u2026now there\u2019s Caddy (@try_caddy) \u2013 a new way to control your computer and apps with your voice.\n\n@connorwaslo and @sanchetio are building something special.",
+    "quote": "First there was the keyboard…then there was the mouse…now there’s Caddy (@try_caddy) – a new way to control your computer and apps with your voice.\n\n@connorwaslo and @sanchetio are building something special.",
     "author": "@aaron_epstein",
     "author_name": "Aaron Epstein",
     "date": "2025-11-11",
@@ -1536,14 +2110,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.328Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 98,
+      "reposts": 4,
+      "replies": 3,
+      "views": 27427,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "079cd982d868",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Domains like Try+Name, Get+Name, or Use+Name reflect the lowest tier of branding \u2014 something truly great founders should avoid, especially if you aim to be even 1% as detail-perfect as Steve Jobs.",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Domains like Try+Name, Get+Name, or Use+Name reflect the lowest tier of branding — something truly great founders should avoid, especially if you aim to be even 1% as detail-perfect as Steve Jobs.",
     "author": "@Superintell_",
-    "author_name": "\u26a1 superintelligence",
+    "author_name": "⚡ superintelligence",
     "date": "2025-11-07",
     "url": "https://x.com/Superintell_/status/1986599469039951894",
     "kind": "other",
@@ -1554,12 +2135,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 60,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "105f6e7de5b4",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio 🚀🚀🚀",
     "author": "@GJarrosson",
     "author_name": "Gabriel Jarrosson",
     "date": "2025-11-07",
@@ -1572,7 +2160,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 151,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d25611a0b816",
@@ -1590,12 +2185,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 370,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "989990ae3520",
     "agent": "caddy",
-    "quote": "Caddy (@try_caddy) lets you control your computer and every app with your voice.\n\nBefore Caddy, @connorwaslo and @sanchetio led product, design, and incubation for all of Loom\u2019s AI launches.\n\nhttps://www.ycombinator.com/launches/OmH-caddy-the-voice-interface-for-your-computer https://t.co/y8BLNwKGXC",
+    "quote": "Caddy (@try_caddy) lets you control your computer and every app with your voice.\n\nBefore Caddy, @connorwaslo and @sanchetio led product, design, and incubation for all of Loom’s AI launches.\n\nhttps://www.ycombinator.com/launches/OmH-caddy-the-voice-interface-for-your-computer https://t.co/y8BLNwKGXC",
     "author": "@ycombinator",
     "author_name": "Y Combinator",
     "date": "2025-11-06",
@@ -1607,7 +2209,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 292,
+      "reposts": 25,
+      "replies": 31,
+      "views": 69560,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "29a4df32fb06",
@@ -1627,7 +2236,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "21b86510fd07",
@@ -1645,7 +2261,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 304,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9cf3bb864b27",
@@ -1663,7 +2286,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 427,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f967fa8aa69b",
@@ -1681,7 +2311,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 298,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0182f355e603",
@@ -1699,12 +2336,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 396,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "221db75551ac",
     "agent": "caddy",
-    "quote": "@ConnorWaslo and @sanchetio are some of the most cracked and customer-obsessed founders I've ever met\n\nthey're building @try_caddy to let you control your computer with your voice\n\npowered by memory and context from @hyperspell\n\nLFG \ud83d\ude80\ud83d\ude80\ud83d\ude80",
+    "quote": "@ConnorWaslo and @sanchetio are some of the most cracked and customer-obsessed founders I've ever met\n\nthey're building @try_caddy to let you control your computer with your voice\n\npowered by memory and context from @hyperspell\n\nLFG 🚀🚀🚀",
     "author": "@contextconor",
     "author_name": "conor brennan-burke",
     "date": "2025-11-06",
@@ -1716,7 +2360,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 14,
+      "reposts": 0,
+      "replies": 3,
+      "views": 1211,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "eea828b3adc0",
@@ -1734,7 +2385,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 188,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "01b96bf4b35d",
@@ -1752,12 +2410,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 13,
+      "reposts": 0,
+      "replies": 0,
+      "views": 504,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bdc706c4486c",
     "agent": "caddy",
-    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Let\u2019s go Caddy!",
+    "quote": "@ycombinator @try_caddy @ConnorWaslo @sanchetio Let’s go Caddy!",
     "author": "@Sampear_12",
     "author_name": "samika sanghvi",
     "date": "2025-11-06",
@@ -1770,7 +2435,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 316,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "910d03a86e14",
@@ -1788,7 +2460,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 185,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "713bc24bee59",
@@ -1806,7 +2485,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 481,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2b20f5151499",
@@ -1824,12 +2510,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 234,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "71bb30d9e622",
     "agent": "caddy",
-    "quote": "Excited to share this interview with @ConnorWaslo, cofounder/CEO of @try_caddy. Caddy is the voice interface for your computer. Control apps with your voice, not keyboard. They also just announced they are in YC's current batch.\n\nWe cover:\n- Connor\u2019s early journey and the origin story behind Caddy\n- Working with his cofounder Rajiv and navigating hard pivots\n- Lessons from Loom and seeing a company grow through acquisition\n- Craft, quality, and standards behind Caddy\u2019s private beta\n- How Caddy works: function-key capture, screenshots, tickets, calendar creation, Slack updates\n- SF vs. NYC: differences in tech energy, density, and culture\n- Life inside Y Combinator and how Demo Day pressure speeds execution\n- Building in a fast-moving AI landscape and deciding what to ship\n- Why context and tone matter in AI products\n- The rise of video + AI: what\u2019s impressive, early, and a bit scary\n- Founder routines, workload, and staying sane in SF\n- Community, YC batch dynamics, and why teammates matter\n- Connor\u2019s \u201cbillboard philosophy\u201d about choosing who you work with",
+    "quote": "Excited to share this interview with @ConnorWaslo, cofounder/CEO of @try_caddy. Caddy is the voice interface for your computer. Control apps with your voice, not keyboard. They also just announced they are in YC's current batch.\n\nWe cover:\n- Connor’s early journey and the origin story behind Caddy\n- Working with his cofounder Rajiv and navigating hard pivots\n- Lessons from Loom and seeing a company grow through acquisition\n- Craft, quality, and standards behind Caddy’s private beta\n- How Caddy works: function-key capture, screenshots, tickets, calendar creation, Slack updates\n- SF vs. NYC: differences in tech energy, density, and culture\n- Life inside Y Combinator and how Demo Day pressure speeds execution\n- Building in a fast-moving AI landscape and deciding what to ship\n- Why context and tone matter in AI products\n- The rise of video + AI: what’s impressive, early, and a bit scary\n- Founder routines, workload, and staying sane in SF\n- Community, YC batch dynamics, and why teammates matter\n- Connor’s “billboard philosophy” about choosing who you work with",
     "author": "@Mat_Sherman",
     "author_name": "Mat Sherman",
     "date": "2025-11-06",
@@ -1841,7 +2534,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.329Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1441,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c8ffb1bd6196",
@@ -1861,6 +2561,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T16:09:26.078Z",
-    "notes": "query: @try_caddy | via x402atlas"
+    "notes": "query: @try_caddy | via x402atlas",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 1,
+      "views": 869,
+      "fetched": "2026-09-10"
+    }
   }
 ]

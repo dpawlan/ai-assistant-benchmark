@@ -505,6 +505,49 @@ export function getLatestFeed(limit = 10, perAgent = 2, maxRuns = 4): FeedItem[]
   return items.slice(0, limit);
 }
 
+export interface TrendingItem {
+  rank: number;
+  agent: AgentRef;
+  quote: Feedback;
+  categories: string[];
+  /** likes + 2×reposts + replies, before recency weighting. */
+  engagement: number;
+}
+
+/** likes + 2×reposts + replies. Views are not counted: they are inflated by the poster's own audience. */
+export function engagementScore(q: Feedback): number {
+  const m = q.metrics;
+  if (!m || m.missing) return 0;
+  return (m.likes ?? 0) + 2 * (m.reposts ?? 0) + (m.replies ?? 0);
+}
+
+/**
+ * Trending use cases: public posts tagged as a use case, ranked by engagement on X with a 60-day half-life
+ * so last week's thread outranks a bigger one from spring. Founder and vendor posts are excluded, as everywhere.
+ */
+export function getTrendingUseCases(limit = 40, agentSlug?: string): TrendingItem[] {
+  const now = Date.now();
+  const scored: { item: Omit<TrendingItem, 'rank'>; weighted: number }[] = [];
+  for (const q of getAllQuotes()) {
+    if (q.quote.kind !== 'use-case' || isFounderPost(q.quote)) continue;
+    if (agentSlug && q.agent.slug !== agentSlug) continue;
+    const engagement = engagementScore(q.quote);
+    if (engagement < 5) continue;
+    const ageDays = Math.max(0, (now - new Date(q.quote.date).getTime()) / 86_400_000);
+    const weighted = engagement * Math.pow(0.5, ageDays / 60);
+    scored.push({ item: { agent: q.agent, quote: q.quote, categories: q.categories, engagement }, weighted });
+  }
+  scored.sort((a, b) => b.weighted - a.weighted);
+  return scored.slice(0, limit).map((s, i) => ({ ...s.item, rank: i + 1 }));
+}
+
+/** Assistants that have at least one trending use case, for the filter chips. */
+export function getTrendingAgents(): AgentRef[] {
+  const seen = new Map<string, AgentRef>();
+  for (const t of getTrendingUseCases(1000)) seen.set(t.agent.slug, t.agent);
+  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
 export const PRICING_LABEL: Record<string, string> = {
   free: 'Free',
   freemium: 'Free tier',

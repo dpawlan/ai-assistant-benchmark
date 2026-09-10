@@ -17,7 +17,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 521,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f223a58d858f",
@@ -37,7 +44,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 74,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "40a65e5e07f1",
@@ -55,12 +69,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T14:14:17Z",
-    "notes": "Independent reply calls Catch the best assistant they have used so far."
+    "notes": "Independent reply calls Catch the best assistant they have used so far.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 71,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9dfaa9d4b707",
     "agent": "catch",
-    "quote": "He interviewed more than 100 executive assistants while working as a VC, then quit to build one.\n\nCatch (@catchagent) left stealth with an agent that places outbound phone calls, books travel, and clears calendar conflicts across Slack, email, and phone. Nir Sabato (@therealnirs) spent four years investing at Entr\u00e9e Capital; his co-founder Yoav Ramon (@YoavR7) led machine learning at Hi Auto and was CTO at Nym. Six people, hundreds of paying customers on a flat $99 a month, 200,000 emails handled, 5,000 meetings scheduled, SOC 2 Type II in place. Those usage figures are the company's own, and traction is the softest mark on its radar at 55.",
+    "quote": "He interviewed more than 100 executive assistants while working as a VC, then quit to build one.\n\nCatch (@catchagent) left stealth with an agent that places outbound phone calls, books travel, and clears calendar conflicts across Slack, email, and phone. Nir Sabato (@therealnirs) spent four years investing at Entrée Capital; his co-founder Yoav Ramon (@YoavR7) led machine learning at Hi Auto and was CTO at Nym. Six people, hundreds of paying customers on a flat $99 a month, 200,000 emails handled, 5,000 meetings scheduled, SOC 2 Type II in place. Those usage figures are the company's own, and traction is the softest mark on its radar at 55.",
     "author": "@earlysignalsvc",
     "author_name": "EarlySignals",
     "date": "2026-09-07",
@@ -79,7 +100,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T14:14:17Z",
-    "notes": "EarlySignals write-up gives concrete Catch scope and company-reported usage metrics."
+    "notes": "EarlySignals write-up gives concrete Catch scope and company-reported usage metrics.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 2,
+      "views": 166,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "90016124510f",
@@ -97,7 +125,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 107,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0208f7176d53",
@@ -117,7 +152,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 513,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d29248574ca7",
@@ -137,7 +179,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 595,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "970b99ea268d",
@@ -155,7 +204,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 201,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5537bca8601a",
@@ -173,12 +229,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b276eae3d332",
     "agent": "catch",
-    "quote": "Catch AI: less admin, more doing \ud83d\ude80 \n\nFinally \u2014 AI that doesn\u2019t just suggest, it gets it done.",
+    "quote": "Catch AI: less admin, more doing 🚀 \n\nFinally — AI that doesn’t just suggest, it gets it done.",
     "author": "@Ariaaiexpert",
     "author_name": "Aria Tech & Ai Expert",
     "date": "2026-09-06",
@@ -190,7 +253,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "Catch AI: less admin more doing"
+    "notes": "Catch AI: less admin more doing",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f8e37a6df8f7",
@@ -210,7 +280,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 17,
+      "reposts": 0,
+      "replies": 1,
+      "views": 984,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1a7612ce0957",
@@ -228,7 +305,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5410334a7729",
@@ -245,7 +329,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "$5M raise + HITL/permissions"
+    "notes": "$5M raise + HITL/permissions",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 183,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "11be752102c2",
@@ -263,14 +354,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0d7ca15e94da",
     "agent": "catch",
-    "quote": "CATCH AI IS AN ADMIN ASSISTANT FOR BUSY EXECS\nTake calendar, email, travel, and follow-ups off an executive\u2019s plate for a massive win.",
+    "quote": "CATCH AI IS AN ADMIN ASSISTANT FOR BUSY EXECS\nTake calendar, email, travel, and follow-ups off an executive’s plate for a massive win.",
     "author": "@FreeSites_com",
-    "author_name": "Jeff \u2022 FREESITES_com\u2022FreeSites are SmartSites",
+    "author_name": "Jeff • FREESITES_com•FreeSites are SmartSites",
     "date": "2026-09-04",
     "url": "https://x.com/FreeSites_com/status/2095946468578222284",
     "kind": "other",
@@ -280,12 +378,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "admin assistant for busy execs"
+    "notes": "admin assistant for busy execs",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3d284f0be33b",
     "agent": "catch",
-    "quote": "For the past 24 hours, some users trying to book travel with \n@catchagent\n were running into errors or missing \n@united\n inventory.\n\nWe fixed it. \u2708\ufe0f\n\nTravel booking with Catch is working again. And as always, we\u2019d love your feedback if anything isn\u2019t working as amazingly as it",
+    "quote": "For the past 24 hours, some users trying to book travel with \n@catchagent\n were running into errors or missing \n@united\n inventory.\n\nWe fixed it. ✈️\n\nTravel booking with Catch is working again. And as always, we’d love your feedback if anything isn’t working as amazingly as it",
     "author": "@therealnirs",
     "author_name": "Nir Sabato",
     "date": "2026-09-03",
@@ -299,12 +404,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "team: United inventory/booking errors for ~24h; fixed"
+    "notes": "team: United inventory/booking errors for ~24h; fixed",
+    "metrics": {
+      "likes": 47,
+      "reposts": 1,
+      "replies": 4,
+      "views": 2881,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7ddfb548c6f6",
     "agent": "catch",
-    "quote": "@therealnirs @YoavR7 @catchagent @united \ud83d\udc4f\ud83d\udc4f\ud83d\udcaa",
+    "quote": "@therealnirs @YoavR7 @catchagent @united 👏👏💪",
     "author": "@idoivri",
     "author_name": "Ido Ivry",
     "date": "2026-09-03",
@@ -317,12 +429,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 113,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "454175ec3bb2",
     "agent": "catch",
-    "quote": "Big NEWS: Catch AI is here.\n\nCatch is launching an AI admin assistant for busy executives, built around a simple idea: AI shouldn\u2019t just suggest or summarize\u2014it should actually do the administrative work executives hate doing themselves.\n\nFrom the team behind Catch, the goal is",
+    "quote": "Big NEWS: Catch AI is here.\n\nCatch is launching an AI admin assistant for busy executives, built around a simple idea: AI shouldn’t just suggest or summarize—it should actually do the administrative work executives hate doing themselves.\n\nFrom the team behind Catch, the goal is",
     "author": "@andytng28",
     "author_name": "ATK",
     "date": "2026-09-03",
@@ -334,7 +453,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "launch writeup: do admin work"
+    "notes": "launch writeup: do admin work",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1edb56ec14cc",
@@ -352,7 +478,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1658508c5980",
@@ -369,7 +502,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: will check out CatchAgent for admin tasks"
+    "notes": "third-party: will check out CatchAgent for admin tasks",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f0247ed90627",
@@ -387,7 +527,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ebb56e00f36b",
@@ -405,14 +552,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 26,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0e4bd963c8ce",
     "agent": "catch",
     "quote": "Agents pass the bar and win math olympiads.\n\nBut none ever called a hotel for you.\nFlight at night. Checkout at 11. Nobody asked it to check.\n\nIt spotted the mismatch, asked permission, and called reception.\n\nHuman assistant: $4.5k/month. Catch: $99.\n\nhttps://catchagent.ai https://t.co/sm6dl0gwrY",
     "author": "@venoyuls",
-    "author_name": "veno\u200e \ud80c\udd43",
+    "author_name": "veno‎ 𓅃",
     "date": "2026-09-02",
     "url": "https://x.com/venoyuls/status/2095139479044448500",
     "kind": "other",
@@ -422,12 +576,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 130,
+      "reposts": 2,
+      "replies": 1,
+      "views": 15848,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "181e58484626",
     "agent": "catch",
-    "quote": "@Nadav_Eyal @aeyal1 @catchagent @EntreeCapitalVC Thanks!! \u2764\ufe0f",
+    "quote": "@Nadav_Eyal @aeyal1 @catchagent @EntreeCapitalVC Thanks!! ❤️",
     "author": "@therealnirs",
     "author_name": "Nir Sabato",
     "date": "2026-09-02",
@@ -442,7 +603,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 141,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4ae4a1c9fbd9",
@@ -462,7 +630,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1b15924be91c",
@@ -482,7 +657,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 58,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "175db3edc336",
@@ -502,7 +684,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 62,
+      "reposts": 1,
+      "replies": 4,
+      "views": 5708,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "88a88d020985",
@@ -520,7 +709,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 43,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "29b316a22c32",
@@ -538,12 +734,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 125,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f0ca6f499751",
     "agent": "catch",
-    "quote": "Most AI assistants tell you what needs to be done.\n\nCatch AI actually does it.\n\nIt can:\n\n\u2192 Book your flights and hotels\n\u2192 Set up meetings and manage changes\n\u2192 Find schedule conflicts before they happen\n\u2192 Learn how you like to work\n\nIt\u2019s like having an assistant that handles",
+    "quote": "Most AI assistants tell you what needs to be done.\n\nCatch AI actually does it.\n\nIt can:\n\n→ Book your flights and hotels\n→ Set up meetings and manage changes\n→ Find schedule conflicts before they happen\n→ Learn how you like to work\n\nIt’s like having an assistant that handles",
     "author": "@techwithakansha",
     "author_name": "Akansha Khandelwal",
     "date": "2026-09-02",
@@ -555,12 +758,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "does it vs tells you"
+    "notes": "does it vs tells you",
+    "metrics": {
+      "likes": 42,
+      "reposts": 12,
+      "replies": 12,
+      "views": 36122,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ca9c4a820ec1",
     "agent": "catch",
-    "quote": "Most AI assistants wait for instructions.\n\nThe next generation will notice what needs to happen, ask when it matters, and handle the rest.\n\nThat\u2019s what a real assistant should feel like.\n\n\ud83d\udd17 https://catchagent.ai",
+    "quote": "Most AI assistants wait for instructions.\n\nThe next generation will notice what needs to happen, ask when it matters, and handle the rest.\n\nThat’s what a real assistant should feel like.\n\n🔗 https://catchagent.ai",
     "author": "@tec_aryan",
     "author_name": "Aryan Rakib",
     "date": "2026-09-02",
@@ -572,14 +782,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 28,
+      "reposts": 12,
+      "replies": 12,
+      "views": 4894,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ef577a05f596",
     "agent": "catch",
-    "quote": "\u05e0\u05e1\u05d5 \u05db\u05d0\u05df: https://catchagent.ai",
+    "quote": "נסו כאן: https://catchagent.ai",
     "author": "@shefi89",
-    "author_name": "Itamar Shefi \ud83c\udf97\ufe0f",
+    "author_name": "Itamar Shefi 🎗️",
     "date": "2026-09-02",
     "url": "https://x.com/shefi89/status/2095143171831349628",
     "kind": "other",
@@ -590,7 +807,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 148,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "550fbea13733",
@@ -608,12 +832,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1464,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ff32000c9780",
     "agent": "catch",
-    "quote": "@anujcodes_21 @catchagent Really enjoyed this post. It\u2019s thoughtful, beautifully expressed, and genuinely refreshing to read.",
+    "quote": "@anujcodes_21 @catchagent Really enjoyed this post. It’s thoughtful, beautifully expressed, and genuinely refreshing to read.",
     "author": "@maxpostingx",
     "author_name": "Max",
     "date": "2026-09-02",
@@ -626,12 +857,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 14,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e688fd5fd77c",
     "agent": "catch",
-    "quote": "Aqu\u00ed ten\u00e9is el link: https://catchagent.ai/",
+    "quote": "Aquí tenéis el link: https://catchagent.ai/",
     "author": "@marcusyul",
     "author_name": "marcus",
     "date": "2026-09-02",
@@ -644,12 +882,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 19,
+      "reposts": 0,
+      "replies": 0,
+      "views": 735,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "6dde95b4aeb5",
     "agent": "catch",
-    "quote": "Most AI assistants have been built around \u201ctell me what to do\u201d\n\nCatch AI is built on taking the task off your plate!\n\nThe boring work: Scheduling, emails, travel, calls, follow-ups, etc\n\nNow that's an agent I need in my business!",
+    "quote": "Most AI assistants have been built around “tell me what to do”\n\nCatch AI is built on taking the task off your plate!\n\nThe boring work: Scheduling, emails, travel, calls, follow-ups, etc\n\nNow that's an agent I need in my business!",
     "author": "@jimmykim",
     "author_name": "Jimmy Kim",
     "date": "2026-09-02",
@@ -661,7 +906,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "takes tasks off plate"
+    "notes": "takes tasks off plate",
+    "metrics": {
+      "likes": 28,
+      "reposts": 7,
+      "replies": 0,
+      "views": 4387,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "68f460aba116",
@@ -679,7 +931,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e476c411ac19",
@@ -697,7 +956,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "third-party: risk of nonrefundable rooms + support ghost"
+    "notes": "third-party: risk of nonrefundable rooms + support ghost",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d0cb1d2ace15",
@@ -715,7 +981,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 62,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "96b17f0b9abf",
@@ -734,12 +1007,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 144,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2325395f598f",
     "agent": "catch",
-    "quote": "Honestamente, todo lo que hace Catch Agent es realmente impresionante en comparaci\u00f3n con los dem\u00e1s",
+    "quote": "Honestamente, todo lo que hace Catch Agent es realmente impresionante en comparación con los demás",
     "author": "@ecommartinez",
     "author_name": "Alejo",
     "date": "2026-09-02",
@@ -751,7 +1031,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "impressive vs others (ES)"
+    "notes": "impressive vs others (ES)",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 110,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4fbd58412b39",
@@ -769,7 +1056,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 8,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f57515464138",
@@ -787,7 +1081,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "caf1ffb2922e",
@@ -805,14 +1106,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; hotel price-watch rebook anecdote"
+    "notes": "weekday-2026-09-07 batch B; hotel price-watch rebook anecdote",
+    "metrics": {
+      "likes": 14,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1714,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "775805650e1f",
     "agent": "catch",
     "quote": "os dejo el link:\n\nhttps://catchagent.ai/",
     "author": "@aresotik",
-    "author_name": "ares. \ud83c\udfa7",
+    "author_name": "ares. 🎧",
     "date": "2026-09-02",
     "url": "https://x.com/aresotik/status/2095145120924622886",
     "kind": "other",
@@ -823,14 +1131,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 267,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "20525240480d",
     "agent": "catch",
     "quote": "os dejo el link:\n\nhttps://catchagent.ai/",
     "author": "@aresotik",
-    "author_name": "ares. \ud83c\udfa7",
+    "author_name": "ares. 🎧",
     "date": "2026-09-02",
     "url": "https://x.com/aresotik/status/2095144644917289321",
     "kind": "other",
@@ -841,12 +1156,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 88,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "78f1af94d513",
     "agent": "catch",
-    "quote": "AI agents can pass the bar and win math olympiads. Not one of them will call the hotel for you.\n\n\n@catchagent\n  does.\n\nIt books your travel, reschedules your calendar, emails your guests, and calls the front desk for a late checkout\u2014all without being asked.\n\nA human assistant costs",
+    "quote": "AI agents can pass the bar and win math olympiads. Not one of them will call the hotel for you.\n\n\n@catchagent\n  does.\n\nIt books your travel, reschedules your calendar, emails your guests, and calls the front desk for a late checkout—all without being asked.\n\nA human assistant costs",
     "author": "@anujcodes_21",
     "author_name": "Anuj",
     "date": "2026-09-02",
@@ -861,7 +1183,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; feature praise; may be promo-adjacent"
+    "notes": "weekday-2026-09-07 batch B; feature praise; may be promo-adjacent",
+    "metrics": {
+      "likes": 50,
+      "reposts": 8,
+      "replies": 10,
+      "views": 7631,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e8bdac0e71f5",
@@ -878,7 +1207,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 52,
+      "reposts": 13,
+      "replies": 3,
+      "views": 10598,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b80cac283b5e",
@@ -896,7 +1232,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 7,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0b4557a697ab",
@@ -914,12 +1257,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8ebd746e9d6a",
     "agent": "catch",
-    "quote": "\ud83d\udce3 @catchagent goes live today with $5m in seed funding led by @EntreeCapitalVC  - @therealnirs and team building the future of executive assistants \ud83d\udcaa\ud83e\udd29",
+    "quote": "📣 @catchagent goes live today with $5m in seed funding led by @EntreeCapitalVC  - @therealnirs and team building the future of executive assistants 💪🤩",
     "author": "@aeyal1",
     "author_name": "Avi Eyal",
     "date": "2026-09-02",
@@ -931,7 +1281,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 22,
+      "reposts": 2,
+      "replies": 1,
+      "views": 2887,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1cffae85c569",
@@ -949,7 +1306,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 0,
+      "views": 531,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "1037b74921fa",
@@ -969,7 +1333,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 28,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "768e0aab0dc5",
@@ -987,7 +1358,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 479,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e6aeec573679",
@@ -1005,12 +1383,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b6da633fc381",
     "agent": "catch",
-    "quote": "The benchmark for AI agents should probably be:\n\nDid it finish the task?\n\nNot \u201ccould it reason about the task?\u201d\n\nCatch is built around getting the work done end to end across calendar, email, travel and calls.\n\nhttps://\ncatchagent.ai",
+    "quote": "The benchmark for AI agents should probably be:\n\nDid it finish the task?\n\nNot “could it reason about the task?”\n\nCatch is built around getting the work done end to end across calendar, email, travel and calls.\n\nhttps://\ncatchagent.ai",
     "author": "@TheoBuildsAI",
     "author_name": "Theo Builds AI",
     "date": "2026-09-02",
@@ -1022,12 +1407,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "finish the task benchmark framing"
+    "notes": "finish the task benchmark framing",
+    "metrics": {
+      "likes": 38,
+      "reposts": 12,
+      "replies": 2,
+      "views": 8712,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "81c7061fc1ea",
     "agent": "catch",
-    "quote": "A maioria das IAs sugere. A Catch faz.\n\nMove reuni\u00f5es, reorganiza sua agenda e resolve tarefas administrativas de verdade.\n\nUm assistente humano: US$ 4.500/m\u00eas.\n@catchagent: US$ 99.\n\nTeste agora: https://www.catchagent.ai/ https://t.co/VuwIH6ron6",
+    "quote": "A maioria das IAs sugere. A Catch faz.\n\nMove reuniões, reorganiza sua agenda e resolve tarefas administrativas de verdade.\n\nUm assistente humano: US$ 4.500/mês.\n@catchagent: US$ 99.\n\nTeste agora: https://www.catchagent.ai/ https://t.co/VuwIH6ron6",
     "author": "@TextoCriativo",
     "author_name": "Rafael Estrela | IA",
     "date": "2026-09-02",
@@ -1039,7 +1431,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 65,
+      "reposts": 28,
+      "replies": 10,
+      "views": 19965,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4e2b3731cb25",
@@ -1057,12 +1456,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 131,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "613d5f63854f",
     "agent": "catch",
-    "quote": "Founders have better things to do than manage calendars and book flights.\n\nCatch AI is designed to handle that work for you.\n\n\u2192 Book travel by sending a message\n\u2192 Schedule meetings and make changes\n\u2192 Catch clashes in your calendar\n\u2192 Learn how you like to work\n\nLess admin.",
+    "quote": "Founders have better things to do than manage calendars and book flights.\n\nCatch AI is designed to handle that work for you.\n\n→ Book travel by sending a message\n→ Schedule meetings and make changes\n→ Catch clashes in your calendar\n→ Learn how you like to work\n\nLess admin.",
     "author": "@TechByArti",
     "author_name": "Arti Shah",
     "date": "2026-09-02",
@@ -1075,7 +1481,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "book travel by message; admin for founders"
+    "notes": "book travel by message; admin for founders",
+    "metrics": {
+      "likes": 48,
+      "reposts": 13,
+      "replies": 15,
+      "views": 41704,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "17ee697fd6cc",
@@ -1093,7 +1506,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "focus on judgment vs reply drafting"
+    "notes": "focus on judgment vs reply drafting",
+    "metrics": {
+      "likes": 54,
+      "reposts": 10,
+      "replies": 4,
+      "views": 10091,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c2a6ebdc4cd0",
@@ -1111,7 +1531,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "deabf7d1477d",
@@ -1129,7 +1556,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "Robert Scoble: $99 vs $4500 human EA framing"
+    "notes": "Robert Scoble: $99 vs $4500 human EA framing",
+    "metrics": {
+      "likes": 59,
+      "reposts": 2,
+      "replies": 8,
+      "views": 19210,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2f3cd344951a",
@@ -1147,7 +1581,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 35,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a0104fcb08c5",
@@ -1165,7 +1606,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 43,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e91654e5aa16",
@@ -1183,12 +1631,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 326,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "415d72fd01b7",
     "agent": "catch",
-    "quote": "The most useful AI agent might end up being the least impressive one to demo.\n\nNot solving olympiad math.\n\nJust moving the meeting, booking the trip, replying to the email and making the call without needing babysitting.\n\nThat\u2019s what Catch is going after.\n\nhttps://catchagent.ai/",
+    "quote": "The most useful AI agent might end up being the least impressive one to demo.\n\nNot solving olympiad math.\n\nJust moving the meeting, booking the trip, replying to the email and making the call without needing babysitting.\n\nThat’s what Catch is going after.\n\nhttps://catchagent.ai/",
     "author": "@OliviaReedai",
     "author_name": "Olivia Reed",
     "date": "2026-09-02",
@@ -1200,7 +1655,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 92,
+      "reposts": 12,
+      "replies": 7,
+      "views": 17194,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b9045d653659",
@@ -1217,7 +1679,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 72,
+      "reposts": 13,
+      "replies": 3,
+      "views": 15040,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "a9079f14f06d",
@@ -1235,14 +1704,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "can call it"
+    "notes": "can call it",
+    "metrics": {
+      "likes": 79,
+      "reposts": 10,
+      "replies": 6,
+      "views": 14566,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "2bb6a82bce81",
     "agent": "catch",
     "quote": "@aeyal1 @catchagent @EntreeCapitalVC @therealnirs congrats!",
     "author": "@Nadav_Eyal",
-    "author_name": "\u05e0\u05d3\u05d1 \u05d0\u05d9\u05dc Nadav Eyal",
+    "author_name": "נדב איל Nadav Eyal",
     "date": "2026-09-02",
     "url": "https://x.com/Nadav_Eyal/status/2095200487507189785",
     "kind": "other",
@@ -1253,7 +1729,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 552,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "c1f027568fd5",
@@ -1271,7 +1754,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 47,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "7fc6fd37ee34",
@@ -1289,12 +1779,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 29,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "29328f4d0dc3",
     "agent": "catch",
-    "quote": "@eyishazyer @catchagent That\u2019s where AI can be most practical.",
+    "quote": "@eyishazyer @catchagent That’s where AI can be most practical.",
     "author": "@Igor_Buinevici",
     "author_name": "Igor Buinevici",
     "date": "2026-09-02",
@@ -1307,12 +1804,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 29,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "35d54e409a97",
     "agent": "catch",
-    "quote": "@thejustinmecham @catchagent That\u2019s the kind of AI that gives time back.",
+    "quote": "@thejustinmecham @catchagent That’s the kind of AI that gives time back.",
     "author": "@Igor_Buinevici",
     "author_name": "Igor Buinevici",
     "date": "2026-09-02",
@@ -1325,12 +1829,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "13ab4f1d0f1b",
     "agent": "catch",
-    "quote": "@RepaVictoria @catchagent Yep, that\u2019s where the real value comes in.",
+    "quote": "@RepaVictoria @catchagent Yep, that’s where the real value comes in.",
     "author": "@Igor_Buinevici",
     "author_name": "Igor Buinevici",
     "date": "2026-09-02",
@@ -1343,7 +1854,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d07da4bdde07",
@@ -1361,12 +1879,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 42,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b06b3f28afa3",
     "agent": "catch",
-    "quote": "@YoavR7 @catchagent Let\u2019s go!",
+    "quote": "@YoavR7 @catchagent Let’s go!",
     "author": "@Igor_Buinevici",
     "author_name": "Igor Buinevici",
     "date": "2026-09-02",
@@ -1379,7 +1904,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "37d96e723a04",
@@ -1397,7 +1929,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "377b73805878",
@@ -1415,7 +1954,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "f1a40d52b55c",
@@ -1432,7 +1978,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 29,
+      "reposts": 12,
+      "replies": 9,
+      "views": 5900,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5b373091f147",
@@ -1450,7 +2003,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 13,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d92be65497f0",
@@ -1468,7 +2028,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "20d9b6d4f3fc",
@@ -1484,12 +2051,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "Catch Agent is impressive"
+    "notes": "Catch Agent is impressive",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 80,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ab1da92bf5ce",
     "agent": "catch",
-    "quote": "AI that actually does the work is far more interesting than AI that just gives you suggestions.\n\nThat\u2019s what makes Catch AI interesting.\n\nIt\u2019s moving AI from answering to actually taking action.\n\nFree to try at https://catchagent.ai",
+    "quote": "AI that actually does the work is far more interesting than AI that just gives you suggestions.\n\nThat’s what makes Catch AI interesting.\n\nIt’s moving AI from answering to actually taking action.\n\nFree to try at https://catchagent.ai",
     "author": "@HeyNayeem",
     "author_name": "Nayeem Sheikh",
     "date": "2026-09-02",
@@ -1502,14 +2076,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.029Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 33,
+      "reposts": 3,
+      "replies": 6,
+      "views": 21332,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9bc176e685a9",
     "agent": "catch",
     "quote": "@TextoCriativo @catchagent Saving thousands monthly makes this kind of automation pretty hard to ignore",
     "author": "@GeniusPothead",
-    "author_name": "Genius\ud83d\udca1\ud83d\udcb9\ud83e\uddf2 \ud83e\udd16",
+    "author_name": "Genius💡💹🧲 🤖",
     "date": "2026-09-02",
     "url": "https://x.com/GeniusPothead/status/2095191900773052599",
     "kind": "other",
@@ -1520,12 +2101,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8a81eda5305c",
     "agent": "catch",
-    "quote": "@Igor_Buinevici @catchagent AI becomes much more useful when you don\u2019t have to review, fix, and finish everything it starts.",
+    "quote": "@Igor_Buinevici @catchagent AI becomes much more useful when you don’t have to review, fix, and finish everything it starts.",
     "author": "@Fuel_YourGrowth",
     "author_name": "Kevin Box",
     "date": "2026-09-02",
@@ -1538,7 +2126,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:45:36.536Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 47,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "9630b07e486d",
@@ -1554,14 +2149,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "$99 vs $4500 caveat"
+    "notes": "$99 vs $4500 caveat",
+    "metrics": {
+      "likes": 40,
+      "reposts": 37,
+      "replies": 3,
+      "views": 24056,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "79a8da1e7b33",
     "agent": "catch",
     "quote": "We're proud to introduce Catch! officially live now (https://catchagent.ai)\n\nCatch is an actual AI admin assistant that onboards in minutes, learns your patterns without being configured, and starts acting before you've had to ask.\nCatch has already scheduled over 12,000 meetings, delegated 20,000+ tasks, and handled hundreds of thousands of emails, with no workflow setup and no prompting required.\n\n Co-led the $5M seed alongside @Pitango, with @Seedcamp and @FactorialCap. Proud to partner with @therealnirs, @YoavR7, and the whole Catch team.",
     "author": "@EntreeCapitalVC",
-    "author_name": "Entr\u00e9e Capital",
+    "author_name": "Entrée Capital",
     "date": "2026-09-02",
     "url": "https://x.com/EntreeCapitalVC/status/2095142928981066147",
     "kind": "other",
@@ -1571,7 +2173,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 7,
+      "reposts": 2,
+      "replies": 0,
+      "views": 398,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e8d0c424b302",
@@ -1589,7 +2198,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 103,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "81ff008046ac",
@@ -1607,7 +2223,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "00198aaeec86",
@@ -1625,12 +2248,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 70,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "e008e1720834",
     "agent": "catch",
-    "quote": "Most AI products stop at:\n\n\u201cHere\u2019s what you should do.\u201d\n\nCatch is built around:\n\n\u201cDone.\u201d\n\nThat sounds like a small difference.\n\nFor busy executives, it\u2019s basically the entire point of having an assistant.\n\nhttps://catchagent.ai https://t.co/ymYDK223sa",
+    "quote": "Most AI products stop at:\n\n“Here’s what you should do.”\n\nCatch is built around:\n\n“Done.”\n\nThat sounds like a small difference.\n\nFor busy executives, it’s basically the entire point of having an assistant.\n\nhttps://catchagent.ai https://t.co/ymYDK223sa",
     "author": "@DAIEvolutionHub",
     "author_name": "Kshitij Mishra | AI & Tech",
     "date": "2026-09-02",
@@ -1642,7 +2272,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 31,
+      "reposts": 6,
+      "replies": 7,
+      "views": 1999,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ef1cb1b86e91",
@@ -1660,7 +2297,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b329441bdfe2",
@@ -1678,12 +2322,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "0fc0fc3a76cc",
     "agent": "catch",
-    "quote": "@TextoCriativo @catchagent El precio est\u00e1 buen\u00edsimo",
+    "quote": "@TextoCriativo @catchagent El precio está buenísimo",
     "author": "@Alex_Inspira",
     "author_name": "Alexander Inspira IA",
     "date": "2026-09-02",
@@ -1696,7 +2347,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 68,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4a5da3f50738",
@@ -1714,7 +2372,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "bf88cd8ff050",
@@ -1732,7 +2397,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.031Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "4596e48694b5",
@@ -1749,7 +2421,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "wants AI that takes admin off plate"
+    "notes": "wants AI that takes admin off plate",
+    "metrics": {
+      "likes": 91,
+      "reposts": 22,
+      "replies": 10,
+      "views": 22670,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d0757fbdd554",
@@ -1823,7 +2502,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 166,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "77c5308c1fe2",
@@ -1841,7 +2527,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 362,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "8d88f24ea3b7",
@@ -1861,12 +2554,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 174,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "57bc6b895d16",
     "agent": "catch",
-    "quote": "Have tried a few ai admins over the past year, the experience with \n@catchagent\n the last few days has been other level \ud83e\udd2f \n@therealnirs\n is building one amazing costumer experience!",
+    "quote": "Have tried a few ai admins over the past year, the experience with \n@catchagent\n the last few days has been other level 🤯 \n@therealnirs\n is building one amazing costumer experience!",
     "author": "@amitkurz",
     "author_name": "Amit Kurz",
     "date": "2026-07-15",
@@ -1877,7 +2577,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; first-person after trying several AI admins"
+    "notes": "weekday-2026-09-07 batch B; first-person after trying several AI admins",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2045,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "b7e560fe1b8e",
@@ -1896,12 +2603,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 981,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "86af07e0f03d",
     "agent": "catch",
-    "quote": "\u05d4\u05de\u05d5\u05d7 \u05de\u05ea\u05e4\u05d5\u05e6\u05e5 \u05de @catchagent \u05e9\u05dc @therealnirs \u05d5 @YoavR7 - \u05de\u05e8\u05e7\u05d5\u05e1, \u05d4\u05d0\u05d9\u05d9\u05d2\u05f3\u05e0\u05d8 \u05e9\u05dc\u05d9, \u05e1\u05d5\u05d2\u05e8 \u05dc\u05d9 \u05e4\u05d9\u05e0\u05d5\u05ea \u05d5\u05d1\u05e2\u05d9\u05e7\u05e8 \u05de\u05d1\u05d9\u05df \u05e0\u05d9\u05d5\u05d0\u05e0\u05e1\u05d9\u05dd \u05d1\u05e6\u05d5\u05e8\u05d4 \u05de\u05e2\u05d5\u05e8\u05e8\u05ea \u05d4\u05e9\u05ea\u05d0\u05d5\u05ea. \u05e4\u05e9\u05d5\u05d8 \u05de\u05d3\u05d4\u05d9\u05dd.\n\u05db\u05de\u05d5 \u05db\u05df, @HaJongler \u05dc\u05de\u05d4 \u05d0\u05ea\u05d4 \u05de\u05e1\u05e0\u05df \u05d0\u05ea \u05de\u05e8\u05e7\u05d5\u05e1? https://t.co/XJGJ4CVeFF",
+    "quote": "המוח מתפוצץ מ @catchagent של @therealnirs ו @YoavR7 - מרקוס, האייג׳נט שלי, סוגר לי פינות ובעיקר מבין ניואנסים בצורה מעוררת השתאות. פשוט מדהים.\nכמו כן, @HaJongler למה אתה מסנן את מרקוס? https://t.co/XJGJ4CVeFF",
     "author": "@yuvalkesten",
     "author_name": "Yuval Kesten",
     "date": "2026-07-07",
@@ -1913,7 +2627,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 17,
+      "reposts": 2,
+      "replies": 1,
+      "views": 1867,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "d50fcaf73f9d",
@@ -1933,12 +2654,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 60,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "494dffdea644",
     "agent": "catch",
-    "quote": "@yuvalkesten @catchagent @therealnirs @YoavR7 \u05dc\u05d0 \u05e0\u05e2\u05d9\u05dd \u05d0\u05d1\u05dc \u05de\u05e8\u05e7\u05d5\u05e1 \u05de\u05e1\u05e0\u05df \u05d0\u05d5\u05ea\u05d9 \ud83d\udc40 https://t.co/uTqqF2vyEZ",
+    "quote": "@yuvalkesten @catchagent @therealnirs @YoavR7 לא נעים אבל מרקוס מסנן אותי 👀 https://t.co/uTqqF2vyEZ",
     "author": "@HaJongler",
     "author_name": "Jonathan Harel",
     "date": "2026-07-07",
@@ -1951,14 +2679,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 150,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "de09115b2129",
     "agent": "catch",
-    "quote": "@idoivri @catchagent @therealnirs \u05e1\u05d1\u05d8\u05d5 \u05de\u05d2\u05e0\u05d9\u05d1!",
+    "quote": "@idoivri @catchagent @therealnirs סבטו מגניב!",
     "author": "@ShayaFeedman",
-    "author_name": "Shaya Feedman \u05e9\u05d9\u05d9\u05e2 \u05e4\u05d9\u05d3\u05de\u05df",
+    "author_name": "Shaya Feedman שייע פידמן",
     "date": "2026-07-06",
     "url": "https://x.com/ShayaFeedman/status/2073962525931041042",
     "kind": "other",
@@ -1969,12 +2704,19 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 411,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "5bca1a5ba567",
     "agent": "catch",
-    "quote": "@ShayaFeedman @catchagent @therealnirs \u05d0\u05db\u05df \u05de\u05d2\u05e0\u05d9\u05d1",
+    "quote": "@ShayaFeedman @catchagent @therealnirs אכן מגניב",
     "author": "@idoivri",
     "author_name": "Ido Ivry",
     "date": "2026-07-05",
@@ -1987,14 +2729,21 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.356Z",
-    "notes": "query: @catchagent | via x402atlas"
+    "notes": "query: @catchagent | via x402atlas",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 669,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "77a94f129c6b",
     "agent": "catch",
-    "quote": "\u05d1\u05e9\u05e7\u05d8 \u05d1\u05e9\u05e7\u05d8, \u05d1\u05dc\u05d9 \u05e9\u05e7\u05dc\u05d8\u05ea\u05d9, \u05e7\u05d5\u05d1\u05dc\u05ea\u05d9 \u05d4\u05d5\u05d3\u05e2\u05d4 \u05e9\u05d1\u05d5\u05e2 \u05e9\u05e2\u05d1\u05e8 \u05de \n@catchagent\n \u05e2\u05d5\u05d6\u05e8 \u05d0\u05d9\u05e9\u05d9 AI \u05db\u05de\u05d5\u05d1\u05df. \n\n\u05ea\u05d9\u05d0\u05dd \u05e4\u05d2\u05d9\u05e9\u05d4 \u05de\u05d5\u05e8\u05db\u05d1\u05ea \u05d9\u05d7\u05e1\u05d9\u05ea, \u05d3\u05d0\u05d2 \u05dc\u05e2\u05d3\u05db\u05df \u05d1\u05e9\u05d9\u05e0\u05d5\u05d9\u05d9\u05dd, \u05de\u05e1\u05e4\u05d9\u05e7 \u05d7\u05db\u05dd \u05db\u05d3\u05d9 \u05dc\u05e2\u05e9\u05d5\u05ea \u05d3\u05d1\u05e8\u05d9\u05dd \u05de\u05d5\u05e8\u05db\u05d1\u05d9\u05dd \u05d5\u05d4\u05db\u05dc \u05d1\u05d5\u05d5\u05e6\u05d0\u05e4. \u05db\u05d9\u05e3! \n\n\u05d5\u05e8\u05e7 \u05d0\u05d6 \u05d2\u05d9\u05dc\u05d9\u05ea\u05d9 \u05e9\u05d6\u05d0\u05ea \u05d4\u05d7\u05d1\u05e8\u05d4 \u05e9\u05dc \n@therealnirs\n \n\n\u05de\u05d9 \u05d4\u05d9\u05d4 \u05de\u05d0\u05de\u05d9\u05df \u05e9\u05d0\u05e4\u05e9\u05e8 \u05dc\u05e2\u05d1\u05d5\u05e8 \u05e6\u05d3 \u05de\u05de\u05e9\u05e7\u05d9\u05e2 \u05dc\u05de\u05e0\u05db\u05f4\u05dc \u05d5\u05d2\u05dd \u05dc\u05d1\u05e0\u05d5\u05ea \u05de\u05d5\u05e6\u05e8",
+    "quote": "בשקט בשקט, בלי שקלטתי, קובלתי הודעה שבוע שעבר מ \n@catchagent\n עוזר אישי AI כמובן. \n\nתיאם פגישה מורכבת יחסית, דאג לעדכן בשינויים, מספיק חכם כדי לעשות דברים מורכבים והכל בווצאפ. כיף! \n\nורק אז גיליתי שזאת החברה של \n@therealnirs\n \n\nמי היה מאמין שאפשר לעבור צד ממשקיע למנכ״ל וגם לבנות מוצר",
     "author": "@ShayaFeedman",
-    "author_name": "Shaya Feedman \u05e9\u05d9\u05d9\u05e2 \u05e4\u05d9\u05d3\u05de\u05df",
+    "author_name": "Shaya Feedman שייע פידמן",
     "date": "2026-07-05",
     "url": "https://x.com/ShayaFeedman/status/2073792195576897713",
     "kind": "use-case",
@@ -2004,7 +2753,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; Hebrew WhatsApp meeting-scheduling anecdote"
+    "notes": "weekday-2026-09-07 batch B; Hebrew WhatsApp meeting-scheduling anecdote",
+    "metrics": {
+      "likes": 35,
+      "reposts": 1,
+      "replies": 3,
+      "views": 8977,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "3fc966fb84fa",
@@ -2032,7 +2788,7 @@
   {
     "id": "ed41258424f4",
     "agent": "catch",
-    "quote": "so i want to share how i\u2019m using Catch [Catchagent.ai](http://Catchagent.ai) for email assistance.\n\njust for context, before i tried catch, i used a tool called Fyxer, which is primarily an email assistant that automatically drafts replies inside your inbox.\n\nthe drafts themselves were usually well written and polished, but i found that they often missed my actual intent. because the drafts were already sitting in my inbox, the workflow became somewhat inefficient, since i had to manually rewrite most of my emails. over time i realized this created more editing overhead than it removed.\n\nhow i\u2019m using catch:\n\ninstead of having the assistant proactively draft everything, i connected my assistant to whatsapp and defined which types of emails actually matter to me. that could be investors, customers, specific clients, or other high-priority conversations, and those priorities naturally change over time.\n\nwhen an important email arrives, the assistant surfaces it proactively and gives me context. for example: \u201cyou received an email from an investor asking about the next board meeting.\u201d at that point, i provide a short amount of guidance, and only then does the assistant draft the respo",
+    "quote": "so i want to share how i’m using Catch [Catchagent.ai](http://Catchagent.ai) for email assistance.\n\njust for context, before i tried catch, i used a tool called Fyxer, which is primarily an email assistant that automatically drafts replies inside your inbox.\n\nthe drafts themselves were usually well written and polished, but i found that they often missed my actual intent. because the drafts were already sitting in my inbox, the workflow became somewhat inefficient, since i had to manually rewrite most of my emails. over time i realized this created more editing overhead than it removed.\n\nhow i’m using catch:\n\ninstead of having the assistant proactively draft everything, i connected my assistant to whatsapp and defined which types of emails actually matter to me. that could be investors, customers, specific clients, or other high-priority conversations, and those priorities naturally change over time.\n\nwhen an important email arrives, the assistant surfaces it proactively and gives me context. for example: “you received an email from an investor asking about the next board meeting.” at that point, i provide a short amount of guidance, and only then does the assistant draft the respo",
     "author": "u/CartographerFeisty66",
     "author_name": "",
     "date": "2026-05-18",
@@ -2106,6 +2862,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:39:50.030Z",
-    "notes": "query: \"catchagent.ai\" | via x402atlas"
+    "notes": "query: \"catchagent.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 12,
+      "reposts": 3,
+      "replies": 4,
+      "views": 60163,
+      "fetched": "2026-09-10"
+    }
   }
 ]

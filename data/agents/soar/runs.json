@@ -18,5 +18,15 @@
     "outcome": "pass",
     "notes": "Published travel task via Blooio same channel (NYC–Chicago round-trip Fri morning / Sun evening, aisle, under $400, check-in + boarding pass when window opens). Soar quickly found nonstop under-$400 options including ~$305 LGA–ORD on Delta/United Fri Sep 11–Sun Sep 13; noted aisle selection at checkout may add cost. Run ended at pre-payment boundary by tester protocol (check-in/boarding pass require a completed booking).",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-travel"
+  },
+  {
+    "id": "soar-2026-09-09-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Published recommendation_quality via Blooio from +16124259300 to Soar +14242492855 (dinner for four tomorrow 7:30, walking distance from hotel, vegetarian-friendly, not a chain, under $40/head). Soar asked which hotel (context from prior hotel search), then with Hyatt Regency McCormick Place Chicago recommended Apolonia (~6-minute walk), independent, vegetarian-friendly menu items under $40 (examples: hummus, salads, truffle tagliatelle). Fast, constraint-fit recommendation using prior hotel context. Run ended at reservation/pre-payment boundary by tester protocol.",
+    "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-rec"
   }
 ]

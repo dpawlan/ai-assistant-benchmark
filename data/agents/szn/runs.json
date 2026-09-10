@@ -4,9 +4,9 @@
     "category": "online_task",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
+    "score": 8,
     "outcome": "pass",
-    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop at $218/night ($436 total) with free cancellation through Sep 16 (4.3★) and staged it; Club Quarters Central Loop backup at $229.50/night ($459 total) with free cancellation through Sep 17. Offered Stripe Link one-time payment; tester stopped before charge per protocol. Same band as Shuffle hotel 9 for under-$250 Loop free-cancel to payment — Szn hit all constraints and staged.",
+    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop and staged it; later direct booking-page re-verify showed two-night total $1037 (not the earlier staged ~$436 path); pricing correction before charge; still staged stop-before-card which is tester protocol not a fail. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-online"
   },
   {
@@ -14,9 +14,19 @@
     "category": "travel",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
+    "score": 8,
     "outcome": "pass",
-    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. Szn offered United UA2342 nonstop LGA→ORD $396 and American 1-stop $371. Tester chose United + aisle even if over $400. Staged UA2342/UA396 at payment with aisle seats 37D and 38D; total $444.92; nothing charged.",
+    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. United UA2342/UA396 staged at payment with aisle seats 37D and 38D; Basic Economy; total $444.92 over $400 target for aisle fees; nothing charged. Solid but not top-tier clean. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Dinner for 4 Fri Sep 11 7:30 walkable from Cambria Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered 3 options (The Dearborn OT+phone, Maharaj phone-only, Mariela OT) with why-fit and clear top pick Dearborn; offered to book (tester declined). Prefer OpenTable honored. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — strong rec but not Instinct-tier.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-rec"
   }
 ]

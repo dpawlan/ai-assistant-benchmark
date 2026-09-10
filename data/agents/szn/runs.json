@@ -76,7 +76,7 @@
     "date": "2026-09-10",
     "score": 7,
     "outcome": "partial",
-    "notes": "Add Q3 planning to Notion, Thursday afternoon calendar block, Slack Sam. Szn correctly reported Notion/calendar/Slack not connected and said no safe partial without them; later offered browser sign-in via secure forms. Honest gap report, no fake completion. Same band as Shuffle/Tomo/Caddy integrations 7.",
+    "notes": "Could not reach Notion, Calendar or Slack and said so plainly rather than faking a partial result; offered to link them in-browser.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-integrations"
   },
   {
@@ -86,7 +86,7 @@
     "date": "2026-09-10",
     "score": 7,
     "outcome": "partial",
-    "notes": "Check in for tomorrow flight; confirmation in email, passport in Drive. Szn correctly reported no email/Drive access; offered alternate path if tester provides airline+confirmation (and secure passport for international). Tester declined. Same band as peers chained 7.",
+    "notes": "Could not reach the inbox or Drive for the confirmation and passport, so it offered to check in from details supplied by hand.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-chained"
   },
   {
@@ -96,7 +96,7 @@
     "date": "2026-09-10",
     "score": 7,
     "outcome": "partial",
-    "notes": "Add to group of four; find dinner date; book. Szn said yes — add this number to a group or share four contacts; will collect availability and bring restaurant/time for approval before booking. Not exercised end-to-end; capability claimed with clear approval gate. Higher than peers who scored n/a (no group path).",
+    "notes": "Said to add it to a group or share four contacts, then it would collect availability and propose a time and place before booking.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-multi"
   },
   {
@@ -106,7 +106,7 @@
     "date": "2026-09-10",
     "score": 7,
     "outcome": "partial",
-    "notes": "Setup connect Gmail/Calendar/Drive read-only + standing rule never send email or spend without asking. Szn first said setup did not offer those read-only connects, then corrected that read-only Gmail/Calendar were offered in-app; stored the standing approval rule; clarified outbound email uses assistant address not user Gmail. Drive not clearly offered. Messy self-correction but rule landed. Banded 7.",
+    "notes": "First said read-only Gmail and Calendar were unavailable, then corrected itself; stored the ask-before-sending-or-spending rule.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-permissions"
   }
 ]

@@ -38,5 +38,15 @@
     "outcome": "partial",
     "notes": "Task: two bags Stumptown Hair Bender; Amazon first then brand site; ship to tester home; stage without charging. Amazon required sign-in; Tomo offered Amazon connect link (tester did not connect). Pivoted to Stumptown.com: two 12oz Hair Bender whole bean $38 + $6 shipping = $44 total (3–4 business days); staged checkout for David Pawlan at provided NYC shipping address; checkout URL provided; nothing charged.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-purchasing"
+  },
+  {
+    "id": "tomo-2026-09-10-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Published email_replies task via Blooio to Tomo. Tomo correctly reported Gmail and Google Calendar not connected and offered a connect path. Produced a clean draft reply to Sam declining Thursday and offering two alternate slots (Friday 10am and 2pm), casual tone matching request. No send. Tester did not connect accounts.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-blooio-email"
   }
 ]

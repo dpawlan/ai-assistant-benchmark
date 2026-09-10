@@ -28,5 +28,15 @@
     "outcome": "pass",
     "notes": "Published recommendation_quality via Blooio from +16124259300 to Soar +14242492855 (dinner for four tomorrow 7:30, walking distance from hotel, vegetarian-friendly, not a chain, under $40/head). Soar asked which hotel (context from prior hotel search), then with Hyatt Regency McCormick Place Chicago recommended Apolonia (~6-minute walk), independent, vegetarian-friendly menu items under $40 (examples: hummus, salads, truffle tagliatelle). Fast, constraint-fit recommendation using prior hotel context. Run ended at reservation/pre-payment boundary by tester protocol.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-rec"
+  },
+  {
+    "id": "soar-2026-09-09-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-09",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Published purchasing task via Blooio from +16124259300 to Soar +14242492855 (reorder last Amazon coffee beans ×2 to home). Soar declined as out of product scope (travel-only assistant). Marked n/a (inapplicable specialty), not a capability fail.",
+    "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-purchasing"
   }
 ]

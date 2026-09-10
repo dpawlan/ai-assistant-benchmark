@@ -415,7 +415,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T15:56:00.445Z",
-    "notes": "query: @pallyai | via x402atlas"
+    "notes": "query: @pallyai | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 86,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ce1fd630ab54",

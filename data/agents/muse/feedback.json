@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T21:27:50.186Z",
-    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)"
+    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 10713,
+      "reposts": 972,
+      "replies": 1020,
+      "views": 5908472,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "684aca7afc29",
@@ -33,7 +40,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T21:27:50.282Z",
-    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)"
+    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 36276,
+      "reposts": 2515,
+      "replies": 3230,
+      "views": 8213501,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "41428873f656",
@@ -51,6 +65,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-08T21:27:50.383Z",
-    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)"
+    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 5368,
+      "reposts": 456,
+      "replies": 569,
+      "views": 11776023,
+      "fetched": "2026-09-10"
+    }
   }
 ]

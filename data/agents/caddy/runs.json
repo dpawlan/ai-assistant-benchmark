@@ -24,9 +24,9 @@
     "category": "recommendation_quality",
     "protocol": "task",
     "date": "2026-09-09",
-    "score": 8,
+    "score": 7,
     "outcome": "pass",
-    "notes": "Published restaurant recommendation task via Blooio from +16124259300 to Caddy +12064039093, hotel context Club Quarters Central Loop. Caddy checked Resy and proposed The Village at Italian Village (Loop, ~5 min walk): vegetarian options, ~$17–30 entrees under $40/head, not a chain, Thu 9/10 7:30 dining room for 4, 4.7 stars, with reasons. No upfront deposit; noted $15/guest late-cancel fee. Tester asked to hold the table; Caddy could not guest-checkout on Resy and sent a secure vault link to add a Resy login. Stopped without creating an account or paying. Reservation not finalized.",
+    "notes": "Published restaurant recommendation task via Blooio from +16124259300 to Caddy +12064039093, hotel context Club Quarters Central Loop. Caddy checked Resy and proposed The Village at Italian Village (Loop, ~5 min walk): vegetarian options, ~$17–30 entrees under $40/head, not a chain, Thu 9/10 7:30 dining room for 4, 4.7 stars, with reasons. No upfront deposit; noted $15/guest late-cancel fee. Tester asked to hold the table; Caddy could not guest-checkout on Resy and sent a secure vault link to add a Resy login. Stopped without creating an account or paying. Reservation not finalized. [2026-09-10: score revised 8→7 for Resy ban-risk policy]",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-rec"
   },
   {

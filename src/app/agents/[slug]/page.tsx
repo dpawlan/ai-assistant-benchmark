@@ -205,7 +205,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                     vs {o.name}
                   </Link>
                 ))}
-                <Link href="/compare" className="chip">All matchups</Link>
+                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
               </div>
             )}
           </section>

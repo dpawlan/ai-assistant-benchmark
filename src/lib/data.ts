@@ -541,6 +541,59 @@ export function getTrendingUseCases(limit = 40, agentSlug?: string): TrendingIte
   return scored.slice(0, limit).map((s, i) => ({ ...s.item, rank: i + 1 }));
 }
 
+export interface UseCaseEntry {
+  id: string;
+  agent: string;
+  title: string;
+  summary: string;
+  prompt: string;
+  prompt_source: 'posted' | 'assumed';
+  caveat?: string;
+}
+
+export interface UseCase extends UseCaseEntry {
+  rank: number;
+  agentRef: AgentRef;
+  quote: Feedback;
+  categories: string[];
+  engagement: number;
+}
+
+let useCaseCache: UseCaseEntry[] | null = null;
+function loadUseCaseEntries(): UseCaseEntry[] {
+  if (useCaseCache) return useCaseCache;
+  const file = path.join(DATA_DIR, 'use-cases.json');
+  useCaseCache = fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, 'utf8')).items as UseCaseEntry[]) : [];
+  return useCaseCache;
+}
+
+/**
+ * Curated use cases (data/use-cases.json): what someone actually had an assistant do, summarized by hand and linked to
+ * the original post. Ranked by engagement on that post with a 60-day half-life so recent threads rise.
+ */
+export function getUseCases(agentSlug?: string): UseCase[] {
+  const byId = new Map(getAllQuotes().map(q => [q.quote.id, q]));
+  const now = Date.now();
+  const scored: { item: Omit<UseCase, 'rank'>; weighted: number }[] = [];
+  for (const e of loadUseCaseEntries()) {
+    const q = byId.get(e.id);
+    if (!q || q.agent.slug !== e.agent) continue;
+    if (agentSlug && e.agent !== agentSlug) continue;
+    const engagement = engagementScore(q.quote);
+    const ageDays = Math.max(0, (now - new Date(q.quote.date).getTime()) / 86_400_000);
+    scored.push({ item: { ...e, agentRef: q.agent, quote: q.quote, categories: q.categories, engagement }, weighted: engagement * Math.pow(0.5, ageDays / 60) });
+  }
+  scored.sort((a, b) => b.weighted - a.weighted);
+  return scored.map((s, i) => ({ ...s.item, rank: i + 1 }));
+}
+
+/** Assistants with at least one curated use case, for the filter chips. */
+export function getUseCaseAgents(): AgentRef[] {
+  const seen = new Map<string, AgentRef>();
+  for (const u of getUseCases()) seen.set(u.agentRef.slug, u.agentRef);
+  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
+}
+
 /** Assistants that have at least one trending use case, for the filter chips. */
 export function getTrendingAgents(): AgentRef[] {
   const seen = new Map<string, AgentRef>();

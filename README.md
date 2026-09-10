@@ -76,7 +76,7 @@ Dimensions with `"scored": false` in `categories.json` (personality) are public-
 
 ### Trending use cases
 
-`/use-cases` ranks public posts tagged `use-case` by engagement on X (likes + 2×reposts + replies, 60-day half-life so recent threads rise), founder/vendor posts excluded, optional `?agent=` filter. Engagement lives on each quote as `metrics` in feedback.json, fetched by `node scripts/engagement.mjs` (no key; only fills quotes without metrics unless `--refresh`). Re-run it after every collect/merge.
+`/use-cases` shows hand-curated entries from `data/use-cases.json` (quote id, title, summary, prompt, `prompt_source` posted|assumed, optional caveat), ranked by engagement on the original post (likes + 2×reposts + replies, 60-day half-life so recent threads rise), founder/vendor posts excluded, optional `?agent=` filter. Engagement lives on each quote as `metrics` in feedback.json, fetched by `node scripts/engagement.mjs` (no key; only fills quotes without metrics unless `--refresh`). Re-run it after every collect/merge.
 
 ### Access (price, regions, channels)
 

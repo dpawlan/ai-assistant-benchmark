@@ -1,0 +1,34 @@
+{
+  "slug": "aeon",
+  "name": "Aeon",
+  "site": "https://www.aeon.fun/",
+  "handles": [
+    "aeonframework",
+    "aaronjmars"
+  ],
+  "status": "stretch",
+  "product_class": "agent_framework",
+  "notes": "Open-source, self-hosted autonomous agent: a Next.js dashboard plus GitHub Actions workflows with 80 skills, persistent memory and no approval loops. Requested via the form (issue #24).",
+  "likely_applicable": [
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "memory",
+    "third_party_integrations",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "The most autonomous agent framework",
+  "icon": "/logos/aeon.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, MIT licensed; self-hosted, you pay your own model costs",
+    "regions": "Not stated",
+    "channels": [
+      "Self-hosted (GitHub Actions)",
+      "Web dashboard"
+    ],
+    "checked": "2026-09-10"
+  }
+}

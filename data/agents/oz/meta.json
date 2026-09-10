@@ -1,0 +1,30 @@
+{
+  "slug": "oz",
+  "name": "Oz",
+  "site": "https://oz.anyreach.ai/",
+  "handles": [
+    "anyreach",
+    "anyreachai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Anyreach's AI teammate for organizations: lives in Slack, Teams and the inbox, connects to the team's tools and delivers finished decks, briefs and proposals; also takes calls and joins meetings. Requested via the form (issue #27).",
+  "public_signal": "low",
+  "tagline": "Ask. It's done.",
+  "icon": "/logos/oz.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Solo $39 · Team $59 · Business $89 per seat/mo; credits meter work",
+    "regions": "US and EU data residency options",
+    "channels": [
+      "Slack",
+      "Microsoft Teams",
+      "Email",
+      "iOS app",
+      "Phone",
+      "Web"
+    ],
+    "checked": "2026-09-10"
+  }
+}

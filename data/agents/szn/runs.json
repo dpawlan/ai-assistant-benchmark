@@ -58,5 +58,15 @@
     "outcome": "pass",
     "notes": "Birthday image for Sam with golden retriever; quick 90s movies trivia for group chat. Szn delivered a birthday PNG (Happy birthday Sam + dog) and an 8-question 90s movies trivia list with answers. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — complete delivery, not Instinct/top-tier 9.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-content"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Call The Village at Italian Village in Chicago; ask about seating eight Saturday at 8 PM and a private room. Szn placed a real call and reported: can seat eight Sat Sep 12 at 8:00 PM; room is semi-private not fully private; no minimum spend. Offered to book (tester declined). Rare clean phone pass vs peers who could not call.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-phone"
   }
 ]

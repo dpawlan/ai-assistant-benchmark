@@ -6,7 +6,7 @@
     "date": "2025-09-15",
     "score": 3,
     "outcome": "fail",
-    "notes": "Asked to accept a calendar invite; could not, and told me to do it in the calendar app myself.",
+    "notes": "Asked to accept a calendar invite; could not, and pointed to the calendar app instead.",
     "evidence_url": "/agents/poke/evidence/poke-2025-09-15-84e624"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-02-17",
     "score": 5,
     "outcome": "partial",
-    "notes": "Routine message claimed sent but never received; agent diagnosed a delivery issue and offered mitigations.",
+    "notes": "Claimed the daily weather was sent but it never arrived; diagnosed a delivery issue and offered fixes.",
     "evidence_url": "/agents/poke/evidence/poke-2026-02-17-91e059"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-02-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Correctly recalled a recent item I had shared and its context; also actioned an inbound travel email unprompted.",
+    "notes": "Recalled a recently shared item and its context; also actioned an inbound travel email unprompted.",
     "evidence_url": "/agents/poke/evidence/poke-2026-02-19-08a7b9"
   },
   {
@@ -56,7 +56,7 @@
     "date": "2026-02-28",
     "score": 8,
     "outcome": "pass",
-    "notes": "Told it a schedule change once; it adjusted a daily routine for the stated period without being asked again.",
+    "notes": "Told a schedule change once; it adjusted a daily routine for the stated period without being asked again.",
     "evidence_url": "/agents/poke/evidence/poke-2026-02-28-7853c4"
   },
   {
@@ -76,7 +76,7 @@
     "date": "2026-04-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Set a timed reminder, immediately checked two code repos with specific findings, reminder fired on time with the right items.",
+    "notes": "Set a timed reminder, immediately checked two code repos with specific findings, and the reminder fired on time with the right items.",
     "evidence_url": "/agents/poke/evidence/poke-2026-04-19-eb7cde"
   },
   {
@@ -116,7 +116,7 @@
     "date": "2026-06-05",
     "score": 2,
     "outcome": "fail",
-    "notes": "Resync into a connected database created duplicates and dropped links, then crashed on cleanup and asked me to reconnect the integration myself.",
+    "notes": "Resync into a connected database created duplicates and dropped links, then crashed on cleanup and gave up.",
     "evidence_url": "/agents/poke/evidence/poke-2026-06-05-40571c"
   },
   {
@@ -126,7 +126,7 @@
     "date": "2026-06-08",
     "score": 7,
     "outcome": "pass",
-    "notes": "Reminder set, rescheduled twice on request, fired on time. Interleaved with seven unsolicited digests in the same window.",
+    "notes": "Reminder set, rescheduled twice on request and fired on time, interleaved with seven unsolicited digests.",
     "evidence_url": "/agents/poke/evidence/poke-2026-06-08-66d29c"
   },
   {
@@ -136,7 +136,7 @@
     "date": "2026-07-23",
     "score": 9,
     "outcome": "pass",
-    "notes": "Long open-ended banter: matched my register, witty, no filler, answered a direct pricing question straight.",
+    "notes": "Long open-ended banter that matched the user's register, witty, no filler, and answered a direct pricing question straight.",
     "evidence_url": "/agents/poke/evidence/poke-2026-07-23-428438"
   },
   {
@@ -146,7 +146,7 @@
     "date": "2026-08-28",
     "score": 7,
     "outcome": "pass",
-    "notes": "Created a calendar invite with the right title, attendees and video link, confirmed before saving. Started acting before instructions were given.",
+    "notes": "Created a calendar invite with the right title, attendees and video link, confirming before saving, but jumped in before instructions.",
     "evidence_url": "/agents/poke/evidence/poke-2026-08-28-9c186e"
   }
 ]

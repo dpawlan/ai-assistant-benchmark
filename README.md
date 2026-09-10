@@ -93,7 +93,8 @@ One record per test you run. The latest run per category is the score shown ever
   date: "YYYY-MM-DD";
   score: number | "n/a";    // 1–10 against the anchors in tasks.json
   outcome: "pass" | "partial" | "fail" | "n/a";
-  notes?: string;           // one line, shown next to the score
+  notes?: string;           // one public sentence, under 140 chars: what was asked, what the assistant did. No personal data,
+                            // account/setup state or scoring talk (npm run lint:notes enforces this at build)
   evidence_url?: string;    // post, screenshot, transcript
 }]
 ```
@@ -227,6 +228,7 @@ node scripts/imessage.mjs import-text --slug muse --file muse.txt --date 2026-09
 node scripts/imessage.mjs import-whatsapp --slug muse --file ~/Downloads/_chat.txt   # WhatsApp "Export Chat" -> transcript, then analyze/approve as usual
 node scripts/imessage.mjs excerpts --slug grok-bot --missing   # print the thread behind each run that has no descriptive note
 node scripts/imessage.mjs notes --slug grok-bot --file notes.json  # apply { runId: "what was asked and what happened" }
+npm run lint:notes                          # public-note check (phones, names, harness, setup state, scoring talk); also runs before build
 ```
 
 Each assistant's number goes in `imessage_handles` in `data/sources.json`. Group chats are never exported. `analyze` splits the thread into episodes (one per task you started, or one the assistant started unprompted), guesses the rubric category from the wording, and records objective signals: first-reply time, turns, whether it said "done", whether it said it couldn't. Scores stay yours. Message text is never published by default: the evidence page at `/agents/<slug>/evidence/<id>` shows the category, date, score, and timings only. `approve --publish-excerpts` opts in to a redacted excerpt (emails, phones, addresses, card and confirmation numbers, links, names in `_redact_terms` masked). Each run carries `protocol`: `task` when you sent the published prompt, `observed` when it was a real-life episode scored after the fact; the site labels both. **Speed** in the scorecard is the median reply time from your thread, measured rather than judged, on a 15s / 45s / 2m / 5m ramp.

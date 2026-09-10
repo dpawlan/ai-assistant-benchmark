@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/lint-notes.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "lint:notes": "node scripts/lint-notes.mjs",
     "collect:x": "node scripts/collect.mjs x",
     "collect:reddit": "node scripts/collect.mjs reddit",
     "collect:hn": "node scripts/collect.mjs hn",

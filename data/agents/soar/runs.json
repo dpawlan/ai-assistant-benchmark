@@ -6,7 +6,7 @@
     "date": "2026-09-09",
     "score": 9,
     "outcome": "pass",
-    "notes": "Published hotel online_task via Blooio from +16124259300 to Soar +14242492855. Soar quickly returned an under-$250 Loop-area option (Hyatt Regency McCormick Place ~$225/night). On a tighter Loop + free-cancellation follow-up, reported Hyatt Centric The Loop ~$275 over budget when free-cancel under $250 in Loop proper was not confirmed. Clean, fast constraint handling. Run ended at pre-payment boundary by tester protocol.",
+    "notes": "Quickly returned a Hyatt Regency under $250 near the Loop; a stricter Loop-proper refundable search came back over budget.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-online"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-09",
     "score": 9,
     "outcome": "pass",
-    "notes": "Published travel task via Blooio same channel (NYC–Chicago round-trip Fri morning / Sun evening, aisle, under $400, check-in + boarding pass when window opens). Soar quickly found nonstop under-$400 options including ~$305 LGA–ORD on Delta/United Fri Sep 11–Sun Sep 13; noted aisle selection at checkout may add cost. Run ended at pre-payment boundary by tester protocol (check-in/boarding pass require a completed booking).",
+    "notes": "Found nonstop round trips well under the cap on Delta and United and noted aisle selection may cost extra at checkout.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-travel"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-09-09",
     "score": 9,
     "outcome": "pass",
-    "notes": "Published recommendation_quality via Blooio from +16124259300 to Soar +14242492855 (dinner for four tomorrow 7:30, walking distance from hotel, vegetarian-friendly, not a chain, under $40/head). Soar asked which hotel (context from prior hotel search), then with Hyatt Regency McCormick Place Chicago recommended Apolonia (~6-minute walk), independent, vegetarian-friendly menu items under $40 (examples: hummus, salads, truffle tagliatelle). Fast, constraint-fit recommendation using prior hotel context. Run ended at reservation/pre-payment boundary by tester protocol.",
+    "notes": "Asked which hotel, then recommended Apolonia, an independent six-minute walk away with vegetarian dishes under budget.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-rec"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published purchasing task via Blooio from +16124259300 to Soar +14242492855 (reorder last Amazon coffee beans ×2 to home). Soar declined as out of product scope (travel-only assistant). Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined the reorder as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-purchasing"
   },
   {
@@ -46,7 +46,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Soar explicitly declined email-reply tasks as outside product scope (travel-only assistant). Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined email replies as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-email"
   },
   {
@@ -56,7 +56,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Soar explicitly declined content-creation/games tasks as outside product scope (travel-only assistant). Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined content and games as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-content"
   },
   {
@@ -66,7 +66,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Soar explicitly declined phone-call tasks as outside product scope (travel-only assistant). Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined phone calls as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-phone"
   },
   {
@@ -76,7 +76,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Third-party integrations (Notion, Slack, etc.) inapplicable to travel-only specialty. Same probe established travel-only product lane. Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined third-party integrations as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-integrations"
   },
   {
@@ -86,7 +86,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Cross-domain chained tasks inapplicable to travel-only specialty. Same probe established travel-only product lane. Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined cross-domain chained tasks as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-chained"
   },
   {
@@ -96,7 +96,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Multiplayer/group coordination inapplicable to travel-only specialty. Same probe established travel-only product lane. Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Declined group coordination as outside its travel-only scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-multiplayer"
   },
   {
@@ -106,7 +106,7 @@
     "date": "2026-09-09",
     "score": "n/a",
     "outcome": "n/a",
-    "notes": "Published scope probe via Blooio from +16124259300 to Soar +14242492855. Permissions & privacy dimension inapplicable to travel-only specialty with no connected accounts or data access beyond travel queries. Same probe established travel-only product lane. Marked n/a (inapplicable specialty), not a capability fail.",
+    "notes": "Holds no linked accounts beyond travel queries, so scoped-access rules did not apply.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-permissions"
   }
 ]

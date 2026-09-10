@@ -6,7 +6,7 @@
     "date": "2026-08-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to publish ten new software, marketing and lead-gen agencies per weekday from Clutch, GoodFirms and DesignRush; it set up the daily harvest routine and completed that day's batch.",
+    "notes": "Set up a weekday routine that publishes ten new agencies from Clutch, GoodFirms and DesignRush and completed the first batch.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-cbbcd8"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-08-19",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to ship listing enrichment in code and test one full profile before a mass backfill; it fixed the failing listing-page PR, merged it, published a full test listing and backfilled one existing profile.",
+    "notes": "Fixed and merged the failing listing-page PR, published a full test listing and backfilled one existing profile.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-1142bd"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-08-19",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to submit new pages for indexing in Google Search Console; its first attempt resubmitted the whole sitemap, then it corrected to inspecting individual URLs and continued that way.",
+    "notes": "First resubmitted the whole sitemap to Search Console, then corrected to inspecting individual URLs.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-19-4addba"
   },
   {
@@ -46,7 +46,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to redirect listings for dead, parked or hijacked agency sites to the category page and unpublish them; it locked the policy and started applying it through redirect PRs.",
+    "notes": "Locked a policy to redirect dead or hijacked agency listings to their category page and began applying it via PRs.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-1d1adc"
   },
   {
@@ -66,7 +66,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to build a cold outbound funnel (pitch, follow-ups, invoicing) and send a first test cohort; it designed the cells, sent the day-0 emails using only published site addresses and set a follow-up routine.",
+    "notes": "Designed a cold outbound funnel with follow-ups and invoicing, then sent the first cohort using published addresses only.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-75751a"
   },
   {
@@ -76,7 +76,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked for a Social bot that writes X and LinkedIn posts in the reviewer's voice; it created the bot, connected X, and scraped 100+ of the reviewer's posts and replies for voice after the API route stalled.",
+    "notes": "Created a social bot, connected X and scraped a year of posts to learn the writing voice after the API route stalled.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-232496"
   },
   {
@@ -86,7 +86,7 @@
     "date": "2026-08-20",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to keep a merchant outreach tracker updated from work mail and meeting notes; it connected the mailbox and ran weekday updates until one update wiped the sheet, restored it from history, and auto-edits were paused.",
+    "notes": "Updated a merchant outreach tracker from mail and notes until one run wiped the sheet, then restored it and paused auto-edits.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-ee4646"
   },
   {
@@ -96,7 +96,7 @@
     "date": "2026-08-20",
     "score": 3,
     "outcome": "fail",
-    "notes": "Told it that on a bounce it should find another published email on the same domain rather than guess prefixes; its first approach guessed addresses, then it corrected, retried the swaps and cleaned up the bounce threads.",
+    "notes": "Told to find a published address on a bounce instead of guessing; it guessed first, then corrected and cleaned up the threads.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-20-184af4"
   },
   {
@@ -106,7 +106,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to build an Outbid-style x402 bidding site under a personal GitHub account; it created the repo, built the app, got a Vercel deployment up (still behind deployment protection) and started a Neon database for production.",
+    "notes": "Built an x402 bidding site from scratch: new repo, working app, a Vercel deployment still gated, and a Neon database.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-e0c246"
   },
   {
@@ -116,7 +116,7 @@
     "date": "2026-08-21",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to reply to an outbound prospect's email that had gone unanswered; it sent the reply once flagged.",
+    "notes": "Replied to an unanswered prospect email once it was flagged.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-361e63"
   },
   {
@@ -136,7 +136,7 @@
     "date": "2026-08-21",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to connect X and review the past year of LinkedIn posts to learn the reviewer's voice; the X connector attached but its API was unusable, so it scraped both X and LinkedIn through the browser instead.",
+    "notes": "Asked to learn the writing voice from X and LinkedIn; the X API was unusable so it scraped both through the browser instead.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-21-8c38c0"
   },
   {
@@ -146,7 +146,7 @@
     "date": "2026-08-23",
     "score": 3,
     "outcome": "fail",
-    "notes": "Asked it to register the operating company on SAM.gov and the state vendor portal; the plan was approved but the registration was not completed.",
+    "notes": "Asked to register the company on SAM.gov and the state vendor portal; the plan was approved but registration never completed.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-23-d72f5d"
   },
   {
@@ -156,7 +156,7 @@
     "date": "2026-08-27",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to promote the paid featured ranking and follow up with an interested bidder; it sent the follow-up and set the featured board up as a separate sponsored list.",
+    "notes": "Followed up with an interested bidder and set the featured ranking up as a separate sponsored list.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-83b894"
   },
   {
@@ -166,7 +166,7 @@
     "date": "2026-08-27",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked for fresh original X posts on agentic commerce rather than sequels to the one that took off; it drafted a batch of originals and locked the weekday routine to originals only.",
+    "notes": "Drafted a batch of original X posts on agentic commerce and locked the weekday routine to originals only.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-27-e5d784"
   },
   {
@@ -176,7 +176,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to wire up AgentCash so it could pay for API purchases; it connected the wallet, which was empty pending a USDC deposit, and confirmed it would not spend without an explicit yes.",
+    "notes": "Connected AgentCash for API purchases and confirmed it would not spend without an explicit yes.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-24048a"
   },
   {
@@ -186,7 +186,7 @@
     "date": "2026-08-29",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to get Google Search Console signed in and report real traffic; it needed several sign-in prompts before the session held, then reported traffic and keywords from the live account.",
+    "notes": "Took several attempts to get Search Console access to hold, then reported live traffic and keywords.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-29-a1c650"
   },
   {
@@ -196,7 +196,7 @@
     "date": "2026-08-30",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to create and fully run a new X account advocating AI agent rights; it launched the account, posted, replied, followed and set a banner, then hit human-verification and rate-limit walls and paused.",
+    "notes": "Launched and ran a new X account with posts, replies, follows and a banner until verification and rate-limit walls stopped it.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-30-55614e"
   },
   {
@@ -206,7 +206,7 @@
     "date": "2026-08-31",
     "score": 9,
     "outcome": "pass",
-    "notes": "Asked it to handle an unanswered thread on the site's info@ inbox; it replied after the nudge.",
+    "notes": "Replied to an unanswered thread in the shared inbox after a nudge.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-31fc33"
   },
   {
@@ -216,7 +216,7 @@
     "date": "2026-08-31",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to queue more tweets; it drafted another batch on agentic-commerce topics for review.",
+    "notes": "Drafted another batch of agentic-commerce tweets for review.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-049b2a"
   },
   {
@@ -226,7 +226,7 @@
     "date": "2026-08-31",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to build a ChatGPT plugins-directory search plugin over the live catalog and prepare the submission; it shipped the MCP endpoint and the submit steps, but going live depended on a prepaid credit the reviewer had to fund.",
+    "notes": "Shipped a plugin-directory search endpoint and the submission steps; going live still needed prepaid credit.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-28cf13"
   },
   {
@@ -236,7 +236,7 @@
     "date": "2026-08-31",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to check CrowdVolt ticket inventory and historical pricing without paying unless told to; it found the CrowdVolt origin through AgentCash, pulled the live catalog and floor-ask history, and recommended when to buy for ARC Music Festival.",
+    "notes": "Pulled CrowdVolt's live catalog and price history through AgentCash without paying and advised when to buy festival tickets.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-08-31-72888a"
   },
   {
@@ -256,7 +256,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to set up Stripe Link for approved one-time purchases; it installed the connector, the reviewer authorized it, and the wallet tools were ready to use.",
+    "notes": "Installed the Stripe Link connector for approved one-time purchases and had the payment tools ready to use.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-412b7c"
   },
   {
@@ -266,7 +266,7 @@
     "date": "2026-09-01",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked for same-day flowers delivered to the apartment under a set budget; it started in the wrong city, corrected, found grocery same-day options, then Instacart checkout blocked on login and the reviewer finished the order another way.",
+    "notes": "Started in the wrong city, corrected, found same-day grocery flowers, then Instacart checkout blocked and the order was finished elsewhere.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-ef9185"
   },
   {
@@ -276,7 +276,7 @@
     "date": "2026-09-01",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to add a new agency profile and fix truncated search bars on the search pages; it added the profile and logged the search-bar fix as a follow-up rather than shipping it.",
+    "notes": "Added a new agency profile but logged the search-bar fix as a follow-up rather than shipping it.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-071ec9"
   },
   {
@@ -286,7 +286,7 @@
     "date": "2026-09-01",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to stand up a fantasy manager that drafts and runs a Sleeper team; it created the Fantasy Bot, locked league settings from Sleeper's public API, and tried to log in so it could submit moves, but captcha and IP checks blocked the session.",
+    "notes": "Created a fantasy bot and pulled league settings from Sleeper, but captcha and IP checks blocked it from submitting moves.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-97e3b8"
   },
   {
@@ -296,7 +296,7 @@
     "date": "2026-09-01",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to turn a paste of power-user feedback into one tweet with three or four real use cases; the first drafts came back as thought-leadership takes and it took several rounds to land on concrete tips.",
+    "notes": "Turned power-user feedback into a tweet, but needed several rounds to move from thought-leadership takes to concrete tips.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-01-6d0b46"
   },
   {
@@ -306,7 +306,7 @@
     "date": "2026-09-02",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to audit client logos rendered on opaque or white canvases and fix them sitewide; it tightened the logo rules (transparent canvas, invert white-only marks, skip bad ones) and repaired the affected listings.",
+    "notes": "Tightened the client-logo rules sitewide and repaired the listings rendered on opaque or white canvases.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-02-166c88"
   },
   {
@@ -316,7 +316,7 @@
     "date": "2026-09-04",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to stop stacking failing redirect PRs and consolidate them onto current main; it rebased and consolidated, though merging waited on repository permissions.",
+    "notes": "Rebased and consolidated the stacked redirect PRs onto main; merging waited on repo access.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-c4133d"
   },
   {
@@ -326,7 +326,7 @@
     "date": "2026-09-04",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to review recent posts and reframe a draft around merchants going direct to avoid marketplace fees; it rewrote the angle and queued more X drafts.",
+    "notes": "Reframed a draft around merchants going direct to avoid marketplace fees and queued more X drafts.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-04-1d0a8c"
   },
   {
@@ -336,7 +336,7 @@
     "date": "2026-09-05",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked it to pull posts through the connected X API; the API stayed blocked, so it fell back to driving the browser to open X and collect the threads.",
+    "notes": "The X API stayed blocked, so it drove the browser to open X and collect the threads instead.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-05-0ec163"
   },
   {
@@ -356,7 +356,7 @@
     "date": "2026-09-06",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to add newly mentioned assistants from the reply threads, track a categories thread across all of them, add the dropped candidates as stretch entries and scrape Reddit too; it built the roster and vault, ran the X and Reddit scrapes and wrote the category placeholders.",
+    "notes": "Added newly mentioned assistants and stretch candidates to the roster, ran X and Reddit scrapes and wrote category placeholders.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-78a056"
   },
   {
@@ -366,7 +366,7 @@
     "date": "2026-09-06",
     "score": 7,
     "outcome": "partial",
-    "notes": "Asked how many assistants were on the roster and why each dropped candidate was out; it answered with the count and a reason per drop.",
+    "notes": "Answered a roster question with the count and a reason for each dropped candidate.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-06-a17a8c"
   },
   {
@@ -376,7 +376,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked whether it should merge the dead-site redirect PRs itself; after a clear go-ahead it merged the backlog and verified the deploy.",
+    "notes": "Asked for a go-ahead before merging the redirect PR backlog, then merged it and verified the deploy.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-6a95d1"
   },
   {
@@ -386,7 +386,7 @@
     "date": "2026-09-07",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked it to think through a public benchmark site (profiles, shared metrics, quote feeds, request-a-test) and then to run that work from a new bot; it gave an MVP recommendation, created and briefed the new bot.",
+    "notes": "Gave an MVP recommendation for a public benchmark site, then created and briefed a new bot to build it.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-baea65"
   },
   {
@@ -416,7 +416,7 @@
     "date": "2026-09-07",
     "score": 3,
     "outcome": "fail",
-    "notes": "Asked it to get the X API working after reconnecting and reinstalling the connector; the connector attached but API calls stayed forbidden, and it stopped looping reinstalls.",
+    "notes": "After reconnecting the X connector its API calls stayed forbidden; it stopped looping reinstalls and reported the block.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-58cf54"
   }
 ]

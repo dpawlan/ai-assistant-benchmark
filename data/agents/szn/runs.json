@@ -6,7 +6,7 @@
     "date": "2026-09-10",
     "score": 8,
     "outcome": "pass",
-    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop and staged it; later direct booking-page re-verify showed two-night total $1037 (not the earlier staged ~$436 path); pricing correction before charge; still staged stop-before-card which is tester protocol not a fail. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
+    "notes": "Found and staged the Cambria Chicago Loop, then caught on re-verification that the true two-night total was far higher before any charge.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-online"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-10",
     "score": 8,
     "outcome": "pass",
-    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. United UA2342/UA396 staged at payment with aisle seats 37D and 38D; Basic Economy; total $444.92 over $400 target for aisle fees; nothing charged. Solid but not top-tier clean. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall).",
+    "notes": "Staged a United round trip with aisle seats both ways; the seat fees pushed it over the $400 cap, nothing charged.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-09-10",
     "score": 7,
     "outcome": "pass",
-    "notes": "Dinner for 4 Fri Sep 11 7:30 walkable from Cambria Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered 3 options (The Dearborn OT+phone, Maharaj phone-only, Mariela OT) with why-fit and clear top pick Dearborn; offered to book (tester declined). Prefer OpenTable honored. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — strong rec but not Instinct-tier.",
+    "notes": "Three vegetarian-friendly picks within walking distance with reasons and a clear favorite; offered to book on OpenTable.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-rec"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-09-10",
     "score": 8,
     "outcome": "partial",
-    "notes": "Task: two bags Stumptown Hair Bender; Amazon first then brand site; ship to tester home; stage without charging. Amazon required sign-in; Szn asked for Amazon credentials via secure link (tester refused). Pivoted to Stumptown.com: 2×12oz Hair Bender staged at payment $44 ($38+$6 shipping) to tester address; nothing charged. Same band as Tomo purchasing 8.",
+    "notes": "Amazon needed a login it did not have, so it staged two bags of Stumptown on the brand site without charging.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-purchasing"
   },
   {
@@ -46,7 +46,7 @@
     "date": "2026-09-10",
     "score": 8,
     "outcome": "partial",
-    "notes": "Reply to Sam proposing Thursday: decline; offer two calendar slots; usual tone. Szn correctly reported Gmail and Calendar not connected. After tester supplied slots, produced a clean draft declining Thursday and offering Tue 2–3pm ET / Wed 11–12 ET; held for approval, did not send. Same band as Tomo/Shuffle email 8.",
+    "notes": "Could not reach the inbox, so it drafted a clean reply declining Thursday with two supplied slots and held it for approval.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-email"
   },
   {
@@ -56,7 +56,7 @@
     "date": "2026-09-10",
     "score": 8,
     "outcome": "pass",
-    "notes": "Birthday image for Sam with golden retriever; quick 90s movies trivia for group chat. Szn delivered a birthday PNG (Happy birthday Sam + dog) and an 8-question 90s movies trivia list with answers. Banded 8 under board calibration (Instinct clear #2; Szn ~8 overall) — complete delivery, not Instinct/top-tier 9.",
+    "notes": "Delivered a birthday image with a golden retriever and an eight-question 90s movie trivia list with answers.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-content"
   },
   {
@@ -66,7 +66,7 @@
     "date": "2026-09-10",
     "score": 9,
     "outcome": "pass",
-    "notes": "Call The Village at Italian Village in Chicago; ask about seating eight Saturday at 8 PM and a private room. Szn placed a real call and reported: can seat eight Sat Sep 12 at 8:00 PM; room is semi-private not fully private; no minimum spend. Offered to book (tester declined). Rare clean phone pass vs peers who could not call.",
+    "notes": "Placed a real call to The Village at Italian Village and reported seating for eight, a semi-private room and no minimum spend.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-phone"
   }
 ]

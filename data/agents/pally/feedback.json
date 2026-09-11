@@ -2639,5 +2639,60 @@
       "views": 246,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "f289def179eb",
+    "agent": "pally",
+    "quote": "However, seasoned developers and tech critics raised major security and trust concerns: \"Letting an AI reply on your behalf is a whole new level of risk. Does it draft-and-wait by default, or auto-send once it's confident? If it hallucinates and sends something offensive to a client or a loved one, that's a relationship bug no hotfix can patch.\"",
+    "author": "Coding4Food",
+    "author_name": "Coding4Food",
+    "date": "2026-07-31",
+    "url": "https://coding4food.com/en/post/pally-ai-personal-text-assistant-review#trust-risk",
+    "kind": "complaint",
+    "tags": [
+      "auto-reply",
+      "trust",
+      "hallucination"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Launch debate: auto-reply risk / relationship-bug framing."
+  },
+  {
+    "id": "6956aeaf9009",
+    "agent": "pally",
+    "quote": "The introverts are absolutely thrilled. One user cheered, \"I have a backlog of friends I ghosted on WhatsApp because I forgot to text back. Hoping to power through them with Pally.\" Indeed, for those who suffer from messaging anxiety, this tool is a lifesaver.",
+    "author": "Coding4Food",
+    "author_name": "Coding4Food",
+    "date": "2026-07-31",
+    "url": "https://coding4food.com/en/post/pally-ai-personal-text-assistant-review#ghosted-friends",
+    "kind": "use-case",
+    "tags": [
+      "whatsapp",
+      "auto-reply",
+      "social"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Product Hunt user quote relayed in review: WhatsApp ghost backlog use case."
+  },
+  {
+    "id": "3521c439b0e9",
+    "agent": "pally",
+    "quote": "Pally is one of the most complete personal AI assistants available in 2026. Its best trick is not chat: it assembles context from your messages, email, calendar, documents, tasks, location, and the web, then reaches you in iMessage or RCS before something slips. The Free and $25/month Pro plans are compelling. The $200/month Max plan is harder to justify unless outbound calls, browser errands, and an assistant-owned phone number and email replace meaningful human help.",
+    "author": "UseCarly",
+    "author_name": "UseCarly",
+    "date": "2026-07-30",
+    "url": "https://www.usecarly.com/blog/pally-ai-review/",
+    "kind": "other",
+    "tags": [
+      "pricing",
+      "imessage",
+      "context",
+      "max-tier"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Buying analysis: Pro value vs Max $200 only if replacing real human errands/calls."
   }
 ]

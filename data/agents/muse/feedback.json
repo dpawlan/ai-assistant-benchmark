@@ -872,5 +872,317 @@
       "views": 14869,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "850c60fa4417",
+    "agent": "muse",
+    "quote": "By the way Muse by @Meta is good in figma designs",
+    "author": "@Nuskritt",
+    "author_name": "████████ 𝕏 ",
+    "date": "2026-09-11",
+    "url": "https://x.com/Nuskritt/status/2098406120771518702",
+    "kind": "praise",
+    "tags": [
+      "design",
+      "figma"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Brief positive user comment about Muse for Figma design work."
+  },
+  {
+    "id": "5a32d7444520",
+    "agent": "muse",
+    "quote": "Meta's AI Agent\n\nMeta has launched an AI Agent called Muse that anyone can easily use.\n\nLink\n\nhttp://\nmuse.ai\n\nIn simple terms\nIt feels like they've made OpenClaw immediately accessible to the general public...?\n\nLooking at the specs\n\nMuse isn't just a chatbot that answers questions\nIt comes with its own computer and browser, handling everything from web searches to emails, reservations, document creation, and other real tasks on your behalf.\n\nWhat's even more surprising is that it offers up to 100 million tokens for free per week.\n\nThe fact that Meta is releasing this level of computing resources to everyday users is pretty impressive in itself.\n\nAI has now gone beyond just providing answers\nAnd reached the stage of 'using my computer on my behalf'\n\nI should probably get on the waitlist and try it out myself first.\n\nIt feels right to test things like this ahead of time.\n\nWaitlist registration completed for now",
+    "author": "@Node_Park",
+    "author_name": "Node_Park",
+    "date": "2026-09-11",
+    "url": "https://x.com/Node_Park/status/2098317484101435686",
+    "kind": "use-case",
+    "tags": [
+      "browser-actions",
+      "automation",
+      "OpenClaw-comparison",
+      "waitlist"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Translated Korean post; author summarizes browser/email/reservation/document capabilities and says they joined the waitlist, not yet tested."
+  },
+  {
+    "id": "04c87e08edce",
+    "agent": "muse",
+    "quote": "Could this be the death knell for Meta? Meta just rolled out Muse, its 1st ever personal AI agent...something that many want no part of. The AI agent can open browsers, fill out forms, & act \"on your behalf\" is a meaningful leap in access. NO THANKS!",
+    "author": "@MariaKaramitsos",
+    "author_name": "Maria A. Karamitsos",
+    "date": "2026-09-11",
+    "url": "https://x.com/MariaKaramitsos/status/2098406794750046650",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "agency",
+      "browser-actions"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Negative reaction to Muse acting on the user's behalf in browsers/forms."
+  },
+  {
+    "id": "77c787f82493",
+    "agent": "muse",
+    "quote": "I am convinced that the Meta Muse contributor models are meaningfully worse than their non contributor counterparts.\n\nGonna do a bunch of tests to see if im trippin today",
+    "author": "@CaryPalmerr",
+    "author_name": "Palmer",
+    "date": "2026-09-11",
+    "url": "https://x.com/CaryPalmerr/status/2098407337371357390",
+    "kind": "complaint",
+    "tags": [
+      "quality",
+      "model-comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User questions Muse contributor-model quality and plans comparative tests."
+  },
+  {
+    "id": "85e5c8aa1920",
+    "agent": "muse",
+    "quote": "I dove deeper from there and asked Muse what else it might know about me based on the Instagram and Facebook accounts I signed up to use the AI agent with. It rattled off my very specific interests, ranging from anime and CrossFit to Labrador retrievers, Florida wildlife, and '90s/2000s nostalgia — many of the same topics that frequently pop up in my Instagram Reels feed.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-09-10",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#instagram-interests",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "instagram",
+      "meta",
+      "creepy"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge: Muse surfaces Instagram interest graph beyond what UI Ad Topics shows — trust friction."
+  },
+  {
+    "id": "7b403bd2c841",
+    "agent": "muse",
+    "quote": "One of the first tasks I assigned Muse, which carries out actions using a cloud-based virtual computer, was to sort through my Gmail inbox and delete messages I don't need. That required me to connect Muse to my Google account and give it permission to access, read, and delete emails. The process didn't go smoothly on mobile; the Google sign-in screen kept glitching and returning me to the Muse website instead of the app. I eventually got it working on my laptop, where it deleted thousands of promotional emails and updates.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-09-10",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#gmail-cleanup",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "gmail",
+      "onboarding",
+      "mobile-bug"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge hands-on Sep 10: Gmail cleanup works after mobile OAuth glitches."
+  },
+  {
+    "id": "2cf3ee1852db",
+    "agent": "muse",
+    "quote": "I asked the AI agent to pick out workout tops for me based on a specific size, style, and colors. Before placing the order, Muse noticed I had other items in my cart and asked if I wanted to remove them. The consideration pleasantly surprised me. Once I signed off on the purchase, it proceeded to successfully buy only the tank tops.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-09-10",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#amazon-purchase",
+    "kind": "praise",
+    "tags": [
+      "shopping",
+      "amazon",
+      "approval",
+      "purchasing"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge: successful Amazon purchase with cart awareness before checkout."
+  },
+  {
+    "id": "2c9dcbd2ed39",
+    "agent": "muse",
+    "quote": "Muse could be useful if you're not using any AI assistants, especially if you want an assistant in WhatsApp. I already have Instinct and Grok. So, I probably wouldn't use Muse again. But if Zuck can improve Muse's travel booking abilities, I'll be down to give it another shot!",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#verdict",
+    "kind": "comparison",
+    "tags": [
+      "whatsapp",
+      "switching",
+      "travel"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Overall A- but existing Instinct/Grok user unlikely to switch unless travel improves."
+  },
+  {
+    "id": "b905ecb78cf3",
+    "agent": "muse",
+    "quote": "I had Muse look for a deal on a North Face McMurdo parka. It popped up a little window where I could watch it search one online retailer after another. I've never seen anyone else do this! Muse couldn't find any sales. But showing me the searches it ran gave me confidence this was the best price.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#parka",
+    "kind": "praise",
+    "tags": [
+      "shopping",
+      "browser-agent",
+      "transparency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Visible multi-retailer search UI builds trust even when no deal found."
+  },
+  {
+    "id": "59e891029465",
+    "agent": "muse",
+    "quote": "So I asked Muse to look through my Gmail — who was I talking to a year ago but haven't spoken to recently? Muse ran slowly, but it did find some founders that I hadn't talked to since last fall. I'm taking a closer look into some of the companies it mentioned.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#gmail-reconnect",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "crm-lite",
+      "latency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Gmail reconnect-with-founders search works but slow."
+  },
+  {
+    "id": "d2d605dac64d",
+    "agent": "muse",
+    "quote": "I asked Muse to monitor prices from Newark to Haneda for a 3-month trip beginning in January. It did a good job of searching flight prices, finding a ticket for $2,000 on United. I asked it to continue monitoring the route to see if prices drop. This is where Muse fell short. Muse only offered to check fares once a week. That's not nearly enough to find great deals. I got Muse to check twice a day, but that still could miss some great fares.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#flight-monitoring",
+    "kind": "comparison",
+    "tags": [
+      "travel",
+      "flights",
+      "proactive",
+      "monitoring"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Sep 10 head-to-head: Muse flight search OK; continuous monitoring weaker than Instinct."
+  },
+  {
+    "id": "662702c56ea1",
+    "agent": "muse",
+    "quote": "I am shocked. After playing with Muse by Meta for an hour in just chat mode, I was impressed enough to: I never use Apple Reminders so I gave Muse read access to Reminders. I asked Muse to schedule repeating tasks that only involve web search e.g., every other morning find sci-fi movies playing in my city, 3pm EST stock market summary, etc. I also permanently set my food preferences and just naming any restaurant in town gets me an accurate list of recommendations with costs and descriptions.",
+    "author": "mark_l_watson",
+    "author_name": "mark_l_watson",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49631236",
+    "kind": "praise",
+    "tags": [
+      "reminders",
+      "recommendations",
+      "routines",
+      "memory"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Strong early praise: recurring web-search tasks + restaurant recommendations from preferences."
+  },
+  {
+    "id": "0d049e593a21",
+    "agent": "muse",
+    "quote": "My grocery store's app requires me to \"clip\" coupons if I want to use them. Instead of clipping just the ones that I need, I would just take 2-3 minutes to tap the clip button repeatedly (as you clip the next coupon moves up into the same spot). Very tedious, but the best way to make sure you don't miss any savings. Today I asked Muse to do it. It was very slow compared to my repetitive tapping, but it clipped every coupon for me after getting my login credentials for the grocery store's website.",
+    "author": "WillyF",
+    "author_name": "WillyF",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49626889",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "browser-agent",
+      "latency"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Hands-on HN: Muse completes tedious coupon-clipping via store login; slow but thorough."
+  },
+  {
+    "id": "a60a4aa78ae7",
+    "agent": "muse",
+    "quote": "I've been alpha testing muse and there's precisely one area it's useful in.... Finding things on Facebook Marketplace and haggling for me lol",
+    "author": "N3cr0ph4g1st",
+    "author_name": "N3cr0ph4g1st",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49622074",
+    "kind": "use-case",
+    "tags": [
+      "marketplace",
+      "haggling",
+      "meta-ecosystem"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Alpha tester: Marketplace search + haggling is the standout useful job."
+  },
+  {
+    "id": "2af074708e6e",
+    "agent": "muse",
+    "quote": "Now I'm trying muse spark 1.3 with opencode which is free with pretty generous usage allowance. First time I've been impressed by meta's AI products. It feels not far below opus 4.8ish",
+    "author": "willsmith72",
+    "author_name": "willsmith72",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49620473",
+    "kind": "praise",
+    "tags": [
+      "muse-spark",
+      "coding",
+      "model-quality"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Muse Spark 1.3 via OpenCode compared favorably to Opus-tier for coding."
+  },
+  {
+    "id": "adc4512d2311",
+    "agent": "muse",
+    "quote": "Agreed. I'm not a fan of Meta in any way, but I've had fun messing with the app this afternoon - both on my phone and the web version at muse.ai - to see what it could do. Like the announcement said, it's running in its own VM, but it's an impressively transparent system: You have access to its System Files right in the GUI, which surprised me. You can look at the AGENTS.md and other harness files it uses as well as some shell scripts, bash files, cronjob folder etc. It seems a lot more obvious to me how Muse works than say Claude or ChatGPT, which don't make it nearly as clear where stuff lives and how long its there for.",
+    "author": "russellbeattie",
+    "author_name": "russellbeattie",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49620247",
+    "kind": "praise",
+    "tags": [
+      "security",
+      "transparency",
+      "vm",
+      "harness"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Hands-on: praises Muse Secure VM transparency / System Files vs Claude/ChatGPT opacity."
+  },
+  {
+    "id": "f274e1238555",
+    "agent": "muse",
+    "quote": "Now they have Muse Spark 1.3, which is somewhere between Sonnet and Flable (Opus tier in my experience) in intelligence, but is very fast at 200+ tok/s. I have been using Muse Spark 1.3 contrib (the one that shares your data for training but is much cheaper) via OpenCode Go $10/mo plan for coding and the thing flies, it's a pleasure to use.",
+    "author": "bel8",
+    "author_name": "bel8",
+    "date": "2026-09-08",
+    "url": "https://news.ycombinator.com/item?id=49616351",
+    "kind": "praise",
+    "tags": [
+      "muse-spark",
+      "speed",
+      "coding",
+      "pricing"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Speed praise for Muse Spark 1.3 contrib on OpenCode Go."
   }
 ]

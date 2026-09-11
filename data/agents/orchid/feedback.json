@@ -10730,5 +10730,42 @@
       "views": 37,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "c49dd3531626",
+    "agent": "orchid",
+    "quote": "Orchid is a personal EA that lives in iMessage and SMS: it texts you your day each morning, drafts replies in your voice, books meetings, dinners and travel after you approve, runs recurring habits, and remembers what you tell it. Gmail and Google Calendar only; no published pricing.",
+    "author": "Pranav Mishra",
+    "author_name": "Pranav Mishra (alfred_)",
+    "date": "2026-09-02",
+    "url": "https://get-alfred.ai/blog/alfred-vs-orchid#orchid-summary",
+    "kind": "comparison",
+    "tags": [
+      "imessage",
+      "gmail-only",
+      "pricing",
+      "errands"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Sep 2 comparison: Orchid channel purity + errands vs Outlook gap and unpublished price."
+  },
+  {
+    "id": "55092166d0a8",
+    "agent": "orchid",
+    "quote": "Orchid's gaps are scope and transparency. Gmail and Google Calendar only, so an Outlook mailbox is outside the product. One account. No published pricing, which means a sales conversation before you know the cost. And a \"never let anything slip\" promise without a published ledger of what is waiting on other people: reminders about your deadlines are not the same as a list of who owes you a reply, chased.",
+    "author": "Pranav Mishra",
+    "author_name": "Pranav Mishra (alfred_)",
+    "date": "2026-09-02",
+    "url": "https://get-alfred.ai/blog/alfred-vs-orchid#orchid-gaps",
+    "kind": "complaint",
+    "tags": [
+      "outlook",
+      "pricing",
+      "follow-ups"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Clear product gaps from competitor field-test writeup updated Sep 2."
   }
 ]

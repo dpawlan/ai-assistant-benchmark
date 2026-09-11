@@ -1693,5 +1693,43 @@
       "views": 554,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "c9e5e52fa824",
+    "agent": "wajo-fo",
+    "quote": "I run a three-location cafe and Wajo has become our operations backbone. A shared agent coordinates supplier onboarding, handles invoices, and routes payment approvals. It links to calendars and Slack, so our team stays in sync without endless emails. The AI-human collaboration is perfect for edge cases, though the multi-location permission setup felt a bit fiddly at first.",
+    "author": "Sophia Williams",
+    "author_name": "Sophia Williams",
+    "date": "2026-09-04",
+    "url": "https://www.chatableapps.com/tools/wajo#sophia-williams",
+    "kind": "use-case",
+    "tags": [
+      "ops",
+      "invoices",
+      "slack",
+      "permissions"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Multi-location cafe ops use case; permissions setup friction."
+  },
+  {
+    "id": "a143ad3e9406",
+    "agent": "wajo-fo",
+    "quote": "Booking a last-minute event was a nightmare until I tried Wajo. The proactive agent lined up venues, emailed vendors, and kept all calendars in sync without me lifting a finger. It nudged for payments and escalated to a human when needed. The only hiccup was one vendor reply that needed clearer instructions, but it was resolved quickly.",
+    "author": "Elijah Jackson",
+    "author_name": "Elijah Jackson",
+    "date": "2026-09-04",
+    "url": "https://www.chatableapps.com/tools/wajo#elijah-jackson",
+    "kind": "praise",
+    "tags": [
+      "events",
+      "vendors",
+      "calendar",
+      "escalation"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "ChatableApps review (~1 week before scan): event booking + vendor coordination praise."
   }
 ]

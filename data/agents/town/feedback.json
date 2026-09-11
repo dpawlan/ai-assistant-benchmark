@@ -7271,5 +7271,116 @@
       "views": 19316,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "b9ce90f7d827",
+    "agent": "town",
+    "quote": "New benchmark test for @TownAI @bot & @noahrshinn Instinct should be provide address and contact information and go to https://ups.com @UPS website and complete everything to create a return shipping label for an international package. Holla back when done.",
+    "author": "@waynesutton",
+    "author_name": "Wayne Sutton",
+    "date": "2026-09-11",
+    "url": "https://x.com/waynesutton/status/2098198755820339691",
+    "kind": "use-case",
+    "tags": [
+      "benchmark",
+      "shipping",
+      "international",
+      "task-completion"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User proposes an end-to-end international UPS return-label benchmark for Town and Instinct; no completion result claimed."
+  },
+  {
+    "id": "4b66d97ac4bd",
+    "agent": "town",
+    "quote": "Recently got asked to make slides on the AI creative ecosystem.\n\nI'd shared thoughts on this across countless meetings, emails, Slacks, and tweets - but hunting these down would be tedious.\n\nSo I asked my @TownAI agent to do it. It collated all the insights + made the deck",
+    "author": "@venturetwins",
+    "author_name": "Justine Moore",
+    "date": "2026-09-11",
+    "url": "https://x.com/venturetwins/status/2098164888241889477",
+    "kind": "use-case",
+    "tags": [
+      "research",
+      "slides",
+      "creative-ecosystem",
+      "cross-source"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Direct use report: Town collated the author's prior thoughts across multiple sources and made a slide deck."
+  },
+  {
+    "id": "92aa3c685ea6",
+    "agent": "town",
+    "quote": "oh no my instinct @muse and @TownAI are having a turf war whenever a new email appears",
+    "author": "@infoxiao",
+    "author_name": "Xiao Ma",
+    "date": "2026-09-11",
+    "url": "https://x.com/infoxiao/status/2098144182070341956",
+    "kind": "bug",
+    "tags": [
+      "email",
+      "conflict",
+      "automation"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User reports Muse and Town competing whenever a new email arrives."
+  },
+  {
+    "id": "d27ba38572fe",
+    "agent": "town",
+    "quote": "Very nice and appreciated @TownAI feature – a credit usage optimiser!\n\nDon’t sell ice to Eskimos. Good product decision",
+    "author": "@NoamTenne",
+    "author_name": "Noam Tenne",
+    "date": "2026-09-11",
+    "url": "https://x.com/NoamTenne/status/2098321238842134774",
+    "kind": "praise",
+    "tags": [
+      "credits",
+      "cost-control",
+      "feature"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Positive reaction to Town's credit-usage optimiser."
+  },
+  {
+    "id": "1676580964dc",
+    "agent": "town",
+    "quote": "Town is a credible AI work assistant, not a dressed-up chatbot. It learns context from your email, calendar, documents, messages, and connected business tools; gives its \"Townie\" an @town.com address; and can send email, schedule meetings, research people, prepare briefings, and run custom routines. Its strongest fit is a busy professional who wants one ambient assistant across work. Its biggest tradeoffs are credit-based pricing and a one-assistant model that is less clean than specialized agents for distinct business processes.",
+    "author": "UseCarly",
+    "author_name": "UseCarly",
+    "date": "2026-07-30",
+    "url": "https://www.usecarly.com/blog/town-ai-review/",
+    "kind": "other",
+    "tags": [
+      "work",
+      "townie",
+      "credits",
+      "outlook"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Evidence-based buying analysis (not months-long trial); notes Outlook now live post-June launch."
+  },
+  {
+    "id": "9155dc00d956",
+    "agent": "town",
+    "quote": "Town.com offers a unique email-native AI assistant that provides users with a dedicated @town.com email address, allowing you to interact with your AI assistant the same way you would a human executive assistant. ... If you'll consistently work through the @town.com email address, the context Town builds up over time creates real value. If your work lives across Slack, project management tools, and CRM systems, the email-first model may add friction instead of cutting it.",
+    "author": "this+that",
+    "author_name": "this+that team",
+    "date": "2026-06-09",
+    "url": "https://www.thisandthat.chat/blog/town-com-review/",
+    "kind": "comparison",
+    "tags": [
+      "email-native",
+      "friction",
+      "teams"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Competitor review: email-native strength vs multi-channel team friction."
   }
 ]

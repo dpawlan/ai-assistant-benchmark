@@ -5487,5 +5487,42 @@
       "views": 156,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "060e64b21854",
+    "agent": "poke",
+    "quote": "it seems quite obvious that imessage is the best venue for consumer agents why was poke not a success?",
+    "author": "anr0",
+    "author_name": "anr0",
+    "date": "2026-08-10",
+    "url": "https://news.ycombinator.com/item?id=49248820",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "adoption",
+      "ask-hn"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Ask HN framing questions Poke adoption despite iMessage distribution thesis."
+  },
+  {
+    "id": "2ec82fe23f69",
+    "agent": "poke",
+    "quote": "Poke is a launched, broadly-featured assistant that was the first third-party AI agent Apple approved to run inside iMessage, and it works across iMessage, SMS, and Telegram with published paid plans. ... Use Poke if you want a launched, multi-channel assistant with published pricing you can commit to now.",
+    "author": "UseCarly",
+    "author_name": "UseCarly",
+    "date": "2026-07-13",
+    "url": "https://www.usecarly.com/blog/caddy-vs-poke/#poke",
+    "kind": "comparison",
+    "tags": [
+      "imessage",
+      "pricing",
+      "channels",
+      "maturity"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Buying guide: Poke maturity + Apple Messages for Business moat vs Caddy beta."
   }
 ]

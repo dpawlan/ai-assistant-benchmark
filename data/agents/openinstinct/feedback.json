@@ -3135,5 +3135,24 @@
       "views": 124,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "9e663ed28426",
+    "agent": "openinstinct",
+    "quote": "We love Instinct, but have been increasingly worried about the data footprint we are handing over to them, and what they might do with that data. So we built an oss self-hostable version. It includes a vault that can store cards, logins, and personal information, so it can execute complex tasks on your behalf, like: \"Get me two tickets to the odyssey on saturday at my nearest theatre\"",
+    "author": "OG_BME",
+    "author_name": "OG_BME",
+    "date": "2026-08-28",
+    "url": "https://news.ycombinator.com/item?id=49479314#openinstinct",
+    "kind": "use-case",
+    "tags": [
+      "self-host",
+      "privacy",
+      "vault",
+      "show-hn"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Show HN OpenInstinct: OSS Instinct clone with local vault for tickets/bookings."
   }
 ]

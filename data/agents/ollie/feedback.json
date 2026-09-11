@@ -3253,5 +3253,23 @@
       "views": 161,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "e3494ac4b0d8",
+    "agent": "ollie",
+    "quote": "Ollie, meanwhile, experienced an infrastructure outage with its text provider when I was testing it, and it stopped responding.",
+    "author": "Sarah Perez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-09-03",
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/#ollie-outage",
+    "kind": "bug",
+    "tags": [
+      "reliability",
+      "sms",
+      "outage"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "TechCrunch hands-on: text-provider outage stopped Ollie responding during test."
   }
 ]

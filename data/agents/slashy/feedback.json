@@ -6134,5 +6134,23 @@
       "views": 70,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "e1d178fbf99f",
+    "agent": "slashy",
+    "quote": "What is the purpose of AI agents embedded in email apps (Superhuman, Extra, Sunflower, Slashy, etc.) when personal assistants like Muse and Grok Bot can embed directly into your inbox anyway?\n\nDuplicative agents, no?",
+    "author": "@bradleydavid",
+    "author_name": "Brad Ward",
+    "date": "2026-09-11",
+    "url": "https://x.com/bradleydavid/status/2098183120499466418",
+    "kind": "comparison",
+    "tags": [
+      "email",
+      "competition",
+      "duplication"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User questions whether Slashy-style email agents are redundant versus inbox-level assistants."
   }
 ]

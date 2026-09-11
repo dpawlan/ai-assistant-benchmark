@@ -18317,5 +18317,136 @@
       "views": 46,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "c1a789081d08",
+    "agent": "personal-local",
+    "quote": "@grok update:\n\nNew Discord capture from the OpenClaw community is worth documenting as community behavior, not maintainer policy.\n\nA user asked how to make their AI assistant “just doesn’t refuse me and do whatever I say.” Another participant responded: “use a dumber model. or a jailbroken one.” The discussion then moved into trying different models/harnesses.\n\nMinutes later, another participant posted: “Sorry, I got mixed up in the line. That wasn’t meant for your question.”\n\nImportant distinction: this does not establish that OpenClaw maintainers endorse jailbreaking or bypassing model safeguards. It does document that this advice is being circulated by participants in the community.\n\nThe juxtaposition is the interesting part: users are discussing eliminating refusals while the same conversation contains an apparent context/routing mix-up. More obedience does not equal better routing, state integrity, or reliability.\n\nScreenshots preserved. MetaSync remains parked/frozen. No internals shared.",
+    "author": "@VampireGurlAI",
+    "author_name": "Paula Vazquez",
+    "date": "2026-09-11",
+    "url": "https://x.com/VampireGurlAI/status/2098406256709189695",
+    "kind": "bug",
+    "tags": [
+      "community-report",
+      "refusals",
+      "routing",
+      "reliability"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Secondhand community observation explicitly labeled by the author as not maintainer policy; reports refusal-seeking and an apparent context/routing mix-up."
+  },
+  {
+    "id": "5704eb2492c3",
+    "agent": "personal-local",
+    "quote": "You probably don't need OpenClaw or GrokBot.\n\nChatGPT Work can now do most of the things that people use these agent platforms for:\n\n- Pulling data from sources such as Notion/Google Drive\n- Accessing MCP servers\n- Scheduled tasks\n- Data analysis\n\netc.",
+    "author": "@MediaKing",
+    "author_name": "Matt Paulson",
+    "date": "2026-09-11",
+    "url": "https://x.com/MediaKing/status/2098403439537537436",
+    "kind": "comparison",
+    "tags": [
+      "alternatives",
+      "MCP",
+      "scheduled-tasks",
+      "data-analysis"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User argues ChatGPT Work covers common OpenClaw use cases, a direct competitive comparison."
+  },
+  {
+    "id": "28d67c7745b6",
+    "agent": "personal-local",
+    "quote": "I was using OpenClaw with open router, but stopped because how inconsistent the results were over the same prompt. I thought OC is at fault, never would have guessed that there are differences between providers.",
+    "author": "_ink_",
+    "author_name": "_ink_",
+    "date": "2026-09-11",
+    "url": "https://news.ycombinator.com/item?id=49656235",
+    "kind": "complaint",
+    "tags": [
+      "openclaw",
+      "openrouter",
+      "reliability",
+      "providers"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Fresh Sep 11: abandoned OpenClaw due to inconsistent OpenRouter results."
+  },
+  {
+    "id": "8e73f816a274",
+    "agent": "personal-local",
+    "quote": "I've been running openclaw for several months now. At first it didn't go well, but now I'm happier with my set up. I have a few purpose-built agents that have a pretty narrow scope. They're able to do their job really well and have started to provide real value in my day to day life.",
+    "author": "chigsy",
+    "author_name": "chigsy",
+    "date": "2026-09-10",
+    "url": "https://news.ycombinator.com/item?id=49649923",
+    "kind": "praise",
+    "tags": [
+      "openclaw",
+      "narrow-agents",
+      "setup"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Mature OpenClaw setup: narrow purpose-built agents beat generalist."
+  },
+  {
+    "id": "9d0c21ad8bc5",
+    "agent": "personal-local",
+    "quote": "I've desperately tried to use the Claude work, ChatGPT work, even OpenClaw, and I've yet to find a meaningful use of such an assistant. Maybe my life is too boring, but what I see here is a bunch of stuff that makes life more complicated.",
+    "author": "fnordpiglet",
+    "author_name": "fnordpiglet",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49627218",
+    "kind": "complaint",
+    "tags": [
+      "openclaw",
+      "claude",
+      "chatgpt",
+      "skepticism"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Category skepticism: tried OpenClaw/Claude/ChatGPT work modes, no meaningful fit."
+  },
+  {
+    "id": "42faaae512b8",
+    "agent": "personal-local",
+    "quote": "I started using claude code a couple of months ago and now almost exclusively use it. My workflow is mostly creating a md file describing what I want then telling claude code to look at it and implement it. I simply use the default model 95% of the time.",
+    "author": "varnaud",
+    "author_name": "varnaud",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49625048",
+    "kind": "use-case",
+    "tags": [
+      "claude-code",
+      "workflow",
+      "markdown"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Claude Code daily driver via markdown specs."
+  },
+  {
+    "id": "447c05010eb2",
+    "agent": "personal-local",
+    "quote": "I know OpenClaw and Hermes are supposedly answers to this, but I find that they've each become so bloated with features that they're far more difficult to use and bug prone than I'm happy with. I'd prefer something more opinionated that limits the surface area for bugs as well as the number of decisions I need to make as an operator.",
+    "author": "h14h",
+    "author_name": "h14h",
+    "date": "2026-09-08",
+    "url": "https://news.ycombinator.com/item?id=49617903#openclaw-bloat",
+    "kind": "complaint",
+    "tags": [
+      "openclaw",
+      "hermes",
+      "complexity",
+      "bugs"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Wants self-hosted Instinct-like; finds OpenClaw/Hermes too bloated/bug-prone."
   }
 ]

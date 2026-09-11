@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "id": "6b473cea2d0d",
+    "agent": "letta",
+    "quote": "@DeepakNesss Does it support Letta Agent yet?  or Grokbot",
+    "author": "@JoeFinberg",
+    "author_name": "Joe S. Finberg",
+    "date": "2026-09-06",
+    "url": "https://x.com/JoeFinberg/status/2096640181734695404",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "ed031116c430",
+    "agent": "letta",
+    "quote": "Office Hours is at 11:30am Pacific today!\n\nOffice Hours is Letta's weekly livestream where you can catch up on all things Letta + agent building.\n\nSee you there: https://t.co/WmnOu5oLIL",
+    "author": "@just_cameron",
+    "author_name": "Cameron",
+    "date": "2026-09-03",
+    "url": "https://x.com/just_cameron/status/2095555535286476913",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "7c26dd0f444b",
+    "agent": "letta",
+    "quote": "8 AI AGENT REPOS I FOUND AFTER GOING DEEPER INTO GITHUB.\n\n1. GenOffice: AI-native office suite where agents work across docs, spreadsheets, presentations and PDFs.\n\n→ https://t.co/zkMJ7agpR9\n\n2. OpenMAI: Multi-agent classroom for creating lessons, quizzes and interactive learning experiences.\n\n→ https://t.co/0g98VBKflm\n\n3. DeepTutor: AI tutoring system with deep research, memory and personalized learning.\n\n→ https://t.co/t3o1gp5VXw\n\n4. AirI: Open-source AI companion built for real-time interaction and voice.\n\n→ https://t.co/vuly3gvAyX\n\n5. Headroom: Explores context compression while keeping the information that matters.\n\n→ https://t.co/tgNHKav4uE\n\n6. AI Hedge Fund: Multi-agent system exploring different approaches to financial research.\n\n→ https://t.co/c4REeRdu93\n\n7. Letta: Agent framework focused on persistent memory and stateful AI agents.\n\n→ https://t.co/CdzwQtON5K\n\n8. OpenViking: Context database built for AI agents, skills and long-term memory.\n\n→ https://t.co/0Dj2YfO8Wz\n\nThese are the kind of projects that make GitHub worth digging through.\n\nBookmark this list.",
+    "author": "@RodmanAi",
+    "author_name": "Leonard Rodman",
+    "date": "2026-09-03",
+    "url": "https://x.com/RodmanAi/status/2095486548447989955",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "4acb9fc84fb3",
+    "agent": "letta",
+    "quote": "The Letta Agent SDK is now available.\n\nProgram stateful agents, let them teleport across computers, build custom interfaces, and design dynamic workflows.\n\nOh -- also, it's model and provider agnostic. No more lock-in. https://t.co/8btWZqhz7T",
+    "author": "@just_cameron",
+    "author_name": "Cameron",
+    "date": "2026-08-18",
+    "url": "https://x.com/just_cameron/status/2089804679651922152",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "2684158c19c6",
+    "agent": "letta",
+    "quote": "Letta Agent SDK",
+    "author": "@daivbr",
+    "author_name": "Daivison Cardoso",
+    "date": "2026-08-18",
+    "url": "https://x.com/daivbr/status/2089749382816002488",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "215fcc5f67cd",
+    "agent": "letta",
+    "quote": "We’re releasing the Letta Agent SDK: A  TypeScript library for working with stateful agents.\n\nPersistent agents can be invoked across computers (local/remote) while retaining memory and state.\n\nUse it to create your own stateful agent UIs or to build dynamic workflows. https://t.co/1DnrXkBzF4",
+    "author": "@Letta_AI",
+    "author_name": "Letta",
+    "date": "2026-08-17",
+    "url": "https://x.com/Letta_AI/status/2089462942010134612",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:21:21.403Z",
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  }
+]

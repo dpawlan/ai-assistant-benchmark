@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-blooio-rec",
+  "agent": "szn",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T16:55:00.000Z"
+}

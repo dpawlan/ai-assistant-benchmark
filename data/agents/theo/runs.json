@@ -6,7 +6,7 @@
     "date": "2026-08-26",
     "score": 3,
     "outcome": "fail",
-    "notes": "Claude-scored from transcript. Category changed from memory. Returned a random \"top 4\" with City Island for a query that was not about places, then admitted the miss.",
+    "notes": "Returned a random top-four list with City Island for a query that was not about places, then admitted the miss.",
     "evidence_url": "/agents/theo/evidence/theo-2026-08-26-db6061"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-05",
     "score": 7,
     "outcome": "pass",
-    "notes": "Claude-scored from transcript. Category changed from recommendation_quality. Declined a Montreal question as outside its NYC scope rather than guessing.",
+    "notes": "Declined a Montreal question as outside its NYC scope rather than guessing.",
     "evidence_url": "/agents/theo/evidence/theo-2026-09-05-5b257c"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-09-08",
     "score": 6,
     "outcome": "partial",
-    "notes": "Claude-scored from transcript. Asked a reasonable clarifying question (vibe) instead of offering options; no recommendation delivered.",
+    "notes": "Asked what vibe the user wanted instead of offering options; no recommendation delivered.",
     "evidence_url": "/agents/theo/evidence/theo-2026-09-08-ee5c3a"
   }
 ]

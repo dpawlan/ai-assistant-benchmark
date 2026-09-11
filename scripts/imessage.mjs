@@ -13,7 +13,8 @@
  *                                       a pasted transcript: lines start "Me:" or "Muse:", optional "[3:04 PM]" or "[15:04:12]" before the name;
  *                                       a line "## 2026-09-08" sets the date for the lines after it. Without times, Speed stays blank.
  *   node scripts/imessage.mjs excerpts --slug grok-bot [--missing]  print the redacted episode behind each run (for writing notes)
- *   node scripts/imessage.mjs notes --slug grok-bot --file notes.json   apply {runId: "one-line note"} into runs.json
+ *   node scripts/imessage.mjs notes --slug grok-bot --file notes.json   apply {runId: note} into runs.json; a note is one public sentence
+ *                                                                       under 140 chars on what was asked and what the assistant did (scripts/lint-notes.mjs)
  *
  * Runs on the Mac that has your Messages history. Terminal needs Full Disk Access
  * (System Settings > Privacy & Security > Full Disk Access). Needs Node 22.13+ (built-in SQLite, no installs).
@@ -34,6 +35,7 @@ import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
+import { lintNote } from './lint-notes.mjs';
 
 const ROOT = process.cwd();
 const DATA = path.join(ROOT, 'data');
@@ -694,6 +696,11 @@ async function approve() {
   for (const slug of slugs) {
     const drafts = readJson(draftFile(slug), []);
     const ready = drafts.filter(d => typeof d.score === 'number' && d.outcome && d.category);
+    for (const d of ready) {
+      const { errors, warnings } = lintNote(d.notes);
+      for (const w of warnings) console.warn(`warn  ${d.id}: ${w}`);
+      if (errors.length) fail(`${d.id}: note is public and must not contain ${errors.join(', ')}. Fix it in runs.draft.json.`);
+    }
     if (!ready.length) continue;
     const runs = readJson(runsFile(slug), []);
     const have = new Set(runs.map(r => r.id));
@@ -763,6 +770,9 @@ async function notes() {
     let touched = false;
     for (const r of runs) {
       if (typeof map[r.id] === 'string') {
+        const { errors, warnings } = lintNote(map[r.id]);
+        for (const w of warnings) console.warn(`warn  ${r.id}: ${w}`);
+        if (errors.length) fail(`${r.id}: note is public and must not contain ${errors.join(', ')}`);
         r.notes = map[r.id].trim();
         touched = true;
         n++;

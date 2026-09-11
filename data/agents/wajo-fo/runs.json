@@ -6,7 +6,7 @@
     "date": "2026-09-09",
     "score": 2,
     "outcome": "fail",
-    "notes": "Published hotel task. Needed a chaser to start, then two to four minutes per reply. Quoted a non-refundable rate after I asked for cancellable, then quoted a second hotel as cancellable and corrected itself to $965 all-in. Said it was booking through Booking.com with a single-use card; nine minutes later it stopped because no payment card was on my account. Not booked.",
+    "notes": "Slow multi-minute replies, quoted a non-refundable rate then mis-quoted a second hotel as cancellable, and never completed the booking.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-5e5f6c"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-09-09",
     "score": 7,
     "outcome": "pass",
-    "notes": "Published flight task. Found a nonstop morning departure and a Sunday evening return at $361 round trip, noted the earlier evening flight broke the budget, promised the aisle seat and unprompted check-in, and staged the booking pending a payment card. I stood it down before purchase.",
+    "notes": "Found nonstop flights out Friday morning and back Sunday evening under the cap, promised the aisle seat and check-in, and held for approval.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-eb0615"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-09-09",
     "score": 7,
     "outcome": "pass",
-    "notes": "Published restaurant task. Asked which city and hotel before searching, then gave one independent Mediterranean option three blocks away with a reason per constraint. It cannot make the reservation online, but it can place a phone call to the restaurant to hold the table for you.",
+    "notes": "Asked which city first, then gave one independent Mediterranean spot nearby; it cannot book online but can phone the restaurant.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-87ca26"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-09-09",
     "score": 8,
     "outcome": "pass",
-    "notes": "Asked for a hotel for next week, then a dinner spot for tomorrow near my hotel. It caught that tomorrow is not the trip weekend and asked which city I was in before searching.",
+    "notes": "Caught that tomorrow's dinner was not the trip weekend and asked which city the user was in before searching.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-362b01"
   },
   {
@@ -46,7 +46,7 @@
     "date": "2026-09-09",
     "score": 6,
     "outcome": "partial",
-    "notes": "Published scheduling-reply task. Needed Google connected first, then correctly found that the contact had only been cc'd on the thread, flagged my Friday afternoon flight from the calendar, staged a draft in Gmail and sent it. The email went from the assistant's own address on my behalf rather than as me.",
+    "notes": "Found the contact had only been cc'd, flagged a conflicting flight from the calendar and sent the reply, though from its own address.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-e2fdf8"
   }
 ]

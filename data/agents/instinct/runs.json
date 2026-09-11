@@ -6,7 +6,7 @@
     "date": "2026-08-17",
     "score": 5,
     "outcome": "partial",
-    "notes": "Setup offered Gmail, Calendar and Drive as full-access connections only; no read-only or per-service scope was available. In later runs it asked before sending email and before charging a card without being told to. Disconnect not yet tested.",
+    "notes": "Offered Gmail, Calendar and Drive as full-access links with no read-only option, but asked before sending email or charging a card.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-08-17-242e66"
   },
   {
@@ -16,7 +16,7 @@
     "date": "2026-08-20",
     "score": 8,
     "outcome": "pass",
-    "notes": "Priced flight shortlist for both date variants with a clear recommendation; needed a nudge to start.",
+    "notes": "Priced a flight shortlist for both date options with a clear recommendation; needed a nudge to start.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-08-20-9bd137"
   },
   {
@@ -26,7 +26,7 @@
     "date": "2026-08-21",
     "score": 4,
     "outcome": "fail",
-    "notes": "Booking stalled one click from purchase: saved card came through incomplete and the credit math changed twice; I finished it myself. Cart and pricing were left in a usable state.",
+    "notes": "Got the United booking to one click from purchase, then lost card digits and flip-flopped on credits until the user took over.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-08-21-71c48d"
   },
   {
@@ -36,7 +36,7 @@
     "date": "2026-08-23",
     "score": 8,
     "outcome": "pass",
-    "notes": "Flagged a duplicate rental booking and a possible double charge while I was still at the counter, offered to cancel the extra one.",
+    "notes": "Flagged a duplicate rental booking and a possible double charge at the counter and offered to cancel the extra one.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-08-23-09068d"
   },
   {
@@ -56,7 +56,7 @@
     "date": "2026-08-28",
     "score": 5,
     "outcome": "partial",
-    "notes": "Shared-availability answer was correct and detailed with a later correction, but 53 minutes of silence, four chasers, duplicated replies and an email fallback.",
+    "notes": "Shared-availability answer was correct with a later correction, but 53 minutes of silence, four chasers and duplicated replies.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-08-28-3125ac"
   },
   {
@@ -86,7 +86,7 @@
     "date": "2026-09-01",
     "score": 9,
     "outcome": "pass",
-    "notes": "Recalled an earlier email on the same issue, drafted one combined message in my voice, asked before sending, sent from the right account.",
+    "notes": "Recalled an earlier email on the same issue, drafted one combined message in the user's voice, asked before sending, then sent.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-e9e290"
   },
   {
@@ -96,7 +96,7 @@
     "date": "2026-09-01",
     "score": 8,
     "outcome": "pass",
-    "notes": "Connected a payment integration in one tap and explained the approval model.",
+    "notes": "Connected Stripe Link in one tap and explained the approve-each-amount model.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-2313cd"
   },
   {
@@ -106,7 +106,7 @@
     "date": "2026-09-01",
     "score": 9,
     "outcome": "pass",
-    "notes": "Order under a stated price cap: itemized total, approval before charge, confirmation returned, transparent about how it signed in.",
+    "notes": "Ordered same-day flowers under the cap with an itemized total, approval before charge and a confirmation back.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-09-01-591d64"
   },
   {
@@ -136,7 +136,7 @@
     "date": "2026-09-05",
     "score": 9,
     "outcome": "pass",
-    "notes": "Booked an appointment at the nearest slot to the requested time, asked for the one missing detail, returned confirmation and added it to the calendar.",
+    "notes": "Booked an appointment at the nearest slot, asked for the one missing detail, returned the confirmation and put it on the calendar.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-09-05-ac6ca8"
   },
   {
@@ -156,6 +156,6 @@
     "date": "2026-09-08",
     "score": 10,
     "outcome": "pass",
-    "notes": "Books flights and hotels by logging into my own accounts rather than a single aggregator, so it has the full supply of the big sites; end-to-end booking with check-in and boarding pass, seamless."
+    "notes": "Books through the user's own airline and hotel accounts rather than one aggregator; end-to-end booking with check-in and boarding pass."
   }
 ]

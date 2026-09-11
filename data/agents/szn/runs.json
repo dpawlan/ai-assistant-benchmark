@@ -4,9 +4,9 @@
     "category": "online_task",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
+    "score": 8,
     "outcome": "pass",
-    "notes": "Chicago hotel Fri–Sat next week (Sep 18–20), under $250/night near the Loop, free cancellation. Szn found Cambria Chicago Loop at $218/night ($436 total) with free cancellation through Sep 16 (4.3★) and staged it; Club Quarters Central Loop backup at $229.50/night ($459 total) with free cancellation through Sep 17. Offered Stripe Link one-time payment; tester stopped before charge per protocol. Same band as Shuffle hotel 9 for under-$250 Loop free-cancel to payment — Szn hit all constraints and staged.",
+    "notes": "Found and staged the Cambria Chicago Loop, then caught on re-check that the real two-night total was much higher and flagged it first.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-online"
   },
   {
@@ -14,9 +14,99 @@
     "category": "travel",
     "protocol": "task",
     "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Staged a United round trip with aisle seats both ways, then held for approval when the seat fees pushed it over the $400 cap, as asked.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Three vegetarian-friendly picks within walking distance with reasons and a clear favorite; offered to book on OpenTable.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-rec"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Amazon needed a login it did not have, so it staged two bags of Stumptown on the brand site and held for approval, as asked.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-purchasing"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Could not reach the inbox, so it drafted a clean reply declining Thursday with two supplied slots and held it for approval.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-email"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Delivered a birthday image with a golden retriever and an eight-question 90s movie trivia list with answers.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-content"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
     "score": 9,
     "outcome": "pass",
-    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. Szn offered United UA2342 nonstop LGA→ORD $396 and American 1-stop $371. Tester chose United + aisle even if over $400. Staged UA2342/UA396 at payment with aisle seats 37D and 38D; total $444.92; nothing charged.",
-    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-travel"
+    "notes": "Placed a real call to The Village at Italian Village and reported seating for eight, a semi-private room and no minimum spend.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-phone"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Could not reach Notion, Calendar or Slack and said so plainly rather than faking a partial result; offered to link them in-browser.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-integrations"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Could not reach the inbox or Drive for the confirmation and passport, so it offered to check in from details supplied by hand.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-chained"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-multi",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Said to add it to a group or share four contacts, then it would collect availability and propose a time and place before booking.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-multi"
+  },
+  {
+    "id": "szn-2026-09-10-blooio-permissions",
+    "category": "permissions_privacy",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "First said read-only Gmail and Calendar were unavailable, then corrected itself; stored the ask-before-sending-or-spending rule.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-permissions"
   }
 ]

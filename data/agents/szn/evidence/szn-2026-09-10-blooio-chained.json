@@ -1,0 +1,14 @@
+{
+  "id": "szn-2026-09-10-blooio-chained",
+  "agent": "szn",
+  "category": "chained_tasks",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-10T20:00:00.000Z"
+}

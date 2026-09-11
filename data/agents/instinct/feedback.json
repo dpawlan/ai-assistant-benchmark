@@ -3837,5 +3837,117 @@
       "views": 327,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "b9f041fa70aa",
+    "agent": "instinct",
+    "quote": "No AI can beat Indian banks. \n\nHighly disappointed with the first usage of Instinct AI\n\nOverhyped stuff. \n\n#instinctai",
+    "author": "@credofly",
+    "author_name": "Credofly",
+    "date": "2026-09-11",
+    "url": "https://x.com/credofly/status/2098406138358468923",
+    "kind": "complaint",
+    "tags": [
+      "first-use",
+      "overhyped",
+      "banking"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User reports disappointment with first Instinct AI usage and calls it overhyped; attached banking-task screenshots."
+  },
+  {
+    "id": "b4773666576e",
+    "agent": "instinct",
+    "quote": "Instinct monitors flight prices continuously. Sometimes I get notifications about lower fares that only last a few hours. That's how you snag a deal!",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#instinct-flights",
+    "kind": "praise",
+    "tags": [
+      "travel",
+      "flights",
+      "proactive",
+      "monitoring"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Head-to-head vs Muse: continuous fare monitoring is Instinct edge."
+  },
+  {
+    "id": "c23949935457",
+    "agent": "instinct",
+    "quote": "I use Instinct and I'm very happy with it so far. It has booked some restaurants for me, replied to some personal admin-related emails, and updates my progressive workout spreadsheet when i go to the gym. No real complaints so far.",
+    "author": "jvwww",
+    "author_name": "jvwww",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49636287",
+    "kind": "praise",
+    "tags": [
+      "booking",
+      "email",
+      "fitness",
+      "spreadsheet"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Concrete daily-use praise on HN Muse thread."
+  },
+  {
+    "id": "fc59f9c54cfd",
+    "agent": "instinct",
+    "quote": "I got access to Instinct recently and quickly found some pretty compelling use-cases for it. Namely, preparing my contracting invoices & drafting outgoing emails for me. The onboarding experience of answering a WhatsApp message asking simply \"what have you been putting off?\" was pretty slick.",
+    "author": "h14h",
+    "author_name": "h14h",
+    "date": "2026-09-08",
+    "url": "https://news.ycombinator.com/item?id=49617903#instinct",
+    "kind": "praise",
+    "tags": [
+      "invoices",
+      "email",
+      "onboarding",
+      "whatsapp"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Instinct onboarding + invoice/email use cases; same comment also critiques OpenClaw bloat."
+  },
+  {
+    "id": "18f453d423ec",
+    "agent": "instinct",
+    "quote": "Despite the hype around Instinct, one of my first tests with it was to price out hotels then book one, and it quoted me all the wrong rates.",
+    "author": "Sarah Perez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-09-03",
+    "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/#instinct-hotel-rates",
+    "kind": "bug",
+    "tags": [
+      "travel",
+      "hotels",
+      "pricing",
+      "accuracy"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Journalist hands-on: Instinct returned wrong hotel rates in early test."
+  },
+  {
+    "id": "c67af1108482",
+    "agent": "instinct",
+    "quote": "We love Instinct, but have been increasingly worried about the data footprint we are handing over to them, and what they might do with that data. So we built an oss self-hostable version.",
+    "author": "OG_BME",
+    "author_name": "OG_BME",
+    "date": "2026-08-28",
+    "url": "https://news.ycombinator.com/item?id=49479314",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "self-host",
+      "openinstinct"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Show HN OpenInstinct motivation: love Instinct product, fear data footprint."
   }
 ]

@@ -466,5 +466,59 @@
       "views": 3583,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "0bdc8b0bf2fb",
+    "agent": "migoo",
+    "quote": "This app is crazy, I can literally make websites that fell officially created! And her responses are great!",
+    "author": "Norma Lucis",
+    "author_name": "Norma Lucis",
+    "date": "2026-08-13",
+    "url": "https://www.appbrain.com/app/migoo-personalized-ai-for-you/ai.migoo.app#norma-lucis",
+    "kind": "praise",
+    "tags": [
+      "android",
+      "content-creation"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "AppBrain 5-star Android review Aug 13."
+  },
+  {
+    "id": "ba1452871eaf",
+    "agent": "migoo",
+    "quote": "I would say the auto task are pretty good but shouldn't be mandatory and asking it questions always says it's a shopping app which is Shopee so can't ask questions properly, and it has daily points which runs out even which is bad compared to other competitors, also some account permission shouldn't be mandatory just to log in made it look suspicious but looking into the company you're related to Sea Limited which should've been a good indicator of trust other than that the app is smooth and good",
+    "author": "John Isaac Manlolo",
+    "author_name": "John Isaac Manlolo",
+    "date": "2026-08-10",
+    "url": "https://www.appbrain.com/app/migoo-personalized-ai-for-you/ai.migoo.app#john-isaac",
+    "kind": "complaint",
+    "tags": [
+      "credits",
+      "permissions",
+      "shopping-bias",
+      "android"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Mixed: auto-tasks good; credit burn, mandatory permissions, shopping bias complaints."
+  },
+  {
+    "id": "cd21c6dd5da7",
+    "agent": "migoo",
+    "quote": "\"-- Select all ​View your email messages and settings. -- See and download all your Google Drive files. -- See and download any calendar you can access using your Google Calendar.\" who are you fooling bro, stop making dangerous and scam apps.",
+    "author": "LOVE LIVE",
+    "author_name": "LOVE LIVE",
+    "date": "2026-07-29",
+    "url": "https://www.appbrain.com/app/migoo-personalized-ai-for-you/ai.migoo.app#love-live",
+    "kind": "complaint",
+    "tags": [
+      "permissions",
+      "privacy",
+      "trust"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "1-star: broad Google permission requests trigger scam fear."
   }
 ]

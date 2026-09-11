@@ -25,3 +25,8 @@ _Updated 2026-09-10 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-09-09) Relve: Ollie AI assistant is pitching a privacy-first household helper after achieving SOC 2 compliance and adopting a subscription business model.
 - (2026-09-09) The UNN: Ollie, an innovative AI platform based in San Diego, has announced that it has successfully secured $7.5 million in seed financing. The inve
+
+_Updated 2026-09-11 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-03) Sarah Perez: Ollie, meanwhile, experienced an infrastructure outage with its text provider when I was testing it, and it stopped responding.

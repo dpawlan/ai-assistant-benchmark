@@ -38,3 +38,8 @@ _Updated 2026-09-10 weekday vault scan (+4 rows)._
 - (2026-09-02) Progressive Robot: Catch AI is the rare admin assistant launch that leads with the telephone rather than the inbox. ... The phone channel is worth enabling ear
 - (2026-05-01) reddit-user: i'm using catchagent.ai for almost 5 months now. works great for a lot of admin related tasks- email, schedule, tasks, reminders. i would ra
 - (2026-05-01) reddit-user: this was the first time my agent actually completed part of that job. it didn't book my flight, which i don't think is supported yet, but it
+
+_Updated 2026-09-11 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-02) u/[OP]: i've been using catch ai for a couple of months now, and one thing that has changed recently in their phone calling feature. at first, i tri

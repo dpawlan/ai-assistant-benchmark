@@ -1,87 +1,83 @@
 [
   {
-    "id": "fc3e8c09795f",
+    "id": "850c60fa4417",
     "agent": "muse",
-    "quote": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://Muse.ai",
-    "author": "@Muse",
-    "author_name": "Muse",
-    "date": "2026-09-08",
-    "url": "https://x.com/Muse/status/2097399178376671666",
-    "kind": "other",
+    "quote": "By the way Muse by @Meta is good in figma designs",
+    "author": "@Nuskritt",
+    "author_name": "\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \uea00\ud835\udd4f \uf8ff",
+    "date": "2026-09-11",
+    "url": "https://x.com/Nuskritt/status/2098406120771518702",
+    "kind": "praise",
     "tags": [
-      "auto",
-      "x",
-      "vendor"
+      "design",
+      "figma"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T21:27:50.186Z",
-    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)",
-    "metrics": {
-      "likes": 10713,
-      "reposts": 972,
-      "replies": 1020,
-      "views": 5908472,
-      "fetched": "2026-09-10"
-    }
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Brief positive user comment about Muse for Figma design work."
   },
   {
-    "id": "684aca7afc29",
+    "id": "5a32d7444520",
     "agent": "muse",
-    "quote": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
-    "author": "@finkd",
-    "author_name": "Mark Zuckerberg",
-    "date": "2026-09-08",
-    "url": "https://x.com/finkd/status/2097402101332590646",
-    "kind": "other",
+    "quote": "Meta's AI Agent\n\nMeta has launched an AI Agent called Muse that anyone can easily use.\n\nLink\n\nhttp://\nmuse.ai\n\nIn simple terms\nIt feels like they've made OpenClaw immediately accessible to the general public...?\n\nLooking at the specs\n\nMuse isn't just a chatbot that answers questions\nIt comes with its own computer and browser, handling everything from web searches to emails, reservations, document creation, and other real tasks on your behalf.\n\nWhat's even more surprising is that it offers up to 100 million tokens for free per week.\n\nThe fact that Meta is releasing this level of computing resources to everyday users is pretty impressive in itself.\n\nAI has now gone beyond just providing answers\nAnd reached the stage of 'using my computer on my behalf'\n\nI should probably get on the waitlist and try it out myself first.\n\nIt feels right to test things like this ahead of time.\n\nWaitlist registration completed for now",
+    "author": "@Node_Park",
+    "author_name": "Node_Park",
+    "date": "2026-09-11",
+    "url": "https://x.com/Node_Park/status/2098317484101435686",
+    "kind": "use-case",
     "tags": [
-      "auto",
-      "x",
-      "vendor"
+      "browser-actions",
+      "automation",
+      "OpenClaw-comparison",
+      "waitlist"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T21:27:50.282Z",
-    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)",
-    "metrics": {
-      "likes": 36276,
-      "reposts": 2515,
-      "replies": 3230,
-      "views": 8213501,
-      "fetched": "2026-09-10"
-    }
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Translated Korean post; author summarizes browser/email/reservation/document capabilities and says they joined the waitlist, not yet tested."
   },
   {
-    "id": "41428873f656",
+    "id": "04c87e08edce",
     "agent": "muse",
-    "quote": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure.\n\ntry it now: https://muse.ai.",
-    "author": "@alexandr_wang",
-    "author_name": "Alexandr Wang",
-    "date": "2026-09-08",
-    "url": "https://x.com/alexandr_wang/status/2097402344061510004",
-    "kind": "other",
+    "quote": "Could this be the death knell for Meta? Meta just rolled out Muse, its 1st ever personal AI agent...something that many want no part of. The AI agent can open browsers, fill out forms, & act \"on your behalf\" is a meaningful leap in access. NO THANKS!",
+    "author": "@MariaKaramitsos",
+    "author_name": "Maria A. Karamitsos",
+    "date": "2026-09-11",
+    "url": "https://x.com/MariaKaramitsos/status/2098406794750046650",
+    "kind": "complaint",
     "tags": [
-      "auto",
-      "x",
-      "vendor"
+      "privacy",
+      "agency",
+      "browser-actions"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T21:27:50.383Z",
-    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)",
-    "metrics": {
-      "likes": 5368,
-      "reposts": 456,
-      "replies": 569,
-      "views": 11776023,
-      "fetched": "2026-09-10"
-    }
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Negative reaction to Muse acting on the user's behalf in browsers/forms."
   },
   {
-    "id": "027a3470ff83",
+    "id": "77c787f82493",
     "agent": "muse",
-    "quote": "MetaがパーソナルAIエージェント「Muse」を発表。質問に答えるだけでなく、メール送信・旅行予約・買い物・フォーム入力などを代行。専用のSecure VM上で動作し、ユーザーが権限を管理。まず米国でiOS/Android/muse.ai向けに提供開始。AIグラス対応は近日。\n公式: https://t.co/cyA1aJzKTa",
-    "author": "@Tyr_Nippon",
-    "author_name": "CatsGPT",
-    "date": "2026-09-09",
-    "url": "https://x.com/Tyr_Nippon/status/2097798007924379717",
+    "quote": "I am convinced that the Meta Muse contributor models are meaningfully worse than their non contributor counterparts.\n\nGonna do a bunch of tests to see if im trippin today",
+    "author": "@CaryPalmerr",
+    "author_name": "Palmer",
+    "date": "2026-09-11",
+    "url": "https://x.com/CaryPalmerr/status/2098407337371357390",
+    "kind": "complaint",
+    "tags": [
+      "quality",
+      "model-comparison"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "User questions Muse contributor-model quality and plans comparative tests."
+  },
+  {
+    "id": "32f779598944",
+    "agent": "muse",
+    "quote": "AI\u306e\u300c\u8a18\u61b6\u300d\u3092\u3001\u5229\u7528\u8005\u304c\u753b\u9762\u304b\u3089\u7de8\u96c6\u3067\u304d\u308b\u3002\n\n@testingcatalog \u304cMeta Muse\u306eWeb\u7248\u30c7\u30e2\u3092\u7d39\u4ecb\u3057\u3066\u3044\u307e\u3059\u3002\u7de8\u96c6\u53ef\u80fd\u306aSoul\u30fbMemory\u30d5\u30a1\u30a4\u30eb\u3001WhatsApp\u63a5\u7d9a\u3001\u898b\u305f\u76ee\u3092\u5909\u3048\u3089\u308c\u308b\u30a2\u30d0\u30bf\u30fc\u304c\u898b\u3069\u3053\u308d\u3002\n\n\u307e\u3060\u5168\u54e1\u304c\u4f7f\u3048\u308b\u308f\u3051\u3067\u306f\u306a\u3044\u3068\u306e\u3053\u3068\u3002\u500b\u4eba\u5411\u3051AI\u306b\u4f55\u3092\u899a\u3048\u3055\u305b\u3001\u3069\u3053\u307e\u3067\u4efb\u305b\u308b\u304b\u3002\u753b\u9762\u3092\u898b\u308b\u3068\u30a4\u30e1\u30fc\u30b8\u3057\u3084\u3059\u3044\u3067\u3059\u3002",
+    "author": "@sachiko_agent",
+    "author_name": "\u5e78\u5b50@WOMAN AI UPDATE\u5fdc\u63f4\u4e2d\ud83d\udce3",
+    "date": "2026-09-10",
+    "url": "https://x.com/sachiko_agent/status/2098126615524081834",
     "kind": "other",
     "tags": [
       "auto",
@@ -89,34 +85,16 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "de68f1c8682a",
+    "id": "f34fb3703782",
     "agent": "muse",
-    "quote": "@alexandr_wang @Muse Still having 2FA issues with Instagram DM/FB Messenger\n\nSent from the @Muse app.\nhttps://t.co/tlSPGWIjpu https://t.co/MDu83ce2NI",
-    "author": "@petehalvorsen",
-    "author_name": "Pete",
-    "date": "2026-09-09",
-    "url": "https://x.com/petehalvorsen/status/2097755584036774093",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "c5dcd4faefa6",
-    "agent": "muse",
-    "quote": "Meta launched Muse in the US on Sep 8 - personal AI on the Muse app, https://t.co/PLYE3U1Zck, and WhatsApp. Emails, books travel, fills forms, shops with Stripe Link cards, turns Instagram recipe reels into lists. Meta claims Secure VM control. Reuters reports that tests stalled and exposed data. Free, Power $20, Max $100.\nhttps://t.co/FVkCCJRyX6",
-    "author": "@nosmh",
-    "author_name": "nosmh",
-    "date": "2026-09-09",
-    "url": "https://x.com/nosmh/status/2097752617237504227",
+    "quote": "Meta Muse did something for free that I used to pay for. So that's something already!",
+    "author": "@rezmeram",
+    "author_name": "RameshR",
+    "date": "2026-09-10",
+    "url": "https://x.com/rezmeram/status/2098140080128803058",
     "kind": "other",
     "tags": [
       "auto",
@@ -124,7 +102,7 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
     "id": "da792083222f",
@@ -134,6 +112,23 @@
     "author_name": "Ecomm Cowboy",
     "date": "2026-09-10",
     "url": "https://x.com/ecommcowboy/status/2098141329817829624",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "8b783a5cb9cc",
+    "agent": "muse",
+    "quote": "Meta Muse Is Free to Start. Here's What To Connect First: https://t.co/i4R5AiSPeQ",
+    "author": "@daprospecta",
+    "author_name": "Moses Smith",
+    "date": "2026-09-10",
+    "url": "https://x.com/daprospecta/status/2098130352405430690",
     "kind": "other",
     "tags": [
       "auto",
@@ -178,97 +173,11 @@
     "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "f34fb3703782",
-    "agent": "muse",
-    "quote": "Meta Muse did something for free that I used to pay for. So that's something already!",
-    "author": "@rezmeram",
-    "author_name": "RameshR",
-    "date": "2026-09-10",
-    "url": "https://x.com/rezmeram/status/2098140080128803058",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "4afe4c73663a",
-    "agent": "muse",
-    "quote": "@TiffanyFong classic: openai and anthropic are measuring who kills you first while zuck copies elon’s homework for the 3rd time this year. meta muse is when you wanted grok but got threads 2.0",
-    "author": "@Andreyshp12",
-    "author_name": "Andrew Shpanchuk",
-    "date": "2026-09-10",
-    "url": "https://x.com/Andreyshp12/status/2098140055449583868",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "78a39fec303d",
-    "agent": "muse",
-    "quote": "Testing out meta muse to compare to grok bot and others. The animated avatar feature is a nice touch. It created a duane allman avatar that moves around and puts headphones at a computer when doing work 😂 https://t.co/lXV3RVIyZf",
-    "author": "@AndyG5000",
-    "author_name": "andyg5000",
-    "date": "2026-09-10",
-    "url": "https://x.com/AndyG5000/status/2098138861817803256",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "d60d0ffb8cc3",
-    "agent": "muse",
-    "quote": "Meta Muse and DeepSeek are proving that intelligence (models) will be commodities. This bodes well for the app, distribution, and infra layers.\n\n$GOOG will be a massive beneficiary. Not sure why they've become a punching bag simply. Diminishing their strengths for not having a frontier commercial model is like blaming a TV for a bad movie.",
-    "author": "@Architect9000",
-    "author_name": "Architect🛡️",
-    "date": "2026-09-10",
-    "url": "https://x.com/Architect9000/status/2098131335328206857",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "8b783a5cb9cc",
-    "agent": "muse",
-    "quote": "Meta Muse Is Free to Start. Here's What To Connect First: https://t.co/i4R5AiSPeQ",
-    "author": "@daprospecta",
-    "author_name": "Moses Smith",
-    "date": "2026-09-10",
-    "url": "https://x.com/daprospecta/status/2098130352405430690",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
     "id": "c14d3c2ec004",
     "agent": "muse",
     "quote": "This might sound crazy, but Claude might actually be my 3rd pick now\n\n$META Muse Spark has been really good so far",
     "author": "@VJNCapital",
-    "author_name": "Vebjørn",
+    "author_name": "Vebj\u00f8rn",
     "date": "2026-09-10",
     "url": "https://x.com/VJNCapital/status/2098129128566435909",
     "kind": "other",
@@ -281,13 +190,47 @@
     "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "32f779598944",
+    "id": "4fabfeba9cbd",
     "agent": "muse",
-    "quote": "AIの「記憶」を、利用者が画面から編集できる。\n\n@testingcatalog がMeta MuseのWeb版デモを紹介しています。編集可能なSoul・Memoryファイル、WhatsApp接続、見た目を変えられるアバターが見どころ。\n\nまだ全員が使えるわけではないとのこと。個人向けAIに何を覚えさせ、どこまで任せるか。画面を見るとイメージしやすいです。",
-    "author": "@sachiko_agent",
-    "author_name": "幸子@WOMAN AI UPDATE応援中📣",
+    "quote": "Meta introduced a new personal AI agent called Muse on September 8. The announcement came directly from CEO Mark Zuckerberg. He described it as an agent that understands a user\u2019s goals and works around the clock to complete tasks.\n\n@Meta  @finkd\n\n#MuseAI #MarkZuckerberg #TheStatesman\n\n[Muse AI Agent] [Mark Zuckerberg] [Personal AI]",
+    "author": "@TheStatesmanLtd",
+    "author_name": "The Statesman",
     "date": "2026-09-10",
-    "url": "https://x.com/sachiko_agent/status/2098126615524081834",
+    "url": "https://x.com/TheStatesmanLtd/status/2097894101375193537",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9cc53af60032",
+    "agent": "muse",
+    "quote": "\u661f\u671f\u56db\uff5cAI \u5de5\u5177\u805a\u7126\n\u8a8d\u8b58 Meta Muse \u2014 \u4f60\u7684\u500b\u4eba AI Agent \ud83e\udd16\n\n\u6211\u5011\u5df2\u7d93\u7fd2\u6163 AI \u56de\u7b54\u554f\u984c\u3002Meta Muse \u5e36\u4f86\u7684\u4e0b\u4e00\u6b65\uff0c\u662f\u8b93 AI \u4e0d\u53ea\u56de\u7b54\uff0c\u9084\u80fd\u5354\u52a9\u63a1\u53d6\u884c\u52d5\u3001\u5b8c\u6210\u4efb\u52d9\u3002\n\n\u5728\u4f60\u7684\u6388\u6b0a\u4e0b\uff0cMuse \u53ef\u4ee5\u8207\u652f\u63f4\u7684 App \u548c\u670d\u52d9\u9023\u63a5\uff0c\u5354\u52a9\u8655\u7406\u65e5\u5e38\u5de5\u4f5c\uff1a\n\ud83d\udce7 \u96fb\u5b50\u90f5\u4ef6 \u2014 \u8a0a\u606f\u8207\u8ddf\u9032\n\ud83d\udcc5 \u884c\u7a0b\u5b89\u6392 \u2014 \u65e5\u66c6\u8207\u8a08\u756b\n\u2708\ufe0f \u65c5\u884c\u898f\u5283 \u2014 \u641c\u5c0b\u8207\u5b89\u6392\u884c\u7a0b\n\ud83d\udecd\ufe0f \u8cfc\u7269\u9078\u64c7 \u2014 \u641c\u5c0b\u8207\u6bd4\u8f03\u9078\u9805\n\n\u6982\u5ff5\u5f88\u7c21\u55ae\uff1a\n\u63d0\u51fa\u9700\u6c42 \u2192 \u9023\u63a5\u670d\u52d9 \u2192 \u898f\u5283 \u2192 \u884c\u52d5\n\n\ud83d\udcac AI \u52a9\u624b\uff1a\u300c\u6211\u544a\u8a34\u4f60\u600e\u9ebc\u505a\u3002\u300d\n\ud83e\udd16 AI Agent\uff1a\u300c\u8b93\u6211\u5e6b\u4f60\u4e00\u8d77\u5b8c\u6210\u3002\u300d\n\n\u6211\u9084\u6c92\u6709\u5be6\u969b\u6e2c\u8a66 Muse \u7684 Agent \u529f\u80fd\u3002\u63a5\u4e0b\u4f86\u5e7e\u5929\uff0c\u6211\u6703\u7528\u81ea\u5df1\u7684 Histo Muse \u7248\u672c\u5be6\u969b\u9ad4\u9a57\uff0c\u518d\u548c\u5927\u5bb6\u5206\u4eab\u771f\u5be6\u4f7f\u7528\u5f8c\u7684\u767c\u73fe\u3002\n\n\u5c0f\u5c0f\u5617\u8a66\uff0c\u5927\u5927\u53ef\u80fd\u3002\u2764\ufe0f\n\nSylvia AI \u5b78\u7fd2\u65e5\u8a18\n\u4fdd\u6301\u597d\u5947\u5fc3\uff0e\u6301\u7e8c\u5b78\u7fd2\uff0e\u8207 AI \u4e00\u8d77\u6210\u9577 \u2764\ufe0f\n2026 \u5e74 9 \u6708 10 \u65e5\uff5c\u661f\u671f\u56db\n\n#SylviaAI\u5b78\u7fd2\u65e5\u8a18 #MetaMuse #AI\u5de5\u5177\u805a\u7126 #AIAgent #AI\u4ee3\u7406 #AgenticAI #AI\u5de5\u5177 #\u4eba\u5de5\u667a\u6167 #AI\u672a\u4f86 #\u4fdd\u6301\u597d\u5947\u5fc3 #\u6301\u7e8c\u5b78\u7fd2 #\u8207AI\u4e00\u8d77\u6210\u9577",
+    "author": "@SylviaTiongX",
+    "author_name": "Sylvia Tiong",
+    "date": "2026-09-10",
+    "url": "https://x.com/SylviaTiongX/status/2098145887675719917",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "e61bc2d4ab67",
+    "agent": "muse",
+    "quote": "$META Muse even just randomly suggests things in chat that it will do for me\u2026\n\n\u2026and they have been spot on.\n\n\u2026and I simply click \u201cLet\u2019s do it.\u201d\n\nWord.",
+    "author": "@ManuInvests",
+    "author_name": "Manu Invests",
+    "date": "2026-09-10",
+    "url": "https://x.com/ManuInvests/status/2098148723586969673",
     "kind": "other",
     "tags": [
       "auto",
@@ -315,13 +258,13 @@
     "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "9cc53af60032",
+    "id": "d60d0ffb8cc3",
     "agent": "muse",
-    "quote": "星期四｜AI 工具聚焦\n認識 Meta Muse — 你的個人 AI Agent 🤖\n\n我們已經習慣 AI 回答問題。Meta Muse 帶來的下一步，是讓 AI 不只回答，還能協助採取行動、完成任務。\n\n在你的授權下，Muse 可以與支援的 App 和服務連接，協助處理日常工作：\n📧 電子郵件 — 訊息與跟進\n📅 行程安排 — 日曆與計畫\n✈️ 旅行規劃 — 搜尋與安排行程\n🛍️ 購物選擇 — 搜尋與比較選項\n\n概念很簡單：\n提出需求 → 連接服務 → 規劃 → 行動\n\n💬 AI 助手：「我告訴你怎麼做。」\n🤖 AI Agent：「讓我幫你一起完成。」\n\n我還沒有實際測試 Muse 的 Agent 功能。接下來幾天，我會用自己的 Histo Muse 版本實際體驗，再和大家分享真實使用後的發現。\n\n小小嘗試，大大可能。❤️\n\nSylvia AI 學習日記\n保持好奇心．持續學習．與 AI 一起成長 ❤️\n2026 年 9 月 10 日｜星期四\n\n#SylviaAI學習日記 #MetaMuse #AI工具聚焦 #AIAgent #AI代理 #AgenticAI #AI工具 #人工智慧 #AI未來 #保持好奇心 #持續學習 #與AI一起成長",
-    "author": "@SylviaTiongX",
-    "author_name": "Sylvia Tiong",
+    "quote": "Meta Muse and DeepSeek are proving that intelligence (models) will be commodities. This bodes well for the app, distribution, and infra layers.\n\n$GOOG will be a massive beneficiary. Not sure why they've become a punching bag simply. Diminishing their strengths for not having a frontier commercial model is like blaming a TV for a bad movie.",
+    "author": "@Architect9000",
+    "author_name": "Architect\ud83d\udee1\ufe0f",
     "date": "2026-09-10",
-    "url": "https://x.com/SylviaTiongX/status/2098145887675719917",
+    "url": "https://x.com/Architect9000/status/2098131335328206857",
     "kind": "other",
     "tags": [
       "auto",
@@ -332,17 +275,35 @@
     "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "e61bc2d4ab67",
+    "id": "78a39fec303d",
     "agent": "muse",
-    "quote": "$META Muse even just randomly suggests things in chat that it will do for me…\n\n…and they have been spot on.\n\n…and I simply click “Let’s do it.”\n\nWord.",
-    "author": "@ManuInvests",
-    "author_name": "Manu Invests",
+    "quote": "Testing out meta muse to compare to grok bot and others. The animated avatar feature is a nice touch. It created a duane allman avatar that moves around and puts headphones at a computer when doing work \ud83d\ude02 https://t.co/lXV3RVIyZf",
+    "author": "@AndyG5000",
+    "author_name": "andyg5000",
     "date": "2026-09-10",
-    "url": "https://x.com/ManuInvests/status/2098148723586969673",
+    "url": "https://x.com/AndyG5000/status/2098138861817803256",
     "kind": "other",
     "tags": [
       "auto",
       "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "4afe4c73663a",
+    "agent": "muse",
+    "quote": "@TiffanyFong classic: openai and anthropic are measuring who kills you first while zuck copies elon\u2019s homework for the 3rd time this year. meta muse is when you wanted grok but got threads 2.0",
+    "author": "@Andreyshp12",
+    "author_name": "Andrew Shpanchuk",
+    "date": "2026-09-10",
+    "url": "https://x.com/Andreyshp12/status/2098140055449583868",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
@@ -366,13 +327,143 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "4fabfeba9cbd",
+    "id": "85e5c8aa1920",
     "agent": "muse",
-    "quote": "Meta introduced a new personal AI agent called Muse on September 8. The announcement came directly from CEO Mark Zuckerberg. He described it as an agent that understands a user’s goals and works around the clock to complete tasks.\n\n@Meta  @finkd\n\n#MuseAI #MarkZuckerberg #TheStatesman\n\n[Muse AI Agent] [Mark Zuckerberg] [Personal AI]",
-    "author": "@TheStatesmanLtd",
-    "author_name": "The Statesman",
+    "quote": "I dove deeper from there and asked Muse what else it might know about me based on the Instagram and Facebook accounts I signed up to use the AI agent with. It rattled off my very specific interests, ranging from anime and CrossFit to Labrador retrievers, Florida wildlife, and '90s/2000s nostalgia \u2014 many of the same topics that frequently pop up in my Instagram Reels feed.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
     "date": "2026-09-10",
-    "url": "https://x.com/TheStatesmanLtd/status/2097894101375193537",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#instagram-interests",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "instagram",
+      "meta",
+      "creepy"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge: Muse surfaces Instagram interest graph beyond what UI Ad Topics shows \u2014 trust friction."
+  },
+  {
+    "id": "7b403bd2c841",
+    "agent": "muse",
+    "quote": "One of the first tasks I assigned Muse, which carries out actions using a cloud-based virtual computer, was to sort through my Gmail inbox and delete messages I don't need. That required me to connect Muse to my Google account and give it permission to access, read, and delete emails. The process didn't go smoothly on mobile; the Google sign-in screen kept glitching and returning me to the Muse website instead of the app. I eventually got it working on my laptop, where it deleted thousands of promotional emails and updates.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-09-10",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#gmail-cleanup",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "gmail",
+      "onboarding",
+      "mobile-bug"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge hands-on Sep 10: Gmail cleanup works after mobile OAuth glitches."
+  },
+  {
+    "id": "2cf3ee1852db",
+    "agent": "muse",
+    "quote": "I asked the AI agent to pick out workout tops for me based on a specific size, style, and colors. Before placing the order, Muse noticed I had other items in my cart and asked if I wanted to remove them. The consideration pleasantly surprised me. Once I signed off on the purchase, it proceeded to successfully buy only the tank tops.",
+    "author": "Emma Roth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-09-10",
+    "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on#amazon-purchase",
+    "kind": "praise",
+    "tags": [
+      "shopping",
+      "amazon",
+      "approval",
+      "purchasing"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Verge: successful Amazon purchase with cart awareness before checkout."
+  },
+  {
+    "id": "2c9dcbd2ed39",
+    "agent": "muse",
+    "quote": "Muse could be useful if you're not using any AI assistants, especially if you want an assistant in WhatsApp. I already have Instinct and Grok. So, I probably wouldn't use Muse again. But if Zuck can improve Muse's travel booking abilities, I'll be down to give it another shot!",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#verdict",
+    "kind": "comparison",
+    "tags": [
+      "whatsapp",
+      "switching",
+      "travel"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Overall A- but existing Instinct/Grok user unlikely to switch unless travel improves."
+  },
+  {
+    "id": "b905ecb78cf3",
+    "agent": "muse",
+    "quote": "I had Muse look for a deal on a North Face McMurdo parka. It popped up a little window where I could watch it search one online retailer after another. I've never seen anyone else do this! Muse couldn't find any sales. But showing me the searches it ran gave me confidence this was the best price.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#parka",
+    "kind": "praise",
+    "tags": [
+      "shopping",
+      "browser-agent",
+      "transparency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Visible multi-retailer search UI builds trust even when no deal found."
+  },
+  {
+    "id": "59e891029465",
+    "agent": "muse",
+    "quote": "So I asked Muse to look through my Gmail \u2014 who was I talking to a year ago but haven't spoken to recently? Muse ran slowly, but it did find some founders that I hadn't talked to since last fall. I'm taking a closer look into some of the companies it mentioned.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#gmail-reconnect",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "crm-lite",
+      "latency"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Gmail reconnect-with-founders search works but slow."
+  },
+  {
+    "id": "d2d605dac64d",
+    "agent": "muse",
+    "quote": "I asked Muse to monitor prices from Newark to Haneda for a 3-month trip beginning in January. It did a good job of searching flight prices, finding a ticket for $2,000 on United. I asked it to continue monitoring the route to see if prices drop. This is where Muse fell short. Muse only offered to check fares once a week. That's not nearly enough to find great deals. I got Muse to check twice a day, but that still could miss some great fares.",
+    "author": "Tremendous",
+    "author_name": "Tremendous",
+    "date": "2026-09-10",
+    "url": "https://tremendous.blog/2026/09/10/zucks-new-personal-assistant-muse-lags-behind-instinct/#flight-monitoring",
+    "kind": "comparison",
+    "tags": [
+      "travel",
+      "flights",
+      "proactive",
+      "monitoring"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Sep 10 head-to-head: Muse flight search OK; continuous monitoring weaker than Instinct."
+  },
+  {
+    "id": "7a6181fc9a61",
+    "agent": "muse",
+    "quote": "@Meta muse\u2019s #1 use case is email and calendar - why did @Google not make the first move?",
+    "author": "@rishi_bhargava",
+    "author_name": "Rishi Bhargava",
+    "date": "2026-09-09",
+    "url": "https://x.com/rishi_bhargava/status/2097535051949035879",
     "kind": "other",
     "tags": [
       "auto",
@@ -383,9 +474,44 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
+    "id": "de68f1c8682a",
+    "agent": "muse",
+    "quote": "@alexandr_wang @Muse Still having 2FA issues with Instagram DM/FB Messenger\n\nSent from the @Muse app.\nhttps://t.co/tlSPGWIjpu https://t.co/MDu83ce2NI",
+    "author": "@petehalvorsen",
+    "author_name": "Pete",
+    "date": "2026-09-09",
+    "url": "https://x.com/petehalvorsen/status/2097755584036774093",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "c5dcd4faefa6",
+    "agent": "muse",
+    "quote": "Meta launched Muse in the US on Sep 8 - personal AI on the Muse app, https://t.co/PLYE3U1Zck, and WhatsApp. Emails, books travel, fills forms, shops with Stripe Link cards, turns Instagram recipe reels into lists. Meta claims Secure VM control. Reuters reports that tests stalled and exposed data. Free, Power $20, Max $100.\nhttps://t.co/FVkCCJRyX6",
+    "author": "@nosmh",
+    "author_name": "nosmh",
+    "date": "2026-09-09",
+    "url": "https://x.com/nosmh/status/2097752617237504227",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
     "id": "81a756219b32",
     "agent": "muse",
-    "quote": "#MetaPartner getting married in a few weeks + booked 40 sales calls, so @museband, @Meta’s new personal AI agent, is helping keep things moving.\nmine’s a wiener dog named Oscar. he handles my calendar and drafts follow-ups. i approve what goes out.\ntry the Muse app! https://t.co/ai8dRQZAp5",
+    "quote": "#MetaPartner getting married in a few weeks + booked 40 sales calls, so @museband, @Meta\u2019s new personal AI agent, is helping keep things moving.\nmine\u2019s a wiener dog named Oscar. he handles my calendar and drafts follow-ups. i approve what goes out.\ntry the Muse app! https://t.co/ai8dRQZAp5",
     "author": "@gannon_meyer",
     "author_name": "Gannon",
     "date": "2026-09-09",
@@ -400,11 +526,81 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
+    "id": "d67c8a05d82c",
+    "agent": "muse",
+    "quote": "\uc774\uba54\uc77c \ubcf4\ub0b4\uae30 \uc804\uc5d0 \ud55c \ubc88 \ubb3c\uc5b4\ubcf4\ub294 \uac1c\uc778 \uc5d0\uc774\uc804\ud2b8, Muse.\n\nMeta \uacf5\uc2dd \uae00\uc5d0\uc11c \uac1c\uc778 AI \uc5d0\uc774\uc804\ud2b8 Muse\ub97c \uc18c\uac1c\ud588\uc5b4\uc694.\n\ubbf8\uad6d\uc740 iOS\u00b7Android\u00b7https://t.co/9DniznDLfe, WhatsApp\uc73c\ub85c \uc5f4\uace0, AI \uc548\uacbd\uc5d0\ub3c4 \uace7\uc774\ub77c\uace0 \ud574\uc694.\n\n\uc5d4\uc9c4\uc740 Muse Spark\uc608\uc694.\n\uc571\uc744 \ub2eb\uc544\ub3c4 \uc77c\uc744 \uc774\uc5b4 \uac00\uace0, \uc774\uba54\uc77c\u00b7\uad6c\ub9e4 \uc55e\uc5d0\uc11c\ub294 \uc2b9\uc778\uc744 \ubc1b\ub294\ub2e4\uace0 \uc801\uc5b4\uc694.\n\uacb0\uc81c\ub294 Stripe Link, Shop Pay\u00b71Password\ub294 \uace7\uc774\ub77c\uace0 \ud574\uc694.\n\n\ubc11\ub2e8\uc740 Muse Secure VM\uc774\uc5d0\uc694.\nSentinel\uc774 \ub9c9\uc73c\uba74 \uc778\ud130\ub137\uc73c\ub85c \ubabb \ub098\uac04\ub2e4\uace0 \ud574\uc694.\n\ube44\ubc00\ubc88\ud638\u00b7\uacb0\uc81c\uc218\ub2e8\uc740 Muse\uac00 \uc548 \ubcf8\ub2e4\uace0 \uc801\uc5b4\uc694.\n\n\uae30\ubcf8\uc740 \ubb34\ub8cc.\n\ubcf4\ub3c4\ub294 Power \uc6d4 $20, Maximum \uc6d4 $100\uc774\ub77c\uace0 \uc804\ud574\uc694.\n\n\ud22c\uc790 \uad8c\uc720\uac00 \uc544\ub2c8\uc5d0\uc694.\n\uad6c\uc870\ub294 Meta \uacf5\uc2dd, \uc694\uae08\uc740 \ubcf4\ub3c4\ub9cc \uc62e\uacbc\uc5b4\uc694.\n\nMeta Muse \u2014 a personal agent that asks before it sends the email.\n\n\uae00:https://t.co/p8cYno3Rbk",
+    "author": "@ZentrionGlobal",
+    "author_name": "Zentrion",
+    "date": "2026-09-09",
+    "url": "https://x.com/ZentrionGlobal/status/2097491252594016465",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "027a3470ff83",
+    "agent": "muse",
+    "quote": "Meta\u304c\u30d1\u30fc\u30bd\u30ca\u30ebAI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\u300cMuse\u300d\u3092\u767a\u8868\u3002\u8cea\u554f\u306b\u7b54\u3048\u308b\u3060\u3051\u3067\u306a\u304f\u3001\u30e1\u30fc\u30eb\u9001\u4fe1\u30fb\u65c5\u884c\u4e88\u7d04\u30fb\u8cb7\u3044\u7269\u30fb\u30d5\u30a9\u30fc\u30e0\u5165\u529b\u306a\u3069\u3092\u4ee3\u884c\u3002\u5c02\u7528\u306eSecure VM\u4e0a\u3067\u52d5\u4f5c\u3057\u3001\u30e6\u30fc\u30b6\u30fc\u304c\u6a29\u9650\u3092\u7ba1\u7406\u3002\u307e\u305a\u7c73\u56fd\u3067iOS/Android/muse.ai\u5411\u3051\u306b\u63d0\u4f9b\u958b\u59cb\u3002AI\u30b0\u30e9\u30b9\u5bfe\u5fdc\u306f\u8fd1\u65e5\u3002\n\u516c\u5f0f: https://t.co/cyA1aJzKTa",
+    "author": "@Tyr_Nippon",
+    "author_name": "CatsGPT",
+    "date": "2026-09-09",
+    "url": "https://x.com/Tyr_Nippon/status/2097798007924379717",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "cd3ab7fe509c",
+    "agent": "muse",
+    "quote": "@Meta Muse is built to jump between apps and handle real tasks without constant hand holding. The pitch is convenience, but the fine print is trust. One wrong move and it is not just your calendar that gets exposed.",
+    "author": "@QAS_LLC",
+    "author_name": "Quantum Automated Solutions",
+    "date": "2026-09-09",
+    "url": "https://x.com/QAS_LLC/status/2097475292432368034",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "f762ec50296d",
+    "agent": "muse",
+    "quote": "When work, life, and wedding planning all hit at once, Muse helps @gannon_meyer keep things moving, from managing his calendar to drafting follow-up emails.\n\nDownload the Muse app to get started: https://t.co/xOcWxCq1uy https://t.co/oRuOv3mpdy",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-09",
+    "url": "https://x.com/Muse/status/2097476793368289566",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
     "id": "02ff7ad34c65",
     "agent": "muse",
-    "quote": "Meta Opened Free Access to Muse AI Agent with 100M Tokens per Week\n\n@Meta launched Muse — a personal #AI agent that works 24/7 across your email, browser, and connected services, and it's now free with up to 100M tokens per week.\n\nBuilt with Zuckerberg's \"personal superintelligence\" pitch in mind, Muse runs in an isolated cloud VM and never touches your real credentials directly — a separate Sentinel system approves or blocks every action, network request, and payment. Prompt injection defenses, surrogate payment tokens, and single-use cards round out the security model, and Meta is now offering researchers up to $300K in bug bounties (up to $130K for a critical instruction-hijack exploit).\n\nIt's a serious bet that agentic AI can be made safe enough for real-world autonomy — email, shopping, background tasks — without handing over the keys.",
+    "quote": "Meta Opened Free Access to Muse AI Agent with 100M Tokens per Week\n\n@Meta launched Muse \u2014 a personal #AI agent that works 24/7 across your email, browser, and connected services, and it's now free with up to 100M tokens per week.\n\nBuilt with Zuckerberg's \"personal superintelligence\" pitch in mind, Muse runs in an isolated cloud VM and never touches your real credentials directly \u2014 a separate Sentinel system approves or blocks every action, network request, and payment. Prompt injection defenses, surrogate payment tokens, and single-use cards round out the security model, and Meta is now offering researchers up to $300K in bug bounties (up to $130K for a critical instruction-hijack exploit).\n\nIt's a serious bet that agentic AI can be made safe enough for real-world autonomy \u2014 email, shopping, background tasks \u2014 without handing over the keys.",
     "author": "@CryptoTotem",
-    "author_name": "СryptoTotem",
+    "author_name": "\u0421ryptoTotem",
     "date": "2026-09-09",
     "url": "https://x.com/CryptoTotem/status/2097709111853146570",
     "kind": "other",
@@ -436,7 +632,7 @@
   {
     "id": "ac3b45d46eeb",
     "agent": "muse",
-    "quote": "We connected @Meta’s Muse AI assistant to @OpheliaAPI and asked:\n\n“Find sushi in Chelsea for 1 person next Thursday”\n\nMuse took ~3 minutes.\n\nOphelia returned ~1 second.\n\nAND same results across booking the reservation. This didn’t include flights, RSVPs, hotels, commerce, or groceries.\n\nParticularly why agent infrastructure matters.\n\nThe model is only as good as the infrastructure behind it.\n\n@AIatMeta 👀",
+    "quote": "We connected @Meta\u2019s Muse AI assistant to @OpheliaAPI and asked:\n\n\u201cFind sushi in Chelsea for 1 person next Thursday\u201d\n\nMuse took ~3 minutes.\n\nOphelia returned ~1 second.\n\nAND same results across booking the reservation. This didn\u2019t include flights, RSVPs, hotels, commerce, or groceries.\n\nParticularly why agent infrastructure matters.\n\nThe model is only as good as the infrastructure behind it.\n\n@AIatMeta \ud83d\udc40",
     "author": "@BoBrainerd",
     "author_name": "Bo Brainerd",
     "date": "2026-09-09",
@@ -451,43 +647,9 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "7a6181fc9a61",
-    "agent": "muse",
-    "quote": "@Meta muse’s #1 use case is email and calendar - why did @Google not make the first move?",
-    "author": "@rishi_bhargava",
-    "author_name": "Rishi Bhargava",
-    "date": "2026-09-09",
-    "url": "https://x.com/rishi_bhargava/status/2097535051949035879",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "d67c8a05d82c",
-    "agent": "muse",
-    "quote": "이메일 보내기 전에 한 번 물어보는 개인 에이전트, Muse.\n\nMeta 공식 글에서 개인 AI 에이전트 Muse를 소개했어요.\n미국은 iOS·Android·https://t.co/9DniznDLfe, WhatsApp으로 열고, AI 안경에도 곧이라고 해요.\n\n엔진은 Muse Spark예요.\n앱을 닫아도 일을 이어 가고, 이메일·구매 앞에서는 승인을 받는다고 적어요.\n결제는 Stripe Link, Shop Pay·1Password는 곧이라고 해요.\n\n밑단은 Muse Secure VM이에요.\nSentinel이 막으면 인터넷으로 못 나간다고 해요.\n비밀번호·결제수단은 Muse가 안 본다고 적어요.\n\n기본은 무료.\n보도는 Power 월 $20, Maximum 월 $100이라고 전해요.\n\n투자 권유가 아니에요.\n구조는 Meta 공식, 요금은 보도만 옮겼어요.\n\nMeta Muse — a personal agent that asks before it sends the email.\n\n글:https://t.co/p8cYno3Rbk",
-    "author": "@ZentrionGlobal",
-    "author_name": "Zentrion",
-    "date": "2026-09-09",
-    "url": "https://x.com/ZentrionGlobal/status/2097491252594016465",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
     "id": "b2a1c0b9cb3e",
     "agent": "muse",
-    "quote": "Meta just launched Muse, its personal AI agent. Runs on a dedicated Muse Secure VM with browser/app access (email, travel, payments via Link/Stripe), powered by Muse Spark; US rollout on iOS/Android/muse.ai, free for most use with paid tiers, glasses coming. First real Meta consumer agent play toward “personal superintelligence,” not just chat.\n\nhttps://t.co/CNOP5C6yTh",
+    "quote": "Meta just launched Muse, its personal AI agent. Runs on a dedicated Muse Secure VM with browser/app access (email, travel, payments via Link/Stripe), powered by Muse Spark; US rollout on iOS/Android/muse.ai, free for most use with paid tiers, glasses coming. First real Meta consumer agent play toward \u201cpersonal superintelligence,\u201d not just chat.\n\nhttps://t.co/CNOP5C6yTh",
     "author": "@AlonTesla",
     "author_name": "Tesla Alon",
     "date": "2026-09-09",
@@ -502,49 +664,139 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "f762ec50296d",
+    "id": "662702c56ea1",
     "agent": "muse",
-    "quote": "When work, life, and wedding planning all hit at once, Muse helps @gannon_meyer keep things moving, from managing his calendar to drafting follow-up emails.\n\nDownload the Muse app to get started: https://t.co/xOcWxCq1uy https://t.co/oRuOv3mpdy",
-    "author": "@Muse",
-    "author_name": "Muse",
+    "quote": "I am shocked. After playing with Muse by Meta for an hour in just chat mode, I was impressed enough to: I never use Apple Reminders so I gave Muse read access to Reminders. I asked Muse to schedule repeating tasks that only involve web search e.g., every other morning find sci-fi movies playing in my city, 3pm EST stock market summary, etc. I also permanently set my food preferences and just naming any restaurant in town gets me an accurate list of recommendations with costs and descriptions.",
+    "author": "mark_l_watson",
+    "author_name": "mark_l_watson",
     "date": "2026-09-09",
-    "url": "https://x.com/Muse/status/2097476793368289566",
-    "kind": "other",
+    "url": "https://news.ycombinator.com/item?id=49631236",
+    "kind": "praise",
     "tags": [
-      "auto",
-      "x",
-      "vendor"
+      "reminders",
+      "recommendations",
+      "routines",
+      "memory"
     ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Strong early praise: recurring web-search tasks + restaurant recommendations from preferences."
   },
   {
-    "id": "cd3ab7fe509c",
+    "id": "0d049e593a21",
     "agent": "muse",
-    "quote": "@Meta Muse is built to jump between apps and handle real tasks without constant hand holding. The pitch is convenience, but the fine print is trust. One wrong move and it is not just your calendar that gets exposed.",
-    "author": "@QAS_LLC",
-    "author_name": "Quantum Automated Solutions",
+    "quote": "My grocery store's app requires me to \"clip\" coupons if I want to use them. Instead of clipping just the ones that I need, I would just take 2-3 minutes to tap the clip button repeatedly (as you clip the next coupon moves up into the same spot). Very tedious, but the best way to make sure you don't miss any savings. Today I asked Muse to do it. It was very slow compared to my repetitive tapping, but it clipped every coupon for me after getting my login credentials for the grocery store's website.",
+    "author": "WillyF",
+    "author_name": "WillyF",
     "date": "2026-09-09",
-    "url": "https://x.com/QAS_LLC/status/2097475292432368034",
-    "kind": "other",
+    "url": "https://news.ycombinator.com/item?id=49626889",
+    "kind": "use-case",
     "tags": [
-      "auto",
-      "x",
-      "reply"
+      "shopping",
+      "browser-agent",
+      "latency"
     ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Hands-on HN: Muse completes tedious coupon-clipping via store login; slow but thorough."
   },
   {
-    "id": "4c05f978a58d",
+    "id": "a60a4aa78ae7",
     "agent": "muse",
-    "quote": "Bills paid. Flowers sent. Dinner booked. @marshal's Muse doesn’t just remind him what needs doing, it gets it done.\n\nDownload the Muse app to get started: https://t.co/xOcWxCq1uy https://t.co/HxjHBhxUiI",
-    "author": "@Muse",
-    "author_name": "Muse",
+    "quote": "I've been alpha testing muse and there's precisely one area it's useful in.... Finding things on Facebook Marketplace and haggling for me lol",
+    "author": "N3cr0ph4g1st",
+    "author_name": "N3cr0ph4g1st",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49622074",
+    "kind": "use-case",
+    "tags": [
+      "marketplace",
+      "haggling",
+      "meta-ecosystem"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Alpha tester: Marketplace search + haggling is the standout useful job."
+  },
+  {
+    "id": "2af074708e6e",
+    "agent": "muse",
+    "quote": "Now I'm trying muse spark 1.3 with opencode which is free with pretty generous usage allowance. First time I've been impressed by meta's AI products. It feels not far below opus 4.8ish",
+    "author": "willsmith72",
+    "author_name": "willsmith72",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49620473",
+    "kind": "praise",
+    "tags": [
+      "muse-spark",
+      "coding",
+      "model-quality"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Muse Spark 1.3 via OpenCode compared favorably to Opus-tier for coding."
+  },
+  {
+    "id": "adc4512d2311",
+    "agent": "muse",
+    "quote": "Agreed. I'm not a fan of Meta in any way, but I've had fun messing with the app this afternoon - both on my phone and the web version at muse.ai - to see what it could do. Like the announcement said, it's running in its own VM, but it's an impressively transparent system: You have access to its System Files right in the GUI, which surprised me. You can look at the AGENTS.md and other harness files it uses as well as some shell scripts, bash files, cronjob folder etc. It seems a lot more obvious to me how Muse works than say Claude or ChatGPT, which don't make it nearly as clear where stuff lives and how long its there for.",
+    "author": "russellbeattie",
+    "author_name": "russellbeattie",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49620247",
+    "kind": "praise",
+    "tags": [
+      "security",
+      "transparency",
+      "vm",
+      "harness"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Hands-on: praises Muse Secure VM transparency / System Files vs Claude/ChatGPT opacity."
+  },
+  {
+    "id": "f7e116f1aff4",
+    "agent": "muse",
+    "quote": "\ud83d\udcf0 #imNEWS: @Meta launched Muse, a personal AI agent that talks like a chat in the Muse app or WhatsApp, powered by Muse Spark. It runs in a dedicated Muse Secure VM, can keep working after you close the app, and asks before emails or purchases. Link by Stripe covers agent checkout with one-time cards. US rollout on iOS, Android, and https://t.co/gSNkgq6rfh, free for most use, with subscriptions for more.\n\n\ud83d\udd11 3 Key Takeaways\n\n\u2460 An agent that keeps working\nMuse is built for everyday tasks (email, travel) and bigger goals. Share a goal, it builds a plan, then it can open a browser, fill forms, and negotiate. For longer jobs it keeps going after you close the app and comes back when something changes or it needs approval.\n\n\u2461 A dedicated VM, not a chat overlay\nMuse Secure VM is a contained cloud computer for the agent plus your data and credentials. A separate Sentinel agent has to approve anything that hits the internet. Muse cannot see passwords or payment methods. A Confidential VM later this year encrypts the whole box with a key only the user holds.\n\n\u2462 Checkout and memory with limits\nMuse can pay with Link, including purchase protections and one-time cards. Shop Pay and 1Password support are coming. It can turn a saved Instagram recipe reel into a grocery list and remember dietary restrictions. You pick app access, can disconnect anytime, and can opt out of training.\n\n\u2705 Action Item\nRun one real task in Muse this week (book something, dispute a bill, or checkout). Write down where it asked for approval vs acted on its own. If you sell via WhatsApp or Instagram, that log is your map for how consumer agents will sit between you and the customer.\n\nSource: https://t.co/EDoNj2gvJw",
+    "author": "@imFORZA",
+    "author_name": "\u26a1\ufe0fimFORZA",
     "date": "2026-09-08",
-    "url": "https://x.com/Muse/status/2097468051373388041",
+    "url": "https://x.com/imFORZA/status/2097407395433435352",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.927Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "6fcfb32493af",
+    "agent": "muse",
+    "quote": "Muse is Meta's personal AI agent that shops, emails, and books travel for you from a chat.\n\nIt runs in its own secure cloud VM, works in the Muse app or WhatsApp, and asks before it sends or pays. Free in the US on iOS, Android, and https://t.co/AwKl2Nfxp6.\n\nWould you trust an agent with your calendar and checkout?",
+    "author": "@getSecretApps",
+    "author_name": "Secret Apps",
+    "date": "2026-09-08",
+    "url": "https://x.com/getSecretApps/status/2097435903669194888",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "684aca7afc29",
+    "agent": "muse",
+    "quote": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
+    "author": "@finkd",
+    "author_name": "Mark Zuckerberg",
+    "date": "2026-09-08",
+    "url": "https://x.com/finkd/status/2097402101332590646",
     "kind": "other",
     "tags": [
       "auto",
@@ -552,13 +804,20 @@
       "vendor"
     ],
     "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "collected_at": "2026-09-08T21:27:50.282Z",
+    "notes": "launch post; 1548 replies, 17691 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 36276,
+      "reposts": 2515,
+      "replies": 3230,
+      "views": 8213501,
+      "fetched": "2026-09-10"
+    }
   },
   {
     "id": "ee57b79191bc",
     "agent": "muse",
-    "quote": "@Jetson_Dad @AIatMeta Bro Meta Muse is so awesome I’m glad I didn’t upgrade my D subscription for Grok Bot\n\nAnd there’s no usage limits!",
+    "quote": "@Jetson_Dad @AIatMeta Bro Meta Muse is so awesome I\u2019m glad I didn\u2019t upgrade my D subscription for Grok Bot\n\nAnd there\u2019s no usage limits!",
     "author": "@dissectmarkets",
     "author_name": "Dissecting the Markets",
     "date": "2026-09-08",
@@ -568,6 +827,49 @@
       "auto",
       "x",
       "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T21:10:37.926Z",
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "41428873f656",
+    "agent": "muse",
+    "quote": "1/ today we're rolling out Muse, our new personal ai assistant. Muse is always-on, wicked fast, can use a browser, connect to your apps, and is designed to be secure.\n\ntry it now: https://muse.ai.",
+    "author": "@alexandr_wang",
+    "author_name": "Alexandr Wang",
+    "date": "2026-09-08",
+    "url": "https://x.com/alexandr_wang/status/2097402344061510004",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T21:27:50.383Z",
+    "notes": "launch post; 205 replies, 2059 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 5368,
+      "reposts": 456,
+      "replies": 569,
+      "views": 11776023,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "4c05f978a58d",
+    "agent": "muse",
+    "quote": "Bills paid. Flowers sent. Dinner booked. @marshal's Muse doesn\u2019t just remind him what needs doing, it gets it done.\n\nDownload the Muse app to get started: https://t.co/xOcWxCq1uy https://t.co/HxjHBhxUiI",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-08",
+    "url": "https://x.com/Muse/status/2097468051373388041",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
@@ -592,43 +894,53 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "6fcfb32493af",
+    "id": "fc3e8c09795f",
     "agent": "muse",
-    "quote": "Muse is Meta's personal AI agent that shops, emails, and books travel for you from a chat.\n\nIt runs in its own secure cloud VM, works in the Muse app or WhatsApp, and asks before it sends or pays. Free in the US on iOS, Android, and https://t.co/AwKl2Nfxp6.\n\nWould you trust an agent with your calendar and checkout?",
-    "author": "@getSecretApps",
-    "author_name": "Secret Apps",
+    "quote": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://Muse.ai",
+    "author": "@Muse",
+    "author_name": "Muse",
     "date": "2026-09-08",
-    "url": "https://x.com/getSecretApps/status/2097435903669194888",
+    "url": "https://x.com/Muse/status/2097399178376671666",
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "vendor"
     ],
     "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "collected_at": "2026-09-08T21:27:50.186Z",
+    "notes": "launch post; 355 replies, 5016 likes; fetched via fxtwitter (no X session available)",
+    "metrics": {
+      "likes": 10713,
+      "reposts": 972,
+      "replies": 1020,
+      "views": 5908472,
+      "fetched": "2026-09-10"
+    }
   },
   {
-    "id": "f7e116f1aff4",
+    "id": "f274e1238555",
     "agent": "muse",
-    "quote": "📰 #imNEWS: @Meta launched Muse, a personal AI agent that talks like a chat in the Muse app or WhatsApp, powered by Muse Spark. It runs in a dedicated Muse Secure VM, can keep working after you close the app, and asks before emails or purchases. Link by Stripe covers agent checkout with one-time cards. US rollout on iOS, Android, and https://t.co/gSNkgq6rfh, free for most use, with subscriptions for more.\n\n🔑 3 Key Takeaways\n\n① An agent that keeps working\nMuse is built for everyday tasks (email, travel) and bigger goals. Share a goal, it builds a plan, then it can open a browser, fill forms, and negotiate. For longer jobs it keeps going after you close the app and comes back when something changes or it needs approval.\n\n② A dedicated VM, not a chat overlay\nMuse Secure VM is a contained cloud computer for the agent plus your data and credentials. A separate Sentinel agent has to approve anything that hits the internet. Muse cannot see passwords or payment methods. A Confidential VM later this year encrypts the whole box with a key only the user holds.\n\n③ Checkout and memory with limits\nMuse can pay with Link, including purchase protections and one-time cards. Shop Pay and 1Password support are coming. It can turn a saved Instagram recipe reel into a grocery list and remember dietary restrictions. You pick app access, can disconnect anytime, and can opt out of training.\n\n✅ Action Item\nRun one real task in Muse this week (book something, dispute a bill, or checkout). Write down where it asked for approval vs acted on its own. If you sell via WhatsApp or Instagram, that log is your map for how consumer agents will sit between you and the customer.\n\nSource: https://t.co/EDoNj2gvJw",
-    "author": "@imFORZA",
-    "author_name": "⚡️imFORZA",
+    "quote": "Now they have Muse Spark 1.3, which is somewhere between Sonnet and Flable (Opus tier in my experience) in intelligence, but is very fast at 200+ tok/s. I have been using Muse Spark 1.3 contrib (the one that shares your data for training but is much cheaper) via OpenCode Go $10/mo plan for coding and the thing flies, it's a pleasure to use.",
+    "author": "bel8",
+    "author_name": "bel8",
     "date": "2026-09-08",
-    "url": "https://x.com/imFORZA/status/2097407395433435352",
-    "kind": "other",
+    "url": "https://news.ycombinator.com/item?id=49616351",
+    "kind": "praise",
     "tags": [
-      "auto",
-      "x"
+      "muse-spark",
+      "speed",
+      "coding",
+      "pricing"
     ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.927Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "source": "hn",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Speed praise for Muse Spark 1.3 contrib on OpenCode Go."
   },
   {
     "id": "770f0d0be75a",
     "agent": "muse",
-    "quote": "My early testing results of @Meta Muse Spark 1.3 for coding are really good! I’ll share some examples soon. I recommend trying it out. They also have a $5/month subscription with relatively generous prompting limits. I’m using the terminal CLI, it’d be good to have their own IDE.",
+    "quote": "My early testing results of @Meta Muse Spark 1.3 for coding are really good! I\u2019ll share some examples soon. I recommend trying it out. They also have a $5/month subscription with relatively generous prompting limits. I\u2019m using the terminal CLI, it\u2019d be good to have their own IDE.",
     "author": "@DeryaTR_",
     "author_name": "Derya Unutmaz, MD",
     "date": "2026-09-02",

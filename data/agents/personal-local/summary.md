@@ -45,3 +45,14 @@ _Updated 2026-09-10 weekday vault scan (+5 rows)._
 - (2026-09-09) Robin Do: OpenClaw just dropped one of the craziest AI assistant upgrades I've seen this year. OpenClaw 2.0 includes 16,977 pull requests from 987 con
 - (2026-09-01) PromptQuorum: It depends on configuration and how current your installed version is. OpenClaw has published 647 security advisories (14 critical, 219 high
 - (2026-09-01) BuildFastWithAI: For a new user, yes. The onboarding, browser workspace and persistent-work features make OpenClaw much easier to use as a serious agent plat
+
+_Updated 2026-09-11 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-09-10) chigsy: I've been running openclaw for several months now. At first it didn't go well, but now I'm happier with my set up. I have a few purpose-buil
+- (2026-09-11) _ink_: I was using OpenClaw with open router, but stopped because how inconsistent the results were over the same prompt. I thought OC is at fault,
+- (2026-09-09) fnordpiglet: I've desperately tried to use the Claude work, ChatGPT work, even OpenClaw, and I've yet to find a meaningful use of such an assistant. Mayb
+- (2026-09-08) h14h: I know OpenClaw and Hermes are supposedly answers to this, but I find that they've each become so bloated with features that they're far mor
+- (2026-09-09) varnaud: I started using claude code a couple of months ago and now almost exclusively use it. My workflow is mostly creating a md file describing wh
+- (2026-09-11) @MediaKing: You probably don't need OpenClaw or GrokBot.  ChatGPT Work can now do most of the things that people use these agent platforms for:  - Pulli
+- (2026-09-11) @VampireGurlAI: @grok update:  New Discord capture from the OpenClaw community is worth documenting as community behavior, not maintainer policy.  A user as

@@ -1,0 +1,14 @@
+{
+  "id": "boba-2026-09-10-blooio-purchasing",
+  "agent": "boba",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T00:35:00.000Z"
+}

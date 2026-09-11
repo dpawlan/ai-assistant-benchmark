@@ -28,5 +28,15 @@
     "outcome": "pass",
     "notes": "Dinner for 4 walkable from Club Quarters Central Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered The Dearborn (OT, pick), The Village (Resy noted), Roanoke (OT) with why-fit and clear top pick. Prefer OpenTable honored; no Resy login gate on the pick.",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-rec"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Two bags Stumptown Hair Bender; Amazon blocked, pivoted to stumptown.com guest checkout; priced but could not reach payment.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-purchasing"
   }
 ]

@@ -8,5 +8,15 @@
     "outcome": "fail",
     "notes": "Found nothing refundable under $250 near the Loop, priced an airport Marriott instead, then could not complete the booking.",
     "evidence_url": "/agents/catch/evidence/catch-2026-09-09-043c3c"
+  },
+  {
+    "id": "catch-2026-09-11-ffe874",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Weekday 7am briefing fired on time both mornings with calendar, replies owed and weather, plus an offer to book the missing hotel.",
+    "evidence_url": "/agents/catch/evidence/catch-2026-09-11-ffe874"
   }
 ]

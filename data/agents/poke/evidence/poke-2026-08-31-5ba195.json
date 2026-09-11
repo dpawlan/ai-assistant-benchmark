@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-08-31-5ba195",
+  "agent": "poke",
+  "category": "running_routine",
+  "protocol": "observed",
+  "date": "2026-08-31",
+  "signals": {
+    "turns": 62,
+    "my_messages": 0,
+    "agent_messages": 62,
+    "first_reply_s": 86430,
+    "duration_min": 103680,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-11T15:55:57.008Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "town-2026-09-11-237d15",
+  "agent": "town",
+  "category": "running_routine",
+  "protocol": "task",
+  "date": "2026-09-11",
+  "signals": {
+    "turns": 11,
+    "my_messages": 2,
+    "agent_messages": 9,
+    "first_reply_s": 7,
+    "duration_min": 5,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T15:55:57.014Z"
+}

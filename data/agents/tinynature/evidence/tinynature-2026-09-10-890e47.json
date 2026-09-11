@@ -1,0 +1,19 @@
+{
+  "id": "tinynature-2026-09-10-890e47",
+  "agent": "tinynature",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-09-10",
+  "signals": {
+    "turns": 5,
+    "my_messages": 0,
+    "agent_messages": 5,
+    "first_reply_s": 4,
+    "duration_min": 22,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-11T15:55:57.017Z"
+}

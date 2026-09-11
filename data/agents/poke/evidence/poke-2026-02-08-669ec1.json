@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-02-08-669ec1",
+  "agent": "poke",
+  "category": "proactive_restraint",
+  "protocol": "observed",
+  "date": "2026-02-08",
+  "signals": {
+    "turns": 10,
+    "my_messages": 3,
+    "agent_messages": 7,
+    "first_reply_s": 12,
+    "duration_min": 33,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T15:55:57.007Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "poke-2026-09-10-b00e67",
+  "agent": "poke",
+  "category": "email_replies",
+  "protocol": "observed",
+  "date": "2026-09-10",
+  "signals": {
+    "turns": 16,
+    "my_messages": 5,
+    "agent_messages": 11,
+    "first_reply_s": 1449,
+    "duration_min": 31,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-11T15:55:57.008Z"
+}

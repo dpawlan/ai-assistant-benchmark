@@ -1,0 +1,19 @@
+{
+  "id": "openinstinct-2026-09-11-ec9a9b",
+  "agent": "openinstinct",
+  "category": "running_routine",
+  "protocol": "task",
+  "date": "2026-09-11",
+  "signals": {
+    "turns": 1,
+    "my_messages": 1,
+    "agent_messages": 0,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T15:55:57.015Z"
+}

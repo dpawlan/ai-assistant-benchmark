@@ -1,0 +1,19 @@
+{
+  "id": "town-2026-05-22-7c2523",
+  "agent": "town",
+  "category": "running_routine",
+  "protocol": "observed",
+  "date": "2026-05-22",
+  "signals": {
+    "turns": 122,
+    "my_messages": 0,
+    "agent_messages": 122,
+    "first_reply_s": 1,
+    "duration_min": 48363,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-11T15:55:57.014Z"
+}

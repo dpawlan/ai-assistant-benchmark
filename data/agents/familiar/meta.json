@@ -1,0 +1,27 @@
+{
+  "slug": "familiar",
+  "name": "Familiar",
+  "site": "https://withfamiliar.ai/",
+  "handles": [
+    "withfamiliar",
+    "nickdaze"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hosted personal agent that triages the inbox, preps the day, runs research and remembers what matters; Telegram now, WhatsApp and Slack coming; invite-only research preview, still in stealth. Requested via the form (issue #114).",
+  "public_signal": "low",
+  "tagline": "A personal AI agent that shows up before you ask",
+  "icon": "/logos/familiar.png",
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Invite-only research preview; price not stated",
+    "regions": "Not stated",
+    "channels": [
+      "Telegram",
+      "WhatsApp (coming)",
+      "Slack (coming)"
+    ],
+    "checked": "2026-09-11"
+  }
+}

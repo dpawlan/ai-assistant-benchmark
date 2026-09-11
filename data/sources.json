@@ -2059,6 +2059,96 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-11 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
+    },
+    "familiar": {
+      "name": "Familiar",
+      "handles": [
+        "withfamiliar",
+        "nickdaze"
+      ],
+      "domain": "withfamiliar.ai",
+      "x_queries": [
+        "\"withfamiliar.ai\"",
+        "@withfamiliar",
+        "@nickdaze"
+      ],
+      "reddit_queries": [
+        "\"withfamiliar.ai\""
+      ],
+      "hn_queries": [
+        "\"withfamiliar.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "withfamiliar.ai",
+        "@withfamiliar",
+        "@nickdaze",
+        "familiar ai",
+        "familiar app"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-11 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
+    },
+    "boski": {
+      "name": "Boski",
+      "handles": [
+        "boski",
+        "sebglab"
+      ],
+      "domain": "boski.com",
+      "x_queries": [
+        "\"boski.com\"",
+        "@boski",
+        "@sebglab"
+      ],
+      "reddit_queries": [
+        "\"boski.com\""
+      ],
+      "hn_queries": [
+        "\"boski.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "boski.com",
+        "@boski",
+        "@sebglab",
+        "boski ai",
+        "boski app"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-11 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
+    },
+    "tab": {
+      "name": "Tab",
+      "handles": [
+        "tabdotbot",
+        "tab_bot"
+      ],
+      "domain": "tab.bot",
+      "x_queries": [
+        "\"tab.bot\"",
+        "@tabdotbot",
+        "@tab_bot"
+      ],
+      "reddit_queries": [
+        "\"tab.bot\""
+      ],
+      "hn_queries": [
+        "\"tab.bot\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tab.bot",
+        "@tabdotbot",
+        "@tab_bot",
+        "tab ai",
+        "tab app"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-11 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
     }
   },
   "_redact_terms": [

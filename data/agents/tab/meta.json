@@ -1,0 +1,26 @@
+{
+  "slug": "tab",
+  "name": "Tab",
+  "site": "https://tab.bot/",
+  "handles": [
+    "tabdotbot",
+    "tab_bot"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Text-first assistant that makes calls, places orders, browses sites, edits documents and manages reservations; private beta with signup open to 40+ countries. Requested via the form (issue #105).",
+  "public_signal": "low",
+  "tagline": "Meet your AI in Messages",
+  "icon": "/logos/tab.png",
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Private beta; price not stated",
+    "regions": "Signup open in 40+ countries",
+    "channels": [
+      "iMessage",
+      "SMS"
+    ],
+    "checked": "2026-09-11"
+  }
+}

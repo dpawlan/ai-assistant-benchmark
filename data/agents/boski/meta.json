@@ -1,0 +1,26 @@
+{
+  "slug": "boski",
+  "name": "Boski",
+  "site": "https://boski.com/",
+  "handles": [
+    "boski",
+    "sebglab"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Goal-focused agent that remembers your details and gives daily action steps; web login and an iPhone app. Requested via the form (issue #113).",
+  "public_signal": "low",
+  "tagline": "Get closer to your goals every day",
+  "icon": "/logos/boski.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Web"
+    ],
+    "checked": "2026-09-11"
+  }
+}

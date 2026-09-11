@@ -1,8 +1,8 @@
 {
   "updated": "2026-09-11",
-  "agent_count": 62,
+  "agent_count": 65,
   "feedback_count": 5186,
-  "confirmed": 45,
+  "confirmed": 48,
   "stretch": 17,
   "agents": [
     {
@@ -131,6 +131,27 @@
           "RCS (Android)"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "boski",
+      "name": "Boski",
+      "status": "confirmed",
+      "site": "https://boski.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Get closer to your goals every day",
+      "icon": "/logos/boski.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-11"
       }
     },
     {
@@ -341,6 +362,28 @@
           "Slack"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "familiar",
+      "name": "Familiar",
+      "status": "confirmed",
+      "site": "https://withfamiliar.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A personal AI agent that shows up before you ask",
+      "icon": "/logos/familiar.png",
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Invite-only research preview; price not stated",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "WhatsApp (coming)",
+          "Slack (coming)"
+        ],
+        "checked": "2026-09-11"
       }
     },
     {
@@ -1142,6 +1185,27 @@
           "Phone"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "tab",
+      "name": "Tab",
+      "status": "confirmed",
+      "site": "https://tab.bot/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Meet your AI in Messages",
+      "icon": "/logos/tab.png",
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Private beta; price not stated",
+        "regions": "Signup open in 40+ countries",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-11"
       }
     },
     {

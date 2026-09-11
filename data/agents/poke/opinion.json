@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "8390dba288b9": {
@@ -304,6 +304,32 @@
     },
     "92814b9ee1ef": {
       "general": "pos"
+    },
+    "5f38760d89d0": {
+      "general": "pos",
+      "personality": "pos"
+    },
+    "dbfba3474b24": {
+      "general": "pos"
+    },
+    "41eb768db8a5": {
+      "general": "pos"
+    },
+    "773e34da9d06": {
+      "general": "pos",
+      "third_party_integrations": "pos"
+    },
+    "81b387b1bd5d": {
+      "general": "pos",
+      "personality": "pos"
+    },
+    "890c34c59fa8": {
+      "general": "mixed",
+      "content_creation_games": "pos"
+    },
+    "58581cb64239": {
+      "general": "pos",
+      "online_task": "pos"
     }
   },
   "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"

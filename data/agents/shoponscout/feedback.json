@@ -1176,7 +1176,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 94,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "984aa70e24b4",
@@ -1195,7 +1202,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4c83a75a220f",
@@ -1213,7 +1227,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a9a2d129def5",
@@ -1232,7 +1253,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 134,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "42cba512b7be",
@@ -1251,7 +1279,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 156,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e018eb801d4e",
@@ -1270,7 +1305,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 104,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8750652cf74d",
@@ -1289,7 +1331,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 129,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5ec866f35048",
@@ -1306,7 +1355,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @shoponscout since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4ad25e1ef575",
@@ -1324,6 +1380,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:39:22.175Z",
-    "notes": "query: \"shoponscout\" (ai OR assistant OR agent) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"shoponscout\" (ai OR assistant OR agent) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 4,
+      "views": 2926,
+      "fetched": "2026-09-11"
+    }
   }
 ]

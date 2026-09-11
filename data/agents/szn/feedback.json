@@ -948,7 +948,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 43,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc3adab0b3aa",
@@ -966,7 +973,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bab44b495297",
@@ -985,7 +999,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a691e8366647",
@@ -1003,7 +1024,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "40418599f53e",
@@ -1022,7 +1050,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc44f3621902",
@@ -1041,7 +1076,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 202,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d26f0ae8c38b",
@@ -1059,7 +1101,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 47,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c26d7d713303",
@@ -1078,7 +1127,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "76f309ee6258",
@@ -1096,7 +1152,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 96,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "74fdcb7440ec",
@@ -1115,6 +1178,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:00.355Z",
-    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @thesznai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   }
 ]

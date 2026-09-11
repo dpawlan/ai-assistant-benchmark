@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "b130319edf9e": {
@@ -527,6 +527,109 @@
     },
     "47c7623665f1": {
       "general": "neutral"
+    },
+    "a4490f5c2f94": {
+      "general": "pos",
+      "running_routine": "pos",
+      "email_replies": "pos",
+      "proactive_behavior": "pos"
+    },
+    "decbb21dac84": {
+      "general": "pos",
+      "content_creation_games": "pos"
+    },
+    "3b5a72329f9d": {
+      "general": "pos",
+      "running_routine": "pos",
+      "chained_tasks": "pos"
+    },
+    "a5edaec6d4b4": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "9cb29d788b0e": {
+      "general": "pos"
+    },
+    "d08b7bf5a392": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "a0b0fcc6c252": {
+      "general": "pos",
+      "third_party_integrations": "pos",
+      "memory": "pos"
+    },
+    "04e07808797e": {
+      "general": "neg"
+    },
+    "30e08fb07f36": {
+      "general": "pos"
+    },
+    "d323c1ada994": {
+      "general": "neg"
+    },
+    "1fdf8379e2fe": {
+      "general": "neg"
+    },
+    "e2822bb7d2a9": {
+      "general": "pos"
+    },
+    "0a09e94b8c34": {
+      "general": "pos",
+      "email_replies": "pos",
+      "running_routine": "pos"
+    },
+    "f63ba4e84baa": {
+      "general": "pos",
+      "purchasing": "pos",
+      "travel": "pos"
+    },
+    "6e8c0ca9b845": {
+      "general": "pos",
+      "email_replies": "pos",
+      "third_party_integrations": "pos"
+    },
+    "1db1f4d8a2f7": {
+      "general": "neg"
+    },
+    "e11b7b14f9cf": {
+      "general": "pos",
+      "running_routine": "pos",
+      "third_party_integrations": "pos"
+    },
+    "f41f477cee72": {
+      "general": "pos",
+      "purchasing": "pos",
+      "chained_tasks": "pos"
+    },
+    "1cd8dcc0e28d": {
+      "general": "pos"
+    },
+    "14bce568e0f4": {
+      "general": "pos",
+      "online_task": "pos",
+      "email_replies": "pos"
+    },
+    "b00c71f32ef5": {
+      "general": "pos",
+      "email_replies": "pos"
+    },
+    "b1ab88c02adb": {
+      "general": "pos",
+      "email_replies": "pos"
+    },
+    "ce67631286aa": {
+      "general": "pos",
+      "third_party_integrations": "pos",
+      "running_routine": "pos"
+    },
+    "afa245190beb": {
+      "general": "pos",
+      "email_replies": "pos",
+      "multiplayer_groups": "pos"
+    },
+    "d05355aac3cd": {
+      "general": "pos"
     }
   },
   "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"

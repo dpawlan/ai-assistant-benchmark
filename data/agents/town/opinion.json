@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "27a975922d23": {
@@ -223,6 +223,54 @@
     },
     "1a11eb7edb97": {
       "general": "neutral"
+    },
+    "761cc41ff0ad": {
+      "general": "pos",
+      "multiplayer_groups": "pos"
+    },
+    "5c38c8b71f9e": {
+      "general": "pos"
+    },
+    "46ececa7fdae": {
+      "general": "pos",
+      "proactive_behavior": "pos"
+    },
+    "ddf8d8c80e7d": {
+      "general": "pos",
+      "email_replies": "pos",
+      "proactive_behavior": "pos",
+      "third_party_integrations": "pos"
+    },
+    "6966ed9fd976": {
+      "general": "pos"
+    },
+    "4079ac963741": {
+      "general": "neg"
+    },
+    "24b4e56e3471": {
+      "general": "neg"
+    },
+    "4ea636e94c76": {
+      "general": "pos"
+    },
+    "559a8940609f": {
+      "general": "pos",
+      "email_replies": "pos",
+      "running_routine": "pos"
+    },
+    "80164b5b7f8a": {
+      "general": "pos",
+      "proactive_behavior": "pos",
+      "running_routine": "pos"
+    },
+    "e74f21618856": {
+      "general": "pos"
+    },
+    "bd03a3e0bf57": {
+      "general": "pos"
+    },
+    "cbe679465c65": {
+      "general": "pos"
     }
   },
   "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"

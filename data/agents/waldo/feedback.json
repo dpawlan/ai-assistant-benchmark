@@ -295,6 +295,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:18:13.951Z",
-    "notes": "query: @heyywaldo since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @heyywaldo since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   }
 ]

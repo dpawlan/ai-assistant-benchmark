@@ -2121,7 +2121,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 94,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "12280a50ff67",
@@ -2139,7 +2146,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "50825ae69bf9",
@@ -2157,7 +2171,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 208,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d965c8d3095a",
@@ -2176,7 +2197,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 183,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7ddbd6f8cafe",
@@ -2195,7 +2223,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 118,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "17ca63c5b7d7",
@@ -2214,7 +2249,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 124,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "66c62a9dc405",
@@ -2233,7 +2275,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 116,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc242a2fbf16",
@@ -2252,7 +2301,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ac69a92556d6",
@@ -2271,7 +2327,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 162,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0064d81f154c",
@@ -2289,7 +2352,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 210,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7ed6839fbc65",
@@ -2307,7 +2377,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 214,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "579b10c965d1",
@@ -2325,7 +2402,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 158,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7857d1de59f4",
@@ -2343,7 +2427,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 154,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ddac882e7452",
@@ -2361,7 +2452,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 142,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "82b35b9e4f07",
@@ -2379,7 +2477,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 185,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1043cbdea115",
@@ -2397,7 +2502,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 103,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "70ab4ad36e12",
@@ -2415,7 +2527,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 138,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9864b467e11b",
@@ -2434,7 +2553,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 139,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "15ff32dafb2b",
@@ -2452,7 +2578,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.007Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 155,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "208f2af9f1ac",
@@ -2471,7 +2604,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 113,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "06e482ed854d",
@@ -2489,7 +2629,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 166,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "83e7e19e1826",
@@ -2508,7 +2655,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 212,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b67d3d86889d",
@@ -2526,7 +2680,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 70,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f88cbb69580d",
@@ -2544,7 +2705,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 168,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "70e69509a79c",
@@ -2562,7 +2730,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b1016716dde8",
@@ -2580,7 +2755,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f330cfec1daf",
@@ -2598,7 +2780,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 209,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "01debfad4dac",
@@ -2611,11 +2800,19 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 15,
+      "replies": 7,
+      "views": 5255,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0f0a0d360ae7",
@@ -2633,7 +2830,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 380,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2e814217f72",
@@ -2651,7 +2855,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 4,
+      "views": 867,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4a5938f8e3ce",
@@ -2670,7 +2881,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 129,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "47388e2e3001",
@@ -2688,7 +2906,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 206,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ee23213fc677",
@@ -2706,7 +2931,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2453,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a9fbb3b9d55a",
@@ -2723,7 +2955,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2650,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7eeb8801a4ff",
@@ -2740,7 +2979,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 287,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "73422bd1728b",
@@ -2759,7 +3005,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 251,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5d3cd70fdeef",
@@ -2777,7 +3030,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 29,
+      "reposts": 1,
+      "replies": 4,
+      "views": 2315,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a548d68e274e",
@@ -2796,7 +3056,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 153,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "faef4ff42094",
@@ -2813,7 +3080,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 3,
+      "views": 1791,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f6fdf2a00901",
@@ -2831,7 +3105,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 34,
+      "reposts": 0,
+      "replies": 5,
+      "views": 1349,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "12b63cbebb02",
@@ -2850,7 +3131,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 32,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1580,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3e2da9d12525",
@@ -2868,7 +3156,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 73,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "983919fcda4b",
@@ -2887,7 +3182,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 144,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "992f498abe9a",
@@ -2905,7 +3207,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b13601dddc29",
@@ -2923,7 +3232,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "be662ec324f2",
@@ -2941,7 +3257,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 131,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9fe21aab03d7",
@@ -2959,7 +3282,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 119,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "24a1762401c7",
@@ -2976,7 +3306,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 3,
+      "views": 512,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dfa983b1741e",
@@ -2994,7 +3331,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1239,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c9085bf0a75b",
@@ -3012,7 +3356,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "392840398933",
@@ -3030,7 +3381,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 181,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "608ccc067537",
@@ -3049,7 +3407,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 3,
+      "views": 324,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8fc52e5a6d00",
@@ -3068,7 +3433,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 2,
+      "views": 392,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a73cd9215048",
@@ -3086,7 +3458,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1830,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "99caccf193df",
@@ -3104,7 +3483,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 165,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "94f56de4affc",
@@ -3122,7 +3508,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2298,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e0f7a0a22a94",
@@ -3140,7 +3533,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 977,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "23a377b87a98",
@@ -3157,6 +3557,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:41:50.008Z",
-    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @soarapp since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 183,
+      "fetched": "2026-09-11"
+    }
   }
 ]

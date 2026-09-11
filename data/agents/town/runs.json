@@ -50,6 +50,16 @@
     "evidence_url": "/agents/town/evidence/town-2026-05-07-aee6c2"
   },
   {
+    "id": "town-2026-05-22-7c2523",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-05-22",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Twice-daily check-in ran cleanly for a week, then posted a raw process error at nearly every 7am and 9pm slot for two weeks.",
+    "evidence_url": "/agents/town/evidence/town-2026-05-22-7c2523"
+  },
+  {
     "id": "town-2026-05-27-ac70ab",
     "category": "third_party_integrations",
     "protocol": "observed",
@@ -68,5 +78,15 @@
     "outcome": "fail",
     "notes": "Same Google access failure a week later, again asking the user to add the integration.",
     "evidence_url": "/agents/town/evidence/town-2026-06-02-bfd83e"
+  },
+  {
+    "id": "town-2026-09-11-237d15",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Confirmed the weekday 7am briefing and ran a test on the spot, then nothing arrived on either of the next two weekday mornings.",
+    "evidence_url": "/agents/town/evidence/town-2026-09-11-237d15"
   }
 ]

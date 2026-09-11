@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-07-f58a5e",
+  "agent": "instinct",
+  "category": "proactive_restraint",
+  "protocol": "observed",
+  "date": "2026-09-07",
+  "signals": {
+    "turns": 1,
+    "my_messages": 0,
+    "agent_messages": 1,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-11T15:55:57.015Z"
+}

@@ -10,6 +10,16 @@
     "evidence_url": "/agents/poke/evidence/poke-2025-09-15-84e624"
   },
   {
+    "id": "poke-2026-02-08-669ec1",
+    "category": "proactive_restraint",
+    "protocol": "observed",
+    "date": "2026-02-08",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Kept auto-drafting email replies after repeated instructions to stop, then escalated the bug to its own team on request.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-02-08-669ec1"
+  },
+  {
     "id": "poke-2026-02-10-3fd950",
     "category": "running_routine",
     "protocol": "observed",
@@ -148,5 +158,35 @@
     "outcome": "pass",
     "notes": "Created a calendar invite with the right title, attendees and video link, confirming before saving, but jumped in before instructions.",
     "evidence_url": "/agents/poke/evidence/poke-2026-08-28-9c186e"
+  },
+  {
+    "id": "poke-2026-08-31-5ba195",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-08-31",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Daily morning weather arrived on 56 of 73 summer days, with a four-day gap in early July and a six-day gap in August.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-08-31-5ba195"
+  },
+  {
+    "id": "poke-2026-09-10-b00e67",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Swept the guest-post backlog, listed four open pricing inquiries and who was owed a deliverable, then archived the rest and set a rule.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-09-10-b00e67"
+  },
+  {
+    "id": "poke-2026-09-11-dd210c",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Weekday 7am briefing fired on time both mornings with the calendar and owed replies; the weather followed about an hour later each day.",
+    "evidence_url": "/agents/poke/evidence/poke-2026-09-11-dd210c"
   }
 ]

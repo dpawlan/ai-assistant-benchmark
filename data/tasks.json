@@ -143,18 +143,36 @@
     },
     {
       "key": "memory",
-      "task": "Remember a preference a week later",
-      "prompt": "Tell it once: 'I always want aisle seats and I don't eat pork.' A week later, ask for a flight and a dinner reservation.",
-      "pass": [
-        "Picks an aisle seat without being reminded",
-        "Restaurant suggestion respects the diet",
-        "Doesn't ask again"
+      "task": "Recall preferences and track context across the thread",
+      "probes": [
+        {
+          "name": "preference_recall",
+          "prompt": "Tell it once: 'I always want aisle seats and I don't eat pork.' A week later, ask for a flight and a dinner reservation.",
+          "pass": [
+            "Picks an aisle seat without being reminded",
+            "Restaurant suggestion respects the diet",
+            "Doesn't ask again"
+          ],
+          "anchors": {
+            "3": "Forgets by the next session",
+            "7": "Remembers when reminded",
+            "10": "Applies it unprompted a week later"
+          }
+        },
+        {
+          "name": "city_conflict",
+          "prompt": "After a Chicago hotel or trip is planned in the same thread, later ask for dinner that weekend in NY. Does the agent ask or confirm the city because it remembers the Chicago plans?",
+          "pass": [
+            "Notices or confirms the city conflict between planned Chicago trip and NY dinner request"
+          ],
+          "anchors": {
+            "3": "Ignores the prior trip planning; books NY blind",
+            "7": "Catches the conflict when nudged",
+            "10": "Asks or confirms city unprompted based on earlier Chicago plan"
+          }
+        }
       ],
-      "anchors": {
-        "3": "Forgets by the next session",
-        "7": "Remembers when reminded",
-        "10": "Applies it unprompted a week later"
-      }
+      "scoring": "One memory score; when both probes are run, final score is the minimum of the two subscores; notes must cover both."
     },
     {
       "key": "phone_calls",

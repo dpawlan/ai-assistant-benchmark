@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "310601343781": {
@@ -56,16 +56,24 @@
     "00f2dfaad307": {
       "online_task": "pos",
       "email_replies": "pos",
-      "third_party_integrations": "pos"
+      "third_party_integrations": "pos",
+      "general": "pos",
+      "travel": "pos",
+      "recommendation_quality": "pos"
     },
     "2f2879bb1147": {
       "online_task": "pos",
-      "chained_tasks": "pos"
+      "chained_tasks": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "2a02cd597ce5": {
       "online_task": "pos",
       "purchasing": "pos",
-      "proactive_behavior": "pos"
+      "proactive_behavior": "pos",
+      "general": "pos",
+      "travel": "pos",
+      "email_replies": "pos"
     },
     "4b2f17bc2d7d": {
       "multiplayer_groups": "neg"
@@ -90,20 +98,30 @@
       "multiplayer_groups": "neutral"
     },
     "f1b13b5d3e7c": {
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos",
+      "recommendation_quality": "pos"
     },
     "4ffb09af64b2": {
       "proactive_behavior": "pos",
       "third_party_integrations": "pos",
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos",
+      "running_routine": "pos"
     },
     "a320321d3588": {
       "online_task": "pos",
       "proactive_behavior": "pos",
-      "running_routine": "pos"
+      "running_routine": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "74954656bf9d": {
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "0dca0abbf9cd": {
       "personality": "pos"
@@ -129,10 +147,13 @@
       "email_replies": "pos",
       "running_routine": "pos",
       "purchasing": "pos",
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos"
     },
     "f7c5d1190a5c": {
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "a19c28f22726": {
       "online_task": "pos",
@@ -147,7 +168,8 @@
     "ce833cfe6780": {
       "proactive_behavior": "pos",
       "third_party_integrations": "pos",
-      "email_replies": "pos"
+      "email_replies": "pos",
+      "general": "pos"
     },
     "a265b6cbfb81": {
       "running_routine": "pos",
@@ -156,8 +178,10 @@
     "f7a9fdcd8e1c": {
       "online_task": "pos",
       "purchasing": "pos",
-      "email_replies": "mixed",
-      "proactive_behavior": "mixed"
+      "email_replies": "pos",
+      "proactive_behavior": "mixed",
+      "general": "pos",
+      "travel": "pos"
     },
     "a7c3bef005d6": {
       "online_task": "pos",
@@ -170,18 +194,23 @@
     },
     "55e06d728b0f": {
       "online_task": "pos",
-      "purchasing": "pos"
+      "purchasing": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "77e0e42d498f": {
       "purchasing": "pos",
-      "proactive_behavior": "pos"
+      "proactive_behavior": "pos",
+      "general": "pos"
     },
     "66f032f68be4": {
       "online_task": "pos",
       "purchasing": "pos",
       "recommendation_quality": "pos",
       "proactive_behavior": "pos",
-      "chained_tasks": "pos"
+      "chained_tasks": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "672cb65b56d1": {
       "multiplayer_groups": "neutral"
@@ -349,20 +378,26 @@
       "online_task": "pos",
       "purchasing": "pos",
       "proactive_behavior": "pos",
-      "chained_tasks": "pos"
+      "chained_tasks": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "f9f6c8a691f1": {
       "purchasing": "pos",
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos"
     },
     "ae80446b6dc2": {
       "purchasing": "pos",
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "d37d597978a3": {
       "purchasing": "pos",
       "online_task": "pos",
-      "memory": "pos"
+      "memory": "pos",
+      "general": "pos"
     },
     "b708b7532926": {
       "general": "neutral"
@@ -527,7 +562,9 @@
       "online_task": "pos",
       "email_replies": "pos",
       "chained_tasks": "pos",
-      "general": "pos"
+      "general": "pos",
+      "travel": "pos",
+      "recommendation_quality": "pos"
     },
     "6b7ae77b26d8": {
       "general": "neutral"
@@ -537,7 +574,43 @@
     },
     "69e36f816fbd": {
       "general": "neutral"
+    },
+    "10317cdff56f": {
+      "general": "pos",
+      "memory": "pos",
+      "proactive_behavior": "pos"
+    },
+    "b58f5d7e9d76": {
+      "general": "neg",
+      "travel": "neg"
+    },
+    "f85433cb2eb9": {
+      "general": "pos",
+      "recommendation_quality": "pos",
+      "email_replies": "pos"
+    },
+    "babea0ec4d51": {
+      "general": "pos",
+      "travel": "pos",
+      "purchasing": "pos",
+      "online_task": "pos",
+      "recommendation_quality": "pos"
+    },
+    "b4773666576e": {
+      "general": "pos",
+      "travel": "pos",
+      "proactive_behavior": "pos"
+    },
+    "c23949935457": {
+      "general": "pos",
+      "recommendation_quality": "pos",
+      "email_replies": "pos"
+    },
+    "18f453d423ec": {
+      "general": "neg",
+      "travel": "neg"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral | 2026-09-08: permissions_privacy classified for the 14 quotes tagged privacy/security/trust/deletion; invite-access and free-access quotes left unclassified"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral | 2026-09-08: permissions_privacy classified for the 14 quotes tagged privacy/security/trust/deletion; invite-access and free-access quotes left unclassified",
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

@@ -523,6 +523,103 @@
       "prompt": "Every morning, pull yesterday's ad performance, update the numbers in the sheet, flag creatives to refresh in Canva, and list any new leads that need a Calendly invite.",
       "prompt_source": "assumed",
       "caveat": "Self-hosted; the poster wired the integrations themselves."
+    },
+    {
+      "id": "0728e9602bdb",
+      "agent": "miso",
+      "title": "Hand your whole travel life to a text thread",
+      "summary": "Over five months: 37 flights across 10 airlines and 4 continents, 12 changes and cancellations handled, 13 delays monitored, 34 check-ins done, hotels too, all over 1,506 iMessages.",
+      "prompt": "Book me [route] on [date], cheapest business class using points if it beats cash. Watch the flight for delays and check me in when it opens.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "babea0ec4d51",
+      "agent": "instinct",
+      "title": "A birthday cabin, a dinner table, Costco whey and a fax to the bank",
+      "summary": "In a few days: booked a cabin and a dinner reservation for a birthday, ordered whey protein from Costco, faxed an obscure document to a bank to get a late fee refunded, and checked whether a new dentist was in-network.",
+      "prompt": "Fax this document to [bank] so they refund the late fee, and let me know when they confirm.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "66f032f68be4",
+      "agent": "instinct",
+      "title": "Run a multi-country road trip",
+      "summary": "Worked out which countries needed passes and bought them, planned each day's itinerary, messaged the hotel, kept the family updated on flight details and picked where to eat at the airport.",
+      "prompt": "We're driving from [city] through [countries] next week. Figure out any passes or vignettes we need and buy them, then plan each day and message our hotels with arrival times.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "864feca311b0",
+      "agent": "grok-bot",
+      "title": "Book beach chairs for a vacation, calls included",
+      "summary": "Pulled up the hotel reservation, researched beach chair and umbrella companies nearby, made three phone calls and booked the week online with the card on file, in about thirty minutes.",
+      "prompt": "We're at [hotel] the week of [date]. Find beach chair and umbrella rentals nearby, call to check availability, and book us for the week.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "821e6aa900e5",
+      "agent": "grok-bot",
+      "title": "Check Airbnb every day for a better place",
+      "summary": "With a refundable Airbnb already booked too far from a race start, a bot checks Airbnb daily for something closer and better and reports back.",
+      "prompt": "My Airbnb for [event] is refundable until [date]. Check Airbnb every morning for a place closer to [address] at a similar price and message me when you find one.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "6d3cd46f70ee",
+      "agent": "grok-bot",
+      "title": "Track the cost of cancelling a flight you might not take",
+      "summary": "A flight booked at 50/50 with cancellation fees that rise over time; an agent reports each day what cancelling costs now and when the next fee tier kicks in.",
+      "prompt": "For my [airline] booking [confirmation], tell me every morning what it costs to cancel today and the date the next fee increase kicks in.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "1be05ebda846",
+      "agent": "grok-bot",
+      "title": "Find webinars worth attending and book them",
+      "summary": "A bot that knows the poster's learning goals for the next six months scans a list of sites for relevant webinars, checks the calendar for space, and books them. Used to take 15 to 30 minutes a week.",
+      "prompt": "My learning goals this half are [topics]. Each week, check these sites for webinars that fit, make sure I'm free, and register me.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "4e7617ef0aad",
+      "agent": "town",
+      "title": "Keep a home remodel moving",
+      "summary": "Routines set up for a friend mid-remodel, starting with a weekly check-in that nudges the contractor when work stalls.",
+      "prompt": "Every Monday, check what the contractor said was due last week, and if there's been no update, send them a polite nudge asking for a status and a date.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "efc4bbf58e30",
+      "agent": "grok-bot",
+      "title": "Prep LinkedIn prospecting every day, you approve the first touch",
+      "summary": "An agency owner plugged a lead tool into Grok Bot; it preps live LinkedIn prospects daily and the owner approves every first message. Three appointments booked the first week.",
+      "prompt": "Every morning, build a list of 20 LinkedIn prospects matching [criteria], draft a first message for each, and wait for my approval before sending.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "b4773666576e",
+      "agent": "instinct",
+      "title": "Get pinged when a fare drops",
+      "summary": "Instinct watches flight prices continuously and notifies the poster about lower fares, some of which last only a few hours.",
+      "prompt": "Watch fares from [home airport] to [destination] for [month] and text me the moment a good one appears.",
+      "prompt_source": "assumed"
+    },
+    {
+      "id": "6dbd8eddaf5c",
+      "agent": "catch",
+      "title": "Book the hotel, even when it can't do the flight",
+      "summary": "The first time Catch completed part of a trip on its own: it didn't book the flight, which didn't seem supported, but it booked the hotel and found a better rate than the poster usually gets.",
+      "prompt": "Book me a hotel near [address] for [dates], under $[X] a night, with free cancellation.",
+      "prompt_source": "assumed",
+      "caveat": "Flight booking wasn't supported at the time."
+    },
+    {
+      "id": "680e935e2247",
+      "agent": "personal-local",
+      "title": "Let your agent argue with the airline's agent",
+      "summary": "Handed a flight transaction dispute to a self-hosted OpenClaw agent, which took over the support thread and negotiated with the airline's own AI support.",
+      "prompt": "Take over this support thread with [airline] about the double charge on [date] and get it refunded. Loop me in only if they need something from me.",
+      "prompt_source": "assumed"
     }
   ]
 }

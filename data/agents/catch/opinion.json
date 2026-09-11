@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "deabf7d1477d": {
@@ -318,7 +318,17 @@
     "86af07e0f03d": {
       "general": "pos",
       "online_task": "pos"
+    },
+    "c6081e5ef8a0": {
+      "general": "pos",
+      "phone_calls": "mixed",
+      "running_routine": "pos"
+    },
+    "6dbd8eddaf5c": {
+      "general": "mixed",
+      "travel": "mixed"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral",
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

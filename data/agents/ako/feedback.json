@@ -220,7 +220,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.471Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a0763e7493e7",
@@ -239,7 +246,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 130,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2fd5567f2a1f",
@@ -257,7 +271,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 455,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8b6948e5757e",
@@ -276,7 +297,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 500,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d5e93de6a19d",
@@ -294,7 +322,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2682,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "93a53f6ed8d4",
@@ -313,7 +348,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @with_ako since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 84,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "920e982a0a59",
@@ -332,7 +374,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @with_ako since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: @with_ako since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5a202236267c",
@@ -350,7 +399,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 1,
+      "views": 271,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f60ef500f309",
@@ -368,7 +424,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8127ce246daa",
@@ -386,7 +449,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 151,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "43c1c48ea8a6",
@@ -404,7 +474,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 196,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6f0938ce2fff",
@@ -422,7 +499,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 839,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d9d6e9fafcdc",
@@ -440,7 +524,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2834,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ecdae8c9676",
@@ -458,7 +549,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-22 until:2026-08-29 -filter:retweets",
+    "metrics": {
+      "likes": 23,
+      "reposts": 0,
+      "replies": 1,
+      "views": 602,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3bf705766708",
@@ -476,7 +574,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "500a33518592",
@@ -494,7 +599,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 281,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9cbce3959870",
@@ -512,7 +624,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 279,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "93f582f71509",
@@ -530,7 +649,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 469,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2b315af7888c",
@@ -548,7 +674,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5be1f09ce94c",
@@ -566,7 +699,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c5082e729251",
@@ -584,7 +724,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b6b607328372",
@@ -602,7 +749,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "28796371f1b4",
@@ -620,7 +774,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 7,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d5b1c97a9e80",
@@ -638,7 +799,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 813,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d9ccc1397f7e",
@@ -656,7 +824,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 6354,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a8d99a17e0c3",
@@ -674,7 +849,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "502c55402849",
@@ -692,7 +874,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 5,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "de433139d26e",
@@ -710,7 +899,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 83,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d94434e1746f",
@@ -728,7 +924,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 76,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cf2ee669e64f",
@@ -746,7 +949,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "replies": 5,
+      "views": 2797,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5cfd261ec5ca",
@@ -764,7 +974,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1eb53ceea7bf",
@@ -782,7 +999,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cd0a0e8fce97",
@@ -800,7 +1024,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ef8d6f614a8",
@@ -818,7 +1049,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e70459f2543d",
@@ -836,7 +1074,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: @ntkris since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 88,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "288e1508afae",
@@ -854,7 +1099,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 307,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "971f573faceb",
@@ -872,7 +1124,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 68,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7a36a44a18c4",
@@ -890,7 +1149,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 268,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "951040c9f4b4",
@@ -908,7 +1174,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: @ntkris since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 7,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ce4ececbc29e",
@@ -926,7 +1199,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-08 until:2026-08-15 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-08 until:2026-08-15 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 431,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6e6b4620ee25",
@@ -944,7 +1224,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-08 until:2026-08-15 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-08 until:2026-08-15 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 201,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3fa1e709193e",
@@ -962,7 +1249,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 0,
+      "views": 341,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "08543fbcbf8e",
@@ -980,7 +1274,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 89,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3b88da2161f9",
@@ -997,7 +1298,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 2,
+      "replies": 2,
+      "views": 1036,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "db33d3f2e940",
@@ -1015,7 +1323,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 2,
+      "views": 175,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c369c5483647",
@@ -1032,7 +1347,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-15 until:2026-08-22 -filter:retweets",
+    "metrics": {
+      "likes": 44,
+      "reposts": 1,
+      "replies": 4,
+      "views": 3615,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9628c492647e",
@@ -1050,7 +1372,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-22 until:2026-08-29 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-22 until:2026-08-29 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1260,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7974c4213321",
@@ -1067,7 +1396,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-22 until:2026-08-29 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-22 until:2026-08-29 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 273,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b67ac104e9b5",
@@ -1085,7 +1421,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 202,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "23f4cc543d1b",
@@ -1103,7 +1446,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7bdb7ab66386",
@@ -1121,7 +1471,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d603a1076732",
@@ -1139,7 +1496,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 296,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a76c561a18bf",
@@ -1157,7 +1521,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 286,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d18c38722e00",
@@ -1174,7 +1545,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 23,
+      "reposts": 0,
+      "replies": 2,
+      "views": 375,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6548c1f9dd46",
@@ -1192,7 +1570,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bc83dc5c0b30",
@@ -1210,7 +1595,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9c43a937a22e",
@@ -1228,7 +1620,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 66,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a59356c741f",
@@ -1246,7 +1645,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "140814db31c6",
@@ -1263,7 +1669,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 105,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ba3e4bbbd87b",
@@ -1281,7 +1694,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 221,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6c6b1fbb6a88",
@@ -1298,7 +1718,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "15315d66eb48",
@@ -1315,7 +1742,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 191,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e95356a588f5",
@@ -1333,7 +1767,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.472Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f7eb02502b7e",
@@ -1351,7 +1792,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 76,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "35ed93b31965",
@@ -1368,7 +1816,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-08-29 until:2026-09-05 -filter:retweets",
+    "metrics": {
+      "likes": 19,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2428,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "508f74f569c9",
@@ -1385,7 +1840,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 81,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "588a623fa102",
@@ -1403,7 +1865,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3479e1148a57",
@@ -1421,7 +1890,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ea0885dfc2a9",
@@ -1439,7 +1915,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 48,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ff1b394b0f45",
@@ -1456,7 +1939,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 100,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7174c5d14411",
@@ -1474,7 +1964,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "73d4386fb6c3",
@@ -1491,7 +1988,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 380,
+      "reposts": 45,
+      "replies": 1,
+      "views": 3192,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3c1706a5e377",
@@ -1509,7 +2013,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 2,
+      "views": 402,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "380fff165e9f",
@@ -1526,7 +2037,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 14,
+      "reposts": 0,
+      "replies": 0,
+      "views": 524,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1617bfb47429",
@@ -1543,7 +2061,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc96360dbcd2",
@@ -1561,7 +2086,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "96a3d4159be6",
@@ -1579,7 +2111,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 525,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "33c685da0318",
@@ -1597,7 +2136,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 41,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2adc32e986e0",
@@ -1614,7 +2160,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d7215e668f78",
@@ -1632,7 +2185,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 156,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f71394aea724",
@@ -1650,7 +2210,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 66,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "287fc9d93ed7",
@@ -1667,7 +2234,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 113,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "87bd5f672623",
@@ -1684,7 +2258,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 157,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5d2bd268fe82",
@@ -1701,6 +2282,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:11:17.473Z",
-    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"ako ai\" OR \"ako assistant\" OR \"ako agent\" since:2026-09-05 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   }
 ]

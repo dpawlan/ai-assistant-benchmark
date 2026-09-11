@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 217,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7ba66cf0515b",
@@ -34,7 +41,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 295,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5a6a0df8bec9",
@@ -53,7 +67,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 234,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "08d7c68eecdc",
@@ -72,7 +93,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 1,
+      "views": 410,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a275b615ac23",
@@ -90,7 +118,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 46,
+      "reposts": 12,
+      "replies": 3,
+      "views": 4928,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9d576f50f723",
@@ -108,7 +143,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 36,
+      "reposts": 3,
+      "replies": 3,
+      "views": 3903,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0d3f0fead7ea",
@@ -127,7 +169,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 282,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "874ded9a0b04",
@@ -146,7 +195,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 287,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a127aae8320",
@@ -165,7 +221,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.520Z",
-    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"aeon.fun\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 378,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d446754fb9ef",
@@ -182,7 +245,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 78,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dfef5a9b435c",
@@ -199,7 +269,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 78,
+      "reposts": 7,
+      "replies": 1,
+      "views": 1279,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a92230a7ddf0",
@@ -216,7 +293,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 136,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "55938bd9aeac",
@@ -233,7 +317,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a843c295c049",
@@ -251,7 +342,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 125,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1ed5c2c08e46",
@@ -268,7 +366,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9020528c5570",
@@ -286,7 +391,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 147,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f93b476ac1e7",
@@ -303,7 +415,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 31,
+      "reposts": 2,
+      "replies": 2,
+      "views": 2409,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8cfb85734a4c",
@@ -320,7 +439,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 199,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "af946375c637",
@@ -338,7 +464,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 290,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f9a956858aa6",
@@ -355,7 +488,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 316,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5d76442155f6",
@@ -372,7 +512,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 250,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d424e56d99c8",
@@ -389,7 +536,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 107,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7770e7c5d75d",
@@ -407,7 +561,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 45,
+      "reposts": 6,
+      "replies": 3,
+      "views": 1906,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4a4c583631f8",
@@ -425,7 +586,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c0517defda80",
@@ -442,7 +610,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc8667961389",
@@ -459,7 +634,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 19,
+      "reposts": 3,
+      "replies": 5,
+      "views": 1357,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7215936fa57d",
@@ -476,7 +658,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 189,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dd8075ba75f5",
@@ -494,7 +683,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 135,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7134e146e4a6",
@@ -511,7 +707,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 483,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "20421e33d176",
@@ -528,7 +731,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 178,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c19ad30ea518",
@@ -545,7 +755,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 1,
+      "views": 584,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1a76d9a25a9b",
@@ -563,7 +780,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 899,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "482cb546f2c8",
@@ -581,7 +805,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 88,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2d0257ad843b",
@@ -598,7 +829,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 543,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "71cfceb374f0",
@@ -615,7 +853,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 0,
+      "replies": 0,
+      "views": 512,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "69228a414452",
@@ -632,7 +877,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a73ab178963e",
@@ -649,7 +901,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 199,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "690e77876027",
@@ -666,7 +925,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 33,
+      "reposts": 4,
+      "replies": 7,
+      "views": 1678,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "67eda347674e",
@@ -683,7 +949,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 622,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2e189fcad27",
@@ -700,7 +973,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 315,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d1127e29ee9f",
@@ -717,7 +997,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 665,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "665ce3b7650f",
@@ -734,7 +1021,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 707,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4ce66e240a0b",
@@ -752,7 +1046,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 115,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5e8da47eaafc",
@@ -769,7 +1070,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 25,
+      "reposts": 1,
+      "replies": 5,
+      "views": 3872,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "53916110270c",
@@ -786,7 +1094,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 91,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "74dc1c53dc72",
@@ -803,7 +1118,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 21,
+      "reposts": 1,
+      "replies": 0,
+      "views": 451,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "967aab7a469a",
@@ -821,7 +1143,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 395,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "80423b70eff2",
@@ -838,7 +1167,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2901,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7b9e3ca27469",
@@ -855,7 +1191,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fcede4194137",
@@ -872,7 +1215,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 166,
+      "reposts": 15,
+      "replies": 17,
+      "views": 2410,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a00cf20a75e6",
@@ -890,7 +1240,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 177,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d76249254a93",
@@ -907,7 +1264,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 0,
+      "views": 243,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d270b6f76d67",
@@ -925,7 +1289,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "64a3cc9f26d1",
@@ -942,7 +1313,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "225b4982ea60",
@@ -959,7 +1337,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "40637be5a2af",
@@ -976,7 +1361,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 0,
+      "replies": 15,
+      "views": 16707,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b356a01613c6",
@@ -994,7 +1386,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 364,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e1ba387eb026",
@@ -1011,7 +1410,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 100887,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "80304c325716",
@@ -1028,7 +1434,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 103137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1b268f02093d",
@@ -1045,7 +1458,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 96,
+      "reposts": 63,
+      "replies": 44,
+      "views": 7342,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d51c1830dff0",
@@ -1063,7 +1483,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 26,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4d76edf24776",
@@ -1081,7 +1508,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4df052274ed4",
@@ -1098,7 +1532,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a6e67feafae",
@@ -1115,7 +1556,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.521Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 63,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e6de1c41678e",
@@ -1132,7 +1580,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "aa3390e22d1a",
@@ -1149,7 +1604,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 3,
+      "views": 231,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1968ba1dc6e9",
@@ -1166,7 +1628,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 260,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "317858e9aa94",
@@ -1184,7 +1653,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 27,
+      "reposts": 0,
+      "replies": 4,
+      "views": 1454,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3921c078819a",
@@ -1201,7 +1677,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "886d0afe8cf8",
@@ -1219,7 +1702,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 47,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2017,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e3909d4f7ad1",
@@ -1236,7 +1726,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4ffe36b0903a",
@@ -1253,7 +1750,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 82,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ccc0ab821594",
@@ -1271,7 +1775,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 317,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "989fbc5ae010",
@@ -1289,7 +1800,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 248,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "60d381fb1b30",
@@ -1306,7 +1824,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 212,
+      "reposts": 110,
+      "replies": 69,
+      "views": 8133,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bc70070ef688",
@@ -1323,7 +1848,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 4,
+      "replies": 2,
+      "views": 2074,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "14fec71967ab",
@@ -1340,7 +1872,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 65,
+      "reposts": 20,
+      "replies": 13,
+      "views": 7084,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c95b09988757",
@@ -1357,7 +1896,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 30,
+      "reposts": 5,
+      "replies": 4,
+      "views": 6043,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ce24eaf96380",
@@ -1374,7 +1920,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 51,
+      "reposts": 16,
+      "replies": 7,
+      "views": 14321,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d0dc95640596",
@@ -1391,7 +1944,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 378,
+      "reposts": 24,
+      "replies": 355,
+      "views": 4646,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9d1272544708",
@@ -1408,7 +1968,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1990,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2c544f66e8f8",
@@ -1425,7 +1992,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 3,
+      "replies": 1,
+      "views": 454,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5137ffc0f55f",
@@ -1442,7 +2016,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 59,
+      "reposts": 3,
+      "replies": 8,
+      "views": 4389,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9ac2b145b672",
@@ -1459,7 +2040,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 170,
+      "reposts": 32,
+      "replies": 6,
+      "views": 2904,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6745b0b02f19",
@@ -1476,7 +2064,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 171,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "62205315b86a",
@@ -1493,7 +2088,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 29,
+      "reposts": 5,
+      "replies": 5,
+      "views": 1703,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5c2b3b9ff950",
@@ -1511,7 +2113,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1c7cef5d345f",
@@ -1528,7 +2137,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 28,
+      "reposts": 1,
+      "replies": 6,
+      "views": 2118,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3ee264b29fe4",
@@ -1545,7 +2161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b9dc1ba9b3c4",
@@ -1563,7 +2186,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 170,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4f12119523b1",
@@ -1580,7 +2210,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 208,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6bc3989eed4c",
@@ -1597,7 +2234,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 160,
+      "reposts": 27,
+      "replies": 3,
+      "views": 3213,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "defd1af3d37d",
@@ -1614,7 +2258,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 22,
+      "reposts": 5,
+      "replies": 7,
+      "views": 1761,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2e601d68d30",
@@ -1631,7 +2282,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ce04142bb240",
@@ -1648,7 +2306,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "19c814b84fe6",
@@ -1666,7 +2331,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 25,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6f8f0e2c776e",
@@ -1684,7 +2356,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b4801c5a4ff4",
@@ -1702,6 +2381,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:06:41.522Z",
-    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Aeon\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 719,
+      "fetched": "2026-09-11"
+    }
   }
 ]

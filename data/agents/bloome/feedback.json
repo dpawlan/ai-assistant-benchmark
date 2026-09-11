@@ -14,7 +14,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"bloome.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"bloome.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 74,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bbf53365877d",
@@ -32,7 +39,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 6,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b94f7922e03f",
@@ -49,7 +63,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 19,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c60366baaa4b",
@@ -66,7 +87,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 6,
+      "views": 1994,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9fcc39023706",
@@ -83,7 +111,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 73,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4c088605f4d2",
@@ -100,7 +135,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 42,
+      "reposts": 3,
+      "replies": 76,
+      "views": 16415,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f2539ffcdf09",
@@ -117,7 +159,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 1,
+      "replies": 5,
+      "views": 457,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "255917716e55",
@@ -135,7 +184,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 96,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d776e2d67ccc",
@@ -152,7 +208,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 44,
+      "reposts": 1,
+      "replies": 26,
+      "views": 20522,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e03b93bb3b66",
@@ -169,6 +232,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:19:33.733Z",
-    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Bloome\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 7,
+      "views": 311,
+      "fetched": "2026-09-11"
+    }
   }
 ]

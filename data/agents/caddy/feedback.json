@@ -2587,7 +2587,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:56:26.071Z",
-    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2935fddb5e5d",
@@ -2604,7 +2611,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:56:26.071Z",
-    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 76,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8ec7330b7fcb",
@@ -2622,7 +2636,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:56:26.071Z",
-    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "522d71c1f01a",
@@ -2640,6 +2661,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T16:56:26.071Z",
-    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_caddy since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 86,
+      "fetched": "2026-09-11"
+    }
   }
 ]

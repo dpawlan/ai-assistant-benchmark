@@ -48,5 +48,25 @@
     "outcome": "partial",
     "notes": "Found the right thread and two free slots, drafted a plausible reply, then the send failed and it asked whether to hold.",
     "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-09-e60983"
+  },
+  {
+    "id": "tinynature-2026-09-10-890e47",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-09-10",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Nudged on a pending event approval it could not tap itself, flagged an unsent draft going stale and offered to summarize two PDFs.",
+    "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-10-890e47"
+  },
+  {
+    "id": "tinynature-2026-09-11-156dff",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Weekday 7am briefing fired on time both mornings, but the weather failed at first each day and the second brief needed a correction.",
+    "evidence_url": "/agents/tinynature/evidence/tinynature-2026-09-11-156dff"
   }
 ]

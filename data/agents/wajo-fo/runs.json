@@ -48,5 +48,15 @@
     "outcome": "partial",
     "notes": "Found the contact had only been cc'd, flagged a conflicting flight from the calendar and sent the reply, though from its own address.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-09-e2fdf8"
+  },
+  {
+    "id": "wajo-fo-2026-09-11-5c2e8c",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Weekday 7am briefing fired on time both mornings as one tight message with calendar, replies owed and weather; flagged a likely scam email.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-11-5c2e8c"
   }
 ]

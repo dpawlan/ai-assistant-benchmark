@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-09-11-bdc825",
+  "agent": "instinct",
+  "category": "running_routine",
+  "protocol": "task",
+  "date": "2026-09-11",
+  "signals": {
+    "turns": 5,
+    "my_messages": 1,
+    "agent_messages": 4,
+    "first_reply_s": 10,
+    "duration_min": 2408,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T15:55:57.015Z"
+}

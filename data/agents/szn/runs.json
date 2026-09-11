@@ -90,16 +90,6 @@
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-chained"
   },
   {
-    "id": "szn-2026-09-10-blooio-multi",
-    "category": "multiplayer_groups",
-    "protocol": "task",
-    "date": "2026-09-10",
-    "score": 7,
-    "outcome": "partial",
-    "notes": "Said to add it to a group or share four contacts, then it would collect availability and propose a time and place before booking.",
-    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-multi"
-  },
-  {
     "id": "szn-2026-09-10-blooio-permissions",
     "category": "permissions_privacy",
     "protocol": "task",

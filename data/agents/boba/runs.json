@@ -68,5 +68,35 @@
     "outcome": "partial",
     "notes": "Reservation call for The Village at Italian Village; no phone tool, offered to research online instead.",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-phone"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Notion, Calendar and Slack none connected; cannot do any of the three. No integrations at all.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-integrations"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Cannot read email or Drive or interact with airline check-in; beyond capability entirely.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-chained"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-permissions",
+    "category": "permissions_privacy",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Never offered Gmail, Calendar or Drive read-only; honest about baked-in inability, no real permission model to test.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-permissions"
   }
 ]

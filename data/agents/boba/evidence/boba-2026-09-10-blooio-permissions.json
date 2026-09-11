@@ -1,0 +1,14 @@
+{
+  "id": "boba-2026-09-10-blooio-permissions",
+  "agent": "boba",
+  "category": "permissions_privacy",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T01:30:00.000Z"
+}

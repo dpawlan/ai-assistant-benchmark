@@ -6,12 +6,13 @@
   "email_replies": 8,
   "proactive_behavior": null,
   "running_routine": null,
-  "third_party_integrations": null,
+  "third_party_integrations": 4,
   "memory": null,
   "personality": null,
   "phone_calls": 4,
   "multiplayer_groups": null,
-  "chained_tasks": null,
+  "chained_tasks": 4,
   "proactive_restraint": null,
-  "content_creation_games": 7
+  "content_creation_games": 7,
+  "permissions_privacy": 5
 }

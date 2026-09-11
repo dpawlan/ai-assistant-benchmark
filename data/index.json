@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-10",
-  "agent_count": 61,
+  "updated": "2026-09-11",
+  "agent_count": 62,
   "feedback_count": 2705,
-  "confirmed": 44,
+  "confirmed": 45,
   "stretch": 17,
   "agents": [
     {
@@ -1058,6 +1058,27 @@
           "iOS app"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "stiled",
+      "name": "Stiled",
+      "status": "confirmed",
+      "site": "https://www.stiled.app/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your fashion shopping assistant, one text away",
+      "icon": "/logos/stiled.png",
+      "kind": "shopping",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (1 stamp a day) · 10-stamp pack $3.99 · Pro $9.99/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Instagram (beta)"
+        ],
+        "checked": "2026-09-11"
       }
     },
     {

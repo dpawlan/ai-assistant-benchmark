@@ -98,5 +98,15 @@
     "outcome": "partial",
     "notes": "First said read-only Gmail and Calendar were unavailable, then corrected itself; stored the ask-before-sending-or-spending rule.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-permissions"
+  },
+  {
+    "id": "szn-2026-09-11-blooio-memory-city",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; proceeded to options with no mention of the Chicago conflict.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-11-blooio-memory-city"
   }
 ]

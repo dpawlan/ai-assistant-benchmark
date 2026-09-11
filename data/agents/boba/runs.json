@@ -68,5 +68,15 @@
     "outcome": "partial",
     "notes": "Reservation call for The Village at Italian Village; no phone tool, offered to research online instead.",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-phone"
+  },
+  {
+    "id": "boba-2026-09-11-blooio-memory-city",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; returned options with no conflict check (honored no-pork).",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-11-blooio-memory-city"
   }
 ]

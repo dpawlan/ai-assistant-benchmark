@@ -98,5 +98,15 @@
     "outcome": "n/a",
     "notes": "Refused to simulate other people's replies and asked to be added to a real group chat to coordinate a dinner for four.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-multiplayer"
+  },
+  {
+    "id": "caddy-2026-09-11-blooio-memory-city",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-11",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; flagged the city conflict and asked which Saturday before searching.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-11-blooio-memory-city"
   }
 ]

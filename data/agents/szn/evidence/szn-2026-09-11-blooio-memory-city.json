@@ -8,8 +8,8 @@
     "probe_type": "city_check",
     "prior_context": "chicago_trip",
     "test_request": "ny_dinner_same_weekend",
-    "conflict_flagged": false,
-    "clarification_asked": false
+    "conflict_flagged": true,
+    "clarification_asked": true
   },
   "published_at": "2026-09-11T00:00:00.000Z"
 }

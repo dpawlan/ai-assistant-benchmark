@@ -104,9 +104,9 @@
     "category": "memory",
     "protocol": "task",
     "date": "2026-09-11",
-    "score": 6,
-    "outcome": "partial",
-    "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; proceeded to options with no mention of the Chicago conflict.",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Asked for a NY dinner same weekend as a staged Chicago trip; after starting options, flagged the conflict and asked whether NY was separate.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-11-blooio-memory-city"
   }
 ]

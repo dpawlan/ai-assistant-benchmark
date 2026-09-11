@@ -6,11 +6,15 @@
     "8390dba288b9": {
       "online_task": "pos",
       "recommendation_quality": "pos",
-      "proactive_behavior": "pos"
+      "proactive_behavior": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "a4f64e435fb3": {
       "recommendation_quality": "pos",
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "d2ef1a61d751": {
       "third_party_integrations": "pos"
@@ -330,7 +334,17 @@
     "58581cb64239": {
       "general": "pos",
       "online_task": "pos"
+    },
+    "02b5ee7799c2": {
+      "general": "mixed",
+      "personality": "neg"
+    },
+    "c10b50ec0a6d": {
+      "general": "pos",
+      "email_replies": "pos",
+      "running_routine": "pos"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral",
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

@@ -73,7 +73,9 @@
     "211197622be8": {
       "third_party_integrations": "pos",
       "online_task": "pos",
-      "chained_tasks": "pos"
+      "chained_tasks": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "3bfefc65e3d2": {
       "content_creation_games": "neg"
@@ -630,7 +632,76 @@
     },
     "d05355aac3cd": {
       "general": "pos"
+    },
+    "821e6aa900e5": {
+      "general": "pos",
+      "travel": "pos",
+      "running_routine": "pos"
+    },
+    "864feca311b0": {
+      "general": "pos",
+      "travel": "pos",
+      "phone_calls": "pos",
+      "purchasing": "pos"
+    },
+    "9d21337d1689": {
+      "general": "pos"
+    },
+    "67c7ae3b8347": {
+      "general": "pos",
+      "travel": "pos"
+    },
+    "a007bb809b16": {
+      "general": "neg"
+    },
+    "d696fc01c534": {
+      "general": "neg",
+      "running_routine": "neg",
+      "email_replies": "neg"
+    },
+    "6d3cd46f70ee": {
+      "general": "pos",
+      "travel": "pos",
+      "running_routine": "pos"
+    },
+    "8305a9c1be44": {
+      "general": "mixed",
+      "email_replies": "mixed",
+      "content_creation_games": "pos"
+    },
+    "3482cb7a5635": {
+      "general": "pos",
+      "running_routine": "pos",
+      "third_party_integrations": "pos",
+      "travel": "pos"
+    },
+    "02d1c5c2794d": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "efc4bbf58e30": {
+      "general": "pos",
+      "running_routine": "pos",
+      "third_party_integrations": "pos"
+    },
+    "6f321bdcd873": {
+      "general": "neg"
+    },
+    "1be05ebda846": {
+      "general": "pos",
+      "running_routine": "pos",
+      "third_party_integrations": "pos",
+      "online_task": "pos"
+    },
+    "c82512379348": {
+      "general": "pos",
+      "running_routine": "pos"
+    },
+    "fe4201a726f4": {
+      "general": "pos",
+      "online_task": "pos"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral",
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

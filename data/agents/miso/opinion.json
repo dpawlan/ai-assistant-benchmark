@@ -1,22 +1,28 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "31957662cb15": {
       "online_task": "pos",
       "purchasing": "pos",
-      "memory": "pos"
+      "memory": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "c7b4ec7befe0": {
       "online_task": "pos",
       "purchasing": "pos",
       "proactive_behavior": "pos",
-      "chained_tasks": "pos"
+      "chained_tasks": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "9a36db64dc17": {
       "recommendation_quality": "pos",
-      "purchasing": "pos"
+      "purchasing": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "d0a20bce70ef": {
       "online_task": "pos",
@@ -24,16 +30,22 @@
     },
     "ff0da162630d": {
       "purchasing": "pos",
-      "recommendation_quality": "pos"
+      "recommendation_quality": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "8c3ee14d1271": {
-      "online_task": "pos"
+      "online_task": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "3ca467ab4bae": {
       "online_task": "pos"
     },
     "9345fcc85c7b": {
-      "purchasing": "pos"
+      "purchasing": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "a273394f7df7": {
       "general": "pos"
@@ -159,7 +171,8 @@
       "general": "pos"
     },
     "0904e198dd9b": {
-      "general": "pos"
+      "general": "pos",
+      "travel": "pos"
     },
     "3b1220de28e0": {
       "general": "pos"
@@ -180,7 +193,17 @@
     },
     "0ae7939c3504": {
       "general": "pos"
+    },
+    "185e093709a0": {
+      "general": "pos",
+      "travel": "pos"
+    },
+    "0728e9602bdb": {
+      "general": "pos",
+      "travel": "pos",
+      "proactive_behavior": "pos"
     }
   },
-  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral"
+  "reviewed_negatives": "2026-09-08: questions, outage pings, feature asks and company/marketing commentary moved to neutral",
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

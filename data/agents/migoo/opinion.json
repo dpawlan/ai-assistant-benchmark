@@ -9,6 +9,10 @@
     "b2a958374f14": {
       "general": "pos",
       "email_replies": "pos"
+    },
+    "ba1452871eaf": {
+      "general": "mixed"
     }
-  }
+  },
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

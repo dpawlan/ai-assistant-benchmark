@@ -1,19 +1,23 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-08",
+  "date": "2026-09-11",
   "reviewed": false,
   "quotes": {
     "1ae46a92550f": {
       "online_task": "neg",
       "recommendation_quality": "neg",
       "memory": "neg",
-      "running_routine": "neg"
+      "running_routine": "neg",
+      "general": "neg",
+      "travel": "neg"
     },
     "42b13a6ac095": {
       "proactive_behavior": "mixed"
     },
     "0c249fd6e59b": {
-      "proactive_behavior": "pos"
+      "proactive_behavior": "pos",
+      "general": "pos",
+      "travel": "pos"
     },
     "38abda34cdee": {
       "general": "pos"
@@ -171,5 +175,6 @@
     "ef483137073a": {
       "general": "pos"
     }
-  }
+  },
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

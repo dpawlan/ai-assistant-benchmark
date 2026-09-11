@@ -6,6 +6,19 @@
     "e61bc2d4ab67": {
       "general": "pos",
       "proactive_behavior": "pos"
+    },
+    "ee57b79191bc": {
+      "general": "pos"
+    },
+    "2c9dcbd2ed39": {
+      "general": "mixed",
+      "travel": "neg"
+    },
+    "d2d605dac64d": {
+      "general": "mixed",
+      "travel": "mixed",
+      "proactive_behavior": "neg"
     }
-  }
+  },
+  "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"
 }

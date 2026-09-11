@@ -1,0 +1,14 @@
+{
+  "id": "boba-2026-09-10-blooio-online",
+  "agent": "boba",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-10",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-11T00:25:00.000Z"
+}

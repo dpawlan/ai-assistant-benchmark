@@ -4942,7 +4942,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.333Z",
-    "notes": "query: @nozomioai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @nozomioai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5548c6dcfa99",
@@ -4960,7 +4967,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.333Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c8c639dfda07",
@@ -4978,7 +4992,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d449da326589",
@@ -4996,7 +5017,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "43c29066b771",
@@ -5014,7 +5042,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a3c75a40de3d",
@@ -5032,7 +5067,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "265902b98ade",
@@ -5050,7 +5092,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5f5736d479ec",
@@ -5068,7 +5117,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d1c625b4340b",
@@ -5086,7 +5142,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4cd4434b8e47",
@@ -5104,7 +5167,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 191,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "22f0fffadc0a",
@@ -5122,7 +5192,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b5dee9655fde",
@@ -5140,7 +5217,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 209,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4aec6f742824",
@@ -5158,7 +5242,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 4,
+      "views": 103,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dd055577d814",
@@ -5176,7 +5267,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 84,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0aa6fa36a192",
@@ -5194,7 +5292,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 59,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a3db80cefa41",
@@ -5212,6 +5317,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:27:39.334Z",
-    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @try_folk since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 3,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   }
 ]

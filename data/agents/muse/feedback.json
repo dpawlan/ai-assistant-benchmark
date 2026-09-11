@@ -75,23 +75,6 @@
     }
   },
   {
-    "id": "e8e1703fccac",
-    "agent": "muse",
-    "quote": "Muse agent has a real computer. It still needs a live terminal you can see and type in.\n\nTerMuse: terminal on the left, localhost browser on the right. No install, paste the code + prompt to your Muse agent.\nWorking now on https://t.co/7kntbRlKYq with Hermes @AIatMeta\n\nhttps://t.co/Mjfl4TaJA7",
-    "author": "@kyfriedfella",
-    "author_name": "jake",
-    "date": "2026-09-10",
-    "url": "https://x.com/kyfriedfella/status/2097865365854269877",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
     "id": "027a3470ff83",
     "agent": "muse",
     "quote": "MetaがパーソナルAIエージェント「Muse」を発表。質問に答えるだけでなく、メール送信・旅行予約・買い物・フォーム入力などを代行。専用のSecure VM上で動作し、ユーザーが権限を管理。まず米国でiOS/Android/muse.ai向けに提供開始。AIグラス対応は近日。\n公式: https://t.co/cyA1aJzKTa",
@@ -99,23 +82,6 @@
     "author_name": "CatsGPT",
     "date": "2026-09-09",
     "url": "https://x.com/Tyr_Nippon/status/2097798007924379717",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "42a0c1c51835",
-    "agent": "muse",
-    "quote": "Meta’s Muse agent went live in the US on Mon Sep 8.\n\nIt’s powered by Muse Spark, stuck in its own Muse Secure VM, with a Sentinel that has to approve what actually hits the internet. App, WhatsApp, https://t.co/99RVIhFIwo. Official pitch is free for most use with paid plans on top. TechCrunch and Reuters put those at about $20 and $100 a month — their reporting, not Meta’s pricing page.\n\nThis isn’t another chatbot drop. It’s Meta shipping a consumer computer-use agent with a hard security story and asking people to hand it email and checkout. That’s either the product or the lawsuit. We’ll find out.",
-    "author": "@kalmedown",
-    "author_name": "Dang",
-    "date": "2026-09-09",
-    "url": "https://x.com/kalmedown/status/2097769839951532065",
     "kind": "other",
     "tags": [
       "auto",
@@ -485,23 +451,6 @@
     "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "0e10566e4c41",
-    "agent": "muse",
-    "quote": "Meta just made agentic AI a little less theoretical.\n\nIts new Muse agent can move from WhatsApp into connected apps. Send emails. Book travel. Sell your stuff. Move your money.\n\n@AIatMeta actually delayed the launch after internal testing turned up security and reliability problems. The version that shipped this week comes with permission controls, plus a separate safety agent that watches everything Muse does.\n\nThat tells you where the hard part of agentic AI is actually moving.\n\nPicture asking an agent to book a flight for Friday.\n\nIt checks your calendar. Searches fares. Picks a flight. Hits the payment screen.\n\nThe airline receives a perfectly valid transaction from your account.\n\nFrom the airline's side, none of this is clear.\n\nDid you approve that specific purchase? Did you give the agent a general travel budget? Was the permission only good for today? Could it change the destination if it found a better deal? What happens if it spends more than expected?\nFor most of the internet era, authentication tried to answer one question: is this really you?\nPasswords, two-factor authentication, biometrics, and KYC all grew out of that same problem.\nAgentic systems raise a second question.\nDid you authorize this machine to do this specific thing?\n\nThat creates three layers of trust.\n\nThe human behind the account. The agent performing the action. And the authority connecting the two.\n\nThe third layer is the hard part.\n\nA useful agent can't stop and ask for approval before every small move. Give it too little authority and automation loses most of its value. Give it broad, standing authority, and one bad model, one bug, or one misread instruction can suddenly reach your inbox, your calendar, your files, and your money.\n\nThe fallout goes past security.\n\nBanks will need to know when an agent was actually authorized to spend. Merchants will need proof when a transaction gets disputed. Insurers will need to work out who's liable. Platforms will need a way to kill delegated authority instantly. Regulators will eventually want an audit trail back to the one human who started the chain.\n\nThis is where proof of personhood gets interesting in an AI-heavy internet.\n\nThe system doesn't need to prove an agent is human. It needs to prove one real, unique person sits behind that agent's authority, while keeping that person's privacy intact and revealing only the permission needed for that one action.\n\nAI agents are going to run thousands of actions on our behalf eventually.\n\nThe infrastructure underneath all of it will have to remember something simple: who gave permission, what they were allowed to do, and when that permission ran out.",
-    "author": "@Iamshahmeer1",
-    "author_name": "Shahmeer",
-    "date": "2026-09-09",
-    "url": "https://x.com/Iamshahmeer1/status/2097631116668596736",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
     "id": "7a6181fc9a61",
     "agent": "muse",
     "quote": "@Meta muse’s #1 use case is email and calendar - why did @Google not make the first move?",
@@ -667,23 +616,6 @@
     "author_name": "⚡️imFORZA",
     "date": "2026-09-08",
     "url": "https://x.com/imFORZA/status/2097407395433435352",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T21:10:37.927Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "7b1b8ddd7681",
-    "agent": "muse",
-    "quote": "BRIEF · 7 Sep 📡\n\n🚀 Meta’s Muse agent entered closed alpha with invite codes; App Store UI shows a proactive email, calendar, and tasks assistant with spend approval, and it could be announced as early as this week. @AIatMeta\n\n.\n\n📡 Gemini’s Students tab added Immersive View — interactive topic scenes (dinosaurs, space, rockets) that drill down toward molecular detail. @GeminiApp\n\n.\n\n⚙️ OpenAI plans Managed Agents for DevDay 2026: create Agents, Environments, and Sessions on the Platform, hosted or self-hosted, with a Codex Plugin. @OpenAI\n\n.\n\n🏆 OpenBMB MiniCPM5-2B (2.6B) scores 15 on Artificial Analysis Intelligence Index v4.2 — highest open-weights model under 4B. @ArtificialAnlys",
-    "author": "@GZQ",
-    "author_name": "GZQ | AI News",
-    "date": "2026-09-07",
-    "url": "https://x.com/GZQ/status/2097002679868264608",
     "kind": "other",
     "tags": [
       "auto",

@@ -8,5 +8,25 @@
     "outcome": "partial",
     "notes": "Initially missed Loop hotels under $250/night but recovered after nudge, found Club Quarters with free cancel and staged for payment.",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-online"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Round-trip NY–Chicago Fri morning Sep 18 / Sun evening Sep 20, aisle, under $400. Boba found United UA2389/UA396 nonstop LGA⇄ORD Standard Economy ~$411 (just over $400) and flagged avoid Basic Economy for aisle selection. Initially claimed it walked to seat selection then stopped before payment; when pushed to lock aisles and confirm payment-page total, admitted it cannot navigate United's interactive checkout to a live payment screen and handed off to united.com. Banded 5 — solid search, no verified payment-page stage.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-travel"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-rec",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Dinner for 4 walkable from Club Quarters Central Loop, veg, non-chain, <$40/head, prefer OpenTable. Delivered The Dearborn (OT, pick), The Village (Resy noted), Roanoke (OT) with why-fit and clear top pick. Prefer OpenTable honored; no Resy login gate on the pick.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-rec"
   }
 ]

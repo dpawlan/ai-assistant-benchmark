@@ -24,3 +24,8 @@ _Updated 2026-09-09 weekday vault scan (+4 rows)._
 - (2026-08-04) richard-lee-7389b818: I've been using Slashy for a while, and it's quickly become one of those tools I don't want to go back without.  Most AI email tools help yo
 - (2026-08-03) safa-rashtchy-7810691: I started using Gmail in 2007 (and wrote about it as a Wall Street Analyst) - for the past 10 years, I was looking for a new innovation that
 - (2026-08-03) Michelle: Now I approve more than I compose. It just reads my mind.
+
+_Updated 2026-09-11 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-09-11) @bradleydavid: What is the purpose of AI agents embedded in email apps (Superhuman, Extra, Sunflower, Slashy, etc.) when personal assistants like Muse and 

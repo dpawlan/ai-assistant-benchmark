@@ -12,3 +12,8 @@ _Updated 2026-09-09 weekday vault scan (+3 rows)._
 - (2026-09-04) rajiv: We took the same backend. We threw it into email, we threw it into Slack, we threw it into iMessage. iMessage immediately took off. ... it t
 - (2026-06-17) nikkigoodson: I asked Otto to compare itself to Caddy, and it told me: "i dont touch email at all, and i def cant do the receipt organizing / google drive
 - (2026-09-08) @ConnorWaslo: oh shit I didn’t know this existed    @try_caddy  found me $50 I’ll take that
+
+_Updated 2026-09-11 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-07-13) UseCarly: Caddy (caddy.app, from Y Combinator's Fall 2025 batch) is a newer personal AI for everyday work that lives in your texts, currently in a fre

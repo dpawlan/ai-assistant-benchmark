@@ -1,757 +1,74 @@
 [
   {
-    "id": "4d04787d5fea",
+    "id": "7c59a22cf3e0",
     "agent": "wajo-fo",
-    "quote": "Just tried \n@wajo_ai\n this is so magical, It called my friend, confirmed party details for tomorrow. All through texting with me.\n\nI can't believe stuff like this just works.",
-    "author": "@LyalinDotCom",
-    "author_name": "Dmitry Lyalin",
-    "date": "2026-08-27",
-    "url": "https://x.com/LyalinDotCom/status/2093104839169290503",
-    "kind": "use-case",
-    "tags": [
-      "calls",
-      "party"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "called friend, confirmed party details",
-    "metrics": {
-      "likes": 8,
-      "reposts": 0,
-      "replies": 2,
-      "views": 2262,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "51b59cb9ef90",
-    "agent": "wajo-fo",
-    "quote": "Invite link for \n@noahrshinn\n’s Instinct and \n@shivanipod\n’s \n@wajo_ai\n at the bottom. \n\nBeen playing with Instinct and Wajo, they’re cool. Both popped off recently, both approaches look the same, but the system behind each is different and the user feels it. \n\nInstinct is more",
-    "author": "@PhilippeMallett",
-    "author_name": "Philippe Mallette",
-    "date": "2026-08-31",
-    "url": "https://x.com/PhilippeMallett/status/2094469074667688193",
-    "kind": "comparison",
-    "tags": [
-      "vs-instinct"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "playing with Instinct and Wajo",
-    "metrics": {
-      "likes": 4,
-      "reposts": 0,
-      "replies": 1,
-      "views": 110,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "d26fc0a5d1b6",
-    "agent": "wajo-fo",
-    "quote": "I’m officially a \n@wajo_ai\n Top User! \nhttps://\nwajo.ai \n\n#wajo #boom #AgenticAI #agent #fo",
-    "author": "@ReginaWalton",
-    "author_name": "🌞 Regina Walton 🌸🌺🌼",
-    "date": "2026-09-04",
-    "url": "https://x.com/ReginaWalton/status/2096000454308294801",
-    "kind": "praise",
-    "tags": [
-      "power-user"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "officially Top User",
-    "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "replies": 1,
-      "views": 104,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "6bdf235683bb",
-    "agent": "wajo-fo",
-    "quote": "I emailed fo, \"can you just reschedule my life for the next 2 weeks, only the P0\"\nit asked me if i was okay, and I kid you not, it rescheduled my life, critical conversations, high stakes company building things, navigating life, all done, with just 1 text.\n3/3",
+    "quote": "@wajo_ai partners with trusted networks of humans that our agents can hire from for their super humans \u2728",
     "author": "@shivanipod",
     "author_name": "Shivani Poddar",
-    "date": "2026-08-25",
-    "url": "https://x.com/shivanipod/status/2092291140167053665",
-    "kind": "use-case",
-    "tags": [
-      "calendar",
-      "reschedule",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: reschedule my life P0",
-    "metrics": {
-      "likes": 4,
-      "reposts": 0,
-      "replies": 0,
-      "views": 140,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "a46343370940",
-    "agent": "wajo-fo",
-    "quote": "Meet Fo, our first action agent 💥\n\nMost AI waits for a question and gives you an answer or a list of answers. We built Fo to go further.\n\nFo is proactive and self-learning. It learns how you like things done, anticipates what needs your attention, and moves tasks forward.\n\nCheck",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-08-25",
-    "url": "https://x.com/wajo_ai/status/2092284115227988417",
-    "kind": "other",
-    "tags": [
-      "launch",
-      "action-agent",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "company: Meet Fo",
-    "metrics": {
-      "likes": 18,
-      "reposts": 3,
-      "replies": 9,
-      "views": 1652,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "b31ca13572db",
-    "agent": "wajo-fo",
-    "quote": "@wajo_ai\n’s Fo is 7 days post launch, and this is the first real consumer hockey stick I have seen in my entire career across Meta, Google, Deepmind - this is despite having a waitlist on Fo. Thank you for all of you who are putting Fo to work, sending their wow moments to us, as",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-09-01",
-    "url": "https://x.com/shivanipod/status/2094860664846381525",
-    "kind": "other",
-    "tags": [
-      "growth",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "founder: hockey stick claim",
-    "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "replies": 1,
-      "views": 201,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "65f77af50240",
-    "agent": "wajo-fo",
-    "quote": "There were a bunch honestly, but security and privacy is probably the one we’ve hammered on the hardest. Fo can be both a work companion and a personal companion, so getting those boundaries, permissions, and separation right was something we cared about from day one.",
-    "author": "@galdawave",
-    "author_name": "Gal Zahavi",
-    "date": "2026-08-26",
-    "url": "https://x.com/galdawave/status/2092703050893017275",
-    "kind": "other",
-    "tags": [
-      "privacy",
-      "security",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "team: security/privacy hardest",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 0,
-      "views": 56,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "038a82045578",
-    "agent": "wajo-fo",
-    "quote": "Hi Shivani,\nI've shared a few feedbacks on hey@wajo.ai. \nKindly have a look as and when the time permits.",
-    "author": "@anbhvB",
-    "author_name": "Anubhav",
-    "date": "2026-09-04",
-    "url": "https://x.com/anbhvB/status/2095924507051798815",
-    "kind": "other",
-    "tags": [
-      "feedback"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T04:17:05.329631+00:00",
-    "notes": "sent feedback to hey@wajo.ai",
-    "metrics": {
-      "likes": 1,
-      "reposts": 0,
-      "replies": 1,
-      "views": 50,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "acad37d62a8e",
-    "agent": "wajo-fo",
-    "quote": "Tried something new today. \n\nAi can figure out where is my missing FedEx delivery and chase them! 🥳\n\nI will never call them for hours in person… cannot break in to human contact, but this guy can. \n\n@wajo_ai",
-    "author": "@qqazzrh",
-    "author_name": "qqazzrh",
-    "date": "2026-09-06",
-    "url": "https://x.com/qqazzrh/status/2096446024835637391",
-    "kind": "use-case",
-    "tags": [
-      "fedex",
-      "phone",
-      "delivery"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "chased missing FedEx",
-    "metrics": {
-      "likes": 5,
-      "reposts": 0,
-      "replies": 0,
-      "views": 336,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "6a692fad749d",
-    "agent": "wajo-fo",
-    "quote": "Bro wtf a friend bought me some Chinese \n@redbull\n using \n@wajo_ai\n 13mg of caffeine per 100 ml 💀",
-    "author": "@__KOPEK__",
-    "author_name": "Ed Pujol",
-    "date": "2026-08-24",
-    "url": "https://x.com/__KOPEK__/status/2091921497023566143",
-    "kind": "use-case",
-    "tags": [
-      "shopping",
-      "redbull"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "friend bought Chinese Red Bull via Wajo",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 2,
-      "views": 252,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "3d4f7d805d93",
-    "agent": "wajo-fo",
-    "quote": "@__KOPEK__\n has an AI agent that calls him at 9am every morning with a full rundown of what happened in Slack overnight. PRs, messages, all of it.\n\nSaves him an hour+ a day 🤯",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-08-17",
-    "url": "https://x.com/wajo_ai/status/2089495694931583398",
-    "kind": "use-case",
-    "tags": [
-      "slack",
-      "morning-brief",
-      "calls",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "company: 9am Slack rundown call",
-    "metrics": {
-      "likes": 5,
-      "reposts": 1,
-      "replies": 1,
-      "views": 1026,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "f0fe0e94c0bf",
-    "agent": "wajo-fo",
-    "quote": "Your AI agent could never 💅 Text Fo via iMessage to check the score of a baseball game, call to book a restaurant for dinner, or even schedule your airport pickup - before you even land. #AIagents",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-09-04",
-    "url": "https://x.com/wajo_ai/status/2095920812062892379",
-    "kind": "other",
-    "tags": [
-      "imessage",
-      "booking",
-      "demo",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "company: baseball + dinner + airport",
-    "metrics": {
-      "likes": 5,
-      "reposts": 3,
-      "replies": 0,
-      "views": 756,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "a22e0c271ff5",
-    "agent": "wajo-fo",
-    "quote": "When I set out to build Fo, our get anything done action agent from \n@wajo_ai\n, the goal was simple, solve overwhelm for everyone. I found myself juggling calendars, forgetting to order my weekly meals, or being on my phone doing chores while my son kept telling me \"no phone mama\".",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-31",
-    "url": "https://x.com/shivanipod/status/2094221241720943062",
-    "kind": "other",
-    "tags": [
-      "founder",
-      "overwhelm"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T13:33:09.107718+00:00",
-    "notes": "founder mission: solve overwhelm",
-    "metrics": {
-      "likes": 13,
-      "reposts": 1,
-      "replies": 1,
-      "views": 480,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "c2224c84c7b9",
-    "agent": "wajo-fo",
-    "quote": "Insane, someone used \n@wajo_ai\n’s fo to send us donuts 🥹💗\n\nFull circle ⭕️ \nThank you #4some",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-25",
-    "url": "https://x.com/shivanipod/status/2092342079498461378",
-    "kind": "use-case",
-    "tags": [
-      "donuts",
-      "delivery",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "user sent donuts via Fo",
-    "metrics": {
-      "likes": 15,
-      "reposts": 1,
-      "replies": 3,
-      "views": 682,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "1da1bf7a22c4",
-    "agent": "wajo-fo",
-    "quote": "Asked \n@wajo_ai\n's Fo to protect my calendar because our product sign ups are exploding, do I need to ask it to dial back? haha\n\nOn another note, best program managers in the world reach out. Like the top 0.01% only!",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-28",
-    "url": "https://x.com/shivanipod/status/2093405819459227959",
-    "kind": "use-case",
-    "tags": [
-      "calendar",
-      "protect",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "Fo protecting calendar amid signup flood",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 1,
-      "views": 347,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "6233b5181230",
-    "agent": "wajo-fo",
-    "quote": "Weekly meals, sorted. 🥘\n\nWajo x Healthy Tiffin makes meal planning easier. Your cart is prepared for review, the details are organized, and you make the final call.\n\nLess planning. More time back.",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-08-31",
-    "url": "https://x.com/wajo_ai/status/2094462331140952329",
-    "kind": "use-case",
-    "tags": [
-      "meals",
-      "cart",
-      "partner",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "weekly meals / Healthy Tiffin cart",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 1,
-      "views": 173,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "c99b2032842f",
-    "agent": "wajo-fo",
-    "quote": "Thank you to everyone who came out last week to our launch happy hour. We had so much fun getting the team together and seeing all you guys use Fo while listening to Fo's carefully curated playlist 😉 We loved hearing all your use cases and are looking forward to seeing what you",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-09-03",
-    "url": "https://x.com/wajo_ai/status/2095303526113312998",
-    "kind": "other",
-    "tags": [
-      "launch",
-      "party",
-      "usage",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T14:46:37.879597+00:00",
-    "notes": "launch happy hour; people using Fo live",
-    "metrics": {
-      "likes": 2,
-      "reposts": 3,
-      "replies": 0,
-      "views": 240,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "7daf58adaf3c",
-    "agent": "wajo-fo",
-    "quote": "So many places have reservation bots. It's time to get your own 😏",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-09-01",
-    "url": "https://x.com/wajo_ai/status/2094847176341864527",
-    "kind": "other",
-    "tags": [
-      "reservations",
-      "positioning",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: get your own reservation bot",
-    "metrics": {
-      "likes": 1,
-      "reposts": 0,
-      "replies": 0,
-      "views": 213,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "6b1f48f6cc0e",
-    "agent": "wajo-fo",
-    "quote": "The agent-to-agent phone call is here 🤖💥",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-08-23",
-    "url": "https://x.com/wajo_ai/status/2091602457776558384",
-    "kind": "use-case",
-    "tags": [
-      "agent-to-agent",
-      "phone",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: agent-to-agent phone call",
-    "metrics": {
-      "likes": 4,
-      "reposts": 0,
-      "replies": 0,
-      "views": 1594,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "bf9eac1c68de",
-    "agent": "wajo-fo",
-    "quote": "Fo's parent/gaurdian has SPOKEN! look at all the dope shit people are doing already 🤩",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-08-25",
-    "url": "https://x.com/wajo_ai/status/2092297550506398042",
-    "kind": "praise",
-    "tags": [
-      "user-showcase",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T15:32:45.259459+00:00",
-    "notes": "founder: showcase of what users already doing with Fo",
-    "metrics": {
-      "likes": 7,
-      "reposts": 0,
-      "replies": 0,
-      "views": 541,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "ae26018cfa49",
-    "agent": "wajo-fo",
-    "quote": "Thank you to everyone who came out last week to our launch happy hour. We had so much fun getting the team together and seeing all you guys use Fo while listening to Fo’s carefully curated playlist 😉\n\nWe loved hearing all your use cases and are looking forward to seeing what you",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-09-02",
-    "url": "https://x.com/wajo_ai/status/2094969012430291086",
-    "kind": "use-case",
-    "tags": [
-      "launch",
-      "happy-hour",
-      "users",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "founder: launch happy hour — seeing people use Fo",
-    "metrics": {
-      "likes": 1,
-      "reposts": 1,
-      "replies": 0,
-      "views": 182,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "67f8993fd602",
-    "agent": "wajo-fo",
-    "quote": "Agent sidekicks of all types at Wajo 💥",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-09-01",
-    "url": "https://x.com/wajo_ai/status/2094833374246425072",
-    "kind": "other",
-    "tags": [
-      "sidekicks",
-      "positioning",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-06T16:09:54.325977+00:00",
-    "notes": "founder: agent sidekicks of all types at Wajo",
-    "metrics": {
-      "likes": 2,
-      "reposts": 1,
-      "replies": 0,
-      "views": 557,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "564839e13d70",
-    "agent": "wajo-fo",
-    "quote": "Game changing agent by \n@wajo_ai",
-    "author": "@ThisIsA1ex",
-    "author_name": "Alex",
-    "date": "2026-08-23",
-    "url": "https://x.com/ThisIsA1ex/status/2091614876393431338",
-    "kind": "praise",
-    "tags": [],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; short user praise",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 1,
-      "views": 157,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "65b70de9982d",
-    "agent": "wajo-fo",
-    "quote": "If you are coming to \n@wajo_ai\n happy hour on Tuesday, are a parent in tech hmu - while insanely limited - you get special access where our agent can book you high quality childcare 🔥👨‍🍳",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-23",
-    "url": "https://x.com/shivanipod/status/2091390999528694021",
-    "kind": "use-case",
-    "tags": [
-      "parenting",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; founder: agent books childcare for parents-in-tech",
-    "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "replies": 1,
-      "views": 494,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "f7a9013ff473",
-    "agent": "wajo-fo",
-    "quote": "Hear my \n@wajo_ai\n agent save me oxygen. \nhttp://\nwajo.ai \n\nAgents with a phone, email, phone number, credit card and their own identity built to be secure for their bigs.",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-23",
-    "url": "https://x.com/shivanipod/status/2091394612862890181",
-    "kind": "use-case",
-    "tags": [
-      "phone",
-      "founder",
-      "vendor"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-07T14:04:57Z",
-    "notes": "weekday-2026-09-07 batch B; founder demo: agent on phone/email/card",
-    "metrics": {
-      "likes": 76,
-      "reposts": 4,
-      "replies": 13,
-      "views": 87818,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "67ce70589401",
-    "agent": "wajo-fo",
-    "quote": "Hiring kick ass people across voice agents, recommender systems, browser use, human-agent collaboration research. DM to apply! https://Wajo.ai 🔥🚀",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-28",
-    "url": "https://x.com/shivanipod/status/2093198598800642514",
+    "date": "2026-09-09",
+    "url": "https://x.com/shivanipod/status/2097680561863324142",
     "kind": "other",
     "tags": [
       "auto",
       "x",
       "vendor",
-      "founder"
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: \"wajo.ai\" | via x402atlas",
-    "metrics": {
-      "likes": 91,
-      "reposts": 3,
-      "replies": 20,
-      "views": 5769,
-      "fetched": "2026-09-10"
-    }
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
-    "id": "f6ab497574c4",
+    "id": "792116b63bc2",
     "agent": "wajo-fo",
-    "quote": "Opening new waitlisted invites for @wajo_ai's Fo. Signing up at https://wajo.ai/join is the second best bet to get added!\n\nFirst best is tagging the team and letting them know why you are action agent pilled ;)",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-26",
-    "url": "https://x.com/shivanipod/status/2092746746967564378",
+    "quote": "I\u2019m so AI personal assistant pilled now\n\nI\u2019ve tried countless different agents\n\nAll are super cool and useful but wtf did @wajo_ai feed Fo?\n\nI\u2019ve paired Fo with my creative director agent and they workshop X posts in my text group chat every morning lmao\n\nFo even took care of getting my phone number removed of a telemarketing call list\n\nBro is OP and I\u2019m okay with it\n\nInstinct can\u2019t do this btw",
+    "author": "@samwarren",
+    "author_name": "Sam Warren",
+    "date": "2026-09-09",
+    "url": "https://x.com/samwarren/status/2097763536407802007",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "9d1c4e0bc5a0",
+    "agent": "wajo-fo",
+    "quote": "awesome to see how our portfolio agent is growing @wajo_ai",
+    "author": "@mahaniok",
+    "author_name": "Ihar Mahaniok",
+    "date": "2026-09-09",
+    "url": "https://x.com/mahaniok/status/2097753872525623729",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "bbd7896d7a23",
+    "agent": "wajo-fo",
+    "quote": "@samwarren @wajo_ai \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "author": "@lukasingem",
+    "author_name": "Lukas Ingemarsson",
+    "date": "2026-09-09",
+    "url": "https://x.com/lukasingem/status/2097764982058586586",
     "kind": "other",
     "tags": [
       "auto",
       "x",
-      "vendor",
-      "founder"
+      "reply"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: \"wajo.ai\" | via x402atlas",
-    "metrics": {
-      "likes": 6,
-      "reposts": 1,
-      "replies": 0,
-      "views": 519,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "8ed00dfec8c4",
-    "agent": "wajo-fo",
-    "quote": "If anyone needs a weekend read. We built an actual small world at http://wajo.ai where our agents learn about public and private context, navigating websites, phone calls and also hire people/other agents.\n\nhttps://wajo.ai/blog https://t.co/D116kymkyA",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-23",
-    "url": "https://x.com/shivanipod/status/2091629632789565948",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: \"wajo.ai\" | via x402atlas",
-    "metrics": {
-      "likes": 5,
-      "reposts": 0,
-      "replies": 1,
-      "views": 1140,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "33660531d511",
-    "agent": "wajo-fo",
-    "quote": "http://wajo.ai 🍳👀",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-23",
-    "url": "https://x.com/shivanipod/status/2091380384567292245",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: \"wajo.ai\" | via x402atlas",
-    "metrics": {
-      "likes": 4,
-      "reposts": 0,
-      "replies": 2,
-      "views": 503,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "667f1f33c204",
-    "agent": "wajo-fo",
-    "quote": "@lennysan http://Wajo.ai is hiring engineers! DMs open!",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-13",
-    "url": "https://x.com/shivanipod/status/2087783711962288476",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: \"wajo.ai\" | via x402atlas",
-    "metrics": {
-      "likes": 15,
-      "reposts": 0,
-      "replies": 22,
-      "views": 2960,
-      "fetched": "2026-09-10"
-    }
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
   },
   {
     "id": "65f746b1e10d",
@@ -806,7 +123,7 @@
   {
     "id": "4c847f62be2e",
     "agent": "wajo-fo",
-    "quote": "@DavidPawlan @wajo_ai They have an invite only text assistant👀👀",
+    "quote": "@DavidPawlan @wajo_ai They have an invite only text assistant\ud83d\udc40\ud83d\udc40",
     "author": "@qqazzrh",
     "author_name": "qqazzrh",
     "date": "2026-09-06",
@@ -829,29 +146,27 @@
     }
   },
   {
-    "id": "5a0f1bade54c",
+    "id": "acad37d62a8e",
     "agent": "wajo-fo",
-    "quote": "@qqazzrh @wajo_ai 👀👀",
-    "author": "@DavidPawlan",
-    "author_name": "David Pawlan",
-    "date": "2026-09-05",
-    "url": "https://x.com/DavidPawlan/status/2096368639779709129",
-    "kind": "other",
+    "quote": "Tried something new today. \n\nAi can figure out where is my missing FedEx delivery and chase them! \ud83e\udd73\n\nI will never call them for hours in person\u2026 cannot break in to human contact, but this guy can. \n\n@wajo_ai",
+    "author": "@qqazzrh",
+    "author_name": "qqazzrh",
+    "date": "2026-09-06",
+    "url": "https://x.com/qqazzrh/status/2096446024835637391",
+    "kind": "use-case",
     "tags": [
-      "auto",
-      "x",
-      "reply",
-      "founder",
-      "vendor"
+      "fedex",
+      "phone",
+      "delivery"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.281Z",
-    "notes": "query: @wajo_ai | via x402atlas",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "chased missing FedEx",
     "metrics": {
-      "likes": 0,
+      "likes": 5,
       "reposts": 0,
-      "replies": 2,
-      "views": 236,
+      "replies": 0,
+      "views": 336,
       "fetched": "2026-09-10"
     }
   },
@@ -877,6 +192,197 @@
       "reposts": 0,
       "replies": 1,
       "views": 263,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "5a0f1bade54c",
+    "agent": "wajo-fo",
+    "quote": "@qqazzrh @wajo_ai \ud83d\udc40\ud83d\udc40",
+    "author": "@DavidPawlan",
+    "author_name": "David Pawlan",
+    "date": "2026-09-05",
+    "url": "https://x.com/DavidPawlan/status/2096368639779709129",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: @wajo_ai | via x402atlas",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 236,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "f0fe0e94c0bf",
+    "agent": "wajo-fo",
+    "quote": "Your AI agent could never \ud83d\udc85 Text Fo via iMessage to check the score of a baseball game, call to book a restaurant for dinner, or even schedule your airport pickup - before you even land. #AIagents",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-09-04",
+    "url": "https://x.com/wajo_ai/status/2095920812062892379",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "booking",
+      "demo",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "company: baseball + dinner + airport",
+    "metrics": {
+      "likes": 5,
+      "reposts": 3,
+      "replies": 0,
+      "views": 756,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "038a82045578",
+    "agent": "wajo-fo",
+    "quote": "Hi Shivani,\nI've shared a few feedbacks on hey@wajo.ai. \nKindly have a look as and when the time permits.",
+    "author": "@anbhvB",
+    "author_name": "Anubhav",
+    "date": "2026-09-04",
+    "url": "https://x.com/anbhvB/status/2095924507051798815",
+    "kind": "other",
+    "tags": [
+      "feedback"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "sent feedback to hey@wajo.ai",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 50,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "d26fc0a5d1b6",
+    "agent": "wajo-fo",
+    "quote": "I\u2019m officially a \n@wajo_ai\n Top User! \nhttps://\nwajo.ai \n\n#wajo #boom #AgenticAI #agent #fo",
+    "author": "@ReginaWalton",
+    "author_name": "\ud83c\udf1e Regina Walton \ud83c\udf38\ud83c\udf3a\ud83c\udf3c",
+    "date": "2026-09-04",
+    "url": "https://x.com/ReginaWalton/status/2096000454308294801",
+    "kind": "praise",
+    "tags": [
+      "power-user"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "officially Top User",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 104,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "c9e5e52fa824",
+    "agent": "wajo-fo",
+    "quote": "I run a three-location cafe and Wajo has become our operations backbone. A shared agent coordinates supplier onboarding, handles invoices, and routes payment approvals. It links to calendars and Slack, so our team stays in sync without endless emails. The AI-human collaboration is perfect for edge cases, though the multi-location permission setup felt a bit fiddly at first.",
+    "author": "Sophia Williams",
+    "author_name": "Sophia Williams",
+    "date": "2026-09-04",
+    "url": "https://www.chatableapps.com/tools/wajo#sophia-williams",
+    "kind": "use-case",
+    "tags": [
+      "ops",
+      "invoices",
+      "slack",
+      "permissions"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "Multi-location cafe ops use case; permissions setup friction."
+  },
+  {
+    "id": "a143ad3e9406",
+    "agent": "wajo-fo",
+    "quote": "Booking a last-minute event was a nightmare until I tried Wajo. The proactive agent lined up venues, emailed vendors, and kept all calendars in sync without me lifting a finger. It nudged for payments and escalated to a human when needed. The only hiccup was one vendor reply that needed clearer instructions, but it was resolved quickly.",
+    "author": "Elijah Jackson",
+    "author_name": "Elijah Jackson",
+    "date": "2026-09-04",
+    "url": "https://www.chatableapps.com/tools/wajo#elijah-jackson",
+    "kind": "praise",
+    "tags": [
+      "events",
+      "vendors",
+      "calendar",
+      "escalation"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-11T14:00:42Z",
+    "notes": "ChatableApps review (~1 week before scan): event booking + vendor coordination praise."
+  },
+  {
+    "id": "c99b2032842f",
+    "agent": "wajo-fo",
+    "quote": "Thank you to everyone who came out last week to our launch happy hour. We had so much fun getting the team together and seeing all you guys use Fo while listening to Fo's carefully curated playlist \ud83d\ude09 We loved hearing all your use cases and are looking forward to seeing what you",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-09-03",
+    "url": "https://x.com/wajo_ai/status/2095303526113312998",
+    "kind": "other",
+    "tags": [
+      "launch",
+      "party",
+      "usage",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "launch happy hour; people using Fo live",
+    "metrics": {
+      "likes": 2,
+      "reposts": 3,
+      "replies": 0,
+      "views": 240,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "ae26018cfa49",
+    "agent": "wajo-fo",
+    "quote": "Thank you to everyone who came out last week to our launch happy hour. We had so much fun getting the team together and seeing all you guys use Fo while listening to Fo\u2019s carefully curated playlist \ud83d\ude09\n\nWe loved hearing all your use cases and are looking forward to seeing what you",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-09-02",
+    "url": "https://x.com/wajo_ai/status/2094969012430291086",
+    "kind": "use-case",
+    "tags": [
+      "launch",
+      "happy-hour",
+      "users",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "founder: launch happy hour \u2014 seeing people use Fo",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 182,
       "fetched": "2026-09-10"
     }
   },
@@ -933,6 +439,56 @@
     }
   },
   {
+    "id": "7daf58adaf3c",
+    "agent": "wajo-fo",
+    "quote": "So many places have reservation bots. It's time to get your own \ud83d\ude0f",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-09-01",
+    "url": "https://x.com/wajo_ai/status/2094847176341864527",
+    "kind": "other",
+    "tags": [
+      "reservations",
+      "positioning",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: get your own reservation bot",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 213,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "67f8993fd602",
+    "agent": "wajo-fo",
+    "quote": "Agent sidekicks of all types at Wajo \ud83d\udca5",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-09-01",
+    "url": "https://x.com/wajo_ai/status/2094833374246425072",
+    "kind": "other",
+    "tags": [
+      "sidekicks",
+      "positioning",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T16:09:54.325977+00:00",
+    "notes": "founder: agent sidekicks of all types at Wajo",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 557,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "bda49dcad66a",
     "agent": "wajo-fo",
     "quote": "@JonathanHaas @wajo_ai Omg love to hear it!",
@@ -960,6 +516,31 @@
     }
   },
   {
+    "id": "b31ca13572db",
+    "agent": "wajo-fo",
+    "quote": "@wajo_ai\n\u2019s Fo is 7 days post launch, and this is the first real consumer hockey stick I have seen in my entire career across Meta, Google, Deepmind - this is despite having a waitlist on Fo. Thank you for all of you who are putting Fo to work, sending their wow moments to us, as",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-09-01",
+    "url": "https://x.com/shivanipod/status/2094860664846381525",
+    "kind": "other",
+    "tags": [
+      "growth",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: hockey stick claim",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 201,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "e6f18aaf3c50",
     "agent": "wajo-fo",
     "quote": "@shivanipod @wajo_ai You've built something really incredible! First profound experience I've had with AI outside of something I've built for myself in a long time!",
@@ -981,6 +562,150 @@
       "reposts": 0,
       "replies": 1,
       "views": 41,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "6233b5181230",
+    "agent": "wajo-fo",
+    "quote": "Weekly meals, sorted. \ud83e\udd58\n\nWajo x Healthy Tiffin makes meal planning easier. Your cart is prepared for review, the details are organized, and you make the final call.\n\nLess planning. More time back.",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-08-31",
+    "url": "https://x.com/wajo_ai/status/2094462331140952329",
+    "kind": "use-case",
+    "tags": [
+      "meals",
+      "cart",
+      "partner",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "weekly meals / Healthy Tiffin cart",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 173,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "a22e0c271ff5",
+    "agent": "wajo-fo",
+    "quote": "When I set out to build Fo, our get anything done action agent from \n@wajo_ai\n, the goal was simple, solve overwhelm for everyone. I found myself juggling calendars, forgetting to order my weekly meals, or being on my phone doing chores while my son kept telling me \"no phone mama\".",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-31",
+    "url": "https://x.com/shivanipod/status/2094221241720943062",
+    "kind": "other",
+    "tags": [
+      "founder",
+      "overwhelm"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "founder mission: solve overwhelm",
+    "metrics": {
+      "likes": 13,
+      "reposts": 1,
+      "replies": 1,
+      "views": 480,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "51b59cb9ef90",
+    "agent": "wajo-fo",
+    "quote": "Invite link for \n@noahrshinn\n\u2019s Instinct and \n@shivanipod\n\u2019s \n@wajo_ai\n at the bottom. \n\nBeen playing with Instinct and Wajo, they\u2019re cool. Both popped off recently, both approaches look the same, but the system behind each is different and the user feels it. \n\nInstinct is more",
+    "author": "@PhilippeMallett",
+    "author_name": "Philippe Mallette",
+    "date": "2026-08-31",
+    "url": "https://x.com/PhilippeMallett/status/2094469074667688193",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "playing with Instinct and Wajo",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 110,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "1da1bf7a22c4",
+    "agent": "wajo-fo",
+    "quote": "Asked \n@wajo_ai\n's Fo to protect my calendar because our product sign ups are exploding, do I need to ask it to dial back? haha\n\nOn another note, best program managers in the world reach out. Like the top 0.01% only!",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-28",
+    "url": "https://x.com/shivanipod/status/2093405819459227959",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "protect",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "Fo protecting calendar amid signup flood",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 347,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "5219def32991",
+    "agent": "wajo-fo",
+    "quote": "Proven ways to crack a competitive company especially @wajo_ai\n1. Hustle to get hands on the product\n2. Have unique insights about it\n3. Demonstrate ability to do cool things with it in the wild\n\nIf you reach out and have never used what the company is building it\u2019s likely a no.",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-28",
+    "url": "https://x.com/shivanipod/status/2093317686877147472",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "67ce70589401",
+    "agent": "wajo-fo",
+    "quote": "Hiring kick ass people across voice agents, recommender systems, browser use, human-agent collaboration research. DM to apply! https://Wajo.ai \ud83d\udd25\ud83d\ude80",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-28",
+    "url": "https://x.com/shivanipod/status/2093198598800642514",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: \"wajo.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 91,
+      "reposts": 3,
+      "replies": 20,
+      "views": 5769,
       "fetched": "2026-09-10"
     }
   },
@@ -1011,6 +736,30 @@
     }
   },
   {
+    "id": "4d04787d5fea",
+    "agent": "wajo-fo",
+    "quote": "Just tried \n@wajo_ai\n this is so magical, It called my friend, confirmed party details for tomorrow. All through texting with me.\n\nI can't believe stuff like this just works.",
+    "author": "@LyalinDotCom",
+    "author_name": "Dmitry Lyalin",
+    "date": "2026-08-27",
+    "url": "https://x.com/LyalinDotCom/status/2093104839169290503",
+    "kind": "use-case",
+    "tags": [
+      "calls",
+      "party"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "called friend, confirmed party details",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 2,
+      "views": 2262,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "556f14cfa28e",
     "agent": "wajo-fo",
     "quote": "@galdawave @shivanipod @wajo_ai This is very interesting, what boundaries did you guys find hardest to make reliable in practise??",
@@ -1036,9 +785,85 @@
     }
   },
   {
+    "id": "f6ab497574c4",
+    "agent": "wajo-fo",
+    "quote": "Opening new waitlisted invites for @wajo_ai's Fo. Signing up at https://wajo.ai/join is the second best bet to get added!\n\nFirst best is tagging the team and letting them know why you are action agent pilled ;)",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-26",
+    "url": "https://x.com/shivanipod/status/2092746746967564378",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: \"wajo.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 0,
+      "views": 519,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "65f77af50240",
+    "agent": "wajo-fo",
+    "quote": "There were a bunch honestly, but security and privacy is probably the one we\u2019ve hammered on the hardest. Fo can be both a work companion and a personal companion, so getting those boundaries, permissions, and separation right was something we cared about from day one.",
+    "author": "@galdawave",
+    "author_name": "Gal Zahavi",
+    "date": "2026-08-26",
+    "url": "https://x.com/galdawave/status/2092703050893017275",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "security",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "team: security/privacy hardest",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "bf9eac1c68de",
+    "agent": "wajo-fo",
+    "quote": "Fo's parent/gaurdian has SPOKEN! look at all the dope shit people are doing already \ud83e\udd29",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-08-25",
+    "url": "https://x.com/wajo_ai/status/2092297550506398042",
+    "kind": "praise",
+    "tags": [
+      "user-showcase",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: showcase of what users already doing with Fo",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 541,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "476fb689a032",
     "agent": "wajo-fo",
-    "quote": "This is AI that acts. Watch the video as Shivani Poddar explains how Fo works and what makes an action agent different.\n\nJoin the waitlist to become a Fo beta tester and see what your life could look like powered by Wajo 🤩",
+    "quote": "This is AI that acts. Watch the video as Shivani Poddar explains how Fo works and what makes an action agent different.\n\nJoin the waitlist to become a Fo beta tester and see what your life could look like powered by Wajo \ud83e\udd29",
     "author": "@wajo_ai",
     "author_name": "Wajo",
     "date": "2026-08-25",
@@ -1063,59 +888,59 @@
     }
   },
   {
-    "id": "2d3811fb2b91",
+    "id": "a46343370940",
     "agent": "wajo-fo",
-    "quote": "Here is a compiled list of the companies' open roles for PMs, engineers, designers (or related). Thx Lenny for initiating this!\n\nGlobal remote companies (if I'm not wrong):\n• ElevenLabs (@elevenlabs) — Nearly 300 open roles (all remote)\n• Ghost (@Ghost) — Support and Engineering\n• PostHog (@posthog) — Support, Product, Sales\n• LCA (@meetLCA) — PMs and Designers (fully remote)\n• Customer .io (@CustomerIO) — Design, Product, Engineering\n\nOthers:\n• Linear (@linear) — PMs, Product Engineers, Designers (remote-friendly across North America & Europe)\n• Anthropic (@AnthropicAI) — Engineer (Desktop team)\n• Mintlify (@mintlify) — Engineering + Design\n• Talkiatry (@Talkiatry) — Sr. Data PM (+ other roles)\n• Doubleword (@doubleword_) — Inference-related roles\n• Wajo (@wajo_ai) — Engineers (full-stack)\n• Rain (https://t.co/zpDQ0MbaR4) — Designers (fully remote, US preferred)\n• Rho (@rhobusiness) — PMs, Engineers, Designers\n• Parallel (@p0) — Multiple roles across the board\n• Getwellapp (@getwellapp) — Product Engineer\n• Inferact (@inferact) — Roles in inference infrastructure (vLLM team)\n• Lindy (@getlindy) — Senior Product Manager\n• Merge (@merge_api) — Engineers, Engineering Managers, Security Engineer (NYC & SF)\n• Basis (@trybasis) — Technical PM\n• Locket (@LocketCamera) — Graphic Designer; iOS/Android/Back-end Engineers; Growth & Social roles\n• Withplum (@withplum) — PM and iOS Engineering (London, Athens, or Cyprus)\n• Flexport (@flexport) — PMs, Engineers, Designers\n• Airbnb (@Airbnb) — Multiple Product Manager roles\n• Tenex (@tenex_labs) — AI Engineer (full-stack) and AI Strategist\n• Engine (@gowithengine) — Product roles (~5), Design roles (2), many Engineering roles\n• Vercel (@vercel) — Visual Designer\n• Ringg AI (@ringg_ai) — TPMs\n• Exa (@ExaAILabs) — PMs, Engineers, Designers\n• Auth0 Lab / Okta (@auth0lab / @okta) — Principal Applied AI/ML Scientist / senior AI/ML Engineer",
-    "author": "@pzayap",
-    "author_name": "Pizza Yap 🍕",
-    "date": "2026-08-14",
-    "url": "https://x.com/pzayap/status/2088296088877105581",
+    "quote": "Meet Fo, our first action agent \ud83d\udca5\n\nMost AI waits for a question and gives you an answer or a list of answers. We built Fo to go further.\n\nFo is proactive and self-learning. It learns how you like things done, anticipates what needs your attention, and moves tasks forward.\n\nCheck",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-08-25",
+    "url": "https://x.com/wajo_ai/status/2092284115227988417",
+    "kind": "other",
+    "tags": [
+      "launch",
+      "action-agent",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "company: Meet Fo",
+    "metrics": {
+      "likes": 18,
+      "reposts": 3,
+      "replies": 9,
+      "views": 1652,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "f6c431709a57",
+    "agent": "wajo-fo",
+    "quote": "cheers to @shivanipod and the @wajo_ai team on their launch today! #aiagent",
+    "author": "@trifamenz",
+    "author_name": "Navid Zolfaghari",
+    "date": "2026-08-25",
+    "url": "https://x.com/trifamenz/status/2092243580123230222",
     "kind": "other",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
-    "collected_at": "2026-09-08T16:04:06.282Z",
-    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas",
-    "metrics": {
-      "likes": 452,
-      "reposts": 33,
-      "replies": 11,
-      "views": 72939,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "97455da3681f",
-    "agent": "wajo-fo",
-    "quote": "if you're building a 10-person unicorn, this dinner is for you.\n\nai-native founders. SF. config week.\npre-seed / seed. invite only. ~20 spots.\n\nno panels. no slides. just the right room.\n\napply → http://luma.com/wajo-1aqj",
-    "author": "@wajo_ai",
-    "author_name": "Wajo",
-    "date": "2026-06-19",
-    "url": "https://x.com/wajo_ai/status/2068035152379580743",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "founder"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:04:06.282Z",
-    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas",
+    "collected_at": "2026-09-08T16:17:35.821Z",
+    "notes": "query: @wajo_ai | via x402atlas",
     "metrics": {
       "likes": 4,
-      "reposts": 3,
-      "replies": 0,
-      "views": 7875,
+      "reposts": 1,
+      "replies": 1,
+      "views": 173,
       "fetched": "2026-09-10"
     }
   },
   {
     "id": "0b1e1f1c5920",
     "agent": "wajo-fo",
-    "quote": "@LyalinDotCom @wajo_ai let’s get @LyalinDotCom into the action!! 🚀",
+    "quote": "@LyalinDotCom @wajo_ai let\u2019s get @LyalinDotCom into the action!! \ud83d\ude80",
     "author": "@shivanipod",
     "author_name": "Shivani Poddar",
     "date": "2026-08-25",
@@ -1140,9 +965,34 @@
     }
   },
   {
+    "id": "c2224c84c7b9",
+    "agent": "wajo-fo",
+    "quote": "Insane, someone used \n@wajo_ai\n\u2019s fo to send us donuts \ud83e\udd79\ud83d\udc97\n\nFull circle \u2b55\ufe0f \nThank you #4some",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-25",
+    "url": "https://x.com/shivanipod/status/2092342079498461378",
+    "kind": "use-case",
+    "tags": [
+      "donuts",
+      "delivery",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T14:46:37.879597+00:00",
+    "notes": "user sent donuts via Fo",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 3,
+      "views": 682,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "415745868326",
     "agent": "wajo-fo",
-    "quote": "My team let me know that we are OUT of my personal invite codes. Please @wajo_ai and let us know why they should bump you up the waitlist.\n\nIf you have referral codes, please don't sell them  🤣 https://t.co/SSWptFlrDn",
+    "quote": "My team let me know that we are OUT of my personal invite codes. Please @wajo_ai and let us know why they should bump you up the waitlist.\n\nIf you have referral codes, please don't sell them  \ud83e\udd23 https://t.co/SSWptFlrDn",
     "author": "@shivanipod",
     "author_name": "Shivani Poddar",
     "date": "2026-08-25",
@@ -1162,6 +1012,32 @@
       "reposts": 0,
       "replies": 1,
       "views": 795,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "6bdf235683bb",
+    "agent": "wajo-fo",
+    "quote": "I emailed fo, \"can you just reschedule my life for the next 2 weeks, only the P0\"\nit asked me if i was okay, and I kid you not, it rescheduled my life, critical conversations, high stakes company building things, navigating life, all done, with just 1 text.\n3/3",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-25",
+    "url": "https://x.com/shivanipod/status/2092291140167053665",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "reschedule",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T04:17:05.329631+00:00",
+    "notes": "founder: reschedule my life P0",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 140,
       "fetched": "2026-09-10"
     }
   },
@@ -1193,30 +1069,6 @@
     }
   },
   {
-    "id": "f6c431709a57",
-    "agent": "wajo-fo",
-    "quote": "cheers to @shivanipod and the @wajo_ai team on their launch today! #aiagent",
-    "author": "@trifamenz",
-    "author_name": "Navid Zolfaghari",
-    "date": "2026-08-25",
-    "url": "https://x.com/trifamenz/status/2092243580123230222",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.821Z",
-    "notes": "query: @wajo_ai | via x402atlas",
-    "metrics": {
-      "likes": 4,
-      "reposts": 1,
-      "replies": 1,
-      "views": 173,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
     "id": "d7dc8ecee352",
     "agent": "wajo-fo",
     "quote": "@shivanipod @wajo_ai This is too good!",
@@ -1237,31 +1089,6 @@
       "likes": 2,
       "reposts": 0,
       "replies": 1,
-      "views": 61,
-      "fetched": "2026-09-10"
-    }
-  },
-  {
-    "id": "d8c3b4bf5588",
-    "agent": "wajo-fo",
-    "quote": "@shivanipod @petergyang @wajo_ai This! 👆🏻👆🏻👆🏻",
-    "author": "@TayasNetz",
-    "author_name": "Codehead",
-    "date": "2026-08-24",
-    "url": "https://x.com/TayasNetz/status/2092035621690728748",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-08T16:17:35.821Z",
-    "notes": "query: @wajo_ai | via x402atlas",
-    "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "replies": 0,
       "views": 61,
       "fetched": "2026-09-10"
     }
@@ -1293,9 +1120,109 @@
     }
   },
   {
+    "id": "6a692fad749d",
+    "agent": "wajo-fo",
+    "quote": "Bro wtf a friend bought me some Chinese \n@redbull\n using \n@wajo_ai\n 13mg of caffeine per 100 ml \ud83d\udc80",
+    "author": "@__KOPEK__",
+    "author_name": "Ed Pujol",
+    "date": "2026-08-24",
+    "url": "https://x.com/__KOPEK__/status/2091921497023566143",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "redbull"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "friend bought Chinese Red Bull via Wajo",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 252,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "d8c3b4bf5588",
+    "agent": "wajo-fo",
+    "quote": "@shivanipod @petergyang @wajo_ai This! \ud83d\udc46\ud83c\udffb\ud83d\udc46\ud83c\udffb\ud83d\udc46\ud83c\udffb",
+    "author": "@TayasNetz",
+    "author_name": "Codehead",
+    "date": "2026-08-24",
+    "url": "https://x.com/TayasNetz/status/2092035621690728748",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.821Z",
+    "notes": "query: @wajo_ai | via x402atlas",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "6b1f48f6cc0e",
+    "agent": "wajo-fo",
+    "quote": "The agent-to-agent phone call is here \ud83e\udd16\ud83d\udca5",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-08-23",
+    "url": "https://x.com/wajo_ai/status/2091602457776558384",
+    "kind": "use-case",
+    "tags": [
+      "agent-to-agent",
+      "phone",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T15:32:45.259459+00:00",
+    "notes": "founder: agent-to-agent phone call",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1594,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "8ed00dfec8c4",
+    "agent": "wajo-fo",
+    "quote": "If anyone needs a weekend read. We built an actual small world at http://wajo.ai where our agents learn about public and private context, navigating websites, phone calls and also hire people/other agents.\n\nhttps://wajo.ai/blog https://t.co/D116kymkyA",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-23",
+    "url": "https://x.com/shivanipod/status/2091629632789565948",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: \"wajo.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1140,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "ff418e248396",
     "agent": "wajo-fo",
-    "quote": "If you are new here, hi 👋\n\nI started @wajo_ai with the mission to build action agents, that are access controlled like your best confidant, have their own identities, their emails, their phones, and their own credit cards. Wajo agents get $h!t done in the physical world.",
+    "quote": "If you are new here, hi \ud83d\udc4b\n\nI started @wajo_ai with the mission to build action agents, that are access controlled like your best confidant, have their own identities, their emails, their phones, and their own credit cards. Wajo agents get $h!t done in the physical world.",
     "author": "@shivanipod",
     "author_name": "Shivani Poddar",
     "date": "2026-08-23",
@@ -1315,6 +1242,82 @@
       "reposts": 2,
       "replies": 1,
       "views": 1342,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "f7a9013ff473",
+    "agent": "wajo-fo",
+    "quote": "Hear my \n@wajo_ai\n agent save me oxygen. \nhttp://\nwajo.ai \n\nAgents with a phone, email, phone number, credit card and their own identity built to be secure for their bigs.",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-23",
+    "url": "https://x.com/shivanipod/status/2091394612862890181",
+    "kind": "use-case",
+    "tags": [
+      "phone",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; founder demo: agent on phone/email/card",
+    "metrics": {
+      "likes": 76,
+      "reposts": 4,
+      "replies": 13,
+      "views": 87818,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "65b70de9982d",
+    "agent": "wajo-fo",
+    "quote": "If you are coming to \n@wajo_ai\n happy hour on Tuesday, are a parent in tech hmu - while insanely limited - you get special access where our agent can book you high quality childcare \ud83d\udd25\ud83d\udc68\u200d\ud83c\udf73",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-23",
+    "url": "https://x.com/shivanipod/status/2091390999528694021",
+    "kind": "use-case",
+    "tags": [
+      "parenting",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; founder: agent books childcare for parents-in-tech",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 494,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "33660531d511",
+    "agent": "wajo-fo",
+    "quote": "http://wajo.ai \ud83c\udf73\ud83d\udc40",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-23",
+    "url": "https://x.com/shivanipod/status/2091380384567292245",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: \"wajo.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 503,
       "fetched": "2026-09-10"
     }
   },
@@ -1344,26 +1347,23 @@
     }
   },
   {
-    "id": "e6b894a5b527",
+    "id": "564839e13d70",
     "agent": "wajo-fo",
-    "quote": "went to an @OpenAI x @foundherhouse event today and left VERY inspired\n\nmet incredible women building across industries, from partners at bain to founders building the next generation of AI companies\n\nloved hearing from @shivanipod building @wajo_ai + the rest of the panel 🫶\n\nmore rooms like this pls!!",
-    "author": "@aashna_doshi2",
-    "author_name": "Aashna Doshi",
-    "date": "2026-08-21",
-    "url": "https://x.com/aashna_doshi2/status/2090929594492953042",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
+    "quote": "Game changing agent by \n@wajo_ai",
+    "author": "@ThisIsA1ex",
+    "author_name": "Alex",
+    "date": "2026-08-23",
+    "url": "https://x.com/ThisIsA1ex/status/2091614876393431338",
+    "kind": "praise",
+    "tags": [],
     "source": "x",
-    "collected_at": "2026-09-08T16:17:35.821Z",
-    "notes": "query: @wajo_ai | via x402atlas",
+    "collected_at": "2026-09-07T14:04:57Z",
+    "notes": "weekday-2026-09-07 batch B; short user praise",
     "metrics": {
-      "likes": 51,
-      "reposts": 2,
-      "replies": 5,
-      "views": 2350,
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 157,
       "fetched": "2026-09-10"
     }
   },
@@ -1395,6 +1395,30 @@
     }
   },
   {
+    "id": "e6b894a5b527",
+    "agent": "wajo-fo",
+    "quote": "went to an @OpenAI x @foundherhouse event today and left VERY inspired\n\nmet incredible women building across industries, from partners at bain to founders building the next generation of AI companies\n\nloved hearing from @shivanipod building @wajo_ai + the rest of the panel \ud83e\udef6\n\nmore rooms like this pls!!",
+    "author": "@aashna_doshi2",
+    "author_name": "Aashna Doshi",
+    "date": "2026-08-21",
+    "url": "https://x.com/aashna_doshi2/status/2090929594492953042",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:17:35.821Z",
+    "notes": "query: @wajo_ai | via x402atlas",
+    "metrics": {
+      "likes": 51,
+      "reposts": 2,
+      "replies": 5,
+      "views": 2350,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
     "id": "7672050d8264",
     "agent": "wajo-fo",
     "quote": "Excited to announce our Operational AI Panel! Register to hear from\n@shivanipod: Founder of @wajo_ai\n@prernagupta: Founder of Timbral\n@anushkanijhawn: Founder of @spurtest_ https://t.co/sXmENaduqs",
@@ -1415,6 +1439,84 @@
       "reposts": 2,
       "replies": 0,
       "views": 696,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "3d4f7d805d93",
+    "agent": "wajo-fo",
+    "quote": "@__KOPEK__\n has an AI agent that calls him at 9am every morning with a full rundown of what happened in Slack overnight. PRs, messages, all of it.\n\nSaves him an hour+ a day \ud83e\udd2f",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-08-17",
+    "url": "https://x.com/wajo_ai/status/2089495694931583398",
+    "kind": "use-case",
+    "tags": [
+      "slack",
+      "morning-brief",
+      "calls",
+      "founder",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-06T13:33:09.107718+00:00",
+    "notes": "company: 9am Slack rundown call",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1026,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "2d3811fb2b91",
+    "agent": "wajo-fo",
+    "quote": "Here is a compiled list of the companies' open roles for PMs, engineers, designers (or related). Thx Lenny for initiating this!\n\nGlobal remote companies (if I'm not wrong):\n\u2022 ElevenLabs (@elevenlabs) \u2014 Nearly 300 open roles (all remote)\n\u2022 Ghost (@Ghost) \u2014 Support and Engineering\n\u2022 PostHog (@posthog) \u2014 Support, Product, Sales\n\u2022 LCA (@meetLCA) \u2014 PMs and Designers (fully remote)\n\u2022 Customer .io (@CustomerIO) \u2014 Design, Product, Engineering\n\nOthers:\n\u2022 Linear (@linear) \u2014 PMs, Product Engineers, Designers (remote-friendly across North America & Europe)\n\u2022 Anthropic (@AnthropicAI) \u2014 Engineer (Desktop team)\n\u2022 Mintlify (@mintlify) \u2014 Engineering + Design\n\u2022 Talkiatry (@Talkiatry) \u2014 Sr. Data PM (+ other roles)\n\u2022 Doubleword (@doubleword_) \u2014 Inference-related roles\n\u2022 Wajo (@wajo_ai) \u2014 Engineers (full-stack)\n\u2022 Rain (https://t.co/zpDQ0MbaR4) \u2014 Designers (fully remote, US preferred)\n\u2022 Rho (@rhobusiness) \u2014 PMs, Engineers, Designers\n\u2022 Parallel (@p0) \u2014 Multiple roles across the board\n\u2022 Getwellapp (@getwellapp) \u2014 Product Engineer\n\u2022 Inferact (@inferact) \u2014 Roles in inference infrastructure (vLLM team)\n\u2022 Lindy (@getlindy) \u2014 Senior Product Manager\n\u2022 Merge (@merge_api) \u2014 Engineers, Engineering Managers, Security Engineer (NYC & SF)\n\u2022 Basis (@trybasis) \u2014 Technical PM\n\u2022 Locket (@LocketCamera) \u2014 Graphic Designer; iOS/Android/Back-end Engineers; Growth & Social roles\n\u2022 Withplum (@withplum) \u2014 PM and iOS Engineering (London, Athens, or Cyprus)\n\u2022 Flexport (@flexport) \u2014 PMs, Engineers, Designers\n\u2022 Airbnb (@Airbnb) \u2014 Multiple Product Manager roles\n\u2022 Tenex (@tenex_labs) \u2014 AI Engineer (full-stack) and AI Strategist\n\u2022 Engine (@gowithengine) \u2014 Product roles (~5), Design roles (2), many Engineering roles\n\u2022 Vercel (@vercel) \u2014 Visual Designer\n\u2022 Ringg AI (@ringg_ai) \u2014 TPMs\n\u2022 Exa (@ExaAILabs) \u2014 PMs, Engineers, Designers\n\u2022 Auth0 Lab / Okta (@auth0lab / @okta) \u2014 Principal Applied AI/ML Scientist / senior AI/ML Engineer",
+    "author": "@pzayap",
+    "author_name": "Pizza Yap \ud83c\udf55",
+    "date": "2026-08-14",
+    "url": "https://x.com/pzayap/status/2088296088877105581",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.282Z",
+    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas",
+    "metrics": {
+      "likes": 452,
+      "reposts": 33,
+      "replies": 11,
+      "views": 72939,
+      "fetched": "2026-09-10"
+    }
+  },
+  {
+    "id": "667f1f33c204",
+    "agent": "wajo-fo",
+    "quote": "@lennysan http://Wajo.ai is hiring engineers! DMs open!",
+    "author": "@shivanipod",
+    "author_name": "Shivani Poddar",
+    "date": "2026-08-13",
+    "url": "https://x.com/shivanipod/status/2087783711962288476",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.281Z",
+    "notes": "query: \"wajo.ai\" | via x402atlas",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 22,
+      "views": 2960,
       "fetched": "2026-09-10"
     }
   },
@@ -1445,6 +1547,24 @@
     }
   },
   {
+    "id": "4fdf291d712d",
+    "agent": "wajo-fo",
+    "quote": "@wajo_ai @github \ud83d\ude2d",
+    "author": "@lukasingem",
+    "author_name": "Lukas Ingemarsson",
+    "date": "2026-08-06",
+    "url": "https://x.com/lukasingem/status/2085496639205335413",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-10T20:17:52.846Z",
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
     "id": "6e27455cf325",
     "agent": "wajo-fo",
     "quote": "@wajo_ai @github https://t.co/7CHPSFdCsg",
@@ -1470,117 +1590,9 @@
     }
   },
   {
-    "id": "bbd7896d7a23",
-    "agent": "wajo-fo",
-    "quote": "@samwarren @wajo_ai 🔥🔥🔥",
-    "author": "@lukasingem",
-    "author_name": "Lukas Ingemarsson",
-    "date": "2026-09-09",
-    "url": "https://x.com/lukasingem/status/2097764982058586586",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "792116b63bc2",
-    "agent": "wajo-fo",
-    "quote": "I’m so AI personal assistant pilled now\n\nI’ve tried countless different agents\n\nAll are super cool and useful but wtf did @wajo_ai feed Fo?\n\nI’ve paired Fo with my creative director agent and they workshop X posts in my text group chat every morning lmao\n\nFo even took care of getting my phone number removed of a telemarketing call list\n\nBro is OP and I’m okay with it\n\nInstinct can’t do this btw",
-    "author": "@samwarren",
-    "author_name": "Sam Warren",
-    "date": "2026-09-09",
-    "url": "https://x.com/samwarren/status/2097763536407802007",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "9d1c4e0bc5a0",
-    "agent": "wajo-fo",
-    "quote": "awesome to see how our portfolio agent is growing @wajo_ai",
-    "author": "@mahaniok",
-    "author_name": "Ihar Mahaniok",
-    "date": "2026-09-09",
-    "url": "https://x.com/mahaniok/status/2097753872525623729",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "7c59a22cf3e0",
-    "agent": "wajo-fo",
-    "quote": "@wajo_ai partners with trusted networks of humans that our agents can hire from for their super humans ✨",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-09-09",
-    "url": "https://x.com/shivanipod/status/2097680561863324142",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "5219def32991",
-    "agent": "wajo-fo",
-    "quote": "Proven ways to crack a competitive company especially @wajo_ai\n1. Hustle to get hands on the product\n2. Have unique insights about it\n3. Demonstrate ability to do cool things with it in the wild\n\nIf you reach out and have never used what the company is building it’s likely a no.",
-    "author": "@shivanipod",
-    "author_name": "Shivani Poddar",
-    "date": "2026-08-28",
-    "url": "https://x.com/shivanipod/status/2093317686877147472",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "vendor",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
-    "id": "4fdf291d712d",
-    "agent": "wajo-fo",
-    "quote": "@wajo_ai @github 😭",
-    "author": "@lukasingem",
-    "author_name": "Lukas Ingemarsson",
-    "date": "2026-08-06",
-    "url": "https://x.com/lukasingem/status/2085496639205335413",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
-  },
-  {
     "id": "02e3b51268d0",
     "agent": "wajo-fo",
-    "quote": "@wajo_ai We are on, it’s happening",
+    "quote": "@wajo_ai We are on, it\u2019s happening",
     "author": "@shivanipod",
     "author_name": "Shivani Poddar",
     "date": "2026-08-05",
@@ -1630,5 +1642,31 @@
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
     "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+  },
+  {
+    "id": "97455da3681f",
+    "agent": "wajo-fo",
+    "quote": "if you're building a 10-person unicorn, this dinner is for you.\n\nai-native founders. SF. config week.\npre-seed / seed. invite only. ~20 spots.\n\nno panels. no slides. just the right room.\n\napply \u2192 http://luma.com/wajo-1aqj",
+    "author": "@wajo_ai",
+    "author_name": "Wajo",
+    "date": "2026-06-19",
+    "url": "https://x.com/wajo_ai/status/2068035152379580743",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor",
+      "founder"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-08T16:04:06.282Z",
+    "notes": "query: \"wajo\" (ai OR assistant OR agent) | via x402atlas",
+    "metrics": {
+      "likes": 4,
+      "reposts": 3,
+      "replies": 0,
+      "views": 7875,
+      "fetched": "2026-09-10"
+    }
   }
 ]

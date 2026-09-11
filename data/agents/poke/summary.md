@@ -34,3 +34,9 @@ _Updated 2026-09-10 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-09-09) Josh: Overall, I was impressed by how naturally Poke fits into something I already use every day: texting. Being able to manage emails, check my c
 - (2026-09-09) Josh: Email triage isn't very sharp yet, so it can bury something urgent while forwarding something trivial. Only supports Gmail and Outlook for e
+
+_Updated 2026-09-11 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-07-13) UseCarly: Poke is a launched, broadly-featured assistant that was the first third-party AI agent Apple approved to run inside iMessage, and it works a
+- (2026-08-10) anr0: it seems quite obvious that imessage is the best venue for consumer agents why was poke not a success?

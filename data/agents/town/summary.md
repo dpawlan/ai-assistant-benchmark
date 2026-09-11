@@ -34,3 +34,13 @@ _Updated 2026-09-10 weekday vault scan (+1 rows)._
 
 **New this scan:**
 - (2026-09-01) UseCarly: Choose Pally if you want one assistant inside your personal messages and daily life. Choose Town if you want one assistant learning and oper
+
+_Updated 2026-09-11 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-07-30) UseCarly: Town is a credible AI work assistant, not a dressed-up chatbot. It learns context from your email, calendar, documents, messages, and connec
+- (2026-06-09) this+that: Town.com offers a unique email-native AI assistant that provides users with a dedicated @town.com email address, allowing you to interact wi
+- (2026-09-11) @NoamTenne: Very nice and appreciated @TownAI feature – a credit usage optimiser!  Don’t sell ice to Eskimos. Good product decision
+- (2026-09-11) @waynesutton: New benchmark test for @TownAI @bot & @noahrshinn Instinct should be provide address and contact information and go to https://ups.com @UPS 
+- (2026-09-11) @venturetwins: Recently got asked to make slides on the AI creative ecosystem.  I'd shared thoughts on this across countless meetings, emails, Slacks, and 
+- (2026-09-11) @infoxiao: oh no my instinct @muse and @TownAI are having a turf war whenever a new email appears

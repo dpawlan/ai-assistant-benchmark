@@ -64,7 +64,7 @@
     "category": "phone_calls",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
+    "score": 10,
     "outcome": "pass",
     "notes": "Placed a real call to The Village at Italian Village and reported seating for eight, a semi-private room and no minimum spend.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-phone"
@@ -88,16 +88,6 @@
     "outcome": "partial",
     "notes": "Could not reach the inbox or Drive for the confirmation and passport, so it offered to check in from details supplied by hand.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-chained"
-  },
-  {
-    "id": "szn-2026-09-10-blooio-multi",
-    "category": "multiplayer_groups",
-    "protocol": "task",
-    "date": "2026-09-10",
-    "score": 7,
-    "outcome": "partial",
-    "notes": "Said to add it to a group or share four contacts, then it would collect availability and propose a time and place before booking.",
-    "evidence_url": "/agents/szn/evidence/szn-2026-09-10-blooio-multi"
   },
   {
     "id": "szn-2026-09-10-blooio-permissions",

@@ -46,3 +46,13 @@ _Updated 2026-09-10 weekday vault scan (+6 rows)._
 - (2026-09-03) Simon Taylor: In five days, Sheel Mohnot used Instinct to find an in-network podiatrist and fill in the forms, negotiate a Comcast bill from $100 to $60, 
 - (2026-09-09) jvwww: I use Instinct and I'm very happy with it so far. It has booked some restaurants for me, replied to some personal admin-related emails, and 
 - (2026-09-09) @losingmyego: Instinct has shown me that it can derive context and establish a sense of timing. I haven't seen another agent combine the two this successf
+
+_Updated 2026-09-11 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-09) jvwww: I use Instinct and I'm very happy with it so far. It has booked some restaurants for me, replied to some personal admin-related emails, and 
+- (2026-09-08) h14h: I got access to Instinct recently and quickly found some pretty compelling use-cases for it. Namely, preparing my contracting invoices & dra
+- (2026-09-10) Tremendous: Instinct monitors flight prices continuously. Sometimes I get notifications about lower fares that only last a few hours. That's how you sna
+- (2026-09-03) Sarah Perez: Despite the hype around Instinct, one of my first tests with it was to price out hotels then book one, and it quoted me all the wrong rates.
+- (2026-08-28) OG_BME: We love Instinct, but have been increasingly worried about the data footprint we are handing over to them, and what they might do with that 
+- (2026-09-11) @credofly: No AI can beat Indian banks.   Highly disappointed with the first usage of Instinct AI  Overhyped stuff.   #instinctai

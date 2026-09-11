@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-11",
   "agent_count": 62,
-  "feedback_count": 5133,
+  "feedback_count": 5135,
   "confirmed": 45,
   "stretch": 17,
   "agents": [
@@ -182,7 +182,7 @@
       "name": "Caddy",
       "status": "confirmed",
       "site": "https://caddy.app/",
-      "feedback_count": 107,
+      "feedback_count": 108,
       "public_signal": null,
       "tagline": "Your personal AI in Messages",
       "icon": "/logos/caddy.png",
@@ -203,7 +203,7 @@
       "name": "Catch",
       "status": "confirmed",
       "site": "https://catchagent.ai/",
-      "feedback_count": 121,
+      "feedback_count": 122,
       "public_signal": null,
       "tagline": "Your admin savior: scheduling, email and calls",
       "icon": "/logos/catch.png",

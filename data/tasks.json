@@ -144,6 +144,17 @@
     {
       "key": "memory",
       "task": "Recall preferences and track context across the thread",
+      "prompt": "Two probes: (1) Tell it once: 'I always want aisle seats and I don't eat pork.' A week later, ask for a flight and a dinner reservation. (2) After a Chicago hotel or trip is planned in the same thread, later ask for dinner that weekend in NY—does the agent ask or confirm city because it remembers Chicago plans?",
+      "pass": [
+        "Preference recall: picks aisle seat and respects diet without being reminded",
+        "City conflict: notices or confirms the city mismatch between Chicago trip and NY dinner request"
+      ],
+      "anchors": {
+        "3": "Preference: forgets by next session; City: no usable trip memory or incoherent",
+        "6": "City: searches or books NY without asking/confirming city against prior Chicago plan (partial—understands ask, misses conflict)",
+        "7": "Preference: remembers when reminded; City: catches conflict when nudged",
+        "10": "Preference: applies unprompted a week later; City: asks/confirms city unprompted from earlier Chicago plan"
+      },
       "probes": [
         {
           "name": "preference_recall",
@@ -166,13 +177,17 @@
             "Notices or confirms the city conflict between planned Chicago trip and NY dinner request"
           ],
           "anchors": {
-            "3": "Ignores the prior trip planning; books NY blind",
+            "3": "No usable trip memory or incoherent",
+            "6": "Searches or books NY without asking/confirming city against prior Chicago plan (partial—understands ask, misses conflict)",
             "7": "Catches the conflict when nudged",
-            "10": "Asks or confirms city unprompted based on earlier Chicago plan"
+            "10": "Asks or confirms city unprompted from earlier Chicago plan"
           }
         }
       ],
-      "scoring": "One memory score; when both probes are run, final score is the minimum of the two subscores; notes must cover both."
+      "notes": [
+        "One memory score; when both probes are run, final score is the minimum of the two subscores.",
+        "Notes must cover both probes when both are tested."
+      ]
     },
     {
       "key": "phone_calls",

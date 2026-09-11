@@ -58,5 +58,15 @@
     "outcome": "pass",
     "notes": "Birthday image with golden retriever; 90s movies trivia for group chat. Delivered PNG and 5-question trivia with answers. Minor factual slip (Sixth Sense child named \"Jardine\" instead of Cole Sear).",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-content"
+  },
+  {
+    "id": "boba-2026-09-10-blooio-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-10",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Reservation call for The Village at Italian Village; no phone tool, offered to research online instead.",
+    "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-phone"
   }
 ]

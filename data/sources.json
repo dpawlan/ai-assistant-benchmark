@@ -2012,6 +2012,35 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
+    },
+    "stiled": {
+      "name": "Stiled",
+      "handles": [
+        "stiled",
+        "imwillhanson"
+      ],
+      "domain": "stiled.app",
+      "x_queries": [
+        "\"stiled.app\"",
+        "\"stiled\" (assistant OR shopping OR ai OR imessage)"
+      ],
+      "reddit_queries": [
+        "\"stiled.app\"",
+        "\"stiled\" shopping"
+      ],
+      "hn_queries": [
+        "\"stiled.app\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "stiled.app",
+        "stiled",
+        "@stiled",
+        "imwillhanson"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-11 from a request-form submission. Handles are best guesses; verify before collecting."
     }
   },
   "_redact_terms": [

@@ -1202,7 +1202,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3215771c72b1",
@@ -1220,7 +1227,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "55b637f517c1",
@@ -1239,7 +1253,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 42,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "073f389bde66",
@@ -1257,7 +1278,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "af672c3a6a80",
@@ -1275,7 +1303,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 81,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "81b451f3da17",
@@ -1293,7 +1328,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 100,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "90359aa3d508",
@@ -1311,7 +1353,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9eaa56a97163",
@@ -1329,7 +1378,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "369ef9d99c74",
@@ -1346,7 +1402,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "replies": 2,
+      "views": 2450,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c23423e88108",
@@ -1363,7 +1426,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.694Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 367,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "429efac719e0",
@@ -1381,7 +1451,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 608,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "242f8e6dc811",
@@ -1398,7 +1475,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 78,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6b2771f61e3c",
@@ -1417,7 +1501,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 102,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "58ce96c7fc60",
@@ -1436,7 +1527,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 66,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e68629fd2647",
@@ -1453,7 +1551,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 3,
+      "views": 3041,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9f6e08bfb5c9",
@@ -1471,7 +1576,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 97,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "82b5a488a8fd",
@@ -1488,7 +1600,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 95,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fb8ca74d909f",
@@ -1506,7 +1625,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 31,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8d58bc47aaa9",
@@ -1523,7 +1649,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ff10066230f9",
@@ -1541,7 +1674,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 38,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e11c5730de4a",
@@ -1559,7 +1699,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 0,
+      "views": 85,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "72f99b7b0660",
@@ -1577,7 +1724,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 153,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d3f4ae864ed4",
@@ -1595,7 +1749,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 212,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2265b4dc0c0",
@@ -1613,7 +1774,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 189,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b339b5d88e6c",
@@ -1631,7 +1799,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 183,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "07832d7db513",
@@ -1649,7 +1824,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b6a0ca96793b",
@@ -1667,7 +1849,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1988,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cb95843ca20b",
@@ -1684,7 +1873,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 54,
+      "reposts": 4,
+      "replies": 7,
+      "views": 17055,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9eeb8c87d5fc",
@@ -1703,7 +1899,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "542e0d043f46",
@@ -1720,7 +1923,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 2,
+      "views": 243,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "57cae5d89b81",
@@ -1739,7 +1949,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 55,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "858737199329",
@@ -1758,7 +1975,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8e551a75ba22",
@@ -1776,7 +2000,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 76,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3d6927cd074e",
@@ -1794,7 +2025,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 25,
+      "reposts": 2,
+      "replies": 3,
+      "views": 1452,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ff7c786af1de",
@@ -1811,7 +2049,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 23,
+      "reposts": 2,
+      "replies": 4,
+      "views": 5293,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9c5240e7e005",
@@ -1829,7 +2074,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b2886dec6b8b",
@@ -1847,7 +2099,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 1,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b314e4a3d84e",
@@ -1864,7 +2123,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 1,
+      "replies": 0,
+      "views": 2904,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "531b0c51c521",
@@ -1882,7 +2148,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 1,
+      "views": 799,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9bb0de010a07",
@@ -1900,7 +2173,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 50,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9580184dd587",
@@ -1918,7 +2198,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 387,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d71a08a4cb86",
@@ -1936,7 +2223,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 0,
+      "views": 558,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b6e69e15709f",
@@ -1954,7 +2248,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 71,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0c2fe3149633",
@@ -1972,7 +2273,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 310,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a9cdb413746d",
@@ -1990,7 +2298,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 99,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3c1f90f32256",
@@ -2008,7 +2323,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 0,
+      "views": 353,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "be94c4397df2",
@@ -2026,7 +2348,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 220,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "be0dadbb8a9e",
@@ -2044,7 +2373,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 184,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "73c9b58b778b",
@@ -2061,7 +2397,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 17,
+      "reposts": 2,
+      "replies": 5,
+      "views": 683,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4443b360bbc2",
@@ -2078,7 +2421,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d7168f45d899",
@@ -2095,6 +2445,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:40:17.695Z",
-    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @getskydive since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 2,
+      "replies": 0,
+      "views": 289,
+      "fetched": "2026-09-11"
+    }
   }
 ]

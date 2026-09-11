@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"migoo.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"migoo.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 108,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "aa7ea19cfaa6",
@@ -33,7 +40,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "417e81d76e93",
@@ -51,7 +65,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "143074e0e459",
@@ -68,7 +89,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a855701c455f",
@@ -86,7 +114,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 4,
+      "views": 219,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "aefabf48840f",
@@ -103,7 +138,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 64,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c997ab59b6f4",
@@ -121,7 +163,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f96f950b0bf3",
@@ -138,7 +187,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 58,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "acb294b6648c",
@@ -155,7 +211,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 34,
+      "reposts": 4,
+      "replies": 2,
+      "views": 590,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "33e0ceb7cb43",
@@ -173,7 +236,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 86,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5e864a5c8a14",
@@ -191,7 +261,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 252,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "64f145d0afff",
@@ -209,7 +286,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 97,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ab024089f05",
@@ -226,7 +310,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 158,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fb298251ccca",
@@ -243,7 +334,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 1,
+      "replies": 4,
+      "views": 292,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "edda4da9950a",
@@ -261,7 +359,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 390,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c8eaec034958",
@@ -280,7 +385,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 140,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "551af17a91f8",
@@ -297,7 +409,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 4,
+      "views": 1315,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a1a1ec5edcb3",
@@ -315,7 +434,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 289,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b2a958374f14",
@@ -325,13 +451,20 @@
     "author_name": "oxbfnohome",
     "date": "2026-08-04",
     "url": "https://x.com/OxbfnoHome/status/2084579982588928006",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:45:39.420Z",
-    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Migoo\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 20,
+      "reposts": 1,
+      "replies": 5,
+      "views": 3583,
+      "fetched": "2026-09-11"
+    }
   }
 ]

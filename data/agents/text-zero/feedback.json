@@ -832,7 +832,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:32.358Z",
-    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "67c8e8aa3060",
@@ -851,7 +858,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:32.358Z",
-    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c8d98cfcdbb3",
@@ -869,7 +883,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:32.358Z",
-    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 23,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6deacd383256",
@@ -888,7 +909,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:32.358Z",
-    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 71,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7dac78d53c50",
@@ -906,6 +934,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:58:32.358Z",
-    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @meetzeroai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 318,
+      "fetched": "2026-09-11"
+    }
   }
 ]

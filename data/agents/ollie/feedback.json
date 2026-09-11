@@ -3195,7 +3195,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:48:21.194Z",
-    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1f48801ae616",
@@ -3214,7 +3221,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:48:21.194Z",
-    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 92,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b1c00f2cac53",
@@ -3231,6 +3245,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:48:21.194Z",
-    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @heyollieai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 161,
+      "fetched": "2026-09-11"
+    }
   }
 ]

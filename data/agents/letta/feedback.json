@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ed031116c430",
@@ -32,7 +39,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 270,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7c26dd0f444b",
@@ -49,7 +63,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 86,
+      "reposts": 24,
+      "replies": 20,
+      "views": 5941,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4acb9fc84fb3",
@@ -66,7 +87,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 2,
+      "replies": 1,
+      "views": 739,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2684158c19c6",
@@ -83,7 +111,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 67,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "215fcc5f67cd",
@@ -101,6 +136,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:21:21.403Z",
-    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Letta Agent\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 51,
+      "reposts": 3,
+      "replies": 14,
+      "views": 6397,
+      "fetched": "2026-09-11"
+    }
   }
 ]

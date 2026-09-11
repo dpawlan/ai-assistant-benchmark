@@ -375,7 +375,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:11:18.347Z",
-    "notes": "query: \"zapia.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"zapia.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 120,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a78c1698ca3b",
@@ -392,7 +399,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:11:18.347Z",
-    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7cbf5134c02d",
@@ -409,6 +423,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:11:18.347Z",
-    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Zapia\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 338,
+      "fetched": "2026-09-11"
+    }
   }
 ]

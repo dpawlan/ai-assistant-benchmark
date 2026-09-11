@@ -14,7 +14,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:03:04.467Z",
-    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8f92f96ed28d",
@@ -31,7 +38,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:03:04.469Z",
-    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 133,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9a838a3acdee",
@@ -49,6 +63,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:03:04.470Z",
-    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"The Shadow\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 29,
+      "fetched": "2026-09-11"
+    }
   }
 ]

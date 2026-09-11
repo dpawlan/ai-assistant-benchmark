@@ -17,7 +17,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T13:45:07Z",
-    "notes": "Independent week-one Instinct praise; Italy trip proactive trains."
+    "notes": "Independent week-one Instinct praise; Italy trip proactive trains.",
+    "metrics": {
+      "likes": 39,
+      "reposts": 0,
+      "replies": 9,
+      "views": 5947,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b58f5d7e9d76",
@@ -3822,6 +3829,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T18:45:48.507Z",
-    "notes": "query: (\"instinct.co\" OR @noahrshinn) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"instinct.co\" OR @noahrshinn) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 327,
+      "fetched": "2026-09-11"
+    }
   }
 ]

@@ -4063,7 +4063,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "55a66e8a9d20",
@@ -4080,7 +4087,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 159,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "645d4889bd33",
@@ -4098,7 +4112,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "54609a7fa4bb",
@@ -4116,7 +4137,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9cf3b412d3c6",
@@ -4133,7 +4161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 16,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1233,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6897646646b3",
@@ -4150,7 +4185,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "95dead16e551",
@@ -4168,7 +4210,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7d7a22f6554c",
@@ -4186,7 +4235,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 1,
+      "views": 307,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "15fb4b22cb98",
@@ -4204,7 +4260,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 1,
+      "replies": 2,
+      "views": 2777,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "928b6123de46",
@@ -4221,7 +4284,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 5,
+      "replies": 1,
+      "views": 12572,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d13f64d7c437",
@@ -4239,7 +4309,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 86,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa55db71779c",
@@ -4257,7 +4334,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3fd2c5c4871b",
@@ -4275,7 +4359,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 62,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1d5e4a29cbf8",
@@ -4293,7 +4384,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 89,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6c8880affba9",
@@ -4311,7 +4409,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 238,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7ff8e9b35f40",
@@ -4329,7 +4434,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 840,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa2045a7cd33",
@@ -4347,7 +4459,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 31,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c40dc52bb131",
@@ -4365,7 +4484,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.058Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 92,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "351c16f0d56d",
@@ -4383,7 +4509,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 2,
+      "views": 241,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a96f8fa802aa",
@@ -4402,7 +4535,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b186836c41e5",
@@ -4421,7 +4561,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 507,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "97a356627bab",
@@ -4439,7 +4586,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 215,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e85bcae11647",
@@ -4457,7 +4611,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f1079e3141e5",
@@ -4475,7 +4636,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 17,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1532,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6ef93e0067f0",
@@ -4494,7 +4662,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "36d8640afbc9",
@@ -4511,7 +4686,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 1,
+      "views": 413,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fe6f742bef54",
@@ -4529,7 +4711,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 296,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "932156982240",
@@ -4547,7 +4736,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 4,
+      "views": 288,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "75d28e864b7c",
@@ -4564,7 +4760,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 4,
+      "replies": 0,
+      "views": 3885,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b05d58d41498",
@@ -4582,7 +4785,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 64,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "efb837e55f34",
@@ -4599,7 +4809,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 239,
+      "reposts": 5,
+      "replies": 59,
+      "views": 20549,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa04275cb34f",
@@ -4617,7 +4834,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 191,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "279384617ada",
@@ -4634,7 +4858,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 29,
+      "reposts": 1,
+      "replies": 7,
+      "views": 4916,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3b8df361b41e",
@@ -4652,7 +4883,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 102,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9c87801d32e5",
@@ -4670,7 +4908,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0f61ba288c02",
@@ -4688,7 +4933,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 46,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "df52900d7ef7",
@@ -4706,7 +4958,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 45,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "161e1235ab0a",
@@ -4724,7 +4983,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 121,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5a90bce22b2c",
@@ -4743,7 +5009,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f08e3c159cdd",
@@ -4761,7 +5034,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2347,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b81e3ea3c277",
@@ -4779,7 +5059,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 89,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9cdc75d6fac3",
@@ -4798,7 +5085,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 124,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "524da1be28bd",
@@ -4816,7 +5110,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 340,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0b63411a893b",
@@ -4834,7 +5135,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1c2f7bffbe92",
@@ -4853,7 +5161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "14e408c682af",
@@ -4871,7 +5186,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 195,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b5f24d95759d",
@@ -4889,7 +5211,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "81483ca7d104",
@@ -4908,7 +5237,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d752e64a5b3c",
@@ -4926,7 +5262,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 141,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "37b7d76c1df6",
@@ -4945,7 +5288,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.059Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 188,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e7488ef62223",
@@ -4963,7 +5313,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c5a8e2366103",
@@ -4980,7 +5337,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 2,
+      "views": 612,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c4731c87f06f",
@@ -4999,7 +5363,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 101,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "308323591ad8",
@@ -5016,7 +5387,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 1,
+      "replies": 2,
+      "views": 1026,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5f1ab72a1ca9",
@@ -5034,7 +5412,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 103,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "593f80043b7a",
@@ -5052,7 +5437,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 198,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f67c34667b6a",
@@ -5070,7 +5462,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "65eff104fcde",
@@ -5088,7 +5487,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "de571e40cf32",
@@ -5106,7 +5512,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 62,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c8f6e4496d0b",
@@ -5124,7 +5537,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa991c0fed03",
@@ -5142,7 +5562,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 123,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bf4b2caf44e2",
@@ -5160,7 +5587,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d4a61a445efd",
@@ -5178,7 +5612,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 14,
+      "reposts": 2,
+      "replies": 2,
+      "views": 762,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ca77df9b6696",
@@ -5195,7 +5636,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 49,
+      "reposts": 0,
+      "replies": 11,
+      "views": 4702,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5b0b02bb6d45",
@@ -5213,7 +5661,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "abd492be015e",
@@ -5231,7 +5686,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9b55d05d1c0b",
@@ -5250,7 +5712,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c41a43942b15",
@@ -5268,7 +5737,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a6a53d2ca30",
@@ -5286,7 +5762,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 82,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9ac5c9caa99c",
@@ -5304,7 +5787,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 61,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "777a4fc7a107",
@@ -5322,7 +5812,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ca7e8afba29b",
@@ -5340,7 +5837,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 48,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc3c49402630",
@@ -5358,7 +5862,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 36,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9da63a0342e6",
@@ -5376,7 +5887,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6e73847ef901",
@@ -5394,7 +5912,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "aa6072c0d264",
@@ -5412,7 +5937,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ae9d2a397eab",
@@ -5430,7 +5962,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "697853a653af",
@@ -5448,7 +5987,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 59,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3efa7339e122",
@@ -5466,7 +6012,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 58,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "df952bd97f0c",
@@ -5484,7 +6037,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a266e2efc64a",
@@ -5502,7 +6062,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 59,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0d126ff9be3f",
@@ -5520,7 +6087,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 1,
+      "views": 212,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "130827735913",
@@ -5537,7 +6111,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 2,
+      "replies": 1,
+      "views": 872,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "24749d0f5832",
@@ -5555,7 +6136,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "094a34712b8b",
@@ -5573,7 +6161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "40873752f5b4",
@@ -5591,7 +6186,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 104,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c44a2db0bc23",
@@ -5609,7 +6211,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 25,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "654b639eaf28",
@@ -5627,7 +6236,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 48,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1d519d7437a1",
@@ -5645,7 +6261,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7409d0c291fe",
@@ -5663,7 +6286,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "85eb226538a1",
@@ -5681,7 +6311,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 167,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "939f625c95b3",
@@ -5699,7 +6336,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "855a6afa2521",
@@ -5717,7 +6361,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 80,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dddcb0ce5a87",
@@ -5736,7 +6387,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "740cd134871c",
@@ -5754,7 +6412,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 168,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a68673a37c80",
@@ -5772,7 +6437,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 223,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "32f5727d3ee3",
@@ -5790,7 +6462,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 70,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b6bbed6b99f7",
@@ -5808,7 +6487,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 71,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "30ca2a01e862",
@@ -5826,7 +6512,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 15,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "91926eb72ddb",
@@ -5844,7 +6537,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 0,
+      "views": 198,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "43113dc14ec0",
@@ -5862,7 +6562,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 50,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "50adca3b438a",
@@ -5880,7 +6587,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "35eb0e2d1317",
@@ -5898,7 +6612,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 120,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f570eea82ee6",
@@ -5917,7 +6638,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f2636de9c621",
@@ -5934,7 +6662,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 260,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "649dcc481f97",
@@ -5952,7 +6687,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "32d9e761d610",
@@ -5971,7 +6713,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0fbd984ac04c",
@@ -5989,7 +6738,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ddb3d89fa00f",
@@ -6006,7 +6762,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 1,
+      "replies": 3,
+      "views": 457,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1df99d192f90",
@@ -6024,7 +6787,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 36,
+      "reposts": 1,
+      "replies": 4,
+      "views": 2657,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a5bed67f805",
@@ -6041,7 +6811,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 3,
+      "views": 690,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b03779bf3258",
@@ -6060,7 +6837,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a15834b44746",
@@ -6078,7 +6862,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 217,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "43f8e23e50c9",
@@ -6096,7 +6887,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bd326dccd11f",
@@ -6114,7 +6912,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 248,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f9b9a2453680",
@@ -6133,7 +6938,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "53c94e2a5627",
@@ -6151,7 +6963,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 43,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c74458910869",
@@ -6169,7 +6988,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 291,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "295b9ff614f0",
@@ -6187,7 +7013,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 203,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3253d0d8f42e",
@@ -6205,7 +7038,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 195,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "24001b17d094",
@@ -6223,7 +7063,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 172,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "506bd3d1a29c",
@@ -6240,7 +7087,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 2,
+      "replies": 2,
+      "views": 766,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f5396be8c254",
@@ -6258,7 +7112,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 236,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "62cd4a7f289e",
@@ -6276,7 +7137,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 67,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ab5ba6badbc9",
@@ -6294,7 +7162,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 108,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b555a7689a1a",
@@ -6312,7 +7187,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 81,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5b36dc607935",
@@ -6331,7 +7213,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 25,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a3acade45d5b",
@@ -6349,7 +7238,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 189,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1520accd193b",
@@ -6367,7 +7263,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 112,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d4fb1ca68f91",
@@ -6385,7 +7288,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 251,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e54f6eebf8fd",
@@ -6403,7 +7313,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "89cefcb295f8",
@@ -6420,7 +7337,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 2,
+      "views": 357,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7db602ae1094",
@@ -6438,7 +7362,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 99,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "64f3bc52dfab",
@@ -6456,7 +7387,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.060Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 119,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a4234f7e7d1",
@@ -6474,7 +7412,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 455,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e8f54a13baf5",
@@ -6492,7 +7437,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 112,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e4bfa58f85ca",
@@ -6510,7 +7462,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 264,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1de54fef83e5",
@@ -6528,7 +7487,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 84,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "98046680ff40",
@@ -6546,7 +7512,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 163,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b0fd8bc3ed4c",
@@ -6564,7 +7537,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 124,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ae64ec5f9ef",
@@ -6582,7 +7562,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f26ab03b93ea",
@@ -6600,7 +7587,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 1,
+      "views": 422,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b861ead75a88",
@@ -6618,7 +7612,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 195,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b4d464015639",
@@ -6636,7 +7637,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7bb052da2f55",
@@ -6654,7 +7662,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 407,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a129da25e27",
@@ -6672,7 +7687,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 168,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "02cecc2476e3",
@@ -6690,7 +7712,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 94,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d37f8064982e",
@@ -6708,7 +7737,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 158,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3ff60cd07b90",
@@ -6726,7 +7762,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 224,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5be9f005c17a",
@@ -6744,7 +7787,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 284,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "25241007379b",
@@ -6762,7 +7812,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 360,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f5bb6e6df7ef",
@@ -6780,7 +7837,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 2,
+      "views": 391,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fe9307d2af9d",
@@ -6798,7 +7862,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 107,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a91c0f6a6db",
@@ -6816,7 +7887,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 1,
+      "views": 581,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6525651170ce",
@@ -6834,7 +7912,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 1,
+      "views": 607,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "48744e9970db",
@@ -6852,7 +7937,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 149,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "85f84e2fd0f8",
@@ -6870,7 +7962,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 161,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f3f3d3751085",
@@ -6888,7 +7987,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 219,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4217fd2385c7",
@@ -6906,7 +8012,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 132,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "929a19acc864",
@@ -6924,7 +8037,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 209,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f036f57e04fb",
@@ -6942,7 +8062,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 196,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6eeb016e9b0a",
@@ -6960,7 +8087,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 112,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e92c2ca395f2",
@@ -6978,7 +8112,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 2,
+      "views": 380,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "42921e5ea23b",
@@ -6996,7 +8137,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 279,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d854fe67d286",
@@ -7014,7 +8162,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 204,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f2789eefa07e",
@@ -7032,7 +8187,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 182,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1ea57309ff73",
@@ -7050,7 +8212,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 157,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc96569235a7",
@@ -7068,7 +8237,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 323,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "958461d46c15",
@@ -7086,7 +8262,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 261,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "50a9cea0c10d",
@@ -7105,7 +8288,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 16,
+      "reposts": 0,
+      "replies": 2,
+      "views": 781,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c699106af345",
@@ -7124,7 +8314,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 216,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7bc99799b364",
@@ -7142,7 +8339,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 473,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6723ae853d77",
@@ -7161,7 +8365,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 16,
+      "reposts": 0,
+      "replies": 2,
+      "views": 773,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "66354dd7eba6",
@@ -7179,7 +8390,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 241,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1805d28625ff",
@@ -7197,7 +8415,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "09f1e9133edd",
@@ -7215,7 +8440,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bc865ed96f86",
@@ -7233,7 +8465,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "93c8c656f76f",
@@ -7252,7 +8491,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 50,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "02c440c0e123",
@@ -7271,7 +8517,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 41,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ab2a56b5acf6",
@@ -7288,7 +8541,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 2,
+      "replies": 0,
+      "views": 1769,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a5996b324172",
@@ -7306,7 +8566,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 120,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4a7b032d3169",
@@ -7324,7 +8591,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 102,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f873e1f3e460",
@@ -7342,7 +8616,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 104,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5726e0294043",
@@ -7360,7 +8641,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 2,
+      "views": 444,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8f6e01ee007a",
@@ -7378,7 +8666,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 3,
+      "views": 229,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f04ccffed2e4",
@@ -7397,7 +8692,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cf6e28de3fb6",
@@ -7415,7 +8717,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 323,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "14299c9f07a5",
@@ -7433,7 +8742,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 489,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "62895c6d8d6a",
@@ -7452,7 +8768,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 96,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ced86679587d",
@@ -7470,7 +8793,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 20,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1088,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "672476a20320",
@@ -7489,7 +8819,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 16,
+      "reposts": 0,
+      "replies": 0,
+      "views": 591,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "910ff72a9b5e",
@@ -7506,7 +8843,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 284,
+      "reposts": 11,
+      "replies": 27,
+      "views": 18634,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cfbef0954353",
@@ -7525,7 +8869,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "93b838b2020c",
@@ -7543,7 +8894,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 140,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e67fde432be6",
@@ -7561,7 +8919,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 131,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f53a3bdcecb2",
@@ -7579,7 +8944,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 130,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "26b04c9600bd",
@@ -7597,7 +8969,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 107,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c863adf55843",
@@ -7615,7 +8994,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 68,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "95e24c734a3b",
@@ -7634,7 +9020,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 182,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f98e31161e48",
@@ -7652,7 +9045,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 198,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3bdfab49ff46",
@@ -7671,7 +9071,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 233,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "486dba3805e6",
@@ -7690,7 +9097,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "af203aa2a904",
@@ -7708,7 +9122,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 165,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a1c30ee1fd38",
@@ -7726,7 +9147,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 209,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7fa9bf8c1fdd",
@@ -7745,7 +9173,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 127,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7bd4329efbb3",
@@ -7763,7 +9198,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 24,
+      "reposts": 0,
+      "replies": 3,
+      "views": 4620,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "44ebf2b55a21",
@@ -7781,7 +9223,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 21,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2829,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a8fd71af32da",
@@ -7799,7 +9248,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 91,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f7125bacd15f",
@@ -7818,7 +9274,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 183,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3f060739d7fb",
@@ -7831,11 +9294,19 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "replies": 1,
+      "views": 747,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a1e3a056e743",
@@ -7853,7 +9324,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 780,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a538564ea6f5",
@@ -7870,7 +9348,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 2,
+      "replies": 2,
+      "views": 794,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9d12b2b5efb9",
@@ -7887,7 +9372,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 1,
+      "views": 27345,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9ac8dcfe3215",
@@ -7904,7 +9396,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 119,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4716718a3d34",
@@ -7922,7 +9421,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 870,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e0581897f287",
@@ -7940,7 +9446,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 1,
+      "views": 366,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d06d49911d4b",
@@ -7957,7 +9470,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 177,
+      "reposts": 6,
+      "replies": 21,
+      "views": 615297,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "528dca5874cc",
@@ -7975,7 +9495,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a345d913220",
@@ -7992,7 +9519,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 2,
+      "replies": 1,
+      "views": 800,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ee506db4058b",
@@ -8009,7 +9543,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1662,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3ec0b268df52",
@@ -8026,7 +9567,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 1,
+      "views": 128,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fedca6596bc1",
@@ -8044,7 +9592,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 125,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bc71a5e7eb5c",
@@ -8061,7 +9616,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 2,
+      "replies": 1,
+      "views": 647,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c42393135bb5",
@@ -8079,7 +9641,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 84,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "52992a1642c7",
@@ -8098,7 +9667,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 2,
+      "replies": 1,
+      "views": 1532,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7fd88c3ddb70",
@@ -8116,7 +9692,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 133,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4348212dfda8",
@@ -8135,7 +9718,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f36e27940a62",
@@ -8153,7 +9743,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 29,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f221c0db8d8b",
@@ -8172,7 +9769,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 201,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f6d1fd5ff27c",
@@ -8190,7 +9794,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 107,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "32ea4a5f91dc",
@@ -8208,7 +9819,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 203,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a09d9094144",
@@ -8226,7 +9844,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 110,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2f5630872ff2",
@@ -8245,7 +9870,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "413b507c8dd9",
@@ -8263,7 +9895,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 126,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a1ea4da241b6",
@@ -8280,7 +9919,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 23,
+      "reposts": 4,
+      "replies": 4,
+      "views": 9506,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6dcc27f4b361",
@@ -8298,7 +9944,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 173,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a1ab80aebb02",
@@ -8316,7 +9969,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "eb067ff4fed2",
@@ -8335,7 +9995,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 164,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5c2cd71500d7",
@@ -8353,7 +10020,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 307,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "33a68aef4692",
@@ -8371,7 +10045,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 36,
+      "reposts": 0,
+      "replies": 3,
+      "views": 6181,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0b4d2ada9f85",
@@ -8390,7 +10071,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 93,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "85cc73aeddba",
@@ -8407,7 +10095,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 249,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4dacae1fecbd",
@@ -8426,7 +10121,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 78,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bfe89f3bd13e",
@@ -8443,7 +10145,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 179,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d5740c43f2f4",
@@ -8461,7 +10170,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 142,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "804a5dbe8493",
@@ -8479,7 +10195,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 151,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b2b10a993579",
@@ -8496,7 +10219,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.061Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 3,
+      "views": 399,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c97b40a1a999",
@@ -8515,7 +10245,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "87353fe290f3",
@@ -8533,7 +10270,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 45,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e5adba5b936b",
@@ -8551,7 +10295,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 83,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc8b868fca1c",
@@ -8569,7 +10320,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "17872f284825",
@@ -8588,7 +10346,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 68,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9555aad767bc",
@@ -8607,7 +10372,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9547de1ddb1f",
@@ -8625,7 +10397,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 215,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9b7519543845",
@@ -8642,7 +10421,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 302,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ea0c15a7c87a",
@@ -8660,7 +10446,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 228,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0a16aea06cce",
@@ -8679,7 +10472,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 286,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "44bbd394f34a",
@@ -8697,7 +10497,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 197,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7db78ed81130",
@@ -8715,7 +10522,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 245,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "343334456ec1",
@@ -8732,7 +10546,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 19,
+      "reposts": 0,
+      "replies": 9,
+      "views": 3165,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bb3f1e1a1da9",
@@ -8751,7 +10572,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 277,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8e8e65abeff2",
@@ -8769,7 +10597,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 0,
+      "views": 283,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2a894b91ef49",
@@ -8787,7 +10622,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 161,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4b3591ddc504",
@@ -8805,7 +10647,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 3,
+      "views": 313,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6eeaa6887b63",
@@ -8822,7 +10671,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 3,
+      "views": 2645,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4cb24f41e103",
@@ -8840,7 +10696,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @orchid_hq since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 1,
+      "views": 333,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3be82d299839",
@@ -8859,6 +10722,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:04.062Z",
-    "notes": "query: (\"orchid.ai\" OR @orchid_hq OR @x6c75) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"orchid.ai\" OR @orchid_hq OR @x6c75) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   }
 ]

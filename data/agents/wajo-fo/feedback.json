@@ -1485,7 +1485,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "792116b63bc2",
@@ -1495,14 +1502,21 @@
     "author_name": "Sam Warren",
     "date": "2026-09-09",
     "url": "https://x.com/samwarren/status/2097763536407802007",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1142,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9d1c4e0bc5a0",
@@ -1519,7 +1533,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 558,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7c59a22cf3e0",
@@ -1538,7 +1559,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5219def32991",
@@ -1557,7 +1585,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 332,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4fdf291d712d",
@@ -1575,7 +1610,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "02e3b51268d0",
@@ -1594,7 +1636,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "71b31bfd54a8",
@@ -1611,7 +1660,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 40,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "510735758cc1",
@@ -1629,6 +1685,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:17:52.846Z",
-    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @wajo_ai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 554,
+      "fetched": "2026-09-11"
+    }
   }
 ]

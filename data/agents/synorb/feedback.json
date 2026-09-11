@@ -459,7 +459,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 40,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "261c9a5cde41",
@@ -478,7 +485,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 25,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "53d4859efa63",
@@ -497,7 +511,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 81,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b188cf2c3b73",
@@ -515,7 +536,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f43c2db003a6",
@@ -533,7 +561,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"synorb.com\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ffedf399b49d",
@@ -551,7 +586,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 82,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "272bc15eebc1",
@@ -570,6 +612,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:57:30.779Z",
-    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @synorb since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 138,
+      "fetched": "2026-09-11"
+    }
   }
 ]

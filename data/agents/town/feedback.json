@@ -1865,7 +1865,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 16,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "880d9b429ed4",
@@ -1883,7 +1890,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e61df1839cef",
@@ -1901,7 +1915,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ffedf399b49d",
@@ -1918,7 +1939,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 82,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "67ea99907e6f",
@@ -1935,7 +1963,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3fe4dd96dc6a",
@@ -1953,7 +1988,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 158,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4059e56d9dc5",
@@ -1971,7 +2013,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 17,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2ea29e156bfa",
@@ -1988,7 +2037,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 220,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ba378c294de1",
@@ -2006,7 +2062,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8ce5c55a016f",
@@ -2024,7 +2087,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 72,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0244dfd18228",
@@ -2042,7 +2112,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 58,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ea0eff67c62",
@@ -2059,7 +2136,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 96,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa6d2c656638",
@@ -2077,7 +2161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "39b5e83e3456",
@@ -2094,7 +2185,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 113,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "729f14fc30c9",
@@ -2112,7 +2210,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4f578bfe29bd",
@@ -2130,7 +2235,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fc28a4b9ed5d",
@@ -2148,7 +2260,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 41,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ded203d9487",
@@ -2166,7 +2285,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e55b6284d8ed",
@@ -2184,7 +2310,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 88,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ea89468878f5",
@@ -2202,7 +2335,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 41,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ccf876739120",
@@ -2219,7 +2359,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 160,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "355e43bd90bf",
@@ -2237,7 +2384,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 215,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "044951f18ca2",
@@ -2254,7 +2408,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 106,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b56bff4e0ccb",
@@ -2271,7 +2432,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 19,
+      "reposts": 0,
+      "replies": 1,
+      "views": 4925,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "54c64a9d853b",
@@ -2289,7 +2457,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 0,
+      "views": 3273,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "98e6ff8d84f4",
@@ -2307,7 +2482,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 61,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7fa985a69a7b",
@@ -2324,7 +2506,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 134,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0bc6553b390e",
@@ -2342,7 +2531,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 147,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5555980baa7f",
@@ -2359,7 +2555,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.957Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 1,
+      "views": 617,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "18f1979ca860",
@@ -2377,7 +2580,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 165,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bc0fe70bc55d",
@@ -2395,7 +2605,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 614,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fd82d33a961c",
@@ -2413,7 +2630,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 79,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "59e22a9f6fbe",
@@ -2431,7 +2655,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "458fd6220428",
@@ -2449,7 +2680,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0eb9e8999535",
@@ -2467,7 +2705,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 59,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6d750cfbd8e9",
@@ -2485,7 +2730,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ef0882180686",
@@ -2503,7 +2755,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c21139e31267",
@@ -2521,7 +2780,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a3baea0beb11",
@@ -2539,7 +2805,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 123,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2c8d990b80c7",
@@ -2557,7 +2830,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 63,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9eb04362085a",
@@ -2575,7 +2855,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 105,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3b5a927dc856",
@@ -2593,7 +2880,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 103,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3f116a7e1438",
@@ -2611,7 +2905,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 114,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "23ca76d0a573",
@@ -2629,7 +2930,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 105,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "88cebe3c6274",
@@ -2647,7 +2955,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 121,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "808e301174b9",
@@ -2665,7 +2980,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b16da338ec9a",
@@ -2683,7 +3005,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 225,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "44f1d253e085",
@@ -2701,7 +3030,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ee32a9fa1e7d",
@@ -2719,7 +3055,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 265,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "13a7f63232a3",
@@ -2737,7 +3080,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 251,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2cde7baf7df6",
@@ -2755,7 +3105,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 68,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "42d2d7367885",
@@ -2773,7 +3130,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc91a15c9492",
@@ -2791,7 +3155,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 70,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e09f7362f653",
@@ -2809,7 +3180,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4688a3b20e26",
@@ -2827,7 +3205,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 63,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "eaaa034727e4",
@@ -2845,7 +3230,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9a45333c4545",
@@ -2863,7 +3255,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 251,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa5b3205b154",
@@ -2881,7 +3280,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "240054c43d36",
@@ -2899,7 +3305,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 92,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "660e10c51f25",
@@ -2918,7 +3331,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "be8aadc26530",
@@ -2935,7 +3355,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 495,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cdd64768d05c",
@@ -2953,7 +3380,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "95d52b1867b4",
@@ -2971,7 +3405,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 64,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6c88ae7899b2",
@@ -2989,7 +3430,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 84,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d452ab7632ad",
@@ -3007,7 +3455,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5408576f5876",
@@ -3025,7 +3480,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 362,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2b684eddeeaa",
@@ -3043,7 +3505,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 301,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f219d2734233",
@@ -3061,7 +3530,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 47,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "761cc41ff0ad",
@@ -3078,7 +3554,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 24,
+      "reposts": 0,
+      "replies": 2,
+      "views": 3919,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6c7ce12cdf63",
@@ -3096,7 +3579,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 522,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9df93ecee86c",
@@ -3114,7 +3604,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 78,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2b0e4f1e0aa5",
@@ -3132,7 +3629,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "697d293218f9",
@@ -3150,7 +3654,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9ac7f15b8276",
@@ -3168,7 +3679,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "13dca90751e0",
@@ -3186,7 +3704,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 56,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5aba1e3639cd",
@@ -3204,7 +3729,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 228,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4b14aff147ab",
@@ -3222,7 +3754,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 382,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3e6c04b36a28",
@@ -3240,7 +3779,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 456,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "901c1585a17f",
@@ -3258,7 +3804,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 643,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "59aa6a4f3154",
@@ -3271,11 +3824,19 @@
     "kind": "other",
     "tags": [
       "auto",
-      "x"
+      "x",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 59,
+      "reposts": 0,
+      "replies": 8,
+      "views": 5375,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "09d370fafdbd",
@@ -3293,7 +3854,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 128,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "271f92a495fe",
@@ -3311,7 +3879,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 207,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9d4f4ae88402",
@@ -3329,7 +3904,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "43995a23d960",
@@ -3346,7 +3928,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 606,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "582b18566728",
@@ -3364,7 +3953,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5c38c8b71f9e",
@@ -3381,7 +3977,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1499,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3d4fc25d8a7d",
@@ -3398,7 +4001,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 0,
+      "views": 143,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4892b7de0689",
@@ -3416,7 +4026,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 857,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8cfe47877963",
@@ -3434,7 +4051,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1086,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7a6185f81448",
@@ -3452,7 +4076,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1968,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "060490720a60",
@@ -3470,7 +4101,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 91,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e5eb9ee7b689",
@@ -3488,7 +4126,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1982,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b66484f11a0a",
@@ -3506,7 +4151,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 95,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0b83fc33009d",
@@ -3524,7 +4176,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 2868,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "46ececa7fdae",
@@ -3542,7 +4201,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 4,
+      "views": 3765,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "09226ac16fb5",
@@ -3559,7 +4225,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 1,
+      "replies": 0,
+      "views": 1490,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "219eb0f003ca",
@@ -3578,7 +4251,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 146,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ab0a955568ce",
@@ -3595,7 +4275,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 113,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "299ea6a78356",
@@ -3613,7 +4300,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1264,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "63f9893090ef",
@@ -3631,7 +4325,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1569,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ddf8d8c80e7d",
@@ -3641,14 +4342,21 @@
     "author_name": "angela strange",
     "date": "2026-08-24",
     "url": "https://x.com/astrange/status/2092024926521982990",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 64,
+      "reposts": 2,
+      "replies": 4,
+      "views": 17494,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "eb26244d2b13",
@@ -3666,7 +4374,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 48,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0f7b46a5794a",
@@ -3684,7 +4399,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 328,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "766f90c76606",
@@ -3701,7 +4423,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 29,
+      "reposts": 1,
+      "replies": 4,
+      "views": 8562,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ebe169f9e5de",
@@ -3719,7 +4448,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 733,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5fe8fdb185a6",
@@ -3737,7 +4473,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 328,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3890f431c94a",
@@ -3756,7 +4499,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1052,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6464ddc245f7",
@@ -3774,7 +4524,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 531,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7c081d336083",
@@ -3792,7 +4549,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2474,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "21f5b91ea68c",
@@ -3810,7 +4574,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 2519,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "376861235dcc",
@@ -3827,7 +4598,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1668,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c1225765ba20",
@@ -3845,7 +4623,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 2,
+      "views": 1912,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b300543765a1",
@@ -3863,7 +4648,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 774,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9f84b3299a5e",
@@ -3881,7 +4673,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 8930,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7420321afdae",
@@ -3898,7 +4697,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 219,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6966ed9fd976",
@@ -3908,14 +4714,21 @@
     "author_name": "Rachael Horwitz",
     "date": "2026-08-24",
     "url": "https://x.com/RachaelRad/status/2091880242617217228",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 125,
+      "reposts": 6,
+      "replies": 15,
+      "views": 59684,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "98dbfe9e6a15",
@@ -3933,7 +4746,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.958Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 0,
+      "views": 70,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4079ac963741",
@@ -3943,14 +4763,21 @@
     "author_name": "behrooz evans",
     "date": "2026-08-23",
     "url": "https://x.com/BehEvans/status/2091386617705501092",
-    "kind": "other",
+    "kind": "complaint",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1167,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "25db9b039316",
@@ -3967,7 +4794,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2413,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1d97378b97f4",
@@ -3985,7 +4819,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 46,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "41a449dc4c6c",
@@ -4003,7 +4844,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 69,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7199b3090a77",
@@ -4021,7 +4869,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 3,
+      "views": 348,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6a11475a24ce",
@@ -4039,7 +4894,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 427,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "875d1266b0d4",
@@ -4057,7 +4919,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 511,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "40f92dc4b76f",
@@ -4075,7 +4944,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 629,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "22181cf2be3f",
@@ -4093,7 +4969,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 3,
+      "views": 699,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7d95d7a5f521",
@@ -4110,7 +4993,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 470,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1895095ed3e7",
@@ -4128,7 +5018,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 276,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "23689635fc61",
@@ -4146,7 +5043,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1472,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c461b9ec96a2",
@@ -4163,7 +5067,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 54,
+      "reposts": 0,
+      "replies": 11,
+      "views": 26998,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "14fc709ce865",
@@ -4181,7 +5092,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 2,
+      "views": 528,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b626c66bf672",
@@ -4198,7 +5116,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 7,
+      "views": 4384,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f77d2516668e",
@@ -4216,7 +5141,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 154,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "24b4e56e3471",
@@ -4226,14 +5158,21 @@
     "author_name": "Mitra Raman",
     "date": "2026-08-21",
     "url": "https://x.com/ramannoodlez/status/2090663777184416081",
-    "kind": "other",
+    "kind": "comparison",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 98,
+      "reposts": 4,
+      "replies": 73,
+      "views": 28545,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8ab72b5804e4",
@@ -4251,7 +5190,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 435,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4ea636e94c76",
@@ -4268,7 +5214,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 0,
+      "replies": 0,
+      "views": 638,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d06a94bbafac",
@@ -4286,7 +5239,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 47,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4780ddeb21ad",
@@ -4303,7 +5263,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 121,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "edf0de4a402a",
@@ -4321,7 +5288,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 299,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1e32ee2a0b67",
@@ -4339,7 +5313,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 360,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8306fa43eb66",
@@ -4353,11 +5334,19 @@
     "tags": [
       "auto",
       "x",
-      "reply"
+      "reply",
+      "promo"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 0,
+      "replies": 1,
+      "views": 4950,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "17044a90e867",
@@ -4375,7 +5364,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 148,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ce2a17c2530e",
@@ -4393,7 +5389,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 205,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "900830a2d728",
@@ -4410,7 +5413,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 1,
+      "replies": 2,
+      "views": 1031,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3ac042b74211",
@@ -4428,7 +5438,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 210,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "caf8f0b2569c",
@@ -4446,7 +5463,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 54,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "89c31e83af55",
@@ -4464,7 +5488,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 70,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8f62f1564e7e",
@@ -4483,7 +5514,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 122,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "af665b2dcfa4",
@@ -4502,7 +5540,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 200,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2cf1384c38d",
@@ -4520,7 +5565,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 71,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "44935c3bdbe4",
@@ -4538,7 +5590,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 95,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a9b2633a1ee8",
@@ -4556,7 +5615,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 92,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dc500dc00230",
@@ -4574,7 +5640,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 88,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9b0a54fc2047",
@@ -4592,7 +5665,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 211,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "559a8940609f",
@@ -4602,14 +5682,21 @@
     "author_name": "Lauren Huttner",
     "date": "2026-08-15",
     "url": "https://x.com/lauren_huttner/status/2088650750154969221",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 1,
+      "views": 532,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7e757dabe295",
@@ -4627,7 +5714,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 0,
+      "views": 705,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "80164b5b7f8a",
@@ -4637,14 +5731,21 @@
     "author_name": "Jake",
     "date": "2026-08-15",
     "url": "https://x.com/iamjakestream/status/2088624575043264905",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 72,
+      "reposts": 2,
+      "replies": 9,
+      "views": 9106,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e2fb622f6c5f",
@@ -4662,7 +5763,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1464,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "57ec9aa34a14",
@@ -4680,7 +5788,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "dd194518a7ed",
@@ -4697,7 +5812,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 22,
+      "reposts": 2,
+      "replies": 0,
+      "views": 6889,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "951c4353f17f",
@@ -4715,7 +5837,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1069,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c979aeb79865",
@@ -4732,7 +5861,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 3131,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0fa5e7f568c5",
@@ -4750,7 +5886,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 375,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "397e8528ca6d",
@@ -4767,7 +5910,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 81,
+      "reposts": 5,
+      "replies": 5,
+      "views": 9694,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4e62cdd3fb9e",
@@ -4784,7 +5934,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 302,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "89ded26dabe7",
@@ -4803,7 +5960,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 155,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c116bf7038fe",
@@ -4820,7 +5984,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 26,
+      "reposts": 1,
+      "replies": 2,
+      "views": 6234,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e74f21618856",
@@ -4830,14 +6001,21 @@
     "author_name": "Freddy Montes",
     "date": "2026-08-12",
     "url": "https://x.com/fmontes/status/2087330385902391746",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 106,
+      "reposts": 5,
+      "replies": 7,
+      "views": 9624,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a2ae811ea770",
@@ -4854,7 +6032,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 13,
+      "reposts": 2,
+      "replies": 4,
+      "views": 651,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c2bab0b52274",
@@ -4872,7 +6057,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0f69db8f0e3e",
@@ -4889,7 +6081,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 41,
+      "reposts": 0,
+      "replies": 3,
+      "views": 13573,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "42b1d74eaf4b",
@@ -4906,7 +6105,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 1,
+      "views": 498,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0c3552093df6",
@@ -4924,7 +6130,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 20,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ed2a5a87d54",
@@ -4942,7 +6155,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 85,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0efa1f270dc3",
@@ -4960,7 +6180,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 74,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "762b74f81da5",
@@ -4977,7 +6204,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 69,
+      "reposts": 16,
+      "replies": 17,
+      "views": 14339,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7107c730019b",
@@ -4994,7 +6228,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 26,
+      "reposts": 2,
+      "replies": 1,
+      "views": 7090,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b3468fefa6be",
@@ -5011,7 +6252,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 31,
+      "reposts": 2,
+      "replies": 0,
+      "views": 9444,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc35f8362d41",
@@ -5028,7 +6276,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 354,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "108f28ad72e8",
@@ -5045,7 +6300,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 294,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "bd03a3e0bf57",
@@ -5055,14 +6317,21 @@
     "author_name": "Juhi Parekh",
     "date": "2026-08-07",
     "url": "https://x.com/juhiparekh94/status/2085809913822089461",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1687,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7cae03446f15",
@@ -5079,7 +6348,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 0,
+      "views": 13059,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c6827936b538",
@@ -5097,7 +6373,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 245,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d020577ed22a",
@@ -5115,7 +6398,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 52,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ab720461e1e9",
@@ -5132,7 +6422,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 3,
+      "views": 1450,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cc37f89873cd",
@@ -5150,7 +6447,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 60,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0deb907683d6",
@@ -5167,7 +6471,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1665,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8dbb31c34652",
@@ -5186,7 +6497,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 0,
+      "replies": 1,
+      "views": 496,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5b3ac90547ab",
@@ -5204,7 +6522,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 149,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8d719585b2a8",
@@ -5221,7 +6546,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 3,
+      "views": 3293,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e96a5a098dcd",
@@ -5238,7 +6570,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 0,
+      "replies": 0,
+      "views": 1915,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d8acbed60747",
@@ -5256,7 +6595,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 134,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "3861ec0b7c0f",
@@ -5274,7 +6620,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 34,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8e60dc47cfd1",
@@ -5293,7 +6646,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "320bdf3e039b",
@@ -5311,7 +6671,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 307,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d7cfc2c85b39",
@@ -5329,7 +6696,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 45,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7ad744a17f9b",
@@ -5347,7 +6721,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 102,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "23eb912673c9",
@@ -5364,7 +6745,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 1,
+      "views": 872,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ec58eb83557b",
@@ -5382,7 +6770,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a32ead58317a",
@@ -5399,7 +6794,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 33,
+      "reposts": 2,
+      "replies": 2,
+      "views": 1931,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5c9873258597",
@@ -5417,7 +6819,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 94,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7053b6b76299",
@@ -5435,7 +6844,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 240,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8ebba1bbbd61",
@@ -5452,7 +6868,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 15,
+      "reposts": 0,
+      "replies": 4,
+      "views": 1581,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b0f3987c98d6",
@@ -5470,7 +6893,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 71,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c19e86c954de",
@@ -5488,7 +6918,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 570,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b91440ab055d",
@@ -5505,7 +6942,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 111,
+      "reposts": 10,
+      "replies": 12,
+      "views": 153904,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4e7617ef0aad",
@@ -5522,7 +6966,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 2311,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "132dddf60cf0",
@@ -5540,7 +6991,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 101,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9217fa21f565",
@@ -5557,7 +7015,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 222,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "149d6df7ded7",
@@ -5574,7 +7039,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 104,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e03eb3f61175",
@@ -5592,7 +7064,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 137,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fe464b8b0f2e",
@@ -5610,7 +7089,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 7,
+      "reposts": 0,
+      "replies": 1,
+      "views": 491,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7a323ff6a7b7",
@@ -5628,7 +7114,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "aa81e0e43f73",
@@ -5646,7 +7139,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "122acb7dc6d4",
@@ -5664,7 +7164,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 36,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0ca5b996bfab",
@@ -5682,7 +7189,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 250,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7c38fdc0359a",
@@ -5700,7 +7214,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 94,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a67734c3566f",
@@ -5718,7 +7239,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cbe679465c65",
@@ -5735,6 +7263,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T20:00:42.959Z",
-    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @TownAI since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 56,
+      "reposts": 3,
+      "replies": 30,
+      "views": 19316,
+      "fetched": "2026-09-11"
+    }
   }
 ]

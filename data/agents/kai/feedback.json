@@ -15,7 +15,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:56:03.931Z",
-    "notes": "query: \"Kai\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Kai\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 11,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "77a88c0e16cc",
@@ -32,6 +39,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:56:03.931Z",
-    "notes": "query: \"Kai\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Kai\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 206,
+      "fetched": "2026-09-11"
+    }
   }
 ]

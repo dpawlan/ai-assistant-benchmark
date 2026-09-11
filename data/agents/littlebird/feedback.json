@@ -16,7 +16,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"littlebird.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"littlebird.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 106,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f63236c98b24",
@@ -35,7 +42,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"littlebird.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"littlebird.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 447,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c746cfd8b121",
@@ -53,7 +67,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4bbaeb3689e1",
@@ -70,7 +91,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 0,
+      "views": 28,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0696b935a177",
@@ -87,7 +115,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 21,
+      "reposts": 8,
+      "replies": 4,
+      "views": 1971,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4b4f027cdbd2",
@@ -106,7 +141,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 173,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "35ce0a5884c0",
@@ -116,14 +158,21 @@
     "author_name": "www.sidin.co",
     "date": "2026-08-05",
     "url": "https://x.com/sidin/status/2084922592046047459",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 70,
+      "reposts": 4,
+      "replies": 8,
+      "views": 7507,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "eea06ee7cd93",
@@ -140,6 +189,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:25:02.200Z",
-    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Littlebird\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 1,
+      "views": 723,
+      "fetched": "2026-09-11"
+    }
   }
 ]

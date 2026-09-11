@@ -1940,7 +1940,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.765Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ed1c27b86056",
@@ -1958,7 +1965,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.765Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 38,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a5eff4d97e66",
@@ -1976,7 +1990,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.765Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 41,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fa2045a7cd33",
@@ -1994,7 +2015,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.765Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 31,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9e7f32e1de39",
@@ -2012,7 +2040,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.765Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "1b3b0d4f722c",
@@ -2029,7 +2064,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 10,
+      "reposts": 0,
+      "replies": 2,
+      "views": 593,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "37b173aefcd0",
@@ -2048,7 +2090,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 2,
+      "views": 843,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e477278b7515",
@@ -2066,7 +2115,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 1,
+      "views": 262,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fadd50b724d8",
@@ -2084,7 +2140,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "af9edc4d3e41",
@@ -2102,7 +2165,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "648eeaccb104",
@@ -2120,7 +2190,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5cd106ff6042",
@@ -2138,7 +2215,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 13,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "5f58f6a17d36",
@@ -2155,7 +2239,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 0,
+      "views": 385,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "56c49643c042",
@@ -2172,7 +2263,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 23,
+      "reposts": 5,
+      "replies": 1,
+      "views": 11123,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "120123f9043e",
@@ -2190,7 +2288,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c88641ae5c9b",
@@ -2200,14 +2305,21 @@
     "author_name": "Joshua Park",
     "date": "2026-08-07",
     "url": "https://x.com/JoshuaIPark/status/2085536343866888649",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 12,
+      "reposts": 2,
+      "replies": 1,
+      "views": 1550,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "11e9a44a8754",
@@ -2224,7 +2336,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 492,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2de5739cc3b5",
@@ -2241,7 +2360,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 0,
+      "views": 536,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "697ff2c13860",
@@ -2258,7 +2384,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 6,
+      "reposts": 1,
+      "replies": 0,
+      "views": 633,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9e7970178d66",
@@ -2276,7 +2409,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "549aa0676df2",
@@ -2294,7 +2434,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "08068e09c9b0",
@@ -2311,7 +2458,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 11,
+      "reposts": 2,
+      "replies": 0,
+      "views": 616,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2165d081bbf6",
@@ -2328,7 +2482,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "replies": 2,
+      "views": 2232,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e6186d99659b",
@@ -2347,7 +2508,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 0,
+      "views": 120,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "2087a7270aae",
@@ -2364,7 +2532,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 18,
+      "reposts": 1,
+      "replies": 2,
+      "views": 1916,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "13fa5ee4ebcb",
@@ -2382,7 +2557,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b2b10a993579",
@@ -2399,7 +2581,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 1,
+      "replies": 3,
+      "views": 399,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "de4cc79dbb7b",
@@ -2417,7 +2606,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 156,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d5ebdd27b9bc",
@@ -2435,6 +2631,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T19:05:39.766Z",
-    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: @pallyai since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 0,
+      "replies": 3,
+      "views": 246,
+      "fetched": "2026-09-11"
+    }
   }
 ]

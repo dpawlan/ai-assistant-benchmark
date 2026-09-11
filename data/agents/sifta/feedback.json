@@ -14,7 +14,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:09:30.571Z",
-    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "replies": 2,
+      "views": 115,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9e1000e8594a",
@@ -31,6 +38,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T22:09:30.572Z",
-    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"Sifta\" (assistant OR agent OR ai) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 3,
+      "views": 58,
+      "fetched": "2026-09-11"
+    }
   }
 ]

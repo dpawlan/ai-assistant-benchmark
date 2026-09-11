@@ -89,7 +89,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 50,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "de68f1c8682a",
@@ -107,7 +114,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 53,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c5dcd4faefa6",
@@ -124,7 +138,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 98,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "da792083222f",
@@ -141,7 +162,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 335,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ecd3a4a38b6c",
@@ -158,7 +186,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 29,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8f26288c9008",
@@ -175,7 +210,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f34fb3703782",
@@ -192,7 +234,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4afe4c73663a",
@@ -210,7 +259,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 24,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "78a39fec303d",
@@ -227,7 +283,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 10,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d60d0ffb8cc3",
@@ -244,7 +307,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 657,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "8b783a5cb9cc",
@@ -261,7 +331,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 9,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "c14d3c2ec004",
@@ -278,7 +355,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 35,
+      "reposts": 1,
+      "replies": 4,
+      "views": 4481,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "32f779598944",
@@ -295,7 +379,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "fbf8131f7437",
@@ -312,7 +403,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "9cc53af60032",
@@ -329,7 +427,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 49,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "e61bc2d4ab67",
@@ -339,14 +444,21 @@
     "author_name": "Manu Invests",
     "date": "2026-09-10",
     "url": "https://x.com/ManuInvests/status/2098148723586969673",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: \"meta muse\" since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 44,
+      "reposts": 0,
+      "replies": 2,
+      "views": 19174,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "62a409b45535",
@@ -363,7 +475,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4fabfeba9cbd",
@@ -380,7 +499,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 2,
+      "views": 362,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "81a756219b32",
@@ -397,7 +523,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 75,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "02ff7ad34c65",
@@ -414,7 +547,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 115,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "0b7e8d676026",
@@ -431,7 +571,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 76,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ac3b45d46eeb",
@@ -448,7 +595,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 81,
+      "reposts": 6,
+      "replies": 28,
+      "views": 14650,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "7a6181fc9a61",
@@ -465,7 +619,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 67,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "d67c8a05d82c",
@@ -482,7 +643,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 64,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "b2a1c0b9cb3e",
@@ -499,7 +667,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 429,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f762ec50296d",
@@ -517,7 +692,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 141,
+      "reposts": 10,
+      "replies": 62,
+      "views": 50196,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "cd3ab7fe509c",
@@ -535,7 +717,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 15,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "4c05f978a58d",
@@ -553,7 +742,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 109,
+      "reposts": 15,
+      "replies": 10,
+      "views": 27598,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "ee57b79191bc",
@@ -571,7 +767,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 39,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "a379105d500d",
@@ -589,7 +792,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 369,
+      "reposts": 21,
+      "replies": 35,
+      "views": 48076,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "6fcfb32493af",
@@ -606,7 +816,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.926Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 415,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "f7e116f1aff4",
@@ -623,7 +840,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.927Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 197,
+      "fetched": "2026-09-11"
+    }
   },
   {
     "id": "770f0d0be75a",
@@ -640,6 +864,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-10T21:10:37.927Z",
-    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets"
+    "notes": "query: (\"muse.ai\" OR @Meta OR @AIatMeta) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment) since:2026-08-01 until:2026-09-10 -filter:retweets",
+    "metrics": {
+      "likes": 163,
+      "reposts": 8,
+      "replies": 12,
+      "views": 14869,
+      "fetched": "2026-09-11"
+    }
   }
 ]

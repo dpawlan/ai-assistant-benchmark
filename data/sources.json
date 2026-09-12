@@ -2149,6 +2149,37 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-11 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
+    },
+    "orbits": {
+      "name": "Orbits",
+      "handles": [
+        "tryorbits",
+        "orbitsapp"
+      ],
+      "domain": "tryorbits.com",
+      "x_queries": [
+        "\"tryorbits.com\"",
+        "@tryorbits",
+        "@orbitsapp"
+      ],
+      "reddit_queries": [
+        "\"tryorbits.com\"",
+        "\"orbits\" household assistant"
+      ],
+      "hn_queries": [
+        "\"tryorbits.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tryorbits.com",
+        "@tryorbits",
+        "@orbitsapp",
+        "orbits app",
+        "orbits ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-12 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
     }
   },
   "_redact_terms": [

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-11",
-  "agent_count": 65,
+  "updated": "2026-09-12",
+  "agent_count": 66,
   "feedback_count": 5186,
-  "confirmed": 48,
+  "confirmed": 49,
   "stretch": 17,
   "agents": [
     {
@@ -817,6 +817,29 @@
           "Web"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "orbits",
+      "name": "Orbits",
+      "status": "confirmed",
+      "site": "https://tryorbits.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your home, handled",
+      "icon": "/logos/orbits.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "SMS",
+          "Group chats"
+        ],
+        "checked": "2026-09-12"
       }
     },
     {

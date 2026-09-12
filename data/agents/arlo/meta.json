@@ -1,0 +1,28 @@
+{
+  "slug": "arlo",
+  "name": "Arlo",
+  "site": "https://www.arlo.sh/",
+  "handles": [
+    "arlo_sh",
+    "mann_idan"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Shared AI teammate for a company that lives in iMessage, Slack and on calls, with a company memory split into personal, team and company, governed access to 3,000+ tools and approvals before sensitive actions. Requested via the form (issue #117).",
+  "public_signal": "low",
+  "tagline": "One AI colleague for the workspace",
+  "icon": "/logos/arlo.png",
+  "kind": "work",
+  "access": {
+    "pricing": "credits",
+    "price": "Free ($100 in credits for connecting Slack) · monthly from $20; 400 credits per $1",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Slack",
+      "Phone",
+      "Web"
+    ],
+    "checked": "2026-09-12"
+  }
+}

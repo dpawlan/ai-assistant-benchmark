@@ -1,8 +1,8 @@
 {
   "updated": "2026-09-12",
-  "agent_count": 66,
+  "agent_count": 67,
   "feedback_count": 5186,
-  "confirmed": 49,
+  "confirmed": 50,
   "stretch": 17,
   "agents": [
     {
@@ -46,6 +46,29 @@
           "Email"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "arlo",
+      "name": "Arlo",
+      "status": "confirmed",
+      "site": "https://www.arlo.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "One AI colleague for the workspace",
+      "icon": "/logos/arlo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "credits",
+        "price": "Free ($100 in credits for connecting Slack) · monthly from $20; 400 credits per $1",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Slack",
+          "Phone",
+          "Web"
+        ],
+        "checked": "2026-09-12"
       }
     },
     {

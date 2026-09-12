@@ -1,0 +1,28 @@
+{
+  "slug": "orbits",
+  "name": "Orbits",
+  "site": "https://tryorbits.com/",
+  "handles": [
+    "tryorbits",
+    "orbitsapp"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "a16z-backed household assistant (\"Bit\"): family calendars, meals, chores, shared lists, household email, home upkeep, pets and vehicles, service requests and phone calls, in an iOS/Android app, by text, or in the family group chat. Requested via the form (issue #115).",
+  "public_signal": "low",
+  "tagline": "Your home, handled",
+  "icon": "/logos/orbits.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "SMS",
+      "Group chats"
+    ],
+    "checked": "2026-09-12"
+  }
+}

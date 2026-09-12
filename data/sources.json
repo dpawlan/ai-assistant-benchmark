@@ -2180,6 +2180,34 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-12 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
+    },
+    "arlo": {
+      "name": "Arlo",
+      "handles": [
+        "arlo_sh",
+        "mann_idan"
+      ],
+      "domain": "arlo.sh",
+      "x_queries": [
+        "\"arlo.sh\"",
+        "@arlo_sh"
+      ],
+      "reddit_queries": [
+        "\"arlo.sh\""
+      ],
+      "hn_queries": [
+        "\"arlo.sh\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "arlo.sh",
+        "@arlo_sh",
+        "arlo ai colleague",
+        "arlo slack"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-12 from a request-form submission. Generic name (Arlo cameras, Arlo hotels): domain/handle queries only. Handles are best guesses."
     }
   },
   "_redact_terms": [

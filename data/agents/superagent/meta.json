@@ -1,0 +1,27 @@
+{
+  "slug": "superagent",
+  "name": "Superagent",
+  "site": "https://base44.com/superagents",
+  "handles": [
+    "base44"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Base44's managed personal agent: runs tasks 24/7 across connected tools (Gmail, Calendar, Slack, WhatsApp), reaches you on WhatsApp, Telegram, Slack or the browser. The requester highlights its goals feature, which contacts people and reports back. Requested via the form (issue #122).",
+  "public_signal": "low",
+  "tagline": "Every builder needs a Superagent",
+  "icon": "/logos/superagent.png",
+  "kind": "work",
+  "access": {
+    "pricing": "unknown",
+    "price": "Part of Base44; plan details not stated",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp",
+      "Telegram",
+      "Slack",
+      "Web"
+    ],
+    "checked": "2026-09-13"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "prio",
+  "name": "Prio",
+  "site": "https://prio.sh/",
+  "handles": [
+    "prio_sh"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "AI chief of staff for founders and CEOs: triages email, drafts replies in your voice, preps meetings and chases follow-ups, nothing sent without approval. Web app (mobile-friendly, voice input). EU-hosted, GDPR; English, Dutch, German, French. Requested via the form (issue #125).",
+  "public_signal": "low",
+  "tagline": "Run your company, not your inbox",
+  "icon": "/logos/prio.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Starter €29/mo · Pro €79/mo · Business €199/mo; 14-day trial",
+    "regions": "EU-hosted; English, Dutch, German, French",
+    "channels": [
+      "Web app"
+    ],
+    "checked": "2026-09-13"
+  }
+}

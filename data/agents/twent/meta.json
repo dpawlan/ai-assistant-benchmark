@@ -1,0 +1,32 @@
+{
+  "slug": "twent",
+  "name": "Twent",
+  "site": "https://twent.xyz/",
+  "handles": [
+    "twentxyz",
+    "jeffrinjames"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Android agent that automates apps on the phone, runs a real Ubuntu terminal and connects 1,000+ services; free, local-first, bring your own model key. Developer-leaning, so on the board as a stretch product. Requested via the form (issue #124).",
+  "likely_applicable": [
+    "online_task",
+    "memory",
+    "third_party_integrations",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Why use your phone when AI can use it for you?",
+  "icon": "/logos/twent.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free; bring your own API key",
+    "regions": "Not stated",
+    "channels": [
+      "Android app"
+    ],
+    "checked": "2026-09-13"
+  }
+}

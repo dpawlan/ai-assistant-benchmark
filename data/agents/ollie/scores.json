@@ -1,5 +1,5 @@
 {
-  "online_task": null,
+  "online_task": 8,
   "travel": null,
   "recommendation_quality": null,
   "purchasing": null,
@@ -7,6 +7,7 @@
   "proactive_behavior": null,
   "running_routine": null,
   "third_party_integrations": null,
+  "permissions_privacy": null,
   "memory": null,
   "personality": null,
   "phone_calls": null,

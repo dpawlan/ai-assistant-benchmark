@@ -1,0 +1,14 @@
+{
+  "id": "asaply-2026-09-12-blooio-travel",
+  "agent": "asaply",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-09-12",
+  "signals": {
+    "agent_asked_question": false,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-13T19:00:00.000Z"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "neo",
+  "name": "NEO",
+  "site": "https://hyperneobroker.com/",
+  "handles": [
+    "HYPERneobroker"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "HYPERneobroker's trading assistant: text an order, get a quote, reply CONFIRM, over iMessage or Telegram; MCP endpoint for agents. The requester describes it as a paper brokerage on Alpaca with no real money; the site presents zero-commission live trading. Founded Aug 2026, New York. Requested via the form (issue #119).",
+  "likely_applicable": [
+    "online_task",
+    "purchasing",
+    "memory",
+    "proactive_behavior",
+    "permissions_privacy",
+    "running_routine"
+  ],
+  "public_signal": "low",
+  "tagline": "Trade within iMessage",
+  "icon": "/logos/neo.png",
+  "kind": "finance",
+  "access": {
+    "pricing": "free",
+    "price": "Zero commission; site says free to trade",
+    "regions": "US-focused",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Telegram",
+      "MCP"
+    ],
+    "checked": "2026-09-13"
+  }
+}

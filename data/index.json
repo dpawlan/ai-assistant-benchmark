@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-12",
-  "agent_count": 67,
+  "updated": "2026-09-13",
+  "agent_count": 72,
   "feedback_count": 5186,
-  "confirmed": 50,
-  "stretch": 17,
+  "confirmed": 53,
+  "stretch": 19,
   "agents": [
     {
       "slug": "aeon",
@@ -760,6 +760,26 @@
       }
     },
     {
+      "slug": "mitra",
+      "name": "Mitra",
+      "status": "confirmed",
+      "site": "https://mitra.run/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI companion that gets work done",
+      "icon": "/logos/mitra.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start (200 credits, no card); then per run",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-13"
+      }
+    },
+    {
       "slug": "moves",
       "name": "Moves",
       "status": "stretch",
@@ -798,6 +818,29 @@
           "WhatsApp"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "neo",
+      "name": "NEO",
+      "status": "stretch",
+      "site": "https://hyperneobroker.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Trade within iMessage",
+      "icon": "/logos/neo.png",
+      "kind": "finance",
+      "access": {
+        "pricing": "free",
+        "price": "Zero commission; site says free to trade",
+        "regions": "US-focused",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Telegram",
+          "MCP"
+        ],
+        "checked": "2026-09-13"
       }
     },
     {
@@ -1001,6 +1044,26 @@
       }
     },
     {
+      "slug": "prio",
+      "name": "Prio",
+      "status": "confirmed",
+      "site": "https://prio.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Run your company, not your inbox",
+      "icon": "/logos/prio.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Starter €29/mo · Pro €79/mo · Business €199/mo; 14-day trial",
+        "regions": "EU-hosted; English, Dutch, German, French",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-13"
+      }
+    },
+    {
       "slug": "shoponscout",
       "name": "ShopOnScout / Scout",
       "status": "stretch",
@@ -1189,6 +1252,29 @@
           "SMS"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "superagent",
+      "name": "Superagent",
+      "status": "confirmed",
+      "site": "https://base44.com/superagents",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Every builder needs a Superagent",
+      "icon": "/logos/superagent.png",
+      "kind": "work",
+      "access": {
+        "pricing": "unknown",
+        "price": "Part of Base44; plan details not stated",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "Telegram",
+          "Slack",
+          "Web"
+        ],
+        "checked": "2026-09-13"
       }
     },
     {
@@ -1386,6 +1472,26 @@
           "macOS"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "twent",
+      "name": "Twent",
+      "status": "stretch",
+      "site": "https://twent.xyz/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Why use your phone when AI can use it for you?",
+      "icon": "/logos/twent.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free; bring your own API key",
+        "regions": "Not stated",
+        "channels": [
+          "Android app"
+        ],
+        "checked": "2026-09-13"
       }
     },
     {

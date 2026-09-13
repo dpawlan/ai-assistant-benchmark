@@ -2208,6 +2208,142 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-12 from a request-form submission. Generic name (Arlo cameras, Arlo hotels): domain/handle queries only. Handles are best guesses."
+    },
+    "prio": {
+      "name": "Prio",
+      "handles": [
+        "prio_sh"
+      ],
+      "domain": "prio.sh",
+      "x_queries": [
+        "\"prio.sh\"",
+        "@prio_sh"
+      ],
+      "reddit_queries": [
+        "\"prio.sh\""
+      ],
+      "hn_queries": [
+        "\"prio.sh\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "prio.sh",
+        "@prio_sh",
+        "prio ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "twent": {
+      "name": "Twent",
+      "handles": [
+        "twentxyz",
+        "jeffrinjames"
+      ],
+      "domain": "twent.xyz",
+      "x_queries": [
+        "\"twent.xyz\"",
+        "@twentxyz",
+        "@jeffrinjames"
+      ],
+      "reddit_queries": [
+        "\"twent.xyz\""
+      ],
+      "hn_queries": [
+        "\"twent.xyz\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "twent.xyz",
+        "@twentxyz",
+        "@jeffrinjames",
+        "twent ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "mitra": {
+      "name": "Mitra",
+      "handles": [
+        "mitra_run",
+        "samrithshankar"
+      ],
+      "domain": "mitra.run",
+      "x_queries": [
+        "\"mitra.run\"",
+        "@mitra_run",
+        "@samrithshankar"
+      ],
+      "reddit_queries": [
+        "\"mitra.run\""
+      ],
+      "hn_queries": [
+        "\"mitra.run\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "mitra.run",
+        "@mitra_run",
+        "@samrithshankar",
+        "mitra ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "superagent": {
+      "name": "Superagent",
+      "handles": [
+        "base44"
+      ],
+      "domain": "base44.com",
+      "x_queries": [
+        "\"base44.com\"",
+        "@base44"
+      ],
+      "reddit_queries": [
+        "\"base44.com\""
+      ],
+      "hn_queries": [
+        "\"base44.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "base44.com",
+        "@base44",
+        "superagent ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "neo": {
+      "name": "NEO",
+      "handles": [
+        "HYPERneobroker"
+      ],
+      "domain": "hyperneobroker.com",
+      "x_queries": [
+        "\"hyperneobroker.com\"",
+        "@HYPERneobroker"
+      ],
+      "reddit_queries": [
+        "\"hyperneobroker.com\""
+      ],
+      "hn_queries": [
+        "\"hyperneobroker.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hyperneobroker.com",
+        "@hyperneobroker",
+        "neo ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
     }
   },
   "_redact_terms": [

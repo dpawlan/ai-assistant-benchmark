@@ -1,0 +1,25 @@
+{
+  "slug": "mitra",
+  "name": "Mitra",
+  "site": "https://mitra.run/",
+  "handles": [
+    "mitra_run",
+    "samrithshankar"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Give it a recurring job in one sentence and it runs it on a schedule inside Gmail, Shopify, Sheets, Slack, Stripe and 1,000+ apps, with approval gates before it acts. Web app, billed per run. Requested via the form (issue #123).",
+  "public_signal": "low",
+  "tagline": "The AI companion that gets work done",
+  "icon": "/logos/mitra.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start (200 credits, no card); then per run",
+    "regions": "Not stated",
+    "channels": [
+      "Web app"
+    ],
+    "checked": "2026-09-13"
+  }
+}

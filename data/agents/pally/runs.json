@@ -55,5 +55,23 @@
     "score": 9,
     "outcome": "pass",
     "notes": "Generated a birthday card image for a 30th and a five-question 90s trivia game over text in a Fresh Prince and Tamagotchi style."
+  },
+  {
+    "id": "pally-2026-09-14-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Cannot place outbound calls; inbound works, and it researched private dining instead of calling."
+  },
+  {
+    "id": "pally-2026-09-14-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Listed Gmail, Outlook, Notion, Slack, Linear and GitHub among available apps, but none were used on the thread."
   }
 ]

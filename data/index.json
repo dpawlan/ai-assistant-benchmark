@@ -1740,6 +1740,161 @@
         ],
         "checked": "2026-09-14"
       }
+    },
+    {
+      "slug": "groupthink",
+      "name": "Groupthink",
+      "status": "stretch",
+      "site": "https://groupthink.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Be intentional about the people you care about",
+      "icon": "/logos/groupthink.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free forever plan; Pro $15/mo; every account starts with 30 days of Pro",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Mac and Windows app",
+          "Slack",
+          "MCP"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "del",
+      "name": "Del",
+      "status": "confirmed",
+      "site": "https://www.withdel.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your digital handyman",
+      "icon": "/logos/del.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Two-week free trial; price after that not stated",
+        "regions": "Not stated",
+        "channels": [
+          "SMS"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "solo-work",
+      "name": "Solo Work",
+      "status": "confirmed",
+      "site": "https://solomail.io/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Own your professional intelligence",
+      "icon": "/logos/solo-work.png",
+      "kind": "work",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Free during early access; waitlist",
+        "regions": "Not stated",
+        "channels": [
+          "Email",
+          "SMS",
+          "Voice calls",
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "genosyn",
+      "name": "Genosyn",
+      "status": "stretch",
+      "site": "https://genosyn.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your company can now run automatically.",
+      "icon": "/logos/genosyn.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted (Apache-2.0); cloud Free for 1 AI Employee, Growth $19 and Scale $49 per AI Employee/mo; bring your own model key",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "CLI",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "rakazo",
+      "name": "Rakazo",
+      "status": "stretch",
+      "site": "https://rakazo.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "AI teammates you actually own",
+      "icon": "/logos/rakazo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted (Apache-2.0); cloud version coming, bring your own keys",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "sai",
+      "name": "Sai",
+      "status": "confirmed",
+      "site": "https://www.sai.work/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Meet your autonomous computer",
+      "icon": "/logos/sai.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Starter $50/mo, Premium $200/mo, Pro $500/mo, Enterprise custom",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iMessage",
+          "SMS",
+          "Telegram",
+          "Mac and Windows"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "miso-nutrition",
+      "name": "Miso (nutrition)",
+      "status": "confirmed",
+      "site": "https://withmiso.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Tell Miso what you ate. You're done.",
+      "icon": "/logos/miso-nutrition.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start; paid tier not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "iOS app"
+        ],
+        "checked": "2026-09-14"
+      }
     }
   ]
 }

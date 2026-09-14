@@ -1,0 +1,33 @@
+{
+  "slug": "genosyn",
+  "name": "Genosyn",
+  "site": "https://genosyn.com/",
+  "handles": [],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Open-source platform for scheduled \"AI Employees\" across finance, email, repositories, revenue, marketing and operations that hand decisions to a human past set thresholds. Self-hosted in one Docker container or on a hosted cloud, so on the board as a stretch product. Requested via the form (issue #169).",
+  "likely_applicable": [
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "chained_tasks",
+    "proactive_behavior",
+    "proactive_restraint",
+    "permissions_privacy"
+  ],
+  "public_signal": "low",
+  "tagline": "Your company can now run automatically.",
+  "icon": "/logos/genosyn.png",
+  "kind": "work",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free self-hosted (Apache-2.0); cloud Free for 1 AI Employee, Growth $19 and Scale $49 per AI Employee/mo; bring your own model key",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "CLI",
+      "Self-hosted"
+    ],
+    "checked": "2026-09-14"
+  }
+}

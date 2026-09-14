@@ -2490,6 +2490,180 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only."
+    },
+    "groupthink": {
+      "name": "Groupthink",
+      "handles": [
+        "groupthinkai"
+      ],
+      "domain": "groupthink.com",
+      "x_queries": [
+        "\"groupthink.com\"",
+        "@groupthinkai"
+      ],
+      "reddit_queries": [
+        "\"groupthink.com\""
+      ],
+      "hn_queries": [
+        "\"groupthink.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "groupthink.com",
+        "@groupthinkai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "del": {
+      "name": "Del",
+      "handles": [],
+      "domain": "withdel.com",
+      "x_queries": [
+        "\"withdel.com\""
+      ],
+      "reddit_queries": [
+        "\"withdel.com\""
+      ],
+      "hn_queries": [
+        "\"withdel.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "withdel.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "solo-work": {
+      "name": "Solo Work",
+      "handles": [
+        "solo_work_inc"
+      ],
+      "domain": "solomail.io",
+      "x_queries": [
+        "\"solomail.io\"",
+        "@solo_work_inc"
+      ],
+      "reddit_queries": [
+        "\"solomail.io\""
+      ],
+      "hn_queries": [
+        "\"solomail.io\""
+      ],
+      "appstore_ids": [
+        "6782149309"
+      ],
+      "ph_slug": null,
+      "match": [
+        "solomail.io",
+        "@solo_work_inc"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "genosyn": {
+      "name": "Genosyn",
+      "handles": [],
+      "domain": "genosyn.com",
+      "x_queries": [
+        "\"genosyn.com\""
+      ],
+      "reddit_queries": [
+        "\"genosyn.com\""
+      ],
+      "hn_queries": [
+        "\"genosyn.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "genosyn.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "rakazo": {
+      "name": "Rakazo",
+      "handles": [
+        "elie2222"
+      ],
+      "domain": "rakazo.com",
+      "x_queries": [
+        "\"rakazo.com\"",
+        "@elie2222"
+      ],
+      "reddit_queries": [
+        "\"rakazo.com\""
+      ],
+      "hn_queries": [
+        "\"rakazo.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "rakazo.com",
+        "@elie2222"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "sai": {
+      "name": "Sai",
+      "handles": [
+        "sai_borg",
+        "SimularAI"
+      ],
+      "domain": "sai.work",
+      "x_queries": [
+        "\"sai.work\"",
+        "@sai_borg",
+        "@SimularAI"
+      ],
+      "reddit_queries": [
+        "\"sai.work\""
+      ],
+      "hn_queries": [
+        "\"sai.work\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "sai.work",
+        "@sai_borg",
+        "@SimularAI"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "miso-nutrition": {
+      "name": "Miso (nutrition)",
+      "handles": [
+        "jam_maxell"
+      ],
+      "domain": "withmiso.ai",
+      "x_queries": [
+        "\"withmiso.ai\"",
+        "@jam_maxell"
+      ],
+      "reddit_queries": [
+        "\"withmiso.ai\""
+      ],
+      "hn_queries": [
+        "\"withmiso.ai\""
+      ],
+      "appstore_ids": [
+        "6788593514"
+      ],
+      "ph_slug": null,
+      "match": [
+        "withmiso.ai",
+        "@jam_maxell"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
     }
   },
   "_redact_terms": [

@@ -2280,6 +2280,191 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "treasury": {
+      "name": "Treasury",
+      "handles": [
+        "treasury_sh"
+      ],
+      "domain": "treasury.sh",
+      "x_queries": [
+        "\"treasury.sh\"",
+        "@treasury_sh"
+      ],
+      "reddit_queries": [
+        "\"treasury.sh\""
+      ],
+      "hn_queries": [
+        "\"treasury.sh\""
+      ],
+      "appstore_ids": [
+        "6756083347"
+      ],
+      "ph_slug": null,
+      "match": [
+        "treasury.sh",
+        "@treasury_sh"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "autogpt": {
+      "name": "AutoGPT",
+      "handles": [
+        "Auto_GPT"
+      ],
+      "domain": "agpt.co",
+      "x_queries": [
+        "\"agpt.co\"",
+        "@Auto_GPT"
+      ],
+      "reddit_queries": [
+        "\"agpt.co\""
+      ],
+      "hn_queries": [
+        "\"agpt.co\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "agpt.co",
+        "@Auto_GPT"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "dj-beebot": {
+      "name": "DJ BeeBot",
+      "handles": [
+        "djbeebot"
+      ],
+      "domain": "hopscotchlabs.co",
+      "x_queries": [
+        "\"hopscotchlabs.co\"",
+        "@djbeebot"
+      ],
+      "reddit_queries": [
+        "\"hopscotchlabs.co\""
+      ],
+      "hn_queries": [
+        "\"hopscotchlabs.co\""
+      ],
+      "appstore_ids": [
+        "6451085742"
+      ],
+      "ph_slug": null,
+      "match": [
+        "hopscotchlabs.co",
+        "@djbeebot"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "moldable": {
+      "name": "Moldable",
+      "handles": [
+        "MoldableAI",
+        "iwasrobbed"
+      ],
+      "domain": "moldable.sh",
+      "x_queries": [
+        "\"moldable.sh\"",
+        "@MoldableAI",
+        "@iwasrobbed"
+      ],
+      "reddit_queries": [
+        "\"moldable.sh\""
+      ],
+      "hn_queries": [
+        "\"moldable.sh\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "moldable.sh",
+        "@MoldableAI",
+        "@iwasrobbed"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "toyo": {
+      "name": "Toyo",
+      "handles": [
+        "usetoyo"
+      ],
+      "domain": "toyo.ai",
+      "x_queries": [
+        "\"toyo.ai\"",
+        "@usetoyo"
+      ],
+      "reddit_queries": [
+        "\"toyo.ai\""
+      ],
+      "hn_queries": [
+        "\"toyo.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "toyo.ai",
+        "@usetoyo"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "loki": {
+      "name": "Loki",
+      "handles": [
+        "wundercorp"
+      ],
+      "domain": "loki.computer",
+      "x_queries": [
+        "\"loki.computer\"",
+        "@wundercorp"
+      ],
+      "reddit_queries": [
+        "\"loki.computer\""
+      ],
+      "hn_queries": [
+        "\"loki.computer\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "loki.computer",
+        "@wundercorp"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "bo": {
+      "name": "Bo",
+      "handles": [
+        "boassistant",
+        "brandonturp"
+      ],
+      "domain": "getbo.com",
+      "x_queries": [
+        "\"getbo.com\"",
+        "@boassistant",
+        "@brandonturp"
+      ],
+      "reddit_queries": [
+        "\"getbo.com\""
+      ],
+      "hn_queries": [
+        "\"getbo.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "getbo.com",
+        "@boassistant",
+        "@brandonturp"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
     }
   },
   "_redact_terms": [

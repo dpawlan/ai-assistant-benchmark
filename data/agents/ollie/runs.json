@@ -35,5 +35,32 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Suggested Bereket and Sinya near Cambria Loop as vegetarian-friendly under about $40 with walk times; tables were walk-in only."
+  },
+  {
+    "id": "ollie-2026-09-14-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Drafted a reply in chat after skipping inbox access and held it for approval rather than sending."
+  },
+  {
+    "id": "ollie-2026-09-14-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Generated a birthday card image and a ninety-second 90s quiz playable in chat."
+  },
+  {
+    "id": "ollie-2026-09-14-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Cannot place outbound calls; researched the restaurant request instead."
   }
 ]

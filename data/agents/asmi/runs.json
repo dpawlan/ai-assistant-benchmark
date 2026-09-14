@@ -44,5 +44,23 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Recommended The Dearborn, PLANTA, and avec with walk times, but PLANTA is a chain and a non-chain swap was not confirmed."
+  },
+  {
+    "id": "asmi-2026-09-14-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Delivered a text birthday card with trivia plus an image link for a 30th."
+  },
+  {
+    "id": "asmi-2026-09-14-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Cannot place outbound calls; researched the restaurant request instead."
   }
 ]

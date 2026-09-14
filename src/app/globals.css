@@ -3343,40 +3343,7 @@ a.chip.blue:hover {
 .st-dot.st-in_progress { background: var(--st-in_progress); }
 .st-dot.st-pending { background: var(--st-pending); }
 
-/* Review-only switcher; remove before merge. */
-.design-bar {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 14px;
-  padding: 4px 6px 4px 10px;
-  border: 1px dashed var(--line);
-  border-radius: 8px;
-  font-size: 12px;
-  color: var(--sec);
-}
-
-.design-bar button {
-  padding: 3px 9px;
-  border: 0;
-  border-radius: 6px;
-  background: transparent;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--sec);
-  cursor: pointer;
-}
-
-.design-bar button.on {
-  background: var(--text);
-  color: #fff;
-}
-
-.design-note {
-  margin-left: 4px;
-}
-
-/* A: stacked bar + legend, legend items filter */
+/* Stacked bar + legend; legend items filter the table */
 .st-strip {
   margin: 0 0 14px;
 }
@@ -3425,83 +3392,7 @@ a.chip.blue:hover {
 .st-key.on { background: var(--text); color: #fff; }
 .st-key.on b { color: #fff; }
 
-/* B: three tiles */
-.st-tiles {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin: 0 0 16px;
-}
-
-.st-tile {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 4px;
-  padding: 12px 14px;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  background: #fff;
-  text-align: left;
-  cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
-}
-
-.st-tile:hover { background: var(--fill); }
-.st-tile.on { border-color: var(--text); box-shadow: inset 0 0 0 1px var(--text); }
-
-.st-tile-n {
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  font-variant-numeric: tabular-nums;
-}
-
-.st-tile.st-pending .st-tile-n { color: var(--sec); }
-
-.st-tile-l {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.st-tile-c {
-  font-size: 12px;
-  line-height: 1.35;
-  color: var(--sec);
-}
-
-@media (max-width: 640px) {
-  .st-tiles { grid-template-columns: 1fr; }
-  .st-tile { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
-  .st-tile-c { flex-basis: 100%; }
-}
-
-/* C: one sentence */
-.st-line {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0 0 14px;
-  font-size: 13px;
-  color: var(--sec);
-  font-variant-numeric: tabular-nums;
-}
-
-.st-line-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.st-line-item b { color: var(--text); font-weight: 600; margin-left: -4px; }
-.st-line-note { color: #a1a1a6; }
-
-/* A: section header rows inside the table */
+/* Section header rows inside the table */
 .matrix .mx-sechead th {
   position: sticky;
   left: 0;
@@ -3521,6 +3412,8 @@ a.chip.blue:hover {
 .mx-secsub {
   display: block;
   margin-top: 2px;
+  max-width: min(72ch, calc(100vw - 48px));
+  white-space: normal;
   font-size: 12px;
   font-weight: 400;
   color: var(--sec);
@@ -3569,13 +3462,11 @@ a.chip.blue:hover {
 .mx-chev.open { transform: none; }
 
 .matrix .mx-sec-pending .mx-name,
-.matrix .mx-sec-pending .sc-null,
-.matrix tr.mx-pending .mx-nm,
-.matrix tr.mx-pending .sc-null {
+.matrix .mx-sec-pending .sc-null {
   opacity: 0.55;
 }
 
-/* A: Tested column */
+/* Tested column */
 .matrix col.c-cov { width: 76px; }
 
 .cov {
@@ -3613,57 +3504,3 @@ a.chip.blue:hover {
 
 .cov-done .cov-bar span { background: var(--st-completed); }
 .cov-0 { color: #c7c7cc; font-weight: 600; }
-
-/* B: Status column */
-.matrix col.c-status { width: 132px; }
-.matrix .mx-status { text-align: left; }
-
-.st-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 9px;
-  border-radius: 980px;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
-  background: var(--fill);
-  color: var(--text);
-}
-
-.st-pill.st-completed { background: rgba(52, 199, 89, 0.14); color: #1f7a35; }
-.st-pill.st-in_progress { background: var(--blue-12); color: #0056b3; }
-.st-pill.st-pending { color: var(--sec); }
-
-.st-pill-n {
-  font-weight: 500;
-  opacity: 0.7;
-  font-variant-numeric: tabular-nums;
-}
-
-/* C: coverage under Overall, dot beside name */
-.ov-stack {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3px;
-}
-
-.ov-sub {
-  font-size: 10.5px;
-  line-height: 1;
-  color: var(--sec);
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.ov-sub.done { color: var(--st-completed); font-weight: 600; }
-
-.st-dot.st-inline {
-  width: 6px;
-  height: 6px;
-  margin-left: 6px;
-  vertical-align: 2px;
-}
-
-.matrix.design-c td.mx-overall-c { padding-top: 6px; padding-bottom: 6px; }

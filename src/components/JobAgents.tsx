@@ -38,7 +38,7 @@ export function JobAgents({ agents, max = 8, jobKey }: { agents: JobAgent[]; max
         );
       })}
       {rest > 0 && (
-        <JobLink job={jobKey} via="more" className="uc-logo more">
+        <JobLink job={jobKey} via="more" className="uc-logo uc-more">
           +{rest} more
         </JobLink>
       )}

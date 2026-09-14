@@ -36,6 +36,20 @@ export function JobCard({ job }: { job: RankedJob }) {
           <CopyPrompt text={job.prompt} job={job.key} />
         </div>
         {job.caveat && <p className="uc-caveat">{job.caveat}</p>}
+        {job.reported.length > 0 && (
+          <p className="uc-credit">
+            From{' '}
+            {job.reported.slice(0, 4).map((r, i) => (
+              <span key={r.quote.id}>
+                {i > 0 && ', '}
+                <a href={r.quote.url} target="_blank" rel="noopener noreferrer">
+                  {r.quote.author || r.quote.author_name || 'a post'}
+                </a>
+              </span>
+            ))}
+            {job.reported.length > 4 && ` and ${job.reported.length - 4} more`}
+          </p>
+        )}
         <div className="uc-meta">
           <VoteButton job={job.key} initialVotes={job.votes} compact />
           <span>

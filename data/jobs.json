@@ -169,7 +169,8 @@
           "outcome": "partial"
         }
       ],
-      "caveat": "This is also the benchmark's online-task test, so the tested row is long."
+      "caveat": "Also the benchmark's online-task test, so every tested assistant ran this exact job.",
+      "benchmark_task": true
     },
     {
       "key": "check-in-and-get-the-boarding-pass",
@@ -484,13 +485,8 @@
           "outcome": "done"
         }
       ],
-      "runs": [
-        "tinynature-2026-09-11-156dff",
-        "town-2026-09-11-237d15",
-        "openinstinct-2026-09-11-ec9a9b",
-        "poke-2026-08-31-5ba195"
-      ],
-      "caveat": "Routines are where assistants fail most often in our tests: briefings that never arrive or arrive broken."
+      "caveat": "The benchmark's routine test is a 7am weekday briefing; this is where assistants fail most often.",
+      "benchmark_task": true
     },
     {
       "key": "triage-the-inbox",
@@ -538,7 +534,8 @@
       "prompt_source": "assumed",
       "added": "2026-09-14",
       "evidence": [],
-      "caveat": "This is the benchmark's email test; every tested assistant ran the same task."
+      "caveat": "The benchmark's email test; every tested assistant ran this exact job.",
+      "benchmark_task": true
     },
     {
       "key": "coordinate-a-meeting-in-a-group-chat",
@@ -556,7 +553,9 @@
           "note": "Scheduled a fairly complex meeting, kept everyone updated as things changed, all inside WhatsApp.",
           "outcome": "done"
         }
-      ]
+      ],
+      "benchmark_task": true,
+      "caveat": "The benchmark's group-chat test; many assistants can't join or start a group at all."
     },
     {
       "key": "add-events-from-anywhere",
@@ -608,7 +607,8 @@
           "outcome": "done"
         }
       ],
-      "caveat": "Read the phishing thread before granting any assistant inbox access."
+      "caveat": "The benchmark's permissions test checks whether an ask-first rule holds; read the phishing thread before granting inbox access.",
+      "benchmark_task": true
     },
     {
       "key": "reorder-a-product",
@@ -620,7 +620,8 @@
       "prompt_source": "assumed",
       "added": "2026-09-14",
       "evidence": [],
-      "caveat": "The benchmark's purchasing test; most assistants stall at a login or checkout."
+      "caveat": "The benchmark's purchasing test; most assistants stall at a login or at checkout.",
+      "benchmark_task": true
     },
     {
       "key": "send-same-day-flowers",
@@ -968,7 +969,9 @@
           "note": "As a test of the platform, the poster built a game where you combine wind, water, soil and fire to discover new materials.",
           "outcome": "done"
         }
-      ]
+      ],
+      "benchmark_task": true,
+      "caveat": "The benchmark's content test asks for a birthday image and a trivia round in the chat."
     },
     {
       "key": "build-decks-from-your-cards",
@@ -1053,7 +1056,8 @@
           "outcome": "done"
         }
       ],
-      "caveat": "Most assistants can't place calls yet; the tested row shows who can."
+      "caveat": "The benchmark's phone test asks for a real call to a restaurant; most assistants can't place calls yet.",
+      "benchmark_task": true
     },
     {
       "key": "paperwork-before-the-dmv",

@@ -651,7 +651,7 @@ function testedFor(entry: JobEntry): JobTested[] {
       if (!hit) continue;
       out.push({ agent: hit.agent, run: hit.run, via: 'run', href: hit.run.evidence_url ?? `/agents/${hit.agent.slug}` });
     }
-  } else if (entry.dimension) {
+  } else if (entry.dimension && entry.benchmark_task) {
     for (const hit of latest.get(entry.dimension) ?? []) {
       out.push({ agent: hit.agent, run: hit.run, via: 'dimension', href: hit.run.evidence_url ?? `/agents/${hit.agent.slug}` });
     }
@@ -753,4 +753,23 @@ export function rankJobs(jobs: Job[], votes: Record<string, number>, sort: JobSo
   if (sort === 'new') scored.sort((a, b) => b.added.localeCompare(a.added) || b.newest.localeCompare(a.newest) || a.title.localeCompare(b.title));
   else scored.sort((a, b) => b.score - a.score || b.engagement - a.engagement || a.title.localeCompare(b.title));
   return scored.map((j, i) => ({ ...j, rank: i + 1 }));
+}
+
+/** Case-insensitive match over the job's text, its assistants and its evidence notes. Every word must hit. */
+export function jobMatches(job: Job, query: string): boolean {
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = [
+    job.title,
+    job.one_liner,
+    job.prompt,
+    job.groupLabel,
+    job.dimension ? (CATEGORY_SHORT[job.dimension] ?? job.dimension) : '',
+    job.caveat ?? '',
+    ...job.agents.map(a => a.agent.name),
+    ...job.reported.map(r => `${r.note ?? ''} ${r.quote.author}`),
+  ]
+    .join(' ')
+    .toLowerCase();
+  return words.every(w => hay.includes(w));
 }

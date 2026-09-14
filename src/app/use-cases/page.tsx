@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { JobCard } from '@/components/JobCard';
 import { UseCaseFilters } from '@/components/UseCaseFilters';
-import { getJobGroups, getJobs, rankJobs } from '@/lib/data';
+import { getJobGroups, getJobs, jobMatches, rankJobs } from '@/lib/data';
 import { getVoteCounts } from '@/lib/votes';
 
 export const dynamic = 'force-dynamic';
@@ -18,7 +18,8 @@ export default async function UseCasesPage({ searchParams }: { searchParams: Pro
   const groups = getJobGroups();
   const group = typeof params.group === 'string' && groups.some(g => g.key === params.group) ? params.group : null;
   const sort = params.sort === 'new' ? 'new' : 'top';
-  const jobs = getJobs().filter(j => !group || j.group === group);
+  const q = typeof params.q === 'string' ? params.q.trim().slice(0, 80) : '';
+  const jobs = getJobs().filter(j => (!group || j.group === group) && jobMatches(j, q));
   const votes = await getVoteCounts(jobs.map(j => j.key));
   const ranked = rankJobs(jobs, votes, sort);
 
@@ -37,10 +38,10 @@ export default async function UseCasesPage({ searchParams }: { searchParams: Pro
         </Link>
       </div>
 
-      <UseCaseFilters groups={groups} group={group} sort={sort} />
+      <UseCaseFilters groups={groups} group={group} sort={sort} q={q} />
 
       {ranked.length === 0 ? (
-        <p className="empty-state">No use cases here yet.</p>
+        <p className="empty-state">{q ? `Nothing matches "${q}".` : 'No use cases here yet.'}</p>
       ) : (
         <ol className="uc-list">
           {ranked.map(job => (

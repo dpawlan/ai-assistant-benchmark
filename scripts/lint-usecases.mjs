@@ -7,7 +7,7 @@
  *
  * A job is a canonical task, not a post. Every evidence quote must exist in that agent's feedback.json and must not be
  * a founder, vendor or promo post; every run id must exist; a quote is evidence for exactly one job; and a job needs
- * evidence, explicit runs, or a dimension with at least one tested assistant. Errors block the build; warnings print.
+ * evidence, explicit runs, or `benchmark_task: true` on a dimension with tested assistants. Errors block the build; warnings print.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -114,9 +114,10 @@ export function lintAll(root = process.cwd()) {
       if (!runs.has(id)) errors.push(`${tag}: run "${id}" not found in any runs.json`);
       else liveRuns++;
     }
-    const viaDimension = job.dimension ? (testedByDimension.get(job.dimension)?.size ?? 0) : 0;
-    if (liveEvidence + liveRuns === 0 && viaDimension === 0) errors.push(`${tag}: needs evidence, runs, or a dimension with at least one tested assistant`);
-    if (job.dimension && !jobRuns.length && viaDimension === 0) warnings.push(`${tag}: dimension "${job.dimension}" has no tested assistants yet`);
+    const viaDimension = job.dimension && job.benchmark_task === true ? (testedByDimension.get(job.dimension)?.size ?? 0) : 0;
+    if (job.benchmark_task === true && !job.dimension) errors.push(`${tag}: benchmark_task needs a dimension`);
+    if (liveEvidence + liveRuns === 0 && viaDimension === 0) errors.push(`${tag}: needs evidence, explicit runs, or benchmark_task with a tested dimension`);
+    if (job.benchmark_task === true && jobRuns.length) warnings.push(`${tag}: benchmark_task is ignored while explicit runs are set`);
   }
   for (const g of groups) if (!usedGroups.has(g)) warnings.push(`group "${g}" has no jobs`);
   return { errors, warnings, jobs: (file.jobs ?? []).length };

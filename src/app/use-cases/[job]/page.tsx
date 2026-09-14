@@ -5,7 +5,7 @@ import { AgentIcon } from '@/components/AgentIcon';
 import { CopyPrompt } from '@/components/CopyPrompt';
 import { ScoreCell } from '@/components/ScoreCell';
 import { VoteButton } from '@/components/VoteButton';
-import { compact, shortDate } from '@/components/QuoteItem';
+import { QuoteItem, shortDate } from '@/components/QuoteItem';
 import { CATEGORY_SHORT, getJob } from '@/lib/data';
 import { getVoteCounts } from '@/lib/votes';
 
@@ -88,29 +88,19 @@ export default async function JobPage({ params }: { params: Promise<{ job: strin
         {job.reported.length === 0 ? (
           <p className="sub">No public posts about this job yet.</p>
         ) : (
-          <p className="sub">Public posts by people who had an assistant do this. One person&apos;s account each; tests are ours.</p>
+          <p className="sub">The posts this job came from, as written. Our one-line note sits above each; the words below are theirs.</p>
         )}
-        {job.reported.map(r => (
-          <div key={r.quote.id} className="job-row">
-            <AgentIcon name={r.agent.name} icon={r.agent.icon} size={32} />
-            <div className="job-row-body">
-              <Link href={`/agents/${r.agent.slug}`} className="job-row-name">
-                {r.agent.name}
-              </Link>{' '}
-              {r.outcome && <span className={`outcome ${r.outcome}`}>{OUTCOME_LABEL[r.outcome]}</span>}
-              {r.note && <div>{r.note}</div>}
-              <div className="job-row-line">
-                {r.quote.author} · {shortDate(r.quote.date)}
-                {r.engagement > 0 && ` · ${compact(r.quote.metrics?.likes ?? 0)} likes`}
-                {' · '}
-                <a href={r.quote.url} target="_blank" rel="noopener noreferrer">
-                  See the post
-                </a>
+        <div className="quote-list">
+          {job.reported.map(r => (
+            <div key={r.quote.id} className="job-post">
+              <div className="job-post-note">
+                {r.outcome && <span className={`outcome ${r.outcome}`}>{OUTCOME_LABEL[r.outcome]}</span>}
+                {r.note && <span>{r.note}</span>}
               </div>
+              <QuoteItem quote={r.quote} agent={r.agent} />
             </div>
-            <span />
-          </div>
-        ))}
+          ))}
+        </div>
       </section>
 
       {job.submitted_by && (

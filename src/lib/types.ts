@@ -274,8 +274,10 @@ export interface JobEntry {
   caveat?: string;
   added: string;
   evidence: JobEvidence[];
-  /** Explicit run ids that tested exactly this job. When empty, tested assistants come from `dimension`. */
+  /** Explicit run ids that tested exactly this job. */
   runs?: string[];
+  /** True when this job *is* the benchmark task for `dimension`: every assistant's latest run there counts as tested. */
+  benchmark_task?: boolean;
   submitted_by?: { handle: string; vendor: boolean };
 }
 

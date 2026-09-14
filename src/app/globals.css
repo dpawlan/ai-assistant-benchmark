@@ -3257,6 +3257,8 @@ a.chip.blue:hover {
 /* Use cases: one card per job */
 .q-stat { color: var(--text); font-weight: 500; }
 .uc-head-row { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.uc-search { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; }
+.uc-search .input { flex: 1 1 240px; max-width: 420px; }
 .uc-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 18px; }
 .uc-filters .sep { width: 1px; height: 18px; background: var(--line); margin: 0 4px; }
 .uc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
@@ -3277,7 +3279,7 @@ a.chip.blue:hover {
 .uc-logo.hollow { border-style: dashed; color: var(--sec); background: transparent; }
 .uc-logo.hollow .row-icon { opacity: 0.55; }
 .uc-logo .sc { height: 20px; min-width: 26px; font-size: 12px; padding: 0 6px; border-radius: 6px; }
-.uc-logo.more { background: var(--fill); border-color: transparent; color: var(--sec); padding: 3px 10px; }
+.uc-logo.uc-more { background: var(--fill); border-color: transparent; color: var(--sec); padding: 3px 10px; }
 .uc-prompt { position: relative; display: flex; flex-direction: column; gap: 3px; background: var(--fill); border-radius: 10px; padding: 10px 92px 10px 12px; max-width: 62ch; }
 .uc-prompt-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; color: var(--sec); }
 .uc-prompt-text { font-size: 14px; line-height: 1.4; white-space: pre-wrap; }
@@ -3285,6 +3287,11 @@ a.chip.blue:hover {
 .uc-copy:hover { border-color: var(--blue); color: var(--blue); }
 .uc-copy.done { color: var(--blue); border-color: transparent; background: var(--blue-09); }
 .uc-caveat { margin: 8px 0 0; font-size: 13px; color: var(--sec); }
+.uc-credit { margin: 8px 0 0; font-size: 13px; color: var(--sec); }
+.uc-credit a { color: var(--text); font-weight: 600; text-decoration: none; }
+.uc-credit a:hover { color: var(--blue); }
+.job-post { padding-top: 12px; }
+.job-post-note { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 14px; line-height: 1.45; margin: 0 0 6px 0; }
 .uc-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin-top: 10px; font-size: 13px; color: var(--sec); }
 .uc-meta a { color: var(--blue); text-decoration: none; }
 .uc-meta a:hover { text-decoration: underline; }

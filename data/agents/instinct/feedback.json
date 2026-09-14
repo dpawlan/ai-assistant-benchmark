@@ -3956,5 +3956,145 @@
     "source": "hn",
     "collected_at": "2026-09-11T14:00:42Z",
     "notes": "Show HN OpenInstinct motivation: love Instinct product, fear data footprint."
+  },
+  {
+    "id": "c9320edd55bc",
+    "agent": "instinct",
+    "quote": "I've used it every day for the last 7 days, and I'm highly, highly impressed.\n\nI started small: I gave it a card with a spending limit and asked it to book a haircut. Then it booked 3 dinner reservations.\n\nThen I asked it to sort my Indonesia visa and flights from Copenhagen to Bali.\n\nWhen I got to the passport gate in Bali, I scanned my passport with my fingers crossed, sweating, hoping I wasn't about to get deported.\n\nThe gate opened.\n\nThe arrival card asked which countries I'd visited in the previous 3 months, so Instinct pulled the answer from the Airbnb receipts in my email.\n\nI also tried sending Instinct the Cup Pong game in iMessage. It started versing me and won.",
+    "author": "Remy Gaskell",
+    "author_name": "Remy Gaskell",
+    "date": "2026-09-11",
+    "url": "https://aiwithremy.beehiiv.com/p/instinct-the-new-kid-on-the-block#week-one",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "blog",
+      "review",
+      "travel",
+      "booking"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Firsthand week-one review (Sep 11 newsletter); Bali visa/arrival card + bookings + Cup Pong. Unsponsored."
+  },
+  {
+    "id": "378d438ef7d6",
+    "agent": "instinct",
+    "quote": "Instinct is a personal-assistant agent you message on imessage like a person.\n\nIt's basically Openclaw for regular people.\n\nIt connects to your apps and devices, then uses a phone and computer to handle real-world jobs for you.\n\nWell done, Noah Shinn and the team. I can already see it filling the personal-assistant hole in my AI stack.",
+    "author": "Remy Gaskell",
+    "author_name": "Remy Gaskell",
+    "date": "2026-09-11",
+    "url": "https://aiwithremy.beehiiv.com/p/instinct-the-new-kid-on-the-block#verdict",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "blog",
+      "review"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Product framing + closing verdict from same Sep 11 newsletter."
+  },
+  {
+    "id": "eb342846ba0e",
+    "agent": "instinct",
+    "quote": "I downloaded the tool this week to test it out for myself. Using the bot feels a lot like texting an actual person. It uses emojis such as 🫡 and 👀to react to requests as it receives them, and the infamous three dots appear when it's writing a response. Sometimes, the bot even leaves you on read while it works. (Compare that with ChatGPT, which is always vomiting up walls of text and asking goading follow-up questions.) When I gave my agent a $25 budget and asked it to surprise my editor with a book, the bot read his previous writing (at my instruction), found a book he might enjoy— Material World by Ed Conway—and sent an email alerting him that it was ready for pick-up at his local Barnes & Noble. The bot also helped me find an Airbnb for an upcoming vacation, track down new in-network primary-care providers, and reach out to cleaning companies to get quotes for a friend.",
+    "author": "Lila Shroff",
+    "author_name": "Lila Shroff",
+    "date": "2026-09-13",
+    "url": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/#hands-on",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "press",
+      "review",
+      "booking"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Atlantic reporter firsthand hands-on with Instinct (Sep 13, 2026)."
+  },
+  {
+    "id": "4948722d660d",
+    "agent": "instinct",
+    "quote": "A colleague of mine who has also been testing out the bot used it to book tickets to a museum in Mexico City. The museum was sold out for the dates he wanted, but the bot dutifully monitored the portal for three days and eventually snagged tickets when spots freed up. After the bot paid for the tickets, it rearranged his itinerary—swapping around restaurant reservations—to account for the new schedule.",
+    "author": "Lila Shroff",
+    "author_name": "Lila Shroff",
+    "date": "2026-09-13",
+    "url": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/#museum",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "press",
+      "booking",
+      "travel"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Atlantic: colleague Instinct use-case (museum ticket monitoring + itinerary reshuffle)."
+  },
+  {
+    "id": "a3c5ada69fb5",
+    "agent": "instinct",
+    "quote": "Online, the mishaps are starting to pile up. One user recently complained on X that Instinct lost him more than $200 after it prematurely canceled his flight. He reported that the bot texted him the following: \"Straight story: while pulling up the cancel terms, the cancellation actually went through before I could show you the cost first.\" When a man in Los Angeles asked Instinct to scan for restaurant reservations for an upcoming trip, the bot apparently made a reservation without his approval at a place that charged a $200 cancellation fee. Another user temporarily lost access to his Resy account after trying to get a reservation at a hot West Village steak house— without his knowledge, the bot had been spamming the platform with requests.",
+    "author": "Lila Shroff",
+    "author_name": "Lila Shroff",
+    "date": "2026-09-13",
+    "url": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/#mishaps",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "press",
+      "complaint",
+      "booking",
+      "bug"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Atlantic roundup of Instinct user mishaps (flight cancel, unapproved Resy fee, Resy spam)."
+  },
+  {
+    "id": "2d05d61717b4",
+    "agent": "instinct",
+    "quote": "In one of the wildest Instinct examples that I encountered, Olivia Levine, an investor in New York, recounted using Instinct to track down footage of her and her boyfriend on the jumbotron at the US Open. As Levine tells it, the couple gave the bot a selfie and their seat numbers. The agent then put out a flurry of requests to the United States Tennis Association, the ticket office, the US Open's production company, and an American Express media contact. By the following afternoon, a producer had emailed her the footage.",
+    "author": "Olivia Levine",
+    "author_name": "Olivia Levine",
+    "date": "2026-09-13",
+    "url": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/#olivia-levine",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "press",
+      "use-case"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Named user anecdote via Atlantic (US Open jumbotron footage chase)."
+  },
+  {
+    "id": "74b1fe328534",
+    "agent": "instinct",
+    "quote": "When I asked it for help finding a new desk chair, Instinct quickly tracked down a great option nearby on Craigslist and drafted a pick-up request to send to the lister. But when it came time to actually send the message, the bot was stymied by a CAPTCHA. I asked the agent to try harder, but it was stuck. \"Nothing punctures the fantasy of autonomous intelligence like being defeated by nine blurry crosswalks,\" the bot messaged me.",
+    "author": "Lila Shroff",
+    "author_name": "Lila Shroff",
+    "date": "2026-09-13",
+    "url": "https://www.theatlantic.com/technology/2026/09/instinct-ai-personal-assistant-credit-card/688607/#captcha",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "web",
+      "press",
+      "bug",
+      "limitation"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-14T13:53:21.403Z",
+    "notes": "Atlantic hands-on: CAPTCHA failure + Instinct self-quote."
   }
 ]

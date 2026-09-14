@@ -14,8 +14,17 @@
     "category": "purchasing",
     "protocol": "task",
     "date": "2026-09-14",
-    "score": 6,
+    "score": 8,
     "outcome": "partial",
-    "notes": "Found three Stumptown NYC cafes including 18 W 29th near 800 6th Ave and offered to finish the order there, leaving Amazon aside."
+    "notes": "Linked a card and staged a Stumptown Hair Bender pickup at 18 W 29th St ready to buy with nothing charged."
+  },
+  {
+    "id": "asaply-2026-09-14-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Declined email replies as outside its coffee, food, and local-spots scope."
   }
 ]

@@ -26,5 +26,23 @@
     "score": 5,
     "outcome": "partial",
     "notes": "Returned fare search results and booking links for a New York–Chicago round trip but could not open checkout or hold tickets."
+  },
+  {
+    "id": "asmi-2026-09-14-email",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Drafted a reply declining Thursday and offering Friday slots in chat and held it for approval."
+  },
+  {
+    "id": "asmi-2026-09-14-recommendation",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Recommended The Dearborn, PLANTA, and avec with walk times, but PLANTA is a chain and a non-chain swap was not confirmed."
   }
 ]

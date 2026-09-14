@@ -2465,6 +2465,31 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "tasklet": {
+      "name": "Tasklet",
+      "handles": [
+        "taskletai"
+      ],
+      "domain": "tasklet.ai",
+      "x_queries": [
+        "\"tasklet.ai\"",
+        "@taskletai"
+      ],
+      "reddit_queries": [
+        "\"tasklet.ai\""
+      ],
+      "hn_queries": [
+        "\"tasklet.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tasklet.ai",
+        "@taskletai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only."
     }
   },
   "_redact_terms": [

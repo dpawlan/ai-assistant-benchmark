@@ -1561,6 +1561,162 @@
         ],
         "checked": "2026-09-09"
       }
+    },
+    {
+      "slug": "treasury",
+      "name": "Treasury",
+      "status": "stretch",
+      "site": "https://treasury.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Ask your money, anything",
+      "icon": "/logos/treasury.png",
+      "kind": "finance",
+      "access": {
+        "pricing": "paid",
+        "price": "$7.92/mo or $95/yr after a 14-day free trial",
+        "regions": "US (links US institutions via Plaid)",
+        "channels": [
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "status": "stretch",
+      "site": "https://agpt.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Stop building workflows. Start hiring agents.",
+      "icon": "/logos/autogpt.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted; cloud Pro $42.50/mo and Max $272/mo billed annually",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "dj-beebot",
+      "name": "DJ BeeBot",
+      "status": "confirmed",
+      "site": "https://hopscotchlabs.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your social audio guide to the city",
+      "icon": "/logos/dj-beebot.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free; text-message beta via an invite link, iOS app on the App Store",
+        "regions": "US only (per the site)",
+        "channels": [
+          "SMS",
+          "iOS app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "moldable",
+      "name": "Moldable",
+      "status": "stretch",
+      "site": "https://moldable.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Personal software, wherever you are",
+      "icon": "/logos/moldable.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "free",
+        "price": "Free to download; site says free with a ChatGPT subscription; 1 GB Drive sync free",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "iPhone app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "toyo",
+      "name": "Toyo",
+      "status": "confirmed",
+      "site": "https://toyo.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI assistant for busy teams",
+      "icon": "/logos/toyo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Solo $29/mo, Pro $79/mo, Teams custom; card required, refund within the first week",
+        "regions": "Not stated (data stored in US data centers)",
+        "channels": [
+          "Web app",
+          "Messages",
+          "Voice calls",
+          "Slack"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "loki",
+      "name": "Loki",
+      "status": "stretch",
+      "site": "https://loki.computer/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The agent that evolves with you",
+      "icon": "/logos/loki.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT-licensed; bring your own model key and server",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Discord",
+          "Slack",
+          "WhatsApp",
+          "Signal",
+          "Email",
+          "CLI",
+          "Desktop app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "bo",
+      "name": "Bo",
+      "status": "confirmed",
+      "site": "https://www.getbo.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A healthier life, only one text away.",
+      "icon": "/logos/bo.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated; early access open",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Companion app"
+        ],
+        "checked": "2026-09-14"
+      }
     }
   ]
 }

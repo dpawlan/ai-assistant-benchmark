@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-13",
-  "agent_count": 72,
-  "feedback_count": 5186,
+  "updated": "2026-09-14",
+  "agent_count": 71,
+  "feedback_count": 5150,
   "confirmed": 53,
-  "stretch": 19,
+  "stretch": 18,
   "agents": [
     {
       "slug": "aeon",
@@ -1338,28 +1338,6 @@
           "SMS"
         ],
         "checked": "2026-09-11"
-      }
-    },
-    {
-      "slug": "text-zero",
-      "name": "Text Zero",
-      "status": "stretch",
-      "site": "https://meetzero.ai/",
-      "feedback_count": 36,
-      "public_signal": "low",
-      "tagline": "24/7 concierge that runs your errands",
-      "icon": "/logos/text-zero.png",
-      "kind": "infra",
-      "access": {
-        "pricing": "waitlist",
-        "price": "Closed beta; ring on pre-order",
-        "regions": "Not stated",
-        "channels": [
-          "WhatsApp",
-          "Telegram",
-          "Ring"
-        ],
-        "checked": "2026-09-09"
       }
     },
     {

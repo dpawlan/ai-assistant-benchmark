@@ -98,5 +98,23 @@
     "score": 9,
     "outcome": "partial",
     "notes": "Said it can start a new iMessage group chat with the user and another person."
+  },
+  {
+    "id": "ollie-2026-09-14-proactive",
+    "category": "proactive_behavior",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged the unpaid travel plan and covered REAL ID, Terminal A, arrival time, boarding passes, weather, and the late reminder."
+  },
+  {
+    "id": "ollie-2026-09-14-restraint",
+    "category": "proactive_restraint",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Confirmed a clear verbal hold and will not follow up unless asked."
   }
 ]

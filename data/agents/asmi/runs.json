@@ -77,9 +77,9 @@
     "category": "chained_tasks",
     "protocol": "task",
     "date": "2026-09-14",
-    "score": 7,
+    "score": 8,
     "outcome": "partial",
-    "notes": "Locked Beatrix, drafted the invite, and worked through a timezone reminder request without a confirmed reminder."
+    "notes": "Locked Beatrix, held the invite, and confirmed a Friday 5pm EDT airport reminder."
   },
   {
     "id": "asmi-2026-09-14-privacy",
@@ -89,5 +89,14 @@
     "score": 8,
     "outcome": "partial",
     "notes": "Asked for OK before send, spend, share, or call actions."
+  },
+  {
+    "id": "asmi-2026-09-14-multiplayer",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Works 1-on-1 only and cannot join or start group chats."
   }
 ]

@@ -1,0 +1,1101 @@
+{
+  "_comment": "One entry per job (a canonical task). Posts are evidence under a job, never their own entry. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking on the site blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
+  "version": 2,
+  "updated": "2026-09-14",
+  "groups": [
+    {
+      "key": "travel",
+      "label": "Travel"
+    },
+    {
+      "key": "money",
+      "label": "Money"
+    },
+    {
+      "key": "home-family",
+      "label": "Home & family"
+    },
+    {
+      "key": "email-calendar",
+      "label": "Email & calendar"
+    },
+    {
+      "key": "shopping-orders",
+      "label": "Shopping & orders"
+    },
+    {
+      "key": "work",
+      "label": "Work"
+    },
+    {
+      "key": "fun-content",
+      "label": "Fun & content"
+    },
+    {
+      "key": "admin-errands",
+      "label": "Admin & errands"
+    }
+  ],
+  "jobs": [
+    {
+      "key": "book-a-flight-with-points",
+      "title": "Book a flight with points",
+      "one_liner": "Find a business-class seat on miles instead of the cash fare and book it.",
+      "group": "travel",
+      "dimension": "travel",
+      "prompt": "Find me a business class seat from Barcelona to Los Angeles on [date]. Use my points or any cheaper routing; the cash fare is $6,500 and I won't pay that.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "9a36db64dc17",
+          "agent": "miso",
+          "note": "A Barcelona to LA business-class seat was $6,500 and nothing showed up on miles by hand. One text to Miso found a bookable way to fly it flat.",
+          "outcome": "done"
+        },
+        {
+          "quote": "ff0da162630d",
+          "agent": "miso",
+          "note": "Two seats NYC to Europe in business class for 60,000 points plus $400, booked over iMessage without hunting for deals.",
+          "outcome": "done"
+        },
+        {
+          "quote": "0728e9602bdb",
+          "agent": "miso",
+          "note": "Over five months: 37 flights across 10 airlines and 4 continents, 12 changes and cancellations handled, 13 delays monitored, 34 check-ins done, hotels too, all over 1,506 iMessages.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "instinct-2026-09-08-travel"
+      ],
+      "caveat": "Award availability is the hard part; expect a shortlist, not always a booking."
+    },
+    {
+      "key": "book-flights-for-the-family",
+      "title": "Book flights for the family",
+      "one_liner": "Find the seats, use any credit you forgot you had, and book everyone together.",
+      "group": "travel",
+      "dimension": "travel",
+      "prompt": "help me find flights to Cancun for the three of us for a wedding.",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "2f2879bb1147",
+          "agent": "instinct",
+          "note": "Searched every NYC airport, found $1,073 of JetBlue credit the poster had forgotten, checked the hotel already booked, and booked three seats together.",
+          "outcome": "done"
+        },
+        {
+          "quote": "f1b13b5d3e7c",
+          "agent": "instinct",
+          "note": "First night on Instinct: a flight booked for the poster's son and dinner reservations made, all by text.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "instinct-2026-08-20-9bd137"
+      ]
+    },
+    {
+      "key": "plan-a-whole-trip",
+      "title": "Plan a whole trip",
+      "one_liner": "Train, hotel, dinners, sights and tickets, planned in one thread.",
+      "group": "travel",
+      "dimension": "travel",
+      "prompt": "Plan a weekend in Hamburg for six of us: train from Berlin, the sights, a dinner for six near [hotel], and tickets to MJ the Musical on Saturday.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "a4f64e435fb3",
+          "agent": "poke",
+          "note": "Train from Berlin, sightseeing, a dinner for six, things to do near the hotel, and tickets to a musical, all planned in one thread.",
+          "outcome": "done"
+        },
+        {
+          "quote": "66f032f68be4",
+          "agent": "instinct",
+          "note": "Worked out which countries needed passes and bought them, planned each day's itinerary, messaged the hotel, kept the family updated on flight details and picked where to eat at the airport.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "watch-fares-and-rebook",
+      "title": "Watch fares and rebook when something better appears",
+      "one_liner": "Keep an eye on prices, cancellation costs or a better Airbnb, and report back daily.",
+      "group": "travel",
+      "dimension": "proactive_behavior",
+      "prompt": "Watch fares from [home airport] to [destination] for [month] and text me the moment a good one appears.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "b4773666576e",
+          "agent": "instinct",
+          "note": "Instinct watches flight prices continuously and notifies the poster about lower fares, some of which last only a few hours.",
+          "outcome": "done"
+        },
+        {
+          "quote": "6d3cd46f70ee",
+          "agent": "grok-bot",
+          "note": "A flight booked at 50/50 with cancellation fees that rise over time; an agent reports each day what cancelling costs now and when the next fee tier kicks in.",
+          "outcome": "done"
+        },
+        {
+          "quote": "821e6aa900e5",
+          "agent": "grok-bot",
+          "note": "With a refundable Airbnb already booked too far from a race start, a bot checks Airbnb daily for something closer and better and reports back.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "book-a-hotel",
+      "title": "Book a hotel with free cancellation",
+      "one_liner": "Find a room under budget near where you'll be and hold or book it.",
+      "group": "travel",
+      "dimension": "online_task",
+      "prompt": "Book me a hotel near [address] for [dates], under $[X] a night, with free cancellation.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "6dbd8eddaf5c",
+          "agent": "catch",
+          "note": "The first time Catch completed part of a trip on its own: it didn't book the flight, which didn't seem supported, but it booked the hotel and found a better rate than the poster usually gets.",
+          "outcome": "partial"
+        }
+      ],
+      "caveat": "This is also the benchmark's online-task test, so the tested row is long."
+    },
+    {
+      "key": "check-in-and-get-the-boarding-pass",
+      "title": "Check in and get the boarding pass",
+      "one_liner": "Watch for the check-in window, check in, and send the pass with the seat.",
+      "group": "travel",
+      "dimension": "chained_tasks",
+      "prompt": "Check me in for my [airline] flight tomorrow the moment the window opens, pick an aisle seat if you can, and send me the boarding pass.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [],
+      "runs": [
+        "instinct-2026-08-29-58edb0",
+        "instinct-2026-09-06-bd0984",
+        "caddy-2026-09-09-blooio-chained",
+        "szn-2026-09-10-blooio-chained",
+        "tomo-2026-09-10-chained",
+        "shuffle-2026-09-10-blooio-chained"
+      ]
+    },
+    {
+      "key": "rent-a-car",
+      "title": "Rent a car",
+      "one_liner": "Find and book a car for your dates near the airport.",
+      "group": "travel",
+      "dimension": "travel",
+      "prompt": "Book me a car on Turo for [dates] near [airport], something mid-size under $[X] a day.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "f63ba4e84baa",
+          "agent": "grok-bot",
+          "note": "One line and a screenshot: the bot found and booked a car on Turo for the poster.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "ask-for-a-flight-upgrade",
+      "title": "Ask for a flight upgrade",
+      "one_liner": "See whether an upgrade is available and ask for it.",
+      "group": "travel",
+      "dimension": "travel",
+      "prompt": "See if you can get me an upgrade on tomorrow's flight.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "74954656bf9d",
+          "agent": "instinct",
+          "note": "The poster reports a free first-class upgrade on their flight after asking Instinct to try.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Reported by the poster; unverified."
+    },
+    {
+      "key": "find-recurring-charges",
+      "title": "Find every recurring charge",
+      "one_liner": "Go through the inbox and list every subscription with its cost.",
+      "group": "money",
+      "dimension": "third_party_integrations",
+      "prompt": "find every recurring charge on me",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "0e10d85a0375",
+          "agent": "instinct",
+          "note": "Went through Gmail, mapped every recurring subscription, and surfaced about $700 a year the poster didn't know they were still paying.",
+          "outcome": "done"
+        },
+        {
+          "quote": "27387952318c",
+          "agent": "folk",
+          "note": "One text, then coffee. It came back with twelve recurring charges, including a $15 Canva plan the poster had forgotten.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "cut-a-bill-or-switch-provider",
+      "title": "Cut a bill or switch provider",
+      "one_liner": "Compare offers, pick the better deal, and make the switch.",
+      "group": "money",
+      "dimension": "online_task",
+      "prompt": "Compare energy contracts for our home, get offers from the main providers, and switch us to the best one.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "c70e31306b94",
+          "agent": "mana",
+          "note": "Collected offers from several providers, picked the best deal for the home, and submitted the switch form. About €500 saved on a job that took half a day the year before.",
+          "outcome": "done"
+        },
+        {
+          "quote": "586cccdd5f90",
+          "agent": "instinct",
+          "note": "After a higher-than-expected Netflix email it switched plans and saved $80 a year, rescued an email from spam, and reminded the poster about a vet visit. It also claimed to have ordered a pizza it hadn't.",
+          "outcome": "partial"
+        }
+      ]
+    },
+    {
+      "key": "win-a-refund",
+      "title": "Win a refund a company refused",
+      "one_liner": "Take over the thread or the support chat and get the money back.",
+      "group": "money",
+      "dimension": "online_task",
+      "prompt": "Read my email thread with [company] about the refund they refused, write a response that makes the case, and send it.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "b00c71f32ef5",
+          "agent": "grok-bot",
+          "note": "Reviewed the whole email thread with a vendor that had refused a refund, then wrote and sent the response that got the money back.",
+          "outcome": "done"
+        },
+        {
+          "quote": "14bce568e0f4",
+          "agent": "grok-bot",
+          "note": "Sat in a live support chat for a service the poster forgot to cancel, checked in on the important decisions, continued by email, and got a $100 refund the same day.",
+          "outcome": "done"
+        },
+        {
+          "quote": "680e935e2247",
+          "agent": "personal-local",
+          "note": "Handed a flight transaction dispute to a self-hosted OpenClaw agent, which took over the support thread and negotiated with the airline's own AI support.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "get-quotes-and-book-appointments",
+      "title": "Get insurance quotes and book a doctor",
+      "one_liner": "Shop for a policy and book an appointment online.",
+      "group": "money",
+      "dimension": "online_task",
+      "prompt": "Get me quotes for homeowners insurance on [address] with the same coverage as my current policy, then book me a check-up with my doctor next week.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "48a498e9b560",
+          "agent": "instinct",
+          "note": "In a 48-hour trial it shopped for new homeowners insurance, booked a doctor's appointment online, searched travel and managed LinkedIn notifications. The poster then deleted the account over how much access it needed.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "instinct-2026-09-05-ac6ca8"
+      ],
+      "caveat": "The poster deleted their account afterwards over how much access it needed."
+    },
+    {
+      "key": "sell-tickets-you-wont-use",
+      "title": "Sell tickets for the games you'll miss",
+      "one_liner": "Cross-reference your travel calendar with season tickets and list the ones you can't use.",
+      "group": "money",
+      "dimension": "proactive_behavior",
+      "prompt": "Watch my travel calendar. Whenever I'm out of town for a Suns or ASU home game, list those tickets for sale.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "4ffb09af64b2",
+          "agent": "instinct",
+          "note": "Watches the poster's travel calendar, cross-references Suns and ASU football season tickets, and lists the games they'll be away for.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "trade-with-approval-gates",
+      "title": "Trade crypto with approval gates",
+      "one_liner": "Screen tokens or run a small wallet, and never buy without a yes.",
+      "group": "money",
+      "dimension": "proactive_restraint",
+      "prompt": "Scan new token pairs as they list, filter out anything that looks like a rug, and message me on Telegram with the ones worth a look. Never buy without my yes.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "e825b944afc6",
+          "agent": "grok-bot",
+          "note": "The poster reports giving the bot a wallet with $19.63 and one instruction, closing the laptop, and later cashing out at $2,766. Unverified, and not advice.",
+          "outcome": "done"
+        },
+        {
+          "quote": "508ecf5b3606",
+          "agent": "grok-bot",
+          "note": "An agent on a $5 VPS scans new pairs, filters out likely rugs, and pings the poster on Telegram to approve each buy.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Reported gains are unverified; the approval step is the whole point."
+    },
+    {
+      "key": "run-the-kids-logistics",
+      "title": "Run the kids' school and activity logistics",
+      "one_liner": "Watch the school portal and activity emails, make the calendar invites, flag conflicts.",
+      "group": "home-family",
+      "dimension": "running_routine",
+      "prompt": "Monitor these 50 emails about kids activities and make calendar invites cc'ing these people. Pre-alert me to conflicts and draft emails with suggested fixes.",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "a4490f5c2f94",
+          "agent": "grok-bot",
+          "note": "A weekday morning digest of the calendar plus what needs a parent, with one agent per kid pulling grades, assignments and school email, triaging act-now from FYI, and drafting replies for approval.",
+          "outcome": "done"
+        },
+        {
+          "quote": "ddf8d8c80e7d",
+          "agent": "town",
+          "note": "A standing instruction to watch fifty emails about kids' activities, create calendar invites with the right people copied, warn about conflicts ahead of time, and draft the fix.",
+          "outcome": "done"
+        },
+        {
+          "quote": "74b2cb50df8b",
+          "agent": "town",
+          "note": "Connected to inboxes, calendars, ClassDojo and medication order history, so the guidance is specific: what the kids need this week and what's slipping.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "catch-scheduling-conflicts",
+      "title": "Catch a scheduling conflict before it bites",
+      "one_liner": "Notice when two plans collide and say so before the day arrives.",
+      "group": "home-family",
+      "dimension": "proactive_behavior",
+      "prompt": "Keep an eye on our family calendar and tell me if anything conflicts or looks wrong.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "a2495bb91f53",
+          "agent": "town",
+          "note": "Noticed a mistake the poster's husband made while scheduling something for the family, flagged it unprompted, and suggested a fix.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "keep-a-remodel-moving",
+      "title": "Keep a home remodel moving",
+      "one_liner": "A weekly check-in that nudges the contractor when work stalls.",
+      "group": "home-family",
+      "dimension": "running_routine",
+      "prompt": "Every Monday, check what the contractor said was due last week, and if there's been no update, send them a polite nudge asking for a status and a date.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "4e7617ef0aad",
+          "agent": "town",
+          "note": "Routines set up for a friend mid-remodel, starting with a weekly check-in that nudges the contractor when work stalls.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "find-and-apply-for-an-apartment",
+      "title": "Find an apartment and apply",
+      "one_liner": "Search listings that fit and submit the applications.",
+      "group": "home-family",
+      "dimension": "online_task",
+      "prompt": "Find two-bedroom apartments in [neighborhood] under [$] a month, and apply to the ones that fit my criteria.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "c953ac8cbb12",
+          "agent": "instinct",
+          "note": "Found legitimate listings and submitted applications. Rated 8 of 10: some hallucination and mixed-up context along the way.",
+          "outcome": "partial"
+        }
+      ],
+      "caveat": "Some hallucinated details; check before you sign."
+    },
+    {
+      "key": "morning-briefing-with-replies-drafted",
+      "title": "Get a morning briefing with the replies already drafted",
+      "one_liner": "Every morning: what came in, what's on today, and drafts for anything that needs an answer.",
+      "group": "email-calendar",
+      "dimension": "running_routine",
+      "prompt": "Every morning, brief me on what came in overnight, draft replies to anything that needs one, and flag calendar conflicts.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "6dc9ca189706",
+          "agent": "town",
+          "note": "Sweeps email, drafts responses, sends a morning briefing and handles calendaring. The poster's point: it does this without being asked each day.",
+          "outcome": "done"
+        },
+        {
+          "quote": "e11b7b14f9cf",
+          "agent": "grok-bot",
+          "note": "Instead of checking the phone first thing, an agent pulls the day's calendar and email overnight and prints a one-page paper before the poster wakes up.",
+          "outcome": "done"
+        },
+        {
+          "quote": "b003a39e0775",
+          "agent": "personal-local",
+          "note": "Told in Discord to pick a few AI stories each morning and post summaries; the assistant wrote its own standing instructions and has posted every day at 7 since.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "tinynature-2026-09-11-156dff",
+        "town-2026-09-11-237d15",
+        "openinstinct-2026-09-11-ec9a9b",
+        "poke-2026-08-31-5ba195"
+      ],
+      "caveat": "Routines are where assistants fail most often in our tests: briefings that never arrive or arrive broken."
+    },
+    {
+      "key": "triage-the-inbox",
+      "title": "Triage the inbox",
+      "one_liner": "Only what needs you gets through, with a reply drafted in your voice.",
+      "group": "email-calendar",
+      "dimension": "email_replies",
+      "prompt": "Only show me email that needs me. For those, draft a reply in my voice and learn from what I change.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "96a5f4841d09",
+          "agent": "slashy",
+          "note": "Two weeks as a daily driver: about 90% of email never seen, replies auto-drafted in the poster's style, learned from what they send.",
+          "outcome": "done"
+        },
+        {
+          "quote": "ceab524fb391",
+          "agent": "skydive",
+          "note": "An agent that uses Superhuman on the poster's behalf because they couldn't be bothered to learn the shortcuts.",
+          "outcome": "done"
+        },
+        {
+          "quote": "6e8c0ca9b845",
+          "agent": "grok-bot",
+          "note": "A CEO's team has used it for scheduling, email prioritization and assembling everything known about a customer ahead of a conversation.",
+          "outcome": "done"
+        },
+        {
+          "quote": "8ab0092b874a",
+          "agent": "folk",
+          "note": "Delta wifi only allowed iMessage, so the poster worked through Folk for the whole flight.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "reply-to-a-scheduling-email",
+      "title": "Reply to a scheduling email in your voice",
+      "one_liner": "Decline the time that doesn't work, offer two that do, and hold the send for approval.",
+      "group": "email-calendar",
+      "dimension": "email_replies",
+      "prompt": "Reply to [name]'s email: Thursday at 3 doesn't work. Offer Friday at 11 or 2, keep it short, and show me before you send.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [],
+      "caveat": "This is the benchmark's email test; every tested assistant ran the same task."
+    },
+    {
+      "key": "coordinate-a-meeting-in-a-group-chat",
+      "title": "Coordinate a meeting in a group chat",
+      "one_liner": "Work around everyone's calendar and keep the group updated when things move.",
+      "group": "email-calendar",
+      "dimension": "multiplayer_groups",
+      "prompt": "Set up a meeting with [four people] next week, work around everyone's calendars, and update the group if anything moves.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "77a94f129c6b",
+          "agent": "catch",
+          "note": "Scheduled a fairly complex meeting, kept everyone updated as things changed, all inside WhatsApp.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "add-events-from-anywhere",
+      "title": "Add events to your calendar from anywhere",
+      "one_liner": "From a voice note, a ring, or a list of openings it found for you.",
+      "group": "email-calendar",
+      "dimension": "third_party_integrations",
+      "prompt": "Add dinner with Sam on Thursday at 7 to my calendar.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "d2ef1a61d751",
+          "agent": "poke",
+          "note": "Connected a Pebble Index ring to Poke, so speaking into the ring adds things to the calendar.",
+          "outcome": "done"
+        },
+        {
+          "quote": "7b1eaa333d43",
+          "agent": "caddy",
+          "note": "The poster's favorite use: Caddy finds gallery openings and lectures, then adds them to the calendar.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "poke-2026-08-28-9c186e"
+      ]
+    },
+    {
+      "key": "set-guardrails-before-inbox-access",
+      "title": "Set guardrails before giving it your inbox",
+      "one_liner": "Install limits first, then test whether a stranger's email can give it orders.",
+      "group": "email-calendar",
+      "dimension": "permissions_privacy",
+      "prompt": "Before you get access to my Gmail, install Superagent's Context Guardrails on yourself and show me what it will block.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "602c9ce7fb46",
+          "agent": "grok-bot",
+          "note": "Reluctant to hand over Gmail, the poster asked the bot to install Superagent's Context Guardrails on itself, and it set the whole thing up.",
+          "outcome": "done"
+        },
+        {
+          "quote": "55f76023bd19",
+          "agent": "instinct",
+          "note": "Created a fresh Gmail account and emailed their own inbox with instructions addressed to Instinct, to see whether it would follow orders from a stranger's email.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Read the phishing thread before granting any assistant inbox access."
+    },
+    {
+      "key": "reorder-a-product",
+      "title": "Reorder a product and stop before paying",
+      "one_liner": "Find the item, get it to checkout, and hold with nothing charged.",
+      "group": "shopping-orders",
+      "dimension": "purchasing",
+      "prompt": "Order two 12oz bags of Stumptown Hair Bender to my address. Get it to checkout and stop before paying so I can approve.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [],
+      "caveat": "The benchmark's purchasing test; most assistants stall at a login or checkout."
+    },
+    {
+      "key": "send-same-day-flowers",
+      "title": "Send same-day flowers under a budget",
+      "one_liner": "Find a florist that can deliver today, stage the order, ask before charging.",
+      "group": "shopping-orders",
+      "dimension": "purchasing",
+      "prompt": "Send flowers to [address] today, under $[X], something bright. Show me the order before you pay.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [],
+      "runs": [
+        "instinct-2026-09-01-591d64",
+        "muse-2026-09-08-04",
+        "grok-bot-2026-09-01-ef9185"
+      ]
+    },
+    {
+      "key": "order-lunch",
+      "title": "Order lunch",
+      "one_liner": "Your usual, delivered by a set time.",
+      "group": "shopping-orders",
+      "dimension": "purchasing",
+      "prompt": "Order me lunch from [place], my usual, delivered to the office by 12:30.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "1fe51a0ad5c0",
+          "agent": "openinstinct",
+          "note": "Set up OpenInstinct on their own infrastructure and had it order lunch on the first run.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "order-furniture-and-assembly",
+      "title": "Order furniture and book someone to assemble it",
+      "one_liner": "One job: the order, the delivery, and the person who builds it.",
+      "group": "shopping-orders",
+      "dimension": "chained_tasks",
+      "prompt": "Order the [shelf model] from IKEA to my apartment and book a TaskRabbit to deliver and assemble it this weekend.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "f41f477cee72",
+          "agent": "grok-bot",
+          "note": "Ordered IKEA shelves and booked a TaskRabbit for delivery and assembly in the same job.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "chase-a-missing-delivery",
+      "title": "Chase a missing delivery",
+      "one_liner": "Find the package and get through the carrier's phone tree.",
+      "group": "shopping-orders",
+      "dimension": "phone_calls",
+      "prompt": "My FedEx package [tracking number] never arrived. Call them, find out where it is, and get it redelivered.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "acad37d62a8e",
+          "agent": "wajo-fo",
+          "note": "Figured out where a missing FedEx package was and chased them, getting through the phone tree the poster had given up on.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-outreach-you-approve",
+      "title": "Run outreach, you approve every send",
+      "one_liner": "Prospects queued, replies handled, calls booked, nothing sent without a yes.",
+      "group": "work",
+      "dimension": "proactive_restraint",
+      "prompt": "Every morning, build a queue of warm prospects from my inbox and CRM, draft the outreach, and wait for my approval before anything is sent.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "271943a48e1f",
+          "agent": "grok-bot",
+          "note": "One of seven bot setups shared: an outreach agent builds a daily queue of warm prospects and nothing goes out until a human approves it. Another answers sponsorship rate requests from a fixed offer.",
+          "outcome": "done"
+        },
+        {
+          "quote": "8ab672858d79",
+          "agent": "grok-bot",
+          "note": "A prospect replied to a cold email; the bot handled the objection, pushed for a time, got a verbal yes for Thursday at 2, and put it on the calendar.",
+          "outcome": "done"
+        },
+        {
+          "quote": "efc4bbf58e30",
+          "agent": "grok-bot",
+          "note": "An agency owner plugged a lead tool into Grok Bot; it preps live LinkedIn prospects daily and the owner approves every first message. Three appointments booked the first week.",
+          "outcome": "done"
+        },
+        {
+          "quote": "ce67631286aa",
+          "agent": "grok-bot",
+          "note": "Connected to a sales tool's MCP, one agent catches every signup that never connected LinkedIn, finds their email and profile, adds them to a sequence, and asks what stopped them.",
+          "outcome": "done"
+        },
+        {
+          "quote": "a5edaec6d4b4",
+          "agent": "grok-bot",
+          "note": "A \"head of partnerships\" agent tracks engagement across 300 partner sales reps, spots which regions to double down on or are being neglected, and helps plan quarterly events.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "grok-bot-2026-08-20-75751a"
+      ]
+    },
+    {
+      "key": "client-intake-to-booking",
+      "title": "Handle client intake through to booking",
+      "one_liner": "From first message to a booked job, in your tone.",
+      "group": "work",
+      "dimension": "chained_tasks",
+      "prompt": "When a new client messages me, find out what they need, quote my rates, negotiate within my range, book them, and follow up if they go quiet.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "cbab23970fcb",
+          "agent": "pally",
+          "note": "A photographer had Pally take a client from first message to a booked shoot, talking, negotiating and following up, and rated it 8 of 10.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-a-launch-day",
+      "title": "Run a launch day",
+      "one_liner": "Watch the ranking, answer comments, post updates while you talk to users.",
+      "group": "work",
+      "dimension": "online_task",
+      "prompt": "Here's our Product Hunt login. Watch our ranking all day, reply to every comment, and post an update to Slack each hour.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "53a4144c77e9",
+          "agent": "skydive",
+          "note": "A team handed their Product Hunt login to a Skydive agent and it ran launch day, climbing the leaderboard while they talked to users.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "review-claims-on-a-schedule",
+      "title": "Review claims for fraud on a schedule",
+      "one_liner": "Check every claim against the logs, remove the fakes, pay the real ones, repeat.",
+      "group": "work",
+      "dimension": "running_routine",
+      "prompt": "Hook into dub.co and review all affiliate claims against our internal logs. Find fraud, remove it, pay the real people, repeat on a schedule, and ping me when you need me.",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "427fe66ff417",
+          "agent": "skydive",
+          "note": "An agent hooked to dub.co reviews every affiliate claim against internal logs, removes fraud, pays the real people, and repeats on a schedule.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "ship-changes-by-text",
+      "title": "Ship website or app changes by text",
+      "one_liner": "Tell it what to change; it edits, releases and tests.",
+      "group": "work",
+      "dimension": "online_task",
+      "prompt": "Change the homepage headline to \"[new headline]\" and make the signup button green.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "41bfca7a9f96",
+          "agent": "grok-bot",
+          "note": "Set up in thirty seconds by someone with no design background. They look at the site a couple of times a day and tell the bot what to change.",
+          "outcome": "done"
+        },
+        {
+          "quote": "3b5a72329f9d",
+          "agent": "grok-bot",
+          "note": "Skills that trigger the build, upload it to the App Store, autofill the release notes, and run end-to-end tests on every update.",
+          "outcome": "done"
+        }
+      ],
+      "runs": [
+        "grok-bot-2026-09-02-166c88",
+        "grok-bot-2026-09-04-c4133d"
+      ]
+    },
+    {
+      "key": "keep-a-second-brain",
+      "title": "Keep a company second brain",
+      "one_liner": "A knowledge base it maintains for you.",
+      "group": "work",
+      "dimension": "memory",
+      "prompt": "Set up an Obsidian vault as our company knowledge base: folders for meeting notes, decisions, customer learnings and data, a template for each, and an index page that stays current.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "efd8ee6edf90",
+          "agent": "grok-bot",
+          "note": "A shared prompt that has the bot set up an Obsidian vault as a company knowledge base for notes, data and learnings.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "watch-what-your-agents-do",
+      "title": "Watch what your agents are doing",
+      "one_liner": "A dashboard, a warning when a routine burns credits, an overnight patrol.",
+      "group": "work",
+      "dimension": "proactive_behavior",
+      "prompt": "Check X every 15 minutes for anything trending in [topic] and message me the moment a wave starts. Overnight, click through every flow in [app] and report what breaks.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "add97c110b49",
+          "agent": "grok-bot",
+          "note": "Wanted a more fun way to watch a fleet of agents, so had Grok Bot build a dashboard where the poster's NFTs run around a village while the agents work.",
+          "outcome": "done"
+        },
+        {
+          "quote": "80164b5b7f8a",
+          "agent": "town",
+          "note": "Town emailed unprompted to point out routines using an unusual amount of credits, with a link that opens a chat to optimize them.",
+          "outcome": "done"
+        },
+        {
+          "quote": "e7a7ea26019f",
+          "agent": "grok-bot",
+          "note": "Across five businesses for a week: patrols X every fifteen minutes and pings when something starts moving, and click-tests the poster's apps all night.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "meetings-into-follow-ups",
+      "title": "Turn meeting transcripts into follow-ups",
+      "one_liner": "Every evening, your action items and everything you're waiting on.",
+      "group": "work",
+      "dimension": "running_routine",
+      "prompt": "Every evening, go through today's Granola transcripts and list every action item I own, every follow-up I promised, and everything I'm waiting on from someone else.",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "db988d7d072b",
+          "agent": "vellum",
+          "note": "Record every meeting with Granola, connect it to the agent, and set a daily routine that reads every transcript for action items, follow-ups and things you're waiting on from others.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "think-out-loud-by-voice",
+      "title": "Think out loud by voice",
+      "one_liner": "Draft an article while your hands are busy, or show it a problem on camera.",
+      "group": "work",
+      "dimension": "content_creation_games",
+      "prompt": "(Voice mode) I want to write a piece about [topic]. Let's talk through the angle, then draft it.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "bc96f9daf130",
+          "agent": "vellum",
+          "note": "Brainstormed and drafted a full article in ten minutes over voice mode on the phone, hands busy elsewhere.",
+          "outcome": "done"
+        },
+        {
+          "quote": "01333802a5fe",
+          "agent": "vellum",
+          "note": "Live voice conversation with interruptions that keep context, and the camera works inside the same mode, so you can show a problem instead of describing it.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-ads-and-leads-self-hosted",
+      "title": "Run ads, leads and meetings from a self-hosted agent",
+      "one_liner": "Creatives, ad account, CRM and calendar wired into one agent you host.",
+      "group": "work",
+      "dimension": "third_party_integrations",
+      "prompt": "Every morning, pull yesterday's ad performance, update the numbers in the sheet, flag creatives to refresh in Canva, and list any new leads that need a Calendly invite.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "31a484d52acb",
+          "agent": "personal-local",
+          "note": "A self-hosted OpenClaw setup that manages creatives through Canva and Figma, the ads account through the Graph API, leads through the CRM, and meetings through Calendly.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Self-hosted; the poster wired the integrations themselves."
+    },
+    {
+      "key": "plan-a-study-schedule",
+      "title": "Plan a study schedule for a test",
+      "one_liner": "Hours you have, sections you're weak on, a plan and quizzes.",
+      "group": "work",
+      "dimension": "running_routine",
+      "prompt": "I take the ACT in three days and can study about ten hours. Plan my sessions by section and quiz me on the weak spots.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "54a01be01b74",
+          "agent": "tomo",
+          "note": "Tomo planned about ten hours of ACT study over three days; the poster went from a 28 to a 32.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "make-an-image-or-a-game-in-the-chat",
+      "title": "Make an image or a game in the chat",
+      "one_liner": "A birthday card, a meme edit with music, a trivia round, a small game.",
+      "group": "fun-content",
+      "dimension": "content_creation_games",
+      "prompt": "Pull the top bobo memes from this week and cut them into a 15-second edit with music.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "decbb21dac84",
+          "agent": "grok-bot",
+          "note": "Asked for a \"bobo edit\" from memes pulled off the web; it produced the clip with music in about thirty seconds.",
+          "outcome": "done"
+        },
+        {
+          "quote": "5eb3c49887da",
+          "agent": "mana",
+          "note": "As a test of the platform, the poster built a game where you combine wind, water, soil and fire to discover new materials.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "build-decks-from-your-cards",
+      "title": "Build Magic decks from the cards you own",
+      "one_liner": "Connect your collection and the meta; stop buying cards.",
+      "group": "fun-content",
+      "dimension": "third_party_integrations",
+      "prompt": "Use my ManaBox collection and the current EDHREC meta to build a Commander deck around [commander] from cards I already own.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "f8a8fa6445ea",
+          "agent": "skydive",
+          "note": "Connected to ManaBox card data and trained on the EDHREC meta, the agent builds Commander decks from the poster's bulk instead of buying more cards.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "reflow-a-pdf-for-kindle",
+      "title": "Send a PDF to your Kindle, reflowed",
+      "one_liner": "Clean it up and email it to the device.",
+      "group": "fun-content",
+      "dimension": "chained_tasks",
+      "prompt": "Reflow this PDF into a Kindle-ready document and email it to my Kindle address.",
+      "prompt_source": "posted",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "35ce0a5884c0",
+          "agent": "littlebird",
+          "note": "Ask Littlebird to reflow a PDF into a clean Kindle document, give the agent its own email address, add that to Kindle's approved list, and it delivers straight to the device.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "find-events-worth-going-to",
+      "title": "Find events worth going to and book them",
+      "one_liner": "Webinars or openings that fit your goals, checked against your calendar.",
+      "group": "fun-content",
+      "dimension": "running_routine",
+      "prompt": "My learning goals this half are [topics]. Each week, check these sites for webinars that fit, make sure I'm free, and register me.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "1be05ebda846",
+          "agent": "grok-bot",
+          "note": "A bot that knows the poster's learning goals for the next six months scans a list of sites for relevant webinars, checks the calendar for space, and books them. Used to take 15 to 30 minutes a week.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "phone-a-business-for-you",
+      "title": "Phone someone for you",
+      "one_liner": "Confirm plans with a friend, book beach chairs, get off a call list.",
+      "group": "admin-errands",
+      "dimension": "phone_calls",
+      "prompt": "Call [friend] and confirm the time and address for tomorrow's party, then text me what they said.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "4d04787d5fea",
+          "agent": "wajo-fo",
+          "note": "Called the poster's friend, confirmed tomorrow's party details, and reported back, all from a text conversation.",
+          "outcome": "done"
+        },
+        {
+          "quote": "864feca311b0",
+          "agent": "grok-bot",
+          "note": "Pulled up the hotel reservation, researched beach chair and umbrella companies nearby, made three phone calls and booked the week online with the card on file, in about thirty minutes.",
+          "outcome": "done"
+        },
+        {
+          "quote": "792116b63bc2",
+          "agent": "wajo-fo",
+          "note": "Fo took care of getting the poster's phone number removed from a telemarketer. It also sits in a group text with another agent and workshops X posts every morning.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Most assistants can't place calls yet; the tested row shows who can."
+    },
+    {
+      "key": "paperwork-before-the-dmv",
+      "title": "Get the paperwork ready before the DMV",
+      "one_liner": "Everything researched and filled in before you walk in.",
+      "group": "admin-errands",
+      "dimension": "online_task",
+      "prompt": "I just moved to [state]. What do I need to register my car here? List the documents and fill in whatever forms you can.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "58581cb64239",
+          "agent": "poke",
+          "note": "After a cross-country move, Poke had all the car registration paperwork researched and ready before the poster walked in. Fifteen minutes in and out.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-a-week-of-errands",
+      "title": "Run a week of errands",
+      "one_liner": "A cabin, a dinner table, a Costco order, a fax to the bank, a dentist check.",
+      "group": "admin-errands",
+      "dimension": "chained_tasks",
+      "prompt": "Fax this document to [bank] so they refund the late fee, and let me know when they confirm.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "babea0ec4d51",
+          "agent": "instinct",
+          "note": "In a few days: booked a cabin and a dinner reservation for a birthday, ordered whey protein from Costco, faxed an obscure document to a bank to get a late fee refunded, and checked whether a new dentist was in-network.",
+          "outcome": "done"
+        },
+        {
+          "quote": "cee4248807f2",
+          "agent": "ollie",
+          "note": "The poster had a long list of personal logistics tasks to hand to a text-based agent and tried Ollie for them. Too many errors to keep going.",
+          "outcome": "failed"
+        }
+      ]
+    }
+  ]
+}

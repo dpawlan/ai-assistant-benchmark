@@ -243,3 +243,45 @@ export interface Agent {
   feedback?: Feedback[];
   summary?: string;
 }
+
+/* ---------- Use cases (data/jobs.json) ---------- */
+
+export type PromptSource = 'posted' | 'assumed';
+export type EvidenceOutcome = 'done' | 'partial' | 'failed';
+
+export interface JobGroup {
+  key: string;
+  label: string;
+}
+
+/** A public post that shows someone having an assistant do this job. The quote itself lives in feedback.json. */
+export interface JobEvidence {
+  quote: string;
+  agent: string;
+  note?: string;
+  outcome?: EvidenceOutcome;
+}
+
+/** One entry in data/jobs.json: a canonical task, not a post. */
+export interface JobEntry {
+  key: string;
+  title: string;
+  one_liner: string;
+  group: string;
+  dimension?: string;
+  prompt: string;
+  prompt_source: PromptSource;
+  caveat?: string;
+  added: string;
+  evidence: JobEvidence[];
+  /** Explicit run ids that tested exactly this job. When empty, tested assistants come from `dimension`. */
+  runs?: string[];
+  submitted_by?: { handle: string; vendor: boolean };
+}
+
+export interface JobsFile {
+  version: 2;
+  updated: string;
+  groups: JobGroup[];
+  jobs: JobEntry[];
+}

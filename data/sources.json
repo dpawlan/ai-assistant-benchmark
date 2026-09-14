@@ -29,18 +29,12 @@
       "ph_slug": null,
       "match": [
         "withako.com",
-        "@withako",
         "@with_ako",
-        "withako",
-        "with_ako",
-        "ako ai",
-        "ako assistant",
-        "ako agent",
-        "akoai",
-        "ako.ai",
-        "akoapp"
+        "@withako",
+        "withako"
       ],
-      "imessage_handles": []
+      "imessage_handles": [],
+      "_note": " \"ako\" is Tagalog/Slovak for I/as: match only on withako."
     },
     "asaply": {
       "name": "Asaply",

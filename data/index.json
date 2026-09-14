@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-14",
   "agent_count": 71,
-  "feedback_count": 5191,
+  "feedback_count": 5194,
   "confirmed": 53,
   "stretch": 18,
   "agents": [
@@ -161,7 +161,7 @@
       "name": "Boski",
       "status": "confirmed",
       "site": "https://boski.com/",
-      "feedback_count": 0,
+      "feedback_count": 3,
       "public_signal": "low",
       "tagline": "Get closer to your goals every day",
       "icon": "/logos/boski.png",

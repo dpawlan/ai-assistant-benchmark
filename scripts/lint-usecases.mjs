@@ -6,7 +6,7 @@
  *   npm run lint:usecases
  *
  * A job is a canonical task, not a post. Every evidence quote must exist in that agent's feedback.json and must not be
- * a founder, vendor or promo post; every run id must exist; a quote is evidence for exactly one job; and a job needs
+ * a founder, vendor or promo post; every run id must exist; a quote reused across jobs only warns (roundup posts); and a job needs
  * evidence, explicit runs, or `benchmark_task: true` on a dimension with tested assistants. Errors block the build; warnings print.
  */
 import fs from 'node:fs';
@@ -97,10 +97,11 @@ export function lintAll(root = process.cwd()) {
         errors.push(`${tag}: evidence quote ${pair} not found in feedback.json`);
         continue;
       }
-      if ((q.tags ?? []).some(t => EXCLUDED_TAGS.has(t))) errors.push(`${tag}: evidence ${pair} is a founder/vendor/promo post`);
+      // The site owner's own posts are excluded from opinion but may stand as evidence; they render with his handle.
+      if (q.source !== 'david-post' && (q.tags ?? []).some(t => EXCLUDED_TAGS.has(t))) errors.push(`${tag}: evidence ${pair} is a founder/vendor/promo post`);
       else liveEvidence++;
       const owner = quoteOwner.get(pair);
-      if (owner && owner !== job.key) errors.push(`${tag}: quote ${pair} is already evidence for job ${owner}`);
+      if (owner && owner !== job.key) warnings.push(`${tag}: quote ${pair} is also evidence for job ${owner} (fine for roundup posts)`);
       quoteOwner.set(pair, job.key);
       if (e.outcome && !OUTCOMES.has(e.outcome)) errors.push(`${tag}: outcome "${e.outcome}" must be done|partial|failed`);
       if (e.note && e.note.length > 220) warnings.push(`${tag}: note for ${pair} over 220 chars`);

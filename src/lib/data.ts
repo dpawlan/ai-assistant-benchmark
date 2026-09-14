@@ -634,7 +634,8 @@ function rawQuotes() {
   for (const entry of getRoster()) {
     const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
     for (const quote of readJson<Feedback[]>(path.join(DATA_DIR, 'agents', entry.slug, 'feedback.json')) ?? []) {
-      if (isFounderPost(quote)) continue;
+      // Founder/vendor/promo posts never count; the site owner's own posts may stand as evidence (never as opinion).
+      if (isFounderPost(quote) && quote.source !== 'david-post') continue;
       map.set(`${entry.slug}/${quote.id}`, { agent, quote });
     }
   }

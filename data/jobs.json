@@ -187,6 +187,12 @@
           "agent": "soar",
           "note": "Reminded the poster to check in for a flight they would otherwise have forgotten.",
           "outcome": "done"
+        },
+        {
+          "quote": "310601343781",
+          "agent": "instinct",
+          "note": "Top use case from the Instinct power-user group chat: checking in for flights and moving your seat.",
+          "outcome": "done"
         }
       ],
       "runs": [
@@ -626,7 +632,14 @@
       "prompt": "Order two 12oz bags of Stumptown Hair Bender to my address. Get it to checkout and stop before paying so I can approve.",
       "prompt_source": "assumed",
       "added": "2026-09-14",
-      "evidence": [],
+      "evidence": [
+        {
+          "quote": "310601343781",
+          "agent": "instinct",
+          "note": "Amazon flowers and repeat orders work for most in the group chat, though some said Amazon failed for them.",
+          "outcome": "partial"
+        }
+      ],
       "caveat": "The benchmark's purchasing test; most assistants stall at a login or at checkout.",
       "benchmark_task": true
     },
@@ -1126,6 +1139,25 @@
         }
       ],
       "caveat": "The poster still spent an hour fixing uploads, file formats and gaps; roughly 70% done by the assistant."
+    },
+    {
+      "key": "buy-a-clothing-drop",
+      "title": "Buy a clothing drop",
+      "one_liner": "Grab a limited release the moment it goes live, card already on file.",
+      "group": "shopping-orders",
+      "dimension": "purchasing",
+      "prompt": "The [brand] drop goes live at 10am. Buy the [item] in size [M] the moment it opens, with my vaulted card. Ping me when it is confirmed.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "310601343781",
+          "agent": "instinct",
+          "note": "Clothing drops work, per the group chat, but budget time: it was slow.",
+          "outcome": "partial"
+        }
+      ],
+      "caveat": "Reported as working but slow; most people used a vaulted card rather than Link."
     }
   ]
 }

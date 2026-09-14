@@ -1536,7 +1536,7 @@
     "author_name": "GrandNarrative",
     "date": "2026-09-13",
     "url": "https://x.com/grandnarrativ3/status/2098971546169577695",
-    "kind": "other",
+    "kind": "bug",
     "tags": [
       "auto",
       "x",
@@ -1544,7 +1544,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 231,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "d39e9582580e",
@@ -1562,7 +1569,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "7ece7d548c3f",
@@ -1572,7 +1586,7 @@
     "author_name": "Radha S Jagarlamudi",
     "date": "2026-09-12",
     "url": "https://x.com/rsjagarlamudi/status/2098911151216353400",
-    "kind": "other",
+    "kind": "bug",
     "tags": [
       "auto",
       "x",
@@ -1580,7 +1594,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "90bf7e18dd4c",
@@ -1590,14 +1611,21 @@
     "author_name": "Annie Hu",
     "date": "2026-09-12",
     "url": "https://x.com/anniehu824/status/2098898238451732582",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "1ac6bdbd34ef",
@@ -1615,7 +1643,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 54,
+      "reposts": 5,
+      "replies": 10,
+      "views": 12024,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5b3e1c7be472",
@@ -1633,7 +1668,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 85,
+      "reposts": 5,
+      "replies": 13,
+      "views": 12395,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "d3a9be5ffbe2",
@@ -1643,14 +1685,21 @@
     "author_name": "Ömer Hamid Kamışlı 🇹🇷",
     "date": "2026-09-12",
     "url": "https://x.com/ohkamisli/status/2098819136180916675",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 3,
+      "views": 858,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "416d49aea000",
@@ -1668,7 +1717,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "47cb2c7c7a82",
@@ -1685,7 +1741,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 36,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "7fa37c69b107",
@@ -1703,7 +1766,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.451Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "92a4a162a058",
@@ -1721,7 +1791,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5957a2342e35",
@@ -1739,7 +1816,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 25,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b2fc7d92ef38",
@@ -1756,7 +1840,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 3,
+      "views": 108,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "37029c550171",
@@ -1773,7 +1864,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 47,
+      "reposts": 7,
+      "replies": 4,
+      "views": 51412,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "0389a64a4e31",
@@ -1791,7 +1889,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 78,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "6a09ec9d978b",
@@ -1801,14 +1906,21 @@
     "author_name": "Dumb Money",
     "date": "2026-09-10",
     "url": "https://x.com/MattMahler5/status/2098178217819668487",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 75,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "3d38f255139b",
@@ -1818,14 +1930,21 @@
     "author_name": "jake",
     "date": "2026-09-10",
     "url": "https://x.com/kyfriedfella/status/2098168613538877512",
-    "kind": "other",
+    "kind": "praise",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 235,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "de47aebcfa1f",
@@ -1843,7 +1962,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:03.452Z",
-    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "8c5f7ac6dd53",
@@ -1861,7 +1987,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "436175b3122d",
@@ -1878,7 +2011,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "views": 105,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e5452f1cdb72",
@@ -1896,7 +2036,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "c1478dadfc40",
@@ -1914,7 +2061,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "f56b39c5e879",
@@ -1931,7 +2085,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 119,
+      "reposts": 7,
+      "replies": 15,
+      "views": 10514,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b8f037abef90",
@@ -1948,7 +2109,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 761,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "44c7fa539fad",
@@ -1966,7 +2134,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 38,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b2dc9dfbf63b",
@@ -1976,14 +2151,21 @@
     "author_name": "ankitpatel.eth",
     "date": "2026-09-14",
     "url": "https://x.com/GrowthSumarai/status/2099304230536323096",
-    "kind": "other",
+    "kind": "comparison",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 132,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "7e8d94070a99",
@@ -1993,14 +2175,21 @@
     "author_name": "kottley🦬",
     "date": "2026-09-13",
     "url": "https://x.com/kottley/status/2099237973057233251",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "9f525940062d",
@@ -2017,7 +2206,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "63ef073553df",
@@ -2034,7 +2230,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "843554dfcd02",
@@ -2052,7 +2255,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "a591d0678462",
@@ -2070,7 +2280,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 112,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "3c4e016231c5",
@@ -2080,14 +2297,21 @@
     "author_name": "Dhruv Arya",
     "date": "2026-09-13",
     "url": "https://x.com/dhruv_arya/status/2099140450426982773",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 46,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5df54d221ccf",
@@ -2105,7 +2329,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "42a278dcdb46",
@@ -2115,13 +2346,20 @@
     "author_name": "raunaq",
     "date": "2026-09-13",
     "url": "https://x.com/raunaqbn/status/2099022986980606454",
-    "kind": "other",
+    "kind": "use-case",
     "tags": [
       "auto",
       "x"
     ],
     "source": "x",
     "collected_at": "2026-09-14T19:02:22.380Z",
-    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets"
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 142,
+      "fetched": "2026-09-14"
+    }
   }
 ]

@@ -1158,6 +1158,42 @@
         }
       ],
       "caveat": "Reported as working but slow; most people used a vaulted card rather than Link."
+    },
+    {
+      "key": "build-a-tracker-or-page-by-describing-it",
+      "title": "Build a tracker or a page by describing it",
+      "one_liner": "A food tracker, a net-worth tracker, a try-on page for your wardrobe, from one sentence.",
+      "group": "fun-content",
+      "dimension": "content_creation_games",
+      "prompt": "Build me a personal [food / net worth] tracker: find my existing data, set up a page I can open on my phone, and keep my login in your vault.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "d3a9be5ffbe2",
+          "agent": "muse",
+          "note": "From one sentence it found the poster's GitHub repo, mapped the hidden API behind their food tracker, put the password in a vault, and then wrote the article about it.",
+          "outcome": "done"
+        },
+        {
+          "quote": "90bf7e18dd4c",
+          "agent": "muse",
+          "note": "Built a finance and net-worth tracker in a Muse space, plus a demo space and the prompt to recreate it.",
+          "outcome": "done"
+        },
+        {
+          "quote": "42a278dcdb46",
+          "agent": "muse",
+          "note": "A \"try on\" page for clothes shopping that became a September collection.",
+          "outcome": "done"
+        },
+        {
+          "quote": "7e8d94070a99",
+          "agent": "muse",
+          "note": "Another website built with Muse's help.",
+          "outcome": "done"
+        }
+      ]
     }
   ]
 }

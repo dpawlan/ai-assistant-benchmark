@@ -571,9 +571,10 @@
         "misoapp"
       ],
       "imessage_handles": [
+        "+14154207960",
         "+14158910007"
       ],
-      "_note": " iMessage thread is +14158910007 (David, 2026-09-14); the earlier +16504054503 was wrong and exported nothing."
+      "_note": "Added 2026-09-08. iMessage: +14154207960 is the thread discover found (22 msgs); +14158910007 kept in case a second thread appears. Miso uses Apple Messages for Business, so a urn:biz handle may also exist."
     },
     "moves": {
       "name": "Moves",

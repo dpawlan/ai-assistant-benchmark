@@ -1,0 +1,34 @@
+{
+  "slug": "groupthink",
+  "name": "Groupthink",
+  "site": "https://groupthink.com/",
+  "handles": [
+    "groupthinkai"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Personal CRM: pulls meeting notes, email and calendar into one history per person, plus anything logged by hand, and briefs you before the next call. Web and desktop app with Slack and an MCP hook, not a texting assistant, so on the board as a stretch product. Requested via the form (issue #176).",
+  "likely_applicable": [
+    "memory",
+    "proactive_behavior",
+    "third_party_integrations",
+    "permissions_privacy",
+    "running_routine"
+  ],
+  "public_signal": "low",
+  "tagline": "Be intentional about the people you care about",
+  "icon": "/logos/groupthink.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free forever plan; Pro $15/mo; every account starts with 30 days of Pro",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Mac and Windows app",
+      "Slack",
+      "MCP"
+    ],
+    "checked": "2026-09-14"
+  }
+}

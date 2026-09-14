@@ -50,6 +50,8 @@ Every agent has `kind` in `meta.json` and `index.json` (general | travel | email
 
 The benchmark view of the scorecard is split into **Completed / In progress / Pending** (`src/lib/status.ts`): completed = every applicable dimension has a score or N/A, in progress = at least one score, pending = none. A stacked bar with counts sits under the peer-group chips (legend items filter to one status); the Tested column shows scored/applicable; Pending is collapsed behind a toggle. Completed is empty until an assistant is fully scored — that is deliberate, so Overall reads as a running mean, not a final number. Public-opinion view is unchanged.
 
+**Listed, not scored:** `miso-nutrition` (Sunod's calorie tracker, Health & food group) is on the roster for reference only. Do not add runs or scores until David says so (2026-09-14). It is a different product from `miso`, the travel agent.
+
 ## Access (price, regions, channels)
 
 `meta.json`/`index.json` carry `access` (see README). Values were researched by hand on 2026-09-09 from each vendor's site; `checked` is that date. Most vendors don't state regions, so "Not stated" is the honest default. Requests that arrive via the form (GitHub issues labelled `request`) become roster entries with `access` filled in and `public_signal: low`; run `python3 scripts/og.py` and `npm run reindex` after adding one.

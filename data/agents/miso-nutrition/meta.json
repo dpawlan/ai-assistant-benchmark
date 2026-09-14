@@ -1,0 +1,34 @@
+{
+  "slug": "miso-nutrition",
+  "name": "Miso (nutrition)",
+  "site": "https://withmiso.ai/",
+  "handles": [
+    "jam_maxell"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Nutrition tracker from Sunod: log meals by text, voice or photo over iMessage, get calories and macros, restaurant menu picks and recipes against your goals, with Apple Health and Oura data when shared. Not the Miso travel agent. Listed for reference and not scored yet. Requested via the form (issue #175).",
+  "likely_applicable": [
+    "running_routine",
+    "chained_tasks",
+    "proactive_behavior",
+    "third_party_integrations",
+    "online_task",
+    "recommendation_quality",
+    "memory"
+  ],
+  "public_signal": "low",
+  "tagline": "Tell Miso what you ate. You're done.",
+  "icon": "/logos/miso-nutrition.png",
+  "kind": "health",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start; paid tier not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "iOS app"
+    ],
+    "checked": "2026-09-14"
+  }
+}

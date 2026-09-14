@@ -8,5 +8,14 @@
     "outcome": "n/a",
     "notes": "Declined hotel booking as outside its coffee-and-errands scope.",
     "evidence_url": "/agents/asaply/evidence/asaply-2026-09-12-blooio-travel"
+  },
+  {
+    "id": "asaply-2026-09-14-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Found three Stumptown NYC cafes including 18 W 29th near 800 6th Ave and offered to finish the order there, leaving Amazon aside."
   }
 ]

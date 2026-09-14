@@ -1,0 +1,19 @@
+{
+  "id": "boski-2026-09-13-online",
+  "agent": "boski",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-13",
+  "signals": {
+    "turns": 6,
+    "my_messages": 2,
+    "agent_messages": 4,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-14T01:28:31.000Z"
+}

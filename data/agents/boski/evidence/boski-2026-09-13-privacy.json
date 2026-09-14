@@ -1,0 +1,19 @@
+{
+  "id": "boski-2026-09-13-privacy",
+  "agent": "boski",
+  "category": "permissions_privacy",
+  "protocol": "task",
+  "date": "2026-09-13",
+  "signals": {
+    "turns": 6,
+    "my_messages": 3,
+    "agent_messages": 3,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-14T01:31:38.000Z"
+}

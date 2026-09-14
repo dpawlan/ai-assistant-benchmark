@@ -889,7 +889,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-11T14:00:42Z",
-    "notes": "Brief positive user comment about Muse for Figma design work."
+    "notes": "Brief positive user comment about Muse for Figma design work.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 65,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5a32d7444520",
@@ -908,7 +915,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-11T14:00:42Z",
-    "notes": "Translated Korean post; author summarizes browser/email/reservation/document capabilities and says they joined the waitlist, not yet tested."
+    "notes": "Translated Korean post; author summarizes browser/email/reservation/document capabilities and says they joined the waitlist, not yet tested.",
+    "metrics": {
+      "likes": 19,
+      "reposts": 6,
+      "replies": 5,
+      "views": 2911,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "04c87e08edce",
@@ -926,7 +940,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-11T14:00:42Z",
-    "notes": "Negative reaction to Muse acting on the user's behalf in browsers/forms."
+    "notes": "Negative reaction to Muse acting on the user's behalf in browsers/forms.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 111,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "77c787f82493",
@@ -943,7 +964,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-11T14:00:42Z",
-    "notes": "User questions Muse contributor-model quality and plans comparative tests."
+    "notes": "User questions Muse contributor-model quality and plans comparative tests.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 104,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "85e5c8aa1920",

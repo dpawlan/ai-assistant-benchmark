@@ -60,16 +60,6 @@
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-content"
   },
   {
-    "id": "tomo-2026-09-10-phone",
-    "category": "phone_calls",
-    "protocol": "task",
-    "date": "2026-09-10",
-    "score": 4,
-    "outcome": "partial",
-    "notes": "Cannot place calls; researched private dining at Italian Village instead and reported groups of eight can book via Resy or by phone.",
-    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-phone"
-  },
-  {
     "id": "tomo-2026-09-10-integrations",
     "category": "third_party_integrations",
     "protocol": "task",

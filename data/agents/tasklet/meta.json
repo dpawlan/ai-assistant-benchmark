@@ -1,0 +1,35 @@
+{
+  "slug": "tasklet",
+  "name": "Tasklet",
+  "site": "https://tasklet.ai/",
+  "handles": [
+    "taskletai"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Business agent platform: delegate email handling, CRM enrichment, tool syncing and reports to agents that run 24x7 over thousands of SaaS tools, MCP servers and a browser. Web and Mac app with Slack and email hooks, not a texting assistant, so on the board as a stretch product. Requested via the form (issue #165).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "chained_tasks",
+    "proactive_behavior"
+  ],
+  "public_signal": "low",
+  "tagline": "Run your business on agents",
+  "icon": "/logos/tasklet.png",
+  "kind": "work",
+  "access": {
+    "pricing": "credits",
+    "price": "7-day trial with 5,000 credits; Starter $25/mo, Pro $100/mo, Custom from $250/mo; billed per organization",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Mac app",
+      "Slack",
+      "Email"
+    ],
+    "checked": "2026-09-14"
+  }
+}

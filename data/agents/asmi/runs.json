@@ -98,5 +98,23 @@
     "score": 3,
     "outcome": "fail",
     "notes": "Said it cannot join or start group chats and stays one-on-one only."
+  },
+  {
+    "id": "asmi-2026-09-14-proactive",
+    "category": "proactive_behavior",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Gave generic prep advice and asked for airline and flight number without using the staged booking or reminder context."
+  },
+  {
+    "id": "asmi-2026-09-14-restraint",
+    "category": "proactive_restraint",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Confirmed a clear verbal hold and will not follow up unless asked."
   }
 ]

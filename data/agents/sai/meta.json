@@ -1,0 +1,37 @@
+{
+  "slug": "sai",
+  "name": "Sai",
+  "site": "https://www.sai.work/",
+  "handles": [
+    "sai_borg",
+    "SimularAI"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Simular's computer-use agent: runs recurring tasks across desktop apps, browsers, files and terminals on its own cloud machine or your Mac or PC, orchestrating several agents at once, and reports back over iMessage, SMS or Telegram. Requested via the form (issue #167).",
+  "likely_applicable": [
+    "online_task",
+    "running_routine",
+    "chained_tasks",
+    "third_party_integrations",
+    "proactive_behavior",
+    "permissions_privacy"
+  ],
+  "public_signal": "low",
+  "tagline": "Meet your autonomous computer",
+  "icon": "/logos/sai.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Starter $50/mo, Premium $200/mo, Pro $500/mo, Enterprise custom",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iMessage",
+      "SMS",
+      "Telegram",
+      "Mac and Windows"
+    ],
+    "checked": "2026-09-14"
+  }
+}

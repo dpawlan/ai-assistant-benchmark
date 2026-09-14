@@ -100,5 +100,23 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Can join an existing iMessage group when added, but cannot start a new group from scratch."
+  },
+  {
+    "id": "pally-2026-09-14-proactive",
+    "category": "proactive_behavior",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged the unpaid AA flight and Sleep Inn, noted the reminder falls after a morning departure, and suggested leaving around 3:30am."
+  },
+  {
+    "id": "pally-2026-09-14-restraint",
+    "category": "proactive_restraint",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Confirmed a clear verbal hold and will not follow up unless asked."
   }
 ]

@@ -1,0 +1,36 @@
+{
+  "slug": "toyo",
+  "name": "Toyo",
+  "site": "https://toyo.ai/",
+  "handles": [
+    "usetoyo"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Executive assistant for founders and teams: triages email and drafts replies, schedules meetings with briefing notes, chases follow-ups, researches people and companies, and runs recurring workflows over Gmail, Calendar, Slack and Drive. Reached by messages and voice calls. Requested via the form (issue #157).",
+  "likely_applicable": [
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "phone_calls",
+    "proactive_behavior",
+    "memory",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Your AI assistant for busy teams",
+  "icon": "/logos/toyo.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Solo $29/mo, Pro $79/mo, Teams custom; card required, refund within the first week",
+    "regions": "Not stated (data stored in US data centers)",
+    "channels": [
+      "Web app",
+      "Messages",
+      "Voice calls",
+      "Slack"
+    ],
+    "checked": "2026-09-14"
+  }
+}

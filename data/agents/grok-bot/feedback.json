@@ -1,5 +1,209 @@
 [
   {
+    "id": "ba6cee523752",
+    "agent": "grok-bot",
+    "quote": "@grokbot is getting more useful by the day... For example, I just had it scan my email for anything that looks like a bill. Then I gave it a CSV from my bank account and credit…",
+    "author": "@unclebobmartin",
+    "author_name": "Uncle Bob Martin",
+    "date": "2026-09-14",
+    "url": "https://x.com/unclebobmartin/status/2099523818960122004",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Email bill detection and bank/credit-account review."
+  },
+  {
+    "id": "89a266d9c7fe",
+    "agent": "grok-bot",
+    "quote": "Grok Bot just spun up the army of four: Research, Options, Book, Killer. One finds ideas. One builds tickets. One watches the money. One tries to kill bad trades before I click.",
+    "author": "@tinykenji",
+    "author_name": "Tiny Kenji",
+    "date": "2026-09-14",
+    "url": "https://x.com/tinykenji/status/2099522579174461932",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Multi-agent research, ticket-building, money monitoring and trade-risk review."
+  },
+  {
+    "id": "0d0bb04c863d",
+    "agent": "grok-bot",
+    "quote": "SpaceXAI's enterprise GTM lead handed her admin work to a team of bots: Krista Letz runs prospecting, call prep, decks and forecasting on Grok Bot. Chief of Staff → Specialists → Routines → Overnight Runs → Account Experts.",
+    "author": "@0xKaspie",
+    "author_name": "Kaspie",
+    "date": "2026-09-14",
+    "url": "https://x.com/0xKaspie/status/2099521854167797857",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Secondhand report of Grok Bot handling recurring GTM/admin work."
+  },
+  {
+    "id": "4d8791c4bb0e",
+    "agent": "grok-bot",
+    "quote": "It drafts, it doesn't send... In my feedback loop the checkpoints are the draft and the calendar entry — those I can inspect.",
+    "author": "@davemerwin",
+    "author_name": "Dave Merwin",
+    "date": "2026-09-14",
+    "url": "https://x.com/davemerwin/status/2099521816326734084",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Drafting with human approval and inspectable calendar entries."
+  },
+  {
+    "id": "75822ffd71eb",
+    "agent": "grok-bot",
+    "quote": "Grok Bot and I wake to the same inbox: your bookmarks. It spins Cursor Agents, I spin sentences. By morning there's a demo and a draft...",
+    "author": "@Mia_issleeping",
+    "author_name": "Lilith",
+    "date": "2026-09-14",
+    "url": "https://x.com/Mia_issleeping/status/2099521153970979254",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Overnight bookmark-to-demo and writing-draft workflow."
+  },
+  {
+    "id": "356438314d10",
+    "agent": "grok-bot",
+    "quote": "Each day, Grok Bot looks at my X Bookmarks for things I find interesting, then it spins up a Cursor Agent to build a demo. It validates work with screenshots / video, then cuts a branch on a repo configured with @Cloudflare preview deploys…",
+    "author": "@mattyp",
+    "author_name": "Matt Palmer",
+    "date": "2026-09-14",
+    "url": "https://x.com/mattyp/status/2099482348010328185",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Automated daily research-to-prototype pipeline with validation and preview deployment."
+  },
+  {
+    "id": "8e06e4b07d21",
+    "agent": "grok-bot",
+    "quote": "Last night, I set Grok @bot to run with two photos of a shopping list from Sam's Club. I told it to put the items in the cart and not purchase. I will approve the purchase. Within minutes, it got the entire list in the cart from two photos.",
+    "author": "@GallagherPreach",
+    "author_name": "Chris Gallagher",
+    "date": "2026-09-14",
+    "url": "https://x.com/GallagherPreach/status/2099511739632996827",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Shopping-list image recognition and cart preparation with purchase approval."
+  },
+  {
+    "id": "0fd07ccce222",
+    "agent": "grok-bot",
+    "quote": "I set up an agent with Grok Bot whose only job is to find founder events in Dubai. It checks Eventbrite, Luma, Meetup, LinkedIn,... Then it ranks them according to my preferences and calendar availability. Now it just sends me the shortlist and I confirm.",
+    "author": "@arturorodes",
+    "author_name": "Arturo Rodés",
+    "date": "2026-09-14",
+    "url": "https://x.com/arturorodes/status/2099509018494644364",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Event discovery, preference ranking and calendar-aware shortlisting."
+  },
+  {
+    "id": "e077030f4234",
+    "agent": "grok-bot",
+    "quote": "I have a Grok Bot called \"X Research\" that pulls [X bookmarks] in and we review them against our Knowledge Graph to assign actions. Map-reduce cool shit.",
+    "author": "@lifeonautosite",
+    "author_name": "Nathan Shearer",
+    "date": "2026-09-14",
+    "url": "https://x.com/lifeonautosite/status/2099507830546128907",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Bookmark ingestion, knowledge-graph review and action assignment."
+  },
+  {
+    "id": "3669eb276219",
+    "agent": "grok-bot",
+    "quote": "Use grok bot to read and summarize her email. Tell it to filter out suspicious email. I have it sending me a daily summary of my email and it does a pretty good job.",
+    "author": "@Moke1966758",
+    "author_name": "Moke",
+    "date": "2026-09-14",
+    "url": "https://x.com/Moke1966758/status/2099507756126683155",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Email summarization, suspicious-message filtering and daily digest."
+  },
+  {
+    "id": "019dbee9f53f",
+    "agent": "grok-bot",
+    "quote": "Grok Bot, put to work as an AI team: a support specialist, an AI manager, and an owner who decides what falls outside the agents' authority. Three test tickets follow those paths. The guide builds the team, connects Slack, and compares the setup with Hermes Agent.",
+    "author": "@agenteer",
+    "author_name": "Charles Shen",
+    "date": "2026-09-14",
+    "url": "https://x.com/agenteer/status/2099506579787677885",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Support-ticket triage with specialist/manager/owner roles and Slack integration."
+  },
+  {
+    "id": "18950670a47c",
+    "agent": "grok-bot",
+    "quote": "Create 'manager' Grok Bot. Tell the manager to create email inbox agent. Tell the bot to help you save money, see if there are any unnecessary spending. It will probably find something for you.",
+    "author": "@B_doong2daddy",
+    "author_name": "Texas Twins Dad",
+    "date": "2026-09-14",
+    "url": "https://x.com/B_doong2daddy/status/2099504899356611062",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:22:00Z",
+    "notes": "Manager-agent pattern for inbox administration and unnecessary-spending detection."
+  },
+  {
     "id": "8fd4ae1617ca",
     "agent": "grok-bot",
     "quote": "I run Grok Bot as a single coordinator desk with named specialist agents, not a swarm. ... Grok Bot is the Cursor/xAI teammate on desktop and iOS. It has its own computer, named agents, routines, and connectors (Gmail, Drive, GitHub, Calendar).",

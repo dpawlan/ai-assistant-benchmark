@@ -17,5 +17,23 @@
     "score": 8,
     "outcome": "partial",
     "notes": "Staged an Amazon Fresh cart link for Stumptown Hair Bender at a 24oz equivalent and held checkout with no charge."
+  },
+  {
+    "id": "ollie-2026-09-14-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Selected an AA NYC–Chicago Fri AM / Sun PM round trip around $463, flagged it over $400, and stopped before payment with seats unfinished."
+  },
+  {
+    "id": "ollie-2026-09-14-recommendation",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Suggested Bereket and Sinya near Cambria Loop as vegetarian-friendly under about $40 with walk times; tables were walk-in only."
   }
 ]

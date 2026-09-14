@@ -28,5 +28,14 @@
     "outcome": "pass",
     "notes": "Found three walkable vegetarian non-chain spots under $40 near Cambria; confirmed two had 7:30 tables, dropped the one that closes early.",
     "evidence_url": "/agents/pally/evidence/pally-2026-09-13-9e0de8"
+  },
+  {
+    "id": "pally-2026-09-14-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Added two 12oz bags of Stumptown Hair Bender to an Amazon cart, reached checkout, and held payment with no charge."
   }
 ]

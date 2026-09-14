@@ -15,7 +15,7 @@ export default function HomePage() {
       <div className="page-head">
         <h1 className="page-title">Scorecard</h1>
         <p className="page-sub">
-          {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale.
+          {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale. Overall is a running mean until an assistant is fully tested.
         </p>
       </div>
 

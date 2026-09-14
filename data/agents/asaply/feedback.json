@@ -268,6 +268,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T14:59:57.250Z",
-    "notes": "query: @AsaplyAi since:2026-09-01 until:2026-09-14 -filter:retweets"
+    "notes": "query: @AsaplyAi since:2026-09-01 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-14"
+    }
   }
 ]

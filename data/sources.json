@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-assistant search config for scripts/collect.mjs. Edit freely: add handles, app ids (from `collect find-apps`), Product Hunt slugs, extra queries. `imessage_handles`: the phone/email you text this assistant on (used by scripts/imessage.mjs). `_redact_terms`: names to mask in published excerpts.",
+  "_comment": "Per-assistant search config for scripts/collect.mjs. Edit freely: add handles, app ids (from `collect find-apps`), Product Hunt slugs, extra queries. `imessage_handles`: the phone/email you text this assistant on (used by scripts/imessage.mjs). `_redact_terms`: names to mask in published excerpts. match: a post must name the product (domain, product handle or name term); founder handles are search seeds only, replies to a founder about other things do not count (2026-09-14).",
   "agents": {
     "ako": {
       "name": "Ako",
@@ -31,10 +31,8 @@
         "withako.com",
         "@withako",
         "@with_ako",
-        "@ntkris",
         "withako",
         "with_ako",
-        "ntkris",
         "ako ai",
         "ako assistant",
         "ako agent",
@@ -69,6 +67,7 @@
       "ph_slug": null,
       "match": [
         "asaply.ai",
+        "@asaplyai",
         "@AsaplyAi",
         "asaplyai",
         "asaply"
@@ -104,8 +103,6 @@
       "match": [
         "asmiai.com",
         "@asmiaioriginal",
-        "@rishirrathor",
-        "@satwikkottur",
         "asmi"
       ],
       "imessage_handles": [
@@ -138,8 +135,6 @@
       "match": [
         "trygist.ai",
         "@getboba",
-        "@iamtegha_",
-        "trygist",
         "boba ai"
       ],
       "imessage_handles": [],
@@ -172,8 +167,6 @@
       "match": [
         "buoy.chat",
         "@buoychat",
-        "@riccqi",
-        "@ronithhh",
         "buoy ai"
       ],
       "imessage_handles": [],
@@ -245,8 +238,6 @@
       "match": [
         "catchagent.ai",
         "@catchagent",
-        "@therealnirs",
-        "@yoavr7",
         "catchagent",
         "catch ai",
         "catch agent",
@@ -286,7 +277,6 @@
       "ph_slug": null,
       "match": [
         "folk.com",
-        "@nozomioai",
         "@try_folk",
         "nozomioai",
         "try_folk",
@@ -323,7 +313,6 @@
       "ph_slug": null,
       "match": [
         "grok.com",
-        "@bot",
         "grok bot",
         "grokbot"
       ],
@@ -356,7 +345,6 @@
       "match": [
         "meethalo.app",
         "@meethalo",
-        "@tanmays",
         "halo ai",
         "halo app",
         "@halo",
@@ -389,8 +377,6 @@
       "ph_slug": null,
       "match": [
         "hirealpha.chat",
-        "@Alpha",
-        "alpha",
         "hirealpha"
       ],
       "imessage_handles": []
@@ -483,7 +469,6 @@
       "match": [
         "lava.so",
         "@trylava",
-        "@mitchjones_",
         "lava ai",
         "@lava",
         "lava app"
@@ -520,9 +505,6 @@
       "match": [
         "meetlucas.ai",
         "@meetlucasai",
-        "@maxderevy",
-        "@b2bsaasbunny",
-        "@imjayliang",
         "meetlucas",
         "lucas ai"
       ],
@@ -553,7 +535,6 @@
       "ph_slug": null,
       "match": [
         "mana.space",
-        "@behzadhaghgoo",
         "mana ai",
         "@mana"
       ],
@@ -679,7 +660,6 @@
       "ph_slug": null,
       "match": [
         "openinstinct.sh",
-        "@merit_systems",
         "merit_systems",
         "openinstinct",
         "open instinct"
@@ -780,7 +760,6 @@
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
-        "@openclaw",
         "openclaw",
         "open claw"
       ],
@@ -810,8 +789,9 @@
       "ph_slug": null,
       "match": [
         "pneum.ai",
-        "@Pneum",
+        "@pneum",
         "@pneumai",
+        "@Pneum",
         "pneum",
         "pneumai"
       ],
@@ -841,7 +821,6 @@
       "ph_slug": null,
       "match": [
         "poke.com",
-        "@interaction",
         "interaction",
         "poke ai",
         "poke assistant",
@@ -879,7 +858,6 @@
       "ph_slug": null,
       "match": [
         "shoponscout.com",
-        "@shoponscout",
         "shoponscout"
       ],
       "imessage_handles": []
@@ -908,8 +886,6 @@
       "ph_slug": null,
       "match": [
         "shuffle.cool",
-        "@ebeezy_eth",
-        "@slopdotwtf",
         "shuffle ai",
         "@shuffle",
         "shuffle app"
@@ -1041,8 +1017,6 @@
       "match": [
         "joinsoar.co",
         "@soarapp",
-        "@stannostudio",
-        "@ymy1806",
         "soarapp",
         "joinsoar",
         "soar ai",
@@ -1148,7 +1122,6 @@
       "ph_slug": null,
       "match": [
         "meetzero.ai",
-        "@meetzeroai",
         "meetzeroai",
         "text zero"
       ],
@@ -1181,7 +1154,6 @@
       "ph_slug": null,
       "match": [
         "tinypeople.ai",
-        "@NaturaAI",
         "naturaai",
         "tinynature"
       ],
@@ -1219,9 +1191,6 @@
       "match": [
         "tomo.ai",
         "@tomo",
-        "@justoutquan",
-        "@raymondhechen",
-        "@jackyhuang",
         "tomo ai",
         "tomo app",
         "personal goals",
@@ -1259,6 +1228,7 @@
       "ph_slug": null,
       "match": [
         "town.com",
+        "@townai",
         "@TownAI",
         "townai",
         "town ai",
@@ -1339,8 +1309,7 @@
       "match": [
         "wajo.ai",
         "@wajo_ai",
-        "wajo_ai",
-        "wajo"
+        "wajo_ai"
       ],
       "imessage_handles": [
         "+16283586116"
@@ -1371,7 +1340,6 @@
       "match": [
         "heywaldo.in",
         "@heyywaldo",
-        "@shivanshfulper",
         "waldo"
       ],
       "imessage_handles": [],
@@ -1407,11 +1375,7 @@
       "ph_slug": null,
       "match": [
         "muse.ai",
-        "@meta",
-        "@aiatmeta",
         "@muse",
-        "@finkd",
-        "@alexandr_wang",
         "meta muse",
         "muse ai",
         "muse app"
@@ -1442,6 +1406,7 @@
       "ph_slug": null,
       "match": [
         "fliptexts.com",
+        "@fliptexts",
         "flip",
         "fliptexts",
         "freddy_0x"
@@ -1563,10 +1528,7 @@
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
-        "letta.com",
-        "@letta_ai",
-        "@letta",
-        "letta"
+        "letta.com"
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
@@ -1592,9 +1554,7 @@
       "ph_slug": null,
       "match": [
         "joinhexagon.com",
-        "@joinhexagon",
         "joinhexagon",
-        "hexagon",
         "milo ai",
         "@milo"
       ],
@@ -1687,7 +1647,6 @@
       "match": [
         "trysunny.app",
         "@trysunny",
-        "@tejiebear",
         "trysunny",
         "sunny ai"
       ],
@@ -1717,10 +1676,8 @@
       "ph_slug": null,
       "match": [
         "hirekai.ai",
-        "@morgen_so",
         "@hirekai",
         "hirekai",
-        "morgen",
         "kai ai"
       ],
       "imessage_handles": [],
@@ -1750,10 +1707,8 @@
       "match": [
         "theshadow.io",
         "@theshadow_io",
-        "@sophonlabs",
         "the shadow ai",
-        "@theshadow",
-        "sophon"
+        "@theshadow"
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
@@ -1812,7 +1767,6 @@
         "cheqq.ai",
         "@cheqq",
         "@cheqq_ai",
-        "@elvisduru",
         "cheqq"
       ],
       "imessage_handles": [],
@@ -1842,7 +1796,6 @@
       "match": [
         "aeon.fun",
         "@aeonframework",
-        "@aaronjmars",
         "aeonframework",
         "aaronjmars",
         "aeon framework",
@@ -1877,8 +1830,6 @@
       "ph_slug": null,
       "match": [
         "oz.anyreach.ai",
-        "@anyreach",
-        "@anyreachai",
         "anyreach",
         "oz.anyreach"
       ],
@@ -1995,10 +1946,7 @@
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
-        "pocodot.ai",
-        "@pocodot",
-        "@pocodotai",
-        "pocodot"
+        "pocodot.ai"
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
@@ -2024,7 +1972,7 @@
       "ph_slug": null,
       "match": [
         "doubao.com",
-        "doubao",
+        "@doubao",
         "doubao"
       ],
       "imessage_handles": [],
@@ -2054,7 +2002,6 @@
       "match": [
         "stiled.app",
         "@stiled",
-        "@imwillhanson",
         "stiled"
       ],
       "imessage_handles": [],
@@ -2083,7 +2030,6 @@
       "match": [
         "withfamiliar.ai",
         "@withfamiliar",
-        "@nickdaze",
         "familiar ai",
         "familiar app"
       ],
@@ -2113,7 +2059,6 @@
       "match": [
         "boski.com",
         "@boski",
-        "@sebglab",
         "boski ai",
         "boski app"
       ],
@@ -2258,7 +2203,6 @@
       "match": [
         "twent.xyz",
         "@twentxyz",
-        "@jeffrinjames",
         "twent ai"
       ],
       "imessage_handles": [],
@@ -2287,7 +2231,6 @@
       "match": [
         "mitra.run",
         "@mitra_run",
-        "@samrithshankar",
         "mitra ai"
       ],
       "imessage_handles": [],
@@ -2313,7 +2256,6 @@
       "ph_slug": null,
       "match": [
         "base44.com",
-        "@base44",
         "superagent ai"
       ],
       "imessage_handles": [],

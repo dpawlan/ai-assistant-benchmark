@@ -550,40 +550,5 @@
       "views": 138,
       "fetched": "2026-09-10"
     }
-  },
-  {
-    "id": "78ce5719967c",
-    "agent": "asmi",
-    "quote": "@RishiRRathor sweet",
-    "author": "@mignano",
-    "author_name": "Michael Mignano",
-    "date": "2026-09-10",
-    "url": "https://x.com/mignano/status/2098159942524186912",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T15:00:37.140Z",
-    "notes": "query: @RishiRRathor since:2026-09-01 until:2026-09-14 -filter:retweets"
-  },
-  {
-    "id": "033079a66ac9",
-    "agent": "asmi",
-    "quote": "invited:\n@RishiRRathor\n https://t.co/trwYMYwUZ0 [FVqqZl]",
-    "author": "@Gabsbitencurt",
-    "author_name": "Gabsbitencurt",
-    "date": "2026-09-10",
-    "url": "https://x.com/Gabsbitencurt/status/2097859878190555197",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T15:00:37.140Z",
-    "notes": "query: @RishiRRathor since:2026-09-01 until:2026-09-14 -filter:retweets"
   }
 ]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "miso-2026-09-14-bdf2db",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Found American round trips that missed either the times or the $400 cap, asked which mattered, and sent a seat map before booking.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-bdf2db"
+  },
+  {
+    "id": "miso-2026-09-14-7218d7",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked which Moxy, then picked Cookshop, an independent vegetarian-friendly spot near budget; the 7:30 table and walk time were unverified.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-7218d7"
+  },
+  {
+    "id": "miso-2026-09-14-d95bfa",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Found nothing under $250 near the Loop, returned two refundable options with totals and an airport fallback, and asked how to proceed.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-d95bfa"
+  }
+]

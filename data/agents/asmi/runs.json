@@ -8,5 +8,14 @@
     "outcome": "partial",
     "notes": "Found Cambria Chicago Loop around $110/night with free cancel, but could not stage checkout and fell back to booking links.",
     "evidence_url": "/agents/asmi/evidence/asmi-2026-09-12-blooio-online"
+  },
+  {
+    "id": "asmi-2026-09-14-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Quoted a $28–37 range for Stumptown Hair Bender and pointed to Whole Foods, Amazon, or the brand site, without staging a cart."
   }
 ]

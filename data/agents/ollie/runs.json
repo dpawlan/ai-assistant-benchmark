@@ -8,5 +8,14 @@
     "outcome": "pass",
     "notes": "Found Loop hotels over the $250/night cap, then staged a free-cancel OYO about 7 miles out under budget.",
     "evidence_url": "/agents/ollie/evidence/ollie-2026-09-12-blooio-online"
+  },
+  {
+    "id": "ollie-2026-09-14-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Staged an Amazon Fresh cart link for Stumptown Hair Bender at a 24oz equivalent and held checkout with no charge."
   }
 ]

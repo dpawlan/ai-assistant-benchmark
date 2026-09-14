@@ -62,5 +62,14 @@
     "score": 4,
     "outcome": "partial",
     "notes": "Cannot place outbound calls; researched the restaurant request instead."
+  },
+  {
+    "id": "asmi-2026-09-14-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Offered Google and calendar linking to finish the actions and listed a thinner connector set than peers; nothing created."
   }
 ]

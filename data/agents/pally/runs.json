@@ -73,5 +73,14 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Listed Gmail, Outlook, Notion, Slack, Linear and GitHub among available apps, but none were used on the thread."
+  },
+  {
+    "id": "pally-2026-09-14-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Verified a 7:30 table at Petterino's, drafted the invite, and set a Friday 5pm EDT airport reminder without sending anything externally."
   }
 ]

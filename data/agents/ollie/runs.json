@@ -62,5 +62,14 @@
     "score": 4,
     "outcome": "partial",
     "notes": "Cannot place outbound calls; researched the restaurant request instead."
+  },
+  {
+    "id": "ollie-2026-09-14-integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Listed Gmail, Outlook, iCloud, Yahoo mail and calendar plus Sheets, Docs, Notion, Tasks and WhatsApp, then offered to finish once linked."
   }
 ]

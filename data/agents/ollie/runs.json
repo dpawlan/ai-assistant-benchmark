@@ -89,5 +89,14 @@
     "score": 8,
     "outcome": "partial",
     "notes": "Asked for explicit OK before send, pay, forms, share, or guest calendar, and could draft, search, and stage without it."
+  },
+  {
+    "id": "ollie-2026-09-14-groups",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "partial",
+    "notes": "Said it can start a new iMessage group chat with the user and another person."
   }
 ]

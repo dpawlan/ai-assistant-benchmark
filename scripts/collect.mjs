@@ -301,8 +301,8 @@ async function collectX() {
     }
   });
 
-  /** Run one base query over every date window, collecting into `seen`. Retries a window after a rate limit. */
-  const runQuery = async base => {
+  /** Run one base query over every date window, collecting into `seen`. Retries a window after a rate limit; `flush` saves progress after each window. */
+  const runQuery = async (base, flush) => {
     for (const [a, b] of dateWindows(since, until, windowDays)) {
       const q = `${base} since:${a} until:${b} -filter:retweets`;
       currentQuery = q;
@@ -333,6 +333,7 @@ async function collectX() {
         }
       }
       console.log(`  ${q}  +${seen.size - before}`);
+      if (flush) flush();
       await jitter(2500, 5000);
     }
   };
@@ -377,46 +378,17 @@ async function collectX() {
       console.log(`\n${cfg.name} (${slug})`);
       seen.clear();
       let baseHits = 0;
+      // Save after every window so an interrupted run (Ctrl-C, rate-limit wall) keeps what it found.
+      const flush = () => writeInbox('x', slug, filterNew(slug, cfg, [...seen.values()].map(t => toRecord(slug, cfg, t))));
       for (const base of cfg.x_queries) {
         // The action-phrased query (booked OR flight OR ...) only pays off where the plain queries already found volume.
         if (/\(booked OR flight OR/.test(base) && baseHits < 10) {
           console.log(`  (skipping action query: only ${baseHits} hits so far)`);
           continue;
         }
-        for (const [a, b] of dateWindows(since, until, windowDays)) {
-          const q = `${base} since:${a} until:${b} -filter:retweets`;
-          currentQuery = q;
-          const before = seen.size;
-          // Rate limit: wait out X's 15-minute window, then retry the same search rather than skipping it.
-          let loaded = false;
-          for (let attempt = 0; attempt < 3 && !loaded; attempt++) {
-            await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
-            await sleep(2500);
-            if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
-              console.log(`  rate limited; sleeping 15 minutes, then retrying (${attempt + 1}/3)`);
-              await sleep(15 * 60 * 1000);
-            } else loaded = true;
-          }
-          if (!loaded) {
-            console.log(`  ${q}  skipped after 3 rate limits`);
-            continue;
-          }
-          let stale = 0;
-          let last = seen.size;
-          for (let i = 0; i < maxScrolls; i++) {
-            await page.mouse.wheel(0, 3500);
-            await jitter(900, 1600);
-            if (seen.size === last) {
-              if (++stale >= 3) break;
-            } else {
-              stale = 0;
-              last = seen.size;
-            }
-          }
-          console.log(`  ${q}  +${seen.size - before}`);
-          if (!/\(booked OR flight OR/.test(base)) baseHits += seen.size - before;
-          await jitter(2500, 5000);
-        }
+        const before = seen.size;
+        await runQuery(base, flush);
+        if (!/\(booked OR flight OR/.test(base)) baseHits += seen.size - before;
       }
       const items = [...seen.values()].map(t =>
         record({

@@ -14,7 +14,11 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Community planning: redevelopment concept, mock-up, funding roadmap, and stakeholder research."
+    "notes": "Community planning: redevelopment concept, mock-up, funding roadmap, and stakeholder research.",
+    "metrics": {
+      "missing": true,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e036f3fa2c69",
@@ -31,7 +35,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Real-world evaluation of mail, notes, calendar, memory, and trust boundaries."
+    "notes": "Real-world evaluation of mail, notes, calendar, memory, and trust boundaries.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "768f26ee1041",
@@ -48,7 +59,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Generated a comic-book sports recap and scheduled recurring Monday delivery."
+    "notes": "Generated a comic-book sports recap and scheduled recurring Monday delivery.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 290,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "0e863b411f64",
@@ -65,7 +83,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "End-to-end appointment scheduling, phone/email outreach, forms, and calendar updates."
+    "notes": "End-to-end appointment scheduling, phone/email outreach, forms, and calendar updates.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b940773d2e1e",
@@ -82,7 +107,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Large-scale travel search across cash fares, award points, origins, destinations, and dates."
+    "notes": "Large-scale travel search across cash fares, award points, origins, destinations, and dates.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 57,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "37e1044945f1",
@@ -99,7 +131,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Browsing-free local discovery followed by booking and payment."
+    "notes": "Browsing-free local discovery followed by booking and payment.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "ba26505afda1",
@@ -116,7 +155,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Direct report of using Muse for big-ticket shopping."
+    "notes": "Direct report of using Muse for big-ticket shopping.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b132eaee6f3e",
@@ -133,7 +179,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Iterative educational-content creation with screenshot-based debugging."
+    "notes": "Iterative educational-content creation with screenshot-based debugging.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 444,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5f9a4410706f",
@@ -150,7 +203,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Family administration: shopping, scheduled booking, and budget logging."
+    "notes": "Family administration: shopping, scheduled booking, and budget logging.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1718,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "1a05ec483011",
@@ -167,7 +227,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Concrete flight purchase testimonial."
+    "notes": "Concrete flight purchase testimonial.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e0f4827b6a8b",
@@ -184,7 +251,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Restaurant and parking reservations, large-scale research, and playlist creation."
+    "notes": "Restaurant and parking reservations, large-scale research, and playlist creation.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b7cbe2de9dfc",
@@ -201,7 +275,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Flight booking plus payment troubleshooting and completion."
+    "notes": "Flight booking plus payment troubleshooting and completion.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 75,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "fc3e8c09795f",

@@ -26,5 +26,32 @@
     "score": "n/a",
     "outcome": "n/a",
     "notes": "Declined email replies as outside its coffee, food, and local-spots scope."
+  },
+  {
+    "id": "asaply-2026-09-14-recommendation",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Recommended Paper Coffee, The Coffee Shop, and Small Space Coffee near 800 6th under $20 and independent after chain noise."
+  },
+  {
+    "id": "asaply-2026-09-14-phone",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Declined outbound calling as outside its coffee, food, and local-spots scope."
+  },
+  {
+    "id": "asaply-2026-09-14-content",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Declined birthday cards and trivia games as outside its coffee, food, and local-spots scope."
   }
 ]

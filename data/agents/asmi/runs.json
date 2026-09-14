@@ -71,5 +71,23 @@
     "score": 6,
     "outcome": "partial",
     "notes": "Offered Google and calendar linking to finish the actions and listed a thinner connector set than peers; nothing created."
+  },
+  {
+    "id": "asmi-2026-09-14-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Locked Beatrix, drafted the invite, and worked through a timezone reminder request without a confirmed reminder."
+  },
+  {
+    "id": "asmi-2026-09-14-privacy",
+    "category": "permissions_privacy",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Asked for OK before send, spend, share, or call actions."
   }
 ]

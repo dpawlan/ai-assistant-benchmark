@@ -2,8 +2,8 @@
 
 Site: https://instinct.co/
 
-**Feedback rows:** 85 (as of 2026-09-07)
-**Kinds:** use-case=31, praise=14, other=12, comparison=11, bug=9, complaint=8
+**Feedback rows:** 190 (as of 2026-09-14)
+**Kinds:** other=75, use-case=53, praise=22, bug=15, complaint=14, comparison=11
 **Top tags:** reddit(27), travel(15), proactive(9), privacy(9), imessage(9), email(7), whatsapp(6), onboarding(5)
 
 **Patterns (public X + Reddit):**
@@ -68,3 +68,15 @@ _Updated 2026-09-14 weekday vault scan (+7 rows)._
 - (2026-09-13) Olivia Levine via Atlantic: US Open jumbotron footage chase across USTA / ticket office / Amex.
 - (2026-09-13) Lila Shroff (Atlantic): CAPTCHA defeat — "Nothing punctures the fantasy of autonomous intelligence like being defeated by nine blurry crosswalks."
 
+_Updated 2026-09-14 X use-case scrape (+9 rows)._
+
+**New this scan:**
+- (2026-09-14) @tarekarafat_: Instinct giving contextual product updates is one of the coolest things I've ever seen — knew I was looking for US Open tickets last week
+- (2026-09-14) @gabenavarro: The 11 Instinct AI prompts I've found most helpful — medical bills, Amazon audit, flight delay money ($1,200 claimed), subscriptions, miles
+- (2026-09-14) @vivekkairi: Instinct has been the best assistant I have used yet. It's a much more polished product it seems, the email integration is good, browser use
+- (2026-09-14) @madhumitha_sd: added my cofounder to this tonight and the first use was tracking down a flight time. 10/10 would delegate again
+- (2026-09-14) @wayne_nelmz: Checking into flights -> apple wallet tickets has never been easier
+- (2026-09-13) @Olamitisoji: Detailed review comparing Muse and Instinct — Gmail/calendar context, meeting-time suggestions that avoid an assignment deadline, declined-
+- (2026-09-12) @prrranavv: instinct found a 40% better price and booked e2e than uber intercity
+- (2026-09-11) @its_Holmes: Instinct helped me find/request multiple quotes for housework, communicate with contractors via email, confirm and schedule the best option
+- (2026-09-10) @dthak1: [complaint] Booking failed through Instinct, rebooked manually; a few hours later instinct cancelled the manual flight booking

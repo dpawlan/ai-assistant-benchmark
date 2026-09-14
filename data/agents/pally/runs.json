@@ -18,5 +18,15 @@
     "outcome": "pass",
     "notes": "Staged an American nonstop round trip for Friday/Sunday at checkout, flagged that it ran over $400, and charged nothing.",
     "evidence_url": "/agents/pally/evidence/pally-2026-09-13-travel"
+  },
+  {
+    "id": "pally-2026-09-13-9e0de8",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-13",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Found three walkable vegetarian non-chain spots under $40 near Cambria; confirmed two had 7:30 tables, dropped the one that closes early.",
+    "evidence_url": "/agents/pally/evidence/pally-2026-09-13-9e0de8"
   }
 ]

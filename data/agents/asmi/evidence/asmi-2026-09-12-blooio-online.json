@@ -1,0 +1,14 @@
+{
+  "id": "asmi-2026-09-12-blooio-online",
+  "agent": "asmi",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-09-12",
+  "signals": {
+    "agent_asked_question": true,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-13T19:00:00.000Z"
+}

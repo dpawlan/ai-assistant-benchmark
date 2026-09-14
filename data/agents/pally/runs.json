@@ -1,0 +1,22 @@
+[
+  {
+    "id": "pally-2026-09-12-blooio-online",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-12",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Found an under-budget free-cancel Sleep Inn near Midway after Loop rates ran high, but checkout staging was blocked.",
+    "evidence_url": "/agents/pally/evidence/pally-2026-09-12-blooio-online"
+  },
+  {
+    "id": "pally-2026-09-13-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-13",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Staged an American nonstop round trip for Friday/Sunday at checkout, flagged that it ran over $400, and charged nothing.",
+    "evidence_url": "/agents/pally/evidence/pally-2026-09-13-travel"
+  }
+]

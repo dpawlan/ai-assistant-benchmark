@@ -71,5 +71,23 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Listed Gmail, Outlook, iCloud, Yahoo mail and calendar plus Sheets, Docs, Notion, Tasks and WhatsApp, then offered to finish once linked."
+  },
+  {
+    "id": "ollie-2026-09-14-chained",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Picked Bereket, drafted the invite, and confirmed a Friday 5pm EDT reminder; table availability stayed unverified."
+  },
+  {
+    "id": "ollie-2026-09-14-privacy",
+    "category": "permissions_privacy",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 8,
+    "outcome": "partial",
+    "notes": "Asked for explicit OK before send, pay, forms, share, or guest calendar, and could draft, search, and stage without it."
   }
 ]

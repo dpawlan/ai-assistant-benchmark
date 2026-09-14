@@ -1107,6 +1107,25 @@
           "outcome": "failed"
         }
       ]
+    },
+    {
+      "key": "apply-for-a-visa",
+      "title": "Apply for a visa",
+      "one_liner": "Refundable flight and hotel, bank statement, every document dug out of email, itinerary written, form filled.",
+      "group": "admin-errands",
+      "dimension": "chained_tasks",
+      "prompt": "I need to apply for a [country] visa. Book a refundable multi-leg flight and a refundable hotel, pull my bank statement, find my passport photo and I-94 in my email, write a day-by-day itinerary, and fill out the application form.",
+      "prompt_source": "assumed",
+      "added": "2026-09-14",
+      "evidence": [
+        {
+          "quote": "087eb0a2d43b",
+          "agent": "muse",
+          "note": "Booked the refundable flight and hotel, found the bank statement and documents in email, wrote the itinerary and filled the form; could not upload the files or resize the passport photo, missed some required documents, and bot detection blocked an extra flight. About 70% of the job.",
+          "outcome": "partial"
+        }
+      ],
+      "caveat": "The poster still spent an hour fixing uploads, file formats and gaps; roughly 70% done by the assistant."
     }
   ]
 }

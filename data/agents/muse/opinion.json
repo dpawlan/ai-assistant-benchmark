@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-11",
+  "date": "2026-09-14",
   "reviewed": false,
   "quotes": {
     "e61bc2d4ab67": {
@@ -18,6 +18,13 @@
       "general": "mixed",
       "travel": "mixed",
       "proactive_behavior": "neg"
+    },
+    "087eb0a2d43b": {
+      "general": "mixed",
+      "online_task": "mixed",
+      "travel": "pos",
+      "chained_tasks": "mixed",
+      "third_party_integrations": "pos"
     }
   },
   "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"

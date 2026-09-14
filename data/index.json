@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-14",
   "agent_count": 71,
-  "feedback_count": 5191,
+  "feedback_count": 5192,
   "confirmed": 53,
   "stretch": 18,
   "agents": [
@@ -802,7 +802,7 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 65,
+      "feedback_count": 66,
       "public_signal": null,
       "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",

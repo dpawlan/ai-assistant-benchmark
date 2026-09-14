@@ -1,5 +1,209 @@
 [
   {
+    "id": "ed748d0b6289",
+    "agent": "muse",
+    "quote": "My Muse is helping me build a park in my community! 🏞️\n\nI had this idea to re-envision a local shopping center near me into a community hub and playground for my kids, but I had no idea how to get started.\n\n@Muse helped me build out a plan. mock up what it could actually look like, build a funding roadmap and research who to contact at the property and in my local township to start the conversation.\n\nI feel like I can really make a positive impact in my community now!\n\nStay tuned to see where this goes. Let's build a park!!",
+    "author": "@jasteinerman",
+    "author_name": "Jake Steinerman",
+    "date": "2026-09-14",
+    "url": "https://x.com/jasteinerman/status/2099525251986006357",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Community planning: redevelopment concept, mock-up, funding roadmap, and stakeholder research."
+  },
+  {
+    "id": "e036f3fa2c69",
+    "agent": "muse",
+    "quote": "@Muse been trying you + instinct the last couple days. solid at a lot of tasks.\n\nwhat surprised me: the blocker wasn't capability. it was that the personal assistant job i actually want (mail, notes, calendar, \"what did i promise\") already lives on my laptop, and i wasn't ready to hand off cards day one.\n\nso i stood up a small local ollama assistant for that on-device pile. still using muse for other things. curious how you think about the trust ramp between \"one great chat\" and \"full life admin.\"",
+    "author": "@esssekar",
+    "author_name": "nav",
+    "date": "2026-09-14",
+    "url": "https://x.com/esssekar/status/2099511838031724631",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Real-world evaluation of mail, notes, calendar, memory, and trust boundaries."
+  },
+  {
+    "id": "768f26ee1041",
+    "agent": "muse",
+    "quote": "I didn't watch any of the @NFL games yesterday so I asked @Muse to give me a fun recap in comic book style.\n\n(Also asked to get one every Monday morning going forward)",
+    "author": "@Yairyup",
+    "author_name": "Yair Savlevi",
+    "date": "2026-09-14",
+    "url": "https://x.com/Yairyup/status/2099478559517540467",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Generated a comic-book sports recap and scheduled recurring Monday delivery."
+  },
+  {
+    "id": "0e863b411f64",
+    "agent": "muse",
+    "quote": "I have something all men would appreciate and that's having your agent call, email, and set up your doctor and dentist appointments lol.\n\nI wanted to try it with @Muse as a test run. It emailed the office, called and left a voicemail. They got back to me to confirm and that was it.\n\nUsed @bot to fill out all of the new patient paperwork since it has the context needed.\n\nIt then added the dates to my calendar with all of the info it grabbed from the email.\n\n5 minutes tops. And moving forward this will be the flow.",
+    "author": "@MalGsx",
+    "author_name": "Jamal Hinton",
+    "date": "2026-09-14",
+    "url": "https://x.com/MalGsx/status/2099504838522380421",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "End-to-end appointment scheduling, phone/email outreach, forms, and calendar updates."
+  },
+  {
+    "id": "b940773d2e1e",
+    "agent": "muse",
+    "quote": ".@Muse is incredible!\n\nRan 146 flight price searches (cash and award flights w/ points) from SFO to 11 cities in Spain and departing from 10 Italy cities to SFO across 7 dates (I had a flexible travel schedule) to give me an optimized lowest round-trip flight cost!-",
+    "author": "@mehtadeep",
+    "author_name": "Deep Mehta",
+    "date": "2026-09-14",
+    "url": "https://x.com/mehtadeep/status/2099498596789850192",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Large-scale travel search across cash fares, award points, origins, destinations, and dates."
+  },
+  {
+    "id": "37e1044945f1",
+    "agent": "muse",
+    "quote": "Just enjoyed a coffee in Amsterdam while my AI assistant @Muse found the best canal cruise nearby, booked it, and paid for it. I never left my chair or browsed the web. This is the future. $META @alexandr_wang",
+    "author": "@iamchshah",
+    "author_name": "Feynman",
+    "date": "2026-09-14",
+    "url": "https://x.com/iamchshah/status/2099454533256593700",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Browsing-free local discovery followed by booking and payment."
+  },
+  {
+    "id": "ba26505afda1",
+    "agent": "muse",
+    "quote": "@alexandr_wang @Muse Already shopping big ticket items using @muse thanks",
+    "author": "@khannamanpreet",
+    "author_name": "Manpreet Khanna",
+    "date": "2026-09-14",
+    "url": "https://x.com/khannamanpreet/status/2099527807391187292",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Direct report of using Muse for big-ticket shopping."
+  },
+  {
+    "id": "b132eaee6f3e",
+    "agent": "muse",
+    "quote": "I was finally able to expose a weakness in my @Muse agent: a simple learning book we were working on for my daughter. It took upwards of 5 revisions, and on the 3rd it started asking for screenshots to identify the issue, which seems to help a lot.",
+    "author": "@OffZeroCyber",
+    "author_name": "Michael",
+    "date": "2026-09-14",
+    "url": "https://x.com/OffZeroCyber/status/2099496720363118684",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Iterative educational-content creation with screenshot-based debugging."
+  },
+  {
+    "id": "5f9a4410706f",
+    "agent": "muse",
+    "quote": "@turbahn @Muse Hard agree. @Muse is running my family's admin now: ordering school lunches for the week for my kids, booking swim lanes on a schedule as they open up, budget logging, the works. It's now saving me the $200/mo in other subs. Worth it.\n\nAnd all that is without getting into my person projects.",
+    "author": "@kbklinks",
+    "author_name": "kbklinks",
+    "date": "2026-09-13",
+    "url": "https://x.com/kbklinks/status/2099264160613720558",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Family administration: shopping, scheduled booking, and budget logging."
+  },
+  {
+    "id": "1a05ec483011",
+    "agent": "muse",
+    "quote": "Bought a flight via @Muse and it was pretty seamless, it's really damn good.",
+    "author": "@richddr",
+    "author_name": "Richard Garcia",
+    "date": "2026-09-13",
+    "url": "https://x.com/richddr/status/2099335413823369536",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Concrete flight purchase testimonial."
+  },
+  {
+    "id": "e0f4827b6a8b",
+    "agent": "muse",
+    "quote": "Me: [Skeptical that AI assistants do anything useful.]\n\nI gave @Muse a try this weekend. It booked me a restaurant and parking reservation. OK whatever, thanks. I asked it to research the best of 700+ episodes of a podcast series that I like. Easy. Thanks again.\n\nThen it offered to create a Spotify playlist of those episodes so I don't have to scroll endlessly to find them. 🤯 🤯 I'm in!\n\n@alexandr_wang @TheRestHistory",
+    "author": "@never_offseason",
+    "author_name": "David",
+    "date": "2026-09-13",
+    "url": "https://x.com/never_offseason/status/2099326880998395949",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Restaurant and parking reservations, large-scale research, and playlist creation."
+  },
+  {
+    "id": "b7cbe2de9dfc",
+    "agent": "muse",
+    "quote": "@Muse just helped me book flights for my euro trip. @Ryanair is a nightmare for Americans FYI and muse suggested we try going through PayPal because there probably blocking my American card and then it did the whole PayPal think and booked!",
+    "author": "@MikeAISales",
+    "author_name": "Mike",
+    "date": "2026-09-13",
+    "url": "https://x.com/MikeAISales/status/2099291972175577417",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:14:00Z",
+    "notes": "Flight booking plus payment troubleshooting and completion."
+  },
+  {
     "id": "fc3e8c09795f",
     "agent": "muse",
     "quote": "Introducing Muse, your personal AI agent from Meta that gets things done across every part of life.\n\nDownload the Muse app and get started: https://Muse.ai",

@@ -14,7 +14,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Email bill detection and bank/credit-account review."
+    "notes": "Email bill detection and bank/credit-account review.",
+    "metrics": {
+      "likes": 165,
+      "reposts": 3,
+      "replies": 20,
+      "views": 15660,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "89a266d9c7fe",
@@ -31,7 +38,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Multi-agent research, ticket-building, money monitoring and trade-risk review."
+    "notes": "Multi-agent research, ticket-building, money monitoring and trade-risk review.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 11,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "0d0bb04c863d",
@@ -48,7 +62,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Secondhand report of Grok Bot handling recurring GTM/admin work."
+    "notes": "Secondhand report of Grok Bot handling recurring GTM/admin work.",
+    "metrics": {
+      "likes": 8,
+      "reposts": 0,
+      "replies": 1,
+      "views": 55,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "4d8791c4bb0e",
@@ -65,7 +86,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Drafting with human approval and inspectable calendar entries."
+    "notes": "Drafting with human approval and inspectable calendar entries.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 12,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "75822ffd71eb",
@@ -82,7 +110,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Overnight bookmark-to-demo and writing-draft workflow."
+    "notes": "Overnight bookmark-to-demo and writing-draft workflow.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "356438314d10",
@@ -99,7 +134,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Automated daily research-to-prototype pipeline with validation and preview deployment."
+    "notes": "Automated daily research-to-prototype pipeline with validation and preview deployment.",
+    "metrics": {
+      "likes": 1714,
+      "reposts": 99,
+      "replies": 187,
+      "views": 1984893,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "8e06e4b07d21",
@@ -116,7 +158,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Shopping-list image recognition and cart preparation with purchase approval."
+    "notes": "Shopping-list image recognition and cart preparation with purchase approval.",
+    "metrics": {
+      "likes": 42,
+      "reposts": 0,
+      "replies": 7,
+      "views": 2113,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "0fd07ccce222",
@@ -133,7 +182,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Event discovery, preference ranking and calendar-aware shortlisting."
+    "notes": "Event discovery, preference ranking and calendar-aware shortlisting.",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 34,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e077030f4234",
@@ -150,7 +206,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Bookmark ingestion, knowledge-graph review and action assignment."
+    "notes": "Bookmark ingestion, knowledge-graph review and action assignment.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 2,
+      "views": 345,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "3669eb276219",
@@ -167,7 +230,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Email summarization, suspicious-message filtering and daily digest."
+    "notes": "Email summarization, suspicious-message filtering and daily digest.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 22,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "019dbee9f53f",
@@ -184,7 +254,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Support-ticket triage with specialist/manager/owner roles and Slack integration."
+    "notes": "Support-ticket triage with specialist/manager/owner roles and Slack integration.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 37,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "18950670a47c",
@@ -201,7 +278,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:22:00Z",
-    "notes": "Manager-agent pattern for inbox administration and unnecessary-spending detection."
+    "notes": "Manager-agent pattern for inbox administration and unnecessary-spending detection.",
+    "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "replies": 0,
+      "views": 393,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "8fd4ae1617ca",
@@ -19791,7 +19875,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.019Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 1,
+      "replies": 4,
+      "views": 2889,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "85c5799dd57c",
@@ -19808,41 +19899,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.019Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "bf84aa5b7c0e",
-    "agent": "grok-bot",
-    "quote": "People will find name sooner or later and just ape Sand\n\nI held Yuki for a month and It went to 500k few hours back\n\nNow, I'm gonna hold Sand - Grok bot https://t.co/EKVRY2Ya40",
-    "author": "@josh_sol_degen",
-    "author_name": "Josh",
-    "date": "2026-08-09",
-    "url": "https://x.com/josh_sol_degen/status/2086576002726236504",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "e4bf7acf5091",
-    "agent": "grok-bot",
-    "quote": "Sand - Grok Bot",
-    "author": "@josh_sol_degen",
-    "author_name": "Josh",
-    "date": "2026-08-09",
-    "url": "https://x.com/josh_sol_degen/status/2086569321892057435",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 42,
+      "reposts": 7,
+      "replies": 6,
+      "views": 10291,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "97642cc87598",
@@ -19859,24 +19923,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "04dfea96b1ba",
-    "agent": "grok-bot",
-    "quote": "CT joining us\n\nHigher and Higher for sand\n\nAs I mentioned, there are plenty of confirmed sources naming Grok Bot as Sand",
-    "author": "@josh_sol_degen",
-    "author_name": "Josh",
-    "date": "2026-08-09",
-    "url": "https://x.com/josh_sol_degen/status/2086565541494640654",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 73,
+      "reposts": 11,
+      "replies": 6,
+      "views": 30359,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "8f9dbfde7e5b",
@@ -19893,76 +19947,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "ed93073551b8",
-    "agent": "grok-bot",
-    "quote": "Sand as Grok Bot going to be really big https://t.co/qoZGiXUSya",
-    "author": "@josh_sol_degen",
-    "author_name": "Josh",
-    "date": "2026-08-09",
-    "url": "https://x.com/josh_sol_degen/status/2086565068142227609",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "d65c7e3c8707",
-    "agent": "grok-bot",
-    "quote": "@elonmusk 请问你家新产品@bot  叫grok bot吗？",
-    "author": "@DZbtc66",
-    "author_name": "队长🔶 BNB",
-    "date": "2026-08-09",
-    "url": "https://x.com/DZbtc66/status/2086565001960317097",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "8263ebf4ad64",
-    "agent": "grok-bot",
-    "quote": "🤖 AI信号 (SOL) ⚪ 观望\n\n📌 GROK BOT ($SAND)\nCA: Bxj6sJzDgYXD348JzULmwvXb2UCjem1z6ero3BmwaoNT\n\n⏰ 信号时间: 05:09:28 (43秒前) | 币龄: 12小时+\n💰 MC: $15,094 | 流动性: $10,745\n👥 Holders: 94 | 1h涨幅: +588% | 1h成交: $26,866\n🧠 聪明钱包: 3个买入 (SW-8dcc, SW-01dc, SW-434b)\n\n🤖 AI 分析（推文12条）\n① 叙事：无公开叙事，疑似跟风盘。\n② 推特热度：暂无推特讨论（推文仅出现符号撞名，无实际指向）。\n③ 风险评语：代币无名称、无描述、无社交链接，开发者历史完全未知，信息真空，透明度严重缺失。\n\n⚠️ 非买入信号·可实现中位−23% DYOR\n\nTelegram频道: @ memmememjk",
-    "author": "@bitecong",
-    "author_name": "Green onions",
-    "date": "2026-08-09",
-    "url": "https://x.com/bitecong/status/2086560698235265061",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "a871d2efa823",
-    "agent": "grok-bot",
-    "quote": "The answer is out there in the open.\n\nSand Grok Bot\n\n0xde6c6539a314e344debc16dd1c45aea9c39f7777",
-    "author": "@MaureliusRH",
-    "author_name": "Marcus Aurelius",
-    "date": "2026-08-09",
-    "url": "https://x.com/MaureliusRH/status/2086557569641074739",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 2,
+      "replies": 8,
+      "views": 2143,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "c4f4374fa094",
@@ -19979,7 +19971,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 1,
+      "replies": 1,
+      "views": 1743,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "48eeb3a678d8",
@@ -19996,42 +19995,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "732719dabb2c",
-    "agent": "grok-bot",
-    "quote": "@yeaknoya i know you are seeing this Grok Bot trend. Someone made a coin one year ago predicting it. I have no affiliations just check out this CA  |\n\nDbwoXrPMUmTg9LqGrDj75FeDASKpqb6EMkyCdEY8pump",
-    "author": "@zeltmeta",
-    "author_name": "zelt.",
-    "date": "2026-08-09",
-    "url": "https://x.com/zeltmeta/status/2086550269803049172",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "d306ce1a1ffe",
-    "agent": "grok-bot",
-    "quote": "According to tech media reports, the Cursor brand will be phased out over the coming months, and a general-purpose intelligent agent product under development, internally codenamed \"Sand,\" may launch under the new \"Grok Bot\" brand.\n\nhttps://t.co/BV3FjVmVP1\n\nSo, the code name is $SAND and its paired with SPCX rewards\n\n0xde6c6539a314e344debc16dd1c45aea9c39f7777",
-    "author": "@sadcat_gamble",
-    "author_name": "0хSadcat 🅿️",
-    "date": "2026-08-09",
-    "url": "https://x.com/sadcat_gamble/status/2086548648238956807",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 5,
+      "reposts": 1,
+      "replies": 2,
+      "views": 6434,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "91aa273cbbd5",
@@ -20048,42 +20019,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "7d2ad74b24a8",
-    "agent": "grok-bot",
-    "quote": "@TrillyDeveloper Grok bot.\n\nhttps://t.co/CPI2Ffl5Qt",
-    "author": "@stellarbased",
-    "author_name": "𝘀𝘁𝗲𝗹𝗹𝗮𝗿𝘣𝘢𝘴𝘦𝘥",
-    "date": "2026-08-09",
-    "url": "https://x.com/stellarbased/status/2086546377203437725",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "c4ae2a90bb38",
-    "agent": "grok-bot",
-    "quote": "ITS GROK BOT LOOK AT THE ARTICLE\n\nhttps://t.co/a9DXo0on1L",
-    "author": "@TrillyDevelop",
-    "author_name": "TrillyDev",
-    "date": "2026-08-09",
-    "url": "https://x.com/TrillyDevelop/status/2086541541766525167",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 8,
+      "replies": 0,
+      "views": 1563,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "a841cbb12ca1",
@@ -20101,25 +20044,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "10503af797f7",
-    "agent": "grok-bot",
-    "quote": "@negro_peligro @EricLDaugh @grok Bot, idiot or moron?",
-    "author": "@SuttonGene83595",
-    "author_name": "Gene",
-    "date": "2026-08-09",
-    "url": "https://x.com/SuttonGene83595/status/2086437839210754373",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "909db61f9382",
@@ -20136,24 +20068,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "14def6633d05",
-    "agent": "grok-bot",
-    "quote": "when the cluster is done $grokbot sends\nFPa8JsCeNM1YPayMc6kSAK86vdcPNwESTbzX6cgvpump",
-    "author": "@rtkk11",
-    "author_name": "caelum⚛️",
-    "date": "2026-08-08",
-    "url": "https://x.com/rtkk11/status/2086074165350580642",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 44,
+      "reposts": 0,
+      "replies": 49,
+      "views": 317,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "94f5c022ea2c",
@@ -20170,7 +20092,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 96,
+      "reposts": 12,
+      "replies": 25,
+      "views": 62065,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5b7edf1640af",
@@ -20187,7 +20116,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 57,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "c782e4f222cb",
@@ -20204,7 +20140,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 14,
+      "reposts": 1,
+      "replies": 1,
+      "views": 2513,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "edcadebf4500",
@@ -20221,254 +20164,13 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "736ebc5e3696",
-    "agent": "grok-bot",
-    "quote": "しっかし‥\nあの Grok bot のDDosバリの行儀の悪さを差し置いて、X がAIボット対策強化をしているとはね\n\n内部に Grok いる時点で、外部AIへの防御やっても意味ねぇじゃん❓️\nそう思わない❓️\n無課金でチャットすれば必要なモンは抜けるんだからさ😆ww",
-    "author": "@Den_scoth_Mn",
-    "author_name": "fein atelier org",
-    "date": "2026-08-07",
-    "url": "https://x.com/Den_scoth_Mn/status/2085666639480324243",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "dce2aabbce09",
-    "agent": "grok-bot",
-    "quote": "Memecoin Recap - August 6\n\n\"A diamond is just a piece of coal that never quit \"\n- quoteguy jr.\n\nThe Pygmy Hippo\n\n$TINYTANK - > 536k mcap (1.58m ATH) , The Toronto Zoo's newborn pygmy hippo and is posting memes comparing the calf to Moo Deng.\n\nWildlife Wonderland\n\n$WW - > 343k mcap (587k ATH) , Polk County, Texas passed an ordinance banning exotic animals and gave Wildlife Wonderland, a real 501(c)(3) sanctuary run by Miranda Sanders, 30 days to relocate her rescues before seizure. The situation went viral on TikTok, and crypto Twitter's response was to help them and start buying.\n\ngooncoin\n\n$goon - > 273k mcap ( 480k ATH) ,The @ grok bot replied to a random user with '*throbs harder* Don't you dare stop now. Keep going. Right there. Cum for me.' and the post accumulated 34.9 million views — people are still just screenshotting it and reacting with confusion and memes.\n\nchrome\n\n$chrome - > 147k mcap ( 402k ATH) , sent supply to kimchi and chrome hearts is what they usually wear.\nAlso $Kimchi went 6.25m ATH\n\nMysterious Source of Income\n\n$Income - > 41k mcap (175k ATH) , A TikTok trend about cats lounging around with no job and somehow thriving caught fire under the phrase \"Mysterious Source of Income.\" Someone quoted the meme: \"The best part is, we all have this mysterious source of income.\" Then tokenized it. Replies ranged from 'if you find one, share it with me' to 'that's just CEOs.'",
-    "author": "@1ventigap",
-    "author_name": "vent182301",
-    "date": "2026-08-07",
-    "url": "https://x.com/1ventigap/status/2085633687887216989",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "0d5acfc58efc",
-    "agent": "grok-bot",
-    "quote": "@psalmdhee02 @iadkeys @grok Bot",
-    "author": "@pizzefrit",
-    "author_name": "pizzafritta",
-    "date": "2026-08-06",
-    "url": "https://x.com/pizzefrit/status/2085505671118590460",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "046dfe604eb7",
-    "agent": "grok-bot",
-    "quote": "@itshanasaito @iadkeys @grok bot account…",
-    "author": "@CynicallyTroy",
-    "author_name": "CynicallyTroy ⌛️",
-    "date": "2026-08-06",
-    "url": "https://x.com/CynicallyTroy/status/2085461009829974033",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "f3b6a31e2f01",
-    "agent": "grok-bot",
-    "quote": "@dodgerssin5 @grok bot aired you 😭",
-    "author": "@HoodieOhtani",
-    "author_name": "𝓦𝓪𝓿𝓮𝔂 🤠🐎",
-    "date": "2026-08-05",
-    "url": "https://x.com/HoodieOhtani/status/2085018829944475955",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "6a9360ce7424",
-    "agent": "grok-bot",
-    "quote": "@Cahnowak @Nicomlopez @kalipolis @grok bot",
-    "author": "@umbreo_on",
-    "author_name": "mel 🇦🇷",
-    "date": "2026-08-05",
-    "url": "https://x.com/umbreo_on/status/2085017140252344664",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "c9cf0b39c4fb",
-    "agent": "grok-bot",
-    "quote": "@Pixald88 @ScythianPG However I do not think Russia is right wing in that sense, it is just common sense politics which maybe are seen today as RW, but I share many of these political standpoints and im according to Grokbot Far-left....",
-    "author": "@frostReZv2",
-    "author_name": "frost",
-    "date": "2026-08-05",
-    "url": "https://x.com/frostReZv2/status/2084897232839450831",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "1cc3124abc49",
-    "agent": "grok-bot",
-    "quote": "@goztepelimessi_ @grok Bot basıyon çünkü amk",
-    "author": "@natehiggers1925",
-    "author_name": "Ege",
-    "date": "2026-08-03",
-    "url": "https://x.com/natehiggers1925/status/2084243398295179389",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "17e9a8c54f47",
-    "agent": "grok-bot",
-    "quote": "@AhadReports @NFL @nflnetwork thanks Grokbot",
-    "author": "@duttybastrd",
-    "author_name": "IThinkThatImTomCruise",
-    "date": "2026-08-03",
-    "url": "https://x.com/duttybastrd/status/2084103104824590612",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "21699aef8a34",
-    "agent": "grok-bot",
-    "quote": "human is claude 8, male lizard is us and female lizard is the grokbot 3000\n\nconcerning....",
-    "author": "@kodumit",
-    "author_name": "kodumit",
-    "date": "2026-08-02",
-    "url": "https://x.com/kodumit/status/2083949225008652556",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "1d646f205647",
-    "agent": "grok-bot",
-    "quote": "@Fuckedurmom2144 @Bakec6ac @grok Bot account.",
-    "author": "@dijoni",
-    "author_name": "Don Salmon",
-    "date": "2026-08-02",
-    "url": "https://x.com/dijoni/status/2083854769626751205",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "149ba3ea4fa6",
-    "agent": "grok-bot",
-    "quote": "@I_Choose_Wisdom @wideofthepost @grok bot",
-    "author": "@dorh4daddy",
-    "author_name": "Dorh",
-    "date": "2026-08-02",
-    "url": "https://x.com/dorh4daddy/status/2083794193349050739",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "22d14ec87af6",
-    "agent": "grok-bot",
-    "quote": "@Grok bot hesaplar temizlendi diyorsunuz..\nŞu an @erenalibingol başkan'a\nYüzlerce bot hesap küfür ediyor.\nTürkiye’nin bot şirketleri tıkır tıkır\nİşiliyor. https://t.co/1IsyLuUD2o",
-    "author": "@Ottoman_agent",
-    "author_name": "Ulubatlıhasanım.",
-    "date": "2026-08-01",
-    "url": "https://x.com/Ottoman_agent/status/2083679844844343339",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
-  },
-  {
-    "id": "a0021b2d991a",
-    "agent": "grok-bot",
-    "quote": "@SpoilerAlert_US @Lofi4All @grok Bot account.",
-    "author": "@dijoni",
-    "author_name": "Don Salmon",
-    "date": "2026-08-01",
-    "url": "https://x.com/dijoni/status/2083521431623889175",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T21:54:49.020Z",
-    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets",
+    "metrics": {
+      "likes": 49,
+      "reposts": 9,
+      "replies": 4,
+      "views": 5706,
+      "fetched": "2026-09-14"
+    }
   }
 ]

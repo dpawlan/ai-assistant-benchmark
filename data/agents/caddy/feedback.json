@@ -2688,55 +2688,5 @@
       "views": 869,
       "fetched": "2026-09-10"
     }
-  },
-  {
-    "id": "ee9a1c4fcabe",
-    "agent": "caddy",
-    "quote": "@stannostudio @Muse @instinct @tomo @grok @vellum_ai @orchid_hq @try_caddy @interaction @wajo_ai @catchagent @NaturaAI @TownAI @try_folk @heyollieai @pallyai @merit_systems @ZapiaAI @meetlucasai @try_mana_app @Letta_AI @trygist @soarapp Of course !! You are doing a great job guys",
-    "author": "@kgauthier15",
-    "author_name": "Kevin Gauthier",
-    "date": "2026-09-10",
-    "url": "https://x.com/kgauthier15/status/2098153659825565882",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T15:02:16.765Z",
-    "notes": "query: @try_caddy since:2026-09-01 until:2026-09-14 -filter:retweets",
-    "metrics": {
-      "likes": 1,
-      "reposts": 0,
-      "replies": 0,
-      "views": 123,
-      "fetched": "2026-09-14"
-    }
-  },
-  {
-    "id": "a06d216d4566",
-    "agent": "caddy",
-    "quote": "@kgauthier15 @Muse @instinct @tomo @grok @vellum_ai @orchid_hq @try_caddy @interaction @wajo_ai @catchagent @NaturaAI @TownAI @try_folk @heyollieai @pallyai @merit_systems @ZapiaAI @meetlucasai @try_mana_app @Letta_AI @trygist @soarapp !",
-    "author": "@stannostudio",
-    "author_name": "Stanley",
-    "date": "2026-09-10",
-    "url": "https://x.com/stannostudio/status/2098152999621447860",
-    "kind": "other",
-    "tags": [
-      "auto",
-      "x",
-      "reply"
-    ],
-    "source": "x",
-    "collected_at": "2026-09-14T15:02:16.765Z",
-    "notes": "query: @try_caddy since:2026-09-01 until:2026-09-14 -filter:retweets",
-    "metrics": {
-      "likes": 0,
-      "reposts": 0,
-      "replies": 1,
-      "views": 90,
-      "fetched": "2026-09-14"
-    }
   }
 ]

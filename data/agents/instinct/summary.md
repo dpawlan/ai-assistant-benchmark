@@ -56,3 +56,15 @@ _Updated 2026-09-11 weekday vault scan (+6 rows)._
 - (2026-09-03) Sarah Perez: Despite the hype around Instinct, one of my first tests with it was to price out hotels then book one, and it quoted me all the wrong rates.
 - (2026-08-28) OG_BME: We love Instinct, but have been increasingly worried about the data footprint we are handing over to them, and what they might do with that 
 - (2026-09-11) @credofly: No AI can beat Indian banks.   Highly disappointed with the first usage of Instinct AI  Overhyped stuff.   #instinctai
+
+_Updated 2026-09-14 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-09-11) Remy Gaskell: I've used it every day for the last 7 days, and I'm highly, highly impressed. … Instinct pulled the answer from the Airbnb receipts in my email.
+- (2026-09-11) Remy Gaskell: Well done, Noah Shinn and the team. I can already see it filling the personal-assistant hole in my AI stack.
+- (2026-09-13) Lila Shroff (Atlantic): Hands-on — book gift for editor, Airbnb, in-network PCPs, cleaning quotes; feels like texting a person.
+- (2026-09-13) Lila Shroff (Atlantic): Colleague monitored sold-out Mexico City museum tickets for 3 days, bought, then reshuffled restaurants.
+- (2026-09-13) Lila Shroff (Atlantic): Mishaps — premature flight cancel (>$200), unapproved Resy with $200 fee, Resy spam lockout.
+- (2026-09-13) Olivia Levine via Atlantic: US Open jumbotron footage chase across USTA / ticket office / Amex.
+- (2026-09-13) Lila Shroff (Atlantic): CAPTCHA defeat — "Nothing punctures the fantasy of autonomous intelligence like being defeated by nine blurry crosswalks."
+

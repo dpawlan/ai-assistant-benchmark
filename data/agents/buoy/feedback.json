@@ -431,5 +431,435 @@
       "views": 512,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "id": "2e009735424c",
+    "agent": "buoy",
+    "quote": "@riccqi @taufiqmmhd @cwyangg send me a few pics of your office and some water, i'll make it happen",
+    "author": "@ravernkoh",
+    "author_name": "ravern",
+    "date": "2026-09-11",
+    "url": "https://x.com/ravernkoh/status/2098253892660449776",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "0525e4edd932",
+    "agent": "buoy",
+    "quote": "@ArthurSaada @ronithhh @riccqi Could be! Depends on where culture goes",
+    "author": "@heysaik",
+    "author_name": "Sai Kambampati",
+    "date": "2026-09-07",
+    "url": "https://x.com/heysaik/status/2097081492090278221",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "b5eb2290d7b1",
+    "agent": "buoy",
+    "quote": "@heysaik @ronithhh @riccqi I am ok with the idea, make sens to have an invisible protocol in this way but why have a new device ? The phone is enough I think..",
+    "author": "@ArthurSaada",
+    "author_name": "Arthur",
+    "date": "2026-09-07",
+    "url": "https://x.com/ArthurSaada/status/2097062056398672293",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "b20ab7bff9ab",
+    "agent": "buoy",
+    "quote": "@heysaik @ronithhh @riccqi Not all the UI is there yet, but to give you an idea:\n\nhttps://t.co/UG2LjLvrqK",
+    "author": "@keleftheriou",
+    "author_name": "Kosta Eleftheriou",
+    "date": "2026-09-07",
+    "url": "https://x.com/keleftheriou/status/2097054628152234303",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "32ed90156531",
+    "agent": "buoy",
+    "quote": "@heysaik @ronithhh @riccqi I think a watch screen, while limited, can serve an absolutely vast number of use cases when coupled with voice and on-demand UI:\n\nhttps://t.co/TEVjWoVB04",
+    "author": "@keleftheriou",
+    "author_name": "Kosta Eleftheriou",
+    "date": "2026-09-07",
+    "url": "https://x.com/keleftheriou/status/2097054482777702881",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "d80fb2b42718",
+    "agent": "buoy",
+    "quote": "Some thoughts on AI hardware\n\n(s/o to @ronithhh and @riccqi who convinced me to pen this down during a great lunch)\n\nhttps://t.co/Min21DngNT",
+    "author": "@heysaik",
+    "author_name": "Sai Kambampati",
+    "date": "2026-09-07",
+    "url": "https://x.com/heysaik/status/2097030733604835505",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @riccqi since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "77daac6ab50b",
+    "agent": "buoy",
+    "quote": "@ronithhh @DavidPawlan done",
+    "author": "@HarryKapoor19",
+    "author_name": "Harry Kapoor - Truthseeking",
+    "date": "2026-09-11",
+    "url": "https://x.com/HarryKapoor19/status/2098277118014816698",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "d67ed3e3c05b",
+    "agent": "buoy",
+    "quote": "@__jelias @andrewe @ronithhh @interfaceclub @browserbase lfg",
+    "author": "@peytoncasper",
+    "author_name": "Peyton Casper",
+    "date": "2026-09-09",
+    "url": "https://x.com/peytoncasper/status/2097763585749549360",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "e2476be85449",
+    "agent": "buoy",
+    "quote": "@__jelias @peytoncasper @ronithhh @interfaceclub @browserbase while I am already a user, future users and their agents thank you.",
+    "author": "@andrewe",
+    "author_name": "Andrew Escobar",
+    "date": "2026-09-09",
+    "url": "https://x.com/andrewe/status/2097728023067791533",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "1cde6a434daa",
+    "agent": "buoy",
+    "quote": "@andrewe @peytoncasper @ronithhh @interfaceclub @browserbase merged btw",
+    "author": "@__jelias",
+    "author_name": "jay elias",
+    "date": "2026-09-09",
+    "url": "https://x.com/__jelias/status/2097724225520107790",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "667b91d15d34",
+    "agent": "buoy",
+    "quote": "@ronithhh Himothy",
+    "author": "@harvpark",
+    "author_name": "harvin",
+    "date": "2026-09-09",
+    "url": "https://x.com/harvpark/status/2097522514792731073",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "3d38091e5fc5",
+    "agent": "buoy",
+    "quote": "@ronithhh You’re a very smart guy. We smell talent.",
+    "author": "@kaiel_ai",
+    "author_name": "Kaiel",
+    "date": "2026-09-09",
+    "url": "https://x.com/kaiel_ai/status/2097499964796706976",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "04e963d020e0",
+    "agent": "buoy",
+    "quote": "@andrewe @peytoncasper @ronithhh @interfaceclub @browserbase gotchu 🤝 https://t.co/y4EAdKz6mM",
+    "author": "@__jelias",
+    "author_name": "jay elias",
+    "date": "2026-09-08",
+    "url": "https://x.com/__jelias/status/2097468092477776169",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "5e246298277c",
+    "agent": "buoy",
+    "quote": "@ronithhh @AsideAI  literally pioneered this lmao",
+    "author": "@NavDoesTech",
+    "author_name": "Nav",
+    "date": "2026-09-02",
+    "url": "https://x.com/NavDoesTech/status/2095058104287424538",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.362Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "ad6e498a50d6",
+    "agent": "buoy",
+    "quote": "incredible idea from @ronithhh and @interfaceclub we decided we had to try it for ourselves\n\nimessage to @browserbase https://t.co/bM6RQWgG2W",
+    "author": "@peytoncasper",
+    "author_name": "Peyton Casper",
+    "date": "2026-09-02",
+    "url": "https://x.com/peytoncasper/status/2094949066409197704",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "1a4eafe9c0ec",
+    "agent": "buoy",
+    "quote": "@ronithhh Open source . Thoughts?\n\nhttps://t.co/cvdrDs2FNg",
+    "author": "@incent_ai",
+    "author_name": "Om",
+    "date": "2026-09-01",
+    "url": "https://x.com/incent_ai/status/2094833291472117999",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "2903d30af0fc",
+    "agent": "buoy",
+    "quote": "@ronithhh Open source version here btw:\nhttps://t.co/cvdrDs2FNg",
+    "author": "@incent_ai",
+    "author_name": "Om",
+    "date": "2026-09-01",
+    "url": "https://x.com/incent_ai/status/2094831403888443534",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "2bbf6c46326d",
+    "agent": "buoy",
+    "quote": "@ronithhh Let me open an pr and add this feature to @NousResearch  hermes agent’s functionality in its gateway. Would be fun. Thanks for the idea.",
+    "author": "@BigVioletcow",
+    "author_name": "Violet cow 🌸",
+    "date": "2026-09-01",
+    "url": "https://x.com/BigVioletcow/status/2094727516758138939",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "e0b2caa26186",
+    "agent": "buoy",
+    "quote": "@ronithhh @anshnanda Very nice. Although personally I think saving user cookie sessions on servers is very dangerous, 1 breach and all users’ connected accounts are compromised. Hope your users are made aware of this.",
+    "author": "@tanmays",
+    "author_name": "Tanmay",
+    "date": "2026-09-01",
+    "url": "https://x.com/tanmays/status/2094679041911685436",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "5c893f5681e4",
+    "agent": "buoy",
+    "quote": "@ronithhh Ronith is the Steve Jobs of our time",
+    "author": "@hangqizheng",
+    "author_name": "Hangqi Zheng",
+    "date": "2026-09-01",
+    "url": "https://x.com/hangqizheng/status/2094671474275611061",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "9623fbd2cc87",
+    "agent": "buoy",
+    "quote": "@ronithhh wait this is actually kinda incredible, u sure u dont wanna build an infra company?",
+    "author": "@crystalxtang",
+    "author_name": "crystal",
+    "date": "2026-09-01",
+    "url": "https://x.com/crystalxtang/status/2094659349348233458",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "c39015495561",
+    "agent": "buoy",
+    "quote": "@ronithhh 🔥🔥🔥",
+    "author": "@rishistyping",
+    "author_name": "Rish",
+    "date": "2026-09-01",
+    "url": "https://x.com/rishistyping/status/2094647555636318571",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "a81a32794b9a",
+    "agent": "buoy",
+    "quote": "@ronithhh great job, I had this exact same idea. wonderful execution and launch video. think you guys should make this a separate app outside of the chat interface",
+    "author": "@edisonydlee",
+    "author_name": "Edison",
+    "date": "2026-09-01",
+    "url": "https://x.com/edisonydlee/status/2094641844680634401",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "id": "02d4334e5206",
+    "agent": "buoy",
+    "quote": "@ronithhh Amazing execution btw!",
+    "author": "@americosmjr",
+    "author_name": "Américo",
+    "date": "2026-09-01",
+    "url": "https://x.com/americosmjr/status/2094640334894502021",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T15:01:47.363Z",
+    "notes": "query: @ronithhh since:2026-09-01 until:2026-09-14 -filter:retweets"
   }
 ]

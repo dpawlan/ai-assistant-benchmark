@@ -1717,6 +1717,29 @@
         ],
         "checked": "2026-09-14"
       }
+    },
+    {
+      "slug": "tasklet",
+      "name": "Tasklet",
+      "status": "stretch",
+      "site": "https://tasklet.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Run your business on agents",
+      "icon": "/logos/tasklet.png",
+      "kind": "work",
+      "access": {
+        "pricing": "credits",
+        "price": "7-day trial with 5,000 credits; Starter $25/mo, Pro $100/mo, Custom from $250/mo; billed per organization",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Mac app",
+          "Slack",
+          "Email"
+        ],
+        "checked": "2026-09-14"
+      }
     }
   ]
 }

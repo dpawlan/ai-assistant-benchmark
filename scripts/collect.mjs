@@ -3,6 +3,7 @@
  * Collect public quotes about each assistant.
  *
  *   node scripts/collect.mjs x         --slug instinct,poke [--since 2026-06-01] [--until 2026-09-08] [--window 7] [--headed]
+ *   node scripts/collect.mjs x         --query '"boarding pass" min_faves:20' [--since ...]   one search, filed under every assistant it names
  *   node scripts/collect.mjs reddit    [--slug ...]
  *   node scripts/collect.mjs hn        [--slug ...]
  *   node scripts/collect.mjs appstore  [--slug ...] [--country us]
@@ -300,7 +301,76 @@ async function collectX() {
     }
   });
 
+  /** Run one base query over every date window, collecting into `seen`. Retries a window after a rate limit. */
+  const runQuery = async base => {
+    for (const [a, b] of dateWindows(since, until, windowDays)) {
+      const q = `${base} since:${a} until:${b} -filter:retweets`;
+      currentQuery = q;
+      const before = seen.size;
+      let loaded = false;
+      for (let attempt = 0; attempt < 3 && !loaded; attempt++) {
+        await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
+        await sleep(2500);
+        if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
+          console.log(`  rate limited; sleeping 15 minutes, then retrying (${attempt + 1}/3)`);
+          await sleep(15 * 60 * 1000);
+        } else loaded = true;
+      }
+      if (!loaded) {
+        console.log(`  ${q}  skipped after 3 rate limits`);
+        continue;
+      }
+      let stale = 0;
+      let last = seen.size;
+      for (let i = 0; i < maxScrolls; i++) {
+        await page.mouse.wheel(0, 3500);
+        await jitter(900, 1600);
+        if (seen.size === last) {
+          if (++stale >= 3) break;
+        } else {
+          stale = 0;
+          last = seen.size;
+        }
+      }
+      console.log(`  ${q}  +${seen.size - before}`);
+      await jitter(2500, 5000);
+    }
+  };
+
+  const toRecord = (slug, cfg, t) =>
+    record({
+      slug,
+      quote: t.text,
+      author: `@${t.screen}`,
+      author_name: t.name,
+      date: toDate(t.created_at),
+      url: t.url,
+      source: 'x',
+      tags: [...(isVendor(cfg, t.screen) ? ['vendor'] : []), ...(t.is_reply ? ['reply'] : [])],
+      notes: `query: ${t.query}`,
+    });
+
   try {
+    // Ad-hoc mode: one search across every assistant, e.g. --query '"boarding pass" min_faves:20'.
+    // Each hit is filed under every assistant whose match terms appear in it.
+    if (opts.query) {
+      console.log(`\nAd-hoc search: ${opts.query}`);
+      seen.clear();
+      await runQuery(String(opts.query));
+      let routed = 0;
+      for (const slug of Object.keys(sources)) {
+        const cfg = sources[slug];
+        const items = [...seen.values()].filter(t => mentions(cfg, t.text)).map(t => toRecord(slug, cfg, t));
+        const fresh = filterNew(slug, cfg, items);
+        if (fresh.length) {
+          writeInbox('x', slug, fresh);
+          routed += fresh.length;
+        }
+      }
+      console.log(`ad-hoc: ${seen.size} posts seen, ${routed} filed under assistants (the rest named no product on the roster)`);
+      return;
+    }
+
     for (const slug of slugs) {
       const cfg = sources[slug];
       if (!cfg.x_queries?.length) continue;

@@ -3,14 +3,14 @@ import { CopyPrompt } from './CopyPrompt';
 import { JobAgents } from './JobAgents';
 import { JobLink } from './JobLink';
 import { VoteButton } from './VoteButton';
-import { CATEGORY_SHORT, RankedJob } from '@/lib/data';
+import { CATEGORY_SHORT, RankedJob, jobSearchText } from '@/lib/data';
 
 /** One job on the use-cases list: who can do it first, then the prompt. */
 export function JobCard({ job }: { job: RankedJob }) {
   const tested = new Set(job.tested.map(t => t.agent.slug)).size;
   const reported = new Set(job.reported.map(r => r.agent.slug)).size;
   return (
-    <li className="uc" id={job.key}>
+    <li className="uc" id={job.key} data-search={jobSearchText(job)}>
       <span className="uc-rank">{job.rank}</span>
       <div className="uc-body">
         <div className="uc-head">

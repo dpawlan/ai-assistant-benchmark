@@ -43,11 +43,16 @@ export default async function UseCasesPage({ searchParams }: { searchParams: Pro
       {ranked.length === 0 ? (
         <p className="empty-state">{q ? `Nothing matches "${q}".` : 'No use cases here yet.'}</p>
       ) : (
-        <ol className="uc-list">
-          {ranked.map(job => (
-            <JobCard key={job.key} job={job} />
-          ))}
-        </ol>
+        <>
+          <ol className="uc-list">
+            {ranked.map(job => (
+              <JobCard key={job.key} job={job} />
+            ))}
+          </ol>
+          <p className="empty-state" id="uc-empty" hidden>
+            Nothing matches that search.
+          </p>
+        </>
       )}
 
       <p className="uc-note">

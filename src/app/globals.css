@@ -3259,6 +3259,7 @@ a.chip.blue:hover {
 .uc-head-row { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 12px; }
 .uc-search { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; }
 .uc-search .input { flex: 1 1 240px; max-width: 420px; }
+.uc-search-count { font-size: 13px; color: var(--sec); }
 .uc-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 18px; }
 .uc-filters .sep { width: 1px; height: 18px; background: var(--line); margin: 0 4px; }
 .uc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }

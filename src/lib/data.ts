@@ -755,11 +755,9 @@ export function rankJobs(jobs: Job[], votes: Record<string, number>, sort: JobSo
   return scored.map((j, i) => ({ ...j, rank: i + 1 }));
 }
 
-/** Case-insensitive match over the job's text, its assistants and its evidence notes. Every word must hit. */
-export function jobMatches(job: Job, query: string): boolean {
-  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
-  if (!words.length) return true;
-  const hay = [
+/** Lower-cased text a search can match against: title, one-liner, prompt, group, dimension, assistants, evidence notes. */
+export function jobSearchText(job: Job): string {
+  return [
     job.title,
     job.one_liner,
     job.prompt,
@@ -771,5 +769,12 @@ export function jobMatches(job: Job, query: string): boolean {
   ]
     .join(' ')
     .toLowerCase();
+}
+
+/** Case-insensitive match; every word in the query must appear somewhere in the job's search text. */
+export function jobMatches(job: Job, query: string): boolean {
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = jobSearchText(job);
   return words.every(w => hay.includes(w));
 }

@@ -181,7 +181,14 @@
       "prompt": "Check me in for my [airline] flight tomorrow the moment the window opens, pick an aisle seat if you can, and send me the boarding pass.",
       "prompt_source": "assumed",
       "added": "2026-09-14",
-      "evidence": [],
+      "evidence": [
+        {
+          "quote": "0c249fd6e59b",
+          "agent": "soar",
+          "note": "Reminded the poster to check in for a flight they would otherwise have forgotten.",
+          "outcome": "done"
+        }
+      ],
       "runs": [
         "instinct-2026-08-29-58edb0",
         "instinct-2026-09-06-bd0984",

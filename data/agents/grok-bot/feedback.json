@@ -19775,5 +19775,700 @@
       "views": 93,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "0f83efb5e746",
+    "agent": "grok-bot",
+    "quote": "据知情人士透露， Cursor公司正在开发的一款通用智能代理产品（内部代号“Sand”）计划更名为“Grok Bot”。不过，最终名称尚未确定，SpaceX公司也在讨论是否为该产品创建一个全新的独立品牌。\n\n时间点：8月底之前必须完成✅ 收购整合，新的品牌 Bot 上线运营\n\n今天社媒更新： Bot   99%的概率 独立品牌 Bot 隶属 SpaceXai\n\n0xbcad9b1b85af1cd81437252bf50b87235c0b7777\nhttps://t.co/ueLw4WOgVs",
+    "author": "@0xmoles",
+    "author_name": "鼹鼠.🀄️🐲",
+    "date": "2026-08-09",
+    "url": "https://x.com/0xmoles/status/2086603029537771982",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.019Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "85c5799dd57c",
+    "agent": "grok-bot",
+    "quote": "【8月10日 朝のニュースまとめ】\n・OpenAI次期モデルAstraが8月リリースか\n・DeepSeek V4 Flash 0731が高評価で急速に普及\n・SpaceXのCursor買収完了とGrok Bot化へ\n・AIメモリ需要急増とNVIDIAのHBM削減検討\n・自律型AI「ClawWork」が1万ドル稼ぐなど活用進む\n・ChatGPT WorkとCodexの制限リセットと新活用事例\n・GPT-5.6 SolとFable 5が25年来の未解決問題を証明\n・第3回国際AIオリンピックで日本代表全員がメダル獲得\n\n===\n\nOpenAI次期モデルAstraが8月リリースか【続報】\n\n・OpenAIの次期モデル「Astra」に関する続報です。\n・8月中にリリースされる可能性が浮上しています。\n・Fable 5クラスの性能を持つとされ、オープンソースモデルの台頭に対抗するための重要な一手と見られています。\n\n===\n\nDeepSeek V4 Flash 0731が高評価で急速に普及【続報】\n\n・DeepSeek V4 Flash 0731に関する続報です\n・パラメータ数が少ないにもかかわらずNemotron3 Ultraを凌駕する性能を示し、大きな話題を呼んでいます\n・圧倒的なコストパフォーマンスの高さから、高額なClaudeのサブスクリプションを解約して乗り換えるユーザーも現れています\n・Clineなどのツールを用いたローカル環境での利用においても、最も人気のあるモデルの一つとして急速に普及しています\n\n===\n\nSpaceXのCursor買収完了とGrok Bot化へ【続報】\n\n・SpaceXによるCursor買収に関する続報です。\n・600億ドルでの買収手続きが今週中にも完了するとの報道がありました。\n・買収後、チームはSpaceXAIに統合され、今後の製品は「Grok Bot」としてリブランディングされる可能性があるとのことです。\n\n===\n\nAIメモリ需要急増とNVIDIAのHBM削減検討【続報】\n\n・AI向けメモリ市場に関する続報です。\n・AIデータセンターの需要増により、HBMだけでなくNAND (eSSD) の需要も急増しており、メモリメーカーによる強気な価格交渉が行われています。\n・一方で、NVIDIAが次世代GPU「Rubin Ultra」においてHBMの搭載量を計画より減らす検討をしているとの報道もありました。\n・これにより、メモリ容量の不足をネットワークで補うアプローチの限界や、光接続・銅接続などのアーキテクチャに関する議論が活発化しています。\n\n===\n\n自律型AI「ClawWork」が1万ドル稼ぐなど活用進む【続報】\n\n・AIエージェントの活用事例に関する続報です。\n・自らのAPI代を稼がなければ破産する自律型AI「ClawWork」が開発され、人間の入力なしで1万ドルを稼ぎ出した事例が報告されています。\n・Claude CodeをObsidianに接続する実践例や、Google CEOによるエージェントのオーケストレーションの重要性に関する発言も引き続き注目を集めています。\n\n===\n\nChatGPT WorkとCodexの制限リセットと新活用事例【続報】\n\n・ChatGPT WorkおよびCodexに関する続報です。\n・利用制限がリセットされるとの情報が広まり、ユーザーがトークン消費を急ぐ様子が見られました。\n・Workの具体的な使い方を解説するハンズオン資料やNoteが公開され、開発者の関心を集めています。\n・Codexで契約書を読み解かせ、電気代を年間約6,000ドル節約した実用的な事例も共有されています。\n\n===\n\nGPT-5.6 SolとFable 5が25年来の未解決問題を証明【続報】\n\n・GPT-5.6 Solの数学問題解決に関する続報です\n・GPT-5.6 SolとFable 5が、無線通信理論における25年来の未解決問題を約30分で証明したと報告されました\n・AIが高度な数学的推論において専門家レベルの成果を出し始めていることを示す重要なマイルストーンとして注目されています\n\n===\n\n第3回国際AIオリンピックで日本代表全員がメダル獲得\n\n・カザフスタンのアスタナで開催された第3回国際AIオリンピック (IOAI2026) において、日本代表チームの4名全員がメダルを獲得する快挙を成し遂げました。\n・様々な技術的トラブルや想定外の事態に見舞われながらも、代表選手たちが優秀な成績を収めたことが報告され、称賛の声が上がっています。",
+    "author": "@MLBear2",
+    "author_name": "ML_Bear",
+    "date": "2026-08-09",
+    "url": "https://x.com/MLBear2/status/2086582157917692271",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.019Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "bf84aa5b7c0e",
+    "agent": "grok-bot",
+    "quote": "People will find name sooner or later and just ape Sand\n\nI held Yuki for a month and It went to 500k few hours back\n\nNow, I'm gonna hold Sand - Grok bot https://t.co/EKVRY2Ya40",
+    "author": "@josh_sol_degen",
+    "author_name": "Josh",
+    "date": "2026-08-09",
+    "url": "https://x.com/josh_sol_degen/status/2086576002726236504",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "e4bf7acf5091",
+    "agent": "grok-bot",
+    "quote": "Sand - Grok Bot",
+    "author": "@josh_sol_degen",
+    "author_name": "Josh",
+    "date": "2026-08-09",
+    "url": "https://x.com/josh_sol_degen/status/2086569321892057435",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "97642cc87598",
+    "agent": "grok-bot",
+    "quote": "Cursor told staff SpaceX could complete its $60 billion acquisition as soon as next week, with employees set to be folded into SpaceXAI teams.\n\nThe Cursor name could also disappear from new products, including an upcoming general-purpose agent that may be branded Grok Bot.\n\nRead more details: https://t.co/JEuZE2tXwP",
+    "author": "@theinformation",
+    "author_name": "The Information",
+    "date": "2026-08-09",
+    "url": "https://x.com/theinformation/status/2086565689934975261",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "04dfea96b1ba",
+    "agent": "grok-bot",
+    "quote": "CT joining us\n\nHigher and Higher for sand\n\nAs I mentioned, there are plenty of confirmed sources naming Grok Bot as Sand",
+    "author": "@josh_sol_degen",
+    "author_name": "Josh",
+    "date": "2026-08-09",
+    "url": "https://x.com/josh_sol_degen/status/2086565541494640654",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "8f9dbfde7e5b",
+    "agent": "grok-bot",
+    "quote": "Cursor AI is being rebranded under Grok.\n\nTheir upcoming AI agent, internally codenamed “Sand,” is launching as Grok Bot.\n\nThe new @bot account already carries a SpaceX affiliation badge and follows only Grok and xAI.\n\nGrok’s Bot = $SAND https://t.co/JS2d86JGOq",
+    "author": "@InsiderFlips",
+    "author_name": "insider Flips",
+    "date": "2026-08-09",
+    "url": "https://x.com/InsiderFlips/status/2086565528152207430",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "ed93073551b8",
+    "agent": "grok-bot",
+    "quote": "Sand as Grok Bot going to be really big https://t.co/qoZGiXUSya",
+    "author": "@josh_sol_degen",
+    "author_name": "Josh",
+    "date": "2026-08-09",
+    "url": "https://x.com/josh_sol_degen/status/2086565068142227609",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "d65c7e3c8707",
+    "agent": "grok-bot",
+    "quote": "@elonmusk 请问你家新产品@bot  叫grok bot吗？",
+    "author": "@DZbtc66",
+    "author_name": "队长🔶 BNB",
+    "date": "2026-08-09",
+    "url": "https://x.com/DZbtc66/status/2086565001960317097",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "8263ebf4ad64",
+    "agent": "grok-bot",
+    "quote": "🤖 AI信号 (SOL) ⚪ 观望\n\n📌 GROK BOT ($SAND)\nCA: Bxj6sJzDgYXD348JzULmwvXb2UCjem1z6ero3BmwaoNT\n\n⏰ 信号时间: 05:09:28 (43秒前) | 币龄: 12小时+\n💰 MC: $15,094 | 流动性: $10,745\n👥 Holders: 94 | 1h涨幅: +588% | 1h成交: $26,866\n🧠 聪明钱包: 3个买入 (SW-8dcc, SW-01dc, SW-434b)\n\n🤖 AI 分析（推文12条）\n① 叙事：无公开叙事，疑似跟风盘。\n② 推特热度：暂无推特讨论（推文仅出现符号撞名，无实际指向）。\n③ 风险评语：代币无名称、无描述、无社交链接，开发者历史完全未知，信息真空，透明度严重缺失。\n\n⚠️ 非买入信号·可实现中位−23% DYOR\n\nTelegram频道: @ memmememjk",
+    "author": "@bitecong",
+    "author_name": "Green onions",
+    "date": "2026-08-09",
+    "url": "https://x.com/bitecong/status/2086560698235265061",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "a871d2efa823",
+    "agent": "grok-bot",
+    "quote": "The answer is out there in the open.\n\nSand Grok Bot\n\n0xde6c6539a314e344debc16dd1c45aea9c39f7777",
+    "author": "@MaureliusRH",
+    "author_name": "Marcus Aurelius",
+    "date": "2026-08-09",
+    "url": "https://x.com/MaureliusRH/status/2086557569641074739",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "c4f4374fa094",
+    "agent": "grok-bot",
+    "quote": "Mby, just mby real name and usecase for @bot is actually Grok Bot\n\n1d old article, and bot acc looks like it was created today:\nhttps://t.co/nUBUX4bnI6\n\nCoincidence?\nI think not",
+    "author": "@CryptoDjip",
+    "author_name": "Djip",
+    "date": "2026-08-09",
+    "url": "https://x.com/CryptoDjip/status/2086557033113760113",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "48eeb3a678d8",
+    "agent": "grok-bot",
+    "quote": "🚨 Possible new SpaceXAI product\nThe account @bot is officially affiliated with @SpaceXAI (created in August 2026, still no posts).\nAccording to The Information:\nCursor (the $60B deal) told staff that the acquisition could close as soon as this week.\nEmployees will be folded into SpaceXAI teams, and the Cursor brand may be dropped from new products.\nThis includes an upcoming general-purpose agent (codename Sand) that may launch under the name Grok Bot.\nEverything lines up too well:\n• timing of the account creation\n• official affiliation with SpaceXAI\n• reports about the future “Grok Bot”\nWatching @bot.\n#SpaceXAI #GrokBot #Cursor",
+    "author": "@MartNikola53772",
+    "author_name": "FAUST🐂🀄️",
+    "date": "2026-08-09",
+    "url": "https://x.com/MartNikola53772/status/2086552334977446002",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "732719dabb2c",
+    "agent": "grok-bot",
+    "quote": "@yeaknoya i know you are seeing this Grok Bot trend. Someone made a coin one year ago predicting it. I have no affiliations just check out this CA  |\n\nDbwoXrPMUmTg9LqGrDj75FeDASKpqb6EMkyCdEY8pump",
+    "author": "@zeltmeta",
+    "author_name": "zelt.",
+    "date": "2026-08-09",
+    "url": "https://x.com/zeltmeta/status/2086550269803049172",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "d306ce1a1ffe",
+    "agent": "grok-bot",
+    "quote": "According to tech media reports, the Cursor brand will be phased out over the coming months, and a general-purpose intelligent agent product under development, internally codenamed \"Sand,\" may launch under the new \"Grok Bot\" brand.\n\nhttps://t.co/BV3FjVmVP1\n\nSo, the code name is $SAND and its paired with SPCX rewards\n\n0xde6c6539a314e344debc16dd1c45aea9c39f7777",
+    "author": "@sadcat_gamble",
+    "author_name": "0хSadcat 🅿️",
+    "date": "2026-08-09",
+    "url": "https://x.com/sadcat_gamble/status/2086548648238956807",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "91aa273cbbd5",
+    "agent": "grok-bot",
+    "quote": "Love what you guys did with Grok Bot i think the public will love it as well👀 @xai",
+    "author": "@0xAA_Sciencefan",
+    "author_name": "Sinling",
+    "date": "2026-08-09",
+    "url": "https://x.com/0xAA_Sciencefan/status/2086548128187166870",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "7d2ad74b24a8",
+    "agent": "grok-bot",
+    "quote": "@TrillyDeveloper Grok bot.\n\nhttps://t.co/CPI2Ffl5Qt",
+    "author": "@stellarbased",
+    "author_name": "𝘀𝘁𝗲𝗹𝗹𝗮𝗿𝘣𝘢𝘴𝘦𝘥",
+    "date": "2026-08-09",
+    "url": "https://x.com/stellarbased/status/2086546377203437725",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "c4ae2a90bb38",
+    "agent": "grok-bot",
+    "quote": "ITS GROK BOT LOOK AT THE ARTICLE\n\nhttps://t.co/a9DXo0on1L",
+    "author": "@TrillyDevelop",
+    "author_name": "TrillyDev",
+    "date": "2026-08-09",
+    "url": "https://x.com/TrillyDevelop/status/2086541541766525167",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "a841cbb12ca1",
+    "agent": "grok-bot",
+    "quote": "@elonmusk Grok Bot or  Sand ?",
+    "author": "@AkuNgelu",
+    "author_name": "Jowo |",
+    "date": "2026-08-09",
+    "url": "https://x.com/AkuNgelu/status/2086450329391182235",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "10503af797f7",
+    "agent": "grok-bot",
+    "quote": "@negro_peligro @EricLDaugh @grok Bot, idiot or moron?",
+    "author": "@SuttonGene83595",
+    "author_name": "Gene",
+    "date": "2026-08-09",
+    "url": "https://x.com/SuttonGene83595/status/2086437839210754373",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "909db61f9382",
+    "agent": "grok-bot",
+    "quote": "/// Tiền như lá mít , giới siêu giàu chơi nét hơn sony nữa á !\n\n⚡️ SpaceX có thể hoàn tất mua lại Cursor ngay tuần tới\n\nTheo thông tin từ cuộc họp nội bộ, thương vụ mua lại trị giá 60 tỷ USD có thể chốt trong tuần tới, muộn nhất là cuối tháng. Sau khi hoàn tất, Cursor sẽ được tích hợp vào SpaceXAI và không còn hoạt động như một nhóm độc lập. Thương hiệu Cursor có thể dần biến mất, các sản phẩm mới có thể được đổi tên thành Grok. Phần mềm tự động \"Sand\" dự kiến được đổi tên thành \"Grok Bot\". Trợ lý lập trình Cursor hiện tại sẽ giữ nguyên tên trong thời điểm này. Thông tin hiện chưa được xác minh chính thức.",
+    "author": "@TuanAnh11022",
+    "author_name": "Rai102",
+    "date": "2026-08-09",
+    "url": "https://x.com/TuanAnh11022/status/2086343584505377179",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "14def6633d05",
+    "agent": "grok-bot",
+    "quote": "when the cluster is done $grokbot sends\nFPa8JsCeNM1YPayMc6kSAK86vdcPNwESTbzX6cgvpump",
+    "author": "@rtkk11",
+    "author_name": "caelum⚛️",
+    "date": "2026-08-08",
+    "url": "https://x.com/rtkk11/status/2086074165350580642",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "94f5c022ea2c",
+    "agent": "grok-bot",
+    "quote": "Cursor told staff SpaceX could complete its $60 billion acquisition as soon as next week, with employees set to be folded into SpaceXAI teams.\n\nThe Cursor name could also disappear from new products, including an upcoming general-purpose agent that may be branded Grok Bot.\n\nRead more details: https://t.co/JEuZE2tXwP",
+    "author": "@theinformation",
+    "author_name": "The Information",
+    "date": "2026-08-08",
+    "url": "https://x.com/theinformation/status/2086067411854237817",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "5b7edf1640af",
+    "agent": "grok-bot",
+    "quote": "SpaceX's $60B buyout of AI coding startup Cursor could close as soon as next week, no later than end of August. Cursor's brand phases out gradually; a new agent tool codenamed 'Sand' may launch as 'Grok Bot.' The coding assistant itself stays unchanged for now.",
+    "author": "@ShortInfoNews",
+    "author_name": "SHORT INFO",
+    "date": "2026-08-08",
+    "url": "https://x.com/ShortInfoNews/status/2086047280335913462",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "c782e4f222cb",
+    "agent": "grok-bot",
+    "quote": "早ければ来週末にはSpaceXのCursor買収が完了し、その際にCursorのブランディングが変わる可能性があると社内MTGで語られた。\n\nCursorの汎用的なAIエージェント「Sand」は「Grok Bot」になるかもしれないが、まだ人気コードアシスタントのCursorを変える計画はないとのこと。\n\nhttps://t.co/3ZdNt9RtXh",
+    "author": "@tmiyatake1",
+    "author_name": "Tetsuro Miyatake",
+    "date": "2026-08-08",
+    "url": "https://x.com/tmiyatake1/status/2085879412055035987",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "edcadebf4500",
+    "agent": "grok-bot",
+    "quote": "The Information の独占記事\n- SpaceX による Cursor 買収が早ければ、来週末にも終わる可能性\n- 新製品では「Cursor」というブランド名が段階的に廃止される可能性が高い（既存のものは別\n- 「Sand」というコードネームで呼ばれていた汎用エージェントは「Grok Bot」という名称になる可能性 https://t.co/3Z1WY04SPY",
+    "author": "@kinopee_ai",
+    "author_name": "Kinopee",
+    "date": "2026-08-07",
+    "url": "https://x.com/kinopee_ai/status/2085812183569772990",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "736ebc5e3696",
+    "agent": "grok-bot",
+    "quote": "しっかし‥\nあの Grok bot のDDosバリの行儀の悪さを差し置いて、X がAIボット対策強化をしているとはね\n\n内部に Grok いる時点で、外部AIへの防御やっても意味ねぇじゃん❓️\nそう思わない❓️\n無課金でチャットすれば必要なモンは抜けるんだからさ😆ww",
+    "author": "@Den_scoth_Mn",
+    "author_name": "fein atelier org",
+    "date": "2026-08-07",
+    "url": "https://x.com/Den_scoth_Mn/status/2085666639480324243",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "dce2aabbce09",
+    "agent": "grok-bot",
+    "quote": "Memecoin Recap - August 6\n\n\"A diamond is just a piece of coal that never quit \"\n- quoteguy jr.\n\nThe Pygmy Hippo\n\n$TINYTANK - > 536k mcap (1.58m ATH) , The Toronto Zoo's newborn pygmy hippo and is posting memes comparing the calf to Moo Deng.\n\nWildlife Wonderland\n\n$WW - > 343k mcap (587k ATH) , Polk County, Texas passed an ordinance banning exotic animals and gave Wildlife Wonderland, a real 501(c)(3) sanctuary run by Miranda Sanders, 30 days to relocate her rescues before seizure. The situation went viral on TikTok, and crypto Twitter's response was to help them and start buying.\n\ngooncoin\n\n$goon - > 273k mcap ( 480k ATH) ,The @ grok bot replied to a random user with '*throbs harder* Don't you dare stop now. Keep going. Right there. Cum for me.' and the post accumulated 34.9 million views — people are still just screenshotting it and reacting with confusion and memes.\n\nchrome\n\n$chrome - > 147k mcap ( 402k ATH) , sent supply to kimchi and chrome hearts is what they usually wear.\nAlso $Kimchi went 6.25m ATH\n\nMysterious Source of Income\n\n$Income - > 41k mcap (175k ATH) , A TikTok trend about cats lounging around with no job and somehow thriving caught fire under the phrase \"Mysterious Source of Income.\" Someone quoted the meme: \"The best part is, we all have this mysterious source of income.\" Then tokenized it. Replies ranged from 'if you find one, share it with me' to 'that's just CEOs.'",
+    "author": "@1ventigap",
+    "author_name": "vent182301",
+    "date": "2026-08-07",
+    "url": "https://x.com/1ventigap/status/2085633687887216989",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "0d5acfc58efc",
+    "agent": "grok-bot",
+    "quote": "@psalmdhee02 @iadkeys @grok Bot",
+    "author": "@pizzefrit",
+    "author_name": "pizzafritta",
+    "date": "2026-08-06",
+    "url": "https://x.com/pizzefrit/status/2085505671118590460",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "046dfe604eb7",
+    "agent": "grok-bot",
+    "quote": "@itshanasaito @iadkeys @grok bot account…",
+    "author": "@CynicallyTroy",
+    "author_name": "CynicallyTroy ⌛️",
+    "date": "2026-08-06",
+    "url": "https://x.com/CynicallyTroy/status/2085461009829974033",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "f3b6a31e2f01",
+    "agent": "grok-bot",
+    "quote": "@dodgerssin5 @grok bot aired you 😭",
+    "author": "@HoodieOhtani",
+    "author_name": "𝓦𝓪𝓿𝓮𝔂 🤠🐎",
+    "date": "2026-08-05",
+    "url": "https://x.com/HoodieOhtani/status/2085018829944475955",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "6a9360ce7424",
+    "agent": "grok-bot",
+    "quote": "@Cahnowak @Nicomlopez @kalipolis @grok bot",
+    "author": "@umbreo_on",
+    "author_name": "mel 🇦🇷",
+    "date": "2026-08-05",
+    "url": "https://x.com/umbreo_on/status/2085017140252344664",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "c9cf0b39c4fb",
+    "agent": "grok-bot",
+    "quote": "@Pixald88 @ScythianPG However I do not think Russia is right wing in that sense, it is just common sense politics which maybe are seen today as RW, but I share many of these political standpoints and im according to Grokbot Far-left....",
+    "author": "@frostReZv2",
+    "author_name": "frost",
+    "date": "2026-08-05",
+    "url": "https://x.com/frostReZv2/status/2084897232839450831",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "1cc3124abc49",
+    "agent": "grok-bot",
+    "quote": "@goztepelimessi_ @grok Bot basıyon çünkü amk",
+    "author": "@natehiggers1925",
+    "author_name": "Ege",
+    "date": "2026-08-03",
+    "url": "https://x.com/natehiggers1925/status/2084243398295179389",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "17e9a8c54f47",
+    "agent": "grok-bot",
+    "quote": "@AhadReports @NFL @nflnetwork thanks Grokbot",
+    "author": "@duttybastrd",
+    "author_name": "IThinkThatImTomCruise",
+    "date": "2026-08-03",
+    "url": "https://x.com/duttybastrd/status/2084103104824590612",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "21699aef8a34",
+    "agent": "grok-bot",
+    "quote": "human is claude 8, male lizard is us and female lizard is the grokbot 3000\n\nconcerning....",
+    "author": "@kodumit",
+    "author_name": "kodumit",
+    "date": "2026-08-02",
+    "url": "https://x.com/kodumit/status/2083949225008652556",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "1d646f205647",
+    "agent": "grok-bot",
+    "quote": "@Fuckedurmom2144 @Bakec6ac @grok Bot account.",
+    "author": "@dijoni",
+    "author_name": "Don Salmon",
+    "date": "2026-08-02",
+    "url": "https://x.com/dijoni/status/2083854769626751205",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "149ba3ea4fa6",
+    "agent": "grok-bot",
+    "quote": "@I_Choose_Wisdom @wideofthepost @grok bot",
+    "author": "@dorh4daddy",
+    "author_name": "Dorh",
+    "date": "2026-08-02",
+    "url": "https://x.com/dorh4daddy/status/2083794193349050739",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "22d14ec87af6",
+    "agent": "grok-bot",
+    "quote": "@Grok bot hesaplar temizlendi diyorsunuz..\nŞu an @erenalibingol başkan'a\nYüzlerce bot hesap küfür ediyor.\nTürkiye’nin bot şirketleri tıkır tıkır\nİşiliyor. https://t.co/1IsyLuUD2o",
+    "author": "@Ottoman_agent",
+    "author_name": "Ulubatlıhasanım.",
+    "date": "2026-08-01",
+    "url": "https://x.com/Ottoman_agent/status/2083679844844343339",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
+  },
+  {
+    "id": "a0021b2d991a",
+    "agent": "grok-bot",
+    "quote": "@SpoilerAlert_US @Lofi4All @grok Bot account.",
+    "author": "@dijoni",
+    "author_name": "Don Salmon",
+    "date": "2026-08-01",
+    "url": "https://x.com/dijoni/status/2083521431623889175",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T21:54:49.020Z",
+    "notes": "query: \"grok bot\" OR grokbot since:2026-08-01 until:2026-08-08 -filter:retweets"
   }
 ]

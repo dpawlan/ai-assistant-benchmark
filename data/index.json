@@ -1878,13 +1878,13 @@
     {
       "slug": "miso-nutrition",
       "name": "Miso (nutrition)",
-      "status": "confirmed",
+      "status": "stretch",
       "site": "https://withmiso.ai/",
       "feedback_count": 0,
       "public_signal": "low",
       "tagline": "Tell Miso what you ate. You're done.",
       "icon": "/logos/miso-nutrition.png",
-      "kind": "general",
+      "kind": "health",
       "access": {
         "pricing": "freemium",
         "price": "Free to start; paid tier not stated",

@@ -3606,37 +3606,73 @@ a.chip.blue:hover {
 
 .hh-fund.empty { font-weight: 500; color: #a1a1a6; }
 
-/* Funding row on profiles: one line that opens to rounds, backers and sources. */
-.fund-dd {
-  border-top: 1px solid var(--hair);
+/* Funding subsection under Information: total, checked date, and a toggle for rounds, backers and sources. */
+.ag-funding {
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
 }
 
-.fund-dd > summary.info-row {
-  border-top: 0;
+.ag-h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.fund-total {
+  margin: 8px 0 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.fund-total.empty {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--sec);
+}
+
+.fund-checked {
+  margin: 4px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.fund-dd {
+  margin-top: 12px;
+  border: 1px solid var(--hair);
+  border-radius: 12px;
+  background: var(--side);
+}
+
+.fund-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 11px 14px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--blue);
   cursor: pointer;
   list-style: none;
+  border-radius: 12px;
 }
 
-.fund-dd > summary::-webkit-details-marker {
+.fund-toggle::-webkit-details-marker {
   display: none;
 }
 
-.fund-dd > summary:hover .il {
-  color: var(--text);
-}
-
-.fund-sum {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 6px;
+.fund-toggle:hover {
+  background: var(--fill);
 }
 
 .fund-chev {
   flex: none;
-  width: 10px;
-  height: 10px;
-  color: var(--sec);
+  width: 11px;
+  height: 11px;
   transition: transform 0.15s;
 }
 
@@ -3644,11 +3680,16 @@ a.chip.blue:hover {
   transform: rotate(180deg);
 }
 
+.fund-dd[open] .fund-toggle {
+  border-bottom: 1px solid var(--hair);
+  border-radius: 12px 12px 0 0;
+}
+
 .fund-body {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 2px 0 14px;
+  gap: 12px;
+  padding: 12px 14px 14px;
 }
 
 .fund-line {
@@ -3665,17 +3706,19 @@ a.chip.blue:hover {
 }
 
 .fund-v {
-  line-height: 1.4;
+  line-height: 1.45;
   color: var(--text);
+}
+
+.fund-inv {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.fund-inv:hover {
+  text-decoration: underline;
 }
 
 .fund-v.fund-src {
   justify-content: flex-start;
-}
-
-.fund-note {
-  margin: 2px 0 0;
-  font-size: 11.5px;
-  line-height: 1.4;
-  color: var(--sec);
 }

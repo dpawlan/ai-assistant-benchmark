@@ -319,6 +319,11 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
   };
 }
 
+/** data/investors.json: investor name -> homepage, only for sites that were fetched and name the firm. */
+export function getInvestorLinks(): Record<string, string> {
+  return readJson<Record<string, string>>(path.join(DATA_DIR, 'investors.json')) ?? {};
+}
+
 export function getFunding(slug: string): Funding | null {
   return readJson<Funding>(path.join(agentDir(slug), 'funding.json'));
 }

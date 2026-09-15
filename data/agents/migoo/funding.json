@@ -1,27 +1,11 @@
 {
-  "status": "subsidiary",
+  "status": "not_disclosed",
   "company": "InfiniteAI Private Limited / Marvelous Technology Inc (US)",
   "total_usd": null,
   "rounds": [],
   "investors": [],
-  "parent": "Sea Limited (reported)",
+  "parent": null,
   "acquired_by": null,
-  "sources": [
-    {
-      "url": "https://theedgemalaysia.com/node/807350",
-      "title": "Singapore's Sea testing AI chatbot Migoo in quiet US foray (Bloomberg)",
-      "published": "2026-06-18"
-    },
-    {
-      "url": "https://fintechnews.sg/133239/ai/sea-migoo-ai-chatbot/",
-      "title": "Sea Reportedly Brings Migoo AI Chatbot to the US Market",
-      "published": "2026-06-18"
-    },
-    {
-      "url": "https://migoo.ai/",
-      "title": "Migoo site footer: ©2026 Migoo by InfiniteAI Private Limited",
-      "published": null
-    }
-  ],
+  "sources": [],
   "checked": "2026-09-15"
 }

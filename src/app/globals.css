@@ -3524,6 +3524,7 @@ a.chip.blue:hover {
 .about-section { margin-top: 28px; max-width: 68ch; }
 .about-section h2 { font-size: 17px; font-weight: 600; margin: 0 0 8px; }
 .about-p { margin: 0 0 12px; line-height: 1.55; }
+.about-lead { margin: 0 0 12px; font-size: 17px; line-height: 1.5; }
 .about-p a { color: var(--blue); text-decoration: none; }
 .about-p a:hover { text-decoration: underline; }
 .about-people { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }

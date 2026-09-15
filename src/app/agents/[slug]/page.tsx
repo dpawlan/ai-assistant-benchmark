@@ -245,34 +245,61 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 )}
               </>
             )}
-            <div className="info-row" id="funding">
-              <span className="il">Funding</span>
-              <span className={`iv wrap${fundingChip(agent.funding) || agent.funding?.investors.length ? '' : ' empty'}`}>{fundingSummary(agent.funding)}</span>
-            </div>
-            {fundingRounds(agent.funding) && (
-              <div className="info-row">
-                <span className="il">Rounds</span>
-                <span className="iv wrap">{fundingRounds(agent.funding)}</span>
-              </div>
-            )}
-            {agent.funding && agent.funding.investors.length > 0 && (
-              <div className="info-row">
-                <span className="il">Backed by</span>
-                <span className="iv wrap">{agent.funding.investors.slice(0, 4).join(', ')}</span>
-              </div>
-            )}
-            {agent.funding && agent.funding.sources.length > 0 && (
-              <div className="info-row">
-                <span className="il">Funding sources</span>
-                <span className="iv wrap fund-src">
-                  {agent.funding.sources.slice(0, 3).map(src => (
-                    <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer nofollow">
-                      {sourceHost(src.url)}
-                    </a>
-                  ))}
-                </span>
-              </div>
-            )}
+            {(() => {
+              const f = agent.funding;
+              const rounds = fundingRounds(f);
+              const hasDetail = !!f && (!!rounds || f.investors.length > 0 || f.sources.length > 0);
+              const summary = fundingSummary(f);
+              const muted = !(fundingChip(f) || f?.investors.length);
+              if (!hasDetail) {
+                return (
+                  <div className="info-row" id="funding">
+                    <span className="il">Funding</span>
+                    <span className={`iv wrap${muted ? ' empty' : ''}`}>{summary}</span>
+                  </div>
+                );
+              }
+              return (
+                <details className="fund-dd" id="funding">
+                  <summary className="info-row">
+                    <span className="il">Funding</span>
+                    <span className="iv wrap fund-sum">
+                      {summary}
+                      <svg className="fund-chev" viewBox="0 0 10 10" aria-hidden="true">
+                        <path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </span>
+                  </summary>
+                  <div className="fund-body">
+                    {rounds && (
+                      <div className="fund-line">
+                        <span className="fund-k">Rounds</span>
+                        <span className="fund-v">{rounds}</span>
+                      </div>
+                    )}
+                    {f.investors.length > 0 && (
+                      <div className="fund-line">
+                        <span className="fund-k">Backed by</span>
+                        <span className="fund-v">{f.investors.slice(0, 6).join(', ')}</span>
+                      </div>
+                    )}
+                    {f.sources.length > 0 && (
+                      <div className="fund-line">
+                        <span className="fund-k">Sources</span>
+                        <span className="fund-v fund-src">
+                          {f.sources.slice(0, 4).map(src => (
+                            <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer nofollow">
+                              {sourceHost(src.url)}
+                            </a>
+                          ))}
+                        </span>
+                      </div>
+                    )}
+                    <p className="fund-note">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>
+                  </div>
+                </details>
+              );
+            })()}
             <div className="info-row">
               <span className="il">Website</span>
               {agent.site && domain ? (

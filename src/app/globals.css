@@ -3605,3 +3605,77 @@ a.chip.blue:hover {
 }
 
 .hh-fund.empty { font-weight: 500; color: #a1a1a6; }
+
+/* Funding row on profiles: one line that opens to rounds, backers and sources. */
+.fund-dd {
+  border-top: 1px solid var(--hair);
+}
+
+.fund-dd > summary.info-row {
+  border-top: 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.fund-dd > summary::-webkit-details-marker {
+  display: none;
+}
+
+.fund-dd > summary:hover .il {
+  color: var(--text);
+}
+
+.fund-sum {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.fund-chev {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  color: var(--sec);
+  transition: transform 0.15s;
+}
+
+.fund-dd[open] .fund-chev {
+  transform: rotate(180deg);
+}
+
+.fund-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2px 0 14px;
+}
+
+.fund-line {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 13px;
+}
+
+.fund-k {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--sec);
+}
+
+.fund-v {
+  line-height: 1.4;
+  color: var(--text);
+}
+
+.fund-v.fund-src {
+  justify-content: flex-start;
+}
+
+.fund-note {
+  margin: 2px 0 0;
+  font-size: 11.5px;
+  line-height: 1.4;
+  color: var(--sec);
+}

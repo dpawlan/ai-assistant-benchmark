@@ -76,7 +76,7 @@ Dimensions with `"scored": false` in `categories.json` (personality) are public-
 
 ### About page
 
-`/about` explains the method, names who runs it (David Pawlan; Autumn Moulder, moulder.me) and states there are no sponsored placements or affiliate links. Linked from the homepage head and the sidebar footer. Update it if the funding position ever changes.
+`/about` explains the method, names who runs it (David Pawlan; Autumn Moulder, moulder.me) and states the commitment: free, no sponsors, no paid placements or affiliate links, ever. Linked from the homepage head and the sidebar footer. Update it if the funding position ever changes.
 
 ### Use cases (`data/jobs.json`)
 

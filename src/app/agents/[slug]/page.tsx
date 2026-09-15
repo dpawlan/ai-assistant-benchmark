@@ -211,7 +211,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                   <p className={`fund-total${muted ? ' empty' : ''}`}>{fundingSummary(f)}</p>
                   {f && <p className="ag-sub fund-checked">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>}
                   {hasDetail && (
-                    <details className="fund-dd">
+                    <details className="fund-dd" open>
                       <summary className="fund-toggle">
                         <span className="fund-toggle-l">
                           {[rounds && 'Rounds', f.investors.length > 0 && 'backers', f.sources.length > 0 && 'sources']

@@ -1,7 +1,7 @@
 {
   "_comment": "One entry per job (a canonical task). Posts are evidence under a job, never their own entry. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking on the site blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "groups": [
     {
       "key": "travel",
@@ -496,6 +496,12 @@
           "agent": "personal-local",
           "note": "Told in Discord to pick a few AI stories each morning and post summaries; the assistant wrote its own standing instructions and has posted every day at 7 since.",
           "outcome": "done"
+        },
+        {
+          "quote": "f88b2e214d4c",
+          "agent": "grok-bot",
+          "note": "A morning routine that checks in with the other bots and collects their action items into the daily brief.",
+          "outcome": "done"
         }
       ],
       "caveat": "The benchmark's routine test is a 7am weekday briefing; this is where assistants fail most often.",
@@ -833,6 +839,12 @@
           "agent": "grok-bot",
           "note": "Skills that trigger the build, upload it to the App Store, autofill the release notes, and run end-to-end tests on every update.",
           "outcome": "done"
+        },
+        {
+          "quote": "3260a2260647",
+          "agent": "grok-bot",
+          "note": "Turns saved X bookmarks into working demos: launches agents, validates with screenshots and video, deploys each one.",
+          "outcome": "done"
         }
       ],
       "runs": [
@@ -884,6 +896,12 @@
           "quote": "e7a7ea26019f",
           "agent": "grok-bot",
           "note": "Across five businesses for a week: patrols X every fifteen minutes and pings when something starts moving, and click-tests the poster's apps all night.",
+          "outcome": "done"
+        },
+        {
+          "quote": "672e062bcb0c",
+          "agent": "grok-bot",
+          "note": "Three files that make a bot catch its own failures instead of handing them to you at 11pm: missed deadlines, messages it should have parked, questions already decided.",
           "outcome": "done"
         }
       ]
@@ -1191,6 +1209,109 @@
           "quote": "7e8d94070a99",
           "agent": "muse",
           "note": "Another website built with Muse's help.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-a-team-of-agents",
+      "title": "Run a team of agents that stay out of each other's way",
+      "one_liner": "One bot remembers what the others are doing so nothing gets done twice.",
+      "group": "work",
+      "dimension": "memory",
+      "prompt": "You are my chief of staff. Keep a running record of what each of my other bots is working on, and stop any of them starting work another has already done.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "evidence": [
+        {
+          "quote": "9d5d0fde35b0",
+          "agent": "grok-bot",
+          "note": "A memory-keeper bot that writes no code, just tracks what the other twenty are doing; the poster credits it with 30 hours a week.",
+          "outcome": "done"
+        },
+        {
+          "quote": "07e75422b2c0",
+          "agent": "grok-bot",
+          "note": "Routines and role-based agents (inventory, customer comms, engineering) with a separate orchestrator on top.",
+          "outcome": "done"
+        },
+        {
+          "quote": "60d4b3096a5a",
+          "agent": "grok-bot",
+          "note": "An operator bot whose whole job is keeping the shared knowledge base clean so the other agents work from the right context.",
+          "outcome": "done"
+        }
+      ],
+      "caveat": "Power-user territory: these are people running ten or twenty bots, not a single assistant."
+    },
+    {
+      "key": "run-a-content-desk",
+      "title": "Run a content desk",
+      "one_liner": "Researcher, writer, designer, scheduler and editor as separate bots instead of a team.",
+      "group": "work",
+      "dimension": "content_creation_games",
+      "prompt": "Set up six bots for my content: one researches topics, one writes, one designs, one schedules, one edits, one reports on what performed. Each does one narrow job and hands off.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "evidence": [
+        {
+          "quote": "92cbca92e96c",
+          "agent": "grok-bot",
+          "note": "Six roles priced at five figures a month as humans, run instead as six narrow bots for about 0.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "run-ads-with-a-rule",
+      "title": "Run ads with a rule it must not break",
+      "one_liner": "Build the campaigns off your site, hold to a ROAS floor, shut off what misses.",
+      "group": "work",
+      "dimension": "proactive_restraint",
+      "prompt": "Build ad creatives from our site and socials, run them, and shut off anything under 2.0 ROAS. Show me before anything goes live.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "evidence": [
+        {
+          "quote": "1a14e4e3c84a",
+          "agent": "grok-bot",
+          "note": "A 3D print shop put Grok Bot in as chief of staff to build ads from the site with a 2.0 ROAS floor; the owner still signs off before they run.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "clear-out-a-junk-inbox",
+      "title": "Clear out a junk inbox",
+      "one_liner": "Thousands of promotional threads to trash, rules and approvals staying yours.",
+      "group": "email-calendar",
+      "dimension": "email_replies",
+      "prompt": "Go through my inbox and move promotional and junk threads to trash. Follow my rules, ask before anything irreversible, and tell me what you moved.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "evidence": [
+        {
+          "quote": "c02a2419109f",
+          "agent": "grok-bot",
+          "note": "Around 9,000 junk and promotional threads moved to trash in one cleanup run, with the rules and approvals kept by the poster.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "watch-prices-and-tell-me",
+      "title": "Watch a price and tell me when it moves",
+      "one_liner": "Check a product page on a schedule, compare with last time, ping on a change.",
+      "group": "shopping-orders",
+      "dimension": "running_routine",
+      "prompt": "Check [product URL] every morning, compare the price with yesterday, and message me when it changes.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "evidence": [
+        {
+          "quote": "bc547a2c846d",
+          "agent": "grok-bot",
+          "note": "A scraping agent that pulls product prices on a schedule, compares them with the last run and notifies on any change.",
           "outcome": "done"
         }
       ]

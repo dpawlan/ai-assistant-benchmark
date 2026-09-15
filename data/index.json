@@ -1,16 +1,9 @@
 {
   "updated": "2026-09-15",
-<<<<<<< HEAD
-  "agent_count": 71,
-  "feedback_count": 6852,
-  "confirmed": 53,
-  "stretch": 18,
-=======
   "agent_count": 108,
-  "feedback_count": 5242,
+  "feedback_count": 5565,
   "confirmed": 81,
   "stretch": 27,
->>>>>>> 431bf5b944659cfcc5de56574186d5b7011033c1
   "agents": [
     {
       "slug": "aeon",
@@ -464,7 +457,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 2439,
+      "feedback_count": 1149,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",

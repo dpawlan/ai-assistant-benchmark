@@ -1,0 +1,32 @@
+{
+  "slug": "askranger",
+  "name": "Ask Ranger",
+  "site": "https://www.askranger.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal agent with its own phone number that you text tasks to; it places calls (navigating phone menus and waiting on hold), screens forwarded missed calls, sends texts and reminders on your behalf, and asks for approval before acting. Requested via the form (issue #201).",
+  "likely_applicable": [
+    "phone_calls",
+    "memory",
+    "permissions_privacy",
+    "proactive_restraint",
+    "online_task",
+    "recommendation_quality",
+    "running_routine"
+  ],
+  "public_signal": "low",
+  "tagline": "Everyone deserves a personal agent.",
+  "icon": "/logos/askranger.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free during private beta; paid plans from $5/mo",
+    "regions": "Not stated",
+    "channels": [
+      "SMS",
+      "Phone calls"
+    ],
+    "checked": "2026-09-15"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "aila",
+  "name": "aila",
+  "site": "https://www.myai.la/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Turkish 'social lifestyle assistant' web app that phones venues to book restaurants, barbers and spas, arranges chauffeurs and airport transfers, plans group meetups at a midpoint and serves a personalized daily feed of events and places. Requested via the form (issue #190).",
+  "likely_applicable": [
+    "phone_calls",
+    "online_task",
+    "recommendation_quality",
+    "travel",
+    "proactive_behavior",
+    "running_routine",
+    "memory",
+    "third_party_integrations",
+    "multiplayer_groups",
+    "permissions_privacy",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Meet your Social Lifestyle Assistant",
+  "icon": "/logos/aila.png",
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Not stated (early access; sign up and wait for an invite)",
+    "regions": "Türkiye (site is Turkish-first with Istanbul venues; KVKK/GDPR)",
+    "channels": [
+      "Web app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

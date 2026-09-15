@@ -1279,6 +1279,10 @@ footer .links {
   margin-top: 6px;
 }
 
+footer .credit {
+  margin-top: 14px;
+}
+
 footer a {
   font-weight: 500;
   color: var(--sec);

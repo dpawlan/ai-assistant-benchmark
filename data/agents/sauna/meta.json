@@ -1,0 +1,37 @@
+{
+  "slug": "sauna",
+  "name": "Sauna",
+  "site": "https://www.sauna.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Proactive AI teammate from Wordware with its own cloud computer that connects to 3,000+ tools, keeps shared team memory, drafts replies and runs routines around the clock; it works from the web, iOS, iMessage, Slack, email and Superhuman. Requested via the form (issues #188, #191).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "memory",
+    "third_party_integrations",
+    "permissions_privacy",
+    "multiplayer_groups",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Run your work from Sauna",
+  "icon": "/logos/sauna.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Lite $29/mo, Basic $99/mo, Pro $299/mo, Team $999/mo; $50 in free credits to start",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "iMessage",
+      "Slack",
+      "Email"
+    ],
+    "checked": "2026-09-15"
+  }
+}

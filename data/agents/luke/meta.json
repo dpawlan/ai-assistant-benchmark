@@ -1,0 +1,36 @@
+{
+  "slug": "luke",
+  "name": "Luke",
+  "site": "https://www.getluke.app/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Mac app from Thinking Oracle that you talk to by holding a key; it keeps an editable memory of you, runs saved skills with approval, does deep research and meeting prep, and can also be messaged from WhatsApp or Telegram. Requested via the form (issue #187).",
+  "likely_applicable": [
+    "memory",
+    "running_routine",
+    "permissions_privacy",
+    "travel",
+    "online_task",
+    "recommendation_quality",
+    "email_replies",
+    "proactive_behavior",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "A personal AI that knows who you are.",
+  "icon": "/logos/luke.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free (limited research preview); macOS 14+",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "WhatsApp",
+      "Telegram"
+    ],
+    "checked": "2026-09-15"
+  }
+}

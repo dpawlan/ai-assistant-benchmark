@@ -1,0 +1,36 @@
+{
+  "slug": "autohive",
+  "name": "Autohive",
+  "site": "https://www.autohive.com/",
+  "handles": [
+    "autohiveai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "No-code platform for teams to build and run AI agents (from a marketplace or an Agent Creator prompt), with 140+ integrations, scheduled jobs, webhooks and skills; runs as a web app with iOS and Android apps. Requested via the form (issue #207).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "third_party_integrations",
+    "permissions_privacy",
+    "running_routine",
+    "multiplayer_groups",
+    "proactive_behavior",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Your team is losing 10 hours every week to work AI should be doing.",
+  "icon": "/logos/autohive.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (350K credits/mo); Lite $20/mo; Starter $99/mo; Team $499/mo; Enterprise custom (USD, unlimited seats)",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

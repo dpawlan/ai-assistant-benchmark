@@ -1,0 +1,40 @@
+{
+  "status": "raised",
+  "company": "Significant Gravitas Ltd.",
+  "total_usd": 12000000,
+  "rounds": [
+    {
+      "type": "Venture",
+      "amount_usd": 12000000,
+      "date": "2023-10",
+      "lead": [
+        "Redpoint Ventures"
+      ],
+      "source": "https://x.com/Auto_GPT/status/1713009267194974333"
+    }
+  ],
+  "investors": [
+    "Redpoint Ventures",
+    "GitHub Ventures"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://x.com/Auto_GPT/status/1713009267194974333",
+      "title": "AutoGPT on X: We've raised $12M to take AutoGPT to the next level",
+      "published": "2023-10-14"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=37878277",
+      "title": "AutoGPT Secures $12M Funding Round from Redpoint Ventures | Hacker News",
+      "published": "2023-10-14"
+    },
+    {
+      "url": "https://ai.miraheze.org/wiki/AutoGPT",
+      "title": "AutoGPT - Learn AI (wiki; names GitHub Ventures and Redpoint)",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

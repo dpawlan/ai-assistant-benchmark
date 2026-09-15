@@ -2,8 +2,7 @@ import fs from 'fs';
 import path from 'path';
 export { scoreBucket, opinionRank, isThin, THIN_SAMPLE } from './score';
 import { opinionRank } from './score';
-import {
-  EvidenceOutcome,
+import { EvidenceOutcome,
   JobEntry,
   JobGroup,
   JobsFile,
@@ -21,8 +20,7 @@ import {
   Sentiment,
   Task,
   TaskSet,
-  Usage,
-} from './types';
+  Usage, Funding } from './types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
@@ -317,7 +315,12 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     ...deriveScores(entry, meta, categories),
     ...deriveOpinion(entry.slug, categories),
     usage: getUsage(entry.slug),
+    funding: getFunding(entry.slug),
   };
+}
+
+export function getFunding(slug: string): Funding | null {
+  return readJson<Funding>(path.join(agentDir(slug), 'funding.json'));
 }
 
 export function getUsage(slug: string): Usage | null {

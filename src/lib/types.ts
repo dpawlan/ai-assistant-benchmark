@@ -162,6 +162,28 @@ export interface Access {
   checked: string;
 }
 
+export interface FundingRound {
+  type: string;
+  amount_usd: number | null;
+  /** YYYY-MM */
+  date: string | null;
+  lead: string[];
+  source: string | null;
+}
+
+/** data/agents/<slug>/funding.json. Amounts appear only when a non-aggregator source at medium or high confidence states them. */
+export interface Funding {
+  status: 'raised' | 'not_disclosed' | 'bootstrapped' | 'subsidiary' | 'open_source' | 'acquired';
+  company: string | null;
+  total_usd: number | null;
+  rounds: FundingRound[];
+  investors: string[];
+  parent: string | null;
+  acquired_by: string | null;
+  sources: { url: string; title: string; published: string | null }[];
+  checked: string;
+}
+
 export interface AgentMeta {
   slug: string;
   name: string;
@@ -239,6 +261,8 @@ export interface Agent {
   opinionOverall: OpinionStat;
   /** Hands-on usage from the reviewer's own thread, when exported. */
   usage: Usage | null;
+  /** Funding facts with sources; null when not researched. */
+  funding: Funding | null;
   meta?: AgentMeta;
   feedback?: Feedback[];
   summary?: string;

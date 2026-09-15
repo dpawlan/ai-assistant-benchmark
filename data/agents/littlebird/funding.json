@@ -1,0 +1,43 @@
+{
+  "status": "raised",
+  "company": "Littlebird",
+  "total_usd": 11000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 11000000,
+      "date": "2026-03",
+      "lead": [
+        "Lotus Studio"
+      ],
+      "source": "https://littlebird.ai/blog/littlebird-raises-11m-to-build-the-first-full-context-ai"
+    }
+  ],
+  "investors": [
+    "Lotus Studio",
+    "Lenny Rachitsky",
+    "Scott Belsky",
+    "Gokul Rajaram",
+    "Justin Rosenstein"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://littlebird.ai/blog/littlebird-raises-11m-to-build-the-first-full-context-ai",
+      "title": "Littlebird Raises $11M to Build the First Full-Context AI",
+      "published": "2026-03-22"
+    },
+    {
+      "url": "https://www.builtinsf.com/articles/littlebird-raises-11m-seed-20260325",
+      "title": "AI Assistant Littlebird Launches With $11M in Seed Funding",
+      "published": "2026-03-25"
+    },
+    {
+      "url": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+      "title": "Littlebird raises $11M for its AI-assisted 'recall' tool",
+      "published": "2026-03-23"
+    }
+  ],
+  "checked": "2026-09-15"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "raised",
+  "company": "Catch (Tel Aviv / US; founders Nir Sabato, Yoav Ramon)",
+  "total_usd": 5000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5000000,
+      "date": "2026-09",
+      "lead": [
+        "Entrée Capital",
+        "Pitango"
+      ],
+      "source": "https://www.thesaasnews.com/news/catch-raises-5m-seed/"
+    }
+  ],
+  "investors": [
+    "Entrée Capital",
+    "Pitango",
+    "Seedcamp",
+    "Factorial Capital"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.thesaasnews.com/news/catch-raises-5m-seed/",
+      "title": "Catch Raises $5M Seed (lists website catchagent.ai)",
+      "published": "2026-09-03"
+    },
+    {
+      "url": "https://seedcamp.com/views/catch-ai-raises-5m-to-build-the-ai-agent-for-busy-executives/",
+      "title": "Catch AI raises $5M to build the AI agent for busy executives - Seedcamp",
+      "published": "2026-09-02"
+    },
+    {
+      "url": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
+      "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails - SecurityWeek",
+      "published": "2026-09-04"
+    },
+    {
+      "url": "https://techstartups.com/2026/09/03/catch-emerges-from-stealth-with-5m-to-build-an-ai-executive-assistant-that-handles-admin-work-for-you/",
+      "title": "Catch emerges from stealth with $5M - Tech Startups",
+      "published": "2026-09-03"
+    }
+  ],
+  "checked": "2026-09-15"
+}

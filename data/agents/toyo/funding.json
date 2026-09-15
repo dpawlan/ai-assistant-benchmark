@@ -1,0 +1,42 @@
+{
+  "status": "raised",
+  "company": "Toyo",
+  "total_usd": 4300000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 4300000,
+      "date": "2026-02",
+      "lead": [
+        "Frontline Ventures",
+        "Inovia Capital"
+      ],
+      "source": "https://betakit.com/toyo-raises-seed-funding-to-further-develop-openclaw-for-founders-tool/"
+    }
+  ],
+  "investors": [
+    "Frontline Ventures",
+    "Inovia Capital",
+    "Tiny Supercomputer Investment Company"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://betakit.com/toyo-raises-seed-funding-to-further-develop-openclaw-for-founders-tool/",
+      "title": "Toyo raises seed funding to further develop \"OpenClaw for founders\" tool | BetaKit",
+      "published": "2026-02-17"
+    },
+    {
+      "url": "https://www.siliconrepublic.com/start-ups/kildare-based-toyo-ai-raises-4-3m-seed-round-to-build-openclaw-for-founders",
+      "title": "Toyo AI raises $4.3m seed round to build 'OpenClaw for founders' | Silicon Republic",
+      "published": "2026-02-17"
+    },
+    {
+      "url": "https://www.eu-startups.com/2026/02/british-startup-toyo-raises-e3-6-million-to-develop-secure-ai-agents-for-non-technical-founders/",
+      "title": "British startup Toyo raises €3.6 million to develop secure AI agents for non-technical founders | EU-Startups",
+      "published": "2026-02"
+    }
+  ],
+  "checked": "2026-09-15"
+}

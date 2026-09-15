@@ -24,6 +24,7 @@ import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
 import { comparePath, getTestedAgents } from '@/lib/compare';
+import { fundingChip, fundingRounds, fundingSummary, sourceHost } from '@/lib/cost';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -108,6 +109,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <Link href={kindHref} className="chip blue">{kindLabel}</Link>
               {agent.access && agent.access.pricing !== 'unknown' && (
                 <span className="chip" title={agent.access.price}>{PRICING_LABEL[agent.access.pricing]}</span>
+              )}
+              {fundingChip(agent.funding) && (
+                <a href="#funding" className="chip">
+                  {fundingChip(agent.funding)}
+                </a>
               )}
               {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
               {productClass && <span className="chip">{productClass}</span>}
@@ -238,6 +244,34 @@ export default async function AgentPage({ params }: AgentPageProps) {
                   </div>
                 )}
               </>
+            )}
+            <div className="info-row" id="funding">
+              <span className="il">Funding</span>
+              <span className={`iv wrap${fundingChip(agent.funding) || agent.funding?.investors.length ? '' : ' empty'}`}>{fundingSummary(agent.funding)}</span>
+            </div>
+            {fundingRounds(agent.funding) && (
+              <div className="info-row">
+                <span className="il">Rounds</span>
+                <span className="iv wrap">{fundingRounds(agent.funding)}</span>
+              </div>
+            )}
+            {agent.funding && agent.funding.investors.length > 0 && (
+              <div className="info-row">
+                <span className="il">Backed by</span>
+                <span className="iv wrap">{agent.funding.investors.slice(0, 4).join(', ')}</span>
+              </div>
+            )}
+            {agent.funding && agent.funding.sources.length > 0 && (
+              <div className="info-row">
+                <span className="il">Funding sources</span>
+                <span className="iv wrap fund-src">
+                  {agent.funding.sources.slice(0, 3).map(src => (
+                    <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer nofollow">
+                      {sourceHost(src.url)}
+                    </a>
+                  ))}
+                </span>
+              </div>
             )}
             <div className="info-row">
               <span className="il">Website</span>

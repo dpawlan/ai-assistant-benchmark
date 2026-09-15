@@ -1,0 +1,35 @@
+{
+  "status": "raised",
+  "company": "Morgen AG",
+  "total_usd": 1000000,
+  "rounds": [
+    {
+      "type": "Pre-seed",
+      "amount_usd": 1000000,
+      "date": "2022-07",
+      "lead": [
+        "VI Partners"
+      ],
+      "source": "https://www.startupticker.ch/en/news/usd-1-million-for-smart-productivity-calendar"
+    }
+  ],
+  "investors": [
+    "VI Partners",
+    "New Forge"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.startupticker.ch/en/news/usd-1-million-for-smart-productivity-calendar",
+      "title": "USD 1 million for smart productivity calendar",
+      "published": "2022-07-13"
+    },
+    {
+      "url": "https://hirekai.ai/",
+      "title": "Kai site footer: © 2026 Morgen AG",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

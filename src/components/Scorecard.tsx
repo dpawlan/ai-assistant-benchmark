@@ -115,6 +115,7 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
               </>
             )}
           </span>
+          <span className={`hh-fund${a.funding ? '' : ' empty'}`}>{a.funding ?? 'Funding not disclosed'}</span>
         </Link>
         <div className="hh-tally" aria-live="polite">
           <span className="hh-num">
@@ -140,6 +141,7 @@ export function Scorecard({ comparison, initialFocus }: ScorecardProps) {
               </>
             )}
           </span>
+          <span className={`hh-fund${b.funding ? '' : ' empty'}`}>{b.funding ?? 'Funding not disclosed'}</span>
         </Link>
       </header>
 

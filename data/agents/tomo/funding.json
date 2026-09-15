@@ -1,0 +1,44 @@
+{
+  "status": "raised",
+  "company": "Tomo",
+  "total_usd": 5000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5000000,
+      "date": "2026-06",
+      "lead": [
+        "Bain Capital Ventures"
+      ],
+      "source": "https://theaiinsider.tech/2026/07/07/tomo-is-the-ai-champion-helping-people-bet-on-themselves-emerging-from-stealth-with-5m/"
+    }
+  ],
+  "investors": [
+    "Bain Capital Ventures",
+    "Accel",
+    "Align Fund",
+    "Basis Set",
+    "Conviction",
+    "Pear VC"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://theaiinsider.tech/2026/07/07/tomo-is-the-ai-champion-helping-people-bet-on-themselves-emerging-from-stealth-with-5m/",
+      "title": "Tomo is the AI Champion Helping People Bet on Themselves, Emerging from Stealth with $5M",
+      "published": "2026-07-07"
+    },
+    {
+      "url": "https://pulse2.com/tomo-raises-5-million-seed-round-led-by-bain-capital-ventures/",
+      "title": "Tomo Raises $5 Million Seed Round Led By Bain Capital Ventures",
+      "published": "2026-06-26"
+    },
+    {
+      "url": "https://www.caplight.com/company/usetomo",
+      "title": "Tomo | Caplight",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

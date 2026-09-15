@@ -1,0 +1,55 @@
+{
+  "status": "raised",
+  "company": "Tasklet (founders' prior company: Shortwave Communications, Inc.)",
+  "total_usd": 20000000,
+  "rounds": [
+    {
+      "type": "Series A",
+      "amount_usd": 20000000,
+      "date": "2026-04",
+      "lead": [
+        "Union Square Ventures",
+        "Lightspeed Venture Partners"
+      ],
+      "source": "https://tasklet.ai/blog/2026-04-07-20m-funding"
+    }
+  ],
+  "investors": [
+    "Union Square Ventures",
+    "Lightspeed Venture Partners",
+    "Y Combinator",
+    "Jeff Dean",
+    "Patrick Collison",
+    "John Collison"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://tasklet.ai/blog/2026-04-07-20m-funding",
+      "title": "We've raised $20M to build the cloud agent OS for work - Tasklet",
+      "published": "2026-04-07"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/tasklet-2",
+      "title": "Tasklet: Agents that own the work | Y Combinator (Spring 2026)",
+      "published": null
+    },
+    {
+      "url": "https://sacra.com/c/tasklet/",
+      "title": "Tasklet revenue, funding & news | Sacra",
+      "published": null
+    },
+    {
+      "url": "https://www.shortwave.com/about/",
+      "title": "Shortwave | About (founders Andrew Lee and Jonny Dimond; investors USV, Lightspeed)",
+      "published": null
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/shortwave-6a8d",
+      "title": "Shortwave - Crunchbase (search snippet: $9M from Lightspeed and USV)",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

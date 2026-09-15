@@ -1,0 +1,22 @@
+{
+  "status": "subsidiary",
+  "company": "ByteDance",
+  "total_usd": null,
+  "rounds": [],
+  "investors": [],
+  "parent": "ByteDance",
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Doubao",
+      "title": "Doubao - Wikipedia",
+      "published": null
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3286276/chinas-hottest-ai-bot-bytedances-doubao-tops-charts-51-million-active-users",
+      "title": "China's hottest AI bot? ByteDance's Doubao tops the charts - SCMP",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

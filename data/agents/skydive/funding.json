@@ -1,0 +1,61 @@
+{
+  "status": "raised",
+  "company": "Anything",
+  "total_usd": 19500000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": null,
+      "date": "2022",
+      "lead": [
+        "Uncork Capital"
+      ],
+      "source": "https://www.anything.com/blog/anything-series-a"
+    },
+    {
+      "type": "Seed",
+      "amount_usd": null,
+      "date": "2024",
+      "lead": [
+        "Bessemer Venture Partners"
+      ],
+      "source": "https://www.anything.com/blog/anything-series-a"
+    },
+    {
+      "type": "Series A",
+      "amount_usd": 11000000,
+      "date": "2025-09",
+      "lead": [
+        "Footwork"
+      ],
+      "source": "https://www.anything.com/blog/anything-series-a"
+    }
+  ],
+  "investors": [
+    "Footwork",
+    "Bessemer Venture Partners",
+    "Uncork Capital",
+    "M13",
+    "Tobi Lütke"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.anything.com/blog/anything-series-a",
+      "title": "$11m to build Anything",
+      "published": "2025-09-29"
+    },
+    {
+      "url": "https://www.thesaasnews.com/news/anything-lands-11m-series-a-at-100m-valuation/",
+      "title": "Anything Lands $11M Series A at $100M Valuation",
+      "published": "2025-09-29"
+    },
+    {
+      "url": "https://www.aol.com/articles/anything-launches-skydive-platform-building-130000000.html",
+      "title": "Anything Launches Skydive, a Platform for Building AI Coworkers (Business Wire)",
+      "published": "2026-08-20"
+    }
+  ],
+  "checked": "2026-09-15"
+}

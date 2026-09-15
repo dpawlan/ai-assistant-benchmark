@@ -10,6 +10,8 @@ export interface CompareSide {
   overall: number | null;
   testedCount: number;
   opinionOverall: OpinionStat;
+  /** "Raised $25M", "Part of Meta"; context only, never decides a row. */
+  funding: string | null;
 }
 
 export type Winner = 'a' | 'b' | 'tie' | null;

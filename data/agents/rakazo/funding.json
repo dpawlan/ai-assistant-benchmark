@@ -1,0 +1,29 @@
+{
+  "status": "not_disclosed",
+  "company": "Inbox Zero Inc.",
+  "total_usd": null,
+  "rounds": [],
+  "investors": [
+    "TinySeed"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://rakazo.com/",
+      "title": "Rakazo | Open source Grok Bot alternative (footer: © 2026 Inbox Zero Inc.)",
+      "published": null
+    },
+    {
+      "url": "https://tinyseed.com/portfolio",
+      "title": "Portfolio — TinySeed (lists Inbox Zero, Israel)",
+      "published": null
+    },
+    {
+      "url": "https://www.crunchbase.com/organization/inbox-zero",
+      "title": "Inbox Zero - Crunchbase profile (search snippet: TinySeed investor)",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

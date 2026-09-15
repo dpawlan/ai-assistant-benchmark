@@ -10,6 +10,8 @@ import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
 import { SpeedCell } from './SpeedCell';
+import { CostMark } from './CostMark';
+import { COST_KEYS, COST_LABEL, costOf, type CostKey } from '@/lib/cost';
 import { CoverageCell } from './CoverageCell';
 import { StatusStrip } from './StatusStrip';
 import { opinionRank } from '@/lib/score';
@@ -49,13 +51,15 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
 }
 
 /** Reads ?kind= after hydration so the grid itself can be prerendered with the default group. */
-function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
+function KindFromUrl({ onKind, onMark }: { onKind: (k: string) => void; onMark: (m: 'label' | 'icon') => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
   const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
+  const mark = params.get('costmark') === 'icon' ? 'icon' : 'label';
   useEffect(() => {
     onKind(kind);
-  }, [kind, onKind]);
+    onMark(mark);
+  }, [kind, mark, onKind, onMark]);
   return null;
 }
 
@@ -66,6 +70,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
   const [showPending, setShowPending] = useState(false);
+  const [cost, setCost] = useState<CostKey | 'all'>('all');
+  // Review-only: compare a text label with an icon for cost. Remove the switch before merging.
+  const [mark, setMark] = useState<'label' | 'icon'>('label');
   const opinion = view === 'opinion';
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
 
@@ -93,7 +100,16 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   }, [agents]);
 
   /** Assistants in the selected peer group (or all of them). Status counts in the strip follow this set. */
-  const inKind = useMemo(() => (kind === 'all' ? agents : agents.filter(a => a.kind === kind)), [agents, kind]);
+  const kindPool = useMemo(() => (kind === 'all' ? agents : agents.filter(a => a.kind === kind)), [agents, kind]);
+  const costCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const a of kindPool) {
+      const k = costOf(a.access?.pricing);
+      if (k) c[k] = (c[k] ?? 0) + 1;
+    }
+    return c;
+  }, [kindPool]);
+  const inKind = useMemo(() => (cost === 'all' ? kindPool : kindPool.filter(a => costOf(a.access?.pricing) === cost)), [kindPool, cost]);
 
   // Public opinion view: one group when a kind is selected; every kind in display order when showing all.
   const groups = useMemo(() => {
@@ -144,7 +160,10 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <th scope="row" className="mx-name">
           <Link href={`/agents/${agent.slug}`} className="mx-agent">
             <AgentIcon name={agent.name} icon={agent.icon} size={28} className="mx-icon" />
-            <span className="mx-nm">{agent.name}</span>
+            <span className={`mx-nmwrap${mark === 'icon' ? ' ic' : ''}`}>
+              <span className="mx-nm">{agent.name}</span>
+              <CostMark pricing={agent.access?.pricing} mode={mark} />
+            </span>
           </Link>
         </th>
         {!opinion && (
@@ -194,7 +213,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   return (
     <div>
       <Suspense fallback={null}>
-        <KindFromUrl onKind={setKindState} />
+        <KindFromUrl onKind={setKindState} onMark={setMark} />
       </Suspense>
 
       <div className="kind-bar" role="tablist" aria-label="Peer group">
@@ -208,6 +227,42 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           All
           <span className="kind-n">{agents.length}</span>
         </button>
+      </div>
+
+      <div className="cost-bar" role="group" aria-label="Cost">
+        <span className="cost-bar-l">Cost</span>
+        <button type="button" className={`cost-f${cost === 'all' ? ' on' : ''}`} aria-pressed={cost === 'all'} onClick={() => setCost('all')}>
+          Any
+        </button>
+        {COST_KEYS.filter(k => costCounts[k]).map(k => (
+          <button key={k} type="button" className={`cost-f${cost === k ? ' on' : ''}`} aria-pressed={cost === k} onClick={() => setCost(cost === k ? 'all' : k)}>
+            {COST_LABEL[k]}
+            <span className="kind-n">{costCounts[k]}</span>
+          </button>
+        ))}
+      </div>
+
+      <div className="design-bar" role="tablist" aria-label="Cost marker under review">
+        <span>Cost marker</span>
+        {(['label', 'icon'] as const).map(m => (
+          <button
+            key={m}
+            type="button"
+            role="tab"
+            aria-selected={mark === m}
+            className={mark === m ? 'on' : ''}
+            onClick={() => {
+              setMark(m);
+              const q = new URLSearchParams(window.location.search);
+              if (m === 'icon') q.set('costmark', 'icon');
+              else q.delete('costmark');
+              const qs = q.toString();
+              router.replace(qs ? `/?${qs}` : '/', { scroll: false });
+            }}
+          >
+            {m === 'label' ? 'Text label' : 'Icon'}
+          </button>
+        ))}
       </div>
 
       {!opinion && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}
@@ -327,6 +382,15 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <span className="key-gap" />
           <span className="sc sc-na">N/A</span> doesn&apos;t apply
           <span className="key-gap" />
+          {mark === 'icon' && (
+            <>
+              <CostMark pricing="free" mode="icon" /> free
+              <CostMark pricing="freemium" mode="icon" /> free tier
+              <CostMark pricing="paid" mode="icon" /> paid
+              <CostMark pricing="waitlist" mode="icon" /> waitlist
+              <span className="key-gap" />
+            </>
+          )}
           <Link href="/dimensions#how">How scoring works</Link>
         </p>
       )}

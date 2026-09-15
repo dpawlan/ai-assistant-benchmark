@@ -1,0 +1,54 @@
+{
+  "status": "raised",
+  "company": "Simular Inc.",
+  "total_usd": 26500000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5000000,
+      "date": null,
+      "lead": [
+        "Basis Set Ventures"
+      ],
+      "source": "https://www.simular.ai/articles/simular-raises-21-5m-to-build-autonomous-computer-agents"
+    },
+    {
+      "type": "Series A",
+      "amount_usd": 21500000,
+      "date": "2025-12",
+      "lead": [
+        "Felicis"
+      ],
+      "source": "https://www.simular.ai/articles/simular-raises-21-5m-to-build-autonomous-computer-agents"
+    }
+  ],
+  "investors": [
+    "Felicis",
+    "NVentures (NVIDIA)",
+    "Basis Set Ventures",
+    "Flying Fish Partners",
+    "South Park Commons",
+    "Samsung NEXT",
+    "Xoogler Ventures"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.simular.ai/articles/simular-raises-21-5m-to-build-autonomous-computer-agents",
+      "title": "Simular Raises $21.5M to Build Autonomous Computer Agents",
+      "published": "2025-12-02"
+    },
+    {
+      "url": "https://techcrunch.com/2025/12/02/simular-releases-mac-os-ai-agent-raises-21-5m-from-felicis-with-windows-coming-soon",
+      "title": "Simular releases Mac OS AI agent, raises $21.5M from Felicis | TechCrunch",
+      "published": "2025-12-02"
+    },
+    {
+      "url": "https://www.sai.work/",
+      "title": "Sai (footer: © 2026 Simular Inc.)",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

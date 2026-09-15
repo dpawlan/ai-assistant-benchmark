@@ -1,0 +1,38 @@
+{
+  "status": "raised",
+  "company": "Letta",
+  "total_usd": 10000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 10000000,
+      "date": "2024-09",
+      "lead": [
+        "Felicis"
+      ],
+      "source": "https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html"
+    }
+  ],
+  "investors": [
+    "Felicis",
+    "Sunflower Capital",
+    "Essence VC",
+    "Jeff Dean",
+    "Clem Delangue"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html",
+      "title": "Berkeley AI Research Lab Spinout Letta Raises $10M Seed Financing Led by Felicis",
+      "published": "2024-09-24"
+    },
+    {
+      "url": "https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth/",
+      "title": "Letta, one of UC Berkeley's most anticipated AI startups, has just come out of stealth",
+      "published": "2024-09-23"
+    }
+  ],
+  "checked": "2026-09-15"
+}

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "agent_count": 71,
-  "feedback_count": 5239,
+  "feedback_count": 6852,
   "confirmed": 53,
   "stretch": 18,
   "agents": [
@@ -457,7 +457,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 826,
+      "feedback_count": 2439,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",

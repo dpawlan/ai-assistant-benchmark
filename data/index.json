@@ -1660,7 +1660,7 @@
       "access": {
         "pricing": "paid",
         "price": "Solo $29/mo, Pro $79/mo, Teams custom; card required, refund within the first week",
-        "regions": "Not stated (data stored in US data centers)",
+        "regions": "Not stated",
         "channels": [
           "Web app",
           "Messages",
@@ -2025,7 +2025,7 @@
       "access": {
         "pricing": "unknown",
         "price": "Not stated",
-        "regions": "United States (privacy policy: 'Nessi is offered to users in the United States')",
+        "regions": "United States",
         "channels": [
           "iMessage",
           "SMS"
@@ -2118,7 +2118,7 @@
       "access": {
         "pricing": "waitlist",
         "price": "Not stated (early access; sign up and wait for an invite)",
-        "regions": "Türkiye (site is Turkish-first with Istanbul venues; KVKK/GDPR)",
+        "regions": "Türkiye",
         "channels": [
           "Web app"
         ],

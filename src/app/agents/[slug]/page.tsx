@@ -198,89 +198,8 @@ export default async function AgentPage({ params }: AgentPageProps) {
               </div>
             </section>
           )}
-          <section className="hh-opp">
-            <h2 className="ag-h2">Head to head</h2>
-            <p className="ag-sub">
-              {agent.testedCount > 0
-                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
-                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
-            </p>
-            {agent.testedCount > 0 && opponents.length > 0 && (
-              <div className="ag-chips">
-                {opponents.map(o => (
-                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
-                    vs {o.name}
-                  </Link>
-                ))}
-                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
-              </div>
-            )}
-          </section>
-          <h2 className="ag-h2">Information</h2>
-          <div className="info-list" style={{ marginTop: 8 }}>
-            <div className="info-row">
-              <span className="il">Group</span>
-              <span className="iv">{kindLabel}</span>
-            </div>
-            {productClass && (
-              <div className="info-row">
-                <span className="il">Product class</span>
-                <span className="iv">{productClass}</span>
-              </div>
-            )}
-            {agent.access && (
-              <>
-                <div className="info-row">
-                  <span className="il">Price</span>
-                  <span className={`iv wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
-                </div>
-                <div className="info-row">
-                  <span className="il">Where</span>
-                  <span className={`iv wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
-                </div>
-                {agent.access.channels.length > 0 && (
-                  <div className="info-row">
-                    <span className="il">Use it in</span>
-                    <span className="iv wrap">{agent.access.channels.join(', ')}</span>
-                  </div>
-                )}
-              </>
-            )}
-            <div className="info-row">
-              <span className="il">Website</span>
-              {agent.site && domain ? (
-                <a className="iv" href={agent.site} target="_blank" rel="noopener noreferrer">
-                  {domain}
-                </a>
-              ) : (
-                <span className="iv empty">None on file</span>
-              )}
-            </div>
-            <div className="info-row">
-              <span className="il">Public signal</span>
-              <span className={`iv${signal ? '' : ' empty'}`}>
-                {agent.publicSignal && agent.publicSignal !== 'unknown' ? capitalize(agent.publicSignal) : 'Not rated'}
-              </span>
-            </div>
-            <div className="info-row">
-              <span className="il">Quotes collected</span>
-              <span className="iv">{agent.feedbackCount}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Dimensions scored</span>
-              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {scored.length}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Last tested</span>
-              <span className={`iv${agent.lastTested ? '' : ' empty'}`}>{agent.lastTested ? formatDate(agent.lastTested) : 'Never'}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Data updated</span>
-              <span className="iv">{formatDate(index.updated)}</span>
-            </div>
-          </div>
           <section className="ag-funding" id="funding">
-            <h3 className="ag-h3">Funding</h3>
+            <h2 className="ag-h2">Funding</h2>
             {(() => {
               const f = agent.funding;
               const links = getInvestorLinks();
@@ -349,9 +268,90 @@ export default async function AgentPage({ params }: AgentPageProps) {
               );
             })()}
           </section>
+          <h2 className="ag-h2">Information</h2>
+          <div className="info-list" style={{ marginTop: 8 }}>
+            <div className="info-row">
+              <span className="il">Group</span>
+              <span className="iv">{kindLabel}</span>
+            </div>
+            {productClass && (
+              <div className="info-row">
+                <span className="il">Product class</span>
+                <span className="iv">{productClass}</span>
+              </div>
+            )}
+            {agent.access && (
+              <>
+                <div className="info-row">
+                  <span className="il">Price</span>
+                  <span className={`iv iv-wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
+                </div>
+                <div className="info-row">
+                  <span className="il">Where</span>
+                  <span className={`iv iv-wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
+                </div>
+                {agent.access.channels.length > 0 && (
+                  <div className="info-row">
+                    <span className="il">Use it in</span>
+                    <span className="iv iv-wrap">{agent.access.channels.join(', ')}</span>
+                  </div>
+                )}
+              </>
+            )}
+            <div className="info-row">
+              <span className="il">Website</span>
+              {agent.site && domain ? (
+                <a className="iv" href={agent.site} target="_blank" rel="noopener noreferrer">
+                  {domain}
+                </a>
+              ) : (
+                <span className="iv empty">None on file</span>
+              )}
+            </div>
+            <div className="info-row">
+              <span className="il">Public signal</span>
+              <span className={`iv${signal ? '' : ' empty'}`}>
+                {agent.publicSignal && agent.publicSignal !== 'unknown' ? capitalize(agent.publicSignal) : 'Not rated'}
+              </span>
+            </div>
+            <div className="info-row">
+              <span className="il">Quotes collected</span>
+              <span className="iv">{agent.feedbackCount}</span>
+            </div>
+            <div className="info-row">
+              <span className="il">Dimensions scored</span>
+              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {scored.length}</span>
+            </div>
+            <div className="info-row">
+              <span className="il">Last tested</span>
+              <span className={`iv${agent.lastTested ? '' : ' empty'}`}>{agent.lastTested ? formatDate(agent.lastTested) : 'Never'}</span>
+            </div>
+            <div className="info-row">
+              <span className="il">Data updated</span>
+              <span className="iv">{formatDate(index.updated)}</span>
+            </div>
+          </div>
           <div className="note-card">
             Built {agent.name}? <Link href="/request">Send a correction</Link>
           </div>
+          <section className="hh-opp">
+            <h2 className="ag-h2">Head to head</h2>
+            <p className="ag-sub">
+              {agent.testedCount > 0
+                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
+                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
+            </p>
+            {agent.testedCount > 0 && opponents.length > 0 && (
+              <div className="ag-chips">
+                {opponents.map(o => (
+                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
+                    vs {o.name}
+                  </Link>
+                ))}
+                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
+              </div>
+            )}
+          </section>
         </aside>
       </div>
 

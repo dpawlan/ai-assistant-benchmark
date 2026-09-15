@@ -815,10 +815,11 @@ a.row:active {
 }
 
 .info-row {
-  display: flex;
+  /* Label left, value flush right. A grid (not flex) keeps wrapped and empty values on the same right edge. */
+  display: grid;
+  grid-template-columns: minmax(0, max-content) minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  column-gap: 16px;
   min-height: 44px;
   padding: 10px 0;
   border-top: 1px solid var(--hair);
@@ -835,11 +836,11 @@ a.row:active {
 }
 
 .iv {
-  flex: none;
+  justify-self: end;
+  max-width: 100%;
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   text-align: right;
-  max-width: 55%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2716,7 +2717,7 @@ a.chip.blue:hover {
 }
 
 .hh-opp {
-  margin-bottom: 28px;
+  margin-top: 28px;
 }
 
 .hh-opp .ag-chips {
@@ -3246,10 +3247,16 @@ a.chip.blue:hover {
 }
 
 /* Info rows that can hold a sentence (price, regions, channels) */
-.iv.wrap {
+/* Multi-line value. Not `.wrap`: that name is the page container, whose 22px gutter leaked into values. */
+.iv.iv-wrap {
+  justify-self: stretch;
   white-space: normal;
-  max-width: 62%;
   text-align: right;
+  line-height: 1.35;
+  text-wrap: pretty;
+}
+
+.info-row .il {
   line-height: 1.3;
 }
 
@@ -3608,16 +3615,7 @@ a.chip.blue:hover {
 
 /* Funding subsection under Information: total, checked date, and a toggle for rounds, backers and sources. */
 .ag-funding {
-  margin-top: 26px;
-  padding-top: 18px;
-  border-top: 1px solid var(--line);
-}
-
-.ag-h3 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  margin-bottom: 28px;
 }
 
 .fund-total {

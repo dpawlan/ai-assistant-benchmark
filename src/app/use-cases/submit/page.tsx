@@ -29,15 +29,15 @@ export default function SubmitUseCasePage() {
         <div className="info-list">
           <div className="info-row">
             <span className="il">Reviewed by hand</span>
-            <span className="iv wrap">We check the post and the claim. Nothing is published automatically.</span>
+            <span className="iv iv-wrap">We check the post and the claim. Nothing is published automatically.</span>
           </div>
           <div className="info-row">
             <span className="il">Filed under a job</span>
-            <span className="iv wrap">Your post becomes evidence under the matching job, or a new job if it&apos;s a new one.</span>
+            <span className="iv iv-wrap">Your post becomes evidence under the matching job, or a new job if it&apos;s a new one.</span>
           </div>
           <div className="info-row">
             <span className="il">Vendors</span>
-            <span className="iv wrap">Welcome, and labelled so readers know.</span>
+            <span className="iv iv-wrap">Welcome, and labelled so readers know.</span>
           </div>
         </div>
       </section>

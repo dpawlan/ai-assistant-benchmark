@@ -4,6 +4,9 @@
  *
  *   node scripts/collect.mjs x         --slug instinct,poke [--since 2026-06-01] [--until 2026-09-08] [--window 7] [--headed]
  *   node scripts/collect.mjs x         --query '"boarding pass" min_faves:20' [--since ...]   one search, filed under every assistant it names
+ *   node scripts/collect.mjs x         --usecases [--faves 5] [--since 2026-08-01] [--window 30]
+ *                                       nine action-phrased searches (booked, ordered, refund, called, routine...) across
+ *                                       Muse, Instinct and Grok Bot; the posts people actually engaged with, not every mention
  *   node scripts/collect.mjs reddit    [--slug ...]
  *   node scripts/collect.mjs hn        [--slug ...]
  *   node scripts/collect.mjs appstore  [--slug ...] [--country us]
@@ -183,6 +186,20 @@ export function writeInbox(source, slug, items) {
 }
 
 /** Drop records already in feedback.json or the inbox, and anything that doesn't mention the product. */
+/** Dedupe against what we already hold, without the per-agent name test: for searches that already name the product. */
+export function filterNewLoose(slug, items) {
+  const k = known(slug);
+  const out = [];
+  const seen = new Set();
+  for (const r of items) {
+    const u = normalizeUrl(r.url);
+    if (k.urls.has(u) || k.ids.has(r.id) || seen.has(u)) continue;
+    seen.add(u);
+    out.push(r);
+  }
+  return out;
+}
+
 export function filterNew(slug, cfg, items) {
   const k = known(slug);
   const out = [];
@@ -352,6 +369,49 @@ async function collectX() {
     });
 
   try {
+    // Use-case mode: a short list of searches aimed at posts where someone says an assistant DID something.
+    // X's own min_faves: filter keeps it to posts people actually engaged with, which is also far fewer requests.
+    if (opts.usecases) {
+      const names = String(opts.usecases) === 'true' ? 'muse OR instinct OR "grok bot" OR grokbot OR @bot' : String(opts.usecases);
+      const faves = Number(opts.faves ?? 5);
+      const QUERIES = [
+        `(${names}) (booked OR "booked me" OR "boarding pass" OR "checked me in" OR "checked in" OR rebooked) min_faves:${faves}`,
+        `(${names}) (ordered OR bought OR checkout OR "added to cart" OR reordered) min_faves:${faves}`,
+        `(${names}) (subscription OR subscriptions OR refund OR refunded OR cancelled OR canceled) min_faves:${faves}`,
+        `(${names}) (called OR "called the" OR "phone call" OR "on hold") min_faves:${faves}`,
+        `(${names}) (inbox OR "my email" OR "drafted a reply" OR "replied to") min_faves:${faves}`,
+        `(${names}) ("every morning" OR routine OR briefing OR "each day" OR overnight) min_faves:${faves}`,
+        `(${names}) (built OR made OR created) (app OR site OR website OR tracker OR dashboard OR game) min_faves:${faves}`,
+        `("i asked muse" OR "i asked instinct" OR "i had muse" OR "i had instinct" OR "my grok bot" OR "i got muse") min_faves:2`,
+        `(${names}) ("use case" OR "use cases" OR "real things it did" OR "here's what it did") min_faves:${faves}`,
+      ];
+      // These queries already carry the product name, so route on the product word itself rather than the strict
+      // per-agent match terms, which are tuned for name-only searches.
+      const ROUTE = [
+        ['muse', /\bmuse\b/i],
+        ['instinct', /\binstinct\b/i],
+        ['grok-bot', /\bgrok ?bot\b|@bot\b/i],
+      ];
+      const found = new Map();
+      for (const q of QUERIES) {
+        seen.clear();
+        await runQuery(q);
+        for (const [id, t] of seen) if (!found.has(id)) found.set(id, t);
+        // File progress after each query so an interrupted run keeps what it has.
+        for (const [slug, re] of ROUTE) {
+          const cfg = sources[slug];
+          if (!cfg) continue;
+          const items = [...found.values()].filter(t => re.test(t.text)).map(t => toRecord(slug, cfg, t));
+          const fresh = filterNewLoose(slug, items);
+          if (fresh.length) writeInbox('x', slug, fresh);
+        }
+      }
+      let total = 0;
+      for (const [slug] of ROUTE) total += readJson(inboxFile('x', slug), []).length;
+      console.log(`\nuse-case search: ${found.size} posts seen across ${QUERIES.length} queries; inbox now holds ${total}. Run: node scripts/collect.mjs merge --source x`);
+      return;
+    }
+
     // Ad-hoc mode: one search across every assistant, e.g. --query '"boarding pass" min_faves:20'.
     // Each hit is filed under every assistant whose match terms appear in it.
     if (opts.query) {

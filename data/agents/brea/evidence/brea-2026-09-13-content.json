@@ -1,0 +1,19 @@
+{
+  "id": "brea-2026-09-13-content",
+  "agent": "brea",
+  "category": "content_creation_games",
+  "protocol": "task",
+  "date": "2026-09-13",
+  "signals": {
+    "turns": 10,
+    "my_messages": 4,
+    "agent_messages": 6,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-14T14:45:33.000Z"
+}

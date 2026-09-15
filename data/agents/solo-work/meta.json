@@ -1,0 +1,37 @@
+{
+  "slug": "solo-work",
+  "name": "Solo Work",
+  "site": "https://solomail.io/",
+  "handles": [
+    "solo_work_inc"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "A separate work identity: a @solomail.io address and business number, a team of agents for email, scheduling, contracts and follow-ups, and a work-only memory, with approval before consequential actions. Guest chat at solowork.app needs no account. Requested via the form (issue #173).",
+  "likely_applicable": [
+    "email_replies",
+    "running_routine",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "phone_calls",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Own your professional intelligence",
+  "icon": "/logos/solo-work.png",
+  "kind": "work",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Free during early access; waitlist",
+    "regions": "Not stated",
+    "channels": [
+      "Email",
+      "SMS",
+      "Voice calls",
+      "iOS app",
+      "Web"
+    ],
+    "checked": "2026-09-14"
+  }
+}

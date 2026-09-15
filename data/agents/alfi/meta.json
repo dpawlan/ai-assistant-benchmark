@@ -1,0 +1,39 @@
+{
+  "slug": "alfi",
+  "name": "Alfi by Text.ai",
+  "site": "https://www.text.ai/",
+  "handles": [
+    "textdotai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Group-chat AI that plans events, books restaurants, sets reminders, splits bills, creates images and runs games inside conversations; available as its own iOS and Android app and as Alfi Lite in iMessage, SMS, WhatsApp and Telegram. Requested via the form (issue #202).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks",
+    "content_creation_games",
+    "running_routine",
+    "online_task",
+    "third_party_integrations"
+  ],
+  "public_signal": "low",
+  "tagline": "Bringing Alfi to every group chat",
+  "icon": "/logos/alfi.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "App free; Alfi Lite in chat apps free up to 8 messages every 12 hours (SMS excepted); paid tier price not stated",
+    "regions": "iMessage and SMS: US & CA; WhatsApp and Telegram: worldwide; restaurant booking US & CA",
+    "channels": [
+      "iOS app",
+      "Android app",
+      "iMessage",
+      "SMS",
+      "WhatsApp",
+      "Telegram"
+    ],
+    "checked": "2026-09-15"
+  }
+}

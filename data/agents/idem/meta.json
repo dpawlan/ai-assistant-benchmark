@@ -1,0 +1,35 @@
+{
+  "slug": "idem",
+  "name": "idem",
+  "site": "https://idem.so/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "idem is a personal agent for founders that learns how they write and decide, then drafts emails, books meetings, pulls metrics and sends follow-ups in their voice, asking before anything it can't take back. It runs on iPhone and macOS. Requested via the form (issue #210).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Clone yourself.",
+  "icon": "/logos/idem.png",
+  "kind": "work",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Request access; $99/month",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Mac app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

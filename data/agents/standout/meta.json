@@ -1,0 +1,34 @@
+{
+  "slug": "standout",
+  "name": "Standout",
+  "site": "https://standout.work/",
+  "handles": [
+    "standoutwork"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Standout is a YC-backed AI talent agent: it reads your LinkedIn, chats about what you want, scouts roles in the EU and US, writes founder intros on your behalf, and books the meetings. You reach it through the web and by iMessage or WhatsApp. Requested via the form (issue #215).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "proactive_behavior",
+    "memory",
+    "permissions_privacy",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Get introduced to your dream role.",
+  "icon": "/logos/standout.png",
+  "kind": "work",
+  "access": {
+    "pricing": "free",
+    "price": "Free for talent",
+    "regions": "Role coverage in EU and US",
+    "channels": [
+      "Web app",
+      "iMessage",
+      "WhatsApp"
+    ],
+    "checked": "2026-09-15"
+  }
+}

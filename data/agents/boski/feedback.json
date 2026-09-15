@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "id": "d396f4b7c730",
+    "agent": "boski",
+    "quote": "@wojkuli I feel it shouldn't fill cuz i may prefer speed (but it looks empty when i do which feels weird)",
+    "author": "@hooni_tri",
+    "author_name": "Tristan Shin",
+    "date": "2026-09-13",
+    "url": "https://x.com/hooni_tri/status/2099301529421566319",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:42:00Z",
+    "notes": "Follow-up feedback on the same Boski onboarding control; direct hands-on interaction."
+  },
+  {
+    "id": "25f7a6095b53",
+    "agent": "boski",
+    "quote": "@wojkuli this UI is confusing in terms of how it fills up the bar",
+    "author": "@hooni_tri",
+    "author_name": "Tristan Shin",
+    "date": "2026-09-13",
+    "url": "https://x.com/hooni_tri/status/2099293373429584071",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:42:00Z",
+    "notes": "Posts a screenshot of Boski's goal-preference onboarding UI and gives concrete product feedback."
+  },
+  {
+    "id": "ca032a45a458",
+    "agent": "boski",
+    "quote": "@boski is asking me an access code @wojkuli.. 👀",
+    "author": "@RphGrc",
+    "author_name": "·rphgrc·(↑)",
+    "date": "2026-08-05",
+    "url": "https://x.com/RphGrc/status/2085116226037002678",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T16:42:00Z",
+    "notes": "Includes a screenshot of Boski's access-code onboarding screen; clear beta interaction evidence."
+  }
+]

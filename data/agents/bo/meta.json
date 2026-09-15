@@ -1,0 +1,35 @@
+{
+  "slug": "bo",
+  "name": "Bo",
+  "site": "https://www.getbo.com/",
+  "handles": [
+    "boassistant",
+    "brandonturp"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal assistant over iMessage with a health bent: tracks nutrition, fitness, sleep and supplements, manages calendar and reminders, answers questions, and connects 20+ health and lifestyle apps through a companion app. Early access is open. Requested via the form (issue #155).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "memory",
+    "personality"
+  ],
+  "public_signal": "low",
+  "tagline": "A healthier life, only one text away.",
+  "icon": "/logos/bo.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated; early access open",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Companion app"
+    ],
+    "checked": "2026-09-14"
+  }
+}

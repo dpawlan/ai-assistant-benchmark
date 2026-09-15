@@ -1,0 +1,32 @@
+{
+  "slug": "maxi",
+  "name": "Maxi",
+  "site": "https://www.usemaxi.app/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Maxi is a finance assistant you text over iMessage. It connects bank accounts through Plaid and sends daily spending and budget updates, weekly reports and proactive alerts, and can handle Venmo requests, cancel subscriptions and move money. Requested via the form (issue #180).",
+  "likely_applicable": [
+    "proactive_behavior",
+    "multiplayer_groups",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "email_replies",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Your money finally texts back.",
+  "icon": "/logos/maxi.png",
+  "kind": "finance",
+  "access": {
+    "pricing": "paid",
+    "price": "$11.99/mo · 7-day free trial",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage"
+    ],
+    "checked": "2026-09-15"
+  }
+}

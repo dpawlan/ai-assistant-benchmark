@@ -1,0 +1,35 @@
+{
+  "slug": "eney",
+  "name": "Eney",
+  "site": "https://eney.ai/",
+  "handles": [
+    "eneybymacpaw"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Eney is MacPaw's AI assistant for Mac. It works across apps and connectors (Notion, Linear, Google Docs/Drive) to draft emails, take meeting notes, handle files and media, and suggest next steps proactively. Requested via the form (issue #213).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Proactive AI assistant designed to fix scattered work",
+  "icon": "/logos/eney.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free credits included · Starter $18/mo · Boost $36/mo · Power $60/mo; also on Setapp",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

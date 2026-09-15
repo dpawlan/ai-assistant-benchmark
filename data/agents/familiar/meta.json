@@ -8,7 +8,7 @@
   ],
   "status": "confirmed",
   "product_class": null,
-  "notes": "Hosted personal agent that triages the inbox, preps the day, runs research and remembers what matters; Telegram now, WhatsApp and Slack coming; invite-only research preview, still in stealth. Requested via the form (issue #114).",
+  "notes": "Hosted personal agent that triages the inbox, preps the day, runs research and remembers what matters; live on Telegram (WhatsApp and Slack not live as of 2026-09-15); invite-only research preview, still in stealth. Requested via the form (issue #114).",
   "public_signal": "low",
   "tagline": "A personal AI agent that shows up before you ask",
   "icon": "/logos/familiar.png",
@@ -18,10 +18,8 @@
     "price": "Invite-only research preview; price not stated",
     "regions": "Not stated",
     "channels": [
-      "Telegram",
-      "WhatsApp (coming)",
-      "Slack (coming)"
+      "Telegram"
     ],
-    "checked": "2026-09-11"
+    "checked": "2026-09-15"
   }
 }

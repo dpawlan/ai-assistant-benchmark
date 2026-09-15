@@ -80,3 +80,8 @@ _Updated 2026-09-14 X use-case scrape (+9 rows)._
 - (2026-09-12) @prrranavv: instinct found a 40% better price and booked e2e than uber intercity
 - (2026-09-11) @its_Holmes: Instinct helped me find/request multiple quotes for housework, communicate with contractors via email, confirm and schedule the best option
 - (2026-09-10) @dthak1: [complaint] Booking failed through Instinct, rebooked manually; a few hours later instinct cancelled the manual flight booking
+
+_Updated 2026-09-15 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-08) @altryne head-to-head: Instinct still searching while Muse booked via Link — booking speed comparison.

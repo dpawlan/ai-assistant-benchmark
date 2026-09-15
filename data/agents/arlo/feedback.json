@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "c1arloslack01",
+    "agent": "arlo",
+    "quote": "The Slack retry was worse, and it produced the strongest receipt in the build. A second Slack attempt threw an \"App is not approved by Slack\" error alongside a raw database payload surfaced verbatim to the UI:\n\n{\"ok\":false,\"error\":\"duplicate key value violates unique constraint \\\"provider_secrets_pkey\\\"\"}",
+    "author": "AI Contio",
+    "author_name": "AI Contio",
+    "date": "2026-06-19",
+    "url": "https://www.aicontio.com/2026/06/19/inside-the-call-arlo/#slack-setup",
+    "kind": "bug",
+    "tags": ["slack", "onboarding", "hands-on", "web"],
+    "source": "web",
+    "collected_at": "2026-09-15T13:55:00Z",
+    "notes": "Hands-on June 2026: Slack OAuth dead-ends + Postgres PK collision leaked to UI."
+  },
+  {
+    "id": "c2arlovoicel1",
+    "agent": "arlo",
+    "quote": "The voice call was very polished. It was goal-oriented (its objective: text the signup link), handled barge-in cleanly, stayed conversational through an off-script curveball, and ended gracefully. Critically, it respected its own channel's affordances –\"Cool if I text you the sign-up link?\" – rather than trying to read a URL aloud.",
+    "author": "AI Contio",
+    "author_name": "AI Contio",
+    "date": "2026-06-19",
+    "url": "https://www.aicontio.com/2026/06/19/inside-the-call-arlo/#voice",
+    "kind": "praise",
+    "tags": ["phone_calls", "voice", "hands-on", "web"],
+    "source": "web",
+    "collected_at": "2026-09-15T13:55:00Z",
+    "notes": "Hands-on: outbound onboarding call craft praised despite other setup bugs."
+  },
+  {
+    "id": "c3arlobreaks1",
+    "agent": "arlo",
+    "quote": "The cascade, in one place: Slack dead-ends twice (the second leaking a Postgres key); the signup link loops to the top of setup; the \"first task\" buttons are dead; suggested tasks ignore stated intent; voice doesn't know your name from SMS; and the integration menu leaks its own plumbing. The throughline is engineering, not craft, e.g. state shared across channels, idempotent retries, error handling, integration depth. Good ideas, but more QA is required.",
+    "author": "AI Contio",
+    "author_name": "AI Contio",
+    "date": "2026-06-19",
+    "url": "https://www.aicontio.com/2026/06/19/inside-the-call-arlo/#breaks",
+    "kind": "complaint",
+    "tags": ["onboarding", "reliability", "hands-on", "web"],
+    "source": "web",
+    "collected_at": "2026-09-15T13:55:00Z",
+    "notes": "Hands-on summary of stacked onboarding/reliability failures."
+  },
+  {
+    "id": "c4arloident01",
+    "agent": "arlo",
+    "quote": "SMS opens in a lowercase, millennial-casual voice, emoji and all: \"i can also just call you, or pick up if you call me, whatever's easier.\" ... Voice opens completely differently: \"Hi there. This is arlo, an AI assistant. Who am I speaking with?\" The voice level is professional, neutral, no trace of the lowercase persona. Notably, it did not know the caller's name despite the name having been entered in the SMS flow minutes earlier. Cross-channel identity does not carry.",
+    "author": "AI Contio",
+    "author_name": "AI Contio",
+    "date": "2026-06-19",
+    "url": "https://www.aicontio.com/2026/06/19/inside-the-call-arlo/#identity",
+    "kind": "bug",
+    "tags": ["memory", "channels", "phone_calls", "hands-on", "web"],
+    "source": "web",
+    "collected_at": "2026-09-15T13:55:00Z",
+    "notes": "Cross-channel identity gap between SMS and voice onboarding."
+  },
+  {
+    "id": "c5arlonotis01",
+    "agent": "arlo",
+    "quote": "Arlo positions itself as an AI colleague rather than a personal chatbot. It works through iMessage and SMS, plus Slack, Microsoft Teams, Gmail, and phone calls. Its pitch is serious operational work with approval gates, action policies, persistent context, and audit traces. That makes Arlo interesting for a founder whose assistant is beginning to touch team systems. An approval step before sending an email or writing into a tool is not friction when the alternative is an enthusiastic robot emailing the wrong customer at 2 a.m.",
+    "author": "Florian Pariset",
+    "author_name": "Florian (Flo) Pariset",
+    "date": "2026-07-27",
+    "url": "https://www.notis.ai/blog/4-best-imessage-ai-assistants-for-founders-in-2026/#arlo",
+    "kind": "comparison",
+    "tags": ["governance", "imessage", "approvals", "web"],
+    "source": "web",
+    "collected_at": "2026-09-15T13:55:00Z",
+    "notes": "Notis founder ranking; vendor bias noted in article; Arlo ranked for governed team execution."
+  }
+]

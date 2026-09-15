@@ -55,3 +55,16 @@ _Updated 2026-09-11 weekday vault scan (+17 rows)._
 - (2026-09-11) @MariaKaramitsos: Could this be the death knell for Meta? Meta just rolled out Muse, its 1st ever personal AI agent...something that many want no part of. The
 - (2026-09-11) @Nuskritt: By the way Muse by @Meta is good in figma designs
 - (2026-09-11) @Node_Park: Meta's AI Agent  Meta has launched an AI Agent called Muse that anyone can easily use.  Link  http:// muse.ai  In simple terms It feels like
+
+_Updated 2026-09-15 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-09-14) TechRadar: Shopping flow with approval before purchase — "surprisingly pleasant to delegate."
+- (2026-09-14) TechRadar: Inbox triage + draft reply with approval — "another little online errand was done."
+- (2026-09-14) TechRadar (verdict): "I was more impressed with Muse than I expected. But that only made me warier about it" — trust tradeoff.
+- (2026-09-13) Cygankiewicz black-box test: 120 subagent.spawn burst → only 33 created, 87 failed.
+- (2026-09-13) Cygankiewicz: PostgreSQL lock timeout surfaced in spawn_failed payload.
+- (2026-09-09) HN nickysielicki: "probably my favorite mobile LLM experience so far across Claude and ChatGPT and Gemini."
+- (2026-09-09) HN russellbeattie: System Files transparency + Marketplace listing use case.
+- (2026-09-08) @altryne head-to-head: Muse booked via Link while Instinct still searching for RSVP.
+- (2026-09-09) Creators Index: Instagram connector scoping limits — "all or nothing at the login level."

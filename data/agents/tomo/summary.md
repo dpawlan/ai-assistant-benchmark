@@ -14,4 +14,9 @@ Site: https://tomo.ai/
 _Updated 2026-09-09 weekday vault scan (+1 rows)._
 
 **New this scan:**
-- (2026-08-01) Trustpilot:great-product-but: tomo's a generally great productivity assistant and and bot buddy to have, and i love what its been able to do for me. i've been a user for 
+- (2026-08-01) Trustpilot:great-product-but: tomo's a generally great productivity assistant and and bot buddy to have, and i love what its been able to do for me. i've been a user for
+
+_Updated 2026-09-15 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-07-13) UseCarly Poke vs Tomo: "Tomo if you want a coach that keeps you accountable to your own goals and habits." 

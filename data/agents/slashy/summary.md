@@ -28,4 +28,12 @@ _Updated 2026-09-09 weekday vault scan (+4 rows)._
 _Updated 2026-09-11 weekday vault scan (+1 rows)._
 
 **New this scan:**
-- (2026-09-11) @bradleydavid: What is the purpose of AI agents embedded in email apps (Superhuman, Extra, Sunflower, Slashy, etc.) when personal assistants like Muse and 
+- (2026-09-11) @bradleydavid: What is the purpose of AI agents embedded in email apps (Superhuman, Extra, Sunflower, Slashy, etc.) when personal assistants like Muse and
+
+_Updated 2026-09-15 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-08-25) Saner.AI: App Store reviewer — "after using it for a week, it still would not show all my email."
+- (2026-08-25) Saner.AI: iMessage access praised — "always in the loop" with follow-up notifications.
+- (2026-08-25) Tom's Guide (via Saner): "Early software, early rough edges."
+- (2026-08-25) Saner.AI: "a real trust problem: Gmail-only… still fixing 'missing emails' bugs." 

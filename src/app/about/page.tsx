@@ -1,6 +1,5 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { getBenchmarkStats, getIndexData, getScoredCategories } from '@/lib/data';
 
 export const metadata: Metadata = {
   title: 'About',
@@ -8,10 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  const index = getIndexData();
-  const stats = getBenchmarkStats();
-  const dimensions = getScoredCategories().length;
-
   return (
     <div className="wrap">
       <div className="page-head">
@@ -21,12 +16,11 @@ export default function AboutPage() {
 
       <section className="about-section">
         <p className="about-lead">
-          {index.agent_count} assistants promise to run your life by text. Nobody could compare them, because everyone demos a different task. So we
-          wrote {dimensions} tasks, published them, and run the same ones against every product we can get into.
+          Every assistant promises to run your life by text, and none of them can be compared, because everyone demos a different task. So we wrote the
+          tasks down, published them, and run the same ones against every product we can get into.
         </p>
         <p className="about-p">
-          Every score comes from a real conversation on a real account, and links to its own evidence. {stats.testedCount} assistants have been scored
-          so far, across {stats.runCount} runs. Untested means blank, never a guess.
+          Every score comes from a real conversation on a real account, and links to its own evidence. Untested means blank, never a guess.
         </p>
       </section>
 

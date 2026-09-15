@@ -3,6 +3,10 @@ import path from 'path';
 export { scoreBucket, opinionRank, isThin, THIN_SAMPLE } from './score';
 import { opinionRank } from './score';
 import {
+  EvidenceOutcome,
+  JobEntry,
+  JobGroup,
+  JobsFile,
   Agent,
   AgentMeta,
   AgentScores,
@@ -505,100 +509,11 @@ export function getLatestFeed(limit = 10, perAgent = 2, maxRuns = 4): FeedItem[]
   return items.slice(0, limit);
 }
 
-export interface TrendingItem {
-  rank: number;
-  agent: AgentRef;
-  quote: Feedback;
-  categories: string[];
-  /** likes + 2×reposts + replies, before recency weighting. */
-  engagement: number;
-}
-
 /** likes + 2×reposts + replies. Views are not counted: they are inflated by the poster's own audience. */
 export function engagementScore(q: Feedback): number {
   const m = q.metrics;
   if (!m || m.missing) return 0;
   return (m.likes ?? 0) + 2 * (m.reposts ?? 0) + (m.replies ?? 0);
-}
-
-/**
- * Trending use cases: public posts tagged as a use case, ranked by engagement on X with a 60-day half-life
- * so last week's thread outranks a bigger one from spring. Founder and vendor posts are excluded, as everywhere.
- */
-export function getTrendingUseCases(limit = 40, agentSlug?: string): TrendingItem[] {
-  const now = Date.now();
-  const scored: { item: Omit<TrendingItem, 'rank'>; weighted: number }[] = [];
-  for (const q of getAllQuotes()) {
-    if (q.quote.kind !== 'use-case' || isFounderPost(q.quote)) continue;
-    if (agentSlug && q.agent.slug !== agentSlug) continue;
-    const engagement = engagementScore(q.quote);
-    if (engagement < 5) continue;
-    const ageDays = Math.max(0, (now - new Date(q.quote.date).getTime()) / 86_400_000);
-    const weighted = engagement * Math.pow(0.5, ageDays / 60);
-    scored.push({ item: { agent: q.agent, quote: q.quote, categories: q.categories, engagement }, weighted });
-  }
-  scored.sort((a, b) => b.weighted - a.weighted);
-  return scored.slice(0, limit).map((s, i) => ({ ...s.item, rank: i + 1 }));
-}
-
-export interface UseCaseEntry {
-  id: string;
-  agent: string;
-  title: string;
-  summary: string;
-  prompt: string;
-  prompt_source: 'posted' | 'assumed';
-  caveat?: string;
-}
-
-export interface UseCase extends UseCaseEntry {
-  rank: number;
-  agentRef: AgentRef;
-  quote: Feedback;
-  categories: string[];
-  engagement: number;
-}
-
-let useCaseCache: UseCaseEntry[] | null = null;
-function loadUseCaseEntries(): UseCaseEntry[] {
-  if (useCaseCache) return useCaseCache;
-  const file = path.join(DATA_DIR, 'use-cases.json');
-  useCaseCache = fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, 'utf8')).items as UseCaseEntry[]) : [];
-  return useCaseCache;
-}
-
-/**
- * Curated use cases (data/use-cases.json): what someone actually had an assistant do, summarized by hand and linked to
- * the original post. Ranked by engagement on that post with a 60-day half-life so recent threads rise.
- */
-export function getUseCases(agentSlug?: string): UseCase[] {
-  const byId = new Map(getAllQuotes().map(q => [q.quote.id, q]));
-  const now = Date.now();
-  const scored: { item: Omit<UseCase, 'rank'>; weighted: number }[] = [];
-  for (const e of loadUseCaseEntries()) {
-    const q = byId.get(e.id);
-    if (!q || q.agent.slug !== e.agent) continue;
-    if (agentSlug && e.agent !== agentSlug) continue;
-    const engagement = engagementScore(q.quote);
-    const ageDays = Math.max(0, (now - new Date(q.quote.date).getTime()) / 86_400_000);
-    scored.push({ item: { ...e, agentRef: q.agent, quote: q.quote, categories: q.categories, engagement }, weighted: engagement * Math.pow(0.5, ageDays / 60) });
-  }
-  scored.sort((a, b) => b.weighted - a.weighted);
-  return scored.map((s, i) => ({ ...s.item, rank: i + 1 }));
-}
-
-/** Assistants with at least one curated use case, for the filter chips. */
-export function getUseCaseAgents(): AgentRef[] {
-  const seen = new Map<string, AgentRef>();
-  for (const u of getUseCases()) seen.set(u.agentRef.slug, u.agentRef);
-  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
-}
-
-/** Assistants that have at least one trending use case, for the filter chips. */
-export function getTrendingAgents(): AgentRef[] {
-  const seen = new Map<string, AgentRef>();
-  for (const t of getTrendingUseCases(1000)) seen.set(t.agent.slug, t.agent);
-  return [...seen.values()].sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export const PRICING_LABEL: Record<string, string> = {
@@ -623,4 +538,244 @@ export function formatDate(iso: string, style: 'long' | 'short' = 'long'): strin
   if (!m) return iso;
   const d = new Date(Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3])));
   return d.toLocaleDateString('en-US', { month: style, day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+}
+
+/* ---------- Use cases: one entry per job (data/jobs.json) ---------- */
+
+export interface JobTested {
+  agent: AgentRef;
+  run: Run;
+  /** 'run' = an explicit run on this job; 'dimension' = the latest run on the job's dimension. */
+  via: 'run' | 'dimension';
+  href: string;
+}
+
+export interface JobReported {
+  agent: AgentRef;
+  quote: Feedback;
+  note?: string;
+  outcome?: EvidenceOutcome;
+  engagement: number;
+}
+
+/** One chip per assistant on a card: solid when tested, hollow when only reported. */
+export interface JobAgent {
+  agent: AgentRef;
+  tested: JobTested | null;
+  reported: JobReported | null;
+}
+
+export interface Job extends JobEntry {
+  groupLabel: string;
+  tested: JobTested[];
+  reported: JobReported[];
+  agents: JobAgent[];
+  /** Sum of engagement over reported posts. */
+  engagement: number;
+  /** Newest of `added` and the reported posts' dates. */
+  newest: string;
+}
+
+export interface RankedJob extends Job {
+  votes: number;
+  score: number;
+  rank: number;
+}
+
+export type JobSort = 'top' | 'new';
+
+let jobsFileCache: JobsFile | null = null;
+function loadJobsFile(): JobsFile {
+  if (jobsFileCache) return jobsFileCache;
+  const file = path.join(DATA_DIR, 'jobs.json');
+  jobsFileCache = fs.existsSync(file) ? (JSON.parse(fs.readFileSync(file, 'utf8')) as JobsFile) : { version: 2, updated: '', groups: [], jobs: [] };
+  return jobsFileCache;
+}
+
+export function getJobGroups(): JobGroup[] {
+  return loadJobsFile().groups;
+}
+
+/** Every run on the roster, plus the latest run per agent and category (runs are date-ascending, so last wins). */
+let runIndexCache: { byId: Map<string, { agent: AgentRef; run: Run }>; latest: Map<string, { agent: AgentRef; run: Run }[]> } | null = null;
+function runIndex() {
+  if (runIndexCache) return runIndexCache;
+  const byId = new Map<string, { agent: AgentRef; run: Run }>();
+  const latestByAgent = new Map<string, Map<string, Run>>();
+  const agents = new Map<string, AgentRef>();
+  for (const entry of getRoster()) {
+    const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
+    agents.set(entry.slug, agent);
+    const perCat = new Map<string, Run>();
+    for (const run of getRuns(entry.slug)) {
+      byId.set(run.id, { agent, run });
+      perCat.set(run.category, run);
+    }
+    latestByAgent.set(entry.slug, perCat);
+  }
+  const latest = new Map<string, { agent: AgentRef; run: Run }[]>();
+  for (const [slug, perCat] of latestByAgent) {
+    for (const [cat, run] of perCat) {
+      if (typeof run.score !== 'number') continue; // N/A runs are not "tested"
+      const list = latest.get(cat) ?? [];
+      list.push({ agent: agents.get(slug)!, run });
+      latest.set(cat, list);
+    }
+  }
+  runIndexCache = { byId, latest };
+  return runIndexCache;
+}
+
+/** Raw quotes by "agent/id" with founder, vendor and promo posts left out. Unlike getAllQuotes, neutral-only quotes stay. */
+let rawQuoteCache: Map<string, { agent: AgentRef; quote: Feedback }> | null = null;
+function rawQuotes() {
+  if (rawQuoteCache) return rawQuoteCache;
+  const map = new Map<string, { agent: AgentRef; quote: Feedback }>();
+  for (const entry of getRoster()) {
+    const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
+    for (const quote of readJson<Feedback[]>(path.join(DATA_DIR, 'agents', entry.slug, 'feedback.json')) ?? []) {
+      // Founder/vendor/promo posts never count; the site owner's own posts may stand as evidence (never as opinion).
+      if (isFounderPost(quote) && quote.source !== 'david-post') continue;
+      map.set(`${entry.slug}/${quote.id}`, { agent, quote });
+    }
+  }
+  rawQuoteCache = map;
+  return rawQuoteCache;
+}
+
+function testedFor(entry: JobEntry): JobTested[] {
+  const { byId, latest } = runIndex();
+  const out: JobTested[] = [];
+  if (entry.runs?.length) {
+    for (const id of entry.runs) {
+      const hit = byId.get(id);
+      if (!hit) continue;
+      out.push({ agent: hit.agent, run: hit.run, via: 'run', href: hit.run.evidence_url ?? `/agents/${hit.agent.slug}` });
+    }
+  } else if (entry.dimension && entry.benchmark_task) {
+    for (const hit of latest.get(entry.dimension) ?? []) {
+      out.push({ agent: hit.agent, run: hit.run, via: 'dimension', href: hit.run.evidence_url ?? `/agents/${hit.agent.slug}` });
+    }
+  }
+  const score = (t: JobTested) => (typeof t.run.score === 'number' ? t.run.score : -1);
+  return out.sort((a, b) => score(b) - score(a) || a.agent.name.localeCompare(b.agent.name));
+}
+
+function buildJob(entry: JobEntry, groups: JobGroup[]): Job {
+  const quotes = rawQuotes();
+  const reported: JobReported[] = [];
+  for (const e of entry.evidence) {
+    const hit = quotes.get(`${e.agent}/${e.quote}`);
+    if (!hit) {
+      console.warn(`[jobs] ${entry.key}: evidence ${e.agent}/${e.quote} not found or excluded`);
+      continue;
+    }
+    reported.push({ agent: hit.agent, quote: hit.quote, note: e.note, outcome: e.outcome, engagement: engagementScore(hit.quote) });
+  }
+  reported.sort((a, b) => b.engagement - a.engagement);
+  const tested = testedFor(entry);
+  const agents: JobAgent[] = [];
+  const seen = new Map<string, JobAgent>();
+  for (const t of tested) {
+    if (seen.has(t.agent.slug)) continue;
+    const ja = { agent: t.agent, tested: t, reported: null };
+    seen.set(t.agent.slug, ja);
+    agents.push(ja);
+  }
+  for (const r of reported) {
+    const existing = seen.get(r.agent.slug);
+    if (existing) {
+      if (!existing.reported) existing.reported = r;
+      continue;
+    }
+    const ja = { agent: r.agent, tested: null, reported: r };
+    seen.set(r.agent.slug, ja);
+    agents.push(ja);
+  }
+  const newest = [entry.added, ...reported.map(r => r.quote.date)].filter(Boolean).sort().at(-1) ?? entry.added;
+  return {
+    ...entry,
+    groupLabel: groups.find(g => g.key === entry.group)?.label ?? entry.group,
+    tested,
+    reported,
+    agents,
+    engagement: reported.reduce((n, r) => n + r.engagement, 0),
+    newest,
+  };
+}
+
+let jobsCache: Job[] | null = null;
+/** All jobs in file order, evidence joined to quotes and runs. */
+export function getJobs(): Job[] {
+  if (jobsCache) return jobsCache;
+  const file = loadJobsFile();
+  jobsCache = file.jobs.map(j => buildJob(j, file.groups));
+  return jobsCache;
+}
+
+export function getJob(key: string): Job | null {
+  return getJobs().find(j => j.key === key) ?? null;
+}
+
+export function getJobKeys(): string[] {
+  return loadJobsFile().jobs.map(j => j.key);
+}
+
+export const RANK = {
+  vote: 1,
+  tested: 3,
+  reported: 1,
+  recency: 2,
+  halfLifeDays: 60,
+} as const;
+
+/**
+ * score = votes + 3·tested + 1·reported + log10(1 + engagement) + 2·0.5^(age / 60 days)
+ * `tested` counts only explicit runs on this job. Dimension-derived tests are shown but not scored, otherwise every
+ * job in a busy dimension would start far ahead and votes could never move it. Engagement is log-bounded so a single
+ * viral post is worth about four points. Every job has evidence by lint rule, so votes reorder proven jobs; they
+ * cannot promote an unproven one.
+ */
+export function jobScore(job: Job, votes: number, now = Date.now()): number {
+  const tested = new Set(job.tested.filter(t => t.via === 'run').map(t => t.agent.slug)).size;
+  const reported = new Set(job.reported.map(r => r.agent.slug)).size;
+  const ageDays = Math.max(0, (now - new Date(job.newest).getTime()) / 86_400_000);
+  return (
+    RANK.vote * votes +
+    RANK.tested * tested +
+    RANK.reported * reported +
+    Math.log10(1 + job.engagement) +
+    RANK.recency * Math.pow(0.5, ageDays / RANK.halfLifeDays)
+  );
+}
+
+export function rankJobs(jobs: Job[], votes: Record<string, number>, sort: JobSort, now = Date.now()): RankedJob[] {
+  const scored = jobs.map(j => ({ ...j, votes: votes[j.key] ?? 0, score: jobScore(j, votes[j.key] ?? 0, now), rank: 0 }));
+  if (sort === 'new') scored.sort((a, b) => b.added.localeCompare(a.added) || b.newest.localeCompare(a.newest) || a.title.localeCompare(b.title));
+  else scored.sort((a, b) => b.score - a.score || b.engagement - a.engagement || a.title.localeCompare(b.title));
+  return scored.map((j, i) => ({ ...j, rank: i + 1 }));
+}
+
+/** Lower-cased text a search can match against: title, one-liner, prompt, group, dimension, assistants, evidence notes. */
+export function jobSearchText(job: Job): string {
+  return [
+    job.title,
+    job.one_liner,
+    job.prompt,
+    job.groupLabel,
+    job.dimension ? (CATEGORY_SHORT[job.dimension] ?? job.dimension) : '',
+    job.caveat ?? '',
+    ...job.agents.map(a => a.agent.name),
+    ...job.reported.map(r => `${r.note ?? ''} ${r.quote.author}`),
+  ]
+    .join(' ')
+    .toLowerCase();
+}
+
+/** Case-insensitive match; every word in the query must appear somewhere in the job's search text. */
+export function jobMatches(job: Job, query: string): boolean {
+  const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!words.length) return true;
+  const hay = jobSearchText(job);
+  return words.every(w => hay.includes(w));
 }

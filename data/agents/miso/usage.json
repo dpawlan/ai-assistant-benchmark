@@ -1,4 +1,20 @@
 {
+<<<<<<< HEAD
+  "source": "imessage",
+  "exported_at": "2026-09-14T22:04:34.828Z",
+  "analyzed_at": "2026-09-14T22:05:37.894Z",
+  "messages": 21,
+  "from_me": 8,
+  "from_agent": 13,
+  "days_active": 2,
+  "first": "2026-09-08",
+  "last": "2026-09-14",
+  "median_reply_s": 1539,
+  "p90_reply_s": 501302,
+  "unanswered": 0,
+  "proactive_messages": 4,
+  "episodes": 3
+=======
   "source": "pasted",
   "exported_at": "2026-09-14T22:18:28.800Z",
   "analyzed_at": "2026-09-14T22:18:28.827Z",
@@ -13,4 +29,5 @@
   "unanswered": 0,
   "proactive_messages": 0,
   "episodes": 4
+>>>>>>> 431bf5b944659cfcc5de56574186d5b7011033c1
 }

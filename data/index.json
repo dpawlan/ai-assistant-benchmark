@@ -1,7 +1,7 @@
 {
   "updated": "2026-09-15",
   "agent_count": 108,
-  "feedback_count": 5194,
+  "feedback_count": 5565,
   "confirmed": 81,
   "stretch": 27,
   "agents": [
@@ -457,7 +457,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 813,
+      "feedback_count": 1149,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",
@@ -802,7 +802,7 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 65,
+      "feedback_count": 100,
       "public_signal": null,
       "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",

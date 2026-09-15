@@ -1,15 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { clientIp, clip, createIssue, makeRateLimiter, sendEmail } from '@/lib/inbox';
 
 /**
  * "Request a test" submissions. Each one becomes a GitHub issue (the queue) and an email (so it's noticed).
  * Both are best-effort: if the env vars are missing or a delivery fails, the request is logged and the
- * form still gets a success, so a config problem never shows up as a user-facing error.
- *
- * Env:
- *   GITHUB_TOKEN       fine-grained token with Issues: write on GITHUB_REPO
- *   GITHUB_REPO        "owner/name", default dpawlan/ai-assistant-benchmark
- *   RESEND_API_KEY     resend.com key; sender is RESEND_FROM (default onboarding@resend.dev for the free tier)
- *   REQUEST_TO         where notifications go, default davidmpawlan@gmail.com
+ * form still gets a success, so a config problem never shows up as a user-facing error. Env: see src/lib/inbox.ts.
  */
 
 interface RequestPayload {
@@ -22,31 +17,8 @@ interface RequestPayload {
   website?: string;
 }
 
-const GITHUB_REPO = process.env.GITHUB_REPO ?? 'dpawlan/ai-assistant-benchmark';
-const REQUEST_TO = process.env.REQUEST_TO ?? 'davidmpawlan@gmail.com';
-const RESEND_FROM = process.env.RESEND_FROM ?? 'Assistant Benchmark <onboarding@resend.dev>';
-
 const MAX = { agentName: 80, agentUrl: 300, contact: 200, notes: 2000 };
-const RATE_LIMIT = { windowMs: 10 * 60 * 1000, max: 5 };
-
-// Per-instance memory: fine for a low-volume form, resets on cold start.
-const hits = new Map<string, number[]>();
-
-function rateLimited(ip: string): boolean {
-  const now = Date.now();
-  const recent = (hits.get(ip) ?? []).filter(t => now - t < RATE_LIMIT.windowMs);
-  recent.push(now);
-  hits.set(ip, recent);
-  return recent.length > RATE_LIMIT.max;
-}
-
-function clip(value: unknown, max: number): string {
-  return typeof value === 'string' ? value.trim().slice(0, max) : '';
-}
-
-function escapeHtml(s: string): string {
-  return s.replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c] as string);
-}
+const rateLimited = makeRateLimiter(5, 10 * 60 * 1000);
 
 interface Entry {
   id: string;
@@ -72,51 +44,6 @@ function issueBody(e: Entry): string {
   ].join('\n');
 }
 
-async function createIssue(e: Entry): Promise<string | null> {
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) return null;
-  const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: 'application/vnd.github+json',
-      'Content-Type': 'application/json',
-      'User-Agent': 'assistant-benchmark',
-    },
-    body: JSON.stringify({ title: `Test request: ${e.agentName}`, body: issueBody(e), labels: ['request'] }),
-  });
-  if (!res.ok) throw new Error(`GitHub ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  const json = (await res.json()) as { html_url?: string };
-  return json.html_url ?? null;
-}
-
-async function sendEmail(e: Entry, issueUrl: string | null): Promise<void> {
-  const key = process.env.RESEND_API_KEY;
-  if (!key) return;
-  const rows = [
-    ['Assistant', e.agentName],
-    ['Website', e.agentUrl ?? '—'],
-    ['Categories first', e.categories.length ? e.categories.join(', ') : 'all'],
-    ['Contact', e.contact ?? '—'],
-    ['Notes', e.notes ?? '—'],
-    ['Issue', issueUrl ?? 'not created (no GITHUB_TOKEN)'],
-  ]
-    .map(([k, v]) => `<tr><td style="padding:6px 12px 6px 0;color:#6e6e73;vertical-align:top">${k}</td><td style="padding:6px 0;white-space:pre-wrap">${escapeHtml(v)}</td></tr>`)
-    .join('');
-  const res = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      from: RESEND_FROM,
-      to: [REQUEST_TO],
-      subject: `Test request: ${e.agentName}`,
-      html: `<div style="font-family:-apple-system,Helvetica,Arial,sans-serif;font-size:15px;color:#1d1d1f"><table>${rows}</table></div>`,
-      text: issueBody(e).replace(/\*\*/g, '').replace(/<[^>]+>/g, ''),
-    }),
-  });
-  if (!res.ok) throw new Error(`Resend ${res.status}: ${(await res.text()).slice(0, 200)}`);
-}
-
 export async function POST(request: NextRequest) {
   let payload: RequestPayload;
   try {
@@ -131,8 +58,7 @@ export async function POST(request: NextRequest) {
   // Bots fill the honeypot; pretend it worked and drop it.
   if (clip(payload.website, 50)) return NextResponse.json({ success: true, id: crypto.randomUUID() });
 
-  const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
-  if (rateLimited(ip)) return NextResponse.json({ error: 'Too many requests. Try again in a few minutes.' }, { status: 429 });
+  if (rateLimited(clientIp(request))) return NextResponse.json({ error: 'Too many requests. Try again in a few minutes.' }, { status: 429 });
 
   const entry: Entry = {
     id: crypto.randomUUID(),
@@ -148,12 +74,23 @@ export async function POST(request: NextRequest) {
 
   let issueUrl: string | null = null;
   try {
-    issueUrl = await createIssue(entry);
+    issueUrl = await createIssue({ title: `Test request: ${entry.agentName}`, body: issueBody(entry), labels: ['request'] });
   } catch (err) {
     console.error('[request] issue failed', err);
   }
   try {
-    await sendEmail(entry, issueUrl);
+    await sendEmail({
+      subject: `Test request: ${entry.agentName}`,
+      rows: [
+        ['Assistant', entry.agentName],
+        ['Website', entry.agentUrl ?? '—'],
+        ['Categories first', entry.categories.length ? entry.categories.join(', ') : 'all'],
+        ['Contact', entry.contact ?? '—'],
+        ['Notes', entry.notes ?? '—'],
+        ['Issue', issueUrl ?? 'not created (no GITHUB_TOKEN)'],
+      ],
+      text: issueBody(entry).replace(/\*\*/g, '').replace(/<[^>]+>/g, ''),
+    });
   } catch (err) {
     console.error('[request] email failed', err);
   }

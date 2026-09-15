@@ -294,8 +294,9 @@
       ],
       "domain": "grok.com",
       "x_queries": [
-        "\"grok bot\" OR grokbot",
-        "(\"grok.com\" OR @bot OR @romanugarte_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
+        "\"grok bot\" (agent OR agents OR bots OR cursor OR xai OR \"chief of staff\" OR workflow OR inbox OR calendar) -\"bot account\" -\"is a bot\"",
+        "@bot (agent OR bots OR workflow OR inbox OR calendar OR booked)",
+        "grokbot (agent OR bots OR workflow OR inbox)"
       ],
       "reddit_queries": [
         "\"grok.com\""
@@ -306,11 +307,12 @@
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
-        "grok.com",
         "grok bot",
-        "grokbot"
+        "grokbot",
+        "@bot",
+        "x.ai/bot"
       ],
-      "_note": "App id 6670324846 is the general Grok chat app; its reviews are not about Grok Bot. Left empty on purpose. Evidence source: grok-bot-chats (scripts/grokbot.mjs).",
+      "_note": "App id 6670324846 is the general Grok chat app; its reviews are not about Grok Bot. Left empty on purpose. Evidence source: grok-bot-chats (scripts/grokbot.mjs). Launched Sept 2026; searching earlier windows returns acquisition rumour and $SAND memecoin spam. \"@grok bot\" is also how people ask Grok whether an account is a bot, so queries carry context words and exclusions.",
       "imessage_handles": [],
       "_note_evidence": "First-party evidence source is grok-bot-chats (box agent store.db via scripts/grokbot.mjs), not App Store reviews."
     },
@@ -569,8 +571,10 @@
         "misoapp"
       ],
       "imessage_handles": [
-        "+16504054503"
-      ]
+        "+14154207960",
+        "+14158910007"
+      ],
+      "_note": "Added 2026-09-08. iMessage: +14154207960 is the thread discover found (22 msgs); +14158910007 kept in case a second thread appears. Miso uses Apple Messages for Business, so a urn:biz handle may also exist."
     },
     "moves": {
       "name": "Moves",
@@ -1342,20 +1346,15 @@
     "muse": {
       "name": "Muse",
       "handles": [
-        "Meta",
-        "AIatMeta",
         "Muse",
-        "finkd",
-        "alexandr_wang"
+        "Meta",
+        "AIatMeta"
       ],
       "domain": "muse.ai",
       "x_queries": [
         "\"muse.ai\"",
-        "@Meta",
-        "@AIatMeta",
-        "@Muse",
-        "@finkd",
-        "@alexandr_wang"
+        "\"meta muse\"",
+        "\"muse app\" (meta OR agent OR assistant)"
       ],
       "reddit_queries": [
         "\"muse.ai\"",
@@ -1375,7 +1374,7 @@
         "muse app"
       ],
       "imessage_handles": [],
-      "_note": "Meta's Muse (2026-09-08). Name collides with the Muse music/other apps; queries pair it with Meta/agent. App Store id unknown at launch: run `collect find-apps --slug muse` in a few days. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
+      "_note": "Meta's Muse (2026-09-08). Name collides with the Muse music/other apps; queries pair it with Meta/agent. App Store id unknown at launch: run `collect find-apps --slug muse` in a few days. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10). @Meta/@AIatMeta stay as vendor handles for tagging but are not searched: the corporate account floods results."
     },
     "flip": {
       "name": "Flip",

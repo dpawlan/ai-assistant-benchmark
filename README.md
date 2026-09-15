@@ -74,9 +74,15 @@ data/
 
 Dimensions with `"scored": false` in `categories.json` (personality) are public-opinion only: they appear in the opinion view and on their dimension page but are never scored, never counted in Overall, and have no task.
 
-### Trending use cases
+### Use cases (`data/jobs.json`)
 
-`/use-cases` shows hand-curated entries from `data/use-cases.json` (quote id, title, summary, prompt, `prompt_source` posted|assumed, optional caveat), ranked by engagement on the original post (likes + 2×reposts + replies, 60-day half-life so recent threads rise), founder/vendor posts excluded, optional `?agent=` filter. Engagement lives on each quote as `metrics` in feedback.json, fetched by `node scripts/engagement.mjs` (no key; only fills quotes without metrics unless `--refresh`). Re-run it after every collect/merge.
+`/use-cases` lists **one entry per job** (a canonical task like "Book a flight with points"), never one per post. Each job in `data/jobs.json` carries `key` (the URL and the vote key), `title`, `one_liner`, `group` (life area from `groups[]`), an optional benchmark `dimension`, a `prompt` with `prompt_source` (`posted` = the poster's own words, `assumed` = ours), `added`, `evidence[]` (`{quote, agent, note?, outcome?}` pointing at a quote in that agent's feedback.json), optional explicit `runs[]` (run ids that tested exactly this job), optional `caveat` and `submitted_by`.
+
+**Tested** assistants come from explicit `runs`, or, when `benchmark_task: true`, from every assistant's latest run on the job's `dimension` (only for jobs that *are* a benchmark task). Other jobs show no tested logos until a run is pinned. Solid logos on the card are tested (score, link to the evidence page); hollow logos are reported (link to the post). **Ranking**: `votes + 3·tested (explicit runs only) + 1·reported + log10(1 + engagement) + 2·0.5^(age/60d)`; `?sort=new` orders by `added`. Founder/vendor/promo posts can't be evidence. `node scripts/lint-usecases.mjs` (runs as `prebuild`) checks every quote id, run id, agent, group and dimension, and warns when one post is evidence for several jobs (fine for roundups).
+
+**Votes** are anonymous, one per browser per job (httpOnly cookie `abv`), IP-limited, stored in Upstash Redis (`UPSTASH_REDIS_REST_URL/TOKEN`; without them votes are no-ops and counts show 0). `POST /api/vote {job}` and `GET /api/vote?jobs=a,b`. Reset a job's count with `DEL votes:<key>` in the Upstash console.
+
+**Submissions**: `/use-cases/submit` posts to `/api/use-case`, which files a GitHub issue labelled `use-case` (plus `vendor-submitted`) and emails, using the same env as the request form. Nothing appears on the site until someone reads it and adds a job to `jobs.json`.
 
 ### Access (price, regions, channels)
 
@@ -277,6 +283,11 @@ Vercel Web Analytics (`@vercel/analytics`, mounted in `src/app/layout.tsx`). No 
 | `post_on_x` | Head-to-head "Post on X" | `pair`, `focus` |
 | `save_card` | Head-to-head "Save card" | `pair`, `focus` |
 | `kind_filter` | Scorecard peer-group chips | `kind` |
+| `uc_vote` | Use cases, after a counted vote | `job` |
+| `uc_copy_prompt` | Use cases, copy button | `job` |
+| `uc_filter` | Use cases, group chips and Top/New | `group` or `sort` |
+| `uc_open_job` | Use cases, title or +N chip | `job`, `via` |
+| `usecase_submitted` | Submit-a-use-case form, after a successful send | `vendor` |
 | `request_submitted` | Request form, after a successful send | none |
 
 Card image fetches (`/compare/<pair>/card.png`) are server responses and never load the script, so they are not counted.

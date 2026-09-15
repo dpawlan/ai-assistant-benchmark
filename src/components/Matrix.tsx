@@ -51,15 +51,13 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
 }
 
 /** Reads ?kind= after hydration so the grid itself can be prerendered with the default group. */
-function KindFromUrl({ onKind, onMark }: { onKind: (k: string) => void; onMark: (m: 'label' | 'icon') => void }) {
+function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
   const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
-  const mark = params.get('costmark') === 'icon' ? 'icon' : 'label';
   useEffect(() => {
     onKind(kind);
-    onMark(mark);
-  }, [kind, mark, onKind, onMark]);
+  }, [kind, onKind]);
   return null;
 }
 
@@ -71,8 +69,6 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
   const [showPending, setShowPending] = useState(false);
   const [cost, setCost] = useState<CostKey | 'all'>('all');
-  // Review-only: compare a text label with an icon for cost. Remove the switch before merging.
-  const [mark, setMark] = useState<'label' | 'icon'>('label');
   const opinion = view === 'opinion';
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
 
@@ -160,9 +156,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <th scope="row" className="mx-name">
           <Link href={`/agents/${agent.slug}`} className="mx-agent">
             <AgentIcon name={agent.name} icon={agent.icon} size={28} className="mx-icon" />
-            <span className={`mx-nmwrap${mark === 'icon' ? ' ic' : ''}`}>
+            <span className="mx-nmwrap">
               <span className="mx-nm">{agent.name}</span>
-              <CostMark pricing={agent.access?.pricing} mode={mark} />
+              <CostMark pricing={agent.access?.pricing} />
             </span>
           </Link>
         </th>
@@ -213,7 +209,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   return (
     <div>
       <Suspense fallback={null}>
-        <KindFromUrl onKind={setKindState} onMark={setMark} />
+        <KindFromUrl onKind={setKindState} />
       </Suspense>
 
       <div className="kind-bar" role="tablist" aria-label="Peer group">
@@ -238,29 +234,6 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <button key={k} type="button" className={`cost-f${cost === k ? ' on' : ''}`} aria-pressed={cost === k} onClick={() => setCost(cost === k ? 'all' : k)}>
             {COST_LABEL[k]}
             <span className="kind-n">{costCounts[k]}</span>
-          </button>
-        ))}
-      </div>
-
-      <div className="design-bar" role="tablist" aria-label="Cost marker under review">
-        <span>Cost marker</span>
-        {(['label', 'icon'] as const).map(m => (
-          <button
-            key={m}
-            type="button"
-            role="tab"
-            aria-selected={mark === m}
-            className={mark === m ? 'on' : ''}
-            onClick={() => {
-              setMark(m);
-              const q = new URLSearchParams(window.location.search);
-              if (m === 'icon') q.set('costmark', 'icon');
-              else q.delete('costmark');
-              const qs = q.toString();
-              router.replace(qs ? `/?${qs}` : '/', { scroll: false });
-            }}
-          >
-            {m === 'label' ? 'Text label' : 'Icon'}
           </button>
         ))}
       </div>
@@ -382,15 +355,6 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           <span className="key-gap" />
           <span className="sc sc-na">N/A</span> doesn&apos;t apply
           <span className="key-gap" />
-          {mark === 'icon' && (
-            <>
-              <CostMark pricing="free" mode="icon" /> free
-              <CostMark pricing="freemium" mode="icon" /> free tier
-              <CostMark pricing="paid" mode="icon" /> paid
-              <CostMark pricing="waitlist" mode="icon" /> waitlist
-              <span className="key-gap" />
-            </>
-          )}
           <Link href="/dimensions#how">How scoring works</Link>
         </p>
       )}

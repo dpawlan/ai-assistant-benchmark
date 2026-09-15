@@ -42,9 +42,14 @@ export function Sidebar({ categories }: SidebarProps) {
         <Link href="/request" className="side-cta">
           Request a test
         </Link>
-        <Link href="/dimensions#how" className="side-sub">
-          How scoring works
-        </Link>
+        <span className="side-subs">
+          <Link href="/dimensions#how" className="side-sub">
+            How scoring works
+          </Link>
+          <Link href="/about" className="side-sub">
+            About
+          </Link>
+        </span>
       </div>
     </>
   );

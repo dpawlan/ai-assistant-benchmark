@@ -74,6 +74,10 @@ data/
 
 Dimensions with `"scored": false` in `categories.json` (personality) are public-opinion only: they appear in the opinion view and on their dimension page but are never scored, never counted in Overall, and have no task.
 
+### About page
+
+`/about` explains the method, names who runs it (David Pawlan; Autumn Moulder, moulder.me) and states there are no sponsored placements or affiliate links. Linked from the homepage head and the sidebar footer. Update it if the funding position ever changes.
+
 ### Use cases (`data/jobs.json`)
 
 `/use-cases` lists **one entry per job** (a canonical task like "Book a flight with points"), never one per post. Each job in `data/jobs.json` carries `key` (the URL and the vote key), `title`, `one_liner`, `group` (life area from `groups[]`), an optional benchmark `dimension`, a `prompt` with `prompt_source` (`posted` = the poster's own words, `assumed` = ours), `added`, `evidence[]` (`{quote, agent, note?, outcome?}` pointing at a quote in that agent's feedback.json), optional explicit `runs[]` (run ids that tested exactly this job), optional `caveat` and `submitted_by`.

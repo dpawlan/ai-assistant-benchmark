@@ -1,5 +1,5 @@
 {
-  "_comment": "One entry per job (a canonical task). Posts are evidence under a job, never their own entry. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking on the site blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
+  "_comment": "One entry per job (a canonical task). A job earns its place only when a real person reported it publicly or submitted it; posts are the evidence, never entries of their own. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
   "updated": "2026-09-15",
   "groups": [
@@ -515,19 +515,6 @@
       ]
     },
     {
-      "key": "reply-to-a-scheduling-email",
-      "title": "Reply to a scheduling email in your voice",
-      "one_liner": "Decline the time that doesn't work, offer two that do, and hold the send for approval.",
-      "group": "email-calendar",
-      "dimension": "email_replies",
-      "prompt": "Reply to [name]'s email: Thursday at 3 doesn't work. Offer Friday at 11 or 2, keep it short, and show me before you send.",
-      "prompt_source": "assumed",
-      "added": "2026-09-14",
-      "evidence": [],
-      "caveat": "The benchmark's email test; every tested assistant ran this exact job.",
-      "benchmark_task": true
-    },
-    {
       "key": "coordinate-a-meeting-in-a-group-chat",
       "title": "Coordinate a meeting in a group chat",
       "one_liner": "Work around everyone's calendar and keep the group updated when things move.",
@@ -619,22 +606,6 @@
       ],
       "caveat": "The benchmark's purchasing test; most assistants stall at a login or at checkout.",
       "benchmark_task": true
-    },
-    {
-      "key": "send-same-day-flowers",
-      "title": "Send same-day flowers under a budget",
-      "one_liner": "Find a florist that can deliver today, stage the order, ask before charging.",
-      "group": "shopping-orders",
-      "dimension": "purchasing",
-      "prompt": "Send flowers to [address] today, under $[X], something bright. Show me the order before you pay.",
-      "prompt_source": "assumed",
-      "added": "2026-09-14",
-      "evidence": [],
-      "runs": [
-        "instinct-2026-09-01-591d64",
-        "muse-2026-09-08-04",
-        "grok-bot-2026-09-01-ef9185"
-      ]
     },
     {
       "key": "order-lunch",

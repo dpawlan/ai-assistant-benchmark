@@ -261,7 +261,7 @@
     {
       "key": "cut-a-bill-or-switch-provider",
       "title": "Cut a bill or switch provider",
-      "one_liner": "Compare offers, pick the better deal, and make the switch.",
+      "one_liner": "Call or write to haggle the price down, or move you to a better deal entirely.",
       "group": "money",
       "dimension": "online_task",
       "prompt": "Compare energy contracts for our home, get offers from the main providers, and switch us to the best one.",
@@ -279,6 +279,12 @@
           "agent": "instinct",
           "note": "After a higher-than-expected Netflix email it switched plans and saved $80 a year, rescued an email from spam, and reminded the poster about a vet visit. It also claimed to have ordered a pizza it hadn't.",
           "outcome": "partial"
+        },
+        {
+          "quote": "4db870932a93",
+          "agent": "instinct",
+          "note": "Talked a Comcast bill down from $100 to $60.",
+          "outcome": "done"
         }
       ]
     },
@@ -313,38 +319,23 @@
       ]
     },
     {
-      "key": "get-quotes-and-book-appointments",
-      "title": "Book an appointment and argue with a provider",
-      "one_liner": "Find an in-network doctor, fill the forms, book the slot, and haggle the bill down while it is at it.",
+      "key": "shop-for-insurance",
+      "title": "Shop for insurance",
+      "one_liner": "Get quotes on the same cover you already have, and tell you which is worth switching to.",
       "group": "money",
       "dimension": "online_task",
-      "prompt": "Find an in-network [specialist] near me, fill in the new-patient forms, and book the first slot that works with my calendar.",
+      "prompt": "Get me quotes for homeowners insurance on [address] with the same coverage as my current policy, and tell me which is worth switching to.",
       "prompt_source": "assumed",
       "added": "2026-09-14",
       "evidence": [
         {
           "quote": "48a498e9b560",
           "agent": "instinct",
-          "note": "In a 48-hour trial it shopped for new homeowners insurance, booked a doctor's appointment online, searched travel and managed LinkedIn notifications. The poster then deleted the account over how much access it needed.",
-          "outcome": "done"
-        },
-        {
-          "quote": "4db870932a93",
-          "agent": "instinct",
-          "note": "In five days: found an in-network podiatrist and filled the forms, talked a Comcast bill from $100 to $60, booked a DMV appointment and linked two United reservations.",
-          "outcome": "done"
-        },
-        {
-          "quote": "0e863b411f64",
-          "agent": "muse",
-          "note": "Emailed the office and left a voicemail to set up doctor and dentist appointments; the office called back to confirm.",
+          "note": "Shopped for new homeowners insurance during a 48-hour trial. The poster deleted the account afterwards over how much access it needed.",
           "outcome": "done"
         }
       ],
-      "runs": [
-        "instinct-2026-09-05-ac6ca8"
-      ],
-      "caveat": "One of these posters deleted their account afterwards over how much access it needed."
+      "caveat": "The poster deleted their account afterwards over how much access it needed."
     },
     {
       "key": "sell-tickets-you-wont-use",
@@ -1054,12 +1045,12 @@
       "benchmark_task": true
     },
     {
-      "key": "paperwork-before-the-dmv",
-      "title": "Get the paperwork ready before the DMV",
-      "one_liner": "Everything researched and filled in before you walk in.",
+      "key": "book-and-prep-a-dmv-visit",
+      "title": "Book a DMV appointment and prep the paperwork",
+      "one_liner": "Get the slot, work out which documents you need, and fill in what it can.",
       "group": "admin-errands",
       "dimension": "online_task",
-      "prompt": "I just moved to [state]. What do I need to register my car here? List the documents and fill in whatever forms you can.",
+      "prompt": "Book me the earliest DMV appointment for [task] near [zip], then list the documents I need and fill in whatever forms you can.",
       "prompt_source": "assumed",
       "added": "2026-09-14",
       "evidence": [
@@ -1067,6 +1058,12 @@
           "quote": "58581cb64239",
           "agent": "poke",
           "note": "After a cross-country move, Poke had all the car registration paperwork researched and ready before the poster walked in. Fifteen minutes in and out.",
+          "outcome": "done"
+        },
+        {
+          "quote": "4db870932a93",
+          "agent": "instinct",
+          "note": "Booked a DMV appointment as one of five errands in five days.",
           "outcome": "done"
         }
       ]
@@ -1250,6 +1247,33 @@
           "quote": "c02a2419109f",
           "agent": "grok-bot",
           "note": "Around 9,000 junk and promotional threads moved to trash in one cleanup run, with the rules and approvals kept by the poster.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "book-a-doctor-or-dentist-appointment",
+      "title": "Book a doctor or dentist appointment",
+      "one_liner": "Find someone in network, fill in the new-patient forms, call or email, and get you a slot.",
+      "group": "home-family",
+      "dimension": "online_task",
+      "prompt": "Find an in-network [dentist] near me, fill in the new-patient forms, and book the first slot that fits my calendar. Call them if the website will not do it.",
+      "prompt_source": "assumed",
+      "added": "2026-09-15",
+      "runs": [
+        "instinct-2026-09-05-ac6ca8"
+      ],
+      "evidence": [
+        {
+          "quote": "4db870932a93",
+          "agent": "instinct",
+          "note": "Found an in-network podiatrist and filled in the forms.",
+          "outcome": "done"
+        },
+        {
+          "quote": "0e863b411f64",
+          "agent": "muse",
+          "note": "Emailed the office and left a voicemail to set up doctor and dentist appointments; the office called back to confirm.",
           "outcome": "done"
         }
       ]

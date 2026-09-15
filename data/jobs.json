@@ -839,35 +839,11 @@
           "agent": "grok-bot",
           "note": "Skills that trigger the build, upload it to the App Store, autofill the release notes, and run end-to-end tests on every update.",
           "outcome": "done"
-        },
-        {
-          "quote": "3260a2260647",
-          "agent": "grok-bot",
-          "note": "Turns saved X bookmarks into working demos: launches agents, validates with screenshots and video, deploys each one.",
-          "outcome": "done"
         }
       ],
       "runs": [
         "grok-bot-2026-09-02-166c88",
         "grok-bot-2026-09-04-c4133d"
-      ]
-    },
-    {
-      "key": "keep-a-second-brain",
-      "title": "Keep a company second brain",
-      "one_liner": "A knowledge base it maintains for you.",
-      "group": "work",
-      "dimension": "memory",
-      "prompt": "Set up an Obsidian vault as our company knowledge base: folders for meeting notes, decisions, customer learnings and data, a template for each, and an index page that stays current.",
-      "prompt_source": "assumed",
-      "added": "2026-09-14",
-      "evidence": [
-        {
-          "quote": "efd8ee6edf90",
-          "agent": "grok-bot",
-          "note": "A shared prompt that has the bot set up an Obsidian vault as a company knowledge base for notes, data and learnings.",
-          "outcome": "done"
-        }
       ]
     },
     {
@@ -1294,24 +1270,6 @@
           "quote": "c02a2419109f",
           "agent": "grok-bot",
           "note": "Around 9,000 junk and promotional threads moved to trash in one cleanup run, with the rules and approvals kept by the poster.",
-          "outcome": "done"
-        }
-      ]
-    },
-    {
-      "key": "watch-prices-and-tell-me",
-      "title": "Watch a price and tell me when it moves",
-      "one_liner": "Check a product page on a schedule, compare with last time, ping on a change.",
-      "group": "shopping-orders",
-      "dimension": "running_routine",
-      "prompt": "Check [product URL] every morning, compare the price with yesterday, and message me when it changes.",
-      "prompt_source": "assumed",
-      "added": "2026-09-15",
-      "evidence": [
-        {
-          "quote": "bc547a2c846d",
-          "agent": "grok-bot",
-          "note": "A scraping agent that pulls product prices on a schedule, compares them with the last run and notifies on any change.",
           "outcome": "done"
         }
       ]

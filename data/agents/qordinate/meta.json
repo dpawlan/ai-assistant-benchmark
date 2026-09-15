@@ -1,0 +1,39 @@
+{
+  "slug": "qordinate",
+  "name": "Qordinate",
+  "site": "https://www.qordinate.ai/",
+  "handles": [
+    "qordinate_ai"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Team coordination assistant where each person gets an AI that knows them, and the AIs chase updates, follow up with each other, prep meetings and move work across connected apps such as Google Calendar, Gmail, Linear and GitHub; used through WhatsApp, iMessage, Slack and Telegram. Requested via the form (issue #208).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Real work is multiplayer. Your AI should be too.",
+  "icon": "/logos/qordinate.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "3 days of full access, then free limits; paid plan prices not stated",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp",
+      "iMessage",
+      "Slack",
+      "Telegram"
+    ],
+    "checked": "2026-09-15"
+  }
+}

@@ -642,6 +642,10 @@ async function reindex() {
     total += a.feedback_count;
   }
   index.feedback_count = total;
+  // Headline counts follow the roster, so additions and removals never leave them stale.
+  index.agent_count = index.agents.length;
+  index.confirmed = index.agents.filter(a => a.status === 'confirmed').length;
+  index.stretch = index.agents.filter(a => a.status === 'stretch').length;
   index.updated = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(indexFile, JSON.stringify(index, null, 2) + '\n');
   console.log(`index.json: ${index.agents.length} agents, ${total} quotes, updated ${index.updated}`);

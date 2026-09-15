@@ -1,0 +1,51 @@
+{
+  "slug": "openclaw",
+  "name": "OpenClaw",
+  "site": "https://openclaw.ai/",
+  "handles": [
+    "openclaw"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "OpenClaw is an open-source personal AI assistant that runs on your own machine (macOS, Windows, Linux) and works from WhatsApp, Telegram, iMessage, Slack, Discord, Signal, SMS and other chat apps, with iOS and Android companion apps. It handles the inbox, email, calendar and flight check-ins, and is stewarded by an independent 501(c)(3) foundation. Requested via the form (issue #182).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "phone_calls",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_restraint",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "The AI that really does things.",
+  "icon": "/logos/openclaw.png",
+  "kind": "general",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free and open source; 'No subscription. No hosted tier.'",
+    "regions": "Not stated",
+    "channels": [
+      "WhatsApp",
+      "Telegram",
+      "iMessage",
+      "Slack",
+      "Discord",
+      "Signal",
+      "SMS",
+      "Self-hosted",
+      "Mac app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-14",
-  "agent_count": 71,
-  "feedback_count": 5239,
-  "confirmed": 53,
-  "stretch": 18,
+  "updated": "2026-09-15",
+  "agent_count": 108,
+  "feedback_count": 5194,
+  "confirmed": 81,
+  "stretch": 27,
   "agents": [
     {
       "slug": "aeon",
@@ -161,7 +161,7 @@
       "name": "Boski",
       "status": "confirmed",
       "site": "https://boski.com/",
-      "feedback_count": 0,
+      "feedback_count": 3,
       "public_signal": "low",
       "tagline": "Get closer to your goals every day",
       "icon": "/logos/boski.png",
@@ -457,7 +457,7 @@
       "name": "Grok Bot",
       "status": "confirmed",
       "site": "https://grok.com/",
-      "feedback_count": 826,
+      "feedback_count": 813,
       "public_signal": null,
       "tagline": "xAI's Grok with real-time answers from the web and X",
       "icon": "/logos/grok-bot.png",
@@ -802,7 +802,7 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 100,
+      "feedback_count": 65,
       "public_signal": null,
       "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",
@@ -1560,6 +1560,836 @@
           "WhatsApp"
         ],
         "checked": "2026-09-09"
+      }
+    },
+    {
+      "slug": "treasury",
+      "name": "Treasury",
+      "status": "stretch",
+      "site": "https://treasury.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Ask your money, anything",
+      "icon": "/logos/treasury.png",
+      "kind": "finance",
+      "access": {
+        "pricing": "paid",
+        "price": "$7.92/mo or $95/yr after a 14-day free trial",
+        "regions": "US (links US institutions via Plaid)",
+        "channels": [
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "autogpt",
+      "name": "AutoGPT",
+      "status": "stretch",
+      "site": "https://agpt.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Stop building workflows. Start hiring agents.",
+      "icon": "/logos/autogpt.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted; cloud Pro $42.50/mo and Max $272/mo billed annually",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "dj-beebot",
+      "name": "DJ BeeBot",
+      "status": "confirmed",
+      "site": "https://hopscotchlabs.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your social audio guide to the city",
+      "icon": "/logos/dj-beebot.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free; text-message beta via an invite link, iOS app on the App Store",
+        "regions": "US only (per the site)",
+        "channels": [
+          "SMS",
+          "iOS app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "moldable",
+      "name": "Moldable",
+      "status": "stretch",
+      "site": "https://moldable.sh/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Personal software, wherever you are",
+      "icon": "/logos/moldable.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "free",
+        "price": "Free to download; site says free with a ChatGPT subscription; 1 GB Drive sync free",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "iPhone app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "toyo",
+      "name": "Toyo",
+      "status": "confirmed",
+      "site": "https://toyo.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI assistant for busy teams",
+      "icon": "/logos/toyo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Solo $29/mo, Pro $79/mo, Teams custom; card required, refund within the first week",
+        "regions": "Not stated (data stored in US data centers)",
+        "channels": [
+          "Web app",
+          "Messages",
+          "Voice calls",
+          "Slack"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "loki",
+      "name": "Loki",
+      "status": "stretch",
+      "site": "https://loki.computer/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The agent that evolves with you",
+      "icon": "/logos/loki.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT-licensed; bring your own model key and server",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Discord",
+          "Slack",
+          "WhatsApp",
+          "Signal",
+          "Email",
+          "CLI",
+          "Desktop app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "bo",
+      "name": "Bo",
+      "status": "confirmed",
+      "site": "https://www.getbo.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A healthier life, only one text away.",
+      "icon": "/logos/bo.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated; early access open",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Companion app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "tasklet",
+      "name": "Tasklet",
+      "status": "stretch",
+      "site": "https://tasklet.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Run your business on agents",
+      "icon": "/logos/tasklet.png",
+      "kind": "work",
+      "access": {
+        "pricing": "credits",
+        "price": "7-day trial with 5,000 credits; Starter $25/mo, Pro $100/mo, Custom from $250/mo; billed per organization",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Mac app",
+          "Slack",
+          "Email"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "groupthink",
+      "name": "Groupthink",
+      "status": "stretch",
+      "site": "https://groupthink.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Be intentional about the people you care about",
+      "icon": "/logos/groupthink.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free forever plan; Pro $15/mo; every account starts with 30 days of Pro",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Mac and Windows app",
+          "Slack",
+          "MCP"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "del",
+      "name": "Del",
+      "status": "confirmed",
+      "site": "https://www.withdel.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your digital handyman",
+      "icon": "/logos/del.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Two-week free trial; price after that not stated",
+        "regions": "Not stated",
+        "channels": [
+          "SMS"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "solo-work",
+      "name": "Solo Work",
+      "status": "confirmed",
+      "site": "https://solomail.io/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Own your professional intelligence",
+      "icon": "/logos/solo-work.png",
+      "kind": "work",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Free during early access; waitlist",
+        "regions": "Not stated",
+        "channels": [
+          "Email",
+          "SMS",
+          "Voice calls",
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "genosyn",
+      "name": "Genosyn",
+      "status": "stretch",
+      "site": "https://genosyn.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your company can now run automatically.",
+      "icon": "/logos/genosyn.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted (Apache-2.0); cloud Free for 1 AI Employee, Growth $19 and Scale $49 per AI Employee/mo; bring your own model key",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "CLI",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "rakazo",
+      "name": "Rakazo",
+      "status": "stretch",
+      "site": "https://rakazo.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "AI teammates you actually own",
+      "icon": "/logos/rakazo.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free self-hosted (Apache-2.0); cloud version coming, bring your own keys",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "sai",
+      "name": "Sai",
+      "status": "confirmed",
+      "site": "https://www.sai.work/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Meet your autonomous computer",
+      "icon": "/logos/sai.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Starter $50/mo, Premium $200/mo, Pro $500/mo, Enterprise custom",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iMessage",
+          "SMS",
+          "Telegram",
+          "Mac and Windows"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "miso-nutrition",
+      "name": "Miso (nutrition)",
+      "status": "stretch",
+      "site": "https://withmiso.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Tell Miso what you ate. You're done.",
+      "icon": "/logos/miso-nutrition.png",
+      "kind": "health",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start; paid tier not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "iOS app"
+        ],
+        "checked": "2026-09-14"
+      }
+    },
+    {
+      "slug": "trybutler",
+      "name": "Butler",
+      "status": "confirmed",
+      "site": "https://trybutler.xyz/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Not a to-do app. A to-done app.",
+      "icon": "/logos/trybutler.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free credits to start · Starter (200 credits/mo) · Pro (500 credits/mo) · one-time packs; dollar prices shown only in the App Store",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "Email"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "maxi",
+      "name": "Maxi",
+      "status": "confirmed",
+      "site": "https://www.usemaxi.app/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your money finally texts back.",
+      "icon": "/logos/maxi.png",
+      "kind": "finance",
+      "access": {
+        "pricing": "paid",
+        "price": "$11.99/mo · 7-day free trial",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "openclaw",
+      "name": "OpenClaw",
+      "status": "confirmed",
+      "site": "https://openclaw.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI that really does things.",
+      "icon": "/logos/openclaw.png",
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free and open source; 'No subscription. No hosted tier.'",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "Telegram",
+          "iMessage",
+          "Slack",
+          "Discord",
+          "Signal",
+          "SMS",
+          "Self-hosted",
+          "Mac app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "chatgpt-work",
+      "name": "ChatGPT Work",
+      "status": "confirmed",
+      "site": "https://chatgpt.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A way to delegate real work to ChatGPT.",
+      "icon": "/logos/chatgpt-work.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Included with ChatGPT Plus ($20/mo), Pro, Business and Enterprise/Edu",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Desktop app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "righthand",
+      "name": "Righthand",
+      "status": "confirmed",
+      "site": "https://www.righthand.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "hand over the job, not the task",
+      "icon": "/logos/righthand.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Starter $99/mo · Pro $199/mo per Righthand · 14-day free trial, no card",
+        "regions": "Not stated",
+        "channels": [
+          "SMS",
+          "Slack",
+          "Email",
+          "Phone"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "nessi",
+      "name": "Nessi",
+      "status": "confirmed",
+      "site": "https://getnessi.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Life's messy. A personal assistant you can text.",
+      "icon": "/logos/nessi.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "United States (privacy policy: 'Nessi is offered to users in the United States')",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "luke",
+      "name": "Luke",
+      "status": "confirmed",
+      "site": "https://www.getluke.app/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A personal AI that knows who you are.",
+      "icon": "/logos/luke.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free (limited research preview); macOS 14+",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "WhatsApp",
+          "Telegram"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "sauna",
+      "name": "Sauna",
+      "status": "confirmed",
+      "site": "https://www.sauna.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Run your work from Sauna",
+      "icon": "/logos/sauna.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Lite $29/mo, Basic $99/mo, Pro $299/mo, Team $999/mo; $50 in free credits to start",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "iMessage",
+          "Slack",
+          "Email"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "sidekick-pro",
+      "name": "Sidekick Pro",
+      "status": "confirmed",
+      "site": "https://sidekickpro.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Get more done faster",
+      "icon": "/logos/sidekick-pro.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "Plus $20/mo, Business $29/mo, Ultra $200/mo; new accounts get $5 usage credit, no card",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Chrome extension",
+          "iOS app",
+          "Android app",
+          "Mac app",
+          "SMS",
+          "Phone"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "aila",
+      "name": "aila",
+      "status": "confirmed",
+      "site": "https://www.myai.la/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Meet your Social Lifestyle Assistant",
+      "icon": "/logos/aila.png",
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Not stated (early access; sign up and wait for an invite)",
+        "regions": "Türkiye (site is Turkish-first with Istanbul venues; KVKK/GDPR)",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "aside",
+      "name": "Aside",
+      "status": "confirmed",
+      "site": "https://aside.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The most intelligent AI assistant, but it’s a browser.",
+      "icon": "/logos/aside.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (500 credits/mo, bring your own ChatGPT/Claude subscription); Pro $20/mo; Max $200/mo; Enterprise by contact",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "kith-rabbit",
+      "name": "Kith Rabbit",
+      "status": "confirmed",
+      "site": "https://kithrabbit.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Mapping Your Connections",
+      "icon": "/logos/kith-rabbit.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free download; in-app purchases Kith Rabbit Pro $17.99 and Ultra $39.99 (billing period not stated)",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Mac app",
+          "Android app",
+          "Web app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "askranger",
+      "name": "Ask Ranger",
+      "status": "confirmed",
+      "site": "https://www.askranger.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Everyone deserves a personal agent.",
+      "icon": "/logos/askranger.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free during private beta; paid plans from $5/mo",
+        "regions": "Not stated",
+        "channels": [
+          "SMS",
+          "Phone calls"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "alfi",
+      "name": "Alfi by Text.ai",
+      "status": "confirmed",
+      "site": "https://www.text.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Bringing Alfi to every group chat",
+      "icon": "/logos/alfi.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "App free; Alfi Lite in chat apps free up to 8 messages every 12 hours (SMS excepted); paid tier price not stated",
+        "regions": "iMessage and SMS: US & CA; WhatsApp and Telegram: worldwide; restaurant booking US & CA",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "iMessage",
+          "SMS",
+          "WhatsApp",
+          "Telegram"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "chorus",
+      "name": "Chorus",
+      "status": "confirmed",
+      "site": "https://chorus.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI Employees that do your Marketing work.",
+      "icon": "/logos/chorus.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free ($10 one-time credits, 3-day trial); Pro $20/mo; Max $200/mo; extra agents $50/mo; Enterprise custom",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "WhatsApp",
+          "Slack",
+          "Microsoft Teams",
+          "Web app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "autohive",
+      "name": "Autohive",
+      "status": "confirmed",
+      "site": "https://www.autohive.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your team is losing 10 hours every week to work AI should be doing.",
+      "icon": "/logos/autohive.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (350K credits/mo); Lite $20/mo; Starter $99/mo; Team $499/mo; Enterprise custom (USD, unlimited seats)",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "qordinate",
+      "name": "Qordinate",
+      "status": "confirmed",
+      "site": "https://www.qordinate.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Real work is multiplayer. Your AI should be too.",
+      "icon": "/logos/qordinate.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "3 days of full access, then free limits; paid plan prices not stated",
+        "regions": "Not stated",
+        "channels": [
+          "WhatsApp",
+          "iMessage",
+          "Slack",
+          "Telegram"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "idem",
+      "name": "idem",
+      "status": "confirmed",
+      "site": "https://idem.so/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Clone yourself.",
+      "icon": "/logos/idem.png",
+      "kind": "work",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Request access; $99/month",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Mac app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "vestra",
+      "name": "Vestra",
+      "status": "confirmed",
+      "site": "https://vestra.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your Self-building Agent Office",
+      "icon": "/logos/vestra.png",
+      "kind": "work",
+      "access": {
+        "pricing": "credits",
+        "price": "1,000 free credits to start · Lite $19/mo · Pro $97/mo · Max $197/mo · Ultra $497/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "Web app",
+          "iMessage",
+          "WhatsApp",
+          "Telegram",
+          "Slack",
+          "Email"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "fleece-ai",
+      "name": "Fleece AI",
+      "status": "confirmed",
+      "site": "https://fleeceai.app/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Deploy Autonomous AI Agents. They execute your tasks.",
+      "icon": "/logos/fleece-ai.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "4-day trial (card required) · Starter €49/mo · Pro €99/mo · Business €199/mo · Enterprise custom",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "eney",
+      "name": "Eney",
+      "status": "confirmed",
+      "site": "https://eney.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Proactive AI assistant designed to fix scattered work",
+      "icon": "/logos/eney.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free credits included · Starter $18/mo · Boost $36/mo · Power $60/mo; also on Setapp",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app"
+        ],
+        "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "standout",
+      "name": "Standout",
+      "status": "confirmed",
+      "site": "https://standout.work/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Get introduced to your dream role.",
+      "icon": "/logos/standout.png",
+      "kind": "work",
+      "access": {
+        "pricing": "free",
+        "price": "Free for talent",
+        "regions": "Role coverage in EU and US",
+        "channels": [
+          "Web app",
+          "iMessage",
+          "WhatsApp"
+        ],
+        "checked": "2026-09-15"
       }
     }
   ]

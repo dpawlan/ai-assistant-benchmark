@@ -1,0 +1,38 @@
+{
+  "slug": "trybutler",
+  "name": "Butler",
+  "site": "https://trybutler.xyz/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Butler is a personal AI assistant that researches options, makes phone calls to businesses, sends emails after approval, creates Google Calendar events (including from emails forwarded to butler@trybutler.xyz) and completes supported web tasks, stopping for login, payment or checkout. Requested via the form (issue #178).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "phone_calls",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "Not a to-do app. A to-done app.",
+  "icon": "/logos/trybutler.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free credits to start · Starter (200 credits/mo) · Pro (500 credits/mo) · one-time packs; dollar prices shown only in the App Store",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Email"
+    ],
+    "checked": "2026-09-15"
+  }
+}

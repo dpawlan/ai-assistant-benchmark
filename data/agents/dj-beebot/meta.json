@@ -1,0 +1,33 @@
+{
+  "slug": "dj-beebot",
+  "name": "DJ BeeBot",
+  "site": "https://hopscotchlabs.co/",
+  "handles": [
+    "djbeebot"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hopscotch Labs' city companion that sends a few short updates a day about people, places and events nearby; the requester says it is text-message only for now, aimed at recommendations, neighborhood news and group chats. Requested via the form (issue #160).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "proactive_behavior",
+    "proactive_restraint",
+    "multiplayer_groups",
+    "memory",
+    "personality"
+  ],
+  "public_signal": "low",
+  "tagline": "Your social audio guide to the city",
+  "icon": "/logos/dj-beebot.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free; text-message beta via an invite link, iOS app on the App Store",
+    "regions": "US only (per the site)",
+    "channels": [
+      "SMS",
+      "iOS app"
+    ],
+    "checked": "2026-09-14"
+  }
+}

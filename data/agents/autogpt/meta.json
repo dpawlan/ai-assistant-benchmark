@@ -1,0 +1,33 @@
+{
+  "slug": "autogpt",
+  "name": "AutoGPT",
+  "site": "https://agpt.co/",
+  "handles": [
+    "Auto_GPT"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Agent platform: describe an outcome in the AutoPilot chat or wire blocks in the visual builder, then run agents for research, outreach, monitoring and support triage. Open-source core plus a hosted cloud. Requested by a maintainer via the form (issue #161).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Stop building workflows. Start hiring agents.",
+  "icon": "/logos/autogpt.png",
+  "kind": "work",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free self-hosted; cloud Pro $42.50/mo and Max $272/mo billed annually",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Self-hosted"
+    ],
+    "checked": "2026-09-14"
+  }
+}

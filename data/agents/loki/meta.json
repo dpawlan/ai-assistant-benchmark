@@ -1,0 +1,39 @@
+{
+  "slug": "loki",
+  "name": "Loki",
+  "site": "https://loki.computer/",
+  "handles": [
+    "wundercorp"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "WunderCorp's open-source agent that keeps project memory between sessions, turns recurring procedures into reusable skills, runs scheduled jobs and reaches you over Telegram, Discord, Slack, WhatsApp or Signal. Self-hosted, so on the board as a stretch product. Requested via the form (issue #156).",
+  "likely_applicable": [
+    "online_task",
+    "memory",
+    "running_routine",
+    "third_party_integrations",
+    "chained_tasks",
+    "proactive_behavior"
+  ],
+  "public_signal": "low",
+  "tagline": "The agent that evolves with you",
+  "icon": "/logos/loki.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, MIT-licensed; bring your own model key and server",
+    "regions": "Not stated",
+    "channels": [
+      "Telegram",
+      "Discord",
+      "Slack",
+      "WhatsApp",
+      "Signal",
+      "Email",
+      "CLI",
+      "Desktop app"
+    ],
+    "checked": "2026-09-14"
+  }
+}

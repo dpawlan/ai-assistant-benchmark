@@ -1,0 +1,32 @@
+[
+  {
+    "id": "miso-2026-09-14-bdf2db",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Found the cheapest American round trips for the dates, asked whether times or budget mattered, and pulled a seat map with free windows.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-bdf2db"
+  },
+  {
+    "id": "miso-2026-09-14-7218d7",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Asked which Moxy, then picked Cookshop, an independent vegetarian-friendly spot within walking distance and under budget.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-7218d7"
+  },
+  {
+    "id": "miso-2026-09-14-d95bfa",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-14",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Found Loop rates over $250 that weekend and returned the two cheapest refundable options with totals plus an airport fallback.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-09-14-d95bfa"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "slug": "del",
+  "name": "Del",
+  "site": "https://www.withdel.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Texting assistant for digital chores: sells items on Facebook Marketplace, watches flight prices, files warranty claims, tracks and splits spending and makes reservations, then follows up on its own. No app or login. Made by Human Interface, Inc. Requested via the form (issue #174).",
+  "likely_applicable": [
+    "online_task",
+    "proactive_behavior",
+    "proactive_restraint",
+    "running_routine",
+    "memory",
+    "travel",
+    "purchasing",
+    "permissions_privacy"
+  ],
+  "public_signal": "low",
+  "tagline": "Your digital handyman",
+  "icon": "/logos/del.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Two-week free trial; price after that not stated",
+    "regions": "Not stated",
+    "channels": [
+      "SMS"
+    ],
+    "checked": "2026-09-14"
+  }
+}

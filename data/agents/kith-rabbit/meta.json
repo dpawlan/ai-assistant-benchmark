@@ -1,0 +1,34 @@
+{
+  "slug": "kith-rabbit",
+  "name": "Kith Rabbit",
+  "site": "https://kithrabbit.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Private relationship-memory agent from Haah that you chat with about people you meet; it builds an interactive map of your connections, answers who-can-help questions, finds warm introductions, sets reminders and imports LinkedIn data. It runs on iPhone, iPad, Mac, Android and a beta web app. Requested via the form (issue #199).",
+  "likely_applicable": [
+    "memory",
+    "proactive_behavior",
+    "running_routine",
+    "permissions_privacy",
+    "multiplayer_groups",
+    "recommendation_quality",
+    "third_party_integrations"
+  ],
+  "public_signal": "low",
+  "tagline": "Mapping Your Connections",
+  "icon": "/logos/kith-rabbit.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free download; in-app purchases Kith Rabbit Pro $17.99 and Ultra $39.99 (billing period not stated)",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Mac app",
+      "Android app",
+      "Web app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

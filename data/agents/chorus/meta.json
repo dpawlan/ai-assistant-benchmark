@@ -1,0 +1,41 @@
+{
+  "slug": "chorus",
+  "name": "Chorus",
+  "site": "https://chorus.com/",
+  "handles": [
+    "chorus_agent"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hosted AI employees (marketing, chief of staff, ops, data, finance, engineering or custom) that each run on an always-on cloud computer, connect to business tools, keep a persistent memory, and are messaged through iMessage, WhatsApp, Slack or Microsoft Teams. Requested via the form (issue #205).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "travel",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "multiplayer_groups",
+    "chained_tasks",
+    "memory",
+    "proactive_behavior"
+  ],
+  "public_signal": "low",
+  "tagline": "The AI Employees that do your Marketing work.",
+  "icon": "/logos/chorus.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free ($10 one-time credits, 3-day trial); Pro $20/mo; Max $200/mo; extra agents $50/mo; Enterprise custom",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "WhatsApp",
+      "Slack",
+      "Microsoft Teams",
+      "Web app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

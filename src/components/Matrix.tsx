@@ -23,9 +23,6 @@ interface MatrixProps {
 
 type View = 'benchmark' | 'opinion';
 type SortKey = 'overall' | 'speed' | string;
-/** Landing-page status treatments under review: a = sections, b = tiles + status column, c = inline coverage. */
-export type Design = 'a' | 'b' | 'c';
-const DESIGNS: Design[] = ['a', 'b', 'c'];
 
 function benchValue(agent: Agent, key: SortKey): number {
   if (key === 'overall') return agent.overall ?? -1;
@@ -51,32 +48,20 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
   );
 }
 
-/** Reads ?kind= and ?design= after hydration so the grid itself can be prerendered with the defaults. */
-function KindFromUrl({ onKind, onDesign }: { onKind: (k: string) => void; onDesign: (d: Design) => void }) {
+/** Reads ?kind= after hydration so the grid itself can be prerendered with the default group. */
+function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
   const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
-  const designParam = params.get('design');
-  const design: Design = DESIGNS.includes(designParam as Design) ? (designParam as Design) : 'a';
   useEffect(() => {
     onKind(kind);
-    onDesign(design);
-  }, [kind, design, onKind, onDesign]);
+  }, [kind, onKind]);
   return null;
-}
-
-function hrefFor(kind: string, design: Design): string {
-  const q = new URLSearchParams();
-  if (kind !== 'general') q.set('kind', kind);
-  if (design !== 'a') q.set('design', design);
-  const qs = q.toString();
-  return qs ? `/?${qs}` : '/';
 }
 
 export function Matrix({ agents, categories, short }: MatrixProps) {
   const router = useRouter();
   const [kind, setKindState] = useState<string>('general');
-  const [design, setDesignState] = useState<Design>('a');
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
@@ -87,11 +72,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const setKind = (k: string) => {
     track('kind_filter', { kind: k });
     setKindState(k);
-    router.replace(hrefFor(k, design), { scroll: false });
-  };
-  const setDesign = (d: Design) => {
-    setDesignState(d);
-    router.replace(hrefFor(kind, d), { scroll: false });
+    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
   };
 
   const statusOf = useMemo(() => {
@@ -114,18 +95,13 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   /** Assistants in the selected peer group (or all of them). Status counts in the strip follow this set. */
   const inKind = useMemo(() => (kind === 'all' ? agents : agents.filter(a => a.kind === kind)), [agents, kind]);
 
-  // One group when a kind is selected; every kind in display order when showing all.
+  // Public opinion view: one group when a kind is selected; every kind in display order when showing all.
   const groups = useMemo(() => {
     const kinds = kind === 'all' ? KINDS.map(k => k.key).filter(k => counts[k]) : [kind];
-    const pool = status === 'all' ? inKind : inKind.filter(a => statusOf.get(a.slug) === status);
-    const byStatusThenScore = (list: Agent[]) =>
-      design === 'b' && !opinion
-        ? [...sortAgents(list, sort, view)].sort((a, b) => STATUS_ORDER.indexOf(statusOf.get(a.slug)!) - STATUS_ORDER.indexOf(statusOf.get(b.slug)!))
-        : sortAgents(list, sort, view);
-    return kinds.map(k => ({ key: k, title: KIND_LABEL[k] ?? k, rows: byStatusThenScore(pool.filter(a => a.kind === k)) }));
-  }, [inKind, sort, view, kind, counts, status, statusOf, design, opinion]);
+    return kinds.map(k => ({ key: k, title: KIND_LABEL[k] ?? k, rows: sortAgents(inKind.filter(a => a.kind === k), sort, view) }));
+  }, [inKind, sort, view, kind, counts]);
 
-  /** Design A: outer sections by status, kind sub-groups inside when showing all kinds. */
+  /** Benchmark view: outer sections by status, kind sub-groups inside when showing all kinds. */
   const sections = useMemo(() => {
     const wanted = status === 'all' ? STATUS_ORDER : [status];
     return wanted.map(s => {
@@ -158,54 +134,28 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
     );
   };
 
-  const aggCols = opinion ? 2 : design === 'c' ? 3 : 4; // name + (speed) + overall + (coverage/status)
+  const aggCols = opinion ? 2 : 4; // name + (speed) + overall + (tested)
   const span = cols.length + aggCols;
 
   const row = (agent: Agent) => {
-    const st = statusOf.get(agent.slug)!;
     const cv = covOf.get(agent.slug)!;
     return (
-      <tr key={agent.slug} className={design !== 'a' && st === 'pending' ? 'mx-pending' : undefined}>
+      <tr key={agent.slug}>
         <th scope="row" className="mx-name">
           <Link href={`/agents/${agent.slug}`} className="mx-agent">
             <AgentIcon name={agent.name} icon={agent.icon} size={28} className="mx-icon" />
-            <span className="mx-nm">
-              {agent.name}
-              {design === 'c' && !opinion && <span className={`st-dot st-${st} st-inline`} title={STATUS_LABEL[st]} />}
-            </span>
+            <span className="mx-nm">{agent.name}</span>
           </Link>
         </th>
-        {!opinion && design === 'b' && (
-          <td className="mx-agg mx-status">
-            <span className={`st-pill st-${st}`}>
-              <span className={`st-dot st-${st}`} aria-hidden="true" />
-              {STATUS_LABEL[st]}
-              {st !== 'pending' && (
-                <span className="st-pill-n">
-                  {cv.scored}/{cv.applicable}
-                </span>
-              )}
-            </span>
-          </td>
-        )}
         {!opinion && (
           <td className={`mx-agg mx-speed${sort === 'speed' ? ' sorted' : ''}`}>
             <SpeedCell usage={agent.usage} />
           </td>
         )}
-        <td className={`mx-agg${sort === 'overall' ? ' sorted' : ''}${design === 'c' && !opinion ? ' mx-overall-c' : ''}`}>
-          {opinion ? (
-            <OpinionCell stat={agent.opinionOverall} />
-          ) : design === 'c' ? (
-            <span className="ov-stack">
-              <ScoreCell value={agent.overall} aggregate />
-              {st !== 'pending' && <span className={`ov-sub${st === 'completed' ? ' done' : ''}`}>{st === 'completed' ? 'final' : `${cv.scored} of ${cv.applicable}`}</span>}
-            </span>
-          ) : (
-            <ScoreCell value={agent.overall} aggregate />
-          )}
+        <td className={`mx-agg${sort === 'overall' ? ' sorted' : ''}`}>
+          {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.overall} aggregate />}
         </td>
-        {!opinion && design === 'a' && (
+        {!opinion && (
           <td className="mx-agg mx-cov">
             <CoverageCell c={cv} />
           </td>
@@ -244,18 +194,8 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   return (
     <div>
       <Suspense fallback={null}>
-        <KindFromUrl onKind={setKindState} onDesign={setDesignState} />
+        <KindFromUrl onKind={setKindState} />
       </Suspense>
-
-      <div className="design-bar" role="tablist" aria-label="Design under review">
-        <span>Design</span>
-        {DESIGNS.map(d => (
-          <button key={d} type="button" role="tab" aria-selected={design === d} className={design === d ? 'on' : ''} onClick={() => setDesign(d)}>
-            {d.toUpperCase()}
-          </button>
-        ))}
-        <span className="design-note">{design === 'a' ? 'sections + Tested column' : design === 'b' ? 'tiles + Status column' : 'inline coverage under Overall'}</span>
-      </div>
 
       <div className="kind-bar" role="tablist" aria-label="Peer group">
         {KINDS.filter(k => counts[k.key]).map(k => (
@@ -270,7 +210,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         </button>
       </div>
 
-      {!opinion && <StatusStrip agents={inKind} categories={categories} design={design} active={status} onPick={setStatus} />}
+      {!opinion && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}
 
       <div className="mx-bar">
         <div className="seg" role="tablist" aria-label="Scorecard view">
@@ -287,13 +227,12 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
       </div>
 
       <div className="matrix-wrap">
-        <table className={`matrix${opinion ? ' opinion' : ''} design-${design}`}>
+        <table className={`matrix${opinion ? ' opinion' : ''}`}>
           <colgroup>
             <col className="c-name" />
-            {!opinion && design === 'b' && <col className="c-status" />}
             {!opinion && <col className="c-agg" />}
             <col className="c-agg" />
-            {!opinion && design === 'a' && <col className="c-cov" />}
+            {!opinion && <col className="c-cov" />}
             {cols.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
@@ -303,14 +242,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               <th scope="col" className="mx-name">
                 <span className="mx-label">Assistant</span>
               </th>
-              {!opinion && design === 'b' && (
-                <th scope="col" className="mx-agg mx-status">
-                  <span className="mx-label">Status</span>
-                </th>
-              )}
               {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time in the reviewer’s own thread')}
               {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every dimension scored so far')}
-              {!opinion && design === 'a' && (
+              {!opinion && (
                 <th scope="col" className="mx-agg mx-cov" title="dimensions scored out of those that apply">
                   <span className="mx-label">Tested</span>
                 </th>
@@ -319,7 +253,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             </tr>
           </thead>
 
-          {design === 'a' && !opinion
+          {!opinion
             ? sections.map(sec => {
                 const collapsed = sec.status === 'pending' && status === 'all' && !showPending;
                 return (
@@ -349,17 +283,12 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                   </tbody>
                 );
               })
-            : groups.map(group => {
-                const visible = design === 'c' && !opinion && status === 'all' ? group.rows.filter(a => statusOf.get(a.slug) !== 'pending') : group.rows;
-                const hidden = group.rows.length - visible.length;
-                return (
-                  <tbody key={group.key}>
-                    {kind === 'all' && kindHeader(group.title, group.rows.length)}
-                    {(showPending ? group.rows : visible).map(row)}
-                    {hidden > 0 && pendingToggle(hidden, showPending, () => setShowPending(v => !v))}
-                  </tbody>
-                );
-              })}
+            : groups.map(group => (
+                <tbody key={group.key}>
+                  {kind === 'all' && kindHeader(group.title, group.rows.length)}
+                  {group.rows.map(row)}
+                </tbody>
+              ))}
         </table>
       </div>
 

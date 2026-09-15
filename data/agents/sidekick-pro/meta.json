@@ -1,0 +1,42 @@
+{
+  "slug": "sidekick-pro",
+  "name": "Sidekick Pro",
+  "site": "https://sidekickpro.com/",
+  "handles": [
+    "GetSidekickPro"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Always-on assistant for solo business owners and small teams that watches Gmail, Calendar and its own phone line, texts alerts and a daily brief, answers calls as a receptionist, joins meetings and automates browser tasks through a Chrome extension. Requested via the form (issue #189).",
+  "likely_applicable": [
+    "online_task",
+    "memory",
+    "phone_calls",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Get more done faster",
+  "icon": "/logos/sidekick-pro.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Plus $20/mo, Business $29/mo, Ultra $200/mo; new accounts get $5 usage credit, no card",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Chrome extension",
+      "iOS app",
+      "Android app",
+      "Mac app",
+      "SMS",
+      "Phone"
+    ],
+    "checked": "2026-09-15"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "moldable",
+  "name": "Moldable",
+  "site": "https://moldable.sh/",
+  "handles": [
+    "MoldableAI",
+    "iwasrobbed"
+  ],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "Personal software factory: build and reshape apps on a Mac by asking, stream them to an iPhone, and chat with bots that run tasks. Local-first with end-to-end encryption; a developer-leaning product, so on the board as a stretch product. Requested via the form (issue #158).",
+  "likely_applicable": [
+    "online_task",
+    "memory",
+    "running_routine",
+    "chained_tasks",
+    "permissions_privacy",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Personal software, wherever you are",
+  "icon": "/logos/moldable.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "free",
+    "price": "Free to download; site says free with a ChatGPT subscription; 1 GB Drive sync free",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "iPhone app",
+      "Web"
+    ],
+    "checked": "2026-09-14"
+  }
+}

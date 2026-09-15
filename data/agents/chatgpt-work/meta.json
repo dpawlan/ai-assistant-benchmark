@@ -1,0 +1,38 @@
+{
+  "slug": "chatgpt-work",
+  "name": "ChatGPT Work",
+  "site": "https://chatgpt.com/",
+  "handles": [
+    "OpenAI",
+    "ChatGPTapp"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "ChatGPT Work is OpenAI's mode for delegating tasks inside ChatGPT: it breaks a goal into steps and uses files, plugins, approved tools and a browser to deliver reviewable docs, analyses, recurring updates and workflows, on the web and in the ChatGPT desktop app. Requested via the form (issue #183).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "A way to delegate real work to ChatGPT.",
+  "icon": "/logos/chatgpt-work.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Included with ChatGPT Plus ($20/mo), Pro, Business and Enterprise/Edu",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Desktop app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

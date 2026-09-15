@@ -1,0 +1,19 @@
+{
+  "id": "brea-2026-09-14-privacy",
+  "agent": "brea",
+  "category": "permissions_privacy",
+  "protocol": "task",
+  "date": "2026-09-14",
+  "signals": {
+    "turns": 7,
+    "my_messages": 4,
+    "agent_messages": 3,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-14T14:45:33.000Z"
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "nessi",
+  "name": "Nessi",
+  "site": "https://getnessi.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Nessi is a personal assistant you text, with no app or account. She handles reminders and daily routines, to-do and grocery lists, notes from voice memos and photos, Gmail and Google Calendar (drafts need approval before sending), and can be added to group chats. Requested via the form (issue #186).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups"
+  ],
+  "public_signal": "low",
+  "tagline": "Life's messy. A personal assistant you can text.",
+  "icon": "/logos/nessi.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "United States (privacy policy: 'Nessi is offered to users in the United States')",
+    "channels": [
+      "iMessage",
+      "SMS"
+    ],
+    "checked": "2026-09-15"
+  }
+}

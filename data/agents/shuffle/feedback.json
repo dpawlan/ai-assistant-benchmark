@@ -99,5 +99,24 @@
       "views": 442,
       "fetched": "2026-09-10"
     }
+  },
+  {
+    "author_name": "",
+    "notes": "Submitted through the use-case form (issue #225) by someone who works on Shuffle, so it is tagged vendor and excluded from opinion and from job evidence.",
+    "id": "84ab4a8d9754",
+    "quote": "My prompt was to create a playable GTA-style game. This is the game that it produced: https://www.textshuffle.com/p/cmtme47a1001dl404jbgn7yrk",
+    "author": "@ebeezy_eth",
+    "date": "2026-09-15",
+    "url": "https://x.com/ebeezy_eth/status/2095719584620003350",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "x",
+      "game",
+      "vendor"
+    ],
+    "source": "submission",
+    "agent": "shuffle",
+    "collected_at": "2026-09-16T16:52:08.215Z"
   }
 ]

@@ -1,0 +1,26 @@
+{
+  "slug": "gemini-spark",
+  "name": "Gemini Spark",
+  "site": "https://gemini.google/overview/agent/spark/",
+  "handles": [
+    "GeminiApp"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Google's 24/7 agent mode inside the Gemini app: tasks, skills and schedules against Gmail, Calendar, Drive, Docs and Sheets, checking in before major actions. Announced at I/O 2026, on AI Ultra and rolling out to AI Pro in the US since July 2026. Web and app only, no SMS, WhatsApp or iMessage; needs a paid Google AI subscription and an 18+ account in select countries. Requested via the form (issue #221).",
+  "public_signal": "low",
+  "tagline": "Google's always-on agent mode inside Gemini",
+  "icon": "/logos/gemini-spark.png",
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "Google AI Pro $19.99/mo or Ultra",
+    "regions": "US first, select countries",
+    "channels": [
+      "Web",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-09-16"
+  }
+}

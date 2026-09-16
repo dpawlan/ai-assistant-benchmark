@@ -1,0 +1,21 @@
+{
+  "id": "tomo-2026-09-16-blooio-memory-pref",
+  "agent": "tomo",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-16",
+  "signals": {
+    "probe_type": "preference_recall",
+    "seeded_at": "2026-09-10",
+    "seed_confirmed": true,
+    "ask_mentioned_aisle_or_pork": false,
+    "applied_aisle_unprompted": true,
+    "applied_no_pork_unprompted": true,
+    "remind_used": false,
+    "preference_subscore": 10,
+    "city_subscore_prior": 6,
+    "final_memory": 6,
+    "stop_before_pay": true
+  },
+  "published_at": "2026-09-16T00:00:00.000Z"
+}

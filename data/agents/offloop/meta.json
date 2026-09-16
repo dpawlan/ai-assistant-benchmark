@@ -1,0 +1,39 @@
+{
+  "slug": "offloop",
+  "name": "Offloop",
+  "site": "https://offloop.org/",
+  "handles": [
+    "Offloop"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Offloop is a multiplayer workspace from Intelligence Software, Inc. where small teams run recurring business work — influencer sourcing and outreach, customer follow-up, research, launches, reporting — through named AI agents in persistent Channels with shared context, human approvals and OAuth-scoped connectors. It runs in a web workspace plus macOS and Windows desktop builds, with an iOS TestFlight beta. Requested via the form (issues #227, #306).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Scale your team’s work without scaling headcount",
+  "icon": "/logos/offloop.png",
+  "kind": "work",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Private beta; Operator tier invite-only, Team Pilot and Enterprise priced \"Custom\"",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Mac app",
+      "Windows app",
+      "iOS app (TestFlight beta)"
+    ],
+    "checked": "2026-09-16"
+  }
+}

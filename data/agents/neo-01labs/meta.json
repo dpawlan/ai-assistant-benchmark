@@ -1,0 +1,34 @@
+{
+  "slug": "neo-01labs",
+  "name": "Neo",
+  "site": "https://01labs.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Neo is Zero One Laboratories' (01labs) personal assistant that runs inside Telegram, with a web account page at 01labs.ai/me and iMessage marked \"Coming soon\"; it handles text, voice notes, photos and files, connects email and calendar, keeps memory, and sends daily briefings and follow-ups. The site stresses a per-user sealed store that is never sold, shared or trained on. Requested via the form (issue #224).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "One personal AI for all of it.",
+  "icon": "/logos/neo-01labs.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free tier (750 credits); Pro $49/mo, Power $99/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Telegram",
+      "Web app"
+    ],
+    "checked": "2026-09-16"
+  }
+}

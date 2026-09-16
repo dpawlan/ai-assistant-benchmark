@@ -3172,6 +3172,215 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-15 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "ka": {
+      "name": "ka",
+      "handles": [],
+      "domain": "textka.com",
+      "x_queries": [
+        "\"textka.com\""
+      ],
+      "reddit_queries": [
+        "\"textka.com\""
+      ],
+      "hn_queries": [
+        "\"textka.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "textka.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "neo-01labs": {
+      "name": "Neo",
+      "handles": [],
+      "domain": "01labs.ai",
+      "x_queries": [
+        "\"01labs.ai\""
+      ],
+      "reddit_queries": [
+        "\"01labs.ai\""
+      ],
+      "hn_queries": [
+        "\"01labs.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "01labs.ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "offloop": {
+      "name": "Offloop",
+      "handles": [
+        "Offloop"
+      ],
+      "domain": "offloop.org",
+      "x_queries": [
+        "\"offloop.org\"",
+        "@Offloop"
+      ],
+      "reddit_queries": [
+        "\"offloop.org\""
+      ],
+      "hn_queries": [
+        "\"offloop.org\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "offloop.org",
+        "@Offloop"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "dassi": {
+      "name": "dassi",
+      "handles": [
+        "OmnifyLabs"
+      ],
+      "domain": "dassi.ai",
+      "x_queries": [
+        "\"dassi.ai\"",
+        "@OmnifyLabs"
+      ],
+      "reddit_queries": [
+        "\"dassi.ai\""
+      ],
+      "hn_queries": [
+        "\"dassi.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "dassi.ai",
+        "@OmnifyLabs"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "rome": {
+      "name": "Rome",
+      "handles": [
+        "RomeAILab"
+      ],
+      "domain": "romeos.cc",
+      "x_queries": [
+        "\"romeos.cc\"",
+        "@RomeAILab"
+      ],
+      "reddit_queries": [
+        "\"romeos.cc\""
+      ],
+      "hn_queries": [
+        "\"romeos.cc\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "romeos.cc",
+        "@RomeAILab"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "bantr": {
+      "name": "Bantr",
+      "handles": [],
+      "domain": "bantr.socialcompanyofus.com",
+      "x_queries": [
+        "\"bantr.socialcompanyofus.com\""
+      ],
+      "reddit_queries": [
+        "\"bantr.socialcompanyofus.com\""
+      ],
+      "hn_queries": [
+        "\"bantr.socialcompanyofus.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "bantr.socialcompanyofus.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "faff": {
+      "name": "Faff",
+      "handles": [
+        "usefaff"
+      ],
+      "domain": "faffit.com",
+      "x_queries": [
+        "\"faffit.com\"",
+        "@usefaff"
+      ],
+      "reddit_queries": [
+        "\"faffit.com\""
+      ],
+      "hn_queries": [
+        "\"faffit.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "faffit.com",
+        "@usefaff"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "persona": {
+      "name": "Persona",
+      "handles": [
+        "yourpersona"
+      ],
+      "domain": "yourpersona.com",
+      "x_queries": [
+        "\"yourpersona.com\"",
+        "@yourpersona"
+      ],
+      "reddit_queries": [
+        "\"yourpersona.com\""
+      ],
+      "hn_queries": [
+        "\"yourpersona.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "yourpersona.com",
+        "@yourpersona"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "slicc": {
+      "name": "SLICC",
+      "handles": [],
+      "domain": "sliccy.com",
+      "x_queries": [
+        "\"sliccy.com\""
+      ],
+      "reddit_queries": [
+        "\"sliccy.com\""
+      ],
+      "hn_queries": [
+        "\"sliccy.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "sliccy.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission. Domain/handle queries only; handles are best guesses."
     }
   },
   "_redact_terms": [

@@ -1,0 +1,34 @@
+{
+  "slug": "slicc",
+  "name": "SLICC",
+  "site": "https://www.sliccy.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "SLICC is an open-source, browser-native AI agent that runs entirely client-side in a Chrome side panel, using the user's existing logged-in sessions to drive web apps such as GitHub, Gmail, Slack, Jira, Outlook and ServiceNow, run shell commands in a WASM shell and coordinate parallel agents. It also ships as a global npm CLI, a macOS launcher and an iOS TestFlight beta, with source on GitHub under Apache-2.0. Requested via the form (issue #311).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "third_party_integrations",
+    "permissions_privacy",
+    "chained_tasks",
+    "proactive_behavior",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "An ice cream AI agent that lives in your browser.",
+  "icon": "/logos/slicc.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "open-source",
+    "price": "Not stated (Apache-2.0 open source; no pricing page)",
+    "regions": "Not stated",
+    "channels": [
+      "Chrome extension",
+      "Mac app",
+      "iOS app",
+      "Self-hosted"
+    ],
+    "checked": "2026-09-16"
+  }
+}

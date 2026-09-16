@@ -1,0 +1,36 @@
+{
+  "slug": "bantr",
+  "name": "Bantr",
+  "site": "https://bantr.socialcompanyofus.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Bantr is a text-message assistant from The Social Company of the United States that keeps a couple's or family's schedule, budget and investments in one thread, with optional Google Calendar and Gmail connections and a private thread per partner alongside a shared one. It runs entirely over iMessage, SMS and WhatsApp with no app to download. Requested via the form (issue #308).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Talk. Plan. Bantr",
+  "icon": "/logos/bantr.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free During Beta (Early Access Program)",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "WhatsApp"
+    ],
+    "checked": "2026-09-16"
+  }
+}

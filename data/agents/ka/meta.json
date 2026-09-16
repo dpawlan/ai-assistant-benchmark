@@ -1,0 +1,34 @@
+{
+  "slug": "ka",
+  "name": "ka",
+  "site": "https://textka.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "ka is a personal assistant you text on iMessage (green-bubble SMS fallback on Android) that runs your Gmail, Google Calendar, Docs, Sheets and Drive, reads photos you send, and sends reminders before you ask. It also pitches assistant-to-assistant coordination, where your ka negotiates plans with your friends' ka's. Requested via the form (issue #222).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "the friend who runs your life.",
+  "icon": "/logos/ka.png",
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "$14.99/mo, billed monthly",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS"
+    ],
+    "checked": "2026-09-16"
+  }
+}

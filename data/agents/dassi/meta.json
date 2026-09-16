@@ -1,0 +1,35 @@
+{
+  "slug": "dassi",
+  "name": "dassi",
+  "site": "https://dassi.ai/",
+  "handles": [
+    "OmnifyLabs"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "dassi is a Chrome/Edge/Brave extension from Omnify Labs that you teach a repeated job once — by describing it or walking it through — after which it reruns that job on a schedule inside the web apps you are already signed into, pausing for the approvals you set (approvable in the side panel or over Telegram). It is bring-your-own-model across Claude, GPT, Gemini and OpenRouter, or dassi's own credits. Requested via the form (issue #303).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Teach dassi once. It works for you.",
+  "icon": "/logos/dassi.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start with $5 in AI credits; Starter $25/mo, Pro $100/mo, Max $300/mo; Developer (BYO key) $10/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Chrome extension",
+      "Telegram"
+    ],
+    "checked": "2026-09-16"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "faff",
+  "name": "Faff",
+  "site": "https://www.faffit.com/",
+  "handles": [
+    "usefaff"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Faff is a human-plus-AI personal assistant for non-work life admin across 30+ categories, including groceries, repairs, bookings, appointments, travel, gifting and refund chasing. It runs entirely inside WhatsApp and is available across India. Requested via the form (issue #309).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "proactive_behavior",
+    "running_routine",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "meet your personal assistant",
+  "icon": "/logos/faff.png",
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "From ₹1,999/month; discounted quarterly and smaller plans, unlimited tasks",
+    "regions": "India",
+    "channels": [
+      "WhatsApp"
+    ],
+    "checked": "2026-09-16"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "persona",
+  "name": "Persona",
+  "site": "https://yourpersona.com/",
+  "handles": [
+    "yourpersona"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Persona is a personal AI assistant that works over iMessage and a web dashboard, making calls, booking appointments, handling returns, forms, invoices and subscription cancellations, and coming back with confirmations. It is also pre-selling Persona Band, a wearable wristband front-end for the same assistant that ships December 2026. Requested via the form (issue #310).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "proactive_behavior",
+    "memory",
+    "phone_calls",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "Your personal intelligence",
+  "icon": "/logos/persona.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Assistant free to use (site FAQ: \"Using Persona is free\"); Persona Band $179 pre-order (from $219), ships December 2026",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Web app"
+    ],
+    "checked": "2026-09-16"
+  }
+}

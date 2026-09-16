@@ -1,0 +1,35 @@
+{
+  "slug": "rome",
+  "name": "Rome",
+  "site": "https://romeos.cc/",
+  "handles": [
+    "RomeAILab"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Rome (Rome OS) is an MIT-licensed agentic operating system where an agent builds small apps and reusable tools from a prompt, saves actions, and carries context between tasks, with an in-product App Store for those apps. It runs free on your own Mac or self-hosted from github.com/rome-os/rome, or on Rome's hosted always-on machines, and is currently gated behind a private preview invite code. Requested via the form (issue #307).",
+  "likely_applicable": [
+    "online_task",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Rome is the agentic OS.",
+  "icon": "/logos/rome.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free on your own Mac (MIT, self-hostable); hosted Pro $20/mo, Max $40/mo; Ultra and Enterprise custom",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "Web app",
+      "Self-hosted"
+    ],
+    "checked": "2026-09-16"
+  }
+}

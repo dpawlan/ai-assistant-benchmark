@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-15",
-  "agent_count": 108,
+  "updated": "2026-09-16",
+  "agent_count": 117,
   "feedback_count": 5565,
-  "confirmed": 81,
+  "confirmed": 90,
   "stretch": 27,
   "agents": [
     {
@@ -2390,6 +2390,200 @@
           "WhatsApp"
         ],
         "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "ka",
+      "name": "ka",
+      "status": "confirmed",
+      "site": "https://textka.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "the friend who runs your life.",
+      "icon": "/logos/ka.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$14.99/mo, billed monthly",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "neo-01labs",
+      "name": "Neo",
+      "status": "confirmed",
+      "site": "https://01labs.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "One personal AI for all of it.",
+      "icon": "/logos/neo-01labs.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free tier (750 credits); Pro $49/mo, Power $99/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Web app"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "offloop",
+      "name": "Offloop",
+      "status": "confirmed",
+      "site": "https://offloop.org/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Scale your team’s work without scaling headcount",
+      "icon": "/logos/offloop.png",
+      "kind": "work",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Private beta; Operator tier invite-only, Team Pilot and Enterprise priced \"Custom\"",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Mac app",
+          "Windows app",
+          "iOS app (TestFlight beta)"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "dassi",
+      "name": "dassi",
+      "status": "confirmed",
+      "site": "https://dassi.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Teach dassi once. It works for you.",
+      "icon": "/logos/dassi.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start with $5 in AI credits; Starter $25/mo, Pro $100/mo, Max $300/mo; Developer (BYO key) $10/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Chrome extension",
+          "Telegram"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "rome",
+      "name": "Rome",
+      "status": "confirmed",
+      "site": "https://romeos.cc/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Rome is the agentic OS.",
+      "icon": "/logos/rome.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free on your own Mac (MIT, self-hostable); hosted Pro $20/mo, Max $40/mo; Ultra and Enterprise custom",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "Web app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "bantr",
+      "name": "Bantr",
+      "status": "confirmed",
+      "site": "https://bantr.socialcompanyofus.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Talk. Plan. Bantr",
+      "icon": "/logos/bantr.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free During Beta (Early Access Program)",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "WhatsApp"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "faff",
+      "name": "Faff",
+      "status": "confirmed",
+      "site": "https://www.faffit.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "meet your personal assistant",
+      "icon": "/logos/faff.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "From ₹1,999/month; discounted quarterly and smaller plans, unlimited tasks",
+        "regions": "India",
+        "channels": [
+          "WhatsApp"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "persona",
+      "name": "Persona",
+      "status": "confirmed",
+      "site": "https://yourpersona.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your personal intelligence",
+      "icon": "/logos/persona.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Assistant free to use (site FAQ: \"Using Persona is free\"); Persona Band $179 pre-order (from $219), ships December 2026",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Web app"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "slicc",
+      "name": "SLICC",
+      "status": "confirmed",
+      "site": "https://www.sliccy.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An ice cream AI agent that lives in your browser.",
+      "icon": "/logos/slicc.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "open-source",
+        "price": "Not stated (Apache-2.0 open source; no pricing page)",
+        "regions": "Not stated",
+        "channels": [
+          "Chrome extension",
+          "Mac app",
+          "iOS app",
+          "Self-hosted"
+        ],
+        "checked": "2026-09-16"
       }
     }
   ]

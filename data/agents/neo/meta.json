@@ -26,10 +26,8 @@
     "regions": "US-focused",
     "channels": [
       "iMessage",
-      "SMS",
-      "Telegram",
-      "MCP"
+      "SMS"
     ],
-    "checked": "2026-09-13"
+    "checked": "2026-09-15"
   }
 }

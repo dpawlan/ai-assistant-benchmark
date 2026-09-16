@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": "b1altryneins",
     "agent": "instinct",
     "quote": "Oh wow, really. I was skeptical but I gave @muse and Instinct the same task, to research tickets for a rosh-ha-shana dinner. @muse is already tightly integrated with link (native integration not just a skill) and it booked me tickets, while Instinct is still searching for the RSVP! 😮",
@@ -12,6 +13,42 @@
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Same head-to-head as Muse row; Instinct still searching when Muse had booked."
+=======
+    "id": "2bf159f733b7",
+    "agent": "instinct",
+    "quote": "AI assistant startup Instinct targets $10B valuation in new funding talks. The company reached a $2.5 billion valuation after raising $250 million in a Series B round last August, taking its total funding to $350 million. Instinct is seeking $1 billion at a $10 billion valuation as access expands and users surpass 100,000.",
+    "author": "Vivian Nguyen",
+    "author_name": "Vivian Nguyen",
+    "date": "2026-09-15",
+    "url": "https://cryptobriefing.com/ai-assistant-startup-instinct-targets-10b-valuation-in-new-funding-talks-report/",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "web",
+      "funding"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-16",
+    "notes": "Sep 15 report: Instinct seeking $1B at $10B valuation; user base > 100k; total funding $350M."
+  },
+  {
+    "id": "93a27cc7ff37",
+    "agent": "instinct",
+    "quote": "A user, writing on X, described asking the bot to look up cancellation terms on a flight. The bot cancelled the flight instead. A man in Los Angeles was charged a $200 cancellation fee after the bot booked a restaurant reservation he had not authorized. Another user had his Resy account temporarily suspended after the bot spammed the platform with reservation attempts.",
+    "author": "Direct Message News",
+    "author_name": "Direct Message News",
+    "date": "2026-09-15",
+    "url": "https://dmnews.com/dmn-a-23-year-olds-ai-assistant-is-now-seeking-a-valuation-near-lufthansas-after-cancelling-a-users-flight-mid-query-and-racking-up-a-200-restaurant-no-show-fee/",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "web",
+      "incidents"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-16",
+    "notes": "Sep 15 DMNews: Reports of flight cancellation instead of lookup, $200 unauthorized restaurant no-show, and Resy account suspension from repeated reservation attempts."
+>>>>>>> origin/main
   },
   {
     "id": "1ac7a58f9565",

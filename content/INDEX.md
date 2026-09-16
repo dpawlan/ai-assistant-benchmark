@@ -1,6 +1,10 @@
 # Index
 
+<<<<<<< HEAD
 _Updated 2026-09-15. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
+=======
+_Updated 2026-09-16. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
+>>>>>>> origin/main
 
 | Agent | Folder | Feedback rows | Last updated | Status | Signal |
 |-------|--------|---------------|--------------|--------|--------|
@@ -15,7 +19,11 @@ _Updated 2026-09-15. Status `stretch` = on the benchmark board but outside core 
 | Grok Bot | `agents/grok-bot/` | 176 | 2026-09-10 | confirmed | — |
 | Halo | `agents/halo/` | 5 | 2026-09-06 | confirmed | low |
 | HireAlpha | `agents/hirealpha/` | 4 | 2026-09-06 | confirmed | low |
+<<<<<<< HEAD
 | Instinct | `agents/instinct/` | 191 | 2026-09-15 | confirmed | — |
+=======
+| Instinct | `agents/instinct/` | 192 | 2026-09-16 | confirmed | — |
+>>>>>>> origin/main
 | Joshu | `agents/joshu/` | 19 | 2026-09-06 | confirmed | — |
 | Lava | `agents/lava/` | 9 | 2026-09-06 | stretch | low |
 | Lucas | `agents/lucas/` | 11 | 2026-09-06 | confirmed | low |

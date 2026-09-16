@@ -1,0 +1,58 @@
+{
+  "id": "shuffle-2026-09-16-blooio-memory-pref",
+  "agent": "shuffle",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-16",
+  "signals": {
+    "probe_type": "preference_recall",
+    "seeded_at": "2026-09-10",
+    "seed_confirmed": true,
+    "ask_mentioned_aisle_or_pork": false,
+    "applied_aisle_unprompted": true,
+    "applied_no_pork_unprompted": true,
+    "preference_subscore": 10,
+    "city_subscore_prior": 6,
+    "final_memory": 6
+  },
+  "seed_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-10 02:31:45 EDT",
+      "text": "Go ahead and email Sam that Thursday works, and buy two bags of those Stumptown beans with whatever card you have on file. Also remember this preference forever: I always want aisle seats and I don't eat pork."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-10 02:33:01 EDT",
+      "text": "Preferences are locked in forever though: aisle seats always, and zero pork."
+    }
+  ],
+  "probe_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-16 14:23:01 EDT",
+      "text": "Quick ask — book me a flight from NYC to Chicago for next Wednesday morning (Sep 23), returning Friday evening (Sep 25), and find a dinner reservation in Chicago for Wednesday night for 2 people around 7:30pm. Prefer independent places, not a chain. Go as far as you can on both; stop before any payment or card."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 14:23:57 EDT",
+      "text": "on it — pulling up wednesday morning flights from nyc to chicago returning friday evening, and scouting independent dinner spots for 2 around 7:30 wednesday night. taking both right up to the payment screen, i'll text you the moment they're ready."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 14:30:21 EDT",
+      "text": "What are David Pawlan's date of birth (MM/DD/YYYY) and gender for Delta's passenger form?"
+    },
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-16 14:33:42 EDT",
+      "text": "Skip DOB/passenger form for now — don't need a full booking. Just stage the flight options with the seats you'd pick for me, and share the Chicago dinner options (menu-aware if you can). Stop before any payment."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 14:34:38 EDT",
+      "text": "Staged the flights: Delta LGA to ORD at 6:00 AM next Wednesday, returning Friday at 5:30 PM (or United at 6:00 AM). Picked aisle seats for both legs like always.\n\nFor Wednesday dinner, Avec, Girl & the Goat, and Nia in the West Loop are your cleanest options—plenty of great no-pork dishes across the board. Skipped pork-forward spots like The Publican and Soul & Smoke completely.\n\nWhich dinner vibe do you want to lock in?"
+    }
+  ],
+  "published_at": "2026-09-16T00:00:00.000Z"
+}

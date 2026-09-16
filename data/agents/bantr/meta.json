@@ -1,0 +1,26 @@
+{
+  "slug": "bantr",
+  "name": "Bantr",
+  "site": "https://www.socialcompanyofus.com/",
+  "handles": [
+    "Bantr"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Text-message assistant for couples and families by The Social Company of the United States: reminders, daily briefs, shared schedules and budgets, calendar events, read-only Gmail triage, a shared memory. No app; iMessage, SMS or WhatsApp. Waitlist at submission time; USD subscription, amount not stated. Requested via the form (issue #308).",
+  "public_signal": "low",
+  "tagline": "A text-message assistant for couples and families",
+  "icon": "/logos/bantr.png",
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "Subscription, amount not stated (waitlist)",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "WhatsApp"
+    ],
+    "checked": "2026-09-16"
+  }
+}

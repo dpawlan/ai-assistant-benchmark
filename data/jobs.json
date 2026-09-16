@@ -1,7 +1,7 @@
 {
   "_comment": "One entry per job (a canonical task). A job earns its place only when a real person reported it publicly or submitted it; posts are the evidence, never entries of their own. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "groups": [
     {
       "key": "travel",
@@ -1246,6 +1246,47 @@
           "agent": "muse",
           "note": "Emailed the office and left a voicemail to set up doctor and dentist appointments; the office called back to confirm.",
           "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "daily-brief-on-a-set-of-companies",
+      "title": "Get a daily brief on a set of companies",
+      "one_liner": "Watch what a list of companies publish, blogs, podcasts and press releases, and get one brief a day.",
+      "group": "work",
+      "dimension": "running_routine",
+      "prompt": "Connect with Synorb to build me a daily brief of what public and private AI related companies are publishing.",
+      "prompt_source": "posted",
+      "added": "2026-09-16",
+      "submitted_by": {
+        "handle": "@bshivarthy",
+        "vendor": false
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "c05a5e48909e",
+          "agent": "instinct",
+          "note": "Connected Synorb, set up a beacon over 75 companies and now delivers a daily brief from their blogs, podcasts and press releases.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "log-payments-from-email-into-a-spreadsheet",
+      "title": "Log payments from email into a spreadsheet",
+      "one_liner": "Find the payments in your inbox since a date and append them to your budget sheet in order, matching the template.",
+      "group": "money",
+      "dimension": "chained_tasks",
+      "prompt": "Go through my email and look for payments after [date]. Then open up my budgeting spreadsheet and append them to the bottom of the list so that they are in chronological order. Follow the existing template.",
+      "prompt_source": "posted",
+      "added": "2026-09-16",
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "c1df7111209e",
+          "agent": "muse",
+          "note": "Submitted as a prompt sent to Muse; the submission did not say how it went."
         }
       ]
     }

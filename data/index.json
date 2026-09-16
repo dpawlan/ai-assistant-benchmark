@@ -1,11 +1,7 @@
 {
   "updated": "2026-09-16",
   "agent_count": 115,
-<<<<<<< HEAD
-  "feedback_count": 5592,
-=======
-  "feedback_count": 5570,
->>>>>>> origin/main
+  "feedback_count": 5594,
   "confirmed": 88,
   "stretch": 27,
   "agents": [
@@ -523,11 +519,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-<<<<<<< HEAD
-      "feedback_count": 192,
-=======
-      "feedback_count": 193,
->>>>>>> origin/main
+      "feedback_count": 194,
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png",

@@ -1,10 +1,6 @@
 # Index
 
-<<<<<<< HEAD
-_Updated 2026-09-15. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
-=======
 _Updated 2026-09-16. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
->>>>>>> origin/main
 
 | Agent | Folder | Feedback rows | Last updated | Status | Signal |
 |-------|--------|---------------|--------------|--------|--------|
@@ -19,11 +15,7 @@ _Updated 2026-09-16. Status `stretch` = on the benchmark board but outside core 
 | Grok Bot | `agents/grok-bot/` | 176 | 2026-09-10 | confirmed | — |
 | Halo | `agents/halo/` | 5 | 2026-09-06 | confirmed | low |
 | HireAlpha | `agents/hirealpha/` | 4 | 2026-09-06 | confirmed | low |
-<<<<<<< HEAD
-| Instinct | `agents/instinct/` | 191 | 2026-09-15 | confirmed | — |
-=======
 | Instinct | `agents/instinct/` | 192 | 2026-09-16 | confirmed | — |
->>>>>>> origin/main
 | Joshu | `agents/joshu/` | 19 | 2026-09-06 | confirmed | — |
 | Lava | `agents/lava/` | 9 | 2026-09-06 | stretch | low |
 | Lucas | `agents/lucas/` | 11 | 2026-09-06 | confirmed | low |
@@ -36,18 +28,18 @@ _Updated 2026-09-16. Status `stretch` = on the benchmark board but outside core 
 | Pally | `agents/pally/` | 109 | 2026-09-11 | confirmed | — |
 | personal/local | `agents/personal-local/` | 763 | 2026-09-11 | confirmed | — |
 | Pneum.ai | `agents/pneum/` | 0 | — | stretch | unknown |
-| Poke | `agents/poke/` | 232 | 2026-09-15 | confirmed | — |
+| Poke | `agents/poke/` | 228 | 2026-09-11 | confirmed | — |
 | ShopOnScout / Scout | `agents/shoponscout/` | 10 | 2026-09-06 | stretch | low |
 | Shuffle | `agents/shuffle/` | 4 | 2026-09-06 | confirmed | low |
 | Sircle | `agents/sircle/` | 0 | — | stretch | unknown |
 | Skydive | `agents/skydive/` | 19 | 2026-09-06 | stretch | medium |
-| Slashy | `agents/slashy/` | 249 | 2026-09-15 | confirmed | — |
+| Slashy | `agents/slashy/` | 245 | 2026-09-11 | confirmed | — |
 | Soar | `agents/soar/` | 83 | 2026-09-09 | confirmed | — |
 | Synorb | `agents/synorb/` | 8 | 2026-09-06 | stretch | medium |
 | szn | `agents/szn/` | 20 | 2026-09-07 | confirmed | — |
 | Text Zero | `agents/text-zero/` | 9 | 2026-09-06 | stretch | low |
 | tinyNature | `agents/tinynature/` | 20 | 2026-09-08 | confirmed | medium |
-| Tomo | `agents/tomo/` | 66 | 2026-09-15 | confirmed | — |
+| Tomo | `agents/tomo/` | 63 | 2026-09-09 | confirmed | — |
 | Town | `agents/town/` | 300 | 2026-09-11 | confirmed | — |
 | Vellum | `agents/vellum/` | 34 | 2026-09-07 | confirmed | — |
 | Wajo / Fo | `agents/wajo-fo/` | 69 | 2026-09-11 | confirmed | — |

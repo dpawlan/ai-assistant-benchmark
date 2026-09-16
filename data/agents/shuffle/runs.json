@@ -118,5 +118,15 @@
     "outcome": "partial",
     "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; searched New York immediately with no city conflict check.",
     "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-11-blooio-memory-city"
+  },
+  {
+    "id": "shuffle-2026-09-16-blooio-memory-pref",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-16",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Week later it picked aisle seats unprompted and steered dinner away from pork-forward spots; an earlier ask missed a city clash with a trip.",
+    "evidence_url": "/agents/shuffle/evidence/shuffle-2026-09-16-blooio-memory-pref"
   }
 ]

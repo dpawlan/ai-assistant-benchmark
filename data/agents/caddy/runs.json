@@ -116,7 +116,7 @@
     "date": "2026-09-16",
     "score": 7,
     "outcome": "partial",
-    "notes": "Week-later preference probe (aisle + no pork seeded 2026-09-09): unprompted aisle-seat pick on NYC\u2192CHI flights; no unprompted no-pork/diet apply on Chicago dinner (Firehouse steakhouse recommended without diet caveat). Preference subscore 7; city subscore 10 (2026-09-11); final memory=min(7,10)=7. Stopped before United insurance/card; Firehouse pending Resy login (tester protocol, not docked).",
+    "notes": "Week later it picked aisle seats unprompted on the flights but recommended a steakhouse for dinner without applying the no-pork rule.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-16-blooio-memory-pref"
   }
 ]

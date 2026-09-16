@@ -108,5 +108,15 @@
     "outcome": "partial",
     "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; locked the date and proceeded without a city conflict check.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-11-blooio-memory-city"
+  },
+  {
+    "id": "tomo-2026-09-16-blooio-memory-pref",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-16",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Applied aisle seats and no-pork dinner unprompted on a week-later NYC–Miami flight and Miami dinner ask; earlier NY dinner same Saturday as a Chicago trip had no city conflict check (city=6). Pref subscore 10; final memory min(10,6)=6.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-09-16-blooio-memory-pref"
   }
 ]

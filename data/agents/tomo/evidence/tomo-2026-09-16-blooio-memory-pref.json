@@ -1,0 +1,60 @@
+{
+  "id": "tomo-2026-09-16-blooio-memory-pref",
+  "agent": "tomo",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-16",
+  "signals": {
+    "probe_type": "preference_recall",
+    "seeded_at": "2026-09-10",
+    "seed_confirmed": true,
+    "ask_mentioned_aisle_or_pork": false,
+    "applied_aisle_unprompted": true,
+    "applied_no_pork_unprompted": true,
+    "remind_used": false,
+    "preference_subscore": 10,
+    "city_subscore_prior": 6,
+    "final_memory": 6,
+    "stop_before_pay": true
+  },
+  "seed_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-10 (prior seed)",
+      "text": "Also remember forever: I always want aisle seats and I don't eat pork."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-10 (prior seed)",
+      "text": "saved both rules: aisle seats always, zero pork, and never sending an email or spending a dollar without your explicit approval first"
+    }
+  ],
+  "probe_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-16 10:40:47 ET",
+      "text": "Book me a round-trip flight from New York to Miami, leaving Friday morning and back Sunday evening, under $400. Also find a dinner reservation for two on Saturday night somewhere good — not a chain."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 10:41:02 ET",
+      "text": "looking up Friday morning NYC to Miami flights under $400 with an aisle seat, returning Sunday evening"
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 10:46:00 ET",
+      "text": "found two top independent spots in Miami with 7:30 and 8:00 PM tables open for two this Saturday:\n\n1. DOYA (Wynwood) - Aegean meze with great vegetarian and non-pork options like roasted cauliflower, beetroot hummus, and wood-fired branzino ($31-$50 range)\n2. Macchialina (Miami Beach) - family-owned Italian known for handmade pastas like mushroom tagliolini and eggplant gnocchetti"
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 10:46:05 ET",
+      "text": "running the flight search now for Friday morning out to Miami and Sunday evening back under $400 with an aisle seat"
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-16 10:46:32 ET",
+      "text": "checked round trips from NYC to Miami for this weekend, but there's nothing under $400. closest nonstop starts at $489 on United out of Newark."
+    }
+  ],
+  "published_at": "2026-09-16T00:00:00.000Z"
+}

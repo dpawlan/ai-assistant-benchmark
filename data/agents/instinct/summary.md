@@ -86,3 +86,6 @@ _Updated 2026-09-16 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-09-15) Cryptobriefing: Instinct seeking $1B at $10B valuation; user base > 100k; total funding $350M
 - (2026-09-15) DMNews: Reports of flight cancellation instead of lookup, $200 unauthorized restaurant no-show, and Resy account suspension from repeated reservation attempts
+
+_Updated 2026-09-15 weekday vault scan (+1 row)._
+- (2026-09-08) @altryne head-to-head: Instinct still searching while Muse booked via Link — booking speed comparison.

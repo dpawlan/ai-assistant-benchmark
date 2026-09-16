@@ -40,3 +40,11 @@ _Updated 2026-09-11 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-07-13) UseCarly: Poke is a launched, broadly-featured assistant that was the first third-party AI agent Apple approved to run inside iMessage, and it works a
 - (2026-08-10) anr0: it seems quite obvious that imessage is the best venue for consumer agents why was poke not a success?
+
+_Updated 2026-09-15 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-07-27) Notis founder ranking: "most polished iMessage-first experience, proactive help."
+- (2026-06-05) Reddit: memory/consistency complaints — "lost all past training/context."
+- (2026-07-13) UseCarly Poke vs Tomo: proactive assistant for email/calendar/reminders by text.
+- (2026-07-24) iChatWithGPT: Cognition acquisition; 100M messages, first Apple Business Chat approval.

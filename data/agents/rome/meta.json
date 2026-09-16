@@ -1,0 +1,27 @@
+{
+  "slug": "rome",
+  "name": "Rome",
+  "site": "https://romeos.cc/",
+  "handles": [
+    "RomeAILab"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Rome AI Lab's open-source agentic OS: a personal agent reachable on Telegram, WhatsApp, Discord, Lark and WeChat, plus an app store and developer platform. Self-host free on a Mac; hosted Pro $20/mo, Max $40/mo; hosted access is private preview by invitation. Comparable to OpenClaw. Requested via the form (issue #307).",
+  "public_signal": "low",
+  "tagline": "An open-source agentic OS you chat with on Telegram or WhatsApp",
+  "icon": "/logos/rome.png",
+  "kind": "infra",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free self-hosted · Pro $20/mo · Max $40/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Telegram",
+      "WhatsApp",
+      "Discord",
+      "Web"
+    ],
+    "checked": "2026-09-16"
+  }
+}

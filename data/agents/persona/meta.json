@@ -1,0 +1,27 @@
+{
+  "slug": "persona",
+  "name": "Persona",
+  "site": "https://yourpersona.com/",
+  "handles": [
+    "yourpersona",
+    "zach_yadegari"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal assistant over iMessage and an iOS app from Zach Yadegari (Cal AI): makes calls, books appointments, handles life admin. Optional Persona Band wearable, $179 preorder, ships December 2026. Assistant pricing not stated. Requested via the form by a third party (issue #310).",
+  "public_signal": "low",
+  "tagline": "The assistant that makes the calls and books the appointments",
+  "icon": "/logos/persona.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated (band $179 preorder)",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "iOS app",
+      "Web"
+    ],
+    "checked": "2026-09-16"
+  }
+}

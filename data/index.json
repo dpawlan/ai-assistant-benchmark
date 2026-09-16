@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-15",
-  "agent_count": 108,
-  "feedback_count": 5565,
-  "confirmed": 81,
+  "updated": "2026-09-16",
+  "agent_count": 115,
+  "feedback_count": 5568,
+  "confirmed": 88,
   "stretch": 27,
   "agents": [
     {
@@ -519,7 +519,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-      "feedback_count": 190,
+      "feedback_count": 191,
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png",
@@ -802,7 +802,7 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 100,
+      "feedback_count": 101,
       "public_signal": null,
       "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",
@@ -1090,7 +1090,7 @@
       "name": "Shuffle",
       "status": "confirmed",
       "site": "https://shuffle.cool/",
-      "feedback_count": 4,
+      "feedback_count": 5,
       "public_signal": "low",
       "tagline": "AI you can text and call for images, memes and more",
       "icon": "/logos/shuffle.png",
@@ -2390,6 +2390,158 @@
           "WhatsApp"
         ],
         "checked": "2026-09-15"
+      }
+    },
+    {
+      "slug": "persona",
+      "name": "Persona",
+      "status": "confirmed",
+      "site": "https://yourpersona.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The assistant that makes the calls and books the appointments",
+      "icon": "/logos/persona.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated (band $179 preorder)",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "iOS app",
+          "Web"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "faff",
+      "name": "Faff",
+      "status": "confirmed",
+      "site": "https://usefaff.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A WhatsApp assistant for life admin in India",
+      "icon": "/logos/faff.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "From ₹1,999/mo, unlimited tasks",
+        "regions": "India (Bangalore, Mumbai)",
+        "channels": [
+          "WhatsApp"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "bantr",
+      "name": "Bantr",
+      "status": "confirmed",
+      "site": "https://www.socialcompanyofus.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A text-message assistant for couples and families",
+      "icon": "/logos/bantr.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "Subscription, amount not stated (waitlist)",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "WhatsApp"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "rome",
+      "name": "Rome",
+      "status": "confirmed",
+      "site": "https://romeos.cc/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An open-source agentic OS you chat with on Telegram or WhatsApp",
+      "icon": "/logos/rome.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free self-hosted · Pro $20/mo · Max $40/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "WhatsApp",
+          "Discord",
+          "Web"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "ka",
+      "name": "Ka",
+      "status": "confirmed",
+      "site": "https://textka.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI personal assistant you text on iMessage",
+      "icon": "/logos/ka.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$14.99/mo",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "gemini-spark",
+      "name": "Gemini Spark",
+      "status": "confirmed",
+      "site": "https://gemini.google/overview/agent/spark/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Google's always-on agent mode inside Gemini",
+      "icon": "/logos/gemini-spark.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "Google AI Pro $19.99/mo or Ultra",
+        "regions": "US first, select countries",
+        "channels": [
+          "Web",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "ihermes",
+      "name": "iHermes",
+      "status": "confirmed",
+      "site": "https://ihermes.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A hosted Hermes Agent you text on iMessage",
+      "icon": "/logos/ihermes.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Plus $19/mo · Teams custom",
+        "regions": "US number",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Web"
+        ],
+        "checked": "2026-09-16"
       }
     }
   ]

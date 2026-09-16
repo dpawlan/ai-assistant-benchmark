@@ -4249,5 +4249,24 @@
     "source": "web",
     "collected_at": "2026-09-14T13:53:21.403Z",
     "notes": "Atlantic hands-on: CAPTCHA failure + Instinct self-quote."
+  },
+  {
+    "author_name": "",
+    "notes": "Submitted through the use-case form (issue #304). Submitter does not work on Instinct.",
+    "id": "c05a5e48909e",
+    "quote": "Asked Instinct to connect with Synorb and build a daily brief of what public and private AI companies are publishing. It connected with Synorb, provisioned itself API access, set up a Beacon covering over 75 companies, and now delivers a daily brief after reading the blogs, podcasts and press releases those companies publish.",
+    "author": "@bshivarthy",
+    "date": "2026-09-15",
+    "url": "https://github.com/dpawlan/ai-assistant-benchmark/issues/304",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "daily-brief",
+      "synorb",
+      "running-routine"
+    ],
+    "source": "submission",
+    "agent": "instinct",
+    "collected_at": "2026-09-16T16:52:08.215Z"
   }
 ]

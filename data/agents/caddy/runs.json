@@ -108,5 +108,15 @@
     "outcome": "pass",
     "notes": "Asked for a New York dinner the same Saturday as a prior Chicago trip; flagged the city conflict and asked which Saturday before searching.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-11-blooio-memory-city"
+  },
+  {
+    "id": "caddy-2026-09-16-blooio-memory-pref",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-16",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Week later it picked aisle seats unprompted on the flights but recommended a steakhouse for dinner without applying the no-pork rule.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-09-16-blooio-memory-pref"
   }
 ]

@@ -13,13 +13,13 @@
   "icon": "/logos/asaply.png",
   "kind": "general",
   "access": {
-    "pricing": "per-order",
-    "price": "Service fee per order, no subscription",
+    "pricing": "free",
+    "price": "Free to text; you pay for your order plus a service fee",
     "regions": "Rolling out by neighborhood",
     "channels": [
       "SMS",
       "iMessage"
     ],
-    "checked": "2026-09-09"
+    "checked": "2026-09-16"
   }
 }

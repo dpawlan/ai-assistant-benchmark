@@ -1,0 +1,46 @@
+{
+  "status": "raised",
+  "company": "Flip Laboratories Inc. (Flip Labs)",
+  "total_usd": 1400000,
+  "rounds": [
+    {
+      "type": "Pre-seed",
+      "amount_usd": 1400000,
+      "date": "2026-06",
+      "lead": [
+        "The House Fund"
+      ],
+      "source": "https://www.linkedin.com/posts/olegviatkin_were-excited-to-share-that-flip-labs-has-share-7468330079295549440-YG_R"
+    },
+    {
+      "type": "Accelerator",
+      "amount_usd": null,
+      "date": "2026-06",
+      "lead": [
+        "a16z speedrun"
+      ],
+      "source": "https://www.linkedin.com/posts/olegviatkin_were-excited-to-share-that-flip-labs-has-share-7468330079295549440-YG_R"
+    }
+  ],
+  "investors": [
+    "The House Fund",
+    "Pear VC",
+    "Cory Levy",
+    "a16z speedrun"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.linkedin.com/posts/olegviatkin_were-excited-to-share-that-flip-labs-has-share-7468330079295549440-YG_R",
+      "title": "Oleg Viatkin (co-founder): Flip Labs joined a16z speedrun and raised a 1.4M pre-seed",
+      "published": "2026-06-04"
+    },
+    {
+      "url": "https://fliptexts.com/",
+      "title": "Flip site banner 'New: $1.4M pre-seed' linking to the post; footer © Flip Laboratories Inc.",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

@@ -12,6 +12,12 @@ export function Footer({ index }: { index: IndexData }) {
       <p className="links">
         <Link href="/dimensions">Dimensions</Link> · <Link href="/request">Request a test</Link>
       </p>
+      <p className="credit">
+        Created by David Pawlan ·{' '}
+        <a href="https://x.com/DavidPawlan" target="_blank" rel="noopener noreferrer">
+          @DavidPawlan
+        </a>
+      </p>
     </footer>
   );
 }

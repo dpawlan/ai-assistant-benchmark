@@ -1,0 +1,22 @@
+{
+  "status": "subsidiary",
+  "company": "Meta Platforms",
+  "total_usd": null,
+  "rounds": [],
+  "investors": [],
+  "parent": "Meta",
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "title": "Introducing Muse: The World's First Personal AI Agent Built for Everyone",
+      "published": "2026-09-08"
+    },
+    {
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "published": "2026-09-08"
+    }
+  ],
+  "checked": "2026-09-15"
+}

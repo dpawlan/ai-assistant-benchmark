@@ -1,0 +1,66 @@
+{
+  "status": "raised",
+  "company": "BrainLogic AI (Zapia)",
+  "total_usd": 19300000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5000000,
+      "date": "2023-08",
+      "lead": [
+        "Factory HQ"
+      ],
+      "source": "https://www.newswire.com/news/zapia-the-first-personal-ai-assistant-for-latin-americans-raised-5m-in-22111613"
+    },
+    {
+      "type": "Seed extension",
+      "amount_usd": 7250000,
+      "date": "2025-04",
+      "lead": [
+        "Prosus Ventures"
+      ],
+      "source": "https://zapia.com/blog/investment-round-startup-12m?lang=en"
+    },
+    {
+      "type": "Seed extension",
+      "amount_usd": 7000000,
+      "date": "2026-03",
+      "lead": [
+        "Prosus Ventures"
+      ],
+      "source": "https://www.prosus.com/news-insights/2026/zapia-raises-dollar-7-million-seed-extension-from-prosus-ventures-to-launch-consumer-facing-autonomous-ai-agents"
+    }
+  ],
+  "investors": [
+    "Prosus Ventures",
+    "Factory HQ",
+    "Endeavor Catalyst",
+    "Anthos Capital",
+    "SnR"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.prosus.com/news-insights/2026/zapia-raises-dollar-7-million-seed-extension-from-prosus-ventures-to-launch-consumer-facing-autonomous-ai-agents",
+      "title": "Zapia raises $7M seed extension from Prosus Ventures – Prosus",
+      "published": "2026-03-03"
+    },
+    {
+      "url": "https://zapia.com/blog/investment-round-startup-12m?lang=en",
+      "title": "Zapia Secures over $12M in Total Seed Funding",
+      "published": "2025-04-29"
+    },
+    {
+      "url": "https://latamlist.com/zapia-raises-7-25m-seed-extension/",
+      "title": "Zapia raises $7.25M seed extension - LatamList",
+      "published": "2025-04-30"
+    },
+    {
+      "url": "https://www.newswire.com/news/zapia-the-first-personal-ai-assistant-for-latin-americans-raised-5m-in-22111613",
+      "title": "Zapia... Raised $5M in Silicon Valley | Newswire",
+      "published": "2023-08-22"
+    }
+  ],
+  "checked": "2026-09-15"
+}

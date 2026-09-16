@@ -1,0 +1,37 @@
+{
+  "status": "raised",
+  "company": "Lava (Lava Payments)",
+  "total_usd": 5800000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5800000,
+      "date": "2025-08",
+      "lead": [
+        "Lerer Hippeau"
+      ],
+      "source": "https://techcrunch.com/2025/08/06/billing-platform-lava-raises-5-8m-to-build-digital-wallets-for-the-agent-native-economy/"
+    }
+  ],
+  "investors": [
+    "Lerer Hippeau",
+    "Harlem Capital",
+    "Streamlined Ventures",
+    "Westbound Equity"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://techcrunch.com/2025/08/06/billing-platform-lava-raises-5-8m-to-build-digital-wallets-for-the-agent-native-economy/",
+      "title": "Payment platform Lava raises $5.8M to build digital wallets for the 'agent-native economy'",
+      "published": "2025-08-06"
+    },
+    {
+      "url": "https://lavapayments.com/",
+      "title": "lavapayments.com redirects to www.lava.so",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

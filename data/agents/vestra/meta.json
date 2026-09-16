@@ -1,0 +1,43 @@
+{
+  "slug": "vestra",
+  "name": "Vestra",
+  "site": "https://vestra.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Vestra is an 'agent office': an executor agent (Bash) plans and runs tasks on its own cloud computer with specialist sub-agents, and a memory agent (Nami) keeps context and suggests work on its own. You can reach it from the Mac app, the web, iMessage, WhatsApp, Telegram, Slack or by email. Requested via the form (issue #211).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "tagline": "Your Self-building Agent Office",
+  "icon": "/logos/vestra.png",
+  "kind": "work",
+  "access": {
+    "pricing": "credits",
+    "price": "1,000 free credits to start · Lite $19/mo · Pro $97/mo · Max $197/mo · Ultra $497/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "Web app",
+      "iMessage",
+      "WhatsApp",
+      "Telegram",
+      "Slack",
+      "Email"
+    ],
+    "checked": "2026-09-15"
+  }
+}

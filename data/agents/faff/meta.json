@@ -1,0 +1,24 @@
+{
+  "slug": "faff",
+  "name": "Faff",
+  "site": "https://usefaff.com/",
+  "handles": [
+    "usefaff"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "WhatsApp-only personal assistant for non-work life admin in India (Bangalore, Mumbai; cross-city once onboarded): groceries, repairs, travel, gifting, appointments. Human plus AI operations. Founders Het Patel and Anirudh Mittal, ~$2.6M raised. India-centric service area, so US booking and calling tasks may be out of scope. Requested via the form (issue #309).",
+  "public_signal": "low",
+  "tagline": "A WhatsApp assistant for life admin in India",
+  "icon": "/logos/faff.png",
+  "kind": "general",
+  "access": {
+    "pricing": "paid",
+    "price": "From ₹1,999/mo, unlimited tasks",
+    "regions": "India (Bangalore, Mumbai)",
+    "channels": [
+      "WhatsApp"
+    ],
+    "checked": "2026-09-16"
+  }
+}

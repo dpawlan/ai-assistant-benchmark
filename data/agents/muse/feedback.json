@@ -140,7 +140,11 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Community planning: redevelopment concept, mock-up, funding roadmap, and stakeholder research."
+    "notes": "Community planning: redevelopment concept, mock-up, funding roadmap, and stakeholder research.",
+    "metrics": {
+      "missing": true,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e036f3fa2c69",
@@ -157,7 +161,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Real-world evaluation of mail, notes, calendar, memory, and trust boundaries."
+    "notes": "Real-world evaluation of mail, notes, calendar, memory, and trust boundaries.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 19,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "768f26ee1041",
@@ -174,7 +185,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Generated a comic-book sports recap and scheduled recurring Monday delivery."
+    "notes": "Generated a comic-book sports recap and scheduled recurring Monday delivery.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 290,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "0e863b411f64",
@@ -191,7 +209,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "End-to-end appointment scheduling, phone/email outreach, forms, and calendar updates."
+    "notes": "End-to-end appointment scheduling, phone/email outreach, forms, and calendar updates.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 30,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b940773d2e1e",
@@ -208,7 +233,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Large-scale travel search across cash fares, award points, origins, destinations, and dates."
+    "notes": "Large-scale travel search across cash fares, award points, origins, destinations, and dates.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 57,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "37e1044945f1",
@@ -225,7 +257,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Browsing-free local discovery followed by booking and payment."
+    "notes": "Browsing-free local discovery followed by booking and payment.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 73,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "ba26505afda1",
@@ -242,7 +281,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Direct report of using Muse for big-ticket shopping."
+    "notes": "Direct report of using Muse for big-ticket shopping.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 56,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b132eaee6f3e",
@@ -259,7 +305,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Iterative educational-content creation with screenshot-based debugging."
+    "notes": "Iterative educational-content creation with screenshot-based debugging.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 444,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "5f9a4410706f",
@@ -276,7 +329,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Family administration: shopping, scheduled booking, and budget logging."
+    "notes": "Family administration: shopping, scheduled booking, and budget logging.",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 1718,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "1a05ec483011",
@@ -293,7 +353,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Concrete flight purchase testimonial."
+    "notes": "Concrete flight purchase testimonial.",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 23,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "e0f4827b6a8b",
@@ -310,7 +377,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Restaurant and parking reservations, large-scale research, and playlist creation."
+    "notes": "Restaurant and parking reservations, large-scale research, and playlist creation.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "b7cbe2de9dfc",
@@ -327,7 +401,14 @@
     ],
     "source": "x",
     "collected_at": "2026-09-14T16:14:00Z",
-    "notes": "Flight booking plus payment troubleshooting and completion."
+    "notes": "Flight booking plus payment troubleshooting and completion.",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 75,
+      "fetched": "2026-09-14"
+    }
   },
   {
     "id": "fc3e8c09795f",
@@ -1543,5 +1624,887 @@
     "source": "hn",
     "collected_at": "2026-09-11T14:00:42Z",
     "notes": "Speed praise for Muse Spark 1.3 contrib on OpenCode Go."
+  },
+  {
+    "id": "087eb0a2d43b",
+    "agent": "muse",
+    "quote": "I used Muse today to apply for visa. If you have never applied for visa, congrats, bc visa application is one of the worst things in human bureaucracy machine.\n\nanyways, i got Muse to:\n- book a multi-legged refundable flight\n- book a refundable hotel\n- get my bank statement to prove i can pay\n- dig through my emails to find all my papers (passport photo, i94, etc.)\n- write an itinerary plan for what i would be doing each day\n- fill out the form from the website\n\nwhich is pretty good! but some problems i bumped into:\n- i needed a passport photo, so I used chatgpt to change a selfie into a passport photo. Muse could upload it, but you needed to size the photo to fit in the frame and Muse couldn't do it, so I had to do it myself.\n- Muse couldn't upload the rest of the files, so i had to upload everything.\n- while i uploaded, i realized 1 of the document field could only be JPG (not PDF! why did it not accept pdf??) so i asked muse to convert the PDF to JPG. also they didn't accept images > 2MB so also had to ask Muse to compress all my photos. i wish it just noticed that and fixed it itself.\n- i also realized there was a bunch of details Muse was missing (e.g. there were more docs that we needed, extra flights to book etc. to follow the instruction)\n- i realized i needed to book an extra flight, and it has strong enough bot detection that Muse couldn't do it itself :( so i had to book it manually.\n\nin the end, Muse did ~70% of the work, and i still had to spend ~1 hour on it. but it's like 1 hour of annoyance (i bumped into issue, i had to fix/ delegate to Muse, bumped into another issue, etc.) so i'm still pretty grumpy by the end.\n\ni'm grateful; but also if someone can build a visa application bench & train computer use agent on this successfully that person can have all of my money.",
+    "author": "@sherlockieee",
+    "author_name": "Ha Tran Nguyen Phuong",
+    "date": "2026-09-14",
+    "url": "https://x.com/sherlockieee/status/2099371464969589123",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x",
+      "x",
+      "use-case",
+      "visa",
+      "travel",
+      "forms"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T18:47:21.793Z",
+    "notes": "added by hand from a link David sent",
+    "metrics": {
+      "likes": 101,
+      "reposts": 3,
+      "replies": 5,
+      "views": 14285,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "1326080ada73",
+    "agent": "muse",
+    "quote": "@Muse is currently connecting/disconnecting. Please fix cc @alexandr_wang @finkd it's hitting 429s on your own monitoring endpoint. Pls fix\n\nLogs:\nPOST https://t.co/DVw3iiP8fb?... 429 (Too Many Requests)\n\n[NoiseStreamTable] Noise response exceeded byte limit\nGatewayRequestError: Noise response exceeded 4194304-byte limit for activity.subscribe\n\n[HatchQuerySubscriptions] Failed to subscribe to filesystem updates\nGatewayRequestError: subscription response byte limit",
+    "author": "@grandnarrativ3",
+    "author_name": "GrandNarrative",
+    "date": "2026-09-13",
+    "url": "https://x.com/grandnarrativ3/status/2098971546169577695",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 231,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "d39e9582580e",
+    "agent": "muse",
+    "quote": "@Muse @andrewdsouza Check out Muse: https://t.co/e84F5tCZvS\n\n🥱👀😉",
+    "author": "@annalea_l",
+    "author_name": "Annalea L",
+    "date": "2026-09-12",
+    "url": "https://x.com/annalea_l/status/2098923459543736654",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 37,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "7ece7d548c3f",
+    "agent": "muse",
+    "quote": "@MattPRD @Muse I tried to open https://t.co/uOW2FJxqkS in safari and it won’t let me login. When I go to settings in phone to see my account details/change password, the accounts center wouldn’t load. https://t.co/5BzMXpWKrm",
+    "author": "@rsjagarlamudi",
+    "author_name": "Radha S Jagarlamudi",
+    "date": "2026-09-12",
+    "url": "https://x.com/rsjagarlamudi/status/2098911151216353400",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 21,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "90bf7e18dd4c",
+    "agent": "muse",
+    "quote": "I created this finance and net worth tracker in @Muse space. Muse also created this demo space + the prompt to recreate this experience. Check it out! It’s very cool and handy! https://t.co/8Q86EYKurj",
+    "author": "@anniehu824",
+    "author_name": "Annie Hu",
+    "date": "2026-09-12",
+    "url": "https://x.com/anniehu824/status/2098898238451732582",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 35,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "1ac6bdbd34ef",
+    "agent": "muse",
+    "quote": "@ChilesJordan's Muse agent Juno keeps her  on top of everything, so her downtime can actually stay downtime.\n\nStay on top of what matters to you with your Muse on the Muse app: https://t.co/xOcWxCqzk6 https://t.co/Fn7PcxpiMd",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-12",
+    "url": "https://x.com/Muse/status/2098897093071122550",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 54,
+      "reposts": 5,
+      "replies": 10,
+      "views": 12024,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "5b3e1c7be472",
+    "agent": "muse",
+    "quote": "Keeping @AllymissLove's  business moving so her me-time can stay sacred.\n\n Download the Muse app to get started: https://t.co/xOcWxCqzk6 https://t.co/WDsfUHLGDK",
+    "author": "@Muse",
+    "author_name": "Muse",
+    "date": "2026-09-12",
+    "url": "https://x.com/Muse/status/2098857741804847126",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "vendor"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 85,
+      "reposts": 5,
+      "replies": 13,
+      "views": 12395,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "d3a9be5ffbe2",
+    "agent": "muse",
+    "quote": "Full story is up: how @muse reverse-engineered my food tracker from a single sentence — found my GitHub repo, mapped the hidden API, locked my password in a vault. And the article itself? Written by the same agent. The loop is closed. https://t.co/qNFvdEMdjD",
+    "author": "@ohkamisli",
+    "author_name": "Ömer Hamid Kamışlı 🇹🇷",
+    "date": "2026-09-12",
+    "url": "https://x.com/ohkamisli/status/2098819136180916675",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 9,
+      "reposts": 1,
+      "replies": 3,
+      "views": 858,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "416d49aea000",
+    "agent": "muse",
+    "quote": "@Muse\nhttps://t.co/YuW1Lhi9Bi",
+    "author": "@PipeBladex",
+    "author_name": "PREEM//The Unofficial Muse Guy",
+    "date": "2026-09-12",
+    "url": "https://x.com/PipeBladex/status/2098814924092833796",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "47cb2c7c7a82",
+    "agent": "muse",
+    "quote": "Sent from the Muse app.\nhttps://t.co/k3jq0yM4UO https://t.co/vlpixuI7kP",
+    "author": "@RoboticsAIOps",
+    "author_name": "RoboticsAI",
+    "date": "2026-09-12",
+    "url": "https://x.com/RoboticsAIOps/status/2098803069215711691",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 36,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "7fa37c69b107",
+    "agent": "muse",
+    "quote": "@MattPRD @Muse release https://t.co/I0pa1XBc14 in UK, USA should be more friendly to UK seems they forget most of you are related to us.",
+    "author": "@zerotalktoai",
+    "author_name": "Zero",
+    "date": "2026-09-12",
+    "url": "https://x.com/zerotalktoai/status/2098749698559398301",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.451Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 1,
+      "replies": 0,
+      "views": 39,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "92a4a162a058",
+    "agent": "muse",
+    "quote": "@MattPRD @Muse Meet Weirdo, my personal agent. Join Muse and create your own agent today. https://t.co/fzccMBBxzZ",
+    "author": "@JustinPerea",
+    "author_name": "Justin.md",
+    "date": "2026-09-11",
+    "url": "https://x.com/JustinPerea/status/2098542198627119104",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "5957a2342e35",
+    "agent": "muse",
+    "quote": "@MattPRD @Muse Hi, I'm Tebo, TRISTAN's personal agent. Join Muse and create your own agent today. https://t.co/Waj6yKfLHl",
+    "author": "@tristan_ingold",
+    "author_name": "Tristan Ingold",
+    "date": "2026-09-11",
+    "url": "https://x.com/tristan_ingold/status/2098502498558308602",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 25,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "b2fc7d92ef38",
+    "agent": "muse",
+    "quote": "FACT: Meta launched Muse US (8 Sep) — personal agent on iOS/Android/muse.ai; free + paid tiers (Meta).\n\nFACT: Wed $META +6.51% to $653.39.\n\nTAKE: The product bet is trust + task handoff, not chat novelty.\n\nNot financial advice.",
+    "author": "@just_asx",
+    "author_name": "Mate",
+    "date": "2026-09-11",
+    "url": "https://x.com/just_asx/status/2098425886215438628",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 3,
+      "views": 108,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "37029c550171",
+    "agent": "muse",
+    "quote": "You can customize your @Muse avatar and share it! Try it now on https://t.co/8vPBzcysCK https://t.co/UlkFcAd8Mb",
+    "author": "@christinesed",
+    "author_name": "Christine Awad",
+    "date": "2026-09-11",
+    "url": "https://x.com/christinesed/status/2098259891362431399",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 47,
+      "reposts": 7,
+      "replies": 4,
+      "views": 51412,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "0389a64a4e31",
+    "agent": "muse",
+    "quote": "@Percival @Muse Nvm - see if this works https://t.co/1g4FengyJJ",
+    "author": "@conorop",
+    "author_name": "Conor O'Phelan",
+    "date": "2026-09-11",
+    "url": "https://x.com/conorop/status/2098227997106938080",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 78,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "6a09ec9d978b",
+    "agent": "muse",
+    "quote": "Been playing around with Meta Muse for about 10 minutes. Unbelievable. $META\n\n https://t.co/mP1YDDGKhA",
+    "author": "@MattMahler5",
+    "author_name": "Dumb Money",
+    "date": "2026-09-10",
+    "url": "https://x.com/MattMahler5/status/2098178217819668487",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 75,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "3d38f255139b",
+    "agent": "muse",
+    "quote": "Your @Muse agent, talking to @grok\nvia Hermes Studio in https://t.co/7kntbRmiNY\nhttps://t.co/Mjfl4TbhpF\n\nadded new feature today that saves anything you install in the terminal to Muse's actual computer so its still there after reboot. Muse is essentially free Grok Bot with TerMuse added, amazing rate limit",
+    "author": "@kyfriedfella",
+    "author_name": "jake",
+    "date": "2026-09-10",
+    "url": "https://x.com/kyfriedfella/status/2098168613538877512",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 235,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "de47aebcfa1f",
+    "agent": "muse",
+    "quote": "@1kartikkabadi1 @Muse Check out Muse: https://t.co/y24zce08EM",
+    "author": "@ItsCuthulhu",
+    "author_name": "Cuth",
+    "date": "2026-09-10",
+    "url": "https://x.com/ItsCuthulhu/status/2098106499591508431",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:03.452Z",
+    "notes": "query: \"muse.ai\" since:2026-09-05 until:2026-09-12 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 32,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "8c5f7ac6dd53",
+    "agent": "muse",
+    "quote": "@vatsalk9 @ccg33k @Muse Try https://t.co/0WFrcNpg8W",
+    "author": "@justcardz",
+    "author_name": "Just Cards",
+    "date": "2026-09-14",
+    "url": "https://x.com/justcardz/status/2099573570477359377",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 18,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "436175b3122d",
+    "agent": "muse",
+    "quote": "https://t.co/YcStoJ94YS\nshow this to ur @Muse .",
+    "author": "@Rayblancoeth",
+    "author_name": "rayblanco.eth",
+    "date": "2026-09-14",
+    "url": "https://x.com/Rayblancoeth/status/2099564100103586216",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 2,
+      "views": 105,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "e5452f1cdb72",
+    "agent": "muse",
+    "quote": "@IndependentEco try @Muse https://t.co/YuW1Lhi9Bi",
+    "author": "@PipeBladex",
+    "author_name": "PREEM//The Unofficial Muse Guy",
+    "date": "2026-09-14",
+    "url": "https://x.com/PipeBladex/status/2099522101514322389",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 26,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "c1478dadfc40",
+    "agent": "muse",
+    "quote": "@Im_IrushiK try @Muse https://t.co/YuW1Lhi9Bi",
+    "author": "@PipeBladex",
+    "author_name": "PREEM//The Unofficial Muse Guy",
+    "date": "2026-09-14",
+    "url": "https://x.com/PipeBladex/status/2099521082768158724",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 27,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "f56b39c5e879",
+    "agent": "muse",
+    "quote": "I went through hundreds of posts to find what people are actually getting done with @muse.\n\n128 real use cases, organized by category; each with the original source and a prompt you can copy.\n\nhttps://t.co/zdBgTUEbQy https://t.co/kMIibhpzYL",
+    "author": "@armand_ruiz",
+    "author_name": "armand",
+    "date": "2026-09-14",
+    "url": "https://x.com/armand_ruiz/status/2099514874875511062",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 119,
+      "reposts": 7,
+      "replies": 15,
+      "views": 10514,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "b8f037abef90",
+    "agent": "muse",
+    "quote": "Ok I’m in. Here’s my little @Muse:\nHi, I'm Q, Jesse's personal AI agent. Join Muse and create your own agent today.\nhttps://t.co/QfjObmwMPz https://t.co/BTd0dkSh7d",
+    "author": "@jessenowlin",
+    "author_name": "Jesse Nowlin🎙Google Developer Expert",
+    "date": "2026-09-14",
+    "url": "https://x.com/jessenowlin/status/2099402304294453720",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 761,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "44c7fa539fad",
+    "agent": "muse",
+    "quote": "@AeroLxC @bot @Muse Nothing fool start with https://t.co/YSNQjD7jUx then just go down the rabbit hole in YouTube",
+    "author": "@SlumBreeze_",
+    "author_name": "Breeze | The Quiet Forge",
+    "date": "2026-09-14",
+    "url": "https://x.com/SlumBreeze_/status/2099311088550437173",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 1,
+      "views": 38,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "b2dc9dfbf63b",
+    "agent": "muse",
+    "quote": "$META Muse AI personal assistant (https://t.co/xm9iAhArpu) has won the crown for AI agents. Good work @alexandr_wang .\n\nIts better in every way imaginable over Instinct. That said, I have 15 instinct invites to giveaway in case you don't have access to either -- just reply.",
+    "author": "@GrowthSumarai",
+    "author_name": "ankitpatel.eth",
+    "date": "2026-09-14",
+    "url": "https://x.com/GrowthSumarai/status/2099304230536323096",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 132,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "7e8d94070a99",
+    "agent": "muse",
+    "quote": "@muse Siri AI Unlocked another website Muse AI helped me build https://t.co/oONRWgC2pA",
+    "author": "@kottley",
+    "author_name": "kottley🦬",
+    "date": "2026-09-13",
+    "url": "https://x.com/kottley/status/2099237973057233251",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 0,
+      "views": 55,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "9f525940062d",
+    "agent": "muse",
+    "quote": "Muse AI Unlocked - Under Contruction https://t.co/QreeYM3YLO\n\n@muse",
+    "author": "@kottley",
+    "author_name": "kottley🦬",
+    "date": "2026-09-13",
+    "url": "https://x.com/kottley/status/2099236671057211412",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 51,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "63ef073553df",
+    "agent": "muse",
+    "quote": "Muse AI: @muse What can you do for me?  How about help me track the AI Gone Bad with a website &amp; Podcasts at https://t.co/YnUyTvSvyu\n\nThere are 4 excellent podcasts and synopsis of many of the articles that hit X this weekend on both sides.",
+    "author": "@kottley",
+    "author_name": "kottley🦬",
+    "date": "2026-09-13",
+    "url": "https://x.com/kottley/status/2099235873099219300",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 44,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "843554dfcd02",
+    "agent": "muse",
+    "quote": "@GiorgioMantova @alexandr_wang @Muse https://t.co/9tMPJrbR4r was the appetizer. https://t.co/zLNVlm8KDD is the main course.",
+    "author": "@plumberbutt97",
+    "author_name": "🍉",
+    "date": "2026-09-13",
+    "url": "https://x.com/plumberbutt97/status/2099179559937519873",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 0,
+      "views": 33,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "a591d0678462",
+    "agent": "muse",
+    "quote": "@alexandr_wang @Muse Where is Muse available?\nI've been using https://t.co/QDc4csqs10\nSo now there's https://t.co/JkZhztYLu0\n\nAre you going to create a new url for each new model?\n\nBrilliant. Thanks.",
+    "author": "@GiorgioMantova",
+    "author_name": "Giorgio",
+    "date": "2026-09-13",
+    "url": "https://x.com/GiorgioMantova/status/2099176886693667299",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 0,
+      "reposts": 0,
+      "replies": 1,
+      "views": 112,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "3c4e016231c5",
+    "agent": "muse",
+    "quote": "I recently started posting more on @X. I asked @Muse for a deep dive into the x algorithm. Iterated a little and got pretty clean easy to read version.\n\nhttps://t.co/8xmlzSkjdj",
+    "author": "@dhruv_arya",
+    "author_name": "Dhruv Arya",
+    "date": "2026-09-13",
+    "url": "https://x.com/dhruv_arya/status/2099140450426982773",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "replies": 1,
+      "views": 46,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "5df54d221ccf",
+    "agent": "muse",
+    "quote": "@MattPRD @Muse Thank you !\n\nWould be even better if I could actually get access to https://t.co/RWqnPynS3k . Still waiting on the waitlist 😅",
+    "author": "@noctus91",
+    "author_name": "Noctus",
+    "date": "2026-09-13",
+    "url": "https://x.com/noctus91/status/2099103927606350140",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "x",
+      "reply"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 1,
+      "reposts": 0,
+      "replies": 0,
+      "views": 98,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "id": "42a278dcdb46",
+    "agent": "muse",
+    "quote": "@Muse for shopping clothes has been incredible for creating a “Try on” page. I now have a September Collection:\nhttps://t.co/2SH2mHrd5F\n\nMuse and @alexandr_wang have nailed the personal agent! https://t.co/z3eJ1fVsjl",
+    "author": "@raunaqbn",
+    "author_name": "raunaq",
+    "date": "2026-09-13",
+    "url": "https://x.com/raunaqbn/status/2099022986980606454",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-09-14T19:02:22.380Z",
+    "notes": "query: \"muse.ai\" since:2026-09-12 until:2026-09-14 -filter:retweets",
+    "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "replies": 1,
+      "views": 142,
+      "fetched": "2026-09-14"
+    }
+  },
+  {
+    "author_name": "",
+    "notes": "Submitted anonymously through the use-case form (issue #226); the submission gives the prompt but not how it went.",
+    "id": "c1df7111209e",
+    "quote": "Asked Muse to append to a finance spreadsheet: go through email for payments after September 4th, open the budgeting spreadsheet, and append them to the bottom in chronological order following the existing template.",
+    "author": "a form submission",
+    "date": "2026-09-15",
+    "url": "https://github.com/dpawlan/ai-assistant-benchmark/issues/226",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "spreadsheet",
+      "email",
+      "chained-tasks"
+    ],
+    "source": "submission",
+    "agent": "muse",
+    "collected_at": "2026-09-16T16:52:08.215Z"
   }
 ]

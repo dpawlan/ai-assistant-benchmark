@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
 import { BenchmarkStrip } from '@/components/BenchmarkStrip';
 import { LatestFeed } from '@/components/LatestFeed';
@@ -12,11 +13,23 @@ export default function HomePage() {
 
   return (
     <div className="wrap wide">
-      <div className="page-head">
-        <h1 className="page-title">Scorecard</h1>
-        <p className="page-sub">
-          {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale. Overall is a running mean until an assistant is fully tested.
-        </p>
+      <div className="page-head home-head">
+        <div>
+          <h1 className="page-title">Scorecard</h1>
+          <p className="page-sub">
+            {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale. Overall is a running mean until an assistant is fully
+            tested.
+          </p>
+        </div>
+        <div className="home-head-right">
+          <Link href="/about" className="head-link">
+            About
+          </Link>
+          <Link href="/use-cases" className="head-prompt">
+            <span className="head-prompt-q">Not sure what to use an assistant for?</span>
+            <span className="head-prompt-a">See what people get them to do →</span>
+          </Link>
+        </div>
       </div>
 
       <BenchmarkStrip updated={index.updated} />

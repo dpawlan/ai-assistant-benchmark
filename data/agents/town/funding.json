@@ -1,0 +1,54 @@
+{
+  "status": "raised",
+  "company": "Town.com, Inc.",
+  "total_usd": 73000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 18000000,
+      "date": "2025-03",
+      "lead": [
+        "First Round Capital"
+      ],
+      "source": "https://www.fintechfutures.com/regtech/us-tax-start-up-town-launches-with-18m-seed-round-led-by-first-round-capital"
+    },
+    {
+      "type": "Series A",
+      "amount_usd": 55000000,
+      "date": "2026-06",
+      "lead": [
+        "Andreessen Horowitz"
+      ],
+      "source": "https://www.town.com/press/series-a"
+    }
+  ],
+  "investors": [
+    "Andreessen Horowitz",
+    "First Round Capital",
+    "Forerunner Ventures",
+    "Alt Capital",
+    "Conviction",
+    "Mischief",
+    "WndrCo"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.town.com/press/series-a",
+      "title": "Town Raises $55M Series A | Town",
+      "published": null
+    },
+    {
+      "url": "https://fortune.com/2026/06/03/towns-ai-assistants-andreessen-horowitz-forerunner-55-million/",
+      "title": "Andreessen Horowitz and Forerunner are betting $55 million on Town's deeply personal AI assistants | Fortune",
+      "published": "2026-06-03"
+    },
+    {
+      "url": "https://www.fintechfutures.com/regtech/us-tax-start-up-town-launches-with-18m-seed-round-led-by-first-round-capital",
+      "title": "US tax start-up Town launches with $18m seed round led by First Round Capital",
+      "published": "2025-03-19"
+    }
+  ],
+  "checked": "2026-09-15"
+}

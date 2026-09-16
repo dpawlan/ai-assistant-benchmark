@@ -3,6 +3,10 @@
  * Collect public quotes about each assistant.
  *
  *   node scripts/collect.mjs x         --slug instinct,poke [--since 2026-06-01] [--until 2026-09-08] [--window 7] [--headed]
+ *   node scripts/collect.mjs x         --query '"boarding pass" min_faves:20' [--since ...]   one search, filed under every assistant it names
+ *   node scripts/collect.mjs x         --usecases [--faves 5] [--since 2026-08-01] [--window 30]
+ *                                       nine action-phrased searches (booked, ordered, refund, called, routine...) across
+ *                                       Muse, Instinct and Grok Bot; the posts people actually engaged with, not every mention
  *   node scripts/collect.mjs reddit    [--slug ...]
  *   node scripts/collect.mjs hn        [--slug ...]
  *   node scripts/collect.mjs appstore  [--slug ...] [--country us]
@@ -182,6 +186,20 @@ export function writeInbox(source, slug, items) {
 }
 
 /** Drop records already in feedback.json or the inbox, and anything that doesn't mention the product. */
+/** Dedupe against what we already hold, without the per-agent name test: for searches that already name the product. */
+export function filterNewLoose(slug, items) {
+  const k = known(slug);
+  const out = [];
+  const seen = new Set();
+  for (const r of items) {
+    const u = normalizeUrl(r.url);
+    if (k.urls.has(u) || k.ids.has(r.id) || seen.has(u)) continue;
+    seen.add(u);
+    out.push(r);
+  }
+  return out;
+}
+
 export function filterNew(slug, cfg, items) {
   const k = known(slug);
   const out = [];
@@ -300,53 +318,137 @@ async function collectX() {
     }
   });
 
+  /** Run one base query over every date window, collecting into `seen`. Retries a window after a rate limit; `flush` saves progress after each window. */
+  const runQuery = async (base, flush) => {
+    for (const [a, b] of dateWindows(since, until, windowDays)) {
+      const q = `${base} since:${a} until:${b} -filter:retweets`;
+      currentQuery = q;
+      const before = seen.size;
+      let loaded = false;
+      for (let attempt = 0; attempt < 3 && !loaded; attempt++) {
+        await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
+        await sleep(2500);
+        if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
+          console.log(`  rate limited; sleeping 15 minutes, then retrying (${attempt + 1}/3)`);
+          await sleep(15 * 60 * 1000);
+        } else loaded = true;
+      }
+      if (!loaded) {
+        console.log(`  ${q}  skipped after 3 rate limits`);
+        continue;
+      }
+      let stale = 0;
+      let last = seen.size;
+      for (let i = 0; i < maxScrolls; i++) {
+        await page.mouse.wheel(0, 3500);
+        await jitter(900, 1600);
+        if (seen.size === last) {
+          if (++stale >= 3) break;
+        } else {
+          stale = 0;
+          last = seen.size;
+        }
+      }
+      console.log(`  ${q}  +${seen.size - before}`);
+      if (flush) flush();
+      await jitter(2500, 5000);
+    }
+  };
+
+  const toRecord = (slug, cfg, t) =>
+    record({
+      slug,
+      quote: t.text,
+      author: `@${t.screen}`,
+      author_name: t.name,
+      date: toDate(t.created_at),
+      url: t.url,
+      source: 'x',
+      tags: [...(isVendor(cfg, t.screen) ? ['vendor'] : []), ...(t.is_reply ? ['reply'] : [])],
+      notes: `query: ${t.query}`,
+    });
+
   try {
+    // Use-case mode: a short list of searches aimed at posts where someone says an assistant DID something.
+    // X's own min_faves: filter keeps it to posts people actually engaged with, which is also far fewer requests.
+    if (opts.usecases) {
+      const names = String(opts.usecases) === 'true' ? 'muse OR instinct OR "grok bot" OR grokbot OR @bot' : String(opts.usecases);
+      const faves = Number(opts.faves ?? 5);
+      const QUERIES = [
+        `(${names}) (booked OR "booked me" OR "boarding pass" OR "checked me in" OR "checked in" OR rebooked) min_faves:${faves}`,
+        `(${names}) (ordered OR bought OR checkout OR "added to cart" OR reordered) min_faves:${faves}`,
+        `(${names}) (subscription OR subscriptions OR refund OR refunded OR cancelled OR canceled) min_faves:${faves}`,
+        `(${names}) (called OR "called the" OR "phone call" OR "on hold") min_faves:${faves}`,
+        `(${names}) (inbox OR "my email" OR "drafted a reply" OR "replied to") min_faves:${faves}`,
+        `(${names}) ("every morning" OR routine OR briefing OR "each day" OR overnight) min_faves:${faves}`,
+        `(${names}) (built OR made OR created) (app OR site OR website OR tracker OR dashboard OR game) min_faves:${faves}`,
+        `("i asked muse" OR "i asked instinct" OR "i had muse" OR "i had instinct" OR "my grok bot" OR "i got muse") min_faves:2`,
+        `(${names}) ("use case" OR "use cases" OR "real things it did" OR "here's what it did") min_faves:${faves}`,
+      ];
+      // These queries already carry the product name, so route on the product word itself rather than the strict
+      // per-agent match terms, which are tuned for name-only searches.
+      const ROUTE = [
+        ['muse', /\bmuse\b/i],
+        ['instinct', /\binstinct\b/i],
+        ['grok-bot', /\bgrok ?bot\b|@bot\b/i],
+      ];
+      const found = new Map();
+      for (const q of QUERIES) {
+        seen.clear();
+        await runQuery(q);
+        for (const [id, t] of seen) if (!found.has(id)) found.set(id, t);
+        // File progress after each query so an interrupted run keeps what it has.
+        for (const [slug, re] of ROUTE) {
+          const cfg = sources[slug];
+          if (!cfg) continue;
+          const items = [...found.values()].filter(t => re.test(t.text)).map(t => toRecord(slug, cfg, t));
+          const fresh = filterNewLoose(slug, items);
+          if (fresh.length) writeInbox('x', slug, fresh);
+        }
+      }
+      let total = 0;
+      for (const [slug] of ROUTE) total += readJson(inboxFile('x', slug), []).length;
+      console.log(`\nuse-case search: ${found.size} posts seen across ${QUERIES.length} queries; inbox now holds ${total}. Run: node scripts/collect.mjs merge --source x`);
+      return;
+    }
+
+    // Ad-hoc mode: one search across every assistant, e.g. --query '"boarding pass" min_faves:20'.
+    // Each hit is filed under every assistant whose match terms appear in it.
+    if (opts.query) {
+      console.log(`\nAd-hoc search: ${opts.query}`);
+      seen.clear();
+      await runQuery(String(opts.query));
+      let routed = 0;
+      for (const slug of Object.keys(sources)) {
+        const cfg = sources[slug];
+        const items = [...seen.values()].filter(t => mentions(cfg, t.text)).map(t => toRecord(slug, cfg, t));
+        const fresh = filterNew(slug, cfg, items);
+        if (fresh.length) {
+          writeInbox('x', slug, fresh);
+          routed += fresh.length;
+        }
+      }
+      console.log(`ad-hoc: ${seen.size} posts seen, ${routed} filed under assistants (the rest named no product on the roster)`);
+      return;
+    }
+
     for (const slug of slugs) {
       const cfg = sources[slug];
       if (!cfg.x_queries?.length) continue;
       console.log(`\n${cfg.name} (${slug})`);
       seen.clear();
       let baseHits = 0;
+      // Save after every window so an interrupted run (Ctrl-C, rate-limit wall) keeps what it found.
+      const flush = () => writeInbox('x', slug, filterNew(slug, cfg, [...seen.values()].map(t => toRecord(slug, cfg, t))));
       for (const base of cfg.x_queries) {
         // The action-phrased query (booked OR flight OR ...) only pays off where the plain queries already found volume.
         if (/\(booked OR flight OR/.test(base) && baseHits < 10) {
           console.log(`  (skipping action query: only ${baseHits} hits so far)`);
           continue;
         }
-        for (const [a, b] of dateWindows(since, until, windowDays)) {
-          const q = `${base} since:${a} until:${b} -filter:retweets`;
-          currentQuery = q;
-          const before = seen.size;
-          // Rate limit: wait out X's 15-minute window, then retry the same search rather than skipping it.
-          let loaded = false;
-          for (let attempt = 0; attempt < 3 && !loaded; attempt++) {
-            await page.goto(`https://x.com/search?q=${encodeURIComponent(q)}&src=typed_query&f=live`, { waitUntil: 'domcontentloaded' });
-            await sleep(2500);
-            if (await page.locator('text=/Something went wrong|Rate limit|Try again/i').first().isVisible().catch(() => false)) {
-              console.log(`  rate limited; sleeping 15 minutes, then retrying (${attempt + 1}/3)`);
-              await sleep(15 * 60 * 1000);
-            } else loaded = true;
-          }
-          if (!loaded) {
-            console.log(`  ${q}  skipped after 3 rate limits`);
-            continue;
-          }
-          let stale = 0;
-          let last = seen.size;
-          for (let i = 0; i < maxScrolls; i++) {
-            await page.mouse.wheel(0, 3500);
-            await jitter(900, 1600);
-            if (seen.size === last) {
-              if (++stale >= 3) break;
-            } else {
-              stale = 0;
-              last = seen.size;
-            }
-          }
-          console.log(`  ${q}  +${seen.size - before}`);
-          if (!/\(booked OR flight OR/.test(base)) baseHits += seen.size - before;
-          await jitter(2500, 5000);
-        }
+        const before = seen.size;
+        await runQuery(base, flush);
+        if (!/\(booked OR flight OR/.test(base)) baseHits += seen.size - before;
       }
       const items = [...seen.values()].map(t =>
         record({
@@ -600,6 +702,10 @@ async function reindex() {
     total += a.feedback_count;
   }
   index.feedback_count = total;
+  // Headline counts follow the roster, so additions and removals never leave them stale.
+  index.agent_count = index.agents.length;
+  index.confirmed = index.agents.filter(a => a.status === 'confirmed').length;
+  index.stretch = index.agents.filter(a => a.status === 'stretch').length;
   index.updated = new Date().toISOString().slice(0, 10);
   fs.writeFileSync(indexFile, JSON.stringify(index, null, 2) + '\n');
   console.log(`index.json: ${index.agents.length} agents, ${total} quotes, updated ${index.updated}`);

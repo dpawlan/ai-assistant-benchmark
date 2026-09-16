@@ -1,0 +1,34 @@
+{
+  "status": "raised",
+  "company": "Hexagon (joinhexagon.com)",
+  "total_usd": 1800000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 1800000,
+      "date": "2026-06",
+      "lead": [
+        "Pear VC"
+      ],
+      "source": "https://www.latamrepublic.com/hexagon-attracts-us-1-8-million-from-pear-vc-to-advance-ai-visibility-solutions/"
+    }
+  ],
+  "investors": [
+    "Pear VC"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.latamrepublic.com/hexagon-attracts-us-1-8-million-from-pear-vc-to-advance-ai-visibility-solutions/",
+      "title": "Hexagon Attracts US$1.8 Million from Pear VC to Advance AI Visibility Solutions",
+      "published": "2026-06-30"
+    },
+    {
+      "url": "https://milo.joinhexagon.com/",
+      "title": "Milo by Hexagon (links to joinhexagon.com and app.joinhexagon.com)",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

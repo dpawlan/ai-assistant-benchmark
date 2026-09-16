@@ -1,0 +1,26 @@
+{
+  "slug": "ihermes",
+  "name": "iHermes",
+  "site": "https://ihermes.co/",
+  "handles": [
+    "iHermes"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hosted personal assistant over iMessage and SMS built on Nous Research's open-source Hermes Agent: connects Gmail, Calendar, Drive, Notion, Slack and Linear, remembers context, turns repeated workflows into skills, proactive and scheduled texts on the paid tier. Free tier with no card; Plus $19/mo; Teams custom. No named company, founder or social handles; contact is dan@ihermes.co. Requested via the form (issue #319).",
+  "public_signal": "low",
+  "tagline": "A hosted Hermes Agent you text on iMessage",
+  "icon": "/logos/ihermes.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Plus $19/mo · Teams custom",
+    "regions": "US number",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Web"
+    ],
+    "checked": "2026-09-16"
+  }
+}

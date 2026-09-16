@@ -1,6 +1,7 @@
 import path from 'node:path';
 import { CATEGORY_SHORT, getAgentDetail, getAgents, getCategories, getScoredCategories } from './data';
 import { Agent } from './types';
+import { fundingChip } from './cost';
 import { CompareRow, CompareSide, Comparison, decide, tallyRows } from './compare-shared';
 
 export * from './compare-shared';
@@ -15,6 +16,7 @@ function side(agent: Agent): CompareSide {
     overall: agent.overall,
     testedCount: agent.testedCount,
     opinionOverall: agent.opinionOverall,
+    funding: fundingChip(agent.funding),
   };
 }
 

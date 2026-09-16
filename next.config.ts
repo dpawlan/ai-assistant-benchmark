@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // so the data files, logos and fonts they read must ride along with those functions.
   outputFileTracingIncludes: {
     '/compare/**': ['./data/**/*'],
+    '/use-cases': ['./data/**/*'],
+    '/use-cases/**': ['./data/**/*'],
+    '/api/vote': ['./data/jobs.json'],
     '/api/og/compare': ['./data/**/*', './public/logos/**/*', './src/assets/fonts/*'],
   },
   async rewrites() {

@@ -10,6 +10,8 @@ import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
 import { SpeedCell } from './SpeedCell';
+import { CostMark } from './CostMark';
+import { COST_KEYS, COST_LABEL, costOf, type CostKey } from '@/lib/cost';
 import { CoverageCell } from './CoverageCell';
 import { StatusStrip } from './StatusStrip';
 import { opinionRank } from '@/lib/score';
@@ -66,6 +68,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
   const [showPending, setShowPending] = useState(false);
+  const [cost, setCost] = useState<CostKey | 'all'>('all');
   const opinion = view === 'opinion';
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
 
@@ -93,7 +96,16 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
   }, [agents]);
 
   /** Assistants in the selected peer group (or all of them). Status counts in the strip follow this set. */
-  const inKind = useMemo(() => (kind === 'all' ? agents : agents.filter(a => a.kind === kind)), [agents, kind]);
+  const kindPool = useMemo(() => (kind === 'all' ? agents : agents.filter(a => a.kind === kind)), [agents, kind]);
+  const costCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const a of kindPool) {
+      const k = costOf(a.access?.pricing);
+      if (k) c[k] = (c[k] ?? 0) + 1;
+    }
+    return c;
+  }, [kindPool]);
+  const inKind = useMemo(() => (cost === 'all' ? kindPool : kindPool.filter(a => costOf(a.access?.pricing) === cost)), [kindPool, cost]);
 
   // Public opinion view: one group when a kind is selected; every kind in display order when showing all.
   const groups = useMemo(() => {
@@ -144,7 +156,10 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <th scope="row" className="mx-name">
           <Link href={`/agents/${agent.slug}`} className="mx-agent">
             <AgentIcon name={agent.name} icon={agent.icon} size={28} className="mx-icon" />
-            <span className="mx-nm">{agent.name}</span>
+            <span className="mx-nmwrap">
+              <span className="mx-nm">{agent.name}</span>
+              <CostMark pricing={agent.access?.pricing} />
+            </span>
           </Link>
         </th>
         {!opinion && (
@@ -208,6 +223,19 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           All
           <span className="kind-n">{agents.length}</span>
         </button>
+      </div>
+
+      <div className="cost-bar" role="group" aria-label="Cost">
+        <span className="cost-bar-l">Cost</span>
+        <button type="button" className={`cost-f${cost === 'all' ? ' on' : ''}`} aria-pressed={cost === 'all'} onClick={() => setCost('all')}>
+          Any
+        </button>
+        {COST_KEYS.filter(k => costCounts[k]).map(k => (
+          <button key={k} type="button" className={`cost-f${cost === k ? ' on' : ''}`} aria-pressed={cost === k} onClick={() => setCost(cost === k ? 'all' : k)}>
+            {COST_LABEL[k]}
+            <span className="kind-n">{costCounts[k]}</span>
+          </button>
+        ))}
       </div>
 
       {!opinion && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}

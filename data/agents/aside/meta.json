@@ -1,0 +1,37 @@
+{
+  "slug": "aside",
+  "name": "Aside",
+  "site": "https://aside.com/",
+  "handles": [
+    "AsideAI"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "YC-backed macOS AI browser whose agent works directly in your logged-in websites, handling messages, payments and internal tools, with local memory built from browsing history, an agent-safe password vault and approval before sensitive actions. Requested via the form (issue #192).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "running_routine",
+    "memory",
+    "third_party_integrations",
+    "permissions_privacy",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "tagline": "The most intelligent AI assistant, but it’s a browser.",
+  "icon": "/logos/aside.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (500 credits/mo, bring your own ChatGPT/Claude subscription); Pro $20/mo; Max $200/mo; Enterprise by contact",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app"
+    ],
+    "checked": "2026-09-15"
+  }
+}

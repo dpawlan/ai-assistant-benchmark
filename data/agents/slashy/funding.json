@@ -1,0 +1,24 @@
+{
+  "status": "not_disclosed",
+  "company": "Slashy",
+  "total_usd": null,
+  "rounds": [],
+  "investors": [
+    "Y Combinator"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.ycombinator.com/companies/slashy",
+      "title": "Slashy | Y Combinator",
+      "published": null
+    },
+    {
+      "url": "https://www.slash.com/blog/the-founders-who-think-email-may-be-the-key-to-agi",
+      "title": "The Founders Who Think Email May Be the Key to AGI | Slash",
+      "published": "2026-08-24"
+    }
+  ],
+  "checked": "2026-09-15"
+}

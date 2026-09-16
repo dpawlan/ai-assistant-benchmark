@@ -162,6 +162,28 @@ export interface Access {
   checked: string;
 }
 
+export interface FundingRound {
+  type: string;
+  amount_usd: number | null;
+  /** YYYY-MM */
+  date: string | null;
+  lead: string[];
+  source: string | null;
+}
+
+/** data/agents/<slug>/funding.json. Amounts appear only when a non-aggregator source at medium or high confidence states them. */
+export interface Funding {
+  status: 'raised' | 'not_disclosed' | 'bootstrapped' | 'subsidiary' | 'open_source' | 'acquired';
+  company: string | null;
+  total_usd: number | null;
+  rounds: FundingRound[];
+  investors: string[];
+  parent: string | null;
+  acquired_by: string | null;
+  sources: { url: string; title: string; published: string | null }[];
+  checked: string;
+}
+
 export interface AgentMeta {
   slug: string;
   name: string;
@@ -239,7 +261,53 @@ export interface Agent {
   opinionOverall: OpinionStat;
   /** Hands-on usage from the reviewer's own thread, when exported. */
   usage: Usage | null;
+  /** Funding facts with sources; null when not researched. */
+  funding: Funding | null;
   meta?: AgentMeta;
   feedback?: Feedback[];
   summary?: string;
+}
+
+/* ---------- Use cases (data/jobs.json) ---------- */
+
+export type PromptSource = 'posted' | 'assumed';
+export type EvidenceOutcome = 'done' | 'partial' | 'failed';
+
+export interface JobGroup {
+  key: string;
+  label: string;
+}
+
+/** A public post that shows someone having an assistant do this job. The quote itself lives in feedback.json. */
+export interface JobEvidence {
+  quote: string;
+  agent: string;
+  note?: string;
+  outcome?: EvidenceOutcome;
+}
+
+/** One entry in data/jobs.json: a canonical task, not a post. */
+export interface JobEntry {
+  key: string;
+  title: string;
+  one_liner: string;
+  group: string;
+  dimension?: string;
+  prompt: string;
+  prompt_source: PromptSource;
+  caveat?: string;
+  added: string;
+  evidence: JobEvidence[];
+  /** Explicit run ids that tested exactly this job. */
+  runs?: string[];
+  /** True when this job *is* the benchmark task for `dimension`: every assistant's latest run there counts as tested. */
+  benchmark_task?: boolean;
+  submitted_by?: { handle: string; vendor: boolean };
+}
+
+export interface JobsFile {
+  version: 2;
+  updated: string;
+  groups: JobGroup[];
+  jobs: JobEntry[];
 }

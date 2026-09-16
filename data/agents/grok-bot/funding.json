@@ -1,0 +1,22 @@
+{
+  "status": "subsidiary",
+  "company": "SpaceXAI (formerly xAI)",
+  "total_usd": null,
+  "rounds": [],
+  "investors": [],
+  "parent": "SpaceX",
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://grok.com/",
+      "title": "Grok meta description: 'AI assistant built by SpaceXAI'",
+      "published": null
+    },
+    {
+      "url": "https://finance.yahoo.com/news/elon-musk-announces-spacex-acquisition-095834261.html",
+      "title": "Elon Musk announces SpaceX's acquisition of AI startup xAI",
+      "published": "2026-02-03"
+    }
+  ],
+  "checked": "2026-09-15"
+}

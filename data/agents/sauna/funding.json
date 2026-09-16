@@ -1,0 +1,43 @@
+{
+  "status": "raised",
+  "company": "Wordware (Sauna by Wordware)",
+  "total_usd": 30000000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 30000000,
+      "date": "2024-11",
+      "lead": [
+        "Spark Capital"
+      ],
+      "source": "https://theaiinsider.tech/2024/11/25/wordware-closes-30m-seed-funding-to-develop-ai-operating-system/"
+    }
+  ],
+  "investors": [
+    "Spark Capital",
+    "Felicis",
+    "Y Combinator",
+    "Day One Ventures",
+    "Paul Graham"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://theaiinsider.tech/2024/11/25/wordware-closes-30m-seed-funding-to-develop-ai-operating-system/",
+      "title": "Wordware Closes $30M Seed Funding to Develop AI Operating System",
+      "published": "2024-11-25"
+    },
+    {
+      "url": "https://www.wordware.ai/story",
+      "title": "About Wordware - Full Story",
+      "published": "2025-10"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/wordware",
+      "title": "Wordware | Y Combinator",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

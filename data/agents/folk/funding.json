@@ -1,0 +1,58 @@
+{
+  "status": "raised",
+  "company": "Nozomio Labs",
+  "total_usd": 6200000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 6200000,
+      "date": "2025-10",
+      "lead": [
+        "CRV"
+      ],
+      "source": "https://www.nozomio.com/about"
+    },
+    {
+      "type": "Accelerator",
+      "amount_usd": null,
+      "date": "2025-06",
+      "lead": [
+        "Y Combinator"
+      ],
+      "source": "https://www.ycombinator.com/companies/nozomio"
+    }
+  ],
+  "investors": [
+    "CRV",
+    "BoxGroup",
+    "LocalGlobe",
+    "Y Combinator",
+    "Paul Graham",
+    "Gokul Rajaram"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://www.nozomio.com/about",
+      "title": "Nozomio Labs About: main focus is Folk; raised a $6.2M seed led by CRV",
+      "published": null
+    },
+    {
+      "url": "https://www.folk.com/",
+      "title": "folk site footer: © 2026 folk by Nozomio",
+      "published": null
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/nozomio",
+      "title": "Nozomio | Y Combinator (Summer 2025)",
+      "published": null
+    },
+    {
+      "url": "https://startupsunion.com/nozomio-raised-6-2-million/",
+      "title": "Nozomio Raised $6.2 Million",
+      "published": "2025-10-03"
+    }
+  ],
+  "checked": "2026-09-15"
+}

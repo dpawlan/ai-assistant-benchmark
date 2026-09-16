@@ -1,0 +1,38 @@
+{
+  "slug": "righthand",
+  "name": "Righthand",
+  "site": "https://www.righthand.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Righthand is an AI 'secretary' for teams and small businesses. It takes on ongoing responsibilities over text, Slack, email and phone, such as chasing invoices, answering leads, triaging inboxes, keeping calendars clear and handling follow-ups. Requested via the form (issue #184).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "phone_calls",
+    "multiplayer_groups",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "tagline": "hand over the job, not the task",
+  "icon": "/logos/righthand.png",
+  "kind": "work",
+  "access": {
+    "pricing": "paid",
+    "price": "Starter $99/mo · Pro $199/mo per Righthand · 14-day free trial, no card",
+    "regions": "Not stated",
+    "channels": [
+      "SMS",
+      "Slack",
+      "Email",
+      "Phone"
+    ],
+    "checked": "2026-09-15"
+  }
+}

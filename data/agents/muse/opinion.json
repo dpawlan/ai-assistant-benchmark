@@ -1,6 +1,6 @@
 {
   "classified_by": "Claude (read in session, not an API batch)",
-  "date": "2026-09-11",
+  "date": "2026-09-15",
   "reviewed": false,
   "quotes": {
     "e61bc2d4ab67": {
@@ -18,6 +18,55 @@
       "general": "mixed",
       "travel": "mixed",
       "proactive_behavior": "neg"
+    },
+    "087eb0a2d43b": {
+      "general": "mixed",
+      "online_task": "mixed",
+      "travel": "pos",
+      "chained_tasks": "mixed",
+      "third_party_integrations": "pos"
+    },
+    "d3a9be5ffbe2": {
+      "general": "pos",
+      "content_creation_games": "pos",
+      "permissions_privacy": "pos"
+    },
+    "b2dc9dfbf63b": {
+      "general": "pos"
+    },
+    "42a278dcdb46": {
+      "general": "pos",
+      "content_creation_games": "pos",
+      "purchasing": "pos"
+    },
+    "7e8d94070a99": {
+      "general": "pos",
+      "content_creation_games": "pos"
+    },
+    "3c4e016231c5": {
+      "general": "pos"
+    },
+    "6a09ec9d978b": {
+      "general": "pos"
+    },
+    "3d38f255139b": {
+      "general": "pos"
+    },
+    "1326080ada73": {
+      "general": "neg",
+      "third_party_integrations": "neg"
+    },
+    "7ece7d548c3f": {
+      "general": "neg"
+    },
+    "90bf7e18dd4c": {
+      "general": "pos",
+      "content_creation_games": "pos"
+    },
+    "0e863b411f64": {
+      "general": "pos",
+      "phone_calls": "pos",
+      "online_task": "pos"
     }
   },
   "reviewed_travel": "2026-09-11: every post mentioning flights, hotels or trips re-read and scored for the Travel dimension (added 2026-09-08)"

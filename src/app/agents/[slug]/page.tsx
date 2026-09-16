@@ -9,6 +9,7 @@ import {
   getAllSlugs,
   getCategories,
   getIndexData,
+  getInvestorLinks,
   getRelatedAgents,
   getScoredCategories,
   getTagMap,
@@ -24,6 +25,7 @@ import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
 import { comparePath, getTestedAgents } from '@/lib/compare';
+import { fundingChip, fundingRounds, fundingSummary, sourceHost } from '@/lib/cost';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -109,6 +111,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
               {agent.access && agent.access.pricing !== 'unknown' && (
                 <span className="chip" title={agent.access.price}>{PRICING_LABEL[agent.access.pricing]}</span>
               )}
+              {fundingChip(agent.funding) && (
+                <a href="#funding" className="chip">
+                  {fundingChip(agent.funding)}
+                </a>
+              )}
               {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
               {productClass && <span className="chip">{productClass}</span>}
               {signal && <span className="chip">{signal}</span>}
@@ -191,23 +198,75 @@ export default async function AgentPage({ params }: AgentPageProps) {
               </div>
             </section>
           )}
-          <section className="hh-opp">
-            <h2 className="ag-h2">Head to head</h2>
-            <p className="ag-sub">
-              {agent.testedCount > 0
-                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
-                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
-            </p>
-            {agent.testedCount > 0 && opponents.length > 0 && (
-              <div className="ag-chips">
-                {opponents.map(o => (
-                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
-                    vs {o.name}
-                  </Link>
-                ))}
-                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
-              </div>
-            )}
+          <section className="ag-funding" id="funding">
+            <h2 className="ag-h2">Funding</h2>
+            {(() => {
+              const f = agent.funding;
+              const links = getInvestorLinks();
+              const rounds = fundingRounds(f);
+              const muted = !(fundingChip(f) || f?.investors.length);
+              const hasDetail = !!f && (!!rounds || f.investors.length > 0 || f.sources.length > 0);
+              return (
+                <>
+                  <p className={`fund-total${muted ? ' empty' : ''}`}>{fundingSummary(f)}</p>
+                  {f && <p className="ag-sub fund-checked">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>}
+                  {hasDetail && (
+                    <details className="fund-dd" open>
+                      <summary className="fund-toggle">
+                        <span className="fund-toggle-l">
+                          {[rounds && 'Rounds', f.investors.length > 0 && 'backers', f.sources.length > 0 && 'sources']
+                            .filter(Boolean)
+                            .join(', ')
+                            .replace(/^./, c => c.toUpperCase())}
+                        </span>
+                        <svg className="fund-chev" viewBox="0 0 10 10" aria-hidden="true">
+                          <path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </summary>
+                      <div className="fund-body">
+                        {rounds && (
+                          <div className="fund-line">
+                            <span className="fund-k">Rounds</span>
+                            <span className="fund-v">{rounds}</span>
+                          </div>
+                        )}
+                        {f.investors.length > 0 && (
+                          <div className="fund-line">
+                            <span className="fund-k">Backed by</span>
+                            <span className="fund-v">
+                              {f.investors.slice(0, 8).map((name, i, arr) => (
+                                <span key={name}>
+                                  {links[name] ? (
+                                    <a className="fund-inv" href={links[name]} target="_blank" rel="noopener noreferrer nofollow">
+                                      {name}
+                                    </a>
+                                  ) : (
+                                    name
+                                  )}
+                                  {i < arr.length - 1 ? ', ' : ''}
+                                </span>
+                              ))}
+                            </span>
+                          </div>
+                        )}
+                        {f.sources.length > 0 && (
+                          <div className="fund-line">
+                            <span className="fund-k">Sources</span>
+                            <span className="fund-v fund-src">
+                              {f.sources.slice(0, 4).map(src => (
+                                <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer nofollow">
+                                  {sourceHost(src.url)}
+                                </a>
+                              ))}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    </details>
+                  )}
+                </>
+              );
+            })()}
           </section>
           <h2 className="ag-h2">Information</h2>
           <div className="info-list" style={{ marginTop: 8 }}>
@@ -225,16 +284,16 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <>
                 <div className="info-row">
                   <span className="il">Price</span>
-                  <span className={`iv wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
+                  <span className={`iv iv-wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
                 </div>
                 <div className="info-row">
                   <span className="il">Where</span>
-                  <span className={`iv wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
+                  <span className={`iv iv-wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
                 </div>
                 {agent.access.channels.length > 0 && (
                   <div className="info-row">
                     <span className="il">Use it in</span>
-                    <span className="iv wrap">{agent.access.channels.join(', ')}</span>
+                    <span className="iv iv-wrap">{agent.access.channels.join(', ')}</span>
                   </div>
                 )}
               </>
@@ -275,6 +334,24 @@ export default async function AgentPage({ params }: AgentPageProps) {
           <div className="note-card">
             Built {agent.name}? <Link href="/request">Send a correction</Link>
           </div>
+          <section className="hh-opp">
+            <h2 className="ag-h2">Head to head</h2>
+            <p className="ag-sub">
+              {agent.testedCount > 0
+                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
+                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
+            </p>
+            {agent.testedCount > 0 && opponents.length > 0 && (
+              <div className="ag-chips">
+                {opponents.map(o => (
+                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
+                    vs {o.name}
+                  </Link>
+                ))}
+                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
+              </div>
+            )}
+          </section>
         </aside>
       </div>
 

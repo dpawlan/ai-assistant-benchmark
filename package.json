@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/lint-notes.mjs",
+    "prebuild": "node scripts/lint-notes.mjs && node scripts/lint-usecases.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "lint:notes": "node scripts/lint-notes.mjs",
+    "lint:usecases": "node scripts/lint-usecases.mjs",
     "collect:x": "node scripts/collect.mjs x",
     "collect:reddit": "node scripts/collect.mjs reddit",
     "collect:hn": "node scripts/collect.mjs hn",
@@ -24,6 +25,7 @@
     "og": "python3 scripts/og.py"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.4",
     "@vercel/analytics": "^2.0.1",
     "next": "16.3.4",
     "react": "19.2.8",

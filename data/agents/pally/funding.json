@@ -1,0 +1,44 @@
+{
+  "status": "raised",
+  "company": "Pally",
+  "total_usd": 5200000,
+  "rounds": [
+    {
+      "type": "Seed",
+      "amount_usd": 5200000,
+      "date": "2026-08",
+      "lead": [
+        "Cyber Fund",
+        "Y Combinator"
+      ],
+      "source": "https://www.thesaasnews.com/news/pally-raises-5-2m-seed/"
+    }
+  ],
+  "investors": [
+    "Cyber Fund",
+    "Y Combinator",
+    "Pioneer Fund",
+    "Founders Inc",
+    "468 Capital"
+  ],
+  "parent": null,
+  "acquired_by": null,
+  "sources": [
+    {
+      "url": "https://runtimewire.com/article/pally-raised-5-2-million-ai-assistant-text-messages",
+      "title": "Pally raises $5.2 million to put an AI assistant in your text messages",
+      "published": "2026-08-06"
+    },
+    {
+      "url": "https://www.thesaasnews.com/news/pally-raises-5-2m-seed/",
+      "title": "Pally Raises $5.2M Seed",
+      "published": "2026-08-10"
+    },
+    {
+      "url": "https://www.ycombinator.com/companies/pally",
+      "title": "Pally | Y Combinator",
+      "published": null
+    }
+  ],
+  "checked": "2026-09-15"
+}

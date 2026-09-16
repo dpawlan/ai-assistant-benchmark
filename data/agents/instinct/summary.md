@@ -80,3 +80,9 @@ _Updated 2026-09-14 X use-case scrape (+9 rows)._
 - (2026-09-12) @prrranavv: instinct found a 40% better price and booked e2e than uber intercity
 - (2026-09-11) @its_Holmes: Instinct helped me find/request multiple quotes for housework, communicate with contractors via email, confirm and schedule the best option
 - (2026-09-10) @dthak1: [complaint] Booking failed through Instinct, rebooked manually; a few hours later instinct cancelled the manual flight booking
+
+_Updated 2026-09-16 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-15) Cryptobriefing: Instinct seeking $1B at $10B valuation; user base > 100k; total funding $350M
+- (2026-09-15) DMNews: Reports of flight cancellation instead of lookup, $200 unauthorized restaurant no-show, and Resy account suspension from repeated reservation attempts

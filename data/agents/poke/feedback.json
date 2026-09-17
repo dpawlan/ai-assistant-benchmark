@@ -8,7 +8,12 @@
     "date": "2026-07-27",
     "url": "https://www.notis.ai/blog/4-best-imessage-ai-assistants-for-founders-in-2026/#poke",
     "kind": "comparison",
-    "tags": ["imessage", "proactive", "polish", "web"],
+    "tags": [
+      "imessage",
+      "proactive",
+      "polish",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Notis founder ranking; vendor bias noted; Poke ranked for polished proactive messaging UX."
@@ -22,7 +27,12 @@
     "date": "2026-06-05",
     "url": "https://www.reddit.com/r/PokeAssistant/comments/1txw5op/poke_imessage_channel/",
     "kind": "complaint",
-    "tags": ["imessage", "memory", "consistency", "reddit"],
+    "tags": [
+      "imessage",
+      "memory",
+      "consistency",
+      "reddit"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Reddit OP; quote from public search/snippet (full thread fetch 403). Date from Reddit listing Jun 5, 2026."
@@ -36,7 +46,12 @@
     "date": "2026-07-13",
     "url": "https://www.usecarly.com/blog/poke-vs-tomo/#poke",
     "kind": "comparison",
-    "tags": ["vs-tomo", "email", "calendar", "web"],
+    "tags": [
+      "vs-tomo",
+      "email",
+      "calendar",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "UseCarly comparison piece (updated post Cognition acquisition)."
@@ -50,7 +65,11 @@
     "date": "2026-07-24",
     "url": "https://ichatwithgpt.com/blog/poke-alternatives.html#acquisition",
     "kind": "other",
-    "tags": ["acquisition", "imessage", "web"],
+    "tags": [
+      "acquisition",
+      "imessage",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Acquisition/context article; useful market signal, not a user experience quote."
@@ -5580,5 +5599,98 @@
     "source": "web",
     "collected_at": "2026-09-11T14:00:42Z",
     "notes": "Buying guide: Poke maturity + Apple Messages for Business moat vs Caddy beta."
+  },
+  {
+    "agent": "poke",
+    "quote": "What Poke does well: It removed the single biggest friction in AI assistants, which is that you have to go somewhere to use them. Setup takes a minute. The proactive nudges catch things you'd otherwise miss. The personality is charming. … What it doesn't do well: It gets time wrong, which is unforgivable for a product about time. Its email judgment isn't sharp enough to trust unsupervised. Third-party integrations are slow. There's no Google Workspace support. And most importantly, there is nowhere for anything to live. Every note, decision, and task you hand Poke goes into a text thread and stays there, unstructured and unsearchable.",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#verdict",
+    "kind": "comparison",
+    "tags": [
+      "proactive",
+      "reliability",
+      "memory",
+      "web"
+    ],
+    "notes": "Saner.AI Poke review verdict: messaging UX wins; time/email judgment + no searchable memory lose.",
+    "id": "016314ab4009",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "poke",
+    "quote": "Working with it \"still feels like working with a clever, caffeinated toddler sometimes.\" For a product whose entire job is time and attention, getting time wrong isn't a rough edge. It's the thing.",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#toddler",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "time",
+      "web"
+    ],
+    "notes": "Saner.AI citing user reviews: date/timezone reasoning failures framed as core reliability gap.",
+    "id": "3c0717c29bda",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "poke",
+    "quote": "On the critical side, one user wrote a one-star review after weeks of use, arguing that basic email checks took fifteen minutes or more when they worked at all. \"Premium Pricing for a Product Held Together with Duct Tape\"",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#duct-tape",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "email",
+      "reliability",
+      "web"
+    ],
+    "notes": "Saner.AI citing one-star review: slow email checks + “duct tape” premium pricing jab.",
+    "id": "91362099147c",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "poke",
+    "quote": "Privacy also comes up more than the marketing suggests. One writer admitted abandoning onboarding on the first attempt out of concern about data access. A commenter on another review was blunter about connecting an inbox to it. \"Wouldn't touch this with a ten-foot pole.\"",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#privacy",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "onboarding",
+      "web"
+    ],
+    "notes": "Saner.AI: privacy pushback during onboarding; “ten-foot pole” inbox-connect refusal.",
+    "id": "bd025e777af1",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "poke",
+    "quote": "Poke vs Town: Town gives you an assistant with its own email address that triages your inbox, drafts replies, and runs background routines. It's more capable than Poke on email specifically, with prebuilt routines for inbox triage, meeting briefings, and expense logging. The catch is credit-based billing with overage, and Pro runs $99/month. Poke is cheaper and simpler. Town does more of the actual work. Neither one gives you a place to keep things.",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#vs-town",
+    "kind": "comparison",
+    "tags": [
+      "town",
+      "email",
+      "pricing",
+      "web"
+    ],
+    "notes": "Saner.AI comparison sidebar: Town deeper on email/routines at $99; Poke cheaper/simpler; both lack knowledge base.",
+    "id": "dc481da5f061",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

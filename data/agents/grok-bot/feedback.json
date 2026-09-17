@@ -28011,5 +28011,141 @@
     "source": "x",
     "collected_at": "2026-09-14T21:59:48.823Z",
     "notes": "query: \"grok bot\" (agent OR agents OR bots OR cursor OR xai OR \"chief of staff\" OR workflow OR inbox OR calendar) -\"bot account\" -\"is a bot\" since:2026-09-11 until:2026-09-14 -filter:retweets"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "After six days of daily use, Kieran is impressed. The user experience is noticeably better than OpenClaw and better than Hermes, which was already easy to get started with. … The feature Kieran would single out is multi-account support. He has several Google accounts, and GrokBot connected all of his Gmail and calendar accounts painlessly. Claude has never handled this well.",
+    "author": "Kieran Ball",
+    "date": "2026-09-12",
+    "url": "https://createwith.com/blog/we-both-tried-grokbot-we-disagree#kieran",
+    "kind": "praise",
+    "tags": [
+      "ux",
+      "multi-account",
+      "gmail",
+      "comparison",
+      "web"
+    ],
+    "notes": "Create With dual review: Kieran (6 days) — better UX than OpenClaw/Hermes; multi-Gmail/calendar is standout.",
+    "id": "866cee27f9f3",
+    "author_name": "Kieran Ball",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "James had a rather different week to Kieran. He really struggled to get GrokBot working at all, found it unreliable, and doesn't think it lives up to the online hype yet. His view is that the model is genuinely interesting, giving every agent a full cloud computer and letting them talk to each other, but in day-to-day use it doesn't work reliably enough yet. … Usage is the first catch. GrokBot seems to burn through its usage allowance quickly, and it's not very clear how much usage each price plan actually gives you.",
+    "author": "James Devonport",
+    "date": "2026-09-12",
+    "url": "https://createwith.com/blog/we-both-tried-grokbot-we-disagree#james",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "usage-limits",
+      "pricing",
+      "web"
+    ],
+    "notes": "Create With: James found it unreliable vs hype; usage allowance burns fast / opaque.",
+    "id": "f50c44697ba1",
+    "author_name": "James Devonport",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "By Episode 26 of One Shot Show, I had seven Bots sitting in the sidebar: a Social Content Writer, Chief of Staff, Invoice Hunter, Content Researcher, SEO Agent, Creative Director, and Business Coach. … The Invoice Hunter has one specific job: find invoices in my email, pull out the relevant details, and organize them in a Google Sheet or report. This is the kind of task I want an agent to handle because it’s an admin job I hate doing and it’s repetitive.",
+    "author": "Wyndo",
+    "date": "2026-09-06",
+    "url": "https://aimaker.substack.com/p/grok-bot-ai-agent-team#invoice-hunter",
+    "kind": "use-case",
+    "tags": [
+      "multi-bot",
+      "email",
+      "invoices",
+      "routines",
+      "web"
+    ],
+    "notes": "AI Maker (Sep 6): hands-on seven-bot team; Invoice Hunter Gmail→Sheets workflow highlighted.",
+    "id": "95ba8dc08ad3",
+    "author_name": "Wyndo",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "We wanted to have our last family dinner at the new hot spot in Manhattan Beach, but didn’t have time to research availability and book the table. Grok Bot used its computer to access my Resy account (I did need to manually give it the SMS confirmation code) and it secured the reservation with ease. (We also had to cancel it, and that also worked seamlessly.)",
+    "author": "Khe Hy",
+    "date": "2026-09-03",
+    "url": "https://khemaridh.substack.com/p/should-you-trust-grok-bot-to-manage#resy",
+    "kind": "use-case",
+    "tags": [
+      "resy",
+      "dining",
+      "computer-use",
+      "web"
+    ],
+    "notes": "Khe Hy Substack (Sep 3): Resy book+cancel via computer-use; SMS OTP still manual.",
+    "id": "19a76bf9677d",
+    "author_name": "Khe Hy",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "This was the perfect task for Grok Bot to fire up its virtual machine and log-in to my account. It could then navigate the various worldschooling groups and surface the interesting threads and topics. But here’s the problem. The virtual machine couldn’t log on. It would take me through an endless series of “Are you a human?” tests. I’d click on all the examples of crosswalks. And then it would just die.",
+    "author": "Khe Hy",
+    "date": "2026-09-03",
+    "url": "https://khemaridh.substack.com/p/should-you-trust-grok-bot-to-manage#facebook-captcha",
+    "kind": "bug",
+    "tags": [
+      "captcha",
+      "facebook",
+      "computer-use",
+      "web"
+    ],
+    "notes": "Khe Hy: Facebook login CAPTCHA loop killed computer-use session — auth layer gap.",
+    "id": "32793b36a221",
+    "author_name": "Khe Hy",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "This was an awesome win. You can save an hour at the immigration line if you pre-register and get personal QR codes. It’s a royal PITA, since you need to put in passport numbers, flights, birthdays and your AirBnB address. My bot had all of this information saved into context (again, via Notion) and it filled out all the forms, took screenshots of the QR codes and saved them in a new Notion page.",
+    "author": "Khe Hy",
+    "date": "2026-09-03",
+    "url": "https://khemaridh.substack.com/p/should-you-trust-grok-bot-to-manage#visa",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "forms",
+      "notion",
+      "web"
+    ],
+    "notes": "Khe Hy: digital visa/immigration form fill from Notion context + QR screenshots saved.",
+    "id": "1ccd94bd2c0d",
+    "author_name": "Khe Hy",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "I’m saving the best for last. I really wanted to try Grok Bot’s new secure connection for payments via Stripe’s Link service. This was very cool. First, my bot presented me with a list of services and prices (while figuring out the appropriate car size). It picked a driver who spoke English, who would meet us at baggage claim and could communicate via WhatsApp. The only hiccup was that I couldn’t switch credit cards, which required my manual intervention.",
+    "author": "Khe Hy",
+    "date": "2026-09-03",
+    "url": "https://khemaridh.substack.com/p/should-you-trust-grok-bot-to-manage#stripe-link",
+    "kind": "use-case",
+    "tags": [
+      "payments",
+      "stripe",
+      "travel",
+      "airport",
+      "web"
+    ],
+    "notes": "Khe Hy: airport car booking via Stripe Link; card switch needed manual step.",
+    "id": "26a54364ce17",
+    "author_name": "Khe Hy",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

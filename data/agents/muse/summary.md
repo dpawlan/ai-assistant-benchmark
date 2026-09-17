@@ -68,3 +68,14 @@ _Updated 2026-09-15 weekday vault scan (+9 rows)._
 - (2026-09-09) HN russellbeattie: System Files transparency + Marketplace listing use case.
 - (2026-09-08) @altryne head-to-head: Muse booked via Link while Instinct still searching for RSVP.
 - (2026-09-09) Creators Index: Instagram connector scoping limits — "all or nothing at the login level."
+
+_Updated 2026-09-17 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-09-10) TechCrunch: Muse ~83k US iOS downloads → No.2 App Store; Android #338 Productivity; WhatsApp/web not counted.
+- (2026-09-10) TechCrunch: Muse launch framed against Instinct as the peer to beat; Instinct agent email + agent-to-agent social.
+- (2026-09-09) Saner.AI: Stale catalog price, wrong Amazon ETA, DoorDash login loop — "log-in circular hell."
+- (2026-09-09) Saner.AI: Free weekly token allotment burns fast — 81% in one day of ordinary use.
+- (2026-09-09) Saner.AI: Product praise vs deep Meta trust distrust — "drug dealer" framing.
+- (2026-09-09) Saner.AI: Security-practitioner reaction to unattended agent + private data blast radius — "worst kind of hazmat."
+- (2026-09-09) Saner.AI: Muse as first OpenClaw-like consumer agent that just works.

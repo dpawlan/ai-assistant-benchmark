@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-16",
-  "agent_count": 115,
+  "updated": "2026-09-17",
+  "agent_count": 116,
   "feedback_count": 5594,
-  "confirmed": 88,
+  "confirmed": 89,
   "stretch": 27,
   "agents": [
     {
@@ -2540,6 +2540,27 @@
           "iMessage",
           "SMS",
           "Web"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "energy",
+      "name": "Energy",
+      "status": "confirmed",
+      "site": "https://getenergy.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A desktop AI workspace that does the work across your apps",
+      "icon": "/logos/energy.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free with your own ChatGPT plan · Plus $50/mo · Pro $200/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "Windows app"
         ],
         "checked": "2026-09-16"
       }

@@ -1,0 +1,26 @@
+{
+  "slug": "energy",
+  "name": "Energy",
+  "site": "https://getenergy.com/",
+  "handles": [
+    "GetEnergy_",
+    "gabriel1"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Desktop AI workspace from The Computer Work Company (San Francisco, founder Gabriel Petersson, ex-OpenAI): pre-built assistants take a plain-language request and execute multi-step work across a signed-in browser, Gmail or Outlook, Drive, Calendar, Slack, Notion and local files, returning results with an audit trail. macOS and Windows apps only, no messaging channel. Launched August 2026. Requested via the form by a user (issue #324).",
+  "public_signal": "low",
+  "tagline": "A desktop AI workspace that does the work across your apps",
+  "icon": "/logos/energy.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free with your own ChatGPT plan · Plus $50/mo · Pro $200/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "Windows app"
+    ],
+    "checked": "2026-09-16"
+  }
+}

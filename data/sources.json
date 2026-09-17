@@ -804,6 +804,36 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting."
     },
+    "energy": {
+      "name": "Energy",
+      "handles": [
+        "GetEnergy_",
+        "gabriel1"
+      ],
+      "domain": "getenergy.com",
+      "x_queries": [
+        "\"getenergy.com\"",
+        "@GetEnergy_",
+        "@gabriel1",
+        "\"energy\""
+      ],
+      "reddit_queries": [
+        "\"getenergy.com\""
+      ],
+      "hn_queries": [
+        "\"getenergy.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "getenergy.com",
+        "@GetEnergy_",
+        "@gabriel1",
+        "energy"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission (issue #324). Handles are best guesses; verify before collecting."
+    },
     "eney": {
       "name": "Eney",
       "handles": [

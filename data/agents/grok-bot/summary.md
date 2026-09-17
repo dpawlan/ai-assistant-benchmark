@@ -1,6 +1,6 @@
 # Grok Bot
 
-**Feedback rows:** 813 (as of 2026-09-14)
+**Feedback rows:** 1158 (as of 2026-09-17)
 **Kinds:** other=694, use-case=58, complaint=25, praise=14, comparison=13, bug=9
 **Top tags:** cursor(18), reddit(10), hermes(4), limits(4), pricing(3), trading(3), email(3), claude(3)
 
@@ -56,3 +56,16 @@ _Updated 2026-09-10 weekday vault scan (+4 rows)._
 - (2026-09-10) Dennis Yu: I run Grok Bot as a single coordinator desk with named specialist agents, not a swarm. ... Grok Bot is the Cursor/xAI teammate on desktop an
 - (2026-09-01) VIS Mountain: Pick Grok Bot if you are a business owner or small team without a systems administrator, you want approvals and a reviewable audit of action
 - (2026-08-29) Liat Ben-Zur: Use Grok Bot if you want named bots to own repeatable jobs. Use Instinct if you want one assistant you can hand almost anything to.
+
+_Updated 2026-09-17 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-09-12) Create With (Kieran): Better UX than OpenClaw/Hermes; multi-Gmail/calendar is standout.
+- (2026-09-12) Create With (James): Found unreliable vs hype; usage allowance burns fast / opaque.
+- (2026-09-06) AI Maker: Hands-on seven-bot team; Invoice Hunter Gmail→Sheets workflow highlighted.
+- (2026-09-03) Khe Hy: Resy book+cancel via computer-use; SMS OTP still manual.
+- (2026-09-03) Khe Hy: Facebook login CAPTCHA loop killed computer-use session.
+- (2026-09-03) Khe Hy: Digital visa/immigration form fill from Notion context + QR screenshots saved.
+- (2026-09-03) Khe Hy: Airport car booking via Stripe Link; card switch needed manual step.
+- (2026-09-08) Continuum: Account-level shared computer, no per-Bot security boundary.
+- (2026-09-08) Continuum: No published SOC2/retention/residency claims found; no dry-run — tests perform real side effects.

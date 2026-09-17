@@ -7410,5 +7410,24 @@
     "source": "web",
     "collected_at": "2026-09-11T14:00:42Z",
     "notes": "Competitor review: email-native strength vs multi-channel team friction."
+  },
+  {
+    "agent": "town",
+    "quote": "Town gives you an assistant with its own email address that triages your inbox, drafts replies, and runs background routines. It's more capable than Poke on email specifically, with prebuilt routines for inbox triage, meeting briefings, and expense logging. The catch is credit-based billing with overage, and Pro runs $99/month. Poke is cheaper and simpler. Town does more of the actual work. Neither one gives you a place to keep things.",
+    "author": "Austin",
+    "date": "2026-07-21",
+    "url": "https://www.saner.ai/blogs/poke-reviews#vs-town-town",
+    "kind": "comparison",
+    "tags": [
+      "poke",
+      "email",
+      "pricing",
+      "web"
+    ],
+    "notes": "Same Saner.AI Poke review comparison — Town row: stronger email/routines, $99 Pro, credit overages.",
+    "id": "3556be6fd62d",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

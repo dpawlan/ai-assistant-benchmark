@@ -36,4 +36,9 @@ _Updated 2026-09-15 weekday vault scan (+4 rows)._
 - (2026-08-25) Saner.AI: App Store reviewer — "after using it for a week, it still would not show all my email."
 - (2026-08-25) Saner.AI: iMessage access praised — "always in the loop" with follow-up notifications.
 - (2026-08-25) Tom's Guide (via Saner): "Early software, early rough edges."
-- (2026-08-25) Saner.AI: "a real trust problem: Gmail-only… still fixing 'missing emails' bugs." 
+- (2026-08-25) Saner.AI: "a real trust problem: Gmail-only… still fixing 'missing emails' bugs."
+
+_Updated 2026-09-17 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-06-09) this+that: Draft quality + scheduling praise; still-need-to-read + voice-matching + seat cost complaints. (Note: author works on competing product)

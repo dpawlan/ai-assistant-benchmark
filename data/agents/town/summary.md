@@ -2,7 +2,7 @@
 
 Site: https://www.town.com/
 
-**Feedback rows:** 36 (as of 2026-09-07)
+**Feedback rows:** 301 (as of 2026-09-17)
 **Kinds:** use-case=13, praise=8, other=8, comparison=5, bug=1, complaint=1
 **Top tags:** group-chat(6), email(4), launch(4), group-text(4), townie(4), family(3), calendar(2), identity(2)
 
@@ -44,3 +44,8 @@ _Updated 2026-09-11 weekday vault scan (+6 rows)._
 - (2026-09-11) @waynesutton: New benchmark test for @TownAI @bot & @noahrshinn Instinct should be provide address and contact information and go to https://ups.com @UPS 
 - (2026-09-11) @venturetwins: Recently got asked to make slides on the AI creative ecosystem.  I'd shared thoughts on this across countless meetings, emails, Slacks, and 
 - (2026-09-11) @infoxiao: oh no my instinct @muse and @TownAI are having a turf war whenever a new email appears
+
+_Updated 2026-09-17 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-07-21) Saner.AI: Town deeper on email/routines at $99 Pro; Poke cheaper/simpler; both lack knowledge base.

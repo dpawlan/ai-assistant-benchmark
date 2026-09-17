@@ -1,0 +1,19 @@
+{
+  "id": "openinstinct-2026-09-16-6172ca",
+  "agent": "openinstinct",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-09-16",
+  "signals": {
+    "turns": 41,
+    "my_messages": 18,
+    "agent_messages": 23,
+    "first_reply_s": 10,
+    "duration_min": 1295,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-17T15:24:27.574Z"
+}

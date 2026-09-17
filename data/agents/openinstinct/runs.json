@@ -8,5 +8,75 @@
     "outcome": "fail",
     "notes": "Never acknowledged the weekday briefing request and nothing arrived on the following mornings.",
     "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-11-ec9a9b"
+  },
+  {
+    "id": "openinstinct-2026-09-16-dd02de",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-16",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Found nothing refundable under $250 near the Loop, offered a refundable and a cheaper non-refundable pick, priced it and held for approval.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-16-dd02de"
+  },
+  {
+    "id": "openinstinct-2026-09-16-4aed21",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-16",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Created a calendar invite with the right guest, time and venue once Google was linked, but needed a nudge to retry after linking.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-16-4aed21"
+  },
+  {
+    "id": "openinstinct-2026-09-16-6172ca",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-09-16",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Asks approval before every calendar or email action, confirms fees before a card guarantee, and keeps logins out of the chat.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-16-6172ca"
+  },
+  {
+    "id": "openinstinct-2026-09-17-98e2e2",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked for the date and time, then found a fully plant-based spot with an exact 8pm table for four and the distance from the hotel.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-17-98e2e2"
+  },
+  {
+    "id": "openinstinct-2026-09-17-66523f",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Asked for NYC dinners on the same nights as the Chicago hotel it had just priced and did not flag the clash.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-17-66523f"
+  },
+  {
+    "id": "openinstinct-2026-09-17-7e2780",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Booked the anniversary table on Resy with the note attached, confirming the cancellation fee before the card guarantee; nothing charged.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-17-7e2780"
+  },
+  {
+    "id": "openinstinct-2026-09-17-e8c832",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Offered to email the restaurant about the anniversary, then asked for approval five times in a row and never sent it.",
+    "evidence_url": "/agents/openinstinct/evidence/openinstinct-2026-09-17-e8c832"
   }
 ]

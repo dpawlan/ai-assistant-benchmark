@@ -1,0 +1,19 @@
+{
+  "id": "openinstinct-2026-09-17-7e2780",
+  "agent": "openinstinct",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2026-09-17",
+  "signals": {
+    "turns": 11,
+    "my_messages": 4,
+    "agent_messages": 7,
+    "first_reply_s": 17,
+    "duration_min": 29,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-17T15:24:27.574Z"
+}

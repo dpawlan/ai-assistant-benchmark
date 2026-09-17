@@ -118,5 +118,15 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Confirmed a clear verbal hold and will not follow up unless asked."
+  },
+  {
+    "id": "pally-2026-09-17-routine",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Weekday 9am NYC weather one-liner fired on all three observed weekdays, on schedule, with accurate content.",
+    "evidence_url": "/agents/pally/evidence/pally-2026-09-17-routine"
   }
 ]

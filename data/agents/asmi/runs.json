@@ -116,5 +116,15 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Confirmed a clear verbal hold and will not follow up unless asked."
+  },
+  {
+    "id": "asmi-2026-09-17-routine",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-17",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Confirmed a weekday 9am weather routine and still reports it active, but none of the three expected fires arrived.",
+    "evidence_url": "/agents/asmi/evidence/asmi-2026-09-17-routine"
   }
 ]

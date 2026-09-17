@@ -28147,5 +28147,43 @@
     "author_name": "Khe Hy",
     "collected_at": "2026-09-17T14:15:00Z",
     "source": "web"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "\"The computer is isolated to your account, not to an individual Bot.\" \"All of your Bots use the same persistent cloud computer. They share files, browser sessions, and app logins, which makes handoffs possible.\" \"Treat a login or file placed on the computer as available to all of your Bots.\"",
+    "author": "Continuum team",
+    "author_name": "Continuum team",
+    "date": "2026-09-08",
+    "url": "https://continuumcode.ai/guides/grok-bot-security-compliance/#shared-computer",
+    "kind": "other",
+    "tags": [
+      "security",
+      "shared-computer",
+      "docs",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-17T14:20:00Z",
+    "notes": "Continuum security guide (updated Sep 8) quoting xAI docs: account-level shared computer, no per-Bot security boundary.",
+    "id": "60469eab1544"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "No published SOC 2, ISO 27001, GDPR, or HIPAA claim was found in the Grok Bot documentation set as of 22 August 2026. No retention period or data residency option is published. Compliance defers to Cursor’s terms rather than a separate xAI agreement. … There is no dry-run mode. The documentation states that a test run performs real work: it navigates websites, changes files, and calls connected tools.",
+    "author": "Continuum team",
+    "author_name": "Continuum team",
+    "date": "2026-09-08",
+    "url": "https://continuumcode.ai/guides/grok-bot-security-compliance/#compliance",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "compliance",
+      "dry-run",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-17T14:20:00Z",
+    "notes": "Continuum: no published SOC2/retention/residency claims found; no dry-run — tests perform real side effects.",
+    "id": "ff38d9cb77aa"
   }
 ]

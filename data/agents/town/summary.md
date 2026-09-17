@@ -49,3 +49,11 @@ _Updated 2026-09-17 weekday vault scan (+1 row)._
 
 **New this scan:**
 - (2026-07-21) Saner.AI: Town deeper on email/routines at $99 Pro; Poke cheaper/simpler; both lack knowledge base.
+
+## Amy identity Wave 1 (2026-09-16)
+First-run eval under the **Amy Zinger** identity (issue #294), not the earlier non-Amy iMessage corpus.
+- Channels: Town Web + Townie email (no Slack; iMessage avoided for this identity).
+- Scored so far: recommendation_quality 8, content_creation_games 9, email_replies 8, permissions_privacy 6 (partial; Google disconnect deferred overnight for Morning Briefing).
+- Speed: `usage.json` source `town-web-amy`, median_reply_s 4 (n=1 timed web smoke; in-page Date.now + MutationObserver).
+- Morning Briefing routine created Mon–Fri 7:00 AM America/Denver; next-day fire check still open.
+- Prior `runs.json` rows from 2026-04–09 remain historical non-Amy observations.

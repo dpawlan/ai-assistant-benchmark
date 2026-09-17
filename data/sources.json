@@ -814,8 +814,7 @@
       "x_queries": [
         "\"getenergy.com\"",
         "@GetEnergy_",
-        "@gabriel1",
-        "\"energy\""
+        "@gabriel1"
       ],
       "reddit_queries": [
         "\"getenergy.com\""
@@ -828,11 +827,10 @@
       "match": [
         "getenergy.com",
         "@GetEnergy_",
-        "@gabriel1",
-        "energy"
+        "@gabriel1"
       ],
       "imessage_handles": [],
-      "_note": "Added 2026-09-16 from a request-form submission (issue #324). Handles are best guesses; verify before collecting."
+      "_note": "Added 2026-09-16 from a request-form submission (issue #324). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
     },
     "eney": {
       "name": "Eney",

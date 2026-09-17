@@ -1,0 +1,19 @@
+{
+  "id": "openinstinct-2026-09-17-66523f",
+  "agent": "openinstinct",
+  "category": "memory",
+  "protocol": "observed",
+  "date": "2026-09-17",
+  "signals": {
+    "turns": 4,
+    "my_messages": 2,
+    "agent_messages": 2,
+    "first_reply_s": 6,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-17T15:24:27.574Z"
+}

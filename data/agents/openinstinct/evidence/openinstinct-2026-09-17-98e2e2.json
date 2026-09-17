@@ -1,0 +1,19 @@
+{
+  "id": "openinstinct-2026-09-17-98e2e2",
+  "agent": "openinstinct",
+  "category": "recommendation_quality",
+  "protocol": "observed",
+  "date": "2026-09-17",
+  "signals": {
+    "turns": 7,
+    "my_messages": 3,
+    "agent_messages": 4,
+    "first_reply_s": 10,
+    "duration_min": 8,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-17T15:24:27.573Z"
+}

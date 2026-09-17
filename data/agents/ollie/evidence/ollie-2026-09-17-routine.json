@@ -1,0 +1,14 @@
+{
+  "id": "ollie-2026-09-17-routine",
+  "agent": "ollie",
+  "category": "running_routine",
+  "protocol": "task",
+  "date": "2026-09-17",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-17T17:53:46.459Z"
+}

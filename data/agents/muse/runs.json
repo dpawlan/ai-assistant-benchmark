@@ -70,5 +70,15 @@
     "score": 9,
     "outcome": "pass",
     "notes": "Asked before sending the email and staged the flower checkout instead of paying; linked services one at a time with per-service access."
+  },
+  {
+    "id": "muse-2026-09-17-routine",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Weekday routines in daily use, family admin and scheduled asks, landed on time without a miss.",
+    "evidence_url": "/agents/muse/evidence/muse-2026-09-17-routine"
   }
 ]

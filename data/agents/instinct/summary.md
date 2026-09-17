@@ -2,7 +2,7 @@
 
 Site: https://instinct.co/
 
-**Feedback rows:** 190 (as of 2026-09-14)
+**Feedback rows:** 200 (as of 2026-09-17)
 **Kinds:** other=75, use-case=53, praise=22, bug=15, complaint=14, comparison=11
 **Top tags:** reddit(27), travel(15), proactive(9), privacy(9), imessage(9), email(7), whatsapp(6), onboarding(5)
 
@@ -89,3 +89,13 @@ _Updated 2026-09-16 weekday vault scan (+2 rows)._
 
 _Updated 2026-09-15 weekday vault scan (+1 row)._
 - (2026-09-08) @altryne head-to-head: Instinct still searching while Muse booked via Link — booking speed comparison.
+
+_Updated 2026-09-17 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-16) PYMNTS: $1B raise talks at $10B valuation; >100k invite-only users.
+- (2026-09-16) PYMNTS: Capacity warnings and slower responses under load.
+- (2026-09-04) Skift: Instinct framed as end-to-end travel booking/rebooking via SMS/WhatsApp; warns frictionless ≠ flawless.
+- (2026-09-04) Skift: End-to-end travel wins vs Hermes/OpenClaw/Tasklet/GrokBot; also wrong hotel rates and confirmation-skip risks.
+- (2026-09-14) GoEarlyBirdLab: Privacy criticism alongside agent email addresses + agent-to-agent social layer.
+- (2026-09-15) Legend Memory: Re-checked live ToS — training on by default with Vault + settings opt-out.

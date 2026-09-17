@@ -8,7 +8,12 @@
     "date": "2026-09-14",
     "url": "https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable#shopping",
     "kind": "use-case",
-    "tags": ["shopping", "amazon", "hands-on", "web"],
+    "tags": [
+      "shopping",
+      "amazon",
+      "hands-on",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "TechRadar hands-on (14 Sep 2026): shopping flow with approval before purchase."
@@ -22,7 +27,12 @@
     "date": "2026-09-14",
     "url": "https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable#email",
     "kind": "use-case",
-    "tags": ["email", "drafts", "hands-on", "web"],
+    "tags": [
+      "email",
+      "drafts",
+      "hands-on",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "TechRadar hands-on: inbox triage + draft reply with approval."
@@ -36,7 +46,12 @@
     "date": "2026-09-14",
     "url": "https://www.techradar.com/ai-platforms-assistants/i-tried-metas-new-muse-ai-agent-its-incredibly-useful-but-handing-it-my-digital-life-felt-deeply-uncomfortable#verdict",
     "kind": "praise",
-    "tags": ["privacy", "trust", "hands-on", "web"],
+    "tags": [
+      "privacy",
+      "trust",
+      "hands-on",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "TechRadar verdict: useful but uncomfortable trust tradeoff."
@@ -50,7 +65,12 @@
     "date": "2026-09-13",
     "url": "https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/#burst-120",
     "kind": "bug",
-    "tags": ["subagents", "reliability", "hands-on", "web"],
+    "tags": [
+      "subagents",
+      "reliability",
+      "hands-on",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Black-box load test: majority of burst subagent.spawn calls failed under load."
@@ -64,7 +84,12 @@
     "date": "2026-09-13",
     "url": "https://blog.cygankiewicz.com/en/meta-muse-black-box-testing/#lock-timeout",
     "kind": "bug",
-    "tags": ["subagents", "postgres", "bug", "web"],
+    "tags": [
+      "subagents",
+      "postgres",
+      "bug",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Recovered spawn_failed payloads show PostgreSQL lock timeout on subagent.spawn."
@@ -78,7 +103,11 @@
     "date": "2026-09-09",
     "url": "https://news.ycombinator.com/item?id=49620044#nickysielicki",
     "kind": "praise",
-    "tags": ["hands-on", "hn", "mobile"],
+    "tags": [
+      "hands-on",
+      "hn",
+      "mobile"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "HN comment on Muse launch thread; ~1h hands-on praise vs major chat apps."
@@ -92,7 +121,12 @@
     "date": "2026-09-09",
     "url": "https://news.ycombinator.com/item?id=49620044#russellbeattie",
     "kind": "use-case",
-    "tags": ["vm", "transparency", "marketplace", "hn"],
+    "tags": [
+      "vm",
+      "transparency",
+      "marketplace",
+      "hn"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "HN hands-on: System Files transparency + Marketplace listing use case."
@@ -106,7 +140,12 @@
     "date": "2026-09-08",
     "url": "https://x.com/altryne/status/2097430715923399135",
     "kind": "comparison",
-    "tags": ["booking", "payments", "vs-instinct", "x"],
+    "tags": [
+      "booking",
+      "payments",
+      "vs-instinct",
+      "x"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Verified via unrollnow mirror of X thread; Muse booked via Link while Instinct still searching."
@@ -120,7 +159,12 @@
     "date": "2026-09-09",
     "url": "https://thecreatorsindex.com/platform/meta/meta-muse-ai-agent-everything-it-can-do-and-everything-its-asking-for#instagram-scope",
     "kind": "complaint",
-    "tags": ["instagram", "permissions", "creators", "web"],
+    "tags": [
+      "instagram",
+      "permissions",
+      "creators",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Creators Index analysis of Muse Instagram connector scoping limits."
@@ -2506,5 +2550,140 @@
     "source": "submission",
     "agent": "muse",
     "collected_at": "2026-09-16T16:52:08.215Z"
+  },
+  {
+    "agent": "muse",
+    "quote": "According to new data provided by the market intelligence firm Sensor Tower, Muse has been downloaded north of 83,000 times on iOS in the United States. … While this pushed Muse into the No. 2 position on the App Store’s Top Charts, its launch pales when compared with other recent app debuts from Meta, like Threads and Meta AI… Its Android counterpart, however, is faring less well. Muse has only achieved a rank of No. 338 in the Productivity category on Google Play’s app marketplace.",
+    "author": "Sarah Perez",
+    "date": "2026-09-10",
+    "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+    "kind": "other",
+    "tags": [
+      "adoption",
+      "app-store",
+      "techcrunch",
+      "web"
+    ],
+    "notes": "TechCrunch Sep 10: Muse ~83k US iOS downloads → No.2 App Store; Android #338 Productivity; WhatsApp/web not counted.",
+    "id": "234235455c19",
+    "author_name": "Sarah Perez",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "Despite security concerns and an overly broad and permissive privacy policy, Silicon Valley insiders have been raving about Instinct’s capabilities. … While there are plenty of other agents that focus more narrowly on things like managing work or family life, Instinct seems to be the one to beat… This week, for example, Instinct has rolled out email addresses for all its users, and just announced it’s building its own social network of sorts — that is, one person’s Instinct agent can now talk to those belonging to their friends to coordinate plans.",
+    "author": "Sarah Perez",
+    "date": "2026-09-10",
+    "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/#instinct-rival",
+    "kind": "comparison",
+    "tags": [
+      "instinct",
+      "comparison",
+      "privacy",
+      "multiplayer",
+      "techcrunch"
+    ],
+    "notes": "Same TechCrunch piece: Muse launch framed against Instinct as the peer to beat; Instinct agent email + agent-to-agent social.",
+    "id": "e44ade463b71",
+    "author_name": "Sarah Perez",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "In a documented hands-on test, Muse shortlisted a Patagonia jacket at a discount that had already expired, apparently pulled from a batch-updated merchant catalog feed instead of live pricing. On a separate Amazon order, it quoted a September 15 delivery when the same item was two days out in the Amazon app. And when the tester tried a DoorDash order, the login flow broke down entirely. \"it got stuck in log-in circular hell\"",
+    "author": "Austin",
+    "date": "2026-09-09",
+    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#checkout",
+    "kind": "bug",
+    "tags": [
+      "shopping",
+      "checkout",
+      "doordash",
+      "amazon",
+      "web"
+    ],
+    "notes": "Saner.AI Muse review (Sep 9): stale catalog price, wrong Amazon ETA, DoorDash login loop — “log-in circular hell”.",
+    "id": "a4e95172157e",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "And the free allowance is smaller in practice than the number implies. Meta's AI chief says most people will never need to pay. One hands-on reviewer hit 81% of the weekly cap in a single day doing normal things. If you actually use an agent the way the marketing describes, $20 a month is needed.",
+    "author": "Austin",
+    "date": "2026-09-09",
+    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#tokens",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "tokens",
+      "free-tier",
+      "web"
+    ],
+    "notes": "Saner.AI: free weekly token allotment burns fast — 81% in one day of ordinary use.",
+    "id": "6d96f7216554",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "But the dominant thread, by volume, was people wanting this exact product from literally any other company. \"I absolutely don't trust Facebook with the necessary data.\" Several connected the trust problem to Meta's business model rather than to any specific technical claim… \"It's handing your drug dealer the keys to your house.\"",
+    "author": "Austin",
+    "date": "2026-09-09",
+    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#trust",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "trust",
+      "hn",
+      "web"
+    ],
+    "notes": "Saner.AI synthesis of launch chatter: product praise vs deep Meta trust distrust.",
+    "id": "1f91c260cb77",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "Security practitioners focused on the structural problem: an unattended agent reading the open web, holding your private data, with the ability to send things out. \"This is the worst kind of hazmat for LLMs, in one of the most adversarially challenging roles\"",
+    "author": "Austin",
+    "date": "2026-09-09",
+    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#hazmat",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "prompt-injection",
+      "hn",
+      "web"
+    ],
+    "notes": "Saner.AI quoting security-practitioner reaction to unattended agent + private data blast radius.",
+    "id": "3e1e71f0da95",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "muse",
+    "quote": "Observers who've followed agent tooling for years gave Muse the highest practical compliment available: it's the first thing in the category that a normal person can actually use. \"the first main openclaw-like product that has made it to the 'just works' level\"",
+    "author": "Austin",
+    "date": "2026-09-09",
+    "url": "https://www.saner.ai/blogs/honest-muse-ai-reviews#just-works",
+    "kind": "praise",
+    "tags": [
+      "openclaw",
+      "usability",
+      "hn",
+      "web"
+    ],
+    "notes": "Saner.AI citing HN-style praise: Muse as first OpenClaw-like consumer agent that just works.",
+    "id": "e3d1634ec095",
+    "author_name": "Austin",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

@@ -8,7 +8,12 @@
     "date": "2026-08-25",
     "url": "https://blog.saner.ai/slashy-review/#missing-email",
     "kind": "bug",
-    "tags": ["email", "reliability", "app-store", "web"],
+    "tags": [
+      "email",
+      "reliability",
+      "app-store",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Saner review citing App Store reliability complaint (missing threads)."
@@ -22,7 +27,12 @@
     "date": "2026-08-25",
     "url": "https://blog.saner.ai/slashy-review/#imessage-loop",
     "kind": "praise",
-    "tags": ["imessage", "follow-ups", "email", "web"],
+    "tags": [
+      "imessage",
+      "follow-ups",
+      "email",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Saner review summarizing tester praise for follow-ups + iMessage access."
@@ -36,7 +46,10 @@
     "date": "2026-08-25",
     "url": "https://blog.saner.ai/slashy-review/#toms-guide",
     "kind": "complaint",
-    "tags": ["maturity", "web"],
+    "tags": [
+      "maturity",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Quoted via Saner review of early multi-channel access."
@@ -50,7 +63,12 @@
     "date": "2026-08-25",
     "url": "https://blog.saner.ai/slashy-review/#trust",
     "kind": "complaint",
-    "tags": ["email", "pricing", "gmail-only", "web"],
+    "tags": [
+      "email",
+      "pricing",
+      "gmail-only",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Reviewer framing of scope/pricing/trust limits."
@@ -6215,5 +6233,25 @@
       "views": 43,
       "fetched": "2026-09-14"
     }
+  },
+  {
+    "agent": "slashy",
+    "quote": "The praise is about draft quality. When an AI reply is good enough to send with a light edit, the time saved is real and immediate, and Slashy is well regarded on that specific axis. Scheduling is the other frequently cited win, because it removes a category of message rather than making it faster to write. The complaints are the ones the category shares. Drafts still need reading before they send, so the saving is smaller than the pitch implies. Voice matching takes a while to settle. And the price is a real consideration for a small team when the alternative is doing it yourself in a free client.",
+    "author": "Kaily Irons-Fuda",
+    "date": "2026-06-09",
+    "url": "https://www.thisandthat.chat/blog/slashy-review/#praise-complaints",
+    "kind": "praise",
+    "tags": [
+      "email",
+      "drafting",
+      "scheduling",
+      "pricing",
+      "web"
+    ],
+    "notes": "this+that Slashy review (pricing checked Aug 4 2026): draft quality + scheduling praise; still-need-to-read + voice-matching + seat cost complaints. Note: author works on competing product.",
+    "id": "6f2cb41fb41a",
+    "author_name": "Kaily Irons-Fuda",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

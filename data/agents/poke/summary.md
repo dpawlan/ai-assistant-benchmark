@@ -2,7 +2,7 @@
 
 Site: https://poke.com/
 
-**Feedback rows:** 36 (as of 2026-09-07)
+**Feedback rows:** 237 (as of 2026-09-17)
 **Kinds:** comparison=8, complaint=8, other=6, use-case=6, bug=4, praise=4
 **Top tags:** reddit(9), imessage(6), reliability(3), personality(3), vs-instinct(2), launch(2), travel(2), recipes(2)
 
@@ -48,3 +48,12 @@ _Updated 2026-09-15 weekday vault scan (+4 rows)._
 - (2026-06-05) Reddit: memory/consistency complaints — "lost all past training/context."
 - (2026-07-13) UseCarly Poke vs Tomo: proactive assistant for email/calendar/reminders by text.
 - (2026-07-24) iChatWithGPT: Cognition acquisition; 100M messages, first Apple Business Chat approval.
+
+_Updated 2026-09-17 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-07-21) Saner.AI verdict: Messaging UX wins; time/email judgment + no searchable memory lose.
+- (2026-07-21) Saner.AI: Date/timezone reasoning failures framed as core reliability gap — "clever, caffeinated toddler."
+- (2026-07-21) Saner.AI: Slow email checks + "duct tape" premium pricing jab (one-star review).
+- (2026-07-21) Saner.AI: Privacy pushback during onboarding; "ten-foot pole" inbox-connect refusal.
+- (2026-07-21) Saner.AI comparison: Town deeper on email/routines at $99; Poke cheaper/simpler; both lack knowledge base.

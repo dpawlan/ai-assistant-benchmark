@@ -4322,5 +4322,120 @@
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Same head-to-head as Muse row; Instinct still searching when Muse had booked."
+  },
+  {
+    "agent": "instinct",
+    "quote": "Spear Street Technology, which operates artificial intelligence assistant Instinct, is in discussions to raise $1 billion, The Information reported Tuesday (Sept. 15). The new funding would value the company at $10 billion, according to the report, which cited an unnamed source. The startup is seeking new funding as its invitation-only AI agent’s user base has surpassed 100,000.",
+    "author": "PYMNTS",
+    "date": "2026-09-16",
+    "url": "https://www.pymnts.com/startups/2026/instinct-ai-assistant-targets-10-billion-dollar-valuation/",
+    "kind": "other",
+    "tags": [
+      "funding",
+      "valuation",
+      "web",
+      "scale"
+    ],
+    "notes": "Sep 16 PYMNTS: $1B raise talks at $10B valuation; >100k invite-only users; notes Muse as free peer.",
+    "id": "af265f4cc164",
+    "author_name": "PYMNTS",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "instinct",
+    "quote": "Instinct has sometimes informed users that it is operating at full capacity and “responses may be slower” as people use it for tasks like negotiating bills and replying to emails, according to the report.",
+    "author": "PYMNTS",
+    "date": "2026-09-16",
+    "url": "https://www.pymnts.com/startups/2026/instinct-ai-assistant-targets-10-billion-dollar-valuation/#capacity",
+    "kind": "complaint",
+    "tags": [
+      "capacity",
+      "latency",
+      "web"
+    ],
+    "notes": "Sep 16 PYMNTS (via The Information): capacity warnings and slower responses under load.",
+    "id": "bbf56a764e16",
+    "author_name": "PYMNTS",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "instinct",
+    "quote": "Instinct, a freshman AI assistant that has Silicon Valley buzzing, can book and rebook trips from a text thread. Key lesson for travel: Talking about frictionless booking isn't the same as delivering it.",
+    "author": "Adriana Lee",
+    "date": "2026-09-04",
+    "url": "https://skift.com/2026/09/04/a-viral-ai-bot-just-showed-travel-what-frictionless-actually-means/",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "booking",
+      "skift",
+      "web"
+    ],
+    "notes": "Skift (Sep 4): Instinct framed as end-to-end travel booking/rebooking via SMS/WhatsApp; warns frictionless ≠ flawless.",
+    "id": "714e05ec65eb",
+    "author_name": "Adriana Lee",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "instinct",
+    "quote": "What sets Instinct apart from rivals like Hermes, OpenClaw, Tasklet, and GrokBot is its ability to complete tasks end-to-end with minimal friction: it can book and rebook travel, monitor for fare drops, apply forgotten airline credits, keep families seated together, and add trips to calendars, all from a text thread. … it has quoted incorrect hotel rates, cannot overcome real-world inventory constraints, and its aggressive automation (skipping standard confirmation steps) has raised trust, privacy, and data-permission concerns.",
+    "author": "Adriana Lee",
+    "date": "2026-09-04",
+    "url": "https://skift.com/2026/09/04/a-viral-ai-bot-just-showed-travel-what-frictionless-actually-means/#summary",
+    "kind": "comparison",
+    "tags": [
+      "travel",
+      "comparison",
+      "hotel-rates",
+      "privacy",
+      "skift"
+    ],
+    "notes": "Skift summary: end-to-end travel wins vs Hermes/OpenClaw/Tasklet/GrokBot; also wrong hotel rates and confirmation-skip risks.",
+    "id": "e575b33055bd",
+    "author_name": "Adriana Lee",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "instinct",
+    "quote": "TechCrunch, describing the competitive landscape between Muse and Instinct, noted that Instinct has attracted enthusiasm from Silicon Valley insiders despite, in the outlet’s words, “security concerns and an overly broad and permissive privacy policy.” Instinct has continued shipping new, more expansive features at a rapid pace even amid that criticism, including giving every user their own dedicated email address and building what the company describes as a kind of internal social layer, letting one person’s Instinct agent communicate directly with another person’s agent on their behalf.",
+    "author": "goearlybirdlab",
+    "date": "2026-09-14",
+    "url": "https://goearlybirdlab.com/2026/09/14/instinct-vs-metas-muse-inside-the-new-ai-agent-turf-war-over-who-runs-your-errands/#instinct-shipping",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "email",
+      "multiplayer",
+      "muse",
+      "web"
+    ],
+    "notes": "Sep 14 analysis citing TechCrunch: privacy criticism alongside agent email addresses + agent-to-agent social layer.",
+    "id": "d45f52f8710a",
+    "author_name": "goearlybirdlab",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
+  },
+  {
+    "agent": "instinct",
+    "quote": "Here is what the live terms say instead. On ownership: “The Company does not claim any ownership in your Materials.” On use: “You agree that we may use Materials to develop, provide, maintain and improve the Services and our other products and services, including training AI models, and for any purpose specified in our Privacy Notice, subject to your opt-out rights and Vault materials as outlined below.” So training on your data is on by default, with two protections. There is a Vault… And there is a general opt-out at app.instinct.com/settings.",
+    "author": "The Archive Team",
+    "date": "2026-09-15",
+    "url": "https://legendmemory.ai/blogs/the-archive/muse-vs-instinct-ai-assistant#terms",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "terms",
+      "training",
+      "web"
+    ],
+    "notes": "Legend Memory (corrected Sep 15): re-checked live ToS — training on by default with Vault + settings opt-out; removed prior “perpetual and irrevocable” claim after recheck.",
+    "id": "5f02f3ab9da1",
+    "author_name": "The Archive Team",
+    "collected_at": "2026-09-17T14:15:00Z",
+    "source": "web"
   }
 ]

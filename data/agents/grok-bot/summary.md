@@ -1,7 +1,7 @@
 # Grok Bot
 
-**Feedback rows:** 1158 (as of 2026-09-17)
-**Kinds:** other=694, use-case=58, complaint=25, praise=14, comparison=13, bug=9
+**Feedback rows:** 1164 (as of 2026-09-18)
+**Kinds:** other=1018, use-case=72, complaint=30, praise=18, comparison=15, bug=11
 **Top tags:** cursor(18), reddit(10), hermes(4), limits(4), pricing(3), trading(3), email(3), claude(3)
 
 **Patterns (public X + Reddit):**
@@ -69,3 +69,11 @@ _Updated 2026-09-17 weekday vault scan (+7 rows)._
 - (2026-09-03) Khe Hy: Airport car booking via Stripe Link; card switch needed manual step.
 - (2026-09-08) Continuum: Account-level shared computer, no per-Bot security boundary.
 - (2026-09-08) Continuum: No published SOC2/retention/residency claims found; no dry-run — tests perform real side effects.
+
+_Updated 2026-09-18 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-13) @ComebackCap: specialists that write prompts for each other.
+- (2026-09-08) Luca Rossi (Refactoring.fm): migrated all non-coding work; five-bot fleet (Brian/Karn/Edith/Sponsy/Grow).
+- (2026-09-02) Peter Yang: best-in-class cloud; discomfort entering Amazon 2FA on cloud computer; no financials.
+

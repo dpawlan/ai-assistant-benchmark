@@ -28185,5 +28185,119 @@
     "collected_at": "2026-09-17T14:20:00Z",
     "notes": "Continuum: no published SOC2/retention/residency claims found; no dry-run — tests perform real side effects.",
     "id": "ff38d9cb77aa"
+  },
+  {
+    "quote": "Grok Bot is great for everyday use due to having many defined agents. You spin up specialists for career, fashion, travel, a chief of staff and they live in their lanes. I believe these self improve. The real edge is they write prompts for each other. You're not yelling \"do everything\" at one model. Think this is important.",
+    "author": "@ComebackCap",
+    "author_name": "ComebackCap",
+    "date": "2026-09-13",
+    "url": "https://x.com/ComebackCap/status/2099196804709367953#grok",
+    "kind": "praise",
+    "tags": [
+      "multi-agent",
+      "specialists",
+      "x"
+    ],
+    "source": "x",
+    "notes": "ComebackCap: Grok Bot multi-agent specialists that prompt each other.",
+    "id": "09d237e22f70",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z"
+  },
+  {
+    "quote": "Grok Bot has been a revelation because of how well-made, convenient, and useful it is, and I migrated all my agent work (except coding) to it. ... Mind you, this is nothing inherent new or that you couldn't setup yourself, but it's just 100x more convenient than setting things up manually with SSH, Tailscale, Termius, containers, and so on.",
+    "author": "Luca Rossi",
+    "author_name": "Luca Rossi",
+    "date": "2026-09-08",
+    "url": "https://refactoring.fm/p/my-agents-are-moving-to-the-cloud#revelation",
+    "kind": "praise",
+    "tags": [
+      "cloud",
+      "convenience",
+      "migration",
+      "web"
+    ],
+    "notes": "Refactoring.fm: migrated all non-coding agent work to Grok Bot cloud VMs.",
+    "id": "ea8e8671cb13",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Grok Bot allowed me to easily spin off Brian's work into multiple agents, so that now I have five of them: Brian (Chief of Staff), Karn (Tolaria product), Edith (Editor-in-Chief), Sponsy (sponsorship ops), and Grow (newsletter metrics / paid ads).",
+    "author": "Luca Rossi",
+    "author_name": "Luca Rossi",
+    "date": "2026-09-08",
+    "url": "https://refactoring.fm/p/my-agents-are-moving-to-the-cloud#fleet",
+    "kind": "use-case",
+    "tags": [
+      "multi-agent",
+      "chief-of-staff",
+      "newsletter",
+      "web"
+    ],
+    "notes": "Refactoring.fm fleet: Brian/Karn/Edith/Sponsy/Grow specialized bots.",
+    "id": "9493ba9c56c2",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "My verdict: Grok Bot is best-in-class for tasks that need to run in the cloud. I plan to continue using my bots, but I won't share sensitive data like my financials.",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#grok-verdict",
+    "kind": "comparison",
+    "tags": [
+      "trust",
+      "cloud",
+      "privacy",
+      "web"
+    ],
+    "notes": "Creator Economy: Grok Bot best-in-class cloud; still no financials.",
+    "id": "ba16d7d5502e",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Where things get weird though is when it asks me to enter my password and two-factor authentication code into its cloud computer. For example, I wanted to get Cheap Dad to monitor prices for Amazon products. It showed me this screen: If I saw this screen on my laptop, I wouldn't think twice about entering the code. But entering it on a cloud computer just feels wrong.",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#grok-2fa",
+    "kind": "complaint",
+    "tags": [
+      "2fa",
+      "password",
+      "cloud-computer",
+      "trust",
+      "web"
+    ],
+    "notes": "Creator Economy: discomfort entering Amazon 2FA into Grok Bot cloud computer.",
+    "id": "66d0b86ef3e7",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Grok Bot takes a similar pattern into persistent AI \"teammates\" that have their own computers, can sign into applications, work across tools, and return when they need approval.",
+    "author": "Steven Wolfe Pereira",
+    "author_name": "Steven Wolfe Pereira",
+    "date": "2026-09-08",
+    "url": "https://boardbrief.alpha.ac/the-age-of-delegation-muse-grok-bot-and-the-rise-of-consumer-ai-agents/#grok-teammates",
+    "kind": "other",
+    "tags": [
+      "teammates",
+      "computers",
+      "category",
+      "web"
+    ],
+    "notes": "Board Brief category framing of Grok Bot persistent teammates.",
+    "id": "3083774df4e7",
+    "agent": "grok-bot",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
   }
 ]

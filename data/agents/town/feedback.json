@@ -7429,5 +7429,77 @@
     "author_name": "Austin",
     "collected_at": "2026-09-17T14:15:00Z",
     "source": "web"
+  },
+  {
+    "quote": "the first one that genuinely runs my day instead of just chatting about it",
+    "author": "Ivy (quoting reviews)",
+    "author_name": "Ivy",
+    "date": "2026-08-01",
+    "url": "https://www.saner.ai/blogs/town-review#runs-my-day",
+    "kind": "praise",
+    "tags": [
+      "routines",
+      "delegation",
+      "web"
+    ],
+    "notes": "Saner.AI Town review citing long-time user: runs the day vs chat.",
+    "id": "aba176662d8e",
+    "agent": "town",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Town bills by credits with pay-as-you-go overage",
+    "author": "Ivy (quoting reviews)",
+    "author_name": "Ivy",
+    "date": "2026-08-01",
+    "url": "https://www.saner.ai/blogs/town-review#credits",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "credits",
+      "web"
+    ],
+    "notes": "Saner.AI: credit metering + overage predictability complaint.",
+    "id": "c83f95dbf1ef",
+    "agent": "town",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "the Mac app was kinda buggy for document editing",
+    "author": "Ivy (quoting reviews)",
+    "author_name": "Ivy",
+    "date": "2026-08-01",
+    "url": "https://www.saner.ai/blogs/town-review#mac-buggy",
+    "kind": "bug",
+    "tags": [
+      "mac",
+      "document-editing",
+      "web"
+    ],
+    "notes": "Saner.AI citing early adopter: Mac app document-editing bugs.",
+    "id": "df02594eae53",
+    "agent": "town",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "I have been using Grok Bot, Town and Instinct myself. That matters because the value proposition becomes much easier to understand once you experience it personally. You stop thinking about \"using AI\" and start thinking about handing something off.",
+    "author": "Steven Wolfe Pereira",
+    "author_name": "Steven Wolfe Pereira",
+    "date": "2026-09-08",
+    "url": "https://boardbrief.alpha.ac/the-age-of-delegation-muse-grok-bot-and-the-rise-of-consumer-ai-agents/#town-hands-on",
+    "kind": "use-case",
+    "tags": [
+      "delegation",
+      "hands-on",
+      "web"
+    ],
+    "notes": "Board Brief author hands-on with Town alongside Grok Bot and Instinct.",
+    "id": "c4e00aa81f92",
+    "agent": "town",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
   }
 ]

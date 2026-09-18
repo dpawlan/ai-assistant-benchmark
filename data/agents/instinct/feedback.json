@@ -4437,5 +4437,183 @@
     "author_name": "The Archive Team",
     "collected_at": "2026-09-17T14:15:00Z",
     "source": "web"
+  },
+  {
+    "quote": "Instinct is great for booking reservations, tickets. Seamless experience removes hours of friction. Better than the other two because it sits more natively in iMessage. Unfortunately any advantage to mapping to friends context can be replicated better by Meta.",
+    "author": "@ComebackCap",
+    "author_name": "ComebackCap",
+    "date": "2026-09-13",
+    "url": "https://x.com/ComebackCap/status/2099196804709367953",
+    "kind": "comparison",
+    "tags": [
+      "imessage",
+      "reservations",
+      "tickets",
+      "vs-muse",
+      "vs-grok-bot",
+      "x"
+    ],
+    "source": "x",
+    "notes": "Thread comparing Instinct vs Grok Bot vs Muse; Instinct wins native iMessage booking friction.",
+    "id": "ad730c4a8ee9",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z"
+  },
+  {
+    "quote": "It's simple. There are no threads or bots to manage. Connecting Google took one tap from a link it sent me. It's resourceful. After scanning my emails for ways to save money, it suggested canceling Google AI Ultra to save $1,000+ a year. It also checked Google's terms and found that I could turn off auto-renew without losing the trial. It's proactive. To help book a golf lesson and a sushi dinner, it emailed my golf instructor and scheduled a reminder to call the restaurant, which only takes reservations by phone. It's personable. Its conversational tone, blue iMessage bubbles, and emoji reactions make it feel like you're texting a real person.",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#instinct-praise",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "email",
+      "proactive",
+      "reservations",
+      "privacy",
+      "web"
+    ],
+    "notes": "Creator Economy hands-on: Instinct simplicity + proactive booking praise.",
+    "id": "5391e1edb571",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "When I asked Instinct to cancel my Google AI subscription, it asked me for my two-factor authentication code. When that didn't work, it then asked me to share my Google password inside its vault. To Instinct's credit, it did cancel the subscription successfully after that: But how do I really know what Instinct is doing with my two-factor codes and Google password behind the scenes?",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#instinct-password",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "password",
+      "2fa",
+      "vault",
+      "trust",
+      "web"
+    ],
+    "notes": "Creator Economy: Instinct asked for 2FA then Google password in vault to cancel subscription.",
+    "id": "b134e7faf409",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "My verdict: Instinct feels magical because it hides the complexity of scheduled tasks and browser use, but that also makes it less transparent. I trust it to run personal errands (e.g., book movie tickets), but not much beyond that.",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#instinct-verdict",
+    "kind": "comparison",
+    "tags": [
+      "trust",
+      "transparency",
+      "errands",
+      "web"
+    ],
+    "notes": "Creator Economy verdict: magical UX, trust capped at personal errands.",
+    "id": "c7f5e060e366",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "I use Instinct and I'm very happy with it so far. It has booked some restaurants for me, replied to some personal admin-related emails, and updates my progressive workout spreadsheet when i go to the gym. No real complaints so far.",
+    "author": "jvwww",
+    "author_name": "jvwww",
+    "date": "2026-09-10",
+    "url": "https://news.ycombinator.com/item?id=49615537#jvwww-instinct",
+    "kind": "use-case",
+    "tags": [
+      "restaurants",
+      "email",
+      "fitness",
+      "hn",
+      "praise"
+    ],
+    "notes": "HN Muse thread comment: restaurants + admin email + gym spreadsheet.",
+    "id": "851b43b5ff38",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Instinct exists with the same features. It is quite good. I was thinking they were gonna get acquired by meta 100%, but looks like meta has a competitor.",
+    "author": "porridgeraisin",
+    "author_name": "porridgeraisin",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49615537#porridgeraisin-instinct",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "hn",
+      "praise"
+    ],
+    "notes": "HN: Instinct as Meta Muse competitor, 'quite good'.",
+    "id": "5d327e5eaa58",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "What was surprising to me was that instinct was just \"agent slapped on top of markdown files in git\", especially after seeing people talk about it so much. I expected at least a database or a graph or something \"smart\", but alas, its just three markdowns in a trenchcoat.",
+    "author": "hypendev",
+    "author_name": "hypendev",
+    "date": "2026-09-08",
+    "url": "https://news.ycombinator.com/item?id=49605644#hypendev",
+    "kind": "other",
+    "tags": [
+      "memory",
+      "architecture",
+      "hn",
+      "git"
+    ],
+    "notes": "HN on Rohan's VM teardown: surprise at Markdown+git memory model.",
+    "id": "8d3431dea21c",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Jason Calacanis (famous venture capitalist, podcaster, early investor into Uber) said in the last all-in that there were humans doing stuff for you in the Instinct. I also thought all the permissions I had to give it were scary, given how big of a single point of failure it'd be. ... I deleted my Instinct after one day of productive work and I hope they finished my data.",
+    "author": "MP_1729",
+    "author_name": "MP_1729",
+    "date": "2026-09-09",
+    "url": "https://news.ycombinator.com/item?id=49605644#mp1729",
+    "kind": "complaint",
+    "tags": [
+      "humans",
+      "permissions",
+      "privacy",
+      "hn"
+    ],
+    "notes": "HN: All-In 'humans in the loop' rumor + deleted after one productive day over permission fear.",
+    "id": "2e7c1bd347b6",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Instinct is a new startup which launched recently and it does some very nice things on the memory side which gives that feel of it being a real assistant rather than a chatbot. ... The agent's memory is a git repo of Markdown files with [[wiki-links]], navigated by grep. The timeline/ coarsens over time (raw → hourly → daily → weekly, like human memory), and the agent is literally the git author: it doesn't call a memory API, it writes Markdown and commits it as itself.",
+    "author": "Rohan Adwankar",
+    "author_name": "Rohan Adwankar",
+    "date": "2026-09-08",
+    "url": "https://rohanadwankar.github.io/posts/platforms.html#instinct-memory",
+    "kind": "use-case",
+    "tags": [
+      "memory",
+      "git",
+      "architecture",
+      "e2b",
+      "web"
+    ],
+    "notes": "Hands-on VM teardown: Instinct memory = git Markdown vault on E2B Firecracker.",
+    "id": "6b09c5396146",
+    "agent": "instinct",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
   }
 ]

@@ -64,9 +64,9 @@
     "category": "phone_calls",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 4,
-    "outcome": "partial",
-    "notes": "Reservation call for The Village at Italian Village; no phone tool, offered to research online instead.",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Has no outbound calling feature; offered to research the reservation online instead.",
     "evidence_url": "/agents/boba/evidence/boba-2026-09-10-blooio-phone"
   },
   {

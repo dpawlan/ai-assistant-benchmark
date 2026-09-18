@@ -199,10 +199,14 @@
         "Summary back is accurate"
       ],
       "anchors": {
-        "3": "Can't call",
+        "3": "Calling exists but the call fails or the answer is wrong",
         "7": "Calls; partial or garbled answer",
         "10": "Calls, gets both answers, reports back clearly"
-      }
+      },
+      "notes": [
+        "An assistant with no outbound calling feature at all is N/A here rather than scored: the feature is absent, so the test does not apply.",
+        "Once a product ships calling, its next run replaces the N/A."
+      ]
     },
     {
       "key": "multiplayer_groups",

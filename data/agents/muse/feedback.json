@@ -2685,5 +2685,120 @@
     "author_name": "Austin",
     "collected_at": "2026-09-17T14:15:00Z",
     "source": "web"
+  },
+  {
+    "quote": "Muse is the most capable of the three on raw IQ. It can hold more of the problem in a single conversation and just… do the work. If you want one agent that feels like the smartest person in the room, that's Muse. It's deep and impressive how far it takes things. Cons are the main Agent and sub chat is kind of dumb IMO.",
+    "author": "@ComebackCap",
+    "author_name": "ComebackCap",
+    "date": "2026-09-13",
+    "url": "https://x.com/ComebackCap/status/2099196804709367953#muse",
+    "kind": "comparison",
+    "tags": [
+      "iq",
+      "vs-instinct",
+      "vs-grok-bot",
+      "x"
+    ],
+    "source": "x",
+    "notes": "ComebackCap three-way: Muse wins raw capability; sub-chat UX weak.",
+    "id": "43334afbcf5a",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z"
+  },
+  {
+    "quote": "But here's where transparency matters: Meta can still access your VM data. The blog states that isolation is \"operational\" — policy-based, not cryptographic. A Confidential VM that would cryptographically prevent Meta from accessing your data is planned \"for later in 2026,\" but doesn't exist yet.",
+    "author": "Vincee Cole",
+    "author_name": "Vincee Cole",
+    "date": "2026-09-13",
+    "url": "https://memeburn.com/meta-muse-web-ui-walkthrough/#operational-isolation",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "security",
+      "vm",
+      "trust",
+      "web"
+    ],
+    "notes": "Memeburn web UI walkthrough: Secure VM is policy isolation, Confidential VM later.",
+    "id": "c6f8198fd4d3",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Meta's closed alpha through invite codes confirmed these capabilities, with users reporting useful email management and competent restaurant booking. Early testers noted disconnections and one instance where Muse surfaced private photos unprompted — but the foundation is functional.",
+    "author": "Vincee Cole",
+    "author_name": "Vincee Cole",
+    "date": "2026-09-13",
+    "url": "https://memeburn.com/meta-muse-web-ui-walkthrough/#alpha-bugs",
+    "kind": "bug",
+    "tags": [
+      "email",
+      "restaurants",
+      "privacy",
+      "photos",
+      "web"
+    ],
+    "notes": "Memeburn: alpha praise on email/restaurants; disconnection + unprompted private photos.",
+    "id": "9405a8109630",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "The trust gap. The security architecture is sophisticated and the Sentinel system is well-designed. But trust isn't just engineering — it's track record. When a company that paid $5 billion for privacy deception asks to connect your email, bank, and health data, whitepapers only go so far.",
+    "author": "Vincee Cole",
+    "author_name": "Vincee Cole",
+    "date": "2026-09-13",
+    "url": "https://memeburn.com/meta-muse-web-ui-walkthrough/#trust-gap",
+    "kind": "complaint",
+    "tags": [
+      "trust",
+      "meta",
+      "privacy",
+      "web"
+    ],
+    "notes": "Memeburn: Meta track-record trust gap vs Sentinel architecture praise.",
+    "id": "b574ee34e41f",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Yeah. Codex and Cowork are full of papercuts when it comes to usability. Grok Bot is head and shoulders better and more pleasant to use. And Muse is similar to Grok Bot.",
+    "author": "archon810",
+    "author_name": "archon810",
+    "date": "2026-09-11",
+    "url": "https://news.ycombinator.com/item?id=49615537#archon810",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "usability",
+      "hn"
+    ],
+    "notes": "HN: Muse UX in same pleasant band as Grok Bot vs Codex/Cowork papercuts.",
+    "id": "9a84a78b4065",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "I have been using Grok Bot, Town and Instinct myself. That matters because the value proposition becomes much easier to understand once you experience it personally. You stop thinking about \"using AI\" and start thinking about handing something off. ... Meta is attempting to take an experience pioneered by smaller companies and put it in front of a mass consumer audience through an ecosystem that includes WhatsApp, Instagram, Facebook, and eventually AI glasses.",
+    "author": "Steven Wolfe Pereira",
+    "author_name": "Steven Wolfe Pereira",
+    "date": "2026-09-08",
+    "url": "https://boardbrief.alpha.ac/the-age-of-delegation-muse-grok-bot-and-the-rise-of-consumer-ai-agents/#muse-mass",
+    "kind": "other",
+    "tags": [
+      "delegation",
+      "whatsapp",
+      "category",
+      "web"
+    ],
+    "notes": "Board Brief: Muse as Meta's mass-consumer bid on the Town/Instinct/Grok Bot pattern.",
+    "id": "94df03077b26",
+    "agent": "muse",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
   }
 ]

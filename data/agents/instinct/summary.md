@@ -2,8 +2,8 @@
 
 Site: https://instinct.co/
 
-**Feedback rows:** 200 (as of 2026-09-17)
-**Kinds:** other=75, use-case=53, praise=22, bug=15, complaint=14, comparison=11
+**Feedback rows:** 209 (as of 2026-09-18)
+**Kinds:** other=80, use-case=57, praise=23, complaint=17, bug=16, comparison=16
 **Top tags:** reddit(27), travel(15), proactive(9), privacy(9), imessage(9), email(7), whatsapp(6), onboarding(5)
 
 **Patterns (public X + Reddit):**
@@ -99,3 +99,13 @@ _Updated 2026-09-17 weekday vault scan (+6 rows)._
 - (2026-09-04) Skift: End-to-end travel wins vs Hermes/OpenClaw/Tasklet/GrokBot; also wrong hotel rates and confirmation-skip risks.
 - (2026-09-14) GoEarlyBirdLab: Privacy criticism alongside agent email addresses + agent-to-agent social layer.
 - (2026-09-15) Legend Memory: Re-checked live ToS — training on by default with Vault + settings opt-out.
+
+_Updated 2026-09-18 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-09-13) @ComebackCap: Instinct best of three for iMessage reservation/ticket friction.
+- (2026-09-02) Peter Yang: praise for proactive golf/sushi booking; complaint that canceling Google AI asked for 2FA then Google password in vault.
+- (2026-09-10) HN jvwww: restaurants + admin email + gym spreadsheet, no real complaints.
+- (2026-09-08) Rohan Adwankar teardown: memory is git Markdown vault on rented E2B Firecracker; HN hypendev "three markdowns in a trenchcoat".
+- (2026-09-09) HN MP_1729: deleted after one productive day; All-In "humans doing stuff" rumor + permission fear.
+

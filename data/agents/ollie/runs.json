@@ -59,9 +59,9 @@
     "category": "phone_calls",
     "protocol": "task",
     "date": "2026-09-14",
-    "score": 4,
-    "outcome": "partial",
-    "notes": "Cannot place outbound calls; researched the restaurant request instead."
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Has no outbound calling feature; researched the restaurant request online instead."
   },
   {
     "id": "ollie-2026-09-14-integrations",

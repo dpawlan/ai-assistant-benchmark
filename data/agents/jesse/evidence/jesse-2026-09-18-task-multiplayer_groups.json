@@ -1,0 +1,19 @@
+{
+  "id": "jesse-2026-09-18-task-multiplayer_groups",
+  "agent": "jesse",
+  "category": "multiplayer_groups",
+  "protocol": "task",
+  "date": "2026-09-18",
+  "signals": {
+    "turns": 2,
+    "my_messages": 1,
+    "agent_messages": 1,
+    "first_reply_s": 1.35,
+    "duration_min": 1,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-19T02:06:20.543309+00:00"
+}

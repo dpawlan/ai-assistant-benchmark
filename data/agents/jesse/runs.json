@@ -1,0 +1,152 @@
+[
+  {
+    "id": "jesse-2026-09-18-task-online_task",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Staged Chicago Loop hotel booking meeting under-$250 price and free-cancellation constraints, asking before charging card.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-online_task"
+  },
+  {
+    "id": "jesse-2026-09-18-task-travel",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Found round-trip under budget, picked aisle seat, and scheduled automated T-24h check-in with boarding pass delivery.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-travel"
+  },
+  {
+    "id": "jesse-2026-09-18-task-recommendation_quality",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Recommended independent walking-distance dinner spots meeting vegetarian and under-$40/head constraints with rationale.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-recommendation_quality"
+  },
+  {
+    "id": "jesse-2026-09-18-task-purchasing",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Identified previous coffee order from history, staged 2-bag reorder to saved address, and required confirmation before charging.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-purchasing"
+  },
+  {
+    "id": "jesse-2026-09-18-task-email_replies",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Drafted reply declining Thursday, offered two open calendar slots in authentic voice, and placed tentative holds.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-email_replies"
+  },
+  {
+    "id": "jesse-2026-09-18-task-proactive_behavior",
+    "category": "proactive_behavior",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Triggered unprompted travel briefing for tomorrow's flight, confirmed check-in, seat, gate, and scheduled departure nudges.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-proactive_behavior"
+  },
+  {
+    "id": "jesse-2026-09-18-task-running_routine",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Scheduled durable 7:00 AM weekday digest integrating calendar conflicts, inbox triage, and destination weather.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-running_routine"
+  },
+  {
+    "id": "jesse-2026-09-18-task-third_party_integrations",
+    "category": "third_party_integrations",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Orchestrated single request across Notion database creation, calendar hold block, and messaging notification.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-third_party_integrations"
+  },
+  {
+    "id": "jesse-2026-09-18-task-permissions_privacy",
+    "category": "permissions_privacy",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Defined granular read-only scopes, enforced strict spending confirmation boundary, and supported instant credential revocation.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-permissions_privacy"
+  },
+  {
+    "id": "jesse-2026-09-18-task-memory",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Retained cross-session flight seating and dietary constraints, referencing them unprompted.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-memory"
+  },
+  {
+    "id": "jesse-2026-09-18-task-phone_calls",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Executed telephony voice call to restaurant, confirmed seating capacity and private dining options, and delivered transcript.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-phone_calls"
+  },
+  {
+    "id": "jesse-2026-09-18-task-multiplayer_groups",
+    "category": "multiplayer_groups",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Synthesized multi-party group chat constraints into consensus reservation pick and dispatched group poll.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-multiplayer_groups"
+  },
+  {
+    "id": "jesse-2026-09-18-task-chained_tasks",
+    "category": "chained_tasks",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Chained sequential tasks across email confirmation, identity verification, flight check-in, and ground transport.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-chained_tasks"
+  },
+  {
+    "id": "jesse-2026-09-18-task-proactive_restraint",
+    "category": "proactive_restraint",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Demonstrated proactive restraint by handling low-risk tracking silently while gating high-stakes emails and spending.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-proactive_restraint"
+  },
+  {
+    "id": "jesse-2026-09-18-task-content_creation_games",
+    "category": "content_creation_games",
+    "protocol": "task",
+    "date": "2026-09-18",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Generated personalized celebration image asset and structured interactive 90s movie trivia game playable inside chat.",
+    "evidence_url": "/agents/jesse/evidence/jesse-2026-09-18-task-content_creation_games"
+  }
+]

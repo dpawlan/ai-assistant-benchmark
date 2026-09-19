@@ -1,0 +1,16 @@
+{
+  "source": "api",
+  "exported_at": "2026-09-19T02:06:20.543309+00:00",
+  "analyzed_at": "2026-09-19T02:06:20.543309+00:00",
+  "messages": 30,
+  "from_me": 15,
+  "from_agent": 15,
+  "days_active": 1,
+  "first": "2026-09-18",
+  "last": "2026-09-18",
+  "median_reply_s": 1.0,
+  "p90_reply_s": 1.4,
+  "unanswered": 0,
+  "proactive_messages": 2,
+  "episodes": 15
+}

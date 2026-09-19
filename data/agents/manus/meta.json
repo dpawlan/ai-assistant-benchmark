@@ -1,0 +1,31 @@
+{
+  "slug": "manus",
+  "name": "Manus",
+  "site": "https://manus.im/",
+  "handles": [
+    "manusai",
+    "peakji"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "General autonomous agent from Butterfly Effect (acquired by Meta, December 2025). Manus Agents put the full engine, research, files, bookings and purchases, into Telegram (since February 2026), WhatsApp Business, Slack and email, alongside the web, iOS, Android and desktop apps. No iMessage or SMS. Credit-based freemium: free tier with daily credits, Pro from $20/mo. Requested via the form by the Manus team ahead of a release (issue #345).",
+  "public_signal": "low",
+  "tagline": "The general agent, now as a personal agent inside your chat apps",
+  "icon": "/logos/manus.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (daily credits) · Pro from $20/mo",
+    "regions": "Not stated",
+    "channels": [
+      "Web",
+      "iOS app",
+      "Android app",
+      "Telegram",
+      "WhatsApp Business",
+      "Slack",
+      "Email"
+    ],
+    "checked": "2026-09-19"
+  }
+}

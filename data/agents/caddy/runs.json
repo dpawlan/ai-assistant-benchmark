@@ -64,9 +64,9 @@
     "category": "phone_calls",
     "protocol": "task",
     "date": "2026-09-09",
-    "score": 3,
-    "outcome": "fail",
-    "notes": "Said it cannot place phone calls on this channel and offered to check online availability instead; no call made.",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Has no outbound calling feature on this channel; offered to check online availability instead.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-09-blooio-phone"
   },
   {

@@ -28224,7 +28224,7 @@
     "source": "web"
   },
   {
-    "quote": "Grok Bot allowed me to easily spin off Brian's work into multiple agents, so that now I have five of them: Brian (Chief of Staff), Karn (Tolaria product), Edith (Editor-in-Chief), Sponsy (sponsorship ops), and Grow (newsletter metrics / paid ads).",
+    "quote": "Grok Bot allowed me to easily spin off Brian's work into multiple agents, so that now I have five of them.",
     "author": "Luca Rossi",
     "author_name": "Luca Rossi",
     "date": "2026-09-08",
@@ -28236,7 +28236,7 @@
       "newsletter",
       "web"
     ],
-    "notes": "Refactoring.fm fleet: Brian/Karn/Edith/Sponsy/Grow specialized bots.",
+    "notes": "Refactoring.fm fleet: Brian/Karn/Edith/Sponsy/Grow specialized bots. The article then lists the five as a chief of staff, a product agent, an editor-in-chief, sponsorship ops and newsletter metrics/paid ads; that list was condensed out of the quote so the quote stays verbatim.",
     "id": "9493ba9c56c2",
     "agent": "grok-bot",
     "collected_at": "2026-09-18T14:30:00Z",

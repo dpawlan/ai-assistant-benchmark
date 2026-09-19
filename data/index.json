@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-18",
-  "agent_count": 116,
-  "feedback_count": 5654,
-  "confirmed": 89,
+  "updated": "2026-09-19",
+  "agent_count": 122,
+  "feedback_count": 5655,
+  "confirmed": 95,
   "stretch": 27,
   "agents": [
     {
@@ -10,7 +10,7 @@
       "name": "Aeon",
       "status": "stretch",
       "site": "https://www.aeon.fun/",
-      "feedback_count": 23,
+      "feedback_count": 24,
       "public_signal": "low",
       "tagline": "The most autonomous agent framework",
       "icon": "/logos/aeon.png",
@@ -2563,6 +2563,144 @@
           "Windows app"
         ],
         "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "neo-01labs",
+      "name": "Neo",
+      "status": "confirmed",
+      "site": "https://01labs.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "One personal AI for all of it.",
+      "icon": "/logos/neo-01labs.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free tier (750 credits); Pro $49/mo, Power $99/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Web app"
+        ],
+        "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "manus",
+      "name": "Manus",
+      "status": "confirmed",
+      "site": "https://manus.im/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The general agent, now as a personal agent inside your chat apps",
+      "icon": "/logos/manus.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free (daily credits) · Pro from $20/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Web",
+          "iOS app",
+          "Android app",
+          "Telegram",
+          "WhatsApp Business",
+          "Slack",
+          "Email"
+        ],
+        "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "friday",
+      "name": "Friday",
+      "status": "confirmed",
+      "site": "https://askfriday.io/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your personal AI agent, one text away",
+      "icon": "/logos/friday.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "US number",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Web",
+          "Slack"
+        ],
+        "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "sabi",
+      "name": "Sabi",
+      "status": "confirmed",
+      "site": "https://meetsabi.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI chief of staff for founders who run their company by text",
+      "icon": "/logos/sabi.png",
+      "kind": "work",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not public (free starter plan mentioned)",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Slack",
+          "Email",
+          "Web"
+        ],
+        "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "stumpy",
+      "name": "Stumpy",
+      "status": "confirmed",
+      "site": "https://stumpy.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Persistent AI agents that show up in Telegram, texts and email",
+      "icon": "/logos/stumpy.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Personal $50/mo · Pro $200/mo",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "SMS",
+          "Email",
+          "Slack",
+          "Web"
+        ],
+        "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "odessia",
+      "name": "Odessia",
+      "status": "confirmed",
+      "site": "https://odessia.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI travel agent that plans and books the whole trip in one conversation",
+      "icon": "/logos/odessia.png",
+      "kind": "travel",
+      "access": {
+        "pricing": "free",
+        "price": "Free to use; commission on bookings",
+        "regions": "Not stated",
+        "channels": [
+          "Web"
+        ],
+        "checked": "2026-09-19"
       }
     }
   ]

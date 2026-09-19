@@ -2,8 +2,8 @@
 
 Site: https://www.town.com/
 
-**Feedback rows:** 301 (as of 2026-09-17)
-**Kinds:** use-case=13, praise=8, other=8, comparison=5, bug=1, complaint=1
+**Feedback rows:** 305 (as of 2026-09-18)
+**Kinds:** other=250, use-case=21, praise=15, comparison=13, complaint=3, bug=3
 **Top tags:** group-chat(6), email(4), launch(4), group-text(4), townie(4), family(3), calendar(2), identity(2)
 
 **Patterns (public X):**
@@ -57,3 +57,10 @@ First-run eval under the **Amy Zinger** identity (issue #294), not the earlier n
 - Speed: `usage.json` source `town-web-amy`, median_reply_s 4 (n=1 timed web smoke; in-page Date.now + MutationObserver).
 - Morning Briefing routine created Mon–Fri 7:00 AM America/Denver; next-day fire check still open.
 - Prior `runs.json` rows from 2026-04–09 remain historical non-Amy observations.
+
+_Updated 2026-09-18 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-08-01) Saner.AI review: "runs my day" praise; credit overage complaint; Mac app document-editing bugs.
+- (2026-09-08) Board Brief author hands-on with Town alongside Instinct and Grok Bot.
+

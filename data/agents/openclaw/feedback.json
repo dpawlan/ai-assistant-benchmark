@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "quote": "OpenClaw is a legitimately capable open-source autonomous agent framework with real coding strengths, an impressive community ecosystem, and some security considerations that developers absolutely need to understand before running it anywhere that matters.",
+    "author": "TheModernBlog Team",
+    "author_name": "TheModernBlog Team",
+    "date": "2026-06-09",
+    "url": "https://www.themodernblog.com/openclaw-review-open-source-ai-coding-agent/#capable",
+    "kind": "praise",
+    "tags": [
+      "open-source",
+      "coding",
+      "review",
+      "web"
+    ],
+    "notes": "TheModernBlog hands-on weeks-of-use review: capable but security caveats.",
+    "id": "9cf350c06b8f",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "In January 2026, security researchers disclosed CVE-2026-25253, a cross-site WebSocket hijacking vulnerability rated CVSS 8.8. The vulnerability meant that any website could steal an auth token and achieve remote code execution on the host machine through a single malicious link. One click and an attacker had full access to whatever the OpenClaw Gateway could access. The vulnerability was patched in version 2026.1.29, but security firm Censys found over 21,000 OpenClaw instances exposed to the public internet at the time of disclosure, many running over plain HTTP.",
+    "author": "TheModernBlog Team",
+    "author_name": "TheModernBlog Team",
+    "date": "2026-06-09",
+    "url": "https://www.themodernblog.com/openclaw-review-open-source-ai-coding-agent/#cve",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "cve",
+      "websocket",
+      "web"
+    ],
+    "notes": "CVE-2026-25253 WebSocket hijack; 21k exposed instances at disclosure.",
+    "id": "038195912388",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "In February 2026, the ClawHavoc supply chain attack resulted in 341 malicious skills being uploaded to ClawHub, compromising over 9,000 installations with credential-stealing malware. A Cisco security team audit also found a skill that had been gamed to the top of the repository and contained hidden malicious behavior.",
+    "author": "TheModernBlog Team",
+    "author_name": "TheModernBlog Team",
+    "date": "2026-06-09",
+    "url": "https://www.themodernblog.com/openclaw-review-open-source-ai-coding-agent/#clawhavoc",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "supply-chain",
+      "skills",
+      "malware",
+      "web"
+    ],
+    "notes": "ClawHavoc: 341 malicious ClawHub skills, 9k+ installs compromised.",
+    "id": "a654ca4ecfa2",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "According to source [3], Gartner warned of \"unacceptable cybersecurity risk,\" Cisco's AI security research team flagged it as a cautionary example, the Belgian Cybersecurity Centre issued an immediate-patch advisory, and CrowdStrike found deployed instances running over unencrypted HTTP.",
+    "author": "Ivan Protsko",
+    "author_name": "Ivan Protsko",
+    "date": "2026-05-07",
+    "url": "https://unsubbed.co/tools/openclaw/#security-firms",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "gartner",
+      "cisco",
+      "crowdstrike",
+      "web"
+    ],
+    "notes": "unsubbed.co synthesis of enterprise security firm warnings.",
+    "id": "6274b6d5a5ae",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Hermes is the agent I switched to after I found OpenClaw too unreliable. I run it through Telegram on a Mac Mini inside my house.",
+    "author": "Peter Yang",
+    "author_name": "Peter Yang",
+    "date": "2026-09-02",
+    "url": "https://creatoreconomy.so/p/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can-you-trust#openclaw-unreliable",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "vs-hermes",
+      "web"
+    ],
+    "notes": "Creator Economy: left OpenClaw for Hermes due to unreliability.",
+    "id": "ed03cbec3003",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  },
+  {
+    "quote": "Orchestration via OpenClaw first, and Hermes later. ... For me, this migration had already started slowly, with experiments here and there, but got a decisive acceleration when I tried Grok Bot this month.",
+    "author": "Luca Rossi",
+    "author_name": "Luca Rossi",
+    "date": "2026-09-08",
+    "url": "https://refactoring.fm/p/my-agents-are-moving-to-the-cloud#openclaw-first",
+    "kind": "use-case",
+    "tags": [
+      "orchestration",
+      "migration",
+      "vs-hermes",
+      "vs-grok-bot",
+      "web"
+    ],
+    "notes": "Refactoring.fm path: OpenClaw → Hermes → Grok Bot for orchestration.",
+    "id": "4764b620dbb1",
+    "agent": "openclaw",
+    "collected_at": "2026-09-18T14:30:00Z",
+    "source": "web"
+  }
+]

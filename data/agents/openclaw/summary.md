@@ -4,4 +4,13 @@ Site: https://openclaw.ai/
 
 OpenClaw is an open-source personal AI assistant that runs on your own machine (macOS, Windows, Linux) and works from WhatsApp, Telegram, iMessage, Slack, Discord, Signal, SMS and other chat apps, with iOS and Android companion apps. It handles the inbox, email, calendar and flight check-ins, and is stewarded by an independent 501(c)(3) foundation. Requested via the form (issue #182).
 
-No public quotes collected yet.
+**Feedback rows:** 6 (as of 2026-09-18)
+**Kinds:** complaint=3, praise=1, bug=1, use-case=1
+
+_Updated 2026-09-18 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-06-09) TheModernBlog: capable OSS agent; CVE-2026-25253 WebSocket RCE; ClawHavoc 341 malicious skills / 9k+ installs.
+- (2026-05-07) unsubbed.co: Gartner "unacceptable cybersecurity risk"; Cisco/CrowdStrike/Belgian CERT warnings.
+- (2026-09-02/08) Peter Yang + Luca Rossi: left OpenClaw for Hermes (reliability), then Grok Bot for orchestration.
+

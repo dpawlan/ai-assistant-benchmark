@@ -3785,3 +3785,8 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .rank-bar .kind-bar::-webkit-scrollbar { display: none; }
 .rank-bar .kind { white-space: nowrap; flex: 0 0 auto; }
 @media (max-width: 899px) { .rank-bar { flex-wrap: wrap; } }
+.wrap.wide .page-sub { max-width: none; }
+.wrap.wide .uc-filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.wrap.wide .uc-filters::-webkit-scrollbar { display: none; }
+.wrap.wide .uc-filters > * { flex: 0 0 auto; white-space: nowrap; }
+@media (max-width: 899px) { .wrap.wide .uc-filters { flex-wrap: wrap; } }

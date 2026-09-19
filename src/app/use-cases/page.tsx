@@ -24,7 +24,7 @@ export default async function UseCasesPage({ searchParams }: { searchParams: Pro
   const ranked = rankJobs(jobs, votes, sort);
 
   return (
-    <div className="wrap">
+    <div className="wrap wide">
       <div className="page-head uc-head-row">
         <div>
           <h1 className="page-title">Use cases</h1>

@@ -7,13 +7,16 @@ export function Footer({ index }: { index: IndexData }) {
     <footer>
       <div className="hr" />
       <p>
-        {index.agent_count} assistants · {index.feedback_count} public quotes · updated {formatDate(index.updated)}
+        {index.agent_count} assistants and {index.feedback_count} public quotes, updated {formatDate(index.updated)}.
       </p>
       <p className="links">
-        <Link href="/dimensions">Dimensions</Link> · <Link href="/request">Request a test</Link>
+        <Link href="/dimensions#how">How scoring works</Link>
+        <Link href="/dimensions">The 16 dimensions</Link>
+        <Link href="/about">About</Link>
+        <Link href="/request">Request a test</Link>
       </p>
       <p className="credit">
-        Created by David Pawlan ·{' '}
+        Created by David Pawlan,{' '}
         <a href="https://x.com/DavidPawlan" target="_blank" rel="noopener noreferrer">
           @DavidPawlan
         </a>

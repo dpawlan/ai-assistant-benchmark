@@ -3,18 +3,14 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import {
   displayDomain,
-  formatDate,
   formatSeconds,
   getAgentDetail,
   getAllSlugs,
   getCategories,
-  getIndexData,
-  getInvestorLinks,
   getRelatedAgents,
   getScoredCategories,
   getTagMap,
   PRICING_LABEL,
-  productClassLabel,
   quoteCategories,
 } from '@/lib/data';
 import { AgentIcon } from '@/components/AgentIcon';
@@ -24,8 +20,7 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
-import { comparePath, getTestedAgents } from '@/lib/compare';
-import { fundingChip, fundingRounds, fundingSummary, sourceHost } from '@/lib/cost';
+import { fundingChip } from '@/lib/cost';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -56,12 +51,6 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
   };
 }
 
-const SIGNAL_LABEL: Record<string, string> = {
-  low: 'Low public signal',
-  medium: 'Medium public signal',
-  high: 'High public signal',
-};
-
 export default async function AgentPage({ params }: AgentPageProps) {
   const { slug } = await params;
   const agent = getAgentDetail(slug);
@@ -69,15 +58,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
   const categories = getCategories();
   const scored = getScoredCategories();
-  const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
-  const opponents = getTestedAgents().filter(a => a.slug !== slug);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
   const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
-  const productClass = productClassLabel(agent.meta?.product_class);
-  const signal = agent.publicSignal && agent.publicSignal !== 'unknown' ? SIGNAL_LABEL[agent.publicSignal] : null;
   const tagMap = getTagMap();
   const quotes = (agent.feedback ?? []).map(q => ({ ...q, categories: quoteCategories(slug, q, tagMap) }));
   const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
@@ -111,14 +96,9 @@ export default async function AgentPage({ params }: AgentPageProps) {
               {agent.access && agent.access.pricing !== 'unknown' && (
                 <span className="chip" title={agent.access.price}>{PRICING_LABEL[agent.access.pricing]}</span>
               )}
-              {fundingChip(agent.funding) && (
-                <a href="#funding" className="chip">
-                  {fundingChip(agent.funding)}
-                </a>
-              )}
+              {fundingChip(agent.funding) && <span className="chip">{fundingChip(agent.funding)}</span>}
               {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
-              {productClass && <span className="chip">{productClass}</span>}
-              {signal && <span className="chip">{signal}</span>}
+              {agent.access && agent.access.channels.length > 0 && <span className="chip" title="Where you use it">{agent.access.channels.join(', ')}</span>}
             </div>
             <div className="ag-stats">
               <span className="ag-stat">
@@ -143,6 +123,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <a className="btn primary" href={agent.site} target="_blank" rel="noopener noreferrer">
                 Visit site
               </a>
+            )}
+            {agent.testedCount > 0 && (
+              <Link className="btn ghost" href={`/compare?a=${slug}`}>
+                Compare
+              </Link>
             )}
             <Link className="btn ghost" href="/request">
               Request a test
@@ -198,160 +183,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
               </div>
             </section>
           )}
-          <section className="ag-funding" id="funding">
-            <h2 className="ag-h2">Funding</h2>
-            {(() => {
-              const f = agent.funding;
-              const links = getInvestorLinks();
-              const rounds = fundingRounds(f);
-              const muted = !(fundingChip(f) || f?.investors.length);
-              const hasDetail = !!f && (!!rounds || f.investors.length > 0 || f.sources.length > 0);
-              return (
-                <>
-                  <p className={`fund-total${muted ? ' empty' : ''}`}>{fundingSummary(f)}</p>
-                  {f && <p className="ag-sub fund-checked">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>}
-                  {hasDetail && (
-                    <details className="fund-dd" open>
-                      <summary className="fund-toggle">
-                        <span className="fund-toggle-l">
-                          {[rounds && 'Rounds', f.investors.length > 0 && 'backers', f.sources.length > 0 && 'sources']
-                            .filter(Boolean)
-                            .join(', ')
-                            .replace(/^./, c => c.toUpperCase())}
-                        </span>
-                        <svg className="fund-chev" viewBox="0 0 10 10" aria-hidden="true">
-                          <path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                      </summary>
-                      <div className="fund-body">
-                        {rounds && (
-                          <div className="fund-line">
-                            <span className="fund-k">Rounds</span>
-                            <span className="fund-v">{rounds}</span>
-                          </div>
-                        )}
-                        {f.investors.length > 0 && (
-                          <div className="fund-line">
-                            <span className="fund-k">Backed by</span>
-                            <span className="fund-v">
-                              {f.investors.slice(0, 8).map((name, i, arr) => (
-                                <span key={name}>
-                                  {links[name] ? (
-                                    <a className="fund-inv" href={links[name]} target="_blank" rel="noopener noreferrer nofollow">
-                                      {name}
-                                    </a>
-                                  ) : (
-                                    name
-                                  )}
-                                  {i < arr.length - 1 ? ', ' : ''}
-                                </span>
-                              ))}
-                            </span>
-                          </div>
-                        )}
-                        {f.sources.length > 0 && (
-                          <div className="fund-line">
-                            <span className="fund-k">Sources</span>
-                            <span className="fund-v fund-src">
-                              {f.sources.slice(0, 4).map(src => (
-                                <a key={src.url} href={src.url} target="_blank" rel="noopener noreferrer nofollow">
-                                  {sourceHost(src.url)}
-                                </a>
-                              ))}
-                            </span>
-                          </div>
-                        )}
-                      </div>
-                    </details>
-                  )}
-                </>
-              );
-            })()}
-          </section>
-          <h2 className="ag-h2">Information</h2>
-          <div className="info-list" style={{ marginTop: 8 }}>
-            <div className="info-row">
-              <span className="il">Group</span>
-              <span className="iv">{kindLabel}</span>
-            </div>
-            {productClass && (
-              <div className="info-row">
-                <span className="il">Product class</span>
-                <span className="iv">{productClass}</span>
-              </div>
-            )}
-            {agent.access && (
-              <>
-                <div className="info-row">
-                  <span className="il">Price</span>
-                  <span className={`iv iv-wrap${agent.access.pricing === 'unknown' ? ' empty' : ''}`}>{agent.access.price}</span>
-                </div>
-                <div className="info-row">
-                  <span className="il">Where</span>
-                  <span className={`iv iv-wrap${agent.access.regions === 'Not stated' ? ' empty' : ''}`}>{agent.access.regions}</span>
-                </div>
-                {agent.access.channels.length > 0 && (
-                  <div className="info-row">
-                    <span className="il">Use it in</span>
-                    <span className="iv iv-wrap">{agent.access.channels.join(', ')}</span>
-                  </div>
-                )}
-              </>
-            )}
-            <div className="info-row">
-              <span className="il">Website</span>
-              {agent.site && domain ? (
-                <a className="iv" href={agent.site} target="_blank" rel="noopener noreferrer">
-                  {domain}
-                </a>
-              ) : (
-                <span className="iv empty">None on file</span>
-              )}
-            </div>
-            <div className="info-row">
-              <span className="il">Public signal</span>
-              <span className={`iv${signal ? '' : ' empty'}`}>
-                {agent.publicSignal && agent.publicSignal !== 'unknown' ? capitalize(agent.publicSignal) : 'Not rated'}
-              </span>
-            </div>
-            <div className="info-row">
-              <span className="il">Quotes collected</span>
-              <span className="iv">{agent.feedbackCount}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Dimensions scored</span>
-              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {scored.length}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Last tested</span>
-              <span className={`iv${agent.lastTested ? '' : ' empty'}`}>{agent.lastTested ? formatDate(agent.lastTested) : 'Never'}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Data updated</span>
-              <span className="iv">{formatDate(index.updated)}</span>
-            </div>
-          </div>
-          <div className="note-card">
-            Built {agent.name}? <Link href="/request">Send a correction</Link>
-          </div>
-          <section className="hh-opp">
-            <h2 className="ag-h2">Head to head</h2>
-            <p className="ag-sub">
-              {agent.testedCount > 0
-                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
-                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
-            </p>
-            {agent.testedCount > 0 && opponents.length > 0 && (
-              <div className="ag-chips">
-                {opponents.map(o => (
-                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
-                    vs {o.name}
-                  </Link>
-                ))}
-                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
-              </div>
-            )}
-          </section>
         </aside>
       </div>
 
@@ -377,6 +208,3 @@ export default async function AgentPage({ params }: AgentPageProps) {
   );
 }
 
-function capitalize(s: string) {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}

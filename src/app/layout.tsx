@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { Shell } from '@/components/Shell';
-import { Sidebar } from '@/components/Sidebar';
 import { Footer } from '@/components/Footer';
-import { getCategories, getIndexData } from '@/lib/data';
+import { getIndexData } from '@/lib/data';
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
@@ -44,13 +43,12 @@ const siteJsonLd = {
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
-  const categories = getCategories();
   const index = getIndexData();
 
   return (
     <html lang="en">
       <body>
-        <Shell sidebar={<Sidebar categories={categories} />} footer={<Footer index={index} />}>
+        <Shell footer={<Footer index={index} />}>
           {children}
         </Shell>
         <Analytics />

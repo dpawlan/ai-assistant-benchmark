@@ -21,6 +21,8 @@ interface MatrixProps {
   agents: Agent[];
   categories: Category[];
   short: Record<string, string>;
+  /** Grid page: no cost filter, no status strip, no Tested column, no caption. */
+  compact?: boolean;
 }
 
 type View = 'benchmark' | 'opinion';
@@ -61,7 +63,7 @@ function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   return null;
 }
 
-export function Matrix({ agents, categories, short }: MatrixProps) {
+export function Matrix({ agents, categories, short, compact = false }: MatrixProps) {
   const router = useRouter();
   const [kind, setKindState] = useState<string>('general');
   const [view, setView] = useState<View>('benchmark');
@@ -146,7 +148,8 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
     );
   };
 
-  const aggCols = opinion ? 2 : 4; // name + (speed) + overall + (tested)
+  const showCov = !opinion && !compact;
+  const aggCols = opinion ? 2 : showCov ? 4 : 3; // name + (speed) + overall + (tested)
   const span = cols.length + aggCols;
 
   const row = (agent: Agent) => {
@@ -170,7 +173,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         <td className={`mx-agg${sort === 'overall' ? ' sorted' : ''}`}>
           {opinion ? <OpinionCell stat={agent.opinionOverall} /> : <ScoreCell value={agent.overall} aggregate />}
         </td>
-        {!opinion && (
+        {showCov && (
           <td className="mx-agg mx-cov">
             <CoverageCell c={cv} />
           </td>
@@ -225,7 +228,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
         </button>
       </div>
 
-      <div className="cost-bar" role="group" aria-label="Cost">
+      {!compact && <div className="cost-bar" role="group" aria-label="Cost">
         <span className="cost-bar-l">Cost</span>
         <button type="button" className={`cost-f${cost === 'all' ? ' on' : ''}`} aria-pressed={cost === 'all'} onClick={() => setCost('all')}>
           Any
@@ -236,9 +239,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <span className="kind-n">{costCounts[k]}</span>
           </button>
         ))}
-      </div>
+      </div>}
 
-      {!opinion && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}
+      {!opinion && !compact && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}
 
       <div className="mx-bar">
         <div className="seg" role="tablist" aria-label="Scorecard view">
@@ -249,9 +252,9 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             Public opinion
           </button>
         </div>
-        <p className="mx-caption">
+        {!compact && <p className="mx-caption">
           {opinion ? 'Share of positive public quotes. Founder posts excluded.' : 'Scored 1–10 after real use. Overall is the mean of the dimensions scored so far.'}
-        </p>
+        </p>}
       </div>
 
       <div className="matrix-wrap">
@@ -260,7 +263,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
             <col className="c-name" />
             {!opinion && <col className="c-agg" />}
             <col className="c-agg" />
-            {!opinion && <col className="c-cov" />}
+            {showCov && <col className="c-cov" />}
             {cols.map(c => (
               <col key={c.key} className="c-cat" />
             ))}
@@ -272,7 +275,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
               </th>
               {!opinion && header('speed', 'Speed', 'mx-agg mx-speed', 'median reply time in the reviewer’s own thread')}
               {header('overall', 'Overall', 'mx-agg', opinion ? 'share of positive quotes' : 'mean of every dimension scored so far')}
-              {!opinion && (
+              {showCov && (
                 <th scope="col" className="mx-agg mx-cov" title="dimensions scored out of those that apply">
                   <span className="mx-label">Tested</span>
                 </th>
@@ -282,7 +285,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
           </thead>
 
           {!opinion
-            ? sections.map(sec => {
+            ? sections.filter(sec => !(compact && sec.count === 0)).map(sec => {
                 const collapsed = sec.status === 'pending' && status === 'all' && !showPending;
                 return (
                   <tbody key={sec.status} className={`mx-sec mx-sec-${sec.status}`}>
@@ -291,7 +294,7 @@ export function Matrix({ agents, categories, short }: MatrixProps) {
                         <span className={`st-dot st-${sec.status}`} aria-hidden="true" />
                         {STATUS_LABEL[sec.status]}
                         <span className="mx-count">{sec.count}</span>
-                        <span className="mx-secsub">{sec.count === 0 && sec.status === 'completed' ? 'None yet. An assistant lands here once every applicable dimension is scored.' : STATUS_CAPTION[sec.status]}</span>
+                        {!compact && <span className="mx-secsub">{sec.count === 0 && sec.status === 'completed' ? 'None yet. An assistant lands here once every applicable dimension is scored.' : STATUS_CAPTION[sec.status]}</span>}
                       </th>
                     </tr>
                     {sec.count === 0 && sec.status !== 'completed' && (

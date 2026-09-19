@@ -1,49 +1,40 @@
 import Link from 'next/link';
-import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
-import { BenchmarkStrip } from '@/components/BenchmarkStrip';
+import { CATEGORY_SHORT, getAgents, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
+import { RankedList } from '@/components/RankedList';
+import { ViewSwitch } from '@/components/ViewSwitch';
 import { LatestFeed } from '@/components/LatestFeed';
-import { Matrix } from '@/components/Matrix';
+import { getCategories } from '@/lib/data';
 
 export default function HomePage() {
   const index = getIndexData();
-  const agents = getAgents();
-  const categories = getCategories();
-  const feed = getLatestFeed(8);
-  const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
+  const agents = rankAgents(getAgents());
+  const scored = getScoredCategories();
+  const feed = getLatestFeed(3);
+  const categoryLabels = Object.fromEntries(getCategories().map(c => [c.key, c.label]));
+  const tested = agents.filter(a => a.overall !== null).length;
 
   return (
-    <div className="wrap wide">
+    <div className="wrap">
       <div className="page-head home-head">
         <div>
-          <h1 className="page-title">Scorecard</h1>
+          <h1 className="page-title">Which assistant should you text?</h1>
           <p className="page-sub">
-            {index.agent_count} assistants, {getScoredCategories().length} dimensions, one scale. Overall is a running mean until an assistant is fully
-            tested.
+            {tested} of {index.agent_count} assistants tested so far on the same {scored.length} tasks, scored 1 to 10 after real use.
           </p>
         </div>
-        <div className="home-head-right">
-          <Link href="/about" className="head-link">
-            About
-          </Link>
-          <Link href="/use-cases" className="head-prompt">
-            <span className="head-prompt-q">Not sure what to use an assistant for?</span>
-            <span className="head-prompt-a">See what people get them to do →</span>
-          </Link>
-        </div>
+        <ViewSwitch />
       </div>
 
-      <BenchmarkStrip updated={index.updated} />
+      <RankedList agents={agents} categories={scored} short={CATEGORY_SHORT} />
 
-      <section className="shelf matrix-shelf">
-        <Matrix agents={rankAgents(agents)} categories={categories} short={CATEGORY_SHORT} />
-      </section>
-
-      <section className="shelf">
+      <section className="shelf latest-shelf">
         <h2 className="shelf-title">
           <span className="shelf-head">Latest</span>
         </h2>
-        <p className="shelf-sub">New tests and quotes.</p>
         <LatestFeed items={feed} categoryLabels={categoryLabels} />
+        <p className="shelf-more">
+          <Link href="/grid">See every score in the full grid</Link>
+        </p>
       </section>
     </div>
   );

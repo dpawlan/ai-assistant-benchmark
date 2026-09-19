@@ -1,0 +1,16 @@
+{
+  "source": "blooio",
+  "exported_at": "2026-09-19T23:22:17.000Z",
+  "analyzed_at": "2026-09-19T23:22:17.000Z",
+  "messages": 90,
+  "from_me": 33,
+  "from_agent": 57,
+  "days_active": 7,
+  "first": "2026-09-11",
+  "last": "2026-09-18",
+  "median_reply_s": 11,
+  "p90_reply_s": 42,
+  "unanswered": 1,
+  "proactive_messages": 5,
+  "episodes": 11
+}

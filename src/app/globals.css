@@ -3804,3 +3804,12 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .rank-bar .seg button, .rank-bar .seg a { white-space: nowrap; }
 .rank-bar .kind { padding: 6px 10px; font-size: 12.5px; }
 .rank-bar .kind-bar { gap: 5px; }
+.tb-link, .tb-brand { white-space: nowrap; }
+.tb-cta-short { display: none; }
+@media (max-width: 699px) {
+  .tb-links { gap: 2px; }
+  .tb-link { padding: 6px 8px; }
+  .tb-cta-full { display: none; }
+  .tb-cta-short { display: inline; }
+  .ag-actions .btn { flex: 1 1 auto; text-align: center; }
+}

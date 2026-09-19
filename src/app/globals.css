@@ -3779,3 +3779,9 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .rk-icon { width: 36px; height: 36px; border-radius: 9px; }
 .rk-icon img { width: 36px; height: 36px; }
 .rk-row { padding: 10px 0; }
+.home-head .page-sub { max-width: none; }
+.rank-bar { flex-wrap: nowrap; }
+.rank-bar .kind-bar { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+.rank-bar .kind-bar::-webkit-scrollbar { display: none; }
+.rank-bar .kind { white-space: nowrap; flex: 0 0 auto; }
+@media (max-width: 899px) { .rank-bar { flex-wrap: wrap; } }

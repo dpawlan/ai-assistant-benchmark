@@ -14,7 +14,7 @@ export default function HomePage() {
   const tested = agents.filter(a => a.overall !== null).length;
 
   return (
-    <div className="wrap">
+    <div className="wrap wide">
       <div className="page-head home-head">
         <div>
           <h1 className="page-title">Which assistant should you text?</h1>

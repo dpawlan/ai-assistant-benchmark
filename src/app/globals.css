@@ -3790,3 +3790,17 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
 .wrap.wide .uc-filters::-webkit-scrollbar { display: none; }
 .wrap.wide .uc-filters > * { flex: 0 0 auto; white-space: nowrap; }
 @media (max-width: 899px) { .wrap.wide .uc-filters { flex-wrap: wrap; } }
+.wrap.mid { max-width: 1160px; }
+.wrap.mid .page-sub { max-width: none; }
+.wrap.mid .uc-filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.wrap.mid .uc-filters::-webkit-scrollbar { display: none; }
+.wrap.mid .uc-filters > * { flex: 0 0 auto; white-space: nowrap; }
+@media (max-width: 899px) { .wrap.mid .uc-filters { flex-wrap: wrap; } }
+.uc-search { margin: 18px 0 12px; }
+.matrix-shelf .rank-bar .kind-bar { margin: 0; }
+.matrix-shelf .rank-bar { padding: 14px 0 10px; }
+.wrap.mid { max-width: 1200px; }
+.rank-bar .seg { flex: 0 0 auto; }
+.rank-bar .seg button, .rank-bar .seg a { white-space: nowrap; }
+.rank-bar .kind { padding: 6px 10px; font-size: 12.5px; }
+.rank-bar .kind-bar { gap: 5px; }

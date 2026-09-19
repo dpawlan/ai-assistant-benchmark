@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 import { CATEGORY_SHORT, getAgents, getCategories, getIndexData, getScoredCategories, rankAgents } from '@/lib/data';
 import { Matrix } from '@/components/Matrix';
-import { ViewSwitch } from '@/components/ViewSwitch';
+import { ScoreboardHead } from '@/components/ScoreboardHead';
 
-export const metadata: Metadata = { title: 'Scorecard grid | Assistant Benchmark' };
+export const metadata: Metadata = { title: 'Scorecard grid' };
 
 export default function GridPage() {
   const index = getIndexData();
@@ -12,16 +12,8 @@ export default function GridPage() {
   const tested = agents.filter(a => a.overall !== null).length;
 
   return (
-    <div className="wrap wide">
-      <div className="page-head home-head">
-        <div>
-          <h1 className="page-title">Every score, one grid</h1>
-          <p className="page-sub">
-            {tested} of {index.agent_count} assistants tested on the same {scored.length} tasks. Click a column to sort by it, or a name for the full profile.
-          </p>
-        </div>
-        <ViewSwitch />
-      </div>
+    <div className="wrap mid">
+      <ScoreboardHead tested={tested} total={index.agent_count} tasks={scored.length} />
       <section className="shelf matrix-shelf">
         <Matrix agents={agents} categories={getCategories()} short={CATEGORY_SHORT} compact />
       </section>

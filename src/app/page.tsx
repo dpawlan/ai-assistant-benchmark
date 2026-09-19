@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { CATEGORY_SHORT, getAgents, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
 import { RankedList } from '@/components/RankedList';
-import { ViewSwitch } from '@/components/ViewSwitch';
+import { ScoreboardHead } from '@/components/ScoreboardHead';
 import { LatestFeed } from '@/components/LatestFeed';
 import { getCategories } from '@/lib/data';
 
@@ -14,16 +14,8 @@ export default function HomePage() {
   const tested = agents.filter(a => a.overall !== null).length;
 
   return (
-    <div className="wrap wide">
-      <div className="page-head home-head">
-        <div>
-          <h1 className="page-title">Which assistant should you text?</h1>
-          <p className="page-sub">
-            {tested} of {index.agent_count} assistants tested so far on the same {scored.length} tasks, scored 1 to 10 after real use.
-          </p>
-        </div>
-        <ViewSwitch />
-      </div>
+    <div className="wrap mid">
+      <ScoreboardHead tested={tested} total={index.agent_count} tasks={scored.length} />
 
       <RankedList agents={agents} categories={scored} short={CATEGORY_SHORT} />
 

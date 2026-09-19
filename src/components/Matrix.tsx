@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Fragment, Suspense, useEffect, useMemo, useState } from 'react';
 import { track } from '@vercel/analytics';
 import { Agent, Category } from '@/lib/types';
@@ -65,6 +65,7 @@ function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
 
 export function Matrix({ agents, categories, short, compact = false }: MatrixProps) {
   const router = useRouter();
+  const pathname = usePathname();
   const [kind, setKindState] = useState<string>('general');
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
@@ -77,7 +78,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   const setKind = (k: string) => {
     track('kind_filter', { kind: k });
     setKindState(k);
-    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+    router.replace(k === 'general' ? pathname : `${pathname}?kind=${k}`, { scroll: false });
   };
 
   const statusOf = useMemo(() => {
@@ -209,12 +210,24 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
     </tr>
   );
 
+  const segEl = (
+    <div className="seg" role="tablist" aria-label="Score source">
+      <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setView('benchmark')}>
+        Scores
+      </button>
+      <button type="button" role="tab" aria-selected={opinion} className={opinion ? 'on' : ''} onClick={() => setView('opinion')}>
+        Public opinion
+      </button>
+    </div>
+  );
+
   return (
     <div>
       <Suspense fallback={null}>
         <KindFromUrl onKind={setKindState} />
       </Suspense>
 
+      <div className={compact ? 'rank-bar' : undefined}>
       <div className="kind-bar" role="tablist" aria-label="Peer group">
         {KINDS.filter(k => counts[k.key]).map(k => (
           <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
@@ -226,6 +239,8 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
           All
           <span className="kind-n">{agents.length}</span>
         </button>
+      </div>
+      {compact && segEl}
       </div>
 
       {!compact && <div className="cost-bar" role="group" aria-label="Cost">
@@ -243,7 +258,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
       {!opinion && !compact && <StatusStrip agents={inKind} categories={categories} active={status} onPick={setStatus} />}
 
-      <div className="mx-bar">
+      {!compact && <div className="mx-bar">
         <div className="seg" role="tablist" aria-label="Scorecard view">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setView('benchmark')}>
             Benchmark
@@ -255,7 +270,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
         {!compact && <p className="mx-caption">
           {opinion ? 'Share of positive public quotes. Founder posts excluded.' : 'Scored 1–10 after real use. Overall is the mean of the dimensions scored so far.'}
         </p>}
-      </div>
+      </div>}
 
       <div className="matrix-wrap">
         <table className={`matrix${opinion ? ' opinion' : ''}`}>

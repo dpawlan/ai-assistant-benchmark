@@ -27,7 +27,7 @@ export default function CompareIndex() {
   const untested = getAgents().length - tested.length;
 
   return (
-    <div className="wrap">
+    <div className="wrap mid">
       <div className="page-head">
         <h1 className="page-title">Head to head</h1>
         <p className="page-sub">

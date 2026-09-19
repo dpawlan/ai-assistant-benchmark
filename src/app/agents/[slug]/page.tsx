@@ -7,14 +7,13 @@ import {
   formatSeconds,
   getAgentDetail,
   getAllSlugs,
-  getCategories,
   getIndexData,
   getInvestorLinks,
+  getCategories,
   getRelatedAgents,
   getScoredCategories,
   getTagMap,
   PRICING_LABEL,
-  productClassLabel,
   quoteCategories,
 } from '@/lib/data';
 import { AgentIcon } from '@/components/AgentIcon';
@@ -24,7 +23,6 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
-import { comparePath, getTestedAgents } from '@/lib/compare';
 import { fundingChip, fundingRounds, fundingSummary, sourceHost } from '@/lib/cost';
 
 interface AgentPageProps {
@@ -56,12 +54,6 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
   };
 }
 
-const SIGNAL_LABEL: Record<string, string> = {
-  low: 'Low public signal',
-  medium: 'Medium public signal',
-  high: 'High public signal',
-};
-
 export default async function AgentPage({ params }: AgentPageProps) {
   const { slug } = await params;
   const agent = getAgentDetail(slug);
@@ -71,13 +63,10 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const scored = getScoredCategories();
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
-  const opponents = getTestedAgents().filter(a => a.slug !== slug);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
   const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
-  const productClass = productClassLabel(agent.meta?.product_class);
-  const signal = agent.publicSignal && agent.publicSignal !== 'unknown' ? SIGNAL_LABEL[agent.publicSignal] : null;
   const tagMap = getTagMap();
   const quotes = (agent.feedback ?? []).map(q => ({ ...q, categories: quoteCategories(slug, q, tagMap) }));
   const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
@@ -117,8 +106,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 </a>
               )}
               {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
-              {productClass && <span className="chip">{productClass}</span>}
-              {signal && <span className="chip">{signal}</span>}
             </div>
             <div className="ag-stats">
               <span className="ag-stat">
@@ -143,6 +130,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <a className="btn primary" href={agent.site} target="_blank" rel="noopener noreferrer">
                 Visit site
               </a>
+            )}
+            {agent.testedCount > 0 && (
+              <Link className="btn ghost" href={`/compare?a=${slug}`}>
+                Compare
+              </Link>
             )}
             <Link className="btn ghost" href="/request">
               Request a test
@@ -274,12 +266,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
               <span className="il">Group</span>
               <span className="iv">{kindLabel}</span>
             </div>
-            {productClass && (
-              <div className="info-row">
-                <span className="il">Product class</span>
-                <span className="iv">{productClass}</span>
-              </div>
-            )}
             {agent.access && (
               <>
                 <div className="info-row">
@@ -309,20 +295,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
               )}
             </div>
             <div className="info-row">
-              <span className="il">Public signal</span>
-              <span className={`iv${signal ? '' : ' empty'}`}>
-                {agent.publicSignal && agent.publicSignal !== 'unknown' ? capitalize(agent.publicSignal) : 'Not rated'}
-              </span>
-            </div>
-            <div className="info-row">
-              <span className="il">Quotes collected</span>
-              <span className="iv">{agent.feedbackCount}</span>
-            </div>
-            <div className="info-row">
-              <span className="il">Dimensions scored</span>
-              <span className={`iv${agent.testedCount ? '' : ' empty'}`}>{agent.testedCount} of {scored.length}</span>
-            </div>
-            <div className="info-row">
               <span className="il">Last tested</span>
               <span className={`iv${agent.lastTested ? '' : ' empty'}`}>{agent.lastTested ? formatDate(agent.lastTested) : 'Never'}</span>
             </div>
@@ -334,24 +306,6 @@ export default async function AgentPage({ params }: AgentPageProps) {
           <div className="note-card">
             Built {agent.name}? <Link href="/request">Send a correction</Link>
           </div>
-          <section className="hh-opp">
-            <h2 className="ag-h2">Head to head</h2>
-            <p className="ag-sub">
-              {agent.testedCount > 0
-                ? `Pit ${agent.name} against another tested assistant and share the scorecard.`
-                : `${agent.name} has no logged runs yet, so a head-to-head has nothing to decide.`}
-            </p>
-            {agent.testedCount > 0 && opponents.length > 0 && (
-              <div className="ag-chips">
-                {opponents.map(o => (
-                  <Link key={o.slug} href={comparePath(slug, o.slug)} className="chip blue">
-                    vs {o.name}
-                  </Link>
-                ))}
-                <Link href={`/compare?a=${slug}`} className="chip">All matchups</Link>
-              </div>
-            )}
-          </section>
         </aside>
       </div>
 
@@ -377,6 +331,3 @@ export default async function AgentPage({ params }: AgentPageProps) {
   );
 }
 
-function capitalize(s: string) {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}

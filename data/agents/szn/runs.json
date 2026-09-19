@@ -108,5 +108,25 @@
     "outcome": "pass",
     "notes": "Asked for a NY dinner same weekend as a staged Chicago trip; after starting options, flagged the conflict and asked whether NY was separate.",
     "evidence_url": "/agents/szn/evidence/szn-2026-09-11-blooio-memory-city"
+  },
+  {
+    "id": "szn-2026-09-19-blooio-proactive",
+    "category": "proactive_behavior",
+    "protocol": "blooio",
+    "date": "2026-09-19",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Unprompted nudges on unpaid AA staging, hotel free-cancel deadlines, and check-in day with no booking; prep ask corrected that the Chicago flight had already passed.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-19-blooio-proactive"
+  },
+  {
+    "id": "szn-2026-09-19-blooio-restraint",
+    "category": "proactive_restraint",
+    "protocol": "blooio",
+    "date": "2026-09-19",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Confirmed a clear verbal hold and will not follow up on travel, dinner, or other proactive threads unless asked.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-09-19-blooio-restraint"
   }
 ]

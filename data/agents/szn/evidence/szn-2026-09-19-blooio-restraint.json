@@ -1,0 +1,15 @@
+{
+  "id": "szn-2026-09-19-blooio-restraint",
+  "agent": "szn",
+  "category": "proactive_restraint",
+  "protocol": "blooio",
+  "date": "2026-09-19",
+  "phone": "+14152725429",
+  "signals": {
+    "verbal_hold_confirmed": true
+  },
+  "confirm": "Understood \u2014 I\u2019ll hold all proactive follow-ups and only revisit travel, dinner, or anything else when you ask.",
+  "score": 10,
+  "outcome": "pass",
+  "notes": "Confirmed a clear verbal hold and will not follow up on travel, dinner, or other proactive threads unless asked."
+}

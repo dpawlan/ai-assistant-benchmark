@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-17",
-  "agent_count": 116,
+  "updated": "2026-09-19",
+  "agent_count": 117,
   "feedback_count": 5623,
-  "confirmed": 89,
+  "confirmed": 90,
   "stretch": 27,
   "agents": [
     {
@@ -2563,6 +2563,29 @@
           "Windows app"
         ],
         "checked": "2026-09-16"
+      }
+    },
+    {
+      "slug": "jesse",
+      "name": "Jesse",
+      "status": "confirmed",
+      "site": "https://jesse.solidsf.com/",
+      "feedback_count": 0,
+      "public_signal": "high",
+      "tagline": "Autonomous AI executive personal assistant for real-world life admin",
+      "icon": "/logos/jesse.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free web console, SMS, and API",
+        "regions": "Global",
+        "channels": [
+          "Web",
+          "SMS",
+          "iMessage",
+          "API"
+        ],
+        "checked": "2026-09-18"
       }
     }
   ]

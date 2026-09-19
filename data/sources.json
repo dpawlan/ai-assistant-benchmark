@@ -3370,6 +3370,34 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-09 from a request-form submission. App Store id verified (BrainLogic AI, sellerUrl zapia.com). Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
+    },
+    "jesse": {
+      "name": "Jesse",
+      "handles": [
+        "jesse@solidsf.com"
+      ],
+      "domain": "jesse.solidsf.com",
+      "x_queries": [
+        "\"jesse.solidsf.com\""
+      ],
+      "reddit_queries": [
+        "\"jesse.solidsf.com\""
+      ],
+      "hn_queries": [
+        "\"jesse.solidsf.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "jesse.solidsf.com",
+        "jesse assistant",
+        "jesse ai"
+      ],
+      "imessage_handles": [
+        "+14158905377",
+        "jesse@solidsf.com"
+      ],
+      "_note": "Added 2026-09-18 from test request issue #342. Web console and SMS gateway at jesse.solidsf.com/api/sms."
     }
   },
   "_redact_terms": [

@@ -1,0 +1,25 @@
+{
+  "slug": "jesse",
+  "name": "Jesse",
+  "site": "https://jesse.solidsf.com/",
+  "handles": [
+    "jesse@solidsf.com"
+  ],
+  "status": "confirmed",
+  "notes": "Autonomous AI executive personal assistant for real-world life admin. Tested on web console and SMS gateway (issue #342).",
+  "tagline": "Autonomous AI executive personal assistant for real-world life admin",
+  "icon": "/logos/jesse.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free web console, SMS, and API",
+    "regions": "Global",
+    "channels": [
+      "Web",
+      "SMS",
+      "iMessage",
+      "API"
+    ],
+    "checked": "2026-09-18"
+  }
+}

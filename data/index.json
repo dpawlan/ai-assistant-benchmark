@@ -2523,14 +2523,14 @@
       }
     },
     {
-      "slug": "ihermes",
-      "name": "iHermes",
+      "slug": "iris",
+      "name": "Iris",
       "status": "confirmed",
-      "site": "https://ihermes.co/",
+      "site": "https://iris-agent.co/",
       "feedback_count": 0,
       "public_signal": "low",
-      "tagline": "A hosted Hermes Agent you text on iMessage",
-      "icon": "/logos/ihermes.png",
+      "tagline": "A personal AI assistant you text, built on Hermes Agent",
+      "icon": "/logos/iris.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
@@ -2541,7 +2541,7 @@
           "SMS",
           "Web"
         ],
-        "checked": "2026-09-16"
+        "checked": "2026-09-19"
       }
     },
     {

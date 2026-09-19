@@ -1243,29 +1243,6 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-15 from a request-form submission. Domain/handle queries only; handles are best guesses."
     },
-    "ihermes": {
-      "name": "iHermes",
-      "handles": [],
-      "domain": "ihermes.co",
-      "x_queries": [
-        "\"ihermes.co\"",
-        "\"ihermes\""
-      ],
-      "reddit_queries": [
-        "\"ihermes.co\""
-      ],
-      "hn_queries": [
-        "\"ihermes.co\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "ihermes.co",
-        "ihermes"
-      ],
-      "imessage_handles": [],
-      "_note": "Added 2026-09-16 from a request-form submission (issue #319). Handles are best guesses; verify before collecting."
-    },
     "instinct": {
       "name": "Instinct",
       "handles": [
@@ -1297,6 +1274,30 @@
       ],
       "imessage_handles": [],
       "_note": "@instinct_inc is a different company. Product handle unknown; founder is @noahrshinn. Match on instinct.co and \"instinct\" + assistant/agent/ai."
+    },
+    "iris": {
+      "name": "Iris",
+      "handles": [],
+      "domain": "iris-agent.co",
+      "x_queries": [
+        "\"iris-agent.co\"",
+        "\"ihermes.co\""
+      ],
+      "reddit_queries": [
+        "\"iris-agent.co\""
+      ],
+      "hn_queries": [
+        "\"iris-agent.co\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "iris-agent.co",
+        "ihermes.co",
+        "ihermes"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-16 from a request-form submission (issue #319). Handles are best guesses; verify before collecting. Renamed from iHermes to Iris 2026-09-19; generic new name, so queries stay domain-only."
     },
     "joshu": {
       "name": "Joshu",

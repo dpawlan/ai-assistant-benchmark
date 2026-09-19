@@ -98,7 +98,9 @@ export function lintAll(root = process.cwd()) {
         continue;
       }
       // The site owner's own posts are excluded from opinion but may stand as evidence; they render with his handle.
-      if (q.source !== 'david-post' && (q.tags ?? []).some(t => EXCLUDED_TAGS.has(t))) errors.push(`${tag}: evidence ${pair} is a founder/vendor/promo post`);
+      const insider = q.source !== 'david-post' && (q.tags ?? []).some(t => EXCLUDED_TAGS.has(t));
+      if (insider && job.submitted_by?.vendor === true && q.source === 'submission') warnings.push(`${tag}: evidence ${pair} is the vendor's own submission (labelled on the page)`);
+      else if (insider) errors.push(`${tag}: evidence ${pair} is a founder/vendor/promo post`);
       else liveEvidence++;
       const owner = quoteOwner.get(pair);
       if (owner && owner !== job.key) warnings.push(`${tag}: quote ${pair} is also evidence for job ${owner} (fine for roundup posts)`);
@@ -118,7 +120,7 @@ export function lintAll(root = process.cwd()) {
     if (job.benchmark_task === true && !job.dimension) errors.push(`${tag}: benchmark_task needs a dimension`);
     // A job earns its place only when a real person reported it publicly or submitted it. Our own runs can show who
     // can do it, but they cannot be the reason it is listed.
-    if (liveEvidence === 0) errors.push(`${tag}: needs at least one public post as evidence; our own runs are not enough`);
+    if (liveEvidence === 0 && !job.submitted_by) errors.push(`${tag}: needs at least one public post or a submission as evidence; our own runs are not enough`);
     if (job.benchmark_task === true && jobRuns.length) warnings.push(`${tag}: benchmark_task is ignored while explicit runs are set`);
   }
   for (const g of groups) if (!usedGroups.has(g)) warnings.push(`group "${g}" has no jobs`);

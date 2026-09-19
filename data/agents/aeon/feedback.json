@@ -569,5 +569,25 @@
       "views": 2118,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "id": "76e2a003c34f",
+    "agent": "aeon",
+    "quote": "Every morning it sends one Telegram message I can read in under a minute: financial markets movers, an AI tweet roundup, a paper of the day, new issues on repos I watch, and the top of Hacker News. It checks its own memory of the last two days first, so yesterday's paper doesn't get recommended again today. The sub-tasks run in parallel and a final step composes the brief; when that chaining context is missing it falls back to running them one by one, which makes the brief land noticeably later.",
+    "author": "@0xNurstar",
+    "author_name": "",
+    "date": "2026-09-17",
+    "url": "https://x.com/0xNurstar/status/2100582251297738942",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "x",
+      "telegram",
+      "daily-brief",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-19T23:01:26.355Z",
+    "notes": "Submitted through the use-case form (issue #332) by someone who works on Aeon, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
   }
 ]

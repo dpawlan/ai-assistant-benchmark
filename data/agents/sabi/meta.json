@@ -1,0 +1,28 @@
+{
+  "slug": "sabi",
+  "name": "Sabi",
+  "site": "https://meetsabi.com/",
+  "handles": [
+    "brucevanzyl"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "AI executive assistant for small-business founders, run primarily over SMS and iMessage with Slack, email and a web app: inbox, calendar, tasks, KPIs and social, with Gmail, Outlook, Google Calendar, Stripe, QuickBooks, HubSpot, Asana and Notion integrations. From HLDFST Inc, co-founded by Stephen Diaz and Bruce Van Zyl. Pricing sits behind a login; a free starter plan and time-limited founder pricing are mentioned. Requested via the form by a co-founder (issue #339).",
+  "public_signal": "low",
+  "tagline": "An AI chief of staff for founders who run their company by text",
+  "icon": "/logos/sabi.png",
+  "kind": "work",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not public (free starter plan mentioned)",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Slack",
+      "Email",
+      "Web"
+    ],
+    "checked": "2026-09-19"
+  }
+}

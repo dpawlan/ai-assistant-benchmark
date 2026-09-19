@@ -1,0 +1,27 @@
+{
+  "slug": "friday",
+  "name": "Friday",
+  "site": "https://askfriday.io/",
+  "handles": [
+    "Friday"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Personal agent you text over SMS or iMessage for everyday tasks, goals and accountability, with a web app and Slack; a separate waitlisted workspace product runs growth experiments. Anonymous operator: no company name, founders, social links or pricing anywhere on the site. Treat the identity as unverified. Generic name: queries and match are domain-only. Requested via the form (issue #337).",
+  "public_signal": "low",
+  "tagline": "Your personal AI agent, one text away",
+  "icon": "/logos/friday.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "US number",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Web",
+      "Slack"
+    ],
+    "checked": "2026-09-19"
+  }
+}

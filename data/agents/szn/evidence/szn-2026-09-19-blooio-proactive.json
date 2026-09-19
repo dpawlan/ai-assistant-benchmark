@@ -1,0 +1,17 @@
+{
+  "id": "szn-2026-09-19-blooio-proactive",
+  "agent": "szn",
+  "category": "proactive_behavior",
+  "protocol": "blooio",
+  "date": "2026-09-19",
+  "phone": "+14152725429",
+  "signals": {
+    "unprompted_unpaid_nudge": true,
+    "deadline_nudge": true,
+    "checkin_day_nudge": true,
+    "prep_corrected_stale_date": true
+  },
+  "score": 8,
+  "outcome": "pass",
+  "notes": "Unprompted nudges on unpaid AA staging, hotel free-cancel deadlines, and check-in day with no booking; prep ask corrected that the Chicago flight had already passed."
+}

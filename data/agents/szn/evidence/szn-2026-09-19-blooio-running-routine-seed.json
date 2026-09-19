@@ -1,0 +1,15 @@
+{
+  "id": "szn-2026-09-19-blooio-running-routine-seed",
+  "agent": "szn",
+  "category": "running_routine",
+  "protocol": "blooio",
+  "date": "2026-09-19",
+  "phone": "+14152725429",
+  "signals": {
+    "routine_confirmed": true,
+    "fires_observed": 0,
+    "score_pending_first_fire": true
+  },
+  "confirm": "Done \u2014 your weekday 9:00 AM ET one-line NYC weather text is armed. The first update will arrive Tuesday, September 22. / It\u2019s set: I\u2019ll send a one-line NYC weather update every weekday at 9:00 AM ET. No weather update now.",
+  "notes": "Routine confirmed 2026-09-19; score left null until weekday fires. Agent claimed first fire Tue Sep 22 (next weekday is Mon Sep 21)."
+}

@@ -4,7 +4,7 @@
   "recommendation_quality": 7,
   "purchasing": 8,
   "email_replies": 8,
-  "proactive_behavior": null,
+  "proactive_behavior": 8,
   "running_routine": null,
   "third_party_integrations": 7,
   "memory": 10,
@@ -12,7 +12,7 @@
   "phone_calls": 10,
   "multiplayer_groups": null,
   "chained_tasks": 7,
-  "proactive_restraint": null,
+  "proactive_restraint": 7,
   "content_creation_games": 8,
   "permissions_privacy": 7
 }

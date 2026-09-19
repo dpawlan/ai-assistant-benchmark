@@ -1036,6 +1036,27 @@
         "+12053561587"
       ]
     },
+    "friday": {
+      "name": "Friday",
+      "handles": [],
+      "domain": "askfriday.io",
+      "x_queries": [
+        "\"askfriday.io\""
+      ],
+      "reddit_queries": [
+        "\"askfriday.io\""
+      ],
+      "hn_queries": [
+        "\"askfriday.io\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "askfriday.io"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #337). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
+    },
     "gemini-spark": {
       "name": "Gemini Spark",
       "handles": [
@@ -1580,6 +1601,34 @@
       "imessage_handles": [],
       "_note": " Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
+    "manus": {
+      "name": "Manus",
+      "handles": [
+        "manusai",
+        "peakji"
+      ],
+      "domain": "manus.im",
+      "x_queries": [
+        "\"manus.im\"",
+        "@manusai",
+        "@peakji"
+      ],
+      "reddit_queries": [
+        "\"manus.im\""
+      ],
+      "hn_queries": [
+        "\"manus.im\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "manus.im",
+        "@manusai",
+        "@peakji"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #345). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
+    },
     "maxi": {
       "name": "Maxi",
       "handles": [],
@@ -1860,6 +1909,27 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
     },
+    "neo-01labs": {
+      "name": "Neo",
+      "handles": [],
+      "domain": "01labs.ai",
+      "x_queries": [
+        "\"01labs.ai\""
+      ],
+      "reddit_queries": [
+        "\"01labs.ai\""
+      ],
+      "hn_queries": [
+        "\"01labs.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "01labs.ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #224). Generic product name: queries and match are domain-only."
+    },
     "nessi": {
       "name": "Nessi",
       "handles": [],
@@ -1880,6 +1950,36 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-15 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "odessia": {
+      "name": "Odessia",
+      "handles": [
+        "OdessiaTravel",
+        "FDavidsonT"
+      ],
+      "domain": "odessia.com",
+      "x_queries": [
+        "\"odessia.com\"",
+        "@OdessiaTravel",
+        "@FDavidsonT",
+        "\"odessia\""
+      ],
+      "reddit_queries": [
+        "\"odessia.com\""
+      ],
+      "hn_queries": [
+        "\"odessia.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "odessia.com",
+        "@OdessiaTravel",
+        "@FDavidsonT",
+        "odessia"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #331). Handles are best guesses; verify before collecting."
     },
     "ollie": {
       "name": "Ollie",
@@ -2351,6 +2451,31 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-16 from a request-form submission (issue #307). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
     },
+    "sabi": {
+      "name": "Sabi",
+      "handles": [
+        "brucevanzyl"
+      ],
+      "domain": "meetsabi.com",
+      "x_queries": [
+        "\"meetsabi.com\"",
+        "@brucevanzyl"
+      ],
+      "reddit_queries": [
+        "\"meetsabi.com\""
+      ],
+      "hn_queries": [
+        "\"meetsabi.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "meetsabi.com",
+        "@brucevanzyl"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #339). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
+    },
     "sai": {
       "name": "Sai",
       "handles": [
@@ -2727,6 +2852,27 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-11 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
+    },
+    "stumpy": {
+      "name": "Stumpy",
+      "handles": [],
+      "domain": "stumpy.ai",
+      "x_queries": [
+        "\"stumpy.ai\""
+      ],
+      "reddit_queries": [
+        "\"stumpy.ai\""
+      ],
+      "hn_queries": [
+        "\"stumpy.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "stumpy.ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-19 from a request-form submission (issue #343). Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only."
     },
     "sunny": {
       "name": "Sunny",

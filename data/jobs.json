@@ -1,7 +1,7 @@
 {
   "_comment": "One entry per job (a canonical task). A job earns its place only when a real person reported it publicly or submitted it; posts are the evidence, never entries of their own. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
-  "updated": "2026-09-16",
+  "updated": "2026-09-19",
   "groups": [
     {
       "key": "travel",
@@ -1287,6 +1287,29 @@
           "quote": "c1df7111209e",
           "agent": "muse",
           "note": "Submitted as a prompt sent to Muse; the submission did not say how it went."
+        }
+      ]
+    },
+    {
+      "key": "morning-brief-on-telegram",
+      "title": "Get a morning news and repo brief on Telegram",
+      "one_liner": "One message a morning: markets, an AI roundup, a paper of the day, new issues on your repos and the top of Hacker News.",
+      "group": "work",
+      "dimension": "running_routine",
+      "prompt": "Brief me every morning on Telegram: overnight news, repo activity, and what's on today.",
+      "prompt_source": "posted",
+      "added": "2026-09-19",
+      "submitted_by": {
+        "handle": "@0xNurstar",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "76e2a003c34f",
+          "agent": "aeon",
+          "note": "One Telegram message a morning with markets, an AI roundup, a paper, repo issues and Hacker News; checks its memory so nothing repeats, and runs slower when its parallel chaining fails.",
+          "outcome": "done"
         }
       ]
     }

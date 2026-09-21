@@ -48,5 +48,15 @@
     "outcome": "pass",
     "notes": "Asked to decline Thursday and offer two times; drafted a casual reply with two slots and waited for approval before send.",
     "evidence_url": "/agents/town/evidence/town-2026-09-16-email-amy"
+  },
+  {
+    "id": "town-2026-09-21-integrations",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-21",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Its integrations were linked and used successfully in the desktop app in the reviewer's own testing, across many services.",
+    "evidence_url": "/agents/town/evidence/town-2026-09-21-integrations"
   }
 ]

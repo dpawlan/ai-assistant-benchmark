@@ -2,9 +2,9 @@
 
 Site: https://instinct.co/
 
-**Feedback rows:** 209 (as of 2026-09-18)
-**Kinds:** other=80, use-case=57, praise=23, complaint=17, bug=16, comparison=16
-**Top tags:** reddit(27), travel(15), proactive(9), privacy(9), imessage(9), email(7), whatsapp(6), onboarding(5)
+**Feedback rows:** 216 (as of 2026-09-21)
+**Kinds:** other=80, use-case=58, praise=25, complaint=20, comparison=17, bug=16
+**Top tags:** travel(27), founder(19), privacy(18), reply(18), imessage(16), email(15), latency(13), proactive(13)
 
 **Patterns (public X + Reddit):**
 - **Travel & admin magic:** flights, hotels, dinners (Dorsia), shopping, subscriptions — still the densest “it just works” corpus vs Hermes/OpenClaw/Tasklet/Grok Bot/Poke.
@@ -14,6 +14,7 @@ Site: https://instinct.co/
 - **Zero-moat jab:** vibecoder “docker in 3 hours” critique circulating alongside free-trial praise.
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** AlphaMatch finishes-the-job review (Sep 17); Top5Apps #2 capability/proactivity + Concierge phone (Sep 16) but “weakest safety”; Progressive Robot mail.instinct.com ToS gap ($100 liability vs $1.3k avg spend); Norton disconnect≠deletion.
 - [complaint] @kanishkrazdan: i used instinct pretty aggressively on day one. it felt magical. and then it turned scary.  giving it access to my email was already scary. then it started esta
 - [use-case] @FundamentEdge: This mistake aside, instinct is awesome for these admin tasks including monitoring my travel calendar, cross-referencing my Suns and ASU football season tickets
 - [comparison] @GaddipatiHarsha: 1) Training on data.  -> instinct here quite clearly mentions that it has access to sensitive data and phi which it can use to improve it's services/train model

@@ -7501,5 +7501,25 @@
     "agent": "town",
     "collected_at": "2026-09-18T14:30:00Z",
     "source": "web"
+  },
+  {
+    "id": "28042205de96",
+    "agent": "town",
+    "quote": "Town is an early-stage tool built around quick actions over WhatsApp. Fire off a message to do something small without ever opening your calendar. … Right now, though, it’s closer to a handy shortcut than a full assistant.",
+    "author": "Nir Sabato",
+    "author_name": "Nir Sabato",
+    "date": "2026-09-08",
+    "url": "https://www.catchagent.ai/blog/ai-assistants/top-ai-assistants#town",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "whatsapp",
+      "early",
+      "calendar"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Catch ranking #11: Town framed as WhatsApp micro-task shortcut, not full EA."
   }
 ]

@@ -4615,5 +4615,144 @@
     "agent": "instinct",
     "collected_at": "2026-09-18T14:30:00Z",
     "source": "web"
+  },
+  {
+    "id": "cbf9b253bffe",
+    "agent": "instinct",
+    "quote": "early users describe something rare: an assistant that does not stop at suggestions—it finishes the job. … The messaging-native surface is the right product bet for mass adoption; the persistent cloud computer is why the demos look unfairly good; and the privacy record is why thoughtful people should still hesitate.",
+    "author": "AlphaMatch",
+    "author_name": "AlphaMatch",
+    "date": "2026-09-17",
+    "url": "https://www.alphamatch.ai/blog/instinct-ai-personal-assistant-review-2026",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "review",
+      "messaging",
+      "cloud-computer"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "AlphaMatch Sep 17 review: finishes-the-job praise + privacy caution."
+  },
+  {
+    "id": "4a070c8558f3",
+    "agent": "instinct",
+    "quote": "Instinct is the most capable and most proactive agent we've used, and the hardest to get into. … In our testing the proactivity is what separates it: it follows up threads you dropped and nudges you about what you forgot. … Concierge (Sept 16) makes real phone calls; a Trusted Person network lets your Instinct coordinate with family members' Instincts (Sept 9).",
+    "author": "Top5Apps",
+    "author_name": "Top5Apps editorial",
+    "date": "2026-09-21",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/#instinct",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "proactive",
+      "concierge",
+      "ranking"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Top5Apps #2: capability/proactivity leader; Concierge + Trusted Person."
+  },
+  {
+    "id": "432ea873973e",
+    "agent": "instinct",
+    "quote": "The weakest safety record here: an unapproved email send, terms disclaiming any confirmation guarantee. … No published pricing; the founder has floated ads rather than subscriptions.",
+    "author": "Top5Apps",
+    "author_name": "Top5Apps editorial",
+    "date": "2026-09-21",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/#instinct-safety",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "safety",
+      "email",
+      "terms"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Top5Apps cons: weakest safety record + opaque monetization."
+  },
+  {
+    "id": "656c96a4557c",
+    "agent": "instinct",
+    "quote": "The Terms of Service uses the word “email” three times in 7,683 words. All three are about mail sent to you. Not one describes the thing that shipped: an address the software owns, writes from, and uses to register accounts in the world. … Instinct users who make purchases spend over $1,300/month on average through Instinct … Maximum Instinct can be liable for, in total — $100.",
+    "author": "Progressive Robot",
+    "author_name": "Progressive Robot",
+    "date": "2026-09-09",
+    "url": "https://www.progressiverobot.com/2026/09/09/instinct-email-address-terms-of-service/",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "email",
+      "terms",
+      "liability"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Progressive Robot: mail.instinct.com ToS gap + $100 liability vs $1.3k avg spend."
+  },
+  {
+    "id": "6b2fc81c04b3",
+    "agent": "instinct",
+    "quote": "an alarming part of Instinct's Terms of Service (as of September 2, 2026) states that “even if you disconnect a Connected Service, we may still use the indexed Connected Service Input data unless you follow the instructions to request deletion.” … Claire Vo … learned “the agent has been keeping copies of emails in my inbox in its own records ... despite revoking email access.”",
+    "author": "Jeremy Coppock",
+    "author_name": "Jeremy Coppock",
+    "date": "2026-09-04",
+    "url": "https://us.norton.com/blog/ai/is-instinct-safe",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "privacy",
+      "gmail",
+      "retention"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Norton safety explainer: disconnect≠deletion + Claire Vo retention."
+  },
+  {
+    "id": "ec79b12ff259",
+    "agent": "instinct",
+    "quote": "In September it shipped something the others only implied: its own email address at mail.instinct.com, so the agent can create accounts and talk to businesses without stuffing your inbox. You can also forward an order confirmation to Instinct and let it run the return.",
+    "author": "Neeraj Nathany",
+    "author_name": "Neeraj Nathany",
+    "date": "2026-09-10",
+    "url": "https://faraday.email/blog/best-ai-agent-apps-2026#instinct",
+    "kind": "use-case",
+    "tags": [
+      "auto",
+      "web",
+      "email-address",
+      "returns",
+      "life-admin"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Faraday: Instinct-owned mailbox + forward-for-return use case."
+  },
+  {
+    "id": "68213acf8c99",
+    "agent": "instinct",
+    "quote": "Instinct is the most ambitious bet on ambient personal context. Its product story is about an assistant that notices what has slipped and steps in. Because it is private access, the important question is still whether that experience holds up outside the company’s own examples.",
+    "author": "Refix",
+    "author_name": "Refix",
+    "date": "2026-09-08",
+    "url": "https://www.refix.ai/news/muse-vs-grok-bot-vs-instinct/#instinct",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "context",
+      "private-access"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Refix: Instinct = ambient personal context; private-access caveat."
   }
 ]

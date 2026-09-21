@@ -5692,5 +5692,45 @@
     "author_name": "Austin",
     "collected_at": "2026-09-17T14:15:00Z",
     "source": "web"
+  },
+  {
+    "id": "c6ba54357cf1",
+    "agent": "poke",
+    "quote": "Poke was one of the first messaging-native AI assistants. Text it in iMessage, WhatsApp, or Telegram. … Acquired by Cognition July 2026. Future uncertain. … If you're on iMessage, Poke still has the edge on that platform.",
+    "author": "Fabric",
+    "author_name": "Fabric",
+    "date": "2026-09-08",
+    "url": "https://fabric.so/comparison/poke-vs-meta-muse",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "muse",
+      "imessage",
+      "cognition"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Fabric: Poke wins iMessage/personality; Muse wins depth; Cognition acquisition caveat."
+  },
+  {
+    "id": "eaa722f25371",
+    "agent": "poke",
+    "quote": "Poke is an assistant you chat with over text, and honestly, it’s pleasant to use. The catch is the audience. It leans consumer, popular with students, rather than built for the demands of an executive or an organization.",
+    "author": "Nir Sabato",
+    "author_name": "Nir Sabato",
+    "date": "2026-09-08",
+    "url": "https://www.catchagent.ai/blog/ai-assistants/top-ai-assistants#poke",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "catch",
+      "consumer",
+      "text"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Catch ranking #9: pleasant consumer text assistant, not exec admin."
   }
 ]

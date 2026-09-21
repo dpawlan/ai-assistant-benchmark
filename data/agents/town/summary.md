@@ -2,15 +2,16 @@
 
 Site: https://www.town.com/
 
-**Feedback rows:** 305 (as of 2026-09-18)
-**Kinds:** other=250, use-case=21, praise=15, comparison=13, complaint=3, bug=3
-**Top tags:** group-chat(6), email(4), launch(4), group-text(4), townie(4), family(3), calendar(2), identity(2)
+**Feedback rows:** 306 (as of 2026-09-21)
+**Kinds:** other=250, use-case=21, praise=15, comparison=14, complaint=3, bug=3
+**Top tags:** reply(182), vendor(13), email(6), group-chat(6), family(5), founder(5), townie(5), calendar(4)
 
 **Patterns (public X):**
 - **Intern vs CEO:** Townie asks for @TownAI support email then doesn’t send it — “high school intern” feel (same user later says CEO assistant after recovery).
 - Still strong Townie / town.com assistant chatter in prior vault rows.
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** Catch ranking #11 frames Town as WhatsApp micro-task shortcut, not full executive assistant yet.
 - [complaint] @CamiloBAcosta: Some agents feel like a high school intern and others feel like a Fortune 500 CEO assistant.  The  @TownAI  agent is asking me what the  @TownAI  support email 
 - [comparison] @ebeezy_eth: Does Townie suck that much that you’d rather wait for Instinct? I haven’t tried it yet
 

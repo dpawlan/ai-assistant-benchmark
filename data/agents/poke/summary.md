@@ -2,15 +2,16 @@
 
 Site: https://poke.com/
 
-**Feedback rows:** 237 (as of 2026-09-17)
-**Kinds:** comparison=8, complaint=8, other=6, use-case=6, bug=4, praise=4
-**Top tags:** reddit(9), imessage(6), reliability(3), personality(3), vs-instinct(2), launch(2), travel(2), recipes(2)
+**Feedback rows:** 239 (as of 2026-09-21)
+**Kinds:** other=185, comparison=17, complaint=14, use-case=10, praise=7, bug=6
+**Top tags:** reply(123), imessage(14), vendor(9), reliability(8), email(6), pricing(5), proactive(4), founder(4)
 
 **Patterns (public X + Reddit):**
 - **iMessage pioneer** personality/humor; travel; Cognition-era reliability anxiety in older rows.
 - **Shared with Instinct/OpenClaw:** “got access, don’t feel like using — no normie tasks worth automating.”
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** Fabric vs Muse — Poke keeps iMessage edge post-Cognition acquisition; Catch ranking slots it as pleasant consumer text assistant (#9).
 - [praise] @Aikun011: A lot of people would be fine using ai for work if it was more like  @interaction ’s poke.  Slop is killing your drive to work .  Communication be effective .  
 - [complaint] @prathitjoshi_: Its been more than 3 to 4 days since ive got access to instinct and i dont feel like using it.  With instinct, poke and openclaw the biggest issue is the lack o
 - [use-case] @DNAdotGM: How do you catch the next  $MEME  on #RobinhoodChain before CT posts 1000x pnl screenshots?  I built a  @interaction  Poke recipe that texts you SMS alerts for 

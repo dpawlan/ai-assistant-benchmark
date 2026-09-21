@@ -1,8 +1,8 @@
 # Grok Bot
 
-**Feedback rows:** 1164 (as of 2026-09-18)
-**Kinds:** other=1018, use-case=72, complaint=30, praise=18, comparison=15, bug=11
-**Top tags:** cursor(18), reddit(10), hermes(4), limits(4), pricing(3), trading(3), email(3), claude(3)
+**Feedback rows:** 1170 (as of 2026-09-21)
+**Kinds:** other=1019, use-case=72, complaint=32, praise=19, comparison=17, bug=11
+**Top tags:** reply(531), cursor(19), limits(6), hermes(6), routines(5), security(5), pricing(5), multi-bot(5)
 
 **Patterns (public X + Reddit):**
 - **Power-user bugs:** routines unreliable even for simple daily X polls; deleted-bot data lingering; users want a clear bug-report path (~10hr/day users).
@@ -10,6 +10,7 @@
 - **Cursor sub + Reddit:** reliability/hype threads; compared with Instinct/OpenClaw in “AI haters after using…” jokes.
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** Engadget Sep 20 how-to (≠ Grok chat; Cursor Sand; beta bugs/logins); Top5Apps #3 + Claire Vo connectors praise; Faraday shared-computer blast radius; Show HN OpenBot (Ultra tokens exhausted).
 - [use-case] @josgonhe: Saved ~$200 on subscriptions this weekend with SubHaggle, a  @bot  that reads my credit-card expenses, flags renewals, and drafts cancel/pause/downgrade counter
 - [complaint] @ManuKumar: I spent a big chunk of my day on Grok  @bot  yesterday. The agent communication model is brilliant. But not having the ability to choose the agent models makes 
 - [use-case] @ahoop: Daily Grok Bot Update  Thanks to  @bot  for another usage reset, I was able to tackle another project I’ve been keeping on the back burner. My father-in-law has

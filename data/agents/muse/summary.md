@@ -80,8 +80,8 @@ _Updated 2026-09-17 weekday vault scan (+7 rows)._
 - (2026-09-09) Saner.AI: Security-practitioner reaction to unattended agent + private data blast radius — "worst kind of hazmat."
 - (2026-09-09) Saner.AI: Muse as first OpenClaw-like consumer agent that just works.
 
-**Feedback rows:** 123 (as of 2026-09-18)
-**Kinds:** other=61, use-case=27, praise=13, complaint=9, comparison=7, bug=6
+**Feedback rows:** 130 (as of 2026-09-21)
+**Kinds:** other=62, use-case=27, praise=14, complaint=10, comparison=9, bug=8
 
 _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
@@ -91,3 +91,6 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - (2026-09-11) HN archon810: Muse UX similar to pleasant Grok Bot vs Codex/Cowork papercuts.
 - (2026-09-08) Board Brief: Muse as Meta mass-consumer bid on the Town/Instinct/Grok Bot delegation pattern.
 
+
+
+- **2026-09-21 vault scan:** Amazon blocks Muse shopping (Verge/Forkast, popup Sunday Sep 20); Top5Apps #1 overall + #1 free US App Store Sep 18; merchant-veto framing; Faraday Meta-trust overhang; Fabric depth vs Poke iMessage.

@@ -2800,5 +2800,145 @@
     "agent": "muse",
     "collected_at": "2026-09-18T14:30:00Z",
     "source": "web"
+  },
+  {
+    "id": "d349ad94377d",
+    "agent": "muse",
+    "quote": "A popup message started appearing on Sunday for Muse users saying that “continued access by an unauthorized AI agent violates Amazon’s Conditions of Use, to which our customers have agreed.” … Amazon also expressed privacy and security concerns over Muse failing to identify itself when it browses, and seemingly capturing customer credentials.",
+    "author": "Jess Weatherbed",
+    "author_name": "Jess Weatherbed",
+    "date": "2026-09-21",
+    "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "web",
+      "amazon",
+      "shopping",
+      "commerce"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Verge Sep 21: Amazon blocks Muse shopping; GeekWire-sourced popup Sunday."
+  },
+  {
+    "id": "fabf2fa719a6",
+    "agent": "muse",
+    "quote": "Meta has pushed back against these characterizations, asserting that Muse “has no visibility into people’s passwords or payment methods.” The company maintains that credentials “go into secure storage, so Muse can use them without seeing them.” Despite these assurances, the block remains in effect.",
+    "author": "Tessa Vaughn",
+    "author_name": "Tessa Vaughn",
+    "date": "2026-09-21",
+    "url": "https://forkast.news/amazon-blocks-metas-muse-agent-from-shopping-and-signals-a-new-tollgate-for-agent-commerce/",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "amazon",
+      "retailer-access",
+      "meta"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Forkast: retailer-access tax framing; Meta credential pushback vs Amazon block."
+  },
+  {
+    "id": "ab6fa9773a55",
+    "agent": "muse",
+    "quote": "Meta Muse is the best personal agent most people can actually use today — free, public, and with the category's best-designed confirmation flow. … on September 18 it displaced ChatGPT as the #1 free iPhone app in the US, the same day it reached Canada.",
+    "author": "Top5Apps",
+    "author_name": "Top5Apps editorial",
+    "date": "2026-09-21",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/#muse",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "app-store",
+      "permissions",
+      "ranking"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Top5Apps Sep 21: Muse #1 overall; App Store #1 free US on Sep 18."
+  },
+  {
+    "id": "c38d6a282315",
+    "agent": "muse",
+    "quote": "And note the newest constraint: merchants can veto agents — Amazon blocked Muse on September 20 under Agent Terms it added to its Conditions of Use in August, and any retailer can copy the move.",
+    "author": "Top5Apps",
+    "author_name": "Top5Apps editorial",
+    "date": "2026-09-21",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/#amazon-block",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "web",
+      "amazon",
+      "merchants",
+      "availability"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Top5Apps: merchant veto / Amazon Agent Terms as availability constraint."
+  },
+  {
+    "id": "d0f9f7470ced",
+    "agent": "muse",
+    "quote": "The open question is not capability. It is whether people will hand Meta their Gmail, calendar, and wallet two weeks after a giant social-harm settlement. Muse is the first of these agents that could actually be on a hundred million phones.",
+    "author": "Neeraj Nathany",
+    "author_name": "Neeraj Nathany",
+    "date": "2026-09-10",
+    "url": "https://faraday.email/blog/best-ai-agent-apps-2026#muse",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "trust",
+      "meta",
+      "mass-market"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Faraday: Muse mass-market bet vs Meta trust overhang."
+  },
+  {
+    "id": "4762a53998d4",
+    "agent": "muse",
+    "quote": "Task depth. Muse opens browsers, fills forms, makes purchases, schedules lessons. Poke handles calendar, email, and scheduling. Muse's action scope is broader. … Distribution. WhatsApp (billions of users), Instagram, Facebook.",
+    "author": "Fabric",
+    "author_name": "Fabric",
+    "date": "2026-09-08",
+    "url": "https://fabric.so/comparison/poke-vs-meta-muse#muse",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "poke",
+      "whatsapp",
+      "distribution"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Fabric comparison: Muse wins depth/distribution; Poke wins iMessage."
+  },
+  {
+    "id": "a0c2a68dd10a",
+    "agent": "muse",
+    "quote": "Muse is betting that the first useful personal agent is an organizer. … Muse says it asks people to approve critical actions such as sending emails and making purchases. Its launch materials also describe permissions, an activity log, and settings that let users adjust how cautious the agent should be.",
+    "author": "Refix",
+    "author_name": "Refix",
+    "date": "2026-09-08",
+    "url": "https://www.refix.ai/news/muse-vs-grok-bot-vs-instinct/#muse",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "web",
+      "goals",
+      "approvals",
+      "secure-vm"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Refix: Muse as personal coordination + approval controls."
   }
 ]

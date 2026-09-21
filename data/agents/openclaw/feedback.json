@@ -114,5 +114,83 @@
     "agent": "openclaw",
     "collected_at": "2026-09-18T14:30:00Z",
     "source": "web"
+  },
+  {
+    "id": "c662b999e54e",
+    "agent": "openclaw",
+    "quote": "if you are on a stable 2026.9.1 or 2026.9.2 build, hold off for a few days. … Do not rush to 2026.9.4 the day it ships. … Report #144788 is a critical regression naming 9.4 directly: post-agent-end memory generation fails for affected plugin setups that worked on 9.1 through 9.3. Report #144809 loses entire generated replies on long claude-cli turns.",
+    "author": "Marcus Li",
+    "author_name": "Marcus Li",
+    "date": "2026-09-11",
+    "url": "https://rerealize.com/openclaw-2026-9-3-9-4-update-or-wait/",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "web",
+      "update",
+      "gateway",
+      "9.4"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Rerealize: 9.3/9.4 update-path breakage + memory/reply regressions."
+  },
+  {
+    "id": "8d93340123dc",
+    "agent": "openclaw",
+    "quote": "an update fails, the system rolls back to the 2026.9.2 runtime, but the Skill Workshop data has already moved forward to the new ownership model. The old runtime then fails Doctor because it expects workspace_dir while the database now has owner_agent_id. You end up on 9.2 with 9.3-shaped data, which is the worst of both worlds.",
+    "author": "Marcus Li",
+    "author_name": "Marcus Li",
+    "date": "2026-09-11",
+    "url": "https://rerealize.com/openclaw-2026-9-3-9-4-update-or-wait/#rollback",
+    "kind": "bug",
+    "tags": [
+      "auto",
+      "web",
+      "skill-workshop",
+      "rollback"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Rerealize: Workshop migration/rollback split-brain (#142770)."
+  },
+  {
+    "id": "6a030d082518",
+    "agent": "openclaw",
+    "quote": "OpenClaw 2.0 is best understood as a self-hosted AI agent gateway, not as another large language model. … promising for developers, automation-heavy teams, and users who want an open, local-first agent system. It is less suitable for people who simply want a polished one-click chatbot.",
+    "author": "Daniel Brooks",
+    "author_name": "Daniel Brooks",
+    "date": "2026-09-04",
+    "url": "https://airmore.ai/ai-review/openclaw-2-review",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "web",
+      "gateway",
+      "self-host",
+      "2.0"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "AirMore OpenClaw 2.0 review: gateway framing + setup tradeoff."
+  },
+  {
+    "id": "e8312f99acac",
+    "agent": "openclaw",
+    "quote": "OpenClaw is the open-source personal assistant you run yourself. It lives in WhatsApp, iMessage, Telegram, Slack, Signal — the chats you already have — and talks to whatever model you plug in. Best if you want control and will own the setup. Not a consumer app.",
+    "author": "Neeraj Nathany",
+    "author_name": "Neeraj Nathany",
+    "date": "2026-09-10",
+    "url": "https://faraday.email/blog/best-ai-agent-apps-2026#openclaw",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "self-host",
+      "control"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Faraday field map: OpenClaw as self-host control pick."
   }
 ]

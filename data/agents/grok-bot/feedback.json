@@ -28299,5 +28299,123 @@
     "agent": "grok-bot",
     "collected_at": "2026-09-18T14:30:00Z",
     "source": "web"
+  },
+  {
+    "id": "ec52844998fb",
+    "agent": "grok-bot",
+    "quote": "There's a bit of confusion surrounding Grok Bot for several reasons. One of which is its creatively stunted title, which is often confused with Grok chatbots and its constant tagging in X posts. … Grok Bot was originally the brain child of Cursor, codenamed Sand, and partially built on SpaceXAI's compute.",
+    "author": "Thomas Godwin",
+    "author_name": "Thomas Godwin",
+    "date": "2026-09-20",
+    "url": "https://www.engadget.com/2259931/spacexai-grok-bot-early-beta-how-to-try/",
+    "kind": "other",
+    "tags": [
+      "auto",
+      "web",
+      "beta",
+      "naming",
+      "plans"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Engadget how-to: Grok Bot ≠ Grok chat; Cursor Sand origin; paid SuperGrok/Cursor gate."
+  },
+  {
+    "id": "e1de8a8b71c0",
+    "agent": "grok-bot",
+    "quote": "It's in early beta after all, and bugs, login issues and evolving plan restrictions are all but certainties. … Test the water with a few low-risk tasks at first, and keep human approval enabled for any actions that could potentially fire off messages, alter records or expose sensitive information.",
+    "author": "Thomas Godwin",
+    "author_name": "Thomas Godwin",
+    "date": "2026-09-20",
+    "url": "https://www.engadget.com/2259931/spacexai-grok-bot-early-beta-how-to-try/#beta-caution",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "web",
+      "beta",
+      "bugs",
+      "approvals"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Engadget: early-beta reliability caveats + start low-risk with approvals."
+  },
+  {
+    "id": "b573b36e4fa9",
+    "agent": "grok-bot",
+    "quote": "Claire Vo's week-long test found 'the onboarding is smooth, the connectors are top-tier, and the multi-agent approach is intuitive,' and another early user called it 'the first AI product I'd hand to someone who has never used one.'",
+    "author": "Top5Apps",
+    "author_name": "Top5Apps editorial",
+    "date": "2026-09-21",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/#grok-bot",
+    "kind": "praise",
+    "tags": [
+      "auto",
+      "web",
+      "review",
+      "claire-vo",
+      "teammates"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Top5Apps Sep 21 ranking: Grok Bot #3 for recurring work handoffs; Claire Vo quote."
+  },
+  {
+    "id": "f975762e0183",
+    "agent": "grok-bot",
+    "quote": "The interesting design choice: all of your Bots share one computer. Files, browser sessions, and logins are account-scoped, not bot-scoped. That makes handoffs easy. It also means a login you granted to the research bot is sitting there for the sales bot.",
+    "author": "Neeraj Nathany",
+    "author_name": "Neeraj Nathany",
+    "date": "2026-09-10",
+    "url": "https://faraday.email/blog/best-ai-agent-apps-2026#grok-bot",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "shared-computer",
+      "cursor"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Faraday map: shared-computer handoff vs credential blast radius."
+  },
+  {
+    "id": "89902b11a9d0",
+    "agent": "grok-bot",
+    "quote": "I think the path Grok Bot took is absolutely the right one, the collaborating bots model is easy to understand and it maps to workflows naturally. However, Grok Bot is closed source and quite expensive (I ran out of tokens on Ultra tier), so I've decided to roll out my own: OpenBot.",
+    "author": "regnull",
+    "author_name": "regnull",
+    "date": "2026-09-17",
+    "url": "https://news.ycombinator.com/item?id=49739491",
+    "kind": "complaint",
+    "tags": [
+      "auto",
+      "hn",
+      "pricing",
+      "open-source",
+      "tokens"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Show HN OpenBot (~4d): collaborating-bots praise + Ultra token exhaustion."
+  },
+  {
+    "id": "26237998fe58",
+    "agent": "grok-bot",
+    "quote": "That makes Grok Bot feel closer to an AI team than a personal concierge. … multiple Bots can share one user-scoped computer, pass context to each other, run in parallel, and hand off tasks. A user can also show a Bot a multi-step process, save it as a routine, and rerun it.",
+    "author": "Refix",
+    "author_name": "Refix",
+    "date": "2026-09-08",
+    "url": "https://www.refix.ai/news/muse-vs-grok-bot-vs-instinct/#grok-bot",
+    "kind": "comparison",
+    "tags": [
+      "auto",
+      "web",
+      "teammates",
+      "routines"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-21T14:30:00Z",
+    "notes": "Refix three-way launch reading: Grok Bot = work teammates + routines."
   }
 ]

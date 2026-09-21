@@ -309,6 +309,7 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     feedbackCount: getShownFeedback(entry.slug).length,
     publicSignal: entry.public_signal,
     tagline: entry.tagline ?? '',
+    bestAt: entry.best_at,
     icon: entry.icon ?? null,
     kind: entry.kind ?? 'general',
     access: entry.access ?? null,

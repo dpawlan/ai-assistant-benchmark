@@ -61,7 +61,8 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
   const pending = ranked.filter(a => !tested.includes(a));
 
   const row = (agent: Agent, rank: number | null) => {
-    const line = bestAt(agent, short) ?? agent.tagline;
+    const picked = agent.bestAt?.map(k => (short[k] ?? k).toLowerCase());
+    const line = picked && picked.length ? `Best at ${picked.join(' and ')}` : (bestAt(agent, short) ?? agent.tagline);
     return (
       <Link key={agent.slug} href={`/agents/${agent.slug}`} className="rk-row">
         <span className="rk-rank">{rank ?? ''}</span>

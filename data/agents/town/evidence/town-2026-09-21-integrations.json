@@ -1,0 +1,14 @@
+{
+  "id": "town-2026-09-21-integrations",
+  "agent": "town",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-09-21",
+  "signals": {
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-21T15:54:04.210Z"
+}

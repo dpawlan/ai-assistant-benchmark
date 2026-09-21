@@ -64,3 +64,4 @@ _Updated 2026-09-18 weekday vault scan (+4 rows)._
 - (2026-08-01) Saner.AI review: "runs my day" praise; credit overage complaint; Mac app document-editing bugs.
 - (2026-09-08) Board Brief author hands-on with Town alongside Instinct and Grok Bot.
 
+Thread note: the reviewer's iMessage line +13054098546 (April to June 2026) was his own Sendblue bot, not Town; those messages and runs were removed on 2026-09-21. Town proper starts 2026-09-03 on +16462366967.

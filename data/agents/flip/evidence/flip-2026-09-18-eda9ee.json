@@ -1,0 +1,19 @@
+{
+  "id": "flip-2026-09-18-eda9ee",
+  "agent": "flip",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-09-18",
+  "signals": {
+    "turns": 19,
+    "my_messages": 6,
+    "agent_messages": 13,
+    "first_reply_s": 6,
+    "duration_min": 15,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-22T15:27:42.181Z"
+}

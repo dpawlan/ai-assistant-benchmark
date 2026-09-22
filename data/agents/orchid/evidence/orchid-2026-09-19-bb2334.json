@@ -1,0 +1,19 @@
+{
+  "id": "orchid-2026-09-19-bb2334",
+  "agent": "orchid",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-09-19",
+  "signals": {
+    "turns": 9,
+    "my_messages": 3,
+    "agent_messages": 6,
+    "first_reply_s": 61,
+    "duration_min": 4,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-22T15:27:42.186Z"
+}

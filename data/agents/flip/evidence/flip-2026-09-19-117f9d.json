@@ -1,0 +1,19 @@
+{
+  "id": "flip-2026-09-19-117f9d",
+  "agent": "flip",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-09-19",
+  "signals": {
+    "turns": 5,
+    "my_messages": 0,
+    "agent_messages": 5,
+    "first_reply_s": 206,
+    "duration_min": 106,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-22T15:27:42.181Z"
+}

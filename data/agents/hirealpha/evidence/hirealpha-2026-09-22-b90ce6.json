@@ -1,0 +1,19 @@
+{
+  "id": "hirealpha-2026-09-22-b90ce6",
+  "agent": "hirealpha",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-09-22",
+  "signals": {
+    "turns": 4,
+    "my_messages": 2,
+    "agent_messages": 2,
+    "first_reply_s": 73,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-22T15:27:42.186Z"
+}

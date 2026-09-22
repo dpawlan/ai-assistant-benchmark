@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hirealpha-2026-09-22-f63c8a",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-22",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Listed Loop hotels under the cap but lacked a Booking.com account, gave four status questions one canned error, and could not switch sites.",
+    "evidence_url": "/agents/hirealpha/evidence/hirealpha-2026-09-22-f63c8a"
+  },
+  {
+    "id": "hirealpha-2026-09-22-b90ce6",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-22",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "Offered three restaurants near a hotel it never identified, called one search junk, then hit its canned error when asked where the user was.",
+    "evidence_url": "/agents/hirealpha/evidence/hirealpha-2026-09-22-b90ce6"
+  },
+  {
+    "id": "hirealpha-2026-09-22-0e3e5d",
+    "category": "proactive_restraint",
+    "protocol": "observed",
+    "date": "2026-09-22",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Sent an unrequested morning brief twice in the middle of a task, then apologised and offered to turn proactive messages off.",
+    "evidence_url": "/agents/hirealpha/evidence/hirealpha-2026-09-22-0e3e5d"
+  }
+]

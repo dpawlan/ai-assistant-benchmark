@@ -2940,5 +2940,217 @@
     "source": "web",
     "collected_at": "2026-09-21T14:30:00Z",
     "notes": "Refix: Muse as personal coordination + approval controls."
+  },
+  {
+    "id": "befcdad55eb4",
+    "agent": "muse",
+    "quote": "I started by testing it with some obvious, straightforward tasks. First, I asked it to look through my email and send me a daily digest of \"important\" emails (my inbox gets quickly clogged with PR pitches and newsletters). It did this admirably well. I also asked it to look at my credit and debit cards and tell me what subscription I could cancel — it suggested Flickr.",
+    "author": "Katie Notopoulos",
+    "author_name": "Katie Notopoulos",
+    "date": "2026-09-19",
+    "url": "https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9#email-digest",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "subscriptions",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Business Insider hands-on (19 Sep 2026): inbox digest + subscription scan worked."
+  },
+  {
+    "id": "0982ca9d0ae5",
+    "agent": "muse",
+    "quote": "The Girl Scouts of America defeat AI! The Girl Scouts' website has always been really frustrating to use, and although Muse almost could do it, it couldn't complete the final payment section without the site timing out. I ended up having to do it on my computer.",
+    "author": "Katie Notopoulos",
+    "author_name": "Katie Notopoulos",
+    "date": "2026-09-19",
+    "url": "https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9#girl-scouts",
+    "kind": "bug",
+    "tags": [
+      "checkout",
+      "forms",
+      "reliability",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "BI: membership renewal stalled at payment/timeout on Girl Scouts site."
+  },
+  {
+    "id": "024c3ffa4a62",
+    "agent": "muse",
+    "quote": "I can see the promise here — it was able to accomplish (or at least half-accomplish) some stuff that could be genuinely helpful. A colleague of mine used Muse to successfully dispute a health bill with his insurance. But it can't yet do the really annoying stuff I don't want to do myself.",
+    "author": "Katie Notopoulos",
+    "author_name": "Katie Notopoulos",
+    "date": "2026-09-19",
+    "url": "https://www.businessinsider.com/meta-muse-review-access-to-emails-credit-cards-health-data-2026-9#verdict",
+    "kind": "complaint",
+    "tags": [
+      "limits",
+      "healthcare",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "BI verdict: helpful on some admin, not yet life-running; colleague insurance dispute success."
+  },
+  {
+    "id": "163874e830c9",
+    "agent": "muse",
+    "quote": "I decided to name my agent Lyra. Getting the name into the field should have been the easiest thing in the world, and instead it took me a few tries because the text field was not behaving like a normal text field with VoiceOver. … Then I got into the chat and realized the chat messages are not headings. I am gonna be honest, I was really mad about this.",
+    "author": "Taylor Arndt",
+    "author_name": "Taylor Arndt",
+    "date": "2026-09-21",
+    "url": "https://taylorarndt.substack.com/p/i-tried-metas-muse-agent-i-really#accessibility",
+    "kind": "complaint",
+    "tags": [
+      "accessibility",
+      "voiceover",
+      "ui",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Substack (21 Sep): VoiceOver text-field + missing chat headings."
+  },
+  {
+    "id": "705fa4d6bcd7",
+    "agent": "muse",
+    "quote": "I like Muse. That is really the simplest answer. … But right now I am stuck in this weird place where the agent itself feels more useful than the interface around it. VoiceOver makes some parts way harder than they need to be, and the connector gap means I cannot hand Muse the systems where a lot of my actual work lives.",
+    "author": "Taylor Arndt",
+    "author_name": "Taylor Arndt",
+    "date": "2026-09-21",
+    "url": "https://taylorarndt.substack.com/p/i-tried-metas-muse-agent-i-really#verdict",
+    "kind": "praise",
+    "tags": [
+      "accessibility",
+      "connectors",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Substack verdict: likes agent capability; blocked by a11y + connector gaps."
+  },
+  {
+    "id": "7d39ba4d1baa",
+    "agent": "muse",
+    "quote": "Y'all, the PDF it generated was beautiful. It was the first time an agent has produced a design I actually like in a single shot. … The newsletter was perfectly laid out and easy to read. It included: a weekly agenda … call-outs for parents … News to Know … Local Events.",
+    "author": "Claire Vo",
+    "author_name": "Claire Vo",
+    "date": "2026-09-16",
+    "url": "https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent#family-newsletter",
+    "kind": "use-case",
+    "tags": [
+      "family",
+      "pdf",
+      "calendar",
+      "design",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "How I AI (16 Sep): one-shot printable family morning newsletter PDF."
+  },
+  {
+    "id": "c989e7f5559f",
+    "agent": "muse",
+    "quote": "The agent's response was incredibly well-toned. It wasn't sycophantic like some models can be. It felt kind and human. \"Sleep deprivation with a baby is its own special kind of hard. We'll get you some rest.\" … This combination of a dedicated \"Goal\" primitive with automated reminders is genius. It separates these long-term aspirations from the flow of everyday tasks, which is something I've found challenging with other agents like Grok Bot or OpenClaw.",
+    "author": "Claire Vo",
+    "author_name": "Claire Vo",
+    "date": "2026-09-16",
+    "url": "https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent#goals",
+    "kind": "comparison",
+    "tags": [
+      "goals",
+      "family",
+      "grok-bot",
+      "openclaw",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "How I AI: Goals primitive vs Grok Bot/OpenClaw task-soup; gentle sleep-training coaching."
+  },
+  {
+    "id": "08e3ce169b44",
+    "agent": "muse",
+    "quote": "My first attempt was asking it to shop for New Balance 9060s. … The experience was not great. Muse struggled to find the right colorway and seemed to get stuck during browser use. … [On IMAX tickets] Muse then opened its browser view … navigated to the theater website, selected the tickets, and proceeded to guest checkout. … It arrived at the payment screen and prompted me to use Stripe Link.",
+    "author": "Claire Vo",
+    "author_name": "Claire Vo",
+    "date": "2026-09-16",
+    "url": "https://www.chatprd.ai/how-i-ai/meta-muse-review-personal-ai-agent#shopping",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "browser",
+      "stripe-link",
+      "mixed",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "How I AI: shoe browse fail; IMAX ticket flow to Link checkout succeeded (stopped before buy)."
+  },
+  {
+    "id": "144a4746d67a",
+    "agent": "muse",
+    "quote": "Btw I did this Muse, giving it the ability to use its cred vault to log into her school information system and read through all the crap and other websites and collate the homework's and their due dates, adding to my child's calendar when they're due and a reminder the day before with a link to the calendar. I had model the workflow formally … and set it up to run daily. … First meaningful use of an OpenClaw like system.",
+    "author": "fnordpiglet",
+    "author_name": "fnordpiglet",
+    "date": "2026-09-22",
+    "url": "https://news.ycombinator.com/item?id=49796524",
+    "kind": "use-case",
+    "tags": [
+      "school",
+      "calendar",
+      "cred-vault",
+      "hn"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "HN (22 Sep) on Amazon/Muse thread: daily school homework collation via Muse cred vault."
+  },
+  {
+    "id": "8bb81ee7c5ec",
+    "agent": "muse",
+    "quote": "My concern with Muse, and all these AI shopping tools, is that we'll end up in a world where inventory drops to 0, orders are placed by the business based on the number of bots in the queue, and as inventory is made available, it is immediately snatched up by shopping bots... similar to what we've seen in collector markets (ex. sneaker drops) or concert ticket sales. I don't want to live in a world where an AI agent is required to buy basic goods, just to compete with everyone else using them.",
+    "author": "al_borland",
+    "author_name": "al_borland",
+    "date": "2026-09-21",
+    "url": "https://news.ycombinator.com/item?id=49792236",
+    "kind": "complaint",
+    "tags": [
+      "shopping",
+      "bots",
+      "amazon",
+      "hn"
+    ],
+    "source": "hn",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "HN on Amazon blocking Muse: bot-scarcity / compulsory-agent shopping worry."
+  },
+  {
+    "id": "05259642a506",
+    "agent": "muse",
+    "quote": "Meta's own internal testing reportedly found Muse bypassing safeguards and exposing private iCloud photos when asked to identify toys in party pictures, and an employee reported many reliability failures while using it to track fast-selling items, per Benzinga's September 2026 reporting.",
+    "author": "Damien",
+    "author_name": "Damien (HokAI)",
+    "date": "2026-09-15",
+    "url": "https://hokai.io/hub/agents/muse#weaknesses",
+    "kind": "bug",
+    "tags": [
+      "safety",
+      "reliability",
+      "icloud",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "HokAI listing citing Benzinga Sep 2026: internal safeguard bypass + reliability failures. Secondary cite."
   }
 ]

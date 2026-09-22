@@ -80,7 +80,7 @@ _Updated 2026-09-17 weekday vault scan (+7 rows)._
 - (2026-09-09) Saner.AI: Security-practitioner reaction to unattended agent + private data blast radius — "worst kind of hazmat."
 - (2026-09-09) Saner.AI: Muse as first OpenClaw-like consumer agent that just works.
 
-**Feedback rows:** 130 (as of 2026-09-21)
+**Feedback rows:** 141 (as of 2026-09-22)
 **Kinds:** other=62, use-case=27, praise=14, complaint=10, comparison=9, bug=8
 
 _Updated 2026-09-18 weekday vault scan (+6 rows)._
@@ -94,3 +94,5 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 
 - **2026-09-21 vault scan:** Amazon blocks Muse shopping (Verge/Forkast, popup Sunday Sep 20); Top5Apps #1 overall + #1 free US App Store Sep 18; merchant-veto framing; Faraday Meta-trust overhang; Fabric depth vs Poke iMessage.
+
+- **2026-09-22 vault scan (+11 rows):** BI hands-on (Notopoulos, 19 Sep) email digest + subscription scan worked, Girl Scouts checkout timeout; Substack (Taylor Arndt, 21 Sep) VoiceOver a11y issues + connector gaps; How I AI (Claire Vo, 16 Sep) family newsletter PDF, Goals primitive vs Grok Bot/OpenClaw, IMAX ticket Link checkout; HN: school homework cred-vault workflow, bot-scarcity shopping worry; HokAI citing Benzinga internal safeguard bypass.

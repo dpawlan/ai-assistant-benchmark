@@ -1,6 +1,6 @@
 # Grok Bot
 
-**Feedback rows:** 1170 (as of 2026-09-21)
+**Feedback rows:** 1173 (as of 2026-09-22)
 **Kinds:** other=1019, use-case=72, complaint=32, praise=19, comparison=17, bug=11
 **Top tags:** reply(531), cursor(19), limits(6), hermes(6), routines(5), security(5), pricing(5), multi-bot(5)
 
@@ -77,4 +77,6 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - (2026-09-13) @ComebackCap: specialists that write prompts for each other.
 - (2026-09-08) Luca Rossi (Refactoring.fm): migrated all non-coding work; five-bot fleet (Brian/Karn/Edith/Sponsy/Grow).
 - (2026-09-02) Peter Yang: best-in-class cloud; discomfort entering Amazon 2FA on cloud computer; no financials.
+
+- **2026-09-22 vault scan (+3 rows):** Continuum review (8 Sep): best-in-class onboarding + structural limits (shared computer, opaque router, audit gap); Learn Cursor (14 Aug): Grok Bot for cross-app work vs Cloud Agent for bounded repo PR.
 

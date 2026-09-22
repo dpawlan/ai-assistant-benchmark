@@ -28417,5 +28417,62 @@
     "source": "web",
     "collected_at": "2026-09-21T14:30:00Z",
     "notes": "Refix three-way launch reading: Grok Bot = work teammates + routines."
+  },
+  {
+    "id": "5f164a3e3f2a",
+    "agent": "grok-bot",
+    "quote": "The most credible praise in the launch thread came from a developer who had been assembling the same capability by hand: Grok Bot \"simplifies the setup for this about as far as I imagine is possible, and frankly it's a pretty slick experience.\" Coming from someone who had already done it the hard way, that is worth more than any benchmark.",
+    "author": "Continuum",
+    "author_name": "Continuum",
+    "date": "2026-09-08",
+    "url": "https://continuumcode.ai/guides/grok-bot-review/#setup",
+    "kind": "praise",
+    "tags": [
+      "setup",
+      "onboarding",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Continuum review (updated 8 Sep): category-best onboarding; teach-by-demo highlighted."
+  },
+  {
+    "id": "fb05f49494c1",
+    "agent": "grok-bot",
+    "quote": "Three problems are structural, not bugs: one shared computer with no security boundary between Bots, an undisclosed model router with no picker, and no queryable organisation-wide audit view. … Worth trying if you already hold an eligible plan and have no compliance obligation. Not yet worth buying a plan for it.",
+    "author": "Continuum",
+    "author_name": "Continuum",
+    "date": "2026-09-08",
+    "url": "https://continuumcode.ai/guides/grok-bot-review/#structural",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "audit",
+      "model-router",
+      "shared-computer",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Continuum review: structural limits (shared machine, opaque router, audit gap) vs launch bugs."
+  },
+  {
+    "id": "928c7bbe9181",
+    "agent": "grok-bot",
+    "quote": "Use Grok Bot for persistent cross-app work owned by a named teammate, such as research, reconciliation, and recurring preparation. Use a Cursor Cloud Agent for a bounded repository task that should build, test, and return a branch or pull request. Grok Bot can coordinate the wider outcome and launch a Cloud Agent for its coding step.",
+    "author": "Learn Cursor",
+    "author_name": "Learn Cursor",
+    "date": "2026-08-14",
+    "url": "https://www.learncursor.dev/compare/grok-bot-vs-cursor-cloud-agents",
+    "kind": "comparison",
+    "tags": [
+      "cloud-agents",
+      "cursor",
+      "routing",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Learn Cursor: Grok Bot = standing cross-app role; Cloud Agent = bounded repo PR; Bot can launch Agent."
   }
 ]

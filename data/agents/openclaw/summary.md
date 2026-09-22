@@ -4,7 +4,7 @@ Site: https://openclaw.ai/
 
 OpenClaw is an open-source personal AI assistant that runs on your own machine (macOS, Windows, Linux) and works from WhatsApp, Telegram, iMessage, Slack, Discord, Signal, SMS and other chat apps, with iOS and Android companion apps. It handles the inbox, email, calendar and flight check-ins, and is stewarded by an independent 501(c)(3) foundation. Requested via the form (issue #182).
 
-**Feedback rows:** 10 (as of 2026-09-21)
+**Feedback rows:** 12 (as of 2026-09-22)
 **Kinds:** bug=3, complaint=3, praise=1, use-case=1, other=1, comparison=1
 
 _Updated 2026-09-18 weekday vault scan (+6 rows)._
@@ -17,3 +17,5 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 
 - **2026-09-21 vault scan:** Rerealize 9.3/9.4 update-path split-brain + memory/reply regressions; AirMore 2.0 gateway-not-model review; Faraday self-host control pick.
+
+- **2026-09-22 vault scan (+2 rows):** r/openclaw 13-week daily-driver recap (LobsterWeary2675, 11 May; missed by prior scans): Raspberry Pi + Telegram infra; powerful but requires patience/debugging.

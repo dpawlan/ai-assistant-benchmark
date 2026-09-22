@@ -192,5 +192,43 @@
     "source": "web",
     "collected_at": "2026-09-21T14:30:00Z",
     "notes": "Faraday field map: OpenClaw as self-host control pick."
+  },
+  {
+    "id": "760333fac6a8",
+    "agent": "openclaw",
+    "quote": "I've been running OpenClaw as my main personal agent setup for about 13 weeks now. It runs on a Raspberry Pi, talks to me through Telegram, manages memory, crons, subagents, research workflows, external APIs, scheduled tasks and general personal automation. … The short version: OpenClaw is powerful enough that I now treat it as infrastructure. It is also still rough enough that you need patience, logs, backups and a willingness to debug weird edge cases.",
+    "author": "u/LobsterWeary2675",
+    "author_name": "LobsterWeary2675",
+    "date": "2026-05-11",
+    "url": "https://www.reddit.com/r/openclaw/comments/1ta6cca/roughly_3_month_running_openclaw_as_my_daily/",
+    "kind": "use-case",
+    "tags": [
+      "self-host",
+      "telegram",
+      "cron",
+      "raspberry-pi",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "r/openclaw 13-week daily-driver recap (missed by prior scans); infrastructure not consumer polish."
+  },
+  {
+    "id": "db278b5ff61d",
+    "agent": "openclaw",
+    "quote": "After roughly 3 month, I would not remove OpenClaw from my setup. It has crossed the line from experiment to daily infrastructure. But I also would not call it effortless. It is powerful, sharp and occasionally annoying. … If you expect \"install it and it just runs my life\", you will be disappointed. If you are willing to treat it like infrastructure, it can become extremely useful.",
+    "author": "u/LobsterWeary2675",
+    "author_name": "LobsterWeary2675",
+    "date": "2026-05-11",
+    "url": "https://www.reddit.com/r/openclaw/comments/1ta6cca/roughly_3_month_running_openclaw_as_my_daily/#verdict",
+    "kind": "praise",
+    "tags": [
+      "self-host",
+      "infrastructure",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-22T14:15:00Z",
+    "notes": "Same 13-week post: keep it as daily infra; not effortless consumer PA."
   }
 ]

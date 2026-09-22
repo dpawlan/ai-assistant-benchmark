@@ -11,6 +11,8 @@ import { Markdown } from '@/components/Markdown';
 import { ReportCover } from '@/components/ReportCover';
 import { ArticleHero } from '@/components/ArticleHero';
 import { ArticleCard } from '@/components/ArticleCard';
+import { getAuthorByName } from '@/lib/authors';
+import { AuthorAvatar } from '@/components/AuthorAvatar';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -44,7 +46,8 @@ export default async function ArticlePage({ params }: Props) {
   const more = getArticles().filter(a => a.slug !== article.slug).slice(0, 2);
   const url = `${SITE}/articles/${article.slug}`;
   const share = `https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(url)}`;
-  const initials = article.author.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  const author = getAuthorByName(article.author);
+  const authorHref = author ? `/authors/${author.slug}` : null;
 
   return (
     <div className="wrap mid art-wrap">
@@ -66,9 +69,9 @@ export default async function ArticlePage({ params }: Props) {
           <h1 className="art-title">{article.title}</h1>
           <p className="art-dek">{article.dek}</p>
           <div className="art-byline">
-            <span className="art-avatar" aria-hidden="true">{initials}</span>
+            <AuthorAvatar author={author} name={article.author} size={36} />
             <span className="art-byline-text">
-              <span className="art-author">By {article.author}</span>
+              <span className="art-author">{authorHref ? <Link href={authorHref}>By {article.author}</Link> : `By ${article.author}`}</span>
               <span className="art-date">{formatDate(article.date)}. {readingMinutes(article.body)} minute read.</span>
             </span>
             <a className="art-share" href={share} target="_blank" rel="noopener noreferrer">
@@ -111,10 +114,11 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         <div className="art-author-box">
-          <span className="art-avatar big" aria-hidden="true">{initials}</span>
+          <AuthorAvatar author={author} name={article.author} size={52} />
           <span>
-            <span className="art-author-name">{article.author}</span>
-            <span className="art-author-bio">Runs the Assistant Benchmark. Texts every assistant the same tasks and writes down what happens. <a href="https://x.com/DavidPawlan" target="_blank" rel="noopener noreferrer">@DavidPawlan</a></span>
+            <span className="art-author-name">{authorHref ? <Link href={authorHref}>{article.author}</Link> : article.author}</span>
+            {author && <span className="art-author-role">{author.role}</span>}
+            <span className="art-author-bio">{author ? author.bio : ''} {authorHref && <Link href={authorHref}>More from {article.author.split(' ')[0]}</Link>}</span>
           </span>
         </div>
 

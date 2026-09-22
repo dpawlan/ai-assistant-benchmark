@@ -35,6 +35,7 @@ export interface Report {
   dimension: string;
   published: string;
   updated: string;
+  author?: string;
   cover: { tint: string; agents: string[] };
   intro: string[];
   picks: ReportPick[];

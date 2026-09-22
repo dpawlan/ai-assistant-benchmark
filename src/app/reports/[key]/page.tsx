@@ -11,6 +11,8 @@ import { CostMark } from '@/components/CostMark';
 import { ReportCover } from '@/components/ReportCover';
 import { getArticleForUpdate, getArticlesForReport } from '@/lib/articles';
 import { ArticleCard } from '@/components/ArticleCard';
+import { getAuthor } from '@/lib/authors';
+import { AuthorAvatar } from '@/components/AuthorAvatar';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -38,6 +40,7 @@ export default async function ReportPage({ params }: Props) {
   const pick = primaryPick(report);
   const pickAgent = bySlug[pick];
   const articles = getArticlesForReport(report.key);
+  const author = getAuthor(report.author ?? 'david-pawlan');
 
   const toc: { id: string; label: string }[] = [
     { id: 'who', label: 'Who this is for' },
@@ -65,8 +68,15 @@ export default async function ReportPage({ params }: Props) {
           <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
           <h1 className="rp-title">{report.title}</h1>
           <p className="rp-dek">{report.question}</p>
+          <div className="rp-author">
+            {author && <AuthorAvatar author={author} size={32} />}
+            <span className="rp-author-text">
+              {author ? <Link href={`/authors/${author.slug}`}>By {author.name}</Link> : null}
+              <span>Updated {formatDate(report.updated)}. Published {formatDate(report.published)}.</span>
+            </span>
+          </div>
           <p className="rp-byline">
-            {ranked.length} assistants tested, {runCount} runs of the same task. Published {formatDate(report.published)}, updated {formatDate(report.updated)}.
+            {ranked.length} assistants tested, {runCount} runs of the same task.
           </p>
           <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>
         </div>

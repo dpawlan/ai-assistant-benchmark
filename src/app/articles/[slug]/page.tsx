@@ -6,12 +6,17 @@ import { getArticle, getArticles, readingMinutes } from '@/lib/articles';
 import { getReport, primaryPick } from '@/lib/reports';
 import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
+import { ScoreCell } from '@/components/ScoreCell';
 import { Markdown } from '@/components/Markdown';
 import { ReportCover } from '@/components/ReportCover';
+import { ArticleHero } from '@/components/ArticleHero';
+import { ArticleCard } from '@/components/ArticleCard';
 
 interface Props {
   params: Promise<{ slug: string }>;
 }
+
+const SITE = 'https://assistantbenchmark.com';
 
 export function generateStaticParams() {
   return getArticles().map(a => ({ slug: a.slug }));
@@ -33,12 +38,16 @@ export default async function ArticlePage({ params }: Props) {
   const update = report && article.update ? report.updates.find(u => u.slug === article.update) ?? null : null;
   const involved = article.agents.map(s => bySlug[s]).filter(Boolean);
   const pick = report ? primaryPick(report) : null;
+  const pickAgent = pick ? bySlug[pick] : null;
   const pairs: [string, string][] = [];
   for (let i = 0; i < article.agents.length; i++) for (let j = i + 1; j < article.agents.length; j++) pairs.push([article.agents[i], article.agents[j]]);
-  const more = getArticles().filter(a => a.slug !== article.slug).slice(0, 3);
+  const more = getArticles().filter(a => a.slug !== article.slug).slice(0, 2);
+  const url = `${SITE}/articles/${article.slug}`;
+  const share = `https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(url)}`;
+  const initials = article.author.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
 
   return (
-    <div className="wrap mid rp">
+    <div className="wrap mid art-wrap">
       <div className="ag-top">
         <Link href="/reports" className="back">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -48,53 +57,70 @@ export default async function ArticlePage({ params }: Props) {
         </Link>
       </div>
 
-      <div className="art">
+      <article className="art">
         <header className="art-head">
-          <p className="rp-eyebrow">{article.kind}</p>
+          <p className="art-kicker">
+            <span>{article.kind}</span>
+            {report && <Link href={`/reports/${report.key}`}>{report.title}</Link>}
+          </p>
           <h1 className="art-title">{article.title}</h1>
           <p className="art-dek">{article.dek}</p>
-          <p className="art-byline">
-            By {article.author}, {formatDate(article.date)}. {readingMinutes(article.body)} minute read.
-          </p>
+          <div className="art-byline">
+            <span className="art-avatar" aria-hidden="true">{initials}</span>
+            <span className="art-byline-text">
+              <span className="art-author">By {article.author}</span>
+              <span className="art-date">{formatDate(article.date)}. {readingMinutes(article.body)} minute read.</span>
+            </span>
+            <a className="art-share" href={share} target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.4 8.5L23 22h-6.8l-5.3-6.9L4.8 22H1.7l7.9-9L0 2h7l4.8 6.3L18.9 2zm-1.2 18h1.9L6.4 3.9H4.4L17.7 20z"/></svg>
+              Share
+            </a>
+          </div>
           <p className="rp-preview">Preview with placeholder prose.</p>
         </header>
 
-        {(report || involved.length > 0) && (
-          <div className="art-context">
-            {report && (
-              <Link href={`/reports/${report.key}`} className="art-context-report">
-                <ReportCover report={report} bySlug={bySlug} />
-                <span className="art-context-text">
-                  <span className="rp-eyebrow">Related report</span>
-                  <span className="art-context-title">{report.title}</span>
-                  {update && <span className="art-context-sub">Written alongside the update &ldquo;{update.title}&rdquo;</span>}
-                </span>
-              </Link>
-            )}
-            {involved.length > 0 && (
-              <div className="art-context-agents">
-                <span className="rp-eyebrow">Assistants in this piece</span>
-                <div className="rp-update-involved">
-                  {involved.map(a => (
-                    <Link key={a.slug} href={`/agents/${a.slug}`} className="rp-update-agent">
-                      <AgentIcon name={a.name} icon={a.icon} size={28} />
-                      {a.name}
-                      {a.slug === pick && <span className="chip blue">Our pick</span>}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
-          </div>
+        <ArticleHero article={article} report={report} agents={involved} bySlug={bySlug} />
+
+        {article.takeaways.length > 0 && (
+          <aside className="art-short">
+            <p className="art-short-head">The short version</p>
+            <ul>{article.takeaways.map((t, i) => <li key={i}>{t}</li>)}</ul>
+          </aside>
         )}
 
-        <article className="art-body">
+        <div className="art-body">
           <Markdown body={article.body} />
-        </article>
+        </div>
+
+        {report && (
+          <Link href={`/reports/${report.key}`} className="art-report-card">
+            <ReportCover report={report} bySlug={bySlug} />
+            <span className="art-report-text">
+              <span className="rp-eyebrow">The report behind this piece</span>
+              <span className="art-report-title">{report.title}</span>
+              {pickAgent && (
+                <span className="art-report-pick">
+                  <AgentIcon name={pickAgent.name} icon={pickAgent.icon} size={24} className="rp-pickline-icon" />
+                  Our pick: <b>{pickAgent.name}</b>
+                  <ScoreCell value={pickAgent.scores[report.dimension]} />
+                </span>
+              )}
+              <span className="art-report-sub">Updated {formatDate(report.updated)}. {report.competition.length + report.picks.length} assistants ranked.</span>
+            </span>
+          </Link>
+        )}
+
+        <div className="art-author-box">
+          <span className="art-avatar big" aria-hidden="true">{initials}</span>
+          <span>
+            <span className="art-author-name">{article.author}</span>
+            <span className="art-author-bio">Runs the Assistant Benchmark. Texts every assistant the same tasks and writes down what happens. <a href="https://x.com/DavidPawlan" target="_blank" rel="noopener noreferrer">@DavidPawlan</a></span>
+          </span>
+        </div>
 
         <div className="art-foot">
           {update && report && (
-            <section className="rp-section">
+            <section className="art-foot-section">
               <h2>The update behind this piece</h2>
               <ol className="rp-updates">
                 <li className="rp-update">
@@ -109,7 +135,7 @@ export default async function ArticlePage({ params }: Props) {
             </section>
           )}
           {pairs.length > 0 && (
-            <section className="rp-section">
+            <section className="art-foot-section">
               <h2>Head to heads mentioned</h2>
               <div className="rp-runs">
                 {pairs.map(([a, b]) => bySlug[a] && bySlug[b] && (
@@ -120,21 +146,17 @@ export default async function ArticlePage({ params }: Props) {
               </div>
             </section>
           )}
-          {more.length > 0 && (
-            <section className="rp-section">
-              <h2>More writing</h2>
-              <ul className="rp-other-updates">
-                {more.map(a => (
-                  <li key={a.slug}>
-                    <span className="rp-update-date">{formatDate(a.date, 'short')}</span>
-                    <Link href={`/articles/${a.slug}`}>{a.title}</Link>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
         </div>
-      </div>
+      </article>
+
+      {more.length > 0 && (
+        <section className="art-more">
+          <h2 className="ag-h2">More writing</h2>
+          <div className="art-more-grid">
+            {more.map(a => <ArticleCard key={a.slug} article={a} report={a.report ? getReport(a.report) : null} bySlug={bySlug} />)}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

@@ -7,6 +7,8 @@ kind: Analysis
 report: shopping
 update: muse-adds-paypal-and-shopify-checkout
 agents: muse, instinct, grok-bot
+hero_caption: Muse, Instinct and Grok Bot on the purchasing test. Illustration by Assistant Benchmark.
+takeaways: Muse now finishes a Shopify or PayPal order on its own card, in one message | Instinct and the rest still stop at a payment link, which the test credits but readers will not | The card question, not intelligence, now decides the shopping category
 ---
 
 PREVIEW ONLY. This is placeholder prose to show the shape of an article; the events described are illustrative.
@@ -27,7 +29,9 @@ There are three answers to "whose card is it", and until today every assistant p
 
 Native Shopify and PayPal checkout closes that gap. In [our re-run this afternoon](/reports/shopping/updates/muse-adds-paypal-and-shopify-checkout), Muse went from prompt to order number in one message on a store it had never seen. Instinct, on the same prompt an hour later, staged the same order and stopped at its link, exactly as it did two weeks ago.
 
-That is a one-point difference on the scorecard. It is a much bigger difference in what the product is. One of these assistants can be sent a text from a meeting and the coffee arrives. The other can be sent the same text and the coffee arrives after you tap a link, enter a card, and confirm.
+> One of these assistants can be sent a text from a meeting and the coffee arrives. The other needs you to tap a link, enter a card, and confirm.
+
+That is a one-point difference on the scorecard. It is a much bigger difference in what the product is, and it is the difference a reader will feel the first time they try either one.
 
 ## Why this forces everyone's hand
 

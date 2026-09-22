@@ -11,6 +11,9 @@ export interface Article {
   report: string | null;
   update: string | null;
   agents: string[];
+  hero: string | null;
+  heroCaption: string;
+  takeaways: string[];
   body: string;
 }
 
@@ -39,6 +42,9 @@ function parse(slug: string, raw: string): Article {
     report: meta.report || null,
     update: meta.update || null,
     agents: (meta.agents ?? '').split(',').map(s => s.trim()).filter(Boolean),
+    hero: meta.hero || null,
+    heroCaption: meta.hero_caption ?? '',
+    takeaways: (meta.takeaways ?? '').split('|').map(s => s.trim()).filter(Boolean),
     body: m ? m[2].trim() : raw.trim(),
   };
 }

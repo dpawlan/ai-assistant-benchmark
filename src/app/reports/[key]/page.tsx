@@ -9,7 +9,8 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { SpeedCell } from '@/components/SpeedCell';
 import { CostMark } from '@/components/CostMark';
 import { ReportCover } from '@/components/ReportCover';
-import { getArticleForUpdate, getArticlesForReport, readingMinutes } from '@/lib/articles';
+import { getArticleForUpdate, getArticlesForReport } from '@/lib/articles';
+import { ArticleCard } from '@/components/ArticleCard';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -202,14 +203,7 @@ export default async function ReportPage({ params }: Props) {
               <h2>Writing about this report</h2>
               <p className="rp-muted">Analysis and opinion, dated and signed. The report holds the verdict; these are the arguments.</p>
               <div className="rp-writing-list">
-                {articles.map(a => (
-                  <Link key={a.slug} href={`/articles/${a.slug}`} className="rp-writing-item">
-                    <span className="rp-writing-meta">{a.kind}, {formatDate(a.date)}</span>
-                    <span className="rp-writing-title">{a.title}</span>
-                    <span className="rp-writing-dek">{a.dek}</span>
-                    <span className="rp-writing-foot">{readingMinutes(a.body)} minute read</span>
-                  </Link>
-                ))}
+                {articles.map(a => <ArticleCard key={a.slug} article={a} report={report} bySlug={bySlug} showReport={false} />)}
               </div>
             </section>
           )}

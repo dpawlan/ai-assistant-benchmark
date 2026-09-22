@@ -1,0 +1,19 @@
+{
+  "id": "flip-2026-09-18-ed10ef",
+  "agent": "flip",
+  "category": "personality",
+  "protocol": "observed",
+  "date": "2026-09-18",
+  "signals": {
+    "turns": 40,
+    "my_messages": 11,
+    "agent_messages": 29,
+    "first_reply_s": 15,
+    "duration_min": 3156,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-22T15:27:42.181Z"
+}

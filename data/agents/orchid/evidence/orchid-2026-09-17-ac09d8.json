@@ -1,0 +1,19 @@
+{
+  "id": "orchid-2026-09-17-ac09d8",
+  "agent": "orchid",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-09-17",
+  "signals": {
+    "turns": 6,
+    "my_messages": 2,
+    "agent_messages": 4,
+    "first_reply_s": 36,
+    "duration_min": 1,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-22T15:27:42.186Z"
+}

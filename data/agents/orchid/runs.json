@@ -1,0 +1,32 @@
+[
+  {
+    "id": "orchid-2026-09-17-ac09d8",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-09-17",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Pointed to two custom-tee shops with rush shipping inside the window, but never answered the follow-up asking it to design and print one.",
+    "evidence_url": "/agents/orchid/evidence/orchid-2026-09-17-ac09d8"
+  },
+  {
+    "id": "orchid-2026-09-19-bb2334",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-09-19",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Found five NYC to Chicago round trips under $400 with a clear pick and offered to book, which sits behind its paid plan.",
+    "evidence_url": "/agents/orchid/evidence/orchid-2026-09-19-bb2334"
+  },
+  {
+    "id": "orchid-2026-09-21-6117b4",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-09-21",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Followed up unprompted two days later on the Chicago fares before they moved, and dropped it politely when told no.",
+    "evidence_url": "/agents/orchid/evidence/orchid-2026-09-21-6117b4"
+  }
+]

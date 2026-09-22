@@ -17,6 +17,7 @@ import {
   quoteCategories,
 } from '@/lib/data';
 import { AgentIcon } from '@/components/AgentIcon';
+import { getReportsForAgent } from '@/lib/reports';
 import { AgentRow } from '@/components/AgentRow';
 import { ScoreRows } from '@/components/ScoreRows';
 import { ScoreCell } from '@/components/ScoreCell';
@@ -67,6 +68,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
+  const inReports = getReportsForAgent(slug);
   const tagMap = getTagMap();
   const quotes = (agent.feedback ?? []).map(q => ({ ...q, categories: quoteCategories(slug, q, tagMap) }));
   const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
@@ -107,6 +109,18 @@ export default async function AgentPage({ params }: AgentPageProps) {
               )}
               {agent.access && agent.access.regions !== 'Not stated' && <span className="chip">{agent.access.regions}</span>}
             </div>
+            {inReports.length > 0 && (
+              <p className="ag-reports">
+                In reports:{' '}
+                {inReports.map((r, i) => (
+                  <span key={r.key}>
+                    {i > 0 && ', '}
+                    <Link href={`/reports/${r.key}`}>{r.title}</Link>
+                    {r.pick === slug ? ' (our pick)' : r.runner_up === slug ? ' (runner-up)' : ''}
+                  </span>
+                ))}
+              </p>
+            )}
             <div className="ag-stats">
               <span className="ag-stat">
                 <ScoreCell value={agent.overall} aggregate />

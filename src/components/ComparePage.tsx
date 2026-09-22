@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Scorecard } from './Scorecard';
+import { ReportEntries } from './ReportEntries';
 import { buildComparison, cardPath, comparePath, parseFocus, parsePair, verdict } from '@/lib/compare';
 
 /** Shared by /compare/[pair] and /compare/[pair]/[focus]. */
@@ -68,6 +69,8 @@ export function ComparePage({ pair, focusRaw }: { pair: string; focusRaw?: strin
       )}
 
       <Scorecard comparison={c} initialFocus={focus} />
+
+      <ReportEntries a={c.a.slug} b={c.b.slug} aName={c.a.name} bName={c.b.name} />
 
       <p className="hh-foot">
         Scores come from logged runs of the published tests; see <Link href="/dimensions#how">how scoring works</Link>. Nothing here is sponsored.

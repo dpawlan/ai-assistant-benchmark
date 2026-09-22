@@ -1,0 +1,76 @@
+{
+  "_comment": "PREVIEW ONLY. Prose below is illustrative placeholder copy to show the shape of a report; scores in tables come from real runs. Replace before any of this goes live.",
+  "reports": [
+    {
+      "key": "shopping",
+      "question": "Which assistant should buy things for you?",
+      "title": "AI assistants for shopping",
+      "dimension": "purchasing",
+      "updated": "2026-09-22",
+      "pick": "muse",
+      "runner_up": "instinct",
+      "verdict": "Muse, because it now completes a Shopify or PayPal checkout end to end without handing your card to anyone; Instinct gets the order staged but still needs the card through a vault link.",
+      "summary": "We send every assistant the same purchasing task: reorder the coffee beans from last time, two bags, to the home address, using the saved card. The score is about whether the order lands, whether it asks before charging, and whether you get a confirmation back. Muse and Instinct are the only two that finish; everything else stops at a login or a card form.",
+      "changes": [
+        {
+          "date": "2026-09-22",
+          "title": "Muse adds PayPal and Shopify checkout",
+          "body": "Muse announced native checkout through PayPal and Shopify merchants. We re-ran the purchasing task the same afternoon. Muse completed a Shopify order for two bags of coffee in one message, asked before charging, and returned the order number. Instinct, run on the same prompt an hour later, staged the same order but stopped at its card link. The verdict moves to Muse.",
+          "runs": ["muse-2026-09-08-04", "instinct-2026-09-01-591d64"],
+          "pairs": [["muse", "instinct"]]
+        },
+        {
+          "date": "2026-09-10",
+          "title": "First full pass on purchasing",
+          "body": "Eleven assistants took the reorder task. Two placed an order, four staged one and asked before paying, five could not get past a store login. Tomo and szn reached checkout on the brand site after Amazon blocked them; Grok Bot found the item but needed a login it did not have.",
+          "runs": ["tomo-2026-09-10-purchasing", "szn-2026-09-10-blooio-purchasing"],
+          "pairs": []
+        }
+      ],
+      "matchups": [
+        {
+          "pair": ["muse", "instinct"],
+          "body": "The two that actually finish. Muse wins on the mechanics: it holds a virtual card so the merchant never sees yours, and after today's launch it checks out on Shopify and PayPal without a detour. Instinct is the better shopper when the item is vague, it will ask two sharp questions and find the thing, but the last step still routes your card through a link you have to tap. If you want the order placed while you are in a meeting, Muse. If you want the right thing found, Instinct."
+        },
+        {
+          "pair": ["muse", "grok-bot"],
+          "body": "Grok Bot can find almost anything and will keep trying long after Muse has given up, but it runs on a cloud computer with no card of its own, so every purchase ends at a login wall or a request to fund a wallet first. Muse assumes the card and just buys. For a one-off purchase from a store you have never used, Grok Bot gets closer; for anything you buy regularly, it is not a contest."
+        }
+      ]
+    },
+    {
+      "key": "travel",
+      "question": "Which assistant should book your flights?",
+      "title": "AI assistants for travel booking",
+      "dimension": "travel",
+      "updated": "2026-09-14",
+      "pick": "instinct",
+      "runner_up": "miso",
+      "verdict": "Instinct, because it books through your own airline accounts, picks the aisle without being asked, and checks you in when the window opens; Miso matches it on booking but has not been tested on check-in.",
+      "summary": "The travel task is a round trip New York to Chicago, out Friday morning and back Sunday evening, aisle seat, under $400, then check-in and the boarding pass when the window opens.",
+      "changes": [
+        {
+          "date": "2026-09-14",
+          "title": "Miso joins with three nines",
+          "body": "Miso booked the flight, the dinner and the hotel from a pasted thread. Speed and check-in are untested because its conversation lives in the app.",
+          "runs": ["miso-2026-09-14-bdf2db"],
+          "pairs": [["instinct", "miso"]]
+        }
+      ],
+      "matchups": []
+    },
+    {
+      "key": "email",
+      "question": "Which assistant should answer your email?",
+      "title": "AI assistants for email",
+      "dimension": "email_replies",
+      "updated": "2026-09-16",
+      "pick": "muse",
+      "runner_up": "instinct",
+      "verdict": "Muse, for the reply-all with two open slots drafted in your voice and sent on command; Instinct is one point behind and better at tracking a thread over hours.",
+      "summary": "The email task is a scheduling reply: decline the proposed day, offer two slots from your calendar, keep your usual tone.",
+      "changes": [],
+      "matchups": []
+    }
+  ]
+}

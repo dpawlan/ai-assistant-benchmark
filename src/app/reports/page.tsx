@@ -1,44 +1,63 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { formatDate, getAgents } from '@/lib/data';
-import { getReports } from '@/lib/reports';
+import { getReports, primaryPick } from '@/lib/reports';
 import { AgentIcon } from '@/components/AgentIcon';
+import type { Agent } from '@/lib/types';
+import { ReportCover } from '@/components/ReportCover';
 
 export const metadata: Metadata = { title: 'Reports' };
 
 export default function ReportsPage() {
   const reports = getReports();
-  const agents = Object.fromEntries(getAgents().map(a => [a.slug, a]));
+  const bySlug = Object.fromEntries(getAgents().map(a => [a.slug, a]));
+  const [featured, ...rest] = reports;
   return (
     <div className="wrap mid">
       <div className="page-head">
         <h1 className="page-title">Reports</h1>
         <p className="page-sub">
-          One report per question you would actually ask, kept current. Each pick comes from runs of the same published test, and every update names the run behind it.
+          One report per question you would actually ask, kept current. Every pick comes from runs of the same published test, and every update names the run behind it.
         </p>
       </div>
       <p className="rp-preview">Preview with placeholder prose. Scores in the tables are real; the write-ups are illustrative.</p>
-      <div className="rp-list">
-        {reports.map(r => {
-          const pick = agents[r.pick];
-          return (
-            <Link key={r.key} href={`/reports/${r.key}`} className="rp-card">
-              <span className="rp-card-q">{r.question}</span>
-              <span className="rp-card-verdict">
-                {pick && <AgentIcon name={pick.name} icon={pick.icon} size={28} className="rp-card-icon" />}
-                <span>
-                  <span className="rp-card-pick">{pick?.name ?? r.pick}</span>
-                  <span className="rp-card-line">{r.verdict}</span>
-                </span>
-              </span>
-              <span className="rp-card-meta">
-                Updated {formatDate(r.updated)}
-                {r.changes.length > 0 && ` after "${r.changes[0].title}"`}
-              </span>
-            </Link>
-          );
-        })}
+
+      {featured && (
+        <Link href={`/reports/${featured.key}`} className="rp-featured">
+          <ReportCover report={featured} bySlug={bySlug} size="hero" />
+          <span className="rp-featured-text">
+            <span className="rp-eyebrow">Updated {formatDate(featured.updated)}</span>
+            <span className="rp-featured-title">{featured.title}</span>
+            <span className="rp-featured-dek">{featured.intro[0]}</span>
+            <PickLine slug={primaryPick(featured)} bySlug={bySlug} />
+          </span>
+        </Link>
+      )}
+
+      <div className="rp-grid">
+        {rest.map(r => (
+          <Link key={r.key} href={`/reports/${r.key}`} className="rp-card">
+            <ReportCover report={r} bySlug={bySlug} />
+            <span className="rp-card-text">
+              <span className="rp-eyebrow">Updated {formatDate(r.updated)}</span>
+              <span className="rp-card-title">{r.title}</span>
+              <span className="rp-card-dek">{r.question}</span>
+              <PickLine slug={primaryPick(r)} bySlug={bySlug} />
+            </span>
+          </Link>
+        ))}
       </div>
     </div>
+  );
+}
+
+function PickLine({ slug, bySlug }: { slug: string; bySlug: Record<string, Agent> }) {
+  const a = bySlug[slug];
+  if (!a) return null;
+  return (
+    <span className="rp-pickline">
+      <AgentIcon name={a.name} icon={a.icon} size={20} className="rp-pickline-icon" />
+      Our pick: <b>{a.name}</b>
+    </span>
   );
 }

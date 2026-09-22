@@ -1,17 +1,31 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-export interface ReportChange {
-  date: string;
-  title: string;
-  body: string;
-  runs: string[];
-  pairs: [string, string][];
+export interface ReportPick {
+  slug: string;
+  label: string;
+  why: string;
 }
 
-export interface ReportMatchup {
-  pair: [string, string];
+export interface ReportPickSection {
+  slug: string;
+  heading: string;
+  paragraphs: string[];
+  flaws: string[];
+}
+
+export interface ReportCompetitor {
+  slug: string;
   body: string;
+}
+
+export interface ReportUpdate {
+  slug: string;
+  date: string;
+  title: string;
+  paragraphs: string[];
+  runs: string[];
+  agents: string[];
 }
 
 export interface Report {
@@ -19,13 +33,17 @@ export interface Report {
   question: string;
   title: string;
   dimension: string;
+  published: string;
   updated: string;
-  pick: string;
-  runner_up: string;
-  verdict: string;
-  summary: string;
-  changes: ReportChange[];
-  matchups: ReportMatchup[];
+  cover: { tint: string; agents: string[] };
+  intro: string[];
+  picks: ReportPick[];
+  who_for: string[];
+  how_we_tested: string[];
+  pick_sections: ReportPickSection[];
+  competition: ReportCompetitor[];
+  looking_ahead: string[];
+  updates: ReportUpdate[];
 }
 
 interface ReportsFile {
@@ -47,19 +65,52 @@ export function getReport(key: string): Report | null {
   return getReports().find(r => r.key === key) ?? null;
 }
 
-const samePair = (p: [string, string], a: string, b: string) => (p[0] === a && p[1] === b) || (p[0] === b && p[1] === a);
+export function getUpdate(key: string, slug: string): { report: Report; update: ReportUpdate } | null {
+  const report = getReport(key);
+  const update = report?.updates.find(u => u.slug === slug);
+  return report && update ? { report, update } : null;
+}
 
-/** Report entries that mention this pair, newest first, with the report they belong to. */
-export function getEntriesForPair(a: string, b: string): { report: Report; change?: ReportChange; matchup?: ReportMatchup }[] {
-  const out: { report: Report; change?: ReportChange; matchup?: ReportMatchup }[] = [];
-  for (const report of getReports()) {
-    for (const change of report.changes) if (change.pairs.some(p => samePair(p, a, b))) out.push({ report, change });
-    for (const matchup of report.matchups) if (samePair(matchup.pair, a, b)) out.push({ report, matchup });
+/** The primary pick of a report (first entry in picks). */
+export const primaryPick = (r: Report) => r.picks[0]?.slug;
+
+export const updatePath = (r: Report, u: ReportUpdate) => `/reports/${r.key}/updates/${u.slug}`;
+
+export interface PairEntry {
+  report: Report;
+  update?: ReportUpdate;
+  competitor?: ReportCompetitor;
+  section?: ReportPickSection;
+  date: string;
+}
+
+/** Everything a report says about this pair: updates that involve both, and the competition write-up when one is the pick. */
+export function getEntriesForPair(a: string, b: string, dimensions: string[] = []): PairEntry[] {
+  const out: PairEntry[] = [];
+  const reports = getReports().filter(r => dimensions.length === 0 || dimensions.includes(r.dimension));
+  for (const report of reports) {
+    for (const update of report.updates) {
+      if (update.agents.includes(a) && update.agents.includes(b)) out.push({ report, update, date: update.date });
+    }
+    const pick = primaryPick(report);
+    const other = pick === a ? b : pick === b ? a : null;
+    if (other) {
+      const competitor = report.competition.find(c => c.slug === other);
+      if (competitor) out.push({ report, competitor, date: report.updated });
+      const section = report.pick_sections.find(ps => ps.slug === other);
+      if (section) out.push({ report, section, date: report.updated });
+    }
   }
-  return out.sort((x, y) => (y.change?.date ?? y.report.updated).localeCompare(x.change?.date ?? x.report.updated));
+  return out.sort((x, y) => y.date.localeCompare(x.date));
 }
 
 /** Reports that rank this assistant, for the profile. */
 export function getReportsForAgent(slug: string): Report[] {
-  return getReports().filter(r => r.pick === slug || r.runner_up === slug || r.matchups.some(m => m.pair.includes(slug)));
+  return getReports().filter(
+    r => r.picks.some(p => p.slug === slug) || r.competition.some(c => c.slug === slug) || r.updates.some(u => u.agents.includes(slug)),
+  );
+}
+
+export function pickLabel(r: Report, slug: string): string | null {
+  return r.picks.find(p => p.slug === slug)?.label ?? null;
 }

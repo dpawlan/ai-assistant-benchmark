@@ -70,7 +70,7 @@ export function ComparePage({ pair, focusRaw }: { pair: string; focusRaw?: strin
 
       <Scorecard comparison={c} initialFocus={focus} />
 
-      <ReportEntries a={c.a.slug} b={c.b.slug} aName={c.a.name} bName={c.b.name} />
+      <ReportEntries a={c.a.slug} b={c.b.slug} aName={c.a.name} bName={c.b.name} focus={focus} />
 
       <p className="hh-foot">
         Scores come from logged runs of the published tests; see <Link href="/dimensions#how">how scoring works</Link>. Nothing here is sponsored.

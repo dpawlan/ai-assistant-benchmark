@@ -2,12 +2,13 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { formatDate, getAgents, getCategory, rankByCategory } from '@/lib/data';
-import { getReport, getReports } from '@/lib/reports';
-import { comparePath } from '@/lib/compare';
+import { getReport, getReports, primaryPick, updatePath } from '@/lib/reports';
+import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
 import { ScoreCell } from '@/components/ScoreCell';
 import { SpeedCell } from '@/components/SpeedCell';
 import { CostMark } from '@/components/CostMark';
+import { ReportCover } from '@/components/ReportCover';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -31,9 +32,18 @@ export default async function ReportPage({ params }: Props) {
   const bySlug = Object.fromEntries(agents.map(a => [a.slug, a]));
   const category = getCategory(report.dimension);
   const ranked = rankByCategory(agents, report.dimension).filter(a => typeof a.scores[report.dimension] === 'number');
-  const pick = bySlug[report.pick];
-  const runner = bySlug[report.runner_up];
-  const runsById = new Map(agents.flatMap(a => Object.values(a.latestRuns).map(r => [r.id, { run: r, agent: a }] as const)));
+  const runCount = agents.reduce((n, a) => n + Object.values(a.latestRuns).filter(r => r.category === report.dimension).length, 0);
+  const pick = primaryPick(report);
+  const pickAgent = bySlug[pick];
+
+  const toc: { id: string; label: string }[] = [
+    { id: 'who', label: 'Who this is for' },
+    { id: 'how', label: 'How we tested' },
+    ...report.pick_sections.map(s => ({ id: `pick-${s.slug}`, label: s.heading })),
+    ...(report.competition.length ? [{ id: 'competition', label: 'The competition' }] : []),
+    ...(report.looking_ahead.length ? [{ id: 'ahead', label: 'What to look forward to' }] : []),
+    ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
+  ];
 
   return (
     <div className="wrap mid rp">
@@ -46,116 +56,165 @@ export default async function ReportPage({ params }: Props) {
         </Link>
       </div>
 
-      <div className="rp-head">
-        <p className="rp-kicker">Report, updated {formatDate(report.updated)}</p>
-        <h1 className="page-title">{report.question}</h1>
-        <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>
+      <header className="rp-hero">
+        <div className="rp-hero-text">
+          <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
+          <h1 className="rp-title">{report.title}</h1>
+          <p className="rp-dek">{report.question}</p>
+          <p className="rp-byline">
+            {ranked.length} assistants tested, {runCount} runs of the same task. Published {formatDate(report.published)}, updated {formatDate(report.updated)}.
+          </p>
+          <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>
+        </div>
+        <ReportCover report={report} bySlug={bySlug} size="hero" />
+      </header>
+
+      <div className="rp-intro">
+        {report.intro.map((p, i) => <p key={i}>{p}</p>)}
       </div>
 
-      <section className="rp-verdict">
-        <div className="rp-pick">
-          {pick && (
-            <Link href={`/agents/${pick.slug}`} className="rp-pick-card">
-              <AgentIcon name={pick.name} icon={pick.icon} size={56} />
-              <span>
-                <span className="rp-pick-label">Our pick</span>
-                <span className="rp-pick-name">{pick.name}</span>
-                <span className="rp-pick-score"><ScoreCell value={pick.scores[report.dimension]} /> on this test</span>
+      <section className="rp-picks" aria-label="Our picks">
+        {report.picks.map(p => {
+          const a = bySlug[p.slug];
+          if (!a) return null;
+          return (
+            <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>
+              <span className="rp-pick-label">{p.label}</span>
+              <span className="rp-pick-head">
+                <AgentIcon name={a.name} icon={a.icon} size={44} />
+                <span className="rp-pick-name">{a.name}</span>
+                <ScoreCell value={a.scores[report.dimension]} />
               </span>
+              <span className="rp-pick-why">{p.why}</span>
             </Link>
-          )}
-          {runner && (
-            <Link href={`/agents/${runner.slug}`} className="rp-pick-card runner">
-              <AgentIcon name={runner.name} icon={runner.icon} size={56} />
-              <span>
-                <span className="rp-pick-label">Runner-up</span>
-                <span className="rp-pick-name">{runner.name}</span>
-                <span className="rp-pick-score"><ScoreCell value={runner.scores[report.dimension]} /> on this test</span>
-              </span>
-            </Link>
-          )}
-        </div>
-        <p className="rp-verdict-line">{report.verdict}</p>
-        <p className="rp-summary">{report.summary}</p>
+          );
+        })}
       </section>
 
       <div className="rp-body">
-        <div className="rp-main">
-          {report.changes.length > 0 && (
-            <section className="rp-section">
-              <h2 className="ag-h2">What changed</h2>
-              <ol className="rp-changes">
-                {report.changes.map(c => (
-                  <li key={c.date + c.title} className="rp-change">
-                    <span className="rp-change-date">{formatDate(c.date, 'short')}</span>
-                    <span className="rp-change-body">
-                      <span className="rp-change-title">{c.title}</span>
-                      <span className="rp-change-text">{c.body}</span>
-                      {c.runs.length > 0 && (
-                        <span className="rp-change-runs">
-                          {c.runs.map(id => {
-                            const hit = runsById.get(id);
-                            return hit ? (
-                              <Link key={id} href={hit.run.evidence_url ?? `/agents/${hit.agent.slug}`} className="chip">
-                                {hit.agent.name} run, {formatDate(hit.run.date, 'short')}
-                              </Link>
-                            ) : (
-                              <span key={id} className="chip">{id}</span>
-                            );
-                          })}
-                        </span>
+        <nav className="rp-toc" aria-label="In this report">
+          <p className="rp-toc-head">In this report</p>
+          {toc.map(t => <a key={t.id} href={`#${t.id}`}>{t.label}</a>)}
+          <p className="rp-toc-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>
+        </nav>
+
+        <article className="rp-article">
+          <section id="who" className="rp-section">
+            <h2>Who this is for</h2>
+            {report.who_for.map((p, i) => <p key={i}>{p}</p>)}
+          </section>
+
+          <section id="how" className="rp-section">
+            <h2>How we tested</h2>
+            {report.how_we_tested.map((p, i) => <p key={i}>{p}</p>)}
+          </section>
+
+          {report.pick_sections.map(s => {
+            const a = bySlug[s.slug];
+            return (
+              <section key={s.slug} id={`pick-${s.slug}`} className="rp-section">
+                <h2>{s.heading}</h2>
+                {a && (
+                  <div className="rp-pick-strip">
+                    <AgentIcon name={a.name} icon={a.icon} size={40} />
+                    <span className="rp-pick-strip-text">
+                      <Link href={`/agents/${a.slug}`}>{a.name}</Link>
+                      <span><ScoreCell value={a.scores[report.dimension]} /> on this test</span>
+                    </span>
+                  </div>
+                )}
+                {s.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+                {s.flaws.length > 0 && (
+                  <>
+                    <h3>Flaws but not dealbreakers</h3>
+                    <ul>{s.flaws.map((f, i) => <li key={i}>{f}</li>)}</ul>
+                  </>
+                )}
+              </section>
+            );
+          })}
+
+          {report.competition.length > 0 && (
+            <section id="competition" className="rp-section">
+              <h2>The competition</h2>
+              <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
+              {report.competition.map(c => {
+                const a = bySlug[c.slug];
+                if (!a) return null;
+                return (
+                  <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
+                    <div className="rp-competitor-head">
+                      <AgentIcon name={a.name} icon={a.icon} size={32} />
+                      <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
+                      <ScoreCell value={a.scores[report.dimension]} />
+                      {pickAgent && pickAgent.slug !== a.slug && (
+                        <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">
+                          {pickAgent.name} vs {a.name}
+                        </Link>
                       )}
+                    </div>
+                    <p>{c.body}</p>
+                  </div>
+                );
+              })}
+            </section>
+          )}
+
+
+          {report.looking_ahead.length > 0 && (
+            <section id="ahead" className="rp-section">
+              <h2>What to look forward to</h2>
+              {report.looking_ahead.map((p, i) => <p key={i}>{p}</p>)}
+            </section>
+          )}
+
+          {report.updates.length > 0 && (
+            <section id="updates" className="rp-section">
+              <h2>Updates</h2>
+              <p className="rp-muted">Every change to this report, newest first. Each one has its own page you can link to.</p>
+              <ol className="rp-updates">
+                {report.updates.map(u => (
+                  <li key={u.slug} id={`update-${u.slug}`} className="rp-update">
+                    <span className="rp-update-date">{formatDate(u.date, 'short')}</span>
+                    <span className="rp-update-body">
+                      <Link href={updatePath(report, u)} className="rp-update-title">{u.title}</Link>
+                      <span className="rp-update-text">{u.paragraphs[0]}</span>
+                      <span className="rp-update-foot">
+                        <Link href={updatePath(report, u)}>Read the update</Link>
+                        {u.agents.map(s => bySlug[s]).filter(Boolean).map(a => (
+                          <Link key={a.slug} href={`/agents/${a.slug}`} className="chip">{a.name}</Link>
+                        ))}
+                      </span>
                     </span>
                   </li>
                 ))}
               </ol>
             </section>
           )}
+        </article>
 
-          {report.matchups.length > 0 && (
-            <section className="rp-section">
-              <h2 className="ag-h2">How they compare</h2>
-              {report.matchups.map(m => {
-                const a = bySlug[m.pair[0]];
-                const b = bySlug[m.pair[1]];
-                if (!a || !b) return null;
-                return (
-                  <div key={m.pair.join('-')} className="rp-matchup">
-                    <h3 className="rp-matchup-title">
-                      {a.name} vs {b.name}
-                      <Link href={comparePath(a.slug, b.slug, [report.dimension])} className="rp-matchup-link">Full head to head</Link>
-                    </h3>
-                    <p>{m.body}</p>
-                  </div>
-                );
-              })}
-            </section>
-          )}
-        </div>
-
-        <aside className="rp-side">
-          <h2 className="ag-h2">Everyone tested</h2>
-          <p className="ag-sub">{category?.label ?? report.dimension}, newest run per assistant.</p>
-          <div className="rp-table">
-            {ranked.map((a, i) => (
-              <Link key={a.slug} href={`/agents/${a.slug}`} className="rp-row">
-                <span className="rp-row-rank">{i + 1}</span>
-                <AgentIcon name={a.name} icon={a.icon} size={28} className="rp-row-icon" />
-                <span className="rp-row-name">
-                  {a.name}
-                  <CostMark pricing={a.access?.pricing} />
-                </span>
-                <span className="rp-row-cells">
-                  <SpeedCell usage={a.usage} />
-                  <ScoreCell value={a.scores[report.dimension]} />
-                </span>
-              </Link>
-            ))}
-          </div>
-          <p className="rp-side-foot">
-            <Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link>
-          </p>
-        </aside>
+          <aside id="everyone" className="rp-rail">
+            <h2 className="ag-h2">Everyone tested</h2>
+            <p className="ag-sub">{category?.label ?? report.dimension}, newest run per assistant. Speed, then score.</p>
+            <div className="rp-table">
+              {ranked.map((a, i) => (
+                <Link key={a.slug} href={`/agents/${a.slug}`} className="rp-row">
+                  <span className="rp-row-rank">{i + 1}</span>
+                  <AgentIcon name={a.name} icon={a.icon} size={28} className="rp-row-icon" />
+                  <span className="rp-row-name">
+                    {a.name}
+                    <CostMark pricing={a.access?.pricing} />
+                    {report.picks.find(p => p.slug === a.slug) && <span className="chip blue">{report.picks.find(p => p.slug === a.slug)!.label}</span>}
+                  </span>
+                  <span className="rp-row-cells">
+                    <SpeedCell usage={a.usage} />
+                    <ScoreCell value={a.scores[report.dimension]} />
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <p className="rp-rail-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>
+          </aside>
       </div>
     </div>
   );

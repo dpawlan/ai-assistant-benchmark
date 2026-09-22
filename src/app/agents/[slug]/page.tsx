@@ -17,7 +17,7 @@ import {
   quoteCategories,
 } from '@/lib/data';
 import { AgentIcon } from '@/components/AgentIcon';
-import { getReportsForAgent } from '@/lib/reports';
+import { getReportsForAgent, pickLabel } from '@/lib/reports';
 import { AgentRow } from '@/components/AgentRow';
 import { ScoreRows } from '@/components/ScoreRows';
 import { ScoreCell } from '@/components/ScoreCell';
@@ -116,7 +116,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                   <span key={r.key}>
                     {i > 0 && ', '}
                     <Link href={`/reports/${r.key}`}>{r.title}</Link>
-                    {r.pick === slug ? ' (our pick)' : r.runner_up === slug ? ' (runner-up)' : ''}
+                    {pickLabel(r, slug) ? ` (${pickLabel(r, slug)!.toLowerCase()})` : ''}
                   </span>
                 ))}
               </p>

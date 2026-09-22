@@ -1,28 +1,65 @@
 import Link from 'next/link';
 import { formatDate } from '@/lib/data';
-import { getEntriesForPair } from '@/lib/reports';
+import { getEntriesForPair, updatePath } from '@/lib/reports';
 
-/** The written record for this pair: dated entries from the reports that cover it, newest first. */
-export function ReportEntries({ a, b, aName, bName }: { a: string; b: string; aName: string; bName: string }) {
-  const entries = getEntriesForPair(a, b);
+/**
+ * What the reports say about this pair. Each update is linkable on its own page and anchored
+ * here as #update-<slug>; the comparison write-up anchors to the report's competition entry.
+ */
+export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b: string; aName: string; bName: string; focus?: string[] }) {
+  const entries = getEntriesForPair(a, b, focus);
   if (!entries.length) return null;
   return (
-    <section className="rp-entries">
+    <section className="rp-entries" id="from-the-reports">
       <h2 className="ag-h2">From the reports</h2>
-      <p className="ag-sub">What we found when we put {aName} and {bName} through the same test, in the reports that rank them.</p>
-      <ol className="rp-changes">
-        {entries.map((e, i) => (
-          <li key={i} className="rp-change">
-            <span className="rp-change-date">{formatDate(e.change?.date ?? e.report.updated, 'short')}</span>
-            <span className="rp-change-body">
-              <span className="rp-change-title">{e.change ? e.change.title : `${aName} vs ${bName}`}</span>
-              <span className="rp-change-text">{e.change ? e.change.body : e.matchup?.body}</span>
-              <span className="rp-change-runs">
-                <Link href={`/reports/${e.report.key}`} className="chip blue">{e.report.title}</Link>
+      <p className="ag-sub">What we wrote when {aName} and {bName} took the same test. Every update here has its own page you can link to.</p>
+      <ol className="rp-updates">
+        {entries.map(e => {
+          if (e.update) {
+            const u = e.update;
+            return (
+              <li key={`u-${u.slug}`} id={`update-${u.slug}`} className="rp-update">
+                <span className="rp-update-date">{formatDate(u.date, 'short')}</span>
+                <span className="rp-update-body">
+                  <Link href={updatePath(e.report, u)} className="rp-update-title">{u.title}</Link>
+                  <span className="rp-update-text">{u.paragraphs[0]}</span>
+                  <span className="rp-update-foot">
+                    <Link href={updatePath(e.report, u)}>Read the update</Link>
+                    <Link href={`/reports/${e.report.key}`} className="chip blue">{e.report.title}</Link>
+                  </span>
+                </span>
+              </li>
+            );
+          }
+          if (e.section) {
+            const ps = e.section;
+            return (
+              <li key={`s-${e.report.key}-${ps.slug}`} className="rp-update">
+                <span className="rp-update-date">{formatDate(e.date, 'short')}</span>
+                <span className="rp-update-body">
+                  <Link href={`/reports/${e.report.key}#pick-${ps.slug}`} className="rp-update-title">{ps.heading}, from {e.report.title}</Link>
+                  <span className="rp-update-text">{ps.paragraphs[0]}</span>
+                  <span className="rp-update-foot">
+                    <Link href={`/reports/${e.report.key}#pick-${ps.slug}`}>Read it in the report</Link>
+                  </span>
+                </span>
+              </li>
+            );
+          }
+          const c = e.competitor!;
+          return (
+            <li key={`c-${e.report.key}-${c.slug}`} className="rp-update">
+              <span className="rp-update-date">{formatDate(e.date, 'short')}</span>
+              <span className="rp-update-body">
+                <Link href={`/reports/${e.report.key}#competition-${c.slug}`} className="rp-update-title">From {e.report.title}</Link>
+                <span className="rp-update-text">{c.body}</span>
+                <span className="rp-update-foot">
+                  <Link href={`/reports/${e.report.key}#competition-${c.slug}`}>Read it in the report</Link>
+                </span>
               </span>
-            </span>
-          </li>
-        ))}
+            </li>
+          );
+        })}
       </ol>
     </section>
   );

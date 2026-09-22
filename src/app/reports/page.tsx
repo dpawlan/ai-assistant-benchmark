@@ -5,6 +5,7 @@ import { getReports, primaryPick } from '@/lib/reports';
 import { AgentIcon } from '@/components/AgentIcon';
 import type { Agent } from '@/lib/types';
 import { ReportCover } from '@/components/ReportCover';
+import { getArticles, readingMinutes } from '@/lib/articles';
 
 export const metadata: Metadata = { title: 'Reports' };
 
@@ -12,6 +13,8 @@ export default function ReportsPage() {
   const reports = getReports();
   const bySlug = Object.fromEntries(getAgents().map(a => [a.slug, a]));
   const [featured, ...rest] = reports;
+  const articles = getArticles();
+  const reportTitle = Object.fromEntries(reports.map(r => [r.key, r.title]));
   return (
     <div className="wrap mid">
       <div className="page-head">
@@ -47,6 +50,25 @@ export default function ReportsPage() {
           </Link>
         ))}
       </div>
+
+      {articles.length > 0 && (
+        <section className="rp-writing">
+          <div className="rp-writing-head">
+            <h2 className="ag-h2">Latest writing</h2>
+            <p className="ag-sub">Analysis and opinion, dated and signed. Reports carry the verdicts; this is where we argue about them.</p>
+          </div>
+          <div className="rp-writing-list">
+            {articles.map(a => (
+              <Link key={a.slug} href={`/articles/${a.slug}`} className="rp-writing-item">
+                <span className="rp-writing-meta">{a.kind}, {formatDate(a.date)}{a.report && reportTitle[a.report] ? `, from ${reportTitle[a.report]}` : ''}</span>
+                <span className="rp-writing-title">{a.title}</span>
+                <span className="rp-writing-dek">{a.dek}</span>
+                <span className="rp-writing-foot">{readingMinutes(a.body)} minute read</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

@@ -9,6 +9,7 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { SpeedCell } from '@/components/SpeedCell';
 import { CostMark } from '@/components/CostMark';
 import { ReportCover } from '@/components/ReportCover';
+import { getArticleForUpdate, getArticlesForReport, readingMinutes } from '@/lib/articles';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -35,6 +36,7 @@ export default async function ReportPage({ params }: Props) {
   const runCount = agents.reduce((n, a) => n + Object.values(a.latestRuns).filter(r => r.category === report.dimension).length, 0);
   const pick = primaryPick(report);
   const pickAgent = bySlug[pick];
+  const articles = getArticlesForReport(report.key);
 
   const toc: { id: string; label: string }[] = [
     { id: 'who', label: 'Who this is for' },
@@ -43,6 +45,7 @@ export default async function ReportPage({ params }: Props) {
     ...(report.competition.length ? [{ id: 'competition', label: 'The competition' }] : []),
     ...(report.looking_ahead.length ? [{ id: 'ahead', label: 'What to look forward to' }] : []),
     ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
+    ...(articles.length ? [{ id: 'writing', label: 'Writing about this report' }] : []),
   ];
 
   return (
@@ -181,6 +184,9 @@ export default async function ReportPage({ params }: Props) {
                       <span className="rp-update-text">{u.paragraphs[0]}</span>
                       <span className="rp-update-foot">
                         <Link href={updatePath(report, u)}>Read the update</Link>
+                        {getArticleForUpdate(report.key, u.slug) && (
+                          <Link href={`/articles/${getArticleForUpdate(report.key, u.slug)!.slug}`} className="rp-take">Read our take</Link>
+                        )}
                         {u.agents.map(s => bySlug[s]).filter(Boolean).map(a => (
                           <Link key={a.slug} href={`/agents/${a.slug}`} className="chip">{a.name}</Link>
                         ))}
@@ -189,6 +195,22 @@ export default async function ReportPage({ params }: Props) {
                   </li>
                 ))}
               </ol>
+            </section>
+          )}
+          {articles.length > 0 && (
+            <section id="writing" className="rp-section">
+              <h2>Writing about this report</h2>
+              <p className="rp-muted">Analysis and opinion, dated and signed. The report holds the verdict; these are the arguments.</p>
+              <div className="rp-writing-list">
+                {articles.map(a => (
+                  <Link key={a.slug} href={`/articles/${a.slug}`} className="rp-writing-item">
+                    <span className="rp-writing-meta">{a.kind}, {formatDate(a.date)}</span>
+                    <span className="rp-writing-title">{a.title}</span>
+                    <span className="rp-writing-dek">{a.dek}</span>
+                    <span className="rp-writing-foot">{readingMinutes(a.body)} minute read</span>
+                  </Link>
+                ))}
+              </div>
             </section>
           )}
         </article>

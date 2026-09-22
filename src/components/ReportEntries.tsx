@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { formatDate } from '@/lib/data';
 import { getEntriesForPair, updatePath } from '@/lib/reports';
+import { getArticleForUpdate, getArticlesForPair } from '@/lib/articles';
 
 /**
  * What the reports say about this pair. Each update is linkable on its own page and anchored
@@ -8,7 +9,8 @@ import { getEntriesForPair, updatePath } from '@/lib/reports';
  */
 export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b: string; aName: string; bName: string; focus?: string[] }) {
   const entries = getEntriesForPair(a, b, focus);
-  if (!entries.length) return null;
+  const articles = getArticlesForPair(a, b).filter(x => !entries.some(e => e.update && x.update === e.update.slug && x.report === e.report.key));
+  if (!entries.length && !articles.length) return null;
   return (
     <section className="rp-entries" id="from-the-reports">
       <h2 className="ag-h2">From the reports</h2>
@@ -25,6 +27,7 @@ export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b
                   <span className="rp-update-text">{u.paragraphs[0]}</span>
                   <span className="rp-update-foot">
                     <Link href={updatePath(e.report, u)}>Read the update</Link>
+                    {getArticleForUpdate(e.report.key, u.slug) && <Link href={`/articles/${getArticleForUpdate(e.report.key, u.slug)!.slug}`} className="rp-take">Read our take</Link>}
                     <Link href={`/reports/${e.report.key}`} className="chip blue">{e.report.title}</Link>
                   </span>
                 </span>
@@ -60,6 +63,16 @@ export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b
             </li>
           );
         })}
+        {articles.map(x => (
+          <li key={`a-${x.slug}`} className="rp-update">
+            <span className="rp-update-date">{formatDate(x.date, 'short')}</span>
+            <span className="rp-update-body">
+              <Link href={`/articles/${x.slug}`} className="rp-update-title">{x.title}</Link>
+              <span className="rp-update-text">{x.dek}</span>
+              <span className="rp-update-foot"><Link href={`/articles/${x.slug}`}>Read the article</Link><span className="chip">{x.kind}</span></span>
+            </span>
+          </li>
+        ))}
       </ol>
     </section>
   );

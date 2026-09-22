@@ -5,6 +5,7 @@ import { formatDate, getAgents } from '@/lib/data';
 import { getReports, getUpdate, primaryPick } from '@/lib/reports';
 import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
+import { getArticleForUpdate } from '@/lib/articles';
 
 interface Props {
   params: Promise<{ key: string; slug: string }>;
@@ -33,6 +34,7 @@ export default async function UpdatePage({ params }: Props) {
   const pairs: [string, string][] = [];
   for (let i = 0; i < update.agents.length; i++) for (let j = i + 1; j < update.agents.length; j++) pairs.push([update.agents[i], update.agents[j]]);
   const others = report.updates.filter(u => u.slug !== update.slug);
+  const take = getArticleForUpdate(report.key, update.slug);
 
   return (
     <div className="wrap mid rp">
@@ -64,6 +66,14 @@ export default async function UpdatePage({ params }: Props) {
         <article className="rp-article rp-article-solo">
           {update.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
         </article>
+
+        {take && (
+          <Link href={`/articles/${take.slug}`} className="rp-take-card">
+            <span className="rp-eyebrow">Our take</span>
+            <span className="rp-take-title">{take.title}</span>
+            <span className="rp-take-dek">{take.dek}</span>
+          </Link>
+        )}
 
         {update.runs.length > 0 && (
           <section className="rp-section">

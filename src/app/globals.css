@@ -3767,7 +3767,7 @@ a.chip.blue:hover {
 .latest-shelf { padding-top: 40px; }
 .shelf-more { margin-top: 14px; font-size: 14px; }
 .shelf-more a { color: var(--blue); text-decoration: none; }
-footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
 @media (max-width: 699px) {
   .rk-head, .rk-row { grid-template-columns: 22px 32px minmax(0, 1fr) auto; column-gap: 10px; }
   .rk-best { white-space: normal; }

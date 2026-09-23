@@ -110,3 +110,13 @@ _Updated 2026-09-18 weekday vault scan (+9 rows)._
 - (2026-09-08) Rohan Adwankar teardown: memory is git Markdown vault on rented E2B Firecracker; HN hypendev "three markdowns in a trenchcoat".
 - (2026-09-09) HN MP_1729: deleted after one productive day; All-In "humans doing stuff" rumor + permission fear.
 
+_Updated 2026-09-23 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-18) AI by Aakash: Concierge calls from iMessage with in-thread confirmations; phone-only restaurants, dentist, cable.
+- (2026-09-18) AI by Aakash: Trusted People multiplayer — your Instinct talks to theirs; picnic + rides planning.
+- (2026-09-18) AI by Aakash: Cautions — $200 no-show flight fees from wrong bookings; spend-limited card advice; account-ban risk from aggressive botting.
+- (2026-09-18) AI by Aakash: Stack pick — Instinct primary; Grok Bot/Hermes/OpenClaw for other lanes.
+
+**Feedback rows:** 220 (as of 2026-09-23)
+

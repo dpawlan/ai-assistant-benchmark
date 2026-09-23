@@ -19,3 +19,7 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - **2026-09-21 vault scan:** Rerealize 9.3/9.4 update-path split-brain + memory/reply regressions; AirMore 2.0 gateway-not-model review; Faraday self-host control pick.
 
 - **2026-09-22 vault scan (+2 rows):** r/openclaw 13-week daily-driver recap (LobsterWeary2675, 11 May; missed by prior scans): Raspberry Pi + Telegram infra; powerful but requires patience/debugging.
+
+- **2026-09-23 vault scan (+3 rows):** Trail of Bits audit recap (21 Sep): 24 severity-rated vulnerabilities (0 Critical, 2 High, 16 Medium, 6 Low); all fixed in 2026.8.1 / 2026.7.33 LTS. Audit lesson: mid-run permission changes must re-check tools. Emergent Windows retest (8 Sep; missed by prior scans): install OK, live memory task fails post-OAuth; not first-pick for simple assistant.
+
+**Feedback rows:** 15 (as of 2026-09-23)

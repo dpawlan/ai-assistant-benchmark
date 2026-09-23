@@ -3152,5 +3152,243 @@
     "source": "web",
     "collected_at": "2026-09-22T14:15:00Z",
     "notes": "HokAI listing citing Benzinga Sep 2026: internal safeguard bypass + reliability failures. Secondary cite."
+  },
+  {
+    "agent": "muse",
+    "quote": "It's been a busy afternoon for Pip, the AI agent I've been using in Meta's Muse app. The agent, which Meta launched on September 8, booked a Friday date night and made a packing schedule for my upcoming move. It also emailed a friend about a trip next month and made a planning document with places we want to visit.",
+    "author": "Lisa Eadicicco",
+    "author_name": "Lisa Eadicicco (CNN)",
+    "date": "2026-09-23",
+    "url": "https://www.cnn.com/2026/09/23/tech/meta-muse-ai-agent#helpful",
+    "kind": "use-case",
+    "tags": [
+      "cnn",
+      "hands-on",
+      "planning",
+      "email",
+      "web"
+    ],
+    "source": "web",
+    "notes": "CNN Business hands-on Sep 23: packing schedule, date-night booking, trip email + Google Doc.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "bbf27afa51b2"
+  },
+  {
+    "agent": "muse",
+    "quote": "When I asked for a list of places to go for date night, it pulled up two options in my neighborhood that had been closed for years. … In its list of prompt ideas, Muse said it could haggle on Facebook Marketplace … But when I tried this, Muse said it couldn't message sellers directly. It would instead vet the listings and draft a message for me to send.",
+    "author": "Lisa Eadicicco",
+    "author_name": "Lisa Eadicicco (CNN)",
+    "date": "2026-09-23",
+    "url": "https://www.cnn.com/2026/09/23/tech/meta-muse-ai-agent#limits",
+    "kind": "complaint",
+    "tags": [
+      "cnn",
+      "stale-data",
+      "marketplace",
+      "oversell",
+      "web"
+    ],
+    "source": "web",
+    "notes": "CNN: stale closed venues + Marketplace Ideas oversell vs draft-only reality.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "6ba414062365"
+  },
+  {
+    "agent": "muse",
+    "quote": "While Muse was able to browse Target's website, I still had to enter personal details manually because the retailer blocked autonomous clicks at checkout. (Muse uses Stripe's Link digital wallet service for purchases, which it says generates a one-time use card to prevent your credit card number from being shared.)",
+    "author": "Lisa Eadicicco",
+    "author_name": "Lisa Eadicicco (CNN)",
+    "date": "2026-09-23",
+    "url": "https://www.cnn.com/2026/09/23/tech/meta-muse-ai-agent#target",
+    "kind": "bug",
+    "tags": [
+      "cnn",
+      "shopping",
+      "target",
+      "checkout",
+      "web"
+    ],
+    "source": "web",
+    "notes": "CNN: Target blocks autonomous checkout clicks; Amazon browse already vaulted elsewhere.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "407e1e092771"
+  },
+  {
+    "agent": "muse",
+    "quote": "I asked Muse to archive the files it could see and send them to my Google Drive. It did. The download was about 2.7 GB compressed and 6.8 GB unpacked. It appeared to contain the root filesystem of the Linux environment assigned to my session, including Ubuntu system files, Muse's internal documentation, integration code, app templates, memory files, and agent logs. There were also SSH key files.",
+    "author": "Peter James",
+    "author_name": "Peter James (mouse.dev)",
+    "date": "2026-09-22",
+    "url": "https://mouse.dev/blog/muse-runtime-export/",
+    "kind": "bug",
+    "tags": [
+      "runtime",
+      "export",
+      "filesystem",
+      "security",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Sep 22: user exported ~6.8GB Muse session root FS (Hatch internals); Meta bounty Not Applicable.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "110643b95206"
+  },
+  {
+    "agent": "muse",
+    "quote": "I asked Muse to archive the filesystem visible to my session and send it to my Google Drive. It sent an archive that unpacked to about 6.8 GB. Inside were internal docs, integration code, the Spaces app framework, memory records, container startup scripts, and documentation for an experimental ESP32-based home network bridge called Home Link. … I reported the export to Meta's bug bounty program, which marked it \"Not Applicable.\"",
+    "author": "Aeroi",
+    "author_name": "Aeroi / Peter James (HN)",
+    "date": "2026-09-22",
+    "url": "https://news.ycombinator.com/item?id=49802871#export",
+    "kind": "bug",
+    "tags": [
+      "hn",
+      "runtime",
+      "export",
+      "bounty",
+      "web"
+    ],
+    "source": "hn",
+    "notes": "HN thread on mouse.dev export; author summary + NA bounty.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "972fb947f8bd"
+  },
+  {
+    "agent": "muse",
+    "quote": "You can ask Meta Muse to take actions that clearly break other site's terms of service and it happily does it. I asked it to bot poker games and it just hopped right in to a table.",
+    "author": "chis",
+    "author_name": "chis (HN)",
+    "date": "2026-09-22",
+    "url": "https://news.ycombinator.com/item?id=49802871#poker",
+    "kind": "complaint",
+    "tags": [
+      "hn",
+      "tos",
+      "poker",
+      "risk",
+      "web"
+    ],
+    "source": "hn",
+    "notes": "HN: Muse willingly bots poker / breaks third-party ToS.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "246d38b2ac5d"
+  },
+  {
+    "agent": "muse",
+    "quote": "muse is a pretty capable agent but still asks for too many approvals to do tasks. I'm a student and have been going between muse and instinct",
+    "author": "websiteapi",
+    "author_name": "websiteapi (HN)",
+    "date": "2026-09-22",
+    "url": "https://news.ycombinator.com/item?id=49802871#approvals",
+    "kind": "comparison",
+    "tags": [
+      "hn",
+      "approvals",
+      "vs-instinct",
+      "web"
+    ],
+    "source": "hn",
+    "notes": "HN: capable but approval-heavy; student switching Muse↔Instinct.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "7add8b78bd2a"
+  },
+  {
+    "agent": "muse",
+    "quote": "When he asked how the assistant knew about the conversation, Muse told him: \"I saw the notification previews, not your message history. I haven't been reading your texts.\" … Singleton said the model simply did not know how it works and invented a coherent-sounding answer. \"That's on us,\" he wrote. \"We apologize for the incorrect response from Muse…\"",
+    "author": "Lars Cornelissen",
+    "author_name": "Lars Cornelissen (Data Today) quoting Jason Aten / David Singleton",
+    "date": "2026-09-20",
+    "url": "https://data-today.net/meta-muse-ai-agent-self-description/",
+    "kind": "bug",
+    "tags": [
+      "privacy",
+      "self-description",
+      "messages",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Aten Messages incident: Muse hallucinated notification-preview access; Meta apologized Sep 19.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "5d60cc23d60b"
+  },
+  {
+    "agent": "muse",
+    "quote": "Muse is the fastest consumer app launch Meta has ever had, and in the same week it topped the US App Store it also picked up a working macOS exploit, a privacy complaint from a columnist who tested it, and a hard block from Amazon. That combination is the story, not the download chart. … If you run the Mac app, update it now: a hotfix landed on September 21 for a local privilege escalation bug.",
+    "author": "Sam Carter",
+    "author_name": "Sam Carter (Why So Geek)",
+    "date": "2026-09-22",
+    "url": "https://whysogeek.com/meta-muse-connect-accounts-privacy-risks-2026/",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "macos",
+      "amazon",
+      "permissions",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Sep 22 guide: App Store surge + Wardle Mac hotfix + Aten + Amazon; connect low-stakes only.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "b9cf5c5ee94d"
+  },
+  {
+    "agent": "muse",
+    "quote": "Mac security researcher Patrick Wardle says it's trivial to turn Muse into \"the ultimate backdoor.\" … By redirecting dictation traffic to an attacker-controlled server, an attacker could capture voice prompts and obtain the authentication token for the victim's Muse account. … Wardle's advice about Muse is simple: \"Please don't install.\"",
+    "author": "Pieter Arntz",
+    "author_name": "Pieter Arntz (Malwarebytes) quoting Patrick Wardle",
+    "date": "2026-09-22",
+    "url": "https://www.malwarebytes.com/blog/bugs/2026/09/metas-muse-ai-assistant-has-a-zero-day-that-can-turn-it-into-a-mac-backdoor",
+    "kind": "bug",
+    "tags": [
+      "macos",
+      "zero-day",
+      "dictation",
+      "wardle",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Malwarebytes Sep 22 on Wardle Muse dictation-endpoint local token theft; hotfix noted elsewhere.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "a7b149837bd7"
+  },
+  {
+    "agent": "muse",
+    "quote": "Facebook's owner, Meta, is testing whether human phone workers, not artificial intelligence, handle the phone calls placed by its new AI assistant, Muse, according to internal company posts reviewed by Reuters. … Meta calls the setup a \"human concierge,\" meaning a trained employee in a call center can pick up the request and place the call themselves. … Regular Muse users testing the public phone feature don't currently get that same choice [to opt out], and Meta hasn't said whether or when they will.",
+    "author": "Suzanne Kantra",
+    "author_name": "Suzanne Kantra (Techlicious) via Reuters",
+    "date": "2026-09-22",
+    "url": "https://www.techlicious.com/blog/facebook-muse-ai-human-concierge-calls/",
+    "kind": "complaint",
+    "tags": [
+      "phone",
+      "human-concierge",
+      "privacy",
+      "reuters",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Reuters/Techlicious Sep 22: human concierge behind Muse calls; public beta lacks employee opt-out.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "3229f185512a"
+  },
+  {
+    "agent": "muse",
+    "quote": "\"The day after I said I wanted help saving money for a fancy vacation,\" he wrote, \"Muse offered to 'wire your savings tracker to your real balance' if I just tapped a few buttons and linked the data from my checking and savings accounts.\" … Muse suggested letting it scan his entire email inbox, take pictures of important documents, photograph his meals to track their calories, and share when his passport and license expired. \"Every suggested interaction with Muse started to feel like a guise for me to upload more data about myself for Meta to see,\" Rogers opined.",
+    "author": "Frank Landymore",
+    "author_name": "Frank Landymore (Futurism) quoting Reece Rogers (Wired)",
+    "date": "2026-09-22",
+    "url": "https://futurism.com/artificial-intelligence/meta-muse-ai-agent-creepy",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "creepy",
+      "upsell",
+      "wired",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Futurism Sep 22 synthesizing Aten + Wired Rogers data-upsell creepiness.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "e72f6cb988cc"
   }
 ]

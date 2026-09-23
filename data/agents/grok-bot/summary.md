@@ -80,3 +80,7 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-22 vault scan (+3 rows):** Continuum review (8 Sep): best-in-class onboarding + structural limits (shared computer, opaque router, audit gap); Learn Cursor (14 Aug): Grok Bot for cross-app work vs Cloud Agent for bounded repo PR.
 
+- **2026-09-23 vault scan (+6 rows):** Cursor Forum quota burn thread (Aug–Sep): Pro+ 77% in 2 days; SuperGrok+ day-1 burn + $20 on-demand gone in 3h; Ultra 65%→99% in 3 days; best-app praise + API cost pain; 0.47.0 silent no-reply was quota exhausted without banner (staff confirmed). DEV Community (17 Aug): week-long review — freeze/half-data reliability + shared VM logins across bots; not worth $200 yet.
+
+**Feedback rows:** 1179 (as of 2026-09-23)
+

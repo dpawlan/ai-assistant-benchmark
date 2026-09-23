@@ -230,5 +230,62 @@
     "source": "reddit",
     "collected_at": "2026-09-22T14:15:00Z",
     "notes": "Same 13-week post: keep it as daily infra; not effortless consumer PA."
+  },
+  {
+    "agent": "openclaw",
+    "quote": "Trail of Bits submitted 27 private repository advisories and 3 standalone hardening pull requests. Of the advisory reports, 24 described severity-rated vulnerabilities. 23 were classified as confirmed vulnerabilities… Those 24 reports were rated 0 Critical, 2 High, 16 Medium, and 6 Low. … Every actionable issue has been repaired, and all 3 standalone hardening PRs were merged.",
+    "author": "Josh Avant",
+    "author_name": "Josh Avant (OpenClaw)",
+    "date": "2026-09-21",
+    "url": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap",
+    "kind": "other",
+    "tags": [
+      "security",
+      "audit",
+      "trail-of-bits",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Sep 21 Patch the Planet / Trail of Bits audit recap; fixes shipped in 2026.8.1 / 2026.7.33 LTS.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "615d85f33da4"
+  },
+  {
+    "agent": "openclaw",
+    "quote": "If memory access was enabled when a run began and the operator disabled it midway through, that run could continue reading memory until it ended. The fix was to make tools check the current setting whenever they act.",
+    "author": "Josh Avant",
+    "author_name": "Josh Avant (OpenClaw)",
+    "date": "2026-09-21",
+    "url": "https://openclaw.ai/blog/openclaw-trail-of-bits-engagement-recap#permissions-mid-run",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "permissions",
+      "memory",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Audit lesson: mid-run permission changes must re-check; fixed.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "ed4a082c3f8c"
+  },
+  {
+    "agent": "openclaw",
+    "quote": "I reached the Control UI and connected OpenAI, but my first live memory task returned an authentication error after about 25 seconds. Even after I completed the OpenAI sign-in, the agent still failed before producing a reply. … I'd recommend it if you have recurring jobs for an assistant and don't mind troubleshooting. It isn't my first pick if you want a simple AI assistant that works straight away.",
+    "author": "Bhavyadeep",
+    "author_name": "Bhavyadeep (Emergent)",
+    "date": "2026-09-08",
+    "url": "https://emergent.sh/learn/openclaw-reviews",
+    "kind": "complaint",
+    "tags": [
+      "windows",
+      "setup",
+      "auth",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Sep 8 Windows retest: install OK, live memory task still fails post-OAuth. Missed by prior scans.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "8a58eef590a3"
   }
 ]

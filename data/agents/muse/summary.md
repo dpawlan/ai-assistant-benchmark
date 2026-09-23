@@ -96,3 +96,8 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - **2026-09-21 vault scan:** Amazon blocks Muse shopping (Verge/Forkast, popup Sunday Sep 20); Top5Apps #1 overall + #1 free US App Store Sep 18; merchant-veto framing; Faraday Meta-trust overhang; Fabric depth vs Poke iMessage.
 
 - **2026-09-22 vault scan (+11 rows):** BI hands-on (Notopoulos, 19 Sep) email digest + subscription scan worked, Girl Scouts checkout timeout; Substack (Taylor Arndt, 21 Sep) VoiceOver a11y issues + connector gaps; How I AI (Claire Vo, 16 Sep) family newsletter PDF, Goals primitive vs Grok Bot/OpenClaw, IMAX ticket Link checkout; HN: school homework cred-vault workflow, bot-scarcity shopping worry; HokAI citing Benzinga internal safeguard bypass.
+
+- **2026-09-23 vault scan (+12 rows):** CNN hands-on (Eadicicco, 23 Sep): date-night booking + packing schedule + trip planning worked; stale closed-venue data; Target blocks autonomous checkout; Marketplace Ideas oversell vs draft-only. mouse.dev/HN (22 Sep): user exported 6.8GB session root filesystem (Hatch internals, SSH keys); Meta bounty NA. HN: ToS-breaking poker bots; capable but approval-heavy (student switching Muse↔Instinct). Data Today (20 Sep): hallucinated notification-preview access; Meta apologized. Why So Geek/Malwarebytes (22 Sep): Wardle dictation-endpoint Mac exploit + hotfix. Techlicious/Reuters (22 Sep): human concierge behind public beta calls, no opt-out. Futurism/Wired (22 Sep): data-upsell creepiness framing.
+
+**Feedback rows:** 153 (as of 2026-09-23)
+**Kinds:** other=62, use-case=30, praise=14, complaint=16, comparison=10, bug=12

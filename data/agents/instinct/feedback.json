@@ -4754,5 +4754,80 @@
     "source": "web",
     "collected_at": "2026-09-21T14:30:00Z",
     "notes": "Refix: Instinct = ambient personal context; private-access caveat."
+  },
+  {
+    "agent": "instinct",
+    "quote": "Several times, I asked in iMessage, Instinct called, then I received the confirmation in the same chat: … You can use Instinct for just about everything: phone-only restaurants, dentist waitlists, cable bills.",
+    "author": "Aakash Gupta",
+    "author_name": "Aakash Gupta (AI by Aakash)",
+    "date": "2026-09-18",
+    "url": "https://www.aibyaakash.com/p/instinct#concierge",
+    "kind": "use-case",
+    "tags": [
+      "concierge",
+      "phone",
+      "imessage",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Sep 18 hands-on: Concierge calls from iMessage with in-thread confirmations. Missed by #359/#367.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "0ee156bbb0bb"
+  },
+  {
+    "agent": "instinct",
+    "quote": "This is one of my favorite features of Instinct. You can add friends to Trusted People. Then, your Instinct talks to theirs. I used it to plan a picnic, including rides:",
+    "author": "Aakash Gupta",
+    "author_name": "Aakash Gupta (AI by Aakash)",
+    "date": "2026-09-18",
+    "url": "https://www.aibyaakash.com/p/instinct#trusted-people",
+    "kind": "use-case",
+    "tags": [
+      "multiplayer",
+      "trusted-people",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Trusted Person network picnic/rides planning.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "5731bf8c4e1a"
+  },
+  {
+    "agent": "instinct",
+    "quote": "I've seen reports users eating $200 no-show fees on flights their agent booked wrong. That's why I only gave mine a spend-limited card. … The web was built to keep bots out, and sites can't tell your agent from a scraper. If Instinct tries too hard on your accounts, you can get banned.",
+    "author": "Aakash Gupta",
+    "author_name": "Aakash Gupta (AI by Aakash)",
+    "date": "2026-09-18",
+    "url": "https://www.aibyaakash.com/p/instinct#cautions",
+    "kind": "complaint",
+    "tags": [
+      "spend",
+      "bans",
+      "risk",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Cautions: wrong flight bookings / spend limits; account-ban risk from aggressive botting.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "cdef96b43eab"
+  },
+  {
+    "agent": "instinct",
+    "quote": "I plan to mainly use Instinct. It's that good. … Use Instinct for simple AI over text. Use Grok Bot for agentic capability in an app. Use Hermes for the auto updating agents and bot mode. Use OpenClaw if you want to go fully agentic with power.",
+    "author": "Aakash Gupta",
+    "author_name": "Aakash Gupta (AI by Aakash)",
+    "date": "2026-09-18",
+    "url": "https://www.aibyaakash.com/p/instinct#stack",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "vs-hermes",
+      "vs-openclaw",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Stack pick: Instinct primary; Grok Bot / Hermes / OpenClaw for other lanes.",
+    "collected_at": "2026-09-23T14:30:00Z",
+    "id": "79573d0c2068"
   }
 ]

@@ -3850,7 +3850,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-dek { margin: 0; font-size: 18px; color: var(--sec); line-height: 1.4; }
 .rp-dek a { color: var(--blue); text-decoration: none; }
 .rp-byline { margin: 4px 0 0; font-size: 13px; color: var(--sec); }
-.rp-intro { max-width: 68ch; margin-top: 28px; }
+.rp-intro { margin-top: 28px; }
 .rp-intro p { margin: 0 0 14px; font-size: 17px; line-height: 1.55; }
 
 /* Picks box */

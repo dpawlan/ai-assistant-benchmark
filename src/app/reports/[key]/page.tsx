@@ -6,8 +6,6 @@ import { getReport, getReports, primaryPick, updatePath } from '@/lib/reports';
 import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
 import { ScoreCell } from '@/components/ScoreCell';
-import { SpeedCell } from '@/components/SpeedCell';
-import { CostMark } from '@/components/CostMark';
 import { ReportCover } from '@/components/ReportCover';
 import { Markdown } from '@/components/Markdown';
 import { getArticleForUpdate, getArticlesForReport } from '@/lib/articles';
@@ -44,6 +42,7 @@ export default async function ReportPage({ params }: Props) {
   const author = getAuthor(report.author ?? 'david-pawlan');
 
   const toc: { id: string; label: string }[] = [
+    { id: 'everyone', label: 'Everyone tested' },
     ...report.sections.map(s =>
       s.type === 'who' ? { id: 'who', label: 'Who this is for' }
       : s.type === 'how' ? { id: 'how', label: 'How we tested' }
@@ -108,11 +107,29 @@ export default async function ReportPage({ params }: Props) {
         })}
       </section>
 
+      <section id="everyone" className="rp-board" aria-label="Everyone tested">
+        <div className="rp-board-head">
+          <h2 className="ag-h2">Everyone tested</h2>
+          <p className="ag-sub">{category?.label ?? report.dimension}, newest run per assistant, ranked by score. <Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>
+        </div>
+        <ol className="rp-board-list">
+          {ranked.map((a, i) => (
+            <li key={a.slug}>
+              <Link href={`/agents/${a.slug}`} className="rp-board-item">
+                <span className="rp-board-rank">{i + 1}</span>
+                <AgentIcon name={a.name} icon={a.icon} size={24} className="rp-board-icon" />
+                <span className="rp-board-name">{a.name}</span>
+                <ScoreCell value={a.scores[report.dimension]} />
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </section>
+
       <div className="rp-body">
         <nav className="rp-toc" aria-label="In this report">
           <p className="rp-toc-head">In this report</p>
           {toc.map(t => <a key={t.id} href={`#${t.id}`}>{t.label}</a>)}
-          <p className="rp-toc-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>
         </nav>
 
         <article className="rp-article">
@@ -218,28 +235,6 @@ export default async function ReportPage({ params }: Props) {
           )}
         </article>
 
-          <aside id="everyone" className="rp-rail">
-            <h2 className="ag-h2">Everyone tested</h2>
-            <p className="ag-sub">{category?.label ?? report.dimension}, newest run per assistant. Speed, then score.</p>
-            <div className="rp-table">
-              {ranked.map((a, i) => (
-                <Link key={a.slug} href={`/agents/${a.slug}`} className="rp-row">
-                  <span className="rp-row-rank">{i + 1}</span>
-                  <AgentIcon name={a.name} icon={a.icon} size={28} className="rp-row-icon" />
-                  <span className="rp-row-name">
-                    {a.name}
-                    <CostMark pricing={a.access?.pricing} />
-                    {report.picks.find(p => p.slug === a.slug) && <span className="chip blue">{report.picks.find(p => p.slug === a.slug)!.label}</span>}
-                  </span>
-                  <span className="rp-row-cells">
-                    <SpeedCell usage={a.usage} />
-                    <ScoreCell value={a.scores[report.dimension]} />
-                  </span>
-                </Link>
-              ))}
-            </div>
-            <p className="rp-rail-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>
-          </aside>
       </div>
     </div>
   );

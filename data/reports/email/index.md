@@ -7,6 +7,8 @@ updated: 2026-09-16
 author: david-pawlan
 cover_tint: "#fdf1e7"
 cover_agents: muse, instinct, town, grok-bot, poke, asmi
+cover_prompt: Reply to Sam: can't do Thursday, offer two slots from my calendar, keep it friendly.
+cover_reply: Drafted a reply-all offering Tuesday 2pm or Wednesday 10am, in your usual tone. Want me to send it?
 preview: true
 picks:
   - muse | Our pick | Reply-all with two open calendar slots, in your voice, sent on command.

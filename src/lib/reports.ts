@@ -58,7 +58,7 @@ export interface Report {
   updated: string;
   author?: string;
   preview: boolean;
-  cover: { tint: string; agents: string[] };
+  cover: { tint: string; agents: string[]; prompt: string; reply: string };
   intro: string;
   excerpt: string;
   picks: ReportPick[];
@@ -127,7 +127,7 @@ function parseReport(key: string, raw: string, updates: ReportUpdate[]): Report 
     updated: str(meta.updated) || str(meta.published),
     author: str(meta.author) || undefined,
     preview: isTrue(meta.preview),
-    cover: { tint: str(meta.cover_tint, '#eef1f5'), agents: list(meta.cover_agents) },
+    cover: { tint: str(meta.cover_tint, '#eef1f5'), agents: list(meta.cover_agents), prompt: str(meta.cover_prompt), reply: str(meta.cover_reply) },
     intro: lead,
     excerpt: excerpt(lead),
     picks,

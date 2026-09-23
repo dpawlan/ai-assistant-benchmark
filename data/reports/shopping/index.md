@@ -7,6 +7,8 @@ updated: 2026-09-22
 author: david-pawlan
 cover_tint: "#e8f1ff"
 cover_agents: muse, instinct, tomo, grok-bot, szn, shuffle, ollie
+cover_prompt: Reorder the coffee beans from last time, two bags, to the house. Use the card on file.
+cover_reply: Done. Two bags of the same Ethiopian, order #48213, arriving Thursday. I asked the store to leave it by the side door like last time.
 preview: true
 picks:
   - muse | Our pick | Finishes the order on its own virtual card, asks before charging, and returns the order number in one message.

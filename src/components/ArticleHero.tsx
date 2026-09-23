@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { AgentIcon } from '@/components/AgentIcon';
+import { ReportCover } from '@/components/ReportCover';
 import type { Agent } from '@/lib/types';
 import type { Article } from '@/lib/articles';
 import type { Report } from '@/lib/reports';
@@ -18,7 +19,15 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
       </figure>
     );
   }
-  const shown = agents.length ? agents : report ? report.cover.agents.slice(0, 3).map(s => bySlug[s]).filter(Boolean) : [];
+  if (report) {
+    return (
+      <figure className={`art-hero art-hero-${size}`}>
+        <ReportCover report={report} bySlug={bySlug} size={size === 'full' ? 'hero' : 'thumb'} />
+        {size === 'full' && article.heroCaption && <figcaption>{article.heroCaption}</figcaption>}
+      </figure>
+    );
+  }
+  const shown = agents.length ? agents : [];
   const big = size === 'full' ? 112 : 40;
   return (
     <figure className={`art-hero art-hero-${size}`}>

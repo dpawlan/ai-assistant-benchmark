@@ -7,6 +7,8 @@ updated: 2026-09-14
 author: david-pawlan
 cover_tint: "#e9f7ef"
 cover_agents: instinct, miso, shuffle, tomo, soar, muse
+cover_prompt: Book me NYC to Chicago, out Friday morning, back Sunday evening. Aisle, under $400.
+cover_reply: Booked. United out 8:15am Friday, back 6:40pm Sunday, aisle both ways, $318 total. I'll check you in when the window opens.
 preview: true
 picks:
   - instinct | Our pick | Books through your own airline account, picks the aisle unprompted, and checks you in when the window opens.

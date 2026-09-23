@@ -4110,3 +4110,49 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-writing-all { font-size: 13px; font-weight: 500; color: var(--blue); text-decoration: none; }
 .art-index { --art-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif; margin-top: 18px; }
 .page-sub a { color: var(--blue); text-decoration: none; }
+/* Report cover as a text thread */
+.rp-cover { display: block; padding: 0; }
+.rp-scene { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 8% 9%; }
+.rp-bub { max-width: 78%; padding: 10px 14px; border-radius: 18px; font-size: 14px; line-height: 1.35; letter-spacing: -0.005em; text-wrap: pretty; }
+.rp-bub.out { align-self: flex-end; background: var(--blue); color: #fff; border-bottom-right-radius: 5px; }
+.rp-bub.in { background: #fff; color: var(--text); border-bottom-left-radius: 5px; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08); }
+.rp-bub-meta { align-self: flex-end; font-size: 10px; color: var(--sec); margin: -2px 6px 6px 0; }
+.rp-bub-row { display: flex; align-items: flex-end; gap: 8px; max-width: 86%; }
+.rp-bub-avatar { flex: none; width: 28px; height: 28px; border-radius: 50%; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12); }
+.rp-cover-hero .rp-bub { font-size: 16px; padding: 12px 16px; border-radius: 20px; }
+.rp-cover-hero .rp-bub-avatar { width: 34px; height: 34px; }
+.rp-cover-hero .rp-scene { gap: 8px; }
+.rp-cover-thumb .rp-scene { padding: 7% 8%; gap: 4px; }
+.rp-cover-thumb .rp-bub { font-size: 8px; padding: 5px 8px; border-radius: 10px; line-height: 1.3; }
+.rp-cover-thumb .rp-bub-meta { display: none; }
+.rp-cover-thumb .rp-bub-avatar { width: 14px; height: 14px; }
+.rp-cover-thumb .rp-bub-row { gap: 4px; }
+.art-context-report .rp-cover .rp-bub { font-size: 7px; padding: 4px 7px; border-radius: 9px; }
+.art-context-report .rp-cover .rp-bub-meta { display: none; }
+.art-context-report .rp-cover .rp-bub-avatar { width: 12px; height: 12px; }
+.art-report-card .rp-cover .rp-bub { font-size: 9px; padding: 5px 8px; border-radius: 10px; }
+.art-report-card .rp-cover .rp-bub-meta { display: none; }
+.art-report-card .rp-cover .rp-bub-avatar { width: 16px; height: 16px; }
+
+/* Everyone tested as a strip under the picks */
+.rp-board { margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--hair); }
+.rp-board-head .ag-sub a { color: var(--blue); text-decoration: none; }
+.rp-board-list { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.rp-board-item { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px 6px 8px; border-radius: 980px; border: 1px solid var(--hair); background: #fff; color: inherit; text-decoration: none; font-size: 13px; font-weight: 600; }
+.rp-board-item:hover { background: var(--fill); }
+.rp-board-rank { font-size: 11px; font-weight: 500; color: var(--sec); width: 14px; text-align: right; }
+.rp-board-icon { width: 24px; height: 24px; border-radius: 7px; }
+.rp-board-item .score-cell, .rp-board-item > span:last-child { margin-left: 2px; }
+
+/* Single column: contents rail + article */
+.rp-body { grid-template-columns: 170px minmax(0, 1fr); gap: 32px 56px; }
+.rp-article { max-width: 72ch; }
+@media (max-width: 1099px) { .rp-body { grid-template-columns: 170px minmax(0, 1fr); } }
+@media (max-width: 899px) { .rp-body { grid-template-columns: 1fr; } }
+.rp-cover-card .rp-bub { font-size: 12px; padding: 8px 12px; border-radius: 14px; }
+.rp-cover-card .rp-bub-avatar { width: 22px; height: 22px; }
+.rp-cover-card .rp-bub-meta { font-size: 9px; }
+.art-hero-full .rp-cover { aspect-ratio: 2 / 1; border-radius: 18px; }
+.art-hero-full .rp-cover .rp-scene { padding: 6% 12%; }
+.art-hero-full .rp-cover .rp-bub { max-width: 60%; font-size: 17px; }
+.art-hero-thumb .rp-cover { border-radius: 12px; }

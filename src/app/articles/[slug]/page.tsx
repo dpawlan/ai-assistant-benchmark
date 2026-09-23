@@ -52,11 +52,11 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <div className="wrap mid art-wrap">
       <div className="ag-top">
-        <Link href="/reports" className="back">
+        <Link href="/articles" className="back">
           <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M12 5l-5 5 5 5" />
           </svg>
-          Reports
+          Writing
         </Link>
       </div>
 

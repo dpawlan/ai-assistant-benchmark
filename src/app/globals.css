@@ -4106,3 +4106,7 @@ footer .links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
   .au-name { font-size: 28px; }
   .au-reports { grid-template-columns: 1fr; }
 }
+.rp-writing-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; max-width: 900px; }
+.rp-writing-all { font-size: 13px; font-weight: 500; color: var(--blue); text-decoration: none; }
+.art-index { --art-serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif; margin-top: 18px; max-width: 900px; }
+.page-sub a { color: var(--blue); text-decoration: none; }

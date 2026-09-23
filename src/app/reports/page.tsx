@@ -55,11 +55,14 @@ export default function ReportsPage() {
       {articles.length > 0 && (
         <section className="rp-writing">
           <div className="rp-writing-head">
-            <h2 className="ag-h2">Latest writing</h2>
+            <div className="rp-writing-row">
+              <h2 className="ag-h2">Latest writing</h2>
+              <Link href="/articles" className="rp-writing-all">All writing</Link>
+            </div>
             <p className="ag-sub">Analysis and opinion, dated and signed. Reports carry the verdicts; this is where we argue about them.</p>
           </div>
           <div className="rp-writing-list">
-            {articles.map(a => <ArticleCard key={a.slug} article={a} report={a.report ? byKey[a.report] ?? null : null} bySlug={bySlug} />)}
+            {articles.slice(0, 4).map(a => <ArticleCard key={a.slug} article={a} report={a.report ? byKey[a.report] ?? null : null} bySlug={bySlug} />)}
           </div>
         </section>
       )}

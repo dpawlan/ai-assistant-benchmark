@@ -22,7 +22,7 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
   if (report) {
     return (
       <figure className={`art-hero art-hero-${size}`}>
-        <ReportCover report={report} bySlug={bySlug} size={size === 'full' ? 'hero' : 'thumb'} />
+        <ReportCover report={report} bySlug={bySlug} size={size === 'full' ? 'hero' : 'card'} />
         {size === 'full' && article.heroCaption && <figcaption>{article.heroCaption}</figcaption>}
       </figure>
     );

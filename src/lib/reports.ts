@@ -1,5 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { getAgents } from '@/lib/data';
+import { excerpt, isTrue, list, parseFrontmatter, slugify, splitSections, str } from '@/lib/md';
+
+/**
+ * Reports live in data/reports/<key>/index.md with updates in data/reports/<key>/updates/<slug>.md.
+ * Frontmatter carries the structured bits; the body is markdown with `##` sections. Recognised
+ * headings: "Who this is for", "How we tested", "<Label>: <Assistant name>" (a pick section, with an
+ * optional "### Flaws but not dealbreakers" list), "The competition" (one `### <Assistant name>` per
+ * entry), "What to look forward to". Any other `##` section is rendered as written, in place.
+ */
 
 export interface ReportPick {
   slug: string;
@@ -10,23 +20,34 @@ export interface ReportPick {
 export interface ReportPickSection {
   slug: string;
   heading: string;
-  paragraphs: string[];
-  flaws: string[];
+  body: string;
+  flaws: string;
+  excerpt: string;
 }
 
 export interface ReportCompetitor {
   slug: string;
   body: string;
+  excerpt: string;
 }
 
 export interface ReportUpdate {
   slug: string;
   date: string;
   title: string;
-  paragraphs: string[];
+  body: string;
+  excerpt: string;
   runs: string[];
   agents: string[];
 }
+
+export type ReportSection =
+  | { type: 'who'; body: string }
+  | { type: 'how'; body: string }
+  | { type: 'pick'; section: ReportPickSection }
+  | { type: 'competition'; entries: ReportCompetitor[] }
+  | { type: 'ahead'; body: string }
+  | { type: 'extra'; id: string; heading: string; body: string };
 
 export interface Report {
   key: string;
@@ -36,27 +57,100 @@ export interface Report {
   published: string;
   updated: string;
   author?: string;
+  preview: boolean;
   cover: { tint: string; agents: string[] };
-  intro: string[];
+  intro: string;
+  excerpt: string;
   picks: ReportPick[];
-  who_for: string[];
-  how_we_tested: string[];
+  sections: ReportSection[];
   pick_sections: ReportPickSection[];
   competition: ReportCompetitor[];
-  looking_ahead: string[];
   updates: ReportUpdate[];
 }
 
-interface ReportsFile {
-  reports: Report[];
+const DIR = path.join(process.cwd(), 'data', 'reports');
+
+let nameIndex: Map<string, string> | null = null;
+function slugForName(name: string): string | null {
+  if (!nameIndex) nameIndex = new Map(getAgents().flatMap(a => [[a.name.toLowerCase(), a.slug], [a.slug, a.slug]]));
+  return nameIndex.get(name.trim().toLowerCase()) ?? null;
 }
 
-const FILE = path.join(process.cwd(), 'data', 'reports.json');
+function parseUpdate(slug: string, raw: string): ReportUpdate {
+  const { meta, body } = parseFrontmatter(raw);
+  return { slug, date: str(meta.date), title: str(meta.title, slug), body, excerpt: excerpt(body), runs: list(meta.runs), agents: list(meta.agents) };
+}
+
+function parseReport(key: string, raw: string, updates: ReportUpdate[]): Report {
+  const { meta, body } = parseFrontmatter(raw);
+  const picks: ReportPick[] = list(meta.picks).map(line => {
+    const [slug = '', label = '', ...why] = line.split('|').map(s => s.trim());
+    return { slug, label, why: why.join(' | ') };
+  });
+  const { lead, sections: raw2 } = splitSections(body, 2);
+  const sections: ReportSection[] = [];
+  const pick_sections: ReportPickSection[] = [];
+  const competition: ReportCompetitor[] = [];
+  for (const s of raw2) {
+    const h = s.heading;
+    if (/^who this is for$/i.test(h)) sections.push({ type: 'who', body: s.body });
+    else if (/^how we tested$/i.test(h)) sections.push({ type: 'how', body: s.body });
+    else if (/^what to look forward to$/i.test(h)) sections.push({ type: 'ahead', body: s.body });
+    else if (/^the competition$/i.test(h)) {
+      const entries = splitSections(s.body, 3).sections.flatMap(e => {
+        const slug = slugForName(e.heading);
+        if (!slug) { console.warn(`reports/${key}: unknown assistant "${e.heading}" in The competition`); return []; }
+        return [{ slug, body: e.body, excerpt: excerpt(e.body) }];
+      });
+      competition.push(...entries);
+      sections.push({ type: 'competition', entries });
+    } else {
+      const m = /^([^:]+):\s*(.+)$/.exec(h);
+      const slug = m ? slugForName(m[2]) : null;
+      if (slug) {
+        const { lead: main, sections: subs } = splitSections(s.body, 3);
+        const flaws = subs.find(x => /flaw/i.test(x.heading))?.body ?? '';
+        const section = { slug, heading: h, body: main, flaws, excerpt: excerpt(main) };
+        pick_sections.push(section);
+        sections.push({ type: 'pick', section });
+      } else {
+        sections.push({ type: 'extra', id: slugify(h), heading: h, body: s.body });
+      }
+    }
+  }
+  return {
+    key,
+    question: str(meta.question),
+    title: str(meta.title, key),
+    dimension: str(meta.dimension),
+    published: str(meta.published),
+    updated: str(meta.updated) || str(meta.published),
+    author: str(meta.author) || undefined,
+    preview: isTrue(meta.preview),
+    cover: { tint: str(meta.cover_tint, '#eef1f5'), agents: list(meta.cover_agents) },
+    intro: lead,
+    excerpt: excerpt(lead),
+    picks,
+    sections,
+    pick_sections,
+    competition,
+    updates: updates.sort((a, b) => b.date.localeCompare(a.date)),
+  };
+}
 
 export function getReports(): Report[] {
   try {
-    const f = JSON.parse(fs.readFileSync(FILE, 'utf8')) as ReportsFile;
-    return [...f.reports].sort((a, b) => b.updated.localeCompare(a.updated));
+    return fs.readdirSync(DIR, { withFileTypes: true })
+      .filter(d => d.isDirectory() && fs.existsSync(path.join(DIR, d.name, 'index.md')))
+      .map(d => {
+        const dir = path.join(DIR, d.name);
+        const updDir = path.join(dir, 'updates');
+        const updates = fs.existsSync(updDir)
+          ? fs.readdirSync(updDir).filter(f => f.endsWith('.md')).map(f => parseUpdate(f.replace(/\.md$/, ''), fs.readFileSync(path.join(updDir, f), 'utf8')))
+          : [];
+        return parseReport(d.name, fs.readFileSync(path.join(dir, 'index.md'), 'utf8'), updates);
+      })
+      .sort((a, b) => b.updated.localeCompare(a.updated));
   } catch {
     return [];
   }
@@ -85,7 +179,7 @@ export interface PairEntry {
   date: string;
 }
 
-/** Everything a report says about this pair: updates that involve both, and the competition write-up when one is the pick. */
+/** Everything a report says about this pair: updates that involve both, and the write-up on the non-pick when one is the pick. */
 export function getEntriesForPair(a: string, b: string, dimensions: string[] = []): PairEntry[] {
   const out: PairEntry[] = [];
   const reports = getReports().filter(r => dimensions.length === 0 || dimensions.includes(r.dimension));

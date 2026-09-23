@@ -18,7 +18,7 @@ export default function ArticlesPage() {
           Analysis and opinion, dated and signed. The <Link href="/reports">reports</Link> carry the verdicts; this is where we argue about them.
         </p>
       </div>
-      <p className="rp-preview">Preview with placeholder prose.</p>
+      {articles.some(a => a.preview) && <p className="rp-preview">Preview with placeholder prose.</p>}
       <div className="rp-writing-list art-index">
         {articles.map(a => <ArticleCard key={a.slug} article={a} report={a.report ? getReport(a.report) : null} bySlug={bySlug} />)}
       </div>

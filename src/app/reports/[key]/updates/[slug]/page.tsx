@@ -5,6 +5,7 @@ import { formatDate, getAgents } from '@/lib/data';
 import { getReports, getUpdate, primaryPick } from '@/lib/reports';
 import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
+import { Markdown } from '@/components/Markdown';
 import { getArticleForUpdate } from '@/lib/articles';
 
 interface Props {
@@ -51,7 +52,7 @@ export default async function UpdatePage({ params }: Props) {
         <p className="rp-eyebrow">Update, {formatDate(update.date)}</p>
         <h1 className="rp-title">{update.title}</h1>
         <p className="rp-dek">An update to <Link href={`/reports/${report.key}`}>{report.title}</Link>.</p>
-        <p className="rp-preview">Preview with placeholder prose.</p>
+        {report.preview && <p className="rp-preview">Preview with placeholder prose.</p>}
 
         <div className="rp-update-involved">
           {involved.map(a => (
@@ -64,7 +65,7 @@ export default async function UpdatePage({ params }: Props) {
         </div>
 
         <article className="rp-article rp-article-solo">
-          {update.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
+          <Markdown body={update.body} />
         </article>
 
         {take && (

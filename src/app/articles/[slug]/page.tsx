@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }: Props) {
               Share
             </a>
           </div>
-          <p className="rp-preview">Preview with placeholder prose.</p>
+          {article.preview && <p className="rp-preview">Preview with placeholder prose.</p>}
         </header>
 
         <ArticleHero article={article} report={report} agents={involved} bySlug={bySlug} />
@@ -131,7 +131,7 @@ export default async function ArticlePage({ params }: Props) {
                   <span className="rp-update-date">{formatDate(update.date, 'short')}</span>
                   <span className="rp-update-body">
                     <Link href={`/reports/${report.key}/updates/${update.slug}`} className="rp-update-title">{update.title}</Link>
-                    <span className="rp-update-text">{update.paragraphs[0]}</span>
+                    <span className="rp-update-text">{update.excerpt}</span>
                     <span className="rp-update-foot"><Link href={`/reports/${report.key}/updates/${update.slug}`}>Read the update</Link></span>
                   </span>
                 </li>

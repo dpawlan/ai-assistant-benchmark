@@ -6,6 +6,7 @@ author: David Pawlan
 kind: Analysis
 report: shopping
 update: muse-adds-paypal-and-shopify-checkout
+preview: true
 agents: muse, instinct, grok-bot
 hero_caption: Muse, Instinct and Grok Bot on the purchasing test. Illustration by Assistant Benchmark.
 takeaways: Muse now finishes a Shopify or PayPal order on its own card, in one message | Instinct and the rest still stop at a payment link, which the test credits but readers will not | The card question, not intelligence, now decides the shopping category

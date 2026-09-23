@@ -24,7 +24,7 @@ export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b
                 <span className="rp-update-date">{formatDate(u.date, 'short')}</span>
                 <span className="rp-update-body">
                   <Link href={updatePath(e.report, u)} className="rp-update-title">{u.title}</Link>
-                  <span className="rp-update-text">{u.paragraphs[0]}</span>
+                  <span className="rp-update-text">{u.excerpt}</span>
                   <span className="rp-update-foot">
                     <Link href={updatePath(e.report, u)}>Read the update</Link>
                     {getArticleForUpdate(e.report.key, u.slug) && <Link href={`/articles/${getArticleForUpdate(e.report.key, u.slug)!.slug}`} className="rp-take">Read our take</Link>}
@@ -41,7 +41,7 @@ export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b
                 <span className="rp-update-date">{formatDate(e.date, 'short')}</span>
                 <span className="rp-update-body">
                   <Link href={`/reports/${e.report.key}#pick-${ps.slug}`} className="rp-update-title">{ps.heading}, from {e.report.title}</Link>
-                  <span className="rp-update-text">{ps.paragraphs[0]}</span>
+                  <span className="rp-update-text">{ps.excerpt}</span>
                   <span className="rp-update-foot">
                     <Link href={`/reports/${e.report.key}#pick-${ps.slug}`}>Read it in the report</Link>
                   </span>
@@ -55,7 +55,7 @@ export function ReportEntries({ a, b, aName, bName, focus = [] }: { a: string; b
               <span className="rp-update-date">{formatDate(e.date, 'short')}</span>
               <span className="rp-update-body">
                 <Link href={`/reports/${e.report.key}#competition-${c.slug}`} className="rp-update-title">From {e.report.title}</Link>
-                <span className="rp-update-text">{c.body}</span>
+                <span className="rp-update-text">{c.excerpt}</span>
                 <span className="rp-update-foot">
                   <Link href={`/reports/${e.report.key}#competition-${c.slug}`}>Read it in the report</Link>
                 </span>

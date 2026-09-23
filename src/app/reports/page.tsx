@@ -24,7 +24,7 @@ export default function ReportsPage() {
           One report per question you would actually ask, kept current. Every pick comes from runs of the same published test, and every update names the run behind it.
         </p>
       </div>
-      <p className="rp-preview">Preview with placeholder prose. Scores in the tables are real; the write-ups are illustrative.</p>
+      {reports.some(r => r.preview) && <p className="rp-preview">Preview with placeholder prose. Scores in the tables are real; the write-ups are illustrative.</p>}
 
       {featured && (
         <Link href={`/reports/${featured.key}`} className="rp-featured">
@@ -32,7 +32,7 @@ export default function ReportsPage() {
           <span className="rp-featured-text">
             <span className="rp-eyebrow">Updated {formatDate(featured.updated)}</span>
             <span className="rp-featured-title">{featured.title}</span>
-            <span className="rp-featured-dek">{featured.intro[0]}</span>
+            <span className="rp-featured-dek">{featured.excerpt}</span>
             <PickLine slug={primaryPick(featured)} bySlug={bySlug} />
           </span>
         </Link>

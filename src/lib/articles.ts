@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { isTrue, list, parseFrontmatter, str } from '@/lib/md';
 
 export interface Article {
   slug: string;
@@ -14,6 +15,7 @@ export interface Article {
   hero: string | null;
   heroCaption: string;
   takeaways: string[];
+  preview: boolean;
   body: string;
 }
 
@@ -26,26 +28,22 @@ export type Block =
 const DIR = path.join(process.cwd(), 'data', 'articles');
 
 function parse(slug: string, raw: string): Article {
-  const m = /^---\n([\s\S]*?)\n---\n?([\s\S]*)$/.exec(raw);
-  const meta: Record<string, string> = {};
-  if (m) for (const line of m[1].split('\n')) {
-    const i = line.indexOf(':');
-    if (i > 0) meta[line.slice(0, i).trim()] = line.slice(i + 1).trim();
-  }
+  const { meta, body } = parseFrontmatter(raw);
   return {
     slug,
-    title: meta.title ?? slug,
-    dek: meta.dek ?? '',
-    date: meta.date ?? '',
-    author: meta.author ?? '',
-    kind: meta.kind ?? 'Article',
-    report: meta.report || null,
-    update: meta.update || null,
-    agents: (meta.agents ?? '').split(',').map(s => s.trim()).filter(Boolean),
-    hero: meta.hero || null,
-    heroCaption: meta.hero_caption ?? '',
-    takeaways: (meta.takeaways ?? '').split('|').map(s => s.trim()).filter(Boolean),
-    body: m ? m[2].trim() : raw.trim(),
+    title: str(meta.title, slug),
+    dek: str(meta.dek),
+    date: str(meta.date),
+    author: str(meta.author),
+    kind: str(meta.kind, 'Article'),
+    report: str(meta.report) || null,
+    update: str(meta.update) || null,
+    agents: list(meta.agents),
+    hero: str(meta.hero) || null,
+    heroCaption: str(meta.hero_caption),
+    takeaways: str(meta.takeaways).split('|').map(s => s.trim()).filter(Boolean),
+    preview: isTrue(meta.preview),
+    body,
   };
 }
 

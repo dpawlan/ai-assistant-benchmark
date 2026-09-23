@@ -9,6 +9,7 @@ import { ScoreCell } from '@/components/ScoreCell';
 import { SpeedCell } from '@/components/SpeedCell';
 import { CostMark } from '@/components/CostMark';
 import { ReportCover } from '@/components/ReportCover';
+import { Markdown } from '@/components/Markdown';
 import { getArticleForUpdate, getArticlesForReport } from '@/lib/articles';
 import { ArticleCard } from '@/components/ArticleCard';
 import { getAuthor } from '@/lib/authors';
@@ -43,11 +44,13 @@ export default async function ReportPage({ params }: Props) {
   const author = getAuthor(report.author ?? 'david-pawlan');
 
   const toc: { id: string; label: string }[] = [
-    { id: 'who', label: 'Who this is for' },
-    { id: 'how', label: 'How we tested' },
-    ...report.pick_sections.map(s => ({ id: `pick-${s.slug}`, label: s.heading })),
-    ...(report.competition.length ? [{ id: 'competition', label: 'The competition' }] : []),
-    ...(report.looking_ahead.length ? [{ id: 'ahead', label: 'What to look forward to' }] : []),
+    ...report.sections.map(s =>
+      s.type === 'who' ? { id: 'who', label: 'Who this is for' }
+      : s.type === 'how' ? { id: 'how', label: 'How we tested' }
+      : s.type === 'pick' ? { id: `pick-${s.section.slug}`, label: s.section.heading }
+      : s.type === 'competition' ? { id: 'competition', label: 'The competition' }
+      : s.type === 'ahead' ? { id: 'ahead', label: 'What to look forward to' }
+      : { id: s.id, label: s.heading }),
     ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
     ...(articles.length ? [{ id: 'writing', label: 'Writing about this report' }] : []),
   ];
@@ -78,13 +81,13 @@ export default async function ReportPage({ params }: Props) {
           <p className="rp-byline">
             {ranked.length} assistants tested, {runCount} runs of the same task.
           </p>
-          <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>
+          {report.preview && <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>}
         </div>
         <ReportCover report={report} bySlug={bySlug} size="hero" />
       </header>
 
       <div className="rp-intro">
-        {report.intro.map((p, i) => <p key={i}>{p}</p>)}
+        <Markdown body={report.intro} />
       </div>
 
       <section className="rp-picks" aria-label="Our picks">
@@ -113,74 +116,70 @@ export default async function ReportPage({ params }: Props) {
         </nav>
 
         <article className="rp-article">
-          <section id="who" className="rp-section">
-            <h2>Who this is for</h2>
-            {report.who_for.map((p, i) => <p key={i}>{p}</p>)}
-          </section>
-
-          <section id="how" className="rp-section">
-            <h2>How we tested</h2>
-            {report.how_we_tested.map((p, i) => <p key={i}>{p}</p>)}
-          </section>
-
-          {report.pick_sections.map(s => {
-            const a = bySlug[s.slug];
+          {report.sections.map((sec, i) => {
+            if (sec.type === 'who') return (
+              <section key={i} id="who" className="rp-section"><h2>Who this is for</h2><Markdown body={sec.body} /></section>
+            );
+            if (sec.type === 'how') return (
+              <section key={i} id="how" className="rp-section"><h2>How we tested</h2><Markdown body={sec.body} /></section>
+            );
+            if (sec.type === 'ahead') return (
+              <section key={i} id="ahead" className="rp-section"><h2>What to look forward to</h2><Markdown body={sec.body} /></section>
+            );
+            if (sec.type === 'extra') return (
+              <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} /></section>
+            );
+            if (sec.type === 'pick') {
+              const ps = sec.section;
+              const a = bySlug[ps.slug];
+              return (
+                <section key={i} id={`pick-${ps.slug}`} className="rp-section">
+                  <h2>{ps.heading}</h2>
+                  {a && (
+                    <div className="rp-pick-strip">
+                      <AgentIcon name={a.name} icon={a.icon} size={40} />
+                      <span className="rp-pick-strip-text">
+                        <Link href={`/agents/${a.slug}`}>{a.name}</Link>
+                        <span><ScoreCell value={a.scores[report.dimension]} /> on this test</span>
+                      </span>
+                    </div>
+                  )}
+                  <Markdown body={ps.body} />
+                  {ps.flaws && (
+                    <>
+                      <h3>Flaws but not dealbreakers</h3>
+                      <Markdown body={ps.flaws} />
+                    </>
+                  )}
+                </section>
+              );
+            }
             return (
-              <section key={s.slug} id={`pick-${s.slug}`} className="rp-section">
-                <h2>{s.heading}</h2>
-                {a && (
-                  <div className="rp-pick-strip">
-                    <AgentIcon name={a.name} icon={a.icon} size={40} />
-                    <span className="rp-pick-strip-text">
-                      <Link href={`/agents/${a.slug}`}>{a.name}</Link>
-                      <span><ScoreCell value={a.scores[report.dimension]} /> on this test</span>
-                    </span>
-                  </div>
-                )}
-                {s.paragraphs.map((p, i) => <p key={i}>{p}</p>)}
-                {s.flaws.length > 0 && (
-                  <>
-                    <h3>Flaws but not dealbreakers</h3>
-                    <ul>{s.flaws.map((f, i) => <li key={i}>{f}</li>)}</ul>
-                  </>
-                )}
+              <section key={i} id="competition" className="rp-section">
+                <h2>The competition</h2>
+                <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
+                {sec.entries.map(c => {
+                  const a = bySlug[c.slug];
+                  if (!a) return null;
+                  return (
+                    <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
+                      <div className="rp-competitor-head">
+                        <AgentIcon name={a.name} icon={a.icon} size={32} />
+                        <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
+                        <ScoreCell value={a.scores[report.dimension]} />
+                        {pickAgent && pickAgent.slug !== a.slug && (
+                          <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">
+                            {pickAgent.name} vs {a.name}
+                          </Link>
+                        )}
+                      </div>
+                      <Markdown body={c.body} />
+                    </div>
+                  );
+                })}
               </section>
             );
           })}
-
-          {report.competition.length > 0 && (
-            <section id="competition" className="rp-section">
-              <h2>The competition</h2>
-              <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
-              {report.competition.map(c => {
-                const a = bySlug[c.slug];
-                if (!a) return null;
-                return (
-                  <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
-                    <div className="rp-competitor-head">
-                      <AgentIcon name={a.name} icon={a.icon} size={32} />
-                      <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
-                      <ScoreCell value={a.scores[report.dimension]} />
-                      {pickAgent && pickAgent.slug !== a.slug && (
-                        <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">
-                          {pickAgent.name} vs {a.name}
-                        </Link>
-                      )}
-                    </div>
-                    <p>{c.body}</p>
-                  </div>
-                );
-              })}
-            </section>
-          )}
-
-
-          {report.looking_ahead.length > 0 && (
-            <section id="ahead" className="rp-section">
-              <h2>What to look forward to</h2>
-              {report.looking_ahead.map((p, i) => <p key={i}>{p}</p>)}
-            </section>
-          )}
 
           {report.updates.length > 0 && (
             <section id="updates" className="rp-section">
@@ -192,7 +191,7 @@ export default async function ReportPage({ params }: Props) {
                     <span className="rp-update-date">{formatDate(u.date, 'short')}</span>
                     <span className="rp-update-body">
                       <Link href={updatePath(report, u)} className="rp-update-title">{u.title}</Link>
-                      <span className="rp-update-text">{u.paragraphs[0]}</span>
+                      <span className="rp-update-text">{u.excerpt}</span>
                       <span className="rp-update-foot">
                         <Link href={updatePath(report, u)}>Read the update</Link>
                         {getArticleForUpdate(report.key, u.slug) && (

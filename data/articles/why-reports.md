@@ -5,6 +5,7 @@ date: 2026-09-10
 author: David Pawlan
 kind: From the editor
 report: shopping
+preview: true
 agents:
 hero_caption: The first three reports: shopping, travel and email.
 takeaways: Reports answer one question each and name a pick | Every claim traces to a logged run of the published test | Nothing in a report is sponsored, ever

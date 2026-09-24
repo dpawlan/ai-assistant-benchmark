@@ -64,7 +64,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
-  const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
+  const kindHref = `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const tagMap = getTagMap();

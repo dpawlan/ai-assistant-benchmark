@@ -22,7 +22,7 @@ type KindKey = (typeof KINDS)[number]['key'] | 'all';
 function KindFromUrl({ onKind }: { onKind: (k: KindKey) => void }) {
   const params = useSearchParams();
   const k = params.get('kind');
-  const want: KindKey = k === 'all' ? 'all' : k && isKind(k) ? k : 'general';
+  const want: KindKey = k && isKind(k) ? k : 'all';
   useMemo(() => onKind(want), [want, onKind]);
   return null;
 }
@@ -40,14 +40,14 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
   const router = useRouter();
-  const [kind, setKindState] = useState<KindKey>('general');
+  const [kind, setKindState] = useState<KindKey>('all');
   const [opinion, setOpinion] = useState(false);
   const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
   const setKind = (k: KindKey) => {
     setKindState(k);
-    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+    router.replace(k === 'all' ? '/' : `/?kind=${k}`, { scroll: false });
   };
 
   const counts: Record<string, number> = {};
@@ -101,16 +101,16 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
 
       <div className="rank-bar">
         <div className="kind-bar" role="tablist" aria-label="Group">
+          <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
+            All
+            <span className="kind-n">{agents.length}</span>
+          </button>
           {KINDS.filter(k => counts[k.key]).map(k => (
             <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
               {k.label}
               <span className="kind-n">{counts[k.key]}</span>
             </button>
           ))}
-          <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
-            All
-            <span className="kind-n">{agents.length}</span>
-          </button>
         </div>
         <div className="seg" role="tablist" aria-label="Score source">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setOpinion(false)}>

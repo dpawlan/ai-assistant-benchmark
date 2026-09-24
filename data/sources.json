@@ -3173,6 +3173,94 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-15 from a request-form submission. Domain/handle queries only; handles are best guesses."
+    },
+    "tressa": {
+      "name": "Tressa",
+      "handles": [],
+      "domain": "tressa.chat",
+      "x_queries": [
+        "\"tressa.chat\""
+      ],
+      "reddit_queries": [
+        "\"tressa.chat\""
+      ],
+      "hn_queries": [
+        "\"tressa.chat\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "tressa.chat"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-24 from a request-form submission (issue #374). Domain/handle queries only."
+    },
+    "hermes-agent": {
+      "name": "Hermes Agent",
+      "handles": [
+        "NousResearch"
+      ],
+      "domain": "hermes-agent.nousresearch.com",
+      "x_queries": [
+        "\"hermes-agent.nousresearch.com\"",
+        "@NousResearch"
+      ],
+      "reddit_queries": [
+        "\"hermes-agent.nousresearch.com\""
+      ],
+      "hn_queries": [
+        "\"hermes-agent.nousresearch.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hermes-agent.nousresearch.com",
+        "@NousResearch"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-24 from a request-form submission (issue #381). Domain/handle queries only."
+    },
+    "orlo": {
+      "name": "Orlo",
+      "handles": [],
+      "domain": "orlo.today",
+      "x_queries": [
+        "\"orlo.today\""
+      ],
+      "reddit_queries": [
+        "\"orlo.today\""
+      ],
+      "hn_queries": [
+        "\"orlo.today\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "orlo.today"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-24 from a request-form submission (issue #372). Domain/handle queries only."
+    },
+    "doti": {
+      "name": "Doti",
+      "handles": [],
+      "domain": "heydoti.co",
+      "x_queries": [
+        "\"heydoti.co\""
+      ],
+      "reddit_queries": [
+        "\"heydoti.co\""
+      ],
+      "hn_queries": [
+        "\"heydoti.co\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "heydoti.co"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-24 from a request-form submission (issue #375). Domain/handle queries only."
     }
   },
   "_redact_terms": [

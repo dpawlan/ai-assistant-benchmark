@@ -1,0 +1,31 @@
+{
+  "slug": "hermes-agent",
+  "name": "Hermes Agent",
+  "site": "https://hermes-agent.nousresearch.com/",
+  "handles": [
+    "NousResearch"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hermes Agent is Nous Research's open-source, self-hosted agent with a messaging gateway for Telegram, Discord, Slack, WhatsApp, Signal and email, plus a desktop app and CLI. It keeps persistent memory, writes its own skills, runs natural-language scheduled jobs unattended, delegates to isolated subagents, and can browse the web. MIT licensed; you supply the model access. Requested via the form (issue #381). Same category as OpenClaw: needs a self-hosted setup before testing.",
+  "public_signal": "low",
+  "tagline": "The agent that grows with you.",
+  "icon": "/logos/hermes-agent.png",
+  "kind": "general",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, MIT license; you supply model access",
+    "regions": "Not stated",
+    "channels": [
+      "Telegram",
+      "Discord",
+      "Slack",
+      "WhatsApp",
+      "Signal",
+      "Email",
+      "Desktop app",
+      "CLI"
+    ],
+    "checked": "2026-09-24"
+  }
+}

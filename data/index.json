@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-21",
-  "agent_count": 122,
+  "updated": "2026-09-24",
+  "agent_count": 126,
   "feedback_count": 5655,
-  "confirmed": 95,
+  "confirmed": 99,
   "stretch": 27,
   "agents": [
     {
@@ -2705,6 +2705,95 @@
           "Web"
         ],
         "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "tressa",
+      "name": "Tressa",
+      "status": "confirmed",
+      "site": "https://tressa.chat/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Text your agent from anywhere.",
+      "icon": "/logos/tressa.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Mac app",
+          "Web app"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "Hermes Agent",
+      "status": "confirmed",
+      "site": "https://hermes-agent.nousresearch.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The agent that grows with you.",
+      "icon": "/logos/hermes-agent.png",
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT license; you supply model access",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Discord",
+          "Slack",
+          "WhatsApp",
+          "Signal",
+          "Email",
+          "Desktop app",
+          "CLI"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "orlo",
+      "name": "Orlo",
+      "status": "confirmed",
+      "site": "https://orlo.today/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your favorite meals, zero delivery-app markups.",
+      "icon": "/logos/orlo.png",
+      "kind": "shopping",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Invite-only preview; you pay the restaurant's own prices",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "doti",
+      "name": "Doti",
+      "status": "confirmed",
+      "site": "https://heydoti.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI friend, right inside LINE.",
+      "icon": "/logos/doti.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free to try; nothing to pay stated",
+        "regions": "Not stated",
+        "channels": [
+          "LINE"
+        ],
+        "checked": "2026-09-24"
       }
     }
   ]

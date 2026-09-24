@@ -4007,7 +4007,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 /* Body */
 .art-body { max-width: 680px; margin: 34px auto 0; font-family: var(--art-serif); }
 .art-body p { margin: 0 0 22px; font-size: 19.5px; line-height: 1.62; text-wrap: pretty; }
-.art-body p:first-child { font-family: inherit; font-size: 14px; color: #8a6d00; }
+.art-body p.art-note { font-family: inherit; font-size: 14px; color: #8a6d00; }
 .art-body h2 { margin: 40px 0 14px; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; }
 .art-body b { font-weight: 700; }
 .art-body a { color: var(--blue); text-decoration: none; border-bottom: 1px solid var(--blue-16); }

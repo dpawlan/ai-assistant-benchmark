@@ -26,7 +26,7 @@ export function Markdown({ body }: { body: string }) {
       {toBlocks(body).map((b, i) => (
         <Fragment key={i}>
           {b.type === 'h2' && <h2><Inline text={b.text} /></h2>}
-          {b.type === 'p' && <p><Inline text={b.text} /></p>}
+          {b.type === 'p' && <p className={b.text.startsWith('PREVIEW ONLY') ? 'art-note' : undefined}><Inline text={b.text} /></p>}
           {b.type === 'quote' && <blockquote><Inline text={b.text} /></blockquote>}
           {b.type === 'ul' && <ul>{b.items.map((it, j) => <li key={j}><Inline text={it} /></li>)}</ul>}
         </Fragment>

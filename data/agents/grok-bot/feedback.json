@@ -28589,5 +28589,124 @@
     "notes": "DEV week-long review: freeze/half-data + shared VM logins; not worth $200 yet. Missed by prior scans.",
     "collected_at": "2026-09-23T14:30:00Z",
     "id": "70156fb07999"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "Grok Bot burned the included weekly usage on a multi-bot review loop, then locked the account. Specialist bots (QC, UAT, Coding, UIUX) kept talking after you asked them to stay quiet and send the verdict to Command Agent only. Sidebar: Weekly usage 100% Banner: You've reached your Grok Bot usage limit. It resets in 3 days.",
+    "author": "ting-ting234",
+    "author_name": "ting-ting234",
+    "date": "2026-09-01",
+    "url": "https://forum.cursor.com/t/grok-bot-weekly-usage-hits-100-after-bot-to-bot-reviews-the-user-asked-to-stop/170271",
+    "kind": "bug",
+    "tags": [
+      "quota",
+      "bot-to-bot",
+      "forum",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Cursor Forum bug: bot-to-bot review loop burned weekly pool to 100%.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "9f8aa2ffdf22"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "I just had 5 of my agents talking to each other for 7hours straight with NO Human interaction and burned through a lot of my on demand usage. Where could we appeal this to cursor? I need my $ back.",
+    "author": "Juan_Oliva",
+    "author_name": "Juan Oliva",
+    "date": "2026-09-04",
+    "url": "https://forum.cursor.com/t/grok-bot-weekly-usage-hits-100-after-bot-to-bot-reviews-the-user-asked-to-stop/170271#juan",
+    "kind": "complaint",
+    "tags": [
+      "quota",
+      "on-demand",
+      "bot-to-bot",
+      "forum",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Same thread: 5 agents unsupervised 7h burned on-demand spend.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "21ab87c7d396"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "I can understand what you're saying that it was a display error and he didn't actually use up my cursor quota. However, this completely disrupted my usage plan, resulting in my account running out of balance just 11 days before the next reset. I can't tell anymore. I have to uninstall the bot and never use it again. This lesson is extremely painful.",
+    "author": "z_l",
+    "author_name": "z l",
+    "date": "2026-09-09",
+    "url": "https://forum.cursor.com/t/are-grok-bot-usage-and-cursor-usage-separate/170875#uninstall",
+    "kind": "complaint",
+    "tags": [
+      "quota",
+      "dashboard",
+      "uninstall",
+      "forum",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Forum: display confusion led user to uninstall Grok Bot after balance shock.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "f8cdb84c7489"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "Hey, good question. Grok Bot usage is separate from your Cursor quota. On Pro, Grok Bot has its own weekly allowance, and the Cursor Models monthly quota is only used by what you do inside the Cursor app. … The `grok-bot-default` line under Cursor Models is a known display issue we're tracking. … If Grok Bot's weekly allowance hits 100%, further Grok Bot usage may switch to on-demand if it's enabled. To prevent that, you can set the on-demand limit to $0. Cloud agents launched by Grok Bot are billed as Cursor usage, because they run in Cursor.",
+    "author": "deanrie",
+    "author_name": "Dean Rie (Cursor)",
+    "date": "2026-09-09",
+    "url": "https://forum.cursor.com/t/are-grok-bot-usage-and-cursor-usage-separate/170875",
+    "kind": "other",
+    "tags": [
+      "quota",
+      "billing",
+      "staff",
+      "forum",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Cursor staff: separate weekly pool; display grouping bug; cloud-agent exception.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "488a9610eda5"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "Anything Grok Bot does on its own comes out of the weekly Grok Bot allowance: normal chats, routines and scheduled automations, browser and computer use, shell commands on the bot's machine, its sub-agents, MCP calls, and repo work on the bot's own machine. … The one exception … is when the bot hands work off to a Cursor cloud agent … Those runs bill to your Cursor plan like a normal cloud agent. … Can a single task spend from both pools at the same time … Yes, but only in one case: when the bot launches a cloud agent.",
+    "author": "deanrie",
+    "author_name": "Dean Rie (Cursor)",
+    "date": "2026-09-10",
+    "url": "https://forum.cursor.com/t/can-cursor-clarify-exactly-which-grok-bot-usage-counts-against-the-weekly-pool-vs-cursor-models-other-models/170951",
+    "kind": "other",
+    "tags": [
+      "quota",
+      "cloud-agent",
+      "billing",
+      "staff",
+      "forum",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Staff definitive metering table: weekly pool covers bot work; dual-charge only if cloud agent launched.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "9f650bd79c49"
+  },
+  {
+    "agent": "grok-bot",
+    "quote": "Worth trying. Not yet worth reorganizing your business around. … The recurring costs are just as documented: weekly allowances that heavy use exhausts in days, a browser layer that crashes at the center of a browser-first product, and controls that are not there yet. If you would be subscribing solely for Grok Bot, the current evidence says wait.",
+    "author": "Nitish Garg",
+    "author_name": "Nitish Garg (CellCog)",
+    "date": "2026-09-09",
+    "url": "https://cellcog.ai/blog/is-grok-bot-worth-it/",
+    "kind": "comparison",
+    "tags": [
+      "review",
+      "quota",
+      "reliability",
+      "web"
+    ],
+    "source": "web",
+    "notes": "CellCog early verdict (updated Sep 9; competitor disclosure): try, don't rebuild on it yet.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "45246ff69506"
   }
 ]

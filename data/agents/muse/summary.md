@@ -99,5 +99,7 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-23 vault scan (+12 rows):** CNN hands-on (Eadicicco, 23 Sep): date-night booking + packing schedule + trip planning worked; stale closed-venue data; Target blocks autonomous checkout; Marketplace Ideas oversell vs draft-only. mouse.dev/HN (22 Sep): user exported 6.8GB session root filesystem (Hatch internals, SSH keys); Meta bounty NA. HN: ToS-breaking poker bots; capable but approval-heavy (student switching Muse↔Instinct). Data Today (20 Sep): hallucinated notification-preview access; Meta apologized. Why So Geek/Malwarebytes (22 Sep): Wardle dictation-endpoint Mac exploit + hotfix. Techlicious/Reuters (22 Sep): human concierge behind public beta calls, no opt-out. Futurism/Wired (22 Sep): data-upsell creepiness framing.
 
-**Feedback rows:** 153 (as of 2026-09-23)
-**Kinds:** other=62, use-case=30, praise=14, complaint=16, comparison=10, bug=12
+- **2026-09-24 vault scan (+13 rows):** Slate hands-on (Kirshner, 23 Sep): airline captcha + session kick; 30 min fail vs 5 min self-book; Amazon merchant veto framed as core threat. Verge evening hands-on (Johnson, 23 Sep): Marley shopping after Stripe Link; trust blast-radius after short session; junk-removal RFQ→same-day booking; Amazon ToS block fallback. WIRED original (Rogers, 20 Sep): data-upsell thesis + bank-link nudge; EPIC counsel on default-on training opt-out; deleted Muse post connect-apps nudge. TechSpot/Reuters (23 Sep): contractor racist remark on bill-negotiate call; success rate jump with human concierge. BI (21 Sep): training opt-out path under Data Controls.
+
+**Feedback rows:** 166 (as of 2026-09-24)
+**Kinds:** other=64, use-case=31, praise=14, complaint=21, comparison=10, bug=13

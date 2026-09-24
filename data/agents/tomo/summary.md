@@ -19,4 +19,11 @@ _Updated 2026-09-09 weekday vault scan (+1 rows)._
 _Updated 2026-09-15 weekday vault scan (+1 row)._
 
 **New this scan:**
-- (2026-07-13) UseCarly Poke vs Tomo: "Tomo if you want a coach that keeps you accountable to your own goals and habits." 
+- (2026-07-13) UseCarly Poke vs Tomo: "Tomo if you want a coach that keeps you accountable to your own goals and habits."
+
+_Updated 2026-09-24 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-11) App Store reviewer (via Saner.AI): Tomo slow replies + 75 msg/day cap.
+
+**Feedback rows:** 67 (as of 2026-09-24) 

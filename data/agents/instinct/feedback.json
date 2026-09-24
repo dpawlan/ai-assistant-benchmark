@@ -4829,5 +4829,63 @@
     "notes": "Stack pick: Instinct primary; Grok Bot / Hermes / OpenClaw for other lanes.",
     "collected_at": "2026-09-23T14:30:00Z",
     "id": "79573d0c2068"
+  },
+  {
+    "agent": "instinct",
+    "quote": "At 8:13 a.m., I texted Instinct: \"I want to cancel my YMCA membership.\" … The YMCA website dropped the connection during login. Instinct told me nothing had been canceled and asked for a fresh code. It needed one more code before it got through. Then it reported that the membership was canceled and that there were no scheduled payments, and I received the confirmation email. By 11:30, it was texting me to ask what else I'd been meaning to get done. … I never had to sit down at my desk.",
+    "author": "Emilie Schario",
+    "author_name": "Emilie Schario (Kilo Blog)",
+    "date": "2026-09-23",
+    "url": "https://blog.kilo.ai/p/i-canceled-my-ymca-membership-by",
+    "kind": "use-case",
+    "tags": [
+      "imessage",
+      "cancellation",
+      "approval",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Kilo Sep 23: YMCA cancel via iMessage; site drop honesty + confirmation email.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "907cfa499564"
+  },
+  {
+    "agent": "instinct",
+    "quote": "Instinct did well on those questions in this case. When the site failed, it didn't claim success. Before submitting, it gave me the end date and the charge I would avoid, then asked for approval. Afterward, I had a confirmation email. The point wasn't that I never had to touch the task. I was still the person who could authorize canceling my family's membership. The point was that I didn't have to own every step between the initial request and the result.",
+    "author": "Emilie Schario",
+    "author_name": "Emilie Schario (Kilo Blog)",
+    "date": "2026-09-23",
+    "url": "https://blog.kilo.ai/p/i-canceled-my-ymca-membership-by#approval",
+    "kind": "praise",
+    "tags": [
+      "trust",
+      "approval",
+      "honesty",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Kilo: Instinct honesty + pre-submit approval framing for consequential cancel.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "f48f8a921cb7"
+  },
+  {
+    "agent": "instinct",
+    "quote": "A friend of mine uses Instinct, the A.I. tool at issue here, for reservations multiple times per week. He actually uses his reservations, but you can imagine people using agents to hoard tables, or the human user not realizing the agent booked a table and the restaurant being stuck with a no-show.",
+    "author": "Alex Kirshner",
+    "author_name": "Alex Kirshner (Slate)",
+    "date": "2026-09-23",
+    "url": "https://slate.com/technology/2026/09/meta-muse-ai-app-review.html#instinct-reservations",
+    "kind": "comparison",
+    "tags": [
+      "reservations",
+      "scarcity",
+      "vs-muse",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Slate aside: Instinct weekly Resy use + agent reservation-scarcity worry.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "0b91a18e535c"
   }
 ]

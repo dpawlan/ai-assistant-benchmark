@@ -65,3 +65,10 @@ _Updated 2026-09-18 weekday vault scan (+4 rows)._
 - (2026-08-01) Saner.AI review: "runs my day" praise; credit overage complaint; Mac app document-editing bugs.
 - (2026-09-08) Board Brief author hands-on with Town alongside Instinct and Grok Bot.
 
+_Updated 2026-09-24 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-11) Ivy (Saner.AI): Town credit metering unpredictability called out.
+
+**Feedback rows:** 307 (as of 2026-09-24)
+

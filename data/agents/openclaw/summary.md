@@ -22,4 +22,6 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-23 vault scan (+3 rows):** Trail of Bits audit recap (21 Sep): 24 severity-rated vulnerabilities (0 Critical, 2 High, 16 Medium, 6 Low); all fixed in 2026.8.1 / 2026.7.33 LTS. Audit lesson: mid-run permission changes must re-check tools. Emergent Windows retest (8 Sep; missed by prior scans): install OK, live memory task fails post-OAuth; not first-pick for simple assistant.
 
-**Feedback rows:** 15 (as of 2026-09-23)
+- **2026-09-24 vault scan (+3 rows):** arXiv CIK-Bench (Wang et al., Apr 2026): live OpenClaw eval; ASR 24.6%→64–74% under CIK poisoning. RuntimeWire analysis (21 Sep): Trail of Bits audit permission loss across agent handoffs. Saner Muse-alts roundup (11 Sep): OpenClaw power vs CLI setup friction.
+
+**Feedback rows:** 18 (as of 2026-09-24)

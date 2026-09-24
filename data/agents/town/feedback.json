@@ -7521,5 +7521,24 @@
     "source": "web",
     "collected_at": "2026-09-21T14:30:00Z",
     "notes": "Catch ranking #11: Town framed as WhatsApp micro-task shortcut, not full EA."
+  },
+  {
+    "agent": "town",
+    "quote": "Town AI offers an autonomous personal assistant feature that acts as a digital worker—learning your habits to manage schedules, draft emails, and handle routine workflows across your entire tech stack. … Higher usage and background automation runs consume credits, making monthly usage expenses variable.",
+    "author": "Ivy",
+    "author_name": "Ivy (Saner.AI)",
+    "date": "2026-09-11",
+    "url": "https://www.saner.ai/blogs/best-muse-ai-alternatives#town",
+    "kind": "other",
+    "tags": [
+      "credits",
+      "automation",
+      "review",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Saner Muse-alts: Town credit metering unpredictability called out.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "c1baed58fb3d"
   }
 ]

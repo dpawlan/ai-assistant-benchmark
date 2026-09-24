@@ -82,5 +82,7 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-23 vault scan (+6 rows):** Cursor Forum quota burn thread (Aug–Sep): Pro+ 77% in 2 days; SuperGrok+ day-1 burn + $20 on-demand gone in 3h; Ultra 65%→99% in 3 days; best-app praise + API cost pain; 0.47.0 silent no-reply was quota exhausted without banner (staff confirmed). DEV Community (17 Aug): week-long review — freeze/half-data reliability + shared VM logins across bots; not worth $200 yet.
 
-**Feedback rows:** 1179 (as of 2026-09-23)
+- **2026-09-24 vault scan (+6 rows):** Cursor Forum quota burn (Aug–Sep): bot-to-bot review loop burned weekly pool 100% (ting-ting234); 5 agents unsupervised 7h burned on-demand (Juan Oliva); display confusion led to uninstall (z l). Staff clarification (deanrie): separate weekly pool; cloud-agent exception. CellCog early verdict (Nitish Garg, 9 Sep): try, don't rebuild on it yet; weekly allowance and browser crashes.
+
+**Feedback rows:** 1185 (as of 2026-09-24)
 

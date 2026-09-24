@@ -118,5 +118,12 @@ _Updated 2026-09-23 weekday vault scan (+4 rows)._
 - (2026-09-18) AI by Aakash: Cautions — $200 no-show flight fees from wrong bookings; spend-limited card advice; account-ban risk from aggressive botting.
 - (2026-09-18) AI by Aakash: Stack pick — Instinct primary; Grok Bot/Hermes/OpenClaw for other lanes.
 
-**Feedback rows:** 220 (as of 2026-09-23)
+_Updated 2026-09-24 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-23) Emilie Schario (Kilo Blog): YMCA membership cancel via iMessage; site drop honesty + confirmation email.
+- (2026-09-23) Emilie Schario (Kilo Blog): Instinct honesty + pre-submit approval framing for consequential cancel.
+- (2026-09-23) Alex Kirshner (Slate): Instinct weekly Resy use aside; agent reservation-scarcity worry.
+
+**Feedback rows:** 223 (as of 2026-09-24)
 

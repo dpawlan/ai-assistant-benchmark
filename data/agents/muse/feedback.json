@@ -3390,5 +3390,256 @@
     "notes": "Futurism Sep 22 synthesizing Aten + Wired Rogers data-upsell creepiness.",
     "collected_at": "2026-09-23T14:30:00Z",
     "id": "e72f6cb988cc"
+  },
+  {
+    "agent": "muse",
+    "quote": "My first experience with Muse was on Monday. I needed to book a flight for myself and my wife. I found it myself on Google Flights, then, for journalistic reasons, asked Muse to take a crack at the booking. I put my airline login credentials in Muse's vault, but Muse met a terrifying obstacle, a captcha page, and asked me if I should take over or if it should attempt to pass the test asking if it was a human. Authorized to try, Muse failed; I took over and logged in, then passed the sticks back to the agent. It got kicked out of the browser a few minutes later. The process took 30 minutes and achieved nothing. I then booked the flights myself at a cost of five minutes and just over $500.",
+    "author": "Alex Kirshner",
+    "author_name": "Alex Kirshner (Slate)",
+    "date": "2026-09-23",
+    "url": "https://slate.com/technology/2026/09/meta-muse-ai-app-review.html#captcha-flight",
+    "kind": "complaint",
+    "tags": [
+      "travel",
+      "captcha",
+      "booking",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Slate hands-on Sep 23: airline captcha + session kick; 30 min fail vs 5 min self-book.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "4eef1bcfb252"
+  },
+  {
+    "agent": "muse",
+    "quote": "Amazon is blocking Muse from shopping on its platform, similar to how it was already fighting another A.I. business, Perplexity, over its shopping tool. … There is no more obvious implementation of a tool like Muse than online shopping, and the king of American e-commerce is just saying no.",
+    "author": "Alex Kirshner",
+    "author_name": "Alex Kirshner (Slate)",
+    "date": "2026-09-23",
+    "url": "https://slate.com/technology/2026/09/meta-muse-ai-app-review.html#amazon-block",
+    "kind": "other",
+    "tags": [
+      "shopping",
+      "amazon",
+      "merchant-block",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Slate: Amazon merchant veto framed as core threat to Muse value prop.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "25bd2028a771"
+  },
+  {
+    "agent": "muse",
+    "quote": "It is shockingly easy to spend money when a cute little guy is running around the internet with your credit card.",
+    "author": "Allison Johnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-09-23",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping#spend",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "payments",
+      "stripe",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Verge Sep 23 evening hands-on: Marley shopping after Stripe Link connect.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "dd89ea38524b"
+  },
+  {
+    "agent": "muse",
+    "quote": "I'd been using it for all of 40 minutes and already given it my full name, address, credit card number, a photo of my backyard, and the credentials for my home security account login. Going great, I'd say! If AI decides to kill us all I just secured my spot at the front of the line.",
+    "author": "Allison Johnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-09-23",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping#trust",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "credentials",
+      "trust",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Verge: trust blast-radius after short session (address, card, security login).",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "cdb1c3ad517c"
+  },
+  {
+    "agent": "muse",
+    "quote": "It made an attempt to access Amazon and was roundly blocked, complete with a spicy message about AI agents violating terms of service. Anyway, it found what I was looking for between OXO's own website and Walmart.",
+    "author": "Allison Johnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-09-23",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping#amazon-tos",
+    "kind": "bug",
+    "tags": [
+      "amazon",
+      "shopping",
+      "merchant-block",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Verge camping-gear shop: Amazon ToS block; fallback to OXO/Walmart worked.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "b6f98e565464"
+  },
+  {
+    "agent": "muse",
+    "quote": "Marley was most useful here — it set off looking through listings for hauling services and highlighted a few in the area. It asked for my address, phone number, and a photo of the tree limb, and used that information to put together requests for quotes from a couple of companies using online form submissions. I got a text back from one company not long after, and confirmed a time the following day for tree limb removal.",
+    "author": "Allison Johnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-09-23",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping#junk-removal",
+    "kind": "use-case",
+    "tags": [
+      "forms",
+      "quotes",
+      "local-services",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Verge: junk-removal RFQ via forms → same-day booking confirm.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "52e521ae7462"
+  },
+  {
+    "agent": "muse",
+    "quote": "But after a few days with Muse, I'm convinced this AI tool is more obsessed with collecting data about me than actually getting stuff done.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-09-20",
+    "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "data-collection",
+      "hands-on",
+      "web"
+    ],
+    "source": "web",
+    "notes": "WIRED original (Futurism republished earlier); data-upsell thesis.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "c1b92b34be05"
+  },
+  {
+    "agent": "muse",
+    "quote": "The day after I said I wanted help saving money for a fancy vacation, Muse offered to \"wire your savings tracker to your real balance\" if I just tapped a few buttons and linked the data from my checking and savings accounts. \"Then the weekly summaries and drift alerts work off real numbers instead of hand-entered estimates,\" it said.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-09-20",
+    "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/#bank-link",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "banking",
+      "upsell",
+      "web"
+    ],
+    "source": "web",
+    "notes": "WIRED: Ideas tab bank-link nudge after vacation savings goal.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "2f212a78ab90"
+  },
+  {
+    "agent": "muse",
+    "quote": "Consumer advocates see Meta forcing Muse users to opt out of AI data training as a major red flag. \"This tells me they have not learned from past mistakes and undermines their argument that you should trust Muse with all your information even further,\" says Calli Schroeder, senior counsel at the Electronic Privacy Information Center.",
+    "author": "Calli Schroeder",
+    "author_name": "Calli Schroeder (EPIC via WIRED)",
+    "date": "2026-09-20",
+    "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/#training-optout",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "training-data",
+      "opt-out",
+      "web"
+    ],
+    "source": "web",
+    "notes": "EPIC counsel on default-on Muse training opt-out.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "1ec05e80348f"
+  },
+  {
+    "agent": "muse",
+    "quote": "While Muse is powerful, I've decided to send this data goblin back to its cave, and deleted the app after my initial experiments. Before I could remove Muse from my phone, the agent sent me one final ping. A tip! I wonder what it could be. \"Connect your apps so I can do more,\" the notification read.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-09-20",
+    "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/#deleted",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "uninstall",
+      "proactive",
+      "web"
+    ],
+    "source": "web",
+    "notes": "WIRED: deleted Muse; final connect-apps nudge.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "d66f6ef9ef3d"
+  },
+  {
+    "agent": "muse",
+    "quote": "One employee who asked Muse to call an internet and cable provider to negotiate his bill said a transcript showed that the contractor had made a racist reference during the call. Meta apologized to the employee and said the human agent involved would not work on any of its projects again.",
+    "author": "Rob Thubron",
+    "author_name": "Rob Thubron (TechSpot)",
+    "date": "2026-09-23",
+    "url": "https://www.techspot.com/news/113957-meta-muse-ai-used-human-contractors-calls-including.html#racist-remark",
+    "kind": "complaint",
+    "tags": [
+      "phone",
+      "human-concierge",
+      "safety",
+      "web"
+    ],
+    "source": "web",
+    "notes": "TechSpot/Reuters follow-on: contractor racist remark on bill-negotiate call; feature rolled back.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "8559f7bf69e3"
+  },
+  {
+    "agent": "muse",
+    "quote": "Internal tests found that handing calls to human agents could increase the success rate to between 95% and 98%, compared with a much lower rate for calls handled entirely by AI.",
+    "author": "Rob Thubron",
+    "author_name": "Rob Thubron (TechSpot)",
+    "date": "2026-09-23",
+    "url": "https://www.techspot.com/news/113957-meta-muse-ai-used-human-contractors-calls-including.html#success-rate",
+    "kind": "other",
+    "tags": [
+      "phone",
+      "human-concierge",
+      "metrics",
+      "web"
+    ],
+    "source": "web",
+    "notes": "TechSpot: internal Muse call success jump with human concierge.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "45bb7c053684"
+  },
+  {
+    "agent": "muse",
+    "quote": "Muse offers users a way to opt out of having their data used to improve the company's AI models. … Once you're in Settings, you'll click on \"Data Controls\" … And finally, you'll switch the toggle for \"Help improve our AI models\" off.",
+    "author": "Brent D. Griffiths",
+    "author_name": "Brent D. Griffiths (Business Insider)",
+    "date": "2026-09-21",
+    "url": "https://www.businessinsider.com/meta-muse-stop-ai-training-data-2026-9",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "training-data",
+      "settings",
+      "web"
+    ],
+    "source": "web",
+    "notes": "BI how-to: Muse training opt-out path under Data Controls.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "2664d71e66fa"
   }
 ]

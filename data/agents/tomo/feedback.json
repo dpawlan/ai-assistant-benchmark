@@ -8,7 +8,11 @@
     "date": "2026-07-13",
     "url": "https://www.usecarly.com/blog/poke-vs-tomo/#tomo",
     "kind": "comparison",
-    "tags": ["vs-poke", "accountability", "web"],
+    "tags": [
+      "vs-poke",
+      "accountability",
+      "web"
+    ],
     "source": "web",
     "collected_at": "2026-09-15T13:55:00Z",
     "notes": "Same UseCarly comparison; Tomo framed as accountability coach not logistics assistant."
@@ -1555,5 +1559,24 @@
       "views": 9491,
       "fetched": "2026-09-11"
     }
+  },
+  {
+    "agent": "tomo",
+    "quote": "\"Tomo is extremely slow at replying, and you're limited to only 75 messages a day.\"",
+    "author": "App Store reviewer via Ivy",
+    "author_name": "App Store reviewer (via Saner.AI)",
+    "date": "2026-09-11",
+    "url": "https://www.saner.ai/blogs/best-muse-ai-alternatives#tomo-slow",
+    "kind": "complaint",
+    "tags": [
+      "speed",
+      "limits",
+      "app-store",
+      "web"
+    ],
+    "source": "web",
+    "notes": "Saner Muse-alts citing App Store: Tomo slow replies + 75 msg/day cap.",
+    "collected_at": "2026-09-24T14:10:00Z",
+    "id": "20dd8972df1a"
   }
 ]

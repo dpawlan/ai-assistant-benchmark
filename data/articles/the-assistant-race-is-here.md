@@ -40,9 +40,24 @@ The best test of this is a small one. I book a flight to Chicago for a weekend, 
 
 I use Instinct more than anything else, because it lives in iMessage and that is where I live. The first time it checked me in for a flight without being asked, and sent the boarding pass with the seat and PreCheck already on it, was the moment this category became real for me. It handles my life admin. It asks who I am meeting before a call and gives me context. Its routines have been [flawless](/agents/instinct) and its memory is the best in the group after Muse.
 
+It is also the one that produces the stories. A friend of mine got on the jumbotron at the US Open with her boyfriend and wanted the footage. She [asked Instinct](https://x.com/oliviaalevine/status/2095705075633000815) mostly as a joke. Within twelve minutes it had filed a case with the USTA and emailed the ticket office, the production company and the US Open's media contact; overnight it went through ESPN's highlight package frame by frame. The clip was in her inbox eighteen hours later. A person at the production company made the final call, but nobody would have asked without the assistant doing the asking. That is what these are for.
+
 It also had a bad week. Users have been getting capacity warnings for a while; on the 24th [the slowdowns became a story](https://sg.news.yahoo.com/instinct-users-theyve-noticed-slowdown-163111405.html) and the founder acknowledged them. I run group chats with over a thousand people who use these things every day, and what struck me was not the complaints. It was that there was no deliberation. "It's so slow, I switched to Muse today." Not a debate, a reflex.
 
 That is the thing the launch coverage cannot see. Context used to be the moat. Now it is an email and calendar connection, and it takes four minutes to rebuild somewhere else. When Instinct and Muse are both effectively free, a slow day is a churn event. I struggle to see how a paid tier survives in this market, and I struggle to see how the free ones pay for the inference either. That is not a prediction about Instinct. It is a question every company on my roster has to answer.
+
+## What people actually do with them
+
+I run six group chats for people who use these assistants every day, a bit over a thousand people in total. Since launch I have been counting the threads where someone described a specific thing they had done with one, not opinions, not takes, an actual instance. This is tech Twitter, so it is nothing like the general public, but it is the closest thing to usage data anyone outside the companies has.
+
+- Coordinating several agents at once: 54
+- Life admin: 43
+- Memory and shared context between tools: 40
+- Money, meaning investing and trading: 36
+- Coding and developer workflows: 36
+- Buying, booking and other real transactions: 29
+
+The thing that goes viral on X, an assistant watching your flight prices or booking your trip, is the bottom of that list. The top of it is people wiring agents together and getting their own context to follow them around. The early adopters are not using these to be ten percent more efficient at errands. They are building a personal operating system, and they will move it to whichever assistant runs it fastest.
 
 ## Grok Bot is a different product
 

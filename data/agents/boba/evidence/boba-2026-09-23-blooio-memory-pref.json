@@ -1,0 +1,70 @@
+{
+  "id": "boba-2026-09-23-blooio-memory-pref",
+  "agent": "boba",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-23",
+  "signals": {
+    "probe_type": "preference_recall",
+    "seeded_at": "2026-09-10",
+    "seed_confirmed": true,
+    "ask_mentioned_aisle_or_pork": false,
+    "applied_aisle_unprompted": true,
+    "applied_no_pork_unprompted": true,
+    "remind_used": false,
+    "preference_subscore": 10,
+    "city_subscore_prior": 6,
+    "final_memory": 6,
+    "stop_before_pay": true
+  },
+  "seed_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-10 21:25:32 ET",
+      "text": "All clear on those. One preference to remember for later: I always want aisle seats and I don\u2019t eat pork."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-10 21:25:42 ET",
+      "text": "Got it - aisle seats, no pork. I'll hold onto those here.\n\nBut I want to be straight: my memory across conversations is very limited. I only persist your name and timezone - everything else, including these, stays in the chat where you told me. So in a new conversation, I won't know them unless you tell me again. I'd rather you knew that upfront than find out later."
+    }
+  ],
+  "probe_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-23 10:46:08 ET",
+      "text": "Book me a round-trip flight from New York to Miami, leaving Friday morning and back Sunday evening, under $400. Also find a dinner reservation for two on Saturday night somewhere good \u2014 not a chain."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 10:46:30 ET",
+      "text": "quick one - which friday/sunday? I want to nail the exact dates before I start pulling flights."
+    },
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-23 10:48:09 ET",
+      "text": "This Friday Sep 25 morning out, Sunday Sep 27 evening back. Dinner Saturday Sep 26 night."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 10:48:22 ET",
+      "text": "searching both now"
+    },
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-23 10:53:17 ET",
+      "text": "Any update? Stage the flight options with the seats you'd pick for me, and share a couple dinner options for Saturday. Stop before any payment or passenger forms."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 10:53:29 ET",
+      "text": "flights are in, dinners still running - let me share what I have while the other kicks off"
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 10:54:36 ET",
+      "text": "Here's both:\n\n**Flight - NYC to Miami, nonstop**\n\nHonestly, nonstop round-trip for this weekend blew past $400 - lowest I found was $511 on American:\n\nOutbound Fri Sep 25: AA 655, JFK 5:50 AM \u2192 MIA 8:58 AM (or AA 2017 at 7:25 AM \u2192 10:34 AM)\nReturn Sun Sep 27: AA 2600, MIA 6:36 PM \u2192 JFK 9:40 PM (or AA 1357 at 8:00 PM \u2192 11:05 PM)\n\nOn aisle seats - standard economy lets you select for free. On a typical narrowbody 3-3 layout, C and D are aisle. I'd grab something forward in standard, like 14C or 15C on each, to be close to the front - quieter, quicker off the plane.\n\nNo booking entered, no payment. Want me to check one-stop options that might actually come in under $400, or does nonstop at $511 work?\n\n**Dinner - Saturday Sep 26, 2 people, Miami**\n\n**Ghee Indian Kitchen** - Wynwood, ~$45-70/person. Farm-to-table Gujarati/Indian - ghost pepper cheddar naan, smoked eggplant with roti, seasonal veg curry from the chef's own farm. Entirely pork-free, which hits for you. Reservations on OpenTable - for 2 on a Saturday, no card needed, just guest name and confirm.\n\n**DOYA** - Wynwood, ~$55-80/person. Michelin Bib Gourmand Aegean - meze, muhammara, wood-fired zucchini chips, roasted mushrooms with truffle oil. Heavy vegetarian, essentially no pork. OpenTable as well.\n\n**Mandolin Aegean Bistro** - Design District, ~$60-85/person. Greek/Turkish - meze sampler, baked feta, grilled halloumi, spanakopita. Pork is practically nonexistent on this menu. Resy though, not OpenTable.\n\nMy pick: **Ghee**. It's on OpenTable, the food is exceptional, it's pork-free, the vegetarian dishes are the stars - not an aside - and booking for 2 is a standard no-card hold on OpenTable. You'd search it, pick Sept 26 at 7:30, enter David Pawlan, and confirm.\n\nStopping at everything - no payment, no forms, nothing submitted. Let me know if you want me to chase those one-stop flights under $400."
+    }
+  ],
+  "published_at": "2026-09-23T00:00:00.000Z"
+}

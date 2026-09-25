@@ -1,0 +1,19 @@
+{
+  "id": "catch-2026-09-24-1bcfd4",
+  "agent": "catch",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-09-24",
+  "signals": {
+    "turns": 24,
+    "my_messages": 7,
+    "agent_messages": 17,
+    "first_reply_s": 39,
+    "duration_min": 14629,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-24T15:28:33.300Z"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "flip-2026-09-18-eda9ee",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-09-18",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Explained up front that bank access runs through Plaid, is read-only and never sees the login; moving money needs explicit approval.",
+    "evidence_url": "/agents/flip/evidence/flip-2026-09-18-eda9ee"
+  },
+  {
+    "id": "flip-2026-09-18-ed10ef",
+    "category": "personality",
+    "protocol": "observed",
+    "date": "2026-09-18",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Warm and direct, but the sign-up bonus it promised did not apply, it admitted mixing up two offers, and cancelling needed a reason first.",
+    "evidence_url": "/agents/flip/evidence/flip-2026-09-18-ed10ef"
+  },
+  {
+    "id": "flip-2026-09-19-117f9d",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-09-19",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Kept digging unprompted a day later: an unreconciled brokerage transfer, idle cash in checking, and recurring charges matching no loan.",
+    "evidence_url": "/agents/flip/evidence/flip-2026-09-19-117f9d"
+  }
+]

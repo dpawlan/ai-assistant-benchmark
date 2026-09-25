@@ -195,6 +195,8 @@ export interface AgentMeta {
   public_signal?: PublicSignal;
   likely_applicable?: string[];
   tagline?: string;
+  /** Editorial override for the list's 'best at' line: two category keys. */
+  best_at?: string[];
   icon?: string | null;
   /** Peer group: general | travel | email | finance | shopping | games | work | infra. */
   kind?: string;
@@ -213,6 +215,8 @@ export interface RosterEntry {
   feedback_count: number;
   public_signal: PublicSignal;
   tagline?: string;
+  /** Editorial override for the list's 'best at' line: two category keys. */
+  best_at?: string[];
   icon?: string | null;
   kind?: string;
   access?: Access;
@@ -235,6 +239,8 @@ export interface Agent {
   feedbackCount: number;
   publicSignal: PublicSignal;
   tagline: string;
+  /** Editorial override for the list's 'best at' line: two category keys. */
+  bestAt?: string[];
   icon: string | null;
   /** Peer group; see src/lib/kinds.ts. */
   kind: string;

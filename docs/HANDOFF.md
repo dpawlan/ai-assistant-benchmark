@@ -77,3 +77,7 @@ David's Grok Bot bots are private: never publish their names (runs.json notes, u
 ## Amy identity evals
 
 For the **Amy Zinger** first-run identity (channels, Town Wave 1 status, what’s next), see [`docs/amy-identity-handoff.md`](./amy-identity-handoff.md).
+
+## Reports and articles
+
+Editorial content (reports, updates, articles, authors) is markdown under `data/`; the format is in `docs/WRITING.md`. Work on the `reports-preview` branch until the first real report and article are written; do not merge it to main before then.

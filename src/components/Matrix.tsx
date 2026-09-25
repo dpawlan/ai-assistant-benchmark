@@ -56,7 +56,7 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
 function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
-  const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
+  const kind = isKind(kindParam) ? kindParam : 'all';
   useEffect(() => {
     onKind(kind);
   }, [kind, onKind]);
@@ -66,7 +66,7 @@ function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
 export function Matrix({ agents, categories, short, compact = false }: MatrixProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const [kind, setKindState] = useState<string>('general');
+  const [kind, setKindState] = useState<string>('all');
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
@@ -78,7 +78,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   const setKind = (k: string) => {
     track('kind_filter', { kind: k });
     setKindState(k);
-    router.replace(k === 'general' ? pathname : `${pathname}?kind=${k}`, { scroll: false });
+    router.replace(k === 'all' ? pathname : `${pathname}?kind=${k}`, { scroll: false });
   };
 
   const statusOf = useMemo(() => {
@@ -110,23 +110,15 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   }, [kindPool]);
   const inKind = useMemo(() => (cost === 'all' ? kindPool : kindPool.filter(a => costOf(a.access?.pricing) === cost)), [kindPool, cost]);
 
-  // Public opinion view: one group when a kind is selected; every kind in display order when showing all.
-  const groups = useMemo(() => {
-    const kinds = kind === 'all' ? KINDS.map(k => k.key).filter(k => counts[k]) : [kind];
-    return kinds.map(k => ({ key: k, title: KIND_LABEL[k] ?? k, rows: sortAgents(inKind.filter(a => a.kind === k), sort, view) }));
-  }, [inKind, sort, view, kind, counts]);
+  // One flat group, ranked by the sort key. "All" is a single ranking across kinds, not sub-groups.
+  const groups = useMemo(() => [{ key: kind, title: KIND_LABEL[kind] ?? 'All', rows: sortAgents(inKind, sort, view) }], [inKind, sort, view, kind]);
 
-  /** Benchmark view: outer sections by status, kind sub-groups inside when showing all kinds. */
+  /** Benchmark view: outer sections by status, one flat ranking inside each. */
   const sections = useMemo(() => {
     const wanted = status === 'all' ? STATUS_ORDER : [status];
     return wanted.map(s => {
       const rows = inKind.filter(a => statusOf.get(a.slug) === s);
-      const kinds = kind === 'all' ? KINDS.map(k => k.key).filter(k => rows.some(a => a.kind === k)) : [kind];
-      return {
-        status: s,
-        count: rows.length,
-        groups: kinds.map(k => ({ key: k, title: KIND_LABEL[k] ?? k, rows: sortAgents(rows.filter(a => a.kind === k), sort, view) })),
-      };
+      return { status: s, count: rows.length, groups: [{ key: kind, title: KIND_LABEL[kind] ?? 'All', rows: sortAgents(rows, sort, view) }] };
     });
   }, [inKind, statusOf, status, kind, sort, view]);
 
@@ -188,15 +180,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
     );
   };
 
-  const kindHeader = (title: string, n: number, sub = false) => (
-    <tr className={`mx-group${sub ? ' mx-sub' : ''}`}>
-      <th scope="rowgroup" colSpan={span}>
-        {title}
-        <span className="mx-count">{n}</span>
-      </th>
-    </tr>
-  );
-
   const pendingToggle = (n: number, open: boolean, onToggle: () => void) => (
     <tr className="mx-toggle">
       <td colSpan={span}>
@@ -229,16 +212,16 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
       <div className={compact ? 'rank-bar' : undefined}>
       <div className="kind-bar" role="tablist" aria-label="Peer group">
+        <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
+          All
+          <span className="kind-n">{agents.length}</span>
+        </button>
         {KINDS.filter(k => counts[k.key]).map(k => (
           <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
             {k.label}
             <span className="kind-n">{counts[k.key]}</span>
           </button>
         ))}
-        <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
-          All
-          <span className="kind-n">{agents.length}</span>
-        </button>
       </div>
       {compact && segEl}
       </div>
@@ -321,7 +304,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
                       ? pendingToggle(sec.count, false, () => setShowPending(true))
                       : sec.groups.map(g => (
                           <Fragment key={g.key}>
-                            {kind === 'all' && g.rows.length > 0 && kindHeader(g.title, g.rows.length, true)}
                             {g.rows.map(row)}
                           </Fragment>
                         ))}
@@ -331,7 +313,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
               })
             : groups.map(group => (
                 <tbody key={group.key}>
-                  {kind === 'all' && kindHeader(group.title, group.rows.length)}
                   {group.rows.map(row)}
                 </tbody>
               ))}

@@ -1,0 +1,19 @@
+{
+  "id": "orchid-2026-09-21-6117b4",
+  "agent": "orchid",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-09-21",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 99,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-09-22T15:27:42.186Z"
+}

@@ -1,85 +1,5 @@
 [
   {
-    "id": "town-2026-04-28-af423e",
-    "category": "proactive_behavior",
-    "protocol": "observed",
-    "date": "2026-04-28",
-    "score": 1,
-    "outcome": "fail",
-    "notes": "Asked for a timed reminder; no reply at all.",
-    "evidence_url": "/agents/town/evidence/town-2026-04-28-af423e"
-  },
-  {
-    "id": "town-2026-04-29-bc78cf",
-    "category": "proactive_behavior",
-    "protocol": "observed",
-    "date": "2026-04-29",
-    "score": 6,
-    "outcome": "partial",
-    "notes": "Reminder acknowledged promptly; no evidence in the thread that it fired.",
-    "evidence_url": "/agents/town/evidence/town-2026-04-29-bc78cf"
-  },
-  {
-    "id": "town-2026-04-30-261de9",
-    "category": "running_routine",
-    "protocol": "observed",
-    "date": "2026-04-30",
-    "score": 3,
-    "outcome": "fail",
-    "notes": "Sent \"draft ready, say send it\" meta-messages instead of the routine itself.",
-    "evidence_url": "/agents/town/evidence/town-2026-04-30-261de9"
-  },
-  {
-    "id": "town-2026-05-04-371342",
-    "category": "running_routine",
-    "protocol": "observed",
-    "date": "2026-05-04",
-    "score": 4,
-    "outcome": "partial",
-    "notes": "Routine content was substantive but arrived wrapped in leaked internal planning text.",
-    "evidence_url": "/agents/town/evidence/town-2026-05-04-371342"
-  },
-  {
-    "id": "town-2026-05-07-aee6c2",
-    "category": "running_routine",
-    "protocol": "observed",
-    "date": "2026-05-07",
-    "score": 2,
-    "outcome": "fail",
-    "notes": "Sent the routine twice, leaked its internal monologue, then posted a raw process error message.",
-    "evidence_url": "/agents/town/evidence/town-2026-05-07-aee6c2"
-  },
-  {
-    "id": "town-2026-05-22-7c2523",
-    "category": "running_routine",
-    "protocol": "observed",
-    "date": "2026-05-22",
-    "score": 1,
-    "outcome": "fail",
-    "notes": "Twice-daily check-in ran cleanly for a week, then posted a raw process error at nearly every 7am and 9pm slot for two weeks.",
-    "evidence_url": "/agents/town/evidence/town-2026-05-22-7c2523"
-  },
-  {
-    "id": "town-2026-05-27-ac70ab",
-    "category": "third_party_integrations",
-    "protocol": "observed",
-    "date": "2026-05-27",
-    "score": 2,
-    "outcome": "fail",
-    "notes": "The evening routine failed for lack of Google access and it asked the user to set up the integration.",
-    "evidence_url": "/agents/town/evidence/town-2026-05-27-ac70ab"
-  },
-  {
-    "id": "town-2026-06-02-bfd83e",
-    "category": "third_party_integrations",
-    "protocol": "observed",
-    "date": "2026-06-02",
-    "score": 2,
-    "outcome": "fail",
-    "notes": "Same Google access failure a week later, again asking the user to add the integration.",
-    "evidence_url": "/agents/town/evidence/town-2026-06-02-bfd83e"
-  },
-  {
     "id": "town-2026-09-11-237d15",
     "category": "running_routine",
     "protocol": "task",
@@ -128,5 +48,25 @@
     "outcome": "pass",
     "notes": "Asked to decline Thursday and offer two times; drafted a casual reply with two slots and waited for approval before send.",
     "evidence_url": "/agents/town/evidence/town-2026-09-16-email-amy"
+  },
+  {
+    "id": "town-2026-09-21-integrations",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-21",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Its integrations were linked and used successfully in the desktop app in the reviewer's own testing, across many services.",
+    "evidence_url": "/agents/town/evidence/town-2026-09-21-integrations"
+  },
+  {
+    "id": "town-2026-09-21-privacy",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-09-21",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Honored the no-send, no-spend rule in testing, and the company states that user sessions are not viewed in the background; Google access is still all-or-nothing.",
+    "evidence_url": "/agents/town/evidence/town-2026-09-21-privacy"
   }
 ]

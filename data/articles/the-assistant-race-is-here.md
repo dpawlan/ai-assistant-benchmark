@@ -1,6 +1,6 @@
 ---
 title: The assistant race is here. Here's who actually finishes the task.
-dek: Meta, Apple and a $2.5 billion startup all shipped this month, and the coverage is about who is entering. I have been texting all of them the same tasks since March. The list of who delivers looks different.
+dek: Meta shipped Muse, Instinct raised again, and OpenAI is hinting. After 250 tests across 26 assistants, here is where the race actually sits.
 date: 2026-09-25
 author: David Pawlan
 kind: Analysis
@@ -8,46 +8,45 @@ report:
 update:
 agents: muse, instinct, grok-bot
 hero_caption: Muse, Instinct and Grok Bot on the same tasks. Illustration by Assistant Benchmark.
-takeaways: Muse tops the benchmark at 9.3 and replies in 7 seconds; Instinct is at 8.5 and 20 seconds, and that gap is why people are switching | The dividing line is not intelligence, it is what the assistant is allowed to touch: your card, your logins, your calendar | Security is the next phase, and both leaders had an incident this week
+takeaways: Muse leads the benchmark at 9.3 with a 7-second median reply, and it makes sense given Meta's data, money and distribution | Instinct is second among general assistants and the one people love, but a slow week showed how little brand loyalty this market has | Security, bot detection and new competitors are the three things to watch next
 ---
 
-Two weeks ago I put up a site that texts the same tasks to every AI assistant I can get a number for and writes down what happens. It has had over 100,000 visitors since. I do not think that is because the site is good. I think it is because nobody, including the people building these things, knows what is going on.
+Just over two weeks ago I created [Assistant Benchmark](/) as a way to compare the performance of AI assistants in the market. It is a site meant to test the use-case performance of these assistants: how does one perform when you want to book a flight, make a reservation, order your groceries, and so on. Since launch it has had over 100,000 visitors. The reaction has been absolutely insane, which I think really encapsulates the vibe of this entire industry: nobody really knows what is going on. It is a new paradigm. Nobody knows what shape it is going to take over the next few months. Nobody knows which one is the best today, nor which one is going to be the best tomorrow. Will a new one pop up tomorrow? Is OpenAI or Anthropic going to release one? I think everyone out here is having a lot of fun, but also deeply curious about where we are moving, and that is where Assistant Benchmark has really come in to shine.
 
-This month made that obvious. Meta shipped Muse on September 8 and has pushed an update nearly every week since. Apple turned on Siri AI on the 14th. Instinct, which you reach by text and which raised $250 million at a $2.5 billion valuation in August, is reportedly in talks at four times that. OpenAI hired the person behind OpenClaw to build its own. Axios called it [the AI assistant race](https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple). Bloomberg says Muse is [off to a fast start](https://www.bloomberg.com/news/newsletters/2026-09-23/meta-muse-ai-personal-assistant-gets-off-to-fast-start).
+In the past few weeks alone, Meta has shipped [Muse](/agents/muse), [Instinct](/agents/instinct) has raised another $250 million, bringing its total to $350 million, and OpenAI has hinted it will release its own, let alone the launch and race among more than 120 others, at least the ones I am aware of. This race did not start in a vacuum. It began in September 2025, when [Poke](/agents/poke) released the first iMessage-based assistant. Two months later Peter Steinberger released [Openclaw](/agents/openclaw), and that started the chain reaction of envisioning this new world of personal assistants. While Assistant Benchmark started as a project that let me track my own market research comparing these assistants, it has turned into a project for the people. It helps the general public understand who is out there, what they are doing, and what they are good at.
 
-All of that coverage is about who is entering. None of it has run anything. I have, so here is what the same tasks say about the three that matter most right now.
+## Where the race sits today
 
-## Muse is the one that finishes
+To date I have personally run over 250 tests across 26 different personal assistants. Throughout all of this research, [Muse](/agents/muse) currently sits in the lead in terms of general performance across the board.
 
-I did not expect to write that. Muse is the newest of the three and it comes from a company with a mixed record on trust. But on the benchmark it sits [first overall at 9.3](/agents/muse), and it is not close on the things people actually text an assistant for.
+If you think about it, this makes sense. They have incredible amounts of data on each of us, given they own Facebook and Instagram. They have a ridiculous piggy bank to invest in speed, to leverage a custom model, and of course to hammer distribution through growth marketing. When you put that together it obviously works: Muse has not only been the [number one app in the App Store](https://www.foxbusiness.com/technology/metas-muse-becomes-app-stores-hottest-download), it also [outpaced ChatGPT's own launch](https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/) in downloads over its first twelve days.
 
-Given the reorder task, it asked what kind of flowers and what budget, flagged the same-day cutoff, found the one florist that could deliver, and staged an itemized order behind a virtual card so the shop never saw mine. Given a scheduling email, it found the thread, checked my calendar, drafted a reply-all with two open slots in my voice, asked, and sent when I said go. Ten out of ten on both. It linked OpenTable in the middle of a restaurant task to finish the booking rather than sending me a link. It has been running my weekday routines since the 17th without a miss.
+So let's dive into the actual benchmark. At a high level, it sits [first overall at 9.3](/agents/muse). When I gave it a task to buy flowers, it asked what kind and what budget, flagged the same-day cutoff, found the one florist that could deliver, and staged an [itemized order behind a virtual card](/agents/muse). When I asked it to reply to a scheduling email, it found the thread, checked my calendar, drafted a reply with two open slots in my voice, and once I gave it permission, [fired it off](/agents/muse). 10 out of 10 on both. It has been running weekday routines without a hiccup, and it is unbelievably fast: a median reply of 7 seconds. While that might sound like a lot, it is quick considering the tasks that take longer on average, like searching for products for you to purchase.
 
-And it is fast. Muse's median reply in my thread is 7 seconds. Instinct's is 20. That does not sound like much until you are standing in a shop waiting for one of them to answer.
+The main gap is security. There is a lot of fear about whether your data is actually secure, given Zuckerberg's poor track record on user privacy. When it comes to purchasing, it leads the pack on direct vendor integrations, which means a higher success rate wherever a partnership exists. But that publicity also brings unwanted attention, such as [Amazon shutting off Muse's access](https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site) to its store. Most recently the Meta team announced [Muse Charm](https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/), a hardware device with a camera and microphone that lets you talk to your Muse agent anywhere you go, shipping before the holidays.
 
-Its weak spot is travel, where it books through a single aggregator and the supply is thin; it found nothing under budget near the Loop and asked me to loosen the brief. It also, as far as I can tell, cannot do Amazon anymore, and it is building direct merchant integrations instead. Which brings me to the actual story.
+## Instinct hit the network effect, sits at #2
 
-## The line is access, not intelligence
+[Instinct](/agents/instinct) went absolutely viral on Twitter and sits [second among general assistants](/?kind=general). Personally, I use Instinct more than Muse because I prefer iMessage as the surface, given that is where I already live. Others prefer a separate application, which lends more credit to Muse, but that is a personal preference.
 
-Every assistant I have tested can find the coffee. Most can put two bags in a basket. The split happens at the last screen, where a card or a login has to come from somewhere, and that is where the whole category is stuck.
+In the beginning, Instinct caught my attention when it [checked into my flight](/agents/instinct/evidence/instinct-2026-08-29-58edb0) without being asked. That was a real magic moment. Now, on a day-to-day basis, it handles my life admin. It tells me who I am meeting before calls and gives me context on that person. Its [routines have been flawless](/agents/instinct/evidence/instinct-2026-09-11-bdc825). It is great at finding and booking reservations. It can order things for me via browser use, and it has a feature called [Trusted Network](https://x.com/noahrshinn/status/2097794967574028448), which is quite unique and an interesting take on the multiplayer agent world. With Trusted Network, users connect their Instincts to one another, so my Instinct can chat with yours, organize things behind the scenes, and then let us both know whatever is relevant.
 
-Browser use is a band-aid. It works most of the time and then it hits a captcha, a login wall, or a site that has decided agents are not welcome, and the task dies. The assistants that finish are the ones that have solved the access problem some other way: Muse with its own card and direct merchant integrations, Instinct by working inside your own airline and hotel accounts, which is how it got a [10 on travel](/agents/instinct) and booked a trip end to end, check-in and boarding pass included.
+It has also been a source of fun stories and joyful use cases. A friend of mine [went viral](https://x.com/oliviaalevine/status/2095705075633000815) because she got on the jumbotron at the US Open with her boyfriend and wanted the footage. She asked Instinct, mostly as a joke, to find it. Within 12 minutes it had filed a case with the USTA and emailed the ticket office, the production company, and the US Open's media contact. Overnight it went through ESPN's entire highlight package frame by frame, and when she woke up in the morning the clip was in her inbox.
 
-The best test of this is a small one. I book a flight to Chicago for a weekend, run a few unrelated tasks, then ask for a dinner reservation in New York that same weekend. Of the eight assistants that have faced it, three caught the conflict and asked which city I would actually be in. Five booked New York. That is memory, and it is the difference between an assistant and a search box with a card attached.
+While that is a one-off, it exemplifies what these assistants are capable of. They accomplish things we otherwise would not put effort towards. They serve as an extension of your workflow, and most importantly they free up your time so you can spend it on the things you actually love.
 
-## Instinct is the one people love, and the one people are leaving
+Instinct, however, also had a bad week:
 
-I use Instinct more than anything else, because it lives in iMessage and that is where I live. The first time it checked me in for a flight without being asked, and sent the boarding pass with the seat and PreCheck already on it, was the moment this category became real for me. It handles my life admin. It asks who I am meeting before a call and gives me context. Its routines have been [flawless](/agents/instinct) and its memory is the best in the group after Muse.
+- There was a hallucination scare where a user [appeared to be shown](https://x.com/prit4k/status/2102166742021890076) another person's financial information. Noah Shinn, Instinct's founder, [clarified on September 23](https://malaysia.news.yahoo.com/instincts-founder-says-viral-ai-063054528.html) that it was a hallucination.
+- There have been [many reports of Instinct being incredibly slow](https://sg.news.yahoo.com/instinct-users-theyve-noticed-slowdown-163111405.html), which has led people on Twitter to move over to Muse.
 
-It is also the one that produces the stories. A friend of mine got on the jumbotron at the US Open with her boyfriend and wanted the footage. She [asked Instinct](https://x.com/oliviaalevine/status/2095705075633000815) mostly as a joke. Within twelve minutes it had filed a case with the USTA and emailed the ticket office, the production company and the US Open's media contact; overnight it went through ESPN's highlight package frame by frame. The clip was in her inbox eighteen hours later. A person at the production company made the final call, but nobody would have asked without the assistant doing the asking. That is what these are for.
-
-It also had a bad week. Users have been getting capacity warnings for a while; on the 24th [the slowdowns became a story](https://sg.news.yahoo.com/instinct-users-theyve-noticed-slowdown-163111405.html) and the founder acknowledged them. I run group chats with over a thousand people who use these things every day, and what struck me was not the complaints. It was that there was no deliberation. "It's so slow, I switched to Muse today." Not a debate, a reflex.
-
-That is the thing the launch coverage cannot see. Context used to be the moat. Now it is an email and calendar connection, and it takes four minutes to rebuild somewhere else. When Instinct and Muse are both effectively free, a slow day is a churn event. I struggle to see how a paid tier survives in this market, and I struggle to see how the free ones pay for the inference either. That is not a prediction about Instinct. It is a question every company on my roster has to answer.
+This raises a larger question: what is the actual brand loyalty in this ecosystem? Are we going to see the Codex and Claude Code trend, where people swap to whichever model is best with very little loyalty? I think yes.
 
 ## What people actually do with them
 
-I run six group chats for people who use these assistants every day, a bit over a thousand people in total. Since launch I have been counting the threads where someone described a specific thing they had done with one, not opinions, not takes, an actual instance. This is tech Twitter, so it is nothing like the general public, but it is the closest thing to usage data anyone outside the companies has.
+So what do people actually use these assistants for? Beyond Assistant Benchmark, I also run six group chats for people who use these assistants every single day, a combined 1,200-plus people talking daily about what they actually do with them.
+
+Since launch I have been monitoring the threads where people are not only sharing opinions, takes, tips and tricks, but describing the specific things they have done. Here is the breakdown at a high level, counted as instances where someone described a particular thing they did:
 
 - Coordinating several agents at once: 54
 - Life admin: 43
@@ -56,26 +55,42 @@ I run six group chats for people who use these assistants every day, a bit over 
 - Coding and developer workflows: 36
 - Buying, booking and other real transactions: 29
 
-The thing that goes viral on X, an assistant watching your flight prices or booking your trip, is the bottom of that list. The top of it is people wiring agents together and getting their own context to follow them around. The early adopters are not using these to be ten percent more efficient at errands. They are building a personal operating system, and they will move it to whichever assistant runs it fastest.
+What is really interesting is that the things that go viral on X, an assistant watching your flight prices or booking your trip, sit at the bottom of that list. The top of it is people wiring agents together and getting their own context to follow them around.
+
+Keep in mind this is a skewed list. These are tech Twitter people inside the bubble who tend to be more technical. It is not a representative look at what the general individual would use these assistants for. Nonetheless, it is interesting data on how people have been using them so far.
 
 ## Grok Bot is a different product
 
-Grok Bot sits at [7.3](/agents/grok-bot) and the number undersells what it is good at, because the benchmark is built around personal tasks and Grok Bot is a worker. I use it for work: scraping socials to learn a writing voice when the API refused, fixing and merging a failing pull request, building a bidding site from a blank repo, drafting a week of posts. Those were real holy-moment tasks and most of them scored 8.
+[Grok Bot](/agents/grok-bot) sits at 7.3 and the number undersells what it is good at, because the benchmark is built around personal tasks and Grok Bot is a worker. I use it for work: scraping socials to learn a writing voice when the API refused, fixing and merging a failing pull request, building a bidding site from a blank repo, drafting a week of posts. Those were real holy-moment tasks and most of them scored 8.
 
-It falls down where the others fall down, only more so. It runs on a cloud computer with no card of its own and no accounts, so every purchase ends at a login wall, and its X integration spent a week reconnecting itself before it gave up and said so. If you want things found and built, Grok Bot. If you want things bought and booked, not yet.
+It falls down where the others fall down, only more so. It runs on a cloud computer with no card of its own and no accounts, so every purchase ends at a login wall, and its X integration spent a week reconnecting itself before it gave up and said so. If you want things found and built, Grok Bot. If you want things bought and booked, use Muse or Instinct.
 
-## Security is the next phase, and it started this week
+## The three things to watch in the coming weeks
 
-Ask a non-technical friend about any of this and the first question is whether it is safe. It is the right question, and this week gave both leaders an answer they did not want.
+At a high level, analyzing the space as a whole after just the first few weeks, I believe there are three things to keep an eye on in the weeks to come, things I will personally be observing and reporting on: security, bot detection, and new competitors.
 
-On September 21 [a user posted screenshots](https://x.com/prit4k/status/2102166742021890076) of Instinct describing a financial document that was not his. Two days later the founder [said it was a hallucination](https://malaysia.news.yahoo.com/instincts-founder-says-viral-ai-063054528.html), not a leak, and shipped a system to intercept the agent before it acts on an invented fact. The same day, a researcher disclosed [a Muse Mac flaw](https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980) that let local malware redirect dictation and grab a token. Meta patched it in about sixteen hours and [called it a local attack, not a remote one](https://x.com/dps/status/2102248329111634067), which is true and also not the point.
+### Security
 
-The pattern is the internet's: first adoption, then security. I would say we are still in the adoption phase, and I would say the card is the part I worry about least. If an assistant buys the wrong thing, I charge it back and cancel the card. The part nobody has thought through is the work inbox. Connect one of these to a company email, have it surface a document that is not yours, and the question is not whether it hallucinated. It is who is liable.
+Security is one of the biggest ones, and while it is incredibly important and not something to overlook, I believe it will be solved, and I am quite confident in that. Just as the internet came before cybersecurity, the adoption of assistants is going to come before the focus on securing them.
 
-## What I would watch
+Muse had a [security flaw in its Mac app](https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980): an undocumented setting let any program already running on your machine redirect Muse's dictation traffic to a server it controlled, capture your login token, and slip hidden instructions into your voice prompts. It was a local attack rather than a remote one, meaning malware had to be on the Mac first, but it was a real prompt-injection path. Meta [patched it in about sixteen hours](https://x.com/dps/status/2102248329111634067) and used the moment to talk about its emphasis on security, which is something they are actively thinking about.
 
-The next month decides more than the last one did. Muse has a head start on commerce and that is plainly Meta's plan: sit on the transaction. Instinct has the interface people want and a capacity problem it has to fix in public. OpenAI has not shipped, and I am not going to guess about a product that does not exist.
+Instinct had the hallucination case, which got people wondering what is actually going on under the hood and how strong its privacy policy is. Many of the long-tail competitors are not large companies, and they are gathering a lot of data on you. People are continuously asking what happens to that data and whether it is secure.
 
-What I can do is keep running the tasks. The benchmark is a scoreboard, and starting this week it also has reports: one question, everyone ranked, a pick, and a dated log of every change. [The first one is shopping](/reports/shopping). Muse is the pick. Check back when it isn't.
+I think as time goes on we will not only see companies appear that fight the good fight in protecting our data, but the competitors already out there will put a greater public emphasis on security.
 
-Data note: every score above is the newest run per assistant on the published test. Muse's runs are from launch week; I am re-running purchasing and email on the current build and will update the numbers here if they move. Nothing on the site is sponsored.
+### Bot detection
+
+Browser use is a band-aid. It works most of the time, and then it hits a captcha, a login wall, or a site that has decided agents are not welcome and blocks the request outright.
+
+It makes sense that these companies launch with browser use, because it is a quick win, but I do not believe it is a sustainable solution. Companies are going to either follow Amazon's path and [block these assistants](https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site) from their stores, or follow Shopify's path and [build a direct integration](https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/), which takes time.
+
+All that said, I do not believe browser use is here to stay for the long run. It is a temporary solution that proves feasibility, and we are going to see heavy innovation focused on this specific corner of the AI assistant world.
+
+### New competitors
+
+And last but not least, who is popping up next? There is word around town that OpenAI is going to drop its own assistant and take the world by storm. I personally know of over 120 assistants out there already, and I am sure there are more I do not know about. Given how early we are, more are going to keep appearing.
+
+The question becomes: are we going to see more horizontal generalists, or more specialists, following [Anish Acharya of a16z's theory of narrow startups](https://a16z.com/narrow-startups/)? I am a believer that, as time goes on, we will see more specialist assistants pop up that serve as plugins into the generalists. I think we will see a lot more innovation in the infrastructure layer of these assistants, and it is going to be a lot of fun to see who the new competitors are and how they take on the incumbents.
+
+Every score you see has been personally run by me or a team member working on Assistant Benchmark. All of the tests are run authentically. This is meant to be a place of integrity. Nothing on the site is sponsored. No company is able to pay us to improve their rank, or to improve or increase the frequency with which we test their product. We try to stay as objective as possible.

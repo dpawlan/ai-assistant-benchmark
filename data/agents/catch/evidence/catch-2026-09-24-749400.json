@@ -1,0 +1,19 @@
+{
+  "id": "catch-2026-09-24-749400",
+  "agent": "catch",
+  "category": "email_replies",
+  "protocol": "task",
+  "date": "2026-09-24",
+  "signals": {
+    "turns": 16,
+    "my_messages": 7,
+    "agent_messages": 9,
+    "first_reply_s": 39,
+    "duration_min": 7,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-24T15:28:33.299Z"
+}

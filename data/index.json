@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-21",
-  "agent_count": 122,
+  "updated": "2026-09-24",
+  "agent_count": 126,
   "feedback_count": 5655,
-  "confirmed": 95,
+  "confirmed": 99,
   "stretch": 27,
   "agents": [
     {
@@ -60,7 +60,7 @@
       "kind": "work",
       "access": {
         "pricing": "credits",
-        "price": "Free ($100 in credits for connecting Slack) · monthly from $20; 400 credits per $1",
+        "price": "Free ($100 in credits for connecting Slack) \u00b7 monthly from $20; 400 credits per $1",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -127,7 +127,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free (10 applications) · Pro €39/mo · Ultra €99/mo",
+        "price": "Free (10 applications) \u00b7 Pro \u20ac39/mo \u00b7 Ultra \u20ac99/mo",
         "regions": "International; Europe-focused",
         "channels": [
           "WhatsApp"
@@ -189,7 +189,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Starter $9/mo · Pro $39/mo",
+        "price": "Free \u00b7 Starter $9/mo \u00b7 Pro $39/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -251,7 +251,7 @@
       "public_signal": null,
       "tagline": "Your admin savior: scheduling, email and calls",
       "icon": "/logos/catch.png",
-      "kind": "general",
+      "kind": "work",
       "access": {
         "pricing": "paid",
         "price": "$99/mo, 10-day free trial",
@@ -305,7 +305,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $16/seat/mo · Business $39/seat/mo · Team $199/mo",
+        "price": "Free \u00b7 Pro $16/seat/mo \u00b7 Business $39/seat/mo \u00b7 Team $199/mo",
         "regions": "Not stated",
         "channels": [
           "Web",
@@ -326,7 +326,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free (150 credits/mo) · Pro $49/mo · Max $199/mo",
+        "price": "Free (150 credits/mo) \u00b7 Pro $49/mo \u00b7 Max $199/mo",
         "regions": "Global; 29 languages",
         "channels": [
           "Slack",
@@ -441,7 +441,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $9.99/mo · Max $100/mo",
+        "price": "Free \u00b7 Pro $9.99/mo \u00b7 Max $100/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -615,7 +615,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free with your own API keys (3 agents) · Pro $20/mo",
+        "price": "Free with your own API keys (3 agents) \u00b7 Pro $20/mo",
         "regions": "Not stated",
         "channels": [
           "Desktop app (macOS, Windows, Linux)",
@@ -640,7 +640,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free tier · Plus (paid; $15/mo student rate)",
+        "price": "Free tier \u00b7 Plus (paid; $15/mo student rate)",
         "regions": "Not stated",
         "channels": [
           "macOS app",
@@ -804,12 +804,12 @@
       "site": "https://muse.ai/",
       "feedback_count": 123,
       "public_signal": null,
-      "tagline": "Meta’s personal AI agent for everyday tasks",
+      "tagline": "Meta\u2019s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · $20/mo · $100/mo",
+        "price": "Free \u00b7 $20/mo \u00b7 $100/mo",
         "regions": "US only, 18+",
         "channels": [
           "iOS app",
@@ -944,7 +944,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Solo $39 · Team $59 · Business $89 per seat/mo; credits meter work",
+        "price": "Solo $39 \u00b7 Team $59 \u00b7 Business $89 per seat/mo; credits meter work",
         "regions": "US and EU data residency options",
         "channels": [
           "Slack",
@@ -969,7 +969,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $25/mo · Max $100/mo",
+        "price": "Free \u00b7 Pro $25/mo \u00b7 Max $100/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1033,7 +1033,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $19/mo · Ultra $199/mo",
+        "price": "Free \u00b7 Pro $19/mo \u00b7 Ultra $199/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1055,7 +1055,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Starter €29/mo · Pro €79/mo · Business €199/mo; 14-day trial",
+        "price": "Starter \u20ac29/mo \u00b7 Pro \u20ac79/mo \u00b7 Business \u20ac199/mo; 14-day trial",
         "regions": "EU-hosted; English, Dutch, German, French",
         "channels": [
           "Web app"
@@ -1119,7 +1119,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Pro $199/mo · Max $299/mo; 7-day money-back",
+        "price": "Pro $199/mo \u00b7 Max $299/mo; 7-day money-back",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1158,7 +1158,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Starter $20/mo · Team $200/mo, plus usage",
+        "price": "Starter $20/mo \u00b7 Team $200/mo, plus usage",
         "regions": "Not stated",
         "channels": [
           "Slack",
@@ -1181,7 +1181,7 @@
       "kind": "email",
       "access": {
         "pricing": "paid",
-        "price": "$25–30/mo, 7-day trial; Gmail only",
+        "price": "$25\u201330/mo, 7-day trial; Gmail only",
         "regions": "Not stated",
         "channels": [
           "App",
@@ -1224,7 +1224,7 @@
       "kind": "shopping",
       "access": {
         "pricing": "freemium",
-        "price": "Free (1 stamp a day) · 10-stamp pack $3.99 · Pro $9.99/mo",
+        "price": "Free (1 stamp a day) \u00b7 10-stamp pack $3.99 \u00b7 Pro $9.99/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1289,7 +1289,7 @@
       "kind": "infra",
       "access": {
         "pricing": "freemium",
-        "price": "Free tier · Streams to $1,000/mo",
+        "price": "Free tier \u00b7 Streams to $1,000/mo",
         "regions": "Not stated",
         "channels": [
           "API",
@@ -1435,10 +1435,10 @@
       "public_signal": null,
       "tagline": "The assistant that learns how you work, then gets to work",
       "icon": "/logos/town.png",
-      "kind": "general",
+      "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free (30 msgs/mo) · $15 · $49 · $99 · $199/mo",
+        "price": "Free (30 msgs/mo) \u00b7 $15 \u00b7 $49 \u00b7 $99 \u00b7 $199/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
@@ -1512,7 +1512,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro $99/mo (waitlist)",
+        "price": "Free \u00b7 Pro $99/mo (waitlist)",
         "regions": "Not stated",
         "channels": [
           "Email",
@@ -1556,7 +1556,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Pro · Ultra (prices in-app)",
+        "price": "Free \u00b7 Pro \u00b7 Ultra (prices in-app)",
         "regions": "Latin America and Europe",
         "channels": [
           "iOS app",
@@ -1912,7 +1912,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free credits to start · Starter (200 credits/mo) · Pro (500 credits/mo) · one-time packs; dollar prices shown only in the App Store",
+        "price": "Free credits to start \u00b7 Starter (200 credits/mo) \u00b7 Pro (500 credits/mo) \u00b7 one-time packs; dollar prices shown only in the App Store",
         "regions": "Not stated",
         "channels": [
           "Web app",
@@ -1934,7 +1934,7 @@
       "kind": "finance",
       "access": {
         "pricing": "paid",
-        "price": "$11.99/mo · 7-day free trial",
+        "price": "$11.99/mo \u00b7 7-day free trial",
         "regions": "Not stated",
         "channels": [
           "iMessage"
@@ -2005,7 +2005,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "Starter $99/mo · Pro $199/mo per Righthand · 14-day free trial, no card",
+        "price": "Starter $99/mo \u00b7 Pro $199/mo per Righthand \u00b7 14-day free trial, no card",
         "regions": "Not stated",
         "channels": [
           "SMS",
@@ -2122,7 +2122,7 @@
       "access": {
         "pricing": "waitlist",
         "price": "Not stated (early access; sign up and wait for an invite)",
-        "regions": "Türkiye",
+        "regions": "T\u00fcrkiye",
         "channels": [
           "Web app"
         ],
@@ -2136,7 +2136,7 @@
       "site": "https://aside.com/",
       "feedback_count": 0,
       "public_signal": "low",
-      "tagline": "The most intelligent AI assistant, but it’s a browser.",
+      "tagline": "The most intelligent AI assistant, but it\u2019s a browser.",
       "icon": "/logos/aside.png",
       "kind": "general",
       "access": {
@@ -2320,7 +2320,7 @@
       "kind": "work",
       "access": {
         "pricing": "credits",
-        "price": "1,000 free credits to start · Lite $19/mo · Pro $97/mo · Max $197/mo · Ultra $497/mo",
+        "price": "1,000 free credits to start \u00b7 Lite $19/mo \u00b7 Pro $97/mo \u00b7 Max $197/mo \u00b7 Ultra $497/mo",
         "regions": "Not stated",
         "channels": [
           "Mac app",
@@ -2346,7 +2346,7 @@
       "kind": "work",
       "access": {
         "pricing": "paid",
-        "price": "4-day trial (card required) · Starter €49/mo · Pro €99/mo · Business €199/mo · Enterprise custom",
+        "price": "4-day trial (card required) \u00b7 Starter \u20ac49/mo \u00b7 Pro \u20ac99/mo \u00b7 Business \u20ac199/mo \u00b7 Enterprise custom",
         "regions": "Not stated",
         "channels": [
           "Web app"
@@ -2366,7 +2366,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free credits included · Starter $18/mo · Boost $36/mo · Power $60/mo; also on Setapp",
+        "price": "Free credits included \u00b7 Starter $18/mo \u00b7 Boost $36/mo \u00b7 Power $60/mo; also on Setapp",
         "regions": "Not stated",
         "channels": [
           "Mac app"
@@ -2430,7 +2430,7 @@
       "kind": "general",
       "access": {
         "pricing": "paid",
-        "price": "From ₹1,999/mo, unlimited tasks",
+        "price": "From \u20b91,999/mo, unlimited tasks",
         "regions": "India (Bangalore, Mumbai)",
         "channels": [
           "WhatsApp"
@@ -2472,7 +2472,7 @@
       "kind": "infra",
       "access": {
         "pricing": "freemium",
-        "price": "Free self-hosted · Pro $20/mo · Max $40/mo",
+        "price": "Free self-hosted \u00b7 Pro $20/mo \u00b7 Max $40/mo",
         "regions": "Not stated",
         "channels": [
           "Telegram",
@@ -2538,7 +2538,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Plus $19/mo · Teams custom",
+        "price": "Free \u00b7 Plus $19/mo \u00b7 Teams custom",
         "regions": "US number",
         "channels": [
           "iMessage",
@@ -2560,7 +2560,7 @@
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free with your own ChatGPT plan · Plus $50/mo · Pro $200/mo",
+        "price": "Free with your own ChatGPT plan \u00b7 Plus $50/mo \u00b7 Pro $200/mo",
         "regions": "Not stated",
         "channels": [
           "Mac app",
@@ -2602,7 +2602,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free (daily credits) · Pro from $20/mo",
+        "price": "Free (daily credits) \u00b7 Pro from $20/mo",
         "regions": "Not stated",
         "channels": [
           "Web",
@@ -2675,7 +2675,7 @@
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free · Personal $50/mo · Pro $200/mo",
+        "price": "Free \u00b7 Personal $50/mo \u00b7 Pro $200/mo",
         "regions": "Not stated",
         "channels": [
           "Telegram",
@@ -2705,6 +2705,95 @@
           "Web"
         ],
         "checked": "2026-09-19"
+      }
+    },
+    {
+      "slug": "tressa",
+      "name": "Tressa",
+      "status": "confirmed",
+      "site": "https://tressa.chat/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Text your agent from anywhere.",
+      "icon": "/logos/tressa.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Mac app",
+          "Web app"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "hermes-agent",
+      "name": "Hermes Agent",
+      "status": "confirmed",
+      "site": "https://hermes-agent.nousresearch.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The agent that grows with you.",
+      "icon": "/logos/hermes-agent.png",
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, MIT license; you supply model access",
+        "regions": "Not stated",
+        "channels": [
+          "Telegram",
+          "Discord",
+          "Slack",
+          "WhatsApp",
+          "Signal",
+          "Email",
+          "Desktop app",
+          "CLI"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "orlo",
+      "name": "Orlo",
+      "status": "confirmed",
+      "site": "https://orlo.today/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your favorite meals, zero delivery-app markups.",
+      "icon": "/logos/orlo.png",
+      "kind": "shopping",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Invite-only preview; you pay the restaurant's own prices",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "doti",
+      "name": "Doti",
+      "status": "confirmed",
+      "site": "https://heydoti.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI friend, right inside LINE.",
+      "icon": "/logos/doti.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free to try; nothing to pay stated",
+        "regions": "Not stated",
+        "channels": [
+          "LINE"
+        ],
+        "checked": "2026-09-24"
       }
     }
   ]

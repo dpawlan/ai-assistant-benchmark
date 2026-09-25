@@ -27,7 +27,14 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const a = getArticle(slug);
-  return { title: a ? a.title : 'Article', description: a?.dek };
+  if (!a) return { title: 'Article' };
+  const image = `/og/articles/${a.slug}.png`;
+  return {
+    title: a.title,
+    description: a.dek,
+    openGraph: { title: a.title, description: a.dek, type: 'article', url: `${SITE}/articles/${a.slug}`, images: [{ url: image, width: 1200, height: 630, alt: a.title }] },
+    twitter: { card: 'summary_large_image', title: a.title, description: a.dek, images: [image] },
+  };
 }
 
 export default async function ArticlePage({ params }: Props) {

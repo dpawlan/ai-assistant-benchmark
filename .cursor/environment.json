@@ -1,0 +1,4 @@
+{
+  "name": "AI Assistant Benchmark",
+  "install": "npm ci\ncurl -fsSL https://claude.ai/install.sh | bash\ngrep -Fq 'export PATH=\"$HOME/.local/bin:$PATH\"' \"$HOME/.bashrc\" || echo 'export PATH=\"$HOME/.local/bin:$PATH\"' >> \"$HOME/.bashrc\"\nsudo ln -sfn \"$HOME/.local/bin/claude\" /usr/local/bin/claude"
+}

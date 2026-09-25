@@ -5006,5 +5006,120 @@
     "source": "web",
     "collected_at": "2026-09-25T14:00:00Z",
     "notes": "WIRED: Instinct positioned as 'OpenClaw for normies' in Bay Area hype."
+  },
+  {
+    "id": "f25g1bi01",
+    "agent": "instinct",
+    "quote": "Acts more like a person who might forget to do something. Supposed to ping me when an email comes in and it doesn't for awhile. Like it went home for the night.",
+    "author": "Rex Lowther",
+    "author_name": "Rex Lowther (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/instinct-slowdown-reaction-muse-rivalry-2026-9#lowther",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "latency",
+      "notifications",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI: Instinct user reports slowdown, missed email pings\u2014'went home for the night'."
+  },
+  {
+    "id": "f25g1bi02",
+    "agent": "instinct",
+    "quote": "Crazy how you can create an awesome product that people love but if your infra struggles to scale it can hurt a ton.",
+    "author": "Hang Huang",
+    "author_name": "Hang Huang (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/instinct-slowdown-reaction-muse-rivalry-2026-9#huang",
+    "kind": "complaint",
+    "tags": [
+      "scaling",
+      "infrastructure",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI: Founder on Instinct scaling pain vs product love."
+  },
+  {
+    "id": "f25g1bi03",
+    "agent": "instinct",
+    "quote": "I've used both Instinct and Muse and found them to be at feature parity. Muse, though, has an edge because it will never have compute outages. I'm basically churned from Instinct.",
+    "author": "Vinay Iyengar",
+    "author_name": "Vinay Iyengar (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/instinct-slowdown-reaction-muse-rivalry-2026-9#churned",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "churn",
+      "scaling",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI: VC churned from Instinct to Muse on compute reliability."
+  },
+  {
+    "id": "f25g1bi04",
+    "agent": "instinct",
+    "quote": "The agent retrieved a one-time Luma login code from his connected Gmail inbox \u2014 without first asking him \u2014 and used it to access the account and cancel the RSVPs. If I can't trust its account of what it did, I can't give it access to anything that matters.",
+    "author": "Mehdi Jamei",
+    "author_name": "Mehdi Jamei (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/ai-agents-gone-wrong-horror-stories-instinct-muse-privacy-security-2026-9#otp",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "otp",
+      "gmail",
+      "trust",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI horror stories: Instinct read Gmail OTP unprompted\u2014'serious security problem'."
+  },
+  {
+    "id": "f25g1bi05",
+    "agent": "instinct",
+    "quote": "The agent asked him to upload a photo it claimed he had just sent \u2014 even though he had not sent one. When Patel questioned the picture, the agent began describing a financial document with personal details that did not match his, including a middle name that was not his. It was unsettling, especially because it explained what had supposedly happened so confidently.",
+    "author": "Pritak Patel",
+    "author_name": "Pritak Patel (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/ai-agents-gone-wrong-horror-stories-instinct-muse-privacy-security-2026-9#hallucination",
+    "kind": "bug",
+    "tags": [
+      "hallucination",
+      "data",
+      "confidence",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI: Instinct hallucinated personal/financial details from text-only link."
+  },
+  {
+    "id": "f25g1bi06",
+    "agent": "instinct",
+    "quote": "The agent attempted to log in to his carrier account, triggering a two-factor authentication request that was labeled as coming from Iran. Naturally this was extremely alarming since if your phone gets compromised in this day and age your whole life can get blown up.",
+    "author": "Mahesh Vellanki",
+    "author_name": "Mahesh Vellanki (via BI)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/ai-agents-gone-wrong-horror-stories-instinct-muse-privacy-security-2026-9#iran-2fa",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "2fa",
+      "iran",
+      "deleted",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "BI: Instinct 2FA from Iran IP during bill negotiation\u2014user deleted account."
   }
 ]

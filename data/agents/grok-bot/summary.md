@@ -84,5 +84,12 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-24 vault scan (+6 rows):** Cursor Forum quota burn (Aug–Sep): bot-to-bot review loop burned weekly pool 100% (ting-ting234); 5 agents unsupervised 7h burned on-demand (Juan Oliva); display confusion led to uninstall (z l). Staff clarification (deanrie): separate weekly pool; cloud-agent exception. CellCog early verdict (Nitish Garg, 9 Sep): try, don't rebuild on it yet; weekly allowance and browser crashes.
 
-**Feedback rows:** 1185 (as of 2026-09-24)
+_Updated 2026-09-25 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-21) Colin (Cursor Staff): "Improving bot efficiency so your quota lasts longer. A welcome side effect is that bots feel noticeably snappier overall."
+- (2026-09-17) Jediah Katz (Cursor/xAI): "+10% more effective usage via subagent/routing optimizations."
+- (2026-09-17) Jediah Katz (Cursor/xAI): "10–35% more effective usage from routing, caching, dynamic context, and token efficiency improvements."
+
+**Feedback rows:** 1188 (as of 2026-09-25)
 

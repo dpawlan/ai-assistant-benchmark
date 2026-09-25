@@ -109,5 +109,20 @@ _Updated 2026-09-25 weekday vault scan (+4 rows)._
 - (2026-09-23) Yahoo Finance: Muse managed fantasy football waiver claim + lineup slot.
 - (2026-09-23) Yahoo Finance: Sensor Tower reports 560K DAU after 11 days; META stock +11%.
 
-**Feedback rows:** 170 (as of 2026-09-25)
-**Kinds:** other=65, use-case=33, praise=14, complaint=21, comparison=10, bug=14
+_Updated 2026-09-25 weekday vault scan batch 2 (+11 rows)._
+
+**New this scan:**
+- (2026-09-21) Patrick Wardle (Ars Technica): 0-day — "Muse itself has far more access and privileges than most malware could ever dream of."
+- (2026-09-21) Patrick Wardle (Ars Technica): "They didn't, in my opinion, think about security, which is really worrisome."
+- (2026-09-21) Amazon (via Ars Technica): Statement on Muse block — "unauthorized AI agent" ToS objection.
+- (2026-09-24) Rohail Saleem (Wccftech): ~700K DAU but SaaSHub Degraded; "can't search" top complaint.
+- (2026-09-24) Rohail Saleem (Wccftech): Similarweb 10x DAU growth in 11 days; scaling strain signals.
+- (2026-09-23) Mark Zuckerberg (TechCrunch Connect): "Small fee from transactions" monetization plan.
+- (2026-09-23) Mark Zuckerberg (TechCrunch Connect): "Personal superintelligence that billions… are going to use."
+- (2026-09-23) Alexandr Wang (TechCrunch Connect): 1,500+ connector applications in first week.
+- (2026-09-24) Olimpiu Pop (InfoQ): "Zero-effort conduit to bypass platform protections."
+- (2026-09-24) UseCarly: Inc's Aten had 187K iMessages synced despite declining access.
+- (2026-09-24) UseCarly (citing CNN): Instinct Resy spam led to account ban.
+
+**Feedback rows:** 181 (as of 2026-09-25)
+**Kinds:** other=68, use-case=33, praise=14, complaint=28, comparison=10, bug=14

@@ -3719,5 +3719,217 @@
     "source": "web",
     "collected_at": "2026-09-25T14:00:00Z",
     "notes": "Yahoo Finance: Sensor Tower reports 560K DAU after 11 days; META stock +11%."
+  },
+  {
+    "id": "f25h1ar01",
+    "agent": "muse",
+    "quote": "Muse itself has far more access and privileges than most malware could ever dream of having. We can manipulate the agent and leverage its privileges to do whatever we want. So instead of us having to write a very comprehensive Mac malware stealer, we can just leverage the AI assistant itself.",
+    "author": "Patrick Wardle",
+    "author_name": "Patrick Wardle (Ars Technica)",
+    "date": "2026-09-21",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/#wardle",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "0-day",
+      "malware",
+      "privileges",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "Ars: Wardle 0-day\u2014Muse 'more privileges than most malware could dream of'."
+  },
+  {
+    "id": "f25h1ar02",
+    "agent": "muse",
+    "quote": "To me, the bar is infinitely higher in terms of the security of these apps. They don't have to be perfect, but when you take a look at Muse, it's like they didn't, in my opinion, think about security, which is really worrisome. At the very least, they should be thinking about security from the very start, and they are just not.",
+    "author": "Patrick Wardle",
+    "author_name": "Patrick Wardle (Ars Technica)",
+    "date": "2026-09-21",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/#security-bar",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "design",
+      "0-day",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "Ars: Wardle on Muse security posture\u2014'they didn't think about security'."
+  },
+  {
+    "id": "f25h1ar03",
+    "agent": "muse",
+    "quote": "We think it's fairly straightforward that third-party applications that offer to make purchases on behalf of customers from other businesses should operate openly and respect service provider decisions about whether or not to participate. Agentic third-party applications such as Muse have the same obligations, and we've requested that Meta remove Amazon from the experience.",
+    "author": "Amazon",
+    "author_name": "Amazon (via Ars Technica)",
+    "date": "2026-09-21",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/#amazon-block",
+    "kind": "other",
+    "tags": [
+      "amazon",
+      "block",
+      "tos",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "Ars: Amazon statement on Muse block\u2014'unauthorized AI agent'."
+  },
+  {
+    "id": "f25h1wc01",
+    "agent": "muse",
+    "quote": "So Muse hasn't even reached a million users yet, and it's already struggling to serve them. The status monitoring platform SaaSHub currently lists Muse as 'Degraded,' indicating that 'users are reporting problems.' The platform lists 'can't search' as the most common complaint.",
+    "author": "Rohail Saleem",
+    "author_name": "Rohail Saleem (Wccftech)",
+    "date": "2026-09-24",
+    "url": "https://wccftech.com/metas-muse-ai-agent-is-already-buckling-under-compute-strain-despite-not-yet-reaching-1-million-daily-active-users/#degraded",
+    "kind": "complaint",
+    "tags": [
+      "scaling",
+      "degraded",
+      "saashub",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "Wccftech: ~700K DAU but SaaSHub Degraded status; 'can't search' top complaint."
+  },
+  {
+    "id": "f25h1wc02",
+    "agent": "muse",
+    "quote": "According to a tabulation by Similarweb, the DAU metric for Muse is now up 10x over the past 11 days to hit around 700,000. While this is phenomenal growth by any measure, the total scale of the AI agent's proliferation is still quite modest. And yet, a growing number of ancillary evidence points to the conclusion that Meta is already struggling to serve Muse to its growing userbase.",
+    "author": "Rohail Saleem",
+    "author_name": "Rohail Saleem (Wccftech)",
+    "date": "2026-09-24",
+    "url": "https://wccftech.com/metas-muse-ai-agent-is-already-buckling-under-compute-strain-despite-not-yet-reaching-1-million-daily-active-users/#700k",
+    "kind": "other",
+    "tags": [
+      "metrics",
+      "700k",
+      "dau",
+      "scaling",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "Wccftech: Similarweb ~700K DAU, 10x in 11 days; scaling strain signals."
+  },
+  {
+    "id": "f25h1tc01",
+    "agent": "muse",
+    "quote": "We're standing behind this by making Muse free for a huge number of tokens, with the expectation that over time we will profit by taking a small fee from transactions.",
+    "author": "Mark Zuckerberg",
+    "author_name": "Mark Zuckerberg (TechCrunch Connect)",
+    "date": "2026-09-23",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/#transaction-fee",
+    "kind": "other",
+    "tags": [
+      "monetization",
+      "transactions",
+      "connect",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "TC Connect: Zuckerberg announces small fee from Muse-powered transactions."
+  },
+  {
+    "id": "f25h1tc02",
+    "agent": "muse",
+    "quote": "In the coming years, I expect that Muse is going to grow into the personal superintelligence that billions of people around the world are going to use to accomplish their goals and improve their lives.",
+    "author": "Mark Zuckerberg",
+    "author_name": "Mark Zuckerberg (TechCrunch Connect)",
+    "date": "2026-09-23",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/#superintelligence",
+    "kind": "other",
+    "tags": [
+      "vision",
+      "superintelligence",
+      "connect",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "TC Connect: Zuckerberg pitches Muse as future 'personal superintelligence'."
+  },
+  {
+    "id": "f25h1tc03",
+    "agent": "muse",
+    "quote": "The company received more than 1,500 applications in less than a week to build connectors. I think this could be a generational opportunity to start building for a new platform as it takes off, and the response so far has been really great.",
+    "author": "Alexandr Wang",
+    "author_name": "Alexandr Wang (TechCrunch Connect)",
+    "date": "2026-09-23",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/#connectors",
+    "kind": "other",
+    "tags": [
+      "connectors",
+      "developers",
+      "connect",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "TC Connect: 1,500+ connector applications in first week."
+  },
+  {
+    "id": "f25h1iq01",
+    "agent": "muse",
+    "quote": "By packaging device cross-sync, full disk permissions, audio streams, and private chat histories into an un-sandboxed, signed agent with a modifiable debug endpoint, Meta effectively gave commodity malware a zero-effort conduit to bypass platform protections without raising operational alerts.",
+    "author": "Olimpiu Pop",
+    "author_name": "Olimpiu Pop (InfoQ)",
+    "date": "2026-09-24",
+    "url": "https://www.infoq.com/news/2026/09/meta-muse-zeroday/#conduit",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "0-day",
+      "sandbox",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "InfoQ: Muse as 'zero-effort conduit to bypass platform protections'."
+  },
+  {
+    "id": "f25h1uc01",
+    "agent": "muse",
+    "quote": "WIRED reports users are automatically opted in to having their interactions used for AI training, and there is no switch to turn memory off. Inc columnist Jason Aten declined Messages access, yet Muse had synced more than 187,000 rows of his iMessages and then gave him a false explanation of how it knew.",
+    "author": "UseCarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-24",
+    "url": "https://www.usecarly.com/blog/meta-muse-vs-instinct/#imessage-sync",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "imessages",
+      "sync",
+      "training",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "UseCarly: Inc's Aten had 187K iMessages synced despite declining access."
+  },
+  {
+    "id": "f25h1uc02",
+    "agent": "muse",
+    "quote": "Instinct pinged Resy 'hundreds of times every hour of the day' for one investor, CNN reports, and Resy banned his account.",
+    "author": "UseCarly",
+    "author_name": "UseCarly (citing CNN)",
+    "date": "2026-09-24",
+    "url": "https://www.usecarly.com/blog/meta-muse-vs-instinct/#resy-ban",
+    "kind": "complaint",
+    "tags": [
+      "resy",
+      "api",
+      "ban",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-25T14:30:00Z",
+    "notes": "UseCarly: Instinct Resy spam led to account ban (CNN report)."
   }
 ]

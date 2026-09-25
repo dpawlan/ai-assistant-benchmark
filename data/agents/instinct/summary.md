@@ -135,5 +135,15 @@ _Updated 2026-09-25 weekday vault scan (+6 rows)._
 - (2026-09-24) Zoë Schiffer (WIRED): Reports of email retention after disconnect; Resy API abuse banning (200 pings/hr).
 - (2026-09-24) Zoë Schiffer (WIRED): "Think of it as OpenClaw for normies" — Bay Area positioning.
 
-**Feedback rows:** 229 (as of 2026-09-25)
+_Updated 2026-09-25 weekday vault scan batch 2 (+6 rows)._
+
+**New this scan:**
+- (2026-09-24) Rex Lowther (BI): "Acts more like a person who might forget to do something. Supposed to ping me when an email comes in and it doesn't for awhile. Like it went home for the night."
+- (2026-09-24) Hang Huang (BI): "Crazy how you can create an awesome product that people love but if your infra struggles to scale it can hurt a ton."
+- (2026-09-24) Vinay Iyengar (BI): "I've used both Instinct and Muse and found them to be at feature parity. Muse, though, has an edge because it will never have compute outages. I'm basically churned from Instinct."
+- (2026-09-24) Mehdi Jamei (BI): Instinct read Gmail OTP unprompted for Luma login — "serious security problem."
+- (2026-09-24) Pritak Patel (BI): Instinct hallucinated personal/financial details from text-only link — "unsettling."
+- (2026-09-24) Mahesh Vellanki (BI): Instinct 2FA from Iran IP during bill negotiation — deleted account.
+
+**Feedback rows:** 235 (as of 2026-09-25)
 

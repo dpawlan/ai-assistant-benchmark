@@ -2,15 +2,16 @@
 
 Site: https://catchagent.ai/
 
-**Feedback rows:** 26 (as of 2026-09-07)
-**Kinds:** other=10, praise=7, use-case=5, comparison=2, bug=1, complaint=1
-**Top tags:** email(6), travel(5), calendar(5), admin(4), reddit(4), positioning(3), pricing(2), comparison(2)
+**Feedback rows:** 123 (as of 2026-09-21)
+**Kinds:** other=97, praise=11, use-case=10, comparison=3, bug=1, complaint=1
+**Top tags:** reply(72), promo(23), vendor(14), founder(14), travel(8), email(7), calendar(6), admin(6)
 
 **Patterns (public X + Reddit):**
 - **Done vs asking:** hotel price-watch cancel/rebook cheaper; WhatsApp scheduling; “comes back done” positioning resonating.
 - **Travel/admin praise:** first-person “other level” experiences; Hebrew WhatsApp scheduling thread.
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** Catch’s own Sep 8 ranking refresh — proactive conflict reschedule + outbound calls + SOC2 / $99 flat (founder-authored roundup).
 - [use-case] @ShayaFeedman: בשקט בשקט, בלי שקלטתי, קובלתי הודעה שבוע שעבר מ  @catchagent  עוזר אישי AI כמובן.   תיאם פגישה מורכבת יחסית, דאג לעדכן בשינויים, מספיק חכם כדי לעשות דברים מורכב
 - [praise] @anujcodes_21: AI agents can pass the bar and win math olympiads. Not one of them will call the hotel for you.   @catchagent   does.  It books your travel, reschedules your ca
 - [use-case] @aryanXmahajan: Ask anyone selling you an AI agent one question. Does it come back done, or does it come back asking?  Catch is just the first one that comes back done.  I had 

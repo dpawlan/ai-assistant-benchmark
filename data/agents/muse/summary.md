@@ -80,8 +80,8 @@ _Updated 2026-09-17 weekday vault scan (+7 rows)._
 - (2026-09-09) Saner.AI: Security-practitioner reaction to unattended agent + private data blast radius — "worst kind of hazmat."
 - (2026-09-09) Saner.AI: Muse as first OpenClaw-like consumer agent that just works.
 
-**Feedback rows:** 123 (as of 2026-09-18)
-**Kinds:** other=61, use-case=27, praise=13, complaint=9, comparison=7, bug=6
+**Feedback rows:** 141 (as of 2026-09-22)
+**Kinds:** other=62, use-case=27, praise=14, complaint=10, comparison=9, bug=8
 
 _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
@@ -91,3 +91,38 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - (2026-09-11) HN archon810: Muse UX similar to pleasant Grok Bot vs Codex/Cowork papercuts.
 - (2026-09-08) Board Brief: Muse as Meta mass-consumer bid on the Town/Instinct/Grok Bot delegation pattern.
 
+
+
+- **2026-09-21 vault scan:** Amazon blocks Muse shopping (Verge/Forkast, popup Sunday Sep 20); Top5Apps #1 overall + #1 free US App Store Sep 18; merchant-veto framing; Faraday Meta-trust overhang; Fabric depth vs Poke iMessage.
+
+- **2026-09-22 vault scan (+11 rows):** BI hands-on (Notopoulos, 19 Sep) email digest + subscription scan worked, Girl Scouts checkout timeout; Substack (Taylor Arndt, 21 Sep) VoiceOver a11y issues + connector gaps; How I AI (Claire Vo, 16 Sep) family newsletter PDF, Goals primitive vs Grok Bot/OpenClaw, IMAX ticket Link checkout; HN: school homework cred-vault workflow, bot-scarcity shopping worry; HokAI citing Benzinga internal safeguard bypass.
+
+- **2026-09-23 vault scan (+12 rows):** CNN hands-on (Eadicicco, 23 Sep): date-night booking + packing schedule + trip planning worked; stale closed-venue data; Target blocks autonomous checkout; Marketplace Ideas oversell vs draft-only. mouse.dev/HN (22 Sep): user exported 6.8GB session root filesystem (Hatch internals, SSH keys); Meta bounty NA. HN: ToS-breaking poker bots; capable but approval-heavy (student switching Muse↔Instinct). Data Today (20 Sep): hallucinated notification-preview access; Meta apologized. Why So Geek/Malwarebytes (22 Sep): Wardle dictation-endpoint Mac exploit + hotfix. Techlicious/Reuters (22 Sep): human concierge behind public beta calls, no opt-out. Futurism/Wired (22 Sep): data-upsell creepiness framing.
+
+- **2026-09-24 vault scan (+13 rows):** Slate hands-on (Kirshner, 23 Sep): airline captcha + session kick; 30 min fail vs 5 min self-book; Amazon merchant veto framed as core threat. Verge evening hands-on (Johnson, 23 Sep): Marley shopping after Stripe Link; trust blast-radius after short session; junk-removal RFQ→same-day booking; Amazon ToS block fallback. WIRED original (Rogers, 20 Sep): data-upsell thesis + bank-link nudge; EPIC counsel on default-on training opt-out; deleted Muse post connect-apps nudge. TechSpot/Reuters (23 Sep): contractor racist remark on bill-negotiate call; success rate jump with human concierge. BI (21 Sep): training opt-out path under Data Controls.
+
+_Updated 2026-09-25 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-23) Yahoo Finance hands-on (Howley): Muse hallucinated phone number, then warned not to trust unverified numbers.
+- (2026-09-23) Yahoo Finance: Muse found movers, sent quote requests, calls arrived in 2 min.
+- (2026-09-23) Yahoo Finance: Muse managed fantasy football waiver claim + lineup slot.
+- (2026-09-23) Yahoo Finance: Sensor Tower reports 560K DAU after 11 days; META stock +11%.
+
+_Updated 2026-09-25 weekday vault scan batch 2 (+11 rows)._
+
+**New this scan:**
+- (2026-09-21) Patrick Wardle (Ars Technica): 0-day — "Muse itself has far more access and privileges than most malware could ever dream of."
+- (2026-09-21) Patrick Wardle (Ars Technica): "They didn't, in my opinion, think about security, which is really worrisome."
+- (2026-09-21) Amazon (via Ars Technica): Statement on Muse block — "unauthorized AI agent" ToS objection.
+- (2026-09-24) Rohail Saleem (Wccftech): ~700K DAU but SaaSHub Degraded; "can't search" top complaint.
+- (2026-09-24) Rohail Saleem (Wccftech): Similarweb 10x DAU growth in 11 days; scaling strain signals.
+- (2026-09-23) Mark Zuckerberg (TechCrunch Connect): "Small fee from transactions" monetization plan.
+- (2026-09-23) Mark Zuckerberg (TechCrunch Connect): "Personal superintelligence that billions… are going to use."
+- (2026-09-23) Alexandr Wang (TechCrunch Connect): 1,500+ connector applications in first week.
+- (2026-09-24) Olimpiu Pop (InfoQ): "Zero-effort conduit to bypass platform protections."
+- (2026-09-24) UseCarly: Inc's Aten had 187K iMessages synced despite declining access.
+- (2026-09-24) UseCarly (citing CNN): Instinct Resy spam led to account ban.
+
+**Feedback rows:** 181 (as of 2026-09-25)
+**Kinds:** other=68, use-case=33, praise=14, complaint=28, comparison=10, bug=14

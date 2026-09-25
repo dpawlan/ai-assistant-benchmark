@@ -1,6 +1,6 @@
 # Index
 
-_Updated 2026-09-18. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
+_Updated 2026-09-24. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
 
 | Agent | Folder | Feedback rows | Last updated | Status | Signal |
 |-------|--------|---------------|--------------|--------|--------|
@@ -10,26 +10,27 @@ _Updated 2026-09-18. Status `stretch` = on the benchmark board but outside core 
 | Boba | `agents/boba/` | 2 | 2026-09-06 | confirmed | low |
 | Buoy | `agents/buoy/` | 14 | 2026-09-07 | confirmed | low |
 | Caddy | `agents/caddy/` | 108 | 2026-09-11 | confirmed | — |
-| Catch | `agents/catch/` | 122 | 2026-09-11 | confirmed | — |
-| Folk | `agents/folk/` | 15 | 2026-09-07 | confirmed | medium |
-| Grok Bot | `agents/grok-bot/` | 1164 | 2026-09-18 | confirmed | — |
+| Catch | `agents/catch/` | 123 | 2026-09-21 | confirmed | — |
+| Folk | `agents/folk/` | 214 | 2026-09-24 | confirmed | medium |
+| Grok Bot | `agents/grok-bot/` | 1185 | 2026-09-24 | confirmed | — |
 | Halo | `agents/halo/` | 5 | 2026-09-06 | confirmed | low |
 | HireAlpha | `agents/hirealpha/` | 4 | 2026-09-06 | confirmed | low |
-| Instinct | `agents/instinct/` | 209 | 2026-09-18 | confirmed | — |
+| Instinct | `agents/instinct/` | 223 | 2026-09-24 | confirmed | — |
 | Joshu | `agents/joshu/` | 19 | 2026-09-06 | confirmed | — |
 | Lava | `agents/lava/` | 9 | 2026-09-06 | stretch | low |
 | Lucas | `agents/lucas/` | 11 | 2026-09-06 | confirmed | low |
 | Mana | `agents/mana/` | 10 | 2026-09-06 | confirmed | low |
 | Miso | `agents/miso/` | 67 | 2026-09-09 | confirmed | high |
+| Muse | `agents/muse/` | 166 | 2026-09-24 | confirmed | — |
 | Moves | `agents/moves/` | 0 | — | stretch | unknown |
 | Ollie | `agents/ollie/` | 132 | 2026-09-11 | confirmed | — |
-| OpenClaw | `agents/openclaw/` | 6 | 2026-09-18 | confirmed | low |
+| OpenClaw | `agents/openclaw/` | 18 | 2026-09-24 | confirmed | low |
 | OpenInstinct | `agents/openinstinct/` | 127 | 2026-09-11 | confirmed | — |
 | Orchid | `agents/orchid/` | 428 | 2026-09-11 | confirmed | — |
 | Pally | `agents/pally/` | 109 | 2026-09-11 | confirmed | — |
 | personal/local | `agents/personal-local/` | 763 | 2026-09-11 | confirmed | — |
 | Pneum.ai | `agents/pneum/` | 0 | — | stretch | unknown |
-| Poke | `agents/poke/` | 237 | 2026-09-17 | confirmed | — |
+| Poke | `agents/poke/` | 239 | 2026-09-21 | confirmed | — |
 | ShopOnScout / Scout | `agents/shoponscout/` | 10 | 2026-09-06 | stretch | low |
 | Shuffle | `agents/shuffle/` | 4 | 2026-09-06 | confirmed | low |
 | Sircle | `agents/sircle/` | 0 | — | stretch | unknown |
@@ -40,8 +41,8 @@ _Updated 2026-09-18. Status `stretch` = on the benchmark board but outside core 
 | szn | `agents/szn/` | 20 | 2026-09-07 | confirmed | — |
 | Text Zero | `agents/text-zero/` | 9 | 2026-09-06 | stretch | low |
 | tinyNature | `agents/tinynature/` | 20 | 2026-09-08 | confirmed | medium |
-| Tomo | `agents/tomo/` | 63 | 2026-09-09 | confirmed | — |
-| Town | `agents/town/` | 305 | 2026-09-18 | confirmed | — |
+| Tomo | `agents/tomo/` | 67 | 2026-09-24 | confirmed | — |
+| Town | `agents/town/` | 307 | 2026-09-24 | confirmed | — |
 | Vellum | `agents/vellum/` | 34 | 2026-09-07 | confirmed | — |
 | Wajo / Fo | `agents/wajo-fo/` | 69 | 2026-09-11 | confirmed | — |
 | Waldo | `agents/waldo/` | 7 | 2026-09-06 | stretch | low |

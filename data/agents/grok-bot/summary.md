@@ -1,8 +1,8 @@
 # Grok Bot
 
-**Feedback rows:** 1164 (as of 2026-09-18)
-**Kinds:** other=1018, use-case=72, complaint=30, praise=18, comparison=15, bug=11
-**Top tags:** cursor(18), reddit(10), hermes(4), limits(4), pricing(3), trading(3), email(3), claude(3)
+**Feedback rows:** 1173 (as of 2026-09-22)
+**Kinds:** other=1019, use-case=72, complaint=32, praise=19, comparison=17, bug=11
+**Top tags:** reply(531), cursor(19), limits(6), hermes(6), routines(5), security(5), pricing(5), multi-bot(5)
 
 **Patterns (public X + Reddit):**
 - **Power-user bugs:** routines unreliable even for simple daily X polls; deleted-bot data lingering; users want a clear bug-report path (~10hr/day users).
@@ -10,6 +10,7 @@
 - **Cursor sub + Reddit:** reliability/hype threads; compared with Instinct/OpenClaw in “AI haters after using…” jokes.
 
 **Recent highlights:**
+- **2026-09-21 vault scan:** Engadget Sep 20 how-to (≠ Grok chat; Cursor Sand; beta bugs/logins); Top5Apps #3 + Claire Vo connectors praise; Faraday shared-computer blast radius; Show HN OpenBot (Ultra tokens exhausted).
 - [use-case] @josgonhe: Saved ~$200 on subscriptions this weekend with SubHaggle, a  @bot  that reads my credit-card expenses, flags renewals, and drafts cancel/pause/downgrade counter
 - [complaint] @ManuKumar: I spent a big chunk of my day on Grok  @bot  yesterday. The agent communication model is brilliant. But not having the ability to choose the agent models makes 
 - [use-case] @ahoop: Daily Grok Bot Update  Thanks to  @bot  for another usage reset, I was able to tackle another project I’ve been keeping on the back burner. My father-in-law has
@@ -76,4 +77,19 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 - (2026-09-13) @ComebackCap: specialists that write prompts for each other.
 - (2026-09-08) Luca Rossi (Refactoring.fm): migrated all non-coding work; five-bot fleet (Brian/Karn/Edith/Sponsy/Grow).
 - (2026-09-02) Peter Yang: best-in-class cloud; discomfort entering Amazon 2FA on cloud computer; no financials.
+
+- **2026-09-22 vault scan (+3 rows):** Continuum review (8 Sep): best-in-class onboarding + structural limits (shared computer, opaque router, audit gap); Learn Cursor (14 Aug): Grok Bot for cross-app work vs Cloud Agent for bounded repo PR.
+
+- **2026-09-23 vault scan (+6 rows):** Cursor Forum quota burn thread (Aug–Sep): Pro+ 77% in 2 days; SuperGrok+ day-1 burn + $20 on-demand gone in 3h; Ultra 65%→99% in 3 days; best-app praise + API cost pain; 0.47.0 silent no-reply was quota exhausted without banner (staff confirmed). DEV Community (17 Aug): week-long review — freeze/half-data reliability + shared VM logins across bots; not worth $200 yet.
+
+- **2026-09-24 vault scan (+6 rows):** Cursor Forum quota burn (Aug–Sep): bot-to-bot review loop burned weekly pool 100% (ting-ting234); 5 agents unsupervised 7h burned on-demand (Juan Oliva); display confusion led to uninstall (z l). Staff clarification (deanrie): separate weekly pool; cloud-agent exception. CellCog early verdict (Nitish Garg, 9 Sep): try, don't rebuild on it yet; weekly allowance and browser crashes.
+
+_Updated 2026-09-25 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-21) Colin (Cursor Staff): "Improving bot efficiency so your quota lasts longer. A welcome side effect is that bots feel noticeably snappier overall."
+- (2026-09-17) Jediah Katz (Cursor/xAI): "+10% more effective usage via subagent/routing optimizations."
+- (2026-09-17) Jediah Katz (Cursor/xAI): "10–35% more effective usage from routing, caching, dynamic context, and token efficiency improvements."
+
+**Feedback rows:** 1188 (as of 2026-09-25)
 

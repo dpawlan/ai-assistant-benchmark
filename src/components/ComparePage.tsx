@@ -22,7 +22,7 @@ export function compareMetadata(pair: string, focusRaw?: string): Metadata {
     openGraph: {
       title: `${title} | Assistant Benchmark`,
       description: `${v.headline}. ${v.detail}`,
-      images: [{ url: image, width: 2400, height: 1260, alt: `${title} scorecard` }],
+      images: [{ url: image, width: 1200, height: 630, alt: `${title} scorecard` }],
     },
     twitter: {
       card: 'summary_large_image',

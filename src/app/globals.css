@@ -4150,3 +4150,5 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-soon-title { margin: 0 0 6px; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
 .rp-soon p { margin: 0; font-size: 15px; line-height: 1.5; color: var(--sec); }
 .rp-soon p.rp-soon-title { color: var(--text); }
+
+.art-body h3 { margin: 26px 0 10px; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }

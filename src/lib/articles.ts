@@ -22,6 +22,7 @@ export interface Article {
 export type Block =
   | { type: 'p'; text: string }
   | { type: 'h2'; text: string }
+  | { type: 'h3'; text: string }
   | { type: 'quote'; text: string }
   | { type: 'ul'; items: string[] };
 
@@ -72,7 +73,8 @@ export function toBlocks(body: string): Block[] {
   for (const chunk of body.split(/\n\s*\n/)) {
     const t = chunk.trim();
     if (!t) continue;
-    if (t.startsWith('## ')) out.push({ type: 'h2', text: t.slice(3) });
+    if (t.startsWith('### ')) out.push({ type: 'h3', text: t.slice(4) });
+    else if (t.startsWith('## ')) out.push({ type: 'h2', text: t.slice(3) });
     else if (t.startsWith('> ')) out.push({ type: 'quote', text: t.replace(/^> ?/gm, '') });
     else if (/^- /.test(t)) out.push({ type: 'ul', items: t.split('\n').map(l => l.replace(/^- /, '')) });
     else out.push({ type: 'p', text: t.replace(/\n/g, ' ') });

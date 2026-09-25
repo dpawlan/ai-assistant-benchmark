@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
     openGraph: {
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,
-      images: [{ url: `/og/${agent.slug}.png`, width: 1200, height: 630, alt: agent.name }],
+      images: [{ url: `/og/${agent.slug}.png`, width: 2400, height: 1260, alt: agent.name }],
     },
     twitter: {
       card: 'summary_large_image',

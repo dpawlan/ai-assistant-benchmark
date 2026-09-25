@@ -1,0 +1,38 @@
+{
+  "slug": "otty",
+  "name": "Otty",
+  "site": "https://heyotty.com/",
+  "handles": [
+    "heyotty",
+    "bloome",
+    "bloome_ai"
+  ],
+  "status": "stretch",
+  "product_class": "career_agent",
+  "notes": "Rebranded from Bloome on 2026-09-24 (founder message; bloome.ai now redirects to heyotty.com). Job-search agent in WhatsApp: finds roles, writes the CV, applies with permission, tracks applications. Requested via the form (issue #11).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "proactive_behavior",
+    "third_party_integrations",
+    "memory",
+    "proactive_restraint",
+    "chained_tasks",
+    "running_routine"
+  ],
+  "public_signal": "low",
+  "tagline": "Your AI career agent in WhatsApp",
+  "icon": "/logos/otty.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free (10 applications) · Pro €39/mo (70 applications) · Ultra €99/mo (175 applications)",
+    "regions": "International; Europe-focused",
+    "channels": [
+      "WhatsApp",
+      "Telegram (coming soon)",
+      "iMessage (coming soon)"
+    ],
+    "checked": "2026-09-24"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "szn-2026-09-23-blooio-memory-pref",
+  "agent": "szn",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-23",
+  "signals": {
+    "probe_type": "preference_recall",
+    "seeded_at": "2026-09-10",
+    "seed_confirmed": true,
+    "seed_ack_note": "Outbound seed present 2026-09-10 16:01 ET; no immediate verbal 'got it' ack in thread, but same-day inbound applied aisle seats unprompted (~21:39 ET) and later sessions applied no-pork.",
+    "ask_mentioned_aisle_or_pork": false,
+    "applied_aisle_unprompted": true,
+    "applied_no_pork_unprompted": true,
+    "remind_used": false,
+    "preference_subscore": 10,
+    "city_subscore_prior": 10,
+    "final_memory": 10,
+    "stop_before_pay": true
+  },
+  "seed_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-10 16:01:13 ET",
+      "text": "All good on those — no need to join a group or connect apps for now. One preference to remember for later: I always want aisle seats and I don’t eat pork."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-10 21:39:31 ET",
+      "text": "FYI — the United UA2342/UA396 fare I staged at a $396 base is now $442 on Google Flights — about $488 with the two aisle seats. Nothing is booked. I can lock it in if you’d like, or keep watching."
+    }
+  ],
+  "probe_excerpts": [
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-23 11:06:37 ET",
+      "text": "Book me a round-trip flight from New York to Miami, leaving Friday morning and back Sunday evening, under $400. Also find a dinner reservation for two on Saturday night somewhere good — not a chain."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 11:07:44 ET",
+      "text": "I’ll check Friday-morning flights to Miami and Sunday-evening returns, including the total with aisle seats and fare terms. I’ll start with one traveler—tell me if that’s not right. I won’t book or pay until you’ve seen and approved the specific option."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 11:07:57 ET",
+      "text": "I’ll look for a good, non-chain Miami restaurant for two on Saturday night, with no-pork choices. I’ll bring you the available time and any deposit or cancellation terms before booking."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 11:10:35 ET",
+      "text": "I haven’t found a nonstop under $400 for Friday morning out and Sunday evening back. The lowest round-trip base fares for one traveler are American from JFK at $511, EWR at $521, and LGA at $545; aisle-seat costs and availability still need checking. Direct JetBlue and Spirit searches found no nonstop option for these dates.\n\nWould you like me to check the JFK flight’s full price with aisle seats, or look for connecting flights closer to $400? Nothing is booked."
+    },
+    {
+      "direction": "outbound",
+      "time_et": "2026-09-23 11:11:46 ET",
+      "text": "Yes, check the JFK option with the seats you'd pick for me, and share a couple dinner options for Saturday. Stop before any payment or passenger forms."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 11:12:44 ET",
+      "text": "Two non-chain Miami dinner options for Saturday, September 26, both with non-pork choices:\n\nNIU Kitchen, Downtown — Spanish tapas, including seafood or vegan paella, branzino and octopus. Resy showed tables for two from 5:00–10:15 PM. No deposit was noted. My top pick.\nhttps://resy.com/cities/miami-fl/venues/niu-kitchen?date=2026-09-26&seats=2\n\nAriete, Coconut Grove — Michelin-noted Cuban-French cooking with non-pork choices. Saturday hours are listed as 5:30–11:00 PM, last seating 10:30 PM, but I couldn’t verify a live table through its booking page.\nhttps://www.sevenrooms.com/explore/ariete/reservations/create/search/\n\nWhich appeals to you, and roughly what time? I’ll confirm the table and terms before booking. No payment or passenger forms."
+    },
+    {
+      "direction": "inbound",
+      "time_et": "2026-09-23 11:14:51 ET",
+      "text": "I’ll check the JFK option’s aisle-seat availability and full price. I’ll stop before passenger forms or payment."
+    }
+  ],
+  "published_at": "2026-09-23T00:00:00.000Z"
+}

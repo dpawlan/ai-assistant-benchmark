@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description: 'Which assistant is actually worth texting? One rubric, real quotes, no sponsored rankings.',
     type: 'website',
     siteName: 'Assistant Benchmark',
-    images: [{ url: '/og/site.png', width: 1200, height: 630, alt: 'Assistant Benchmark' }],
+    images: [{ url: '/og/site.png', width: 2400, height: 1260, alt: 'Assistant Benchmark' }],
   },
   twitter: {
     card: 'summary_large_image',

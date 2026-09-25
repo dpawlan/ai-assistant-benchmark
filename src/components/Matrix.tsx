@@ -56,7 +56,7 @@ function sortAgents(list: Agent[], key: SortKey, view: View): Agent[] {
 function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
   const params = useSearchParams();
   const kindParam = params.get('kind');
-  const kind = isKind(kindParam) ? kindParam : 'all';
+  const kind = kindParam === 'all' ? 'all' : isKind(kindParam) ? kindParam : 'general';
   useEffect(() => {
     onKind(kind);
   }, [kind, onKind]);
@@ -66,7 +66,7 @@ function KindFromUrl({ onKind }: { onKind: (k: string) => void }) {
 export function Matrix({ agents, categories, short, compact = false }: MatrixProps) {
   const router = useRouter();
   const pathname = usePathname();
-  const [kind, setKindState] = useState<string>('all');
+  const [kind, setKindState] = useState<string>('general');
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
@@ -78,7 +78,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   const setKind = (k: string) => {
     track('kind_filter', { kind: k });
     setKindState(k);
-    router.replace(k === 'all' ? pathname : `${pathname}?kind=${k}`, { scroll: false });
+    router.replace(k === 'general' ? pathname : `${pathname}?kind=${k}`, { scroll: false });
   };
 
   const statusOf = useMemo(() => {

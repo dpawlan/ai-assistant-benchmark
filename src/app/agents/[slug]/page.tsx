@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
     openGraph: {
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,
-      images: [{ url: `/og/${agent.slug}.png`, width: 1200, height: 630, alt: agent.name }],
+      images: [{ url: `/og/${agent.slug}.png`, width: 2400, height: 1260, alt: agent.name }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -65,7 +65,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
-  const kindHref = `/?kind=${agent.kind}`;
+  const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const inReports = getReportsForAgent(slug);

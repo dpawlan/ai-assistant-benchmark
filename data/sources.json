@@ -572,8 +572,10 @@
         "miso.ai",
         "misoapp"
       ],
-      "imessage_handles": [],
-      "_note": "Added 2026-09-08. iMessage: +14154207960 is the thread discover found (22 msgs); +14158910007 kept in case a second thread appears. Miso uses Apple Messages for Business, so a urn:biz handle may also exist. Do not map +14154207960: it is the founder's personal phone, not the assistant (2026-09-22). Miso runs came from a pasted in-app thread."
+      "imessage_handles": [
+        "urn:biz:48550af7-c2a4-48e6-835a-315bc3e5b0cb"
+      ],
+      "_note": "Added 2026-09-08. iMessage: +14154207960 is the thread discover found (22 msgs); +14158910007 kept in case a second thread appears. Miso uses Apple Messages for Business, so a urn:biz handle may also exist. Do not map +14154207960: it is the founder's personal phone, not the assistant (2026-09-22). Miso runs came from a pasted in-app thread. 2026-09-25: mapped the Messages for Business thread (display name \"Miso\", urn:biz handle); that is the assistant."
     },
     "moves": {
       "name": "Moves",
@@ -1440,28 +1442,36 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-09 from a request-form submission. App Store id verified (BrainLogic AI, sellerUrl zapia.com). Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
-    "bloome": {
-      "name": "Bloome",
+    "otty": {
+      "name": "Otty",
       "handles": [
+        "heyotty",
         "bloome",
         "bloome_ai"
       ],
-      "domain": "bloome.ai",
+      "domain": "heyotty.com",
       "x_queries": [
+        "\"heyotty.com\"",
+        "@heyotty",
         "\"bloome.ai\"",
         "@bloome",
         "@bloome_ai"
       ],
       "reddit_queries": [
+        "\"heyotty.com\"",
+        "\"Otty\" career agent",
         "\"bloome.ai\"",
         "\"Bloome\" assistant"
       ],
       "hn_queries": [
+        "\"heyotty.com\"",
         "\"bloome.ai\""
       ],
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
+        "heyotty.com",
+        "@heyotty",
         "bloome.ai",
         "@bloome",
         "@bloome_ai",
@@ -1469,7 +1479,7 @@
         "bloome_ai"
       ],
       "imessage_handles": [],
-      "_note": "Added 2026-09-09 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10). Generic name: domain/handle queries only."
+      "_note": "Added 2026-09-09 from a request-form submission as Bloome; rebranded to Otty 2026-09-24 (bloome.ai redirects to heyotty.com). Old bloome queries kept so earlier posts still match. @heyotty is a guess; verify before collecting. Generic name: domain/handle queries only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
     "central": {
       "name": "Central",

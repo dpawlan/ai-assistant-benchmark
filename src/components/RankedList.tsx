@@ -19,10 +19,11 @@ interface RankedListProps {
 
 type KindKey = (typeof KINDS)[number]['key'] | 'all';
 
+/** General is the default group (most interest is there); ?kind=all shows every group. */
 function KindFromUrl({ onKind }: { onKind: (k: KindKey) => void }) {
   const params = useSearchParams();
   const k = params.get('kind');
-  const want: KindKey = k && isKind(k) ? k : 'all';
+  const want: KindKey = k === 'all' ? 'all' : k && isKind(k) ? k : 'general';
   useMemo(() => onKind(want), [want, onKind]);
   return null;
 }
@@ -40,14 +41,14 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
   const router = useRouter();
-  const [kind, setKindState] = useState<KindKey>('all');
+  const [kind, setKindState] = useState<KindKey>('general');
   const [opinion, setOpinion] = useState(false);
   const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
   const setKind = (k: KindKey) => {
     setKindState(k);
-    router.replace(k === 'all' ? '/' : `/?kind=${k}`, { scroll: false });
+    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
   };
 
   const counts: Record<string, number> = {};

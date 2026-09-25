@@ -24,6 +24,8 @@ const nextConfig: NextConfig = {
       { source: '/categories/:key', destination: '/dimensions/:key', permanent: true },
       { source: '/confirmed', destination: '/', permanent: true },
       { source: '/stretch', destination: '/?kind=all', permanent: true },
+      { source: '/agents/bloome', destination: '/agents/otty', permanent: true },
+      { source: '/agents/bloome/:path*', destination: '/agents/otty/:path*', permanent: true },
     ];
   },
 };

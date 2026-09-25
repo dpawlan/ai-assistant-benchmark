@@ -125,5 +125,15 @@ _Updated 2026-09-24 weekday vault scan (+3 rows)._
 - (2026-09-23) Emilie Schario (Kilo Blog): Instinct honesty + pre-submit approval framing for consequential cancel.
 - (2026-09-23) Alex Kirshner (Slate): Instinct weekly Resy use aside; agent reservation-scarcity worry.
 
-**Feedback rows:** 223 (as of 2026-09-24)
+_Updated 2026-09-25 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-24) Zoë Schiffer (WIRED): Alaska flight change detected, $550 refund secured automatically — "I'm starting to feel the AGI."
+- (2026-09-24) Zoë Schiffer (WIRED): DoorDash cancel without refund despite explicit instruction — forfeit $64.
+- (2026-09-24) Zoë Schiffer (WIRED): Phishing detection — correctly identified fake BBQ invite as scam.
+- (2026-09-24) Zoë Schiffer (WIRED): "Instinct got the form factor right—no open text box, just iMessage, WhatsApp."
+- (2026-09-24) Zoë Schiffer (WIRED): Reports of email retention after disconnect; Resy API abuse banning (200 pings/hr).
+- (2026-09-24) Zoë Schiffer (WIRED): "Think of it as OpenClaw for normies" — Bay Area positioning.
+
+**Feedback rows:** 229 (as of 2026-09-25)
 

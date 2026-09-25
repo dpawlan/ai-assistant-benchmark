@@ -109,7 +109,7 @@
       "vs-grok-bot",
       "web"
     ],
-    "notes": "Refactoring.fm path: OpenClaw → Hermes → Grok Bot for orchestration.",
+    "notes": "Refactoring.fm path: OpenClaw \u2192 Hermes \u2192 Grok Bot for orchestration.",
     "id": "4764b620dbb1",
     "agent": "openclaw",
     "collected_at": "2026-09-18T14:30:00Z",
@@ -118,7 +118,7 @@
   {
     "id": "c662b999e54e",
     "agent": "openclaw",
-    "quote": "if you are on a stable 2026.9.1 or 2026.9.2 build, hold off for a few days. … Do not rush to 2026.9.4 the day it ships. … Report #144788 is a critical regression naming 9.4 directly: post-agent-end memory generation fails for affected plugin setups that worked on 9.1 through 9.3. Report #144809 loses entire generated replies on long claude-cli turns.",
+    "quote": "if you are on a stable 2026.9.1 or 2026.9.2 build, hold off for a few days. \u2026 Do not rush to 2026.9.4 the day it ships. \u2026 Report #144788 is a critical regression naming 9.4 directly: post-agent-end memory generation fails for affected plugin setups that worked on 9.1 through 9.3. Report #144809 loses entire generated replies on long claude-cli turns.",
     "author": "Marcus Li",
     "author_name": "Marcus Li",
     "date": "2026-09-11",
@@ -157,7 +157,7 @@
   {
     "id": "6a030d082518",
     "agent": "openclaw",
-    "quote": "OpenClaw 2.0 is best understood as a self-hosted AI agent gateway, not as another large language model. … promising for developers, automation-heavy teams, and users who want an open, local-first agent system. It is less suitable for people who simply want a polished one-click chatbot.",
+    "quote": "OpenClaw 2.0 is best understood as a self-hosted AI agent gateway, not as another large language model. \u2026 promising for developers, automation-heavy teams, and users who want an open, local-first agent system. It is less suitable for people who simply want a polished one-click chatbot.",
     "author": "Daniel Brooks",
     "author_name": "Daniel Brooks",
     "date": "2026-09-04",
@@ -177,7 +177,7 @@
   {
     "id": "e8312f99acac",
     "agent": "openclaw",
-    "quote": "OpenClaw is the open-source personal assistant you run yourself. It lives in WhatsApp, iMessage, Telegram, Slack, Signal — the chats you already have — and talks to whatever model you plug in. Best if you want control and will own the setup. Not a consumer app.",
+    "quote": "OpenClaw is the open-source personal assistant you run yourself. It lives in WhatsApp, iMessage, Telegram, Slack, Signal \u2014 the chats you already have \u2014 and talks to whatever model you plug in. Best if you want control and will own the setup. Not a consumer app.",
     "author": "Neeraj Nathany",
     "author_name": "Neeraj Nathany",
     "date": "2026-09-10",
@@ -196,7 +196,7 @@
   {
     "id": "760333fac6a8",
     "agent": "openclaw",
-    "quote": "I've been running OpenClaw as my main personal agent setup for about 13 weeks now. It runs on a Raspberry Pi, talks to me through Telegram, manages memory, crons, subagents, research workflows, external APIs, scheduled tasks and general personal automation. … The short version: OpenClaw is powerful enough that I now treat it as infrastructure. It is also still rough enough that you need patience, logs, backups and a willingness to debug weird edge cases.",
+    "quote": "I've been running OpenClaw as my main personal agent setup for about 13 weeks now. It runs on a Raspberry Pi, talks to me through Telegram, manages memory, crons, subagents, research workflows, external APIs, scheduled tasks and general personal automation. \u2026 The short version: OpenClaw is powerful enough that I now treat it as infrastructure. It is also still rough enough that you need patience, logs, backups and a willingness to debug weird edge cases.",
     "author": "u/LobsterWeary2675",
     "author_name": "LobsterWeary2675",
     "date": "2026-05-11",
@@ -216,7 +216,7 @@
   {
     "id": "db278b5ff61d",
     "agent": "openclaw",
-    "quote": "After roughly 3 month, I would not remove OpenClaw from my setup. It has crossed the line from experiment to daily infrastructure. But I also would not call it effortless. It is powerful, sharp and occasionally annoying. … If you expect \"install it and it just runs my life\", you will be disappointed. If you are willing to treat it like infrastructure, it can become extremely useful.",
+    "quote": "After roughly 3 month, I would not remove OpenClaw from my setup. It has crossed the line from experiment to daily infrastructure. But I also would not call it effortless. It is powerful, sharp and occasionally annoying. \u2026 If you expect \"install it and it just runs my life\", you will be disappointed. If you are willing to treat it like infrastructure, it can become extremely useful.",
     "author": "u/LobsterWeary2675",
     "author_name": "LobsterWeary2675",
     "date": "2026-05-11",
@@ -233,7 +233,7 @@
   },
   {
     "agent": "openclaw",
-    "quote": "Trail of Bits submitted 27 private repository advisories and 3 standalone hardening pull requests. Of the advisory reports, 24 described severity-rated vulnerabilities. 23 were classified as confirmed vulnerabilities… Those 24 reports were rated 0 Critical, 2 High, 16 Medium, and 6 Low. … Every actionable issue has been repaired, and all 3 standalone hardening PRs were merged.",
+    "quote": "Trail of Bits submitted 27 private repository advisories and 3 standalone hardening pull requests. Of the advisory reports, 24 described severity-rated vulnerabilities. 23 were classified as confirmed vulnerabilities\u2026 Those 24 reports were rated 0 Critical, 2 High, 16 Medium, and 6 Low. \u2026 Every actionable issue has been repaired, and all 3 standalone hardening PRs were merged.",
     "author": "Josh Avant",
     "author_name": "Josh Avant (OpenClaw)",
     "date": "2026-09-21",
@@ -271,7 +271,7 @@
   },
   {
     "agent": "openclaw",
-    "quote": "I reached the Control UI and connected OpenAI, but my first live memory task returned an authentication error after about 25 seconds. Even after I completed the OpenAI sign-in, the agent still failed before producing a reply. … I'd recommend it if you have recurring jobs for an assistant and don't mind troubleshooting. It isn't my first pick if you want a simple AI assistant that works straight away.",
+    "quote": "I reached the Control UI and connected OpenAI, but my first live memory task returned an authentication error after about 25 seconds. Even after I completed the OpenAI sign-in, the agent still failed before producing a reply. \u2026 I'd recommend it if you have recurring jobs for an assistant and don't mind troubleshooting. It isn't my first pick if you want a simple AI assistant that works straight away.",
     "author": "Bhavyadeep",
     "author_name": "Bhavyadeep (Emergent)",
     "date": "2026-09-08",
@@ -290,7 +290,7 @@
   },
   {
     "agent": "openclaw",
-    "quote": "The results show that poisoning any single CIK dimension increases the average attack success rate from 24.6% to 64–74%, with even the most robust model exhibiting more than a threefold increase over its baseline vulnerability. We further assess three CIK-aligned defense strategies alongside a file-protection mechanism; however, the strongest defense still yields a 63.8% success rate under Capability-targeted attacks, while file protection blocks 97% of malicious injections but also prevents legitimate updates.",
+    "quote": "The results show that poisoning any single CIK dimension increases the average attack success rate from 24.6% to 64\u201374%, with even the most robust model exhibiting more than a threefold increase over its baseline vulnerability. We further assess three CIK-aligned defense strategies alongside a file-protection mechanism; however, the strongest defense still yields a 63.8% success rate under Capability-targeted attacks, while file protection blocks 97% of malicious injections but also prevents legitimate updates.",
     "author": "Zijun Wang et al.",
     "author_name": "Wang et al. (UCSC / CIK-Bench)",
     "date": "2026-04-01",
@@ -304,13 +304,13 @@
       "web"
     ],
     "source": "web",
-    "notes": "arXiv 2604.04759 CIK-Bench live OpenClaw eval; surfaced in 2026-09-24 vault scan. ASR 24.6%→64–74% under CIK poisoning.",
+    "notes": "arXiv 2604.04759 CIK-Bench live OpenClaw eval; surfaced in 2026-09-24 vault scan. ASR 24.6%\u219264\u201374% under CIK poisoning.",
     "collected_at": "2026-09-24T14:10:00Z",
     "id": "006a20c0a87d"
   },
   {
     "agent": "openclaw",
-    "quote": "A request could enter OpenClaw with restricted access and then initiate another task that no longer carried those restrictions. … The pattern is particularly important for AI agents because their work frequently branches. A user request can launch subagents, delayed jobs, cached operations or calls into messaging and file-handling components. Every handoff creates another place where the original authorization decision can become detached from the work it was meant to limit.",
+    "quote": "A request could enter OpenClaw with restricted access and then initiate another task that no longer carried those restrictions. \u2026 The pattern is particularly important for AI agents because their work frequently branches. A user request can launch subagents, delayed jobs, cached operations or calls into messaging and file-handling components. Every handoff creates another place where the original authorization decision can become detached from the work it was meant to limit.",
     "author": "RuntimeWire Staff",
     "author_name": "RuntimeWire Staff",
     "date": "2026-09-21",
@@ -345,5 +345,82 @@
     "notes": "Saner Muse-alternatives roundup: OpenClaw power vs CLI setup friction.",
     "collected_at": "2026-09-24T14:10:00Z",
     "id": "f60041dff353"
+  },
+  {
+    "id": "f25c1rd01",
+    "agent": "openclaw",
+    "quote": "The self-building skills thing is real and it's the part that surprised me most. I told it I wanted it to check my Spotify and tell me if any of my followed artists had new releases. I didn't give it instructions on how to do that. It figured out the Spotify API, wrote the skill itself, and now it just pings me. That took maybe 3 minutes of me typing one sentence in Telegram.",
+    "author": "u/Signal-Inevitable-46",
+    "author_name": "Signal-Inevitable-46",
+    "date": "2026-09-20",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qtaumt/openclaw_has_been_running_on_my_machine_for_4/#spotify-skill",
+    "kind": "praise",
+    "tags": [
+      "skills",
+      "spotify",
+      "self-building",
+      "telegram",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-25T14:00:00Z",
+    "notes": "r/AI_Agents: OpenClaw auto-built Spotify new-release skill from one sentence."
+  },
+  {
+    "id": "f25c1rd02",
+    "agent": "openclaw",
+    "quote": "The 'it does everything autonomously' thing is real and I started with very minimal guardrails. On day 2 it tried to send an email on my behalf that I hadn't approved. Not malicious, it just interpreted something I said in Telegram as a request to respond to an email thread. It wasn't. The email was actually fine, which made it worse, because now I don't know what else it's interpreting as instructions that I didn't mean.",
+    "author": "u/Signal-Inevitable-46",
+    "author_name": "Signal-Inevitable-46",
+    "date": "2026-09-20",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qtaumt/openclaw_has_been_running_on_my_machine_for_4/#unapproved-email",
+    "kind": "complaint",
+    "tags": [
+      "autonomy",
+      "email",
+      "guardrails",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-25T14:00:00Z",
+    "notes": "r/AI_Agents: OpenClaw sent unapproved email interpreting casual Telegram as instruction."
+  },
+  {
+    "id": "f25c1rd03",
+    "agent": "openclaw",
+    "quote": "250k stars is insane but I ran into the exact same wall last week when I spun it up, the memory just\u2026 drifts. Had it handling a simple multi-step task and it straight-up forgot a key detail from the same conversation 20 minutes earlier.",
+    "author": "u/Adorable-Rutabaga-77",
+    "author_name": "Adorable-Rutabaga-77",
+    "date": "2026-09-22",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1skce14/openclaw_has_250k_github_stars_the_only_reliable/#memory-drift",
+    "kind": "complaint",
+    "tags": [
+      "memory",
+      "reliability",
+      "context",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-25T14:00:00Z",
+    "notes": "r/LocalLLaMA: OpenClaw memory drifted, forgot detail 20min into multi-step task."
+  },
+  {
+    "id": "f25c1rd04",
+    "agent": "openclaw",
+    "quote": "Bottom line: Hermes won. It offers a better experience because it has strong community support. It uses more tokens, so I run it on cheaper models and only switch to expensive ones when I need something specific done. Cheaper models with a strong harness will match the quality I was getting in claude code or codex.",
+    "author": "u/NakedChapter",
+    "author_name": "NakedChapter",
+    "date": "2026-09-21",
+    "url": "https://www.reddit.com/r/hermesagent/comments/1ujucjo/hermes_vs_openclaw_a_full_day_sidebyside_test/#verdict",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "tokens",
+      "community",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-09-25T14:00:00Z",
+    "notes": "r/hermesagent: Day-long comparison; Hermes won on community, OpenClaw on token efficiency."
   }
 ]

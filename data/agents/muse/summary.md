@@ -101,5 +101,13 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-24 vault scan (+13 rows):** Slate hands-on (Kirshner, 23 Sep): airline captcha + session kick; 30 min fail vs 5 min self-book; Amazon merchant veto framed as core threat. Verge evening hands-on (Johnson, 23 Sep): Marley shopping after Stripe Link; trust blast-radius after short session; junk-removal RFQ→same-day booking; Amazon ToS block fallback. WIRED original (Rogers, 20 Sep): data-upsell thesis + bank-link nudge; EPIC counsel on default-on training opt-out; deleted Muse post connect-apps nudge. TechSpot/Reuters (23 Sep): contractor racist remark on bill-negotiate call; success rate jump with human concierge. BI (21 Sep): training opt-out path under Data Controls.
 
-**Feedback rows:** 166 (as of 2026-09-24)
-**Kinds:** other=64, use-case=31, praise=14, complaint=21, comparison=10, bug=13
+_Updated 2026-09-25 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-23) Yahoo Finance hands-on (Howley): Muse hallucinated phone number, then warned not to trust unverified numbers.
+- (2026-09-23) Yahoo Finance: Muse found movers, sent quote requests, calls arrived in 2 min.
+- (2026-09-23) Yahoo Finance: Muse managed fantasy football waiver claim + lineup slot.
+- (2026-09-23) Yahoo Finance: Sensor Tower reports 560K DAU after 11 days; META stock +11%.
+
+**Feedback rows:** 170 (as of 2026-09-25)
+**Kinds:** other=65, use-case=33, praise=14, complaint=21, comparison=10, bug=14

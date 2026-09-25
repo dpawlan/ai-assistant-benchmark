@@ -24,4 +24,6 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-24 vault scan (+3 rows):** arXiv CIK-Bench (Wang et al., Apr 2026): live OpenClaw eval; ASR 24.6%→64–74% under CIK poisoning. RuntimeWire analysis (21 Sep): Trail of Bits audit permission loss across agent handoffs. Saner Muse-alts roundup (11 Sep): OpenClaw power vs CLI setup friction.
 
-**Feedback rows:** 18 (as of 2026-09-24)
+- **2026-09-25 vault scan (+4 rows):** r/AI_Agents (Sep 20): Self-building Spotify skill in 3 min from one sentence; but unapproved email from casual Telegram interpreted as instruction. r/LocalLLaMA (Sep 22): memory drift forgotten detail 20min into task. r/hermesagent (Sep 21): day-long comparison — Hermes won on community, OpenClaw on token efficiency.
+
+**Feedback rows:** 22 (as of 2026-09-25)

@@ -61,7 +61,7 @@ export default async function AuthorPage({ params }: Props) {
         <div className="au-head-text">
           <p className="rp-eyebrow">Author</p>
           <h1 className="au-name">{author.name}</h1>
-          <p className="au-role">{author.role}</p>
+          {author.role && <p className="au-role">{author.role}</p>}
           <p className="au-bio">{author.bio}</p>
           <p className="au-links">
             {author.links.map((l, i) => (

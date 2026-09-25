@@ -117,7 +117,7 @@ export default async function ArticlePage({ params }: Props) {
           <AuthorAvatar author={author} name={article.author} size={52} />
           <span>
             <span className="art-author-name">{authorHref ? <Link href={authorHref}>{article.author}</Link> : article.author}</span>
-            {author && <span className="art-author-role">{author.role}</span>}
+            {author?.role && <span className="art-author-role">{author.role}</span>}
             <span className="art-author-bio">{author ? author.bio : ''} {authorHref && <Link href={authorHref}>More from {article.author.split(' ')[0]}</Link>}</span>
           </span>
         </div>

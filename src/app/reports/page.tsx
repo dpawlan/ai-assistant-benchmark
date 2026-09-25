@@ -24,6 +24,12 @@ export default function ReportsPage() {
           One report per question you would actually ask, kept current. Every pick comes from runs of the same published test, and every update names the run behind it.
         </p>
       </div>
+      {reports.length === 0 && (
+        <div className="rp-soon">
+          <p className="rp-soon-title">Assistant Consumer Reports are coming soon.</p>
+          <p>The first one covers shopping: which assistant should buy things for you, ranked from the same purchasing test, with a pick and a dated log of every change. Until then, the writing below is where the verdicts get argued.</p>
+        </div>
+      )}
       {reports.some(r => r.preview) && <p className="rp-preview">Preview with placeholder prose. Scores in the tables are real; the write-ups are illustrative.</p>}
 
       {featured && (

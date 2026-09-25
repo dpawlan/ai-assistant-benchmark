@@ -3,8 +3,8 @@
     {
       "slug": "david-pawlan",
       "name": "David Pawlan",
-      "role": "Founder and editor, Assistant Benchmark",
-      "bio": "David runs the Assistant Benchmark. He texts every assistant on the roster the same published tasks from his own phone, scores what comes back, and writes the reports. Before this he built and sold software products and spent too long being the person friends asked which assistant to use.",
+      "role": "",
+      "bio": "David runs the Assistant Benchmark. He texts every assistant on the roster the same published tasks from his own phone, scores what comes back, and writes the reports. He runs Growth at Merit Systems and has spent too long being the person friends ask which assistant to use.",
       "trust": [
         "Every score on this site comes from a run he did himself or a logged run he reviewed; nothing is taken from a vendor's demo.",
         "Reports are never sponsored and no assistant can pay to be tested, ranked or picked.",
@@ -12,9 +12,14 @@
       ],
       "photo": "/authors/david-pawlan.jpg",
       "links": [
-        { "label": "@DavidPawlan on X", "url": "https://x.com/DavidPawlan" },
-        { "label": "GitHub", "url": "https://github.com/dpawlan" },
-        { "label": "Email", "url": "mailto:david@merit.systems" }
+        {
+          "label": "@DavidPawlan on X",
+          "url": "https://x.com/DavidPawlan"
+        },
+        {
+          "label": "Email",
+          "url": "mailto:david@merit.systems"
+        }
       ]
     }
   ]

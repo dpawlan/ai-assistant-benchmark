@@ -9,7 +9,6 @@ update:
 agents: muse, instinct, grok-bot
 hero_caption: Muse, Instinct and Grok Bot on the same tasks. Illustration by Assistant Benchmark.
 takeaways: Muse tops the benchmark at 9.3 and replies in 7 seconds; Instinct is at 8.5 and 20 seconds, and that gap is why people are switching | The dividing line is not intelligence, it is what the assistant is allowed to touch: your card, your logins, your calendar | Security is the next phase, and both leaders had an incident this week
-preview: true
 ---
 
 Two weeks ago I put up a site that texts the same tasks to every AI assistant I can get a number for and writes down what happens. It has had over 100,000 visitors since. I do not think that is because the site is good. I think it is because nobody, including the people building these things, knows what is going on.

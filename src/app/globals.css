@@ -4142,3 +4142,11 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-cover-icons.rp-cover-hero { gap: 20px; }
 @media (max-width: 1099px) { .rp-body { grid-template-columns: 170px minmax(0, 1fr); } .rp-rail { grid-column: 2; position: static; } }
 @media (max-width: 899px) { .rp-body { grid-template-columns: 1fr; } .rp-rail { grid-column: auto; } }
+
+/* Lists that should show bullets (the global reset removes them) */
+.au-trust ul, .art-short ul, .art-body ul { list-style: disc; }
+.au-trust li, .art-short li, .art-body li { display: list-item; }
+.rp-soon { margin-top: 22px; padding: 22px 24px; border-radius: 16px; background: var(--fill); max-width: 720px; }
+.rp-soon-title { margin: 0 0 6px; font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+.rp-soon p { margin: 0; font-size: 15px; line-height: 1.5; color: var(--sec); }
+.rp-soon p.rp-soon-title { color: var(--text); }

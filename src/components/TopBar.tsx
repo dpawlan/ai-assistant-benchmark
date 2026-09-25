@@ -33,11 +33,11 @@ export function TopBar() {
               </Link>
             );
           })}
-          <Link href="/request" className="tb-cta">
-            <span className="tb-cta-full">Request a test</span>
-            <span className="tb-cta-short">Request</span>
-          </Link>
         </nav>
+        <Link href="/request" className="tb-cta">
+          <span className="tb-cta-full">Request a test</span>
+          <span className="tb-cta-short">Request</span>
+        </Link>
       </div>
     </header>
   );

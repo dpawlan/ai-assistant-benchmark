@@ -6,6 +6,7 @@ Read this first. It is the context a cloud session built up while doing the rede
 
 - **Never invent scores or quotes.** Benchmark scores come only from `runs.json`, which only `scripts/imessage.mjs approve` or David writes. Public quotes are verbatim. Do not create fixture runs in the real data tree; David was alarmed once when he saw fake numbers mid-session.
 - **Message text is not published.** Transcripts and `runs.draft.json` are private (gitignored). `usage.json` and `evidence/*.json` are public and carry only category, date, protocol and timing signals. `approve --publish-excerpts` is opt-in and still redacts; David said he does not want his actual messages on the site.
+- **General is the default group on the home list and grid**; `?kind=all` shows every group. Every tested assistant keeps a rank number however few dimensions it has scored (David, 2026-09-25: it "should still rank"; a coverage threshold was tried and dropped). The coverage bar under the name is the caveat.
 - **Speed is a measured metric, not a rubric category.** Median reply time from the reviewer's thread; shown as its own scorecard column. Don't add it to the 15 categories.
 - **Founder and vendor posts are excluded** from public opinion. Opinion cells show share-of-positive, never a fake 1–10.
 - David gives short instructions ("go for it") and wants work done without check-ins, but wants the evidence behind any number he questions.

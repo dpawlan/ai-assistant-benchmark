@@ -3724,7 +3724,7 @@ a.chip.blue:hover {
 .topbar { position: sticky; top: 0; z-index: 200; background: rgba(255, 255, 255, 0.92); backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid var(--hair); }
 .tb-in { max-width: 1280px; margin: 0 auto; padding: 0 22px; height: 54px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .tb-brand { display: inline-flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 600; color: var(--text); text-decoration: none; white-space: nowrap; }
-.tb-links { display: flex; align-items: center; gap: 4px; }
+.tb-links { display: flex; align-items: center; gap: 4px; margin-left: auto; }
 .tb-link { padding: 7px 11px; border-radius: 9px; font-size: 14px; font-weight: 500; color: var(--sec); text-decoration: none; }
 .tb-link:hover { color: var(--text); background: var(--fill); }
 .tb-link.on { color: var(--text); background: var(--fill-2); }
@@ -3812,6 +3812,18 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
   .tb-cta-full { display: none; }
   .tb-cta-short { display: inline; }
   .ag-actions .btn { flex: 1 1 auto; text-align: center; }
+}
+/* Phones: the four links do not fit beside the mark and the button, so the bar becomes two rows:
+   mark and name with the button on the first, the links spread across the second. */
+@media (max-width: 480px) {
+  .tb-in { flex-wrap: wrap; height: auto; padding: 6px 12px 0; gap: 0 10px; }
+  .tb-brand { flex: 1 1 auto; min-width: 0; padding: 4px 0; }
+  .tb-brand span:last-child { display: inline; }
+  .tb-cta { margin-left: 0; }
+  .tb-links { flex: 1 1 100%; order: 3; margin: 2px -4px 0; gap: 0; }
+  .tb-link { flex: 1 1 0; padding: 9px 2px 10px; text-align: center; border-radius: 0; border-bottom: 2px solid transparent; }
+  .tb-link:hover { background: none; }
+  .tb-link.on { background: none; border-bottom-color: var(--text); }
 }
 
 /* ---------- Reports (preview) ---------- */

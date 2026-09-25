@@ -116,23 +116,25 @@
       }
     },
     {
-      "slug": "bloome",
-      "name": "Bloome",
+      "slug": "otty",
+      "name": "Otty",
       "status": "stretch",
-      "site": "https://bloome.ai/",
+      "site": "https://heyotty.com/",
       "feedback_count": 2,
       "public_signal": "low",
-      "tagline": "Your career agent in WhatsApp",
-      "icon": "/logos/bloome.png",
+      "tagline": "Your AI career agent in WhatsApp",
+      "icon": "/logos/otty.png",
       "kind": "work",
       "access": {
         "pricing": "freemium",
-        "price": "Free (10 applications) · Pro €39/mo · Ultra €99/mo",
+        "price": "Free (10 applications) · Pro €39/mo (70 applications) · Ultra €99/mo (175 applications)",
         "regions": "International; Europe-focused",
         "channels": [
-          "WhatsApp"
+          "WhatsApp",
+          "Telegram (coming soon)",
+          "iMessage (coming soon)"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-09-24"
       }
     },
     {

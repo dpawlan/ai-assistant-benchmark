@@ -1,6 +1,6 @@
 ---
-title: The assistant race is here. Here's who actually finishes the task.
-dek: Meta shipped Muse, Instinct raised again, and OpenAI is hinting. After 250 tests across 26 assistants, here is where the race actually sits.
+title: The AI assistant race just got hot. Here's where it stands.
+dek: Meta shipped Muse, Instinct raised again, and OpenAI is hinting. After 250 tests across 26 assistants, an overview of where things sit and what to watch next.
 date: 2026-09-25
 author: David Pawlan
 kind: Analysis

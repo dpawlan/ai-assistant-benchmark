@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Render share images into public/og/: site.png plus one per assistant.
+"""Render share images into public/og/: site.png (the logo mosaic) plus one per assistant.
 
 Drawn at 2x (2400x1260) so they stay crisp on the phone screens X and iMessage show them on;
 layout.tsx declares the same size. Fonts are the Inter files in src/assets/fonts.
 Run after adding assistants or logos:  python3 scripts/og.py"""
-import json, os
-from PIL import Image, ImageDraw, ImageFont
+import json, math, os
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'public', 'og')
@@ -72,28 +72,39 @@ def wordmark(im, x, y, size=22):
 
 
 def site_card(index, scored, out):
-    """Headline with the question in blue, the line under it, and a strip of assistant logos in rank order."""
+    """A faded grid of every assistant's logo, rank order first, behind a white panel with the question."""
     im = Image.new('RGBA', (W, H), BG + (255,))
-    d = ImageDraw.Draw(im)
-    wordmark(im, 72, 64)
-    hf = font('Bold', 88)
-    d.text((s(72), s(150)), 'Which assistant', font=hf, fill=TEXT)
-    d.text((s(72), s(248)), 'should you', font=hf, fill=TEXT)
-    d.text((s(72) + d.textlength('should you ', font=hf), s(248)), 'text?', font=hf, fill=BLUE)
-    tested = sum(1 for a in index['agents'] if a.get('overall') is not None)
-    line = f"{tested} of {index['agent_count']} assistants tested on the same {scored} tasks, scored 1 to 10 after real use."
-    d.text((s(72), s(378)), line, font=font('Medium', 24), fill=SEC)
-    # logo strip: tested assistants in rank order, then the rest, as many as fit
+    size, gap = s(96), s(18)
+    cols = math.ceil(W / (size + gap)) + 1
+    rows = math.ceil(H / (size + gap)) + 1
     ranked = sorted((a for a in index['agents'] if a.get('overall') is not None), key=lambda a: -a['overall'])
-    rest = [a for a in index['agents'] if a.get('overall') is None and a.get('icon')]
-    size, gap, x, y = s(72), s(16), s(72), s(460)
-    for a in ranked + rest:
-        if x + size > W - s(72):
-            break
-        icon = os.path.join(ROOT, 'public', a['icon'].lstrip('/')) if a.get('icon') else None
-        tile = logo_tile(icon, size) if icon and os.path.exists(icon) else letter_tile(a['name'][0].upper(), size)
-        im.alpha_composite(tile, (x, y))
-        x += size + gap
+    rest = [a for a in index['agents'] if a.get('overall') is None]
+    pool = [a for a in ranked + rest if a.get('icon') and os.path.exists(os.path.join(ROOT, 'public', a['icon'].lstrip('/')))]
+    i = 0
+    for r in range(rows):
+        for c in range(cols):
+            a = pool[i % len(pool)]
+            i += 1
+            x = c * (size + gap) - (size // 2 if r % 2 else 0) - s(20)
+            y = r * (size + gap) - s(30)
+            tile = logo_tile(os.path.join(ROOT, 'public', a['icon'].lstrip('/')), size)
+            tile.putalpha(tile.getchannel('A').point(lambda v: int(v * 0.55)))
+            im.alpha_composite(tile, (x, y))
+    pw, ph = s(880), s(340)
+    px, py = (W - pw) // 2, (H - ph) // 2
+    shadow = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rounded_rectangle((px, py + s(16), px + pw, py + ph + s(16)), radius=s(32), fill=(0, 0, 0, 70))
+    im.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(s(24))))
+    panel = Image.new('RGBA', (W, H), (0, 0, 0, 0))
+    ImageDraw.Draw(panel).rounded_rectangle((px, py, px + pw, py + ph), radius=s(32), fill=(255, 255, 255, 246))
+    im.alpha_composite(panel)
+    d = ImageDraw.Draw(im)
+    m = bubble_mark(s(36))
+    im.alpha_composite(m, (W // 2 - m.width // 2, py + s(44)))
+    hf = font('Bold', 66)
+    d.text((W // 2, py + s(100)), 'Which assistant', font=hf, fill=TEXT, anchor='ma')
+    d.text((W // 2, py + s(178)), 'should you text?', font=hf, fill=TEXT, anchor='ma')
+    d.text((W // 2, py + s(272)), 'assistantbenchmark.com', font=font('Bold', 22), fill=BLUE, anchor='ma')
     im.convert('RGB').save(out, optimize=True)
 
 

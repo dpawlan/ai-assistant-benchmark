@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-25",
-  "agent_count": 126,
-  "feedback_count": 5791,
-  "confirmed": 99,
+  "updated": "2026-09-27",
+  "agent_count": 130,
+  "feedback_count": 5796,
+  "confirmed": 103,
   "stretch": 27,
   "agents": [
     {
@@ -10,7 +10,7 @@
       "name": "Aeon",
       "status": "stretch",
       "site": "https://www.aeon.fun/",
-      "feedback_count": 24,
+      "feedback_count": 29,
       "public_signal": "low",
       "tagline": "The most autonomous agent framework",
       "icon": "/logos/aeon.png",
@@ -2796,6 +2796,91 @@
           "LINE"
         ],
         "checked": "2026-09-24"
+      }
+    },
+    {
+      "slug": "ava",
+      "name": "AVA",
+      "status": "confirmed",
+      "site": "https://hiava.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI-powered household partner.",
+      "icon": "/logos/ava.png",
+      "kind": "general",
+      "access": {
+        "pricing": "waitlist",
+        "price": "Early access; pricing not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Email"
+        ],
+        "checked": "2026-09-27"
+      }
+    },
+    {
+      "slug": "turnpanel",
+      "name": "TurnPanel",
+      "status": "confirmed",
+      "site": "https://turnpanel.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Bring your AI work into one workspace.",
+      "icon": "/logos/turnpanel.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free local workspace; Pro adds remote access",
+        "regions": "Not stated",
+        "channels": [
+          "Desktop app"
+        ],
+        "checked": "2026-09-27"
+      }
+    },
+    {
+      "slug": "hey-clicky",
+      "name": "Hey Clicky",
+      "status": "confirmed",
+      "site": "https://www.heyclicky.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI buddy that lives on your Mac.",
+      "icon": "/logos/hey-clicky.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app"
+        ],
+        "checked": "2026-09-27"
+      }
+    },
+    {
+      "slug": "craftbot",
+      "name": "CraftBot",
+      "status": "confirmed",
+      "site": "https://github.com/CraftOS-dev/CraftBot",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "One agent. Every kind of work.",
+      "icon": "/logos/craftbot.png",
+      "kind": "general",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, self-hosted; you supply model access",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "CLI",
+          "Telegram",
+          "Slack",
+          "Discord"
+        ],
+        "checked": "2026-09-27"
       }
     }
   ]

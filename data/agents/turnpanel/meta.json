@@ -1,0 +1,24 @@
+{
+  "slug": "turnpanel",
+  "name": "TurnPanel",
+  "site": "https://turnpanel.com/",
+  "handles": [
+    "linkAshish"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "TurnPanel is a local-first desktop workspace that unifies models, conversations, agents, browser automation, files, memory and tools, with custom apps, a model gateway for local or hosted models, remote access on the Pro plan and usage observability. Requested via the form (issue #397).",
+  "public_signal": "low",
+  "tagline": "Bring your AI work into one workspace.",
+  "icon": "/logos/turnpanel.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free local workspace; Pro adds remote access",
+    "regions": "Not stated",
+    "channels": [
+      "Desktop app"
+    ],
+    "checked": "2026-09-27"
+  }
+}

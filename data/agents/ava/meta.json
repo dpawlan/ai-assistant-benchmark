@@ -1,0 +1,25 @@
+{
+  "slug": "ava",
+  "name": "AVA",
+  "site": "https://hiava.com/",
+  "handles": [
+    "wirelessjoe"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "AVA is a household and parenting assistant: it scans email, calendar, photos and screenshots to surface what is coming, suggests next steps you approve or edit, researches options with the family's preferences in mind, drafts emails and proposes times, and logs every action. Early access; the site cites 1,400 parents and an oversubscribed beta. Requested via the form (issue #389).",
+  "public_signal": "low",
+  "tagline": "Your AI-powered household partner.",
+  "icon": "/logos/ava.png",
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Early access; pricing not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Email"
+    ],
+    "checked": "2026-09-27"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "_comment": "One entry per job (a canonical task). A job earns its place only when a real person reported it publicly or submitted it; posts are the evidence, never entries of their own. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
-  "updated": "2026-09-19",
+  "updated": "2026-09-27",
   "groups": [
     {
       "key": "travel",
@@ -1309,6 +1309,121 @@
           "quote": "76e2a003c34f",
           "agent": "aeon",
           "note": "One Telegram message a morning with markets, an AI roundup, a paper, repo issues and Hacker News; checks its memory so nothing repeats, and runs slower when its parallel chaining fails.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "audit-my-website-seo",
+      "title": "Audit my website and tell me what is hurting its SEO",
+      "one_liner": "Crawl the site end to end and come back with the specific problems and the fix, not a generic checklist.",
+      "group": "work",
+      "dimension": "online_task",
+      "prompt": "Audit my website and tell me exactly what is hurting its SEO.",
+      "prompt_source": "posted",
+      "added": "2026-09-27",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "fabba26ea085",
+          "agent": "aeon",
+          "note": "Crawled the whole site, found the sitemap listed one redirecting URL while 14 linked pages were missing, and named the fix.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "news-story-to-cited-article",
+      "title": "Turn a current news story into a publication-ready article with cited sources",
+      "one_liner": "Research a story that broke today and hand back a finished, cited piece without steering the research.",
+      "group": "work",
+      "dimension": "content_creation_games",
+      "prompt": "Turn a current news story into a publication-ready article with cited sources.",
+      "prompt_source": "posted",
+      "added": "2026-09-27",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "4ef005de68bc",
+          "agent": "aeon",
+          "note": "Researched a breaking story and published a full cited article to the repo unattended.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "audit-open-source-repo-security",
+      "title": "Audit a trending open-source repo for real security vulnerabilities and report them responsibly",
+      "one_liner": "Pick a repo, run the scanners, confirm what is real with a proof of concept, and draft the disclosure.",
+      "group": "work",
+      "dimension": "chained_tasks",
+      "prompt": "Audit a trending open-source repo for real security vulnerabilities and report them responsibly.",
+      "prompt_source": "posted",
+      "added": "2026-09-27",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "28a13c300bb3",
+          "agent": "aeon",
+          "note": "Chose a trending repo, ran several scanners, confirmed one high-severity code-injection bug with a proof of concept, and drafted the disclosure.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "trending-to-article-to-social-post",
+      "title": "Find what is trending, write it up, and draft the social post in one go",
+      "one_liner": "A three-step chain, curate, write, promote, where each step feeds the next with nobody in between.",
+      "group": "work",
+      "dimension": "chained_tasks",
+      "prompt": "In one go: find what is trending, turn it into a written piece, and draft the social post, without me steering each step.",
+      "prompt_source": "posted",
+      "added": "2026-09-27",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "04fa14287226",
+          "agent": "aeon",
+          "note": "Curated the day's trending repos, wrote an article from them, then drafted a thread from the article, each step feeding the next.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "quiet-github-triage-every-morning",
+      "title": "Triage my GitHub every morning, but only tell me if something actually needs me",
+      "one_liner": "A daily check on pull requests, issues and releases that stays silent on a clean day.",
+      "group": "work",
+      "dimension": "proactive_restraint",
+      "prompt": "Triage my GitHub every morning, but only tell me if something actually needs me.",
+      "prompt_source": "posted",
+      "added": "2026-09-27",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "a960a7ea325f",
+          "agent": "aeon",
+          "note": "Checked pull requests, issues and releases from the last day, found nothing over the threshold, and stayed silent as asked.",
           "outcome": "done"
         }
       ]

@@ -4,6 +4,7 @@ import './globals.css';
 import { Shell } from '@/components/Shell';
 import { Footer } from '@/components/Footer';
 import { getIndexData } from '@/lib/data';
+import { ogUrl } from '@/lib/og';
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
@@ -23,13 +24,13 @@ export const metadata: Metadata = {
     description: 'Which assistant is actually worth texting? One rubric, real quotes, no sponsored rankings.',
     type: 'website',
     siteName: 'Assistant Benchmark',
-    images: [{ url: '/og/site.png', width: 2400, height: 1260, alt: 'Assistant Benchmark' }],
+    images: [{ url: ogUrl('/og/site.png'), width: 2400, height: 1260, alt: 'Assistant Benchmark' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Assistant Benchmark',
     description: 'Which assistant is actually worth texting? One rubric, real quotes, no sponsored rankings.',
-    images: ['/og/site.png'],
+    images: [ogUrl('/og/site.png')],
   },
 };
 

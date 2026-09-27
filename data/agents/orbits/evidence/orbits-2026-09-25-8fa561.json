@@ -1,0 +1,19 @@
+{
+  "id": "orbits-2026-09-25-8fa561",
+  "agent": "orbits",
+  "category": "memory",
+  "protocol": "task",
+  "date": "2026-09-25",
+  "signals": {
+    "turns": 7,
+    "my_messages": 3,
+    "agent_messages": 4,
+    "first_reply_s": 6,
+    "duration_min": 15,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-27T20:09:17.713Z"
+}

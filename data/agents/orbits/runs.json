@@ -1,0 +1,42 @@
+[
+  {
+    "id": "orbits-2026-09-25-94f1cd",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-09-25",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Took 22 minutes and two nudges to report nothing refundable under budget near the Loop, then offered one option farther out with three choices.",
+    "evidence_url": "/agents/orbits/evidence/orbits-2026-09-25-94f1cd"
+  },
+  {
+    "id": "orbits-2026-09-25-938e27",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-09-25",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Sent the same Amazon login link four times before switching stores when told, then staged two dark-roast bags under the cap at Staples.",
+    "evidence_url": "/agents/orbits/evidence/orbits-2026-09-25-938e27"
+  },
+  {
+    "id": "orbits-2026-09-25-8fa560",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-09-25",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Asked the right questions and returned vegetarian-friendly NoMad picks with prices, but could not confirm a live table and called them leads.",
+    "evidence_url": "/agents/orbits/evidence/orbits-2026-09-25-8fa560"
+  },
+  {
+    "id": "orbits-2026-09-25-8fa561",
+    "category": "memory",
+    "protocol": "task",
+    "date": "2026-09-25",
+    "score": 5,
+    "outcome": "fail",
+    "notes": "Asked for a Saturday dinner in New York right after searching a Chicago weekend and picked a date without asking which Saturday or flagging the trip.",
+    "evidence_url": "/agents/orbits/evidence/orbits-2026-09-25-8fa561"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "orbits-2026-09-25-8fa560",
+  "agent": "orbits",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-09-25",
+  "signals": {
+    "turns": 9,
+    "my_messages": 4,
+    "agent_messages": 5,
+    "first_reply_s": 6,
+    "duration_min": 17,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-27T20:09:17.713Z"
+}

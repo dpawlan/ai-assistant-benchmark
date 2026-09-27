@@ -1,0 +1,19 @@
+{
+  "id": "orbits-2026-09-25-938e27",
+  "agent": "orbits",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-09-25",
+  "signals": {
+    "turns": 18,
+    "my_messages": 5,
+    "agent_messages": 13,
+    "first_reply_s": 10,
+    "duration_min": 71,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-09-27T20:09:17.713Z"
+}

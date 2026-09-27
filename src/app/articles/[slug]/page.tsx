@@ -1,3 +1,4 @@
+import { ogUrl } from '@/lib/og';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const a = getArticle(slug);
   if (!a) return { title: 'Article' };
-  const image = `/og/articles/${a.slug}.png`;
+  const image = ogUrl(`/og/articles/${a.slug}.png`);
   return {
     title: a.title,
     description: a.dek,

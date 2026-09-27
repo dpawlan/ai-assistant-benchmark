@@ -1,3 +1,4 @@
+import { ogUrl } from '@/lib/og';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -44,13 +45,13 @@ export async function generateMetadata({ params }: AgentPageProps): Promise<Meta
     openGraph: {
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,
-      images: [{ url: `/og/${agent.slug}.png`, width: 2400, height: 1260, alt: agent.name }],
+      images: [{ url: ogUrl(`/og/${agent.slug}.png`), width: 2400, height: 1260, alt: agent.name }],
     },
     twitter: {
       card: 'summary_large_image',
       title: `${agent.name} | Assistant Benchmark`,
       description: agent.tagline,
-      images: [`/og/${agent.slug}.png`],
+      images: [ogUrl(`/og/${agent.slug}.png`)],
     },
   };
 }

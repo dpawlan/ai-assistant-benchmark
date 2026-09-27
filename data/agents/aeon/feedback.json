@@ -589,5 +589,95 @@
     "source": "submission",
     "collected_at": "2026-09-19T23:01:26.355Z",
     "notes": "Submitted through the use-case form (issue #332) by someone who works on Aeon, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "fabba26ea085",
+    "agent": "aeon",
+    "quote": "Aeon crawled aeon.fun end to end and found the sitemap lists only one URL (which redirects to the www version) while 14 linked pages are missing and the canonical points away from them. It spelled out the top fix: relist www as the canonical sitemap entry and add the 14 pages so Google can discover them.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-27",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36011216435",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-27T20:23:23.847Z",
+    "notes": "Submitted through the use-case form (issue #392); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "4ef005de68bc",
+    "agent": "aeon",
+    "quote": "Aeon researched the story and wrote a full, publication-ready article, \"The AI Agent That Wouldn't Take No for an Answer,\" connecting the OpenAI agent breach of Australia's Medicare portal to least-privilege agent-security practices, with citations. It ran unattended and published the piece to the repo.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-27",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36009861235",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-27T20:23:23.847Z",
+    "notes": "Submitted through the use-case form (issue #390); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "28a13c300bb3",
+    "agent": "aeon",
+    "quote": "Aeon picked a trending repo (HKUDS/CLI-Anything), ran a full multi-scanner audit (semgrep, trufflehog, OSV, plus an agentic pass), and confirmed a HIGH-severity code-injection vulnerability (CWE-94) with a verified proof-of-concept. It also flagged 14 low-severity dependency CVEs, drafted a responsible disclosure, and wrote a full report.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-27",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36108849145",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-27T20:23:23.847Z",
+    "notes": "Submitted through the use-case form (issue #400); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "04fa14287226",
+    "agent": "aeon",
+    "quote": "Aeon ran a three-step chain as a single job: it curated the day's trending repos, then wrote an article from that output, then drafted a tweet thread from the article. Each step automatically consumed the previous step's result, with no human in between.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-27",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36111199607",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-27T20:23:23.847Z",
+    "notes": "Submitted through the use-case form (issue #401); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "a960a7ea325f",
+    "agent": "aeon",
+    "quote": "Aeon triaged the repo for pull requests, new issues and releases from the last 24 hours. Nothing crossed a threshold, so it sent nothing, exactly as intended. The routine ran and stayed silent on a clean day.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-27",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36009830256",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-27T20:23:23.847Z",
+    "notes": "Submitted through the use-case form (issue #402); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "slug": "hey-clicky",
+  "name": "Hey Clicky",
+  "site": "https://www.heyclicky.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hey Clicky is a free Mac app from the buildspace founder: a small on-screen buddy that teaches you anything, guides you when you are stuck, and runs agents while you are away. macOS Sonoma 14.2 or later; Windows on a waitlist. Requested via the form (issue #404).",
+  "public_signal": "low",
+  "tagline": "An AI buddy that lives on your Mac.",
+  "icon": "/logos/hey-clicky.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app"
+    ],
+    "checked": "2026-09-27"
+  }
+}

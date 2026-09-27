@@ -3273,6 +3273,98 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-24 from a request-form submission (issue #375). Domain/handle queries only."
+    },
+    "ava": {
+      "name": "AVA",
+      "handles": [
+        "wirelessjoe"
+      ],
+      "domain": "hiava.com",
+      "x_queries": [
+        "\"hiava.com\"",
+        "@wirelessjoe"
+      ],
+      "reddit_queries": [
+        "\"hiava.com\""
+      ],
+      "hn_queries": [
+        "\"hiava.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hiava.com",
+        "@wirelessjoe"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-27 from a request-form submission (issue #389). Domain/handle queries only."
+    },
+    "turnpanel": {
+      "name": "TurnPanel",
+      "handles": [
+        "linkAshish"
+      ],
+      "domain": "turnpanel.com",
+      "x_queries": [
+        "\"turnpanel.com\"",
+        "@linkAshish"
+      ],
+      "reddit_queries": [
+        "\"turnpanel.com\""
+      ],
+      "hn_queries": [
+        "\"turnpanel.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "turnpanel.com",
+        "@linkAshish"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-27 from a request-form submission (issue #397). Domain/handle queries only."
+    },
+    "hey-clicky": {
+      "name": "Hey Clicky",
+      "handles": [],
+      "domain": "heyclicky.com",
+      "x_queries": [
+        "\"heyclicky.com\""
+      ],
+      "reddit_queries": [
+        "\"heyclicky.com\""
+      ],
+      "hn_queries": [
+        "\"heyclicky.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "heyclicky.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-27 from a request-form submission (issue #404). Domain/handle queries only."
+    },
+    "craftbot": {
+      "name": "CraftBot",
+      "handles": [],
+      "domain": "craftos.net",
+      "x_queries": [
+        "\"craftos.net\""
+      ],
+      "reddit_queries": [
+        "\"craftos.net\""
+      ],
+      "hn_queries": [
+        "\"craftos.net\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "craftos.net"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-27 from a request-form submission (issue #405). Domain/handle queries only."
     }
   },
   "_redact_terms": [

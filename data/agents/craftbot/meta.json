@@ -1,0 +1,26 @@
+{
+  "slug": "craftbot",
+  "name": "CraftBot",
+  "site": "https://github.com/CraftOS-dev/CraftBot",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "CraftBot is an open-source, self-hosted agent harness that builds and operates its own tools, with 40-plus agent role profiles, 120 playbooks, a memory system that consolidates what happened, proactive planning with approval, connectors for Google Workspace, Slack, Notion, Telegram and Discord, 150-plus MCP servers, a browser UI and a CLI. Bring your own model or run one locally. Requested via the form (issue #405).",
+  "public_signal": "low",
+  "tagline": "One agent. Every kind of work.",
+  "icon": "/logos/craftbot.png",
+  "kind": "general",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, self-hosted; you supply model access",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "CLI",
+      "Telegram",
+      "Slack",
+      "Discord"
+    ],
+    "checked": "2026-09-27"
+  }
+}

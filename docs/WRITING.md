@@ -41,7 +41,7 @@ Intro paragraphs before the first heading. The first one is the excerpt on cards
 ## What to look forward to
 ```
 
-Assistant names must match `name` in the roster. Inline markdown works: `**bold**`, `*italic*`, `[text](/path)`. A line starting with `> ` becomes a pull quote.
+Assistant names must match `name` in the roster. Inline markdown works: `**bold**`, `*italic*`, `[text](/path)`. A line starting with `> ` becomes a pull quote. A block of `| cell | cell |` lines becomes a table (first row is the header, the first column of each row is a row label; a `| --- |` separator line is ignored); wide tables scroll sideways on phones.
 
 ## Updates: `data/reports/<key>/updates/<slug>.md`
 

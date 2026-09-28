@@ -12,11 +12,15 @@ hero_caption: Grok Bot, Muse and Instinct, whose documents were compared side by
 takeaways: Instinct and Muse allow training on eligible interactions by default; Grok Bot says it does not while Privacy Mode is on | Grok Bot's documents are the most specific on security and vendors, Muse's on what the agent can and cannot see, Instinct's the thinnest for the data it holds | Deleting a message or Bot can leave other stored data; full resets and account deletion have separate rules
 ---
 
-Every time I post a test result, the first reply is some version of the same question: what are these things doing with my data? I have been scoring [Instinct](/agents/instinct), [Muse](/agents/muse) and [Grok Bot](/agents/grok-bot) on how well they book, buy and reply. I had not sat down and compared what each one says it does with everything I hand it. So today I did.
+I've been testing these AI assistants for a while, and every single time I post some data or talk about it with friends, I'm instantly hit with the same question: "What are these things doing with my data?" I've been scoring [Instinct](/agents/instinct), [Muse](/agents/muse), [Grok Bot](/agents/grok-bot) and dozens more on how well they book, buy and reply, yet I had not sat down and actually compared how each one handles my data. So I decided to finally do it.
 
-I analyzed and compared the documents that govern the three assistants in this comparison: the privacy policy, and the terms, data-use and help pages where the policy pointed to them. Then each set got a second and a third read by two different, independent agents: the first extracted every claim with the sentence behind it, and the second checked every quote and claim against the live page with no access to the first one's notes. The source documents are linked below.
+I analyzed and compared the documents, such as the privacy policy and terms, across these three assistants. I had independent agents help me compare the data across three different rounds:
 
-The short version: Instinct and Muse allow training on eligible interactions by default, with opt-outs and exceptions. Cursor says Grok Bot data is not used for training while Privacy Mode is on. Beyond that, the documents diverge sharply.
+- Validating the information
+- Extracting every claim found with the sentence behind it
+- Ensuring that the quotes identified actually map to the written privacy policy
+
+The TLDR is that they have a lot of similarities, but more differences. In my personal opinion, Grok Bot sits at the top of the leaderboard, followed by Muse and then Instinct.
 
 ## What I compared
 

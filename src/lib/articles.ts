@@ -13,6 +13,8 @@ export interface Article {
   update: string | null;
   agents: string[];
   hero: string | null;
+  /** Optional symbol drawn with the assistants on a composed hero, e.g. `lock` for a privacy piece. */
+  heroMark: string | null;
   heroCaption: string;
   takeaways: string[];
   preview: boolean;
@@ -42,6 +44,7 @@ function parse(slug: string, raw: string): Article {
     update: str(meta.update) || null,
     agents: list(meta.agents),
     hero: str(meta.hero) || null,
+    heroMark: str(meta.hero_mark) || null,
     heroCaption: str(meta.hero_caption),
     takeaways: str(meta.takeaways).split('|').map(s => s.trim()).filter(Boolean),
     preview: isTrue(meta.preview),

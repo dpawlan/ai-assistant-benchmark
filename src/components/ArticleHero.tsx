@@ -35,8 +35,16 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
         <span className="art-hero-ring" />
         <span className="art-hero-ring two" />
         <div className="art-hero-icons">
+          {article.heroMark === 'lock' && (
+            <span className="art-hero-icon art-hero-mark lead">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="4.5" y="10.5" width="15" height="10" rx="2.5" fill="currentColor" stroke="none" />
+                <path d="M8 10.5V7.5a4 4 0 0 1 8 0v3" />
+              </svg>
+            </span>
+          )}
           {shown.map((a, i) => (
-            <AgentIcon key={a.slug} name={a.name} icon={a.icon} size={big} className={`art-hero-icon ${i === 0 ? 'lead' : ''}`} />
+            <AgentIcon key={a.slug} name={a.name} icon={a.icon} size={big} className={`art-hero-icon ${i === 0 && !article.heroMark ? 'lead' : ''}`} />
           ))}
         </div>
       </div>

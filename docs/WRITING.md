@@ -75,6 +75,7 @@ report: shopping                 # optional; the report this piece belongs to
 update: muse-adds-paypal-and-shopify-checkout   # optional; the update it grew out of
 agents: muse, instinct, grok-bot # shows the piece on those head to heads
 hero: /articles/muse-card.jpg    # optional; without it a cover is composed from `agents`
+hero_mark: lock                  # optional; leads the composed cover with a symbol tile (only `lock` so far)
 hero_caption: Caption and credit under the hero.
 takeaways: First point | Second point | Third point   # "The short version" box
 ---

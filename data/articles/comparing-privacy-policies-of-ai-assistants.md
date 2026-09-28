@@ -7,6 +7,7 @@ kind: Analysis
 report:
 update:
 agents: grok-bot, muse, instinct
+hero_mark: lock
 hero_caption: Grok Bot, Muse and Instinct, whose documents were compared side by side. Illustration by Assistant Benchmark.
 takeaways: Instinct and Muse allow training on eligible interactions by default; Grok Bot says it does not while Privacy Mode is on | Grok Bot's documents are the most specific on security and vendors, Muse's on what the agent can and cannot see, Instinct's the thinnest for the data it holds | Deleting a message or Bot can leave other stored data; full resets and account deletion have separate rules
 ---

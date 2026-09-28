@@ -70,5 +70,3 @@ That last point is the one I keep coming back to. These are assistants you text.
 ## What happens next
 
 We will continue to see the concern for privacy and data, especially as adoption expands beyond the tech bubble. Just as cybersecurity came after the internet, I believe new forms of security will appear to help tackle this problem. By and large, there are clear security gaps, but nothing out of the ordinary that would prevent me from continuing to use these tools, given how productive and helpful they are.
-
-The full comparison, with every quote and the verification counts, is in the [research notes](https://github.com/dpawlan/ai-assistant-benchmark/blob/main/docs/research/privacy-policies-2026-09-27.md).

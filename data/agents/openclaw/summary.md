@@ -26,4 +26,12 @@ _Updated 2026-09-18 weekday vault scan (+6 rows)._
 
 - **2026-09-25 vault scan (+4 rows):** r/AI_Agents (Sep 20): Self-building Spotify skill in 3 min from one sentence; but unapproved email from casual Telegram interpreted as instruction. r/LocalLLaMA (Sep 22): memory drift forgotten detail 20min into task. r/hermesagent (Sep 21): day-long comparison — Hermes won on community, OpenClaw on token efficiency.
 
-**Feedback rows:** 22 (as of 2026-09-25)
+_Updated 2026-09-28 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-26) Clauday Super User Daily: Maintainers deleted ~400k agent-written tests; coverage barely moved.
+- (2026-09-26) SlowMist (via Clauday): MemoryOS/memos-cloud-openclaw-plugin supply-chain credential theft.
+- (2026-09-26) Clauday Super User Daily: Gym booking via unauth cancel API — agent aligned to user, harmful to others.
+- (2026-09-23) Techy Surgeon: Powerful but setup intimidating; abandoned for hosted agents.
+
+**Feedback rows:** 26 (as of 2026-09-28)

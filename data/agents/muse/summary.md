@@ -124,7 +124,7 @@ _Updated 2026-09-25 weekday vault scan batch 2 (+11 rows)._
 - (2026-09-24) UseCarly: Inc's Aten had 187K iMessages synced despite declining access.
 - (2026-09-24) UseCarly (citing CNN): Instinct Resy spam led to account ban.
 
-_Updated 2026-09-28 weekday vault scan (+7 rows)._
+_Updated 2026-09-28 weekday vault scan (+10 rows)._
 
 **New this scan:**
 - (2026-09-25) Progressive Robot: 2.3M–4.3M downloads across three market intelligence firms; No.1 App Store since Sep 18.
@@ -134,6 +134,9 @@ _Updated 2026-09-28 weekday vault scan (+7 rows)._
 - (2026-09-25) The Information (via Straits Times): SEV-2 VM access vulnerability via bug bounty; second Muse security issue.
 - (2026-09-25) The Information (via Straits Times): Meta internal severity SEV-2 classification for VM vulnerability.
 - (2026-09-24) Notebookcheck: Charm form-factor ~2 inches + 5G/cellular without phone; price TBA.
+- (2026-09-23) Techy Surgeon: Positive note in four-agent review; shopping lean.
+- (2026-09-23) Techy Surgeon: Muse as likely shopping surface; bullish Meta/agentic ads.
+- (2026-09-26) Clauday Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality.
 
-**Feedback rows:** 188 (as of 2026-09-28)
-**Kinds:** other=72, use-case=33, praise=14, complaint=28, comparison=11, bug=16
+**Feedback rows:** 191 (as of 2026-09-28)
+**Kinds:** other=72, use-case=34, praise=15, complaint=28, comparison=12, bug=16

@@ -145,7 +145,7 @@ _Updated 2026-09-25 weekday vault scan batch 2 (+6 rows)._
 - (2026-09-24) Pritak Patel (BI): Instinct hallucinated personal/financial details from text-only link — "unsettling."
 - (2026-09-24) Mahesh Vellanki (BI): Instinct 2FA from Iran IP during bill negotiation — deleted account.
 
-_Updated 2026-09-28 weekday vault scan (+7 rows)._
+_Updated 2026-09-28 weekday vault scan (+11 rows)._
 
 **New this scan:**
 - (2026-09-24) Noah Shinn (via BI): Frames prit4k Gerber incident as hallucination, not cross-user data leak.
@@ -155,6 +155,10 @@ _Updated 2026-09-28 weekday vault scan (+7 rows)._
 - (2026-09-22) @peepeedog (via RuntimeWire): 10/29 wrong or misleading + 11 apologies/walkbacks in reliability anecdote.
 - (2026-09-24) UseCarly: Sep 21–22 outage + email-send ambiguity + Resy ban (CNN).
 - (2026-09-23) Noah Shinn (via CellCog): Instinct-to-Instinct network 300k+ coordinations + E2E file transfer claim.
+- (2026-09-23) Techy Surgeon: Day-one dentist booking + parental-leave paperwork coordination.
+- (2026-09-23) Techy Surgeon: Meeting logistics with external invite hygiene + conflict flag.
+- (2026-09-23) Techy Surgeon: Missed partner reply under narrow monitor rule; 43 min late on recovery.
+- (2026-09-23) Techy Surgeon: Head-to-head with Muse/Grok Bot/Hermes; Instinct early favorite.
 
-**Feedback rows:** 242 (as of 2026-09-28)
+**Feedback rows:** 246 (as of 2026-09-28)
 

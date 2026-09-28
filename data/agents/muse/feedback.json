@@ -4066,5 +4066,60 @@
     "source": "web",
     "collected_at": "2026-09-28T14:00:00Z",
     "notes": "Notebookcheck (24 Sep): Charm form-factor + 5G/cellular without phone; December ship target; price TBA."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "muse",
+    "quote": "Muse is also fantastic, and the GrokBot team of agents has been tremendously powerful. I also am a big fan of the Grokbot voice interaction.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#muse",
+    "kind": "praise",
+    "tags": [
+      "praise",
+      "comparison",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Positive Muse note in four-agent surgeon review; shopping lean mentioned elsewhere in piece."
+  },
+  {
+    "id": "f28b1ts02",
+    "agent": "muse",
+    "quote": "The interface is pleasant and it is where I will probably end up shopping. Muse has made me bullish on Meta, and I expect an agentic advertising resurgence there.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#shopping",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "meta",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon: Muse as likely shopping surface; bullish Meta/agentic ads framing."
+  },
+  {
+    "id": "f28b1cd01",
+    "agent": "muse",
+    "quote": "A user migrated their 'X operations AI employee' from OpenClaw to Muse, along with their Lark bots and groups. They skipped Grok Bot because Grok's output never met their bar despite days of tuning, while Muse worked well on first try.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing X)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#muse-migration",
+    "kind": "comparison",
+    "tags": [
+      "migration",
+      "openclaw",
+      "grok-bot",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Sep 26 Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality."
   }
 ]

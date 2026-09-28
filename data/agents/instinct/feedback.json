@@ -5253,5 +5253,82 @@
     "source": "web",
     "collected_at": "2026-09-28T14:00:00Z",
     "notes": "CellCog update 23–24 Sep: Instinct-to-Instinct network 300k+ coordinations + E2E file transfer claim."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "instinct",
+    "quote": "On the first day it booked a dentist appointment and put it on the right personal calendar. It sent the email to start my parental leave paperwork, coordinating with my wife so the forms could go back to my employer complete.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#dentist",
+    "kind": "use-case",
+    "tags": [
+      "scheduling",
+      "email",
+      "admin",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon hands-on: day-one dentist booking + parental-leave paperwork coordination."
+  },
+  {
+    "id": "f28b1ts02",
+    "agent": "instinct",
+    "quote": "A government meeting moved from a general address to a specific conference room a couple hours a way. Instinct updated the attendee-facing event, calculated the drive from home, added private travel blocks, kept my home address off the external invite, and flagged the conflict created by the return trip.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#meeting-logistics",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "travel",
+      "privacy",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Meeting logistics: external invite hygiene + conflict flag from return drive."
+  },
+  {
+    "id": "f28b1ts03",
+    "agent": "instinct",
+    "quote": "A monitoring rule written too narrowly filtered out an important partner reply, and a later safety check found it forty-three minutes late, which is still late when the pitch is that the assistant watches the work for you.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#late-monitor",
+    "kind": "bug",
+    "tags": [
+      "monitoring",
+      "email",
+      "latency",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Missed partner reply under narrow monitor rule; 43 minutes late on recovery."
+  },
+  {
+    "id": "f28b1ts04",
+    "agent": "instinct",
+    "quote": "Instinct is my early favorite, but using all four has convinced me that everyday knowledge work is about to split in two.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#favorite",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "muse",
+      "grok-bot",
+      "hermes",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Head-to-head with Muse/Grok Bot/Hermes; Instinct early favorite with privacy warning."
   }
 ]

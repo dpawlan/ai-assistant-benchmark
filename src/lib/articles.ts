@@ -13,6 +13,8 @@ export interface Article {
   update: string | null;
   agents: string[];
   hero: string | null;
+  /** Optional symbol drawn with the assistants on a composed hero, e.g. `lock` for a privacy piece. */
+  heroMark: string | null;
   heroCaption: string;
   takeaways: string[];
   preview: boolean;
@@ -24,7 +26,8 @@ export type Block =
   | { type: 'h2'; text: string }
   | { type: 'h3'; text: string }
   | { type: 'quote'; text: string }
-  | { type: 'ul'; items: string[] };
+  | { type: 'ul'; items: string[] }
+  | { type: 'table'; head: string[]; rows: string[][] };
 
 const DIR = path.join(process.cwd(), 'data', 'articles');
 
@@ -41,6 +44,7 @@ function parse(slug: string, raw: string): Article {
     update: str(meta.update) || null,
     agents: list(meta.agents),
     hero: str(meta.hero) || null,
+    heroMark: str(meta.hero_mark) || null,
     heroCaption: str(meta.hero_caption),
     takeaways: str(meta.takeaways).split('|').map(s => s.trim()).filter(Boolean),
     preview: isTrue(meta.preview),
@@ -67,7 +71,7 @@ export const getArticlesForReport = (key: string) => getArticles().filter(a => a
 export const getArticleForUpdate = (key: string, update: string) => getArticles().find(a => a.report === key && a.update === update) ?? null;
 export const getArticlesForPair = (a: string, b: string) => getArticles().filter(x => x.agents.includes(a) && x.agents.includes(b));
 
-/** Minimal markdown: paragraphs, ## headings, > quotes, - lists. Inline handled by <Inline>. */
+/** Minimal markdown: paragraphs, ## headings, > quotes, - lists, | tables. Inline handled by <Inline>. */
 export function toBlocks(body: string): Block[] {
   const out: Block[] = [];
   for (const chunk of body.split(/\n\s*\n/)) {
@@ -77,6 +81,13 @@ export function toBlocks(body: string): Block[] {
     else if (t.startsWith('## ')) out.push({ type: 'h2', text: t.slice(3) });
     else if (t.startsWith('> ')) out.push({ type: 'quote', text: t.replace(/^> ?/gm, '') });
     else if (/^- /.test(t)) out.push({ type: 'ul', items: t.split('\n').map(l => l.replace(/^- /, '')) });
+    else if (/^\|/.test(t)) {
+      const rows = t
+        .split('\n')
+        .map(l => l.trim().replace(/^\||\|$/g, '').split('|').map(c => c.trim()))
+        .filter(cells => !cells.every(c => /^:?-+:?$/.test(c)));
+      out.push({ type: 'table', head: rows[0] ?? [], rows: rows.slice(1) });
+    }
     else out.push({ type: 'p', text: t.replace(/\n/g, ' ') });
   }
   return out;

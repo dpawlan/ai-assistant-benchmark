@@ -3931,5 +3931,195 @@
     "source": "web",
     "collected_at": "2026-09-25T14:30:00Z",
     "notes": "UseCarly: Instinct Resy spam led to account ban (CNN report)."
+  },
+  {
+    "id": "f28a1pr01",
+    "agent": "muse",
+    "quote": "Three market intelligence firms now put its downloads at between 2.3 million and 4.3 million in under three weeks.",
+    "author": "Progressive Robot",
+    "author_name": "Progressive Robot",
+    "date": "2026-09-25",
+    "url": "https://www.progressiverobot.com/2026/09/25/ai-tamagotchi-meta-muse-bet-working-downloads/#downloads",
+    "kind": "other",
+    "tags": [
+      "downloads",
+      "apptopia",
+      "sensor-tower",
+      "appfigures",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Progressive Robot (25 Sep): Appfigures ~2.3M / Sensor Tower 3.4M / Apptopia 4.3M download spread; No.1 App Store since 18 Sep."
+  },
+  {
+    "id": "f28a1pr02",
+    "agent": "muse",
+    "quote": "On US daily active users the gap was wider: 642,000 against 231,000, or 2.8 times as many.",
+    "author": "Progressive Robot",
+    "author_name": "Progressive Robot (citing Apptopia)",
+    "date": "2026-09-25",
+    "url": "https://www.progressiverobot.com/2026/09/25/ai-tamagotchi-meta-muse-bet-working-downloads/#dau",
+    "kind": "comparison",
+    "tags": [
+      "dau",
+      "chatgpt",
+      "apptopia",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Apptopia first-12-day US DAU: Muse 642k vs ChatGPT 231k (US/Canada iOS comparison caveats noted in article)."
+  },
+  {
+    "id": "f28a1pr03",
+    "agent": "muse",
+    "quote": "We packed the whole Muse experience, including the whole real-time voice and avatar stack, into something that fits on a keychain and is always available to talk to.",
+    "author": "Mark Zuckerberg",
+    "author_name": "Mark Zuckerberg (via Progressive Robot)",
+    "date": "2026-09-25",
+    "url": "https://www.progressiverobot.com/2026/09/25/ai-tamagotchi-meta-muse-bet-working-downloads/#charm",
+    "kind": "other",
+    "tags": [
+      "muse-charm",
+      "hardware",
+      "connect",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Muse Charm keychain hardware (Connect 23 Sep); ships targeting December; no price yet."
+  },
+  {
+    "id": "f28a1pr04",
+    "agent": "muse",
+    "quote": "The answer to the Equity question is \"yes, so far, for the app.\" The AI Tamagotchi as a device has not yet been tested, and Meta's revenue model is still a plan.",
+    "author": "Progressive Robot",
+    "author_name": "Progressive Robot",
+    "date": "2026-09-25",
+    "url": "https://www.progressiverobot.com/2026/09/25/ai-tamagotchi-meta-muse-bet-working-downloads/#scorecard",
+    "kind": "other",
+    "tags": [
+      "adoption",
+      "hardware",
+      "monetization",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "TechCrunch Equity (25 Sep) framing: app launch strong; Charm unshipped; retention unknown."
+  },
+  {
+    "id": "f28a1st01",
+    "agent": "muse",
+    "quote": "The flaw, reported by an outside researcher through Meta's bug bounty programme and not previously disclosed, could have allowed an attacker to access a user's dedicated virtual machine – an individualised cloud-based account containing data including emails and files, according to an internal Meta incident report reviewed by The Information.",
+    "author": "The Information",
+    "author_name": "The Information (via Reuters / Straits Times)",
+    "date": "2026-09-25",
+    "url": "https://www.straitstimes.com/world/united-states/meta-bolsters-muse-safety-warning-after-security-vulnerability-found-the-information-reports",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "sev-2",
+      "vm",
+      "bug-bounty",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Second Muse security issue (distinct from Wardle macOS 0-day): SEV-2 VM access via bug bounty; Meta adding clearer in-app safety warning. Reuters wire 25–26 Sep."
+  },
+  {
+    "id": "f28a1st02",
+    "agent": "muse",
+    "quote": "The vulnerability was initially classified as a \"SEV-2,\" Meta's third-highest severity level on a five-point scale, typically used for incidents with significant impact, the report said.",
+    "author": "The Information",
+    "author_name": "The Information (via Reuters / Straits Times)",
+    "date": "2026-09-25",
+    "url": "https://www.straitstimes.com/world/united-states/meta-bolsters-muse-safety-warning-after-security-vulnerability-found-the-information-reports#sev-2",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "sev-2",
+      "severity",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Meta internal severity SEV-2 for Muse VM access vulnerability (The Information via Reuters)."
+  },
+  {
+    "id": "f28a1nb01",
+    "agent": "muse",
+    "quote": "The Muse Charm is roughly the size of an Apple AirPods case, with a touchscreen of about 2 inches and a built-in 5G connection. The cellular link would allow the device to connect without a phone.",
+    "author": "Antony Muchiri",
+    "author_name": "Antony Muchiri (Notebookcheck)",
+    "date": "2026-09-24",
+    "url": "https://www.notebookcheck.net/Meta-launches-Muse-Charm-a-Tamagotchi-like-keychain-for-its-AI-agent.1407283.0.html",
+    "kind": "other",
+    "tags": [
+      "muse-charm",
+      "hardware",
+      "5g",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Notebookcheck (24 Sep): Charm form-factor + 5G/cellular without phone; December ship target; price TBA."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "muse",
+    "quote": "Muse is also fantastic, and the GrokBot team of agents has been tremendously powerful. I also am a big fan of the Grokbot voice interaction.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#muse",
+    "kind": "praise",
+    "tags": [
+      "praise",
+      "comparison",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Positive Muse note in four-agent surgeon review; shopping lean mentioned elsewhere in piece."
+  },
+  {
+    "id": "f28b1ts02",
+    "agent": "muse",
+    "quote": "The interface is pleasant and it is where I will probably end up shopping. Muse has made me bullish on Meta, and I expect an agentic advertising resurgence there.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#shopping",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "meta",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon: Muse as likely shopping surface; bullish Meta/agentic ads framing."
+  },
+  {
+    "id": "f28b1cd01",
+    "agent": "muse",
+    "quote": "A user migrated their 'X operations AI employee' from OpenClaw to Muse, along with their Lark bots and groups. They skipped Grok Bot because Grok's output never met their bar despite days of tuning, while Muse worked well on first try.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing X)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#muse-migration",
+    "kind": "comparison",
+    "tags": [
+      "migration",
+      "openclaw",
+      "grok-bot",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Sep 26 Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality."
   }
 ]

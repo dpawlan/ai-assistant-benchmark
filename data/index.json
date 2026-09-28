@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "agent_count": 130,
-  "feedback_count": 5796,
+  "feedback_count": 5810,
   "confirmed": 103,
   "stretch": 27,
   "agents": [
@@ -521,7 +521,7 @@
       "name": "Instinct",
       "status": "confirmed",
       "site": "https://instinct.co/",
-      "feedback_count": 235,
+      "feedback_count": 242,
       "public_signal": null,
       "tagline": "A personal assistant that takes action across your apps",
       "icon": "/logos/instinct.png",
@@ -804,7 +804,7 @@
       "name": "Muse",
       "status": "confirmed",
       "site": "https://muse.ai/",
-      "feedback_count": 181,
+      "feedback_count": 188,
       "public_signal": null,
       "tagline": "Meta’s personal AI agent for everyday tasks",
       "icon": "/logos/muse.png",

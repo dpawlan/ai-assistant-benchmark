@@ -23,7 +23,7 @@ Instinct's policy belongs to Spear Street Technology, Inc., revised August 26, 2
 
 Muse's policy is Meta's. It is a supplement of about 1,000 words, effective September 17, 2026, that sits on top of the main Meta Privacy Policy and says so in its first line: "The Meta Privacy Policy applies to all Meta Products, including Muse." It lists no contact of its own.
 
-Grok's policy belongs to SpaceXAI LLC, the company formerly branded xAI, effective August 24, 2026. It is the longest at about 4,200 words, but the facts that matter most sit in a separate consumer FAQ and in the terms. Grok inside X is not covered by it at all; that is X Corp's policy.
+Grok's policy belongs to SpaceXAI LLC, whose privacy contact section still reads "x.AI LLC", effective August 24, 2026. It is the longest at about 4,200 words, but the facts that matter most sit in a separate consumer FAQ and in the terms. Grok inside X is not covered by it at all; that is X Corp's policy.
 
 ## Where they align
 
@@ -35,7 +35,7 @@ Grok's policy belongs to SpaceXAI LLC, the company formerly branded xAI, effecti
 | Commits to breach notification | No | No | No; the terms ask you to notify them |
 | Promises deletion is complete | No. The company "may, but is not obligated to, delete any of your Materials" | No. Muse "may still 'remember' information it learned from what you deleted" | No. De-identified copies are kept, and nothing says a trained model forgets |
 | Names its AI or hosting vendors | No. "Third-party AI model providers" | No. Implies Meta's own models | No model or hosting vendor; Stripe, Apple, Google and X are named for payments and login |
-| Covers the messaging channel you use it on | Barely. One line about texting; never names iMessage, WhatsApp or phone calls | No. Never mentions WhatsApp or the mobile number it takes at signup | No. Grok on X falls under X's policy, which never mentions Grok |
+| Covers the messaging channel you use it on | Barely. One line about texting; never names iMessage, WhatsApp or phone calls | No. Never mentions WhatsApp or the mobile number it takes at signup | No. Grok on X falls under X's policy, which never mentions Grok in its text |
 | Honors browser privacy signals | No. "Not currently designed to respond to such signals" | Defers to Meta | No. Ignores "Do Not Track" |
 
 The encryption row surprised me most. Across eight documents and roughly 32,000 words, the word does not appear once. Every one of them talks about security in the abstract. None of them says the thing you would expect a company holding your messages to say first.
@@ -45,7 +45,7 @@ The encryption row surprised me most. Across eight documents and roughly 32,000 
 | | Instinct | Muse | Grok |
 | --- | --- | --- | --- |
 | Retroactive opt-out | No. Safety-flagged content is still trained on after you opt out | Yes. "Changes to this setting also apply to previous interactions." Covers connected email and calendar too | No. Only "your new conversations will not be used." Logged-out users "in some regions (excluding the EU/UK)" cannot opt out at all |
-| What it asks you to hand over | Passwords, card numbers and health details, by design, with no special handling | One-time card numbers at checkout and a credential store the agent cannot see, though both claims are on the marketing page, not in the policy | Asks you not to send sensitive data |
+| What it asks you to hand over | Contemplates passwords, card numbers and health details, with no special handling | One-time card numbers at checkout and a credential store the agent cannot see, though both claims are on the marketing page, not in the policy | Asks you not to send sensitive data |
 | Humans reading your chats | Not addressed either way | The terms reserve the right to "monitor, log, review" the agent "or other reasons in Meta's discretion" | Disclosed: "A limited number of our authorized personnel may review your conversations with Grok" |
 | Your rights | None. No access, export or correction; GDPR and CCPA never appear | None of its own; all inherited from Meta | Access, correction, deletion, export, appeal and a data protection officer contact |
 | Retention | No period stated. The word "retention" does not appear | No period stated | 30 days for deleted chats and accounts; Private Chat is deleted within 30 days and never trained on |
@@ -65,7 +65,7 @@ The encryption row surprised me most. Across eight documents and roughly 32,000 
 
 > None of the three policies covers the channel you actually use them on.
 
-That last point is the one I keep coming back to. These are assistants you text. Instinct and Muse never name iMessage or WhatsApp. Grok inside X answers to a policy that never names Grok. The documents that govern these products say almost nothing about the surface the products live on.
+That last point is the one I keep coming back to. These are assistants you text. Instinct and Muse never name iMessage or WhatsApp. Grok inside X answers to a policy that never names Grok in its text. The documents that govern these products say almost nothing about the surface the products live on.
 
 ## What happens next
 

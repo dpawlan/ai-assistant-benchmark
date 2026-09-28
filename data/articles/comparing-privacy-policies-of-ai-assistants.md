@@ -65,7 +65,7 @@ Grok Bot is a Cursor product, made by Anysphere, Inc.. It gives you named Bots t
 
 > All three assign users broad responsibility for agent actions.
 
-That is the line I keep coming back to. These products act on your behalf, and their terms limit responsibility for mistakes in different ways. Cursor's terms, for example, preserve liability for the provider's gross negligence or willful misconduct. For deletion, the scope matters too: Meta says a full Muse reset deletes all Muse data, while Cursor says account deletion removes Grok Bot data within 30 days. Read those controls and the terms before you connect a card.
+This is the line that I keep coming back to, the line that tends to keep people up at night: "If an agent messes up, who is responsible?" Unfortunately, all three agree that these products act on your behalf, but their terms limit responsibility for making mistakes in different ways. Grok Bot acknowledges provider liability for gross negligence or willful misconduct. Meta and Instinct both put all financial losses on the end user. So in short, you still need to be careful and ensure you aren't giving your agent broad permissions to act on its own, especially when it has your credit card.
 
 ## What happens next
 

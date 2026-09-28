@@ -1,6 +1,6 @@
 ---
 title: I read the privacy policies of the three assistants people actually use. Here is what they say.
-dek: Instinct, Muse and Grok all train on your conversations by default. Past that, they diverge sharply on what you can see, stop and delete. Every claim below is quoted from the live policy and was independently re-checked.
+dek: Instinct, Muse and Grok all train on your conversations by default. Past that, they diverge sharply on what you can see, stop and delete. Every claim below is quoted from the live policy and was checked by two independent passes.
 date: 2026-09-28
 author: David Pawlan
 kind: Analysis
@@ -13,13 +13,11 @@ takeaways: All three train on your conversations by default and none of the thre
 
 Every time I post a test result, the first reply is some version of the same question: what are these things doing with my data? I have been scoring [Instinct](/agents/instinct), [Muse](/agents/muse) and [Grok](/agents/grok-bot) on how well they book, buy and reply. I had not sat down and read what each one says it does with everything I hand it. So this week I did.
 
-I read the privacy policy of each of the three assistants people use most, in full, along with the terms of service where the policy pointed to them. Then I had every quote and every claim re-checked against the live pages by a second pass that had no access to my notes. Every quotation below is character for character from the source. The corrections that second pass turned up were all matters of degree, and I have folded them in.
+I read the privacy policy of each of the three assistants people use most, in full, along with the terms of service where the policy pointed to them. Then each policy got a second and a third read by two different, independent agents: the first extracted every claim with the sentence behind it, and the second checked every quote and claim against the live page with no access to the first one's notes. Every quotation below is character for character from the source. The corrections that turned up were all matters of degree, and I have folded them in.
 
-The short version: all three train on your conversations unless you find the switch and turn it off. Beyond that, they diverge sharply, and not in the way I expected.
+The short version: all three train on your conversations unless you find the switch and turn it off. Beyond that, they diverge sharply.
 
 ## Who I read
-
-Three companies, three very different documents.
 
 Instinct's policy belongs to Spear Street Technology, Inc., revised August 26, 2026. It is a standalone document of about 2,700 words with a dedicated privacy contact. Its terms choose California law and binding arbitration with a 30-day opt-out.
 
@@ -40,7 +38,7 @@ Grok's policy belongs to SpaceXAI LLC, the company formerly branded xAI, effecti
 | Covers the messaging channel you use it on | Barely. One line about texting; never names iMessage, WhatsApp or phone calls | No. Never mentions WhatsApp or the mobile number it takes at signup | No. Grok on X falls under X's policy, which never mentions Grok |
 | Honors browser privacy signals | No. "Not currently designed to respond to such signals" | Defers to Meta | No. Ignores "Do Not Track" |
 
-The encryption row surprised me most. I counted it myself on all eight documents, roughly 32,000 words in total, and the word does not appear once. Every one of them talks about security in the abstract. None of them says the thing you would expect a company holding your messages to say first.
+The encryption row surprised me most. Across eight documents and roughly 32,000 words, the word does not appear once. Every one of them talks about security in the abstract. None of them says the thing you would expect a company holding your messages to say first.
 
 ## Where they diverge
 
@@ -71,6 +69,6 @@ That last point is the one I keep coming back to. These are assistants you text.
 
 ## What happens next
 
-Scores on this site will stay hands-on. What an assistant actually does with a permission prompt matters more than what a document says. But a policy is a checkable fact that readers ask about, so the plan is a short, unscored policy row on each profile, in the same shape as the funding row, with a source link and a checked date. Instinct, Muse and Grok are done. The rest of the ranked assistants are next.
+We will continue to see the concern for privacy and data, especially as adoption expands beyond the tech bubble. Just as cybersecurity came after the internet, I believe new forms of security will appear to help tackle this problem. By and large, there are clear security gaps, but nothing out of the ordinary that would prevent me from continuing to use these tools, given how productive and helpful they are.
 
 The full comparison, with every quote and the verification counts, is in the [research notes](https://github.com/dpawlan/ai-assistant-benchmark/blob/main/docs/research/privacy-policies-2026-09-27.md).

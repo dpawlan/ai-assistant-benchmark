@@ -63,7 +63,7 @@ Grok Bot is a Cursor product, made by Anysphere, Inc.. It gives you named Bots t
 
 **Instinct has broad access.** Its policy states that it may reach passwords, payment details, private messages, health information, or anything else, depending on the permissions you grant it. It also only states that it will make reasonable efforts as its security statement. It does promise not to sell your data, and it does have privacy carve-outs for the Vault.
 
-> All three assign users broad responsibility for agent actions. Deleting one message or Bot may leave other stored data.
+> All three assign users broad responsibility for agent actions.
 
 That is the line I keep coming back to. These products act on your behalf, and their terms limit responsibility for mistakes in different ways. Cursor's terms, for example, preserve liability for the provider's gross negligence or willful misconduct. For deletion, the scope matters too: Meta says a full Muse reset deletes all Muse data, while Cursor says account deletion removes Grok Bot data within 30 days. Read those controls and the terms before you connect a card.
 

@@ -1,125 +1,97 @@
-# Privacy policies compared: Instinct, Muse, Grok
+# Privacy policies compared: Instinct, Muse, Grok Bot
 
-Read in full on 2026-09-27 and independently re-verified against the live pages on 2026-09-28 (see Verification at the end). Quotes are verbatim from the pages. This is a reading of the documents, not of the products' actual behaviour; a policy can promise less than a company does, or more.
+Read 2026-09-27 and 2026-09-28. Quotes are verbatim from the live pages. This is a reading of the documents, not of the products' behaviour.
 
-| | Instinct | Muse | Grok (grok.com and apps) |
+**Correction history.** The first draft of this file (2026-09-27) compared Instinct and Muse against the SpaceXAI privacy policy that governs the Grok chatbot at grok.com. That was the wrong product: Grok Bot is a Cursor (Anysphere, Inc.) product governed by Cursor's documents. The roster entry pointed at grok.com and was corrected on 2026-09-28. An outside review also flagged: "Affiliates: None" for Instinct was wrong (its policy names "affiliates or others within our corporate group"); "no user rights" for Instinct was too absolute; "by design" overstated the sensitive-data clause; and the claim that no policy uses the word "encrypt" failed once the correct Grok Bot documents were read (Cursor's data-use page says cached files are "encrypted using unique client-generated keys"). All of those are fixed below.
+
+## Documents
+
+| | Instinct | Muse | Grok Bot |
 | --- | --- | --- | --- |
-| Company | Spear Street Technology, Inc. d/b/a Instinct (no address given; terms choose California law and San Francisco courts) | Meta Platforms, Inc. | SpaceXAI LLC, a Nevada company with registered offices in Austin, Texas (per the terms; the policy gives no address and its contact section still reads "x.AI LLC") |
-| Policy | Standalone, revised 2026-08-26, ~2,700 words | Supplement to the Meta Privacy Policy, effective 2026-09-17, ~1,000 words | Standalone, effective 2026-08-24, ~4,200 words, plus a ~2,800-word FAQ and the terms, which between them hold the important facts |
-| Governing law | California, AAA-style binding arbitration through JAMS, 30-day opt-out | California, AAA arbitration, 30-day opt-out (US and Canada residents); Meta Terms of Service elsewhere | Texas law and Tarrant or Wichita County courts, AAA arbitration only if the forum clause fails; Irish law and courts for EEA, UK and Switzerland |
-| Privacy contact | privacy@instinct.com | None in the Muse policy; Meta help pages | Privacy portal and a DPO email (privacy@x.ai) |
-| Minimum age | 18 (terms); policy targets under-13 deletion | 18 (terms) | 13, with parental agreement for 13 to 17 |
+| Company | Spear Street Technology, Inc. d/b/a Instinct (no address; terms choose California law and San Francisco courts) | Meta Platforms, Inc. | Anysphere, Inc., 2261 Market Street STE 86466, San Francisco |
+| Governing documents | Privacy policy (revised 2026-08-26, ~2,700 words); terms (same date) | Muse Privacy Policy, a supplement to the Meta Privacy Policy (effective 2026-09-17, ~1,000 words); Muse Supplemental Terms (2026-09-08); Meta help center page; Meta engineering post "How We Built Safety Into Muse" (2026-09-08) | Cursor Privacy Policy (2025-10-06, ~2,500 words, never mentions Grok Bot); Grok Bot Terms (2026-09-03, ~1,000 words, a supplement to the Cursor terms); Data Use & Privacy Overview (2026-09-03); Security page (2026-08-25); Grok Bot product docs |
+| Governing law | California; JAMS arbitration; 30-day opt-out | California; AAA arbitration; 30-day opt-out (US and Canada); Meta terms elsewhere | Texas; Tarrant or Wichita County courts; class-action waiver; no arbitration clause |
+| Privacy contact | privacy@instinct.com | None in the supplement | hi@cursor.com; no DPO |
+| Minimum age | 18 | 18 | 18 |
 
-## The eleven things that matter, side by side
+## Findings
 
-### 1. Trains on your conversations by default
+### Training on conversations
 
-All three do. Every one of these assistants uses what you say to it to train models unless you turn that off.
+- **Instinct**: on by default. "to evaluate, fine-tune, and train the AI models that power our products". Opt out at app.instinct.com/settings, "on a go-forward basis"; "we may still use your information for AI model training when that information is flagged for safety review". Google Workspace data and Vault materials are excluded.
+- **Muse**: on by default. "This setting is on when you first use Muse." Opt out under Settings, Data controls; "Changes to this setting also apply to previous interactions." The toggle also covers Connector data. Meta's engineering post calls this "a good default" and says training data includes "tool calls and subagent handoffs".
+- **Grok Bot**: not by default. Cursor Privacy Policy: "We do not use Inputs or Suggestions to train our models, or permit third parties to use them for training, unless: (1) they are flagged for security review ... (2) you explicitly report them to us (for example, as Feedback), or (3) you've explicitly agreed to their use for such training purposes." Terms: "ANYSPHERE WILL NOT USE CONTENT TO TRAIN ... UNLESS YOU'VE EXPLICITLY AGREED". Data Use page: with Privacy Mode on, "Customer Data will not be used for training by Cursor. Cursor maintains zero data retention (ZDR) agreements with all providers"; with it off, "we may use and store codebase data, prompts, editor actions, code snippets, and other code data and actions to improve our AI features and train our models." The default Privacy Mode setting for an individual is not stated in any document; it is on by default for teams. The help page's answer to "Does Privacy Mode prevent xAI from training on my Grok Bot data?" is "Grok Bot runs on a separate product surface with its own data flows."
 
-- **Instinct**: "to evaluate, fine-tune, and train the AI models that power our products". Opt out at app.instinct.com/settings. It "applies on a go-forward basis", and "we may still use your information for AI model training when that information is flagged for safety review".
-- **Muse**: "This setting is on when you first use Muse." Opt out under Settings, Data controls. The one retroactive opt-out of the three: "Changes to this setting also apply to previous interactions."
-- **Grok**: the policy never states the default; the terms and the FAQ describe an "Improve the model" toggle, and after you switch it off only "your new conversations will not be used". Logged-out users "in some regions (excluding the EU/UK)" cannot opt out; the terms go further and say logged-out users "grant us full rights" to use their data for training "where permitted".
+### Security statements
 
-### 2. What the training covers
+- **Instinct**: "Despite our reasonable efforts to protect your information, no security measures are impenetrable"; "any information you send to us electronically ... may not be secure while in transit". Candid about "unintended payments" and "misleading instructions intended to influence autonomous agents". No encryption statement, no breach commitment.
+- **Muse**: "Every Muse user's VM is isolated so no one else's agent can access it." Help center: credentials go in "a Secure Credentials Store" and Muse can act "without the AI model seeing your password". Engineering post: "Sentinel is a separate host-side agent ... the sole permission authority for approval to perform actions"; "Today's Muse architecture ... restricts access to your data by Meta personnel through operational policies. It does not prevent Meta from accessing data when necessary to support, secure or operate the service." Confidential VM: "We're already using this system with a small group of trusted testers", planned "later this year". No encryption statement for today's VM.
+- **Grok Bot**: "Cursor encrypts data for all infrastructure, including: TLS 1.2+ in transit; AES-256 at rest" (enterprise docs); cached files "are encrypted using unique client-generated keys" (Data Use); "Each user's work runs in a dedicated Firecracker microVM"; "SOC 2 Type II attestation", ISO 27001 and ISO 42001 with "Grok Bot ... included in the current ISO scope"; "Critical incidents are communicated via email to affected users"; 48-hour breach notice in the DPA, which does not apply to individuals. Privacy policy itself: "commercially reasonable technical and organizational measures".
 
-- **Instinct** carves out Google Workspace data (in the policy) and anything you put in its "Vault" feature (in the terms only; the policy never mentions Vault). Everything else is fair game: "the content of messages, emails, or other private communications" you make available through connected integrations, plus Usage Data such as keystrokes and precise geolocation. The policy never names iMessage or WhatsApp.
-- **Muse** uses the same toggle for connector data (email, calendar), so opting out covers those too. When it does train, it removes "certain categories of personally identifiable information like names, email addresses, phone numbers and Social Security Numbers" and disassociates the data from your account.
-- **Grok** carves out Google-connected content and Private Chat conversations. Feedback you volunteer is used even if you opted out.
+### What each may hold
 
-### 3. Humans reading your chats
+- **Instinct**: "you may provide your payment information to the personal assistant ... or your username and password for third-party accounts"; health information via appointments and provider emails. No special handling stated.
+- **Muse**: chats, files, memory, Connector data in the VM; OAuth tokens "stored in your VM, not in centralized Meta infrastructure"; one-time card numbers via Stripe Link, live at launch.
+- **Grok Bot**: "Grok Bot may retain Customer Data, files, browser sessions, credentials, memory, and routines in a persistent cloud environment." "All of your Bots use the same cloud computer"; "The Bot doesn't type credentials and doesn't see your password"; "Connector tokens are never stored on the computer."
 
-- **Instinct**: not addressed either way. The only review language concerns bug reports and safety-flagged content.
-- **Muse**: silent in the policy; subject to your Muse configuration, the terms reserve the right, "but has no obligation", to "monitor, log, review, suspend, block, or modify Muse's actions at any time for safety, security, compliance, or operational reasons, or other reasons in Meta's discretion", and Meta "may access and retain logs of actions taken by Muse" with no period given.
-- **Grok**: disclosed, but only in the FAQ ("A limited number of our authorized personnel may review your conversations with Grok") and the terms ("Our authorized personnel may review how you use the Service and your User Content"), not in the policy.
+### Human review
 
-### 4. Credentials, cards, and sensitive data
+- **Instinct**: not addressed; safety-flagged content may be used.
+- **Muse**: terms reserve the right to "monitor, log, review, suspend, block, or modify Muse's actions ... or other reasons in Meta's discretion"; personnel access restricted "through operational policies".
+- **Grok Bot**: no personnel-review statement; flagged content "may be stored for investigation".
 
-- **Instinct** is the outlier. Its policy expressly contemplates you handing the agent "your username and password for third-party accounts" and card numbers so it can act for you, plus health details, with no special storage, encryption, or retention rule for any of it. It also warns that data "may not be secure while in transit" and asks you not to "use unsecure channels to send us sensitive or confidential information", advice hard to follow for an assistant you text.
-- **Muse** keeps card numbers away from both the merchant and the agent with one-time card numbers at checkout, and offers a credential store Muse cannot see. Both claims live on the marketing page, not in the policy. The terms put all financial-loss risk on the user, exclude liability for "EXECUTING UNINTENDED TRANSACTIONS", and cap liability at $250 or twelve months of fees.
-- **Grok** asks you not to provide sensitive data and says that, for training, no "uploaded image [is] used for identification purposes".
+### Rights
 
-### 5. Advertising and sale
+- **Instinct**: no general rights section; can revoke Google Workspace access and "delete all data indexed from external sources"; GDPR and CCPA absent; browser signals ignored.
+- **Muse**: none in the supplement; inherited from Meta.
+- **Grok Bot**: right to know, access and portability, deletion, correction, objection, restriction, withdrawal, appeal; contact hi@cursor.com; no DPO; no Do Not Track statement; the policy's promised jurisdiction table is missing from the page.
 
-- **Instinct**: "We do not sell your information or disclose your information to registered data brokers or third parties who resell your information to others". Ads are restricted only for Google data; cookies are used to "provide you with offers or promotions", and the terms consent you to autodialled marketing calls and texts.
-- **Muse**: the strongest statement of the three: "Muse doesn't share your conversations or the data in your virtual machine with Meta ad systems." The carve-out names conversations and VM data; "activity and metadata", which includes "websites visited, actions and transactions", is neither included nor excluded.
-- **Grok**: no "we do not sell" line in the policy itself. The FAQ says it does not sell or share for advertising; the policy's cookie section still lists "targeted advertising" as a purpose, and the terms assign all "Usage Data" to SpaceXAI and allow it to "share analytics and other derived Usage Data with third-parties".
+### Advertising and sale
 
-### 6. Who else gets the data
+- **Instinct**: "We do not sell your information or disclose your information to registered data brokers or third parties who resell your information to others"; cookies "provide you with offers or promotions".
+- **Muse**: "Muse doesn't share your conversations or the data in your virtual machine with Meta ad systems." Engineering post: "When Muse browses the internet, it will appear as your activity", which "may also indirectly influence the ads you see."
+- **Grok Bot**: "We do not 'sell' or 'share' personal data for cross-contextual behavioral advertising, and we do not process personal data for 'targeted advertising' purposes"; cookies used to "market additional products or services to you".
 
-- **Instinct** shares with unnamed "third-party AI model providers", hosting, payment, analytics vendors, and "third-party business partners who may use the information for their own purposes", supplied "on an aggregate / anonymized basis, or otherwise in accordance with applicable law (including with your consent where required)"; Google Workspace data is excluded from this. Deidentified data may be used "for any purpose". Nobody is named.
-- **Muse** names no vendors and implies Meta's own models. Your data can be combined across your other Meta accounts if Muse shares an Accounts Center with them; signing up with an unlinked email avoids that.
-- **Grok** names Stripe, Apple, Google, X, and lists "related companies" without defining them; the terms separately call "any X, Cursor, or SpaceX entity" examples of its "corporate affiliates" ("including but not limited to"). Signing in with X pulls your X profile and "Grok on X conversation history" into grok.com; the terms add X post history, "X usage data" and "X account and location information".
+### Third parties and affiliates
 
-### 7. Retention
+- **Instinct**: "Our affiliates or others within our corporate group"; "Third-party AI model providers who help support the Services" (unnamed); "Third-party business partners who may use the information for their own purposes" on "an aggregate / anonymized basis, or otherwise in accordance with applicable law".
+- **Muse**: Meta's own models; Accounts Center combination unless signed up with an unlinked email.
+- **Grok Bot**: published subprocessor list including SpaceXAI, OpenAI, Anthropic, Google, Meta, Fireworks, Together, AWS; "We may share personal data with affiliates".
 
-- **Instinct**: no period stated anywhere. The word "retention" does not appear.
-- **Muse**: no period stated, and the terms' action logs have no period either.
-- **Grok**: "where we have an ongoing legitimate business need". Private Chat is deleted "within 30 days"; deleted conversations and accounts within 30 days. The only concrete numbers in any of the three.
+### Retention and deletion
 
-### 8. Deletion, and whether it is complete
+- **Instinct**: no period; "may, but is not obligated to, delete any of your Materials".
+- **Muse**: no period; "Muse may still 'remember' information it learned from what you deleted"; backups maintained.
+- **Grok Bot**: "only for as long as necessary"; account deletion "All data is removed within 30 days"; "Deleting a Bot may not delete shared files, sessions, credentials, or routines"; computer file retention "depend[s] on your account type".
 
-- **Instinct**: delete indexed data at app.instinct.com/workspace or delete the account. The terms say the company "may, but is not obligated to, delete any of your Materials" and that it "shall not be responsible for the failure to delete or deletion of your Materials".
-- **Muse**: delete messages or reset everything, but "Muse may still 'remember' information it learned from what you deleted", and the Forget skill works "to the best of its ability". Disconnecting a connector stops the exchange, but prior data "may remain in Muse's memories and your conversation history".
-- **Grok**: in-app delete-all and delete-account controls with a 30-day window, but de-identified copies stay and nothing says trained models forget.
+### Liability for the agent's actions
 
-### 9. Your rights
+- **Instinct**: warns of "unintended payments or communications to outside parties" and disclaims them.
+- **Muse**: "you bear all risk of financial loss"; liability capped at "THE GREATER OF $250 OR THE AMOUNT YOU HAVE PAID US IN THE TWELVE MONTHS".
+- **Grok Bot**: "CUSTOMER IS SOLELY RESPONSIBLE FOR ALL AGENTIC ACTIONS TAKEN BY GROK BOT, WHETHER OR NOT SUCH ACTIONS WERE INTENDED, ANTICIPATED, OR AUTHORIZED BY CUSTOMER".
 
-- **Instinct**: none. No access, export, or correction rights. The words GDPR and CCPA appear nowhere, and California appears only in the terms as governing law. Browser opt-out signals are ignored: "Our website is not currently designed to respond to such signals."
-- **Muse**: none in the supplement; all inherited from the Meta policy.
-- **Grok**: access, correction, deletion, appeal, an authorized-agent process, in-app data download, a CCPA page and a Europe addendum. Correction of model output is "reasonable efforts" only and "may not be feasible". The policy also states it ignores "Do Not Track" signals.
+### Channels
 
-### 10. Security
+- **Instinct**: policy never names iMessage, WhatsApp or phone calls; one line, "if you send a text message to us to engage the Services"; terms cover SMS only as a contact and sign-in channel.
+- **Muse**: policy never mentions WhatsApp or the mobile number taken at signup; the launch post advertises chat "directly in WhatsApp" and the engineering post lists only "the iOS and Android apps, the web UI" as clients.
+- **Grok Bot**: its own desktop and iOS apps only; no messaging platform is a channel.
 
-None of the three names a single concrete measure. "Encrypt" does not appear in any of the three policies or their terms. None commits to breach notification.
+## Assessment
 
-- **Instinct** describes "reasonable efforts" and includes an unusually candid warning about "unintended payments" and third parties planting "misleading instructions intended to influence autonomous agents".
-- **Muse** relies on architecture: "Every Muse user's VM is isolated so no one else's agent can access it", and promises a future "Confidential VM" private "even from Meta". Its terms disclaim the same unintended-transaction risk Instinct warns about.
-- **Grok** cites "commercially reasonable" measures and, in the terms, disclaims liability for unauthorized access to its own servers.
+Stated criteria: what the governing documents commit to about training, security, vendors, rights, retention and deletion.
 
-### 11. The messaging channel itself
-
-This is the gap that matters most for a benchmark of assistants you text.
-
-- **Instinct**'s privacy policy never mentions iMessage, WhatsApp, or phone calls and never uses the word SMS; its one nod to the channel is "if you send a text message to us to engage the Services". The terms treat SMS and phone calls only as ways the company may contact you and deliver sign-in codes. The document that governs its main channels says almost nothing about them.
-- **Muse** never mentions WhatsApp, SMS, or the mobile number it accepts at signup (the words "phone numbers" appear once, only in the list of identifiers stripped before training), despite the marketing page advertising chat "directly in WhatsApp" and asking for a "Mobile number or email" to create an account.
-- **Grok** on X is governed by X Corp's separate, ad-driven policy, which never mentions Grok in its text, permits sharing "amongst our affiliates", says X may use collected information "to help train our machine learning or artificial intelligence models", and, depending on settings, lets third-party recipients "train their artificial intelligence models".
-
-## Verdict
-
-**Grok has the most complete document and the least complete promises.** It is the only one with concrete retention windows, enumerated rights, a DPO contact, and a Private Chat mode. It is also the one whose terms take an "irrevocable, perpetual... for any purpose" license to your inputs and outputs including "image, likeness, voice", whose affiliates include X, SpaceX, and Cursor, whose policy admits the service "may have content such as some suggestive dialogue, coarse language, crude humor, sexual situations, or violence" while admitting 13-year-olds, and whose policy leaves out the training default, human review, and the no-sale promise; the first two sit in the terms and the FAQ, the no-sale promise only in the FAQ.
-
-**Muse has the best specific commitments and the thinnest document.** No conversation data to ad systems, a retroactive training opt-out, identifier stripping, an isolated VM, a readable memory file, approval by default before "many important actions, like sending an email", and a content license scoped "solely to provide, maintain, secure and improve Muse" rather than a perpetual one. But it is a 1,000-word supplement on top of Meta's policy, gives no contact, no retention, no rights, admits deletion is lossy, and its terms put all financial-loss risk on you.
-
-**Instinct has the highest exposure and the weakest guarantees.** It is built to hold your passwords, card numbers, email, and health details, trains on your private messages by default with a partial opt-out, names no vendors, states no retention period, grants no rights, and all but ignores its own messaging channels. Its no-sale statement, its Google and Vault carve-outs, and its candour about agent risk are genuinely good; the rest is missing.
-
-**Ranking on the documents alone.** Two readings are defensible: on defaults (what happens if you change nothing) Muse leads; on control and rights (what you can see, stop, export and delete) Grok leads. The benchmark ranks on control, since a policy's levers are what a reader can act on, and the default findings are recorded above for anyone who weights them differently.
-
-- **Gold: Grok.** The only concrete retention windows, a Private Chat mode, in-app export and delete-all, enumerated rights with an appeal process, a DPO contact, and disclosed human review. Undercut by the broadest content license, undefined affiliates, and key facts kept out of the policy.
-- **Silver: Muse.** The strongest promises about conversations and connected accounts, a retroactive opt-out, no conversation data to ad systems, and a narrow license. But no contact, no retention, no rights of its own, and admittedly lossy deletion.
-- **Bronze: Instinct.** The most sensitive data with the fewest guarantees.
-
-## What this could mean for the benchmark
-
-The Permissions & privacy dimension is scored from hands-on behaviour, and it should stay that way. But the policy is a separate, checkable fact that readers ask about, and none of the three policies is something a reader would find on their own. Options, in rough order of effort:
-
-1. A **policy facts row** on each profile under Information: trains by default (yes/no), opt-out retroactive (yes/no), retention stated (yes/no), deletion window, humans may read (yes/no/unstated), channel covered (yes/no). Same shape as the funding subsection, sourced with a link and a checked date. Not scored.
-2. A **report**: "We read the privacy policies of the assistants you text so you don't have to." The three findings above are already an article; the eleven headings are the structure.
-3. Extend the read to the rest of the tested General group (Ollie, Pally, szn, Shuffle, Tomo, Poke, Caddy) so the row exists for every ranked assistant.
+- **Grok Bot** has the most specific commitments on paper: no training without agreement, named vendors under zero-retention terms, named encryption and certifications, enumerated rights, a 30-day deletion window. Gaps: the individual Privacy Mode default is unstated, Bot deletion is incomplete, most controls are enterprise-only, and the product's own terms never mention privacy.
+- **Muse** is the most specific about what the agent can and cannot see, with live credential isolation, one-time cards and a Sentinel. Training is on by default with a retroactive opt-out; isolation is from other users, not Meta; the supplement has no contact, retention or rights of its own.
+- **Instinct** contemplates the most sensitive data with the thinnest guarantees: no encryption statement, no retention, no general rights, unnamed vendors and partners. Strengths: no-sale promise, Google and Vault carve-outs, candour about agent risk.
 
 ## Verification
 
-On 2026-09-28 three independent checks re-read every source page and tested every claim in this file, one check per company, with no access to the original research notes. Every string in quotation marks was confirmed as a character-exact substring of the live page. No claim was found to be fabricated. The corrections applied above were all matters of degree or attribution:
-
-| | Claims checked | Confirmed | Overstated or misattributed | Not supported | Omissions added |
-| --- | --- | --- | --- | --- | --- |
-| Instinct | 48 | 41 | 5 | 1 ("iMessage and WhatsApp content" was an inference; the policy names neither) | 7 |
-| Muse | 39 | 36 | 3 | 0 | 5 |
-| Grok | 66 | 45 | 5 | 1 ("formerly xAI" appears on no page) | 7 |
-
-All three checks judged the original characterisation fair and the ranking unchanged by the corrections. The omissions cut both ways: Instinct's no-sale sentence and Google exclusion for partners were stronger than first shown, while its deidentified-data clause and in-transit warning were worse; Muse's content license was narrower than implied, while its liability terms were harsher; Grok's minors and Do Not Track clauses were both missing and both count against it.
+- 2026-09-28: three independent checks re-read every source for the first draft; all quotes for Instinct and Muse confirmed character-exact; Grok column discarded and re-researched against Cursor's documents after the product misidentification was found.
+- Muse's supplement page rejects plain fetches; it was read and verified in a browser session. Meta's help center page repeats the training-default and retroactive-opt-out sentences verbatim, which confirms them from a second Meta source.
+- Grok Bot: 20 Cursor pages read on 2026-09-28; a second independent check of the article's Grok Bot claims found no fabricated quotes and twelve wording corrections, applied. A parallel check of the Instinct and Muse claims found 67 claims, none unsupported, and ten wording corrections, applied.
 
 ## Sources
 
-- Instinct: https://instinct.com/privacy-policy (revised 2026-08-26) and https://instinct.com/terms (also revised 2026-08-26)
-- Muse: https://muse.ai/privacy (effective 2026-09-17) and https://muse.ai/terms (updated 2026-09-08); parent policy https://www.facebook.com/privacy/policy
-- Grok: https://x.ai/legal/privacy-policy (effective 2026-08-24), https://x.ai/legal/faq (2025-05-12), https://x.ai/legal/terms-of-service (2026-09-11); Grok on X: https://x.com/en/privacy (effective 2026-01-15)
+- Instinct: https://instinct.com/privacy-policy and https://instinct.com/terms (both revised 2026-08-26)
+- Muse: https://muse.ai/privacy (2026-09-17); https://muse.ai/terms (2026-09-08); https://www.facebook.com/privacy/policy; https://www.meta.com/help/artificial-intelligence/1047255454427887/; https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/; https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse
+- Grok Bot: https://cursor.com/privacy (2025-10-06); https://cursor.com/terms/grok-bot (2026-09-03); https://cursor.com/terms-of-service (2026-09-03); https://cursor.com/data-use (2026-09-03); https://cursor.com/security (2026-08-25); https://cursor.com/docs/grok-bot and sub-pages; https://cursor.com/docs/enterprise/privacy-and-data-governance; https://cursor.com/help/security-and-privacy/privacy; https://cursor.com/help/grok-bot/delete-account; https://trust.cursor.com/subprocessors

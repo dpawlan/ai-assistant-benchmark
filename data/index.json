@@ -458,22 +458,21 @@
       "slug": "grok-bot",
       "name": "Grok Bot",
       "status": "confirmed",
-      "site": "https://grok.com/",
+      "site": "https://cursor.com/grok-bot",
       "feedback_count": 1188,
       "public_signal": null,
-      "tagline": "xAI's Grok with real-time answers from the web and X",
+      "tagline": "Cursor's AI teammates, each with its own cloud computer, on desktop and iOS",
       "icon": "/logos/grok-bot.png",
       "kind": "general",
       "access": {
         "pricing": "paid",
-        "price": "Beta with SuperGrok Heavy ($300/mo)",
+        "price": "Included with paid Cursor plans, or via a SuperGrok account link",
         "regions": "Not stated",
         "channels": [
-          "App",
-          "Web",
-          "X"
+          "Desktop app (macOS, Windows, Linux)",
+          "iOS app"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-09-28"
       }
     },
     {

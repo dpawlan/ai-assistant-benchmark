@@ -1,0 +1,27 @@
+{
+  "slug": "airtap",
+  "name": "Airtap",
+  "site": "https://airtap.ai/",
+  "handles": [
+    "Netizen696"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Airtap is an assistant you text over iMessage, SMS or Telegram that runs tasks on a cloud phone: job applications, flight tracking, digital couponing, bookings. It watches your apps, escalates until the goal lands, chains workflows into routines, and streams the phone screen live to a web dashboard so you can watch it tap and type. No app to install. Requested via the form (issue #410).",
+  "public_signal": "low",
+  "tagline": "Set an Airtap. Get your life back.",
+  "icon": "/logos/airtap.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "SMS",
+      "Telegram",
+      "Web app"
+    ],
+    "checked": "2026-09-28"
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-27",
-  "agent_count": 130,
+  "updated": "2026-09-28",
+  "agent_count": 132,
   "feedback_count": 5796,
-  "confirmed": 103,
+  "confirmed": 105,
   "stretch": 27,
   "agents": [
     {
@@ -2881,6 +2881,51 @@
           "Discord"
         ],
         "checked": "2026-09-27"
+      }
+    },
+    {
+      "slug": "airtap",
+      "name": "Airtap",
+      "status": "confirmed",
+      "site": "https://airtap.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Set an Airtap. Get your life back.",
+      "icon": "/logos/airtap.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Telegram",
+          "Web app"
+        ],
+        "checked": "2026-09-28"
+      }
+    },
+    {
+      "slug": "mira",
+      "name": "Mira",
+      "status": "confirmed",
+      "site": "https://calorize.com.ua/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your personal nutritionist inside Calorize.",
+      "icon": "/logos/mira.png",
+      "kind": "health",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free; Pro adds detailed nutrients",
+        "regions": "Ukraine-first; ten interface languages",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "Web app"
+        ],
+        "checked": "2026-09-28"
       }
     }
   ]

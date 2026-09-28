@@ -1,8 +1,8 @@
 # Privacy policies compared: Instinct, Muse, Grok Bot
 
-Read 2026-09-27 and 2026-09-28. Quotes are verbatim from the live pages. This is a reading of the documents, not of the products' behaviour.
+Read 2026-09-27 and 2026-09-28. Quoted passages were checked against the live pages; some are excerpts. This is a reading of the documents, not of the products' behaviour.
 
-**Correction history.** The first draft of this file (2026-09-27) compared Instinct and Muse against the SpaceXAI privacy policy that governs the Grok chatbot at grok.com. That was the wrong product: Grok Bot is a Cursor (Anysphere, Inc.) product governed by Cursor's documents. The roster entry pointed at grok.com and was corrected on 2026-09-28. An outside review also flagged: "Affiliates: None" for Instinct was wrong (its policy names "affiliates or others within our corporate group"); "no user rights" for Instinct was too absolute; "by design" overstated the sensitive-data clause; and the claim that no policy uses the word "encrypt" failed once the correct Grok Bot documents were read (Cursor's data-use page says cached files are "encrypted using unique client-generated keys"). All of those are fixed below.
+**Correction history.** The first draft of this file (2026-09-27) compared Instinct and Muse against the SpaceXAI privacy policy that governs the Grok chatbot at grok.com. That was the wrong product: Grok Bot is a Cursor (Anysphere, Inc.) product governed by Cursor's documents. The roster entry pointed at grok.com and was corrected on 2026-09-28. An outside review also flagged: "Affiliates: None" for Instinct was wrong (its policy names "affiliates or others within our corporate group"); "no user rights" for Instinct was too absolute; "by design" overstated the sensitive-data clause; and the claim that no policy uses the word "encrypt" failed once the correct Grok Bot documents were read (Cursor's data-use page says cached files are "encrypted using unique client-generated keys"). A later review distinguished deletion of one message or Bot from full reset or account deletion, identified the business-only scope of Cursor's DPA, and corrected the roster tagline: all of one user's Bots share a cloud computer.
 
 ## Documents
 
@@ -18,8 +18,8 @@ Read 2026-09-27 and 2026-09-28. Quotes are verbatim from the live pages. This is
 
 ### Training on conversations
 
-- **Instinct**: on by default. "to evaluate, fine-tune, and train the AI models that power our products". Opt out at app.instinct.com/settings, "on a go-forward basis"; "we may still use your information for AI model training when that information is flagged for safety review". Google Workspace data and Vault materials are excluded.
-- **Muse**: on by default. "This setting is on when you first use Muse." Opt out under Settings, Data controls; "Changes to this setting also apply to previous interactions." The toggle also covers Connector data. Meta's engineering post calls this "a good default" and says training data includes "tool calls and subagent handoffs".
+- **Instinct**: on by default for eligible data. "to evaluate, fine-tune, and train the AI models that power our products". Opt out at app.instinct.com/settings, "on a go-forward basis"; "we may still use your information for AI model training when that information is flagged for safety review". Google Workspace data and Vault materials are excluded.
+- **Muse**: on by default. "This setting is on when you first use Muse." Opt out under Settings, Data controls; "Changes to this setting also apply to previous interactions." The help page does not say this reverses model training already completed. The toggle also covers Connector data. Meta's engineering post calls this "a good default" and says training data includes "tool calls and subagent handoffs".
 - **Grok Bot**: not by default. Cursor Privacy Policy: "We do not use Inputs or Suggestions to train our models, or permit third parties to use them for training, unless: (1) they are flagged for security review ... (2) you explicitly report them to us (for example, as Feedback), or (3) you've explicitly agreed to their use for such training purposes." Terms: "ANYSPHERE WILL NOT USE CONTENT TO TRAIN ... UNLESS YOU'VE EXPLICITLY AGREED". Data Use page: with Privacy Mode on, "Customer Data will not be used for training by Cursor. Cursor maintains zero data retention (ZDR) agreements with all providers"; with it off, "we may use and store codebase data, prompts, editor actions, code snippets, and other code data and actions to improve our AI features and train our models." The default Privacy Mode setting for an individual is not stated in any document; it is on by default for teams. The help page's answer to "Does Privacy Mode prevent xAI from training on my Grok Bot data?" is "Grok Bot runs on a separate product surface with its own data flows."
 
 ### Security statements
@@ -61,14 +61,16 @@ Read 2026-09-27 and 2026-09-28. Quotes are verbatim from the live pages. This is
 ### Retention and deletion
 
 - **Instinct**: no period; "may, but is not obligated to, delete any of your Materials".
-- **Muse**: no period; "Muse may still 'remember' information it learned from what you deleted"; backups maintained.
-- **Grok Bot**: "only for as long as necessary"; account deletion "All data is removed within 30 days"; "Deleting a Bot may not delete shared files, sessions, credentials, or routines"; computer file retention "depend[s] on your account type".
+- **Muse**: no general retention period; deleting a message can leave information in memory, while Meta says Reset Muse deletes all Muse data; backups maintained.
+- **Grok Bot**: "only for as long as necessary"; account deletion "All data is removed within 30 days"; deleting one Bot may leave shared files, sessions, credentials, or routines; computer file retention "depend[s] on your account type". The DPA applies to Teams and Enterprise accounts, not individual plans.
 
 ### Liability for the agent's actions
 
 - **Instinct**: warns of "unintended payments or communications to outside parties" and disclaims them.
 - **Muse**: "you bear all risk of financial loss"; liability capped at "THE GREATER OF $250 OR THE AMOUNT YOU HAVE PAID US IN THE TWELVE MONTHS".
 - **Grok Bot**: "CUSTOMER IS SOLELY RESPONSIBLE FOR ALL AGENTIC ACTIONS TAKEN BY GROK BOT, WHETHER OR NOT SUCH ACTIONS WERE INTENDED, ANTICIPATED, OR AUTHORIZED BY CUSTOMER".
+
+The Grok Bot terms also preserve provider liability for loss directly caused by its gross negligence or willful misconduct. Instinct's terms prohibit use of the service for benchmarking purposes; that clause is relevant to the site's stated testing activity, without resolving its legal effect.
 
 ### Channels
 

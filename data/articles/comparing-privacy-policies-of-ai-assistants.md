@@ -57,7 +57,7 @@ Grok Bot is a Cursor product, made by Anysphere, Inc.. It gives you named Bots t
 
 ## What I make of it
 
-**Grok Bot's documents are the most specific.** It is the only one of the three whose governing text says it does not train on your inputs while Privacy Mode is on, names its model vendors and their zero-retention terms, and puts numbers and standards on security. The gaps are real: the individual default for Privacy Mode is never stated, deleting a Bot does not clean the computer it worked on, most of the admin controls are Enterprise-only, and the terms that name the product are drafted for corporate customers, even though the consumer terms bind every individual who switches it on.
+**Grok Bot's documents are the most specific.** It is the only one of the three whose governing text says it does not train on your inputs while Privacy Mode is on, names its model vendors and their zero-retention terms, and puts numbers and standards on security. However, it is not perfect. The default for Privacy Mode is never stated. Deleting a Bot does not clean the data from the computer it worked on. Most admin controls are Enterprise-only, meaning the average consumer does not have access to them.
 
 **Muse is the most specific about what the agent can and cannot see.** The credential store, the one-time card numbers and the Sentinel are all described as live, and the ad carve-out is explicit. But training is on by default, the isolation is from other users rather than from Meta, the fully private mode is still in testing, and the supplement has no contact, no retention period and no rights section of its own.
 

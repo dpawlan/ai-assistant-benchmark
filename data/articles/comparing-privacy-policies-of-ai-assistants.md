@@ -61,7 +61,7 @@ Grok Bot is a Cursor product, made by Anysphere, Inc.. It gives you named Bots t
 
 **Muse is a close second.** It is specific about what the agent can and cannot see, such as the credential store and one-time credit card numbers. The ad carve-out is explicitly stated. However, training is on by default, and while there is isolation of data from other users, it is not isolated from Meta.
 
-**Instinct describes broad access in the thinnest document.** Its policy says it may reach passwords, payment details, private messages and health information, depending on the permissions you grant. It pairs that with "reasonable efforts" as its only security statement, no retention period, no general rights section, and unnamed AI providers and partners receiving data. Its no-sale promise, its Google and Vault carve-outs and its candour about agent risk are real strengths.
+**Instinct has broad access.** Its policy states that it may reach passwords, payment details, private messages, health information, or anything else, depending on the permissions you grant it. It also only states that it will make reasonable efforts as its security statement. It does promise not to sell your data, and it does have privacy carve-outs for the Vault.
 
 > All three assign users broad responsibility for agent actions. Deleting one message or Bot may leave other stored data.
 

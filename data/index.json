@@ -1,8 +1,8 @@
 {
-  "updated": "2026-09-28",
-  "agent_count": 132,
-  "feedback_count": 5796,
-  "confirmed": 105,
+  "updated": "2026-09-29",
+  "agent_count": 137,
+  "feedback_count": 5797,
+  "confirmed": 110,
   "stretch": 27,
   "agents": [
     {
@@ -10,7 +10,7 @@
       "name": "Aeon",
       "status": "stretch",
       "site": "https://www.aeon.fun/",
-      "feedback_count": 29,
+      "feedback_count": 30,
       "public_signal": "low",
       "tagline": "The most autonomous agent framework",
       "icon": "/logos/aeon.png",
@@ -855,14 +855,14 @@
       "icon": "/logos/ollie.png",
       "kind": "general",
       "access": {
-        "pricing": "paid",
-        "price": "From $10/mo ($7/mo annual), 7-day trial",
+        "pricing": "freemium",
+        "price": "Free (50 messages/mo); Everyday $25/mo; Always-On $100/mo",
         "regions": "Not stated",
         "channels": [
           "iMessage",
           "App"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-09-29"
       }
     },
     {
@@ -2925,6 +2925,114 @@
           "Web app"
         ],
         "checked": "2026-09-28"
+      }
+    },
+    {
+      "slug": "row-bot",
+      "name": "Row-Bot",
+      "status": "confirmed",
+      "site": "https://row-bot.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI. Your machine. Your rules.",
+      "icon": "/logos/row-bot.png",
+      "kind": "work",
+      "access": {
+        "pricing": "open-source",
+        "price": "Free, open source; hosted models at your own cost",
+        "regions": "Not stated",
+        "channels": [
+          "Desktop app"
+        ],
+        "checked": "2026-09-29"
+      }
+    },
+    {
+      "slug": "duckbill",
+      "name": "Duckbill",
+      "status": "confirmed",
+      "site": "https://getduckbill.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Real-world action APIs for AI agents.",
+      "icon": "/logos/duckbill.png",
+      "kind": "infra",
+      "access": {
+        "pricing": "unknown",
+        "price": "API access; pricing not public",
+        "regions": "US",
+        "channels": [
+          "API",
+          "MCP",
+          "Web app"
+        ],
+        "checked": "2026-09-29"
+      }
+    },
+    {
+      "slug": "orion-workers",
+      "name": "Orion Workers",
+      "status": "confirmed",
+      "site": "https://orionworkers.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "An AI manager in your WhatsApp for small teams.",
+      "icon": "/logos/orion-workers.png",
+      "kind": "work",
+      "access": {
+        "pricing": "freemium",
+        "price": "Seven-day free trial, then per-worker subscription",
+        "regions": "Brazil-first; EN, PT, ES",
+        "channels": [
+          "WhatsApp",
+          "Telegram",
+          "Web app",
+          "Mobile app"
+        ],
+        "checked": "2026-09-29"
+      }
+    },
+    {
+      "slug": "athletedata",
+      "name": "athletedata",
+      "status": "confirmed",
+      "site": "https://www.athletedata.health/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A coach that reads every app you train with, and texts you first.",
+      "icon": "/logos/athletedata.png",
+      "kind": "health",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free tools; coaching plan paid",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "Telegram",
+          "WhatsApp",
+          "Web app"
+        ],
+        "checked": "2026-09-29"
+      }
+    },
+    {
+      "slug": "norton-family-assistant",
+      "name": "Norton Family Assistant",
+      "status": "confirmed",
+      "site": "https://us.norton.com/products/family-assistant",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "A secure AI agent for busy parents and families.",
+      "icon": "/logos/norton-family-assistant.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start",
+        "regions": "US",
+        "channels": [
+          "iOS app"
+        ],
+        "checked": "2026-09-29"
       }
     }
   ]

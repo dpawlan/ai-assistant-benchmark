@@ -19,7 +19,7 @@ Run these commands one line at a time. If a command fails, stop and ask for help
 ```sh
 git clone --no-checkout --depth 1 https://github.com/dpawlan/ai-assistant-benchmark.git assistant-benchmark-pilot
 cd assistant-benchmark-pilot
-git fetch --depth 1 origin 68519a875fc4a12adba6ed4076296b666330e4cc
+git fetch --depth 1 origin a48256b160a54fed6b05241abde34822514b26b0
 git checkout --detach FETCH_HEAD
 ```
 

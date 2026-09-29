@@ -34,4 +34,14 @@ _Updated 2026-09-28 weekday vault scan (+4 rows)._
 - (2026-09-26) Clauday Super User Daily: Gym booking via unauth cancel API — agent aligned to user, harmful to others.
 - (2026-09-23) Techy Surgeon: Powerful but setup intimidating; abandoned for hosted agents.
 
-**Feedback rows:** 26 (as of 2026-09-28)
+_Updated 2026-09-29 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-09-25) OpenClaw blog (Graham McBain): Microsoft Autopilot built on OpenClaw.
+- (2026-09-25) Omar Shahine (via OpenClaw blog): "Enterprise grade runtime" commitment.
+- (2026-09-28) Clauday Super User Daily: @bensig — personalized daily newspaper via OpenClaw.
+- (2026-09-28) Clauday Super User Daily: @menhguin — VPS→Mac mini hosting economics.
+- (2026-09-28) Clauday Super User Daily: @augmentedtraff — M5Stack smartwatch running OpenClaw.
+- (2026-09-28) Clauday Super User Daily: @MichaelGannotti — Team Reports heap/event-loop fix.
+
+**Feedback rows:** 32 (as of 2026-09-29)

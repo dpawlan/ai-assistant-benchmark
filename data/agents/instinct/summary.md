@@ -160,5 +160,21 @@ _Updated 2026-09-28 weekday vault scan (+11 rows)._
 - (2026-09-23) Techy Surgeon: Missed partner reply under narrow monitor rule; 43 min late on recovery.
 - (2026-09-23) Techy Surgeon: Head-to-head with Muse/Grok Bot/Hermes; Instinct early favorite.
 
-**Feedback rows:** 246 (as of 2026-09-28)
+_Updated 2026-09-29 weekday vault scan (+12 rows)._
+
+**New this scan:**
+- (2026-09-27) Gadgets Now: Maui 3-airline trip — check-ins, passport data, boarding passes, hurricane watch.
+- (2026-09-27) Gadgets Now: Instagram carousel posted with live 2FA typing.
+- (2026-09-27) Gadgets Now: Gmail sweep → priority to-do list; bank/subscription watch.
+- (2026-09-27) Gadgets Now: Hanoi trip planning; handed off when booking site throttled.
+- (2026-09-27) Alex Borkin (BI): Trusted Person shared to-do with wife; jury duty close-loop.
+- (2026-09-27) Luba Yudasina (BI): Surprise spoiled via partner's Instinct blabbing.
+- (2026-09-27) Michael Stothard (BI): "I love you" via agent; wife: "Tell him he's an idiot."
+- (2026-09-28) eesel AI: Shopify partnership + 35% shopping stat.
+- (2026-09-28) Kenan Saleh (via eesel): "First AI product I've used that is truly proactively helpful."
+- (2026-09-28) Jai (via eesel): Single-thread status soup complaint.
+- (2026-09-28) Get the Check podcast (via eesel): Cart checkout regression, cart to zero.
+- (2026-09-28) TechCrunch: Instinct partnership with Shopify announced.
+
+**Feedback rows:** 258 (as of 2026-09-29)
 

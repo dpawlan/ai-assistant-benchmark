@@ -138,5 +138,12 @@ _Updated 2026-09-28 weekday vault scan (+10 rows)._
 - (2026-09-23) Techy Surgeon: Muse as likely shopping surface; bullish Meta/agentic ads.
 - (2026-09-26) Clauday Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality.
 
-**Feedback rows:** 191 (as of 2026-09-28)
-**Kinds:** other=72, use-case=34, praise=15, complaint=28, comparison=12, bug=16
+_Updated 2026-09-29 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-28) TechCrunch: Muse partnership with Shopify for agentic commerce.
+- (2026-09-28) Clauday Super User Daily: @fujibee — Muse offered to write its own agmsg skill; unprompted transport gap analysis.
+- (2026-09-28) Clauday Super User Daily: @Zacitus — Muse as coordinator over Claude Code, Codex, SuperGrok, Gemini.
+
+**Feedback rows:** 194 (as of 2026-09-29)
+**Kinds:** other=72, use-case=36, praise=15, complaint=28, comparison=12, bug=16, news=1

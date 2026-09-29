@@ -478,7 +478,7 @@
     ],
     "source": "web",
     "collected_at": "2026-09-28T14:30:00Z",
-    "notes": "Gym booking waitlist cancellation via unauth API — agent aligned to user, harmful to others."
+    "notes": "Gym booking waitlist cancellation via unauth API \u2014 agent aligned to user, harmful to others."
   },
   {
     "id": "f28b1ts01",
@@ -497,5 +497,123 @@
     "source": "web",
     "collected_at": "2026-09-28T14:30:00Z",
     "notes": "Surgeon: OpenClaw powerful but setup intimidating; abandoned for hosted agents."
+  },
+  {
+    "id": "f29ocblog01",
+    "agent": "openclaw",
+    "quote": "Microsoft today introduced Autopilot as part of its new Copilot experience: a persistent, proactive personal agent that keeps working even when you're not. Its foundation is OpenClaw.",
+    "author": "Graham McBain",
+    "author_name": "Graham McBain (OpenClaw)",
+    "date": "2026-09-25",
+    "url": "https://openclaw.ai/blog/microsoft-autopilot-openclaw#intro",
+    "kind": "news",
+    "tags": [
+      "microsoft",
+      "autopilot",
+      "copilot",
+      "enterprise",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "OpenClaw blog: Microsoft Autopilot built on OpenClaw."
+  },
+  {
+    "id": "f29ocblog02",
+    "agent": "openclaw",
+    "quote": "We are building Autopilot on @openclaw, working with @steipete and the OpenClaw Foundation to make it a fantastic enterprise grade runtime.",
+    "author": "Omar Shahine",
+    "author_name": "Omar Shahine (Microsoft)",
+    "date": "2026-09-25",
+    "url": "https://openclaw.ai/blog/microsoft-autopilot-openclaw#shahine",
+    "kind": "news",
+    "tags": [
+      "microsoft",
+      "autopilot",
+      "enterprise",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "OpenClaw blog quoting Omar Shahine: Autopilot on OpenClaw, enterprise-grade."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "openclaw",
+    "quote": "A user built a personalized daily newspaper with OpenClaw that covers only the topics they care about, drawn only from sources they trust. It is the simplest possible always-on agent use and still one of the most compelling: a curated front page no algorithm controls.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @bensig)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#newspaper",
+    "kind": "use-case",
+    "tags": [
+      "news",
+      "curation",
+      "always-on",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: personalized daily newspaper via OpenClaw."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "openclaw",
+    "quote": "A practical OpenClaw hosting datapoint: the user first ran it on a VPS, but at 10 to 20 GB of RAM a Mac mini turned out cheaper after a year, adds useful Apple features, and can be resold for roughly what it cost.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @menhguin)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#macmini",
+    "kind": "other",
+    "tags": [
+      "hosting",
+      "vps",
+      "mac-mini",
+      "cost",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: VPS\u2192Mac mini hosting economics for OpenClaw."
+  },
+  {
+    "id": "f29cd03",
+    "agent": "openclaw",
+    "quote": "A maker has been running an AI smartwatch built on M5Stack's StopWatch for weeks, well before Meta announced Muse Charm. It talks to OpenClaw or ChatGPT, with two buttons for nine actions plus touch, smart controls including car climate and briefings, tactile vibration, and a lanyard with a magnetic clip.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @augmentedtraff)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#smartwatch",
+    "kind": "use-case",
+    "tags": [
+      "hardware",
+      "smartwatch",
+      "m5stack",
+      "wearable",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: M5Stack smartwatch running OpenClaw, before Muse Charm."
+  },
+  {
+    "id": "f29cd04",
+    "agent": "openclaw",
+    "quote": "An OpenClaw power user tracking merged PRs reports that Team Reports collection had been chewing the Gateway event loop and now runs in a worker with bounded SQLite batches. On their fixture, peak heap fell from about 96 to 52 MiB and the longest event-loop turn from about 69 to 19 ms, with report output unchanged.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @MichaelGannotti)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#reports",
+    "kind": "other",
+    "tags": [
+      "performance",
+      "gateway",
+      "event-loop",
+      "fix",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: Team Reports heap/event-loop fix; 96\u219252 MiB, 69\u219219 ms."
   }
 ]

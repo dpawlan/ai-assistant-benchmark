@@ -14,3 +14,10 @@ Site: https://theszn.ai/
 - [praise] @nikhilgupta91: Just have  @thesznai  get it done for you. No gimmicks, your assistant, working for you. that's it.
 
 _Updated 2026-09-07 weekday vault scan._
+
+_Updated 2026-09-29 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-27) iPhone in Canada: Nikhil Gupta (ex-Apple) launching szn iMessage agent in October; own name/email/phone.
+
+**Feedback rows:** 47 (as of 2026-09-29)

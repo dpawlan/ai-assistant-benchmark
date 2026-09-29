@@ -4012,7 +4012,7 @@
   {
     "id": "f28a1st01",
     "agent": "muse",
-    "quote": "The flaw, reported by an outside researcher through Meta's bug bounty programme and not previously disclosed, could have allowed an attacker to access a user's dedicated virtual machine – an individualised cloud-based account containing data including emails and files, according to an internal Meta incident report reviewed by The Information.",
+    "quote": "The flaw, reported by an outside researcher through Meta's bug bounty programme and not previously disclosed, could have allowed an attacker to access a user's dedicated virtual machine \u2013 an individualised cloud-based account containing data including emails and files, according to an internal Meta incident report reviewed by The Information.",
     "author": "The Information",
     "author_name": "The Information (via Reuters / Straits Times)",
     "date": "2026-09-25",
@@ -4027,7 +4027,7 @@
     ],
     "source": "web",
     "collected_at": "2026-09-28T14:00:00Z",
-    "notes": "Second Muse security issue (distinct from Wardle macOS 0-day): SEV-2 VM access via bug bounty; Meta adding clearer in-app safety warning. Reuters wire 25–26 Sep."
+    "notes": "Second Muse security issue (distinct from Wardle macOS 0-day): SEV-2 VM access via bug bounty; Meta adding clearer in-app safety warning. Reuters wire 25\u201326 Sep."
   },
   {
     "id": "f28a1st02",
@@ -4120,6 +4120,64 @@
     ],
     "source": "web",
     "collected_at": "2026-09-28T14:30:00Z",
-    "notes": "Sep 26 Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality."
+    "notes": "Sep 26 Super User Daily: OpenClaw\u2192Muse migration; Grok Bot skipped for output quality."
+  },
+  {
+    "id": "f29tcshop01",
+    "agent": "muse",
+    "quote": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce.",
+    "author": "Sarah Perez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-09-28",
+    "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/#muse",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "partnership",
+      "agentic-commerce",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "TechCrunch: Muse partnership with Shopify for agentic commerce."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "muse",
+    "quote": "A developer of agmsg, a system that lets Claude Code, Codex and Grok agents address each other like named teammates, tried Meta's Muse and asked whether it could join. Muse offered to write its own agmsg skill, then, unprompted, listed the transport gaps: reads are fine by syncing the DB into its VM, but writes must go through Terminal via computer use to respect agmsg's rule that messages always pass through the official script.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @fujibee)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#agmsg",
+    "kind": "use-case",
+    "tags": [
+      "agmsg",
+      "integration",
+      "transport",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: Muse offered to write its own agmsg skill; unprompted transport gap analysis."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "muse",
+    "quote": "A user gave Meta's Muse access to Claude Code, Codex, SuperGrok and a $30 Gemini API key and uses Muse as the coordinator: it leans on agents from each service to build websites and to make decisions and validate its own answers.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @Zacitus)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#coordinator",
+    "kind": "use-case",
+    "tags": [
+      "coordinator",
+      "multi-agent",
+      "claude-code",
+      "codex",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: Muse as coordinator over Claude Code, Codex, SuperGrok, Gemini."
   }
 ]

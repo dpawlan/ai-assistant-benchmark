@@ -28823,7 +28823,7 @@
     ],
     "source": "web",
     "collected_at": "2026-09-28T14:30:00Z",
-    "notes": "OpenClaw→Grok Bot migration for always-on calorie/workout tracking."
+    "notes": "OpenClaw\u2192Grok Bot migration for always-on calorie/workout tracking."
   },
   {
     "id": "f28b1cd02",
@@ -28843,5 +28843,45 @@
     "source": "web",
     "collected_at": "2026-09-28T14:30:00Z",
     "notes": "Grok Bot used as always-on host/'landlord' for Claude Code loops; cost vs Claude cloud sessions."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "grok-bot",
+    "quote": "A clean head-to-head: collect some documents, classify them and upload them to a drive. Grok Bot took about 30 minutes; Claude Code with Opus 5.5 took about one minute. They actually like Grok Bot's form factor, but say the model is too dumb and the limits too tight.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @g48in)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#speed",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-code",
+      "speed",
+      "model",
+      "limits",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Grok Bot ~30 min vs Claude Code ~1 min; model dumb, limits tight."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "grok-bot",
+    "quote": "Agent Tincan lets your agents ask each other for help over your private Tailscale network: Grok Bot is always on in the cloud, Muse can make phone calls, Codex and Claude Code have your code, ChatGPT and Claude have your chat history.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @mvanhorn)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#tincan",
+    "kind": "use-case",
+    "tags": [
+      "agent-tincan",
+      "always-on",
+      "multi-agent",
+      "tailscale",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Agent Tincan \u2014 Grok Bot always-on cloud, Muse phone calls."
   }
 ]

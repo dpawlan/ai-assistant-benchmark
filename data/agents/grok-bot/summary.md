@@ -99,5 +99,11 @@ _Updated 2026-09-28 weekday vault scan (+4 rows)._
 - (2026-09-26) Clauday Super User Daily: Always-on fitness voice-tracking → web app charts migration from OpenClaw.
 - (2026-09-26) Clauday Super User Daily: Grok Bot as 'landlord' host for Claude Code loops.
 
-**Feedback rows:** 1192 (as of 2026-09-28)
+_Updated 2026-09-29 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-27) Clauday Super User Daily: @g48in — Grok Bot ~30 min vs Claude Code ~1 min; model dumb, limits tight.
+- (2026-09-27) Clauday Super User Daily: @mvanhorn — Agent Tincan: Grok Bot always-on cloud, Muse phone calls.
+
+**Feedback rows:** 1194 (as of 2026-09-29)
 

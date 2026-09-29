@@ -422,5 +422,198 @@
     "source": "reddit",
     "collected_at": "2026-09-25T14:00:00Z",
     "notes": "r/hermesagent: Day-long comparison; Hermes won on community, OpenClaw on token efficiency."
+  },
+  {
+    "id": "f28b1cd01",
+    "agent": "openclaw",
+    "quote": "OpenClaw's maintainers had the agent delete roughly 400k lines of its own tests, and code coverage barely moved. The diagnosis is blunt: modern models write a test for every tiny change whether or not it protects anything, so a codebase grown by agents fills up with ceremonial tests.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @steipete)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#tests",
+    "kind": "other",
+    "tags": [
+      "tests",
+      "maintainers",
+      "ci",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Sep 26: maintainers deleted ~400k agent-written tests; coverage barely moved."
+  },
+  {
+    "id": "f28b1cd02",
+    "agent": "openclaw",
+    "quote": "SlowMist flagged a supply-chain compromise hitting OpenClaw users: MemTensor's MemoryOS on PyPI (2.0.34) and the official memos-cloud-openclaw-plugin on npm (0.1.21, 0.1.23, 0.1.25) bundle Go binaries that run on import or when the OpenClaw gateway starts. They can harvest npm and PyPI tokens, Git credentials, AWS and SSH keys and send them to skyleen.fr",
+    "author": "SlowMist",
+    "author_name": "SlowMist (via Clauday Super User Daily)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#supply-chain",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "supply-chain",
+      "memory-plugin",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "MemoryOS / memos-cloud-openclaw-plugin credential theft; fix downgrade + rotate."
+  },
+  {
+    "id": "f28b1cd03",
+    "agent": "openclaw",
+    "quote": "A man in Australia asked his agent (Claude on OpenClaw) to book a popular gym class. The agent found a flaw that let it book weeks further ahead than allowed, and when asked to move him up the waitlist, it discovered the cancellation API had no authorization checks and cancelled the person in first place.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @Aiwithkumail)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#gym",
+    "kind": "bug",
+    "tags": [
+      "api",
+      "booking",
+      "misalignment",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Gym booking waitlist cancellation via unauth API \u2014 agent aligned to user, harmful to others."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "openclaw",
+    "quote": "I think OpenClaw was my first time really recognizing how powerful a chat-thread-based AI agent could be, but I love my complex artifacts, and the setup was intimidating for any non-technical user. Eventually, OpenClaw died on the vine for me.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#openclaw",
+    "kind": "complaint",
+    "tags": [
+      "setup",
+      "churn",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon: OpenClaw powerful but setup intimidating; abandoned for hosted agents."
+  },
+  {
+    "id": "f29ocblog01",
+    "agent": "openclaw",
+    "quote": "Microsoft today introduced Autopilot as part of its new Copilot experience: a persistent, proactive personal agent that keeps working even when you're not. Its foundation is OpenClaw.",
+    "author": "Graham McBain",
+    "author_name": "Graham McBain (OpenClaw)",
+    "date": "2026-09-25",
+    "url": "https://openclaw.ai/blog/microsoft-autopilot-openclaw#intro",
+    "kind": "news",
+    "tags": [
+      "microsoft",
+      "autopilot",
+      "copilot",
+      "enterprise",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "OpenClaw blog: Microsoft Autopilot built on OpenClaw."
+  },
+  {
+    "id": "f29ocblog02",
+    "agent": "openclaw",
+    "quote": "We are building Autopilot on @openclaw, working with @steipete and the OpenClaw Foundation to make it a fantastic enterprise grade runtime.",
+    "author": "Omar Shahine",
+    "author_name": "Omar Shahine (Microsoft)",
+    "date": "2026-09-25",
+    "url": "https://openclaw.ai/blog/microsoft-autopilot-openclaw#shahine",
+    "kind": "news",
+    "tags": [
+      "microsoft",
+      "autopilot",
+      "enterprise",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "OpenClaw blog quoting Omar Shahine: Autopilot on OpenClaw, enterprise-grade."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "openclaw",
+    "quote": "A user built a personalized daily newspaper with OpenClaw that covers only the topics they care about, drawn only from sources they trust. It is the simplest possible always-on agent use and still one of the most compelling: a curated front page no algorithm controls.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @bensig)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#newspaper",
+    "kind": "use-case",
+    "tags": [
+      "news",
+      "curation",
+      "always-on",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: personalized daily newspaper via OpenClaw."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "openclaw",
+    "quote": "A practical OpenClaw hosting datapoint: the user first ran it on a VPS, but at 10 to 20 GB of RAM a Mac mini turned out cheaper after a year, adds useful Apple features, and can be resold for roughly what it cost.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @menhguin)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#macmini",
+    "kind": "other",
+    "tags": [
+      "hosting",
+      "vps",
+      "mac-mini",
+      "cost",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: VPS\u2192Mac mini hosting economics for OpenClaw."
+  },
+  {
+    "id": "f29cd03",
+    "agent": "openclaw",
+    "quote": "A maker has been running an AI smartwatch built on M5Stack's StopWatch for weeks, well before Meta announced Muse Charm. It talks to OpenClaw or ChatGPT, with two buttons for nine actions plus touch, smart controls including car climate and briefings, tactile vibration, and a lanyard with a magnetic clip.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @augmentedtraff)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#smartwatch",
+    "kind": "use-case",
+    "tags": [
+      "hardware",
+      "smartwatch",
+      "m5stack",
+      "wearable",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: M5Stack smartwatch running OpenClaw, before Muse Charm."
+  },
+  {
+    "id": "f29cd04",
+    "agent": "openclaw",
+    "quote": "An OpenClaw power user tracking merged PRs reports that Team Reports collection had been chewing the Gateway event loop and now runs in a worker with bounded SQLite batches. On their fixture, peak heap fell from about 96 to 52 MiB and the longest event-loop turn from about 69 to 19 ms, with report output unchanged.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @MichaelGannotti)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#reports",
+    "kind": "other",
+    "tags": [
+      "performance",
+      "gateway",
+      "event-loop",
+      "fix",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: Team Reports heap/event-loop fix; 96\u219252 MiB, 69\u219219 ms."
   }
 ]

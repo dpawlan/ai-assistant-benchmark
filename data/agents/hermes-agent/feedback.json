@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "id": "f28b1ts01",
+    "agent": "hermes-agent",
+    "quote": "Hermes is MIT-licensed, model-agnostic and self-hosted, reachable through Telegram, Slack, WhatsApp, Signal or email, with persistent memory, self-written skills and a built-in scheduler. It is excellent, and it gave me the same magical feeling I had when I first set up OpenClaw. But it's definitely also a developer's tool, and most knowledge workers will find the setup intimidating.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#hermes",
+    "kind": "comparison",
+    "tags": [
+      "self-hosted",
+      "setup",
+      "openclaw",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon: Hermes excellent/OpenClaw-magic feel but developer-tool setup barrier."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "hermes-agent",
+    "quote": "Running Opus 5.5 with a 1M window through a Claude subscription plugin in Hermes Agent burned the limit by lunch, because every turn re-read about 800K tokens of old chat. The fix: compress early and per model.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @GodsBoy7777)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#hermes-tokens",
+    "kind": "complaint",
+    "tags": [
+      "tokens",
+      "context",
+      "quota",
+      "compression",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Hermes+Claude 1M re-read ~800K tokens/turn, burned limit by lunch."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "hermes-agent",
+    "quote": "Raft is a Slack where humans and AI agents clock in together, and the team open-sourced the whole thing: server, web, CLI, the agent daemon and desktop app. Each agent has a name, role and memory stored locally; they claim tasks, hand off and review each other. Claude Code, Codex and Hermes can join a channel on your own subscription.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @aigclink)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#raft",
+    "kind": "other",
+    "tags": [
+      "raft",
+      "open-source",
+      "slack",
+      "multi-agent",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Raft open-source Slack-with-agents; Hermes can join."
+  },
+  {
+    "id": "f29cd03",
+    "agent": "hermes-agent",
+    "quote": "A solo founder says they are officially off the terminal and local development: a Claude-native workflow now hands back completed tasks backed by full end-to-end QA and verification. They tried the same idea early in the year with OpenClaw and Hermes and found it hacky; now it runs across code, design, marketing and support from anywhere.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @runtimeking)",
+    "date": "2026-09-28",
+    "url": "https://clauday.com/article/73de728f-678e-41d7-812b-bb7c4f10450f#claude-native",
+    "kind": "comparison",
+    "tags": [
+      "openclaw",
+      "claude-native",
+      "migration",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 28 Clauday: early OpenClaw/Hermes hacky vs Claude-native now."
+  }
+]

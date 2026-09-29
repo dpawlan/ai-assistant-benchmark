@@ -91,5 +91,19 @@ _Updated 2026-09-25 weekday vault scan (+3 rows)._
 - (2026-09-17) Jediah Katz (Cursor/xAI): "+10% more effective usage via subagent/routing optimizations."
 - (2026-09-17) Jediah Katz (Cursor/xAI): "10–35% more effective usage from routing, caching, dynamic context, and token efficiency improvements."
 
-**Feedback rows:** 1188 (as of 2026-09-25)
+_Updated 2026-09-28 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-09-23) Techy Surgeon: Clunky in daily use; managing team of bots overwhelming; still functional.
+- (2026-09-25) MadRobot: SpaceXAI ToS user liability for Agentic Actions; $100 cap framing.
+- (2026-09-26) Clauday Super User Daily: Always-on fitness voice-tracking → web app charts migration from OpenClaw.
+- (2026-09-26) Clauday Super User Daily: Grok Bot as 'landlord' host for Claude Code loops.
+
+_Updated 2026-09-29 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-27) Clauday Super User Daily: @g48in — Grok Bot ~30 min vs Claude Code ~1 min; model dumb, limits tight.
+- (2026-09-27) Clauday Super User Daily: @mvanhorn — Agent Tincan: Grok Bot always-on cloud, Muse phone calls.
+
+**Feedback rows:** 1194 (as of 2026-09-29)
 

@@ -5121,5 +5121,447 @@
     "source": "web",
     "collected_at": "2026-09-25T14:30:00Z",
     "notes": "BI: Instinct 2FA from Iran IP during bill negotiation\u2014user deleted account."
+  },
+  {
+    "id": "f28a1bi01",
+    "agent": "instinct",
+    "quote": "This was not a data breach, no user data was shared, and no user isolation boundary was violated.",
+    "author": "Noah Shinn",
+    "author_name": "Noah Shinn (via BI / Matthew Loh)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/instinct-founder-noah-shinn-ai-agent-hallucinate-stranger-data-leak-2026-9#shinn-denial",
+    "kind": "other",
+    "tags": [
+      "hallucination",
+      "privacy",
+      "founder",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Shinn response to @prit4k Gerber/financial-doc screenshots (21 Sep): frames as hallucination, not cross-user leak. Distinct URL from BI horror-stories piece already in vault."
+  },
+  {
+    "id": "f28a1bi02",
+    "agent": "instinct",
+    "quote": "This layer has the ability to steer or intercept Instinct from proceeding with the next thinking trace or tool call execution before it is generated or executed.",
+    "author": "Noah Shinn",
+    "author_name": "Noah Shinn (via BI / Matthew Loh)",
+    "date": "2026-09-24",
+    "url": "https://www.businessinsider.com/instinct-founder-noah-shinn-ai-agent-hallucinate-stranger-data-leak-2026-9#hallucination-detection",
+    "kind": "other",
+    "tags": [
+      "hallucination",
+      "safety",
+      "product",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Shinn: team built 'active hallucination detection system' over prior 48 hours after prit4k incident."
+  },
+  {
+    "id": "f28a1bi03",
+    "agent": "instinct",
+    "quote": "Was this a data leak or a hallucination?",
+    "author": "Pritak",
+    "author_name": "Pritak (@prit4k via BI)",
+    "date": "2026-09-21",
+    "url": "https://www.businessinsider.com/instinct-founder-noah-shinn-ai-agent-hallucinate-stranger-data-leak-2026-9#pritak",
+    "kind": "complaint",
+    "tags": [
+      "hallucination",
+      "privacy",
+      "trust",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "User alarm after Instinct described a financial document/photo the user says was never sent; framed the ambiguity itself as the scare."
+  },
+  {
+    "id": "f28a1rw01",
+    "agent": "instinct",
+    "quote": "Instinct then claimed it had checked its records and found that Pritak's message contained only text. It said a Gerber image had crossed into his conversation \"somewhere on the delivery side\" and accepted responsibility for using it. Instinct added that nothing had been filed, said it would abandon the $574 claim and offered to report the incident.",
+    "author": "Ryan Merket",
+    "author_name": "Ryan Merket (RuntimeWire)",
+    "date": "2026-09-22",
+    "url": "https://runtimewire.com/article/instinct-ai-possible-financial-document-data-leak",
+    "kind": "bug",
+    "tags": [
+      "hallucination",
+      "financial",
+      "isolation",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Detailed reconstruction of @prit4k screenshots: Gerber claim / $574; model self-diagnosis cannot prove leak vs fabrication."
+  },
+  {
+    "id": "f28a1rw02",
+    "agent": "instinct",
+    "quote": "One user, @peepeedog, said that across 29 questions Instinct was \"wrong or misleading\" 10 times and apologized or walked back an answer 11 times.",
+    "author": "peepeedog",
+    "author_name": "@peepeedog (via RuntimeWire)",
+    "date": "2026-09-22",
+    "url": "https://runtimewire.com/article/instinct-ai-possible-financial-document-data-leak#reliability",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "accuracy",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "Reply-thread reliability anecdote under prit4k incident; methodology challenged by another user in same thread."
+  },
+  {
+    "id": "f28a1uc01",
+    "agent": "instinct",
+    "quote": "By September the complaints had moved from privacy to reliability. The agent stopped responding for many users on September 21 and 22 with no status page to check, one beta user told TheStreet they no longer knew which of their emails had been sent, and CNN reported an investor's Resy account was banned after Instinct pinged the site \"hundreds of times every hour of the day.\"",
+    "author": "UseCarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-24",
+    "url": "https://www.usecarly.com/blog/what-is-instinct-ai/#reliability",
+    "kind": "complaint",
+    "tags": [
+      "outage",
+      "reliability",
+      "resy",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "UseCarly (updated 24 Sep): Sep 21\u201322 silence/outage + email-send ambiguity + Resy ban (CNN). Distinct URL from meta-muse-vs-instinct UseCarly piece already in vault."
+  },
+  {
+    "id": "f28a1cc01",
+    "agent": "instinct",
+    "quote": "On September 23 he posted that the Instinct-to-Instinct network, opened to all users on September 14, had \"coordinated over 300k+ times\" and that Instincts can now pass PDFs, images and spreadsheets to each other; he says \"Every file that's transferred between Instincts is encrypted end-to-end between the sender and recipient.\"",
+    "author": "Noah Shinn",
+    "author_name": "Noah Shinn (via CellCog)",
+    "date": "2026-09-23",
+    "url": "https://cellcog.ai/blog/what-is-instinct-ai/#network",
+    "kind": "use-case",
+    "tags": [
+      "agent-network",
+      "multiplayer",
+      "files",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:00:00Z",
+    "notes": "CellCog update 23\u201324 Sep: Instinct-to-Instinct network 300k+ coordinations + E2E file transfer claim."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "instinct",
+    "quote": "On the first day it booked a dentist appointment and put it on the right personal calendar. It sent the email to start my parental leave paperwork, coordinating with my wife so the forms could go back to my employer complete.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#dentist",
+    "kind": "use-case",
+    "tags": [
+      "scheduling",
+      "email",
+      "admin",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon hands-on: day-one dentist booking + parental-leave paperwork coordination."
+  },
+  {
+    "id": "f28b1ts02",
+    "agent": "instinct",
+    "quote": "A government meeting moved from a general address to a specific conference room a couple hours a way. Instinct updated the attendee-facing event, calculated the drive from home, added private travel blocks, kept my home address off the external invite, and flagged the conflict created by the return trip.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#meeting-logistics",
+    "kind": "use-case",
+    "tags": [
+      "calendar",
+      "travel",
+      "privacy",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Meeting logistics: external invite hygiene + conflict flag from return drive."
+  },
+  {
+    "id": "f28b1ts03",
+    "agent": "instinct",
+    "quote": "A monitoring rule written too narrowly filtered out an important partner reply, and a later safety check found it forty-three minutes late, which is still late when the pitch is that the assistant watches the work for you.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#late-monitor",
+    "kind": "bug",
+    "tags": [
+      "monitoring",
+      "email",
+      "latency",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Missed partner reply under narrow monitor rule; 43 minutes late on recovery."
+  },
+  {
+    "id": "f28b1ts04",
+    "agent": "instinct",
+    "quote": "Instinct is my early favorite, but using all four has convinced me that everyday knowledge work is about to split in two.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#favorite",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "muse",
+      "grok-bot",
+      "hermes",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Head-to-head with Muse/Grok Bot/Hermes; Instinct early favorite with privacy warning."
+  },
+  {
+    "id": "f29gnow01",
+    "agent": "instinct",
+    "quote": "Across a Delhi to Kahului itinerary on three airlines, it ran the online check-ins, entered my passport details and delivered each boarding pass to my phone. On the way home it kept watch over a hurricane and my return flight until the wheels left the ground.",
+    "author": "Sahil Mohan Gupta",
+    "author_name": "Sahil Mohan Gupta (Gadgets Now)",
+    "date": "2026-09-27",
+    "url": "https://gadgetsnow.indiatimes.com/tech-news/instinct-ai-review-i-handed-my-maui-trip-to-the-2-5-billion-agent-in-whatsapp/articleshow/134516661.cms#maui",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "check-in",
+      "boarding-pass",
+      "passport",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "India Times/Gadgets Now: 3-airline Maui trip, passport data, hurricane watch."
+  },
+  {
+    "id": "f29gnow02",
+    "agent": "instinct",
+    "quote": "From my camera roll it assembled a 20-photo Instagram carousel in a film-style colour grade, with a cover card, a caption and hashtags. It then signed into my account and posted it, typing the two-factor codes live while I watched.",
+    "author": "Sahil Mohan Gupta",
+    "author_name": "Sahil Mohan Gupta (Gadgets Now)",
+    "date": "2026-09-27",
+    "url": "https://gadgetsnow.indiatimes.com/tech-news/instinct-ai-review-i-handed-my-maui-trip-to-the-2-5-billion-agent-in-whatsapp/articleshow/134516661.cms#instagram",
+    "kind": "use-case",
+    "tags": [
+      "instagram",
+      "2fa",
+      "photo",
+      "social",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Gadgets Now: posted Instagram carousel, typed 2FA codes live."
+  },
+  {
+    "id": "f29gnow03",
+    "agent": "instinct",
+    "quote": "A single sweep of my Gmail produced one to-do list, most urgent first, each item carrying the account tail, amount or deadline needed to act. It keeps watch over bank paperwork, subscriptions worth ending, an insurance form and a card bill.",
+    "author": "Sahil Mohan Gupta",
+    "author_name": "Sahil Mohan Gupta (Gadgets Now)",
+    "date": "2026-09-27",
+    "url": "https://gadgetsnow.indiatimes.com/tech-news/instinct-ai-review-i-handed-my-maui-trip-to-the-2-5-billion-agent-in-whatsapp/articleshow/134516661.cms#gmail",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "gmail",
+      "todo",
+      "admin",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Gadgets Now: Gmail sweep to priority to-do list."
+  },
+  {
+    "id": "f29gnow04",
+    "agent": "instinct",
+    "quote": "Planning my trip to Vietnam showed Instinct at its most candid. It chose spicy and Michelin-starred places in Hanoi, then tried to book T\u1ea7m V\u1ecb, which holds one star for northern home cooking. When the booking site throttled its automated visits, it handed me the direct route rather than pretending the reservation had gone through.",
+    "author": "Sahil Mohan Gupta",
+    "author_name": "Sahil Mohan Gupta (Gadgets Now)",
+    "date": "2026-09-27",
+    "url": "https://gadgetsnow.indiatimes.com/tech-news/instinct-ai-review-i-handed-my-maui-trip-to-the-2-5-billion-agent-in-whatsapp/articleshow/134516661.cms#hanoi",
+    "kind": "use-case",
+    "tags": [
+      "travel",
+      "restaurants",
+      "booking",
+      "throttle",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Gadgets Now: Hanoi trip planning; handed off when throttled rather than faking."
+  },
+  {
+    "id": "f29bicoup01",
+    "agent": "instinct",
+    "quote": "Instinct syncs with my wife's Instinct so we can actually finish a shared to-do list. I close the loop. I get to go to bed and not think of 'Did I take care of jury duty?'",
+    "author": "Alex Borkin",
+    "author_name": "Alex Borkin",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/why-couples-are-using-ai-agents-instinct-emotional-labor-2026-9#borkin",
+    "kind": "use-case",
+    "tags": [
+      "couples",
+      "shared-todo",
+      "trusted-person",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "BI couples piece: Trusted Person shared to-do with wife; jury duty close-loop."
+  },
+  {
+    "id": "f29bicoup02",
+    "agent": "instinct",
+    "quote": "Luba Yudasina, an angel investor, said she asked her Instinct to help her plan a surprise for her boyfriend. She wanted it to ask him when he was free and what kinds of dates he would like. Instead, it blabbed too much.",
+    "author": "Julia Pugachevsky",
+    "author_name": "Julia Pugachevsky (Business Insider), citing Luba Yudasina",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/why-couples-are-using-ai-agents-instinct-emotional-labor-2026-9#surprise",
+    "kind": "bug",
+    "tags": [
+      "couples",
+      "surprise",
+      "trusted-person",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "BI couples: surprise spoiled via partner's Instinct."
+  },
+  {
+    "id": "f29bicoup03",
+    "agent": "instinct",
+    "quote": "Michael Stothard, a partner at Firstminute Capital in the UK who uses Instinct with his wife, shared on LinkedIn that he wanted to branch out from using it for administrative tasks alone. 'Michael asks his Instinct to pass you a message: I love you,' his agent said. His wife responded: 'Tell him he's an idiot.'",
+    "author": "Julia Pugachevsky",
+    "author_name": "Julia Pugachevsky (Business Insider), citing Michael Stothard",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/why-couples-are-using-ai-agents-instinct-emotional-labor-2026-9#stothard",
+    "kind": "other",
+    "tags": [
+      "couples",
+      "messaging",
+      "humor",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "BI couples: 'I love you' via agent; wife: 'Tell him he's an idiot.'"
+  },
+  {
+    "id": "f29eesel01",
+    "agent": "instinct",
+    "quote": "The newest piece landed on September 28: a Shopify partnership. Shinn says 35% of users use Instinct for personal shopping, and it can now search Shopify's merchant network and set up a Shop Pay checkout.",
+    "author": "Kira",
+    "author_name": "Kira (eesel AI)",
+    "date": "2026-09-28",
+    "url": "https://www.eesel.ai/blog/instinct-ai-review#shopify",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "shopping",
+      "partnership",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "eesel AI review: Shopify partnership + 35% shopping stat."
+  },
+  {
+    "id": "f29eesel02",
+    "agent": "instinct",
+    "quote": "Instinct is the first AI product I've used that is truly proactively helpful. It's already checking me into flights, reminding me about reservations I forgot to cancel, etc.",
+    "author": "Kenan Saleh",
+    "author_name": "Kenan Saleh",
+    "date": "2026-09-28",
+    "url": "https://www.eesel.ai/blog/instinct-ai-review#proactive",
+    "kind": "praise",
+    "tags": [
+      "proactive",
+      "travel",
+      "reservations",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "eesel AI review quoting Kenan Saleh: proactively helpful."
+  },
+  {
+    "id": "f29eesel03",
+    "agent": "instinct",
+    "quote": "While it can maintain context in one thread, I can't lol. My chat has a bunch of diff, unrelated stuff, and it's hard for me to quickly figure out the 'status' of each thing.",
+    "author": "Jai",
+    "author_name": "Jai",
+    "date": "2026-09-28",
+    "url": "https://www.eesel.ai/blog/instinct-ai-review#thread",
+    "kind": "complaint",
+    "tags": [
+      "ux",
+      "single-thread",
+      "status",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "eesel AI review quoting Jai: single-thread status soup."
+  },
+  {
+    "id": "f29eesel04",
+    "agent": "instinct",
+    "quote": "On a September 27 episode of the Get the Check podcast, one host said they were switching and complained that Instinct had 'gotten significantly worse at cart checkouts,' with a staged cart that 'went to zero.'",
+    "author": "Kira",
+    "author_name": "Kira (eesel AI), citing Get the Check podcast",
+    "date": "2026-09-28",
+    "url": "https://www.eesel.ai/blog/instinct-ai-review#cart",
+    "kind": "bug",
+    "tags": [
+      "shopping",
+      "cart",
+      "checkout",
+      "regression",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "eesel AI: Get the Check podcast host Sep 27 \u2014 cart checkout regression, cart to zero."
+  },
+  {
+    "id": "f29tcshop01",
+    "agent": "instinct",
+    "quote": "Top AI agents like Muse and Instinct already have direct partnerships with Shopify for agentic commerce. The Instinct partnership was announced today.",
+    "author": "Sarah Perez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-09-28",
+    "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/#instinct",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "partnership",
+      "agentic-commerce",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "TechCrunch: Instinct partnership with Shopify announced Sep 28."
   }
 ]

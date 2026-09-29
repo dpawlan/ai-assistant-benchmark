@@ -124,5 +124,26 @@ _Updated 2026-09-25 weekday vault scan batch 2 (+11 rows)._
 - (2026-09-24) UseCarly: Inc's Aten had 187K iMessages synced despite declining access.
 - (2026-09-24) UseCarly (citing CNN): Instinct Resy spam led to account ban.
 
-**Feedback rows:** 181 (as of 2026-09-25)
-**Kinds:** other=68, use-case=33, praise=14, complaint=28, comparison=10, bug=14
+_Updated 2026-09-28 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-09-25) Progressive Robot: 2.3M–4.3M downloads across three market intelligence firms; No.1 App Store since Sep 18.
+- (2026-09-25) Progressive Robot: US DAU gap 642k vs ChatGPT 231k (Apptopia first-12-day comparison).
+- (2026-09-25) Mark Zuckerberg (via Progressive Robot): Muse Charm keychain hardware announced at Connect; December ship target.
+- (2026-09-25) Progressive Robot: TechCrunch Equity framing: app launch strong; Charm unshipped; retention unknown.
+- (2026-09-25) The Information (via Straits Times): SEV-2 VM access vulnerability via bug bounty; second Muse security issue.
+- (2026-09-25) The Information (via Straits Times): Meta internal severity SEV-2 classification for VM vulnerability.
+- (2026-09-24) Notebookcheck: Charm form-factor ~2 inches + 5G/cellular without phone; price TBA.
+- (2026-09-23) Techy Surgeon: Positive note in four-agent review; shopping lean.
+- (2026-09-23) Techy Surgeon: Muse as likely shopping surface; bullish Meta/agentic ads.
+- (2026-09-26) Clauday Super User Daily: OpenClaw→Muse migration; Grok Bot skipped for output quality.
+
+_Updated 2026-09-29 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-28) TechCrunch: Muse partnership with Shopify for agentic commerce.
+- (2026-09-28) Clauday Super User Daily: @fujibee — Muse offered to write its own agmsg skill; unprompted transport gap analysis.
+- (2026-09-28) Clauday Super User Daily: @Zacitus — Muse as coordinator over Claude Code, Codex, SuperGrok, Gemini.
+
+**Feedback rows:** 194 (as of 2026-09-29)
+**Kinds:** other=72, use-case=36, praise=15, complaint=28, comparison=12, bug=16, news=1

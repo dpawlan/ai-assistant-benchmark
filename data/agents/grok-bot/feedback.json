@@ -28768,5 +28768,120 @@
     "source": "forum",
     "collected_at": "2026-09-25T14:30:00Z",
     "notes": "Cursor Forum: 10\u201335% more effective usage from harness optimizations."
+  },
+  {
+    "id": "f28b1ts01",
+    "agent": "grok-bot",
+    "quote": "In daily use I found it clunky, and managing a team of bots became overwhelming. It's still very functional.",
+    "author": "Christian Pean",
+    "author_name": "Christian Pean MD (Techy Surgeon)",
+    "date": "2026-09-23",
+    "url": "https://techysurgeon.substack.com/p/instinct-muse-grok-bot-and-hermes#grok-bot",
+    "kind": "complaint",
+    "tags": [
+      "ux",
+      "multi-bot",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Surgeon: Grok Bot most intuitive onboarding / CoS-of-bots feel, but clunky + overwhelming in daily use."
+  },
+  {
+    "id": "f28b1mr01",
+    "agent": "grok-bot",
+    "quote": "We are not responsible for User Content or Agentic Actions. You are responsible for User Content and Agentic Actions, including any consequences, costs, or liabilities arising therefrom.",
+    "author": "SpaceXAI",
+    "author_name": "SpaceXAI Terms (via MadRobot)",
+    "date": "2026-09-25",
+    "url": "https://madrobot.blog/2026/09/25/spacexai-grok-new-terms-of-service-ai-agents-explained/#liability",
+    "kind": "other",
+    "tags": [
+      "terms",
+      "liability",
+      "agentic-actions",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "MadRobot (25 Sep) on SpaceXAI ToS dated Sep 11: user liable for Agentic Actions; $100 liability cap framing."
+  },
+  {
+    "id": "f28b1cd01",
+    "agent": "grok-bot",
+    "quote": "Now they use Grok Bot because it is always on. During workouts they voice-note sets and weights, and when they want trends the bot spins up a web app with charts.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @dansemperepico)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#workout",
+    "kind": "use-case",
+    "tags": [
+      "always-on",
+      "fitness",
+      "voice",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "OpenClaw\u2192Grok Bot migration for always-on calorie/workout tracking."
+  },
+  {
+    "id": "f28b1cd02",
+    "agent": "grok-bot",
+    "quote": "have a Grok Bot, which comes with its own computer, install Claude Code CLI on that machine, start the login and send the user the auth link, then tell it to 'run /loop on the task and message me every time something ships or breaks'.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @ziwenxu_)",
+    "date": "2026-09-26",
+    "url": "https://clauday.com/article/2fc85155-4bf7-44a9-ab90-5c551eae37b0#landlord",
+    "kind": "use-case",
+    "tags": [
+      "claude-code",
+      "cloud-computer",
+      "orchestration",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-28T14:30:00Z",
+    "notes": "Grok Bot used as always-on host/'landlord' for Claude Code loops; cost vs Claude cloud sessions."
+  },
+  {
+    "id": "f29cd01",
+    "agent": "grok-bot",
+    "quote": "A clean head-to-head: collect some documents, classify them and upload them to a drive. Grok Bot took about 30 minutes; Claude Code with Opus 5.5 took about one minute. They actually like Grok Bot's form factor, but say the model is too dumb and the limits too tight.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @g48in)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#speed",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-code",
+      "speed",
+      "model",
+      "limits",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Grok Bot ~30 min vs Claude Code ~1 min; model dumb, limits tight."
+  },
+  {
+    "id": "f29cd02",
+    "agent": "grok-bot",
+    "quote": "Agent Tincan lets your agents ask each other for help over your private Tailscale network: Grok Bot is always on in the cloud, Muse can make phone calls, Codex and Claude Code have your code, ChatGPT and Claude have your chat history.",
+    "author": "Clauday",
+    "author_name": "Clauday (Super User Daily, citing @mvanhorn)",
+    "date": "2026-09-27",
+    "url": "https://clauday.com/article/088b7459-af2d-418d-a1ce-50a8cd75c72f#tincan",
+    "kind": "use-case",
+    "tags": [
+      "agent-tincan",
+      "always-on",
+      "multi-agent",
+      "tailscale",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-29T14:00:00Z",
+    "notes": "Sep 27 Clauday: Agent Tincan \u2014 Grok Bot always-on cloud, Muse phone calls."
   }
 ]

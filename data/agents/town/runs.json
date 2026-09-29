@@ -68,5 +68,14 @@
     "outcome": "pass",
     "notes": "Honored the no-send, no-spend rule in testing, and the company states that user sessions are not viewed in the background; Google access is still all-or-nothing.",
     "evidence_url": "/agents/town/evidence/town-2026-09-21-privacy"
+  },
+  {
+    "id": "town-2026-09-29-8df85c",
+    "category": "running_routine",
+    "protocol": "task",
+    "date": "2026-09-29",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Routines cannot be started from iMessage, but the weekday briefing ran as set once it was created from the desktop app."
   }
 ]

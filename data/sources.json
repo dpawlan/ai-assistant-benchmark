@@ -3411,6 +3411,123 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-28 from a request-form submission (issue #415). Domain/handle queries only."
+    },
+    "row-bot": {
+      "name": "Row-Bot",
+      "handles": [
+        "sydsachar"
+      ],
+      "domain": "row-bot.ai",
+      "x_queries": [
+        "\"row-bot.ai\"",
+        "@sydsachar"
+      ],
+      "reddit_queries": [
+        "\"row-bot.ai\""
+      ],
+      "hn_queries": [
+        "\"row-bot.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "row-bot.ai",
+        "@sydsachar"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-29 from a request-form submission (issue #422). Domain/handle queries only."
+    },
+    "duckbill": {
+      "name": "Duckbill",
+      "handles": [
+        "getduckbill"
+      ],
+      "domain": "getduckbill.com",
+      "x_queries": [
+        "\"getduckbill.com\"",
+        "@getduckbill"
+      ],
+      "reddit_queries": [
+        "\"getduckbill.com\""
+      ],
+      "hn_queries": [
+        "\"getduckbill.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "getduckbill.com",
+        "@getduckbill"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-29 from a request-form submission (issue #423). Domain/handle queries only."
+    },
+    "orion-workers": {
+      "name": "Orion Workers",
+      "handles": [],
+      "domain": "orionworkers.com",
+      "x_queries": [
+        "\"orionworkers.com\""
+      ],
+      "reddit_queries": [
+        "\"orionworkers.com\""
+      ],
+      "hn_queries": [
+        "\"orionworkers.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "orionworkers.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-29 from a request-form submission (issue #432). Domain/handle queries only."
+    },
+    "athletedata": {
+      "name": "athletedata",
+      "handles": [],
+      "domain": "athletedata.health",
+      "x_queries": [
+        "\"athletedata.health\""
+      ],
+      "reddit_queries": [
+        "\"athletedata.health\""
+      ],
+      "hn_queries": [
+        "\"athletedata.health\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "athletedata.health"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-29 from a request-form submission (issue #435). Domain/handle queries only."
+    },
+    "norton-family-assistant": {
+      "name": "Norton Family Assistant",
+      "handles": [
+        "NortonOnline"
+      ],
+      "domain": "us.norton.com",
+      "x_queries": [
+        "\"us.norton.com\"",
+        "@NortonOnline"
+      ],
+      "reddit_queries": [
+        "\"us.norton.com\""
+      ],
+      "hn_queries": [
+        "\"us.norton.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "us.norton.com",
+        "@NortonOnline"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-29 from a request-form submission (issue #436). Domain/handle queries only."
     }
   },
   "_redact_terms": [

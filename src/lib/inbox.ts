@@ -39,10 +39,10 @@ export function makeRateLimiter(max: number, windowMs: number): (ip: string) => 
   };
 }
 
-export async function createIssue(input: { title: string; body: string; labels: string[] }): Promise<string | null> {
-  const token = process.env.GITHUB_TOKEN;
+export async function createIssue(input: { title: string; body: string; labels: string[]; repo?: string; token?: string }): Promise<string | null> {
+  const token = input.token ?? process.env.GITHUB_TOKEN;
   if (!token) return null;
-  const res = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues`, {
+  const res = await fetch(`https://api.github.com/repos/${input.repo ?? GITHUB_REPO}/issues`, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`,
@@ -50,7 +50,7 @@ export async function createIssue(input: { title: string; body: string; labels: 
       'Content-Type': 'application/json',
       'User-Agent': 'assistant-benchmark',
     },
-    body: JSON.stringify(input),
+    body: JSON.stringify({ title: input.title, body: input.body, labels: input.labels }),
   });
   if (!res.ok) throw new Error(`GitHub ${res.status}: ${(await res.text()).slice(0, 200)}`);
   const json = (await res.json()) as { html_url?: string };
@@ -75,4 +75,16 @@ export async function sendEmail(input: { subject: string; rows: [string, string]
     }),
   });
   if (!res.ok) throw new Error(`Resend ${res.status}: ${(await res.text()).slice(0, 200)}`);
+}
+
+/** Commit one file into a repo (used for the private contributions inbox). Returns the file's html_url. */
+export async function putRepoFile(input: { repo: string; path: string; content: string; message: string; token: string }): Promise<string | null> {
+  const res = await fetch(`https://api.github.com/repos/${input.repo}/contents/${input.path}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${input.token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json', 'User-Agent': 'assistant-benchmark' },
+    body: JSON.stringify({ message: input.message, content: Buffer.from(input.content, 'utf8').toString('base64') }),
+  });
+  if (!res.ok) throw new Error(`GitHub ${res.status}: ${(await res.text()).slice(0, 200)}`);
+  const json = (await res.json()) as { content?: { html_url?: string } };
+  return json.content?.html_url ?? null;
 }

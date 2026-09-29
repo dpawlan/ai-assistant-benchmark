@@ -714,10 +714,11 @@ async function approve() {
         protocol,
         date: d.date,
         signals: d.signals,
+        ...(d.tester ? { tester: d.tester } : {}),
         ...(publishExcerpts ? { excerpt: d.excerpt, redacted: true } : {}),
         published_at: new Date().toISOString(),
       });
-      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}` });
+      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}`, ...(d.tester ? { tester: d.tester } : {}) });
       total++;
     }
     runs.sort((a, b) => a.date.localeCompare(b.date));

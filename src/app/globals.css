@@ -4172,3 +4172,10 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-soon p.rp-soon-title { color: var(--text); }
 
 .art-body h3 { margin: 26px 0 10px; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }
+
+/* Contribute page */
+.cb-section { max-width: 760px; margin-top: 30px; }
+.cb-p { margin: 8px 0 0; font-size: 15px; line-height: 1.55; }
+.cb-code { margin: 12px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--fill); font-size: 13px; line-height: 1.5; overflow-x: auto; }
+.cb-steps, .cb-list { margin: 10px 0 0; padding-left: 22px; font-size: 15px; line-height: 1.55; }
+.cb-steps li, .cb-list li { margin-bottom: 8px; }

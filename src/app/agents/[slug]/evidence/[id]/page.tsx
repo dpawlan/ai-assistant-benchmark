@@ -61,7 +61,7 @@ export default async function EvidencePage({ params }: Props) {
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
           {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/dimensions/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
-          {ev.tester && <> · Run by <a href={`https://x.com/${ev.tester.replace(/^@/, '')}`} target="_blank" rel="noopener noreferrer">{ev.tester}</a>, reviewed by the benchmark</>}
+          {ev.tester && <> · Run by <a href={`https://${ev.contribution?.contributor.platform === 'github' ? 'github.com' : 'x.com'}/${ev.tester.replace(/^@/, '')}`} target="_blank" rel="noopener noreferrer">{ev.tester}</a>, reviewed by the benchmark</>}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />
@@ -95,6 +95,15 @@ export default async function EvidencePage({ params }: Props) {
         </p>
         )}
       </div>
+
+      {ev.contribution && (
+        <div className="ev-private">
+          <p>Contributed evidence, reviewed by David. Excluded from benchmark rankings and Speed.</p>
+          <p>Disclosure: {ev.contribution.contributor.disclosure} Comped accounts: {ev.contribution.contributor.comped}</p>
+          <p>Source: {ev.contribution.source} · Tier: {ev.contribution.context.tier} · Rubric: {ev.contribution.rubric_version}</p>
+          <p>Review does not independently authenticate the conversation or every reported action.</p>
+        </div>
+      )}
 
       {excerpt ? (
       <div className="chat" role="log" aria-label="Message thread, redacted">
@@ -161,7 +170,7 @@ export default async function EvidencePage({ params }: Props) {
       )}
 
       {excerpt && (
-        <p className="ev-note">The reviewer&apos;s own thread with {agent.name}, trimmed to this test. Personal details are masked. Times are UTC.</p>
+        <p className="ev-note">{ev.tester ? 'The contributor’s' : 'The reviewer’s'} thread with {agent.name}, trimmed to this test. Personal details are masked. Times are UTC.</p>
       )}
     </div>
   );

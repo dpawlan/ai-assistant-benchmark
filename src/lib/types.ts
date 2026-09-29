@@ -61,6 +61,15 @@ export interface TaskSet {
 /** "task": the published prompt was sent verbatim. "observed": a real-life episode scored after the fact. */
 export type RunProtocol = 'task' | 'observed';
 
+export interface ContributionProvenance {
+  receipt: string;
+  contributor: { platform: 'x' | 'github'; handle: string; disclosure: string; comped: string };
+  source: string;
+  context: { tier: string; timezone: string; integrations: string };
+  tool_revision: string;
+  rubric_version: string;
+}
+
 export interface Run {
   id: string;
   category: string;
@@ -72,6 +81,8 @@ export interface Run {
   evidence_url?: string;
   /** Handle of the contributor whose thread this run came from; absent for the benchmark's own runs. */
   tester?: string;
+  contribution?: ContributionProvenance;
+  ranking_eligible?: boolean;
 }
 
 /** data/agents/<slug>/usage.json: derived from the reviewer's own iMessage thread with the assistant. */
@@ -122,6 +133,8 @@ export interface Evidence {
   signals?: EvidenceSignals;
   /** Contributor handle when the run was contributed through the skill. */
   tester?: string;
+  contribution?: ContributionProvenance;
+  ranking_eligible?: boolean;
   /** Where the observation was made when there is no thread behind it. */
   context?: string;
   excerpt?: ExcerptMessage[];

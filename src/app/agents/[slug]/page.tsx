@@ -8,6 +8,7 @@ import {
   formatSeconds,
   getAgentDetail,
   getAllSlugs,
+  getRuns,
   getIndexData,
   getInvestorLinks,
   getCategories,
@@ -161,6 +162,22 @@ export default async function AgentPage({ params }: AgentPageProps) {
           <h2 className="ag-h2">Scores</h2>
           <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
+
+        {getRuns(slug).some(r => r.tester) && (
+          <section className="ag-scores">
+            <h2 className="ag-h2">Reviewed contributions</h2>
+            <p>These contributed results are reviewed by David and do not affect benchmark rankings or Speed.</p>
+            <ul>
+              {getRuns(slug).filter(r => r.tester).map(r => (
+                <li key={r.id}><Link href={r.evidence_url ?? `/agents/${slug}`}>
+                  {r.outcome} · {r.score}/10 · {formatDate(r.date)} · by {r.tester}
+                </Link>{r.notes ? ` — ${r.notes}` : ''}
+                  {r.contribution && <p>Disclosure: {r.contribution.contributor.disclosure} Comped accounts: {r.contribution.contributor.comped}</p>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <section className="ag-quotes">
           <h2 className="ag-h2">What people say</h2>

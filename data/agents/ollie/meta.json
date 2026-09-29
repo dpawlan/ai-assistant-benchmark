@@ -11,13 +11,13 @@
   "icon": "/logos/ollie.png",
   "kind": "general",
   "access": {
-    "pricing": "paid",
-    "price": "From $10/mo ($7/mo annual), 7-day trial",
+    "pricing": "freemium",
+    "price": "Free (50 messages/mo); Everyday $25/mo; Always-On $100/mo",
     "regions": "Not stated",
     "channels": [
       "iMessage",
       "App"
     ],
-    "checked": "2026-09-09"
+    "checked": "2026-09-29"
   }
 }

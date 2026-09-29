@@ -1,0 +1,25 @@
+{
+  "slug": "orion-workers",
+  "name": "Orion Workers",
+  "site": "https://orionworkers.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Orion Workers gives each person on a small team an AI manager on WhatsApp or Telegram that handles their email and calendar, updates projects, follows up with teammates and runs tasks, all on one shared company record (Y Managers) with per-role permissions and every outgoing message held until the user approves. Brazil-first, with English, Portuguese and Spanish. Seven-day free trial, no card. Requested via the form (issue #432).",
+  "public_signal": "low",
+  "tagline": "An AI manager in your WhatsApp for small teams.",
+  "icon": "/logos/orion-workers.png",
+  "kind": "work",
+  "access": {
+    "pricing": "freemium",
+    "price": "Seven-day free trial, then per-worker subscription",
+    "regions": "Brazil-first; EN, PT, ES",
+    "channels": [
+      "WhatsApp",
+      "Telegram",
+      "Web app",
+      "Mobile app"
+    ],
+    "checked": "2026-09-29"
+  }
+}

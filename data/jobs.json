@@ -1,7 +1,7 @@
 {
   "_comment": "One entry per job (a canonical task). A job earns its place only when a real person reported it publicly or submitted it; posts are the evidence, never entries of their own. title/one_liner/prompt/note are ours; quotes stay verbatim in feedback.json. Never edit quotes here. Ranking blends upvotes, hands-on runs, how many assistants people report, and engagement on the posts.",
   "version": 2,
-  "updated": "2026-09-27",
+  "updated": "2026-09-29",
   "groups": [
     {
       "key": "travel",
@@ -1424,6 +1424,29 @@
           "quote": "a960a7ea325f",
           "agent": "aeon",
           "note": "Checked pull requests, issues and releases from the last day, found nothing over the threshold, and stayed silent as asked.",
+          "outcome": "done"
+        }
+      ]
+    },
+    {
+      "key": "project-to-verified-video-script",
+      "title": "Turn my project into a recording-ready video script with every claim verified",
+      "one_liner": "A script you can read on camera, with each number checked against the source and mismatches flagged rather than repeated.",
+      "group": "work",
+      "dimension": "content_creation_games",
+      "prompt": "Turn my project into a recording-ready video script with every claim verified.",
+      "prompt_source": "posted",
+      "added": "2026-09-29",
+      "submitted_by": {
+        "handle": "@Nadai2010",
+        "vendor": true
+      },
+      "runs": [],
+      "evidence": [
+        {
+          "quote": "788c06e42f20",
+          "agent": "aeon",
+          "note": "Wrote a four-minute script, checked each claim against the source, and flagged one stat that did not match rather than repeating it.",
           "outcome": "done"
         }
       ]

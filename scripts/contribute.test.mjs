@@ -14,7 +14,7 @@ const token='a'.repeat(64);
 const env={CONTRIB_INVITES_JSON:JSON.stringify([{hash:digest(token),expires_at:'2026-10-01T00:00:00Z'}])};
 function fixture() { return {
  version:2,id:'12345678-1234-4234-8234-123456789abc',tool_revision:'a'.repeat(40),rubric_version:'0.2',slug:'instinct',
- contributor:{platform:'github',handle:'@tester',disclosure:'I work for a vendor',comped:'One free account'},source:'pasted',context:{tier:'paid',timezone:'UTC',integrations:'none'},
+ contributor:{platform:'github',handle:'@tester',disclosure:'I work for a vendor',comped:'One free account'},source:'pasted',timing:'recorded',context:{tier:'paid',timezone:'UTC',integrations:'none'},
  drafts:[{id:'instinct-example',category:'memory',protocol:'observed',date:'2026-09-28',signals:{turns:2,my_messages:1,agent_messages:1,first_reply_s:2,duration_min:1,agent_said_done:false,agent_said_cant:false,agent_asked_question:false,agent_initiated:false},excerpt:[{from:'me',ts:'2026-09-28T12:00:00Z',text:'Please remember my preference.',attachment:false},{from:'agent',ts:'2026-09-28T12:00:02Z',text:'Saved. '+ 'Context '.repeat(28) + 'LAST VISIBLE WORDS',attachment:false}],truncated:false,proposed_score:7,proposed_outcome:'partial',notes:'Remembered a preference.',public_excerpts:false}]
 }; }
 function request(b=fixture(), invitation=token) { return new Request('https://assistantbenchmark.com/api/contribute',{method:'POST',headers:{Authorization:`Bearer ${invitation}`},body:wire(b)}); }
@@ -111,4 +111,13 @@ test('Messages discovery keeps personal threads out of output and export honors 
   result=cli(cwd,['export','--slug','instinct','--db',file,'--since','2026-09-27','--until','2026-09-27'],'imessage.mjs');assert.equal(result.status,0,result.stderr);
   const transcript=JSON.parse(fs.readFileSync(path.join(cwd,'data/agents/instinct/transcripts/messages.json')));assert.equal(transcript.messages.length,1);assert.equal(transcript.messages[0].ts.slice(0,10),'2026-09-27');assert(!JSON.stringify(transcript).includes('UNRELATED'));
  }finally{fs.rmSync(cwd,{recursive:true,force:true});}
+});
+
+test('unavailable and partially missing times never become measured durations', async()=>{
+ const {parseText}=await import('./imessage.mjs');
+ assert.equal(parseText('Me: remember tea\n09:02 Agent: saved',{agentName:'Agent',date:'2026-09-28'}).timed,false);
+ const b=fixture();b.timing='unavailable';assert.throws(()=>validateBundle(b,options));
+ b.drafts[0].signals.first_reply_s=null;b.drafts[0].signals.duration_min=0;
+ const clean=validateBundle(b,options);assert.equal(stageBundle(clean,'receipt',[],[])[0].contribution.timing,'unavailable');
+ const cwd=temp();try{fs.writeFileSync(path.join(cwd,'bundle.json'),wire(clean));const p=cli(cwd,['preview','--file','bundle.json']);assert.equal(p.status,0,p.stderr);assert(p.stdout.includes('not measured times'));}finally{fs.rmSync(cwd,{recursive:true,force:true});}
 });

@@ -35,7 +35,7 @@ function date(value, now, dayOnly = false) {
   return value;
 }
 export function validateBundle(raw, { slugs, categories, now = Date.now() }) {
-  shape(raw, ['version','id','tool_revision','rubric_version','slug','contributor','source','context','drafts'], 'bundle');
+  shape(raw, ['version','id','tool_revision','rubric_version','slug','contributor','source','timing','context','drafts'], 'bundle');
   check(raw.version === 2, 'Rebuild using the current version of the contribution skill');
   check(typeof raw.id === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(raw.id), 'Invalid submission ID');
   check(slugs.includes(raw.slug), 'Unknown assistant');
@@ -47,6 +47,7 @@ export function validateBundle(raw, { slugs, categories, now = Date.now() }) {
   check(typeof c.handle === 'string' && (c.platform === 'x' ? /^@[A-Za-z0-9_]{1,15}$/ : /^@[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/).test(c.handle), 'Invalid contributor handle');
   const contributor = { platform: c.platform, handle: c.handle, disclosure: str(c.disclosure,500,'disclosure'), comped: str(c.comped,200,'comped disclosure') };
   check(['imessage','whatsapp-export','pasted'].includes(raw.source), 'Unsupported source');
+  check(['recorded','unavailable'].includes(raw.timing), 'Report timing availability');
   shape(raw.context, ['tier','timezone','integrations'], 'context');
   const context = Object.fromEntries(Object.entries(raw.context).map(([k,v]) => [k, str(v,200,k)]));
   check(Array.isArray(raw.drafts) && raw.drafts.length > 0 && raw.drafts.length <= 40, 'Select 1–40 drafts');
@@ -65,6 +66,7 @@ export function validateBundle(raw, { slugs, categories, now = Date.now() }) {
       if (k.startsWith('agent_') && k !== 'agent_messages') { check(typeof d.signals[k] === 'boolean', 'Invalid signal'); signals[k] = d.signals[k]; }
       else signals[k] = number(d.signals[k], k === 'first_reply_s' ? 31536000 : 1000000, k, k === 'first_reply_s');
     }
+    if (raw.timing === 'unavailable') check(signals.first_reply_s === null && signals.duration_min === 0, 'Unavailable timing cannot report measured durations');
     for (const k of ['turns','my_messages','agent_messages']) check(Number.isInteger(signals[k]), 'Message counts must be integers');
     check(signals.turns === signals.my_messages + signals.agent_messages, 'Inconsistent message counts');
     check(typeof d.truncated === 'boolean' && typeof d.public_excerpts === 'boolean', 'Choose excerpt permission and report truncation');
@@ -95,7 +97,7 @@ export function stageBundle(bundle, receipt, drafts, runs) {
     if (have.has(id)) continue;
     have.add(id);
     added.push({ ...d, id, source_id: d.id, score: null, outcome: null, rationale: '', tester: bundle.contributor.handle,
-      contribution: { receipt, contributor: bundle.contributor, source: bundle.source, context: bundle.context, tool_revision: bundle.tool_revision, rubric_version: bundle.rubric_version }, ranking_eligible: false });
+      contribution: { receipt, contributor: bundle.contributor, source: bundle.source, timing: bundle.timing, context: bundle.context, tool_revision: bundle.tool_revision, rubric_version: bundle.rubric_version }, ranking_eligible: false });
   }
   return [...drafts,...added];
 }

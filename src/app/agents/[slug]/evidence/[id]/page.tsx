@@ -83,12 +83,14 @@ export default async function EvidencePage({ params }: Props) {
           <span>
             <b>{s.turns}</b> messages
           </span>
+          {ev.contribution?.timing === 'unavailable' ? <span>Timing unavailable; message order only</span> : <>
           <span>
             first reply <b>{formatSeconds(s.first_reply_s)}</b>
           </span>
           <span>
             over <b>{s.duration_min < 1 ? 'under a minute' : `${s.duration_min} min`}</b>
           </span>
+          </>}
           {s.agent_initiated && <span>started by the assistant</span>}
           {s.agent_asked_question && <span>it asked a question</span>}
           {s.agent_said_cant && run?.outcome !== 'pass' && <span>it said it couldn&apos;t</span>}
@@ -112,7 +114,7 @@ export default async function EvidencePage({ params }: Props) {
           const gap = prev ? Date.parse(m.ts) - Date.parse(prev.ts) : Infinity;
           return (
             <Fragment key={`${m.ts}-${i}`}>
-              {gap > 10 * 60 * 1000 && <div className="msg-ts">{timeLabel(m.ts)}</div>}
+              {ev.contribution?.timing !== 'unavailable' && gap > 10 * 60 * 1000 && <div className="msg-ts">{timeLabel(m.ts)}</div>}
               <div className={`msg ${m.from}`}>
                 {withMarkers(m.text)}
                 {m.attachment && <div className="msg-att">📎 attachment not shown</div>}

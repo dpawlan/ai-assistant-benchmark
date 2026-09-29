@@ -409,7 +409,7 @@ export function parseText(text, { agentName, date }) {
   let cur = null;
   let day = date;
   let seq = 0;
-  let timed = false;
+  let timed = true;
   const agentLc = agentName.toLowerCase();
   for (const raw of text.split(/\r?\n/)) {
     const line = raw.trim();
@@ -427,7 +427,6 @@ export function parseText(text, { agentName, date }) {
     if (m && (isMe || isAgent)) {
       let ts;
       if (m[1]) {
-        timed = true;
         let hour = Number(m[1]);
         if (m[4]) {
           const pm = m[4].toLowerCase() === 'pm';
@@ -436,6 +435,7 @@ export function parseText(text, { agentName, date }) {
         }
         ts = new Date(`${day}T${String(hour).padStart(2, '0')}:${m[2]}:${m[3] ?? '00'}`).toISOString();
       } else {
+        timed = false;
         // Untimed: one minute after the previous message (or 09:00 on that day) so order is preserved.
         const prev = cur ? Date.parse(cur.ts) : Date.parse(`${day}T09:00:00`) - 60000;
         ts = new Date(prev + 60000).toISOString();
@@ -654,7 +654,7 @@ async function analyze() {
       stats.unanswered = 0;
       stats.proactive_messages = 0;
     }
-    writeJson(usageFile(slug), { source: transcript.source ?? 'imessage', exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
+    writeJson(usageFile(slug), { source: transcript.source ?? 'imessage', timed: transcript.timed !== false, exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
 
     const existing = readJson(draftFile(slug), []);
     const byId = new Map(existing.map(d => [d.id, d]));
@@ -689,6 +689,7 @@ async function analyze() {
     writeJson(draftFile(slug), drafts);
     console.log(`${slug}: ${stats.messages} msgs, ${stats.days_active} days, median reply ${stats.median_reply_s ?? '-'}s, ${stats.unanswered} unanswered, ${stats.proactive_messages} proactive · ${episodes.length} episodes, ${added} new drafts (${drafts.length} total) -> ${path.relative(ROOT, draftFile(slug))}`);
   }
+  if (opts.contributor) { console.log('Review and redact the selected drafts, then use contribute.mjs bundle and preview. David handles publication. Existing drafts retain prior edits; new redact_terms do not rewrite them.'); return; }
   console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" and "protocol" (task|observed) if the guesses are wrong, then run: node scripts/imessage.mjs approve');
 }
 

@@ -38,7 +38,7 @@ function bundle() {
   const b=validate({
     version:2,id:crypto.randomUUID(),tool_revision:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),rubric_version:rubric.version,slug:opts.slug,
     contributor:{platform:opts.platform,handle:opts.handle.startsWith('@')?opts.handle:`@${opts.handle}`,disclosure:scrub(opts.disclosure),comped:scrub(opts.comped)},
-    source:usage.source,context:{tier:opts.tier,timezone:opts.timezone,integrations:opts.integrations},
+    source:usage.source,timing:usage.timed === true ? 'recorded' : 'unavailable',context:{tier:opts.tier,timezone:opts.timezone,integrations:opts.integrations},
     drafts:drafts.map(d=>({id:d.id,category:d.category,protocol:d.protocol,date:d.date,
       signals:Object.fromEntries(signalsKeys.map(k=>[k,d.signals[k]])),
       excerpt:d.excerpt.map(m=>({from:m.from,ts:m.ts,text:scrub(m.text),attachment:Boolean(m.attachment)})),
@@ -54,6 +54,7 @@ function preview() {
   const url=new URL(endpoint);
   if (url.protocol !== 'https:' && !['localhost','127.0.0.1'].includes(url.hostname)) fail('HTTPS is required');
   console.log(`Destination: ${endpoint}\nEvery field below will be sent. Excerpts may contain personal details; review them in full.\nPrivate submissions expire after 90 days. Approved public results remain until corrected or withdrawn.\n`);
+  if (b.timing === 'unavailable') console.log('Timing unavailable: excerpt timestamps preserve message order only; they are not measured times.');
   process.stdout.write(body);
   const confirmation=digest(`${endpoint}\n${body}`);
   write(`${opts.file}.preview.json`,{confirmation,endpoint});

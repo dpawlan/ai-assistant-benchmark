@@ -25,16 +25,16 @@ Verify `git rev-parse HEAD` matches the installed revision. For Messages, use on
 ```sh
 node scripts/imessage.mjs discover --assistants-only --since YYYY-MM-DD
 node scripts/imessage.mjs export --slug SLUG --since YYYY-MM-DD --until YYYY-MM-DD
-node scripts/imessage.mjs analyze --slug SLUG
+node scripts/imessage.mjs analyze --slug SLUG --contributor
 ```
 
 Discovery requires permission to inspect Messages metadata. Show only the mapped assistant candidates. If the number is missing, ask the person to identify the assistant and number, check the roster and add a mapping in ignored `data/sources.local.json`; do not enumerate personal conversations or Contacts. Explain that a matching number is not proof of authenticity. If Full Disk Access is needed, tell the person to grant it to the app running the terminal and restart it, or choose an export route. Never copy the Messages database to bypass permission.
 
-For WhatsApp, ask for a chat export **without media**, containing only the assistant conversation they want reviewed. Use `node scripts/imessage.mjs import-whatsapp --slug SLUG --file 'PATH'`, then `analyze --slug SLUG`. Do not subsequently run Messages export. The importer operates locally: never print or read the raw file into agent context.
+For WhatsApp, ask for a chat export **without media**, containing only the assistant conversation they want reviewed. Use `node scripts/imessage.mjs import-whatsapp --slug SLUG --file 'PATH'`, then `analyze --slug SLUG --contributor`. Do not subsequently run Messages export. The importer operates locally: never print or read the raw file into agent context.
 
-For an in-app conversation, ask for dated text in a local file and use `node scripts/imessage.mjs import-text --slug SLUG --file 'PATH' --date YYYY-MM-DD`, then `analyze --slug SLUG`. Tell the person if timing is unavailable. Do not invent timestamps or run Messages export after import. For either imported route, use only the agreed range in candidate drafts; the user can provide an export trimmed locally to that range.
+For an in-app conversation, ask for dated text in a local file and use `node scripts/imessage.mjs import-text --slug SLUG --file 'PATH' --date YYYY-MM-DD`, then `analyze --slug SLUG --contributor`. Tell the person if timing is unavailable. The importer uses ordering placeholders when times are missing; ensure the bundle labels timing unavailable and never describe those timestamps as measured. Do not invent timestamps or run Messages export after import. For either imported route, use only the agreed range in candidate drafts; the user can provide an export trimmed locally to that range.
 
-Read only redacted `runs.draft.json`, never raw exports or `transcripts/messages.json`. Ask the person to inspect names, meeting titles, employers, health details, secrets and other identifying context. Use local `redact_terms` when appropriate; the deterministic redactor is not a complete privacy filter. Do not display files outside the selected assistant.
+Read only redacted `runs.draft.json`, never raw exports or `transcripts/messages.json`. Ask the person to inspect names, meeting titles, employers, health details, secrets and other identifying context. Set local `redact_terms` before the first analyze when appropriate. Existing drafts preserve edits: later changes to redact_terms do not re-redact them. Manually redact existing excerpt text and notes before preview; the deterministic redactor is not a complete privacy filter. Do not display files outside the selected assistant.
 
 For each candidate:
 - Explain the category and compare it to the rubric in `data/tasks.json`. A category match does not establish that the published task was performed. Set `protocol` to `observed` unless its prescribed prompt was used.

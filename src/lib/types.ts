@@ -63,6 +63,7 @@ export type RunProtocol = 'task' | 'observed';
 
 export interface ContributionProvenance {
   receipt: string;
+  timing: 'recorded' | 'unavailable';
   contributor: { platform: 'x' | 'github'; handle: string; disclosure: string; comped: string };
   source: string;
   context: { tier: string; timezone: string; integrations: string };

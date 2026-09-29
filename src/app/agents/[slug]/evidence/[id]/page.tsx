@@ -61,6 +61,7 @@ export default async function EvidencePage({ params }: Props) {
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
           {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/dimensions/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
+          {ev.tester && <> · Run by <a href={`https://x.com/${ev.tester.replace(/^@/, '')}`} target="_blank" rel="noopener noreferrer">{ev.tester}</a>, reviewed by the benchmark</>}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />
@@ -134,7 +135,7 @@ export default async function EvidencePage({ params }: Props) {
           </div>
           <div className="ev-private-row">
             <span className="il">Messages in the exchange</span>
-            <span className="iv">{s.turns} ({s.my_messages} from the reviewer, {s.agent_messages} from {agent.name})</span>
+            <span className="iv">{s.turns} ({s.my_messages} from {ev.tester ? 'the contributor' : 'the reviewer'}, {s.agent_messages} from {agent.name})</span>
           </div>
           <div className="ev-private-row">
             <span className="il">First reply</span>

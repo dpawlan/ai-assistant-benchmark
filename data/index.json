@@ -1,8 +1,8 @@
 {
   "updated": "2026-09-28",
-  "agent_count": 130,
+  "agent_count": 132,
   "feedback_count": 5826,
-  "confirmed": 103,
+  "confirmed": 105,
   "stretch": 27,
   "agents": [
     {
@@ -458,22 +458,21 @@
       "slug": "grok-bot",
       "name": "Grok Bot",
       "status": "confirmed",
-      "site": "https://grok.com/",
+      "site": "https://cursor.com/grok-bot",
       "feedback_count": 1192,
       "public_signal": null,
-      "tagline": "xAI's Grok with real-time answers from the web and X",
+      "tagline": "Cursor's AI teammates sharing one cloud computer per user, on desktop and iOS",
       "icon": "/logos/grok-bot.png",
       "kind": "general",
       "access": {
         "pricing": "paid",
-        "price": "Beta with SuperGrok Heavy ($300/mo)",
+        "price": "Included with paid Cursor plans, or via a SuperGrok account link",
         "regions": "Not stated",
         "channels": [
-          "App",
-          "Web",
-          "X"
+          "Desktop app (macOS, Windows, Linux)",
+          "iOS app"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-09-28"
       }
     },
     {
@@ -1437,7 +1436,7 @@
       "public_signal": null,
       "tagline": "The assistant that learns how you work, then gets to work",
       "icon": "/logos/town.png",
-      "kind": "work",
+      "kind": "general",
       "access": {
         "pricing": "freemium",
         "price": "Free (30 msgs/mo) · $15 · $49 · $99 · $199/mo",
@@ -2881,6 +2880,51 @@
           "Discord"
         ],
         "checked": "2026-09-27"
+      }
+    },
+    {
+      "slug": "airtap",
+      "name": "Airtap",
+      "status": "confirmed",
+      "site": "https://airtap.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Set an Airtap. Get your life back.",
+      "icon": "/logos/airtap.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "SMS",
+          "Telegram",
+          "Web app"
+        ],
+        "checked": "2026-09-28"
+      }
+    },
+    {
+      "slug": "mira",
+      "name": "Mira",
+      "status": "confirmed",
+      "site": "https://calorize.com.ua/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your personal nutritionist inside Calorize.",
+      "icon": "/logos/mira.png",
+      "kind": "health",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free; Pro adds detailed nutrients",
+        "regions": "Ukraine-first; ten interface languages",
+        "channels": [
+          "iOS app",
+          "Android app",
+          "Web app"
+        ],
+        "checked": "2026-09-28"
       }
     }
   ]

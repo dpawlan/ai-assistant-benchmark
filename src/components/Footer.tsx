@@ -14,6 +14,7 @@ export function Footer({ index }: { index: IndexData }) {
         <Link href="/dimensions">The 16 dimensions</Link>
         <Link href="/about">About</Link>
         <Link href="/request">Request a test</Link>
+        <Link href="/contribute">Contribute runs</Link>
       </p>
       <p className="credit">
         Created by David Pawlan,{' '}

@@ -3365,6 +3365,52 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-27 from a request-form submission (issue #405). Domain/handle queries only."
+    },
+    "airtap": {
+      "name": "Airtap",
+      "handles": [
+        "Netizen696"
+      ],
+      "domain": "airtap.ai",
+      "x_queries": [
+        "\"airtap.ai\"",
+        "@Netizen696"
+      ],
+      "reddit_queries": [
+        "\"airtap.ai\""
+      ],
+      "hn_queries": [
+        "\"airtap.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "airtap.ai",
+        "@Netizen696"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-28 from a request-form submission (issue #410). Domain/handle queries only."
+    },
+    "mira": {
+      "name": "Mira",
+      "handles": [],
+      "domain": "calorize.com.ua",
+      "x_queries": [
+        "\"calorize.com.ua\""
+      ],
+      "reddit_queries": [
+        "\"calorize.com.ua\""
+      ],
+      "hn_queries": [
+        "\"calorize.com.ua\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "calorize.com.ua"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-09-28 from a request-form submission (issue #415). Domain/handle queries only."
     }
   },
   "_redact_terms": [

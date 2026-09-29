@@ -34,6 +34,23 @@ def tile(slug, size):
     canvas.alpha_composite(shadow); canvas.alpha_composite(face, (pad, pad))
     return canvas
 
+def lock_tile(size):
+    """A blue tile with a white padlock, the mark for a privacy piece; same shadow as a logo tile."""
+    face = Image.new('RGBA', (size, size), (10, 132, 255, 255))
+    d = ImageDraw.Draw(face); u = size / 24
+    d.rounded_rectangle((4.5 * u, 10.5 * u, 19.5 * u, 20.5 * u), radius=2.5 * u, fill=(255, 255, 255, 255))
+    w = int(1.7 * u)
+    d.arc((8 * u, 3.5 * u, 16 * u, 11.5 * u), start=180, end=360, fill=(255, 255, 255, 255), width=w)
+    d.rectangle((8 * u, 7.5 * u, 8 * u + w, 10.5 * u), fill=(255, 255, 255, 255)); d.rectangle((16 * u - w, 7.5 * u, 16 * u, 10.5 * u), fill=(255, 255, 255, 255))
+    mask = Image.new('L', (size, size), 0); ImageDraw.Draw(mask).rounded_rectangle((0, 0, size - 1, size - 1), radius=int(size * 0.24), fill=255)
+    face.putalpha(mask)
+    pad = int(size * 0.35); canvas = Image.new('RGBA', (size + pad * 2, size + pad * 2), (0, 0, 0, 0))
+    shadow = Image.new('RGBA', canvas.size, (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rounded_rectangle((pad, pad + int(size * 0.12), pad + size, pad + size + int(size * 0.12)), radius=int(size * 0.24), fill=(10, 132, 255, 90))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(int(size * 0.14)))
+    canvas.alpha_composite(shadow); canvas.alpha_composite(face, (pad, pad))
+    return canvas
+
 def cover_fit(img):
     r = max(W / img.width, H / img.height); img = img.resize((int(img.width * r), int(img.height * r)), Image.LANCZOS)
     x, y = (img.width - W) // 2, (img.height - H) // 2
@@ -58,12 +75,13 @@ def render(md_path):
         rd.ellipse((cx - rw, cy - rw, cx + rw, cy + rw), outline=(0, 0, 0, alpha), width=2)
     im.alpha_composite(rings)
     agents = [a.strip() for a in meta.get('agents', '').split(',') if a.strip()]
+    mark = meta.get('hero_mark', '')
     if agents:
         lead, small = 230, 180; gap = 44
-        sizes = [lead] + [small] * (len(agents) - 1)
-        total = sum(sizes) + gap * (len(agents) - 1); x = cx - total // 2
-        for s, size in zip(agents, sizes):
-            t = tile(s, size); pad = (t.width - size) // 2
+        items = ([('__lock__', lead)] if mark == 'lock' else []) + [(s, small if mark else (lead if i == 0 else small)) for i, s in enumerate(agents)]
+        total = sum(sz for _, sz in items) + gap * (len(items) - 1); x = cx - total // 2
+        for s, size in items:
+            t = lock_tile(size) if s == '__lock__' else tile(s, size); pad = (t.width - size) // 2
             im.alpha_composite(t, (x - pad, cy - size // 2 - pad)); x += size + gap
     im.convert('RGB').save(out, optimize=True); print(out)
 

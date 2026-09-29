@@ -1,25 +1,24 @@
 {
   "slug": "grok-bot",
   "name": "Grok Bot",
-  "site": "https://grok.com/",
+  "site": "https://cursor.com/grok-bot",
   "handles": [
     "bot",
     "Grok Bot"
   ],
   "status": "confirmed",
-  "notes": "",
-  "tagline": "xAI's Grok with real-time answers from the web and X",
+  "notes": "Cursor (Anysphere) product, not the Grok chatbot at grok.com; governed by the Cursor privacy policy and Grok Bot Terms. Site and tagline corrected 2026-09-28.",
+  "tagline": "Cursor's AI teammates sharing one cloud computer per user, on desktop and iOS",
   "icon": "/logos/grok-bot.png",
   "kind": "general",
   "access": {
     "pricing": "paid",
-    "price": "Beta with SuperGrok Heavy ($300/mo)",
+    "price": "Included with paid Cursor plans, or via a SuperGrok account link",
     "regions": "Not stated",
     "channels": [
-      "App",
-      "Web",
-      "X"
+      "Desktop app (macOS, Windows, Linux)",
+      "iOS app"
     ],
-    "checked": "2026-09-09"
+    "checked": "2026-09-28"
   }
 }

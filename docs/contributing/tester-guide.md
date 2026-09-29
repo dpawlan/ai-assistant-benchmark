@@ -8,6 +8,8 @@ This guide is for a Mac with Codex running locally or Claude Code. You need Git,
 
 The pilot supports Messages on your Mac, WhatsApp text exports without media, and dated text copied from an assistant app into a local file. Telegram is not supported yet. Start with one assistant and a short date range. You do not need to run new purchases, send messages to others, or generate new tests.
 
+Installing the skill does not include an invitation. Before accessing any conversation, the agent should check your invitation file locally or let you choose a preview-only rehearsal. Preview-only ends with a local preview and cannot submit. A valid file alone does not confirm that the live intake is ready.
+
 ## Install the tested version
 
 Open Terminal. Check the prerequisites with `git --version` and `node --version`. If either is missing or Node is older than 22.13, ask your agent to help you install it before continuing. No npm packages are required for the contribution tools.
@@ -17,7 +19,7 @@ Run these commands one line at a time. If a command fails, stop and ask for help
 ```sh
 git clone --no-checkout --depth 1 https://github.com/dpawlan/ai-assistant-benchmark.git assistant-benchmark-pilot
 cd assistant-benchmark-pilot
-git fetch --depth 1 origin c870bb3b7b1346cb7fa3cc8ec8bcc20e6414e7fd
+git fetch --depth 1 origin 68519a875fc4a12adba6ed4076296b666330e4cc
 git checkout --detach FETCH_HEAD
 ```
 
@@ -43,7 +45,7 @@ Look for “Installed contribute-runs” and the tool revision. Open a new local
 
 Paste this into your agent:
 
-> Use contribute-runs to help me contribute an existing assistant conversation. Ask which assistant and date range, help me review personal details, and show the complete submission before asking permission to send it. I have David's private invitation file.
+> Use contribute-runs to help me contribute an existing assistant conversation. First check whether I have a valid invitation file or want a preview-only rehearsal. Then ask which assistant and date range, help me review personal details, and show the complete submission before asking permission to send it.
 
 The agent will ask which assistant conversation to use and where you saved the invitation file. Give the file path rather than pasting its contents into the chat.
 

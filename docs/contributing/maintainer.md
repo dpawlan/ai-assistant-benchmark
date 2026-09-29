@@ -2,13 +2,13 @@
 
 The contributor prepares evidence. The benchmark reviewer independently scores it. David confirms or changes that score and explicitly approves the public content. A score field alone cannot publish a contribution. Pilot contributions never affect headline rankings or Speed.
 
-## Before inviting anyone
+## Before asking testers to submit
 
-1. Merge and deploy the reviewed PR. Configure a dedicated private Upstash database with `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. Confirm persistence is enabled and no public access or externally retained backups undermine the advertised 90-day intake expiry. The route fails closed without storage and invitations. Existing app features also use these variable names; check their data needs before changing the configured database.
+1. Merge and deploy the reviewed PR. Configure a private Upstash database with `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN`. Confirm persistence is enabled and no public access or externally retained backups undermine the advertised 90-day intake expiry. The route fails closed without storage and CONTRIB_ENABLED=true. Existing app features also use these variable names; check their data needs before changing the configured database.
 2. Configure notification email if desired. Email contains only the receipt, assistant slug and draft count. Intake success depends on durable storage, not email. Run `pull` to find received submissions even if notifications fail.
-3. Keep maintainer credentials only in deployment configuration and an ignored local `.env.local`. Generate a unique 14-day invitation using `node scripts/contribute.mjs invite --out contrib/tester-invitation.json`. Add the printed hash and expiration entry to the JSON array `CONTRIB_INVITES_JSON` in deployment configuration. Preserve other testers' entries. Send the private file only to its intended tester; revoke by removing its hash. The rate limit is six new submissions per invitation per hourly bucket; an identical retry returns the original receipt.
+3. Keep maintainer credentials only in deployment configuration and an ignored local environment file. Set `CONTRIB_ENABLED=true` after storage checks. No contributor credential is needed. The intake allows six new submissions per keyed network-address hash per hour and 100 new submissions globally per UTC day; duplicate retries return their original receipt even across networks. Raw network addresses are not stored in payloads. Rate keys expire, and hashes rotate daily. Vercel's overwritten forwarding header is trusted only on Vercel; another host needs a trusted proxy implementation. Disable intake with `CONTRIB_ENABLED=false` and redeploy if abuse requires it.
 4. Run the complete dry run with synthetic data against the deployed endpoint, including a duplicate retry. Read the private intake record and verify no scores/Speed changed. Purge it afterward. Do not email the tester guide until this works. The automated suite verifies isolated behavior; it cannot establish deployment credentials or a tester's Messages permissions.
-5. Attach the Word guide and private invitation file to the prepared email. The guide is pinned to the tested code revision. Send to the first tester, supervise that run, then expand to the remaining initial testers.
+5. Attach the Word guide to the prepared email. The guide is pinned to the tested code revision. Send to the first tester, supervise that run, then expand to the remaining initial testers.
 
 ## Review and approve
 
@@ -34,11 +34,11 @@ node scripts/imessage.mjs approve --slug SLUG --ids RUN_ID
 
 If publishing excerpts, add `--publish-excerpts` to **review, confirm-review and approve**. Any changed draft requires a fresh card and David's approval. Bulk approval without explicit IDs refuses contributed runs. `approve` generates public files; review their diff and rendered evidence page before merging/deploying. Publication must retain affiliation/comped disclosures and the correct X/GitHub attribution. The site labels these as reviewed contributions excluded from rankings.
 
-The command records the explicit approval; it does not authenticate David's identity. Keep write access to the publishing repository restricted to trusted maintainers. Contributors have only the intake credential.
+The command records the explicit approval; it does not authenticate David's identity. Keep write access to the publishing repository restricted to trusted maintainers. The public endpoint permits submission only; it exposes no payload-reading or publishing operation. Attribution is self-reported.
 
 ## Retention and withdrawal
 
-Intake payloads expire 90 days after first receipt; retries do not extend expiry. The index holds only receipt IDs and `pull` removes stale entries. For an earlier withdrawal, validate the request through the original invitation channel, then:
+Intake payloads expire 90 days after first receipt; retries do not extend expiry. The index holds only receipt IDs and `pull` removes stale entries. For an earlier withdrawal, verify the requester through the claimed attribution account or another established channel; receipt possession alone is not proof of identity. Then:
 
 ```sh
 node --env-file=.env.local scripts/contribute.mjs purge --receipt RECEIPT --confirm RECEIPT

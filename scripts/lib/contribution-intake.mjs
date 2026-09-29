@@ -1,4 +1,4 @@
-import { timingSafeEqual } from 'node:crypto';
+import { createHmac } from 'node:crypto';
 import { MAX_BYTES, digest, validateBundle } from './contribution.mjs';
 import { persist, redisClient } from './contribution-store.mjs';
 const reply = (body, status = 200) => Response.json(body, { status, headers: { 'Cache-Control': 'no-store' } });
@@ -19,22 +19,21 @@ export async function readBounded(request) {
 }
 export function createIntake({ slugs, categories, env = process.env, redis = undefined, notify = async (_receipt) => {}, now = () => Date.now() }) {
   return async request => {
-    let invitations;
-    try { invitations = JSON.parse(env.CONTRIB_INVITES_JSON ?? '[]'); if (!Array.isArray(invitations) || !invitations.length) throw new Error(); }
-    catch { return reply({ error: 'Contribution pilot is not accepting submissions yet' }, 503); }
-    const secret = request.headers.get('authorization')?.replace(/^Bearer /, '') ?? '';
-    if (secret.length < 32 || secret.length > 200) return reply({ error: 'A valid pilot invitation is required' }, 401);
-    const inviteHash = digest(secret);
-    const invited = invitations.some(i => /^[a-f0-9]{64}$/.test(i.hash) && Date.parse(i.expires_at) > now() && timingSafeEqual(Buffer.from(i.hash), Buffer.from(inviteHash)));
-    if (!invited) return reply({ error: 'Invitation is invalid or expired; contact David' }, 401);
+    if (env.CONTRIB_ENABLED !== 'true') return reply({ error: 'Contribution intake is not accepting submissions yet' }, 503);
+    // Vercel overwrites this header. Other hosting must supply a trusted proxy equivalent.
+    const ip = env.VERCEL === '1' ? request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() : 'local';
+    if (!ip) return reply({ error: 'Cannot determine submission rate limit' }, 503);
+    const salt = env.UPSTASH_REDIS_REST_TOKEN;
+    if (!salt) return reply({ error: 'Private contribution storage is not configured' }, 503);
+    const clientHash = createHmac('sha256', salt).update(`${Math.floor(now()/86400000)}:${ip}`).digest('hex');
     let body, bundle;
     try { body = await readBounded(request); bundle = validateBundle(JSON.parse(body), { slugs, categories, now: now() }); }
     catch (e) { return reply({ error: e.message }, e.message === 'Bundle too large' ? 413 : 400); }
     let result;
-    try { result = await persist(bundle, digest(body), inviteHash, redis ?? redisClient(env), now()); }
+    try { result = await persist(bundle, digest(body), clientHash, redis ?? redisClient(env), now()); }
     catch { return reply({ error: 'Not confirmed as received. Keep this bundle and retry the same submission.' }, 503); }
     if (result.status === 'conflict') return reply({ error: 'This submission ID was already used with different content. Rebuild and preview a new bundle.' }, 409);
-    if (result.status === 'limited') return reply({ error: 'Invitation submission limit reached. Retry in an hour.' }, 429);
+    if (result.status === 'limited') return reply({ error: 'Submission limit reached. Try again later; keep this same bundle.' }, 429);
     if (!['stored','duplicate'].includes(result.status)) return reply({ error: 'Storage did not confirm receipt' }, 503);
     let notification = 'not_requested';
     if (result.status === 'stored') {
@@ -42,5 +41,16 @@ export function createIntake({ slugs, categories, env = process.env, redis = und
       catch { notification = 'failed'; }
     }
     return reply({ success: true, id: result.id, duplicate: result.status === 'duplicate', notification }, result.status === 'stored' ? 201 : 200);
+  };
+}
+
+export function createReadiness({ env = process.env, redis = undefined } = {}) {
+  return async () => {
+    if (env.CONTRIB_ENABLED !== 'true') return reply({ accepting: false }, 503);
+    try {
+      const ok = await (redis ?? redisClient(env))(['PING']);
+      if (ok !== 'PONG') throw new Error();
+      return reply({ accepting: true, invitation_required: false, review_required: true });
+    } catch { return reply({ accepting: false }, 503); }
   };
 }

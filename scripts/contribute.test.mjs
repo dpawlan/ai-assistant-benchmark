@@ -5,19 +5,18 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync, spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { createIntake, readBounded } from './lib/contribution-intake.mjs';
+import { createIntake, createReadiness, readBounded } from './lib/contribution-intake.mjs';
 import { validateBundle, digest, wire, stageBundle, reviewDigest, checkApproval, isRankingEligible, MAX_BYTES, scrub } from './lib/contribution.mjs';
 const ROOT=path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const now=Date.parse('2026-09-29T12:00:00Z');
 const options={slugs:['instinct'],categories:['memory'],now};
-const token='a'.repeat(64);
-const env={CONTRIB_INVITES_JSON:JSON.stringify([{hash:digest(token),expires_at:'2026-10-01T00:00:00Z'}])};
+const env={CONTRIB_ENABLED:'true',UPSTASH_REDIS_REST_TOKEN:'test-salt',VERCEL:'1'};
 function fixture() { return {
  version:2,id:'12345678-1234-4234-8234-123456789abc',tool_revision:'a'.repeat(40),rubric_version:'0.2',slug:'instinct',
  contributor:{platform:'github',handle:'@tester',disclosure:'I work for a vendor',comped:'One free account'},source:'pasted',timing:'recorded',context:{tier:'paid',timezone:'UTC',integrations:'none'},
  drafts:[{id:'instinct-example',category:'memory',protocol:'observed',date:'2026-09-28',signals:{turns:2,my_messages:1,agent_messages:1,first_reply_s:2,duration_min:1,agent_said_done:false,agent_said_cant:false,agent_asked_question:false,agent_initiated:false},excerpt:[{from:'me',ts:'2026-09-28T12:00:00Z',text:'Please remember my preference.',attachment:false},{from:'agent',ts:'2026-09-28T12:00:02Z',text:'Saved. '+ 'Context '.repeat(28) + 'LAST VISIBLE WORDS',attachment:false}],truncated:false,proposed_score:7,proposed_outcome:'partial',notes:'Remembered a preference.',public_excerpts:false}]
 }; }
-function request(b=fixture(), invitation=token) { return new Request('https://assistantbenchmark.com/api/contribute',{method:'POST',headers:{Authorization:`Bearer ${invitation}`},body:wire(b)}); }
+function request(b=fixture(), ip='192.0.2.1') { return new Request('https://assistantbenchmark.com/api/contribute',{method:'POST',headers:{'x-forwarded-for':ip},body:wire(b)}); }
 function temp() { const p=fs.mkdtempSync(path.join(os.tmpdir(),'contrib-test-'));fs.mkdirSync(path.join(p,'data/agents/instinct'),{recursive:true});fs.writeFileSync(path.join(p,'data/index.json'),JSON.stringify({agents:[{slug:'instinct'}]}));fs.writeFileSync(path.join(p,'data/tasks.json'),JSON.stringify({version:'0.2',tasks:[{key:'memory'}]}));fs.writeFileSync(path.join(p,'data/sources.json'),JSON.stringify({agents:{instinct:{}}}));return p; }
 function cli(cwd,args,script='contribute.mjs') { return spawnSync(process.execPath,[path.join(ROOT,'scripts',script),...args],{cwd,encoding:'utf8'}); }
 
@@ -37,15 +36,15 @@ test('body cap applies without Content-Length',async()=>{
  const req=new Request('https://example.com',{method:'POST',body:'x'.repeat(MAX_BYTES+1)});
  await assert.rejects(readBounded(req),/too large/);
 });
-test('intake rejects unauthorized users and fails closed on missing config or storage',async()=>{
+test('public intake fails closed on disabled configuration or missing storage',async()=>{
  assert.equal((await createIntake({...options,env:{},now:()=>now})(request())).status,503);
  const down=createIntake({...options,env,now:()=>now,redis:async()=>{throw Error('offline');}});
- assert.equal((await down(request(fixture(),'wrong'))).status,401);
+ assert.equal((await createIntake({...options,env:{CONTRIB_ENABLED:'true'},now:()=>now})(request())).status,503);
  assert.equal((await down(request())).status,503);
 });
 test('durable success survives notification failure; retry/conflict/rate statuses are explicit',async()=>{
  let count=0;let payload;
- const redis=async command=>{assert.equal(command[0],'EVAL');assert.equal(command[2],'3');payload=JSON.parse(command[7]);count++;return count===1?'stored':'duplicate';};
+ const redis=async command=>{assert.equal(command[0],'EVAL');assert.equal(command[2],'4');payload=JSON.parse(command[8]);count++;return count===1?'stored':'duplicate';};
  const route=createIntake({...options,env,redis,now:()=>now,notify:async()=>{throw Error('email down');}});
  const first=await route(request());assert.equal(first.status,201);const receipt=await first.json();assert.equal(receipt.notification,'failed');assert.equal(payload.bundle.contributor.platform,'github');
  const second=await route(request());assert.equal(second.status,200);assert.equal((await second.json()).id,receipt.id);
@@ -120,4 +119,31 @@ test('unavailable and partially missing times never become measured durations', 
  b.drafts[0].signals.first_reply_s=null;b.drafts[0].signals.duration_min=0;
  const clean=validateBundle(b,options);assert.equal(stageBundle(clean,'receipt',[],[])[0].contribution.timing,'unavailable');
  const cwd=temp();try{fs.writeFileSync(path.join(cwd,'bundle.json'),wire(clean));const p=cli(cwd,['preview','--file','bundle.json']);assert.equal(p.status,0,p.stderr);assert(p.stdout.includes('not measured times'));}finally{fs.rmSync(cwd,{recursive:true,force:true});}
+});
+
+test('readiness only reports accepting with enabled healthy storage',async()=>{
+ assert.equal((await createReadiness({env:{}})()).status,503);
+ assert.equal((await createReadiness({env,redis:async()=>{throw Error();}})()).status,503);
+ const r=await createReadiness({env,redis:async()=> 'PONG'})();assert.equal(r.status,200);assert.equal((await r.json()).invitation_required,false);
+});
+
+test('real Redis atomic receipt, retry, conflict, TTL and both rate limits', {skip:process.env.CONTRIB_REDIS_TEST!=='true'}, async()=>{
+ const {redisClient,persist,payloadKey}=await import('./lib/contribution-store.mjs');
+ const redis=redisClient();const prefix=`contributions:smoke:${crypto.randomUUID()}:`;const keys=new Set();
+ const isolated=async command=>{
+  const copy=[...command];for(let i=3;i<7;i++){copy[i]=copy[i].replace('contributions:v2:',prefix);keys.add(copy[i]);}
+  return redis(copy);
+ };
+ const b=fixture();const at=Date.now();const hash=digest(wire(b));
+ try {
+  const results=await Promise.all([persist(b,hash,'network-a',isolated,at),persist(b,hash,'network-a',isolated,at)]);
+  assert.deepEqual(results.map(r=>r.status).sort(),['duplicate','stored']);
+  assert.equal((await persist(b,hash,'network-b',isolated,at)).status,'duplicate');
+  assert.equal((await persist(b,'changed','network-a',isolated,at)).status,'conflict');
+  const ttl=await redis(['TTL',payloadKey(results[0].id).replace('contributions:v2:',prefix)]);assert(ttl>7775900 && ttl<=7776000);
+  for(let i=0;i<5;i++)assert.equal((await persist({...b,id:crypto.randomUUID()},hash,'network-a',isolated,at)).status,'stored');
+  assert.equal((await persist({...b,id:crypto.randomUUID()},hash,'network-a',isolated,at)).status,'limited');
+  const daily=`${prefix}daily:${Math.floor(at/86400000)}`;await redis(['SET',daily,'100','EX','60']);
+  assert.equal((await persist({...b,id:crypto.randomUUID()},hash,'network-c',isolated,at)).status,'limited');
+ } finally { if(keys.size)await redis(['DEL',...keys]); }
 });

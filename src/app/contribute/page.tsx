@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,9 +12,9 @@ export default function ContributePage() {
         <p className="page-sub">Help us test assistants with evidence from your own experience. You choose what to share; David reviews the evidence and confirms any public score.</p>
       </div>
       <section className="cb-section">
-        <h2 className="ag-h2">Start with an invitation</h2>
-        <p className="cb-p">We are running a small, supervised pilot. Invited testers receive an installation guide for Codex or Claude Code and a private invitation file. Use the version in that guide.</p>
-        <p className="cb-p">Interested? <Link href="/request">Request an invitation</Link>.</p>
+        <h2 className="ag-h2">Install the contribution skill</h2>
+        <p className="cb-p">Install the contribution skill for Codex or Claude Code using the tested version in the guide. No invitation or account is required; every submission is reviewed before publication.</p>
+        <p className="cb-p">Interested? <a href="https://github.com/dpawlan/ai-assistant-benchmark/blob/codex/contribution-pilot/docs/contributing/tester-guide.md">Read the installation guide</a>.</p>
       </section>
       <section className="cb-section">
         <h2 className="ag-h2">How it works</h2>
@@ -30,8 +29,8 @@ export default function ContributePage() {
       <section className="cb-section">
         <h2 className="ag-h2">What is shared</h2>
         <p className="cb-p">The workflow processes your selected conversation on your device. Your agent provider may process the redacted excerpts you ask the agent to review. With permission, the exact previewed excerpts, timing signals, notes, attribution, context and disclosures go to our private intake.</p>
-        <p className="cb-p">Private submissions expire from intake after 90 days. Only results approved by David are published, and public excerpts additionally require your permission. Approved public results remain until corrected or withdrawn; copies may persist elsewhere.</p>
-        <p className="cb-p">For a correction or withdrawal, reply to your invitation with the receipt ID. Do not email raw conversations. Full Disk Access is needed only for the Mac Messages route. Telegram is not supported yet.</p>
+        <p className="cb-p">Attribution is self-reported. To limit spam, we temporarily store a keyed hash of your network address, with hourly and daily submission limits. Private submissions expire from intake after 90 days. Only results approved by David are published, and public excerpts additionally require your permission. Approved public results remain until corrected or withdrawn; copies may persist elsewhere.</p>
+        <p className="cb-p">For a correction or withdrawal, email davidmpawlan@gmail.com with the receipt ID. Do not email raw conversations. Full Disk Access is needed only for the Mac Messages route. Telegram is not supported yet.</p>
       </section>
     </div>
   );

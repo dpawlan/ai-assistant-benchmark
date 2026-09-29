@@ -4,11 +4,11 @@ Use your own agent to contribute evidence from an existing assistant conversatio
 
 ## Before you start
 
-This guide is for a Mac with Codex running locally or Claude Code. You need Git, Node 22.13 or newer, and the private invitation JSON file David sent you. Your agent provider's normal usage charges and data settings apply. Keep the invitation file private; it expires after 14 days.
+This guide is for a Mac with Codex running locally or Claude Code. You need Git and Node 22.13 or newer. No invitation file, submission token or account is required. Your agent provider's normal usage charges and data settings apply.
 
-The pilot supports Messages on your Mac, WhatsApp text exports without media, and dated text copied from an assistant app into a local file. Telegram is not supported yet. Start with one assistant and a short date range. You do not need to run new purchases, send messages to others, or generate new tests.
+The pilot supports Messages on your Mac, WhatsApp text exports without media, and dated text copied from an assistant app into a local file. Telegram is not supported yet. Start with one assistant and a short date range. You do not need to make purchases or run new tests.
 
-Installing the skill does not include an invitation. Before accessing any conversation, the agent should check your invitation file locally or let you choose a preview-only rehearsal. Preview-only ends with a local preview and cannot submit. A valid file alone does not confirm that the live intake is ready.
+Before accessing a conversation, the agent checks that the live intake is accepting submissions. If unavailable, you may choose a preview-only rehearsal; it ends with a local preview and does not submit.
 
 ## Install the tested version
 
@@ -45,9 +45,9 @@ Look for “Installed contribute-runs” and the tool revision. Open a new local
 
 Paste this into your agent:
 
-> Use contribute-runs to help me contribute an existing assistant conversation. First check whether I have a valid invitation file or want a preview-only rehearsal. Then ask which assistant and date range, help me review personal details, and show the complete submission before asking permission to send it.
+> Use contribute-runs to help me contribute an existing assistant conversation. First check whether the intake is accepting submissions. Then ask which assistant and date range, help me review personal details, and show the complete submission before asking permission to send it.
 
-The agent will ask which assistant conversation to use and where you saved the invitation file. Give the file path rather than pasting its contents into the chat.
+The agent will check intake readiness, then ask which assistant conversation and date range to use. No private invitation is needed.
 
 For Messages, the app running the terminal may need Full Disk Access under System Settings, Privacy & Security. Grant it only if you choose that route, then restart that app. WhatsApp and dated text imports do not require this permission. Do not upload your Messages database or paste a complete raw export into the agent conversation.
 
@@ -62,7 +62,7 @@ The submission preview contains all information sent to Assistant Benchmark:
 - Your affiliations, any free or discounted accounts, account tier and relevant integrations, plus your timezone.
 - The tool and rubric versions, submission ID and permission for public excerpts.
 
-Unknown context can be marked unknown. Disclose vendor ties honestly; they may be published with an approved result. A proposed score is a suggestion, not your final benchmark score.
+Attribution is self-reported. The intake uses a temporary keyed network-address hash to limit spam (six new submissions per hour per network, up to 100 per day across the pilot). Unknown context can be marked unknown. Disclose vendor ties honestly; they may be published with an approved result. A proposed score is a suggestion, not your final benchmark score.
 
 David must be able to read the submitted excerpts privately to review them. You separately choose whether redacted excerpts may be public. The default is no public excerpts. Even with excerpts private, approved scores, notes, attribution, context and disclosures may appear publicly.
 
@@ -88,16 +88,16 @@ Check Full Disk Access for the app actually running the command and restart it. 
 
 Confirm the assistant and dates. If its number is not mapped, identify it for the agent; do not give access to unrelated personal conversations. If no evidence matches a test, stop without submitting. Missing or truncated outcomes should not be invented.
 
-**The invitation has expired or submission fails**
+**Submission is unavailable or fails**
 
-Reply to David's invitation. If delivery is uncertain, keep the original bundle and ask the agent to retry the same submission once. Do not create a fresh bundle just to retry. Do not assume delivery succeeded until you have a receipt. Send David the error or receipt, never raw conversations or the private invitation token.
+Contact David at davidmpawlan@gmail.com. If delivery is uncertain, keep the original bundle and ask the agent to retry the same submission once. Do not create a fresh bundle just to retry. Do not assume delivery succeeded until you have a receipt. Send David the error or receipt, never raw conversations .
 
 ## Corrections and cleanup
 
-For a correction or withdrawal, reply to David's invitation with your receipt ID. If a result has already been published, David will review what needs to change; removing it cannot erase every external cache or copy.
+For a correction or withdrawal, email David at davidmpawlan@gmail.com with your receipt ID. If a result has already been published, David will review what needs to change; removing it cannot erase every external cache or copy.
 
 After successful submission, you can ask the agent to remove generated raw exports and drafts while keeping the receipt and your original chat history. Your agent provider may retain its session history separately. To uninstall the skill, remove only its contribute-runs folder from the skill location above. You can remove the downloaded tool folder after saving any receipt you want to keep.
 
 ## What happens next
 
-David reviews the evidence against the published rubric and decides the final score and public wording. If published, your contribution is credited and affiliations are disclosed. Reviewed pilot contributions are shown separately from results used for headline rankings. For the first contribution, David will help with any friction; reply to the invitation whenever you are unsure.
+David reviews the evidence against the published rubric and decides the final score and public wording. If published, your contribution is credited and affiliations are disclosed. Reviewed pilot contributions are shown separately from results used for headline rankings. For the first contribution, David will help with any friction; email David whenever you are unsure.

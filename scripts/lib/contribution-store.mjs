@@ -23,17 +23,20 @@ end
 local count = redis.call('INCR', KEYS[2])
 if count == 1 then redis.call('EXPIRE', KEYS[2], 3600) end
 if count > 6 then return 'limited' end
+local daily = redis.call('INCR', KEYS[4])
+if daily == 1 then redis.call('EXPIRE', KEYS[4], 86400) end
+if daily > 100 then return 'limited' end
 redis.call('SET', KEYS[1], ARGV[2], 'EX', ARGV[3])
 redis.call('SADD', KEYS[3], ARGV[4])
 return 'stored'
 `;
 export const INDEX = 'contributions:v2:index';
 export const payloadKey = id => `contributions:v2:payload:${id}`;
-export async function persist(bundle, requestDigest, inviteHash, redis, now = Date.now()) {
-  const id = digest(`${inviteHash}:${bundle.id}`);
+export async function persist(bundle, requestDigest, clientHash, redis, now = Date.now()) {
+  const id = digest(`public:${bundle.id}`);
   const received_at = new Date(now).toISOString();
   const expires_at = new Date(now + RETENTION_SECONDS * 1000).toISOString();
   const record = { id, received_at, expires_at, request_digest: requestDigest, bundle };
-  const status = await redis(['EVAL', STORE_LUA, '3', payloadKey(id), `contributions:v2:rate:${inviteHash}:${Math.floor(now / 3600000)}`, INDEX, requestDigest, JSON.stringify(record), String(RETENTION_SECONDS), id]);
+  const status = await redis(['EVAL', STORE_LUA, '4', payloadKey(id), `contributions:v2:rate:${clientHash}:${Math.floor(now / 3600000)}`, INDEX, `contributions:v2:daily:${Math.floor(now / 86400000)}`, requestDigest, JSON.stringify(record), String(RETENTION_SECONDS), id]);
   return { id, status };
 }

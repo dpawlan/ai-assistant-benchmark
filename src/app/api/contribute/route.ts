@@ -1,9 +1,10 @@
 import { getAllSlugs } from '@/lib/data';
 import { sendEmail } from '@/lib/inbox';
 import tasks from '../../../../data/tasks.json';
-import { createIntake } from '../../../../scripts/lib/contribution-intake.mjs';
+import { createIntake, createReadiness } from '../../../../scripts/lib/contribution-intake.mjs';
 
 export const runtime = 'nodejs';
+export const GET = createReadiness();
 
 // No raw payloads in email, logs or Git history. Missing configuration fails closed.
 export const POST = createIntake({

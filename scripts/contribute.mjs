@@ -9,7 +9,7 @@ import { validateBundle, scrub, digest, wire, stageBundle, reviewDigest } from '
 import { redisClient, INDEX, payloadKey } from './lib/contribution-store.mjs';
 
 const { values: opts, positionals } = parseArgs({ allowPositionals: true, options: Object.fromEntries([
-  'slug','handle','platform','disclosure','comped','tier','timezone','integrations','out','file','endpoint','invite-file','confirm','ids','receipt',
+  'slug','handle','platform','disclosure','comped','tier','timezone','integrations','out','file','endpoint','confirm','ids','receipt',
 ].map(k => [k,{type:'string'}]).concat(['publish-excerpts','show-proposal'].map(k => [k,{type:'boolean'}]))) });
 const ROOT = process.cwd();
 const DATA = path.join(ROOT,'data');
@@ -60,15 +60,23 @@ function preview() {
   write(`${opts.file}.preview.json`,{confirmation,endpoint});
   console.log(`\nConfirmation digest: ${confirmation}\nAsk the contributor for an explicit yes before using submit --confirm with this digest.`);
 }
+async function status() {
+  const url=new URL(endpoint);
+  if (url.protocol !== 'https:' && !['localhost','127.0.0.1'].includes(url.hostname)) fail('HTTPS is required');
+  try {
+    const res=await fetch(endpoint,{redirect:'error',signal:AbortSignal.timeout(15000)});
+    const result=await res.json();
+    if (!res.ok || result.accepting !== true || result.invitation_required !== false) fail('Not ready');
+    console.log('Intake is accepting submissions without an invitation. Explicit preview consent and David review are still required.');
+  } catch { fail('Live intake is not confirmed ready. You may choose a local preview-only rehearsal; nothing has been sent.'); }
+}
 async function submit() {
   const b=validate(read(required('file'))), body=wire(b);
   const preview=read(`${opts.file}.preview.json`);
   const confirmation=digest(`${endpoint}\n${body}`);
   if (preview.confirmation!==confirmation || required('confirm')!==confirmation || preview.endpoint!==endpoint) fail('Content or destination changed. Preview again and get new consent.');
-  const invitation=read(required('invite-file'));
-  if (Date.parse(invitation.expires_at)<=Date.now() || typeof invitation.token!=='string') fail('Invitation expired or invalid');
   let res;
-  try { res=await fetch(endpoint,{method:'POST',redirect:'error',headers:{'Content-Type':'application/json',Authorization:`Bearer ${invitation.token}`},body,signal:AbortSignal.timeout(30000)}); }
+  try { res=await fetch(endpoint,{method:'POST',redirect:'error',headers:{'Content-Type':'application/json'},body,signal:AbortSignal.timeout(30000)}); }
   catch { fail('Receipt unknown. Keep the bundle and retry this exact command; do not rebuild it.'); }
   const result=await res.json();
   if (!res.ok || !result.success || !/^[a-f0-9]{64}$/.test(result.id)) fail(`Not confirmed received: ${result.error??res.status}. Keep the bundle.`);
@@ -129,11 +137,6 @@ function confirmReview() {
   write(path.join(dir(),'runs.draft.json'),all);
   console.log(`Approved ${drafts.length} selected drafts. Publish with imessage.mjs approve --slug ${opts.slug} --ids ${opts.ids}${publicExcerpts?' --publish-excerpts':''}, then review the generated site diff before deploying.`);
 }
-function invite() {
-  const token=crypto.randomBytes(32).toString('hex'), expires_at=new Date(Date.now()+14*86400000).toISOString();
-  const file=required('out'); write(file,{token,expires_at});
-  console.log(`Private invitation file created: ${file}\nSend it only to the intended tester. Do not commit it.\nAdd this public hash entry to CONTRIB_INVITES_JSON on the server:\n${JSON.stringify({hash:digest(token),expires_at})}`);
-}
 async function purge() {
   const id=required('receipt'); if (!/^[a-f0-9]{64}$/.test(id)) fail('Invalid receipt');
   if (required('confirm')!==id) fail('Confirm the receipt to purge the private payload');
@@ -145,8 +148,8 @@ async function purge() {
   }
   console.log('Private payload and staged drafts removed. Review any published evidence separately; public copies may still exist.');
 }
-const commands={bundle,preview,submit,pull,review,'confirm-review':confirmReview,invite,purge};
+const commands={bundle,preview,submit,pull,review,'confirm-review':confirmReview,status,purge};
 try {
-  if (!commands[positionals[0]]) console.log('Commands: bundle, preview, submit, pull, review, confirm-review, invite, purge. See docs/contributing/maintainer.md and skills/contribute-runs/SKILL.md.');
+  if (!commands[positionals[0]]) console.log('Commands: bundle, preview, submit, pull, review, confirm-review, status, purge. See docs/contributing/maintainer.md and skills/contribute-runs/SKILL.md.');
   else await commands[positionals[0]]();
 } catch(e) { console.error(`error: ${e.message}`); process.exitCode=1; }

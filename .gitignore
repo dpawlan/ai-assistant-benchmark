@@ -45,3 +45,7 @@ data/agents/*/transcripts/
 data/agents/*/runs.draft.json
 !.env.example
 data/sources.local.json
+# Contributed bundles pulled from the private inbox, and bundles built locally
+data/agents/*/contrib/
+data/contrib-pulled.json
+contrib/

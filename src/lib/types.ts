@@ -70,6 +70,8 @@ export interface Run {
   outcome: RunOutcome;
   notes?: string;
   evidence_url?: string;
+  /** Handle of the contributor whose thread this run came from; absent for the benchmark's own runs. */
+  tester?: string;
 }
 
 /** data/agents/<slug>/usage.json: derived from the reviewer's own iMessage thread with the assistant. */
@@ -118,6 +120,8 @@ export interface Evidence {
   date: string;
   /** Timing signals from the message thread. Absent when the observation was made outside the thread (e.g. app setup). */
   signals?: EvidenceSignals;
+  /** Contributor handle when the run was contributed through the skill. */
+  tester?: string;
   /** Where the observation was made when there is no thread behind it. */
   context?: string;
   excerpt?: ExcerptMessage[];

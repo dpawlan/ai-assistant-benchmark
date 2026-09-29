@@ -82,3 +82,7 @@ For the **Amy Zinger** first-run identity (channels, Town Wave 1 status, what’
 ## Reports and articles
 
 Editorial content (reports, updates, articles, authors) is markdown under `data/`; the format is in `docs/WRITING.md`. Work on the `reports-preview` branch until the first real report and article are written; do not merge it to main before then.
+
+## Contributed runs
+
+People contribute their own threads through `skills/contribute-runs/SKILL.md` (their agent runs export, analyze, bundle and submit locally; only redacted excerpts and stats are sent). Bundles land in the private repo `dpawlan/assistant-benchmark-contrib` under `inbox/` with an issue each. To review: `node scripts/contribute.mjs pull`, score the drafts in `runs.draft.json` (they carry `tester` and `proposed_score`), then `node scripts/imessage.mjs approve --slug <slug>`. Runs keep the `tester` handle and the evidence page says "Run by @handle".

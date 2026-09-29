@@ -1,4 +1,5 @@
 import fs from 'fs';
+import { isRankingEligible } from '../../scripts/lib/contribution.mjs';
 import path from 'path';
 export { scoreBucket, opinionRank, isThin, THIN_SAMPLE } from './score';
 import { opinionRank } from './score';
@@ -262,7 +263,7 @@ function mean(values: number[]): number | null {
  */
 function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Category[]) {
   const base = readJson<AgentScores>(path.join(agentDir(entry.slug), 'scores.json')) ?? {};
-  const runs = getRuns(entry.slug);
+  const runs = getRuns(entry.slug).filter(isRankingEligible);
   const latestRuns: Record<string, Run> = {};
   for (const run of runs) latestRuns[run.category] = run; // sorted ascending, so the last one wins
 
@@ -500,7 +501,7 @@ export function getLatestFeed(limit = 10, perAgent = 2, maxRuns = 4): FeedItem[]
   const runs: FeedItem[] = [];
   for (const entry of getRoster()) {
     const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
-    for (const run of getRuns(entry.slug)) runs.push({ kind: 'run', date: run.date, agent, run });
+    for (const run of getRuns(entry.slug).filter(isRankingEligible)) runs.push({ kind: 'run', date: run.date, agent, run });
   }
   runs.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
   const items: FeedItem[] = runs.slice(0, maxRuns);
@@ -616,7 +617,7 @@ function runIndex() {
     const agent: AgentRef = { slug: entry.slug, name: entry.name, icon: entry.icon ?? null };
     agents.set(entry.slug, agent);
     const perCat = new Map<string, Run>();
-    for (const run of getRuns(entry.slug)) {
+    for (const run of getRuns(entry.slug).filter(isRankingEligible)) {
       byId.set(run.id, { agent, run });
       perCat.set(run.category, run);
     }

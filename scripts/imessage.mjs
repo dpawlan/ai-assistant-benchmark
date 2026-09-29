@@ -36,6 +36,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 import { lintNote } from './lint-notes.mjs';
+import { checkApproval } from './lib/contribution.mjs';
 
 const ROOT = process.cwd();
 const DATA = path.join(ROOT, 'data');
@@ -105,8 +106,8 @@ function readJson(file, fallback) {
 }
 
 function writeJson(file, value) {
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n');
+  fs.mkdirSync(path.dirname(file), { recursive: true, mode: 0o700 });
+  fs.writeFileSync(file, JSON.stringify(value, null, 2) + '\n', { mode: 0o600 });
 }
 
 /**
@@ -190,6 +191,8 @@ async function openDb(file) {
 async function exportChats() {
   const dbPath = String(opts.db ?? path.join(os.homedir(), 'Library', 'Messages', 'chat.db'));
   const sinceMs = new Date(opts.since ?? '2020-01-01').getTime();
+  const untilMs = opts.until ? Date.parse(`${opts.until}T23:59:59.999Z`) : Infinity;
+  if (!Number.isFinite(sinceMs) || Number.isNaN(untilMs) || untilMs < sinceMs) fail('Invalid date range');
   const db = await openDb(dbPath);
 
   const byHandle = new Map();
@@ -240,7 +243,7 @@ async function exportChats() {
         if (Number(m.item_type) !== 0) continue; // group events, etc.
         if (Number(m.assoc) >= 2000 && Number(m.assoc) < 4000) continue; // tapbacks / reactions
         const ms = appleDateToMs(m.date);
-        if (ms < sinceMs) continue;
+        if (ms < sinceMs || ms > untilMs) continue;
         const text = (m.text && String(m.text).trim()) || decodeAttributedBody(m.body);
         if (!text && !m.att) continue;
         messages.push({ id: mid, ts: new Date(ms).toISOString(), from: Number(m.is_from_me) ? 'me' : 'agent', text: text ?? '', attachment: Boolean(Number(m.att)), service: c.service_name });
@@ -303,8 +306,7 @@ async function discover() {
   const stmt = db
     .prepare(
       `SELECT h.id AS handle, c.service_name AS service, COUNT(m.ROWID) AS n, MAX(m.date) AS last,
-              (SELECT m2.text FROM message m2 JOIN chat_message_join j2 ON j2.message_id = m2.ROWID
-                WHERE j2.chat_id = c.ROWID AND m2.is_from_me = 0 AND m2.text IS NOT NULL ORDER BY m2.date LIMIT 1) AS first_in
+              ${opts['assistants-only'] ? "NULL" : "(SELECT m2.text FROM message m2 JOIN chat_message_join j2 ON j2.message_id = m2.ROWID WHERE j2.chat_id = c.ROWID AND m2.is_from_me = 0 AND m2.text IS NOT NULL ORDER BY m2.date LIMIT 1)"} AS first_in
        FROM chat c
        JOIN chat_handle_join chj ON chj.chat_id = c.ROWID
        JOIN handle h ON h.ROWID = chj.handle_id
@@ -315,15 +317,16 @@ async function discover() {
     );
   stmt.setReadBigInts(true);
   const rows = stmt.all().filter(r => appleDateToMs(r.last) >= sinceMs);
-  const contacts = await loadContacts();
+  const contacts = opts['assistants-only'] ? new Map() : await loadContacts();
   console.log('handle                    contact               service   msgs  last        mapped      first incoming message');
   for (const r of rows) {
     const key = normalizeHandle(r.handle);
     const slug = known.get(key) ?? '';
+    if (opts['assistants-only'] && !slug) continue;
     const name = contacts.get(key) ?? '';
     console.log(`${String(r.handle).padEnd(25)} ${name.slice(0, 20).padEnd(21)} ${String(r.service).padEnd(9)} ${String(r.n).padStart(5)}  ${new Date(appleDateToMs(r.last)).toISOString().slice(0, 10)}  ${slug.padEnd(11)} ${String(r.first_in ?? '').replace(/\s+/g, ' ').slice(0, 60)}`);
   }
-  console.log('\nAdd assistant numbers to imessage_handles in data/sources.json. Threads with people are listed too; nothing is exported until a number is mapped.');
+  console.log(opts['assistants-only'] ? '\nOnly mapped assistants shown. No message previews or Contacts records were read.' : '\nUnknown assistant mappings belong in data/sources.local.json.');
   db.close();
 }
 
@@ -406,7 +409,7 @@ export function parseText(text, { agentName, date }) {
   let cur = null;
   let day = date;
   let seq = 0;
-  let timed = false;
+  let timed = true;
   const agentLc = agentName.toLowerCase();
   for (const raw of text.split(/\r?\n/)) {
     const line = raw.trim();
@@ -424,7 +427,6 @@ export function parseText(text, { agentName, date }) {
     if (m && (isMe || isAgent)) {
       let ts;
       if (m[1]) {
-        timed = true;
         let hour = Number(m[1]);
         if (m[4]) {
           const pm = m[4].toLowerCase() === 'pm';
@@ -433,6 +435,7 @@ export function parseText(text, { agentName, date }) {
         }
         ts = new Date(`${day}T${String(hour).padStart(2, '0')}:${m[2]}:${m[3] ?? '00'}`).toISOString();
       } else {
+        timed = false;
         // Untimed: one minute after the previous message (or 09:00 on that day) so order is preserved.
         const prev = cur ? Date.parse(cur.ts) : Date.parse(`${day}T09:00:00`) - 60000;
         ts = new Date(prev + 60000).toISOString();
@@ -651,7 +654,7 @@ async function analyze() {
       stats.unanswered = 0;
       stats.proactive_messages = 0;
     }
-    writeJson(usageFile(slug), { source: transcript.source ?? 'imessage', exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
+    writeJson(usageFile(slug), { source: transcript.source ?? 'imessage', timed: transcript.timed !== false, exported_at: transcript.exported_at, analyzed_at: new Date().toISOString(), ...stats });
 
     const existing = readJson(draftFile(slug), []);
     const byId = new Map(existing.map(d => [d.id, d]));
@@ -674,6 +677,7 @@ async function analyze() {
         protocol: guessProtocol(firstMine, tasks.find(t => t.key === cat.category)),
         date: ep.start.slice(0, 10),
         signals: transcript.timed === false ? { ...signalsFor(ep), first_reply_s: null, duration_min: 0 } : signalsFor(ep),
+        truncated: ep.messages.length > 40 || ep.messages.some(m => redact(m.text, terms).length > 600),
         excerpt: ep.messages.slice(0, 40).map(m => ({ from: m.from, ts: m.ts, text: redact(m.text, terms).slice(0, 600), ...(m.attachment ? { attachment: true } : {}) })),
         score: null,
         outcome: null,
@@ -685,6 +689,7 @@ async function analyze() {
     writeJson(draftFile(slug), drafts);
     console.log(`${slug}: ${stats.messages} msgs, ${stats.days_active} days, median reply ${stats.median_reply_s ?? '-'}s, ${stats.unanswered} unanswered, ${stats.proactive_messages} proactive · ${episodes.length} episodes, ${added} new drafts (${drafts.length} total) -> ${path.relative(ROOT, draftFile(slug))}`);
   }
+  if (opts.contributor) { console.log('Review and redact the selected drafts, then use contribute.mjs bundle and preview. David handles publication. Existing drafts retain prior edits; new redact_terms do not rewrite them.'); return; }
   console.log('\nOpen each runs.draft.json, set "score" (1-10) and "outcome" (pass|partial|fail) on the ones that were real tests, fix "category" and "protocol" (task|observed) if the guesses are wrong, then run: node scripts/imessage.mjs approve');
 }
 
@@ -695,7 +700,16 @@ async function approve() {
   let total = 0;
   for (const slug of slugs) {
     const drafts = readJson(draftFile(slug), []);
-    const ready = drafts.filter(d => typeof d.score === 'number' && d.outcome && d.category);
+    const ids = opts.ids ? new Set(String(opts.ids).split(',')) : null;
+    if (ids && [...ids].some(id => !drafts.some(d => d.id === id))) fail('Selected draft not found');
+    const ready = drafts.filter(d => (!ids || ids.has(d.id)) && typeof d.score === 'number' && d.outcome && d.category);
+    if (ids && ready.length !== ids.size) fail('Every selected draft needs a score, outcome and category');
+    for (const d of ready) {
+      if (d.tester || d.contribution) {
+        if (!ids) fail('Contributions require explicit --ids and David approval');
+        try { checkApproval(d, publishExcerpts); } catch (e) { fail(e.message); }
+      }
+    }
     for (const d of ready) {
       const { errors, warnings } = lintNote(d.notes);
       for (const w of warnings) console.warn(`warn  ${d.id}: ${w}`);
@@ -714,11 +728,11 @@ async function approve() {
         protocol,
         date: d.date,
         signals: d.signals,
-        ...(d.tester ? { tester: d.tester } : {}),
+        ...(d.tester ? { tester: d.tester, contribution: d.contribution, ranking_eligible: false, review: { reviewer: d.approval.reviewer, at: d.approval.at, rationale: d.rationale } } : {}),
         ...(publishExcerpts ? { excerpt: d.excerpt, redacted: true } : {}),
         published_at: new Date().toISOString(),
       });
-      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}`, ...(d.tester ? { tester: d.tester } : {}) });
+      runs.push({ id: d.id, category: d.category, protocol, date: d.date, score: d.score, outcome: d.outcome, notes: d.notes ?? '', evidence_url: `/agents/${slug}/evidence/${d.id}`, ...(d.tester ? { tester: d.tester, contribution: d.contribution, ranking_eligible: false } : {}) });
       total++;
     }
     runs.sort((a, b) => a.date.localeCompare(b.date));

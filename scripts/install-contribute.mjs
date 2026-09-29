@@ -18,5 +18,5 @@ try {
   if (fs.existsSync(destination)) throw new Error(`Already installed at ${destination}. Review/remove that skill folder before replacing it.`);
   fs.mkdirSync(destination,{recursive:true});
   fs.writeFileSync(path.join(destination,'SKILL.md'),source.replace('TOOL_CHECKOUT_PATH',root).replace('TOOL_CHECKOUT_REVISION',revision));
-  console.log(`Installed contribute-runs for ${values.agent} at ${destination}\nTool checkout: ${root}\nRevision: ${revision}\nOpen a new agent session in this checkout. Ask: Use contribute-runs to help me submit a contribution.\nNo conversations read or sent.`);
+  console.log(`Installed contribute-runs for ${values.agent} at ${destination}\nTool checkout: ${root}\nRevision: ${revision}\nOpen a new agent session in this checkout. Ask: Use contribute-runs and first check whether I have an invitation or want a preview-only rehearsal.\nInstallation does not include an invitation. Submission requires a private invitation JSON from David and a configured live intake. Without it, choose preview-only.\nNo conversations read or sent.`);
 } catch(e) { console.error(`error: ${e.message}`); process.exitCode=1; }

@@ -1,0 +1,24 @@
+{
+  "slug": "row-bot",
+  "name": "Row-Bot",
+  "site": "https://row-bot.ai/",
+  "handles": [
+    "sydsachar"
+  ],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Row-Bot is a local-first, open-source desktop AI workspace with no account: research with a local model and visible sources, creation with an explicit handoff to a frontier model, repeatable local automations with every run kept for inspection, and approval-gated actions that cross into the real world. Requested via the form (issue #422).",
+  "public_signal": "low",
+  "tagline": "Your AI. Your machine. Your rules.",
+  "icon": "/logos/row-bot.png",
+  "kind": "work",
+  "access": {
+    "pricing": "open-source",
+    "price": "Free, open source; hosted models at your own cost",
+    "regions": "Not stated",
+    "channels": [
+      "Desktop app"
+    ],
+    "checked": "2026-09-29"
+  }
+}

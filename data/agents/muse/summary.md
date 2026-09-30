@@ -145,5 +145,20 @@ _Updated 2026-09-29 weekday vault scan (+3 rows)._
 - (2026-09-28) Clauday Super User Daily: @fujibee — Muse offered to write its own agmsg skill; unprompted transport gap analysis.
 - (2026-09-28) Clauday Super User Daily: @Zacitus — Muse as coordinator over Claude Code, Codex, SuperGrok, Gemini.
 
-**Feedback rows:** 194 (as of 2026-09-29)
+_Updated 2026-09-30 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-09-27) Katie Notopoulos (BI staffers): Form-fill + signature from photo + email to school.
+- (2026-09-27) Katie Notopoulos (BI staffers): Proactive RSVP no with awkward Meta-flattering wording.
+- (2026-09-27) Pranav Dixit (BI staffers): Libby + Kindle + library hold automation; "godlike" delegation.
+- (2026-09-27) Pranav Dixit (BI staffers): Amazon block extends to Goodreads; platform veto limits.
+- (2026-09-27) Jamie Heller (BI EIC): Muse identified mystery credit card charge; ChatGPT failed.
+- (2026-09-23) Jay Eskenazi (BI): Muse maps integration; one-click to Google Maps.
+- (2026-09-23) Jay Eskenazi (BI): Muse proactive ticket tracking from email context.
+- (2026-09-23) Jay Eskenazi (BI): Muse is OpenClaw for normies — easier, faster, responsive.
+- (2026-09-23) Jay Eskenazi (BI): Muse like a seasoned travel agent from 30 years ago.
+- (2026-09-29) wxw (HN): Muse better consumer play; Meta ad subsidy + distribution.
+- (2026-09-29) CTC: Muse on Ray-Ban glasses + Shopify visual search checkout.
+
+**Feedback rows:** 205 (as of 2026-09-30)
 **Kinds:** other=72, use-case=36, praise=15, complaint=28, comparison=12, bug=16, news=1

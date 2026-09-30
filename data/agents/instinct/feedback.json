@@ -5563,5 +5563,254 @@
     "source": "web",
     "collected_at": "2026-09-29T14:00:00Z",
     "notes": "TechCrunch: Instinct partnership with Shopify announced Sep 28."
+  },
+  {
+    "id": "f30bistaff01",
+    "agent": "instinct",
+    "quote": "I asked my Instinct agent to pay the city's congestion charge after I drove in. Instinct obliged, cross-checking my car's model against the different emissions tiers for the charging zone, and sending me a confirmation that it had paid for two days at £4 per day. … it turned out Instinct got it wrong — it had paid a similar but separate charge for a smaller area of the city. The charge was nonrefundable, so I was forced to swallow both my own pride and an £8 tax for trusting the robots.",
+    "author": "Will Martin",
+    "author_name": "Will Martin (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#oxford",
+    "kind": "bug",
+    "tags": [
+      "payments",
+      "travel",
+      "oxford",
+      "error",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: paid wrong Oxford Zero Emissions Zone instead of Congestion Charge."
+  },
+  {
+    "id": "f30bistaff02",
+    "agent": "instinct",
+    "quote": "After a simple prompt, Instinct came back with four options: a cheap one, a mid-priced option, and two higher-end versions — all with links and a pro/con list. … Instinct has created an itinerary for a weekend trip I'm taking next year, booked tickets for my daily commute into London, and secured me a refund on an $80 subscription I forgot to cancel after the free trial.",
+    "author": "Will Martin",
+    "author_name": "Will Martin (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#wrench",
+    "kind": "praise",
+    "tags": [
+      "shopping",
+      "commute",
+      "refunds",
+      "use-case",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: shopping research with pro/con list, commute booking, subscription refund."
+  },
+  {
+    "id": "f30bistaff03",
+    "agent": "instinct",
+    "quote": "I was less impressed during my first 24 hours of using Instinct, when I added it to my Notion dashboard and asked it to do an overhaul. It ended up clearing out my goals calendar and schedule, and replacing it with a new — but blank — template.",
+    "author": "Cheryl Teh",
+    "author_name": "Cheryl Teh (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#notion",
+    "kind": "bug",
+    "tags": [
+      "notion",
+      "destructive",
+      "bug",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: Notion overhaul cleared goals calendar, replaced with blank template."
+  },
+  {
+    "id": "f30bistaff04",
+    "agent": "instinct",
+    "quote": "I asked Instinct to create a \"buy plan\" to maximize my fan experience. It took three minutes to surface a link to exclusive signed copies available for early orders on the band's US website. The agent also gave me a road map for purchase quantities and the optimal time to make those orders. Instinct saved me two hours with one prompt.",
+    "author": "Cheryl Teh",
+    "author_name": "Cheryl Teh (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#kpop",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "kpop",
+      "planning",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: K-pop buy plan saved 2 hours; signed copies + purchase roadmap."
+  },
+  {
+    "id": "f30bistaff05",
+    "agent": "instinct",
+    "quote": "It suggested a 6:50 \"Spider-Man\" at another theater, but said tickets \"were glitching,\" and gave me the theater's number. … The theater's site showed no \"Spider-Man\" that night. I told Instinct, and 16 minutes later, it said the movie \"likely got pulled back.\"",
+    "author": "Tim Paradis",
+    "author_name": "Tim Paradis (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#movie",
+    "kind": "bug",
+    "tags": [
+      "tickets",
+      "hallucination",
+      "latency",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: hallucinated movie showtime + 16 min latency to backtrack."
+  },
+  {
+    "id": "f30bisyme01",
+    "agent": "instinct",
+    "quote": "It suggested I fly from London to New York with Delta Air Lines, but return with British Airways to avoid a red-eye. It's impossible to book these two airlines on the same ticket — the sort of thing that's obvious when you're researching flights yourself.",
+    "author": "Pete Syme",
+    "author_name": "Pete Syme (Business Insider)",
+    "date": "2026-09-28",
+    "url": "https://www.businessinsider.com/instinct-ai-agent-plan-travel-dull-mistake-vacation-work-trip-2026-9#flights",
+    "kind": "bug",
+    "tags": [
+      "travel",
+      "flights",
+      "error",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Syme: suggested unbookable multi-airline ticket."
+  },
+  {
+    "id": "f30bisyme02",
+    "agent": "instinct",
+    "quote": "When I prompted Instinct, it ended up taking a lot longer than I expected. My enthusiasm waned. … What is the point of handing this over to an AI agent if it flattens my excitement to travel? Instinct replied after half an hour with a list of five cities and approximate budgets. It suggested I narrow its list down to two cities, then took another 23 minutes to come up with specific dates, hotels, and transport options.",
+    "author": "Pete Syme",
+    "author_name": "Pete Syme (Business Insider)",
+    "date": "2026-09-28",
+    "url": "https://www.businessinsider.com/instinct-ai-agent-plan-travel-dull-mistake-vacation-work-trip-2026-9#vacation",
+    "kind": "complaint",
+    "tags": [
+      "travel",
+      "latency",
+      "inspiration",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Syme: 30 min + 23 min latency flattened travel excitement."
+  },
+  {
+    "id": "f30bisyme03",
+    "agent": "instinct",
+    "quote": "Chatting to the agent via WhatsApp also felt a bit uncanny, as if it was trying to resemble a real conversation without the humanity. … I was a bit irritated when my phone pinged four times, including the agent changing its emoji reaction to a checkbox after completing the task.",
+    "author": "Pete Syme",
+    "author_name": "Pete Syme (Business Insider)",
+    "date": "2026-09-28",
+    "url": "https://www.businessinsider.com/instinct-ai-agent-plan-travel-dull-mistake-vacation-work-trip-2026-9#whatsapp",
+    "kind": "complaint",
+    "tags": [
+      "whatsapp",
+      "ux",
+      "notifications",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Syme: uncanny WhatsApp UX; irritating multi-ping + emoji reactions."
+  },
+  {
+    "id": "f30bisyme04",
+    "agent": "instinct",
+    "quote": "Ultimately, I think it's pretty nifty for planning travel that you're not too bothered about, like a business trip that requires precise costs and a corporate budget. There's still the caveat that, as with all AI tools, double-checking is imperative. If you're looking for travel inspiration, though, chatbots are likely more useful.",
+    "author": "Pete Syme",
+    "author_name": "Pete Syme (Business Insider)",
+    "date": "2026-09-28",
+    "url": "https://www.businessinsider.com/instinct-ai-agent-plan-travel-dull-mistake-vacation-work-trip-2026-9#business-trip",
+    "kind": "comparison",
+    "tags": [
+      "travel",
+      "business",
+      "vs-chatbot",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Syme: nifty for business trips; chatbots better for travel inspiration."
+  },
+  {
+    "id": "f30biesk05",
+    "agent": "instinct",
+    "quote": "I also just got access to Instinct yesterday, because I was on the waitlist. I'm very curious, but you can't see exactly what it's doing. It had good ideas and gave me an itinerary, but it had to put them in a Google Doc. I was also confused because I don't remember what I told it, and it made personalized recommendations. I was like: \"Wait, how did it know this?\"",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#instinct",
+    "kind": "complaint",
+    "tags": [
+      "opacity",
+      "google-docs",
+      "memory",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: can't see what Instinct is doing; opaque memory."
+  },
+  {
+    "id": "f30hnjdl01",
+    "agent": "instinct",
+    "quote": "The \"personal AI agent\" is what everyone's fighting over now. You have Grok Bots, Facebook's Muse, and Instinct doing this exact same thing already. Personally, I think Instinct is the best of the 3 right now. … But the landscape changes so often who knows what will happen. I think Instinct will get eaten up by one of the larger firms.",
+    "author": "jdlyga",
+    "author_name": "jdlyga (HN)",
+    "date": "2026-09-29",
+    "url": "https://news.ycombinator.com/item?id=49896604#jdlyga",
+    "kind": "comparison",
+    "tags": [
+      "hn",
+      "vs-muse",
+      "vs-grok-bot",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "HN Dots thread: Instinct best of 3; likely acquisition target."
+  },
+  {
+    "id": "f30ctc01",
+    "agent": "instinct",
+    "quote": "Instinct: The personal AI agent from Instinct now supports full product discovery, checkout, and order updates in a single conversation. Users search across Shopify's merchant network with live price, size, and availability data, then complete checkout with Shop Pay using saved credentials.",
+    "author": "Common Thread Collective",
+    "author_name": "Common Thread Collective",
+    "date": "2026-09-29",
+    "url": "https://commonthreadco.com/blogs/coachs-corner/shopify-now-lets-ai-agents-check-out-on-your-store-what-every-ecommerce-brand-must-do-before-q4#instinct",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "checkout",
+      "agentic-commerce",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "CTC Sep 29: Instinct live Shopify checkout with Shop Pay."
+  },
+  {
+    "id": "f30l3l01",
+    "agent": "instinct",
+    "quote": "Users reported an Instinct outage on September 22 and 23, 2026, according to TheStreet via Yahoo Finance. Jason Sobin, James Gui, Riya Agarwal, and John Harper observed that Instinct stopped replying and scheduled actions stalled without error notices, and Instinct posted no status page, so keep time-sensitive errands off Instinct until it publishes one.",
+    "author": "Jonathan West",
+    "author_name": "Jonathan West (Layer3Labs)",
+    "date": "2026-09-25",
+    "url": "https://www.layer3labs.io/comparisons/instinct-ai-vs-poke#outage",
+    "kind": "bug",
+    "tags": [
+      "outage",
+      "reliability",
+      "status-page",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "Layer3Labs: Sep 22-23 outage with named user reports; no status page."
   }
 ]

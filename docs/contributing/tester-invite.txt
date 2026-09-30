@@ -1,0 +1,18 @@
+Subject: Help me test Assistant Benchmark
+
+Hi!
+
+I'd love your help testing a way to contribute using conversations you've already had with an AI assistant. You'll need a Mac with Codex or Claude Code. No GitHub account, invitation code or email attachment is needed.
+
+Paste this into your local agent:
+
+"Read https://assistantbenchmark.com/downloads/contributor-install.txt and follow the installation instructions. Download and extract the tools locally; do not ask me to upload a ZIP or clone GitHub. Then help me contribute one existing assistant conversation. Ask permission before accessing it, show the complete submission preview, and ask for my explicit confirmation before sending. Give me the receipt ID afterward."
+
+Start with one assistant and a short date range. Messages, WhatsApp text exports and dated text imports are supported. The instructions help your agent check Node and install the skill.
+
+Review every excerpt: automatic redaction can miss personal details, and your agent provider may process excerpts under its settings. Excerpts are private by default. I review the evidence before approving any public score, note, attribution or disclosure. Pilot contributions don't change headline rankings. Private intake submissions expire after 90 days.
+
+Reply with your receipt ID and anything confusing or cumbersome. If you get stuck, send the error message, not raw conversations. You can also reply with your receipt to request a correction or withdrawal.
+
+Thanks!
+David

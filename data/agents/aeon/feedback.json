@@ -679,5 +679,23 @@
     "source": "submission",
     "collected_at": "2026-09-27T20:23:23.847Z",
     "notes": "Submitted through the use-case form (issue #402); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
+  },
+  {
+    "id": "788c06e42f20",
+    "agent": "aeon",
+    "quote": "Aeon wrote a recording ready, four minute video script and verified every claim against the source. It caught and flagged an inconsistency (a stat that did not match the number of linked runs) instead of repeating an unverified number, and committed the script to the repo.",
+    "author": "@Nadai2010",
+    "author_name": "",
+    "date": "2026-09-29",
+    "url": "https://github.com/Nadai2010/aeon/actions/runs/36108859743",
+    "kind": "use-case",
+    "tags": [
+      "submission",
+      "github",
+      "vendor"
+    ],
+    "source": "submission",
+    "collected_at": "2026-09-29T22:38:35.754Z",
+    "notes": "Submitted through the use-case form (issue #419); the evidence is a run in Aeon's own repository, so tagged vendor: excluded from opinion, shown as a vendor-submitted report."
   }
 ]

@@ -76,5 +76,23 @@
     "source": "web",
     "collected_at": "2026-09-29T14:00:00Z",
     "notes": "Sep 28 Clauday: early OpenClaw/Hermes hacky vs Claude-native now."
+  },
+  {
+    "id": "f30yard02",
+    "agent": "hermes-agent",
+    "quote": "Hermes takes the opposite posture openly. It is designed to work unattended between check-ins; that is the product, not an oversight. The question is not whether it will act without asking but where you have decided it must stop, and that decision has to be made before it touches real work rather than after.",
+    "author": "Michael Brandt",
+    "author_name": "Michael Brandt (Yardwork)",
+    "date": "2026-08-30",
+    "url": "https://yardwork.dev/en/blog/openclaw-hermes-grok-bot#hermes",
+    "kind": "other",
+    "tags": [
+      "autonomy",
+      "approvals",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "Yardwork: Hermes designed for unattended work; autonomy is the product."
   }
 ]

@@ -615,5 +615,63 @@
     "source": "web",
     "collected_at": "2026-09-29T14:00:00Z",
     "notes": "Sep 28 Clauday: Team Reports heap/event-loop fix; 96\u219252 MiB, 69\u219219 ms."
+  },
+  {
+    "id": "f30biesk04",
+    "agent": "openclaw",
+    "quote": "As a non-developer, I set up OpenClaw in February. That took a lot of time. I had a developer friend help me for hours. Then I had all these AWS bills I didn't understand. I'm asking it to give me a recipe; I don't know how many tokens that's going to cost. I ended up having to shut it down.",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#openclaw-setup",
+    "kind": "complaint",
+    "tags": [
+      "setup",
+      "aws",
+      "cost",
+      "churn",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: non-dev setup took hours + dev help; confusing AWS bills; churned."
+  },
+  {
+    "id": "f30velvet01",
+    "agent": "openclaw",
+    "quote": "I've run an OpenClaw agent every day since January. It does real work for me, and I spend too much time keeping it alive. Fixing it after updates. Redoing broken logins. Finding out three days later that a routine stopped and nobody told me. The silent failures are the worst.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#openclaw",
+    "kind": "complaint",
+    "tags": [
+      "reliability",
+      "silent-failure",
+      "maintenance",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: daily OpenClaw since January; silent failures worst."
+  },
+  {
+    "id": "f30yard01",
+    "agent": "openclaw",
+    "quote": "OpenClaw's approval prompts are switched off by default on its gateway and node hosts. The safety people describe as a feature of the product is a configuration decision someone has to make.",
+    "author": "Michael Brandt",
+    "author_name": "Michael Brandt (Yardwork)",
+    "date": "2026-08-30",
+    "url": "https://yardwork.dev/en/blog/openclaw-hermes-grok-bot#approvals",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "approvals",
+      "defaults",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "Yardwork: OpenClaw approvals off by default; safety is opt-in config."
   }
 ]

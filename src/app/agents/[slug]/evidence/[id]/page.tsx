@@ -61,7 +61,7 @@ export default async function EvidencePage({ params }: Props) {
       <div className="page-head" style={{ paddingTop: 18 }}>
         <p className="cat-kicker">
           {ev.protocol === 'task' ? 'Test' : 'Observed'} · <Link href={`/dimensions/${ev.category}`}>{category?.label ?? ev.category}</Link> · {formatDate(ev.date)}
-          {ev.tester && <> · Run by <a href={`https://x.com/${ev.tester.replace(/^@/, '')}`} target="_blank" rel="noopener noreferrer">{ev.tester}</a>, reviewed by the benchmark</>}
+          {ev.tester && <> · Run by <a href={`https://${ev.contribution?.contributor.platform === 'github' ? 'github.com' : 'x.com'}/${ev.tester.replace(/^@/, '')}`} target="_blank" rel="noopener noreferrer">{ev.tester}</a>, reviewed by the benchmark</>}
         </p>
         <div className="ev-head">
           <AgentIcon name={agent.name} icon={agent.icon} size={56} />
@@ -83,18 +83,29 @@ export default async function EvidencePage({ params }: Props) {
           <span>
             <b>{s.turns}</b> messages
           </span>
+          {ev.contribution?.timing === 'unavailable' ? <span>Timing unavailable; message order only</span> : <>
           <span>
             first reply <b>{formatSeconds(s.first_reply_s)}</b>
           </span>
           <span>
             over <b>{s.duration_min < 1 ? 'under a minute' : `${s.duration_min} min`}</b>
           </span>
+          </>}
           {s.agent_initiated && <span>started by the assistant</span>}
           {s.agent_asked_question && <span>it asked a question</span>}
           {s.agent_said_cant && run?.outcome !== 'pass' && <span>it said it couldn&apos;t</span>}
         </p>
         )}
       </div>
+
+      {ev.contribution && (
+        <div className="ev-private">
+          <p>Contributed evidence, reviewed by David. Excluded from benchmark rankings and Speed.</p>
+          <p>Disclosure: {ev.contribution.contributor.disclosure} Comped accounts: {ev.contribution.contributor.comped}</p>
+          <p>Source: {ev.contribution.source} · Tier: {ev.contribution.context.tier} · Rubric: {ev.contribution.rubric_version}</p>
+          <p>Review does not independently authenticate the conversation or every reported action.</p>
+        </div>
+      )}
 
       {excerpt ? (
       <div className="chat" role="log" aria-label="Message thread, redacted">
@@ -103,7 +114,7 @@ export default async function EvidencePage({ params }: Props) {
           const gap = prev ? Date.parse(m.ts) - Date.parse(prev.ts) : Infinity;
           return (
             <Fragment key={`${m.ts}-${i}`}>
-              {gap > 10 * 60 * 1000 && <div className="msg-ts">{timeLabel(m.ts)}</div>}
+              {ev.contribution?.timing !== 'unavailable' && gap > 10 * 60 * 1000 && <div className="msg-ts">{timeLabel(m.ts)}</div>}
               <div className={`msg ${m.from}`}>
                 {withMarkers(m.text)}
                 {m.attachment && <div className="msg-att">📎 attachment not shown</div>}
@@ -161,7 +172,7 @@ export default async function EvidencePage({ params }: Props) {
       )}
 
       {excerpt && (
-        <p className="ev-note">The reviewer&apos;s own thread with {agent.name}, trimmed to this test. Personal details are masked. Times are UTC.</p>
+        <p className="ev-note">{ev.tester ? 'The contributor’s' : 'The reviewer’s'} thread with {agent.name}, trimmed to this test. Personal details are masked. Times are UTC.</p>
       )}
     </div>
   );

@@ -176,5 +176,22 @@ _Updated 2026-09-29 weekday vault scan (+12 rows)._
 - (2026-09-28) Get the Check podcast (via eesel): Cart checkout regression, cart to zero.
 - (2026-09-28) TechCrunch: Instinct partnership with Shopify announced.
 
-**Feedback rows:** 258 (as of 2026-09-29)
+_Updated 2026-09-30 weekday vault scan (+13 rows)._
+
+**New this scan:**
+- (2026-09-27) Will Martin (BI staffers): Paid wrong Oxford charge (Zero Emissions Zone vs Congestion Charge); £8 nonrefundable.
+- (2026-09-27) Will Martin (BI staffers): Shopping research with pro/con list, commute booking, subscription refund.
+- (2026-09-27) Cheryl Teh (BI staffers): Notion overhaul cleared goals calendar; replaced with blank template.
+- (2026-09-27) Cheryl Teh (BI staffers): K-pop buy plan saved 2 hours; signed copies + purchase roadmap.
+- (2026-09-27) Tim Paradis (BI staffers): Hallucinated movie showtime + 16 min latency to backtrack.
+- (2026-09-28) Pete Syme (BI): Suggested unbookable multi-airline ticket.
+- (2026-09-28) Pete Syme (BI): 30 min + 23 min latency flattened travel excitement.
+- (2026-09-28) Pete Syme (BI): Uncanny WhatsApp UX; irritating multi-ping + emoji reactions.
+- (2026-09-28) Pete Syme (BI): Nifty for business trips; chatbots better for travel inspiration.
+- (2026-09-23) Jay Eskenazi (BI): Can't see what Instinct is doing; opaque memory.
+- (2026-09-29) jdlyga (HN): Instinct best of 3; likely acquisition target.
+- (2026-09-29) CTC: Instinct live Shopify checkout with Shop Pay.
+- (2026-09-25) Layer3Labs: Sep 22-23 outage with named user reports; no status page.
+
+**Feedback rows:** 271 (as of 2026-09-30)
 

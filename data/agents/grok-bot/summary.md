@@ -105,5 +105,17 @@ _Updated 2026-09-29 weekday vault scan (+2 rows)._
 - (2026-09-27) Clauday Super User Daily: @g48in — Grok Bot ~30 min vs Claude Code ~1 min; model dumb, limits tight.
 - (2026-09-27) Clauday Super User Daily: @mvanhorn — Agent Tincan: Grok Bot always-on cloud, Muse phone calls.
 
-**Feedback rows:** 1194 (as of 2026-09-29)
+_Updated 2026-09-30 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-09-02) VelvetShark: 67-job scorecard; good for research/monitoring/admin, not complex coding.
+- (2026-09-02) VelvetShark: Bot posted to X instead of reading; built write guard.
+- (2026-09-02) VelvetShark: Auto-reviewer caught hex wrapper bypass attempt.
+- (2026-09-02) VelvetShark: X login blocked on datacenter IP; Tailscale exit node workaround.
+- (2026-09-02) VelvetShark: All bots share one computer; no security boundary between bots.
+- (2026-09-29) jjcm (HN): Heavy Grok Bot user; domain-specific bots; 2-3x inference spend.
+- (2026-08-30) Yardwork: Grok Bot shared-computer model; no bot-level isolation.
+- (2026-09-23) Jay Eskenazi (BI): Grok Bot itinerary looked good on paper; less impressive on ground.
+
+**Feedback rows:** 1202 (as of 2026-09-30)
 

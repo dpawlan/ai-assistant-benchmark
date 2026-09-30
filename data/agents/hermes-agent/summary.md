@@ -16,4 +16,9 @@ _Updated 2026-09-29 weekday vault scan (+3 rows)._
 - (2026-09-27) Clauday Super User Daily: Raft open-source Slack-with-agents; Hermes can join.
 - (2026-09-28) Clauday Super User Daily: @runtimeking — early OpenClaw/Hermes hacky vs Claude-native now.
 
-**Feedback rows:** 4 (as of 2026-09-29)
+_Updated 2026-09-30 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-08-30) Yardwork: Hermes designed for unattended work; autonomy is the product.
+
+**Feedback rows:** 5 (as of 2026-09-30)

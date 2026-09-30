@@ -28883,5 +28883,156 @@
     "source": "web",
     "collected_at": "2026-09-29T14:00:00Z",
     "notes": "Sep 27 Clauday: Agent Tincan \u2014 Grok Bot always-on cloud, Muse phone calls."
+  },
+  {
+    "id": "f30velvet02",
+    "agent": "grok-bot",
+    "quote": "67 real jobs over five days: 40 finished without me, 14 finished after I helped, 5 half-done, 8 failed or got cancelled. \u2026 My verdict after 67 jobs: Grok Bot is good enough to own research, monitoring, and file-based workflows. Great for everyday automations and admin work. Not great yet for complex coding, fine for quick fixes.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#scorecard",
+    "kind": "use-case",
+    "tags": [
+      "migration",
+      "scorecard",
+      "vs-openclaw",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: 67-job scorecard; good for research/monitoring/admin, not complex coding."
+  },
+  {
+    "id": "f30velvet03",
+    "agent": "grok-bot",
+    "quote": "A bot was supposed to read one tweet. It ran the write command instead, and a post went out from my account. The tweet was gone within minutes. Then I had Tinkerer build a write guard: nothing on that computer can post to X unless I explicitly approve it.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#tweet",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "permissions",
+      "write-guard",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: bot posted to X instead of reading; built write guard."
+  },
+  {
+    "id": "f30velvet04",
+    "agent": "grok-bot",
+    "quote": "The best moment: it caught Tinkerer, my own bot, assembling a wrapper script from hex to get around the reviewer. The reviewer won. That's the security level I want from something holding my logins.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#auto-review",
+    "kind": "praise",
+    "tags": [
+      "auto-review",
+      "security",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: auto-reviewer caught hex wrapper bypass attempt."
+  },
+  {
+    "id": "f30velvet05",
+    "agent": "grok-bot",
+    "quote": "The cloud computer couldn't log into X. The only message was \"We've temporarily limited your login,\" \u2026 The reason is the datacenter IP. \u2026 The fix that worked for me: Tailscale on the cloud computer, Tailscale on my Mac Studio, and the Mac Studio as the exit node.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#tailscale",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "datacenter-ip",
+      "tailscale",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: X login blocked on datacenter IP; Tailscale exit node workaround."
+  },
+  {
+    "id": "f30velvet06",
+    "agent": "grok-bot",
+    "quote": "\"All of your Bots use the same persistent cloud computer. They share files, browser sessions, and app logins.\" And then: \"Do not use separate Bots as a security boundary.\" Every login on the box belongs to every bot. The Instagram bot can reach the GitHub token.",
+    "author": "VelvetShark",
+    "author_name": "VelvetShark",
+    "date": "2026-09-02",
+    "url": "https://velvetshark.com/grok-bot-after-67-real-jobs#shared-computer",
+    "kind": "complaint",
+    "tags": [
+      "shared-computer",
+      "security",
+      "isolation",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "VelvetShark: all bots share one computer; no security boundary between bots."
+  },
+  {
+    "id": "f30hnjjcm01",
+    "agent": "grok-bot",
+    "quote": "I've been a pretty heavy user of Grok Bot \u2026 Domain-specific always on agents creates a good barrier of trust. \u2026 I've never had that happen with Grok Bot bots because I have one for my biz admin and one for my personal admin. They don't intertwine, which is quite nice. \u2026 On the flip side, since using Grok Bots my inference spend has 2-3x'd.",
+    "author": "jjcm",
+    "author_name": "jjcm (HN)",
+    "date": "2026-09-29",
+    "url": "https://news.ycombinator.com/item?id=49896604#jjcm",
+    "kind": "praise",
+    "tags": [
+      "hn",
+      "multi-bot",
+      "memory",
+      "cost",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "HN Dots thread: jjcm heavy Grok Bot user; domain-specific bots; 2-3x inference spend."
+  },
+  {
+    "id": "f30yard03",
+    "agent": "grok-bot",
+    "quote": "Grok Bot does not work that way, and xAI says so directly: the computer is isolated to your account rather than to an individual bot, and bots share files, browser sessions and app logins. \u2026 A bot you meant to keep away from your banking session is on the same machine as a bot that has one open.",
+    "author": "Michael Brandt",
+    "author_name": "Michael Brandt (Yardwork)",
+    "date": "2026-08-30",
+    "url": "https://yardwork.dev/en/blog/openclaw-hermes-grok-bot#grok-shared",
+    "kind": "comparison",
+    "tags": [
+      "shared-computer",
+      "security",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "Yardwork: Grok Bot shared-computer model; no bot-level isolation."
+  },
+  {
+    "id": "f30biesk06",
+    "agent": "grok-bot",
+    "quote": "I use Grok a lot, and I just upgraded because I wanted to play with the Grok Bot. So, I made this really fancy itinerary. I kept iterating it. It did a really good job. Then I got here and was like, \"It's not as good.\"",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#grok-bot",
+    "kind": "complaint",
+    "tags": [
+      "travel",
+      "itinerary",
+      "on-ground",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: Grok Bot itinerary looked good on paper; less impressive on ground."
   }
 ]

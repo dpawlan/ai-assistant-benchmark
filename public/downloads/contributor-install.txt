@@ -1,0 +1,16 @@
+Assistant Benchmark: installation for a local Mac agent (Codex or Claude Code)
+
+No GitHub access, invitation, or ZIP upload to the chat is required.
+
+1. Download https://assistantbenchmark.com/downloads/assistant-benchmark-contributor-bb500cb6cefb.zip using your terminal into a fresh folder. Do not overwrite an existing installation or contribution folder.
+2. Verify the archive SHA-256 equals bb500cb6cefbf1687f76d0f9aa25eebf28094a3ea1d88d3e5c6880eef4b357c4. Stop if it differs. Extract locally; it contains assistant-benchmark-contributor/.
+3. Check Node is 22.13 or newer; help the user install it if needed. No npm packages or Git are required.
+4. Keep the extracted folder in a stable location. From there, run node scripts/tool-version.mjs to verify the packaged files.
+5. Install with node scripts/install-contribute.mjs --agent codex or --agent claude. If a skill already exists, inspect its version and checkout first and preserve existing drafts, conversations and receipts. Do not blindly overwrite it.
+6. Read the installed contribute-runs/SKILL.md and follow it. If a new session is required, tell the user how to resume in the tool folder.
+7. Check intake readiness. Ask which assistant, source and short date range to contribute. Ask permission before conversation access. Explain provider processing, help review personal details and show the complete preview.
+8. Ask for explicit confirmation before sending. Give the receipt after a confirmed submission. David reviews and approves public results separately; do not publish anything.
+
+For Messages, ask the user to identify the assistant and its number; phone mappings are intentionally absent from the package and belong in data/sources.local.json. WhatsApp text exports and dated text imports also work.
+
+Submissions go to https://assistantbenchmark.com/api/contribute. Never email raw transcripts or upload the Messages database. Excerpts are private by default. Approved scores, notes, attribution and disclosures may be public. Pilot results do not change headline rankings. Private intake payloads expire after 90 days.

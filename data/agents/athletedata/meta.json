@@ -1,0 +1,25 @@
+{
+  "slug": "athletedata",
+  "name": "athletedata",
+  "site": "https://www.athletedata.health/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "athletedata is a proactive AI coach for endurance athletes on iMessage, Telegram, WhatsApp and MCP. It connects Garmin, Apple Health, Whoop, Oura, TrainingPeaks and some thirty more sources, rewrites the plan when recovery or life gets in the way, and pushes the next session to the watch before you ask. The site cites 30,000-plus runners, cyclists and triathletes. Requested via the form (issue #435).",
+  "public_signal": "low",
+  "tagline": "A coach that reads every app you train with, and texts you first.",
+  "icon": "/logos/athletedata.png",
+  "kind": "health",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free tools; coaching plan paid",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "Telegram",
+      "WhatsApp",
+      "Web app"
+    ],
+    "checked": "2026-09-29"
+  }
+}

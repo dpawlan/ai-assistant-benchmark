@@ -5,8 +5,8 @@ date: 2026-09-30
 author: David Pawlan
 kind: Experiment
 agents: muse, grok-bot, instinct
-hero: /images/articles/elegant-cost-efficient-la.png
-hero_caption: Balancing the cost of an LA weekend with an elegant stay. AI-generated illustration by Assistant Benchmark.
+hero: /images/articles/elegant-cost-efficient-agents.png
+hero_caption: Muse, Grok Bot and Instinct balance cost and elegance in an LA weekend. AI-generated illustration by Assistant Benchmark.
 takeaways: Muse prioritized raw dollars, Grok Bot balanced price with hassle, and Instinct balanced price with convenience | Elegance meant memorable moments to Muse, a smooth stay to Grok Bot, and a curated itinerary to Instinct | Grok Bot adopted the most ideas; Instinct cut its proposed cost by $314 using Grok Bot's return flights
 ---
 

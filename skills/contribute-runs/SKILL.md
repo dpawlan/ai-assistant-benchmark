@@ -8,7 +8,7 @@ description: Prepare and submit reviewed evidence from a person's existing assis
 Tool checkout: `TOOL_CHECKOUT_PATH`
 Tested revision: `TOOL_CHECKOUT_REVISION`
 
-Use that checkout for all commands. If these values are not installed, ask for the checkout installed from David's guide. Do not clone an unpinned main or silently update the tooling. Require Node 22.13+, git, a local terminal-capable agent. This pilot supports macOS Messages, WhatsApp text exports and dated text imports. Telegram and cloud-only agent sessions are unsupported.
+Use that checkout for all commands. If these values are not installed, ask for the checkout installed from David's guide. Use the standalone tester package supplied by David; do not clone the website repository or silently update the tooling. Require Node 22.13+ and a local terminal-capable agent. Git and GitHub access are not required for the standalone package. This pilot supports macOS Messages, WhatsApp text exports and dated text imports. Telegram and cloud-only agent sessions are unsupported.
 
 ## Start here: check intake readiness
 
@@ -28,7 +28,7 @@ Explain before access: scripts process selected content locally; redacted excerp
 
 ## Prepare evidence locally
 
-Verify `git rev-parse HEAD` matches the installed revision. For Messages, use only:
+Verify `node scripts/tool-version.mjs` matches the installed revision. The standalone release includes file checksums; keep the packaged files intact and put personal mappings in data/sources.local.json. For Messages, use only:
 
 ```sh
 node scripts/imessage.mjs discover --assistants-only --since YYYY-MM-DD

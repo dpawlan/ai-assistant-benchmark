@@ -4,7 +4,7 @@ Use your own agent to contribute evidence from an existing assistant conversatio
 
 ## Before you start
 
-This guide is for a Mac with Codex running locally or Claude Code. You need Git and Node 22.13 or newer. No invitation file, submission token or account is required. Your agent provider's normal usage charges and data settings apply.
+This guide is for a Mac with Codex running locally or Claude Code. You need Node 22.13 or newer. Git and GitHub access are not required. No invitation file, submission token or account is required. Your agent provider's normal usage charges and data settings apply.
 
 The pilot supports Messages on your Mac, WhatsApp text exports without media, and dated text copied from an assistant app into a local file. Telegram is not supported yet. Start with one assistant and a short date range. You do not need to make purchases or run new tests.
 
@@ -12,16 +12,9 @@ Before accessing a conversation, the agent checks that the live intake is accept
 
 ## Install the tested version
 
-Open Terminal. Check the prerequisites with `git --version` and `node --version`. If either is missing or Node is older than 22.13, ask your agent to help you install it before continuing. No npm packages are required for the contribution tools.
+Download https://assistantbenchmark.com/downloads/assistant-benchmark-contributor-bb500cb6cefb.zip and unzip it into a new folder. No archive needs to be uploaded to your agent. Do not overwrite an existing tool folder. The archive contains only contribution tools, assistant names and the rubric; it includes no website, conversations or credentials.
 
-Run these commands one line at a time. If a command fails, stop and ask for help. Use a fresh folder; do not overwrite an existing checkout.
-
-```sh
-git clone --no-checkout --depth 1 https://github.com/dpawlan/ai-assistant-benchmark.git assistant-benchmark-pilot
-cd assistant-benchmark-pilot
-git fetch --depth 1 origin a48256b160a54fed6b05241abde34822514b26b0
-git checkout --detach FETCH_HEAD
-```
+Open a local agent session in the extracted assistant-benchmark-contributor folder. Ask your agent to check `node --version` and help install Node if it is missing or older than 22.13. No npm packages are required. Run the installer from this folder.
 
 Choose the command for your agent. You only need one.
 
@@ -37,7 +30,7 @@ Claude Code
 node scripts/install-contribute.mjs --agent claude
 ```
 
-Look for “Installed contribute-runs” and the tool revision. Open a new local agent session in the assistant-benchmark-pilot folder. Keep that folder in place while using the skill; it contains the tested tools. Do not update it to a different branch during the pilot.
+Look for “Installed contribute-runs” and the tool revision. Open a new local agent session in the assistant-benchmark-contributor folder. Keep that folder in place while using the skill; it contains the tested tools. Keep the packaged files intact; personal mappings belong in data/sources.local.json.
 
 <!-- PAGEBREAK -->
 
@@ -86,11 +79,11 @@ Check Full Disk Access for the app actually running the command and restart it. 
 
 **No assistant conversation or usable draft is found**
 
-Confirm the assistant and dates. If its number is not mapped, identify it for the agent; do not give access to unrelated personal conversations. If no evidence matches a test, stop without submitting. Missing or truncated outcomes should not be invented.
+Confirm the assistant and dates. The ZIP intentionally includes no phone-number mappings. Identify your assistant and its number for the agent when asked; do not give access to unrelated personal conversations. If no evidence matches a test, stop without submitting. Missing or truncated outcomes should not be invented.
 
 **Submission is unavailable or fails**
 
-Contact David at davidmpawlan@gmail.com. If delivery is uncertain, keep the original bundle and ask the agent to retry the same submission once. Do not create a fresh bundle just to retry. Do not assume delivery succeeded until you have a receipt. Send David the error or receipt, never raw conversations .
+Contact David at davidmpawlan@gmail.com. If delivery is uncertain, keep the original bundle and ask the agent to retry the same submission once. Do not create a fresh bundle just to retry. Do not assume delivery succeeded until you have a receipt. Send David the error or receipt, never raw conversations.
 
 ## Corrections and cleanup
 

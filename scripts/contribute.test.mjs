@@ -147,3 +147,29 @@ test('real Redis atomic receipt, retry, conflict, TTL and both rate limits', {sk
   assert.equal((await persist({...b,id:crypto.randomUUID()},hash,'network-c',isolated,at)).status,'limited');
  } finally { if(keys.size)await redis(['DEL',...keys]); }
 });
+
+test('standalone ZIP installs and bundles without Git or private repository files',()=>{
+ const scratch=fs.mkdtempSync(path.join(os.tmpdir(),'contrib-zip-'));
+ try {
+  const zip=path.join(scratch,'tools.zip');const built=cli(ROOT,[zip],'package-contributor.mjs');assert.equal(built.status,0,built.stderr);
+  execFileSync('/usr/bin/unzip',['-q',zip,'-d',scratch]);
+  const folder=path.join(scratch,'assistant-benchmark-contributor');
+  const manifest=JSON.parse(fs.readFileSync(path.join(folder,'contributor-release.json')));
+  assert(!fs.existsSync(path.join(folder,'.git')));assert(!fs.existsSync(path.join(folder,'.env.production.local')));
+  assert.equal(Object.keys(manifest.files).length,12);
+  const sources=JSON.parse(fs.readFileSync(path.join(folder,'data/sources.json')));assert(Object.values(sources.agents).every(a=>a.imessage_handles.length===0));
+  const run=(args,script='contribute.mjs')=>spawnSync(process.execPath,[path.join(folder,'scripts',script),...args],{cwd:folder,encoding:'utf8',env:{...process.env,PATH:'/no-git'}});
+  for(const agent of ['codex','claude']){const r=run(['--agent',agent,'--skills-dir',path.join(scratch,agent)],'install-contribute.mjs');assert.equal(r.status,0,r.stderr);}
+  assert.equal(run(['approve','--slug','instinct'],'imessage.mjs').status,1);
+  fs.writeFileSync(path.join(folder,'sample.txt'),'Me: Remember I want aisle seats.\nInstinct: I will remember that.');
+  const imported=run(['import-text','--slug','instinct','--file','sample.txt','--date','2026-09-28'],'imessage.mjs');assert.equal(imported.status,0,imported.stderr);assert(imported.stdout.includes('messages parsed'));
+  const analyzed=run(['analyze','--slug','instinct','--all'],'imessage.mjs');assert.equal(analyzed.status,0,analyzed.stderr);assert(analyzed.stdout.includes('David handles publication'));
+  const b=fixture(),dir=path.join(folder,'data/agents/instinct');fs.mkdirSync(dir,{recursive:true});
+  fs.writeFileSync(path.join(dir,'usage.json'),JSON.stringify({source:'pasted',timed:true}));fs.writeFileSync(path.join(dir,'runs.draft.json'),JSON.stringify(b.drafts));
+  const r=run(['bundle','--slug','instinct','--platform','github','--handle','tester','--disclosure','none','--comped','none','--tier','unknown','--timezone','UTC','--integrations','none','--out','bundle.json']);assert.equal(r.status,0,r.stderr);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(folder,'bundle.json'))).tool_revision,manifest.source_revision);
+  assert.equal(run(['preview','--file','bundle.json']).status,0);
+  assert.equal(run(['pull']).status,1);
+  fs.appendFileSync(path.join(folder,'data/tasks.json'),' ');assert.equal(run([],'tool-version.mjs').status,1);
+ } finally {fs.rmSync(scratch,{recursive:true,force:true});}
+});

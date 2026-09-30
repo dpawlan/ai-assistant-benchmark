@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
-import { execFileSync } from 'node:child_process';
+import { toolRevision } from './tool-version.mjs';
 import { parseArgs } from 'node:util';
 
 const { values } = parseArgs({ options: { agent: {type:'string'}, 'skills-dir': {type:'string'} } });
@@ -11,7 +11,7 @@ try {
   if (major<22 || (major===22 && minor<13)) throw new Error('Node 22.13 or newer is required');
   if (!['codex','claude'].includes(values.agent)) throw new Error('Use --agent codex or --agent claude');
   const root=process.cwd();
-  const revision=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+  const revision=toolRevision();
   const source=fs.readFileSync(path.join(root,'skills/contribute-runs/SKILL.md'),'utf8');
   const parent=values['skills-dir']??path.join(os.homedir(),values.agent==='codex'?'.agents':'.claude','skills');
   const destination=path.join(parent,'contribute-runs');

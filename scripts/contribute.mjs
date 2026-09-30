@@ -3,7 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { execFileSync } from 'node:child_process';
+import { toolRevision } from './tool-version.mjs';
 import { parseArgs } from 'node:util';
 import { validateBundle, scrub, digest, wire, stageBundle, reviewDigest } from './lib/contribution.mjs';
 import { redisClient, INDEX, payloadKey } from './lib/contribution-store.mjs';
@@ -36,7 +36,7 @@ function bundle() {
   const drafts=read(path.join(agent,'runs.draft.json')).filter(d=>d.skip!==true);
   const signalsKeys=['turns','my_messages','agent_messages','first_reply_s','duration_min','agent_said_done','agent_said_cant','agent_asked_question','agent_initiated'];
   const b=validate({
-    version:2,id:crypto.randomUUID(),tool_revision:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),rubric_version:rubric.version,slug:opts.slug,
+    version:2,id:crypto.randomUUID(),tool_revision:toolRevision(),rubric_version:rubric.version,slug:opts.slug,
     contributor:{platform:opts.platform,handle:opts.handle.startsWith('@')?opts.handle:`@${opts.handle}`,disclosure:scrub(opts.disclosure),comped:scrub(opts.comped)},
     source:usage.source,timing:usage.timed === true ? 'recorded' : 'unavailable',context:{tier:opts.tier,timezone:opts.timezone,integrations:opts.integrations},
     drafts:drafts.map(d=>({id:d.id,category:d.category,protocol:d.protocol,date:d.date,
@@ -150,6 +150,7 @@ async function purge() {
 }
 const commands={bundle,preview,submit,pull,review,'confirm-review':confirmReview,status,purge};
 try {
+  if (fs.existsSync(path.join(ROOT,'contributor-release.json')) && !['bundle','preview','submit','status','help'].includes(positionals[0])) fail('This tester package only supports preparing and submitting contributions.');
   if (!commands[positionals[0]]) console.log('Commands: bundle, preview, submit, pull, review, confirm-review, status, purge. See docs/contributing/maintainer.md and skills/contribute-runs/SKILL.md.');
   else await commands[positionals[0]]();
 } catch(e) { console.error(`error: ${e.message}`); process.exitCode=1; }

@@ -67,6 +67,11 @@ function parseArgs(argv) {
 
 async function main() {
   const cmd = parseArgs(process.argv.slice(2));
+  if (fs.existsSync(path.join(ROOT, 'contributor-release.json'))) {
+    if (!['export','analyze','status','discover','import-whatsapp','import-text'].includes(cmd)) fail('This tester package cannot publish or edit benchmark results.');
+    if (cmd === 'discover' && !opts['assistants-only']) fail('Tester discovery requires --assistants-only.');
+    if (cmd === 'analyze') opts.contributor = true;
+  }
   const commands = { export: exportChats, analyze, approve, status, discover, excerpts, notes, 'import-whatsapp': importWhatsApp, 'import-text': importText };
   if (!commands[cmd]) {
     console.error(fs.readFileSync(new URL(import.meta.url)).toString().split('*/')[0].replace('/**', '').replace(/^ \* ?/gm, ''));
@@ -813,4 +818,4 @@ async function status() {
 
 /* ---------- Entry point ---------- */
 
-if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await main();
+if (process.argv[1] && import.meta.url === pathToFileURL(fs.realpathSync(process.argv[1])).href) await main();

@@ -1,17 +1,20 @@
-Subject: Help test the Assistant Benchmark contribution skill
+Subject: Help test Assistant Benchmark with your own assistant conversations
 
-Hi,
+Hi!
 
-I'm inviting a small group to try a new way to contribute to Assistant Benchmark using conversations you've already had with an assistant.
+I'd love your help testing a new way to contribute to Assistant Benchmark using conversations you've already had with an AI assistant.
 
-The attached guide walks you through installing a skill for Codex or Claude Code. Your agent helps you select a conversation, prepare redacted excerpts, and review exactly what will be sent. Nothing is submitted until you confirm. No invitation file or account is required.
+You'll need a Mac with Codex or Claude Code and Node 22.13 or newer. No GitHub access, account or invitation code is required. Start with one assistant and a short date range.
 
-You can suggest a score, but I'll review the evidence and confirm or change the final score before approving anything for publication. You also choose whether redacted excerpts can be public. Approved scores, notes, attribution and disclosures may appear on the site. Pilot contributions won't change the headline rankings or Speed.
+Save and unzip the attached assistant-benchmark-contributor.zip into a new folder, then open that folder in your local agent. Paste this:
 
-Start with one assistant and a short date range. There's no need to buy anything or run new tasks for this. The guide explains what leaves your device, how your agent provider may process excerpts, and how to review details that automatic redaction can miss.
+"Help me install and use the Assistant Benchmark contribution skill from this extracted folder. Do not clone a GitHub repository. Check Node is 22.13 or newer. For Codex run node scripts/install-contribute.mjs --agent codex; for Claude Code use --agent claude. If a skill is already installed, inspect it before replacing anything. Read the installed contribute-runs/SKILL.md and follow it. Check intake readiness first, then ask which assistant and date range I want to contribute. Ask permission before accessing conversations, help me redact personal details, and show the complete preview. Ask for my explicit confirmation before sending. Give me the receipt after submission; do not publish anything."
 
-Please use the exact tool version in the guide. Once you have a receipt, reply with its ID and tell me what was confusing or took more effort than you expected. If you get stuck, just reply with the error—please don't send raw conversations .
+For Messages, you'll identify the assistant number when asked. The package contains no personal phone mappings. WhatsApp text exports and dated text imports are also supported. The attached guide has more details.
 
-Thanks for helping me make this useful and straightforward.
+Please review every excerpt: automatic redaction can miss personal details, and your agent provider may process excerpts under its settings. Public excerpts are off by default. I review the evidence and approve any final score before publication; approved scores, notes, attribution and disclosures may appear publicly. Pilot contributions don't change headline rankings. Private submissions expire from the intake after 90 days.
 
+Reply with your receipt ID and anything confusing or cumbersome. If you get stuck, send the error message, not raw conversations. You can also reply with your receipt to request a correction or withdrawal.
+
+Thanks!
 David

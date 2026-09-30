@@ -14,7 +14,7 @@ export default function ContributePage() {
       <section className="cb-section">
         <h2 className="ag-h2">Install the contribution skill</h2>
         <p className="cb-p">Install the contribution skill for Codex or Claude Code using the tested version in the guide. No invitation or account is required; every submission is reviewed before publication.</p>
-        <p className="cb-p">Interested? <a href="https://github.com/dpawlan/ai-assistant-benchmark/blob/codex/contribution-pilot/docs/contributing/tester-guide.md">Read the installation guide</a>.</p>
+        <p className="cb-p">Interested? <a href="/downloads/contributor-install.txt">Read the installation guide</a>.</p>
       </section>
       <section className="cb-section">
         <h2 className="ag-h2">How it works</h2>

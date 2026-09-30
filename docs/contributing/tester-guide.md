@@ -12,7 +12,7 @@ Before accessing a conversation, the agent checks that the live intake is accept
 
 ## Install the tested version
 
-Save and unzip the attached assistant-benchmark-contributor.zip into a new folder. Do not overwrite an existing tool folder. The archive contains only contribution tools, assistant names and the rubric; it includes no website, conversations or credentials.
+Download https://assistantbenchmark.com/downloads/assistant-benchmark-contributor-bb500cb6cefb.zip and unzip it into a new folder. No archive needs to be uploaded to your agent. Do not overwrite an existing tool folder. The archive contains only contribution tools, assistant names and the rubric; it includes no website, conversations or credentials.
 
 Open a local agent session in the extracted assistant-benchmark-contributor folder. Ask your agent to check `node --version` and help install Node if it is missing or older than 22.13. No npm packages are required. Run the installer from this folder.
 

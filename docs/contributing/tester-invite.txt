@@ -1,18 +1,16 @@
-Subject: Help test Assistant Benchmark with your own assistant conversations
+Subject: Help me test Assistant Benchmark
 
 Hi!
 
-I'd love your help testing a new way to contribute to Assistant Benchmark using conversations you've already had with an AI assistant.
+I'd love your help testing a way to contribute using conversations you've already had with an AI assistant. You'll need a Mac with Codex or Claude Code. No GitHub account, invitation code or email attachment is needed.
 
-You'll need a Mac with Codex or Claude Code and Node 22.13 or newer. No GitHub access, account or invitation code is required. Start with one assistant and a short date range.
+Paste this into your local agent:
 
-Save and unzip the attached assistant-benchmark-contributor.zip into a new folder, then open that folder in your local agent. Paste this:
+"Read https://assistantbenchmark.com/downloads/contributor-install.txt and follow the installation instructions. Download and extract the tools locally; do not ask me to upload a ZIP or clone GitHub. Then help me contribute one existing assistant conversation. Ask permission before accessing it, show the complete submission preview, and ask for my explicit confirmation before sending. Give me the receipt ID afterward."
 
-"Help me install and use the Assistant Benchmark contribution skill from this extracted folder. Do not clone a GitHub repository. Check Node is 22.13 or newer. For Codex run node scripts/install-contribute.mjs --agent codex; for Claude Code use --agent claude. If a skill is already installed, inspect it before replacing anything. Read the installed contribute-runs/SKILL.md and follow it. Check intake readiness first, then ask which assistant and date range I want to contribute. Ask permission before accessing conversations, help me redact personal details, and show the complete preview. Ask for my explicit confirmation before sending. Give me the receipt after submission; do not publish anything."
+Start with one assistant and a short date range. Messages, WhatsApp text exports and dated text imports are supported. The instructions help your agent check Node and install the skill.
 
-For Messages, you'll identify the assistant number when asked. The package contains no personal phone mappings. WhatsApp text exports and dated text imports are also supported. The attached guide has more details.
-
-Please review every excerpt: automatic redaction can miss personal details, and your agent provider may process excerpts under its settings. Public excerpts are off by default. I review the evidence and approve any final score before publication; approved scores, notes, attribution and disclosures may appear publicly. Pilot contributions don't change headline rankings. Private submissions expire from the intake after 90 days.
+Review every excerpt: automatic redaction can miss personal details, and your agent provider may process excerpts under its settings. Excerpts are private by default. I review the evidence before approving any public score, note, attribution or disclosure. Pilot contributions don't change headline rankings. Private intake submissions expire after 90 days.
 
 Reply with your receipt ID and anything confusing or cumbersome. If you get stuck, send the error message, not raw conversations. You can also reply with your receipt to request a correction or withdrawal.
 

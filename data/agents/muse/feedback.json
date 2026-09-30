@@ -4179,5 +4179,213 @@
     "source": "web",
     "collected_at": "2026-09-29T14:00:00Z",
     "notes": "Sep 28 Clauday: Muse as coordinator over Claude Code, Codex, SuperGrok, Gemini."
+  },
+  {
+    "id": "f30bistaff06",
+    "agent": "muse",
+    "quote": "I had put off the task of printing out and signing a form for after-school care. I asked Muse to fill it out for me from my email. I sent it a photo of my signature on a Post-It and used a photo of my daughter's handwritten name … as her signature … It successfully \"signed\" it and emailed it back to the school.",
+    "author": "Katie Notopoulos",
+    "author_name": "Katie Notopoulos (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#form",
+    "kind": "use-case",
+    "tags": [
+      "forms",
+      "email",
+      "parenting",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: form-fill + signature from photo + email to school."
+  },
+  {
+    "id": "f30bistaff07",
+    "agent": "muse",
+    "quote": "It offered to RSVP \"no\" to an invite in my email that happened to be on the same day as the Meta Connect conference. It suggested I could reply to the person and explain that this was \"the most important event on my beat\" — not totally wrong per se, but certainly weird to say in an email, and quite flattering to Meta.",
+    "author": "Katie Notopoulos",
+    "author_name": "Katie Notopoulos (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#rsvp",
+    "kind": "complaint",
+    "tags": [
+      "email",
+      "proactive",
+      "tone",
+      "meta",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: proactive RSVP no with awkward Meta-flattering wording."
+  },
+  {
+    "id": "f30bistaff08",
+    "agent": "muse",
+    "quote": "Now, when I ask Muse to look for a book, it checks Libby for a digital version and sends it to my Kindle if it's available immediately. If not, it compares the wait times on Libby and at my libraries, then places a hold on the copy that will get to me faster. Pressing one button to delegate a small slice of library bureaucracy feels slightly godlike.",
+    "author": "Pranav Dixit",
+    "author_name": "Pranav Dixit (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#libby",
+    "kind": "use-case",
+    "tags": [
+      "libby",
+      "library",
+      "automation",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: Libby + Kindle + library hold automation; 'godlike' delegation."
+  },
+  {
+    "id": "f30bistaff09",
+    "agent": "muse",
+    "quote": "Amazon has blocked Muse, so I discovered that I can't connect it to Goodreads, the place that I keep track of all the books I want to read, and which Amazon owns. It was a reminder that a personal agent is only as useful as the platforms that allow it in.",
+    "author": "Pranav Dixit",
+    "author_name": "Pranav Dixit (Business Insider)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#amazon-block",
+    "kind": "complaint",
+    "tags": [
+      "amazon",
+      "goodreads",
+      "platform-block",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: Amazon block extends to Goodreads; platform veto limits."
+  },
+  {
+    "id": "f30bistaff10",
+    "agent": "muse",
+    "quote": "My husband and I were puzzling over an opaquely described charge on our credit card. We put the wording into Chat GPT and Muse — asking each what it could be. Chat couldn't figure it out. Muse did.",
+    "author": "Jamie Heller",
+    "author_name": "Jamie Heller (Business Insider EIC)",
+    "date": "2026-09-27",
+    "url": "https://www.businessinsider.com/staffers-test-personal-ai-agent-muse-instinct-highs-lows-2026-9#credit-card",
+    "kind": "praise",
+    "tags": [
+      "finance",
+      "vs-chatgpt",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI staffers: Muse identified mystery credit card charge; ChatGPT failed."
+  },
+  {
+    "id": "f30biesk01",
+    "agent": "muse",
+    "quote": "Muse would actually put it on a map with dots. I clicked a button, and it put it in Google Maps. I had this experience this weekend. None of the other tools did that.",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#maps",
+    "kind": "praise",
+    "tags": [
+      "travel",
+      "maps",
+      "google-maps",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: Muse maps integration; one-click to Google Maps."
+  },
+  {
+    "id": "f30biesk02",
+    "agent": "muse",
+    "quote": "Also, I gave it access to my email, so it knows I'm leaving tomorrow. It has an idea tab that said, \"I can map the opening night before you get there.\" It's proactive. … What Muse was doing was checking the times to see what ticket availability looked like. It's doing this proactive thing for you, where it tracks it, because options are shrinking.",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#proactive",
+    "kind": "praise",
+    "tags": [
+      "travel",
+      "proactive",
+      "tickets",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: Muse proactive ticket tracking from email context."
+  },
+  {
+    "id": "f30biesk03",
+    "agent": "muse",
+    "quote": "As a non-developer, I set up OpenClaw in February. That took a lot of time. I had a developer friend help me for hours. Then I had all these AWS bills I didn't understand. … I ended up having to shut it down. Muse is like OpenClaw for normies. … Muse just seems easier. It's very fast, and it feels more responsive.",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#normies",
+    "kind": "comparison",
+    "tags": [
+      "vs-openclaw",
+      "setup",
+      "speed",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: Muse is OpenClaw for normies — easier, faster, responsive."
+  },
+  {
+    "id": "f30biesk07",
+    "agent": "muse",
+    "quote": "These are the things that a very seasoned travel agent from 30 years ago would've done for you. That would be a very expensive vacation for that level of service.",
+    "author": "Jay Eskenazi",
+    "author_name": "Jay Eskenazi (via Business Insider)",
+    "date": "2026-09-23",
+    "url": "https://www.businessinsider.com/ai-agents-travel-plan-europe-trip-muse-instinct-grok-bot-2026-9#travel-agent",
+    "kind": "praise",
+    "tags": [
+      "travel",
+      "praise",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "BI Eskenazi: Muse like a seasoned travel agent from 30 years ago."
+  },
+  {
+    "id": "f30hnwx01",
+    "agent": "muse",
+    "quote": "Unless Dots is dramatically more capable than Muse, I'm also more bullish on Muse than Dots. I think Muse is a better consumer play because it can be forever subsidized by Meta ads and find distribution in family of apps while Dots is in a weird place between consumer & professional.",
+    "author": "wxw",
+    "author_name": "wxw (HN)",
+    "date": "2026-09-29",
+    "url": "https://news.ycombinator.com/item?id=49896604#muse",
+    "kind": "comparison",
+    "tags": [
+      "hn",
+      "vs-dots",
+      "consumer",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "HN Dots thread: Muse better consumer play; Meta ad subsidy + distribution."
+  },
+  {
+    "id": "f30ctc02",
+    "agent": "muse",
+    "quote": "Meta Muse: Integrated into the Ray-Ban Meta Gen 3 ($449), Ray-Ban Meta Audio ($349), and Meta Adventurer ($249) AI glasses, as well as the standalone Muse app. Muse can search Shopify's merchant network, identify products via visual search, and complete checkout with Shop Pay.",
+    "author": "Common Thread Collective",
+    "author_name": "Common Thread Collective",
+    "date": "2026-09-29",
+    "url": "https://commonthreadco.com/blogs/coachs-corner/shopify-now-lets-ai-agents-check-out-on-your-store-what-every-ecommerce-brand-must-do-before-q4#muse",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "glasses",
+      "checkout",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-09-30T14:00:00Z",
+    "notes": "CTC Sep 29: Muse on Ray-Ban glasses + Shopify visual search checkout."
   }
 ]

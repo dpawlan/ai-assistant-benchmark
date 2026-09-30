@@ -44,4 +44,11 @@ _Updated 2026-09-29 weekday vault scan (+6 rows)._
 - (2026-09-28) Clauday Super User Daily: @augmentedtraff — M5Stack smartwatch running OpenClaw.
 - (2026-09-28) Clauday Super User Daily: @MichaelGannotti — Team Reports heap/event-loop fix.
 
-**Feedback rows:** 32 (as of 2026-09-29)
+_Updated 2026-09-30 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-09-23) Jay Eskenazi (BI): Non-dev setup took hours + dev help; confusing AWS bills; churned.
+- (2026-09-02) VelvetShark: Daily OpenClaw since January; silent failures worst.
+- (2026-08-30) Yardwork: OpenClaw approvals off by default; safety is opt-in config.
+
+**Feedback rows:** 35 (as of 2026-09-30)

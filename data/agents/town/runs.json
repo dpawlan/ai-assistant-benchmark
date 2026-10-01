@@ -77,5 +77,16 @@
     "score": 7,
     "outcome": "partial",
     "notes": "Routines cannot be started from iMessage, but the weekday briefing ran as set once it was created from the desktop app."
+  },
+  {
+    "id": "town-2026-09-30-jackperm",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-09-30",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Kept a strict no-send, no-spend rule across a third-party test session; Google access remains all-or-nothing.",
+    "evidence_url": "/agents/town/evidence/town-2026-09-30-jackperm",
+    "tester": "Jack"
   }
 ]

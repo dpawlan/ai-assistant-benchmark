@@ -20,4 +20,9 @@ _Updated 2026-09-29 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-09-27) iPhone in Canada: Nikhil Gupta (ex-Apple) launching szn iMessage agent in October; own name/email/phone.
 
-**Feedback rows:** 47 (as of 2026-09-29)
+_Updated 2026-10-01 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-27) iThinkDiff (Usman Hussain): szn expected October via iMessage; no separate app; Apple services integration; no training on user data.
+
+**Feedback rows:** 48 (as of 2026-10-01)

@@ -160,5 +160,23 @@ _Updated 2026-09-30 weekday vault scan (+11 rows)._
 - (2026-09-29) wxw (HN): Muse better consumer play; Meta ad subsidy + distribution.
 - (2026-09-29) CTC: Muse on Ray-Ban glasses + Shopify visual search checkout.
 
-**Feedback rows:** 205 (as of 2026-09-30)
-**Kinds:** other=72, use-case=36, praise=15, complaint=28, comparison=12, bug=16, news=1
+_Updated 2026-10-01 vault scan (+16 rows)._
+
+**New this scan:**
+- (2026-09-28) Guardian (Johana Bhuiyan): Muse gave Matt Robb's home address to Marketplace buyers without consent; stranger showed up at door.
+- (2026-09-28) Matt Robb (via Guardian): Muse replied "I'm right here" to buyer; post-instruction still leaked address to 5 friends in test.
+- (2026-09-28) Muse self-admission (via Guardian): Conflated auto-reply approval with permission to share street address.
+- (2026-09-27) Ray Wong (via Memeburn): Deleted Muse after address-leak incident; safety concern.
+- (2026-09-30) Marko Nguyen (Memeburn): Design critique — Marketplace write action = same permission for address or "still available."
+- (2026-09-30) zcalvin (HN): Muse edits → Marketplace account suspension.
+- (2026-09-28) bluegatty (HN): "AI is not remotely ready for this" — memory/instruction critique.
+- (2026-09-28) Lance Ulanoff (TechRadar): Inbox draft-then-send flow; "Have I lost my mind?"
+- (2026-09-28) Lance Ulanoff (TechRadar): First AI used consistently; always-on notifications "invaluable."
+- (2026-09-28) Nicole Nguyen (Currency/WSJ): Unpaid bills + recipe from produce delivery; helpful+scary framing.
+- (2026-09-30) Andy Stone/Meta (TechCrunch): Messages integration requires Full Disk Access + connector; opt-in only.
+- (2026-09-30) Sarah Perez (TechCrunch): Trust as deciding factor for Meta's consumer AI market; reputation risk.
+- (2026-09-29) Jay Peters (Verge): Muse SMB expansion — Asana, Box, Canva, Figma, Notion, Slack, Stripe, Zoom + business IG/FB.
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Training on by default; Stripe Link single-use card; approval required.
+
+**Feedback rows:** 221 (as of 2026-10-01)
+**Kinds:** other=72, use-case=38, praise=16, complaint=33, comparison=12, bug=19, news=5

@@ -94,5 +94,23 @@
     "source": "web",
     "collected_at": "2026-09-30T14:00:00Z",
     "notes": "Yardwork: Hermes designed for unattended work; autonomy is the product."
+  },
+  {
+    "id": "f01aim01",
+    "agent": "hermes-agent",
+    "quote": "Bot Mode, on by default in the desktop app since August 31, turns Hermes profiles into named bots, each with its own model, memory, skills and routines… 250,000+ GitHub stars on September 30.",
+    "author": "berkkalelioglu",
+    "author_name": "Berk Kalelioğlu",
+    "date": "2026-09-30",
+    "url": "https://aimultiple.com/it/always-on-agents#hermes-botmode",
+    "kind": "news",
+    "tags": [
+      "bot-mode",
+      "stars",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-01T14:00:00Z",
+    "notes": "Sep 30 status snapshot."
   }
 ]

@@ -21,4 +21,9 @@ _Updated 2026-09-30 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-08-30) Yardwork: Hermes designed for unattended work; autonomy is the product.
 
-**Feedback rows:** 5 (as of 2026-09-30)
+_Updated 2026-10-01 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Bot Mode on by default since Aug 31; 250k+ GitHub stars as of Sep 30.
+
+**Feedback rows:** 6 (as of 2026-10-01)

@@ -51,4 +51,10 @@ _Updated 2026-09-30 weekday vault scan (+3 rows)._
 - (2026-09-02) VelvetShark: Daily OpenClaw since January; silent failures worst.
 - (2026-08-30) Yardwork: OpenClaw approvals off by default; safety is opt-in config.
 
-**Feedback rows:** 35 (as of 2026-09-30)
+_Updated 2026-10-01 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Hard to set up without server experience; 12-page config reference.
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Heartbeat ~100k tokens/30min; ~$19/day at Anthropic Opus 5.5; Claude subs banned since Apr 4.
+
+**Feedback rows:** 37 (as of 2026-10-01)

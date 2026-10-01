@@ -117,5 +117,11 @@ _Updated 2026-09-30 weekday vault scan (+8 rows)._
 - (2026-08-30) Yardwork: Grok Bot shared-computer model; no bot-level isolation.
 - (2026-09-23) Jay Eskenazi (BI): Grok Bot itinerary looked good on paper; less impressive on ground.
 
-**Feedback rows:** 1202 (as of 2026-09-30)
+_Updated 2026-10-01 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Bots share one computer; no way to view or edit Grok Bot's memory.
+- (2026-09-30) Berk Kalelioğlu (AIMultiple): Hourly routine or busy Slack trigger can burn a week of usage in a day.
+
+**Feedback rows:** 1204 (as of 2026-10-01)
 

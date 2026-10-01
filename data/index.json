@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-10-01",
   "agent_count": 137,
   "feedback_count": 5797,
-  "confirmed": 110,
-  "stretch": 27,
+  "confirmed": 111,
+  "stretch": 26,
   "agents": [
     {
       "slug": "aeon",
@@ -29,7 +29,7 @@
     {
       "slug": "ako",
       "name": "Ako",
-      "status": "stretch",
+      "status": "confirmed",
       "site": "https://withako.com/",
       "feedback_count": 93,
       "public_signal": "low",

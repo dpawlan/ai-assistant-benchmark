@@ -132,8 +132,10 @@ export interface Evidence {
   date: string;
   /** Timing signals from the message thread. Absent when the observation was made outside the thread (e.g. app setup). */
   signals?: EvidenceSignals;
-  /** Contributor handle when the run was contributed through the skill. */
+  /** Contributor handle (or name) when the run was contributed rather than run by the benchmark. */
   tester?: string;
+  /** Link to a third-party write-up the observation came from, when there is no thread. */
+  source_url?: string;
   contribution?: ContributionProvenance;
   ranking_eligible?: boolean;
   /** Where the observation was made when there is no thread behind it. */

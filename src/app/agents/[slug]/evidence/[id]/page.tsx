@@ -131,7 +131,7 @@ export default async function EvidencePage({ params }: Props) {
           </div>
           <div className="ev-private-row">
             <span className="il">Where</span>
-            <span className="iv">{ev.context ?? 'Outside the message thread'}</span>
+            <span className="iv">{ev.context ?? 'Outside the message thread'}{ev.source_url && <> <a href={ev.source_url} target="_blank" rel="noopener noreferrer">Source</a></>}</span>
           </div>
           <div className="ev-private-row">
             <span className="il">How it ended</span>

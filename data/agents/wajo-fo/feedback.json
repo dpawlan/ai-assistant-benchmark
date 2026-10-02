@@ -1731,5 +1731,45 @@
     "source": "web",
     "collected_at": "2026-09-11T14:00:42Z",
     "notes": "ChatableApps review (~1 week before scan): event booking + vendor coordination praise."
+  },
+  {
+    "id": "f02startupfortune01",
+    "agent": "wajo-fo",
+    "quote": "104 tasks Fo 71% vs OpenClaw 42%; safety 94% vs 74%.",
+    "author": "walterschulze",
+    "author_name": "Walter Schulze",
+    "date": "2026-09-30",
+    "url": "https://startupfortune.com/wajos-fo-agent-can-call-email-and-pay-on-its-own-beating-rivals-at-getting-things-done/",
+    "kind": "comparison",
+    "tags": [
+      "launch",
+      "benchmark",
+      "vs-openclaw",
+      "human-handoff",
+      "payments"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "StartupFortune: Fo 71% vs OpenClaw 42%; numbers not independently reproduced."
+  },
+  {
+    "id": "f02wajoblog01",
+    "agent": "wajo-fo",
+    "quote": "Fo 71%/94% vs OpenClaw 42%/74% vs Hermes 35%/64%.",
+    "author": "wajo",
+    "author_name": "Wajo team",
+    "date": "2026-09-26",
+    "url": "https://wajo.ai/blog/trust-and-task-completion/",
+    "kind": "comparison",
+    "tags": [
+      "benchmark",
+      "trust",
+      "completion",
+      "vs-openclaw",
+      "vs-hermes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Wajo blog: vendor self-eval benchmark numbers."
   }
 ]

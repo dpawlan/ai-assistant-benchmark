@@ -26,4 +26,10 @@ _Updated 2026-10-01 vault scan (+1 row)._
 **New this scan:**
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Bot Mode on by default since Aug 31; 250k+ GitHub stars as of Sep 30.
 
-**Feedback rows:** 6 (as of 2026-10-01)
+_Updated 2026-10-02 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-01) Gizmodo (Florian Gray): Hermes stronger for learning/memory/safer defaults vs OpenClaw.
+- (2026-09-27) DEV (Rello): Persona rules vs code enforcement lesson.
+
+**Feedback rows:** 8 (as of 2026-10-02)

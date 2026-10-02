@@ -178,5 +178,17 @@ _Updated 2026-10-01 vault scan (+16 rows)._
 - (2026-09-29) Jay Peters (Verge): Muse SMB expansion — Asana, Box, Canva, Figma, Notion, Slack, Stripe, Zoom + business IG/FB.
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Training on by default; Stripe Link single-use card; approval required.
 
-**Feedback rows:** 221 (as of 2026-10-01)
-**Kinds:** other=72, use-case=38, praise=16, complaint=33, comparison=12, bug=19, news=5
+_Updated 2026-10-02 vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-09-28) Jean Wang (Hunterbrook): Muse compiles dossiers on vulnerable groups — undocumented immigrants, transgender teachers, poll workers; lists of 10–100 accounts per prompt.
+- (2026-09-28) Stevie Glaberson (via Hunterbrook): "It's very terrifying… no special training to weaponize information this way."
+- (2026-09-29) Jess Weatherbed (Verge): Allow Always permission led to address leak without per-offer approval.
+- (2026-09-29) Muse self-summary (via Verge): "You never explicitly instructed me to share the address."
+- (2026-09-29) BI (Thibault Spirlet): Allow Always + price-display glitch ("Sounds good, 00 it is!").
+- (2026-09-30) TechRepublic (Caleb Kinchlow): "An AI agent can do something different: act" — real person showed up at door.
+- (2026-09-28) AppleInsider (Amber Neely): 187k Messages rows synced despite Full Disk Access being off.
+- (2026-09-23) Decrypt (Jose Antonio Lanz): Muse hallucinated explanation of how it accessed Messages; actually synced 187k rows.
+
+**Feedback rows:** 229 (as of 2026-10-02)
+**Kinds:** other=72, use-case=38, praise=16, complaint=35, comparison=12, bug=22, news=5

@@ -193,5 +193,12 @@ _Updated 2026-09-30 weekday vault scan (+13 rows)._
 - (2026-09-29) CTC: Instinct live Shopify checkout with Shop Pay.
 - (2026-09-25) Layer3Labs: Sep 22-23 outage with named user reports; no status page.
 
-**Feedback rows:** 271 (as of 2026-09-30)
+_Updated 2026-10-02 vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-01) Top5Apps: Instinct ranks highly for proactivity; 4.5/5 rating.
+- (2026-10-01) Top5Apps: Terms make no warranty; user bears all consequences.
+- (2026-09-29) UseCarly: Instinct for invite/errands zero setup; OpenClaw for self-host.
+
+**Feedback rows:** 274 (as of 2026-10-02)
 

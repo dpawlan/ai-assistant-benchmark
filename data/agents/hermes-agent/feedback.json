@@ -112,5 +112,42 @@
     "source": "web",
     "collected_at": "2026-10-01T14:00:00Z",
     "notes": "Sep 30 status snapshot."
+  },
+  {
+    "id": "f02gizmodo01",
+    "agent": "hermes-agent",
+    "quote": "OpenClaw stronger for chat channels/multi-agent/skill library; Hermes stronger for learning/memory/safer defaults.",
+    "author": "floriangray",
+    "author_name": "Florian Gray",
+    "date": "2026-10-01",
+    "url": "https://gizmodo.com/best-web-hosting/openclaw-vs-hermes",
+    "kind": "comparison",
+    "tags": [
+      "vs-openclaw",
+      "self-host",
+      "skills",
+      "memory"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Gizmodo OpenClaw vs Hermes comparison."
+  },
+  {
+    "id": "f02devto01",
+    "agent": "hermes-agent",
+    "quote": "Writing a clear rule into a persona file is not the same as enforcing it; move enforcement to code before the model gets a turn.",
+    "author": "rello1",
+    "author_name": "UnitBuilds (Rello)",
+    "date": "2026-09-27",
+    "url": "https://dev.to/rello1/a-config-flag-told-me-telegram-was-off-my-gateway-log-said-otherwise-l22#hermes",
+    "kind": "use_case",
+    "tags": [
+      "persona",
+      "guardrails",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "DEV: persona rules vs code enforcement lesson."
   }
 ]

@@ -25,4 +25,10 @@ _Updated 2026-10-01 vault scan (+1 row)._
 **New this scan:**
 - (2026-09-27) iThinkDiff (Usman Hussain): szn expected October via iMessage; no separate app; Apple services integration; no training on user data.
 
-**Feedback rows:** 48 (as of 2026-10-01)
+_Updated 2026-10-02 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-30) UseCarly: Most polished assistant-with-its-own-number; one to watch in October for phone-call errands.
+- (2026-09-28) Moneycontrol: Ex-Apple Intelligence engineer; own name/email/phone; privacy claim.
+
+**Feedback rows:** 50 (as of 2026-10-02)

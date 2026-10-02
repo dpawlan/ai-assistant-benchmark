@@ -58,5 +58,75 @@
     "outcome": "pass",
     "notes": "Weekday 7am briefing fired on time both mornings as one tight message with calendar, replies owed and weather; flagged a likely scam email.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-11-5c2e8c"
+  },
+  {
+    "id": "wajo-fo-2026-09-21-c3004c",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-09-21",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged unread emails with deadlines and a thin RSVP list for an upcoming event on its own, between the scheduled morning briefings.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-21-c3004c"
+  },
+  {
+    "id": "wajo-fo-2026-09-25-33ac40",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-09-25",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Reads calendar, inbox and Drive for the briefings and tracks replies owed, but the set of connected apps is thin next to peers.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-09-25-33ac40"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-b85b8e",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Overlooked the morning nonstops until corrected, then priced them over budget and offered only a 6am one-stop fare under $400.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-b85b8e"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-797016",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "First pick failed the shop's delivery minimum, so it phoned two florists for real totals and then vetted the checkout the user found.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-797016"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-0af24a",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Phoned two florists, came back with each shop's delivery minimum and fee within three minutes, and warned off a bad order.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-0af24a"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-84bcbc",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-10-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Staged every booking and order and asked before paying, and when calendar access lapsed it said so and sent weather only.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-84bcbc"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-a65995",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Spotted the marathon weekend sellout and found a free-cancellation room a mile north under budget, but could not take it to booking.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-a65995"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-10-02-797016",
+  "agent": "wajo-fo",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 29,
+    "my_messages": 9,
+    "agent_messages": 20,
+    "first_reply_s": 18,
+    "duration_min": 17,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:30:10.549Z"
+}

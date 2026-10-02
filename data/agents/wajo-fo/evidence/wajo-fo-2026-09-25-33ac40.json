@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-09-25-33ac40",
+  "agent": "wajo-fo",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-09-25",
+  "signals": {
+    "turns": 1,
+    "my_messages": 0,
+    "agent_messages": 1,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-10-02T14:30:10.550Z"
+}

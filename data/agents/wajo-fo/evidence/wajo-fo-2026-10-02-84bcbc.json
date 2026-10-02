@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-10-02-84bcbc",
+  "agent": "wajo-fo",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 55,
+    "my_messages": 16,
+    "agent_messages": 39,
+    "first_reply_s": 16,
+    "duration_min": 42,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:30:10.550Z"
+}

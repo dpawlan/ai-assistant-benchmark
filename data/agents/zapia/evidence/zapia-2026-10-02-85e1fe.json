@@ -1,0 +1,19 @@
+{
+  "id": "zapia-2026-10-02-85e1fe",
+  "agent": "zapia",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 8,
+    "my_messages": 4,
+    "agent_messages": 4,
+    "first_reply_s": 300,
+    "duration_min": 11,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:56:22.133Z"
+}

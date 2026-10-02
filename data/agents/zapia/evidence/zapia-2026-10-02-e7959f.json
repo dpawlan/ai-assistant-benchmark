@@ -1,0 +1,19 @@
+{
+  "id": "zapia-2026-10-02-e7959f",
+  "agent": "zapia",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 2,
+    "my_messages": 1,
+    "agent_messages": 1,
+    "first_reply_s": 180,
+    "duration_min": 3,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:56:22.133Z"
+}

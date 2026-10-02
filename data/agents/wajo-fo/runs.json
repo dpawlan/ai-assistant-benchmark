@@ -118,5 +118,15 @@
     "outcome": "pass",
     "notes": "Staged every booking and order and asked before paying, and when calendar access lapsed it said so and sent weather only.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-84bcbc"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-a65995",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Spotted the marathon weekend sellout and found a free-cancellation room a mile north under budget, but could not take it to booking.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-a65995"
   }
 ]

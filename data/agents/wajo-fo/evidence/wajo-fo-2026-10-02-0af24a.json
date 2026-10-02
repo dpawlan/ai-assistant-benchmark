@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-10-02-0af24a",
+  "agent": "wajo-fo",
+  "category": "phone_calls",
+  "protocol": "task",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 18,
+    "my_messages": 6,
+    "agent_messages": 12,
+    "first_reply_s": 31,
+    "duration_min": 10,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:30:10.549Z"
+}

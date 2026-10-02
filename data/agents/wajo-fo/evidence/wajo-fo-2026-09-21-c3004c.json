@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-09-21-c3004c",
+  "agent": "wajo-fo",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-09-21",
+  "signals": {
+    "turns": 10,
+    "my_messages": 0,
+    "agent_messages": 10,
+    "first_reply_s": null,
+    "duration_min": 4358,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-10-02T14:30:10.549Z"
+}

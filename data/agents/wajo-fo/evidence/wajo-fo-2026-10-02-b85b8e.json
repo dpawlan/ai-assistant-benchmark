@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-10-02-b85b8e",
+  "agent": "wajo-fo",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 14,
+    "my_messages": 4,
+    "agent_messages": 10,
+    "first_reply_s": 34,
+    "duration_min": 14,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:30:10.549Z"
+}

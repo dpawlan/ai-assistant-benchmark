@@ -1513,8 +1513,8 @@
       "icon": "/logos/wajo-fo.png",
       "kind": "general",
       "access": {
-        "pricing": "freemium",
-        "price": "Free · Pro $99/mo (waitlist)",
+        "pricing": "waitlist",
+        "price": "Invite-only; free tiers (Fo Mini, OG Fo), Pro by contact; no price stated",
         "regions": "Not stated",
         "channels": [
           "Email",
@@ -1522,7 +1522,7 @@
           "SMS",
           "Phone"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-10-01"
       }
     },
     {

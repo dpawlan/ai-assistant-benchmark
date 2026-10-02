@@ -128,5 +128,15 @@
     "outcome": "fail",
     "notes": "Spotted the marathon weekend sellout and found a free-cancellation room a mile north under budget, but could not take it to booking.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-a65995"
+  },
+  {
+    "id": "wajo-fo-2026-10-02-23680b",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Picked a real same-day florist and flagged a second shop's weak reviews, but its first choice could not deliver within the $50 budget.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-02-23680b"
   }
 ]

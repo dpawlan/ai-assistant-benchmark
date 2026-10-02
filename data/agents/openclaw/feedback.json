@@ -709,5 +709,61 @@
     "source": "web",
     "collected_at": "2026-10-01T14:00:00Z",
     "notes": "Always-on cost + Anthropic subscription ban callout."
+  },
+  {
+    "id": "f02usecarly01",
+    "agent": "openclaw",
+    "quote": "CVE-2026-25253 / malicious skills / Meta researcher inbox bulk-delete until killed Mac mini.",
+    "author": "usecarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-29",
+    "url": "https://www.usecarly.com/blog/instinct-vs-openclaw/#openclaw-risk",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "skills",
+      "autonomy"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "UseCarly OpenClaw security anecdote; CVE + skill exploit."
+  },
+  {
+    "id": "f02gizmodo01",
+    "agent": "openclaw",
+    "quote": "OpenClaw stronger for chat channels/multi-agent/skill library; Hermes stronger for learning/memory/safer defaults.",
+    "author": "floriangray",
+    "author_name": "Florian Gray",
+    "date": "2026-10-01",
+    "url": "https://gizmodo.com/best-web-hosting/openclaw-vs-hermes",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "self-host",
+      "skills",
+      "memory"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Gizmodo OpenClaw vs Hermes comparison."
+  },
+  {
+    "id": "f02devto01",
+    "agent": "openclaw",
+    "quote": "Telegram flag off but cron outbound kept firing via stale bots.",
+    "author": "rello1",
+    "author_name": "UnitBuilds (Rello)",
+    "date": "2026-09-27",
+    "url": "https://dev.to/rello1/a-config-flag-told-me-telegram-was-off-my-gateway-log-said-otherwise-l22",
+    "kind": "bug",
+    "tags": [
+      "telegram",
+      "config",
+      "cron",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "DEV config/cron Telegram reliability bug."
   }
 ]

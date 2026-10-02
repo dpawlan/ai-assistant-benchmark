@@ -29070,5 +29070,24 @@
     "source": "web",
     "collected_at": "2026-10-01T14:00:00Z",
     "notes": "Quota burn risk for always-on routines."
+  },
+  {
+    "id": "f02medium01",
+    "agent": "grok-bot",
+    "quote": "Burned weekly Pro allowance in about an hour with many bots active; all bots share one cloud computer so sessions/files/credentials visible to every bot.",
+    "author": "hardiksheth",
+    "author_name": "Hardik Sheth",
+    "date": "2026-10-01",
+    "url": "https://hardik-sheth.medium.com/i-built-a-14-bot-company-in-grok-bot-what-worked-what-burned-my-quota-and-when-id-skip-it-40643bc87742",
+    "kind": "use_case",
+    "tags": [
+      "quota",
+      "multi-bot",
+      "shared-computer",
+      "coordination"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Medium: 14-bot setup; quota burn + shared computer visibility."
   }
 ]

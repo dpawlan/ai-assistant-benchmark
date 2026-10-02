@@ -123,5 +123,10 @@ _Updated 2026-10-01 vault scan (+2 rows)._
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Bots share one computer; no way to view or edit Grok Bot's memory.
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Hourly routine or busy Slack trigger can burn a week of usage in a day.
 
-**Feedback rows:** 1204 (as of 2026-10-01)
+_Updated 2026-10-02 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-01) Hardik Sheth (Medium): 14-bot setup burned weekly Pro allowance in an hour; all bots share one cloud computer.
+
+**Feedback rows:** 1205 (as of 2026-10-02)
 

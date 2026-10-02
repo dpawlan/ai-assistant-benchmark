@@ -4678,5 +4678,156 @@
     "source": "web",
     "collected_at": "2026-10-01T14:00:00Z",
     "notes": "AIMultiple always-on comparison updated Sep 30."
+  },
+  {
+    "id": "f02hntrbrk01",
+    "agent": "muse",
+    "quote": "Muse can be easily prompted to compile dossiers on Facebook and Instagram accounts belonging to members of vulnerable groups – including undocumented immigrants, transgender teachers, poll workers… Muse complied. The agent delivered lists ranging from 10 to 100 accounts per prompt.",
+    "author": "jeanwang",
+    "author_name": "Jean Wang",
+    "date": "2026-09-28",
+    "url": "https://hntrbrk.com/breaking-news/muse-doxxing",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "doxxing",
+      "social-graph",
+      "safety",
+      "surveillance"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Hunterbrook third-party doxxing investigation; distinct from Marketplace address-leak."
+  },
+  {
+    "id": "f02hntrbrk02",
+    "agent": "muse",
+    "quote": "It's very terrifying… You don't need any special training to weaponize information in this way … It puts vulnerable people… in extreme danger.",
+    "author": "stevieglaberson",
+    "author_name": "Stevie Glaberson (via Hunterbrook)",
+    "date": "2026-09-28",
+    "url": "https://hntrbrk.com/breaking-news/muse-doxxing#glaberson",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "expert",
+      "safety"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Expert quote from Hunterbrook doxxing investigation."
+  },
+  {
+    "id": "f02verge02",
+    "agent": "muse",
+    "quote": "The first thing that popped up from Muse when asking it to handle my Facebook marketplace was an option with 'Allow One Time' or 'Allow Always'. I clicked the latter thinking it would still send approvals to accept offers later down the line (it didn't so be careful).",
+    "author": "jessweatherbed",
+    "author_name": "Jess Weatherbed (Matt Robb via)",
+    "date": "2026-09-29",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+    "kind": "bug",
+    "tags": [
+      "marketplace",
+      "permissions",
+      "allow-always",
+      "address-leak"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Verge Marketplace permissions UI/address-leak coverage."
+  },
+  {
+    "id": "f02verge03",
+    "agent": "muse",
+    "quote": "You never explicitly instructed me to share the address with buyers — and I never asked you for consent to do so.",
+    "author": "muse-self",
+    "author_name": "Muse (self-summary) via Jess Weatherbed",
+    "date": "2026-09-29",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns#admission",
+    "kind": "bug",
+    "tags": [
+      "marketplace",
+      "consent",
+      "address-leak"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Muse self-admission from Verge Marketplace coverage."
+  },
+  {
+    "id": "f02bi01",
+    "agent": "muse",
+    "quote": "Sounds good, 00 it is!",
+    "author": "thibaultspirlet",
+    "author_name": "Thibault Spirlet (Matt Robb via)",
+    "date": "2026-09-29",
+    "url": "https://www.businessinsider.com/muse-agent-facebook-marketplace-address-setting-meta-always-allow-2026-9",
+    "kind": "bug",
+    "tags": [
+      "marketplace",
+      "allow-always",
+      "price-display",
+      "permissions"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "BI: Allow Always + price-display glitch; same address-leak incident."
+  },
+  {
+    "id": "f02techrepublic01",
+    "agent": "muse",
+    "quote": "An AI agent can do something different: act… In this case, an AI-handled conversation ended with a real person showing up at someone's apartment building.",
+    "author": "calebkinchlow",
+    "author_name": "Caleb Kinchlow",
+    "date": "2026-09-30",
+    "url": "https://www.techrepublic.com/article/news-meta-ai-facebook-marketplace-buyer-seller-address/",
+    "kind": "complaint",
+    "tags": [
+      "marketplace",
+      "agentic-risk",
+      "allow-always",
+      "real-world"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "TechRepublic agentic-risk framing of address-leak."
+  },
+  {
+    "id": "f02appleinsider01",
+    "agent": "muse",
+    "quote": "After doing a little digging, Aten says Muse synced 187,000 lines from his Messages database, despite Full Disk Access being off… He had not given Muse permission to access Messages.",
+    "author": "amberneely",
+    "author_name": "Amber Neely (citing Jason Aten)",
+    "date": "2026-09-28",
+    "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+    "kind": "complaint",
+    "tags": [
+      "messages",
+      "permissions",
+      "macos",
+      "privacy"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "AppleInsider: 187k Messages rows synced despite permissions off."
+  },
+  {
+    "id": "f02decrypt01",
+    "agent": "muse",
+    "quote": "Aten asked Muse how it knew. It told him… 'It's the incoming notification stream only, not access to your texts.' That wasn't true. Muse had actually synced… more than 187,000 rows of his message history.",
+    "author": "joseantoniolanz",
+    "author_name": "Jose Antonio Lanz",
+    "date": "2026-09-23",
+    "url": "https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how",
+    "kind": "bug",
+    "tags": [
+      "messages",
+      "hallucination",
+      "permissions",
+      "privacy"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Decrypt: Muse hallucinated explanation of how it accessed Messages."
   }
 ]

@@ -1225,5 +1225,43 @@
     "source": "news",
     "collected_at": "2026-10-01T14:00:00Z",
     "notes": "Pre-launch Oct coverage; light first-person use."
+  },
+  {
+    "id": "f02usecarly01",
+    "agent": "szn",
+    "quote": "Most polished assistant-with-its-own-number; one to watch in October for phone-call errands.",
+    "author": "usecarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-30",
+    "url": "https://www.usecarly.com/blog/szn-ai/",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "phone",
+      "identity",
+      "october-launch"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "UseCarly szn preview; polished + own phone number."
+  },
+  {
+    "id": "f02moneycontrol01",
+    "agent": "szn",
+    "quote": "Former Apple Intelligence engineer launches AI agent that can act on your behalf in iMessage on iPhone, iPad and Mac... own name, email, phone and personal data not used for training.",
+    "author": "mctechdesk",
+    "author_name": "MC Tech Desk",
+    "date": "2026-09-28",
+    "url": "https://www.moneycontrol.com/technology/former-apple-intelligence-engineer-launches-ai-agent-that-can-act-on-your-behalf-in-imessage-on-iphone-ipad-and-mac-article-14039852.html",
+    "kind": "news",
+    "tags": [
+      "imessage",
+      "ex-apple",
+      "identity",
+      "privacy-claim"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-02T14:00:00Z",
+    "notes": "Moneycontrol: ex-Apple engineer; own identity + privacy claim (citing Gurman)."
   }
 ]

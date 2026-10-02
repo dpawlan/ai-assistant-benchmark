@@ -20,3 +20,11 @@ _Updated 2026-09-11 weekday vault scan (+2 rows)._
 **New this scan:**
 - (2026-09-04) Elijah Jackson: Booking a last-minute event was a nightmare until I tried Wajo. The proactive agent lined up venues, emailed vendors, and kept all calendars
 - (2026-09-04) Sophia Williams: I run a three-location cafe and Wajo has become our operations backbone. A shared agent coordinates supplier onboarding, handles invoices, a
+
+_Updated 2026-10-02 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-30) StartupFortune: Fo 71% vs OpenClaw 42% completion; 94% vs 74% safety (vendor self-eval).
+- (2026-09-26) Wajo blog: Trust and task completion benchmark — Fo vs OpenClaw vs Hermes (vendor self-eval).
+
+**Feedback rows:** 71 (as of 2026-10-02)

@@ -14,7 +14,8 @@ export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[
   const [opinion, setOpinion] = useState(false);
   const [all, setAll] = useState(false);
   const cohort = all ? [...TRAVEL_PILOT, ...TRAVEL_NEXT] : TRAVEL_PILOT;
-  const shown = [...cohort.flatMap(slug => agents.filter(a => a.slug === slug)), ...agents.filter(a => !cohort.includes(a.slug) && a.travel.completed > 0)];
+  const shown = [...cohort.flatMap(slug => agents.filter(a => a.slug === slug)), ...agents.filter(a => !cohort.includes(a.slug) && a.travel.completed > 0)]
+    .sort((a, b) => (b.travel.score ?? -1) - (a.travel.score ?? -1) || a.name.localeCompare(b.name));
 
   return <>
     <div className="page-head home-head">

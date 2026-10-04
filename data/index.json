@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-01",
-  "agent_count": 137,
+  "updated": "2026-10-04",
+  "agent_count": 139,
   "feedback_count": 5797,
-  "confirmed": 111,
-  "stretch": 26,
+  "confirmed": 112,
+  "stretch": 27,
   "agents": [
     {
       "slug": "aeon",
@@ -3034,6 +3034,48 @@
           "iOS app"
         ],
         "checked": "2026-09-29"
+      }
+    },
+    {
+      "slug": "dots",
+      "name": "Dots",
+      "status": "confirmed",
+      "site": "https://openai.com/index/introducing-dots/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Personal agentic assistants from OpenAI",
+      "icon": "/logos/dots.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "Included with ChatGPT Pro and Business Premium; no separate price stated",
+        "regions": "Eligible markets, not listed",
+        "channels": [
+          "ChatGPT app",
+          "Slack",
+          "Microsoft Teams"
+        ],
+        "checked": "2026-10-04"
+      }
+    },
+    {
+      "slug": "gleeday",
+      "name": "Gleeday",
+      "status": "stretch",
+      "site": "https://www.gleeday.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "The AI-powered digital invitation platform",
+      "icon": "/logos/gleeday.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free; site says $0 with no hidden fees",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-10-04"
       }
     }
   ]

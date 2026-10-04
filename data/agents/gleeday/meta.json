@@ -1,0 +1,31 @@
+{
+  "slug": "gleeday",
+  "name": "Gleeday",
+  "site": "https://www.gleeday.com/",
+  "handles": [],
+  "status": "stretch",
+  "product_class": null,
+  "notes": "AI event planner and digital-invitation platform: creates invitations, manages RSVPs, shares registries and guides guests, and links out to Amazon, Target, Google Maps, Canva and Pinterest for venues, vendors and party supplies. Requested via the form (issue #462), which asks for a real birthday or baby-shower scenario.",
+  "likely_applicable": [
+    "recommendation_quality",
+    "chained_tasks",
+    "memory",
+    "proactive_behavior",
+    "online_task",
+    "purchasing",
+    "third_party_integrations"
+  ],
+  "public_signal": "low",
+  "tagline": "The AI-powered digital invitation platform",
+  "icon": "/logos/gleeday.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free; site says $0 with no hidden fees",
+    "regions": "Not stated",
+    "channels": [
+      "Web app"
+    ],
+    "checked": "2026-10-04"
+  }
+}

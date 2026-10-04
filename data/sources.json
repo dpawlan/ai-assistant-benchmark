@@ -3528,6 +3528,53 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-29 from a request-form submission (issue #436). Domain/handle queries only."
+    },
+    "dots": {
+      "name": "Dots",
+      "handles": [],
+      "domain": "openai.com",
+      "x_queries": [
+        "\"OpenAI Dots\"",
+        "\"introducing-dots\""
+      ],
+      "reddit_queries": [
+        "\"OpenAI Dots\""
+      ],
+      "hn_queries": [
+        "\"OpenAI Dots\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "introducing-dots",
+        "openai dots"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-04 from a request-form submission (issue #465). Generic product name on a huge domain: queries and match are phrase-only, never bare 'dots' or 'openai.com'."
+    },
+    "gleeday": {
+      "name": "Gleeday",
+      "handles": [],
+      "domain": "gleeday.com",
+      "x_queries": [
+        "\"gleeday.com\"",
+        "\"Gleeday\""
+      ],
+      "reddit_queries": [
+        "\"gleeday.com\"",
+        "\"Gleeday\""
+      ],
+      "hn_queries": [
+        "\"gleeday.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "gleeday.com",
+        "gleeday"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-04 from a request-form submission (issue #462). Domain and distinctive name only; handles unknown."
     }
   },
   "_redact_terms": [

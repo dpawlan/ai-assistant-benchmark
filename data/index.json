@@ -3048,8 +3048,8 @@
       "kind": "general",
       "access": {
         "pricing": "paid",
-        "price": "Included with ChatGPT Pro and Business Premium; no separate price stated",
-        "regions": "Eligible markets, not listed",
+        "price": "First dot included with ChatGPT Pro, Business Premium and Enterprise; extra dots not yet priced",
+        "regions": "Eligible markets; EEA, Switzerland and UK excluded for Pro at launch",
         "channels": [
           "ChatGPT app",
           "Slack",

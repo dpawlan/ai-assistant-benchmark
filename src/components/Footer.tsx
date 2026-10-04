@@ -7,7 +7,7 @@ export function Footer({ updated }: { updated: string }) {
   const pathname = usePathname();
   const travel = pathname.startsWith('/benchmarks/travel');
   const work = pathname.startsWith('/benchmarks/work');
-  const dimensionsHref = travel ? '/benchmarks/travel/dimensions' : '/dimensions';
+  const dimensionsHref = travel ? '/benchmarks/travel/dimensions' : work ? '/benchmarks/work/dimensions' : '/dimensions';
   return (
     <footer>
       <div className="hr" />
@@ -16,8 +16,8 @@ export function Footer({ updated }: { updated: string }) {
       </p>
       <p>Last updated {updated}.</p>
       <p className="links">
-        <Link href="/dimensions#how">How scoring works</Link>
-        {work ? <span aria-disabled="true" title="Coming soon">Dimensions</span> : <Link href={dimensionsHref}>Dimensions</Link>}
+        <Link href={`${dimensionsHref}#how`}>How scoring works</Link>
+        <Link href={dimensionsHref}>Dimensions</Link>
         <Link href="/about">About</Link>
         <Link href="/request">Request a test</Link>
         <Link href="/contribute">Contribute runs</Link>

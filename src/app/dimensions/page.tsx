@@ -1,11 +1,12 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { BenchmarkNav } from '@/components/BenchmarkNav';
 import { CATEGORY_DESCRIPTIONS, getAgents, getCategories, getTaskSet } from '@/lib/data';
 import { Agent, Category } from '@/lib/types';
 
 export const metadata: Metadata = {
   title: 'Dimensions',
-  description: 'The 15 dimensions every assistant is scored on. Each one is a published test and a ranking.',
+  description: 'Explore General assistant dimensions, published tests, scoring anchors and results.',
 };
 
 export default function CategoriesPage() {
@@ -20,6 +21,8 @@ export default function CategoriesPage() {
         <p className="page-sub">The same {categories.length} tests for every assistant. Open one for the task and the ranking.</p>
       </div>
 
+      <BenchmarkNav active="general" section="dimensions" />
+
       <section className="shelf">
         <h2 className="shelf-title">
           <span className="shelf-head">{categories.length} dimensions</span>
@@ -33,9 +36,11 @@ export default function CategoriesPage() {
 
       <section className="how" id="how">
         <h2 className="ag-h2">How scoring works</h2>
+        <BenchmarkNav active="general" section="scoring" />
         <p className="ag-sub">
           One published task per dimension, scored 1–10 against written anchors after real use. No score without a logged run.
         </p>
+        <p className="ag-sub">Travel remains part of General. Its score draws from the <Link href="/benchmarks/travel/dimensions#how">detailed Travel benchmark</Link> once all travel dimensions are tested; existing scores remain until then.</p>
         <div className="info-list">
           <div className="info-row">
             <span className="il">A tested score</span>

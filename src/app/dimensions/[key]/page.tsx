@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { BenchmarkNav } from '@/components/BenchmarkNav';
 import { notFound } from 'next/navigation';
 import { CATEGORY_DESCRIPTIONS, formatDate, getAgents, getCategories, getCategory, getQuotesForCategory, getTask, rankByCategory, rankByOpinion } from '@/lib/data';
 import { AgentIcon } from '@/components/AgentIcon';
@@ -61,6 +62,8 @@ export default async function CategoryPage({ params }: Props) {
         <h1 className="page-title">{category.label}</h1>
         <p className="page-sub">{CATEGORY_DESCRIPTIONS[key]}</p>
       </div>
+
+      <BenchmarkNav active="general" section="dimensions" />
 
       {category.scored === false && (
         <p className="ag-sub" style={{ marginTop: 10 }}>

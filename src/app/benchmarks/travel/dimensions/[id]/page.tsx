@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { BenchmarkNav } from '@/components/BenchmarkNav';
 import { getAgents } from '@/lib/data';
 import { ScoreCell } from '@/components/ScoreCell';
 import { notFound } from 'next/navigation';
@@ -19,6 +20,7 @@ export default async function TravelDimensionPage({ params }: Props) {
   return <div className="wrap">
     <div className="ag-top"><Link className="back" href="/benchmarks/travel/dimensions">← Travel dimensions</Link></div>
     <div className="page-head"><p className="cat-kicker">Dimension {task.id} of {protocol.length} · Draft</p><h1 className="page-title">{task.title}</h1><p className="page-sub">{task.measures}</p></div>
+    <BenchmarkNav active="travel" section="dimensions" />
     <section className="task-card"><div className="task-head"><h2 className="ag-h2">The test</h2></div><blockquote className="task-prompt">{task.prompt}</blockquote>
       {task.setup && <><h3 className="group-title">Setup</h3><p className="ag-sub">{task.setup}</p></>}
       <h3 className="group-title">Passes when</h3><ul className="task-list">{task.pass.map((p, i) => <li key={i}>{p.replace(/^•\s*/, '')}</li>)}</ul>

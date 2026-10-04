@@ -1,11 +1,15 @@
 import Link from 'next/link';
 
-export function BenchmarkNav({ active }: { active: 'general' | 'travel' | 'work' }) {
+export function BenchmarkNav({ active, section = 'assistants' }: { active: 'general' | 'travel' | 'work'; section?: 'assistants' | 'dimensions' | 'scoring' }) {
+  const href = (category: 'general' | 'travel' | 'work') => {
+    const base = category === 'general' ? '' : `/benchmarks/${category}`;
+    return section === 'assistants' ? base || '/' : `${base}/dimensions${section === 'scoring' ? '#how' : ''}`;
+  };
   return (
     <nav className="kind-bar" aria-label="Assistant category">
-      <Link href="/" className={`kind${active === 'general' ? ' on' : ''}`} aria-current={active === 'general' ? 'page' : undefined}>General</Link>
-      <Link href="/benchmarks/travel" className={`kind${active === 'travel' ? ' on' : ''}`} aria-current={active === 'travel' ? 'page' : undefined}>Travel</Link>
-      <Link href="/benchmarks/work" className={`kind${active === 'work' ? ' on' : ''}`} aria-current={active === 'work' ? 'page' : undefined}>Work <span className="kind-n">Coming soon</span></Link>
+      <Link href={href('general')} className={`kind${active === 'general' ? ' on' : ''}`} aria-current={active === 'general' ? 'page' : undefined}>General</Link>
+      <Link href={href('travel')} className={`kind${active === 'travel' ? ' on' : ''}`} aria-current={active === 'travel' ? 'page' : undefined}>Travel</Link>
+      <Link href={href('work')} className={`kind${active === 'work' ? ' on' : ''}`} aria-current={active === 'work' ? 'page' : undefined}>Work <span className="kind-n">Coming soon</span></Link>
     </nav>
   );
 }
@@ -17,5 +21,5 @@ const descriptions = {
 };
 
 export function CategoryDescription({ category }: { category: keyof typeof descriptions }) {
-  return <p className="category-description">{descriptions[category]}{category !== 'work' && <> <Link href={category === 'travel' ? '/benchmarks/travel/dimensions' : '/dimensions'}>Dimensions</Link></>}</p>;
+  return <p className="category-description">{descriptions[category]}{' '}<Link href={category === 'general' ? '/dimensions' : `/benchmarks/${category}/dimensions`}>Dimensions</Link></p>;
 }

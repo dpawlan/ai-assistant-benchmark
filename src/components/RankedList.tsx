@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Suspense, useMemo, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { Agent, Category } from '@/lib/types';
 import { KINDS, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
@@ -19,12 +19,12 @@ interface RankedListProps {
 
 type KindKey = (typeof KINDS)[number]['key'] | 'all';
 
-/** General is the default group (most interest is there); ?kind=all shows every group. */
+/** Product type is a secondary filter within the General benchmark. */
 function KindFromUrl({ onKind }: { onKind: (k: KindKey) => void }) {
   const params = useSearchParams();
   const k = params.get('kind');
-  const want: KindKey = k === 'all' ? 'all' : k && isKind(k) ? k : 'general';
-  useMemo(() => onKind(want), [want, onKind]);
+  const want: KindKey = k && isKind(k) ? k : 'all';
+  useEffect(() => onKind(want), [want, onKind]);
   return null;
 }
 
@@ -41,14 +41,14 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
   const router = useRouter();
-  const [kind, setKindState] = useState<KindKey>('general');
+  const [kind, setKindState] = useState<KindKey>('all');
   const [opinion, setOpinion] = useState(false);
   const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
   const setKind = (k: KindKey) => {
     setKindState(k);
-    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
+    router.replace(k === 'all' ? '/' : `/?kind=${k}`, { scroll: false });
   };
 
   const counts: Record<string, number> = {};
@@ -101,18 +101,7 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
       </Suspense>
 
       <div className="rank-bar">
-        <div className="kind-bar" role="tablist" aria-label="Group">
-          <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
-            All
-            <span className="kind-n">{agents.length}</span>
-          </button>
-          {KINDS.filter(k => counts[k.key]).map(k => (
-            <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
-              {k.label}
-              <span className="kind-n">{counts[k.key]}</span>
-            </button>
-          ))}
-        </div>
+        <label className="bs-kind-filter">Assistant type <select value={kind} onChange={e => setKind(e.target.value as KindKey)}><option value="all">All types ({agents.length})</option>{KINDS.filter(k => counts[k.key]).map(k => <option key={k.key} value={k.key}>{k.label} ({counts[k.key]})</option>)}</select></label>
         <div className="seg" role="tablist" aria-label="Score source">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setOpinion(false)}>
             Scores

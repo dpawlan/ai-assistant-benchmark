@@ -9,7 +9,7 @@ function Inner() {
   const params = useSearchParams();
   const kind = params.get('kind');
   const q = kind ? `?kind=${kind}` : '';
-  const base = pathname.startsWith('/benchmarks/travel') ? '/benchmarks/travel' : '';
+  const base = ['/benchmarks/travel', '/benchmarks/work'].find(route => pathname === route || pathname.startsWith(`${route}/`)) ?? '';
   const grid = pathname === `${base}/grid`;
   return (
     <div className="seg view-switch" role="tablist" aria-label="Layout">

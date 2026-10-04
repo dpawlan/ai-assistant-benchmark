@@ -1,17 +1,22 @@
-import Link from 'next/link';
-import { formatDate } from '@/lib/data';
-import { IndexData } from '@/lib/types';
+'use client';
 
-export function Footer({ index }: { index: IndexData }) {
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
+export function Footer() {
+  const pathname = usePathname();
+  const travel = pathname.startsWith('/benchmarks/travel');
+  const work = pathname.startsWith('/benchmarks/work');
+  const dimensionsHref = travel ? '/benchmarks/travel/dimensions' : '/dimensions';
   return (
     <footer>
       <div className="hr" />
       <p>
-        {index.agent_count} assistants and {index.feedback_count} public quotes, updated {formatDate(index.updated)}.
+        Find the right AI assistant for everyday life, travel, and work.
       </p>
       <p className="links">
         <Link href="/dimensions#how">How scoring works</Link>
-        <Link href="/dimensions">The 16 dimensions</Link>
+        {work ? <span aria-disabled="true" title="Coming soon">Dimensions</span> : <Link href={dimensionsHref}>Dimensions</Link>}
         <Link href="/about">About</Link>
         <Link href="/request">Request a test</Link>
         <Link href="/contribute">Contribute runs</Link>

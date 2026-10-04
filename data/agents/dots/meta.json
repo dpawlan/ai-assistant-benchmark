@@ -5,15 +5,15 @@
   "handles": [],
   "status": "confirmed",
   "product_class": null,
-  "notes": "OpenAI's persistent agentic assistants, announced at Dev Day on 2026-10-01 and powered by GPT-6 Astra. Each Dot runs in its own cloud environment with browser access and keeps working toward a stated goal across connected apps, with Slack and Teams at launch and text messaging said to be coming. Available to ChatGPT Pro and Business Premium subscribers in eligible markets. Requested via the form (issue #465).",
+  "notes": "OpenAI's persistent agentic assistants, announced at DevDay on 2026-09-29 and powered by GPT-6 Astra. Each Dot runs in its own cloud environment with browser access and keeps working toward a stated goal across connected apps, with Slack and Teams at launch and text messaging said to be coming. Rolling out to ChatGPT Pro, Business Premium and Enterprise plans in eligible markets, with the EEA, Switzerland and the UK excluded for Pro at launch; the first dot is included at no extra cost. Requested via the form (issue #465).",
   "public_signal": "low",
   "tagline": "Personal agentic assistants from OpenAI",
   "icon": "/logos/dots.png",
   "kind": "general",
   "access": {
     "pricing": "paid",
-    "price": "Included with ChatGPT Pro and Business Premium; no separate price stated",
-    "regions": "Eligible markets, not listed",
+    "price": "First dot included with ChatGPT Pro, Business Premium and Enterprise; extra dots not yet priced",
+    "regions": "Eligible markets; EEA, Switzerland and UK excluded for Pro at launch",
     "channels": [
       "ChatGPT app",
       "Slack",

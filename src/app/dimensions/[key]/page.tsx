@@ -131,7 +131,7 @@ export default async function CategoryPage({ params }: Props) {
                     </span>
                   </span>
                   <span className="row-slot">
-                    <ScoreCell value={agent.scores[key]} />
+                    <ScoreCell value={agent.scores[key]} aggregate={key === 'travel' && agent.travel.score !== null} />
                   </span>
                 </Link>
               );

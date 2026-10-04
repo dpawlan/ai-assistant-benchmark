@@ -7,6 +7,6 @@ export const metadata: Metadata = { title: 'Travel scorecard grid · Design prev
 
 export default function TravelGridPage() {
   const cohort = [...TRAVEL_PILOT, ...TRAVEL_NEXT];
-  const agents = getAgents().filter(a => cohort.includes(a.slug)).map(({ slug, name, icon, kind }) => ({ slug, name, icon, kind }));
+  const agents = getAgents().filter(a => cohort.includes(a.slug) || a.travel.completed > 0).map(({ slug, name, icon, kind, travel, opinion }) => ({ slug, name, icon, kind, travel, travelOpinion: opinion.travel }));
   return <div className="wrap mid"><TravelBenchmark agents={agents} grid /></div>;
 }

@@ -1,10 +1,13 @@
 import Link from 'next/link';
 import { formatDate } from '@/lib/data';
 import { AgentScores, Category, Run } from '@/lib/types';
+import type { TravelSummary } from '@/lib/travel-rollup';
+import { TravelScore } from './TravelScore';
 import { ScoreCell } from './ScoreCell';
 
 interface ScoreRowsProps {
   scores: AgentScores;
+  travel?: TravelSummary;
   runs: Record<string, Run>;
   categories: Category[];
   /** Number of public quotes attached to each category, for the "n quotes" link. */
@@ -14,7 +17,7 @@ interface ScoreRowsProps {
 const OUTCOME: Record<string, string> = { pass: 'Pass', partial: 'Partial', fail: 'Fail', 'n/a': 'N/A' };
 
 /** The 15 category rows. Scored rows show the run behind the number; rows with quotes link to them. */
-export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreRowsProps) {
+export function ScoreRows({ scores, travel, runs, categories, quoteCounts = {} }: ScoreRowsProps) {
   return (
     <div>
       {[{ items: categories }].map(group => (
@@ -56,7 +59,7 @@ export function ScoreRows({ scores, runs, categories, quoteCounts = {} }: ScoreR
                       </span>
                     )}
                   </span>
-                  <ScoreCell value={scores[category.key]} />
+                  {category.key === 'travel' && travel ? <TravelScore summary={travel} /> : <ScoreCell value={scores[category.key]} />}
                 </div>
               );
             })}

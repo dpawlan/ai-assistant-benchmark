@@ -9,6 +9,7 @@ import { Agent, Category } from '@/lib/types';
 import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
+import { TravelScore } from './TravelScore';
 import { ScoreCell } from './ScoreCell';
 import { SpeedCell } from './SpeedCell';
 import { CostMark } from './CostMark';
@@ -174,7 +175,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
         )}
         {cols.map(c => (
           <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
+            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : c.key === 'travel' ? <TravelScore summary={agent.travel} /> : <ScoreCell value={agent.scores[c.key]} />}
           </td>
         ))}
       </tr>

@@ -1,3 +1,5 @@
+import { summarizeTravel, type TravelRun } from './travel-rollup';
+import travelProtocol from '../../data/travel-protocol-draft.json';
 import fs from 'fs';
 import { isRankingEligible } from '../../scripts/lib/contribution.mjs';
 import path from 'path';
@@ -279,16 +281,24 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
     else scores[c.key] = null;
   }
 
+  const travel = summarizeTravel(entry.slug, travelProtocol.map(t => t.id), readJson<TravelRun[]>(path.join(DATA_DIR, 'travel-results.json')) ?? [], scores.travel ?? null);
+  if (travel.score !== null) {
+    scores.travel = travel.score;
+    delete latestRuns.travel; // The legacy run is not evidence for the new aggregate.
+  }
+
   const numeric = (group: Category['group']) =>
     categories
       .filter(c => c.group === group && c.scored !== false)
       .map(c => scores[c.key])
       .filter((v): v is number => typeof v === 'number');
 
-  const lastTested = runs.length ? runs[runs.length - 1].date : null;
+  const dates = [...runs.map(r => r.date), ...Object.values(travel.runs).map(r => r.date)].sort();
+  const lastTested = dates.at(-1) ?? null;
   const latest = Object.values(latestRuns);
   return {
     scores,
+    travel,
     latestRuns,
     overall: mean([...numeric('core'), ...numeric('endorsed')]),
     core: mean(numeric('core')),

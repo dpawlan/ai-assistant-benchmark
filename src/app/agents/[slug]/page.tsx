@@ -160,7 +160,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
         <section className="ag-scores">
           <h2 className="ag-h2">Scores</h2>
-          <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
+          <ScoreRows travel={agent.travel} scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
 
         {getRuns(slug).some(r => r.tester) && (

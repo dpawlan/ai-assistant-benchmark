@@ -1,0 +1,60 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+import ts from 'typescript';
+const require = createRequire(import.meta.url);
+const output = ts.transpileModule(readFileSync(new URL('../src/lib/travel-rollup.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
+const module = { exports: {} };
+new Function('module', 'exports', 'require', output)(module, module.exports, require);
+const { summarizeTravel } = module.exports;
+const ids = Array.from({ length: 17 }, (_, i) => i + 1);
+const run = (dimension, score = 8, extras = {}) => ({ id: `r${dimension}`, agent: 'example', dimension, score, date: '2026-10-04', evidence_url: '/evidence/example', reviewed: true, version: 'travel-v1', ...extras });
+assert.deepEqual(summarizeTravel('example', ids, [], 6), { scores: {}, runs: {}, completed: 0, total: 17, score: null, legacyScore: 6 });
+assert.equal(summarizeTravel('example', ids, ids.slice(0, 16).map(id => run(id)), 6).score, null);
+assert.equal(summarizeTravel('example', ids, ids.map(id => run(id)), 6).score, 8);
+const repeated = [...ids.map(id => run(id)), run(1, 10, { id: 'new', date: '2026-10-05' })];
+assert.equal(summarizeTravel('example', ids, repeated).score, 8.1);
+assert.deepEqual(summarizeTravel('example', ids, repeated), summarizeTravel('example', ids, [...repeated].reverse()));
+assert.equal(summarizeTravel('example', ids, [run(1, 10, { reviewed: false }), run(2, 10, { version: 'old' }), run(3, 10, { agent: 'other' })]).completed, 0);
+for (const invalid of [run(1, 11), run(1, 8, { evidence_url: '' }), run(18), run(1, 8, { date: 'invalid' })]) assert.throws(() => summarizeTravel('example', ids, [invalid]));
+console.log('Travel rollup: empty, partial, complete, repeated, eligibility and invalid-result checks passed.');
+
+// Exercise the actual data loader with in-memory fixtures; never write test scores.
+const fs = require('node:fs');
+const path = require('node:path');
+const originalRead = fs.readFileSync;
+const originalTsLoader = require.extensions['.ts'];
+require.extensions['.ts'] = (loaded, filename) => {
+  const source = originalRead(filename, 'utf8');
+  loaded._compile(ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true, target: ts.ScriptTarget.ES2022 } }).outputText, filename);
+};
+try {
+  const { getAgentDetail } = require('../src/lib/data.ts');
+  const baseline = getAgentDetail('muse');
+  assert.equal(baseline.travel.score, null);
+  assert.equal(baseline.scores.travel, baseline.travel.legacyScore);
+  const resultsPath = path.resolve('data/travel-results.json');
+  let fixture = ids.map(id => run(id, 8, { agent: 'muse' }));
+  fs.readFileSync = function(file, ...options) {
+    if (String(file) === resultsPath) return JSON.stringify(fixture);
+    return originalRead.call(this, file, ...options);
+  };
+  delete require.cache[require.resolve('../src/lib/data.ts')];
+  const complete = require('../src/lib/data.ts').getAgentDetail('muse');
+  assert.equal(complete.scores.travel, complete.travel.score);
+  assert.equal(complete.scores.travel, 8);
+  assert.equal(complete.latestRuns.travel, undefined);
+  const numeric = Object.values(complete.scores).filter(v => typeof v === 'number');
+  assert.equal(complete.overall, Math.round(numeric.reduce((a,b) => a+b, 0) / numeric.length * 10) / 10);
+  fixture = fixture.slice(0, 1);
+  delete require.cache[require.resolve('../src/lib/data.ts')];
+  const partial = require('../src/lib/data.ts').getAgentDetail('muse');
+  assert.equal(partial.scores.travel, baseline.scores.travel);
+  assert.equal(partial.overall, baseline.overall);
+  assert.equal(partial.travel.completed, 1);
+  console.log('Data loader: General/suite alignment, single inclusion in overall, legacy fallback and evidence provenance passed.');
+} finally {
+  fs.readFileSync = originalRead;
+  if (originalTsLoader) require.extensions['.ts'] = originalTsLoader;
+  else delete require.extensions['.ts'];
+}

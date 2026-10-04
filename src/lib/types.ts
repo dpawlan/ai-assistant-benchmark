@@ -1,3 +1,4 @@
+import type { TravelSummary } from './travel-rollup';
 export type AgentStatus = 'confirmed' | 'stretch';
 
 export type CategoryGroup = 'core' | 'endorsed';
@@ -267,6 +268,7 @@ export interface Agent {
   access: Access | null;
   /** Derived per-category scores: latest run wins, then scores.json, then N/A pre-fill for stretch products. */
   scores: AgentScores;
+  travel: TravelSummary;
   /** Latest run per category, when one exists. */
   latestRuns: Record<string, Run>;
   /** Mean of every numeric score, null when none. */

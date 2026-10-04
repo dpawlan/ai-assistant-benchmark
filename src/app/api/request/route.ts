@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { getScoredCategories } from '@/lib/data';
+import travelProtocol from '../../../../data/travel-protocol-draft.json';
 import { clientIp, clip, createIssue, makeRateLimiter, sendEmail } from '@/lib/inbox';
 
 /**
@@ -8,6 +10,7 @@ import { clientIp, clip, createIssue, makeRateLimiter, sendEmail } from '@/lib/i
  */
 
 interface RequestPayload {
+  suite?: 'general' | 'travel';
   agentName: string;
   agentUrl?: string;
   categories: string[];
@@ -21,6 +24,7 @@ const MAX = { agentName: 80, agentUrl: 300, contact: 200, notes: 2000 };
 const rateLimited = makeRateLimiter(5, 10 * 60 * 1000);
 
 interface Entry {
+  suite: 'general' | 'travel';
   id: string;
   timestamp: string;
   agentName: string;
@@ -32,9 +36,10 @@ interface Entry {
 
 function issueBody(e: Entry): string {
   return [
+    `**Category:** ${e.suite === 'travel' ? 'Travel' : 'General'}`,
     `**Assistant:** ${e.agentName}`,
     `**Website:** ${e.agentUrl ?? '—'}`,
-    `**Categories to test first:** ${e.categories.length ? e.categories.join(', ') : 'all'}`,
+    `**Dimensions to test first:** ${e.categories.length ? e.categories.join(', ') : 'all'}`,
     `**Contact:** ${e.contact ?? '—'}`,
     '',
     '**Notes**',
@@ -52,6 +57,16 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Invalid request' }, { status: 400 });
   }
 
+  if (!payload || typeof payload !== 'object') return NextResponse.json({ error: 'Invalid request' }, { status: 400 });
+  const suite = payload.suite ?? 'general';
+  if (suite !== 'general' && suite !== 'travel') return NextResponse.json({ error: 'Invalid category' }, { status: 400 });
+  const dimensions = suite === 'travel'
+    ? travelProtocol.map(t => ({ key: String(t.id), label: t.title }))
+    : getScoredCategories().map(c => ({ key: c.key, label: c.label }));
+  const requested = payload.categories ?? [];
+  if (!Array.isArray(requested) || requested.some(key => !dimensions.some(d => d.key === key))) return NextResponse.json({ error: 'Invalid dimensions for category' }, { status: 400 });
+  const selected = dimensions.filter(d => requested.includes(d.key)).map(d => d.label);
+
   const agentName = clip(payload.agentName, MAX.agentName);
   if (!agentName) return NextResponse.json({ error: 'Agent name is required' }, { status: 400 });
 
@@ -64,8 +79,9 @@ export async function POST(request: NextRequest) {
     id: crypto.randomUUID(),
     timestamp: new Date().toISOString(),
     agentName,
+    suite,
     agentUrl: clip(payload.agentUrl, MAX.agentUrl) || null,
-    categories: Array.isArray(payload.categories) ? payload.categories.filter(c => typeof c === 'string').slice(0, 15) : [],
+    categories: selected,
     contact: clip(payload.contact, MAX.contact) || null,
     notes: clip(payload.notes, MAX.notes) || null,
   };
@@ -82,9 +98,10 @@ export async function POST(request: NextRequest) {
     await sendEmail({
       subject: `Test request: ${entry.agentName}`,
       rows: [
+        ['Category', entry.suite === 'travel' ? 'Travel' : 'General'],
         ['Assistant', entry.agentName],
         ['Website', entry.agentUrl ?? '—'],
-        ['Categories first', entry.categories.length ? entry.categories.join(', ') : 'all'],
+        ['Dimensions first', entry.categories.length ? entry.categories.join(', ') : 'all'],
         ['Contact', entry.contact ?? '—'],
         ['Notes', entry.notes ?? '—'],
         ['Issue', issueUrl ?? 'not created (no GITHUB_TOKEN)'],

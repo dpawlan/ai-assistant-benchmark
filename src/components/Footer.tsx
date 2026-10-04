@@ -16,11 +16,9 @@ export function Footer({ updated }: { updated: string }) {
       </p>
       <p>Last updated {updated}.</p>
       <p className="links">
-        <Link href={`${dimensionsHref}#how`}>How scoring works</Link>
         <Link href={dimensionsHref}>Dimensions</Link>
         <Link href="/about">About</Link>
         <Link href="/request">Request a test</Link>
-        <Link href="/contribute">Contribute runs</Link>
       </p>
       <p className="credit">
         Created by David Pawlan,{' '}

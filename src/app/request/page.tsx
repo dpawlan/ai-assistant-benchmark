@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { getScoredCategories } from '@/lib/data';
 import { RequestForm } from '@/components/RequestForm';
+import travelProtocol from '../../../data/travel-protocol-draft.json';
 
 export const metadata: Metadata = {
   title: 'Request a test',
@@ -19,7 +20,7 @@ export default function RequestPage() {
         </p>
       </div>
 
-      <RequestForm categories={categories.map(c => ({ key: c.key, label: c.label }))} />
+      <RequestForm categories={{ general: categories.map(c => ({ key: c.key, label: c.label })), travel: travelProtocol.map(t => ({ key: String(t.id), label: t.title })) }} />
 
       <section className="how" style={{ maxWidth: 460 }}>
         <h2 className="ag-h2">What happens next</h2>

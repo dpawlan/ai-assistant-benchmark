@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const LINKS = [
-  { href: '/', label: 'Benchmarks', match: (p: string) => p === '/' || p === '/grid' || p.startsWith('/benchmarks') || p.startsWith('/agents') || p.startsWith('/dimensions') },
+  { href: '/', label: 'Assistants', match: (p: string) => p === '/' || p === '/grid' || p.startsWith('/agents') || p.startsWith('/dimensions') },
   { href: '/reports', label: 'Reports', match: (p: string) => p.startsWith('/reports') || p.startsWith('/articles') || p.startsWith('/authors') },
   { href: '/use-cases', label: 'Use cases', match: (p: string) => p.startsWith('/use-cases') },
   { href: '/compare', label: 'Compare', match: (p: string) => p.startsWith('/compare') },

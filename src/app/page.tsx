@@ -1,13 +1,12 @@
 import Link from 'next/link';
-import { CATEGORY_SHORT, getAgents, getIndexData, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
+import { CATEGORY_SHORT, getAgents, getLatestFeed, getScoredCategories, rankAgents } from '@/lib/data';
 import { RankedList } from '@/components/RankedList';
 import { ScoreboardHead } from '@/components/ScoreboardHead';
 import { LatestFeed } from '@/components/LatestFeed';
 import { getCategories } from '@/lib/data';
 
 export default function HomePage() {
-  const index = getIndexData();
-  const agents = rankAgents(getAgents());
+  const agents = rankAgents(getAgents().filter(a => a.kind === 'general'));
   const scored = getScoredCategories();
   const feed = getLatestFeed(3);
   const categoryLabels = Object.fromEntries(getCategories().map(c => [c.key, c.label]));
@@ -15,7 +14,7 @@ export default function HomePage() {
 
   return (
     <div className="wrap mid">
-      <ScoreboardHead tested={tested} total={index.agent_count} tasks={scored.length} />
+      <ScoreboardHead tested={tested} total={agents.length} tasks={scored.length} />
 
       <RankedList agents={agents} categories={scored} short={CATEGORY_SHORT} />
 

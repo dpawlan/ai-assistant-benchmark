@@ -27,7 +27,6 @@ import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
 import { fundingChip, fundingRounds, fundingSummary, sourceHost } from '@/lib/cost';
-import { TRAVEL_PILOT, TRAVEL_NEXT } from '@/lib/travel-suite';
 
 interface AgentPageProps {
   params: Promise<{ slug: string }>;
@@ -68,7 +67,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
-  const kindHref = `/?kind=${agent.kind}`;
+  const kindHref = agent.kind === 'travel' ? '/benchmarks/travel' : agent.kind === 'work' ? '/benchmarks/work' : '/';
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const inReports = getReportsForAgent(slug);
@@ -127,7 +126,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
             <div className="ag-stats">
               <span className="ag-stat">
                 <ScoreCell value={agent.overall} aggregate />
-                General overall
+                Overall
               </span>
               <span className="ag-stat">
                 {agent.testedCount === 0
@@ -160,8 +159,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
         </div>
 
         <section className="ag-scores">
-          <h2 className="ag-h2">General benchmark scores</h2>
-          {[...TRAVEL_PILOT, ...TRAVEL_NEXT].includes(slug) && <p className="bs-profile-link"><span>Travel benchmark: not tested</span><Link href="/benchmarks/travel">Explore the proposed travel cohort →</Link></p>}
+          <h2 className="ag-h2">Scores</h2>
           <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
 

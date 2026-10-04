@@ -1,10 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { Suspense, useEffect, useState } from 'react';
+import { useState } from 'react';
+import { BenchmarkNav } from './BenchmarkNav';
 import { Agent, Category } from '@/lib/types';
-import { KINDS, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { ScoreCell } from './ScoreCell';
 import { OpinionCell } from './OpinionCell';
@@ -15,17 +14,6 @@ interface RankedListProps {
   agents: Agent[];
   categories: Category[];
   short: Record<string, string>;
-}
-
-type KindKey = (typeof KINDS)[number]['key'] | 'all';
-
-/** Product type is a secondary filter within the General benchmark. */
-function KindFromUrl({ onKind }: { onKind: (k: KindKey) => void }) {
-  const params = useSearchParams();
-  const k = params.get('kind');
-  const want: KindKey = k && isKind(k) ? k : 'all';
-  useEffect(() => onKind(want), [want, onKind]);
-  return null;
 }
 
 /** "Best at email replies and purchasing": the agent's own top two scored dimensions, in plain words. */
@@ -40,20 +28,11 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 }
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
-  const router = useRouter();
-  const [kind, setKindState] = useState<KindKey>('all');
   const [opinion, setOpinion] = useState(false);
   const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
-  const setKind = (k: KindKey) => {
-    setKindState(k);
-    router.replace(k === 'all' ? '/' : `/?kind=${k}`, { scroll: false });
-  };
-
-  const counts: Record<string, number> = {};
-  for (const a of agents) counts[a.kind] = (counts[a.kind] ?? 0) + 1;
-  const inKind = kind === 'all' ? agents : agents.filter(a => a.kind === kind);
+  const inKind = agents.filter(a => a.kind === 'general');
 
   const ranked = opinion
     ? [...inKind].sort((a, b) => (b.opinionOverall.score ?? -1) - (a.opinionOverall.score ?? -1) || b.opinionOverall.n - a.opinionOverall.n)
@@ -96,12 +75,8 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
 
   return (
     <div className="rank">
-      <Suspense fallback={null}>
-        <KindFromUrl onKind={setKindState} />
-      </Suspense>
-
       <div className="rank-bar">
-        <label className="bs-kind-filter">Assistant type <select value={kind} onChange={e => setKind(e.target.value as KindKey)}><option value="all">All types ({agents.length})</option>{KINDS.filter(k => counts[k.key]).map(k => <option key={k.key} value={k.key}>{k.label} ({counts[k.key]})</option>)}</select></label>
+        <BenchmarkNav active="general" />
         <div className="seg" role="tablist" aria-label="Score source">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setOpinion(false)}>
             Scores

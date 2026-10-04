@@ -16,9 +16,10 @@ export default function CategoriesPage() {
 
   return (
     <div className="wrap">
+      <div className="ag-top"><Link className="back" href="/">← General assistants</Link></div>
       <div className="page-head">
         <h1 className="page-title">Dimensions</h1>
-        <p className="page-sub">The same {categories.length} tests for every assistant. Open one for the task and the ranking.</p>
+        <p className="page-sub">{categories.length} dimensions for everyday AI assistance.<br />Open one to see what it tests, how it is evaluated, and the results.</p>
       </div>
 
       <BenchmarkNav active="general" section="dimensions" />

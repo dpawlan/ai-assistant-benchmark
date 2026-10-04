@@ -268,12 +268,12 @@
     "agent": "soar",
     "dimension": 1,
     "date": "2026-09-09",
-    "score": 7,
+    "score": 10,
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-travel-search-review",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Found nonstop options under the cap but left the requested aisle-seat cost unresolved."
+    "notes": "Found nonstop round-trip options under the requested cap, completing the flight search; seat selection is assessed separately."
   },
   {
     "id": "soar-2026-09-09-travel-dimension-2",

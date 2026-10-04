@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { AgentIcon } from './AgentIcon';
-import { BenchmarkNav } from './BenchmarkNav';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { ScoreCell } from './ScoreCell';
 import protocol from '../../data/travel-protocol-draft.json';
 import { TRAVEL_PILOT, TRAVEL_NEXT, TRAVEL_STAGES, type TravelAgent } from '@/lib/travel-suite';
@@ -20,7 +20,6 @@ export function TravelBenchmark({ agents }: { agents: TravelAgent[] }) {
     <div className="page-head home-head">
       <div>
         <h1 className="page-title">Which assistant should plan your trip?</h1>
-        <p className="page-sub">Travel specialists and everyday assistants, tested on the same travel tasks. Testing coming soon.</p>
       </div>
     </div>
     <div className="rank">
@@ -31,6 +30,7 @@ export function TravelBenchmark({ agents }: { agents: TravelAgent[] }) {
           <button className={view === 'tests' ? 'on' : ''} aria-pressed={view === 'tests'} onClick={() => setView('tests')}>Tests</button>
         </div>
       </div>
+      <CategoryDescription category="travel" />
       <div className="travel-controls">
         <label>Dimension <select value={stage} onChange={e => setStage(e.target.value)}><option value="all">All travel tasks</option>{TRAVEL_STAGES.map(s => <option key={s.key} value={s.key}>{s.label}</option>)}</select></label>
         <span>{tasks.length} proposed tests · no scores yet</span>

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { BenchmarkNav } from './BenchmarkNav';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Fragment, Suspense, useEffect, useMemo, useState } from 'react';
 import { track } from '@vercel/analytics';
@@ -226,6 +226,8 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
       </div>}
       {compact && segEl}
       </div>
+
+      {compact && <CategoryDescription category="general" />}
 
       {!compact && <div className="cost-bar" role="group" aria-label="Cost">
         <span className="cost-bar-l">Cost</span>

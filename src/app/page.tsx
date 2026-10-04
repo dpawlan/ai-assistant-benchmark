@@ -10,11 +10,10 @@ export default function HomePage() {
   const scored = getScoredCategories();
   const feed = getLatestFeed(3);
   const categoryLabels = Object.fromEntries(getCategories().map(c => [c.key, c.label]));
-  const tested = agents.filter(a => a.overall !== null).length;
 
   return (
     <div className="wrap mid">
-      <ScoreboardHead tested={tested} total={agents.length} tasks={scored.length} />
+      <ScoreboardHead />
 
       <RankedList agents={agents} categories={scored} short={CATEGORY_SHORT} />
 

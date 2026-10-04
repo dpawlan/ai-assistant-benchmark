@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { BenchmarkNav } from './BenchmarkNav';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { Agent, Category } from '@/lib/types';
 import { AgentIcon } from './AgentIcon';
 import { ScoreCell } from './ScoreCell';
@@ -86,6 +86,8 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
           </button>
         </div>
       </div>
+
+      <CategoryDescription category="general" />
 
       <div className="rk-head" aria-hidden="true">
         <span />

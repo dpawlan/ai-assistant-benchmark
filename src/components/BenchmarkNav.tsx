@@ -17,5 +17,5 @@ const descriptions = {
 };
 
 export function CategoryDescription({ category }: { category: keyof typeof descriptions }) {
-  return <p className="category-description">{descriptions[category]}</p>;
+  return <p className="category-description">{descriptions[category]}{category !== 'work' && <> <Link href={category === 'travel' ? '/benchmarks/travel/dimensions' : '/dimensions'}>Explore dimensions →</Link></>}</p>;
 }

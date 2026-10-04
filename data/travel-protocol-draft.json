@@ -40,7 +40,7 @@
   {
     "id": 3,
     "stage": "plan",
-    "title": "Cash: open jaw and multi-city",
+    "title": "Multi-city trips",
     "measures": "Builds a multi-city trip with open-jaw pricing, the right mode between cities and a sensible split of nights.",
     "prompt": "“NYC to Lisbon, then Madrid and Barcelona, fly home from Barcelona. 10 days mid-May. Business across the Atlantic.”",
     "setup": "",

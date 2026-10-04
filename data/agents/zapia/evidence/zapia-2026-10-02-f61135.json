@@ -1,0 +1,19 @@
+{
+  "id": "zapia-2026-10-02-f61135",
+  "agent": "zapia",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-10-02",
+  "signals": {
+    "turns": 12,
+    "my_messages": 6,
+    "agent_messages": 6,
+    "first_reply_s": 60,
+    "duration_min": 12,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-02T14:56:22.133Z"
+}

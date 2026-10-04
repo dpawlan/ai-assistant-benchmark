@@ -1,0 +1,72 @@
+[
+  {
+    "id": "zapia-2026-10-02-d41931",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Found no refundable Loop room under $250, then surfaced a $176 free-cancellation rate out by O'Hare and reached the booking form.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-d41931"
+  },
+  {
+    "id": "zapia-2026-10-02-e7959f",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Found a $365 fare with a Sunday morning return and a $465 one that fit the schedule, booked nothing and asked which constraint to relax.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-e7959f"
+  },
+  {
+    "id": "zapia-2026-10-02-d29eef",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Picked a $32 hand-wrapped bouquet with same-day delivery and the gift note in place, landing at about $46 all in.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-d29eef"
+  },
+  {
+    "id": "zapia-2026-10-02-85e1fe",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Reached the florist checkout but has no way to hold or enter a card itself, so the user must pay on the merchant page.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-85e1fe"
+  },
+  {
+    "id": "zapia-2026-10-02-ccff77",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-10-02",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Pulled the right Gmail thread and sent the reply from the user's own account after asking, though it misread a date conflict first.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-ccff77"
+  },
+  {
+    "id": "zapia-2026-10-02-353315",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-10-02",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Reads and replies in Gmail through a per-action permission prompt, but the set of connected apps trails the leaders.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-353315"
+  },
+  {
+    "id": "zapia-2026-10-02-f61135",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-10-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Refused card details in chat, kept payment on the merchant page, and asked before sending the email.",
+    "evidence_url": "/agents/zapia/evidence/zapia-2026-10-02-f61135"
+  }
+]

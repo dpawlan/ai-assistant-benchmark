@@ -10,7 +10,7 @@ const { summarizeTravel } = module.exports;
 const ids = Array.from({ length: 17 }, (_, i) => i + 1);
 const run = (dimension, score = 8, extras = {}) => ({ id: `r${dimension}`, agent: 'example', dimension, score, date: '2026-10-04', evidence_url: '/evidence/example', reviewed: true, version: 'travel-v1', ...extras });
 assert.deepEqual(summarizeTravel('example', ids, [], 6), { scores: {}, runs: {}, completed: 0, total: 17, score: null, legacyScore: 6 });
-assert.equal(summarizeTravel('example', ids, ids.slice(0, 16).map(id => run(id)), 6).score, null);
+assert.equal(summarizeTravel('example', ids, ids.slice(0, 16).map(id => run(id)), 6).score, 8);
 assert.equal(summarizeTravel('example', ids, ids.map(id => run(id)), 6).score, 8);
 const repeated = [...ids.map(id => run(id)), run(1, 10, { id: 'new', date: '2026-10-05' })];
 assert.equal(summarizeTravel('example', ids, repeated).score, 8.1);
@@ -49,8 +49,10 @@ try {
   fixture = fixture.slice(0, 1);
   delete require.cache[require.resolve('../src/lib/data.ts')];
   const partial = require('../src/lib/data.ts').getAgentDetail('muse');
-  assert.equal(partial.scores.travel, baseline.scores.travel);
-  assert.equal(partial.overall, baseline.overall);
+  assert.equal(partial.scores.travel, 8);
+  assert.equal(partial.scores.travel, partial.travel.score);
+  assert.equal(partial.latestRuns.travel, undefined);
+
   assert.equal(partial.travel.completed, 1);
   console.log('Data loader: General/suite alignment, single inclusion in overall, legacy fallback and evidence provenance passed.');
 } finally {
@@ -58,3 +60,19 @@ try {
   if (originalTsLoader) require.extensions['.ts'] = originalTsLoader;
   else delete require.extensions['.ts'];
 }
+
+const actual = JSON.parse(readFileSync(new URL('../data/travel-results.json', import.meta.url), 'utf8'));
+const miso = summarizeTravel('miso', ids, actual);
+for (const id of [5, 6, 7]) assert.equal(miso.scores[id], 10);
+assert.equal(miso.scores[13], undefined);
+assert.equal(miso.score, 10);
+for (const result of actual) {
+  assert.ok(result.notes);
+  if (result.evidence_url.startsWith('/agents/')) {
+    const [, , agent, , evidence] = result.evidence_url.split('/');
+    const source = JSON.parse(readFileSync(new URL(`../data/agents/${agent}/evidence/${evidence}.json`, import.meta.url), 'utf8'));
+    assert.equal(source.agent, agent);
+  }
+}
+assert.equal(new Set(actual.map(r => r.id)).size, actual.length);
+console.log('Published dimension scores: Miso outcomes, untested check-in, unique IDs and evidence files passed.');

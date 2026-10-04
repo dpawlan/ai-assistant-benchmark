@@ -28,5 +28,15 @@
     "outcome": "pass",
     "notes": "Found Loop rates over $250 that weekend and returned the two cheapest refundable options with totals plus an airport fallback.",
     "evidence_url": "/agents/miso/evidence/miso-2026-09-14-d95bfa"
+  },
+  {
+    "id": "miso-2026-10-03-flight-booking",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-10-03",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Ticketed the chosen flight, confirmed a free window seat, added loyalty details and sent the confirmation.",
+    "evidence_url": "/agents/miso/evidence/miso-2026-10-03-flight-booking"
   }
 ]

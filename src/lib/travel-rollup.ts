@@ -7,6 +7,8 @@ export interface TravelRun {
   evidence_url: string;
   reviewed: boolean;
   version: string;
+  protocol?: 'task' | 'observed';
+  notes?: string;
 }
 export interface TravelSummary {
   scores: Record<number, number>;
@@ -17,7 +19,7 @@ export interface TravelSummary {
   legacyScore: number | 'n/a' | null;
 }
 
-/** Latest reviewed, evidence-backed run per dimension. No partial-suite average. */
+/** Latest reviewed, evidence-backed run per dimension. Untested dimensions do not affect the average. */
 export function summarizeTravel(slug: string, dimensions: number[], runs: TravelRun[], legacyScore: TravelSummary['legacyScore'] = null): TravelSummary {
   const latest: Record<number, TravelRun> = {};
   for (const run of runs) {
@@ -30,8 +32,8 @@ export function summarizeTravel(slug: string, dimensions: number[], runs: Travel
   }
   const scores = Object.fromEntries(Object.entries(latest).map(([id, run]) => [id, run.score]));
   const completed = Object.keys(scores).length;
-  const score = dimensions.length > 0 && completed === dimensions.length
-    ? Math.round(Object.values(scores).reduce((a, b) => a + b, 0) / dimensions.length * 10) / 10
+  const score = completed > 0
+    ? Math.round(Object.values(scores).reduce((a, b) => a + b, 0) / completed * 10) / 10
     : null;
   return { scores, runs: latest, completed, total: dimensions.length, score, legacyScore };
 }

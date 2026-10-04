@@ -28,7 +28,7 @@ export default async function TravelDimensionPage({ params }: Props) {
       {task.automaticOne && <p className="ag-sub"><strong>Automatic 1:</strong> {task.automaticOne}</p>}
     </section><section className="shelf"><h2 className="ag-h2">Results</h2>{tested.length === 0 ? <p className="ag-sub">Not tested yet. This is a draft specification.</p> : tested.map(a => {
       const run = a.travel.runs[task.id];
-      return <div className="info-row" id={a.slug} key={a.slug}><span className="il"><Link href={`/agents/${a.slug}`}>{a.name}</Link> · {run.date} · <a href={run.evidence_url}>Evidence</a></span><ScoreCell value={run.score} /></div>;
+      return <div className="info-row" id={a.slug} key={a.slug}><span className="il"><Link href={`/agents/${a.slug}`}>{a.name}</Link> · {run.date} · {run.protocol === 'observed' ? 'Observed task' : 'Test'} · <a href={run.evidence_url}>Evidence</a>{run.notes && <span className="run-line">{run.notes}</span>}</span><ScoreCell value={run.score} /></div>;
     })}</section>
   </div>;
 }

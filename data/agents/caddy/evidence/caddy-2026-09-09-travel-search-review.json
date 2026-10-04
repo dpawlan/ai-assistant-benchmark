@@ -1,0 +1,9 @@
+{
+  "id": "caddy-2026-09-09-travel-search-review",
+  "agent": "caddy",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-09-09",
+  "context": "Dimension review of the existing benchmark record caddy-2026-09-09-blooio-travel. Recorded outcome: Found a United round trip under the cap, asked first when aisle seats pushed it over, and held it at the payment screen for approval. This review separates flight search from ticketing, assigned seats and check-in. Staging checkout is not evidence of a ticketed reservation. Scores below assess only the documented search; missing documentation is identified in each result. No new booking or live fare verification was performed.",
+  "published_at": "2026-10-04T22:23:16.685479+00:00"
+}

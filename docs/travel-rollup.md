@@ -13,3 +13,7 @@ The October 4 review adds 32 results across 15 assistants. Miso’s booking exec
 Evidence summaries identify whether the basis is an original conversation or an existing reviewed benchmark record. They include the observed scope and shortcomings without publishing private transcripts or booking/payment/account identifiers. Older end-to-end General scores can differ from the newly separated dimension outcomes.
 
 Muse’s reviewed hotel search and the LA itinerary comparison are not sufficient evidence for the current flight dimensions. Grok Bot’s itinerary planning likewise does not establish flight execution. No relevant results were located for Dots, Town or Odessia. Asaply’s hotel refusal is outside these flight dimensions. These assistants receive no invented flight scores.
+
+## Travel ranking
+
+List and Grid order use `(sum of latest tested dimension scores + 15) / (tested dimensions + 3)`: three neutral prior results at 5/10. Use the unrounded result for ordering, then alphabetical name for ties. No results means no ranking score and placement after tested assistants. Repeated tests of one dimension do not add coverage. Displayed averages, individual scores and General’s Travel average are unchanged. This ranking balances quality with breadth; testing more dimensions alone does not guarantee a higher position.

@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
 const output = ts.transpileModule(readFileSync(new URL('../src/lib/travel-rollup.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
 const module = { exports: {} };
 new Function('module', 'exports', 'require', output)(module, module.exports, require);
-const { summarizeTravel } = module.exports;
+const { summarizeTravel, travelRankingScore, compareTravelRank } = module.exports;
 const ids = Array.from({ length: 17 }, (_, i) => i + 1);
 const run = (dimension, score = 8, extras = {}) => ({ id: `r${dimension}`, agent: 'example', dimension, score, date: '2026-10-04', evidence_url: '/evidence/example', reviewed: true, version: 'travel-v1', ...extras });
 assert.deepEqual(summarizeTravel('example', ids, [], 6), { scores: {}, runs: {}, completed: 0, total: 17, score: null, legacyScore: 6 });
@@ -76,3 +76,20 @@ for (const result of actual) {
 }
 assert.equal(new Set(actual.map(r => r.id)).size, actual.length);
 console.log('Published dimension scores: Miso outcomes, untested check-in, unique IDs and evidence files passed.');
+
+const ranked = (name, values) => ({ name, travel: summarizeTravel('example', ids, values.map((value, index) => run(index + 1, value))) });
+const one = ranked('Boba', [10]);
+const two = ranked('Caddy', [10, 10]);
+const three = ranked('Instinct', [10, 10, 10]);
+const five = ranked('Miso', [10, 10, 10, 10, 10]);
+assert.deepEqual([one, two, three, five].sort(compareTravelRank).map(a => a.name), ['Miso', 'Instinct', 'Caddy', 'Boba']);
+assert.equal(travelRankingScore(one.travel), 6.25);
+assert.equal(travelRankingScore(five.travel), 8.125);
+assert.equal(travelRankingScore(ranked('Untested', []).travel), null);
+assert.deepEqual([ranked('Untested', []), ranked('Low', [1])].sort(compareTravelRank).map(a => a.name), ['Low', 'Untested']);
+assert.ok(compareTravelRank(one, ranked('Poor broader coverage', [2, 2, 2, 2, 2])) < 0);
+assert.ok(compareTravelRank(ranked('Alpha', [10]), ranked('Zulu', [10])) < 0);
+assert.equal(five.travel.score, 10);
+assert.equal(one.travel.score, 10);
+assert.equal(travelRankingScore(summarizeTravel('example', ids, [run(1, 10), run(1, 10, { id: 'repeat', date: '2026-10-05' })])), 6.25);
+console.log('Travel ranking: coverage, quality, unscored placement, ties, repeated tests and unchanged averages passed.');

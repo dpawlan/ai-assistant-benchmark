@@ -37,3 +37,17 @@ export function summarizeTravel(slug: string, dimensions: number[], runs: Travel
     : null;
   return { scores, runs: latest, completed, total: dimensions.length, score, legacyScore };
 }
+
+/** Ranking only: three prior results at 5/10; preserve the displayed average. */
+export function travelRankingScore(summary: Pick<TravelSummary, 'scores'>): number | null {
+  const scores = Object.values(summary.scores);
+  return scores.length ? (scores.reduce((sum, score) => sum + score, 0) + 15) / (scores.length + 3) : null;
+}
+
+export function compareTravelRank(
+  a: { name: string; travel: TravelSummary },
+  b: { name: string; travel: TravelSummary },
+): number {
+  return (travelRankingScore(b.travel) ?? -1) - (travelRankingScore(a.travel) ?? -1)
+    || a.name.localeCompare(b.name);
+}

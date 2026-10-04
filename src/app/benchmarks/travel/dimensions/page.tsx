@@ -21,6 +21,7 @@ export default function TravelDimensionsPage() {
       <p className="ag-sub">Each travel dimension has a published prompt, pass criteria and 1–10 scoring anchors. Only reviewed results with supporting evidence count. Open a dimension above for its full test specification and results.</p>
       <p className="ag-sub">The latest reviewed result counts for each dimension. The equal-weight average of tested dimensions becomes the Travel score, rounded to one decimal. The same score appears in General’s Travel dimension and counts once toward its overall score.</p>
       <p className="ag-sub">Observed tasks are scored against what was actually requested: fully completing that task can earn 10/10. Untested dimensions and unrequested variants stay blank and do not lower the score.</p>
+      <p className="ag-sub">Travel rankings also account for how much has been tested. We add three neutral results at 5/10 when calculating the ranking: (sum of tested dimension scores + 15) ÷ (number of tested dimensions + 3). Strong results across more dimensions rank higher than the same average from fewer tests. The displayed score remains the actual average; unscored assistants appear last, and ranking ties are alphabetical.</p>
       <div className="info-list">
         <div className="info-row"><span className="il">A tested score</span><span className="iv">1 – 10</span></div>
         <div className="info-row"><span className="il">Not tested yet</span><span className="iv empty">—</span></div>

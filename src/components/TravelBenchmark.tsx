@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { compareTravelRank } from '@/lib/travel-rollup';
 import { AgentIcon } from './AgentIcon';
 import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { OpinionCell } from './OpinionCell';
@@ -15,7 +16,7 @@ export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[
   const [all, setAll] = useState(false);
   const cohort = all ? [...TRAVEL_PILOT, ...TRAVEL_NEXT] : TRAVEL_PILOT;
   const shown = [...cohort.flatMap(slug => agents.filter(a => a.slug === slug)), ...agents.filter(a => !cohort.includes(a.slug) && a.travel.completed > 0)]
-    .sort((a, b) => (b.travel.score ?? -1) - (a.travel.score ?? -1) || a.name.localeCompare(b.name));
+    .sort(compareTravelRank);
 
   return <>
     <div className="page-head home-head">

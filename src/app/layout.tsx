@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { Shell } from '@/components/Shell';
 import { Footer } from '@/components/Footer';
+import { formatDate, getIndexData } from '@/lib/data';
 import { ogUrl } from '@/lib/og';
 
 const siteUrl =
@@ -46,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
     <html lang="en">
       <body>
-        <Shell footer={<Footer />}>
+        <Shell footer={<Footer updated={formatDate(getIndexData().updated)} />}>
           {children}
         </Shell>
         <Analytics />

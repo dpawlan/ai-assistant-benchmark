@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-export function Footer() {
+export function Footer({ updated }: { updated: string }) {
   const pathname = usePathname();
   const travel = pathname.startsWith('/benchmarks/travel');
   const work = pathname.startsWith('/benchmarks/work');
@@ -14,6 +14,7 @@ export function Footer() {
       <p>
         Find the right AI assistant for everyday life, travel, and work.
       </p>
+      <p>Last updated {updated}.</p>
       <p className="links">
         <Link href="/dimensions#how">How scoring works</Link>
         {work ? <span aria-disabled="true" title="Coming soon">Dimensions</span> : <Link href={dimensionsHref}>Dimensions</Link>}

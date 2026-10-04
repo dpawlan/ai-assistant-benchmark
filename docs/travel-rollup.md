@@ -17,3 +17,5 @@ Muse’s reviewed hotel search and the LA itinerary comparison are not sufficien
 ## Travel ranking
 
 List and Grid order use `(sum of latest tested dimension scores + 15) / (tested dimensions + 3)`: three neutral prior results at 5/10. Use the unrounded result for ordering, then alphabetical name for ties. No results means no ranking score and placement after tested assistants. Repeated tests of one dimension do not add coverage. Displayed averages, individual scores and General’s Travel average are unchanged. This ranking balances quality with breadth; testing more dimensions alone does not guarantee a higher position.
+
+Travel category visibility requires at least three distinct reviewed dimensions, in both List and Grid and both score-source modes. The proposed-cohort expansion control is removed. Results below this threshold remain available in dimension details and the stored evidence; displayed scores and General aggregation are unchanged.

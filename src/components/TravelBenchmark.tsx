@@ -9,14 +9,11 @@ import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
 import protocol from '../../data/travel-protocol-draft.json';
 import { ViewSwitch } from './ViewSwitch';
-import { TRAVEL_PILOT, TRAVEL_NEXT, type TravelAgent } from '@/lib/travel-suite';
+import type { TravelAgent } from '@/lib/travel-suite';
 
 export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[]; grid?: boolean }) {
   const [opinion, setOpinion] = useState(false);
-  const [all, setAll] = useState(false);
-  const cohort = all ? [...TRAVEL_PILOT, ...TRAVEL_NEXT] : TRAVEL_PILOT;
-  const shown = [...cohort.flatMap(slug => agents.filter(a => a.slug === slug)), ...agents.filter(a => !cohort.includes(a.slug) && a.travel.completed > 0)]
-    .sort(compareTravelRank);
+  const shown = agents.filter(a => a.travel.completed >= 3).sort(compareTravelRank);
 
   return <>
     <div className="page-head home-head">
@@ -46,7 +43,6 @@ export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[
           <span>{opinion ? <OpinionCell stat={a.travelOpinion} /> : <ScoreCell value={a.travel.score} aggregate />}</span>
         </Link>)}</div>
       </>}
-      <div className="rk-pending"><button className="rk-toggle" aria-expanded={all} onClick={() => setAll(!all)}>{all ? 'Show first five' : 'Show all ten proposed assistants'}</button></div>
     </div>
   </>;
 }

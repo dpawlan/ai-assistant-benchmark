@@ -29089,5 +29089,119 @@
     "source": "web",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "Medium: 14-bot setup; quota burn + shared computer visibility."
+  },
+  {
+    "id": "f05bighat01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot's biggest advantage isn't raw capability — it's that setup takes minutes, not days, which makes it dangerously sticky.",
+    "author": "kevinkaminski",
+    "author_name": "Kevin Kaminski",
+    "date": "2026-10-03",
+    "url": "https://www.bighatgroup.com/blog/grok-bot-review-ai-coworker-small-business/",
+    "kind": "praise",
+    "tags": [
+      "setup",
+      "onboarding",
+      "sticky",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Big Hat Group Oct 3: setup speed is key advantage."
+  },
+  {
+    "id": "f05bighat02",
+    "agent": "grok-bot",
+    "quote": "In a couple of days I had bots wired into email, calendars, Teams, OneDrive, Google Drive, Linear, and SMS, all with built-in memory.",
+    "author": "kevinkaminski",
+    "author_name": "Kevin Kaminski",
+    "date": "2026-10-03",
+    "url": "https://www.bighatgroup.com/blog/grok-bot-review-ai-coworker-small-business/#integrations",
+    "kind": "use-case",
+    "tags": [
+      "integrations",
+      "memory",
+      "linear",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Big Hat Group: multi-service integration in days."
+  },
+  {
+    "id": "f05bighat03",
+    "agent": "grok-bot",
+    "quote": "You program bots in plain language and drop them into group chats to work on tasks together — it feels like managing coworkers, not configuring software.",
+    "author": "kevinkaminski",
+    "author_name": "Kevin Kaminski",
+    "date": "2026-10-03",
+    "url": "https://www.bighatgroup.com/blog/grok-bot-review-ai-coworker-small-business/#nlp",
+    "kind": "praise",
+    "tags": [
+      "natural-language",
+      "group-chats",
+      "ux",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Big Hat Group: natural language programming feels like managing coworkers."
+  },
+  {
+    "id": "f05bighat04",
+    "agent": "grok-bot",
+    "quote": "The most important thing to understand is that separate bots are not a security boundary. All of a single user's bots share one persistent cloud computer, including its files, browser sessions, and logins.",
+    "author": "kevinkaminski",
+    "author_name": "Kevin Kaminski",
+    "date": "2026-10-03",
+    "url": "https://www.bighatgroup.com/blog/grok-bot-review-ai-coworker-small-business/#security",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "shared-computer",
+      "isolation",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Big Hat Group: no security boundary between bots on same user account."
+  },
+  {
+    "id": "f05bighat05",
+    "agent": "grok-bot",
+    "quote": "Grok Bot might not have the security controls and audit trail a large enterprise demands, but as a personal assistant — and as an assistant for a small business — it is genuinely excellent.",
+    "author": "kevinkaminski",
+    "author_name": "Kevin Kaminski",
+    "date": "2026-10-03",
+    "url": "https://www.bighatgroup.com/blog/grok-bot-review-ai-coworker-small-business/#verdict",
+    "kind": "praise",
+    "tags": [
+      "smb",
+      "personal",
+      "review",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Big Hat Group verdict: excellent for personal/SMB, not enterprise."
+  },
+  {
+    "id": "f05zenn01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot lets you create multiple AI Agents and pass work between bots to get tasks done. You can also hand off software development tasks from Grok Bot to Cursor Cloud Agent.",
+    "author": "teczenn",
+    "author_name": "tec (Zenn)",
+    "date": "2026-08-31",
+    "url": "https://zenn.dev/tec/articles/e80342f74bab19?locale=en",
+    "kind": "use-case",
+    "tags": [
+      "cursor-cloud-agent",
+      "handoff",
+      "development",
+      "web"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Zenn Aug 31: Grok Bot to Cursor Cloud Agent dev workflow."
   }
 ]

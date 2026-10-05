@@ -149,5 +149,100 @@
     "source": "web",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "DEV: persona rules vs code enforcement lesson."
+  },
+  {
+    "id": "f05munder01",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent is a free, MIT licensed AI agent from Nous Research. It runs on your computer or a server, keeps memory between sessions, writes its own skills, and answers from a terminal or from Telegram, Slack and Discord.",
+    "author": "mdchaitanya",
+    "author_name": "MD Chaitanya Giri (Munder Difflin)",
+    "date": "2026-10-03",
+    "url": "https://munderdiffl.in/blog/what-is-hermes-agent/",
+    "kind": "other",
+    "tags": [
+      "explainer",
+      "free",
+      "mit",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Munder Difflin Oct 3 explainer: Hermes is free MIT-licensed self-hosted agent."
+  },
+  {
+    "id": "f05munder02",
+    "agent": "hermes-agent",
+    "quote": "Pick Hermes Agent if you want memory and skills that grow, and a server to keep it on.",
+    "author": "mdchaitanya",
+    "author_name": "MD Chaitanya Giri (Munder Difflin)",
+    "date": "2026-10-03",
+    "url": "https://munderdiffl.in/blog/what-is-hermes-agent/#verdict",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "memory",
+      "skills",
+      "self-hosted"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Munder Difflin: Hermes for memory/skills growth with a server."
+  },
+  {
+    "id": "f05fontoura01",
+    "agent": "hermes-agent",
+    "quote": "An always-on agent with a shell is a colleague with root, one who never sleeps, reads everything you point it at, and will cheerfully print a secret to a log if nothing stops it. Security for that colleague is mostly about two questions: what can it reach, and what can it print.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-security/",
+    "kind": "other",
+    "tags": [
+      "security",
+      "shell",
+      "credentials",
+      "production"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Fontoura Oct 1: security framing for always-on shell agents."
+  },
+  {
+    "id": "f05fontoura02",
+    "agent": "hermes-agent",
+    "quote": "I run Hermes Agent in production on my own VPS. Every incident below actually happened to me. Every control below I checked in the source, not the marketing page.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-security/#incidents",
+    "kind": "use-case",
+    "tags": [
+      "production",
+      "vps",
+      "incidents",
+      "source-verified"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Fontoura: production Hermes incidents verified against source."
+  },
+  {
+    "id": "f05fontoura03",
+    "agent": "hermes-agent",
+    "quote": "The agent should never hold a token it could print. The pattern that works is a proxy that holds the credential and a config that only ever points the agent at the proxy.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-security/#proxy",
+    "kind": "other",
+    "tags": [
+      "security",
+      "proxy",
+      "credentials",
+      "pattern"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Fontoura: proxy pattern to keep credentials away from agents."
   }
 ]

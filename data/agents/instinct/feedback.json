@@ -5867,5 +5867,115 @@
     "source": "web",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "UseCarly Instinct vs OpenClaw positioning."
+  },
+  {
+    "id": "f05carly01",
+    "agent": "instinct",
+    "quote": "The short verdict: it is the most capable consumer agent you can get today for travel, reservations and life admin, and independent testing backs that up. It is also the one most likely to act before you wanted it to, and it has had outages with no status page.",
+    "author": "usecarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-30",
+    "url": "https://www.usecarly.com/blog/instinct-review/",
+    "kind": "comparison",
+    "tags": [
+      "review",
+      "capable",
+      "proactive",
+      "outages"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "UseCarly Sep 30: most capable but proactive issues and outages."
+  },
+  {
+    "id": "f05carly02",
+    "agent": "instinct",
+    "quote": "It acts when you did not ask. The benchmark's 'proactive restraint' tally is 0 positive and 8 negative, the worst line on its card.",
+    "author": "usecarly",
+    "author_name": "UseCarly",
+    "date": "2026-09-30",
+    "url": "https://www.usecarly.com/blog/instinct-review/#restraint",
+    "kind": "complaint",
+    "tags": [
+      "proactive-restraint",
+      "benchmark",
+      "autonomy"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "UseCarly citing benchmark: 0/8 positive on proactive restraint."
+  },
+  {
+    "id": "f05carly03",
+    "agent": "instinct",
+    "quote": "It can get your accounts banned. Instinct drives websites rather than official connections. CNN reported a user whose Resy account was shut after the agent pinged the site 'hundreds of times every hour of the day.'",
+    "author": "usecarly",
+    "author_name": "UseCarly (citing CNN)",
+    "date": "2026-09-30",
+    "url": "https://www.usecarly.com/blog/instinct-review/#resy",
+    "kind": "bug",
+    "tags": [
+      "resy",
+      "ban",
+      "bot-traffic"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "UseCarly: Resy account banned due to Instinct bot traffic."
+  },
+  {
+    "id": "f05top5apps01",
+    "agent": "instinct",
+    "quote": "Instinct's pitch fits in one line from its homepage: 'there are no new interfaces.' You don't open an app — you text it on iMessage or WhatsApp, or call it, and it comes back with the thing done.",
+    "author": "top5apps",
+    "author_name": "Top5Apps",
+    "date": "2026-10-05",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/instinct/",
+    "kind": "praise",
+    "tags": [
+      "imessage",
+      "whatsapp",
+      "no-interface"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Top5Apps Oct 5: no new interface pitch."
+  },
+  {
+    "id": "f05top5apps02",
+    "agent": "instinct",
+    "quote": "The market believes: a $250 million Series B at a $2.5 billion valuation (per TechCrunch, August 26) co-led by Index and Benchmark, roughly four months after a ~$50 million valuation, with more than 100,000 users on an invite list and reports of talks at $10 billion.",
+    "author": "top5apps",
+    "author_name": "Top5Apps",
+    "date": "2026-10-05",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/instinct/#funding",
+    "kind": "news",
+    "tags": [
+      "funding",
+      "valuation",
+      "series-b"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Top5Apps: $2.5B valuation, 100k+ waitlist, $10B talks."
+  },
+  {
+    "id": "f05top5apps03",
+    "agent": "instinct",
+    "quote": "The catch is equally real. Instinct's safety record is the field's worst — TechCrunch's August 24 investigation documented an email sent without asking, sign-up codes read from inboxes, and a 'perpetual and irrevocable' data license the company rewrote two days later.",
+    "author": "top5apps",
+    "author_name": "Top5Apps",
+    "date": "2026-10-05",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/instinct/#catch",
+    "kind": "complaint",
+    "tags": [
+      "safety",
+      "terms",
+      "email",
+      "techcrunch"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Top5Apps: worst safety record per TechCrunch Aug investigation."
   }
 ]

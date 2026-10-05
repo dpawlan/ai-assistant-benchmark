@@ -123,10 +123,18 @@ _Updated 2026-10-01 vault scan (+2 rows)._
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Bots share one computer; no way to view or edit Grok Bot's memory.
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Hourly routine or busy Slack trigger can burn a week of usage in a day.
 
-_Updated 2026-10-02 vault scan (+1 row)._
+_Updated 2026-10-05 vault scan (+6 rows)._
 
 **New this scan:**
-- (2026-10-01) Hardik Sheth (Medium): 14-bot setup burned weekly Pro allowance in an hour; all bots share one cloud computer.
+- (2026-10-03) Kevin Kaminski (Big Hat Group): Setup takes minutes not days; "dangerously sticky."
+- (2026-10-03) Kevin Kaminski (Big Hat Group): Multi-service integration in days — email, calendars, Teams, Linear, SMS.
+- (2026-10-03) Kevin Kaminski (Big Hat Group): Natural language programming feels like managing coworkers.
+- (2026-10-03) Kevin Kaminski (Big Hat Group): No security boundary between bots on same user account.
+- (2026-10-03) Kevin Kaminski (Big Hat Group): Excellent for personal/SMB, not enterprise.
+- (2026-08-31) tec (Zenn): Grok Bot to Cursor Cloud Agent dev workflow.
 
-**Feedback rows:** 1205 (as of 2026-10-02)
+**Previous scan (2026-10-02, +1 row):**
+- (2026-10-01) Hardik Sheth (Medium): 14-bot setup burned weekly Pro allowance in an hour.
+
+**Feedback rows:** 1211 (as of 2026-10-05)
 

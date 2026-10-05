@@ -193,12 +193,19 @@ _Updated 2026-09-30 weekday vault scan (+13 rows)._
 - (2026-09-29) CTC: Instinct live Shopify checkout with Shop Pay.
 - (2026-09-25) Layer3Labs: Sep 22-23 outage with named user reports; no status page.
 
-_Updated 2026-10-02 vault scan (+3 rows)._
+_Updated 2026-10-05 vault scan (+6 rows)._
 
 **New this scan:**
+- (2026-09-30) UseCarly: Most capable consumer agent but proactive issues and outages.
+- (2026-09-30) UseCarly: Proactive restraint 0/8 positive per benchmark; worst line on card.
+- (2026-09-30) UseCarly: Resy account banned due to bot traffic (citing CNN).
+- (2026-10-05) Top5Apps: "No new interfaces" — text on iMessage/WhatsApp, call it, thing gets done.
+- (2026-10-05) Top5Apps: $2.5B valuation, 100k+ waitlist, reports of $10B talks.
+- (2026-10-05) Top5Apps: Worst safety record per TechCrunch Aug investigation.
+
+**Previous scan (2026-10-02, +3 rows):**
 - (2026-10-01) Top5Apps: Instinct ranks highly for proactivity; 4.5/5 rating.
-- (2026-10-01) Top5Apps: Terms make no warranty; user bears all consequences.
 - (2026-09-29) UseCarly: Instinct for invite/errands zero setup; OpenClaw for self-host.
 
-**Feedback rows:** 274 (as of 2026-10-02)
+**Feedback rows:** 280 (as of 2026-10-05)
 

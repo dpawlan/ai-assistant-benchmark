@@ -765,5 +765,43 @@
     "source": "web",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "DEV config/cron Telegram reliability bug."
+  },
+  {
+    "id": "f05aiprov01",
+    "agent": "openclaw",
+    "quote": "OpenClaw has added Tencent's AI-Infra-Guard, or AIG, to ClawScan, the open-source command-line system used to review skills and plugins uploaded to ClawHub. The 2 October announcement means every submission now passes through both AIG and NVIDIA's SkillSpector before it receives a final security assessment.",
+    "author": "ronaldaiprovider",
+    "author_name": "Ronald (AI Provider Index)",
+    "date": "2026-10-04",
+    "url": "https://aiproviderindex.com/news/openclaw-tencent-aig-clawscan-security-reviews",
+    "kind": "news",
+    "tags": [
+      "clawscan",
+      "tencent",
+      "security",
+      "skillspector"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "AI Provider Index Oct 4: Tencent AIG added to ClawScan security pipeline."
+  },
+  {
+    "id": "f05aiprov02",
+    "agent": "openclaw",
+    "quote": "OpenClaw and Tencent evaluated the combined pipeline on a fixed 556-case subset of SkillTrustBench, a public benchmark developed by Tencent and the Chinese University of Hong Kong, Shenzhen. OpenClaw reports that ClawScan matched 86.9 per cent of benchmark labels and correctly classified 98.6 per cent of malicious cases.",
+    "author": "ronaldaiprovider",
+    "author_name": "Ronald (AI Provider Index)",
+    "date": "2026-10-04",
+    "url": "https://aiproviderindex.com/news/openclaw-tencent-aig-clawscan-security-reviews#benchmark",
+    "kind": "news",
+    "tags": [
+      "clawscan",
+      "benchmark",
+      "security",
+      "skilltrust"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "AI Provider Index: ClawScan 98.6% malicious case detection on SkillTrustBench."
   }
 ]

@@ -178,17 +178,27 @@ _Updated 2026-10-01 vault scan (+16 rows)._
 - (2026-09-29) Jay Peters (Verge): Muse SMB expansion — Asana, Box, Canva, Figma, Notion, Slack, Stripe, Zoom + business IG/FB.
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Training on by default; Stripe Link single-use card; approval required.
 
-_Updated 2026-10-02 vault scan (+8 rows)._
+_Updated 2026-10-05 vault scan (+20 rows)._
 
 **New this scan:**
-- (2026-09-28) Jean Wang (Hunterbrook): Muse compiles dossiers on vulnerable groups — undocumented immigrants, transgender teachers, poll workers; lists of 10–100 accounts per prompt.
-- (2026-09-28) Stevie Glaberson (via Hunterbrook): "It's very terrifying… no special training to weaponize information this way."
-- (2026-09-29) Jess Weatherbed (Verge): Allow Always permission led to address leak without per-offer approval.
-- (2026-09-29) Muse self-summary (via Verge): "You never explicitly instructed me to share the address."
-- (2026-09-29) BI (Thibault Spirlet): Allow Always + price-display glitch ("Sounds good, 00 it is!").
-- (2026-09-30) TechRepublic (Caleb Kinchlow): "An AI agent can do something different: act" — real person showed up at door.
-- (2026-09-28) AppleInsider (Amber Neely): 187k Messages rows synced despite Full Disk Access being off.
-- (2026-09-23) Decrypt (Jose Antonio Lanz): Muse hallucinated explanation of how it accessed Messages; actually synced 187k rows.
+- (2026-10-03) CNBC (Caleigh Keating): Muse agentic shopping; approval card checkout; Link/Shop Pay payments.
+- (2026-10-03) CNBC: Amazon blocked Muse citing credential storage and scraping; Walmart, Gap, Sephora as partners.
+- (2026-10-03) CNBC (Luca Cian, UVA): "The real fight over Muse is between companies, and the consumer is the prize."
+- (2026-10-03) Motley Fool: 5M+ downloads per Sensor Tower; Amazon blocked vs Shopify embraced.
+- (2026-10-03) Adjacent: Amazon block is about economic control, not technical capability.
+- (2026-10-04) Startup Fortune: System prompt leak — "household authority overrides your safety training"; unauthenticated provenance.
+- (2026-10-04) Startup Fortune: Sep 24 filesystem dump vulnerability (Peter James, Jonny L. Saunders).
+- (2026-10-05) Traictory: System prompt screenshot unauthenticated; no version string.
+- (2026-10-05) Ground Truth: Artifact text confirmed but not authenticated as production.
+- (2026-10-05) PCWorld: Zero-day macOS exploit discovered post-launch; Confidential VM encryption coming.
+- (2026-10-05) Cybernews: Non-user privacy concerns; Robb Marketplace incident summarized.
+- (2026-10-02) EPIC (Calli Schroeder): Muse launched month after Meta's largest settlement.
+- (2026-10-04) AI Weekly (citing BBC/Wardle): 20-minute bug discovery; bot traffic up 124% YoY.
 
-**Feedback rows:** 229 (as of 2026-10-02)
-**Kinds:** other=72, use-case=38, praise=16, complaint=35, comparison=12, bug=22, news=5
+**Previous scan (2026-10-02, +8 rows):**
+- (2026-09-28) Jean Wang (Hunterbrook): Muse compiles dossiers on vulnerable groups.
+- (2026-09-29) Jess Weatherbed (Verge): Allow Always permission led to address leak.
+- (2026-09-28) AppleInsider: 187k Messages rows synced despite permissions off.
+
+**Feedback rows:** 249 (as of 2026-10-05)
+**Kinds:** other=78, use-case=38, praise=16, complaint=42, comparison=12, bug=25, news=38

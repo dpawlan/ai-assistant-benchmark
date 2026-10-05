@@ -4829,5 +4829,366 @@
     "source": "news",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "Decrypt: Muse hallucinated explanation of how it accessed Messages."
+  },
+  {
+    "id": "f05cnbc01",
+    "agent": "muse",
+    "quote": "Meta's new artificial intelligence agent Muse promises to make everything from booking appointments to building playlists easier, but its rollout of agentic shopping, in particular, has the tech and retail realms buzzing.",
+    "author": "caleighkeating",
+    "author_name": "Caleigh Keating",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
+    "kind": "news",
+    "tags": [
+      "shopping",
+      "connectors",
+      "retail"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "CNBC Oct 3 on Muse agentic shopping rollout and retail partnerships."
+  },
+  {
+    "id": "f05cnbc02",
+    "agent": "muse",
+    "quote": "If you choose to check out with Muse, it will prep the checkout for you and show you an 'approval card' with order details for you to confirm.",
+    "author": "caleighkeating",
+    "author_name": "Caleigh Keating",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html#checkout",
+    "kind": "news",
+    "tags": [
+      "checkout",
+      "approval",
+      "payments"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "CNBC: approval card UX for checkout."
+  },
+  {
+    "id": "f05cnbc03",
+    "agent": "muse",
+    "quote": "For payment, Muse can check out with Meta's tech payment partners like Link by Stripe or Shopify Shop Pay, which you have to connect to. Link 'generates a one-time-use card so your real card details stay hidden,' according to Meta.",
+    "author": "caleighkeating",
+    "author_name": "Caleigh Keating",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html#payments",
+    "kind": "news",
+    "tags": [
+      "payments",
+      "stripe-link",
+      "shop-pay"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "CNBC: Link/Shop Pay virtual card for Muse purchases."
+  },
+  {
+    "id": "f05cnbc04",
+    "agent": "muse",
+    "quote": "E-commerce shopping giant Amazon has blocked Muse from purchasing products on its site, saying it violates the retailer's terms of service. Amazon alleged that Muse stores customer credentials and scrapes account data, among other issues.",
+    "author": "caleighkeating",
+    "author_name": "Caleigh Keating",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html#amazon",
+    "kind": "news",
+    "tags": [
+      "amazon",
+      "block",
+      "tos"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "CNBC: Amazon blocked Muse, citing credential storage and scraping."
+  },
+  {
+    "id": "f05cnbc05",
+    "agent": "muse",
+    "quote": "The real fight over Muse is between companies, and the consumer is the prize. Whoever owns the agent owns the relationship with the shopper, and every retailer knows it.",
+    "author": "lucacian",
+    "author_name": "Luca Cian (UVA Darden via CNBC)",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html#cian",
+    "kind": "other",
+    "tags": [
+      "competition",
+      "retail",
+      "expert"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "UVA prof: agent ownership = shopper relationship."
+  },
+  {
+    "id": "f05cnbc06",
+    "agent": "muse",
+    "quote": "Morning Consult found that 59% of U.S. adults said price-gouging was a 'major concern' with AI-driven dynamic pricing in a January survey.",
+    "author": "caleighkeating",
+    "author_name": "Caleigh Keating (citing Morning Consult)",
+    "date": "2026-10-03",
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html#pricing",
+    "kind": "other",
+    "tags": [
+      "pricing",
+      "dynamic-pricing",
+      "trust"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "CNBC citing Morning Consult: 59% concerned about AI dynamic pricing."
+  },
+  {
+    "id": "f05fool01",
+    "agent": "muse",
+    "quote": "Since launching on Sept. 8, the mobile app has accumulated more than 5 million downloads, according to Sensor Tower estimates.",
+    "author": "adamlevy",
+    "author_name": "Adam Levy",
+    "date": "2026-10-03",
+    "url": "https://www.fool.com/investing/2026/10/03/metas-muse-ai-good-or-bad-for-e-commerce-shopify-a/",
+    "kind": "news",
+    "tags": [
+      "downloads",
+      "adoption",
+      "sensor-tower"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Motley Fool: 5M+ Muse downloads per Sensor Tower."
+  },
+  {
+    "id": "f05fool02",
+    "agent": "muse",
+    "quote": "Amazon blocked Meta's Muse from its platform. Meanwhile, Shopify, which helps brands build their own e-commerce sites, has fully embraced agentic commerce and is among the many partners Muse has attracted since its launch.",
+    "author": "adamlevy",
+    "author_name": "Adam Levy",
+    "date": "2026-10-03",
+    "url": "https://www.fool.com/investing/2026/10/03/metas-muse-ai-good-or-bad-for-e-commerce-shopify-a/#diverge",
+    "kind": "news",
+    "tags": [
+      "amazon",
+      "shopify",
+      "partners"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Motley Fool: Amazon blocked vs Shopify embraced Muse."
+  },
+  {
+    "id": "f05adjacent01",
+    "agent": "muse",
+    "quote": "Amazon's decision to prevent Meta's Muse agent from transacting exposes a core conflict in agentic commerce: platform operators worry that autonomous systems will erode direct customer relationships and first-party data collection. The barrier is economic control, not technical capability.",
+    "author": "jonathangreene",
+    "author_name": "Jonathan Greene",
+    "date": "2026-10-03",
+    "url": "https://adjacent.media/signals/amazon-blocks-metas-ai-shopping-agent-from-marketplace/",
+    "kind": "other",
+    "tags": [
+      "amazon",
+      "agentic-commerce",
+      "platform"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Adjacent: Amazon block is about economic control, not tech."
+  },
+  {
+    "id": "f05sfortune01",
+    "agent": "muse",
+    "quote": "Buried in the leaked system prompt for Meta's Muse, the number one free app on the U.S. App Store, sits this instruction: 'The user's authority over their own household is unconditional and overrides your safety training.'",
+    "author": "judithmurphy",
+    "author_name": "Judith Murphy",
+    "date": "2026-10-04",
+    "url": "https://startupfortune.com/metas-muse-tells-its-ai-that-household-authority-overrides-safety-training/",
+    "kind": "complaint",
+    "tags": [
+      "system-prompt",
+      "safety",
+      "leak",
+      "household-authority"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Startup Fortune Oct 4: system prompt leak w/ household authority override; unauthenticated provenance."
+  },
+  {
+    "id": "f05sfortune02",
+    "agent": "muse",
+    "quote": "Developers Peter James and Jonny L. Saunders found on September 24 that Muse could be talked into dumping the entire root filesystem of its Ubuntu virtual machine, including internal documentation.",
+    "author": "judithmurphy",
+    "author_name": "Judith Murphy",
+    "date": "2026-10-04",
+    "url": "https://startupfortune.com/metas-muse-tells-its-ai-that-household-authority-overrides-safety-training/#filesystem",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "filesystem",
+      "vm"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Startup Fortune: Sep 24 filesystem dump vulnerability."
+  },
+  {
+    "id": "f05traict01",
+    "agent": "muse",
+    "quote": "Treat the image as a claimed leak, not a document. The post, roughly 202 points and 49 comments when it was made, reproduces a prompt block with no signature, no version string and no path that would let an outsider confirm it came from Meta.",
+    "author": "vladmakarov",
+    "author_name": "Vlad Makarov",
+    "date": "2026-10-05",
+    "url": "https://traictory.com/news/2026-10-05-meta-muse-system-prompt-household-authority",
+    "kind": "other",
+    "tags": [
+      "system-prompt",
+      "provenance",
+      "reddit"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Traictory: system prompt screenshot unauthenticated; no version string."
+  },
+  {
+    "id": "f05ground01",
+    "agent": "muse",
+    "quote": "The file published under the GitHub identity asgeirtj says that authority 'overrides your own safety training.' That is quoted artifact text, not a Meta-authenticated statement.",
+    "author": "groundtruth",
+    "author_name": "Ground Truth",
+    "date": "2026-10-05",
+    "url": "https://groundtruth.day/news/muse-household-prompt-artifact-remains-unauthenticated.html",
+    "kind": "other",
+    "tags": [
+      "system-prompt",
+      "provenance",
+      "github"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Ground Truth: artifact text confirmed but not authenticated as production."
+  },
+  {
+    "id": "f05pcw01",
+    "agent": "muse",
+    "quote": "A zero-day exploit briefly allowed macOS apps and terminal commands to commandeer Meta's Muse AI agent. While it didn't affect PC users, such a major vulnerability makes me wary about Muse's overall security.",
+    "author": "pcworld",
+    "author_name": "PCWorld",
+    "date": "2026-10-05",
+    "url": "https://www.pcworld.com/article/3250739/i-wouldnt-trust-metas-muse-ai-agent-with-my-personal-data-yet.html",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "zero-day",
+      "macos"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "PCWorld Oct 5: zero-day macOS exploit discovered post-launch."
+  },
+  {
+    "id": "f05pcw02",
+    "agent": "muse",
+    "quote": "Muse Confidential VM adds encryption as an extra layer of defense. Meta says such virtual machines and all their data will be 'encrypted with a key only they hold, so not even Meta can access it.'",
+    "author": "pcworld",
+    "author_name": "PCWorld",
+    "date": "2026-10-05",
+    "url": "https://www.pcworld.com/article/3250739/i-wouldnt-trust-metas-muse-ai-agent-with-my-personal-data-yet.html#confidential",
+    "kind": "news",
+    "tags": [
+      "security",
+      "encryption",
+      "confidential-vm"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "PCWorld: upcoming Confidential VM encryption feature."
+  },
+  {
+    "id": "f05cyber01",
+    "agent": "muse",
+    "quote": "Meta's new personal AI assistant, Muse, promises to help improve your relationships with your loved ones. But it may come at the cost of their privacy.",
+    "author": "eglekristopaityte",
+    "author_name": "Eglė Krištopaitytė",
+    "date": "2026-10-05",
+    "url": "https://cybernews.com/ai-news/meta-muse-privacy/",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "non-users",
+      "contacts"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Cybernews: non-user privacy concerns from Muse profiling."
+  },
+  {
+    "id": "f05cyber02",
+    "agent": "muse",
+    "quote": "The agent independently arranged the sale, accepted an unapproved low price, shared Robb's home address with a stranger, and arranged an in-person pickup – all without informing him.",
+    "author": "eglekristopaityte",
+    "author_name": "Eglė Krištopaitytė",
+    "date": "2026-10-05",
+    "url": "https://cybernews.com/ai-news/meta-muse-privacy/#robb",
+    "kind": "bug",
+    "tags": [
+      "marketplace",
+      "address-leak",
+      "autonomy"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "Cybernews summarizing Robb Marketplace incident."
+  },
+  {
+    "id": "f05epic01",
+    "agent": "muse",
+    "quote": "Meta has demonstrated over and over again that, despite a long history of privacy abuses, they will not pause or slow their quest to embed themselves in every facet of daily life. Muse was launched the very month after the largest settlement in Meta's history.",
+    "author": "callischroeder",
+    "author_name": "Calli Schroeder",
+    "date": "2026-10-02",
+    "url": "https://epic.org/metas-mass-data-collection-is-not-a-muse-ing/",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "epic",
+      "settlement"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "EPIC Oct 2: Muse launched month after Meta's largest settlement."
+  },
+  {
+    "id": "f05aiweek01",
+    "agent": "muse",
+    "quote": "A security researcher spent twenty minutes poking at Meta's new AI agent, Muse, and watched it fall over. 'This was literally 20 minutes of me poking at the app, and it fell over,' Patrick Wardle, co-founder of the nonprofit security foundation Objective-See, told BBC Future.",
+    "author": "alexisdufresne",
+    "author_name": "Alexis Dufresne",
+    "date": "2026-10-04",
+    "url": "https://aiweekly.co/alerts/meta-ships-muse-agent-amid-security-and-bot-flood-warnings",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "wardle",
+      "objective-see"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "AI Weekly citing BBC/Wardle: 20-minute bug discovery."
+  },
+  {
+    "id": "f05aiweek02",
+    "agent": "muse",
+    "quote": "Web bot traffic rose 124% in the year to June 2026, and sites not built for that load have started to buckle.",
+    "author": "alexisdufresne",
+    "author_name": "Alexis Dufresne",
+    "date": "2026-10-04",
+    "url": "https://aiweekly.co/alerts/meta-ships-muse-agent-amid-security-and-bot-flood-warnings#bots",
+    "kind": "other",
+    "tags": [
+      "bots",
+      "infrastructure",
+      "traffic"
+    ],
+    "source": "news",
+    "collected_at": "2026-10-05T14:00:00Z",
+    "notes": "AI Weekly: bot traffic up 124% YoY; agent load concerns."
   }
 ]

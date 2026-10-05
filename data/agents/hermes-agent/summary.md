@@ -26,10 +26,17 @@ _Updated 2026-10-01 vault scan (+1 row)._
 **New this scan:**
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Bot Mode on by default since Aug 31; 250k+ GitHub stars as of Sep 30.
 
-_Updated 2026-10-02 vault scan (+2 rows)._
+_Updated 2026-10-05 vault scan (+5 rows)._
 
 **New this scan:**
-- (2026-10-01) Gizmodo (Florian Gray): Hermes stronger for learning/memory/safer defaults vs OpenClaw.
+- (2026-10-03) Munder Difflin: Hermes is free MIT-licensed self-hosted agent from Nous Research.
+- (2026-10-03) Munder Difflin: Pick Hermes for memory/skills growth with a server.
+- (2026-10-01) Felipe Fontoura: "An always-on agent with a shell is a colleague with root."
+- (2026-10-01) Felipe Fontoura: Production Hermes incidents verified against source.
+- (2026-10-01) Felipe Fontoura: Proxy pattern to keep credentials away from agents.
+
+**Previous scan (2026-10-02, +2 rows):**
+- (2026-10-01) Gizmodo: Hermes stronger for learning/memory/safer defaults vs OpenClaw.
 - (2026-09-27) DEV (Rello): Persona rules vs code enforcement lesson.
 
-**Feedback rows:** 8 (as of 2026-10-02)
+**Feedback rows:** 13 (as of 2026-10-05)

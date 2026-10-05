@@ -57,11 +57,14 @@ _Updated 2026-10-01 vault scan (+2 rows)._
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Hard to set up without server experience; 12-page config reference.
 - (2026-09-30) Berk Kalelioğlu (AIMultiple): Heartbeat ~100k tokens/30min; ~$19/day at Anthropic Opus 5.5; Claude subs banned since Apr 4.
 
-_Updated 2026-10-02 vault scan (+3 rows)._
+_Updated 2026-10-05 vault scan (+2 rows)._
 
 **New this scan:**
-- (2026-09-29) UseCarly: CVE-2026-25253 / malicious skills / Meta researcher inbox bulk-delete anecdote.
-- (2026-10-01) Gizmodo (Florian Gray): OpenClaw stronger for chat channels/multi-agent/skill library; Hermes stronger for learning/memory/safer defaults.
-- (2026-09-27) DEV (Rello): Telegram flag off but cron kept firing via stale bots.
+- (2026-10-04) AI Provider Index: Tencent AIG added to ClawScan security pipeline; dual scanner with SkillSpector.
+- (2026-10-04) AI Provider Index: ClawScan 98.6% malicious case detection on SkillTrustBench 556-case subset.
 
-**Feedback rows:** 40 (as of 2026-10-02)
+**Previous scan (2026-10-02, +3 rows):**
+- (2026-09-29) UseCarly: CVE-2026-25253 / malicious skills / Meta researcher inbox bulk-delete anecdote.
+- (2026-10-01) Gizmodo: OpenClaw stronger for chat channels/multi-agent/skill library.
+
+**Feedback rows:** 42 (as of 2026-10-05)

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dots-2026-10-01-e202b3",
+    "category": "email_replies",
+    "protocol": "task",
+    "date": "2026-10-01",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Found the unread OpenTable reply, answered with three open slots from the calendar plus the scheduling link, and reported back when done.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-01-e202b3"
+  },
+  {
+    "id": "dots-2026-10-03-41b2cb",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-03",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Ranked agency profiles by Search Console clicks, drafted sourced case studies, fixed broken logos, then published five pages after checks.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-03-41b2cb"
+  },
+  {
+    "id": "dots-2026-10-03-57369a",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-10-03",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked before uploading unpublished drafts, refused to push pricing edits live without signoff, and keeps card entry out of the chat.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-03-57369a"
+  },
+  {
+    "id": "dots-2026-10-03-dffe37",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-03",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Closed a loop it opened days earlier, reporting the confirmed dinner time and that the calendar event now matched.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-03-dffe37"
+  },
+  {
+    "id": "dots-2026-10-03-439130",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-10-03",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged an unsent wire detail from a colleague's thread and a bounced email that named the wrong product, both unprompted.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-03-439130"
+  },
+  {
+    "id": "dots-2026-10-03-033896",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-10-03",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Buys through a retailer's checkout with a saved card after approval and hands over the browser for new card entry; no direct payment link.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-03-033896"
+  },
+  {
+    "id": "dots-2026-10-05-94926d",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-05",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Asked for a neighborhood when location sharing failed, then named one fully vegan spot a short walk away, open now, with dishes to order.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-05-94926d"
+  },
+  {
+    "id": "dots-2026-10-05-4bbc9b",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-05",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Found no Loop room under $250 on marathon weekend, checked the user's screenshot rate, then found a $222 room 2.5 miles out, weak reviews.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-05-4bbc9b"
+  },
+  {
+    "id": "dots-2026-10-05-7ef289",
+    "category": "phone_calls",
+    "protocol": "observed",
+    "date": "2026-10-05",
+    "score": "n/a",
+    "outcome": "n/a",
+    "notes": "Has no outbound calling; you can call it from the app, and it contacts businesses by email instead.",
+    "evidence_url": "/agents/dots/evidence/dots-2026-10-05-7ef289"
+  }
+]

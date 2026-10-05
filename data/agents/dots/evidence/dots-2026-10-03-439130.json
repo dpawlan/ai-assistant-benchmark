@@ -1,0 +1,19 @@
+{
+  "id": "dots-2026-10-03-439130",
+  "agent": "dots",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-10-03",
+  "signals": {
+    "turns": 2,
+    "my_messages": 0,
+    "agent_messages": 2,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": true
+  },
+  "published_at": "2026-10-05T21:30:09.459Z"
+}

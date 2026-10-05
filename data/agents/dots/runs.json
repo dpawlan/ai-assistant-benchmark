@@ -70,16 +70,6 @@
     "evidence_url": "/agents/dots/evidence/dots-2026-10-05-94926d"
   },
   {
-    "id": "dots-2026-10-05-4bbc9b",
-    "category": "travel",
-    "protocol": "task",
-    "date": "2026-10-05",
-    "score": 7,
-    "outcome": "partial",
-    "notes": "Found no Loop room under $250 on marathon weekend, checked the user's screenshot rate, then found a $222 room 2.5 miles out, weak reviews.",
-    "evidence_url": "/agents/dots/evidence/dots-2026-10-05-4bbc9b"
-  },
-  {
     "id": "dots-2026-10-05-7ef289",
     "category": "phone_calls",
     "protocol": "observed",

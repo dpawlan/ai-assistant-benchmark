@@ -4187,3 +4187,12 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-matrix .travel-dimension-col { width: 135px; }
 .travel-matrix thead a { display: block; padding: 12px 8px; font-size: 12px; line-height: 1.4; color: var(--sec); }
 .travel-matrix thead a:hover, .category-description a:hover { color: var(--blue); }
+
+.travel-documentation h2 { scroll-margin-top: 90px; }
+.travel-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 20px 0; }
+.travel-evidence-grid figure { margin: 0; min-width: 0; }
+.travel-media-placeholder { aspect-ratio: 16 / 9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px dashed var(--line); border-radius: 12px; background: var(--fill); color: var(--sec); }
+.travel-media-placeholder span:first-child { color: var(--text); font-weight: 600; }
+.travel-media-placeholder span:last-child, .travel-evidence-grid figcaption { font-size: 13px; line-height: 1.5; }
+.travel-evidence-grid figcaption { margin-top: 10px; color: var(--sec); }
+@media (max-width: 600px) { .travel-evidence-grid { grid-template-columns: 1fr; } }

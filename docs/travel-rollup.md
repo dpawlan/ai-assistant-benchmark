@@ -1,8 +1,13 @@
 # Travel score alignment (preview)
 
+## Active v1 scope
+
+`data/travel-protocol-v1.json` defines five dimensions in display order: Onboarding flow, Booking execution, Seat selection, Travel profile and Cancellation. Existing IDs 5–8 are retained so their evidence keeps its meaning; onboarding uses a new ID, 18. Display numbering is 1–5. The original 17-dimension draft and all historical results are preserved. Only active v1 dimensions contribute to Travel averages, ranking and the three-dimension eligibility threshold. The request form uses the same five choices. Onboarding and cancellation remain unscored until reviewed evidence is available.
+
+
 General’s Travel dimension uses the same equal-weight average of tested dimensions as Travel. The latest reviewed run per dimension wins (date, then ID); the mean is rounded to one decimal. Repeated tests cannot increase a dimension’s weight. Untested dimensions stay blank and are excluded, not scored zero. If no dimensions have results, Travel stays unscored and General retains its existing score.
 
-Results live in `data/travel-results.json`. Each requires an ID, agent slug, dimension (1–17), date, numeric score (1–10), evidence URL, reviewed flag and travel-v1 version. Unreviewed and other-version runs are excluded; invalid reviewed rows fail validation. The derived score feeds General, profiles and comparisons, counting Travel once in the General overall. Prior General runs remain as historical records, not evidence for the new aggregate.
+Results live in `data/travel-results.json`. Each requires an ID, agent slug, stable dimension ID, date, numeric score (1–10), evidence URL, reviewed flag and travel-v1 version. Unreviewed and other-version runs are excluded; invalid reviewed rows fail validation. The derived score feeds General, profiles and comparisons, counting Travel once in the General overall. Prior General runs remain as historical records, not evidence for the new aggregate.
 
 ## Observed task scoring
 

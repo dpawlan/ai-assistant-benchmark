@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { BenchmarkNav } from '@/components/BenchmarkNav';
 import type { Metadata } from 'next';
 import { getAgents } from '@/lib/data';
-import protocol from '../../../../../data/travel-protocol-draft.json';
+import protocol from '../../../../../data/travel-protocol-v1.json';
 
 export const metadata: Metadata = { title: 'Travel dimensions', robots: { index: false, follow: false } };
 
@@ -10,10 +10,10 @@ export default function TravelDimensionsPage() {
   const agents = getAgents();
   return <div className="wrap">
     <div className="ag-top"><Link className="back" href="/benchmarks/travel">← Travel assistants</Link></div>
-    <div className="page-head"><h1 className="page-title">Dimensions</h1><p className="page-sub">17 proposed dimensions. Open one to see the task, pass criteria and scoring anchors. Observed results are labeled separately from the prescribed tests.</p></div>
+    <div className="page-head"><h1 className="page-title">Dimensions</h1><p className="page-sub">Five v1 dimensions. Open one to see the task, pass criteria and scoring anchors. Observed results are labeled separately from the prescribed tests.</p></div>
     <BenchmarkNav active="travel" section="dimensions" />
-    <section className="shelf"><h2 className="shelf-title"><span className="shelf-head">17 dimensions</span></h2><div className="cat-list">
-      {protocol.map(t => { const tested = agents.filter(a => a.travel.scores[t.id] !== undefined).length; return <Link key={t.id} href={`/benchmarks/travel/dimensions/${t.id}`} className="cat-row"><span className="cat-num">{t.id}</span><span className="cat-body"><span className="cat-label">{t.title}</span><span className="cat-desc">{t.measures}</span></span><span className="row-slot"><span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span></span></Link>; })}
+    <section className="shelf"><h2 className="shelf-title"><span className="shelf-head">5 dimensions</span></h2><div className="cat-list">
+      {protocol.map((t, index) => { const tested = agents.filter(a => a.travel.scores[t.id] !== undefined).length; return <Link key={t.id} href={`/benchmarks/travel/dimensions/${t.id}`} className="cat-row"><span className="cat-num">{index + 1}</span><span className="cat-body"><span className="cat-label">{t.title}</span><span className="cat-desc">{t.measures}</span></span><span className="row-slot"><span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span></span></Link>; })}
     </div></section>
     <section className="how" id="how">
       <h2 className="ag-h2">How scoring works</h2>

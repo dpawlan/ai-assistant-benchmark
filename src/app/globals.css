@@ -4183,7 +4183,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 /* Category preview: reuse the existing pills, list rows and score cells. */
 .category-description { margin: 12px 0 20px; font-size: 14px; line-height: 1.6; color: var(--sec); max-width: 75ch; }
 
-.travel-matrix { min-width: 2453px; }
+.travel-matrix { min-width: 833px; }
 .travel-matrix .travel-dimension-col { width: 135px; }
 .travel-matrix thead a { display: block; padding: 12px 8px; font-size: 12px; line-height: 1.4; color: var(--sec); }
 .travel-matrix thead a:hover, .category-description a:hover { color: var(--blue); }

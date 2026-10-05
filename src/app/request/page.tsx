@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { getScoredCategories } from '@/lib/data';
 import { RequestForm } from '@/components/RequestForm';
-import travelProtocol from '../../../data/travel-protocol-draft.json';
+import travelProtocol from '../../../data/travel-protocol-v1.json';
 
 export const metadata: Metadata = {
   title: 'Request a test',

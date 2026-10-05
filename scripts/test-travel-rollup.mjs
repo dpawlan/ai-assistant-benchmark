@@ -7,6 +7,7 @@ const output = ts.transpileModule(readFileSync(new URL('../src/lib/travel-rollup
 const module = { exports: {} };
 new Function('module', 'exports', 'require', output)(module, module.exports, require);
 const { summarizeTravel, travelRankingScore, compareTravelRank } = module.exports;
+const activeIds = JSON.parse(readFileSync(new URL('../data/travel-protocol-v1.json', import.meta.url), 'utf8')).map(t => t.id);
 const ids = Array.from({ length: 17 }, (_, i) => i + 1);
 const run = (dimension, score = 8, extras = {}) => ({ id: `r${dimension}`, agent: 'example', dimension, score, date: '2026-10-04', evidence_url: '/evidence/example', reviewed: true, version: 'travel-v1', ...extras });
 assert.deepEqual(summarizeTravel('example', ids, [], 6), { scores: {}, runs: {}, completed: 0, total: 17, score: null, legacyScore: 6 });
@@ -34,7 +35,12 @@ try {
   assert.equal(baseline.travel.score, null);
   assert.equal(baseline.scores.travel, baseline.travel.legacyScore);
   const resultsPath = path.resolve('data/travel-results.json');
-  let fixture = ids.map(id => run(id, 8, { agent: 'muse' }));
+  assert.equal(getAgentDetail('miso').travel.completed, 3);
+  assert.equal(getAgentDetail('instinct').travel.completed, 1);
+  assert.equal(getAgentDetail('soar').travel.completed, 0);
+  assert.equal(getAgentDetail('miso').travel.total, 5);
+  assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7']);
+  let fixture = [...activeIds.map(id => run(id, 8, { agent: 'muse' })), run(1, 1, { agent: 'muse' })];
   fs.readFileSync = function(file, ...options) {
     if (String(file) === resultsPath) return JSON.stringify(fixture);
     return originalRead.call(this, file, ...options);
@@ -43,6 +49,8 @@ try {
   const complete = require('../src/lib/data.ts').getAgentDetail('muse');
   assert.equal(complete.scores.travel, complete.travel.score);
   assert.equal(complete.scores.travel, 8);
+  assert.equal(complete.travel.completed, 5);
+  assert.equal(complete.travel.scores[1], undefined);
   assert.equal(complete.latestRuns.travel, undefined);
   const numeric = Object.values(complete.scores).filter(v => typeof v === 'number');
   assert.equal(complete.overall, Math.round(numeric.reduce((a,b) => a+b, 0) / numeric.length * 10) / 10);

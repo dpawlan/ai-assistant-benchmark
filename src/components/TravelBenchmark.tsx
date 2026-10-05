@@ -7,7 +7,7 @@ import { AgentIcon } from './AgentIcon';
 import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
-import protocol from '../../data/travel-protocol-draft.json';
+import protocol from '../../data/travel-protocol-v1.json';
 import { ViewSwitch } from './ViewSwitch';
 import type { TravelAgent } from '@/lib/travel-suite';
 

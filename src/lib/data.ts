@@ -1,5 +1,5 @@
 import { summarizeTravel, type TravelRun } from './travel-rollup';
-import travelProtocol from '../../data/travel-protocol-draft.json';
+import travelProtocol from '../../data/travel-protocol-v1.json';
 import fs from 'fs';
 import { isRankingEligible } from '../../scripts/lib/contribution.mjs';
 import path from 'path';
@@ -281,7 +281,10 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
     else scores[c.key] = null;
   }
 
-  const travel = summarizeTravel(entry.slug, travelProtocol.map(t => t.id), readJson<TravelRun[]>(path.join(DATA_DIR, 'travel-results.json')) ?? [], scores.travel ?? null);
+  const activeTravelDimensions = travelProtocol.map(t => t.id);
+  const travelResults = (readJson<TravelRun[]>(path.join(DATA_DIR, 'travel-results.json')) ?? [])
+    .filter(run => activeTravelDimensions.includes(run.dimension));
+  const travel = summarizeTravel(entry.slug, activeTravelDimensions, travelResults, scores.travel ?? null);
   if (travel.score !== null) {
     scores.travel = travel.score;
     delete latestRuns.travel; // The legacy run is not evidence for the new aggregate.

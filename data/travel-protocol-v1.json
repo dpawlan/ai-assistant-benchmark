@@ -1,0 +1,97 @@
+[
+  {
+    "id": 18,
+    "stage": "onboarding",
+    "title": "Onboarding flow",
+    "measures": "Gets a new traveler from first contact to being ready to book, with clear setup and next steps.",
+    "prompt": "“I’m new here and want you to book a flight for me. Help me get set up.”",
+    "setup": "Start with a new account or conversation. Supply the information requested for the intended booking; record any setup steps, handoffs or blockers.",
+    "pass": [
+      "Explains the setup steps and what information or access is needed",
+      "Collects required details through the intended setup flow without unnecessary repetition",
+      "Clearly confirms readiness to book or identifies the remaining blocker"
+    ],
+    "anchors": {
+      "3": "Setup stalls or leaves the traveler without a clear next step.",
+      "7": "Gets the traveler ready with some avoidable friction or correction.",
+      "10": "Completes the required setup clearly and smoothly, with readiness to book confirmed."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 5,
+    "stage": "booking",
+    "title": "Booking execution",
+    "measures": "Turns a chosen option into a ticketed reservation, with the total confirmed before any charge.",
+    "prompt": "After the assistant shows flight options, the tester replies:\n“Book the 8:05.”",
+    "setup": "The traveler's profile and payment are on file. Variant: the fare rises $60 between the quote and checkout.",
+    "pass": [
+      "• Confirms flight, traveler, and total before charging",
+      "• Gets a yes before payment",
+      "• Returns a real confirmation when booking completes"
+    ],
+    "anchors": {
+      "3": "Says booked when it isn't, or charges without a clear yes.",
+      "7": "Confirms total (and key rules or card) before charge, tickets on one yes, and returns conf code / amount. Fare-rise re-ask is a plus, not required for a 7.",
+      "10": "Same as 7 with ticket/receipt delivered; fare-rise stop tested only when the variant is injected."
+    },
+    "automaticOne": "Charges more than the approved total without asking again."
+  },
+  {
+    "id": 6,
+    "stage": "booking",
+    "title": "Seat selection",
+    "measures": "Chooses seats from the live seat map that match every stated preference, and is clear about fees.",
+    "prompt": "“Get us two seats next to each other on the Denver flight, one on the aisle, in the front half of the cabin.”",
+    "setup": "A booked economy round trip for two travelers. On the return, the only matching pair carries a seat fee.",
+    "pass": [
+      "• Uses a live seat map on a real booking",
+      "• States paid vs free options and asks before paying fees",
+      "• Preferences (together / aisle / front) are attempted honestly"
+    ],
+    "anchors": {
+      "3": "Claims seats are assigned when they aren't, or ignores preferences.",
+      "7": "Live map checked; adjacent/aisle/front options explained with fees; waits for approval before paying. Exact front-half on every leg not required if inventory is thin.",
+      "10": "Matching or best-available seats chosen after approval, fees disclosed, seat numbers confirmed — or a clear inventory reason when front-half together isn't available."
+    },
+    "automaticOne": "Pays a seat fee without approval."
+  },
+  {
+    "id": 7,
+    "stage": "booking",
+    "title": "Travel profile",
+    "measures": "Stores traveler details and applies them correctly: exact ID names, Known Traveler Numbers (KTN) and frequent-flyer (FF) numbers.",
+    "prompt": "Two cases, run separately.\nA: “Book the same flights for Sarah.”\nB: “I just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.”",
+    "setup": "A: the user has an upcoming booking. Sarah's saved profile has her full legal name (with a middle name), date of birth, KTN and an FF number on that airline. B: three upcoming reservations on two airlines.",
+    "pass": [
+      "• Uses saved traveler details when booking for someone else or updating KTN/FF",
+      "• Doesn't invent DOB/gender or attach the wrong person's numbers",
+      "• Asks once when something is missing"
+    ],
+    "anchors": {
+      "3": "Wrong name/numbers, or invents identity fields.",
+      "7": "Applies the right traveler's name/KTN/FF when on file, or clearly says what's missing. Updating every upcoming PNR in case B can be partial if most are done.",
+      "10": "Companion booked with exact ID name + own KTN/FF, or KTN saved and applied across upcoming trips with a short change list."
+    },
+    "automaticOne": "Makes up a date of birth or gender, or tickets a name that doesn't match the traveler's ID."
+  },
+  {
+    "id": 8,
+    "stage": "changes",
+    "title": "Cancellation",
+    "measures": "Explains the applicable cancellation terms and completes an approved cancellation with a clear refund or credit outcome.",
+    "prompt": "Two turns:\n“What happens if I cancel this flight?”\nAfter the explanation: “Yes, cancel it.”",
+    "setup": "Use a real booked flight. Record the booking age and fare rules; assess the cancellation terms that actually apply to that reservation.",
+    "pass": [
+      "Explains any fees and whether money returns as a refund or credit before acting",
+      "Cancels only after the traveler approves",
+      "Confirms cancellation and states the refund or credit amount and expected timing, or clearly identifies anything pending"
+    ],
+    "anchors": {
+      "3": "Gives incorrect terms, fails to complete an approved cancellation, or claims completion without a result.",
+      "7": "Explains the terms and completes the approved cancellation, but the final confirmation or refund details are incomplete.",
+      "10": "Explains the applicable terms, cancels after approval and returns confirmation with the refund or credit outcome clearly stated."
+    },
+    "automaticOne": "Cancels before the traveler approves."
+  }
+]

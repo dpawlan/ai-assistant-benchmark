@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getScoredCategories } from '@/lib/data';
-import travelProtocol from '../../../../data/travel-protocol-draft.json';
+import travelProtocol from '../../../../data/travel-protocol-v1.json';
 import { clientIp, clip, createIssue, makeRateLimiter, sendEmail } from '@/lib/inbox';
 
 /**

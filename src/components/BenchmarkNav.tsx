@@ -16,7 +16,7 @@ export function BenchmarkNav({ active, section = 'assistants' }: { active: 'gene
 
 const descriptions = {
   general: 'Tests how AI assistants perform as everyday helpers, from answering questions and managing schedules to getting day-to-day tasks done.',
-  travel: 'Tests how AI assistants handle travel, from finding and booking flights to managing changes and disruptions.',
+  travel: 'Tests how AI assistants handle onboarding, flight booking, seat selection, travel profiles and cancellation.',
   work: 'Will test how AI assistants help you get work done, from email and scheduling to research and team workflows. Coming soon.',
 };
 

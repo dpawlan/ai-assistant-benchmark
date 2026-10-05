@@ -84,8 +84,8 @@
     "category": "multiplayer_groups",
     "protocol": "task",
     "date": "2026-09-10",
-    "score": 9,
-    "outcome": "pass",
+    "score": "n/a",
+    "outcome": "n/a",
     "notes": "Cannot start a group chat; offered to coordinate if added to an existing iMessage or SMS group.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-09-10-multiplayer"
   },

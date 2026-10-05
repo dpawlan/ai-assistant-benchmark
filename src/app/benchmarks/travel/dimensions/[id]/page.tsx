@@ -21,12 +21,7 @@ export default async function TravelDimensionPage({ params }: Props) {
     <div className="ag-top"><Link className="back" href="/benchmarks/travel/dimensions">← Travel dimensions</Link></div>
     <div className="page-head"><p className="cat-kicker">Dimension {protocol.findIndex(t => t.id === task.id) + 1} of {protocol.length} · Draft</p><h1 className="page-title">{task.title}</h1><p className="page-sub">{task.measures}</p></div>
     <BenchmarkNav active="travel" section="dimensions" />
-    <section className="task-card"><div className="task-head"><h2 className="ag-h2">The test</h2></div><blockquote className="task-prompt">{task.prompt}</blockquote>
-      {task.setup && <><h3 className="group-title">Setup</h3><p className="ag-sub">{task.setup}</p></>}
-      <h3 className="group-title">Passes when</h3><ul className="task-list">{task.pass.map((p, i) => <li key={i}>{p.replace(/^•\s*/, '')}</li>)}</ul>
-      <h3 className="group-title">Scoring anchors</h3>{Object.entries(task.anchors).map(([score, text]) => <p className="ag-sub" key={score}><strong>{score}/10:</strong> {text}</p>)}
-      {task.automaticOne && <p className="ag-sub"><strong>Automatic 1:</strong> {task.automaticOne}</p>}
-    </section><section className="shelf"><h2 className="ag-h2">Results</h2>{tested.length === 0 ? <p className="ag-sub">Not tested yet. This is a draft specification.</p> : tested.map(a => {
+    <section className="shelf"><h2 className="ag-h2">Results</h2>{tested.length === 0 ? <p className="ag-sub">Not tested yet.</p> : tested.map(a => {
       const run = a.travel.runs[task.id];
       return <div className="info-row" id={a.slug} key={a.slug}><span className="il"><Link href={`/agents/${a.slug}`}>{a.name}</Link> · {run.date} · {run.protocol === 'observed' ? 'Observed task' : 'Test'} · <a href={run.evidence_url}>Evidence</a>{run.notes && <span className="run-line">{run.notes}</span>}</span><ScoreCell value={run.score} /></div>;
     })}</section>

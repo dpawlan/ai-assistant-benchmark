@@ -43,10 +43,6 @@ export default async function TravelDimensionPage({ params }: Props) {
           <figcaption>Key moments, with captions explaining what happened.</figcaption>
         </figure>
       </div>
-      <dl className="info-list">
-        <div className="info-row"><dt className="il">Request &amp; setup</dt><dd className="iv">Actual request and starting conditions — to be added</dd></div>
-        <div className="info-row"><dt className="il">Outcome &amp; score</dt><dd className="iv">Result, any intervention and scoring rationale — to be added</dd></div>
-      </dl>
     </section>
   </div>;
 }

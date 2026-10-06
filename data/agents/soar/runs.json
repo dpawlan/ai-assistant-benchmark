@@ -108,5 +108,15 @@
     "outcome": "n/a",
     "notes": "Holds no linked accounts beyond travel queries, so scoped-access rules did not apply.",
     "evidence_url": "/agents/soar/evidence/soar-2026-09-09-blooio-permissions"
+  },
+  {
+    "id": "soar-2026-10-06-557511",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-10-06",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Says flight booking is not available yet: it finds the best option and sends a Google Flights link to finish, then tracks delays, gates and check-in.",
+    "evidence_url": "/agents/soar/evidence/soar-2026-10-06-557511"
   }
 ]

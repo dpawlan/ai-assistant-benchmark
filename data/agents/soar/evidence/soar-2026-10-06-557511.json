@@ -1,0 +1,19 @@
+{
+  "id": "soar-2026-10-06-557511",
+  "agent": "soar",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-10-06",
+  "signals": {
+    "turns": 2,
+    "my_messages": 1,
+    "agent_messages": 1,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-06T18:11:30.388060Z"
+}

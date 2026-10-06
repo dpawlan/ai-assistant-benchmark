@@ -67,4 +67,13 @@ _Updated 2026-10-05 vault scan (+2 rows)._
 - (2026-09-29) UseCarly: CVE-2026-25253 / malicious skills / Meta researcher inbox bulk-delete anecdote.
 - (2026-10-01) Gizmodo: OpenClaw stronger for chat channels/multi-agent/skill library.
 
-**Feedback rows:** 42 (as of 2026-10-05)
+_Updated 2026-10-06 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-05) My AI Guide: 30+ updates, 113 fixes, GPT-6.1 Sol + Opus 5.5 support.
+- (2026-10-05) My AI Guide: Stability over reasoning; production still fractures on maintenance.
+- (2026-10-05) TechThoughtLeaders: OpenClaw 391k stars, passed React in March; #1 harness.
+- (2026-10-05) TechThoughtLeaders: Stars ≠ adoption; Claude Code leads at 39% per JetBrains.
+- (2026-10-02) ClawUp: One-click OpenClaw/Hermes deploy; 1–3 min provisioning.
+
+**Feedback rows:** 47 (as of 2026-10-06)

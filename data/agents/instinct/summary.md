@@ -207,5 +207,19 @@ _Updated 2026-10-05 vault scan (+6 rows)._
 - (2026-10-01) Top5Apps: Instinct ranks highly for proactivity; 4.5/5 rating.
 - (2026-09-29) UseCarly: Instinct for invite/errands zero setup; OpenClaw for self-host.
 
-**Feedback rows:** 280 (as of 2026-10-05)
+_Updated 2026-10-06 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-10-05) TechCrunch (Sarah Perez): Group chat launch — friends without accounts can join; $10B valuation.
+- (2026-10-05) TechCrunch: Instinct ahead of Muse on group chats; Muse lacks feature.
+- (2026-10-06) BI (Thibault Spirlet): Group chat pitch — end the spiral of unread messages and competing suggestions.
+- (2026-10-06) BI: Group chats complicate privacy; multi-user permissions.
+- (2026-10-05) Dataist: Instinct ahead of Muse; Meta AI already has group chats.
+- (2026-10-05) Dataist: Key test is user comfort with agent participation, not capability.
+- (2026-10-06) Eliot Prince: Recycling centre slot booking + calendar + cancel worked.
+- (2026-10-06) Eliot Prince: AI bringing personal assistants to the masses.
+- (2026-10-06) Eliot Prince: Instinct proactive without building; ChatGPT/Claude aren't.
+- (2026-10-04) Siftwire: 25-day test explainer; free as of Sep 30; ToS reserves future pricing.
+
+**Feedback rows:** 291 (as of 2026-10-06)
 

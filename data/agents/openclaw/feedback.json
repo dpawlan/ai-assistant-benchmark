@@ -803,5 +803,98 @@
     "source": "web",
     "collected_at": "2026-10-05T14:00:00Z",
     "notes": "AI Provider Index: ClawScan 98.6% malicious case detection on SkillTrustBench."
+  },
+  {
+    "id": "f06myaiguide01",
+    "agent": "openclaw",
+    "quote": "OpenClaw issued over thirty updates across extended-stable lines that backport 113 fixes and add support for models including GPT-6.1 Sol and Claude Opus 5.5. Releases emphasize credential preservation during upgrades and tighter sandbox controls.",
+    "author": "amyreed",
+    "author_name": "Amy Reed (My AI Guide)",
+    "date": "2026-10-05",
+    "url": "https://myaiguide.co/news/agents-weekly-20261005",
+    "kind": "news",
+    "tags": [
+      "release",
+      "113-fixes",
+      "gpt-6.1",
+      "opus-5.5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "My AI Guide Oct 5: 30+ updates, 113 fixes, GPT-6.1 Sol + Opus 5.5 support."
+  },
+  {
+    "id": "f06myaiguide02",
+    "agent": "openclaw",
+    "quote": "The week shows heavy focus on stability patches and model catalog expansion rather than new agent reasoning capabilities. OpenClaw's repeated emphasis on credential preservation and sandbox boundaries reveals that production agent systems still fracture on routine maintenance.",
+    "author": "amyreed",
+    "author_name": "Amy Reed (My AI Guide)",
+    "date": "2026-10-05",
+    "url": "https://myaiguide.co/news/agents-weekly-20261005#take",
+    "kind": "other",
+    "tags": [
+      "stability",
+      "maintenance",
+      "production"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "My AI Guide: stability over reasoning; production still fractures on maintenance."
+  },
+  {
+    "id": "f06ttl01",
+    "agent": "openclaw",
+    "quote": "Two of the three most-starred software repositories on GitHub are agent harnesses, OpenClaw at 391,435 stars and Hermes Agent at 251,404, both read from the GitHub API on 5 October 2026. OpenClaw passed React in March 2026 to become the most-starred software project on the platform.",
+    "author": "ivantarin",
+    "author_name": "Ivan Tarin (TechThoughtLeaders)",
+    "date": "2026-10-05",
+    "url": "https://techthoughtleaders.io/agent-harness-landscape-stars-adoption-2026/",
+    "kind": "news",
+    "tags": [
+      "github",
+      "stars",
+      "react",
+      "harness"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "TechThoughtLeaders Oct 5: OpenClaw 391k stars, passed React in March."
+  },
+  {
+    "id": "f06ttl02",
+    "agent": "openclaw",
+    "quote": "The most used product and the most liked product are different things, and conflating them is the common error. Claude Code is the adoption leader among professionals at 39 percent of developers surveyed by JetBrains, up from 18 percent in January 2026.",
+    "author": "ivantarin",
+    "author_name": "Ivan Tarin (TechThoughtLeaders)",
+    "date": "2026-10-05",
+    "url": "https://techthoughtleaders.io/agent-harness-landscape-stars-adoption-2026/#adoption",
+    "kind": "other",
+    "tags": [
+      "adoption",
+      "claude-code",
+      "jetbrains"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "TechThoughtLeaders: stars ≠ adoption; Claude Code leads at 39% per JetBrains."
+  },
+  {
+    "id": "f06clawup01",
+    "agent": "openclaw",
+    "quote": "Metis' AI agent platform ClawUp now lets anyone deploy their own AI agent in seconds from clawup.org. Users pick a runtime — OpenClaw (the default) or Hermes Agent — choose a model, and hit deploy, with no servers or setup; agents are provisioned in roughly 1–3 minutes.",
+    "author": "metis",
+    "author_name": "Metis (ClawUp)",
+    "date": "2026-10-02",
+    "url": "https://outposts.io/project/metis/article/clawup-opens-one-click-agent-deployment-with-openclaw-and-cmuqbj2ct01xz06nvbzgji4ql",
+    "kind": "news",
+    "tags": [
+      "clawup",
+      "one-click",
+      "deployment",
+      "hosting"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "ClawUp Oct 2: one-click OpenClaw/Hermes deploy; 1–3 min provisioning."
   }
 ]

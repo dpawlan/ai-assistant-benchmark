@@ -244,5 +244,61 @@
     "source": "web",
     "collected_at": "2026-10-05T14:00:00Z",
     "notes": "Fontoura: proxy pattern to keep credentials away from agents."
+  },
+  {
+    "id": "f06myaiguide01",
+    "agent": "hermes-agent",
+    "quote": "Nous Research issued three sequential releases that archive reviewed project-management inputs as immutable sha256 objects. The approach prevents accidental edits during agent development cycles. Scripts manage the archive process to keep assets stable for repeated runs.",
+    "author": "amyreed",
+    "author_name": "Amy Reed (My AI Guide)",
+    "date": "2026-10-05",
+    "url": "https://myaiguide.co/news/agents-weekly-20261005#hermes",
+    "kind": "news",
+    "tags": [
+      "release",
+      "sha256",
+      "inputs",
+      "reproducibility"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "My AI Guide Oct 5: Hermes pinned inputs as sha256 for reproducibility."
+  },
+  {
+    "id": "f06ttl01",
+    "agent": "hermes-agent",
+    "quote": "Two of the three most-starred software repositories on GitHub are agent harnesses, OpenClaw at 391,435 stars and Hermes Agent at 251,404, both read from the GitHub API on 5 October 2026.",
+    "author": "ivantarin",
+    "author_name": "Ivan Tarin (TechThoughtLeaders)",
+    "date": "2026-10-05",
+    "url": "https://techthoughtleaders.io/agent-harness-landscape-stars-adoption-2026/",
+    "kind": "news",
+    "tags": [
+      "github",
+      "stars",
+      "harness"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "TechThoughtLeaders Oct 5: Hermes Agent 251k stars, #2 agent harness."
+  },
+  {
+    "id": "f06clawup01",
+    "agent": "hermes-agent",
+    "quote": "Metis' AI agent platform ClawUp now lets anyone deploy their own AI agent in seconds from clawup.org. Users pick a runtime — OpenClaw (the default) or Hermes Agent — choose a model, and hit deploy, with no servers or setup; agents are provisioned in roughly 1–3 minutes.",
+    "author": "metis",
+    "author_name": "Metis (ClawUp)",
+    "date": "2026-10-02",
+    "url": "https://outposts.io/project/metis/article/clawup-opens-one-click-agent-deployment-with-openclaw-and-cmuqbj2ct01xz06nvbzgji4ql",
+    "kind": "news",
+    "tags": [
+      "clawup",
+      "one-click",
+      "deployment",
+      "hosting"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "ClawUp Oct 2: one-click Hermes deploy alongside OpenClaw."
   }
 ]

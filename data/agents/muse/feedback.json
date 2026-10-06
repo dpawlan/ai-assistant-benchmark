@@ -5190,5 +5190,170 @@
     "source": "news",
     "collected_at": "2026-10-05T14:00:00Z",
     "notes": "AI Weekly: bot traffic up 124% YoY; agent load concerns."
+  },
+  {
+    "id": "f06adalytica01",
+    "agent": "muse",
+    "quote": "Personal AI agents are moving from novelty to real product, and Meta's Muse is a timely example of both the promise and the problem. It can already handle multi-step tasks across apps, remember user preferences and even make phone calls, but it also asks for the kind of access that makes privacy, security and trust the real bottlenecks for mass adoption.",
+    "author": "vadimskritskii",
+    "author_name": "Vadim Skritskii (Adalytica)",
+    "date": "2026-10-02",
+    "url": "https://adalytica.com/news/meta-muse-downloads-privacy-risks-91eaaa6b",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "trust",
+      "bottleneck"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Adalytica Oct 2: privacy/security/trust are real bottlenecks."
+  },
+  {
+    "id": "f06adalytica02",
+    "agent": "muse",
+    "quote": "Meta is already learning that lesson: Amazon has blocked Muse from its site, Resy has shut out unapproved bots, and Reuters reported that some businesses hung up on Muse's AI calls, prompting Meta to test a 'human concierge' fallback.",
+    "author": "vadimskritskii",
+    "author_name": "Vadim Skritskii (Adalytica)",
+    "date": "2026-10-02",
+    "url": "https://adalytica.com/news/meta-muse-downloads-privacy-risks-91eaaa6b#blocks",
+    "kind": "complaint",
+    "tags": [
+      "amazon",
+      "resy",
+      "blocked",
+      "concierge"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Adalytica: Amazon/Resy blocks + businesses hanging up; human fallback."
+  },
+  {
+    "id": "f06adalytica03",
+    "agent": "muse",
+    "quote": "Meta is now adding a clearer warning in Muse after a researcher found a vulnerability that could have exposed a user's dedicated virtual machine, according to The Information.",
+    "author": "vadimskritskii",
+    "author_name": "Vadim Skritskii (Adalytica, citing The Information)",
+    "date": "2026-10-02",
+    "url": "https://adalytica.com/news/meta-muse-downloads-privacy-risks-91eaaa6b#vm",
+    "kind": "bug",
+    "tags": [
+      "security",
+      "vm",
+      "vulnerability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Adalytica citing The Information: VM vulnerability warning added."
+  },
+  {
+    "id": "f06tomsguide01",
+    "agent": "muse",
+    "quote": "From my experience using Meta Muse, it seems to know a lot about me, simply by remembering our conversations. But as it turns out, according to a Wired report, internal instructions pulled from the AI agent show that it can organize information about the people around you too, potentially building a dedicated page for everyone from your spouse and friends to coworkers and people you follow.",
+    "author": "tomsguide",
+    "author_name": "Tom's Guide",
+    "date": "2026-10-04",
+    "url": "https://www.tomsguide.com/ai/meta-muse-can-keep-files-on-people-who-have-never-used-it-heres-what-i-found",
+    "kind": "other",
+    "tags": [
+      "memory",
+      "people",
+      "dossier",
+      "wired"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Tom's Guide Oct 4: Muse builds dossiers on people around you."
+  },
+  {
+    "id": "f06tomsguide02",
+    "agent": "muse",
+    "quote": "Meta says Muse users can wipe memories or disconnect external services, and the agent includes an audit log where users can see its activity and future plans. Those controls become even more important as you connect more of your life.",
+    "author": "tomsguide",
+    "author_name": "Tom's Guide",
+    "date": "2026-10-04",
+    "url": "https://www.tomsguide.com/ai/meta-muse-can-keep-files-on-people-who-have-never-used-it-heres-what-i-found#controls",
+    "kind": "other",
+    "tags": [
+      "memory",
+      "controls",
+      "audit-log"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Tom's Guide: memory wipe + audit log available; controls matter."
+  },
+  {
+    "id": "f06androidauth01",
+    "agent": "muse",
+    "quote": "I also connected my Gmail inbox and sent Muse on a deep dive. I get a ton of PR emails per day, and I wanted to filter and scan for the ones with product offers for me to review. Muse actually found an important one I missed, and it tracks whether I responded and what the PR agencies sent back.",
+    "author": "androidauthority",
+    "author_name": "Android Authority",
+    "date": "2026-10-04",
+    "url": "https://www.androidauthority.com/meta-muse-one-week-later-hands-on-3718233/",
+    "kind": "use-case",
+    "tags": [
+      "gmail",
+      "inbox",
+      "pr-emails",
+      "tracking"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Android Authority: Muse found missed PR email; tracks responses."
+  },
+  {
+    "id": "f06androidauth02",
+    "agent": "muse",
+    "quote": "For $20, it's one of the first agents that produces value I can see weekly, in a package that is easy to use and understand. Meta is on to something with Muse, and don't be surprised if it's the AI agent that catches on the best.",
+    "author": "androidauthority",
+    "author_name": "Android Authority",
+    "date": "2026-10-04",
+    "url": "https://www.androidauthority.com/meta-muse-one-week-later-hands-on-3718233/#verdict",
+    "kind": "praise",
+    "tags": [
+      "value",
+      "ease",
+      "weekly"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Android Authority: $20 tier produces weekly visible value; easy to use."
+  },
+  {
+    "id": "f06top5apps01",
+    "agent": "muse",
+    "quote": "The personal agent for most people right now: free, available, and built with the category's most honest permission design — provided you spend five minutes changing the two defaults that undercut it. Instinct shows the ceiling of what agents can do; Muse sets the floor of what they should ask before doing it — and that floor is high enough to win.",
+    "author": "top5apps",
+    "author_name": "Top5Apps",
+    "date": "2026-10-05",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/muse/",
+    "kind": "comparison",
+    "tags": [
+      "vs-instinct",
+      "permissions",
+      "floor-ceiling"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Top5Apps Oct 5: Muse floor vs Instinct ceiling; best permission design."
+  },
+  {
+    "id": "f06top5apps02",
+    "agent": "muse",
+    "quote": "On Facebook Marketplace it messages strangers as you: on Sept 26 one seller's Muse gave out his home address and accepted a lowball he never approved — and Meta documents no Marketplace feature or price-floor setting.",
+    "author": "top5apps",
+    "author_name": "Top5Apps",
+    "date": "2026-10-05",
+    "url": "https://top5apps.ai/best-ai-apps/best-personal-ai-agents/muse/#marketplace",
+    "kind": "bug",
+    "tags": [
+      "marketplace",
+      "address-leak",
+      "lowball"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Top5Apps: Marketplace address leak + unapproved lowball accept."
   }
 ]

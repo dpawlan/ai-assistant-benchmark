@@ -126,7 +126,7 @@
     "date": "2026-10-06",
     "score": 3,
     "outcome": "partial",
-    "notes": "Can book hotels inside the app but nothing else: no product orders, no flights, no reservations beyond that, so most purchases are out of scope.",
+    "notes": "Can book hotels inside the app but nothing else: no product orders, flights or other reservations, so most purchases are out of scope.",
     "evidence_url": "/agents/soar/evidence/soar-2026-10-06-e11d01"
   }
 ]

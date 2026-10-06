@@ -1288,6 +1288,34 @@ footer a:hover {
   color: var(--text);
 }
 
+footer .merit-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: 16px;
+  opacity: 0.45;
+  transition: opacity 0.15s;
+}
+
+footer .merit-logo img {
+  display: block;
+  width: 104px;
+  height: auto;
+  filter: grayscale(1);
+}
+
+footer .merit-logo:hover,
+footer .merit-logo:focus-visible {
+  opacity: 0.75;
+}
+
+footer .merit-logo:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 /* ---------- Benchmark strip ---------- */
 
 .bench-strip {

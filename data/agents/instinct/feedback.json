@@ -5977,5 +5977,204 @@
     "source": "web",
     "collected_at": "2026-10-05T14:00:00Z",
     "notes": "Top5Apps: worst safety record per TechCrunch Aug investigation."
+  },
+  {
+    "id": "f06tc01",
+    "agent": "instinct",
+    "quote": "Instinct, the AI agent now valued at $10 billion as of its latest funding round, is expanding into group chats. The startup announced on Monday that users will be able to add the agent to chats with friends, which could be helpful in certain scenarios like travel planning, snagging event tickets, running fantasy leagues, organizing carpools, or managing who's bringing what to Thanksgiving.",
+    "author": "sarahperez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-10-05",
+    "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+    "kind": "news",
+    "tags": [
+      "group-chat",
+      "launch",
+      "multiplayer"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "TechCrunch Oct 5: group chat launch; friends without accounts can join."
+  },
+  {
+    "id": "f06tc02",
+    "agent": "instinct",
+    "quote": "With the launch, Instinct moves ahead in its battle with top competitors in the space, like Meta's Muse. The latter doesn't yet offer the group chat functionality, though Meta's older app, Meta AI, can be added to group chats on WhatsApp, Messenger, Instagram, and Facebook.",
+    "author": "sarahperez",
+    "author_name": "Sarah Perez (TechCrunch)",
+    "date": "2026-10-05",
+    "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/#vs-muse",
+    "kind": "comparison",
+    "tags": [
+      "group-chat",
+      "vs-muse",
+      "competition"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "TechCrunch: Instinct ahead of Muse on group chats."
+  },
+  {
+    "id": "f06bi01",
+    "agent": "instinct",
+    "quote": "Instinct came for your inbox, your errands, and your shopping list — now it's wading into the wild west of your group chat. The pitch is to end the familiar group-chat spiral: having to catch up on dozens of unread messages, competing restaurant suggestions, and the one friend who never answers whether they can make it to drinks on Friday.",
+    "author": "tspirlet",
+    "author_name": "Thibault Spirlet (Business Insider)",
+    "date": "2026-10-06",
+    "url": "https://www.businessinsider.com/instincts-ai-agents-are-coming-to-your-group-chat-2026-10",
+    "kind": "news",
+    "tags": [
+      "group-chat",
+      "launch",
+      "coordination"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "BI Oct 6: group chat launch; end spiral of unread messages."
+  },
+  {
+    "id": "f06bi02",
+    "agent": "instinct",
+    "quote": "Group chats could complicate those concerns. An agent helping organize a trip might need to compare calendars, collect payments, buy tickets, and message several people — while handling personal information and permissions that belong to different users.",
+    "author": "tspirlet",
+    "author_name": "Thibault Spirlet (Business Insider)",
+    "date": "2026-10-06",
+    "url": "https://www.businessinsider.com/instincts-ai-agents-are-coming-to-your-group-chat-2026-10#privacy",
+    "kind": "other",
+    "tags": [
+      "group-chat",
+      "privacy",
+      "multi-user"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "BI: group chats complicate privacy; multi-user permissions."
+  },
+  {
+    "id": "f06dataist01",
+    "agent": "instinct",
+    "quote": "It puts Instinct ahead of Meta's Muse, which still lacks group chats, but not Meta AI, which can already join group conversations across WhatsApp, Messenger, Instagram and Facebook.",
+    "author": "neuronium_ai",
+    "author_name": "Dataist",
+    "date": "2026-10-05",
+    "url": "https://dataist.ai/news/instinct-brings-one-ai-agent-into-group-chats-no-account-needed/",
+    "kind": "comparison",
+    "tags": [
+      "group-chat",
+      "vs-muse",
+      "meta-ai"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Dataist: Instinct ahead of Muse on group chats; Meta AI already had it."
+  },
+  {
+    "id": "f06dataist02",
+    "agent": "instinct",
+    "quote": "I think the key test is not whether the agent can help a group make a plan, but whether people are comfortable letting it participate. Instinct has described permission gates and a pause when a new person joins; the announcement says less about what happens when a group's members disagree about letting the agent in.",
+    "author": "neuronium_ai",
+    "author_name": "Dataist",
+    "date": "2026-10-05",
+    "url": "https://dataist.ai/news/instinct-brings-one-ai-agent-into-group-chats-no-account-needed/#comfort",
+    "kind": "other",
+    "tags": [
+      "group-chat",
+      "trust",
+      "consent"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Dataist: key test is user comfort with agent participation, not capability."
+  },
+  {
+    "id": "f06eliot01",
+    "agent": "instinct",
+    "quote": "The first job I gave it was booking me a time slot at the Newquay recycling centre, so I could take all the stuff I have from moving house to the dump. It asked me a few questions, found the slots, booked it, put it in my calendar, and then cancelled it again when I asked.",
+    "author": "eliotprince",
+    "author_name": "Eliot Prince",
+    "date": "2026-10-06",
+    "url": "https://eliotprince.com/blog/instinct-ai-personal-assistant",
+    "kind": "use-case",
+    "tags": [
+      "booking",
+      "calendar",
+      "uk",
+      "recycling"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Eliot Prince: recycling centre slot booking + calendar + cancel."
+  },
+  {
+    "id": "f06eliot02",
+    "agent": "instinct",
+    "quote": "Personal assistants were only ever available to the richest CEOs, and everyone else had to do all of their own life admin. Now AI is bringing this to the masses.",
+    "author": "eliotprince",
+    "author_name": "Eliot Prince",
+    "date": "2026-10-06",
+    "url": "https://eliotprince.com/blog/instinct-ai-personal-assistant#masses",
+    "kind": "praise",
+    "tags": [
+      "democratization",
+      "life-admin"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Eliot Prince: AI bringing personal assistants to the masses."
+  },
+  {
+    "id": "f06eliot03",
+    "agent": "instinct",
+    "quote": "Instinct is proactive like the agents you build yourself, without you having to build anything. It's the best of all of this. ChatGPT and Claude aren't proactive. You have to log in and you have to prompt.",
+    "author": "eliotprince",
+    "author_name": "Eliot Prince",
+    "date": "2026-10-06",
+    "url": "https://eliotprince.com/blog/instinct-ai-personal-assistant#proactive",
+    "kind": "comparison",
+    "tags": [
+      "proactive",
+      "vs-chatgpt",
+      "vs-claude",
+      "vs-hermes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Eliot Prince: Instinct proactive without building; ChatGPT/Claude aren't."
+  },
+  {
+    "id": "f06siftwire01",
+    "agent": "instinct",
+    "quote": "Instinct is the assistant people keep describing in the wrong category. It is not a chatbot you open — there is no app to open. It texts you. This page is the plain definition: what it is, what it can reach, who builds it, and where the documents draw the line.",
+    "author": "siftwire",
+    "author_name": "Siftwire",
+    "date": "2026-10-04",
+    "url": "https://siftwire.net/instinct-ai/what-is-instinct-ai/",
+    "kind": "other",
+    "tags": [
+      "explainer",
+      "definition",
+      "text-first"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Siftwire Oct 4: 25-day test explainer; free as of Sep 30."
+  },
+  {
+    "id": "f06siftwire02",
+    "agent": "instinct",
+    "quote": "It is free — for now, with a date. As of September 30, 2026, Instinct is free for everyone with access. The Terms do reserve the right to charge for 'certain features' and to change pricing 'at any time,' so treat free as current, not permanent.",
+    "author": "siftwire",
+    "author_name": "Siftwire",
+    "date": "2026-10-04",
+    "url": "https://siftwire.net/instinct-ai/what-is-instinct-ai/#pricing",
+    "kind": "other",
+    "tags": [
+      "pricing",
+      "free",
+      "terms"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-06T14:00:00Z",
+    "notes": "Siftwire: free as of Sep 30; ToS reserves future pricing."
   }
 ]

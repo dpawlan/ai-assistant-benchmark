@@ -200,5 +200,18 @@ _Updated 2026-10-05 vault scan (+20 rows)._
 - (2026-09-29) Jess Weatherbed (Verge): Allow Always permission led to address leak.
 - (2026-09-28) AppleInsider: 187k Messages rows synced despite permissions off.
 
-**Feedback rows:** 249 (as of 2026-10-05)
+_Updated 2026-10-06 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-10-02) Adalytica: Privacy/security/trust are real bottlenecks for mass adoption.
+- (2026-10-02) Adalytica: Amazon/Resy blocks + businesses hanging up; human concierge fallback.
+- (2026-10-02) Adalytica citing The Information: VM vulnerability warning added.
+- (2026-10-04) Tom's Guide: Muse builds dossiers on people around you from conversations.
+- (2026-10-04) Tom's Guide: Memory wipe + audit log available; controls matter.
+- (2026-10-04) Android Authority: Muse found missed PR email; tracks responses.
+- (2026-10-04) Android Authority: $20 tier produces weekly visible value; easy to use.
+- (2026-10-05) Top5Apps: Muse floor vs Instinct ceiling; best permission design.
+- (2026-10-05) Top5Apps: Marketplace address leak + unapproved lowball accept.
+
+**Feedback rows:** 258 (as of 2026-10-06)
 **Kinds:** other=78, use-case=38, praise=16, complaint=42, comparison=12, bug=25, news=38

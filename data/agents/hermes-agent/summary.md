@@ -39,4 +39,11 @@ _Updated 2026-10-05 vault scan (+5 rows)._
 - (2026-10-01) Gizmodo: Hermes stronger for learning/memory/safer defaults vs OpenClaw.
 - (2026-09-27) DEV (Rello): Persona rules vs code enforcement lesson.
 
-**Feedback rows:** 13 (as of 2026-10-05)
+_Updated 2026-10-06 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-05) My AI Guide: Hermes pinned inputs as sha256 for reproducibility.
+- (2026-10-05) TechThoughtLeaders: Hermes Agent 251k stars, #2 agent harness on GitHub.
+- (2026-10-02) ClawUp: One-click Hermes deploy alongside OpenClaw.
+
+**Feedback rows:** 16 (as of 2026-10-06)

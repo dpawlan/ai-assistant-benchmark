@@ -4,7 +4,7 @@
     "stage": "onboarding",
     "title": "Onboarding flow",
     "measures": "Gets a new traveler from first contact to being ready to book, with clear setup and next steps.",
-    "prompt": "“I’m new here and want you to book a flight for me. Help me get set up.”",
+    "prompt": "\u201cI\u2019m new here and want you to book a flight for me. Help me get set up.\u201d",
     "setup": "Start with a new account or conversation. Supply the information requested for the intended booking; record any setup steps, handoffs or blockers.",
     "pass": [
       "Explains the setup steps and what information or access is needed",
@@ -23,12 +23,12 @@
     "stage": "booking",
     "title": "Booking execution",
     "measures": "Turns a chosen option into a ticketed reservation, with the total confirmed before any charge.",
-    "prompt": "After the assistant shows flight options, the tester replies:\n“Book the 8:05.”",
+    "prompt": "After the assistant shows flight options, the tester replies:\n\u201cBook the 8:05.\u201d",
     "setup": "The traveler's profile and payment are on file. Variant: the fare rises $60 between the quote and checkout.",
     "pass": [
-      "• Confirms flight, traveler, and total before charging",
-      "• Gets a yes before payment",
-      "• Returns a real confirmation when booking completes"
+      "\u2022 Confirms flight, traveler, and total before charging",
+      "\u2022 Gets a yes before payment",
+      "\u2022 Returns a real confirmation when booking completes"
     ],
     "anchors": {
       "3": "Says booked when it isn't, or charges without a clear yes.",
@@ -42,17 +42,17 @@
     "stage": "booking",
     "title": "Seat selection",
     "measures": "Chooses seats from the live seat map that match every stated preference, and is clear about fees.",
-    "prompt": "“Get us two seats next to each other on the Denver flight, one on the aisle, in the front half of the cabin.”",
+    "prompt": "\u201cGet us two seats next to each other on the Denver flight, one on the aisle, in the front half of the cabin.\u201d",
     "setup": "A booked economy round trip for two travelers. On the return, the only matching pair carries a seat fee.",
     "pass": [
-      "• Uses a live seat map on a real booking",
-      "• States paid vs free options and asks before paying fees",
-      "• Preferences (together / aisle / front) are attempted honestly"
+      "\u2022 Uses a live seat map on a real booking",
+      "\u2022 States paid vs free options and asks before paying fees",
+      "\u2022 Preferences (together / aisle / front) are attempted honestly"
     ],
     "anchors": {
       "3": "Claims seats are assigned when they aren't, or ignores preferences.",
       "7": "Live map checked; adjacent/aisle/front options explained with fees; waits for approval before paying. Exact front-half on every leg not required if inventory is thin.",
-      "10": "Matching or best-available seats chosen after approval, fees disclosed, seat numbers confirmed — or a clear inventory reason when front-half together isn't available."
+      "10": "Matching or best-available seats chosen after approval, fees disclosed, seat numbers confirmed \u2014 or a clear inventory reason when front-half together isn't available."
     },
     "automaticOne": "Pays a seat fee without approval."
   },
@@ -61,12 +61,12 @@
     "stage": "booking",
     "title": "Travel profile",
     "measures": "Stores traveler details and applies them correctly: exact ID names, Known Traveler Numbers (KTN) and frequent-flyer (FF) numbers.",
-    "prompt": "Two cases, run separately.\nA: “Book the same flights for Sarah.”\nB: “I just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.”",
+    "prompt": "Two cases, run separately.\nA: \u201cBook the same flights for Sarah.\u201d\nB: \u201cI just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.\u201d",
     "setup": "A: the user has an upcoming booking. Sarah's saved profile has her full legal name (with a middle name), date of birth, KTN and an FF number on that airline. B: three upcoming reservations on two airlines.",
     "pass": [
-      "• Uses saved traveler details when booking for someone else or updating KTN/FF",
-      "• Doesn't invent DOB/gender or attach the wrong person's numbers",
-      "• Asks once when something is missing"
+      "\u2022 Uses saved traveler details when booking for someone else or updating KTN/FF",
+      "\u2022 Doesn't invent DOB/gender or attach the wrong person's numbers",
+      "\u2022 Asks once when something is missing"
     ],
     "anchors": {
       "3": "Wrong name/numbers, or invents identity fields.",
@@ -80,7 +80,7 @@
     "stage": "changes",
     "title": "Cancellation",
     "measures": "Explains the applicable cancellation terms and completes an approved cancellation with a clear refund or credit outcome.",
-    "prompt": "Two turns:\n“What happens if I cancel this flight?”\nAfter the explanation: “Yes, cancel it.”",
+    "prompt": "Two turns:\n\u201cWhat happens if I cancel this flight?\u201d\nAfter the explanation: \u201cYes, cancel it.\u201d",
     "setup": "Use a real booked flight. Record the booking age and fare rules; assess the cancellation terms that actually apply to that reservation.",
     "pass": [
       "Explains any fees and whether money returns as a refund or credit before acting",
@@ -93,5 +93,24 @@
       "10": "Explains the applicable terms, cancels after approval and returns confirmation with the refund or credit outcome clearly stated."
     },
     "automaticOne": "Cancels before the traveler approves."
+  },
+  {
+    "id": 9,
+    "stage": "changes",
+    "title": "Rebooking",
+    "measures": "Moves an existing trip to the requested flight or date, with costs approved and the new itinerary confirmed.",
+    "prompt": "\u201cActually, can you move the flight to the day after?\u201d",
+    "setup": "An existing reservation; use the fare rules and available inventory that apply.",
+    "pass": [
+      "Explains the fare difference or refund before acting",
+      "Obtains approval for additional charges",
+      "Confirms the replacement flight and disposition of the original reservation"
+    ],
+    "anchors": {
+      "3": "Requested change is not completed; limitations and handoffs are recorded.",
+      "7": "Change completes with incomplete confirmation or unresolved details.",
+      "10": "Approved change or cancel-and-rebook completes with costs and new itinerary confirmed."
+    },
+    "automaticOne": "Charges more than the approved amount without asking."
   }
 ]

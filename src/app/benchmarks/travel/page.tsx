@@ -7,6 +7,6 @@ export const metadata: Metadata = { title: 'Travel benchmark · Design preview',
 
 export default function TravelPage() {
   const cohort = [...TRAVEL_PILOT, ...TRAVEL_NEXT];
-  const agents = getAgents().filter(a => cohort.includes(a.slug) || a.travel.completed > 0).map(({ slug, name, icon, kind, travel, opinion }) => ({ slug, name, icon, kind, travel, travelOpinion: opinion.travel }));
+  const agents = getAgents().filter(a => cohort.includes(a.slug) || a.travel.completed > 0).map(({ slug, name, icon, kind, travel, opinion, usage }) => ({ slug, name, icon, kind, travel, travelOpinion: opinion.travel, usage }));
   return <div className="wrap mid"><TravelBenchmark agents={agents} /></div>;
 }

@@ -10,11 +10,12 @@ export default function TravelDimensionsPage() {
   const agents = getAgents();
   return <div className="wrap">
     <div className="ag-top"><Link className="back" href="/benchmarks/travel">← Travel assistants</Link></div>
-    <div className="page-head"><h1 className="page-title">Dimensions</h1><p className="page-sub">Five v1 dimensions. Open one to see results and test documentation. Observed results are labeled separately from the prescribed tests.</p></div>
+    <div className="page-head"><h1 className="page-title">Dimensions</h1><p className="page-sub">Six v1 dimensions. Open one to see results and test documentation. Observed results are labeled separately from the prescribed tests.</p></div>
     <BenchmarkNav active="travel" section="dimensions" />
-    <section className="shelf"><h2 className="shelf-title"><span className="shelf-head">5 dimensions</span></h2><div className="cat-list">
+    <section className="shelf"><h2 className="shelf-title"><span className="shelf-head">{protocol.length} dimensions</span></h2><div className="cat-list">
       {protocol.map((t, index) => { const tested = agents.filter(a => a.travel.scores[t.id] !== undefined).length; return <Link key={t.id} href={`/benchmarks/travel/dimensions/${t.id}`} className="cat-row"><span className="cat-num">{index + 1}</span><span className="cat-body"><span className="cat-label">{t.title}</span><span className="cat-desc">{t.measures}</span></span><span className="row-slot"><span className={`pill${tested ? '' : ' muted'}`}>{tested ? `${tested} tested` : 'Untested'}</span></span></Link>; })}
     </div></section>
+    <section className="shelf"><h2 className="ag-h2">Median reply speed</h2><p className="ag-sub">Measured reply time, shown alongside scores just like General. Currently uses the same conversation measurements as General; it is not a Travel-only measurement and does not count toward the score or the three-dimension minimum.</p></section>
     <section className="how" id="how">
       <h2 className="ag-h2">How scoring works</h2>
       <BenchmarkNav active="travel" section="scoring" />

@@ -4196,3 +4196,22 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-media-placeholder span:last-child, .travel-evidence-grid figcaption { font-size: 13px; line-height: 1.5; }
 .travel-evidence-grid figcaption { margin-top: 10px; color: var(--sec); }
 @media (max-width: 600px) { .travel-evidence-grid { grid-template-columns: 1fr; } }
+
+/* Documented travel tests reuse benchmark tables and evidence cards. */
+.travel-matrix { min-width: 925px; }
+.travel-test-card { padding: 24px 0; }
+.travel-test-card a { color: inherit; }
+.travel-test-card a:hover { color: var(--blue); }
+.travel-test-facts { display: flex; flex-wrap: wrap; gap: 12px 24px; color: var(--sec); font-size: 13px; }
+.travel-test-prompt { margin: 20px 0; padding: 16px 20px; border-left: 3px solid var(--blue); background: var(--fill); line-height: 1.7; }
+.travel-test-table { min-width: 800px; }
+.travel-test-table th, .travel-test-table td { text-align: left; padding: 16px 12px; }
+.travel-test-controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+.travel-test-controls a { font: inherit; font-size: 13px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; color: var(--sec); background: var(--bg); cursor: pointer; }
+.travel-test-controls a[aria-current="true"] { background: var(--fill); color: var(--text); border-color: var(--blue); }
+#assistant-evidence { scroll-margin-top: 80px; }
+
+.travel-dimension-evidence { padding: 26px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 80px; }
+.travel-evidence-heading { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.travel-evidence-heading h3 { margin: 0; }
+.travel-previous-result { margin: 18px 0 0; }

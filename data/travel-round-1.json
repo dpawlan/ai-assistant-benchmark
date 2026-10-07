@@ -130,5 +130,17 @@
     "version": "travel-v1",
     "protocol": "observed",
     "notes": "Identified the traveler\u2019s two United loyalty accounts and selected the appropriate account in the booking preparation. The later payment blocker does not negate this completed profile task; application to an issued ticket was not verified."
+  },
+  {
+    "id": "muse-2026-10-06-round-1-dimension-18",
+    "agent": "muse",
+    "dimension": 18,
+    "date": "2026-10-06",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/18#muse",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Established the assistant session with calendar and loyalty context available and prepared the booking review. The subsequent new-card synchronization problem is recorded under booking execution, not treated as untested onboarding."
   }
 ]

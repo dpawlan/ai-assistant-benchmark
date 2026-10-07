@@ -190,5 +190,17 @@
     "version": "travel-v1",
     "protocol": "observed",
     "notes": "Confirmed the supplied SkyMiles account, signed in securely and used the traveler details populated by Delta for the booking. No unrequested KTN task is assumed."
+  },
+  {
+    "id": "dots-2026-10-07-round-2-dimension-18",
+    "agent": "dots",
+    "dimension": 18,
+    "date": "2026-10-07",
+    "score": 7,
+    "evidence_url": "/benchmarks/travel/dimensions/18#dots",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Completed account sign-in and traveler/payment setup. Clarifying the supplied account number and recovering a stuck secure checkout handoff added avoidable friction, but setup completed."
   }
 ]

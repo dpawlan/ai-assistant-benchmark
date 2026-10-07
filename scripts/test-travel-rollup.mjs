@@ -31,15 +31,15 @@ require.extensions['.ts'] = (loaded, filename) => {
 };
 try {
   const { getAgentDetail } = require('../src/lib/data.ts');
-  const baseline = getAgentDetail('soar');
+  const baseline = getAgentDetail('boba');
   assert.equal(baseline.travel.score, null);
   assert.equal(baseline.scores.travel, baseline.travel.legacyScore);
   const resultsPath = path.resolve('data/travel-results.json');
-  assert.equal(getAgentDetail('miso').travel.completed, 5);
-  assert.equal(getAgentDetail('instinct').travel.completed, 3);
-  assert.equal(getAgentDetail('soar').travel.completed, 0);
+  assert.equal(getAgentDetail('miso').travel.completed, 6);
+  assert.equal(getAgentDetail('instinct').travel.completed, 5);
+  assert.equal(getAgentDetail('soar').travel.completed, 1);
   assert.equal(getAgentDetail('miso').travel.total, 6);
-  assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9']);
+  assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18']);
   let fixture = [...activeIds.map(id => run(id, 8, { agent: 'muse' })), run(1, 1, { agent: 'muse' })];
   fs.readFileSync = function(file, ...options) {
     if (String(file) === resultsPath) return JSON.stringify(fixture);
@@ -75,7 +75,12 @@ for (const id of [5, 6, 7]) assert.equal(miso.scores[id], 10);
 assert.equal(miso.scores[13], undefined);
 assert.equal(miso.scores[8], 7);
 assert.equal(miso.scores[9], 10);
-assert.equal(miso.score, 9.4);
+assert.equal(miso.score, 9.5);
+const instinct = summarizeTravel('instinct', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
+assert.equal(instinct.scores[5], 10);
+assert.equal(instinct.scores[18], 10);
+assert.equal(instinct.scores[6], 3);
+assert.equal(instinct.score, 5.8);
 for (const result of actual) {
   assert.ok(result.notes);
   if (result.evidence_url.startsWith('/agents/')) {

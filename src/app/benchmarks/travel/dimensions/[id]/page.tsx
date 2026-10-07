@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { AgentIcon } from '@/components/AgentIcon';
 import allRuns from '../../../../../../data/travel-results.json';
+import roundOne from '../../../../../../data/travel-round-1.json';
 import roundTwo from '../../../../../../data/travel-round-2.json';
 import { travelSessionPreview } from '@/lib/travel-session-preview';
 import { BenchmarkNav } from '@/components/BenchmarkNav';
@@ -35,7 +36,8 @@ export default async function TravelDimensionPage({ params }: Props) {
     <section className="shelf travel-documentation" aria-labelledby="test-documentation">
       <h2 className="ag-h2" id="test-documentation">Test details</h2>
       {participants.map(a => {
-        const previous = allRuns.filter(r => r.agent === a.slug && r.dimension === task.id && r.reviewed && r.date < '2026-10-07').sort((a,b) => b.date.localeCompare(a.date))[0];
+        const previous = allRuns.filter(r => r.agent === a.slug && r.dimension === task.id && r.reviewed && r.date < '2026-10-06').sort((a,b) => b.date.localeCompare(a.date))[0];
+        const firstRound = roundOne.find(r => r.agent === a.slug && r.dimension === task.id);
         const recent = roundTwo.find(r => r.agent === a.slug && r.dimension === task.id);
         const session = dimensionIndex >= 0 ? travelSessionPreview.find(r => r.slug === a.slug) : undefined;
         const note = session?.notes[dimensionIndex];
@@ -52,9 +54,9 @@ export default async function TravelDimensionPage({ params }: Props) {
             </div>
           </>}
           {session && <>
-            <p className="ag-sub">October 6, 2026 · NYC → Chicago · {session.channel}</p>
-            <p>{note}</p>
-            <p className="ag-sub">{untested ? 'Not tested in this session' : 'Score pending review'}</p>
+            <div className="info-row"><span className="il">Round 1 · October 6, 2026 · {session.channel}</span>{firstRound && <ScoreCell value={firstRound.score} />}</div>
+            <p>{firstRound?.notes ?? note}</p>
+            {!firstRound && <p className="ag-sub">{untested ? 'Not tested in this session' : a.slug === 'muse' && task.id === 5 ? 'Unscored · Payment connection blocked' : 'Score pending review'}</p>}
             {!untested && <div className="travel-evidence-grid">
               <figure><div className="travel-media-placeholder"><span>{task.title} recording</span><span>Not uploaded yet</span></div><figcaption>{a.name}’s {task.title.toLowerCase()} steps. Relevant timestamps will be added to the session recording.</figcaption></figure>
               <figure><div className="travel-media-placeholder"><span>Screenshots</span><span>Not uploaded yet</span></div><figcaption>{task.title} requests, actions and outcome.</figcaption></figure>

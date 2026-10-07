@@ -47,7 +47,7 @@ export default async function TravelDimensionPage({ params }: Props) {
           {recent && <>
             <div className="info-row"><span className="il">Round 2 · October 7, 2026</span><ScoreCell value={recent.score} /></div>
             <p>{recent.notes}</p>
-            <p className="ag-sub">{task.id === 6 ? '“Can you move me to a premium seat?”' : task.id === 8 ? '“Cancel everything”' : '“Actually, can you move the flight to the day after?”'} · Scored from the supplied session record.</p>
+            <p className="ag-sub">{task.id === 7 ? 'Traveler details used during the booking flow' : task.id === 6 ? '“Can you move me to a premium seat?”' : task.id === 8 ? '“Cancel everything”' : '“Actually, can you move the flight to the day after?”'} · Scored from the supplied session record.</p>
             <div className="travel-evidence-grid">
               <figure><div className="travel-media-placeholder"><span>{task.title} recording</span><span>Not uploaded yet</span></div><figcaption>{a.name} · Round 2 · {task.title} steps and confirmation.</figcaption></figure>
               <figure><div className="travel-media-placeholder"><span>Screenshots</span><span>Not uploaded yet</span></div><figcaption>The request, approval and {task.title.toLowerCase()} outcome.</figcaption></figure>

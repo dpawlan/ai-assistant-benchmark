@@ -36,7 +36,7 @@ try {
   assert.equal(baseline.scores.travel, baseline.travel.legacyScore);
   const resultsPath = path.resolve('data/travel-results.json');
   assert.equal(getAgentDetail('miso').travel.completed, 6);
-  assert.equal(getAgentDetail('instinct').travel.completed, 5);
+  assert.equal(getAgentDetail('instinct').travel.completed, 6);
   assert.equal(getAgentDetail('soar').travel.completed, 1);
   assert.equal(getAgentDetail('miso').travel.total, 6);
   assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18']);
@@ -80,7 +80,9 @@ const instinct = summarizeTravel('instinct', activeIds, actual.filter(r => activ
 assert.equal(instinct.scores[5], 10);
 assert.equal(instinct.scores[18], 10);
 assert.equal(instinct.scores[6], 3);
-assert.equal(instinct.score, 5.8);
+assert.equal(instinct.scores[7], 10);
+assert.equal(instinct.score, 6.5);
+for (const slug of ['instinct', 'grok-bot', 'miso', 'muse', 'dots']) assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).scores[7], 10);
 for (const result of actual) {
   assert.ok(result.notes);
   if (result.evidence_url.startsWith('/agents/')) {

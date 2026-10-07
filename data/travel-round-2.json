@@ -178,5 +178,17 @@
     "version": "travel-v1",
     "protocol": "observed",
     "notes": "Requested cancellation was not completed after the browser lockout. The reservation was still active at session end."
+  },
+  {
+    "id": "dots-2026-10-07-round-2-dimension-7",
+    "agent": "dots",
+    "dimension": 7,
+    "date": "2026-10-07",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#dots",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Confirmed the supplied SkyMiles account, signed in securely and used the traveler details populated by Delta for the booking. No unrequested KTN task is assumed."
   }
 ]

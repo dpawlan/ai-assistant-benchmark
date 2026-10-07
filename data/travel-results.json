@@ -658,5 +658,53 @@
     "version": "travel-v1",
     "protocol": "observed",
     "notes": "Did not complete the requested purchase. Explicitly disclosed that purchasing was unsupported and handed off to Google Flights."
+  },
+  {
+    "id": "instinct-2026-10-06-round-1-dimension-7",
+    "agent": "instinct",
+    "dimension": 7,
+    "date": "2026-10-06",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#instinct",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Collected the required traveler details in one request and used them for the completed booking. Loyalty and KTN handling were not requested and are not penalized."
+  },
+  {
+    "id": "grok-bot-2026-10-06-round-1-dimension-7",
+    "agent": "grok-bot",
+    "dimension": 7,
+    "date": "2026-10-06",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#grok-bot",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Collected traveler identity and contact details through secure forms and used them for the booking. The contact-form retry is reflected in onboarding, not counted again here."
+  },
+  {
+    "id": "muse-2026-10-06-round-1-dimension-7",
+    "agent": "muse",
+    "dimension": 7,
+    "date": "2026-10-06",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#muse",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Identified the traveler\u2019s two United loyalty accounts and selected the appropriate account in the booking preparation. The later payment blocker does not negate this completed profile task; application to an issued ticket was not verified."
+  },
+  {
+    "id": "dots-2026-10-07-round-2-dimension-7",
+    "agent": "dots",
+    "dimension": 7,
+    "date": "2026-10-07",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#dots",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Confirmed the supplied SkyMiles account, signed in securely and used the traveler details populated by Delta for the booking. No unrequested KTN task is assumed."
   }
 ]

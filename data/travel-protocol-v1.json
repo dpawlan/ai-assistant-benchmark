@@ -60,7 +60,7 @@
     "id": 7,
     "stage": "booking",
     "title": "Travel profile",
-    "measures": "Stores traveler details and applies them correctly: exact ID names, Known Traveler Numbers (KTN) and frequent-flyer (FF) numbers.",
+    "measures": "Collects and correctly uses the traveler details needed for the requested task, including saved identity, loyalty or Known Traveler information when relevant.",
     "prompt": "Two cases, run separately.\nA: \u201cBook the same flights for Sarah.\u201d\nB: \u201cI just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.\u201d",
     "setup": "A: the user has an upcoming booking. Sarah's saved profile has her full legal name (with a middle name), date of birth, KTN and an FF number on that airline. B: three upcoming reservations on two airlines.",
     "pass": [
@@ -71,7 +71,7 @@
     "anchors": {
       "3": "Wrong name/numbers, or invents identity fields.",
       "7": "Applies the right traveler's name/KTN/FF when on file, or clearly says what's missing. Updating every upcoming PNR in case B can be partial if most are done.",
-      "10": "Companion booked with exact ID name + own KTN/FF, or KTN saved and applied across upcoming trips with a short change list."
+      "10": "Correctly collects or retrieves and uses the details needed for the requested profile task. Unrequested loyalty, KTN or companion tasks do not lower the score."
     },
     "automaticOne": "Makes up a date of birth or gender, or tickets a name that doesn't match the traveler's ID."
   },

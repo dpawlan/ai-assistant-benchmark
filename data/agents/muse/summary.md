@@ -213,5 +213,13 @@ _Updated 2026-10-06 weekday vault scan (+9 rows)._
 - (2026-10-05) Top5Apps: Muse floor vs Instinct ceiling; best permission design.
 - (2026-10-05) Top5Apps: Marketplace address leak + unapproved lowball accept.
 
-**Feedback rows:** 258 (as of 2026-10-06)
-**Kinds:** other=78, use-case=38, praise=16, complaint=42, comparison=12, bug=25, news=38
+_Updated 2026-10-07 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-10-03) WIRED (Karan Joshi): Extracted prompts show hourly person pages for contacts; "honestly pretty creepy."
+- (2026-10-03) WIRED: Muse can create "a page for every person in the user's life" with sections for Facts, History, Relationship, Strengthening.
+- (2026-10-04) Tom's Guide (Amanda Caswell): Built household manager app for family of five; shared calendar, chores, grocery list, meal planning.
+- (2026-10-04) Tom's Guide: Beats Alexa+ on consistency — "cut down the number of times I get asked the same question."
+
+**Feedback rows:** 262 (as of 2026-10-07)
+**Kinds:** other=79, use-case=39, praise=16, complaint=43, comparison=13, bug=25, news=38

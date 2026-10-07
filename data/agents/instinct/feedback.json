@@ -6176,5 +6176,62 @@
     "source": "web",
     "collected_at": "2026-10-06T14:00:00Z",
     "notes": "Siftwire: free as of Sep 30; ToS reserves future pricing."
+  },
+  {
+    "id": "f07bi01",
+    "agent": "instinct",
+    "quote": "I have no clue where my data is going and what kind of privacy I do get from using that agent.",
+    "author": "gutomartino",
+    "author_name": "Guto Martino (via Business Insider)",
+    "date": "2026-10-06",
+    "url": "https://www.businessinsider.com/early-users-delete-personal-ai-agents-privacy-scares-blunders-2026-10",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "deleted",
+      "trust",
+      "data-handling"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "BI Oct 6: Hermes Agents Brasil cofounder deleted Instinct over privacy uncertainty."
+  },
+  {
+    "id": "f07bi02",
+    "agent": "instinct",
+    "quote": "Access to email is everything — via password resets you could probably access my whole life.",
+    "author": "scottpersinger",
+    "author_name": "Scott Persinger (via Business Insider)",
+    "date": "2026-10-06",
+    "url": "https://www.businessinsider.com/early-users-delete-personal-ai-agents-privacy-scares-blunders-2026-10#email",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "deleted",
+      "email",
+      "password-resets"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "BI Oct 6: BizTrip CTO deleted Instinct; won't give young startup his email."
+  },
+  {
+    "id": "f07bi03",
+    "agent": "instinct",
+    "quote": "More just using them generally, but not giving them full keys to the castle. It's the wild west with these products.",
+    "author": "maheshvellanki",
+    "author_name": "Mahesh Vellanki (via Business Insider)",
+    "date": "2026-10-06",
+    "url": "https://www.businessinsider.com/early-users-delete-personal-ai-agents-privacy-scares-blunders-2026-10#vellanki",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "deleted",
+      "trust",
+      "wild-west"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "BI Oct 6: YieldClub CEO still uses agents but no sensitive data; 'wild west'."
   }
 ]

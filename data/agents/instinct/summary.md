@@ -221,5 +221,12 @@ _Updated 2026-10-06 weekday vault scan (+11 rows)._
 - (2026-10-06) Eliot Prince: Instinct proactive without building; ChatGPT/Claude aren't.
 - (2026-10-04) Siftwire: 25-day test explainer; free as of Sep 30; ToS reserves future pricing.
 
-**Feedback rows:** 291 (as of 2026-10-06)
+_Updated 2026-10-07 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-06) BI (Guto Martino): Deleted Instinct over privacy uncertainty — "no clue where my data is going."
+- (2026-10-06) BI (Scott Persinger): Deleted Instinct — "Access to email is everything — via password resets you could probably access my whole life."
+- (2026-10-06) BI (Mahesh Vellanki): Still uses agents but no sensitive data — "wild west with these products."
+
+**Feedback rows:** 294 (as of 2026-10-07)
 

@@ -6,7 +6,7 @@
     "date": "2026-10-07",
     "score": 7,
     "outcome": "pass",
-    "notes": "Corrected the dates, returned five priced round trips with a screenshot, filtered to nonstops after 8am, and held the American fare at checkout.",
+    "notes": "Corrected the dates, returned five priced round trips with a screenshot, filtered to nonstops after 8am, and held the American fare.",
     "evidence_url": "/agents/del/evidence/del-2026-10-07-a31b4d"
   },
   {
@@ -56,7 +56,7 @@
     "date": "2026-10-07",
     "score": 5,
     "outcome": "partial",
-    "notes": "Held a New York dinner for October 17 minutes after lining up a Chicago trip that weekend, and re-asked a time zone it had already confirmed.",
+    "notes": "Held a New York dinner for October 17 minutes after lining up a Chicago trip that weekend, and re-asked a time zone it had confirmed.",
     "evidence_url": "/agents/del/evidence/del-2026-10-07-4b81b0"
   },
   {
@@ -66,7 +66,7 @@
     "date": "2026-10-07",
     "score": 6,
     "outcome": "partial",
-    "notes": "Watches calendars and inboxes and drives its own browser, but offers only about nine integrations, with bank links as the one payment hookup.",
+    "notes": "Watches calendars and inboxes and drives its own browser, but offers only about nine integrations, with bank links as the payment hookup.",
     "evidence_url": "/agents/del/evidence/del-2026-10-07-75efea"
   }
 ]

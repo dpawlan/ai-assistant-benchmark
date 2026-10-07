@@ -5355,5 +5355,82 @@
     "source": "web",
     "collected_at": "2026-10-06T14:00:00Z",
     "notes": "Top5Apps: Marketplace address leak + unapproved lowball accept."
+  },
+  {
+    "id": "f07wiredkj01",
+    "agent": "muse",
+    "quote": "What it seemed like to me—from all these prompts, system skills data, and things that they're feeding into Muse—is that they want to understand your relationships that you have with real people. They're trying to know you like a friend, which is honestly pretty creepy.",
+    "author": "karanjoshi",
+    "author_name": "Karan Joshi (via WIRED)",
+    "date": "2026-10-03",
+    "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "person-pages",
+      "relationships",
+      "system-prompt"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "WIRED Oct 3: Researcher Karan Joshi extracted Muse prompts showing hourly person pages; called it 'pretty creepy'."
+  },
+  {
+    "id": "f07wiredkj02",
+    "agent": "muse",
+    "quote": "One of Muse's instructions appears to be the ability for it to create 'a page for every person in the user's life.' This hourly process involves compiling data on family, partners, friends, colleagues, 'collaborators,' and people you 'follow,' the instructions say.",
+    "author": "lilyhaynewman",
+    "author_name": "Lily Hay Newman (WIRED)",
+    "date": "2026-10-03",
+    "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/#person-pages",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "person-pages",
+      "hourly",
+      "memory"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "WIRED Oct 3: Extracted instructions show hourly person-page creation for contacts."
+  },
+  {
+    "id": "f07tomsguide01",
+    "agent": "muse",
+    "quote": "What came back was a household manager with a shared family calendar, chores and routines tied to individual profiles, a grocery list anyone can update from the store, seven-day meal planning and reminders that surface before things go sideways. Every soccer game, dentist appointment, and birthday lives in the same place as the dinner plan and the chore rotation.",
+    "author": "amandacaswell",
+    "author_name": "Amanda Caswell (Tom's Guide)",
+    "date": "2026-10-04",
+    "url": "https://www.tomsguide.com/ai/i-used-meta-muse-as-an-ai-house-manager-for-my-family-of-five-heres-what-happened",
+    "kind": "use-case",
+    "tags": [
+      "household",
+      "family",
+      "calendar",
+      "chores",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "Tom's Guide Oct 4: Muse built custom household manager app for family of five."
+  },
+  {
+    "id": "f07tomsguide02",
+    "agent": "muse",
+    "quote": "Unlike using Alexa+ or simply a Google calendar, what made the Meta manager stick was that it cut down the number of times I get asked the same question. The Today view replaced what Alexa sometimes remembers or forgets depending on which profile is working and the Muse shared calendar isn't through a third-party app.",
+    "author": "amandacaswell",
+    "author_name": "Amanda Caswell (Tom's Guide)",
+    "date": "2026-10-04",
+    "url": "https://www.tomsguide.com/ai/i-used-meta-muse-as-an-ai-house-manager-for-my-family-of-five-heres-what-happened#alexa",
+    "kind": "comparison",
+    "tags": [
+      "vs-alexa",
+      "vs-google-calendar",
+      "household",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-07",
+    "notes": "Tom's Guide Oct 4: Muse household manager beats Alexa+ on consistency."
   }
 ]

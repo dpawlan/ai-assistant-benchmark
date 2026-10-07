@@ -34,9 +34,9 @@
     "category": "purchasing",
     "protocol": "task",
     "date": "2026-10-07",
-    "score": 3,
+    "score": 1,
     "outcome": "fail",
-    "notes": "Took a $55 same-day bouquet to the card step with every field filled, then could not pay: it holds no cards and has no checkout link.",
+    "notes": "Reached the card step, then failed to place the order even after a card was added and approved twice, tripping on the billing form.",
     "evidence_url": "/agents/del/evidence/del-2026-10-07-a945eb"
   },
   {

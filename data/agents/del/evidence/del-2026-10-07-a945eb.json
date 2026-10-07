@@ -5,12 +5,12 @@
   "protocol": "task",
   "date": "2026-10-07",
   "signals": {
-    "turns": 31,
-    "my_messages": 9,
-    "agent_messages": 22,
+    "turns": 57,
+    "my_messages": 14,
+    "agent_messages": 43,
     "first_reply_s": 22,
-    "duration_min": 30,
-    "agent_said_done": false,
+    "duration_min": 141,
+    "agent_said_done": true,
     "agent_said_cant": true,
     "agent_asked_question": true,
     "agent_initiated": false

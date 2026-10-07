@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-ff7b64",
+  "agent": "del",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 11,
+    "my_messages": 2,
+    "agent_messages": 9,
+    "first_reply_s": 115,
+    "duration_min": 10,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.919Z"
+}

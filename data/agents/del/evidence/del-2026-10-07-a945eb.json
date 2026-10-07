@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-a945eb",
+  "agent": "del",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 31,
+    "my_messages": 9,
+    "agent_messages": 22,
+    "first_reply_s": 22,
+    "duration_min": 30,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.919Z"
+}

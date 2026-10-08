@@ -221,5 +221,14 @@ _Updated 2026-10-07 weekday vault scan (+4 rows)._
 - (2026-10-04) Tom's Guide (Amanda Caswell): Built household manager app for family of five; shared calendar, chores, grocery list, meal planning.
 - (2026-10-04) Tom's Guide: Beats Alexa+ on consistency — "cut down the number of times I get asked the same question."
 
-**Feedback rows:** 262 (as of 2026-10-07)
-**Kinds:** other=79, use-case=39, praise=16, complaint=43, comparison=13, bug=25, news=38
+_Updated 2026-10-08 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-07) CNBC (Meredith Whalen, IDC): "Muse has an opportunity to be sticky with consumers because it's a task-completer, rather than just a chatbot."
+- (2026-10-07) CNBC (Meredith Whalen, IDC): "The real question is trust."
+- (2026-10-07) Tom's Guide (Elton Jones): Tested 10 automated tasks; calls Muse "easiest entry point for everyone who wants to see what AI agents are good for."
+- (2026-10-03) Palmer Jones: iMessage access is Mac-app-only with three permission steps (Full Disk Access, toggle, per-app level).
+- (2026-10-03) Palmer Jones: Muse's free tier is "the only no-cost agent that keeps running" when laptop closes (vs ChatGPT Dots $100, Claude/Gemini stop).
+
+**Feedback rows:** 267 (as of 2026-10-08)
+**Kinds:** other=79, use-case=39, praise=18, complaint=43, comparison=14, bug=25, news=38

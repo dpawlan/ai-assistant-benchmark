@@ -228,5 +228,13 @@ _Updated 2026-10-07 weekday vault scan (+3 rows)._
 - (2026-10-06) BI (Scott Persinger): Deleted Instinct — "Access to email is everything — via password resets you could probably access my whole life."
 - (2026-10-06) BI (Mahesh Vellanki): Still uses agents but no sensitive data — "wild west with these products."
 
-**Feedback rows:** 294 (as of 2026-10-07)
+_Updated 2026-10-08 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-10-06) Stardrift (Leila Clark): "Instinct is good at doing one travel task for you over text... But it struggles to plan a whole trip." NOTE: Stardrift is a competitor.
+- (2026-10-06) Stardrift: No visual itinerary view; must ask and wait for details.
+- (2026-09-29) Jingletree (Shruti Gandhi, Array VC): Disappointed by unsolicited product recommendations from Instinct Selections — "At least make me a personalized shopping list of things I actually need!!"
+- (2026-09-30) Jingletree (Chat Joglekar): First "ewwww" moment when Instinct pushed product suggestions from email/trips.
+
+**Feedback rows:** 298 (as of 2026-10-08)
 

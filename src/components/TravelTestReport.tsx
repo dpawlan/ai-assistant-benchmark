@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { TravelEvidenceMedia } from './TravelEvidenceMedia';
 import { AgentIcon } from './AgentIcon';
 import { TravelCompletionTime } from './TravelCompletionTime';
 import type { Usage } from '@/lib/types';
@@ -26,7 +27,7 @@ export function TravelTestReport({ agents, initialDimension, selectedAgent }: { 
       <div className="travel-test-controls" aria-label="Choose a dimension">{protocol.map(t => <a key={t.id} aria-current={dimension === t.id ? "true" : undefined} href={`?assistant=${selected}&dimension=${t.id}#assistant-evidence`}>{t.title}</a>)}</div>
       <h3 className="ag-h2">{agent?.name ?? selected} · {protocol[index].title}</h3><p>{result.notes[index]}</p>
       <p className="ag-sub">{dimension === 8 ? 'Not tested' : 'Score pending evidence review'} · <Link href={`/benchmarks/travel/dimensions/${dimension}#${selected}`}>View dimension results →</Link></p>
-      <div className="travel-evidence-grid"><figure><div className="travel-media-placeholder"><span>Screen recording</span><span>Not uploaded yet</span></div><figcaption>{result.duration} full session · Dimension timestamps will appear after upload.</figcaption></figure><figure><div className="travel-media-placeholder"><span>Screenshots</span><span>Not uploaded yet</span></div><figcaption>Relevant steps and outcomes, with personal information redacted.</figcaption></figure></div>
+      <TravelEvidenceMedia agent={selected} name={agent?.name ?? selected} round={1} dimension={dimension} />
     </section>
   </>;
 }

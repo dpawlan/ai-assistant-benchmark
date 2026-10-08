@@ -4307,3 +4307,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-completion-value .travel-time-score > :last-child:not(:first-child) { text-align: center; }
 .travel-completion-value .travel-time-score > :only-child { grid-column: 1 / -1; text-align: center; }
 .travel-completion-value .travel-time-score sup { position: absolute; left: 100%; top: 0; margin-left: 1px; }
+
+.travel-session-media video, .travel-session-media img { display: block; width: 100%; max-height: 420px; object-fit: contain; background: var(--fill); border: 1px solid var(--line); border-radius: 10px; }
+.travel-session-media video { aspect-ratio: 16 / 10; }
+.travel-completion-value > .run-line { max-width: 130px; white-space: normal; font-size: 10px; line-height: 1.35; text-align: center; }

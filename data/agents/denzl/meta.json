@@ -1,0 +1,31 @@
+{
+  "slug": "denzl",
+  "name": "Denzl",
+  "site": "https://denzl.co/",
+  "status": "stretch",
+  "tagline": "A personal shopping assistant for men.",
+  "kind": "shopping",
+  "handles": [],
+  "product_class": null,
+  "notes": "Men’s personal shopping assistant with web, iOS and Android access. Vendor emphasizes wardrobe context, sizes, taste and shopping history. Recommendation and memory testing are appropriate; checkout capability remains unverified. Requested via the form (issue #447).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "purchasing",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/denzl.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-10-08"
+  }
+}

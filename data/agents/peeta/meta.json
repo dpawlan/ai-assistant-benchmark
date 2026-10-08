@@ -1,0 +1,35 @@
+{
+  "slug": "peeta",
+  "name": "Peeta",
+  "site": "https://www.peeta.ai/",
+  "status": "confirmed",
+  "tagline": "Less to Handle, More Time for You",
+  "kind": "general",
+  "handles": [],
+  "product_class": null,
+  "notes": "Personal and family coordination assistant: group chats, shared tasks, searchable memory, email/WhatsApp capture and reminder calls. Requested tests are group scheduling, call reminders and email-to-calendar tasks; business calling is not established. Requested via the form (issue #477).",
+  "likely_applicable": [
+    "online_task",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "phone_calls",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_behavior"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/peeta.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "WhatsApp",
+      "Email"
+    ],
+    "checked": "2026-10-08"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "saint",
+  "name": "Saint",
+  "site": "https://saint.work/",
+  "status": "stretch",
+  "tagline": "Hire your first AI employee",
+  "kind": "work",
+  "handles": [],
+  "product_class": "team_ai_employee",
+  "notes": "AI employee for small businesses, managed through WhatsApp. Vendor submission describes its own email address, Slack and Discord access, and offers reviewer access. Outbound calling is not verified. Requested via the form (issue #488).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "multiplayer_groups",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "icon": null,
+  "access": {
+    "pricing": "paid",
+    "price": "From £49/month with weekly credits; higher tiers available",
+    "regions": "Not stated",
+    "channels": [
+      "Web",
+      "WhatsApp",
+      "Email",
+      "Slack",
+      "Discord"
+    ],
+    "checked": "2026-10-08"
+  }
+}

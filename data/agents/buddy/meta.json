@@ -1,0 +1,28 @@
+{
+  "slug": "buddy",
+  "name": "Buddy",
+  "site": "https://thebuddyassistant.com/",
+  "status": "confirmed",
+  "tagline": "A personal assistant that lives on your Mac right next to your cursor.",
+  "kind": "general",
+  "handles": [],
+  "product_class": "desktop_agent",
+  "notes": "Desktop personal assistant whose site describes screen and voice interaction and computer control. Public Mac download requires Apple Silicon and macOS 13+. Submission offered a waitlist referral; current page offers a direct download. Requested via the form (issue #450).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "permissions_privacy",
+    "chained_tasks"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/buddy.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated; Mac download available",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app"
+    ],
+    "checked": "2026-10-08"
+  }
+}

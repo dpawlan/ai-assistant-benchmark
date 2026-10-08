@@ -1,0 +1,38 @@
+{
+  "slug": "hark",
+  "name": "Hark",
+  "site": "https://hark.com/",
+  "status": "confirmed",
+  "tagline": "A new kind of system for getting things done.",
+  "kind": "general",
+  "handles": [],
+  "product_class": null,
+  "notes": "Personal assistant with a computer-use agent, persistent memory, projects, email management and suggested actions. Public site describes browser, iOS and Android access and approvals for consequential actions. Requested via the form (issue #483).",
+  "likely_applicable": [
+    "online_task",
+    "travel",
+    "recommendation_quality",
+    "purchasing",
+    "email_replies",
+    "proactive_behavior",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/hark.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not verified; see product pricing",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-10-08"
+  }
+}

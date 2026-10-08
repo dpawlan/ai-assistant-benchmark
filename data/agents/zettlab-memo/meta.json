@@ -1,0 +1,31 @@
+{
+  "slug": "zettlab-memo",
+  "name": "Zettlab Memo",
+  "site": "https://zettlab.com/pages/zettlab-memo-prelaunch",
+  "status": "stretch",
+  "tagline": "The AI Agent Workstation for Everyday Productivity",
+  "kind": "infra",
+  "handles": [],
+  "product_class": "on_device",
+  "notes": "Prelaunch hardware agent workstation with connected accounts, prebuilt agent/skill templates and a local long-term context layer. Availability and reviewer hardware access need confirmation. Local storage does not establish measured privacy behavior. Requested via the form (issue #471).",
+  "likely_applicable": [
+    "online_task",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "content_creation_games"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/zettlab-memo.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Memo price not stated; prelaunch hardware",
+    "regions": "Not stated",
+    "channels": [
+      "Hardware workstation"
+    ],
+    "checked": "2026-10-08"
+  }
+}

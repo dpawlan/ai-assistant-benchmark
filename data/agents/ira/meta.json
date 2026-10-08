@@ -1,0 +1,30 @@
+{
+  "slug": "ira",
+  "name": "ira",
+  "site": "https://ira.so/",
+  "status": "confirmed",
+  "tagline": "Your go-to for everything",
+  "kind": "general",
+  "handles": [],
+  "product_class": null,
+  "notes": "Rumik personal assistant offering calls, messages, research and voice/video interaction. Public site has a waitlist; capability descriptions are vendor claims, not benchmark results. Requested via the form (issue #489).",
+  "likely_applicable": [
+    "online_task",
+    "recommendation_quality",
+    "phone_calls",
+    "chained_tasks",
+    "permissions_privacy"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/ira.png",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Not stated; email waitlist",
+    "regions": "Not stated",
+    "channels": [
+      "Voice",
+      "Video calls"
+    ],
+    "checked": "2026-10-08"
+  }
+}

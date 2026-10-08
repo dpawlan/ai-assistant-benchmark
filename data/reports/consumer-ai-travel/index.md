@@ -179,6 +179,8 @@ A higher cabin class is one part of premium travel. Our Miso recommendation prio
 
 ## Evidence and limits
 
+Explore the [Travel benchmark](/benchmarks/travel) and its [booking test evidence preview](/reports/nyc-chicago). The booking preview covers round one; the source transcripts below also document the later modification round.
+
 The primary sources are the supplied [Booking benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/) and [Modification benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round2.html). Those source pages require the owner’s access password. We also cross-checked sampled frames and ending screens from the 11 locally saved recordings; this was not a frame-by-frame review of every minute.
 
 Source summaries are not treated as unquestionable findings. In particular, we do not repeat the claim that the $66.65 price difference was for an identical fare, describe all cancellations as fully resolved, or equate successful completion with zero traveler intervention. We distinguish assistant statements, visible confirmation screens, and unresolved outcomes. Bank settlement was not independently verified.

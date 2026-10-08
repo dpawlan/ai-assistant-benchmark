@@ -67,7 +67,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
-  const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
+  const kindHref = agent.kind === 'travel' ? '/benchmarks/travel' : agent.kind === 'work' ? '/benchmarks/work' : '/';
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const inReports = getReportsForAgent(slug);
@@ -160,7 +160,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
         <section className="ag-scores">
           <h2 className="ag-h2">Scores</h2>
-          <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
+          <ScoreRows travel={agent.travel} scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
 
         {getRuns(slug).some(r => r.tester) && (
@@ -362,4 +362,3 @@ export default async function AgentPage({ params }: AgentPageProps) {
     </div>
   );
 }
-

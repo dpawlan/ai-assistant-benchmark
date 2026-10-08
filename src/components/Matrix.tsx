@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Fragment, Suspense, useEffect, useMemo, useState } from 'react';
 import { track } from '@vercel/analytics';
@@ -8,6 +9,7 @@ import { Agent, Category } from '@/lib/types';
 import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
+import { TravelScore } from './TravelScore';
 import { ScoreCell } from './ScoreCell';
 import { SpeedCell } from './SpeedCell';
 import { CostMark } from './CostMark';
@@ -173,7 +175,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
         )}
         {cols.map(c => (
           <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
+            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : c.key === 'travel' ? <TravelScore summary={agent.travel} /> : <ScoreCell value={agent.scores[c.key]} />}
           </td>
         ))}
       </tr>
@@ -206,12 +208,12 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
   return (
     <div>
-      <Suspense fallback={null}>
+      {!compact && <Suspense fallback={null}>
         <KindFromUrl onKind={setKindState} />
-      </Suspense>
+      </Suspense>}
 
       <div className={compact ? 'rank-bar' : undefined}>
-      <div className="kind-bar" role="tablist" aria-label="Peer group">
+      {compact ? <BenchmarkNav active="general" /> : <div className="kind-bar" role="tablist" aria-label="Peer group">
         <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
           All
           <span className="kind-n">{agents.length}</span>
@@ -222,9 +224,11 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
             <span className="kind-n">{counts[k.key]}</span>
           </button>
         ))}
-      </div>
+      </div>}
       {compact && segEl}
       </div>
+
+      {compact && <CategoryDescription category="general" />}
 
       {!compact && <div className="cost-bar" role="group" aria-label="Cost">
         <span className="cost-bar-l">Cost</span>

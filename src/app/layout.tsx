@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { Shell } from '@/components/Shell';
 import { Footer } from '@/components/Footer';
-import { getIndexData } from '@/lib/data';
+import { formatDate, getIndexData } from '@/lib/data';
 import { ogUrl } from '@/lib/og';
 
 const siteUrl =
@@ -44,12 +44,10 @@ const siteJsonLd = {
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
-  const index = getIndexData();
-
   return (
     <html lang="en">
       <body>
-        <Shell footer={<Footer index={index} />}>
+        <Shell footer={<Footer updated={formatDate(getIndexData().updated)} />}>
           {children}
         </Shell>
         <Analytics />

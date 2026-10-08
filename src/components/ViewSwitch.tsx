@@ -9,13 +9,14 @@ function Inner() {
   const params = useSearchParams();
   const kind = params.get('kind');
   const q = kind ? `?kind=${kind}` : '';
-  const grid = pathname === '/grid';
+  const base = ['/benchmarks/travel', '/benchmarks/work'].find(route => pathname === route || pathname.startsWith(`${route}/`)) ?? '';
+  const grid = pathname === `${base}/grid`;
   return (
     <div className="seg view-switch" role="tablist" aria-label="Layout">
-      <Link href={`/${q}`} role="tab" aria-selected={!grid} className={!grid ? 'on' : ''}>
+      <Link href={`${base || '/'}${q}`} role="tab" aria-selected={!grid} className={!grid ? 'on' : ''}>
         List
       </Link>
-      <Link href={`/grid${q}`} role="tab" aria-selected={grid} className={grid ? 'on' : ''}>
+      <Link href={`${base}/grid${q}`} role="tab" aria-selected={grid} className={grid ? 'on' : ''}>
         Grid
       </Link>
     </div>

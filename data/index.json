@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-08",
   "agent_count": 139,
   "feedback_count": 5797,
   "confirmed": 112,
@@ -1091,22 +1091,21 @@
       "slug": "shuffle",
       "name": "Shuffle",
       "status": "confirmed",
-      "site": "https://shuffle.cool/",
+      "site": "https://textshuffle.com/",
       "feedback_count": 5,
       "public_signal": "low",
-      "tagline": "AI you can text and call for images, memes and more",
+      "tagline": "The AI you open for fun",
       "icon": "/logos/shuffle.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free to start",
+        "price": "Free · Pro $8/mo (unlimited chat, 880 monthly credits) · Day pass $1 · Week pass $4.99",
         "regions": "Not stated",
         "channels": [
           "iMessage",
-          "SMS",
           "Web"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-10-08"
       }
     },
     {

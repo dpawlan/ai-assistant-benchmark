@@ -1,0 +1,19 @@
+{
+  "id": "tab-2026-10-07-288f5d",
+  "agent": "tab",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 47,
+    "my_messages": 16,
+    "agent_messages": 31,
+    "first_reply_s": 25,
+    "duration_min": 107,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-08T15:23:19.162Z"
+}

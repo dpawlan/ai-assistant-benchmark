@@ -867,26 +867,19 @@
         "ebeezy_eth",
         "slopdotwtf"
       ],
-      "domain": "textshuffle.com",
+      "domain": "shuffle.cool",
       "x_queries": [
         "\"shuffle.cool\"",
         "@ebeezy_eth",
-        "@slopdotwtf",
-        "\"textshuffle.com\"",
-        "\"addshuffle.com\"",
-        "@addshuffle"
+        "@slopdotwtf"
       ],
       "reddit_queries": [
         "\"shuffle.cool\"",
-        "\"shuffle ai\"",
-        "\"textshuffle.com\"",
-        "\"addshuffle.com\""
+        "\"shuffle ai\""
       ],
       "hn_queries": [
         "\"shuffle.cool\"",
-        "\"shuffle ai\"",
-        "\"textshuffle.com\"",
-        "\"addshuffle.com\""
+        "\"shuffle ai\""
       ],
       "appstore_ids": [],
       "ph_slug": null,
@@ -894,13 +887,10 @@
         "shuffle.cool",
         "shuffle ai",
         "@shuffle",
-        "shuffle app",
-        "textshuffle.com",
-        "addshuffle.com",
-        "@addshuffle"
+        "shuffle app"
       ],
       "imessage_handles": [],
-      "_note": "Site moved to textshuffle.com (app at addshuffle.com); shuffle.cool kept for older posts. Generic product name: queries and match are domain/handle only."
+      "_note": " Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
     "sircle": {
       "name": "Sircle",
@@ -2106,7 +2096,9 @@
         "tab ai",
         "tab app"
       ],
-      "imessage_handles": [],
+      "imessage_handles": [
+        "+16462840720"
+      ],
       "_note": "Added 2026-09-11 from a request-form submission. Generic name: domain/handle queries only. Handles are best guesses."
     },
     "orbits": {

@@ -1,0 +1,19 @@
+{
+  "id": "tab-2026-10-07-00f743",
+  "agent": "tab",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 33,
+    "my_messages": 13,
+    "agent_messages": 20,
+    "first_reply_s": 2,
+    "duration_min": 76,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-08T15:23:19.162Z"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "bris",
+  "name": "Bris",
+  "site": "https://usebris.com/",
+  "status": "confirmed",
+  "tagline": "A private operating agent across the web, Telegram, and WhatsApp.",
+  "kind": "general",
+  "handles": [],
+  "product_class": null,
+  "notes": "Public site metadata identifies a private operating agent across web, Telegram and WhatsApp. Submission requests email, routines, memory and chained tasks and supplies an onboarding invite. Access and capability breadth need hands-on verification. Requested via the form (issue #414).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "running_routine",
+    "memory",
+    "chained_tasks",
+    "recommendation_quality",
+    "permissions_privacy",
+    "third_party_integrations"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/bris.png",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated; onboarding by invite",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "Telegram",
+      "WhatsApp"
+    ],
+    "checked": "2026-10-08"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "archie",
+  "name": "Archie",
+  "site": "https://otianai.com/archie/personal/",
+  "status": "confirmed",
+  "tagline": "Life admin, handled.",
+  "kind": "general",
+  "handles": [],
+  "product_class": "desktop_agent",
+  "notes": "Mac/Windows beta desktop agent using the user’s own AI account. Public site describes email drafts and calendar changes waiting for approval. Vendor offers mobile reviewer access and flags an unverified Gmail OAuth screen. Android app available; iPhone app in review. Requested via the form (issue #470).",
+  "likely_applicable": [
+    "online_task",
+    "email_replies",
+    "proactive_behavior",
+    "running_routine",
+    "third_party_integrations",
+    "permissions_privacy",
+    "memory",
+    "chained_tasks",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/archie.png",
+  "access": {
+    "pricing": "freemium",
+    "price": "One free agent, 20 jobs/day; up to 10 agents from $30/month; own AI account costs separate",
+    "regions": "Not stated",
+    "channels": [
+      "Mac app",
+      "Windows app",
+      "Android app",
+      "Telegram",
+      "Slack"
+    ],
+    "checked": "2026-10-08"
+  }
+}

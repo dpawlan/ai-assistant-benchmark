@@ -1,0 +1,29 @@
+{
+  "slug": "ask-proxy",
+  "name": "Ask Proxy",
+  "site": "https://askproxy.com/",
+  "status": "stretch",
+  "tagline": "A Personal AI Assistant by Text",
+  "kind": "general",
+  "handles": [],
+  "product_class": null,
+  "notes": "Text-based personalized recommendations, conversation memory and proactive reminders. Vendor submission; public site offers 30 initial free texts. Advice and nudges do not establish booking or purchase execution. Requested via the form (issue #485).",
+  "likely_applicable": [
+    "recommendation_quality",
+    "proactive_behavior",
+    "permissions_privacy",
+    "memory",
+    "proactive_restraint"
+  ],
+  "public_signal": "low",
+  "icon": "/logos/ask-proxy.png",
+  "access": {
+    "pricing": "paid",
+    "price": "$1/day; first 30 texts free",
+    "regions": "Not stated",
+    "channels": [
+      "SMS"
+    ],
+    "checked": "2026-10-08"
+  }
+}

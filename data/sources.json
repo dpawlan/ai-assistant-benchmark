@@ -3579,6 +3579,279 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-10-04 from a request-form submission (issue #462). Domain and distinctive name only; handles unknown."
+    },
+    "ira": {
+      "name": "ira",
+      "handles": [],
+      "domain": "ira.so",
+      "x_queries": [
+        "\"ira.so\""
+      ],
+      "reddit_queries": [
+        "\"ira.so\""
+      ],
+      "hn_queries": [
+        "\"ira.so\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "ira.so"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #489. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "saint": {
+      "name": "Saint",
+      "handles": [],
+      "domain": "saint.work",
+      "x_queries": [
+        "\"saint.work\""
+      ],
+      "reddit_queries": [
+        "\"saint.work\""
+      ],
+      "hn_queries": [
+        "\"saint.work\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "saint.work"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #488. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "ask-proxy": {
+      "name": "Ask Proxy",
+      "handles": [],
+      "domain": "askproxy.com",
+      "x_queries": [
+        "\"askproxy.com\""
+      ],
+      "reddit_queries": [
+        "\"askproxy.com\""
+      ],
+      "hn_queries": [
+        "\"askproxy.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "askproxy.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #485. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "hark": {
+      "name": "Hark",
+      "handles": [],
+      "domain": "hark.com",
+      "x_queries": [
+        "\"hark.com\""
+      ],
+      "reddit_queries": [
+        "\"hark.com\""
+      ],
+      "hn_queries": [
+        "\"hark.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hark.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #483. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "color": {
+      "name": "Color",
+      "handles": [],
+      "domain": "withcolor.com",
+      "x_queries": [
+        "\"withcolor.com\""
+      ],
+      "reddit_queries": [
+        "\"withcolor.com\""
+      ],
+      "hn_queries": [
+        "\"withcolor.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "withcolor.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #481. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "peeta": {
+      "name": "Peeta",
+      "handles": [],
+      "domain": "peeta.ai",
+      "x_queries": [
+        "\"peeta.ai\""
+      ],
+      "reddit_queries": [
+        "\"peeta.ai\""
+      ],
+      "hn_queries": [
+        "\"peeta.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "peeta.ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #477. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "pong": {
+      "name": "Pong",
+      "handles": [],
+      "domain": "trypong.app",
+      "x_queries": [
+        "\"trypong.app\""
+      ],
+      "reddit_queries": [
+        "\"trypong.app\""
+      ],
+      "hn_queries": [
+        "\"trypong.app\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "trypong.app"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #474. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "zettlab-memo": {
+      "name": "Zettlab Memo",
+      "handles": [],
+      "domain": "zettlab.com",
+      "x_queries": [
+        "\"zettlab.com\""
+      ],
+      "reddit_queries": [
+        "\"zettlab.com\""
+      ],
+      "hn_queries": [
+        "\"zettlab.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "zettlab.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #471. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "archie": {
+      "name": "Archie",
+      "handles": [],
+      "domain": "otianai.com",
+      "x_queries": [
+        "\"otianai.com\""
+      ],
+      "reddit_queries": [
+        "\"otianai.com\""
+      ],
+      "hn_queries": [
+        "\"otianai.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "otianai.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #470. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "buddy": {
+      "name": "Buddy",
+      "handles": [],
+      "domain": "thebuddyassistant.com",
+      "x_queries": [
+        "\"thebuddyassistant.com\""
+      ],
+      "reddit_queries": [
+        "\"thebuddyassistant.com\""
+      ],
+      "hn_queries": [
+        "\"thebuddyassistant.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "thebuddyassistant.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #450. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "denzl": {
+      "name": "Denzl",
+      "handles": [],
+      "domain": "denzl.co",
+      "x_queries": [
+        "\"denzl.co\""
+      ],
+      "reddit_queries": [
+        "\"denzl.co\""
+      ],
+      "hn_queries": [
+        "\"denzl.co\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "denzl.co"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #447. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "base": {
+      "name": "Base",
+      "handles": [],
+      "domain": "withbase.ai",
+      "x_queries": [
+        "\"withbase.ai\""
+      ],
+      "reddit_queries": [
+        "\"withbase.ai\""
+      ],
+      "hn_queries": [
+        "\"withbase.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "withbase.ai"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #445. Domain-only matching; no guessed handles or unverified app IDs."
+    },
+    "bris": {
+      "name": "Bris",
+      "handles": [],
+      "domain": "usebris.com",
+      "x_queries": [
+        "\"usebris.com\""
+      ],
+      "reddit_queries": [
+        "\"usebris.com\""
+      ],
+      "hn_queries": [
+        "\"usebris.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "usebris.com"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-08 from request-form issue #414. Domain-only matching; no guessed handles or unverified app IDs."
     }
   },
   "_redact_terms": [

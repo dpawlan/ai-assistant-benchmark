@@ -33,6 +33,7 @@ export default async function ReportPage({ params }: Props) {
   const { key } = await params;
   const report = getReport(key);
   if (!report) notFound();
+  const consumer = report.key === 'consumer-ai-travel';
   const agents = getAgents();
   const bySlug = Object.fromEntries(agents.map(a => [a.slug, a]));
   const category = getCategory(report.dimension);
@@ -44,11 +45,11 @@ export default async function ReportPage({ params }: Props) {
   const author = getAuthor(report.author ?? 'david-pawlan');
 
   const toc: { id: string; label: string }[] = [
-    ...report.sections.map(s =>
+    ...report.sections.filter(s => !consumer || (s.type !== 'pick' && !(s.type === 'extra' && s.heading.startsWith('Best for')))).map(s =>
       s.type === 'who' ? { id: 'who', label: 'Who this is for' }
       : s.type === 'how' ? { id: 'how', label: 'How we tested' }
       : s.type === 'pick' ? { id: `pick-${s.section.slug}`, label: s.section.heading }
-      : s.type === 'competition' ? { id: 'competition', label: 'The competition' }
+      : s.type === 'competition' ? { id: 'competition', label: consumer ? 'The six assistants' : 'The competition' }
       : s.type === 'ahead' ? { id: 'ahead', label: 'What to look forward to' }
       : { id: s.id, label: s.heading }),
     ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
@@ -71,7 +72,7 @@ export default async function ReportPage({ params }: Props) {
             </span>
             <span className="rp-row-cells">
               <SpeedCell usage={a.usage} />
-              <ScoreCell value={a.scores[report.dimension]} />
+              {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
             </span>
           </Link>
         ))}
@@ -91,7 +92,7 @@ export default async function ReportPage({ params }: Props) {
             <span className="rp-pick-head">
               <AgentIcon name={a.name} icon={a.icon} size={44} />
               <span className="rp-pick-name">{a.name}</span>
-              <ScoreCell value={a.scores[report.dimension]} />
+              {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
             </span>
             <span className="rp-pick-why">{p.why}</span>
           </Link>
@@ -111,7 +112,7 @@ export default async function ReportPage({ params }: Props) {
           </section>
         );
         if (sec.type === 'ahead') return <section key={i} id="ahead" className="rp-section"><h2>What to look forward to</h2><Markdown body={sec.body} /></section>;
-        if (sec.type === 'extra') return <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} /></section>;
+        if (sec.type === 'extra') return <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} />{consumer && sec.id === 'category-winners' && picksBox}</section>;
         if (sec.type === 'pick') {
           const ps = sec.section;
           const a = bySlug[ps.slug];
@@ -134,8 +135,8 @@ export default async function ReportPage({ params }: Props) {
         }
         return (
           <section key={i} id="competition" className="rp-section">
-            <h2>The competition</h2>
-            <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
+            <h2>{consumer ? 'The six assistants' : 'The competition'}</h2>
+            <p className="rp-muted">{consumer ? "What each assistant did well, where it fell short, and what remains untested." : `Other assistants reviewed, alongside ${pickAgent?.name ?? "our pick"}. Each one links to the full head to head.`}</p>
             {sec.entries.map(c => {
               const a = bySlug[c.slug];
               if (!a) return null;
@@ -144,7 +145,7 @@ export default async function ReportPage({ params }: Props) {
                   <div className="rp-competitor-head">
                     <AgentIcon name={a.name} icon={a.icon} size={32} />
                     <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
-                    <ScoreCell value={a.scores[report.dimension]} />
+                    {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
                     {pickAgent && pickAgent.slug !== a.slug && (
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
@@ -206,28 +207,28 @@ export default async function ReportPage({ params }: Props) {
       {author && <AuthorAvatar author={author} size={32} />}
       <span className="rp-author-text">
         {author ? <Link href={`/authors/${author.slug}`}>By {author.name}</Link> : null}
-        <span>Updated {formatDate(report.updated)}. Published {formatDate(report.published)}.</span>
+        {!consumer && <span>{report.preview ? `Draft updated ${formatDate(report.updated)}` : `Updated ${formatDate(report.updated)}. Published ${formatDate(report.published)}.`}</span>}
       </span>
     </div>
   );
 
   return (
-    <div className="wrap mid rp">
+    <div className={`wrap mid rp${consumer ? " rp-consumer" : ""}`}>
       {back}
       <header className="rp-hero">
         <div className="rp-hero-text">
-          <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
+          <p className="rp-eyebrow">{consumer ? "Consumer report / 01 · Travel" : category?.label ?? report.dimension}</p>
           <h1 className="rp-title">{report.title}</h1>
           <p className="rp-dek">{report.question}</p>
           {byline}
-          <p className="rp-byline">{ranked.length} assistants tested, {runCount} runs of the same task.</p>
-          {report.preview && <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>}
+          {!consumer && <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>}
+          {report.preview && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
         </div>
         <ReportCover report={report} bySlug={bySlug} size="hero" />
       </header>
 
       <div className="rp-intro"><Markdown body={report.intro} /></div>
-      {picksBox}
+      {!consumer && picksBox}
 
       <div className="rp-body">
         <nav className="rp-toc" aria-label="In this report">
@@ -236,7 +237,7 @@ export default async function ReportPage({ params }: Props) {
           {<p className="rp-toc-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>}
         </nav>
         {body}
-        {rankingRail}
+        {!consumer && rankingRail}
       </div>
     </div>
   );

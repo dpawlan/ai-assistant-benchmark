@@ -4179,3 +4179,66 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .cb-code { margin: 12px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--fill); font-size: 13px; line-height: 1.5; overflow-x: auto; }
 .cb-steps, .cb-list { margin: 10px 0 0; padding-left: 22px; font-size: 15px; line-height: 1.55; }
 .cb-steps li, .cb-list li { margin-bottom: 8px; }
+
+/* Consumer report: a reading column with a compact report navigation. */
+.rp-consumer { max-width: 1160px; }
+.rp-consumer .rp-hero { grid-template-columns: minmax(0, 1fr) 260px; gap: 48px; padding: 24px 0 32px; border-bottom: 1px solid var(--line); }
+.rp-consumer .rp-title { font-size: clamp(32px, 3.6vw, 48px); max-width: 640px; line-height: 1.08; }
+.rp-consumer .rp-eyebrow { color: var(--blue); text-transform: uppercase; letter-spacing: .09em; font-size: 11px; }
+.rp-consumer .rp-cover { aspect-ratio: 1; }
+.rp-consumer .rp-intro { max-width: 760px; margin: 28px 0 0; }
+.rp-consumer .rp-intro p { font-size: 19px; line-height: 1.6; }
+.rp-consumer .rp-body { grid-template-columns: 210px minmax(0, 1fr); gap: 52px; }
+.rp-consumer .rp-article { max-width: none; min-width: 0; }
+.rp-consumer .rp-section { padding: 0 0 36px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
+.rp-consumer .rp-section h2 { font-size: 28px; line-height: 1.2; }
+.rp-consumer .rp-section h3 { font-size: 19px; margin-top: 28px; }
+.rp-consumer .rp-section blockquote { margin: 24px 0; padding: 20px 24px; border-left: 3px solid var(--blue); background: var(--fill); line-height: 1.6; }
+.rp-consumer .rp-competitor { padding: 24px; margin-top: 16px; border: 1px solid var(--line); border-radius: 14px; }
+.rp-consumer .rp-competitor-head { flex-wrap: wrap; }
+.rp-consumer .rp-competitor-link { display: none; }
+.rp-consumer .rp-picks { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 24px 0 0; }
+.rp-consumer .rp-pick-strip { background: transparent; padding: 0; }
+.rp-consumer .rp-pick-strip-text span { display: none; }
+.rp-consumer .art-table {
+  margin: 24px 0 30px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.rp-consumer .art-table table { width: 100%; border-collapse: collapse; text-align: left; font-size: 15px; line-height: 1.6; }
+.rp-consumer .art-table th,
+.rp-consumer .art-table td { padding: 18px 22px; text-align: left; vertical-align: top; }
+.rp-consumer .art-table thead { background: var(--fill); }
+.rp-consumer .art-table thead th { font-size: 12px; font-weight: 600; color: var(--sec); }
+.rp-consumer .art-table tbody th { width: 180px; font-weight: 600; color: var(--text); }
+.rp-consumer .art-table tbody tr { border-top: 1px solid var(--line); }
+@media (max-width: 600px) {
+  .rp-consumer .art-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .rp-consumer .art-table tbody,
+  .rp-consumer .art-table tr,
+  .rp-consumer .art-table tbody th,
+  .rp-consumer .art-table td { display: block; width: auto; }
+  .rp-consumer .art-table tbody tr:first-child { border-top: 0; }
+  .rp-consumer .art-table tbody th { padding: 18px 18px 4px; }
+  .rp-consumer .art-table td { padding: 0 18px 18px; }
+}
+@media (max-width: 760px) {
+  .rp-consumer .rp-hero { display: flex; flex-direction: column; align-items: stretch; gap: 24px; }
+  .rp-consumer .rp-hero-text { order: 0; }
+  .rp-consumer .rp-cover { order: 1; aspect-ratio: auto; min-height: 132px; flex-direction: row; }
+  .rp-consumer .rp-cover-hero .rp-cover-lead { width: 64px; height: 64px; }
+  .rp-consumer .rp-body { display: block; padding-top: 24px; }
+  .rp-consumer .rp-toc { position: static; margin-bottom: 32px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; }
+  .rp-consumer .rp-section h2 { font-size: 25px; }
+  .rp-consumer .rp-picks { grid-template-columns: 1fr; }
+  .rp-consumer .rp-competitor { padding: 18px; }
+}
+
+.rp-consumer .rp-cover { display: grid; grid-template-columns: repeat(3, 52px); justify-content: center; align-content: center; gap: 18px; padding: 24px; }
+.rp-consumer .rp-cover-rest { display: contents; }
+.rp-consumer .rp-cover-hero .rp-cover-lead,
+.rp-consumer .rp-cover-hero .rp-cover-small { width: 52px; height: 52px; }
+@media (max-width: 760px) {
+  .rp-consumer .rp-cover { min-height: 176px; }
+}

@@ -23,7 +23,7 @@ export function ReportCover({ report, bySlug, size = 'card' }: { report: Report;
         </g>
         <path d="M35 239C43 101 185 8 279 86" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 6" opacity="0.5" />
         <circle cx="35" cy="239" r="4" fill="currentColor" opacity="0.5" />
-        <path d="m277 66 6 17 17 7-2 4-18-3-9 10-4-2 5-13-5-14z" fill="currentColor" opacity="0.65" />
+        <path d="M0-20C2-20 3-17 3-14V-5L18 5V9L3 4V14L8 18V21L0 18L-8 21V18L-3 14V4L-18 9V5L-3-5V-14C-3-17-2-20 0-20Z" transform="translate(279 86) rotate(120)" fill="currentColor" opacity="0.65" />
       </svg>}
       {lead && <AgentIcon name={lead.name} icon={lead.icon} size={big} className="rp-cover-lead" />}
       <div className="rp-cover-rest">

@@ -5432,5 +5432,100 @@
     "source": "web",
     "collected_at": "2026-10-07",
     "notes": "Tom's Guide Oct 4: Muse household manager beats Alexa+ on consistency."
+  },
+  {
+    "id": "f08cnbc01",
+    "agent": "muse",
+    "quote": "Muse has an opportunity to be sticky with consumers because it's a task-completer, rather than just a chatbot.",
+    "author": "meredithwhalen",
+    "author_name": "Meredith Whalen (IDC, via CNBC)",
+    "date": "2026-10-07",
+    "url": "https://www.cnbc.com/2026/10/07/meta-muse-personal-ai-agents-dazzle.html",
+    "kind": "praise",
+    "tags": [
+      "stickiness",
+      "task-completer",
+      "analyst",
+      "idc"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "CNBC Oct 7: IDC's Whalen says Muse sticky because it's a task-completer, not chatbot."
+  },
+  {
+    "id": "f08cnbc02",
+    "agent": "muse",
+    "quote": "The real question is trust.",
+    "author": "meredithwhalen",
+    "author_name": "Meredith Whalen (IDC, via CNBC)",
+    "date": "2026-10-07",
+    "url": "https://www.cnbc.com/2026/10/07/meta-muse-personal-ai-agents-dazzle.html#trust",
+    "kind": "other",
+    "tags": [
+      "trust",
+      "analyst",
+      "idc"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "CNBC Oct 7: IDC's Whalen says trust is the real question for Muse."
+  },
+  {
+    "id": "f08tomsguide01",
+    "agent": "muse",
+    "quote": "Muse AI gets the nod from me as the easiest entry point for everyone who wants to see what AI agents are good for. Meta's digital helper stands out to me as an easy-to-access AI agent that sits right on my phone, connects to the apps I give it full permission to and tackles all the automated tasks I hand off to it whenever I need reminders, price alerts, news updates, and more.",
+    "author": "eltonjones",
+    "author_name": "Elton Jones (Tom's Guide)",
+    "date": "2026-10-07",
+    "url": "https://www.tomsguide.com/ai/i-used-meta-muse-to-automate-10-tasks-from-reminders-to-trip-alerts-and-i-cant-believe-how-well-metas-ai-handled-everything",
+    "kind": "praise",
+    "tags": [
+      "automation",
+      "entry-point",
+      "hands-on",
+      "10-tasks"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Tom's Guide Oct 7: Elton Jones tested 10 automated tasks; calls Muse easiest AI agent entry point."
+  },
+  {
+    "id": "f08palmerjones01",
+    "agent": "muse",
+    "quote": "iMessage takes a different route, through the Mac app. Muse reads Messages straight off your computer, and Meta describes three separate steps before it can: Full Disk Access in macOS settings, the Messages toggle inside Muse, then a per-app level of Off, Read only, or Read and interact. The last one lets Muse send iMessages for you.",
+    "author": "palmerjones",
+    "author_name": "Palmer Jones",
+    "date": "2026-10-03",
+    "url": "https://www.palmercjones.com/writing/what-is-meta-muse/",
+    "kind": "other",
+    "tags": [
+      "imessage",
+      "mac-app",
+      "permissions",
+      "explainer"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Palmer Jones Oct 3 explainer: iMessage access is Mac-app-only with three permission steps."
+  },
+  {
+    "id": "f08palmerjones02",
+    "agent": "muse",
+    "quote": "ChatGPT's Dots does the same own-computer trick, but only on Pro plans from $100 a month. The Claude and Gemini agents stop when your laptop lid closes. That leaves Muse's free tier as the only no-cost agent that keeps running.",
+    "author": "palmerjones",
+    "author_name": "Palmer Jones",
+    "date": "2026-10-03",
+    "url": "https://www.palmercjones.com/writing/what-is-meta-muse/#comparison",
+    "kind": "comparison",
+    "tags": [
+      "vs-chatgpt",
+      "vs-claude",
+      "vs-gemini",
+      "always-on",
+      "free"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Palmer Jones: Muse free tier only no-cost agent that keeps running when laptop closes."
   }
 ]

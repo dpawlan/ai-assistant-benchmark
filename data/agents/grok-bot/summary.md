@@ -136,5 +136,11 @@ _Updated 2026-10-05 vault scan (+6 rows)._
 **Previous scan (2026-10-02, +1 row):**
 - (2026-10-01) Hardik Sheth (Medium): 14-bot setup burned weekly Pro allowance in an hour.
 
-**Feedback rows:** 1211 (as of 2026-10-05)
+_Updated 2026-10-08 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-07) Elon Musk (via AICoder): Grok Bot will route to best backend per task including Claude Opus 5.5, Midjourney, Suno.
+- (2026-10-07) AICoder: v0.68.1 adds slide decks (PowerPoint/Google Slides), formatted email from drafts, 1920×1200 Bot computer (up from 1280×800).
+
+**Feedback rows:** 1213 (as of 2026-10-08)
 

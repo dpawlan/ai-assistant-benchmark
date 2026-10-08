@@ -6233,5 +6233,80 @@
     "source": "web",
     "collected_at": "2026-10-07",
     "notes": "BI Oct 6: YieldClub CEO still uses agents but no sensitive data; 'wild west'."
+  },
+  {
+    "id": "f08stardrift01",
+    "agent": "instinct",
+    "quote": "Instinct is good at doing one travel task for you over text: booking a flight, rebooking a hotel, or watching a fare. But it struggles to plan a whole trip. Instinct is designed for business travelers who just need a hotel, a flight and maybe a dinner reservation. It isn't built for travelers who are trying to understand a place from the ground up, or piece together places that their kids want to go to.",
+    "author": "leilaclark",
+    "author_name": "Leila Clark (Stardrift)",
+    "date": "2026-10-06",
+    "url": "https://stardrift.ai/resources/i-tried-instinct-heres-my-honest-review-ai-travel-agent",
+    "kind": "comparison",
+    "tags": [
+      "travel",
+      "single-task",
+      "vs-stardrift",
+      "limitations"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Stardrift Oct 6: Instinct good at single travel tasks, struggles with whole-trip planning. NOTE: Stardrift is a competitor."
+  },
+  {
+    "id": "f08stardrift02",
+    "agent": "instinct",
+    "quote": "There's no view of your trip you can pull up. Instinct can detect changes to your plans, but there is no screen to open mid-trip or glance back at. To find your hotel address or your gate, you have to ask and wait for a reply.",
+    "author": "leilaclark",
+    "author_name": "Leila Clark (Stardrift)",
+    "date": "2026-10-06",
+    "url": "https://stardrift.ai/resources/i-tried-instinct-heres-my-honest-review-ai-travel-agent#limitations",
+    "kind": "complaint",
+    "tags": [
+      "no-itinerary-view",
+      "text-only",
+      "ux"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Stardrift: no visual trip view; must ask and wait for details. NOTE: Stardrift is a competitor."
+  },
+  {
+    "id": "f08jingletree01",
+    "agent": "instinct",
+    "quote": "I didn't need to buy carry-on luggage, sunglasses, or a brim hat. This feels so disappointing. At least make me a personalized shopping list of things I actually need!!",
+    "author": "shrutigandhi",
+    "author_name": "Shruti Gandhi (Array VC, via Jingletree)",
+    "date": "2026-09-29",
+    "url": "https://jingletree.com/instinct-s-new-product-recommendations-are-giving-some-users-the-ick-279436.html",
+    "kind": "complaint",
+    "tags": [
+      "instinct-selections",
+      "product-recs",
+      "unsolicited",
+      "vc"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Jingletree: Array VC GP disappointed by unsolicited product recommendations from Instinct Selections."
+  },
+  {
+    "id": "f08jingletree02",
+    "agent": "instinct",
+    "quote": "I had my first 'ewwww' moment with an AI assistant when Instinct started to suggest products that I should buy based on what I had in email and upcoming trips.",
+    "author": "chatjoglekar",
+    "author_name": "Chat Joglekar (via Jingletree)",
+    "date": "2026-09-30",
+    "url": "https://jingletree.com/instinct-s-new-product-recommendations-are-giving-some-users-the-ick-279436.html#joglekar",
+    "kind": "complaint",
+    "tags": [
+      "instinct-selections",
+      "product-recs",
+      "unsolicited",
+      "creepy"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Jingletree: Founder had first 'ewwww' moment when Instinct pushed product suggestions from email/trips."
   }
 ]

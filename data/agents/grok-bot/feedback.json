@@ -29203,5 +29203,45 @@
     "source": "web",
     "collected_at": "2026-10-05T14:00:00Z",
     "notes": "Zenn Aug 31: Grok Bot to Cursor Cloud Agent dev workflow."
+  },
+  {
+    "id": "f08elon01",
+    "agent": "grok-bot",
+    "quote": "Important note regarding Grok @Bot: Going forward, @SpaceX will use the best back end model for any given task, including Claude Opus 5.5, MidJourney, Suno and other leading APIs. Whatever is most likely to give you the best outcome.",
+    "author": "elonmusk",
+    "author_name": "Elon Musk",
+    "date": "2026-10-07",
+    "url": "https://aicoder.com/news/news-20261007-elon-grok-bot-best-backend-models",
+    "kind": "news",
+    "tags": [
+      "multi-model",
+      "claude-opus",
+      "midjourney",
+      "suno",
+      "routing"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "Elon Oct 7: Grok Bot will route to best backend per task including Claude Opus 5.5, Midjourney, Suno."
+  },
+  {
+    "id": "f08aicoder01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot v0.68.1 (Oct 7, official changelog): slide decks delivered as PowerPoint or Google Slides, formatted email from draft cards, Gmail Spam search, Bot-colored 1:1 chats, and a 1920×1200 Bot computer (up from 1280×800) with faster actions.",
+    "author": "aicoder",
+    "author_name": "AICoder",
+    "date": "2026-10-07",
+    "url": "https://aicoder.com/news/news-20261007-grok-bot-0-68-1-slides-formatted-email-1920",
+    "kind": "news",
+    "tags": [
+      "v0.68.1",
+      "slides",
+      "formatted-email",
+      "resolution",
+      "changelog"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-08T14:00:00Z",
+    "notes": "AICoder Oct 7: v0.68.1 adds slide decks, formatted email, higher-res Bot computer."
   }
 ]

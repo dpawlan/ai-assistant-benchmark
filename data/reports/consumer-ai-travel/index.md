@@ -1,6 +1,6 @@
 ---
 title: The Consumer AI Travel Report
-question: Six assistants. Two rounds of real travel tasks. What happened when we asked them to book, change, upgrade, and cancel.
+question: Six assistants. Real bookings and follow-up tests. What happened when we asked them to book, change, upgrade, and cancel.
 dimension: travel
 published: 2026-10-07
 updated: 2026-10-08
@@ -15,7 +15,7 @@ picks:
   - muse | Cancellation clarity | Quoted the refund, requested approval, and returned a clear cancellation confirmation.
 ---
 
-Booking a flight is only the beginning. Across two rounds, we examined how six AI assistants handled the work that follows: a new departure date, a better seat, and a request to cancel everything. The differences were substantial—and some of the easiest bookings became the hardest trips to change.
+Booking a flight is only the beginning. Across the initial tests and a follow-up retest, we examined how six AI assistants handled the work that follows: a new departure date, a better seat, and a request to cancel everything. The differences were substantial—and some of the easiest bookings became the hardest trips to change.
 
 ## Why travelers are turning to AI
 
@@ -46,14 +46,18 @@ The report covers **Muse, Instinct, Miso, Soar, Grok Bot, and Dots**. The source
 
 > I want to book a one way flight to chicago from NYC this weekend. I want to leave Friday night and get in at a reasonable time.
 
-**Round two:** Grok Bot, Instinct, Miso, Muse, and Dots were asked to move the flight to the following day, obtain a premium seat, and cancel everything. Dots joined with a new Delta booking; Muse completed a new booking before its modification tests. Soar was not tested in round two. This is six products across two five-product rounds—not six identical end-to-end tests.
+**Round two:** Grok Bot, Instinct, Miso, Muse, and Dots were asked to move the flight to the following day, obtain a premium seat, and cancel everything. Dots joined with a new Delta booking; Muse completed a new booking before its modification tests. Soar was not tested in round two.
+
+**Latest retest:** Instinct and Soar were tested again on NYC–Miami after product updates. Both issued tickets. Instinct completed a seat upgrade and flight cancellation, but could not rebook and left refunds unresolved. Soar contradicted its own booking confirmation; the session ended before the modification tasks. These are the latest findings for those two products. The earlier rounds remain evidence of their previous behavior, not their current verdicts.
 
 | Stage | What the records show |
 | --- | --- |
 | Onboarding | We reviewed setup and payment friction visible in the sessions. Accounts and saved profiles differed, so this is not a controlled new-account timing comparison. |
 | Booking | Three of five assistants returned booking confirmations in round one. Dots and Muse made fresh bookings in the later round. We distinguish a quoted fare from a ticketed reservation. |
-| Detailed requests | Three of five changed the departure date and three of five completed a paid seat or cabin upgrade in round two. We recorded approval steps, extra charges, and traveler intervention. |
+| Detailed requests | In the second round, three of five changed the departure date and three of five completed a paid seat or cabin upgrade in round two. We recorded approval steps, extra charges, and traveler intervention. |
 | Cancellations | Four of five reported flight cancellation in round two. Miso’s seat-fee refund and Dots’ earlier credit remained unresolved. We did not inspect bank statements to confirm settlement. |
+
+The stage breakdown below describes the initial two rounds. The latest retest follows it, and the assistant reviews reflect the newest evidence.
 
 ### 01 · Onboarding and payment
 
@@ -83,6 +87,14 @@ Miso reported the $222.40 flight refund, but its $85.99 seat-fee refund remained
 
 The assistants made differing statements about cancellation windows. We report the observed outcome for each reservation and do not present their explanations as a general airline refund rule.
 
+### Latest retest · Instinct and Soar
+
+Instinct booked an American Main Cabin flight for $443.40 through Duffel and Link, using the intended card. It took approximately six minutes from flight selection to confirmation, or nine minutes from the initial request. It then purchased a $35 Main Cabin Extra seat after approval. Rebooking still failed: Instinct first offered to handle the change, then retracted and directed the traveler to Duffel support. Flight cancellation was confirmed, but the flight refund amount and separate seat refund remained unresolved.
+
+Soar also issued a real $443.40 American ticket. That is a material improvement over its original search-only result. However, it sent a confirmation and then repeatedly said it could not verify the ticket. The traveler ended the session before changes, upgrades, or cancellation were tested. We credit the issued ticket while treating reliable confirmation as unresolved.
+
+[Latest retest evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
+
 ## The competition
 
 ### Muse
@@ -95,11 +107,11 @@ The assistants made differing statements about cancellation windows. We report t
 
 ### Instinct
 
-**Where it worked:** Instinct completed the initial $191.75 booking inside iMessage and returned confirmation and ticket information. The interaction showed that a concise text-based flow could reach an actual booking.
+**Where it worked:** In the latest retest, Instinct booked an American Main Cabin ticket through Duffel and Link, charged the intended card after approval, and returned confirmation. It also completed the approved $35 Main Cabin Extra purchase, clearly explaining that the seat was still a middle seat. The earlier payment-handling weakness was not repeated in this flow.
 
-**Where it missed the mark:** It accepted payment details in chat and assumed permission for a card in another person’s name. In the next round, it revised its cancellation-window advice, reported being locked out of United, and did not complete the date change, seat upgrade, or cancellation. The saved session ended with work handed back to the traveler.
+**Where it missed the mark:** Repeated card-account clarification added friction. It could not change the Duffel-issued ticket and retracted an assurance that it could handle the support chat. Cancellation completed, but the flight refund amount was unconfirmed and the seat-refund submission failed. It used a saved address for that form without checking first and did not ask for a Known Traveler Number.
 
-**Consumer takeaway:** A smooth first booking did not translate into reliable follow-through in this test. The earlier draft’s recommendation for ongoing travel assistance is withdrawn for this report. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts) · [Modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
+**Consumer takeaway:** Improved booking and seat servicing, with a real limitation when the itinerary changes. Refund follow-through still needs work. [Latest retest evidence](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
 
 ### Miso
 
@@ -111,11 +123,11 @@ The assistants made differing statements about cancellation windows. We report t
 
 ### Soar
 
-**Where it worked:** Soar returned a concise flight shortlist and was explicit that it could not purchase a ticket. It provided a Google Flights handoff rather than claiming to have booked.
+**Where it worked:** The updated service issued a real American Main Cabin ticket after an explicit Link approval. The supplied source includes an airline confirmation screenshot. Soar also explained the available fare bundles before purchase.
 
-**Where it missed the mark:** It did not satisfy the booking task. Its displayed cheapest option was about $296, and it did not surface the roughly $192 option that appeared in other sessions. That is a difference in these searches, not proof of a persistent pricing disadvantage.
+**Where it missed the mark:** Required details arrived as a series of separate questions. A long payment silence led the traveler to check in; the chat then lost context. Most seriously, it sent a booking confirmation and immediately undermined it with repeated statements that it could not verify a ticket. The session ended before rebooking, seat upgrades, or cancellation.
 
-**Consumer takeaway:** A search-and-handoff tool in this test. Soar was not included in the modification round, so rebooking, upgrades, and cancellation are untested here—not failed. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts)
+**Consumer takeaway:** Soar can now book, but its conversation did not reliably communicate the completed purchase. The later tasks are untested, not failed. [Latest retest evidence](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
 
 ### Grok Bot
 
@@ -135,7 +147,7 @@ The assistants made differing statements about cancellation windows. We report t
 
 ## Category winners
 
-These are editorial picks for the recorded tasks, not claims that a product is universally best. Five assistants participated in each round, with different booking conditions and varying levels of traveler help. We have not combined the source pages’ separate scoring systems into a single overall score.
+These are editorial picks for the recorded tasks, not claims that a product is universally best. Five assistants participated in each initial round; Instinct and Soar were later retested on a different route. Booking conditions and levels of traveler help varied. We have not combined the source pages’ separate scoring systems into a single overall score.
 
 ## Best for budget booking in this test: Grok Bot
 
@@ -181,7 +193,7 @@ A higher cabin class is one part of premium travel. Our Miso recommendation prio
 
 Explore the [Travel benchmark](/benchmarks/travel) and its [booking test evidence preview](/reports/nyc-chicago). The booking preview covers round one; the source transcripts below also document the later modification round.
 
-The primary sources are the supplied [Booking benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/) and [Modification benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round2.html). Those source pages require the owner’s access password. We also cross-checked sampled frames and ending screens from the 11 locally saved recordings; this was not a frame-by-frame review of every minute.
+The primary sources are the supplied [Booking benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/) and [Modification benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round2.html). The [latest Instinct and Soar retest](https://stmy6z4b3h.s.stableupload.dev/round3.html) supersedes their earlier outcomes. Those source pages require the owner’s access password. We also cross-checked sampled frames and ending screens from the 11 locally saved recordings; this was not a frame-by-frame review of every minute. The latest retest update uses its supplied report and full transcripts; its new videos have not been independently reviewed here.
 
 Source summaries are not treated as unquestionable findings. In particular, we do not repeat the claim that the $66.65 price difference was for an identical fare, describe all cancellations as fully resolved, or equate successful completion with zero traveler intervention. We distinguish assistant statements, visible confirmation screens, and unresolved outcomes. Bank settlement was not independently verified.
 

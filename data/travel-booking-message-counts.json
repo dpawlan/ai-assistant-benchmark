@@ -1,0 +1,65 @@
+{
+  "method": "Count transcript message blocks, including standalone attachments and links, from initial trip request through the first booking confirmation or traveler-supplied confirmation acknowledgment. Exclude reactions, pre-request history and synthetic secure-form/payment event annotations. These are transcript counts, not independently video-audited counts of every interaction.",
+  "results": [
+    {
+      "agent": "miso",
+      "total": 13,
+      "user": 2,
+      "assistant": 11,
+      "source_panel": "t1-miso",
+      "start_index": 5,
+      "end_index": 17,
+      "note": "Through first booking confirmation. Prior app onboarding excluded. Seat selection and later confirmation-page recovery followed this point."
+    },
+    {
+      "agent": "grok-bot",
+      "total": 27,
+      "user": 4,
+      "assistant": 23,
+      "source_panel": "t1-grokbot",
+      "start_index": 2,
+      "end_index": 31,
+      "note": "Through first booking confirmation. Three transcript annotations for secure-form submissions and payment approval are excluded; out-of-chat actions are not messages."
+    },
+    {
+      "agent": "muse",
+      "total": 38,
+      "user": 18,
+      "assistant": 20,
+      "source_panel": "t2-muse",
+      "start_index": 2,
+      "end_index": 39,
+      "note": "Includes the failed first attempt and continuation through ticketing. The successful retry alone contains 16 messages."
+    },
+    {
+      "agent": "dots",
+      "total": 38,
+      "user": 15,
+      "assistant": 23,
+      "source_panel": "t2-dot",
+      "start_index": 4,
+      "end_index": 41,
+      "note": "Through acknowledgment of the airline confirmation supplied by the traveler; independent ticket-receipt verification remained incomplete."
+    },
+    {
+      "agent": "instinct",
+      "total": 15,
+      "user": 4,
+      "assistant": 11,
+      "source_panel": "t3-instinct",
+      "start_index": 9,
+      "end_index": 27,
+      "note": "Latest retest, through first ticket confirmation. Excludes four reactions and pre-request conversation."
+    },
+    {
+      "agent": "soar",
+      "total": 33,
+      "user": 10,
+      "assistant": 23,
+      "source_panel": "t3-soar",
+      "start_index": 2,
+      "end_index": 34,
+      "note": "Through first confirmation, which was subsequently contradicted. The full unresolved booking conversation contains 41 messages, not a clean completed interaction."
+    }
+  ]
+}

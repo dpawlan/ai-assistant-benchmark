@@ -3,6 +3,7 @@ import { TravelCompletionTime } from '@/components/TravelCompletionTime';
 import { AgentIcon } from '@/components/AgentIcon';
 import allRuns from '../../../../../../data/travel-results.json';
 import roundOne from '../../../../../../data/travel-round-1.json';
+import roundThree from '../../../../../../data/travel-round-3.json';
 import roundTwo from '../../../../../../data/travel-round-2.json';
 import { travelSessionPreview } from '@/lib/travel-session-preview';
 import { BenchmarkNav } from '@/components/BenchmarkNav';
@@ -39,13 +40,21 @@ export default async function TravelDimensionPage({ params }: Props) {
       {participants.map(a => {
         const previous = allRuns.filter(r => r.agent === a.slug && r.dimension === task.id && r.reviewed && r.date < '2026-10-06').sort((a,b) => b.date.localeCompare(a.date))[0];
         const firstRound = roundOne.find(r => r.agent === a.slug && r.dimension === task.id && r.reviewed);
+        const latest = roundThree.find(r => r.agent === a.slug && r.dimension === task.id);
         const recent = roundTwo.find(r => r.agent === a.slug && r.dimension === task.id && r.reviewed);
         const session = dimensionIndex >= 0 ? travelSessionPreview.find(r => r.slug === a.slug) : undefined;
         const note = session?.notes[dimensionIndex];
         const untested = (task.id === 7 && ['instinct', 'grok-bot'].includes(a.slug)) || task.id === 8 || note === 'Not documented in this session.' || (task.id === 6 && a.slug !== 'miso') || (a.slug === 'soar' && task.id !== 5);
         return <article className="travel-dimension-evidence" id={a.slug} key={a.slug}>
           <div className="travel-evidence-heading"><AgentIcon name={a.name} icon={a.icon} size={32} /><h3 className="ag-h2">{a.name}</h3></div>
-          {task.id === 20 && <><p>{a.travel.runs[20]?.notes}</p><p className="ag-sub">Observed initiative across the available October 6–7 sessions. Actions requested by the tester are not credited as unprompted.</p><a href={a.travel.runs[20]?.evidence_url}>View source report and transcripts →</a></>}
+          {latest && <>
+            <div className="info-row"><span className="il">Round 3 · October 8, 2026 · NYC → Miami</span><ScoreCell value={latest.score} /></div>
+            <p>{latest.notes}</p>
+            {task.id === 5 && <p className="ag-sub"><TravelCompletionTime agent={a.slug} round={3} detail /></p>}
+            <p className="ag-sub">Latest observed result assessed against the benchmark’s 10-point criteria. The source’s separate 1–5 phase scores are retained in the notes where applicable; they are not directly averaged into this benchmark.</p>
+            <a href={latest.evidence_url}>Round 3 source and transcripts →</a>
+          </>}
+          {task.id === 20 && !latest && <><p>{a.travel.runs[20]?.notes}</p><p className="ag-sub">Observed initiative across the available October 6–7 sessions. Actions requested by the tester are not credited as unprompted.</p><a href={a.travel.runs[20]?.evidence_url}>View source report and transcripts →</a></>}
           {task.id === 19 && <><p>{a.travel.runs[19]?.notes}</p><p className="ag-sub"><TravelCompletionTime agent={a.slug} dimension={5} detail /></p><Link href={`/benchmarks/travel/dimensions/5#${a.slug}`}>View booking test details →</Link><p><Link href="/benchmarks/travel/dimensions#how">Scoring methodology →</Link></p></>}
           {recent && <>
             <div className="info-row"><span className="il">Round 2 · October 7, 2026</span><ScoreCell value={recent.score} /></div>

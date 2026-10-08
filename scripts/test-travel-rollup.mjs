@@ -38,7 +38,7 @@ try {
   assert.equal(getAgentDetail('miso').travel.completed, 8);
   assert.equal(getAgentDetail('instinct').travel.completed, 8);
   for (const agent of ['instinct', 'grok-bot']) assert.equal(getAgentDetail(agent).travel.scores[7], 10);
-  assert.equal(getAgentDetail('soar').travel.completed, 2);
+  assert.equal(getAgentDetail('soar').travel.completed, 4);
   assert.equal(getAgentDetail('miso').travel.total, 8);
   assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18', '19', '20']);
   let fixture = [...activeIds.map(id => run(id, 8, { agent: 'muse' })), run(1, 1, { agent: 'muse' })];
@@ -78,11 +78,11 @@ assert.equal(miso.scores[8], 7);
 assert.equal(miso.scores[9], 10);
 assert.equal(miso.score, 9);
 const instinct = summarizeTravel('instinct', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
-assert.equal(instinct.scores[5], 10);
-assert.equal(instinct.scores[18], 10);
-assert.equal(instinct.scores[6], 3);
+assert.equal(instinct.scores[5], 7);
+assert.equal(instinct.scores[18], 7);
+assert.equal(instinct.scores[6], 10);
 assert.equal(instinct.scores[7], 10);
-assert.equal(instinct.score, 6.5);
+assert.equal(instinct.score, 7.5);
 for (const slug of ['instinct', 'grok-bot', 'miso', 'muse', 'dots']) assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).scores[7], slug === 'muse' ? 7 : 10);
 for (const result of actual) {
   assert.ok(result.notes);
@@ -114,3 +114,13 @@ console.log('Travel ranking: coverage, quality, unscored placement, ties, repeat
 
 for (const [slug, expected] of [['grok-bot', 7.4], ['dots', 8], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
 assert.equal(miso.scores[5], 7);
+
+// The latest retest supersedes earlier outcomes without erasing them.
+assert.equal(instinct.runs[5].date, '2026-10-08');
+assert.equal(instinct.scores[8], 7);
+assert.equal(instinct.scores[9], 3);
+const soar = summarizeTravel('soar', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
+assert.equal(soar.scores[5], 7);
+assert.equal(soar.scores[8], undefined);
+assert.equal(soar.scores[9], undefined);
+assert(actual.some(r => r.agent === 'soar' && r.dimension === 5 && r.date === '2026-10-06' && r.score === 3));

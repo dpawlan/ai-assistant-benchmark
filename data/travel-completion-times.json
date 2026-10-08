@@ -211,5 +211,27 @@
     "status": "completed",
     "note": "Completed with tester browser assistance. Exact request-to-confirmation interval not yet measured.",
     "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 5,
+    "round": 3,
+    "minutes": 6,
+    "status": "completed",
+    "note": "3:05 PM selected-flight request to 3:11 PM ticket confirmation; includes repeated payment-account clarification and approval. Minute-resolution transcript.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round3.html",
+    "request_to_confirmation_minutes": 9,
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "soar",
+    "dimension": 5,
+    "round": 3,
+    "minutes": null,
+    "status": "confirmation_unresolved",
+    "note": "A booking confirmation was sent 32 minutes after flight selection, then contradicted. Chat never established a reliable final status before the session ended, 48 minutes after selection. Ticket issuance is corroborated by the source screenshot; no comparable completion-time score assigned.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round3.html",
+    "first_confirmation_minutes": 32,
+    "session_minutes": 48
   }
 ]

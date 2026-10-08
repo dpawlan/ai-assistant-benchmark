@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-b624c6",
+  "agent": "del",
+  "category": "permissions_privacy",
+  "protocol": "observed",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 29,
+    "my_messages": 7,
+    "agent_messages": 22,
+    "first_reply_s": 68,
+    "duration_min": 60,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.919Z"
+}

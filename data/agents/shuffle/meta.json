@@ -1,25 +1,24 @@
 {
   "slug": "shuffle",
   "name": "Shuffle",
-  "site": "https://shuffle.cool/",
+  "site": "https://textshuffle.com/",
   "handles": [
     "Shuffle"
   ],
   "status": "confirmed",
-  "notes": "shuffle.cool/@addshuffle quiet; avoid textshuffle confusion.",
+  "notes": "Playful AI you text in iMessage or on the web: pictures, videos, music and games about your friends, or just talk; agents can build games and tools through its REST API and MCP. Site is textshuffle.com, app at addshuffle.com (shuffle.cool was the earlier domain).",
   "public_signal": "low",
-  "tagline": "AI you can text and call for images, memes and more",
+  "tagline": "The AI you open for fun",
   "icon": "/logos/shuffle.png",
   "kind": "general",
   "access": {
     "pricing": "freemium",
-    "price": "Free to start",
+    "price": "Free · Pro $8/mo (unlimited chat, 880 monthly credits) · Day pass $1 · Week pass $4.99",
     "regions": "Not stated",
     "channels": [
       "iMessage",
-      "SMS",
       "Web"
     ],
-    "checked": "2026-09-09"
+    "checked": "2026-10-08"
   }
 }

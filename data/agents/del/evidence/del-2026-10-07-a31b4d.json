@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-a31b4d",
+  "agent": "del",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 21,
+    "my_messages": 6,
+    "agent_messages": 15,
+    "first_reply_s": 52,
+    "duration_min": 29,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.918Z"
+}

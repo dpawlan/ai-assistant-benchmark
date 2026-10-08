@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { formatDate } from '@/lib/data';
 import { IndexData } from '@/lib/types';
 
@@ -22,6 +23,14 @@ export function Footer({ index }: { index: IndexData }) {
           @DavidPawlan
         </a>
       </p>
+      <a
+        className="merit-logo"
+        href="https://merit.systems"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src="/logos/merit.svg" alt="Merit Systems" width={104} height={30} unoptimized />
+      </a>
     </footer>
   );
 }

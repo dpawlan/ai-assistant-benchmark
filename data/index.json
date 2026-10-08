@@ -1091,22 +1091,21 @@
       "slug": "shuffle",
       "name": "Shuffle",
       "status": "confirmed",
-      "site": "https://shuffle.cool/",
+      "site": "https://textshuffle.com/",
       "feedback_count": 5,
       "public_signal": "low",
-      "tagline": "AI you can text and call for images, memes and more",
+      "tagline": "The AI you open for fun",
       "icon": "/logos/shuffle.png",
       "kind": "general",
       "access": {
         "pricing": "freemium",
-        "price": "Free to start",
+        "price": "Free · Pro $8/mo (unlimited chat, 880 monthly credits) · Day pass $1 · Week pass $4.99",
         "regions": "Not stated",
         "channels": [
           "iMessage",
-          "SMS",
           "Web"
         ],
-        "checked": "2026-09-09"
+        "checked": "2026-10-08"
       }
     },
     {
@@ -3079,24 +3078,45 @@
       }
     },
     {
-      "slug": "archie",
-      "name": "Archie",
+      "slug": "ira",
+      "name": "ira",
       "status": "confirmed",
-      "site": "https://otianai.com/archie/personal/",
+      "site": "https://ira.so/",
       "public_signal": "low",
-      "tagline": "Life admin, handled.",
-      "icon": "/logos/archie.png",
+      "tagline": "Your go-to for everything",
+      "icon": "/logos/ira.png",
       "kind": "general",
       "access": {
-        "pricing": "freemium",
-        "price": "One free agent, 20 jobs/day; up to 10 agents from $30/month; own AI account costs separate",
+        "pricing": "waitlist",
+        "price": "Not stated; email waitlist",
         "regions": "Not stated",
         "channels": [
-          "Mac app",
-          "Windows app",
-          "Android app",
-          "Telegram",
-          "Slack"
+          "Voice",
+          "Video calls"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "saint",
+      "name": "Saint",
+      "status": "stretch",
+      "site": "https://saint.work/",
+      "public_signal": "low",
+      "tagline": "Hire your first AI employee",
+      "icon": null,
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "From £49/month with weekly credits; higher tiers available",
+        "regions": "Not stated",
+        "channels": [
+          "Web",
+          "WhatsApp",
+          "Email",
+          "Slack",
+          "Discord"
         ],
         "checked": "2026-10-08"
       },
@@ -3117,112 +3137,6 @@
         "regions": "Not stated",
         "channels": [
           "SMS"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
-      "slug": "base",
-      "name": "Base",
-      "status": "stretch",
-      "site": "https://withbase.ai/",
-      "public_signal": "low",
-      "tagline": "Run your business from one place",
-      "icon": "/logos/base.png",
-      "kind": "work",
-      "access": {
-        "pricing": "paid",
-        "price": "£24/£65/£159 per month; one-day trial with card required",
-        "regions": "Not stated",
-        "channels": [
-          "Web app"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
-      "slug": "bris",
-      "name": "Bris",
-      "status": "confirmed",
-      "site": "https://usebris.com/",
-      "public_signal": "low",
-      "tagline": "A private operating agent across the web, Telegram, and WhatsApp.",
-      "icon": "/logos/bris.png",
-      "kind": "general",
-      "access": {
-        "pricing": "unknown",
-        "price": "Not stated; onboarding by invite",
-        "regions": "Not stated",
-        "channels": [
-          "Web app",
-          "Telegram",
-          "WhatsApp"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
-      "slug": "buddy",
-      "name": "Buddy",
-      "status": "confirmed",
-      "site": "https://thebuddyassistant.com/",
-      "public_signal": "low",
-      "tagline": "A personal assistant that lives on your Mac right next to your cursor.",
-      "icon": "/logos/buddy.png",
-      "kind": "general",
-      "access": {
-        "pricing": "unknown",
-        "price": "Not stated; Mac download available",
-        "regions": "Not stated",
-        "channels": [
-          "Mac app"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
-      "slug": "color",
-      "name": "Color",
-      "status": "confirmed",
-      "site": "https://withcolor.com/",
-      "public_signal": "low",
-      "tagline": "Live more, manage less",
-      "icon": null,
-      "kind": "general",
-      "access": {
-        "pricing": "waitlist",
-        "price": "Pricing not announced; beta access",
-        "regions": "Not stated",
-        "channels": [
-          "Web app",
-          "Voice",
-          "Text"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
-      "slug": "denzl",
-      "name": "Denzl",
-      "status": "stretch",
-      "site": "https://denzl.co/",
-      "public_signal": "low",
-      "tagline": "A personal shopping assistant for men.",
-      "icon": "/logos/denzl.png",
-      "kind": "shopping",
-      "access": {
-        "pricing": "unknown",
-        "price": "Not stated",
-        "regions": "Not stated",
-        "channels": [
-          "Web app",
-          "iOS app",
-          "Android app"
         ],
         "checked": "2026-10-08"
       },
@@ -3251,21 +3165,22 @@
       "feedback_count": 0
     },
     {
-      "slug": "ira",
-      "name": "ira",
+      "slug": "color",
+      "name": "Color",
       "status": "confirmed",
-      "site": "https://ira.so/",
+      "site": "https://withcolor.com/",
       "public_signal": "low",
-      "tagline": "Your go-to for everything",
-      "icon": "/logos/ira.png",
+      "tagline": "Live more, manage less",
+      "icon": null,
       "kind": "general",
       "access": {
         "pricing": "waitlist",
-        "price": "Not stated; email waitlist",
+        "price": "Pricing not announced; beta access",
         "regions": "Not stated",
         "channels": [
+          "Web app",
           "Voice",
-          "Video calls"
+          "Text"
         ],
         "checked": "2026-10-08"
       },
@@ -3316,30 +3231,6 @@
       "feedback_count": 0
     },
     {
-      "slug": "saint",
-      "name": "Saint",
-      "status": "stretch",
-      "site": "https://saint.work/",
-      "public_signal": "low",
-      "tagline": "Hire your first AI employee",
-      "icon": null,
-      "kind": "work",
-      "access": {
-        "pricing": "paid",
-        "price": "From £49/month with weekly credits; higher tiers available",
-        "regions": "Not stated",
-        "channels": [
-          "Web",
-          "WhatsApp",
-          "Email",
-          "Slack",
-          "Discord"
-        ],
-        "checked": "2026-10-08"
-      },
-      "feedback_count": 0
-    },
-    {
       "slug": "zettlab-memo",
       "name": "Zettlab Memo",
       "status": "stretch",
@@ -3354,6 +3245,114 @@
         "regions": "Not stated",
         "channels": [
           "Hardware workstation"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "archie",
+      "name": "Archie",
+      "status": "confirmed",
+      "site": "https://otianai.com/archie/personal/",
+      "public_signal": "low",
+      "tagline": "Life admin, handled.",
+      "icon": "/logos/archie.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "One free agent, 20 jobs/day; up to 10 agents from $30/month; own AI account costs separate",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app",
+          "Windows app",
+          "Android app",
+          "Telegram",
+          "Slack"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "buddy",
+      "name": "Buddy",
+      "status": "confirmed",
+      "site": "https://thebuddyassistant.com/",
+      "public_signal": "low",
+      "tagline": "A personal assistant that lives on your Mac right next to your cursor.",
+      "icon": "/logos/buddy.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated; Mac download available",
+        "regions": "Not stated",
+        "channels": [
+          "Mac app"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "denzl",
+      "name": "Denzl",
+      "status": "stretch",
+      "site": "https://denzl.co/",
+      "public_signal": "low",
+      "tagline": "A personal shopping assistant for men.",
+      "icon": "/logos/denzl.png",
+      "kind": "shopping",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "base",
+      "name": "Base",
+      "status": "stretch",
+      "site": "https://withbase.ai/",
+      "public_signal": "low",
+      "tagline": "Run your business from one place",
+      "icon": "/logos/base.png",
+      "kind": "work",
+      "access": {
+        "pricing": "paid",
+        "price": "£24/£65/£159 per month; one-day trial with card required",
+        "regions": "Not stated",
+        "channels": [
+          "Web app"
+        ],
+        "checked": "2026-10-08"
+      },
+      "feedback_count": 0
+    },
+    {
+      "slug": "bris",
+      "name": "Bris",
+      "status": "confirmed",
+      "site": "https://usebris.com/",
+      "public_signal": "low",
+      "tagline": "A private operating agent across the web, Telegram, and WhatsApp.",
+      "icon": "/logos/bris.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated; onboarding by invite",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "Telegram",
+          "WhatsApp"
         ],
         "checked": "2026-10-08"
       },

@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-c39cf6",
+  "agent": "del",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 23,
+    "my_messages": 7,
+    "agent_messages": 16,
+    "first_reply_s": 31,
+    "duration_min": 54,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.919Z"
+}

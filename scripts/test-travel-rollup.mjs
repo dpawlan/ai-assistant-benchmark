@@ -35,11 +35,12 @@ try {
   assert.equal(baseline.travel.score, null);
   assert.equal(baseline.scores.travel, baseline.travel.legacyScore);
   const resultsPath = path.resolve('data/travel-results.json');
-  assert.equal(getAgentDetail('miso').travel.completed, 6);
-  assert.equal(getAgentDetail('instinct').travel.completed, 6);
-  assert.equal(getAgentDetail('soar').travel.completed, 1);
-  assert.equal(getAgentDetail('miso').travel.total, 6);
-  assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18']);
+  assert.equal(getAgentDetail('miso').travel.completed, 8);
+  assert.equal(getAgentDetail('instinct').travel.completed, 8);
+  for (const agent of ['instinct', 'grok-bot']) assert.equal(getAgentDetail(agent).travel.scores[7], 10);
+  assert.equal(getAgentDetail('soar').travel.completed, 2);
+  assert.equal(getAgentDetail('miso').travel.total, 8);
+  assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18', '19', '20']);
   let fixture = [...activeIds.map(id => run(id, 8, { agent: 'muse' })), run(1, 1, { agent: 'muse' })];
   fs.readFileSync = function(file, ...options) {
     if (String(file) === resultsPath) return JSON.stringify(fixture);
@@ -71,18 +72,18 @@ try {
 
 const actual = JSON.parse(readFileSync(new URL('../data/travel-results.json', import.meta.url), 'utf8'));
 const miso = summarizeTravel('miso', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
-for (const id of [5, 6, 7]) assert.equal(miso.scores[id], 10);
+for (const id of [6, 7]) assert.equal(miso.scores[id], 10);
 assert.equal(miso.scores[13], undefined);
 assert.equal(miso.scores[8], 7);
 assert.equal(miso.scores[9], 10);
-assert.equal(miso.score, 9.5);
+assert.equal(miso.score, 9);
 const instinct = summarizeTravel('instinct', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
 assert.equal(instinct.scores[5], 10);
 assert.equal(instinct.scores[18], 10);
 assert.equal(instinct.scores[6], 3);
 assert.equal(instinct.scores[7], 10);
 assert.equal(instinct.score, 6.5);
-for (const slug of ['instinct', 'grok-bot', 'miso', 'muse', 'dots']) assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).scores[7], 10);
+for (const slug of ['instinct', 'grok-bot', 'miso', 'muse', 'dots']) assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).scores[7], slug === 'muse' ? 7 : 10);
 for (const result of actual) {
   assert.ok(result.notes);
   if (result.evidence_url.startsWith('/agents/')) {
@@ -110,3 +111,6 @@ assert.equal(five.travel.score, 10);
 assert.equal(one.travel.score, 10);
 assert.equal(travelRankingScore(summarizeTravel('example', ids, [run(1, 10), run(1, 10, { id: 'repeat', date: '2026-10-05' })])), 6.25);
 console.log('Travel ranking: coverage, quality, unscored placement, ties, repeated tests and unchanged averages passed.');
+
+for (const [slug, expected] of [['grok-bot', 7.4], ['dots', 8], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
+assert.equal(miso.scores[5], 7);

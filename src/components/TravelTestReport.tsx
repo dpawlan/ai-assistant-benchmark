@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { AgentIcon } from './AgentIcon';
-import { SpeedCell } from './SpeedCell';
+import { TravelCompletionTime } from './TravelCompletionTime';
 import type { Usage } from '@/lib/types';
-import protocol from '../../data/travel-protocol-v1.json';
+import allProtocol from '../../data/travel-protocol-v1.json';
+const protocol = allProtocol.filter(t => t.id !== 19 && t.id !== 20);
 
 type TestAgent = { slug: string; name: string; icon: string | null; usage: Usage | null };
 import { travelSessionPreview as results } from '@/lib/travel-session-preview';
@@ -17,8 +18,8 @@ export function TravelTestReport({ agents, initialDimension, selectedAgent }: { 
     <p className="ag-sub">Layout preview using the supplied session summary. New dimension scores have not been assigned.</p>
     <section className="shelf"><h2 className="ag-h2">The request</h2><blockquote className="travel-test-prompt">I want to book a one way flight to chicago from NYC this weekend. I want to leave Friday night and get in at a reasonable time.</blockquote><p className="ag-sub">Tested October 6 · Requested departure October 9, 2026 · NYC → Chicago</p></section>
     <section className="shelf"><h2 className="ag-h2">Results at a glance</h2>
-      <div className="matrix-wrap" role="region" aria-label="Flight booking outcomes" tabIndex={0}><table className="matrix travel-test-table"><thead><tr><th scope="col">Assistant</th><th scope="col">Outcome</th><th scope="col">Paid</th><th scope="col">Median reply</th><th scope="col">Session length</th><th scope="col">Evidence</th></tr></thead><tbody>{results.map(r => { const a = agents.find(a => a.slug === r.slug); return <tr key={r.slug}><th scope="row"><span className="mx-agent"><AgentIcon name={a?.name ?? r.slug} icon={a?.icon ?? null} size={28} /><span>{a?.name ?? r.slug}<span className="run-line">{r.channel}</span></span></span></th><td>{r.outcome}</td><td>{r.price}</td><td><SpeedCell usage={a?.usage ?? null} /></td><td>{r.duration}</td><td><a href={`?assistant=${r.slug}&dimension=${dimension}#assistant-evidence`}>View test →</a></td></tr>; })}</tbody></table></div>
-      <p className="ag-sub">Median reply uses existing General measurements. Session length is the supplied recording duration, not reply speed. Paid amounts are reported totals; fare equivalence is not yet verified.</p>
+      <div className="matrix-wrap" role="region" aria-label="Flight booking outcomes" tabIndex={0}><table className="matrix travel-test-table"><thead><tr><th scope="col">Assistant</th><th scope="col">Outcome</th><th scope="col">Paid</th><th scope="col">Time to complete</th><th scope="col">Session length</th><th scope="col">Evidence</th></tr></thead><tbody>{results.map(r => { const a = agents.find(a => a.slug === r.slug); return <tr key={r.slug}><th scope="row"><span className="mx-agent"><AgentIcon name={a?.name ?? r.slug} icon={a?.icon ?? null} size={28} /><span>{a?.name ?? r.slug}<span className="run-line">{r.channel}</span></span></span></th><td>{r.outcome}</td><td>{r.price}</td><td><TravelCompletionTime agent={r.slug} round={1} /></td><td>{r.duration}</td><td><a href={`?assistant=${r.slug}&dimension=${dimension}#assistant-evidence`}>View test →</a></td></tr>; })}</tbody></table></div>
+      <p className="ag-sub">Booking time measures the selected-flight booking request through confirmation, including all checkout questions, setup, approvals and verification. Session length is the recording duration. This table covers round one only; subsequent results appear in the dimension pages. Basic and standard Economy fares are different products.</p>
     </section>
     <section className="shelf" id="assistant-evidence"><h2 className="ag-h2">Test details</h2>
       <div className="travel-test-controls" aria-label="Choose an assistant">{results.map(r => <a key={r.slug} aria-current={selected === r.slug ? "true" : undefined} href={`?assistant=${r.slug}&dimension=${dimension}#assistant-evidence`}>{agents.find(a => a.slug === r.slug)?.name ?? r.slug}</a>)}</div>

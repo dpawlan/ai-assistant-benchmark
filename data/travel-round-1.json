@@ -33,19 +33,19 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed traveler forms and connected Stripe Link, but the contact form needed a retry and the virtual-card explanation needed clarification."
+    "notes": "Completed onboarding, but the contact form failed and the tester had to enter the phone number again. Avoidable setup retry reduces this dimension; normal secure forms and Link authorization do not."
   },
   {
     "id": "grok-bot-2026-10-06-round-1-dimension-5",
     "agent": "grok-bot",
     "dimension": 5,
     "date": "2026-10-06",
-    "score": 10,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/5#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the approved $191.75 purchase. The initial transcript showed ticket processing; the subsequent Round 2 modification and cancellation record corroborates the live booking."
+    "notes": "Completed the $191.75 purchase. The unexplained virtual-card number led the tester to question whether the wrong card had been charged; the assistant then checked and explained the funding card. This avoidable clarification reduces booking execution. The contact-form retry is counted under onboarding."
   },
   {
     "id": "miso-2026-10-06-round-1-dimension-18",
@@ -64,12 +64,12 @@
     "agent": "miso",
     "dimension": 5,
     "date": "2026-10-06",
-    "score": 10,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/5#miso",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the approved $258.40 Economy booking. The confirmation page failed, with confirmation delivered through email and support recovery; Round 2 corroborates the live reservation. This was a different fare product from the Basic Economy bookings."
+    "notes": "Completed the $258.40 standard Economy booking, but the confirmation page returned an error. The tester had to request the finalized confirmation, report the broken page and ask which email received it before the assistant recovered via email. This is avoidable confirmation-recovery effort, not a fare-price penalty."
   },
   {
     "id": "miso-2026-10-06-round-1-dimension-7",
@@ -105,7 +105,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Collected the required traveler details in one request and used them for the completed booking. Loyalty and KTN handling were not requested and are not penalized."
+    "notes": "Collected and applied the supplied traveler details during checkout and completed the booking. No incorrect traveler information or avoidable profile-specific re-entry was documented. This scores checkout handling; long-term memory and KTN handling were not separately demonstrated."
   },
   {
     "id": "grok-bot-2026-10-06-round-1-dimension-7",
@@ -117,7 +117,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Collected traveler identity and contact details through secure forms and used them for the booking. The contact-form retry is reflected in onboarding, not counted again here."
+    "notes": "Collected and applied traveler details in the airline checkout and completed the booking. No incorrect traveler information was documented. The repeated contact-form entry is already reflected in Onboarding and is not deducted twice. This does not imply long-term profile memory or tested KTN handling."
   },
   {
     "id": "muse-2026-10-06-round-1-dimension-7",
@@ -141,6 +141,6 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Established the assistant session with calendar and loyalty context available and prepared the booking review. The subsequent new-card synchronization problem is recorded under booking execution, not treated as untested onboarding."
+    "notes": "Assistant connection and initial setup were completed, with calendar and loyalty context available. The later payment-account mismatch is not itself an assistant failure; the resumed session documents its separate recovery experience."
   }
 ]

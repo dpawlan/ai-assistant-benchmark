@@ -33,43 +33,43 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Flight and upgrade cancellation confirmed, with $225.59 refund reported. The earlier $60.01 credit remained unresolved."
+    "notes": "Flight and upgrade cancellation confirmed with $225.59 refund reported. The tester had to provide the cancellation email to help reconcile the remaining $60.01 credit, which was still unresolved when the tester declined further support. Score reflects incomplete reconciliation and extra verification effort."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-9",
     "agent": "grok-bot",
     "dimension": 9,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/9#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the Saturday change after disclosing and obtaining approval for the $110.74 additional cost."
+    "notes": "Saturday change completed for the approved $110.74. When checkout stalled, the tester had to take over and click Change flight, then return control. This recovery action goes beyond ordinary payment approval."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-6",
     "agent": "grok-bot",
     "dimension": 6,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/6#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Confirmed United First seat 3A and the approved $161.25 charge."
+    "notes": "United First seat 3A confirmed for $161.25. The purchase button stalled and the tester had to take over and click Agree and purchase before the assistant could finish. Normal choice and payment authorization do not reduce the score; this recovery takeover does."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-8",
     "agent": "grok-bot",
     "dimension": 8,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/8#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Confirmed cancellation and a full $463.74 refund after clarifying the scope."
+    "notes": "Cancellation and $463.74 refund confirmed. The secure date-of-birth form failed, requiring the tester to take over, re-enter the information and click Cancel trip. The recovery takeover lowers this dimension; ordinary cancellation approval does not."
   },
   {
     "id": "miso-2026-10-07-round-2-dimension-9",
@@ -105,7 +105,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Flight cancellation and $222.40 refund reported; the separate $85.99 seat refund remained pending with support."
+    "notes": "Flight cancellation and $222.40 refund reported, but the $85.99 seat refund required human support. The tester asked twice about its timing and no resolution was confirmed by session end. Partial refund closure remains 7/10."
   },
   {
     "id": "muse-2026-10-07-round-2-dimension-9",
@@ -189,7 +189,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Confirmed the supplied SkyMiles account, signed in securely and used the traveler details populated by Delta for the booking. No unrequested KTN task is assumed."
+    "notes": "Used traveler details populated from the existing Delta account after secure sign-in. This supports airline-profile reuse only; independent assistant memory, saving a profile, KTN and later recall were not tested."
   },
   {
     "id": "dots-2026-10-07-round-2-dimension-18",
@@ -201,6 +201,66 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed account sign-in and traveler/payment setup. Clarifying the supplied account number and recovering a stuck secure checkout handoff added avoidable friction, but setup completed."
+    "notes": "Account setup completed, but the tester waited roughly ten minutes after supplying the account number, nudged the assistant and repeated the number before its meaning was clarified. This avoidable retry lowers onboarding; routine sign-in does not. Checkout handoff problems are recorded under booking."
+  },
+  {
+    "id": "dots-2026-10-07-round-2-dimension-5",
+    "agent": "dots",
+    "dimension": 5,
+    "date": "2026-10-07",
+    "score": 7,
+    "evidence_url": "/benchmarks/travel/dimensions/5#dots",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Completed the $268.40 Delta purchase, but the tester had to troubleshoot an unresponsive checkout handoff and later supply the airline confirmation after browser verification failed. Secure CVV entry itself is routine; the broken handoff and confirmation recovery are avoidable extra effort."
+  },
+  {
+    "id": "muse-2026-10-07-round-2-dimension-5",
+    "agent": "muse",
+    "dimension": 5,
+    "date": "2026-10-07",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/5#muse",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Completed the approved $354.40 booking and returned ticket confirmation after the correct Link account was connected. The tester\u2019s account mismatch is not penalized; avoidable broken reconnect links are scored once under resumed onboarding."
+  },
+  {
+    "id": "muse-2026-10-07-round-2-dimension-18",
+    "agent": "muse",
+    "dimension": 18,
+    "date": "2026-10-07",
+    "score": 7,
+    "evidence_url": "/benchmarks/travel/dimensions/18#muse",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Resumed setup completed, but reconnect links were not clickable or copyable; the tester reported the problem repeatedly and connected the correct account manually through the app. The account mismatch itself and ordinary sign-in are not penalized; the broken-link recovery is."
+  },
+  {
+    "id": "muse-2026-10-07-round-2-dimension-7",
+    "agent": "muse",
+    "dimension": 7,
+    "date": "2026-10-07",
+    "score": 7,
+    "evidence_url": "/benchmarks/travel/dimensions/7#muse",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Used the selected traveler and loyalty details in the booking order. After ticketing, the assistant could not verify that the airline received the loyalty number and asked the tester to check or add it in the United app. The tester repeated the number and asked for confirmation, but airline-side verification remained unresolved."
+  },
+  {
+    "id": "miso-2026-10-07-round-2-dimension-7",
+    "agent": "miso",
+    "dimension": 7,
+    "date": "2026-10-07",
+    "score": 10,
+    "evidence_url": "/benchmarks/travel/dimensions/7#miso",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "At 11:29, confirmed adding the supplied MileagePlus number to both the saved profile and the trip."
   }
 ]

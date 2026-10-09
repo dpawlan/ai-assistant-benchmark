@@ -13,7 +13,7 @@ picks:
   - dots | Flexible trip changes | Changed its Delta booking with no added charge and a reported $60.01 credit.
   - miso | Premium travel support | Managed rebooking and seat upgrades through chat, with a human team available for follow-up.
   - muse | Cancellation clarity | Quoted the refund, requested approval, and returned a clear cancellation confirmation.
-  - instinct | Low back-and-forth | Booked through iMessage in 15 messages, including four from the traveler.
+  - instinct | Least back-and-forth | Booked the $443.40 American Main Cabin fare through Duffel in 15 chat messages, including four from the traveler.
 ---
 
 When it comes to travel, booking a flight is only the beginning. We examined how five AI assistants handled the entire spectrum of booking a flight. We started with onboarding and looked at how well they were able to add known traveler numbers or find a seat selection. We did re-bookings as well as cancellations. While all of them were able to execute the booking, the performance of each varied and that's what we're going to dive into.
@@ -82,7 +82,7 @@ Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#inst
 
 **Where it worked**
 
-- Booked through iMessage using our saved traveler details.
+- Booked a $443.40 American Main Cabin fare through Duffel in iMessage, using our saved traveler details.
 - Purchased a $35 Main Cabin Extra seat after explaining that it was a middle seat.
 
 **Where it missed the mark**

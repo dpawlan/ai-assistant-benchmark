@@ -13,6 +13,7 @@ picks:
   - dots | Flexible trip changes | Changed its Delta booking with no added charge and a reported $60.01 credit.
   - miso | Premium travel support | Managed rebooking and seat upgrades through chat, with a human team available for follow-up.
   - muse | Cancellation clarity | Quoted the refund, requested approval, and returned a clear cancellation confirmation.
+  - instinct | Low back-and-forth | Booked through iMessage in 15 messages, including four from the traveler.
 ---
 
 When it comes to travel, booking a flight is only the beginning. We examined how five AI assistants handled the entire spectrum of booking a flight. We started with onboarding and looked at how well they were able to add known traveler numbers or find a seat selection. We did re-bookings as well as cancellations. While all of them were able to execute the booking, the performance of each varied and that's what we're going to dive into.
@@ -188,6 +189,14 @@ Muse made the refund amount and approval step clear and returned a cancellation 
 ### Flaws but not dealbreakers
 
 The result applies to that reservation and its eligibility at the time. It does not establish cancellation performance outside that scenario, and refund settlement was not independently checked.
+
+## Low back-and-forth during booking: Instinct
+
+Instinct handled the booking in 15 transcript messages from the initial trip request to confirmation, including four from us. It reused our traveler details and returned confirmation about six minutes after we selected the flight.
+
+### Flaws but not dealbreakers
+
+This is a pick for a short booking conversation, not the fewest messages overall: Miso took 13. The counts exclude secure-form actions, and prior setup varied. Instinct still needed help with payment-account clarification, rebooking and refund follow-up.
 
 ## Evidence and limits
 

@@ -1,4 +1,6 @@
-import { TravelReportScreenshots } from '@/components/TravelReportScreenshots';
+import travelPickDetails from '../../../../data/reports/consumer-ai-travel/pick-details.json';
+import { travelScreenshots } from '@/lib/travel-screenshots';
+import { TravelScreenshot } from '@/components/TravelScreenshot';
 import { compareTravelRank } from '@/lib/travel-rollup';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -88,17 +90,31 @@ export default async function ReportPage({ params }: Props) {
       {report.picks.map(p => {
         const a = bySlug[p.slug];
         if (!a) return null;
-        return (
-          <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${!consumer && p === report.picks[0] ? 'lead' : ''}`}>
+        const content = <>
+          <span className="rp-pick-label">{p.label}</span>
+          <span className="rp-pick-head">
+            <AgentIcon name={a.name} icon={a.icon} size={44} />
+            <span className="rp-pick-name">{a.name}</span>
+            {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
+          </span>
+          <span className="rp-pick-why">{p.why}</span>
+        </>;
+        const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; caveat?: string }>)[a.slug];
+        return consumer ? <article key={p.slug} className={`rp-pick-card${travelScreenshots[a.slug] ? ' rp-pick-with-proof' : ''}`} data-agent={a.slug}>
+          <div className="rp-pick-copy">
             <span className="rp-pick-label">{p.label}</span>
-            <span className="rp-pick-head">
+            <Link href={`/agents/${a.slug}`} className="rp-pick-head rp-pick-summary">
               <AgentIcon name={a.name} icon={a.icon} size={44} />
               <span className="rp-pick-name">{a.name}</span>
-              {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
-            </span>
-            <span className="rp-pick-why">{p.why}</span>
-          </Link>
-        );
+            </Link>
+            {details ? <>
+              <ul className="rp-pick-bullets">{details.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}</ul>
+              {details.caveat && <p className="rp-pick-caveat">{details.caveat}</p>}
+              <Link href={details.evidence} className="rp-pick-evidence">View benchmark evidence →</Link>
+            </> : <p className="rp-pick-why">{p.why}</p>}
+          </div>
+          <TravelScreenshot agent={a.slug} />
+        </article> : <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>{content}</Link>;
       })}
     </section>
   );
@@ -154,7 +170,6 @@ export default async function ReportPage({ params }: Props) {
                     )}
                   </div>
                   <Markdown body={c.body} />
-                  {consumer && <TravelReportScreenshots agent={a.slug} name={a.name} />}
                 </div>
               );
             })}

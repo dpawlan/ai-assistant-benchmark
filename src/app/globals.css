@@ -4380,15 +4380,6 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-consumer .rp-competitor ul { list-style: disc outside; padding-left: 22px; margin: 10px 0 20px; }
 .rp-consumer .rp-competitor li { display: list-item; padding-left: 4px; margin: 6px 0; }
 
-.travel-report-recordings { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 16px; }
-.travel-report-recordings summary { cursor: pointer; font-size: 14px; font-weight: 600; }
-.travel-report-recording-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px; margin-top: 12px; }
-.travel-report-recording-grid figure { margin: 0; min-width: 0; }
-.travel-report-recording-grid video { width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: var(--fill); border-radius: 10px; }
-.travel-report-recording-grid figcaption { color: var(--sec); font-size: 12px; margin-top: 6px; }
-
-.travel-report-recording-grid img { width: 100%; height: auto; max-height: 520px; object-fit: contain; background: var(--fill); border-radius: 10px; }
-
 /* The consumer report opens with a panoramic cover, then the reading column. */
 .rp-report-banner { width: 100%; }
 .rp-report-banner .rp-cover.rp-cover-travel { width: 100%; height: clamp(240px, 32vw, 400px); aspect-ratio: auto; border-radius: 0; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: clamp(18px, 3.5vw, 48px); padding: 28px; }
@@ -4410,3 +4401,25 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
   .rp-banner-title { left: 22px; right: 22px; }
 }
 @media (max-width: 480px) { .rp-report-banner { --banner-pad-top: 20px; } }
+
+/* Original evidence belongs inside the category card, with access to the full image. */
+.rp-consumer .rp-picks { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.rp-consumer .rp-pick-card { display: grid; grid-template-columns: 1fr; gap: 28px; padding: 24px; }
+.rp-consumer .rp-pick-with-proof { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: start; }
+.rp-pick-summary { display: flex; flex-direction: column; gap: 10px; color: inherit; text-decoration: none; }
+.rp-pick-summary:hover .rp-pick-name { color: var(--blue); }
+.travel-screenshot { margin: 12px 0 0; min-width: 0; }
+.travel-screenshot > a { display: block; border-radius: 12px; overflow: hidden; }
+.travel-screenshot img { display: block; width: 100%; height: auto; }
+.travel-screenshot figcaption { margin-top: 10px; color: var(--sec); font-size: 12px; line-height: 1.5; }
+.travel-session-media .travel-screenshot { max-width: 560px; }
+.travel-session-media .travel-screenshot img { max-height: none; border: 0; border-radius: 0; }
+
+.rp-pick-copy { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.rp-pick-copy .rp-pick-head { flex-direction: row; }
+.rp-consumer .rp-pick-bullets { list-style: disc outside; margin: 0; padding-left: 20px; }
+.rp-consumer .rp-pick-bullets li { font-size: 16px; line-height: 1.6; margin: 0 0 12px; padding-left: 2px; }
+.rp-pick-evidence { font-size: 13px; color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.rp-consumer .rp-pick-caveat { font-size: 13px; color: var(--sec); line-height: 1.5; margin: 0; }
+.rp-pick-with-proof .travel-screenshot { margin: 0; }
+@media (max-width: 760px) { .rp-consumer .rp-pick-with-proof { grid-template-columns: 1fr; } .rp-consumer .rp-pick-card { padding: 20px; gap: 20px; } }

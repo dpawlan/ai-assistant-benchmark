@@ -1,0 +1,43 @@
+{
+  "grok-bot": {
+    "bullets": [
+      "Compared fares across airports and arrival times.",
+      "Explained Basic Economy restrictions before checkout.",
+      "Booked for $191.75, with approval before payment."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/5#grok-bot"
+  },
+  "dots": {
+    "bullets": [
+      "Moved the flight to the following day.",
+      "No added payment; confirmed a $60.01 credit.",
+      "Explained the terms and asked before changing the booking."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/9#dots"
+  },
+  "miso": {
+    "bullets": [
+      "Handled rebooking and seat upgrades through chat.",
+      "Brought a human into the conversation when the seat refund needed help.",
+      "The team confirmed the $85.99 refund with United."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/8#miso"
+  },
+  "muse": {
+    "bullets": [
+      "Quoted a $354.40 refund before cancelling.",
+      "Explained the cancellation window and asked for approval.",
+      "Confirmed cancellation and expected refund timing."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/8#muse"
+  },
+  "instinct": {
+    "bullets": [
+      "15 messages from the trip request to booking confirmation; four were from the traveler.",
+      "About six minutes from selecting the flight to confirmation.",
+      "Reused traveler details and completed the booking through iMessage."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/19#instinct",
+    "caveat": "Low interaction during booking; rebooking and refund follow-up still needed help."
+  }
+}

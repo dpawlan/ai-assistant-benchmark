@@ -27,16 +27,13 @@ With the rise in demand, we set out to test which AI assistants are actually the
 
 ## Why travel is so complex
 
-The lowest fare can come with restrictions that only become important when plans change. A successful search also depends on whether an assistant can reach the airline’s checkout, pass control to the traveler when needed, and return a usable confirmation.
+Travel booking rarely follows a straight path. Finding the right flight is just the start. There are fares to compare, seats to select, and Known Traveler Numbers to add. Then plans change, and a trip that seemed settled needs to be rebooked or cancelled. Each step introduces another decision, another set of rules, and another opportunity for frustration.
 
-Our sessions exposed four recurring complications:
+That frustration is widespread. [YouGov’s Booking Burnout study](https://yougov.com/en-us/reports/51330-us-travel-stress-report-2025) found that 70% of US vacation bookers consider at least one part of the booking process stressful. For something so many people do, there is still plenty of room to make the experience easier.
 
-- **Fare conditions change the comparison.** Grok Bot and Instinct booked United Basic Economy at $191.75. Miso booked the same flight number for $258.40, described as Economy. The $66.65 difference is real, but it is not proof of a markup on an identical fare product.
-- **The booking channel affects what can happen next.** Muse’s later ticket was issued through Duffel. It could cancel that reservation but reported that its booking tool could not change the date or seats after ticketing.
-- **Browser control can break at the decisive moment.** Grok Bot needed traveler handoffs to finish actions on United. Instinct reported being locked out. Dots lost browser access after submitting the original purchase and needed the traveler’s confirmation email to establish that it went through.
-- **Cancellation and refund completion are different outcomes.** Miso cancelled the flight but left its seat-fee refund with a human team. Dots confirmed cancellation but could not reconcile an earlier flight credit by the end of the session.
+Our tests revealed another layer of complexity: AI assistants approach booking in different ways. Some use browser automation to navigate airline websites, fill in forms, and complete checkout much as a person would. They may work in their own browser or ask you to take over for part of the process. Others connect to booking systems through APIs, accessing flight inventory and purchasing tickets without clicking through a website. An agency-based service can also pair its booking infrastructure with a human team to handle requests that need additional support.
 
-Those distinctions matter more than a confident “done.”
+Those differences shape what happens after you ask for a flight. They affect how much work you have to do, which options the assistant can offer, and whether it can help when you need to change or cancel. An assistant may be able to buy a ticket but lack the tools to modify it later. That is why we tested the steps around the booking as well as the purchase itself.
 
 ## How we tested
 

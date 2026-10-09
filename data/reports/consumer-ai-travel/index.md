@@ -58,61 +58,96 @@ Below, we break down each of the five assistants: where it worked, where it miss
 
 ### Muse
 
-Time to booking: approximately [16 minutes](/benchmarks/travel/dimensions/19#muse). Measured from restarting checkout for our selected flight, including payment reconnection; excludes the earlier unsuccessful attempt.
+Time to booking: approximately [16 minutes](/benchmarks/travel/dimensions/19#muse), including payment reconnection. Excludes the earlier failed attempt.
 
-**Where it worked:** Muse used our calendar and loyalty-account information to make its recommendations more personal. It flagged timing concerns, explained fare restrictions, and kept payment details out of chat. Once we connected the correct Link account, it booked our flight and returned confirmation. Cancellation was straightforward: it quoted the refund, asked for approval, and confirmed the cancellation.
+**Where it worked**
 
-**Where it missed the mark:** Getting the payment connection working took more effort than it should have. Reconnection links were not usable, so we had to fix the connection in the app ourselves. After booking, Muse could neither change our flight nor upgrade our seat through its booking tools, and trying the airline website did not resolve either request. It also could not verify that the airline had received our loyalty number.
+- Personalized recommendations using our calendar and loyalty details.
+- Booked successfully after we fixed the payment connection.
+- Quoted the refund, asked for approval, and confirmed cancellation.
 
-**Consumer takeaway:** Muse was thoughtful when planning and clear when cancelling. We would be more cautious relying on it for a trip likely to change: useful recommendations did not translate into the ability to service our ticket after purchase.
+**Where it missed the mark**
+
+- Broken reconnection links required us to fix payment setup in the app.
+- Could not change the flight, upgrade the seat, or verify the airline received our loyalty number.
+
+**Consumer takeaway:** Thoughtful planning and clear cancellation, but a poor fit for trips likely to need changes.
 
 [Onboarding](/benchmarks/travel/dimensions/18#muse) · [Booking](/benchmarks/travel/dimensions/5#muse) · [Travel profile](/benchmarks/travel/dimensions/7#muse) · [Rebooking](/benchmarks/travel/dimensions/9#muse) · [Seat selection](/benchmarks/travel/dimensions/6#muse) · [Cancellation](/benchmarks/travel/dimensions/8#muse)
 
 ### Instinct
 
-Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#instinct). From selecting the flight to booking confirmation, including payment-account clarification and approval.
+Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#instinct), including payment clarification and approval.
 
-**Where it worked:** Instinct let us handle the booking through iMessage. It reused our traveler details, recommended an arrival time that suited the request, and booked through Duffel after we approved payment in Link. Our updated booking took about six minutes from flight selection to confirmation. When we asked for a premium seat, it explained the options and completed a $35 Main Cabin Extra purchase, making clear that the extra legroom still came with a middle seat.
+**Where it worked**
 
-**Where it missed the mark:** We had to clarify the payment account and intended card repeatedly. Changing the flight was a larger problem: Instinct said it could take over the support conversation, then walked that back and handed the work to us. It cancelled the flight, but could not confirm the flight refund amount. The separate seat-refund request failed, and it used a saved mailing address for that form without checking with us first. It never asked for our Known Traveler Number.
+- Booked through iMessage using our saved traveler details.
+- Purchased a $35 Main Cabin Extra seat after explaining that it was a middle seat.
 
-**Consumer takeaway:** A convenient option for booking and buying a seat upgrade by text. We would still expect to deal with the airline or booking provider ourselves if the itinerary changes, and to follow up on refunds rather than assume everything is settled.
+**Where it missed the mark**
+
+- Repeatedly needed clarification about the payment card; never asked for our Known Traveler Number.
+- Promised help with rebooking, then handed the work back to us.
+- Cancelled the flight without confirming the refund amount; the seat-refund request failed and used an address without checking.
+
+**Consumer takeaway:** Convenient for booking by text, but expect to handle itinerary changes and refund follow-up yourself.
 
 [Booking](/benchmarks/travel/dimensions/5#instinct) · [Booking time](/benchmarks/travel/dimensions/19#instinct) · [Seat selection](/benchmarks/travel/dimensions/6#instinct) · [Rebooking](/benchmarks/travel/dimensions/9#instinct) · [Cancellation](/benchmarks/travel/dimensions/8#instinct)
 
 ### Miso
 
-Time to booking: approximately [3 minutes](/benchmarks/travel/dimensions/19#miso). From selecting the flight to initial booking confirmation. Includes card entry and checkout; excludes prior profile setup and subsequent confirmation-page troubleshooting.
+Time to booking: approximately [3 minutes](/benchmarks/travel/dimensions/19#miso) to initial confirmation. Excludes prior profile setup and confirmation-page troubleshooting.
 
-**Where it worked:** Once our traveler profile was set up, Miso made the booking feel simple. It used our saved Known Traveler Number and returned the initial booking confirmation about three minutes after we selected the flight. When our plans changed, it cancelled and rebooked the trip through iMessage. It also added our loyalty number to the profile and reservation, and completed an Economy Plus seat purchase after explaining the price and getting our approval. When the seat map failed, Miso’s human team stepped into the conversation and provided it. We also received our confirmation by email after the confirmation page failed.
+**Where it worked**
 
-**Where it missed the mark:** Miso’s OTA inventory did not include Basic Economy for this booking, so its $258.40 Economy ticket cost more than the Basic Economy fare available elsewhere. That limits its appeal for travelers whose priority is the lowest fare. Separately, while the flight cancellation and $222.40 refund were confirmed, the $85.99 seat-fee refund was still awaiting confirmation from the human team at the end of our transcript.
+- Used our Known Traveler Number and added loyalty details to the reservation.
+- Handled rebooking, an approved Economy Plus purchase, and flight cancellation through iMessage.
+- Human support resolved the seat-map issue; email recovered the booking confirmation.
 
-**Consumer takeaway:** Our pick for premium travel support, particularly if you want to manage a trip by text with human help available for exceptions. Its strength was handling the details around the trip and bringing in a human to resolve the seat-map issue. Travelers focused on the lowest possible fare should understand its inventory limits. The seat-fee refund remained a separate, pending follow-up.
+**Where it missed the mark**
+
+- No Basic Economy in its available inventory; our Economy ticket cost $258.40.
+- The $222.40 flight refund was confirmed, but the separate $85.99 seat-fee refund was still pending.
+
+**Consumer takeaway:** Our pick for premium travel support: convenient trip management with human help for exceptions.
 
 [Onboarding](/benchmarks/travel/dimensions/18#miso) · [Booking](/benchmarks/travel/dimensions/5#miso) · [Booking time](/benchmarks/travel/dimensions/19#miso) · [Travel profile](/benchmarks/travel/dimensions/7#miso) · [Rebooking](/benchmarks/travel/dimensions/9#miso) · [Seat selection](/benchmarks/travel/dimensions/6#miso) · [Cancellation](/benchmarks/travel/dimensions/8#miso)
 
 ### GrokBot
 
-Time to booking: approximately [15.5 minutes](/benchmarks/travel/dimensions/19#grok-bot). From selecting the flight to booking confirmation, including forms and payment approval. Ticket processing was still noted at confirmation.
+Time to booking: approximately [15.5 minutes](/benchmarks/travel/dimensions/19#grok-bot), including forms and payment approval. Ticket processing was still noted at confirmation.
 
-**Where it worked:** GrokBot found and booked a $191.75 Basic Economy fare, explained the alternatives, and used secure forms and an approved virtual card for checkout. It removed unwanted payment-storage and marketing options along the way. It also got through every follow-up task we requested: changing the flight, purchasing a First Class upgrade, and cancelling the trip with a confirmed refund amount.
+**Where it worked**
 
-**Where it missed the mark:** We had to stay involved. A contact form needed a retry, and the virtual-card number prompted us to check whether it had charged the wrong card. During the change, upgrade, and cancellation, stalled browser steps each required us to take control and finish an action. It completed the work, but it did not consistently take that work off our hands. It also did not proactively ask for loyalty or Known Traveler details.
+- Booked a $191.75 Basic Economy fare with secure forms and payment approval.
+- Completed the flight change, First Class upgrade, and cancellation with our help.
+- Confirmed the cancellation refund amount.
 
-**Consumer takeaway:** A good fit for a traveler who wants access to low fares and is comfortable helping when browser automation gets stuck. It handled a broad range of tasks, but the low initial price came with Basic Economy restrictions, and changing that ticket cost extra.
+**Where it missed the mark**
+
+- Stalled browser steps required us to take over during changes, upgrades, and cancellation.
+- Payment setup needed clarification, and it did not ask for loyalty or Known Traveler details.
+
+**Consumer takeaway:** Good for low fares if you are comfortable helping the browser along; Basic Economy changes cost extra.
 
 [Booking](/benchmarks/travel/dimensions/5#grok-bot) · [Onboarding](/benchmarks/travel/dimensions/18#grok-bot) · [Rebooking](/benchmarks/travel/dimensions/9#grok-bot) · [Seat selection](/benchmarks/travel/dimensions/6#grok-bot) · [Cancellation](/benchmarks/travel/dimensions/8#grok-bot) · [Proactiveness](/benchmarks/travel/dimensions/20#grok-bot)
 
 ### Dots
 
-Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dots). From selecting the flight to the airline confirmation we supplied after its browser connection failed. Includes account setup and checkout handoffs.
+Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dots), including checkout handoffs. We supplied the airline confirmation after its browser disconnected.
 
-**Where it worked:** Dots asked about our airport preference and budget, checked fare restrictions, and used our existing Delta account details. Once booked, it moved the flight without an additional payment and confirmed a $60.01 credit. It then purchased a $17.20 Comfort aisle seat after approval. When we cancelled, it was clear about what it could confirm and what remained unresolved.
+**Where it worked**
 
-**Where it missed the mark:** Booking took about 33 minutes from flight selection to confirmation. We had to clarify an account number, troubleshoot an unresponsive checkout handoff, and supply the airline confirmation ourselves after its browser connection failed. Cancellation also needed follow-up: we provided an email to help reconcile the refund, but the earlier $60.01 credit was still unexplained when we ended the test.
+- Checked our preferences and fare restrictions, then used our Delta account details.
+- Changed the flight with no added payment and reported a $60.01 credit.
+- Purchased a $17.20 Comfort aisle seat with approval.
 
-**Consumer takeaway:** Promising for managing changes once a trip is booked, with more friction getting through the initial purchase. Our flexible Delta fare helped make the change straightforward, so we would not assume the same outcome on a restrictive fare. We would also keep our own confirmation emails and check that refunds and credits add up.
+**Where it missed the mark**
+
+- Checkout required troubleshooting and our help to confirm the booking.
+- Cancellation needed follow-up; the earlier $60.01 credit remained unexplained.
+
+**Consumer takeaway:** Strong on changes with a flexible fare, but initial checkout took work and credits needed checking.
 
 [Onboarding](/benchmarks/travel/dimensions/18#dots) · [Booking](/benchmarks/travel/dimensions/5#dots) · [Booking time](/benchmarks/travel/dimensions/19#dots) · [Rebooking](/benchmarks/travel/dimensions/9#dots) · [Seat selection](/benchmarks/travel/dimensions/6#dots) · [Cancellation](/benchmarks/travel/dimensions/8#dots)
 

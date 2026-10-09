@@ -224,7 +224,7 @@ export default async function ReportPage({ params }: Props) {
           <p className="rp-dek">{report.question}</p>
           {byline}
           {!consumer && <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>}
-          {report.preview && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
+          {report.preview && !consumer && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
         </div>
         <ReportCover report={report} bySlug={bySlug} size="hero" />
       </header>

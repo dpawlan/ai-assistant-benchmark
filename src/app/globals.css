@@ -4379,3 +4379,10 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 
 .rp-consumer .rp-competitor ul { list-style: disc outside; padding-left: 22px; margin: 10px 0 20px; }
 .rp-consumer .rp-competitor li { display: list-item; padding-left: 4px; margin: 6px 0; }
+
+.travel-report-recordings { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 16px; }
+.travel-report-recordings summary { cursor: pointer; font-size: 14px; font-weight: 600; }
+.travel-report-recording-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 16px; margin-top: 12px; }
+.travel-report-recording-grid figure { margin: 0; min-width: 0; }
+.travel-report-recording-grid video { width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: var(--fill); border-radius: 10px; }
+.travel-report-recording-grid figcaption { color: var(--sec); font-size: 12px; margin-top: 6px; }

@@ -1,3 +1,4 @@
+import { TravelReportRecordings } from '@/components/TravelReportRecordings';
 import { compareTravelRank } from '@/lib/travel-rollup';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -153,6 +154,7 @@ export default async function ReportPage({ params }: Props) {
                     )}
                   </div>
                   <Markdown body={c.body} />
+                  {consumer && <TravelReportRecordings agent={a.slug} name={a.name} />}
                 </div>
               );
             })}

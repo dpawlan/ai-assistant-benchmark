@@ -2,6 +2,11 @@
 export const travelScreenshots: Record<string, {
   src: string; width: number; height: number; alt: string; caption: string; dimensions: number[];
 }> = {
+  instinct: {
+    src: '/travel-evidence/instinct-booking-conversation.png', width: 906, height: 1094,
+    alt: 'Instinct responds to a flight request with three nonstop options and recommends the earliest arrival.',
+    caption: 'A concise shortlist with a recommended flight.', dimensions: [20],
+  },
   dots: {
     src: '/travel-evidence/dots-flexible-trip-changes.png', width: 994, height: 1186,
     alt: 'Dots explains a flight change with no added payment and a $60.01 eCredit, obtains approval, and confirms the new flight.',

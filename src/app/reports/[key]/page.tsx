@@ -100,7 +100,7 @@ export default async function ReportPage({ params }: Props) {
           <span className="rp-pick-why">{p.why}</span>
         </>;
         const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; caveat?: string }>)[a.slug];
-        return consumer ? <article key={p.slug} className={`rp-pick-card${travelScreenshots[a.slug] ? ' rp-pick-with-proof' : ''}`} data-agent={a.slug}>
+        return consumer ? <article key={p.slug} className="rp-pick-card" data-agent={a.slug}>
           <div className="rp-pick-copy">
             <span className="rp-pick-label">{p.label}</span>
             <Link href={`/agents/${a.slug}`} className="rp-pick-head rp-pick-summary">
@@ -113,7 +113,6 @@ export default async function ReportPage({ params }: Props) {
               <Link href={details.evidence} className="rp-pick-evidence">View benchmark evidence →</Link>
             </> : <p className="rp-pick-why">{p.why}</p>}
           </div>
-          <TravelScreenshot agent={a.slug} />
         </article> : <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>{content}</Link>;
       })}
     </section>
@@ -169,7 +168,10 @@ export default async function ReportPage({ params }: Props) {
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
                   </div>
-                  <Markdown body={c.body} />
+                  {consumer && travelScreenshots[a.slug] ? <div className="rp-assistant-proof">
+                    <div className="rp-assistant-copy"><Markdown body={c.body} /></div>
+                    <TravelScreenshot agent={a.slug} />
+                  </div> : <Markdown body={c.body} />}
                 </div>
               );
             })}

@@ -9,7 +9,7 @@ preview: true
 cover_tint: #eef1f5
 cover_agents: muse, instinct, miso, grok-bot, dots
 picks:
-  - grok-bot | Budget booking | Tied for the lowest ticketed fare in round one; used an approval-based payment flow.
+  - grok-bot | Budget booking | Booked a $191.75 Basic Economy fare with an approval-based payment flow.
   - dots | Flexible trip changes | Changed its Delta booking with no added charge and a reported $60.01 credit.
   - miso | Premium travel support | Managed rebooking and seat upgrades through chat, with a human team available for follow-up.
   - muse | Cancellation clarity | Quoted the refund, requested approval, and returned a clear cancellation confirmation.
@@ -118,11 +118,11 @@ Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dot
 
 ## Category winners
 
-These are editorial picks for the recorded tasks, not claims that a product is universally best. Four of the included assistants participated in the first round and five in the second; Instinct was later retested on a different route. Booking conditions and levels of traveler help varied. We have not combined the source pages’ separate scoring systems into a single overall score.
+These picks reflect our experience with each assistant. Routes, fares and the amount of help we provided varied, so each recommendation focuses on a specific travel need.
 
 ## Best for budget booking in this test: GrokBot
 
-GrokBot and Instinct tied at $191.75 for the same Basic Economy flight. GrokBot gets our category pick because the initial price was paired with a clearer payment-approval flow and successful follow-up tasks in round two. The low fare came with restrictions: changing it later cost extra.
+GrokBot and Instinct tied at $191.75 for the same Basic Economy flight. GrokBot gets our category pick because the initial price was paired with a clearer payment-approval flow and successful changes and cancellation. The low fare came with restrictions: changing it later cost extra.
 
 ### Flaws but not dealbreakers
 
@@ -140,11 +140,11 @@ Dots used a different airline and fare from the United Basic Economy bookings. I
 
 For travelers who value someone handling the details, Miso is our premium-service pick among the five assistants tested. Its traveler profile carried booking information forward, and it managed rebooking and a paid seat upgrade through iMessage after setup. It quoted the upgrade price and obtained approval before proceeding.
 
-Human support is part of that appeal. We had its team follow up on a failed confirmation link and take responsibility for a seat-fee refund that needed further work. That combination of conversational booking and human follow-up makes Miso a promising fit for travelers who want ongoing assistance when a trip gets complicated.
+Human support is part of that appeal. When the seat map failed, Miso’s team stepped into the conversation and provided it. We also received the booking confirmation by email after the confirmation page failed. That combination of conversational booking and human support makes Miso a strong fit for travelers who want help managing the details.
 
 ### Flaws but not dealbreakers
 
-The confirmation page failed, and the seat-fee refund remained unresolved at session end. Having a human team available is valuable, but it does not by itself establish that an issue was resolved. We did not establish a comparable end-to-end speed ranking or test luxury hotels and complex international itineraries; this award reflects the travel-support workflow we observed.
+Miso’s available inventory did not include Basic Economy, which limited its ability to match the lowest fare we found elsewhere. The flight cancellation and $222.40 refund were confirmed, but the separate $85.99 seat-fee refund was still awaiting confirmation from the human team.
 
 ## Best cancellation interaction in this test: Muse
 

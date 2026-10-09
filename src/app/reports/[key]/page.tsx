@@ -87,7 +87,7 @@ export default async function ReportPage({ params }: Props) {
         const a = bySlug[p.slug];
         if (!a) return null;
         return (
-          <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>
+          <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${!consumer && p === report.picks[0] ? 'lead' : ''}`}>
             <span className="rp-pick-label">{p.label}</span>
             <span className="rp-pick-head">
               <AgentIcon name={a.name} icon={a.icon} size={44} />

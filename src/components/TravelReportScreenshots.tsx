@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { existsSync } from 'node:fs';
 import { travelEvidenceFiles } from '@/lib/travel-evidence-media';
 
@@ -9,7 +10,16 @@ export function TravelReportScreenshots({ agent, name }: { agent: string; name: 
     ? recordings.filter(([, file]) => file.image && existsSync(file.image)) : [];
   return <details className="travel-report-recordings">
     <summary>Screenshots</summary>
-    {available.length ? <>
+    {agent === 'miso' ? <div className="travel-report-recording-grid">
+      <figure>
+        <a href="/travel-evidence/miso-refund-handoff.png" target="_blank" rel="noreferrer"><Image src="/travel-evidence/miso-refund-handoff.png" alt="Miso confirms cancellation and escalates the seat-fee refund to its human team." width={1124} height={820} unoptimized /></a>
+        <figcaption>Cancellation and human handoff. The tester subsequently confirmed the refund was resolved.</figcaption>
+      </figure>
+      <figure>
+        <a href="/travel-evidence/miso-fare.png" target="_blank" rel="noreferrer"><Image src="/travel-evidence/miso-fare.png" alt="Miso invoice showing a $258.40 total charge." width={826} height={58} unoptimized /></a>
+        <figcaption>Economy fare: $258.40.</figcaption>
+      </figure>
+    </div> : available.length ? <>
       <p className="ag-sub">Local preview · Unredacted screenshots</p>
       <div className="travel-report-recording-grid">
         {available.map(([key]) => <figure key={key}>

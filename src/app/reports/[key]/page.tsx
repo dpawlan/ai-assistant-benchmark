@@ -1,4 +1,3 @@
-import { MisoReportReview } from '@/components/MisoReportReview';
 import { TravelReportScreenshots } from '@/components/TravelReportScreenshots';
 import { compareTravelRank } from '@/lib/travel-rollup';
 import Link from 'next/link';
@@ -154,10 +153,8 @@ export default async function ReportPage({ params }: Props) {
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
                   </div>
-                  {consumer && a.slug === "miso" ? <MisoReportReview body={c.body} /> : <>
-                    <Markdown body={c.body} />
-                    {consumer && <TravelReportScreenshots agent={a.slug} name={a.name} />}
-                  </>}
+                  <Markdown body={c.body} />
+                  {consumer && <TravelReportScreenshots agent={a.slug} name={a.name} />}
                 </div>
               );
             })}
@@ -221,13 +218,18 @@ export default async function ReportPage({ params }: Props) {
 
   return (
     <>
-    {consumer && <div className="rp-report-banner"><ReportCover report={report} bySlug={bySlug} size="hero" /></div>}
+    {consumer && <header className="rp-report-banner">
+      <ReportCover report={report} bySlug={bySlug} size="hero" />
+      <h1 className="rp-banner-title">{report.title}</h1>
+    </header>}
     <div className={`wrap mid rp${consumer ? " rp-consumer" : ""}`}>
       {back}
       <header className="rp-hero">
         <div className="rp-hero-text">
-          <p className="rp-eyebrow">{consumer ? "Consumer report / 01 · Travel" : category?.label ?? report.dimension}</p>
-          <h1 className="rp-title">{report.title}</h1>
+          {!consumer && <>
+            <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
+            <h1 className="rp-title">{report.title}</h1>
+          </>}
           <p className="rp-dek">{report.question}</p>
           {byline}
           {!consumer && <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>}

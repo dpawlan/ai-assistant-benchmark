@@ -4387,30 +4387,6 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-report-recording-grid video { width: 100%; aspect-ratio: 16 / 10; object-fit: contain; background: var(--fill); border-radius: 10px; }
 .travel-report-recording-grid figcaption { color: var(--sec); font-size: 12px; margin-top: 6px; }
 
-.miso-review-stats { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 16px; padding: 20px 0 12px; }
-.miso-review-stats > * { display: flex; flex-direction: column; gap: 5px; text-decoration: none; color: var(--text); }
-.miso-review-stats span, .miso-review-takeaway > span { font-size: 12px; color: var(--sec); }
-.miso-review-stats strong { font-size: 22px; letter-spacing: -.025em; }
-.miso-review-stats small { font-size: 12px; font-weight: 400; }
-.rp-consumer .rp-competitor .miso-timing-note { font-size: 12px; color: var(--sec); margin: 0 0 20px; }
-.miso-review-layout { display: grid; grid-template-columns: 1.2fr 1fr; gap: 28px; align-items: start; }
-.miso-review-feature { margin: 0; background: var(--fill); border-radius: 12px; overflow: hidden; }
-.miso-review-feature video { width: 100%; aspect-ratio: 4/3; object-fit: contain; display: block; }
-.miso-review-feature figcaption { padding: 16px; display: flex; flex-direction: column; gap: 6px; font-size: 13px; line-height: 1.5; }
-.miso-review-feature figcaption span, .miso-review-feature small { color: var(--sec); }
-.rp-consumer .miso-review-findings h3 { margin: 0 0 10px; font-size: 15px; }
-.rp-consumer .miso-review-findings li { font-size: 15px; line-height: 1.5; }
-.miso-review-findings > a { font-size: 13px; color: var(--blue); text-decoration: underline; }
-.miso-review-takeaway { border-left: 3px solid var(--text); padding: 4px 0 4px 16px; margin: 24px 0; }
-.rp-consumer .miso-review-takeaway p { font-size: 17px; line-height: 1.5; margin: 6px 0 0; }
-.miso-recording-placeholder { aspect-ratio: 4/3; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 20px; text-align: center; }
-.miso-recording-placeholder > span:first-child { font-size: 32px; }
-.miso-recording-placeholder > span:last-child { font-size: 12px; color: var(--sec); }
-@media (max-width: 640px) { .miso-review-layout { grid-template-columns: 1fr; } .miso-review-stats { grid-template-columns: 1fr 1fr; } .miso-review-stats > :first-child { grid-column: 1/-1; } }
-
-.miso-review-screenshots { display: grid; gap: 16px; }
-.miso-review-screenshots img { display: block; width: 100%; height: auto; }
-
 .travel-report-recording-grid img { width: 100%; height: auto; max-height: 520px; object-fit: contain; background: var(--fill); border-radius: 10px; }
 
 /* The consumer report opens with a panoramic cover, then the reading column. */
@@ -4424,3 +4400,11 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-consumer .rp-title { max-width: 100%; font-size: clamp(34px, 4.8vw, 60px); }
 .rp-consumer .rp-dek { max-width: 840px; }
 @media (max-width: 480px) { .rp-report-banner .rp-cover.rp-cover-travel { gap: 16px; padding: 20px; height: 220px; } }
+
+.rp-report-banner { position: relative; }
+.rp-report-banner .rp-cover.rp-cover-travel { height: 420px; padding-bottom: 155px; }
+.rp-banner-title { position: absolute; bottom: 40px; left: 24px; right: 24px; margin: 0 auto; max-width: 1100px; text-align: center; font-size: clamp(34px, 4.4vw, 60px); font-weight: 700; letter-spacing: -.04em; line-height: 1.08; }
+@media (max-width: 640px) {
+  .rp-report-banner .rp-cover.rp-cover-travel { height: 340px; padding-bottom: 160px; }
+  .rp-banner-title { bottom: 32px; left: 22px; right: 22px; }
+}

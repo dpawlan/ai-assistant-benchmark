@@ -21,9 +21,9 @@ When it comes to travel, booking a flight is only the beginning. We examined how
 
 Travel is a practical test of consumer AI because the work is familiar: compare flights, weigh cost against convenience, enter traveler details, and manage the reservation afterward. An assistant that can take responsibility for those steps has a clear use.
 
-Travel is already a major use case for Instinct. In his [conversation with Patrick O’Shaughnessy on Invest Like the Best](https://www.youtube.com/watch?v=Am7IWP8IpEc), founder Noah Shinn said travel accounted for about 50% of the platform’s transaction volume, which was approaching $1 billion a year. These are founder-reported figures for transactions handled through Instinct.
+Travel is already appearing as the leading use case for AI assistance. In his [conversation with Patrick O'Shaughnessy on Invest Like the Best](https://www.youtube.com/watch?v=Am7IWP8IpEc), founder Noah Shinn said travel accounted for over 50% of the platform's transaction volume, which was approaching $1 billion a year in annualized GMV.
 
-For this first consumer report, the question is concrete: how much of a real trip can an assistant handle, and how much work comes back to the traveler?
+With the rise in demand we set out to test which AI assistants are actually the best at booking travel. This is our first consumer report.
 
 ## Why travel is so complex
 

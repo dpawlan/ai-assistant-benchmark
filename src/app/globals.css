@@ -4339,3 +4339,10 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 
 .travel-assessment { margin: 16px 0; color: var(--sec); font-size: 14px; line-height: 1.6; }
 .travel-assessment summary { cursor: pointer; color: var(--text); }
+
+.travel-booking-metrics { display: flex; flex-wrap: wrap; gap: 20px 48px; margin: 20px 0 12px; }
+.travel-booking-metrics > div { display: flex; flex-direction: column; gap: 6px; }
+.travel-metric-label { font-size: 12px; color: var(--sec); }
+.travel-booking-metrics strong { font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.travel-metric-context, .travel-metric-caveat { font-size: 12px; color: var(--sec); line-height: 1.5; }
+.travel-metric-caveat { flex-basis: 100%; margin: -8px 0 0; }

@@ -4416,6 +4416,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-session-media .travel-screenshot img { max-height: none; border: 0; border-radius: 0; }
 
 .rp-pick-copy { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.rp-consumer .rp-pick-card .rp-pick-label { margin: 0; font-size: clamp(24px, 2.2vw, 26px); font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; color: var(--text); }
 .rp-pick-copy .rp-pick-head { flex-direction: row; }
 .rp-consumer .rp-pick-bullets { list-style: disc outside; margin: 0; padding-left: 20px; }
 .rp-consumer .rp-pick-bullets li { font-size: 16px; line-height: 1.6; margin: 0 0 12px; padding-left: 2px; }

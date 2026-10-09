@@ -102,7 +102,7 @@ export default async function ReportPage({ params }: Props) {
         const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; caveat?: string }>)[a.slug];
         return consumer ? <article key={p.slug} className="rp-pick-card" data-agent={a.slug}>
           <div className="rp-pick-copy">
-            <span className="rp-pick-label">{p.label}</span>
+            <h3 className="rp-pick-label">{p.label}</h3>
             <Link href={`/agents/${a.slug}`} className="rp-pick-head rp-pick-summary">
               <AgentIcon name={a.name} icon={a.icon} size={44} />
               <span className="rp-pick-name">{a.name}</span>

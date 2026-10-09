@@ -1,11 +1,13 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { travelEvidenceFiles } from '@/lib/travel-evidence-media';
 
 export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: string; name: string; round: number; dimension: number }) {
   const key = `r${round}-${agent}${round === 2 && agent === 'muse' && dimension === 8 ? '-cancel' : ''}`;
   const file = travelEvidenceFiles[key];
   if (!file) return null;
-  const source = `https://stmy6z4b3h.s.stableupload.dev/${round === 1 ? '' : `round${round}.html`}`;
+  const transcriptPath = `/tmp/travel-evidence-transcripts/r${round}-${agent}.json`;
+  const transcript: { role: string; reaction?: boolean; time?: string; text: string }[] = process.env.NODE_ENV === 'development' && existsSync(transcriptPath)
+    ? JSON.parse(readFileSync(transcriptPath, 'utf8')) : [];
   const local = process.env.NODE_ENV === 'development' && existsSync(file.video);
   const showStill = local && file.image && existsSync(file.image) && (round === 1 && dimension === 5 || round === 2 && (dimension === 8 || agent === 'muse' && [6, 9].includes(dimension)) || round === 3 && (agent === 'soar' && dimension === 5 || agent === 'instinct' && dimension === 8));
   return <div className="travel-session-media">
@@ -27,7 +29,14 @@ export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: 
           <figcaption>Original frame near the end of this session. Open to inspect at full size.</figcaption>
         </figure>}
       </div>
-    </> : <p className="ag-sub">Recording available in the password-protected source. A redacted public copy is not yet available.</p>}
-    <p><a href={`${source}#videos`} target="_blank" rel="noreferrer">Source recordings →</a> · <a href={`${source}#transcripts`} target="_blank" rel="noreferrer">Full transcript →</a></p>
+    </> : <p className="ag-sub">A redacted public recording is not yet available.</p>}
+    {transcript.length > 0 ? <details className="travel-transcript">
+      <summary>Full transcript · {name} · Round {round}</summary>
+      <p className="ag-sub">Original supplied transcript, including any prior conversation retained in this session export. Local preview only; contains unredacted personal information.</p>
+      <ol>{transcript.map((message, index) => <li key={index}>
+        <p className="travel-transcript-speaker">{message.role === 'user' ? 'Tester' : name}{message.reaction ? ' · Reaction' : ''}{message.time ? ` · ${message.time.replace(/^[^·]+·\s*/, '')}` : ''}</p>
+        <p className="travel-transcript-message">{message.text}</p>
+      </li>)}</ol>
+    </details> : <p className="ag-sub">A redacted public transcript is not yet available.</p>}
   </div>;
 }

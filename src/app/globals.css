@@ -4329,3 +4329,10 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
+
+.travel-transcript { margin: 20px 0; padding: 16px; border: 1px solid var(--line); border-radius: 10px; }
+.travel-transcript summary { cursor: pointer; color: var(--blue); font-weight: 500; }
+.travel-transcript ol { list-style: none; padding: 0; max-height: 650px; overflow: auto; }
+.travel-transcript li { padding: 16px 0; border-top: 1px solid var(--line); }
+.travel-transcript-speaker { color: var(--sec); font-size: 12px; }
+.travel-transcript-message { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 1.65; }

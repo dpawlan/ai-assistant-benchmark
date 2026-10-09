@@ -12,7 +12,7 @@ for (const { maxMinutes, score } of BOOKING_SPEED_BANDS) {
 for (const minutes of [null, 0, -1, NaN, Infinity]) assert.equal(bookingSpeedScore(minutes, 'completed'), null);
 assert.equal(bookingSpeedScore(1, 'not_completed'), null);
 const timings = JSON.parse(readFileSync(new URL('../data/travel-completion-times.json', import.meta.url), 'utf8'));
-for (const [agent, expected] of [['miso', 10], ['instinct', 9], ['grok-bot', 7], ['dots', 5], ['muse', 7]]) {
+for (const [agent, expected] of [['miso', 10], ['instinct', 9], ['grok-bot', 7], ['dots', 5], ['muse', 7], ['soar', 5]]) {
   const timing = timings.filter(t => t.agent === agent && t.dimension === 5).sort((a,b) => b.round - a.round)[0];
   assert.equal(bookingSpeedScore(timing.minutes, timing.status), expected);
 }

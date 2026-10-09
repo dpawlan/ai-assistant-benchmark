@@ -227,11 +227,13 @@
     "agent": "soar",
     "dimension": 5,
     "round": 3,
-    "minutes": null,
-    "status": "confirmation_unresolved",
-    "note": "A booking confirmation was sent 32 minutes after flight selection, then contradicted. Chat never established a reliable final status before the session ended, 48 minutes after selection. Ticket issuance is corroborated by the source screenshot; no comparable completion-time score assigned.",
+    "minutes": 32,
+    "status": "completed",
+    "note": "3:47 PM flight selection to 4:19 PM first confirmation; approximately 33 minutes from initial request. David subsequently verified the flight directly with AA. Confirmation email was not delivered; later contradictory chat messages do not change the verified booking outcome. Exact ticket issuance time is not established.",
     "source": "https://stmy6z4b3h.s.stableupload.dev/round3.html",
     "first_confirmation_minutes": 32,
-    "session_minutes": 48
+    "session_minutes": 48,
+    "request_to_confirmation_minutes": 33,
+    "basis": "flight-selected-booking-request-to-confirmation"
   }
 ]

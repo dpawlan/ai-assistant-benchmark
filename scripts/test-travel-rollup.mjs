@@ -38,7 +38,7 @@ try {
   assert.equal(getAgentDetail('miso').travel.completed, 8);
   assert.equal(getAgentDetail('instinct').travel.completed, 8);
   for (const agent of ['instinct', 'grok-bot']) assert.equal(getAgentDetail(agent).travel.scores[7], 10);
-  assert.equal(getAgentDetail('soar').travel.completed, 4);
+  assert.equal(getAgentDetail('soar').travel.completed, 5);
   assert.equal(getAgentDetail('miso').travel.total, 8);
   assert.deepEqual(Object.keys(getAgentDetail('miso').travel.scores), ['5', '6', '7', '8', '9', '18', '19', '20']);
   let fixture = [...activeIds.map(id => run(id, 8, { agent: 'muse' })), run(1, 1, { agent: 'muse' })];
@@ -120,7 +120,7 @@ assert.equal(instinct.runs[5].date, '2026-10-08');
 assert.equal(instinct.scores[8], 7);
 assert.equal(instinct.scores[9], 3);
 const soar = summarizeTravel('soar', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
-assert.equal(soar.scores[5], 7);
+assert.equal(soar.scores[5], 10);
 assert.equal(soar.scores[8], undefined);
 assert.equal(soar.scores[9], undefined);
 assert(actual.some(r => r.agent === 'soar' && r.dimension === 5 && r.date === '2026-10-06' && r.score === 3));

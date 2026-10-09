@@ -48,7 +48,7 @@ The report covers **Muse, Instinct, Miso, Soar, Grok Bot, and Dots**. The source
 
 **Round two:** Grok Bot, Instinct, Miso, Muse, and Dots were asked to move the flight to the following day, obtain a premium seat, and cancel everything. Dots joined with a new Delta booking; Muse completed a new booking before its modification tests. Soar was not tested in round two.
 
-**Latest retest:** Instinct and Soar were tested again on NYC–Miami after product updates. Both issued tickets. Instinct completed a seat upgrade and flight cancellation, but could not rebook and left refunds unresolved. Soar contradicted its own booking confirmation; the session ended before the modification tasks. These are the latest findings for those two products. The earlier rounds remain evidence of their previous behavior, not their current verdicts.
+**Latest retest:** Instinct and Soar were tested again on NYC–Miami after product updates. Both issued tickets. Instinct completed a seat upgrade and flight cancellation, but could not rebook and left refunds unresolved. The reviewer verified Soar’s booking directly with AA; confirmation-email delivery remained a limitation. Its cancellation and rebooking retest is in progress. These are the latest findings for those two products. The earlier rounds remain evidence of their previous behavior, not their current verdicts.
 
 | Stage | What the records show |
 | --- | --- |
@@ -91,7 +91,7 @@ The assistants made differing statements about cancellation windows. We report t
 
 Instinct booked an American Main Cabin flight for $443.40 through Duffel and Link, using the intended card. It took approximately six minutes from flight selection to confirmation, or nine minutes from the initial request. It then purchased a $35 Main Cabin Extra seat after approval. Rebooking still failed: Instinct first offered to handle the change, then retracted and directed the traveler to Duffel support. Flight cancellation was confirmed, but the flight refund amount and separate seat refund remained unresolved.
 
-Soar also issued a real $443.40 American ticket. That is a material improvement over its original search-only result. However, it sent a confirmation and then repeatedly said it could not verify the ticket. The traveler ended the session before changes, upgrades, or cancellation were tested. We credit the issued ticket while treating reliable confirmation as unresolved.
+Soar also issued a real $443.40 American ticket. That is a material improvement over its original search-only result. However, it sent a confirmation and then repeatedly said it could not verify the ticket. The traveler ended the session before changes, upgrades, or cancellation were tested. The reviewer has since verified the reservation directly with AA. We credit successful booking; the remaining confirmation-email issue is a communication limitation.
 
 [Latest retest evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
 
@@ -123,11 +123,11 @@ Soar also issued a real $443.40 American ticket. That is a material improvement 
 
 ### Soar
 
-**Where it worked:** The updated service issued a real American Main Cabin ticket after an explicit Link approval. The supplied source includes an airline confirmation screenshot. Soar also explained the available fare bundles before purchase.
+**Where it worked:** The updated service issued a real American Main Cabin ticket after an explicit Link approval. The supplied source includes an airline confirmation screenshot, and the reviewer independently verified the flight directly with AA. Soar also explained the available fare bundles before purchase.
 
 **Where it missed the mark:** Required details arrived as a series of separate questions. A long payment silence led the traveler to check in; the chat then lost context. Most seriously, it sent a booking confirmation and immediately undermined it with repeated statements that it could not verify a ticket. The session ended before rebooking, seat upgrades, or cancellation.
 
-**Consumer takeaway:** Soar can now book, but its conversation did not reliably communicate the completed purchase. The later tasks are untested, not failed. [Latest retest evidence](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
+**Consumer takeaway:** Successful booking is verified. Confirmation-email delivery and contradictory chat updates still need improvement. Cancellation and rebooking are being retested; seat selection awaits confirmation of the assigned seat. [Latest retest evidence](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
 
 ### Grok Bot
 

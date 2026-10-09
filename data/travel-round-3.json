@@ -112,12 +112,12 @@
     "agent": "soar",
     "dimension": 5,
     "date": "2026-10-08",
-    "score": 7,
+    "score": 10,
     "evidence_url": "https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "A real $443.40 American Main Cabin ticket was issued and a confirmation sent, corroborated by the source airline screenshot. The chat then denied it could verify the ticket, leaving the traveler without a reliable final status. Source booking phase: 2.8/5."
+    "notes": "Reviewer update: David verified the flight directly with American Airlines and confirmed successful booking; the remaining issue was delivery of the confirmation email. Booking execution is credited 10/10 per this reviewer correction. The earlier source describes contradictory chat status; retain that as a communication limitation rather than an unverified purchase. Verification supplied October 9; original test October 8."
   },
   {
     "id": "soar-2026-10-08-round-3-dimension-7",
@@ -142,5 +142,17 @@
     "version": "travel-v1",
     "protocol": "observed",
     "notes": "Explained fare bundles and separated connecting Link from purchase approval, but repeatedly pushed choices back to the traveler and missed KTN. Unreliable post-purchase status is also documented in booking execution."
+  },
+  {
+    "id": "soar-2026-10-08-round-3-dimension-19",
+    "agent": "soar",
+    "dimension": 19,
+    "date": "2026-10-08",
+    "score": 5,
+    "evidence_url": "https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts",
+    "reviewed": true,
+    "version": "travel-v1",
+    "protocol": "observed",
+    "notes": "Approximately 32 minutes from flight selection at 3:47 PM to first booking confirmation at 4:19 PM. David subsequently verified the reservation directly with American Airlines. This is time to the first confirmation, not the unknown exact ticket-issuance time; email delivery remained a limitation."
   }
 ]

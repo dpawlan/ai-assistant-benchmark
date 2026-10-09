@@ -29243,5 +29243,24 @@
     "source": "web",
     "collected_at": "2026-10-08T14:00:00Z",
     "notes": "AICoder Oct 7: v0.68.1 adds slide decks, formatted email, higher-res Bot computer."
+  },
+  {
+    "id": "f09natura01",
+    "agent": "grok-bot",
+    "quote": "At launch, the ring will connect with a range of AI agents and apps, including Meta's Muse, Instinct, Grok Bot, Claude, ChatGPT, and more.",
+    "author": "aishamalik",
+    "author_name": "Aisha Malik (TechCrunch)",
+    "date": "2026-10-08",
+    "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+    "kind": "news",
+    "tags": [
+      "hardware",
+      "ring",
+      "natura",
+      "interface"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "TechCrunch Oct 8: Natura Interface ring launches with Grok Bot as a supported agent."
   }
 ]

@@ -1771,5 +1771,23 @@
     "source": "web",
     "collected_at": "2026-10-02T14:00:00Z",
     "notes": "Wajo blog: vendor self-eval benchmark numbers."
+  },
+  {
+    "id": "f09harkpro01",
+    "agent": "wajo-fo",
+    "quote": "Hark Pro is available across web, iOS, and Android. The launch places it alongside personal AI products such as Meta's Muse, OpenAI's Dots, Instinct, and Wajo, each of which is experimenting with different ways for AI agents to handle everyday digital tasks.",
+    "author": "jolyen",
+    "author_name": "Jolyen (Digital Market Reports)",
+    "date": "2026-10-08",
+    "url": "https://digitalmarketreports.com/news/93578/hark-launches-hark-pro-as-a-personal-ai-agent-built-to-operate-your-computer/",
+    "kind": "news",
+    "tags": [
+      "hark-pro",
+      "comparison",
+      "landscape"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "Digital Market Reports Oct 8: Wajo mentioned as peer to Hark Pro, Muse, Instinct."
   }
 ]

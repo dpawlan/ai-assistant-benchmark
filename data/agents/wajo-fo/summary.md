@@ -27,4 +27,9 @@ _Updated 2026-10-02 vault scan (+2 rows)._
 - (2026-09-30) StartupFortune: Fo 71% vs OpenClaw 42% completion; 94% vs 74% safety (vendor self-eval).
 - (2026-09-26) Wajo blog: Trust and task completion benchmark — Fo vs OpenClaw vs Hermes (vendor self-eval).
 
-**Feedback rows:** 71 (as of 2026-10-02)
+_Updated 2026-10-09 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-08) Digital Market Reports: Wajo mentioned as peer to Hark Pro, Muse, Instinct in personal AI landscape.
+
+**Feedback rows:** 72 (as of 2026-10-09)

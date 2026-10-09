@@ -236,5 +236,11 @@ _Updated 2026-10-08 weekday vault scan (+4 rows)._
 - (2026-09-29) Jingletree (Shruti Gandhi, Array VC): Disappointed by unsolicited product recommendations from Instinct Selections — "At least make me a personalized shopping list of things I actually need!!"
 - (2026-09-30) Jingletree (Chat Joglekar): First "ewwww" moment when Instinct pushed product suggestions from email/trips.
 
-**Feedback rows:** 298 (as of 2026-10-08)
+_Updated 2026-10-09 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-08) Aisha Malik (TechCrunch): Natura Interface ring supports Instinct for booking reservations.
+- (2026-10-09) Geneva Digital Watch: Instinct is a partner in the Personal Agent Protocol for AI agent-business interactions.
+
+**Feedback rows:** 300 (as of 2026-10-09)
 

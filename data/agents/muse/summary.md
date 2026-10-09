@@ -230,5 +230,10 @@ _Updated 2026-10-08 weekday vault scan (+5 rows)._
 - (2026-10-03) Palmer Jones: iMessage access is Mac-app-only with three permission steps (Full Disk Access, toggle, per-app level).
 - (2026-10-03) Palmer Jones: Muse's free tier is "the only no-cost agent that keeps running" when laptop closes (vs ChatGPT Dots $100, Claude/Gemini stop).
 
-**Feedback rows:** 267 (as of 2026-10-08)
-**Kinds:** other=79, use-case=39, praise=18, complaint=43, comparison=14, bug=25, news=38
+_Updated 2026-10-09 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-08) Aisha Malik (TechCrunch): Natura Interface ring launches with Muse as a supported agent.
+
+**Feedback rows:** 268 (as of 2026-10-09)
+**Kinds:** other=79, use-case=39, praise=18, complaint=43, comparison=14, bug=25, news=39

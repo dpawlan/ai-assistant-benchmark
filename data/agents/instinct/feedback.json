@@ -6308,5 +6308,44 @@
     "source": "web",
     "collected_at": "2026-10-08T14:00:00Z",
     "notes": "Jingletree: Founder had first 'ewwww' moment when Instinct pushed product suggestions from email/trips."
+  },
+  {
+    "id": "f09natura01",
+    "agent": "instinct",
+    "quote": "At launch, the ring will connect with a range of AI agents and apps, including Meta's Muse, Instinct, Grok Bot, Claude, ChatGPT, and more. Plus, users who rely on multiple AI agents and apps can specify which one they want to handle a particular task. For example, they could ask Claude to write code, Instinct to book a reservation, and Grok Bot to take care of something else.",
+    "author": "aishamalik",
+    "author_name": "Aisha Malik (TechCrunch)",
+    "date": "2026-10-08",
+    "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+    "kind": "news",
+    "tags": [
+      "hardware",
+      "ring",
+      "natura",
+      "interface"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "TechCrunch Oct 8: Natura Interface ring supports Instinct for booking reservations."
+  },
+  {
+    "id": "f09pap001",
+    "agent": "instinct",
+    "quote": "Meta and Sierra announced the development of an open standard called Personal Agent Protocol, an industry-led standard developed collaboratively with industry partners such as Genesys, Instinct, Rocket, Shopify, Stripe, and Walmart, to define how personal agents interact with businesses.",
+    "author": "digwatch",
+    "author_name": "Geneva Digital Watch",
+    "date": "2026-10-09",
+    "url": "https://dig.watch/updates/meta-develop-ai-personal-agent-protocol",
+    "kind": "news",
+    "tags": [
+      "protocol",
+      "pap",
+      "meta",
+      "sierra",
+      "commerce"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "Oct 9: Instinct is a partner in the Personal Agent Protocol for AI agent-business interactions."
   }
 ]

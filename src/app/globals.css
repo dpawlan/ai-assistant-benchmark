@@ -4186,7 +4186,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-consumer .rp-title { font-size: clamp(32px, 3.6vw, 48px); max-width: 640px; line-height: 1.08; }
 .rp-consumer .rp-eyebrow { color: var(--blue); text-transform: uppercase; letter-spacing: .09em; font-size: 11px; }
 .rp-consumer .rp-cover { aspect-ratio: 1; }
-.rp-consumer .rp-intro { max-width: 760px; margin: 28px 0 0; }
+.rp-consumer .rp-intro { max-width: 960px; margin: 28px 0 0; }
 .rp-consumer .rp-intro p { font-size: 19px; line-height: 1.6; }
 .rp-consumer .rp-body { grid-template-columns: 210px minmax(0, 1fr); gap: 52px; }
 .rp-consumer .rp-article { max-width: none; min-width: 0; }

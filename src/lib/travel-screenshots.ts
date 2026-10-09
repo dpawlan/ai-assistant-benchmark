@@ -1,4 +1,4 @@
-/** Original screenshots supplied by the tester for publication. */
+/** Screenshots supplied by the tester; personal names are redacted where needed. */
 export const travelScreenshots: Record<string, {
   src: string; width: number; height: number; alt: string; caption: string; dimensions: number[];
 }> = {
@@ -18,7 +18,7 @@ export const travelScreenshots: Record<string, {
     caption: 'Clear refund terms, approval before acting, and cancellation confirmed.', dimensions: [8],
   },
   miso: {
-    src: '/travel-evidence/miso-premium-support.png', width: 908, height: 1092,
+    src: '/travel-evidence/miso-premium-support-redacted.png', width: 1143, height: 1376,
     alt: 'Miso’s human team confirms with United that the additional $85.99 seat purchase has been refunded.',
     caption: 'Human support confirms the $85.99 seat refund.', dimensions: [8],
   },

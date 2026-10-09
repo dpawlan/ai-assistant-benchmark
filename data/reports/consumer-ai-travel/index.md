@@ -74,7 +74,7 @@ Time to booking: approximately [16 minutes](/benchmarks/travel/dimensions/19#mus
 
 **Consumer takeaway:** Thoughtful planning and clear cancellation, but a poor fit for trips likely to need changes.
 
-[Onboarding](/benchmarks/travel/dimensions/18#muse) · [Booking](/benchmarks/travel/dimensions/5#muse) · [Travel profile](/benchmarks/travel/dimensions/7#muse) · [Rebooking](/benchmarks/travel/dimensions/9#muse) · [Seat selection](/benchmarks/travel/dimensions/6#muse) · [Cancellation](/benchmarks/travel/dimensions/8#muse)
+[Onboarding](/benchmarks/travel/dimensions/18#muse) · [Booking execution](/benchmarks/travel/dimensions/5#muse) · [Seat selection](/benchmarks/travel/dimensions/6#muse) · [Travel profile](/benchmarks/travel/dimensions/7#muse) · [Cancellation](/benchmarks/travel/dimensions/8#muse) · [Rebooking](/benchmarks/travel/dimensions/9#muse) · [Booking speed](/benchmarks/travel/dimensions/19#muse) · [Proactiveness](/benchmarks/travel/dimensions/20#muse)
 
 ### Instinct
 
@@ -93,7 +93,7 @@ Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#inst
 
 **Consumer takeaway:** Convenient for booking by text, but expect to handle itinerary changes and refund follow-up yourself.
 
-[Booking](/benchmarks/travel/dimensions/5#instinct) · [Booking time](/benchmarks/travel/dimensions/19#instinct) · [Seat selection](/benchmarks/travel/dimensions/6#instinct) · [Rebooking](/benchmarks/travel/dimensions/9#instinct) · [Cancellation](/benchmarks/travel/dimensions/8#instinct)
+[Onboarding](/benchmarks/travel/dimensions/18#instinct) · [Booking execution](/benchmarks/travel/dimensions/5#instinct) · [Seat selection](/benchmarks/travel/dimensions/6#instinct) · [Travel profile](/benchmarks/travel/dimensions/7#instinct) · [Cancellation](/benchmarks/travel/dimensions/8#instinct) · [Rebooking](/benchmarks/travel/dimensions/9#instinct) · [Booking speed](/benchmarks/travel/dimensions/19#instinct) · [Proactiveness](/benchmarks/travel/dimensions/20#instinct)
 
 ### Miso
 
@@ -112,7 +112,7 @@ Time to booking: approximately [3 minutes](/benchmarks/travel/dimensions/19#miso
 
 **Consumer takeaway:** Our pick for premium travel support: it handled the trip through chat, with a human stepping in to resolve the seat-fee refund.
 
-[Onboarding](/benchmarks/travel/dimensions/18#miso) · [Booking](/benchmarks/travel/dimensions/5#miso) · [Booking time](/benchmarks/travel/dimensions/19#miso) · [Travel profile](/benchmarks/travel/dimensions/7#miso) · [Rebooking](/benchmarks/travel/dimensions/9#miso) · [Seat selection](/benchmarks/travel/dimensions/6#miso) · [Cancellation](/benchmarks/travel/dimensions/8#miso)
+[Onboarding](/benchmarks/travel/dimensions/18#miso) · [Booking execution](/benchmarks/travel/dimensions/5#miso) · [Seat selection](/benchmarks/travel/dimensions/6#miso) · [Travel profile](/benchmarks/travel/dimensions/7#miso) · [Cancellation](/benchmarks/travel/dimensions/8#miso) · [Rebooking](/benchmarks/travel/dimensions/9#miso) · [Booking speed](/benchmarks/travel/dimensions/19#miso) · [Proactiveness](/benchmarks/travel/dimensions/20#miso)
 
 ### GrokBot
 
@@ -131,7 +131,7 @@ Time to booking: approximately [15.5 minutes](/benchmarks/travel/dimensions/19#g
 
 **Consumer takeaway:** Good for low fares if you are comfortable helping the browser along; Basic Economy changes cost extra.
 
-[Booking](/benchmarks/travel/dimensions/5#grok-bot) · [Onboarding](/benchmarks/travel/dimensions/18#grok-bot) · [Rebooking](/benchmarks/travel/dimensions/9#grok-bot) · [Seat selection](/benchmarks/travel/dimensions/6#grok-bot) · [Cancellation](/benchmarks/travel/dimensions/8#grok-bot) · [Proactiveness](/benchmarks/travel/dimensions/20#grok-bot)
+[Onboarding](/benchmarks/travel/dimensions/18#grok-bot) · [Booking execution](/benchmarks/travel/dimensions/5#grok-bot) · [Seat selection](/benchmarks/travel/dimensions/6#grok-bot) · [Travel profile](/benchmarks/travel/dimensions/7#grok-bot) · [Cancellation](/benchmarks/travel/dimensions/8#grok-bot) · [Rebooking](/benchmarks/travel/dimensions/9#grok-bot) · [Booking speed](/benchmarks/travel/dimensions/19#grok-bot) · [Proactiveness](/benchmarks/travel/dimensions/20#grok-bot)
 
 ### Dots
 
@@ -150,7 +150,7 @@ Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dot
 
 **Consumer takeaway:** Strong on changes with a flexible fare, but initial checkout took work and credits needed checking.
 
-[Onboarding](/benchmarks/travel/dimensions/18#dots) · [Booking](/benchmarks/travel/dimensions/5#dots) · [Booking time](/benchmarks/travel/dimensions/19#dots) · [Rebooking](/benchmarks/travel/dimensions/9#dots) · [Seat selection](/benchmarks/travel/dimensions/6#dots) · [Cancellation](/benchmarks/travel/dimensions/8#dots)
+[Onboarding](/benchmarks/travel/dimensions/18#dots) · [Booking execution](/benchmarks/travel/dimensions/5#dots) · [Seat selection](/benchmarks/travel/dimensions/6#dots) · [Travel profile](/benchmarks/travel/dimensions/7#dots) · [Cancellation](/benchmarks/travel/dimensions/8#dots) · [Rebooking](/benchmarks/travel/dimensions/9#dots) · [Booking speed](/benchmarks/travel/dimensions/19#dots) · [Proactiveness](/benchmarks/travel/dimensions/20#dots)
 
 ## Category winners
 
@@ -196,7 +196,7 @@ Instinct handled the booking in 15 transcript messages from the initial trip req
 
 ### Flaws but not dealbreakers
 
-This is a pick for a short booking conversation, not the fewest messages overall: Miso took 13. The counts exclude secure-form actions, and prior setup varied. Instinct still needed help with payment-account clarification, rebooking and refund follow-up.
+The message count covers the chat, not secure forms or other setup steps. Instinct still needed help with payment-account clarification, rebooking and refund follow-up.
 
 ## Evidence and limits
 

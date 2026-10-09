@@ -21,7 +21,7 @@ When it comes to travel, booking a flight is only the beginning. We examined how
 
 Travel is a practical test of consumer AI because the work is familiar: compare flights, weigh cost against convenience, enter traveler details, and manage the reservation afterward. An assistant that can take responsibility for those steps has a clear use.
 
-**Editorial gap:** We have not verified a travel-usage percentage or a quote establishing travel as Instinct’s largest use case, or comparable figures for the other products. The supplied recordings establish task performance, not market demand. Add those attributed figures here before making that claim.
+Travel is already a major use case for Instinct. In his [conversation with Patrick O’Shaughnessy on Invest Like the Best](https://colossus.com/episode/instinct-the-personal-agent/), founder Noah Shinn said travel accounted for about **50% of the platform’s transaction volume**, which was approaching **$1 billion a year**. These are founder-reported figures for transactions handled through Instinct. [Transcript, around 18:50](https://podscripts.co/podcasts/invest-like-the-best-with-patrick-oshaughnessy/noah-shinn-building-instinct-the-personal-agent-invest-like-the-best-ep493).
 
 For this first consumer report, the question is concrete: how much of a real trip can an assistant handle, and how much work comes back to the traveler?
 
@@ -187,4 +187,4 @@ The primary sources are the supplied [Booking benchmark evidence and transcripts
 
 Source summaries are not treated as unquestionable findings. In particular, we do not repeat the claim that the $66.65 price difference was for an identical fare, describe all cancellations as fully resolved, or equate successful completion with zero traveler intervention. We distinguish assistant statements, visible confirmation screens, and unresolved outcomes. Bank settlement was not independently verified.
 
-Raw videos and transcripts contain traveler and booking details. This preview summarizes the relevant evidence without copying those identifiers or payment details into the report. Publication remains pending editorial review and verification of any market-usage claims added to the introduction.
+Raw videos and transcripts contain traveler and booking details. This preview summarizes the relevant evidence without copying those identifiers or payment details into the report. Publication remains pending editorial review. The Instinct transaction-volume figures are attributed to its founder; comparable usage figures for the other assistants have not been established.

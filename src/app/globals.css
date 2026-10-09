@@ -4376,3 +4376,6 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-metric-caveat { flex-basis: 100%; margin: -8px 0 0; }
 
 .rp-travel-score { font-size: 13px; color: var(--sec); text-decoration: underline; text-underline-offset: 3px; }
+
+.rp-consumer .rp-competitor ul { list-style: disc outside; padding-left: 22px; margin: 10px 0 20px; }
+.rp-consumer .rp-competitor li { display: list-item; padding-left: 4px; margin: 6px 0; }

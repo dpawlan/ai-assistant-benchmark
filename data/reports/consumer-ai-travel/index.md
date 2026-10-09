@@ -107,9 +107,9 @@ Time to booking: approximately [3 minutes](/benchmarks/travel/dimensions/19#miso
 **Where it missed the mark**
 
 - No Basic Economy in its available inventory; our Economy ticket cost $258.40.
-- The $222.40 flight refund was confirmed, but the separate $85.99 seat-fee refund was still pending.
+- The $85.99 seat-fee refund required a human handoff to resolve.
 
-**Consumer takeaway:** Our pick for premium travel support: convenient trip management with human help for exceptions.
+**Consumer takeaway:** Our pick for premium travel support: it handled the trip through chat, with a human stepping in to resolve the seat-fee refund.
 
 [Onboarding](/benchmarks/travel/dimensions/18#miso) · [Booking](/benchmarks/travel/dimensions/5#miso) · [Booking time](/benchmarks/travel/dimensions/19#miso) · [Travel profile](/benchmarks/travel/dimensions/7#miso) · [Rebooking](/benchmarks/travel/dimensions/9#miso) · [Seat selection](/benchmarks/travel/dimensions/6#miso) · [Cancellation](/benchmarks/travel/dimensions/8#miso)
 
@@ -179,7 +179,7 @@ Human support is part of that appeal. When the seat map failed, Miso’s team st
 
 ### Flaws but not dealbreakers
 
-Miso’s available inventory did not include Basic Economy, which limited its ability to match the lowest fare we found elsewhere. The flight cancellation and $222.40 refund were confirmed, but the separate $85.99 seat-fee refund was still awaiting confirmation from the human team.
+Miso’s available inventory did not include Basic Economy, which limited its ability to match the lowest fare we found elsewhere. The separate $85.99 seat-fee refund required the human team to step in and resolve it. The issue was closed, but the assistant could not complete that step on its own.
 
 ## Best cancellation interaction in this test: Muse
 

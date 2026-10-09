@@ -138,14 +138,14 @@ export default async function ReportPage({ params }: Props) {
           <section key={i} id="competition" className="rp-section">
             <h2>{consumer ? 'The five assistants' : 'The competition'}</h2>
             <p className="rp-muted">{consumer ? "Ranked by Travel benchmark performance, with scores out of 10." : `Other assistants reviewed, alongside ${pickAgent?.name ?? "our pick"}. Each one links to the full head to head.`}</p>
-            {(consumer ? [...sec.entries].sort((a, b) => bySlug[a.slug] && bySlug[b.slug] ? compareTravelRank(bySlug[a.slug], bySlug[b.slug]) : 0) : sec.entries).map((c, index) => {
+            {(consumer ? [...sec.entries].sort((a, b) => bySlug[a.slug] && bySlug[b.slug] ? compareTravelRank(bySlug[a.slug], bySlug[b.slug]) : 0) : sec.entries).map(c => {
               const a = bySlug[c.slug];
               if (!a) return null;
               return (
                 <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
                   <div className="rp-competitor-head">
                     <AgentIcon name={a.name} icon={a.icon} size={32} />
-                    <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{consumer && `${index + 1}. `}{a.name}</Link>
+                    <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
                     {consumer && <Link href="/benchmarks/travel" className="rp-travel-score">Travel benchmark: {a.travel.score ?? "—"}/10</Link>}
                     {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
                     {pickAgent && pickAgent.slug !== a.slug && (

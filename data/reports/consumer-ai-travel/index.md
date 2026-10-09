@@ -58,43 +58,53 @@ Below, we break down each of the five assistants: where it worked, where it miss
 
 ### Muse
 
-**Where it worked:** Muse brought useful context into the search: calendar availability, loyalty accounts, and a clear review of the proposed fare. It declined card entry through chat. After its unsuccessful first session, a later recording showed a $354.40 booking and a clear cancellation flow: quote the refund, obtain approval, and confirm cancellation.
+**Where it worked:** Muse used our calendar and loyalty-account information to make its recommendations more personal. It flagged timing concerns, explained fare restrictions, and kept payment details out of chat. Once we connected the correct Link account, it booked our flight and returned confirmation. Cancellation was straightforward: it quoted the refund, asked for approval, and confirmed the cancellation.
 
-**Where it missed the mark:** The first payment flow failed to complete. In round two, Muse said its booking tools could not change a ticketed flight or seat, and its browser handoff did not resolve the problem. Cancellation worked; changing the trip did not.
+**Where it missed the mark:** Getting the payment connection working took more effort than it should have. Reconnection links were not usable, so we had to fix the connection in the app ourselves. After booking, Muse could neither change our flight nor upgrade our seat through its booking tools, and trying the airline website did not resolve either request. It also could not verify that the airline had received our loyalty number.
 
-**Consumer takeaway:** Useful context and a clear cancellation interaction, with a substantial limitation for travelers who expect the assistant to modify an existing booking. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts) · [Modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
+**Consumer takeaway:** Muse was thoughtful when planning and clear when cancelling. We would be more cautious relying on it for a trip likely to change: useful recommendations did not translate into the ability to service our ticket after purchase.
+
+[Onboarding](/benchmarks/travel/dimensions/18#muse) · [Booking](/benchmarks/travel/dimensions/5#muse) · [Travel profile](/benchmarks/travel/dimensions/7#muse) · [Rebooking](/benchmarks/travel/dimensions/9#muse) · [Seat selection](/benchmarks/travel/dimensions/6#muse) · [Cancellation](/benchmarks/travel/dimensions/8#muse)
 
 ### Instinct
 
-**Where it worked:** In the latest retest, Instinct booked an American Main Cabin ticket through Duffel and Link, charged the intended card after approval, and returned confirmation. It also completed the approved $35 Main Cabin Extra purchase, clearly explaining that the seat was still a middle seat. The earlier payment-handling weakness was not repeated in this flow.
+**Where it worked:** Instinct let us handle the booking through iMessage. It reused our traveler details, recommended an arrival time that suited the request, and booked through Duffel after we approved payment in Link. Our updated booking took about six minutes from flight selection to confirmation. When we asked for a premium seat, it explained the options and completed a $35 Main Cabin Extra purchase, making clear that the extra legroom still came with a middle seat.
 
-**Where it missed the mark:** Repeated card-account clarification added friction. It could not change the Duffel-issued ticket and retracted an assurance that it could handle the support chat. Cancellation completed, but the flight refund amount was unconfirmed and the seat-refund submission failed. It used a saved address for that form without checking first and did not ask for a Known Traveler Number.
+**Where it missed the mark:** We had to clarify the payment account and intended card repeatedly. Changing the flight was a larger problem: Instinct said it could take over the support conversation, then walked that back and handed the work to us. It cancelled the flight, but could not confirm the flight refund amount. The separate seat-refund request failed, and it used a saved mailing address for that form without checking with us first. It never asked for our Known Traveler Number.
 
-**Consumer takeaway:** Improved booking and seat servicing, with a real limitation when the itinerary changes. Refund follow-through still needs work. [Latest retest evidence](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
+**Consumer takeaway:** A convenient option for booking and buying a seat upgrade by text. We would still expect to deal with the airline or booking provider ourselves if the itinerary changes, and to follow up on refunds rather than assume everything is settled.
+
+[Booking](/benchmarks/travel/dimensions/5#instinct) · [Booking time](/benchmarks/travel/dimensions/19#instinct) · [Seat selection](/benchmarks/travel/dimensions/6#instinct) · [Rebooking](/benchmarks/travel/dimensions/9#instinct) · [Cancellation](/benchmarks/travel/dimensions/8#instinct)
 
 ### Miso
 
-**Where it worked:** Miso’s app-supported traveler profile carried the Known Traveler Number into the booking. It completed the initial flight, handled the next-day cancel-and-rebook sequence, and quoted an $85.99 seat upgrade before seeking approval and reporting completion—all through the text conversation after setup.
+**Where it worked:** Once our traveler profile was set up, Miso made the booking feel simple. It used our saved Known Traveler Number and returned the initial booking confirmation about three minutes after we selected the flight. When our plans changed, it cancelled and rebooked the trip through iMessage. It also added our loyalty number to the profile and reservation, and completed an Economy Plus seat purchase after explaining the price and getting our approval. A human team was available when follow-up was needed.
 
-**Where it missed the mark:** The initial confirmation link failed, and a human team followed up. Its $258.40 fare was higher than the Basic Economy tickets obtained elsewhere, although the fare descriptions were different. The final seat-fee refund required its team and remained unresolved at session end.
+**Where it missed the mark:** Miso’s confirmation page failed, so we had to ask for the finalized confirmation and recover it through email. Cancelling the flight was easier than resolving the seat charge: the $85.99 seat refund went to its human team and remained outstanding when we finished. Its OTA inventory also meant Basic Economy was not available for this booking. The $258.40 Economy ticket was more expensive than the Basic Economy fare found elsewhere, but Miso had not chosen to skip a cheaper fare it could sell.
 
-**Consumer takeaway:** Our pick for premium travel support: a traveler profile, changes handled through iMessage, and a human team involved when follow-up was needed. The appeal is the service around the trip. Its unresolved seat-fee refund remains a limitation of the observed result. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts) · [Modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
+**Consumer takeaway:** Our pick for premium travel support, particularly if you want to manage a trip by text with human help available for exceptions. Its strength was handling the details around the trip. Travelers focused on the lowest possible fare should understand its inventory limits, and human support should still be judged on whether it closes the issue. Our seat refund was not yet resolved.
+
+[Onboarding](/benchmarks/travel/dimensions/18#miso) · [Booking](/benchmarks/travel/dimensions/5#miso) · [Booking time](/benchmarks/travel/dimensions/19#miso) · [Travel profile](/benchmarks/travel/dimensions/7#miso) · [Rebooking](/benchmarks/travel/dimensions/9#miso) · [Seat selection](/benchmarks/travel/dimensions/6#miso) · [Cancellation](/benchmarks/travel/dimensions/8#miso)
 
 ### GrokBot
 
-**Where it worked:** GrokBot tied for the lowest ticketed round-one fare at $191.75. It explained fare choices, used secure forms and an approved virtual card, and removed preselected payment-storage and marketing options. In round two it completed the date change, First Class upgrade, and cancellation, with a reported $463.74 refund.
+**Where it worked:** GrokBot found and booked a $191.75 Basic Economy fare, explained the alternatives, and used secure forms and an approved virtual card for checkout. It removed unwanted payment-storage and marketing options along the way. It also got through every follow-up task we requested: changing the flight, purchasing a First Class upgrade, and cancelling the trip with a confirmed refund amount.
 
-**Where it missed the mark:** The process was lengthy and required a desktop app. A form needed a retry, the virtual-card number initially confused the traveler, and three screen handoffs were needed across the modification tasks. This was successful assisted execution, not a hands-off service.
+**Where it missed the mark:** We had to stay involved. A contact form needed a retry, and the virtual-card number prompted us to check whether it had charged the wrong card. During the change, upgrade, and cancellation, stalled browser steps each required us to take control and finish an action. It completed the work, but it did not consistently take that work off our hands. It also did not proactively ask for loyalty or Known Traveler details.
 
-**Consumer takeaway:** The strongest combination of low initial fare and completed follow-up tasks in these records, if the traveler is willing to participate when browser automation stalls. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts) · [Modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
+**Consumer takeaway:** A good fit for a traveler who wants access to low fares and is comfortable helping when browser automation gets stuck. It handled a broad range of tasks, but the low initial price came with Basic Economy restrictions, and changing that ticket cost extra.
+
+[Booking](/benchmarks/travel/dimensions/5#grok-bot) · [Onboarding](/benchmarks/travel/dimensions/18#grok-bot) · [Rebooking](/benchmarks/travel/dimensions/9#grok-bot) · [Seat selection](/benchmarks/travel/dimensions/6#grok-bot) · [Cancellation](/benchmarks/travel/dimensions/8#grok-bot) · [Proactiveness](/benchmarks/travel/dimensions/20#grok-bot)
 
 ### Dots
 
-**Where it worked:** Dots selected a Delta Main Classic fare, explained its conditions, and later changed the departure date with no additional payment and a reported $60.01 credit. It quoted upgrade choices, obtained approval for a $17.20 Comfort seat, and reported cancellation of the flight and upgrade. It clearly acknowledged that the earlier credit had not reconciled.
+**Where it worked:** Dots asked about our airport preference and budget, checked fare restrictions, and used our existing Delta account details. Once booked, it moved the flight without an additional payment and confirmed a $60.01 credit. It then purchased a $17.20 Comfort aisle seat after approval. When we cancelled, it was clear about what it could confirm and what remained unresolved.
 
-**Where it missed the mark:** Initial setup included clarification delays, a stuck checkout handoff, and a browser disconnect. The traveler supplied the original airline confirmation. At the end, cancellation was confirmed but the disposition of the $60.01 credit remained unresolved.
+**Where it missed the mark:** Booking took about 33 minutes from flight selection to confirmation. We had to clarify an account number, troubleshoot an unresponsive checkout handoff, and supply the airline confirmation ourselves after its browser connection failed. Cancellation also needed follow-up: we provided an email to help reconcile the refund, but the earlier $60.01 credit was still unexplained when we ended the test.
 
-**Consumer takeaway:** A strong result for flexible changes, with the advantage of a different airline and fare product. This test cannot isolate whether the result came from assistant quality, airline access, fare flexibility, or their combination. [Booking and modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
+**Consumer takeaway:** Promising for managing changes once a trip is booked, with more friction getting through the initial purchase. Our flexible Delta fare helped make the change straightforward, so we would not assume the same outcome on a restrictive fare. We would also keep our own confirmation emails and check that refunds and credits add up.
+
+[Onboarding](/benchmarks/travel/dimensions/18#dots) · [Booking](/benchmarks/travel/dimensions/5#dots) · [Booking time](/benchmarks/travel/dimensions/19#dots) · [Rebooking](/benchmarks/travel/dimensions/9#dots) · [Seat selection](/benchmarks/travel/dimensions/6#dots) · [Cancellation](/benchmarks/travel/dimensions/8#dots)
 
 ## Category winners
 
@@ -120,7 +130,7 @@ Dots used a different airline and fare from the United Basic Economy bookings. I
 
 For travelers who value someone handling the details, Miso is our premium-service pick among the five assistants tested. Its traveler profile carried booking information forward, and it managed rebooking and a paid seat upgrade through iMessage after setup. It quoted the upgrade price and obtained approval before proceeding.
 
-Human support is part of that appeal. The saved conversations show its team following up on a failed confirmation link and taking responsibility for a seat-fee refund that needed further work. That combination of conversational booking and human follow-up makes Miso a promising fit for travelers who want ongoing assistance when a trip gets complicated.
+Human support is part of that appeal. We had its team follow up on a failed confirmation link and take responsibility for a seat-fee refund that needed further work. That combination of conversational booking and human follow-up makes Miso a promising fit for travelers who want ongoing assistance when a trip gets complicated.
 
 ### Flaws but not dealbreakers
 
@@ -128,7 +138,7 @@ The confirmation page failed, and the seat-fee refund remained unresolved at ses
 
 ## Best cancellation interaction in this test: Muse
 
-Muse made the refund amount and approval step clear and returned a cancellation confirmation. The cancellation recording shows a straightforward sequence even though its date-change and seat-change attempts had failed.
+Muse made the refund amount and approval step clear and returned a cancellation confirmation. We found cancellation straightforward, even though our flight-change and seat-change requests had failed.
 
 ### Flaws but not dealbreakers
 
@@ -144,7 +154,7 @@ A higher cabin class is one part of premium travel. Our Miso recommendation prio
 
 Explore the [Travel benchmark](/benchmarks/travel) and its [booking test evidence preview](/reports/nyc-chicago). The booking preview covers round one; the source transcripts below also document the later modification round.
 
-The primary sources are the supplied [Booking benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/) and [Modification benchmark evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round2.html). The [latest Instinct retest](https://stmy6z4b3h.s.stableupload.dev/round3.html) supersedes its earlier outcomes. Those source pages require the owner’s access password. We also cross-checked sampled frames and ending screens from the 11 locally saved recordings; this was not a frame-by-frame review of every minute. The latest retest update uses its supplied report and full transcripts; its new videos have not been independently reviewed here.
+Our [dimension evidence pages](/benchmarks/travel/dimensions) contain the task results and supporting recordings and screenshots for each assistant. The links in each review take you directly to that assistant’s evidence for the relevant task. Original source reports remain linked from those pages. We reviewed the supplied transcripts and sampled the recordings; this was not a frame-by-frame audit of every minute. Miso’s OTA inventory limitation reflects information supplied by the reviewer.
 
 Source summaries are not treated as unquestionable findings. In particular, we do not repeat the claim that the $66.65 price difference was for an identical fare, describe all cancellations as fully resolved, or equate successful completion with zero traveler intervention. We distinguish assistant statements, visible confirmation screens, and unresolved outcomes. Bank settlement was not independently verified.
 

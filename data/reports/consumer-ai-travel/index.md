@@ -1,6 +1,6 @@
 ---
 title: The Consumer AI Travel Report
-question: Six assistants. Real bookings and follow-up tests. What happened when we asked them to book, change, upgrade, and cancel.
+question: We tested real bookings across six different AI assistants to see who performs best when it comes to travel. You'll find our results below.
 dimension: travel
 published: 2026-10-07
 updated: 2026-10-08

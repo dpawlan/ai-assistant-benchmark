@@ -157,6 +157,10 @@ export default async function ReportPage({ params }: Props) {
             {(consumer ? [...sec.entries].sort((a, b) => bySlug[a.slug] && bySlug[b.slug] ? compareTravelRank(bySlug[a.slug], bySlug[b.slug]) : 0) : sec.entries).map(c => {
               const a = bySlug[c.slug];
               if (!a) return null;
+              const paragraphs = c.body.trim().split(/\n\s*\n/);
+              const lastParagraph = paragraphs.at(-1) ?? '';
+              const evidenceBody = consumer && /^\[[^\]]+\]\(\/benchmarks\/travel\/dimensions\//.test(lastParagraph) ? paragraphs.pop() : undefined;
+              const assessmentBody = paragraphs.join('\n\n');
               return (
                 <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
                   <div className="rp-competitor-head">
@@ -169,9 +173,10 @@ export default async function ReportPage({ params }: Props) {
                     )}
                   </div>
                   {consumer && travelScreenshots[a.slug] ? <div className="rp-assistant-proof">
-                    <div className="rp-assistant-copy"><Markdown body={c.body} /></div>
+                    <div className="rp-assistant-copy"><Markdown body={assessmentBody} /></div>
                     <TravelScreenshot agent={a.slug} />
-                  </div> : <Markdown body={c.body} />}
+                  </div> : <Markdown body={assessmentBody} />}
+                  {evidenceBody && <div className="rp-assistant-evidence"><Markdown body={evidenceBody} /></div>}
                 </div>
               );
             })}

@@ -4426,5 +4426,8 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-assistant-proof { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 18px; }
 .rp-assistant-copy { min-width: 0; }
 .rp-assistant-copy > p:first-child { margin-top: 0; }
-.rp-assistant-proof > .travel-screenshot { margin-top: 0; }
+.rp-assistant-proof > .travel-screenshot { margin-top: 0; align-self: center; justify-self: center; width: 100%; }
 @media (max-width: 760px) { .rp-assistant-proof { grid-template-columns: 1fr; gap: 20px; } }
+
+.rp-assistant-evidence { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+.rp-consumer .rp-assistant-evidence p { margin: 0; font-size: 14px; line-height: 1.8; }

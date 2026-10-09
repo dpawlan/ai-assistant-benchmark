@@ -50,7 +50,8 @@ export default async function TravelDimensionPage({ params }: Props) {
         const untested = (task.id === 7 && ['instinct', 'grok-bot'].includes(a.slug)) || task.id === 8 || note === 'Not documented in this session.' || (task.id === 6 && a.slug !== 'miso') || (a.slug === 'soar' && task.id !== 5);
         return <article className="travel-dimension-evidence" id={a.slug} key={a.slug}>
           <div className="travel-evidence-heading"><AgentIcon name={a.name} icon={a.icon} size={32} /><h3 className="ag-h2">{a.name}</h3></div>
-          {a.slug === 'soar' && [6, 8, 9].includes(task.id) && <p className="ag-sub">Not reached in the latest retest: the session ended during booking-confirmation troubleshooting. No score has been assigned for this task. <a href="https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts">See the latest session →</a></p>}
+          {a.slug === 'soar' && [8, 9].includes(task.id) && <p className="ag-sub">Not reached in the latest retest: the session ended during booking-confirmation troubleshooting. No score has been assigned for this task. <a href="https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts">See the latest session →</a></p>}
+          {a.slug === 'soar' && task.id === 6 && <><p className="ag-sub">Seat selection is not yet verified. The full latest transcript describes a fare with a Main Cabin seat included, but does not identify a chosen seat number or confirm a seat-selection action. The booking itself has been verified directly with AA by the reviewer.</p><TravelEvidenceMedia agent={a.slug} name={a.name} round={3} dimension={6} /></>}
           {latest && <>
             <div className="info-row"><span className="il">Round 3 · October 8, 2026 · NYC → Miami</span><ScoreCell value={latest.score} /></div>
             <p>{latest.notes}</p>

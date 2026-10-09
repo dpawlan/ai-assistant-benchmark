@@ -1,3 +1,4 @@
+export const TRAVEL_REPORT_AGENTS = ['muse', 'instinct', 'miso', 'grok-bot', 'dots'];
 import type { OpinionStat, Usage } from './types';
 import type { TravelSummary } from './travel-rollup';
 /** Proposed cohorts and protocol structure. These are not scored runs. */

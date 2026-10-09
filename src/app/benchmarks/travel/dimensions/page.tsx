@@ -1,3 +1,4 @@
+import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 import Link from 'next/link';
 import { BOOKING_SPEED_BANDS } from '@/lib/travel-speed';
 import { BenchmarkNav } from '@/components/BenchmarkNav';
@@ -8,7 +9,7 @@ import protocol from '../../../../../data/travel-protocol-v1.json';
 export const metadata: Metadata = { title: 'Travel dimensions', robots: { index: false, follow: false } };
 
 export default function TravelDimensionsPage() {
-  const agents = getAgents();
+  const agents = getAgents().filter(a => TRAVEL_REPORT_AGENTS.includes(a.slug));
   return <div className="wrap">
     <div className="ag-top"><Link className="back" href="/benchmarks/travel">← Travel assistants</Link></div>
     <div className="page-head"><h1 className="page-title">Dimensions</h1><p className="page-sub">Eight v1 dimensions. Open one to see results and test documentation. Observed results are labeled separately from the prescribed tests.</p></div>

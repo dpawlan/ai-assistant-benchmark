@@ -7,7 +7,8 @@ import allProtocol from '../../data/travel-protocol-v1.json';
 const protocol = allProtocol.filter(t => t.id !== 19 && t.id !== 20);
 
 type TestAgent = { slug: string; name: string; icon: string | null; usage: Usage | null };
-import { travelSessionPreview as results } from '@/lib/travel-session-preview';
+import { travelSessionPreview } from '@/lib/travel-session-preview';
+const results = travelSessionPreview.filter(r => r.slug !== 'soar');
 
 export function TravelTestReport({ agents, initialDimension, selectedAgent }: { agents: TestAgent[]; initialDimension: number; selectedAgent?: string }) {
   const selected = results.some(r => r.slug === selectedAgent) ? selectedAgent! : 'grok-bot';

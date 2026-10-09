@@ -1,3 +1,4 @@
+import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 import Link from 'next/link';
 import { TravelEvidenceMedia } from '@/components/TravelEvidenceMedia';
 import { TravelCompletionTime } from '@/components/TravelCompletionTime';
@@ -25,7 +26,7 @@ export default async function TravelDimensionPage({ params }: Props) {
   const { id } = await params;
   const task = protocol.find(t => String(t.id) === id);
   if (!task) notFound();
-  const agents = getAgents();
+  const agents = getAgents().filter(a => TRAVEL_REPORT_AGENTS.includes(a.slug));
   const tested = agents.filter(a => a.travel.runs[task.id]);
   const participants = agents.filter(a => a.travel.runs[task.id] || (a.slug === 'soar' && [6, 8, 9, 19].includes(task.id)) || (task.id !== 9 && task.id !== 19 && task.id !== 20 && travelSessionPreview.some(r => r.slug === a.slug)));
   const dimensionIndex = [18, 5, 6, 7, 8].indexOf(task.id);

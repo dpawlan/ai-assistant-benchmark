@@ -49,7 +49,7 @@ export default async function ReportPage({ params }: Props) {
       s.type === 'who' ? { id: 'who', label: 'Who this is for' }
       : s.type === 'how' ? { id: 'how', label: 'How we tested' }
       : s.type === 'pick' ? { id: `pick-${s.section.slug}`, label: s.section.heading }
-      : s.type === 'competition' ? { id: 'competition', label: consumer ? 'The six assistants' : 'The competition' }
+      : s.type === 'competition' ? { id: 'competition', label: consumer ? 'The five assistants' : 'The competition' }
       : s.type === 'ahead' ? { id: 'ahead', label: 'What to look forward to' }
       : { id: s.id, label: s.heading }),
     ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
@@ -135,7 +135,7 @@ export default async function ReportPage({ params }: Props) {
         }
         return (
           <section key={i} id="competition" className="rp-section">
-            <h2>{consumer ? 'The six assistants' : 'The competition'}</h2>
+            <h2>{consumer ? 'The five assistants' : 'The competition'}</h2>
             <p className="rp-muted">{consumer ? "What each assistant did well, where it fell short, and what remains untested." : `Other assistants reviewed, alongside ${pickAgent?.name ?? "our pick"}. Each one links to the full head to head.`}</p>
             {sec.entries.map(c => {
               const a = bySlug[c.slug];

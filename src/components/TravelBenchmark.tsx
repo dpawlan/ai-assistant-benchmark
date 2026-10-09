@@ -1,5 +1,7 @@
 'use client';
 
+import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
+
 import Link from 'next/link';
 import { useState } from 'react';
 import { compareTravelRank } from '@/lib/travel-rollup';
@@ -15,7 +17,7 @@ import type { TravelAgent } from '@/lib/travel-suite';
 
 export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[]; grid?: boolean }) {
   const [opinion, setOpinion] = useState(false);
-  const shown = agents.filter(a => a.travel.completed >= 3).sort(compareTravelRank);
+  const shown = agents.filter(a => TRAVEL_REPORT_AGENTS.includes(a.slug) && a.travel.completed >= 3).sort(compareTravelRank);
 
   return <>
     <div className="page-head home-head">

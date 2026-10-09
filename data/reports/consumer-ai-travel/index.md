@@ -58,6 +58,8 @@ Below, we break down each of the five assistants: where it worked, where it miss
 
 ### Muse
 
+Time to booking: approximately [16 minutes](/benchmarks/travel/dimensions/19#muse). Measured from restarting checkout for our selected flight, including payment reconnection; excludes the earlier unsuccessful attempt.
+
 **Where it worked:** Muse used our calendar and loyalty-account information to make its recommendations more personal. It flagged timing concerns, explained fare restrictions, and kept payment details out of chat. Once we connected the correct Link account, it booked our flight and returned confirmation. Cancellation was straightforward: it quoted the refund, asked for approval, and confirmed the cancellation.
 
 **Where it missed the mark:** Getting the payment connection working took more effort than it should have. Reconnection links were not usable, so we had to fix the connection in the app ourselves. After booking, Muse could neither change our flight nor upgrade our seat through its booking tools, and trying the airline website did not resolve either request. It also could not verify that the airline had received our loyalty number.
@@ -67,6 +69,8 @@ Below, we break down each of the five assistants: where it worked, where it miss
 [Onboarding](/benchmarks/travel/dimensions/18#muse) · [Booking](/benchmarks/travel/dimensions/5#muse) · [Travel profile](/benchmarks/travel/dimensions/7#muse) · [Rebooking](/benchmarks/travel/dimensions/9#muse) · [Seat selection](/benchmarks/travel/dimensions/6#muse) · [Cancellation](/benchmarks/travel/dimensions/8#muse)
 
 ### Instinct
+
+Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#instinct). From selecting the flight to booking confirmation, including payment-account clarification and approval.
 
 **Where it worked:** Instinct let us handle the booking through iMessage. It reused our traveler details, recommended an arrival time that suited the request, and booked through Duffel after we approved payment in Link. Our updated booking took about six minutes from flight selection to confirmation. When we asked for a premium seat, it explained the options and completed a $35 Main Cabin Extra purchase, making clear that the extra legroom still came with a middle seat.
 
@@ -78,6 +82,8 @@ Below, we break down each of the five assistants: where it worked, where it miss
 
 ### Miso
 
+Time to booking: approximately [3 minutes](/benchmarks/travel/dimensions/19#miso). From selecting the flight to initial booking confirmation. Includes card entry and checkout; excludes prior profile setup and subsequent confirmation-page troubleshooting.
+
 **Where it worked:** Once our traveler profile was set up, Miso made the booking feel simple. It used our saved Known Traveler Number and returned the initial booking confirmation about three minutes after we selected the flight. When our plans changed, it cancelled and rebooked the trip through iMessage. It also added our loyalty number to the profile and reservation, and completed an Economy Plus seat purchase after explaining the price and getting our approval. A human team was available when follow-up was needed.
 
 **Where it missed the mark:** Miso’s confirmation page failed, so we had to ask for the finalized confirmation and recover it through email. Cancelling the flight was easier than resolving the seat charge: the $85.99 seat refund went to its human team and remained outstanding when we finished. Its OTA inventory also meant Basic Economy was not available for this booking. The $258.40 Economy ticket was more expensive than the Basic Economy fare found elsewhere, but Miso had not chosen to skip a cheaper fare it could sell.
@@ -88,6 +94,8 @@ Below, we break down each of the five assistants: where it worked, where it miss
 
 ### GrokBot
 
+Time to booking: approximately [15.5 minutes](/benchmarks/travel/dimensions/19#grok-bot). From selecting the flight to booking confirmation, including forms and payment approval. Ticket processing was still noted at confirmation.
+
 **Where it worked:** GrokBot found and booked a $191.75 Basic Economy fare, explained the alternatives, and used secure forms and an approved virtual card for checkout. It removed unwanted payment-storage and marketing options along the way. It also got through every follow-up task we requested: changing the flight, purchasing a First Class upgrade, and cancelling the trip with a confirmed refund amount.
 
 **Where it missed the mark:** We had to stay involved. A contact form needed a retry, and the virtual-card number prompted us to check whether it had charged the wrong card. During the change, upgrade, and cancellation, stalled browser steps each required us to take control and finish an action. It completed the work, but it did not consistently take that work off our hands. It also did not proactively ask for loyalty or Known Traveler details.
@@ -97,6 +105,8 @@ Below, we break down each of the five assistants: where it worked, where it miss
 [Booking](/benchmarks/travel/dimensions/5#grok-bot) · [Onboarding](/benchmarks/travel/dimensions/18#grok-bot) · [Rebooking](/benchmarks/travel/dimensions/9#grok-bot) · [Seat selection](/benchmarks/travel/dimensions/6#grok-bot) · [Cancellation](/benchmarks/travel/dimensions/8#grok-bot) · [Proactiveness](/benchmarks/travel/dimensions/20#grok-bot)
 
 ### Dots
+
+Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dots). From selecting the flight to the airline confirmation we supplied after its browser connection failed. Includes account setup and checkout handoffs.
 
 **Where it worked:** Dots asked about our airport preference and budget, checked fare restrictions, and used our existing Delta account details. Once booked, it moved the flight without an additional payment and confirmed a $60.01 credit. It then purchased a $17.20 Comfort aisle seat after approval. When we cancelled, it was clear about what it could confirm and what remained unresolved.
 

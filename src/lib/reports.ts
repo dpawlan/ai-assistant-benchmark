@@ -72,6 +72,7 @@ const DIR = path.join(process.cwd(), 'data', 'reports');
 
 let nameIndex: Map<string, string> | null = null;
 function slugForName(name: string): string | null {
+  if (name.replace(/\s+/g, '').toLowerCase() === 'grokbot') return 'grok-bot';
   if (!nameIndex) nameIndex = new Map(getAgents().flatMap(a => [[a.name.toLowerCase(), a.slug], [a.slug, a.slug]]));
   return nameIndex.get(name.trim().toLowerCase()) ?? null;
 }

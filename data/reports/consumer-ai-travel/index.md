@@ -37,58 +37,22 @@ Those differences shape what happens after you ask for a flight. They affect how
 
 ## How we tested
 
-The report covers **Muse, Instinct, Miso, Grok Bot, and Dots**. The source pages call the latter two GrokBot and Dot; we use their Assistant Benchmark names here.
+The report covers [Muse](https://ai.meta.com/muse/), [Instinct](https://instinct.com/), [Miso](https://miso.com/), [GrokBot](https://x.ai/bot), and [Dots](https://openai.com/index/introducing-dots/).
 
-**Round one:** Grok Bot, Instinct, Miso, and Muse received the same opening request. Three returned ticketing confirmations: Grok Bot, Instinct, and Miso. Muse did not finish payment in that session.
+We tested all five assistants on their ability to cover the following dimensions from the Assistant Benchmark:
 
-> I want to book a one way flight to chicago from NYC this weekend. I want to leave Friday night and get in at a reasonable time.
-
-**Round two:** Grok Bot, Instinct, Miso, Muse, and Dots were asked to move the flight to the following day, obtain a premium seat, and cancel everything. Dots joined with a new Delta booking; Muse completed a new booking before its modification tests.
-
-**Latest retest:** Instinct was tested again on NYC–Miami after a product update. It booked, completed a seat upgrade and cancelled the flight, but could not rebook and left refunds unresolved. These are its latest findings; earlier rounds document its previous behavior.
-
-| Stage | What the records show |
+| Stage | Description |
 | --- | --- |
-| Onboarding | We reviewed setup and payment friction visible in the sessions. Accounts and saved profiles differed, so this is not a controlled new-account timing comparison. |
-| Booking | Three of the four included assistants tested in round one returned booking confirmations. Dots and Muse made fresh bookings in the later round. We distinguish a quoted fare from a ticketed reservation. |
-| Detailed requests | In the second round, three of five changed the departure date and three of five completed a paid seat or cabin upgrade in round two. We recorded approval steps, extra charges, and traveler intervention. |
-| Cancellations | Four of five reported flight cancellation in round two. Miso’s seat-fee refund and Dots’ earlier credit remained unresolved. We did not inspect bank statements to confirm settlement. |
+| Onboarding flow | Getting a traveler ready to book, with clear setup steps and the required information and access in place. |
+| Booking execution | Turning a chosen flight into a ticketed reservation, confirming the total and getting approval before payment. |
+| Seat selection | Finding and selecting a seat that fits the traveler’s preferences, explaining any fees and confirming the assigned seat. |
+| Travel profile | Collecting and correctly using traveler details, including loyalty numbers and Known Traveler Numbers, and saving or updating them when requested. |
+| Cancellation | Explaining the applicable terms, cancelling with approval, and making the refund or credit outcome clear. |
+| Rebooking | Moving a trip to the requested flight or date, getting approval for any additional cost, and confirming the new itinerary. |
+| Booking speed | Measuring the time from selecting a flight and asking to book it through confirmation, including checkout questions, payment setup, approvals, and handoffs. |
+| Proactiveness | Anticipating useful next steps, preferences, restrictions, and alternatives without waiting for the traveler to ask. |
 
-The stage breakdown below describes the initial two rounds. The latest retest follows it, and the assistant reviews reflect the newest evidence.
-
-### 01 · Onboarding and payment
-
-Miso used a companion app to collect traveler information, including a Known Traveler Number. Muse used calendar context and identified two loyalty accounts. Grok Bot used secure forms and an approval-based virtual-card flow; Dots asked the traveler to enter the card security code directly in the airline checkout.
-
-The boundaries were not equally clear. Instinct accepted card details through chat and assumed authorization when the cardholder’s name differed from the traveler’s. That is an observed consent-handling weakness, not evidence that the card was actually used without its owner’s permission. Dots explicitly asked whether the traveler was authorized to use the saved card.
-
-### 02 · Booking
-
-Grok Bot and Instinct each returned a $191.75 booking confirmation for United UA1871. Miso returned a $258.40 confirmation for that flight, with a different fare description. Muse’s first session stalled at payment; a later session completed a $354.40 booking for a different United flight.
-
-Dots booked a $268.40 Delta Main Classic itinerary. Its checkout handoff was awkward, and the browser disconnected after purchase submission. The traveler supplied the airline confirmation; Dots acknowledged that it had not independently verified the ticket receipt at that point.
-
-### 03 · Changes and premium seats
-
-Grok Bot changed the United itinerary for an additional $110.74, including a move out of Basic Economy and the fare difference. It later completed a $161.25 First Class upgrade. Traveler screen handoffs were needed when airline actions stalled.
-
-Miso cancelled and rebooked for $222.40, then reported completing an $85.99 Economy Plus seat purchase after approval. Dots changed its Delta flight with no additional payment and a reported $60.01 eCredit, then completed a $17.20 Comfort upgrade.
-
-Muse could not complete either modification through its tools. Instinct’s attempted rebooking and seat change ended in a browser-access failure. These upgrades were different products on different itineraries; their prices are not a like-for-like cabin comparison.
-
-### 04 · Cancellations
-
-Grok Bot reported cancellation and a $463.74 refund after explicit approval and another traveler handoff. Muse quoted $354.40 back, asked for confirmation, then reported the booking cancelled. Those are recorded refund confirmations, not independently verified credits on a bank statement.
-
-Miso reported the $222.40 flight refund, but its $85.99 seat-fee refund remained with its human team. Dots reported a $225.59 refund for the changed flight and upgrade; the earlier $60.01 eCredit was still unexplained when the traveler ended the session. Instinct did not complete cancellation in the saved record.
-
-The assistants made differing statements about cancellation windows. We report the observed outcome for each reservation and do not present their explanations as a general airline refund rule.
-
-### Latest retest · Instinct
-
-Instinct booked an American Main Cabin flight for $443.40 through Duffel and Link, using the intended card. It took approximately six minutes from flight selection to confirmation, or nine minutes from the initial request. It then purchased a $35 Main Cabin Extra seat after approval. Rebooking still failed: Instinct first offered to handle the change, then retracted and directed the traveler to Duffel support. Flight cancellation was confirmed, but the flight refund amount and separate seat refund remained unresolved.
-
-[Latest retest evidence and transcripts](https://stmy6z4b3h.s.stableupload.dev/round3.html#transcripts)
+Below, we break down each of the five assistants: where it worked, where it missed the mark, and what your takeaway should be as a consumer. We then outline which assistant is best for each scenario.
 
 ## The competition
 
@@ -116,9 +80,9 @@ Instinct booked an American Main Cabin flight for $443.40 through Duffel and Lin
 
 **Consumer takeaway:** Our pick for premium travel support: a traveler profile, changes handled through iMessage, and a human team involved when follow-up was needed. The appeal is the service around the trip. Its unresolved seat-fee refund remains a limitation of the observed result. [Booking evidence](https://stmy6z4b3h.s.stableupload.dev/#transcripts) · [Modification evidence](https://stmy6z4b3h.s.stableupload.dev/round2.html#transcripts)
 
-### Grok Bot
+### GrokBot
 
-**Where it worked:** Grok Bot tied for the lowest ticketed round-one fare at $191.75. It explained fare choices, used secure forms and an approved virtual card, and removed preselected payment-storage and marketing options. In round two it completed the date change, First Class upgrade, and cancellation, with a reported $463.74 refund.
+**Where it worked:** GrokBot tied for the lowest ticketed round-one fare at $191.75. It explained fare choices, used secure forms and an approved virtual card, and removed preselected payment-storage and marketing options. In round two it completed the date change, First Class upgrade, and cancellation, with a reported $463.74 refund.
 
 **Where it missed the mark:** The process was lengthy and required a desktop app. A form needed a retry, the virtual-card number initially confused the traveler, and three screen handoffs were needed across the modification tasks. This was successful assisted execution, not a hands-off service.
 
@@ -136,9 +100,9 @@ Instinct booked an American Main Cabin flight for $443.40 through Duffel and Lin
 
 These are editorial picks for the recorded tasks, not claims that a product is universally best. Four of the included assistants participated in the first round and five in the second; Instinct was later retested on a different route. Booking conditions and levels of traveler help varied. We have not combined the source pages’ separate scoring systems into a single overall score.
 
-## Best for budget booking in this test: Grok Bot
+## Best for budget booking in this test: GrokBot
 
-Grok Bot and Instinct tied at $191.75 for the same Basic Economy flight. Grok Bot gets our category pick because the initial price was paired with a clearer payment-approval flow and successful follow-up tasks in round two. The low fare came with restrictions: changing it later cost extra.
+GrokBot and Instinct tied at $191.75 for the same Basic Economy flight. GrokBot gets our category pick because the initial price was paired with a clearer payment-approval flow and successful follow-up tasks in round two. The low fare came with restrictions: changing it later cost extra.
 
 ### Flaws but not dealbreakers
 
@@ -172,7 +136,7 @@ The result applies to that reservation and its eligibility at the time. It does 
 
 ## Premium service and premium seats
 
-Miso’s category pick reflects the support around a trip: saved traveler details, changes through chat, and human follow-up. For travelers specifically seeking a First Class upgrade, Grok Bot supplied the clearest example in these tests, reporting a United First upgrade for $161.25 and verifying the assigned window seat. Dots and Miso also completed paid upgrades to different seat products.
+Miso’s category pick reflects the support around a trip: saved traveler details, changes through chat, and human follow-up. For travelers specifically seeking a First Class upgrade, GrokBot supplied the clearest example in these tests, reporting a United First upgrade for $161.25 and verifying the assigned window seat. Dots and Miso also completed paid upgrades to different seat products.
 
 A higher cabin class is one part of premium travel. Our Miso recommendation prioritizes ongoing service, while recognizing that these tests did not cover luxury hotels, lounge benefits, or complex international itineraries.
 

@@ -23,7 +23,7 @@ Travel is a practical test of consumer AI because the work is familiar: compare 
 
 Travel is already appearing as the leading use case for AI assistance. In his [conversation with Patrick O'Shaughnessy on Invest Like the Best](https://www.youtube.com/watch?v=Am7IWP8IpEc), founder Noah Shinn said travel accounted for over 50% of the platform's transaction volume, which was approaching $1 billion a year in annualized GMV.
 
-With the rise in demand we set out to test which AI assistants are actually the best at booking travel. This is our first consumer report.
+With the rise in demand, we set out to test which AI assistants are actually the best at booking travel. This is our first consumer report.
 
 ## Why travel is so complex
 

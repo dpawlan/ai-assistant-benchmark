@@ -1,0 +1,19 @@
+{
+  "id": "tab-2026-10-07-d6da50",
+  "agent": "tab",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 2,
+    "my_messages": 1,
+    "agent_messages": 1,
+    "first_reply_s": 25,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-08T15:23:19.162Z"
+}

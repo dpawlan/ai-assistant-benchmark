@@ -1,0 +1,19 @@
+{
+  "id": "tab-2026-10-07-4f466c",
+  "agent": "tab",
+  "category": "phone_calls",
+  "protocol": "task",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 21,
+    "my_messages": 8,
+    "agent_messages": 13,
+    "first_reply_s": 6,
+    "duration_min": 36,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-08T15:23:19.162Z"
+}

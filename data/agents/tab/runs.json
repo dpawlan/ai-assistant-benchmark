@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tab-2026-10-07-bf4090",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Three nonstop options with a sound pick in ten minutes, then nearly an hour driving the airline site to the pay step before being stopped.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-bf4090"
+  },
+  {
+    "id": "tab-2026-10-07-d6da50",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Named Planta at 15 W 27th within a minute with a backup, but gave one option without reasons and misplaced a florist twice.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-d6da50"
+  },
+  {
+    "id": "tab-2026-10-07-288f5d",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Three tries at a table for two across the website and a call, none completed; one hold expired while it was filling the form.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-288f5d"
+  },
+  {
+    "id": "tab-2026-10-07-a0ca55",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Reached Place Order with a card and was declined three times, blaming the bank before finding the shop's fraud filter; nothing bought.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-a0ca55"
+  },
+  {
+    "id": "tab-2026-10-07-00f743",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-10-07",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Takes cards through a link it cannot read, confirms totals before paying, and stopped on command with nothing charged.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-00f743"
+  },
+  {
+    "id": "tab-2026-10-07-4f466c",
+    "category": "phone_calls",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Called the restaurant within a minute of being asked and reported back in one more: the line is a bot that only books online.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-07-4f466c"
+  },
+  {
+    "id": "tab-2026-10-08-56a499",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-08",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Kept name, card and recipient across tasks, but booked a Saturday dinner without checking the trip it had planned for that weekend.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-08-56a499"
+  }
+]

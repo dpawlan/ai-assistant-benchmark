@@ -1,0 +1,19 @@
+{
+  "id": "del-2026-10-07-75efea",
+  "agent": "del",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-10-07",
+  "signals": {
+    "turns": 5,
+    "my_messages": 1,
+    "agent_messages": 4,
+    "first_reply_s": 2,
+    "duration_min": 1,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-07T16:49:12.919Z"
+}

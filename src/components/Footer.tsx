@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -26,6 +28,14 @@ export function Footer({ updated }: { updated: string }) {
           @DavidPawlan
         </a>
       </p>
+      <a
+        className="merit-logo"
+        href="https://merit.systems"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Image src="/logos/merit.svg" alt="Merit Systems" width={104} height={30} unoptimized />
+      </a>
     </footer>
   );
 }

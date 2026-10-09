@@ -1,0 +1,72 @@
+[
+  {
+    "id": "del-2026-10-07-a31b4d",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Corrected the dates, returned five priced round trips with a screenshot, filtered to nonstops after 8am, and held the American fare.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-a31b4d"
+  },
+  {
+    "id": "del-2026-10-07-ff7b64",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Listed five vegan spots near 27th and 6th with ratings, addresses and weekend hours in seven minutes, though without price levels.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-ff7b64"
+  },
+  {
+    "id": "del-2026-10-07-c39cf6",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Found 7pm tables at three places and held one, but a wrong phone number stalled the form, and neither the table nor the flowers finished.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-c39cf6"
+  },
+  {
+    "id": "del-2026-10-07-a945eb",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-07",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Reached the card step, then failed to place the order even after a card was added and approved twice, tripping on the billing form.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-a945eb"
+  },
+  {
+    "id": "del-2026-10-07-b624c6",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-10-07",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Collects phone numbers through a secure form instead of chat, dropped a held booking on command and stopped the browser when told to.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-b624c6"
+  },
+  {
+    "id": "del-2026-10-07-4b81b0",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-07",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Held a New York dinner for October 17 minutes after lining up a Chicago trip that weekend, and re-asked a time zone it had confirmed.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-4b81b0"
+  },
+  {
+    "id": "del-2026-10-07-75efea",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-10-07",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Watches calendars and inboxes and drives its own browser, but offers only about nine integrations, with bank links as the payment hookup.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-07-75efea"
+  }
+]

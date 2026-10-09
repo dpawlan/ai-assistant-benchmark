@@ -1,3 +1,7 @@
+import travelPickDetails from '../../../../data/reports/consumer-ai-travel/pick-details.json';
+import { travelScreenshots } from '@/lib/travel-screenshots';
+import { TravelScreenshot } from '@/components/TravelScreenshot';
+import { compareTravelRank } from '@/lib/travel-rollup';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -33,6 +37,7 @@ export default async function ReportPage({ params }: Props) {
   const { key } = await params;
   const report = getReport(key);
   if (!report) notFound();
+  const consumer = report.key === 'consumer-ai-travel';
   const agents = getAgents();
   const bySlug = Object.fromEntries(agents.map(a => [a.slug, a]));
   const category = getCategory(report.dimension);
@@ -44,11 +49,11 @@ export default async function ReportPage({ params }: Props) {
   const author = getAuthor(report.author ?? 'david-pawlan');
 
   const toc: { id: string; label: string }[] = [
-    ...report.sections.map(s =>
+    ...report.sections.filter(s => !consumer || (s.type !== 'pick' && !(s.type === 'extra' && s.heading.startsWith('Best for')))).map(s =>
       s.type === 'who' ? { id: 'who', label: 'Who this is for' }
       : s.type === 'how' ? { id: 'how', label: 'How we tested' }
       : s.type === 'pick' ? { id: `pick-${s.section.slug}`, label: s.section.heading }
-      : s.type === 'competition' ? { id: 'competition', label: 'The competition' }
+      : s.type === 'competition' ? { id: 'competition', label: consumer ? 'The five assistants' : 'The competition' }
       : s.type === 'ahead' ? { id: 'ahead', label: 'What to look forward to' }
       : { id: s.id, label: s.heading }),
     ...(report.updates.length ? [{ id: 'updates', label: 'Updates' }] : []),
@@ -71,7 +76,7 @@ export default async function ReportPage({ params }: Props) {
             </span>
             <span className="rp-row-cells">
               <SpeedCell usage={a.usage} />
-              <ScoreCell value={a.scores[report.dimension]} />
+              {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
             </span>
           </Link>
         ))}
@@ -85,17 +90,32 @@ export default async function ReportPage({ params }: Props) {
       {report.picks.map(p => {
         const a = bySlug[p.slug];
         if (!a) return null;
-        return (
-          <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>
-            <span className="rp-pick-label">{p.label}</span>
-            <span className="rp-pick-head">
+        const content = <>
+          <span className="rp-pick-label">{p.label}</span>
+          <span className="rp-pick-head">
+            <AgentIcon name={a.name} icon={a.icon} size={44} />
+            <span className="rp-pick-name">{a.name}</span>
+            {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
+          </span>
+          <span className="rp-pick-why">{p.why}</span>
+        </>;
+        const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; improvement: string }>)[a.slug];
+        return consumer ? <article key={p.slug} className="rp-pick-card" data-agent={a.slug}>
+          <div className="rp-pick-copy">
+            <h3 className="rp-pick-label">{p.label}</h3>
+            <Link href={`/agents/${a.slug}`} className="rp-pick-head rp-pick-summary">
               <AgentIcon name={a.name} icon={a.icon} size={44} />
               <span className="rp-pick-name">{a.name}</span>
-              <ScoreCell value={a.scores[report.dimension]} />
-            </span>
-            <span className="rp-pick-why">{p.why}</span>
-          </Link>
-        );
+            </Link>
+            {details ? <>
+              <ul className="rp-pick-bullets">
+                {details.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}
+                <li><strong>Areas to improve:</strong> {details.improvement}</li>
+              </ul>
+              <Link href={details.evidence} className="rp-pick-evidence">View benchmark evidence →</Link>
+            </> : <p className="rp-pick-why">{p.why}</p>}
+          </div>
+        </article> : <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>{content}</Link>;
       })}
     </section>
   );
@@ -111,7 +131,7 @@ export default async function ReportPage({ params }: Props) {
           </section>
         );
         if (sec.type === 'ahead') return <section key={i} id="ahead" className="rp-section"><h2>What to look forward to</h2><Markdown body={sec.body} /></section>;
-        if (sec.type === 'extra') return <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} /></section>;
+        if (sec.type === 'extra') return <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} />{consumer && sec.id === 'category-winners' && picksBox}</section>;
         if (sec.type === 'pick') {
           const ps = sec.section;
           const a = bySlug[ps.slug];
@@ -134,22 +154,31 @@ export default async function ReportPage({ params }: Props) {
         }
         return (
           <section key={i} id="competition" className="rp-section">
-            <h2>The competition</h2>
-            <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
-            {sec.entries.map(c => {
+            <h2>{consumer ? 'The five assistants' : 'The competition'}</h2>
+            <p className="rp-muted">{consumer ? "Ranked by Travel benchmark performance, with scores out of 10." : `Other assistants reviewed, alongside ${pickAgent?.name ?? "our pick"}. Each one links to the full head to head.`}</p>
+            {(consumer ? [...sec.entries].sort((a, b) => bySlug[a.slug] && bySlug[b.slug] ? compareTravelRank(bySlug[a.slug], bySlug[b.slug]) : 0) : sec.entries).map(c => {
               const a = bySlug[c.slug];
               if (!a) return null;
+              const paragraphs = c.body.trim().split(/\n\s*\n/);
+              const lastParagraph = paragraphs.at(-1) ?? '';
+              const evidenceBody = consumer && /^\[[^\]]+\]\(\/benchmarks\/travel\/dimensions\//.test(lastParagraph) ? paragraphs.pop() : undefined;
+              const assessmentBody = paragraphs.join('\n\n');
               return (
                 <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
                   <div className="rp-competitor-head">
                     <AgentIcon name={a.name} icon={a.icon} size={32} />
                     <Link href={`/agents/${a.slug}`} className="rp-competitor-name">{a.name}</Link>
-                    <ScoreCell value={a.scores[report.dimension]} />
+                    {consumer && <Link href="/benchmarks/travel" className="rp-travel-score">Travel benchmark: {a.travel.score ?? "—"}/10</Link>}
+                    {!consumer && <ScoreCell value={a.scores[report.dimension]} />}
                     {pickAgent && pickAgent.slug !== a.slug && (
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
                   </div>
-                  <Markdown body={c.body} />
+                  {consumer && travelScreenshots[a.slug] ? <div className="rp-assistant-proof">
+                    <div className="rp-assistant-copy"><Markdown body={assessmentBody} /></div>
+                    <TravelScreenshot agent={a.slug} />
+                  </div> : <Markdown body={assessmentBody} />}
+                  {evidenceBody && <div className="rp-assistant-evidence"><Markdown body={evidenceBody} /></div>}
                 </div>
               );
             })}
@@ -206,28 +235,35 @@ export default async function ReportPage({ params }: Props) {
       {author && <AuthorAvatar author={author} size={32} />}
       <span className="rp-author-text">
         {author ? <Link href={`/authors/${author.slug}`}>By {author.name}</Link> : null}
-        <span>Updated {formatDate(report.updated)}. Published {formatDate(report.published)}.</span>
+        {!consumer && <span>{report.preview ? `Draft updated ${formatDate(report.updated)}` : `Updated ${formatDate(report.updated)}. Published ${formatDate(report.published)}.`}</span>}
       </span>
     </div>
   );
 
   return (
-    <div className="wrap mid rp">
+    <>
+    {consumer && <header className="rp-report-banner">
+      <ReportCover report={report} bySlug={bySlug} size="hero" />
+      <h1 className="rp-banner-title">{report.title}</h1>
+    </header>}
+    <div className={`wrap mid rp${consumer ? " rp-consumer" : ""}`}>
       {back}
       <header className="rp-hero">
         <div className="rp-hero-text">
-          <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
-          <h1 className="rp-title">{report.title}</h1>
+          {!consumer && <>
+            <p className="rp-eyebrow">{category?.label ?? report.dimension}</p>
+            <h1 className="rp-title">{report.title}</h1>
+          </>}
           <p className="rp-dek">{report.question}</p>
           {byline}
-          <p className="rp-byline">{ranked.length} assistants tested, {runCount} runs of the same task.</p>
-          {report.preview && <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>}
+          {!consumer && <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>}
+          {report.preview && !consumer && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
         </div>
-        <ReportCover report={report} bySlug={bySlug} size="hero" />
+        {!consumer && <ReportCover report={report} bySlug={bySlug} size="hero" />}
       </header>
 
       <div className="rp-intro"><Markdown body={report.intro} /></div>
-      {picksBox}
+      {!consumer && picksBox}
 
       <div className="rp-body">
         <nav className="rp-toc" aria-label="In this report">
@@ -236,8 +272,9 @@ export default async function ReportPage({ params }: Props) {
           {<p className="rp-toc-foot"><Link href={`/dimensions/${report.dimension}`}>The test and how it is scored</Link></p>}
         </nav>
         {body}
-        {rankingRail}
+        {!consumer && rankingRail}
       </div>
     </div>
+    </>
   );
 }

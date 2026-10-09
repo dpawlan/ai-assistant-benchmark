@@ -1,0 +1,239 @@
+[
+  {
+    "agent": "miso",
+    "dimension": 5,
+    "round": 1,
+    "minutes": 3,
+    "status": "completed",
+    "note": "14:13 \u201cGo with your first recommendation\u201d to 14:16 booking confirmation. Includes card entry and checkout questions; minute-resolution transcript.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/",
+    "request_to_confirmation_minutes": 5,
+    "request_to_confirmation_note": "14:11 request to 14:16 booking confirmation.",
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 5,
+    "round": 1,
+    "minutes": 12,
+    "status": "completed",
+    "note": "11:46 \u201cGo with your top recommendation\u201d to 11:58 booking confirmation. Includes fare clarification, traveler details, payment setup and approval; minute-resolution transcript.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/",
+    "request_to_confirmation_minutes": 14,
+    "request_to_confirmation_note": "11:44 request to 11:58 booking confirmation; minute-resolution timestamps.",
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "grok-bot",
+    "dimension": 5,
+    "round": 1,
+    "minutes": 15.5,
+    "status": "completed",
+    "note": "Recording: flight selected by 1:30; confirmation appears between 16:45 and 16:50. Approximately 15.5 minutes, including fare choice, traveler/contact forms, payment connection and approval. Ticket processing was still noted at confirmation.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/",
+    "request_to_confirmation_minutes": 17,
+    "request_to_confirmation_note": "Approximately 17 minutes from the initial request (within the first 10 seconds) to the booking confirmation (between 16:40 and 16:58) in the round-one recording. Includes tester input and payment approval; ticket processing was still noted.",
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "muse",
+    "dimension": 5,
+    "round": 1,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Payment account connection prevented completion in round one.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/"
+  },
+  {
+    "agent": "soar",
+    "dimension": 5,
+    "round": 1,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Assistant could not purchase the flight.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/"
+  },
+  {
+    "agent": "dots",
+    "dimension": 5,
+    "round": 2,
+    "minutes": 33,
+    "status": "completed",
+    "note": "13:43 accepts the recommended flight to 14:16 user-supplied airline confirmation. Includes account questions, sign-in, CVV entry, stuck handoff and verification delay; minute-resolution transcript.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html",
+    "request_to_confirmation_minutes": 40,
+    "request_to_confirmation_note": "13:36\u201314:16; includes account setup, tester waiting and user-supplied airline confirmation.",
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "dots",
+    "dimension": 9,
+    "round": 2,
+    "minutes": 7,
+    "status": "completed",
+    "note": "14:17\u201314:24.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "dots",
+    "dimension": 6,
+    "round": 2,
+    "minutes": 9,
+    "status": "completed",
+    "note": "14:24\u201314:33; includes secure CVV entry.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "dots",
+    "dimension": 8,
+    "round": 2,
+    "minutes": 2,
+    "status": "completed",
+    "note": "14:34\u201314:36 cancellation confirmation. Reconciliation continued until 14:43; $60.01 remained unresolved.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "miso",
+    "dimension": 9,
+    "round": 2,
+    "minutes": 5,
+    "status": "completed",
+    "note": "11:22\u201311:27.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "miso",
+    "dimension": 6,
+    "round": 2,
+    "minutes": 4,
+    "status": "completed",
+    "note": "11:30\u201311:34.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "miso",
+    "dimension": 8,
+    "round": 2,
+    "minutes": 2,
+    "status": "completed",
+    "note": "11:35\u201311:37 flight cancellation. Separate $85.99 seat refund remained unresolved.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "muse",
+    "dimension": 5,
+    "round": 2,
+    "minutes": 16,
+    "status": "completed",
+    "note": "12:17 \u201ctry again\u201d resumes checkout for the previously selected flight; 12:33 ticket confirmation. Includes Link diagnosis/reconnection and renewed price approval. The previous day\u2019s unsuccessful attempt remains documented separately; the overnight gap is excluded.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html",
+    "request_to_confirmation_minutes": 16,
+    "request_to_confirmation_note": "12:17 restart request to 12:33 ticket confirmation. Includes Link diagnosis and reconnection within this resumed session. The prior day\u2019s unsuccessful attempt is recorded separately; the overnight gap is excluded.",
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "muse",
+    "dimension": 8,
+    "round": 2,
+    "minutes": 2,
+    "status": "completed",
+    "note": "13:02\u201313:04.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 9,
+    "round": 2,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Requested task did not complete in this session.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 6,
+    "round": 2,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Requested task did not complete in this session.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 8,
+    "round": 2,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Requested task did not complete in this session.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "muse",
+    "dimension": 9,
+    "round": 2,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Requested task did not complete in this session.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "muse",
+    "dimension": 6,
+    "round": 2,
+    "minutes": null,
+    "status": "not_completed",
+    "note": "Requested task did not complete in this session.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "grok-bot",
+    "dimension": 9,
+    "round": 2,
+    "minutes": null,
+    "status": "completed",
+    "note": "Completed with tester browser assistance. Exact request-to-confirmation interval not yet measured.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "grok-bot",
+    "dimension": 6,
+    "round": 2,
+    "minutes": null,
+    "status": "completed",
+    "note": "Completed with tester browser assistance. Exact request-to-confirmation interval not yet measured.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "grok-bot",
+    "dimension": 8,
+    "round": 2,
+    "minutes": null,
+    "status": "completed",
+    "note": "Completed with tester browser assistance. Exact request-to-confirmation interval not yet measured.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round2.html"
+  },
+  {
+    "agent": "instinct",
+    "dimension": 5,
+    "round": 3,
+    "minutes": 6,
+    "status": "completed",
+    "note": "3:05 PM selected-flight request to 3:11 PM ticket confirmation; includes repeated payment-account clarification and approval. Minute-resolution transcript.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round3.html",
+    "request_to_confirmation_minutes": 9,
+    "basis": "flight-selected-booking-request-to-confirmation"
+  },
+  {
+    "agent": "soar",
+    "dimension": 5,
+    "round": 3,
+    "minutes": 32,
+    "status": "completed",
+    "note": "3:47 PM flight selection to 4:19 PM first confirmation; approximately 33 minutes from initial request. David subsequently verified the flight directly with AA. Confirmation email was not delivered; later contradictory chat messages do not change the verified booking outcome. Exact ticket issuance time is not established.",
+    "source": "https://stmy6z4b3h.s.stableupload.dev/round3.html",
+    "first_confirmation_minutes": 32,
+    "session_minutes": 48,
+    "request_to_confirmation_minutes": 33,
+    "basis": "flight-selected-booking-request-to-confirmation"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "zapia-2026-10-02-travel-search-review",
+  "agent": "zapia",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-10-02",
+  "context": "Dimension review of the existing benchmark record zapia-2026-10-02-e7959f. Recorded outcome: Found a $365 fare with a Sunday morning return and a $465 one that fit the schedule, booked nothing and asked which constraint to relax. This review separates flight search from ticketing, assigned seats and check-in. Staging checkout is not evidence of a ticketed reservation. Scores below assess only the documented search; missing documentation is identified in each result. No new booking or live fare verification was performed.",
+  "published_at": "2026-10-04T22:23:16.687080+00:00"
+}

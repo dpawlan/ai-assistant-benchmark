@@ -4207,3 +4207,228 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .cb-code { margin: 12px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--fill); font-size: 13px; line-height: 1.5; overflow-x: auto; }
 .cb-steps, .cb-list { margin: 10px 0 0; padding-left: 22px; font-size: 15px; line-height: 1.55; }
 .cb-steps li, .cb-list li { margin-bottom: 8px; }
+
+/* Consumer report: a reading column with a compact report navigation. */
+.rp-consumer { max-width: 1160px; }
+.rp-consumer .rp-hero { grid-template-columns: minmax(0, 1fr) 260px; gap: 48px; padding: 24px 0 32px; border-bottom: 1px solid var(--line); }
+.rp-consumer .rp-title { font-size: clamp(32px, 3.6vw, 48px); max-width: 640px; line-height: 1.08; }
+.rp-consumer .rp-eyebrow { color: var(--blue); text-transform: uppercase; letter-spacing: .09em; font-size: 11px; }
+.rp-consumer .rp-cover { aspect-ratio: 1; }
+.rp-consumer .rp-intro { max-width: 960px; margin: 28px 0 0; }
+.rp-consumer .rp-intro p { font-size: 19px; line-height: 1.6; }
+.rp-consumer .rp-body { grid-template-columns: 210px minmax(0, 1fr); gap: 52px; }
+.rp-consumer .rp-article { max-width: none; min-width: 0; }
+.rp-consumer .rp-section { padding: 0 0 36px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
+.rp-consumer .rp-section h2 { font-size: 28px; line-height: 1.2; }
+.rp-consumer #category-winners > h2 { font-size: clamp(32px, 3.2vw, 38px); line-height: 1.15; }
+.rp-consumer .rp-section h3 { font-size: 19px; margin-top: 28px; }
+.rp-consumer .rp-section blockquote { margin: 24px 0; padding: 20px 24px; border-left: 3px solid var(--blue); background: var(--fill); line-height: 1.6; }
+.rp-consumer .rp-competitor { padding: 24px; margin-top: 16px; border: 1px solid var(--line); border-radius: 14px; }
+.rp-consumer .rp-competitor-head { flex-wrap: wrap; }
+.rp-consumer .rp-competitor-link { display: none; }
+.rp-consumer .rp-picks { grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 24px 0 0; }
+.rp-consumer .rp-pick-strip { background: transparent; padding: 0; }
+.rp-consumer .rp-pick-strip-text span { display: none; }
+.rp-consumer .art-table {
+  margin: 24px 0 30px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.rp-consumer .art-table table { width: 100%; border-collapse: collapse; text-align: left; font-size: 15px; line-height: 1.6; }
+.rp-consumer .art-table th,
+.rp-consumer .art-table td { padding: 18px 22px; text-align: left; vertical-align: top; }
+.rp-consumer .art-table thead { background: var(--fill); }
+.rp-consumer .art-table thead th { font-size: 12px; font-weight: 600; color: var(--sec); }
+.rp-consumer .art-table tbody th { width: 180px; font-weight: 600; color: var(--text); }
+.rp-consumer .art-table tbody tr { border-top: 1px solid var(--line); }
+@media (max-width: 600px) {
+  .rp-consumer .art-table thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .rp-consumer .art-table tbody,
+  .rp-consumer .art-table tr,
+  .rp-consumer .art-table tbody th,
+  .rp-consumer .art-table td { display: block; width: auto; }
+  .rp-consumer .art-table tbody tr:first-child { border-top: 0; }
+  .rp-consumer .art-table tbody th { padding: 18px 18px 4px; }
+  .rp-consumer .art-table td { padding: 0 18px 18px; }
+}
+@media (max-width: 760px) {
+  .rp-consumer .rp-hero { display: flex; flex-direction: column; align-items: stretch; gap: 24px; }
+  .rp-consumer .rp-hero-text { order: 0; }
+  .rp-consumer .rp-cover { order: 1; aspect-ratio: auto; min-height: 132px; flex-direction: row; }
+  .rp-consumer .rp-cover-hero .rp-cover-lead { width: 64px; height: 64px; }
+  .rp-consumer .rp-body { display: block; padding-top: 24px; }
+  .rp-consumer .rp-toc { position: static; margin-bottom: 32px; padding: 16px; border: 1px solid var(--line); border-radius: 12px; }
+  .rp-consumer .rp-section h2 { font-size: 25px; }
+  .rp-consumer .rp-picks { grid-template-columns: 1fr; }
+  .rp-consumer .rp-competitor { padding: 18px; }
+}
+
+.rp-consumer .rp-cover { display: grid; grid-template-columns: repeat(3, 52px); justify-content: center; align-content: center; gap: 18px; padding: 24px; }
+.rp-consumer .rp-cover-rest { display: contents; }
+.rp-consumer .rp-cover-hero .rp-cover-lead,
+.rp-consumer .rp-cover-hero .rp-cover-small { width: 52px; height: 52px; }
+@media (max-width: 760px) {
+  .rp-consumer .rp-cover { min-height: 176px; }
+}
+/* Category preview: reuse the existing pills, list rows and score cells. */
+.category-description { margin: 12px 0 20px; font-size: 14px; line-height: 1.6; color: var(--sec); max-width: 75ch; }
+
+.travel-matrix { min-width: 833px; }
+.travel-matrix .travel-dimension-col { width: 135px; }
+.travel-matrix thead a { display: block; padding: 12px 8px; font-size: 12px; line-height: 1.4; color: var(--sec); }
+.travel-matrix thead a:hover, .category-description a:hover { color: var(--blue); }
+
+.travel-documentation h2 { scroll-margin-top: 90px; }
+.travel-evidence-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 20px 0; }
+.travel-evidence-grid figure { margin: 0; min-width: 0; }
+.travel-media-placeholder { aspect-ratio: 16 / 9; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px dashed var(--line); border-radius: 12px; background: var(--fill); color: var(--sec); }
+.travel-media-placeholder span:first-child { color: var(--text); font-weight: 600; }
+.travel-media-placeholder span:last-child, .travel-evidence-grid figcaption { font-size: 13px; line-height: 1.5; }
+.travel-evidence-grid figcaption { margin-top: 10px; color: var(--sec); }
+@media (max-width: 600px) { .travel-evidence-grid { grid-template-columns: 1fr; } }
+
+/* Documented travel tests reuse benchmark tables and evidence cards. */
+.travel-matrix { min-width: 925px; }
+.travel-test-card { padding: 24px 0; }
+.travel-test-card a { color: inherit; }
+.travel-test-card a:hover { color: var(--blue); }
+.travel-test-facts { display: flex; flex-wrap: wrap; gap: 12px 24px; color: var(--sec); font-size: 13px; }
+.travel-test-prompt { margin: 20px 0; padding: 16px 20px; border-left: 3px solid var(--blue); background: var(--fill); line-height: 1.7; }
+.travel-test-table { min-width: 800px; }
+.travel-test-table th, .travel-test-table td { text-align: left; padding: 16px 12px; }
+.travel-test-controls { display: flex; flex-wrap: wrap; gap: 8px; margin: 18px 0; }
+.travel-test-controls a { font: inherit; font-size: 13px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; color: var(--sec); background: var(--bg); cursor: pointer; }
+.travel-test-controls a[aria-current="true"] { background: var(--fill); color: var(--text); border-color: var(--blue); }
+#assistant-evidence { scroll-margin-top: 80px; }
+
+.travel-dimension-evidence { padding: 26px 0; border-bottom: 1px solid var(--line); scroll-margin-top: 80px; }
+.travel-evidence-heading { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+.travel-evidence-heading h3 { margin: 0; }
+.travel-previous-result { margin: 18px 0 0; }
+
+.travel-test-status { font-size: 12px; color: var(--sec); white-space: nowrap; }
+
+/* A quiet route illustration behind the report's assistant roster. */
+.rp-cover-travel { position: relative; isolation: isolate; overflow: hidden; }
+.rp-travel-art { position: absolute; inset: 0; width: 100%; height: 100%; color: #637f92; z-index: -1; pointer-events: none; }
+.rp-cover-travel .rp-cover-lead, .rp-cover-travel .rp-cover-small { box-shadow: 0 4px 16px #23384d12; border: 3px solid #ffffffcf; border-radius: 14px; }
+
+
+/* Travel timing uses its own width instead of a compact score cell. */
+.travel-matrix col.travel-time-col { width: 150px; }
+.travel-matrix .travel-time-heading { padding: 12px 10px; font-size: 12px; line-height: 1.4; color: var(--sec); }
+.travel-time-caption { display: block; margin-top: 3px; font-size: 11px; line-height: 1.35; font-weight: 400; color: var(--sec); }
+.travel-completion-value { display: inline-block; padding: 8px 4px; font-size: 13px; line-height: 1.4; font-variant-numeric: tabular-nums; text-align: center; white-space: nowrap; }
+.travel-rank .rk-slots.travel-time-slots { grid-template-columns: 44px 140px; }
+.travel-rank .rk-slots.travel-time-slots > :last-child { width: 140px; text-align: center; }
+@media (max-width: 600px) {
+  .travel-rank .rk-slots.travel-time-slots { grid-template-columns: 38px 106px; column-gap: 8px; }
+  .travel-rank .rk-slots.travel-time-slots > :last-child { width: 106px; }
+}
+
+.travel-time-score { display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
+.travel-time-score .sc { font-size: 12px; min-width: 28px; }
+
+/* Keep elapsed time and its score in the same slots on every row. */
+.travel-completion-value .travel-time-score { display: inline-grid; grid-template-columns: 60px 28px; gap: 10px; align-items: center; }
+.travel-completion-value .travel-time-score > :first-child { position: relative; text-align: right; }
+.travel-completion-value .travel-time-score > :last-child:not(:first-child) { text-align: center; }
+.travel-completion-value .travel-time-score > :only-child { grid-column: 1 / -1; text-align: center; }
+.travel-completion-value .travel-time-score sup { position: absolute; left: 100%; top: 0; margin-left: 1px; }
+
+.travel-session-media video, .travel-session-media img { display: block; width: 100%; max-height: 420px; object-fit: contain; background: var(--fill); border: 1px solid var(--line); border-radius: 10px; }
+.travel-session-media video { aspect-ratio: 16 / 10; }
+.travel-completion-value > .run-line { max-width: 130px; white-space: normal; font-size: 10px; line-height: 1.35; text-align: center; }
+
+/* Three logos above two centered logos, balanced around the travel illustration. */
+.rp-cover.rp-cover-travel { display: grid; grid-template-columns: repeat(6, 17px); justify-content: center; align-content: center; gap: 18px; padding: 24px; }
+.rp-cover.rp-cover-travel .rp-cover-rest { display: contents; }
+.rp-cover.rp-cover-travel .rp-cover-lead,
+.rp-cover.rp-cover-travel .rp-cover-small { width: 52px; height: 52px; grid-column: span 2; }
+.rp-cover.rp-cover-travel .rp-cover-rest > :nth-child(3) { grid-column: 2 / span 2; }
+.rp-cover.rp-cover-travel .rp-cover-rest > :nth-child(4) { grid-column: 4 / span 2; }
+
+/* Make links in report prose clearly recognizable. */
+.rp-consumer .rp-section p a,
+.rp-consumer .rp-section li a,
+.rp-consumer .rp-intro p a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.travel-transcript { margin: 20px 0; padding: 16px; border: 1px solid var(--line); border-radius: 10px; }
+.travel-transcript summary { cursor: pointer; color: var(--blue); font-weight: 500; }
+.travel-transcript ol { list-style: none; padding: 0; max-height: 650px; overflow: auto; }
+.travel-transcript li { padding: 16px 0; border-top: 1px solid var(--line); }
+.travel-transcript-speaker { color: var(--sec); font-size: 12px; }
+.travel-transcript-message { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 1.65; }
+
+.travel-assessment { margin: 16px 0; color: var(--sec); font-size: 14px; line-height: 1.6; }
+.travel-assessment summary { cursor: pointer; color: var(--text); }
+
+.travel-booking-metrics { display: flex; flex-wrap: wrap; gap: 20px 48px; margin: 20px 0 12px; }
+.travel-booking-metrics > div { display: flex; flex-direction: column; gap: 6px; }
+.travel-metric-label { font-size: 12px; color: var(--sec); }
+.travel-booking-metrics strong { font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.travel-metric-context, .travel-metric-caveat { font-size: 12px; color: var(--sec); line-height: 1.5; }
+.travel-metric-caveat { flex-basis: 100%; margin: -8px 0 0; }
+
+.rp-travel-score { font-size: 13px; color: var(--sec); text-decoration: underline; text-underline-offset: 3px; }
+
+.rp-consumer .rp-competitor ul { list-style: disc outside; padding-left: 22px; margin: 10px 0 20px; }
+.rp-consumer .rp-competitor li { display: list-item; padding-left: 4px; margin: 6px 0; }
+
+/* The consumer report opens with a panoramic cover, then the reading column. */
+.rp-report-banner { width: 100%; }
+.rp-report-banner .rp-cover.rp-cover-travel { width: 100%; height: clamp(240px, 32vw, 400px); aspect-ratio: auto; border-radius: 0; display: flex; flex-direction: row; align-items: center; justify-content: center; gap: clamp(18px, 3.5vw, 48px); padding: 28px; }
+.rp-report-banner .rp-cover.rp-cover-travel .rp-cover-lead,
+.rp-report-banner .rp-cover.rp-cover-travel .rp-cover-small { width: clamp(46px, 7vw, 86px); height: clamp(46px, 7vw, 86px); border-radius: 22%; flex-shrink: 0; }
+.rp-report-banner .rp-travel-art { height: 165%; top: -32.5%; }
+.rp-consumer .rp-hero { display: block; padding: 8px 0 30px; }
+.rp-consumer .rp-hero-text { gap: 16px; }
+.rp-consumer .rp-title { max-width: 100%; font-size: clamp(34px, 4.8vw, 60px); }
+.rp-consumer .rp-dek { max-width: 840px; }
+@media (max-width: 480px) { .rp-report-banner .rp-cover.rp-cover-travel { gap: 16px; padding: 20px; height: 220px; } }
+
+/* Center the title in the space below the logo row. */
+.rp-report-banner { position: relative; --banner-height: 420px; --banner-pad-top: 28px; --banner-pad-bottom: 155px; --banner-logo-size: clamp(46px, 7vw, 86px); }
+.rp-report-banner .rp-cover.rp-cover-travel { height: var(--banner-height); padding-top: var(--banner-pad-top); padding-bottom: var(--banner-pad-bottom); }
+.rp-banner-title { position: absolute; top: calc(75% + (var(--banner-pad-top) - var(--banner-pad-bottom) + var(--banner-logo-size)) / 4); transform: translateY(-50%); left: 24px; right: 24px; margin: 0 auto; max-width: 1100px; text-align: center; font-size: clamp(34px, 4.4vw, 60px); font-weight: 700; letter-spacing: -.04em; line-height: 1.08; }
+@media (max-width: 640px) {
+  .rp-report-banner { --banner-height: 340px; --banner-pad-bottom: 160px; }
+  .rp-banner-title { left: 22px; right: 22px; }
+}
+@media (max-width: 480px) { .rp-report-banner { --banner-pad-top: 20px; } }
+
+/* Original evidence belongs inside the category card, with access to the full image. */
+.rp-consumer .rp-picks { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.rp-consumer .rp-pick-card { display: grid; grid-template-columns: 1fr; gap: 28px; padding: 24px; }
+.rp-pick-summary { display: flex; flex-direction: column; gap: 10px; color: inherit; text-decoration: none; }
+.rp-pick-summary:hover .rp-pick-name { color: var(--blue); }
+.travel-screenshot { margin: 12px 0 0; min-width: 0; }
+.travel-screenshot > a { display: block; border-radius: 12px; overflow: hidden; }
+.travel-screenshot img { display: block; width: 100%; height: auto; }
+.travel-screenshot figcaption { margin-top: 10px; color: var(--sec); font-size: 12px; line-height: 1.5; }
+.travel-session-media .travel-screenshot { max-width: 560px; }
+.travel-session-media .travel-screenshot img { max-height: none; border: 0; border-radius: 0; }
+
+.rp-pick-copy { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.rp-consumer .rp-pick-card .rp-pick-label { margin: 0; font-size: clamp(24px, 2.2vw, 26px); font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; color: var(--text); }
+.rp-pick-copy .rp-pick-head { flex-direction: row; }
+.rp-consumer .rp-pick-bullets { list-style: disc outside; margin: 0; padding-left: 20px; }
+.rp-consumer .rp-pick-bullets li { font-size: 16px; line-height: 1.6; margin: 0 0 12px; padding-left: 2px; }
+.rp-pick-evidence { font-size: 13px; color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 760px) { .rp-consumer .rp-pick-card { padding: 20px; gap: 20px; } }
+
+/* Each assistant's assessment sits beside its supplied evidence screenshot. */
+.rp-assistant-proof { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 18px; }
+.rp-assistant-copy { min-width: 0; }
+.rp-assistant-copy > p:first-child { margin-top: 0; }
+.rp-assistant-proof > .travel-screenshot { margin-top: 0; align-self: center; justify-self: center; width: 100%; }
+@media (max-width: 760px) { .rp-assistant-proof { grid-template-columns: 1fr; gap: 20px; } }
+
+.rp-assistant-evidence { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+.rp-consumer .rp-assistant-evidence p { margin: 0; font-size: 14px; line-height: 1.8; }

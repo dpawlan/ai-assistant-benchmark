@@ -1,10 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useRouter, useSearchParams } from 'next/navigation';
-import { Suspense, useMemo, useState } from 'react';
+import { useState } from 'react';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { Agent, Category } from '@/lib/types';
-import { KINDS, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { ScoreCell } from './ScoreCell';
 import { OpinionCell } from './OpinionCell';
@@ -15,17 +14,6 @@ interface RankedListProps {
   agents: Agent[];
   categories: Category[];
   short: Record<string, string>;
-}
-
-type KindKey = (typeof KINDS)[number]['key'] | 'all';
-
-/** General is the default group (most interest is there); ?kind=all shows every group. */
-function KindFromUrl({ onKind }: { onKind: (k: KindKey) => void }) {
-  const params = useSearchParams();
-  const k = params.get('kind');
-  const want: KindKey = k === 'all' ? 'all' : k && isKind(k) ? k : 'general';
-  useMemo(() => onKind(want), [want, onKind]);
-  return null;
 }
 
 /** "Best at email replies and purchasing": the agent's own top two scored dimensions, in plain words. */
@@ -40,20 +28,11 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 }
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
-  const router = useRouter();
-  const [kind, setKindState] = useState<KindKey>('general');
   const [opinion, setOpinion] = useState(false);
   const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
-  const setKind = (k: KindKey) => {
-    setKindState(k);
-    router.replace(k === 'general' ? '/' : `/?kind=${k}`, { scroll: false });
-  };
-
-  const counts: Record<string, number> = {};
-  for (const a of agents) counts[a.kind] = (counts[a.kind] ?? 0) + 1;
-  const inKind = kind === 'all' ? agents : agents.filter(a => a.kind === kind);
+  const inKind = agents.filter(a => a.kind === 'general');
 
   const ranked = opinion
     ? [...inKind].sort((a, b) => (b.opinionOverall.score ?? -1) - (a.opinionOverall.score ?? -1) || b.opinionOverall.n - a.opinionOverall.n)
@@ -96,23 +75,8 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
 
   return (
     <div className="rank">
-      <Suspense fallback={null}>
-        <KindFromUrl onKind={setKindState} />
-      </Suspense>
-
       <div className="rank-bar">
-        <div className="kind-bar" role="tablist" aria-label="Group">
-          <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
-            All
-            <span className="kind-n">{agents.length}</span>
-          </button>
-          {KINDS.filter(k => counts[k.key]).map(k => (
-            <button key={k.key} type="button" role="tab" aria-selected={kind === k.key} className={`kind${kind === k.key ? ' on' : ''}`} onClick={() => setKind(k.key)}>
-              {k.label}
-              <span className="kind-n">{counts[k.key]}</span>
-            </button>
-          ))}
-        </div>
+        <BenchmarkNav active="general" />
         <div className="seg" role="tablist" aria-label="Score source">
           <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setOpinion(false)}>
             Scores
@@ -122,6 +86,8 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
           </button>
         </div>
       </div>
+
+      <CategoryDescription category="general" />
 
       <div className="rk-head" aria-hidden="true">
         <span />

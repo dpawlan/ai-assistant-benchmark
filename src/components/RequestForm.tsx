@@ -4,6 +4,7 @@ import { FormEvent, useState } from 'react';
 import { track } from '@vercel/analytics';
 
 interface FormData {
+  suite: 'general' | 'travel';
   agentName: string;
   agentUrl: string;
   categories: string[];
@@ -13,10 +14,10 @@ interface FormData {
   website: string;
 }
 
-const initial: FormData = { agentName: '', agentUrl: '', categories: [], contact: '', notes: '', website: '' };
+const initial: FormData = { suite: 'general', agentName: '', agentUrl: '', categories: [], contact: '', notes: '', website: '' };
 
 interface RequestFormProps {
-  categories: { key: string; label: string }[];
+  categories: Record<'general' | 'travel', { key: string; label: string }[]>;
 }
 
 export function RequestForm({ categories }: RequestFormProps) {
@@ -72,6 +73,13 @@ export function RequestForm({ categories }: RequestFormProps) {
   return (
     <form className="form" onSubmit={submit}>
       <div className="field">
+        <label htmlFor="suite">Category</label>
+        <select id="suite" className="input" value={data.suite} onChange={e => setData(d => ({ ...d, suite: e.target.value as FormData['suite'], categories: [] }))}>
+          <option value="general">General</option>
+          <option value="travel">Travel</option>
+        </select>
+      </div>
+      <div className="field">
         <label htmlFor="agentName">Assistant name</label>
         <input
           id="agentName"
@@ -100,7 +108,7 @@ export function RequestForm({ categories }: RequestFormProps) {
       <div className="field">
         <label>Dimensions to test first</label>
         <div className="choices" role="group" aria-label="Dimensions to test first">
-          {categories.map(c => {
+          {categories[data.suite].map(c => {
             const on = data.categories.includes(c.key);
             return (
               <button key={c.key} type="button" className={`choice${on ? ' on' : ''}`} aria-pressed={on} onClick={() => toggle(c.key)}>
@@ -109,7 +117,7 @@ export function RequestForm({ categories }: RequestFormProps) {
             );
           })}
         </div>
-        <p className="hint">Optional. Leave empty and we test everything.</p>
+        <p className="hint">Optional. Leave empty to request all dimensions in this category.</p>
       </div>
 
       <div className="field">

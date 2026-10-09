@@ -1,0 +1,47 @@
+{
+  "grok-bot": {
+    "bullets": [
+      "Compared fares across airports and arrival times.",
+      "Explained Basic Economy restrictions before checkout.",
+      "Booked for $191.75, with approval before payment."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/5#grok-bot",
+    "improvement": "Stalled browser steps required us to take over during changes, upgrades and cancellation."
+  },
+  "dots": {
+    "bullets": [
+      "Moved the flight to the following day.",
+      "No added payment; confirmed a $60.01 credit.",
+      "Explained the terms and asked before changing the booking."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/9#dots",
+    "improvement": "Checkout and cancellation needed follow-up; the $60.01 credit remained unexplained after cancellation."
+  },
+  "miso": {
+    "bullets": [
+      "Handled rebooking and seat upgrades through chat.",
+      "Brought a human into the conversation when the seat refund needed help.",
+      "The team confirmed the $85.99 refund with United."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/8#miso",
+    "improvement": "Confirmation and seat-map glitches needed recovery; the seat-fee refund required a human to resolve it."
+  },
+  "muse": {
+    "bullets": [
+      "Quoted a $354.40 refund before cancelling.",
+      "Explained the cancellation window and asked for approval.",
+      "Confirmed cancellation and expected refund timing."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/8#muse",
+    "improvement": "Could not change the flight, upgrade the seat or verify that the airline received our loyalty number."
+  },
+  "instinct": {
+    "bullets": [
+      "15 chat messages from the trip request to booking confirmation; four were from the traveler.",
+      "About six minutes from selecting the flight to confirmation.",
+      "Booked a $443.40 American Main Cabin fare through Duffel in iMessage."
+    ],
+    "evidence": "/benchmarks/travel/dimensions/19#instinct",
+    "improvement": "Payment needed clarification; flight changes required contacting Duffel, and the seat-refund submission failed."
+  }
+}

@@ -40,12 +40,12 @@
     "agent": "grok-bot",
     "dimension": 9,
     "date": "2026-10-07",
-    "score": 9,
+    "score": 7,
     "evidence_url": "/benchmarks/travel/dimensions/9#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the Saturday change after disclosing and obtaining approval for the $110.74 additional cost. One point deducted because the tester had to click Change flight when checkout stalled."
+    "notes": "Completed the Saturday change after disclosing and obtaining approval for the $110.74 additional cost. Scored 7/10 because checkout stalled and the tester had to take over the browser, click Change flight and return control. The change succeeded, but required extra manual effort beyond ordinary approval."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-6",

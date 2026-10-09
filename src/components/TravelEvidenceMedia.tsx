@@ -15,7 +15,7 @@ export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: 
       <p className="ag-sub">Local evidence preview · Original recording. Personal details are unredacted; these files are not included in the published site.</p>
       <div className="travel-evidence-grid">
         <figure>
-          <video controls playsInline preload="none" aria-label={`${name}, round ${round}, full session recording`} src={`/api/travel-evidence/${key}.mp4`}>
+          <video controls playsInline preload="none" poster={`/travel-posters/${agent}.svg`} aria-label={`${name}, round ${round}, full session recording`} src={`/api/travel-evidence/${key}.mp4`}>
             <track kind="captions" />
           </video>
           <figcaption>{name} · Round {round} · Full session, including the task described above. Use the player to review the surrounding steps.</figcaption>
@@ -31,7 +31,7 @@ export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: 
       </div>
     </> : <p className="ag-sub">A redacted public recording is not yet available.</p>}
     {transcript.length > 0 ? <details className="travel-transcript">
-      <summary>Full transcript · {name} · Round {round}</summary>
+      <summary>Full transcript · {name}</summary>
       <p className="ag-sub">Original supplied transcript, including any prior conversation retained in this session export. Local preview only; contains unredacted personal information.</p>
       <ol>{transcript.map((message, index) => <li key={index}>
         <p className="travel-transcript-speaker">{message.role === 'user' ? 'Tester' : name}{message.reaction ? ' · Reaction' : ''}{message.time ? ` · ${message.time.replace(/^[^·]+·\s*/, '')}` : ''}</p>

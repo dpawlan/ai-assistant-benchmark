@@ -1,3 +1,4 @@
+import { MisoReportReview } from '@/components/MisoReportReview';
 import { TravelReportRecordings } from '@/components/TravelReportRecordings';
 import { compareTravelRank } from '@/lib/travel-rollup';
 import Link from 'next/link';
@@ -153,8 +154,10 @@ export default async function ReportPage({ params }: Props) {
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
                   </div>
-                  <Markdown body={c.body} />
-                  {consumer && <TravelReportRecordings agent={a.slug} name={a.name} />}
+                  {consumer && a.slug === "miso" ? <MisoReportReview body={c.body} /> : <>
+                    <Markdown body={c.body} />
+                    {consumer && <TravelReportRecordings agent={a.slug} name={a.name} />}
+                  </>}
                 </div>
               );
             })}

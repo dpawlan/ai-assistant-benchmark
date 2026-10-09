@@ -424,36 +424,36 @@
     "agent": "grok-bot",
     "dimension": 9,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 9,
     "evidence_url": "/benchmarks/travel/dimensions/9#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the Saturday change after disclosing and obtaining approval for the $110.74 additional cost."
+    "notes": "Completed the Saturday change after disclosing and obtaining approval for the $110.74 additional cost. One point deducted because the tester had to click Change flight when checkout stalled."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-6",
     "agent": "grok-bot",
     "dimension": 6,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 9,
     "evidence_url": "/benchmarks/travel/dimensions/6#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Confirmed United First seat 3A and the approved $161.25 charge."
+    "notes": "Confirmed United First seat 3A and the approved $161.25 charge. One point deducted because the tester had to click Agree and purchase when the purchase button stalled."
   },
   {
     "id": "grok-bot-2026-10-07-round-2-dimension-8",
     "agent": "grok-bot",
     "dimension": 8,
     "date": "2026-10-07",
-    "score": 10,
+    "score": 9,
     "evidence_url": "/benchmarks/travel/dimensions/8#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Confirmed cancellation and a full $463.74 refund after clarifying the scope."
+    "notes": "Confirmed cancellation and a full $463.74 refund after approval. One point deducted because the failed date-of-birth form required the tester to re-enter the information and click Cancel trip."
   },
   {
     "id": "miso-2026-10-07-round-2-dimension-9",

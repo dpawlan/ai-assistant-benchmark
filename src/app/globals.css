@@ -4319,3 +4319,13 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-cover.rp-cover-travel .rp-cover-small { width: 52px; height: 52px; grid-column: span 2; }
 .rp-cover.rp-cover-travel .rp-cover-rest > :nth-child(3) { grid-column: 2 / span 2; }
 .rp-cover.rp-cover-travel .rp-cover-rest > :nth-child(4) { grid-column: 4 / span 2; }
+
+/* Make links in report prose clearly recognizable. */
+.rp-consumer .rp-section p a,
+.rp-consumer .rp-section li a,
+.rp-consumer .rp-intro p a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}

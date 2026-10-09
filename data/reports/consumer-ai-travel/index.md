@@ -144,12 +144,6 @@ Muse made the refund amount and approval step clear and returned a cancellation 
 
 The result applies to that reservation and its eligibility at the time. It does not establish cancellation performance outside that scenario, and refund settlement was not independently checked.
 
-## Premium service and premium seats
-
-Miso’s category pick reflects the support around a trip: saved traveler details, changes through chat, and human follow-up. For travelers specifically seeking a First Class upgrade, GrokBot supplied the clearest example in these tests, reporting a United First upgrade for $161.25 and verifying the assigned window seat. Dots and Miso also completed paid upgrades to different seat products.
-
-A higher cabin class is one part of premium travel. Our Miso recommendation prioritizes ongoing service, while recognizing that these tests did not cover luxury hotels, lounge benefits, or complex international itineraries.
-
 ## Evidence and limits
 
 Explore the [Travel benchmark](/benchmarks/travel) and its [booking test evidence preview](/reports/nyc-chicago). The booking preview covers round one; the source transcripts below also document the later modification round.

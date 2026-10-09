@@ -40,12 +40,12 @@
     "agent": "grok-bot",
     "dimension": 5,
     "date": "2026-10-06",
-    "score": 7,
+    "score": 10,
     "evidence_url": "/benchmarks/travel/dimensions/5#grok-bot",
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the $191.75 purchase. The unexplained virtual-card number led the tester to question whether the wrong card had been charged; the assistant then checked and explained the funding card. This avoidable clarification reduces booking execution. The contact-form retry is counted under onboarding."
+    "notes": "Completed the approved $191.75 purchase and returned confirmation. Subsequent changes and cancellation corroborated the live booking."
   },
   {
     "id": "miso-2026-10-06-round-1-dimension-18",

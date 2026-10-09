@@ -40,10 +40,7 @@ export default async function TravelDimensionPage({ params }: Props) {
         const round = task.id === 19 ? timing?.round ?? 1 : run.date >= '2026-10-08' ? 3 : run.date >= '2026-10-07' ? 2 : 1;
         return <article className="travel-dimension-evidence" id={a.slug} key={a.slug}>
           <div className="travel-evidence-heading"><AgentIcon name={a.name} icon={a.icon} size={32} /><h2 className="ag-h2">{a.name}</h2>{task.id !== 19 && <ScoreCell value={run.score} />}</div>
-          {task.id === 19 ? <>
-            <TravelCompletionTime agent={a.slug} labeled />
-            <details className="travel-assessment"><summary>Timing details</summary><p>{timing?.note}</p></details>
-          </> : <p>{run.notes?.replace(/ Source (booking|seat|cancellation|rebooking) phase: [\d.]+\/5\./g, '')}</p>}
+          {task.id === 19 ? <TravelCompletionTime agent={a.slug} labeled /> : <p>{run.notes?.replace(/ Source (booking|seat|cancellation|rebooking) phase: [\d.]+\/5\./g, '')}</p>}
           <TravelEvidenceMedia agent={a.slug} name={a.name} round={round} dimension={task.id === 19 ? 5 : task.id} />
         </article>;
       })}

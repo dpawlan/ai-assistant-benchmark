@@ -64,6 +64,20 @@ try {
 
   assert.equal(partial.travel.completed, 1);
   console.log('Data loader: General/suite alignment, single inclusion in overall, legacy fallback and evidence provenance passed.');
+  const previousNodeEnv = process.env.NODE_ENV;
+  try {
+    process.env.NODE_ENV = 'development';
+    fixture = activeIds.map(id => run(id, 8, { agent: 'muse' }));
+    const liveData = require('../src/lib/data.ts');
+    assert.equal(liveData.getAgentDetail('muse').travel.score, 8);
+    fixture = activeIds.map(id => run(id, 10, { agent: 'muse' }));
+    assert.equal(liveData.getAgentDetail('muse').travel.score, 10);
+    console.log('Development preview: score file changes are reflected without a server restart.');
+  } finally {
+    if (previousNodeEnv === undefined) delete process.env.NODE_ENV;
+    else process.env.NODE_ENV = previousNodeEnv;
+  }
+
 } finally {
   fs.readFileSync = originalRead;
   if (originalTsLoader) require.extensions['.ts'] = originalTsLoader;
@@ -112,8 +126,10 @@ assert.equal(one.travel.score, 10);
 assert.equal(travelRankingScore(summarizeTravel('example', ids, [run(1, 10), run(1, 10, { id: 'repeat', date: '2026-10-05' })])), 6.25);
 console.log('Travel ranking: coverage, quality, unscored placement, ties, repeated tests and unchanged averages passed.');
 
-for (const [slug, expected] of [['grok-bot', 7.4], ['dots', 8], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
+for (const [slug, expected] of [['grok-bot', 8.9], ['dots', 8], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
 assert.equal(miso.scores[5], 7);
+const grok = summarizeTravel('grok-bot', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
+for (const id of [5, 6, 8, 9]) assert.equal(grok.scores[id], 10);
 
 // The latest retest supersedes earlier outcomes without erasing them.
 assert.equal(instinct.runs[5].date, '2026-10-08');

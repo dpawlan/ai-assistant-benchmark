@@ -30,14 +30,16 @@ const DATA_DIR = path.join(process.cwd(), 'data');
 const cache = new Map<string, unknown>();
 
 function readJson<T>(file: string): T | null {
-  if (cache.has(file)) return cache.get(file) as T | null;
+  // Files read through fs are not watched by Next; score edits must stay fresh in previews.
+  const useCache = process.env.NODE_ENV !== 'development';
+  if (useCache && cache.has(file)) return cache.get(file) as T | null;
   let value: T | null = null;
   try {
     value = JSON.parse(fs.readFileSync(file, 'utf-8')) as T;
   } catch {
     value = null;
   }
-  cache.set(file, value);
+  if (useCache) cache.set(file, value);
   return value;
 }
 

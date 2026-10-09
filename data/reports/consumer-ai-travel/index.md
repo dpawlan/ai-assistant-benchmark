@@ -15,7 +15,7 @@ picks:
   - muse | Cancellation clarity | Quoted the refund, requested approval, and returned a clear cancellation confirmation.
 ---
 
-When it comes to travel booking a flight is only the beginning. We examined how six AI assistants handled the entire spectrum of booking a flight. We started with onboarding and looked at how well they were able to add known traveler numbers or find a seat selection. We did re-bookings as well as cancellations. While all of them were able to execute the booking, the performance of each varied and that's what we're going to dive into.
+When it comes to travel, booking a flight is only the beginning. We examined how six AI assistants handled the entire spectrum of booking a flight. We started with onboarding and looked at how well they were able to add known traveler numbers or find a seat selection. We did re-bookings as well as cancellations. While all of them were able to execute the booking, the performance of each varied and that's what we're going to dive into.
 
 ## Why travelers are turning to AI
 

@@ -4220,6 +4220,7 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .rp-consumer .rp-article { max-width: none; min-width: 0; }
 .rp-consumer .rp-section { padding: 0 0 36px; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
 .rp-consumer .rp-section h2 { font-size: 28px; line-height: 1.2; }
+.rp-consumer #category-winners > h2 { font-size: clamp(32px, 3.2vw, 38px); line-height: 1.15; }
 .rp-consumer .rp-section h3 { font-size: 19px; margin-top: 28px; }
 .rp-consumer .rp-section blockquote { margin: 24px 0; padding: 20px 24px; border-left: 3px solid var(--blue); background: var(--fill); line-height: 1.6; }
 .rp-consumer .rp-competitor { padding: 24px; margin-top: 16px; border: 1px solid var(--line); border-radius: 14px; }

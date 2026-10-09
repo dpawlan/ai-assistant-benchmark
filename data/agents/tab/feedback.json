@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "f09tc001",
+    "agent": "tab",
+    "quote": "A new personal AI assistant has arrived. Meet Tab, which announced Tuesday that it had officially emerged from stealth at a $300 million valuation. Tab is part of the rising trend of consumer AI assistants, like the breakout hit Instinct and Meta's Muse, that promise to help people handle everyday tasks like making reservations and booking travel.",
+    "author": "dominicmdavis",
+    "author_name": "Dominic-Madori Davis (TechCrunch)",
+    "date": "2026-10-07",
+    "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/",
+    "kind": "news",
+    "tags": [
+      "launch",
+      "valuation",
+      "stealth"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "TechCrunch Oct 7: Tab launched from stealth at $300M valuation."
+  },
+  {
+    "id": "f09tc002",
+    "agent": "tab",
+    "quote": "Your data is never used to train AI. Your card lives in a vault Tab itself never sees. Nothing that can be undone happens without your 'yes.' Capability is table stakes. Trust is the product.",
+    "author": "ammar_amdani",
+    "author_name": "Ammar Amdani (Tab co-founder, via TechCrunch)",
+    "date": "2026-10-07",
+    "url": "https://techcrunch.com/2026/10/07/another-personal-ai-assistant-has-launched-meet-tab-which-emerged-from-stealth-with-a-300m-valuation/#trust",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "trust",
+      "security"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "Co-founder on Tab's trust-first positioning: no AI training on data, vaulted cards, approval before action."
+  },
+  {
+    "id": "f09tg001",
+    "agent": "tab",
+    "quote": "Unlike an AI assistant that requires you to open a separate app, Tab is designed to work through the messaging apps you already use. It currently supports iMessage and WhatsApp, letting you text the assistant much like you would a friend and ask it to take care of tasks for you.",
+    "author": "eltonjones",
+    "author_name": "Elton Jones (Tom's Guide)",
+    "date": "2026-10-07",
+    "url": "https://www.tomsguide.com/ai/meet-tab-the-personal-ai-assistant-race-is-heating-up-with-a-brand-new-personal-sidekick",
+    "kind": "news",
+    "tags": [
+      "imessage",
+      "whatsapp",
+      "messaging"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-09T14:00:00Z",
+    "notes": "Tom's Guide Oct 7: Tab works through iMessage and WhatsApp, no separate app."
+  }
+]

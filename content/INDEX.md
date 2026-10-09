@@ -1,6 +1,6 @@
 # Index
 
-_Updated 2026-10-08. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
+_Updated 2026-10-09. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
 
 | Agent | Folder | Feedback rows | Last updated | Status | Signal |
 |-------|--------|---------------|--------------|--------|--------|
@@ -12,16 +12,16 @@ _Updated 2026-10-08. Status `stretch` = on the benchmark board but outside core 
 | Caddy | `agents/caddy/` | 108 | 2026-09-11 | confirmed | — |
 | Catch | `agents/catch/` | 123 | 2026-09-21 | confirmed | — |
 | Folk | `agents/folk/` | 214 | 2026-09-24 | confirmed | medium |
-| Grok Bot | `agents/grok-bot/` | 1213 | 2026-10-08 | confirmed | — |
+| Grok Bot | `agents/grok-bot/` | 1214 | 2026-10-09 | confirmed | — |
 | Halo | `agents/halo/` | 5 | 2026-09-06 | confirmed | low |
 | HireAlpha | `agents/hirealpha/` | 4 | 2026-09-06 | confirmed | low |
-| Instinct | `agents/instinct/` | 298 | 2026-10-08 | confirmed | — |
+| Instinct | `agents/instinct/` | 300 | 2026-10-09 | confirmed | — |
 | Joshu | `agents/joshu/` | 19 | 2026-09-06 | confirmed | — |
 | Lava | `agents/lava/` | 9 | 2026-09-06 | stretch | low |
 | Lucas | `agents/lucas/` | 11 | 2026-09-06 | confirmed | low |
 | Mana | `agents/mana/` | 10 | 2026-09-06 | confirmed | low |
 | Miso | `agents/miso/` | 67 | 2026-09-09 | confirmed | high |
-| Muse | `agents/muse/` | 267 | 2026-10-08 | confirmed | — |
+| Muse | `agents/muse/` | 268 | 2026-10-09 | confirmed | — |
 | Moves | `agents/moves/` | 0 | — | stretch | unknown |
 | Ollie | `agents/ollie/` | 132 | 2026-09-11 | confirmed | — |
 | OpenClaw | `agents/openclaw/` | 42 | 2026-10-05 | confirmed | low |
@@ -44,5 +44,5 @@ _Updated 2026-10-08. Status `stretch` = on the benchmark board but outside core 
 | Tomo | `agents/tomo/` | 67 | 2026-09-24 | confirmed | — |
 | Town | `agents/town/` | 307 | 2026-09-24 | confirmed | — |
 | Vellum | `agents/vellum/` | 34 | 2026-09-07 | confirmed | — |
-| Wajo / Fo | `agents/wajo-fo/` | 69 | 2026-09-11 | confirmed | — |
+| Wajo / Fo | `agents/wajo-fo/` | 72 | 2026-10-09 | confirmed | — |
 | Waldo | `agents/waldo/` | 7 | 2026-09-06 | stretch | low |

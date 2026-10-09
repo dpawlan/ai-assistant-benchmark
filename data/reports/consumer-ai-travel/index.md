@@ -156,48 +156,6 @@ Time to booking: approximately [33 minutes](/benchmarks/travel/dimensions/19#dot
 
 These picks reflect our experience with each assistant. Routes, fares and the amount of help we provided varied, so each recommendation focuses on a specific travel need.
 
-## Best for budget booking in this test: GrokBot
-
-GrokBot and Instinct tied at $191.75 for the same Basic Economy flight. GrokBot gets our category pick because the initial price was paired with a clearer payment-approval flow and successful changes and cancellation. The low fare came with restrictions: changing it later cost extra.
-
-### Flaws but not dealbreakers
-
-The desktop workflow was verbose and required intervention. The fare comparison is specific to this route and these sessions; it does not establish which assistant will find the cheapest price on another trip.
-
-## Best for flexible trip changes in this test: Dots
-
-Dots moved the Delta booking without an additional charge, reported a credit, and completed the requested seat upgrade. Its selection of a changeable fare mattered when plans changed.
-
-### Flaws but not dealbreakers
-
-Dots used a different airline and fare from the United Basic Economy bookings. Initial checkout was not smooth, and the earlier credit remained unresolved after cancellation. This is a recommendation for the observed workflow, not proof of greater autonomy under identical conditions.
-
-## Best for premium travel support: Miso
-
-For travelers who value someone handling the details, Miso is our premium-service pick among the five assistants tested. Its traveler profile carried booking information forward, and it managed rebooking and a paid seat upgrade through iMessage after setup. It quoted the upgrade price and obtained approval before proceeding.
-
-Human support is part of that appeal. When the seat map failed, Miso’s team stepped into the conversation and provided it. We also received the booking confirmation by email after the confirmation page failed. That combination of conversational booking and human support makes Miso a strong fit for travelers who want help managing the details.
-
-### Flaws but not dealbreakers
-
-Miso’s available inventory did not include Basic Economy, which limited its ability to match the lowest fare we found elsewhere. The separate $85.99 seat-fee refund required the human team to step in and resolve it. The issue was closed, but the assistant could not complete that step on its own.
-
-## Best cancellation interaction in this test: Muse
-
-Muse made the refund amount and approval step clear and returned a cancellation confirmation. We found cancellation straightforward, even though our flight-change and seat-change requests had failed.
-
-### Flaws but not dealbreakers
-
-The result applies to that reservation and its eligibility at the time. It does not establish cancellation performance outside that scenario, and refund settlement was not independently checked.
-
-## Low back-and-forth during booking: Instinct
-
-Instinct handled the booking in 15 transcript messages from the initial trip request to confirmation, including four from us. It reused our traveler details and returned confirmation about six minutes after we selected the flight.
-
-### Flaws but not dealbreakers
-
-The message count covers the chat, not secure forms or other setup steps. Instinct still needed help with payment-account clarification, rebooking and refund follow-up.
-
 ## Evidence and limits
 
 Explore the [Travel benchmark](/benchmarks/travel) and its [booking test evidence preview](/reports/nyc-chicago). The booking preview covers round one; the source transcripts below also document the later modification round.

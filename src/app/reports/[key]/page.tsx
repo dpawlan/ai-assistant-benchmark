@@ -99,7 +99,7 @@ export default async function ReportPage({ params }: Props) {
           </span>
           <span className="rp-pick-why">{p.why}</span>
         </>;
-        const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; caveat?: string }>)[a.slug];
+        const details = (travelPickDetails as Record<string, { bullets: string[]; evidence: string; improvement: string }>)[a.slug];
         return consumer ? <article key={p.slug} className="rp-pick-card" data-agent={a.slug}>
           <div className="rp-pick-copy">
             <h3 className="rp-pick-label">{p.label}</h3>
@@ -108,8 +108,10 @@ export default async function ReportPage({ params }: Props) {
               <span className="rp-pick-name">{a.name}</span>
             </Link>
             {details ? <>
-              <ul className="rp-pick-bullets">{details.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}</ul>
-              {details.caveat && <p className="rp-pick-caveat">{details.caveat}</p>}
+              <ul className="rp-pick-bullets">
+                {details.bullets.map(bullet => <li key={bullet}>{bullet}</li>)}
+                <li><strong>Areas to improve:</strong> {details.improvement}</li>
+              </ul>
               <Link href={details.evidence} className="rp-pick-evidence">View benchmark evidence →</Link>
             </> : <p className="rp-pick-why">{p.why}</p>}
           </div>

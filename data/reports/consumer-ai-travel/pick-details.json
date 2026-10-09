@@ -5,7 +5,8 @@
       "Explained Basic Economy restrictions before checkout.",
       "Booked for $191.75, with approval before payment."
     ],
-    "evidence": "/benchmarks/travel/dimensions/5#grok-bot"
+    "evidence": "/benchmarks/travel/dimensions/5#grok-bot",
+    "improvement": "Stalled browser steps required us to take over during changes, upgrades and cancellation."
   },
   "dots": {
     "bullets": [
@@ -13,7 +14,8 @@
       "No added payment; confirmed a $60.01 credit.",
       "Explained the terms and asked before changing the booking."
     ],
-    "evidence": "/benchmarks/travel/dimensions/9#dots"
+    "evidence": "/benchmarks/travel/dimensions/9#dots",
+    "improvement": "Checkout and cancellation needed follow-up; the $60.01 credit remained unexplained after cancellation."
   },
   "miso": {
     "bullets": [
@@ -21,7 +23,8 @@
       "Brought a human into the conversation when the seat refund needed help.",
       "The team confirmed the $85.99 refund with United."
     ],
-    "evidence": "/benchmarks/travel/dimensions/8#miso"
+    "evidence": "/benchmarks/travel/dimensions/8#miso",
+    "improvement": "Confirmation and seat-map glitches needed recovery; the seat-fee refund required a human to resolve it."
   },
   "muse": {
     "bullets": [
@@ -29,15 +32,16 @@
       "Explained the cancellation window and asked for approval.",
       "Confirmed cancellation and expected refund timing."
     ],
-    "evidence": "/benchmarks/travel/dimensions/8#muse"
+    "evidence": "/benchmarks/travel/dimensions/8#muse",
+    "improvement": "Could not change the flight, upgrade the seat or verify that the airline received our loyalty number."
   },
   "instinct": {
     "bullets": [
-      "15 messages from the trip request to booking confirmation; four were from the traveler.",
+      "15 chat messages from the trip request to booking confirmation; four were from the traveler.",
       "About six minutes from selecting the flight to confirmation.",
       "Reused traveler details and completed the booking through iMessage."
     ],
     "evidence": "/benchmarks/travel/dimensions/19#instinct",
-    "caveat": "Low interaction during booking; rebooking and refund follow-up still needed help."
+    "improvement": "Payment needed clarification; rebooking and refund follow-up still fell back to us."
   }
 }

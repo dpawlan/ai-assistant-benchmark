@@ -4336,3 +4336,6 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .travel-transcript li { padding: 16px 0; border-top: 1px solid var(--line); }
 .travel-transcript-speaker { color: var(--sec); font-size: 12px; }
 .travel-transcript-message { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 14px; line-height: 1.65; }
+
+.travel-assessment { margin: 16px 0; color: var(--sec); font-size: 14px; line-height: 1.6; }
+.travel-assessment summary { cursor: pointer; color: var(--text); }

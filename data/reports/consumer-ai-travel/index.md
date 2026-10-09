@@ -88,7 +88,7 @@ Time to booking: approximately [6 minutes](/benchmarks/travel/dimensions/19#inst
 **Where it missed the mark**
 
 - Repeatedly needed clarification about the payment card; never asked for our Known Traveler Number.
-- Promised help with rebooking, then handed the work back to us.
+- Promised to handle the change, then said, “I can book flights, but I can't change this ticket myself,” and directed us to Duffel support.
 - Cancelled the flight without confirming the refund amount; the seat-refund request failed and used an address without checking.
 
 **Consumer takeaway:** Convenient for booking by text, but changing the flight required contacting Duffel directly. The $35 seat-refund submission failed; Instinct offered to retry, but we did not see a completed refund.

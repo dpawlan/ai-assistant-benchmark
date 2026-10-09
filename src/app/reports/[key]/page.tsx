@@ -220,6 +220,8 @@ export default async function ReportPage({ params }: Props) {
   );
 
   return (
+    <>
+    {consumer && <div className="rp-report-banner"><ReportCover report={report} bySlug={bySlug} size="hero" /></div>}
     <div className={`wrap mid rp${consumer ? " rp-consumer" : ""}`}>
       {back}
       <header className="rp-hero">
@@ -231,7 +233,7 @@ export default async function ReportPage({ params }: Props) {
           {!consumer && <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>}
           {report.preview && !consumer && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
         </div>
-        <ReportCover report={report} bySlug={bySlug} size="hero" />
+        {!consumer && <ReportCover report={report} bySlug={bySlug} size="hero" />}
       </header>
 
       <div className="rp-intro"><Markdown body={report.intro} /></div>
@@ -247,5 +249,6 @@ export default async function ReportPage({ params }: Props) {
         {!consumer && rankingRail}
       </div>
     </div>
+    </>
   );
 }

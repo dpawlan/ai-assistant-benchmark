@@ -4410,3 +4410,5 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 
 .miso-review-screenshots { display: grid; gap: 16px; }
 .miso-review-screenshots img { display: block; width: 100%; height: auto; }
+
+.travel-report-recording-grid img { width: 100%; height: auto; max-height: 520px; object-fit: contain; background: var(--fill); border-radius: 10px; }

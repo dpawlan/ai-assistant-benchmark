@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { TravelReportRecordings } from './TravelReportRecordings';
 import { Markdown } from './Markdown';
 import timings from '../../data/travel-completion-times.json';
 
@@ -34,6 +33,5 @@ export function MisoReportReview({ body }: { body: string }) {
     </div>
     <div className="miso-review-takeaway"><span>Our takeaway</span><p>A strong fit if you want someone to manage the details—and a human to step in when needed.</p></div>
     <details className="travel-report-recordings"><summary>Full assessment and evidence</summary><Markdown body={body} /></details>
-    <TravelReportRecordings agent="miso" name="Miso" />
   </div>;
 }

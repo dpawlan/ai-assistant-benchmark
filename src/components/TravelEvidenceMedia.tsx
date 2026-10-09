@@ -8,28 +8,29 @@ export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: 
   const transcriptPath = `/tmp/travel-evidence-transcripts/r${round}-${agent}.json`;
   const transcript: { role: string; reaction?: boolean; time?: string; text: string }[] = process.env.NODE_ENV === 'development' && existsSync(transcriptPath)
     ? JSON.parse(readFileSync(transcriptPath, 'utf8')) : [];
-  const local = process.env.NODE_ENV === 'development' && existsSync(file.video);
-  const showStill = local && file.image && existsSync(file.image) && (round === 1 && dimension === 5 || round === 2 && (dimension === 8 || agent === 'muse' && [6, 9].includes(dimension)) || round === 3 && (agent === 'soar' && dimension === 5 || agent === 'instinct' && dimension === 8));
+  const local = process.env.NODE_ENV === 'development';
+  const showStill = local && file.image && existsSync(file.image);
+  const publicScreenshot = agent === "miso" && [5, 8, 19].includes(dimension) ? dimension === 8 ? "miso-refund-handoff" : "miso-fare" : null;
   return <div className="travel-session-media">
-    {local ? <>
-      <p className="ag-sub">Local preview · Unredacted evidence.</p>
+    {publicScreenshot ? <figure>
+      <a href={`/travel-evidence/${publicScreenshot}.png`} target="_blank" rel="noreferrer">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`/travel-evidence/${publicScreenshot}.png`} alt={dimension === 8 ? "Miso confirms cancellation and hands the seat refund to human support" : "Miso invoice total: $258.40"} style={{ maxWidth: "100%", height: "auto" }} loading="lazy" />
+      </a>
+      <figcaption>{dimension === 8 ? "Cancellation and human handoff" : "Booking invoice"} · Click to enlarge</figcaption>
+    </figure> : showStill ? <>
+      <p className="ag-sub">Local preview · Unredacted screenshot.</p>
       <div className="travel-evidence-grid">
-        <figure>
-          <video controls playsInline preload="none" poster={`/travel-posters/${agent}.svg`} aria-label={`${name}, round ${round}, full session recording`} src={`/api/travel-evidence/${key}.mp4`}>
-            <track kind="captions" />
-          </video>
-          <figcaption>{name} · Full recording</figcaption>
-        </figure>
         {showStill && <figure>
           <a href={`/api/travel-evidence/${key}.png`} target="_blank" rel="noreferrer">
             {/* The original local evidence frame must bypass the public image optimizer. */}
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={`/api/travel-evidence/${key}.png`} alt={`${name}: screen near the end of the round ${round} session`} loading="lazy" />
           </a>
-          <figcaption>Session screenshot · Click to enlarge</figcaption>
+          <figcaption>End-of-session screenshot · Click to enlarge</figcaption>
         </figure>}
       </div>
-    </> : <p className="ag-sub">A redacted public recording is not yet available.</p>}
+    </> : <p className="ag-sub">A redacted public screenshot is not yet available.</p>}
     {transcript.length > 0 ? <details className="travel-transcript">
       <summary>Full transcript · {name}</summary>
       <p className="ag-sub">Local preview · Unredacted transcript.</p>

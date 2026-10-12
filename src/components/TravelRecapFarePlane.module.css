@@ -1,0 +1,106 @@
+.fareScene { --fare-blue: #0875e1; --fare-line: #bdd3e9; --fare-surface: #f4f8fc; margin: 0 auto; width: 100%; max-width: 1100px; }
+.composition { display: grid; grid-template-columns: minmax(0, 1fr) 174px; align-items: center; gap: 32px; }
+.plane { position: relative; min-width: 0; height: 420px; }
+.airframe { position: absolute; top: 108px; left: 0; display: block; width: 100%; height: 204px; overflow: visible; }
+.upperShell { transform: translateY(-100px); }
+.lowerShell { transform: translateY(100px); }
+.wing { fill: #eaf2fa; stroke: #c6d9ec; stroke-width: 1.4; stroke-linejoin: round; }
+.engine { fill: #e5eef8; stroke: #bbd0e5; stroke-width: 1.2; }
+.fuselage { fill: #fff; stroke: #b3cbe3; stroke-width: 1.6; }
+.cockpit { fill: #d7e7f8; stroke: #a8c3df; stroke-width: 1; stroke-linejoin: round; }
+.door { fill: #eff5fb; stroke: #c4d6e9; stroke-width: 1; }
+.windows { fill: #a8c6e6; }
+.cutEdge { fill: none; stroke: #b3cbe3; stroke-width: 1.3; stroke-dasharray: 5 5; }
+.fareCard { position: absolute; z-index: 1; top: 50%; left: 13%; right: 13%; padding: 22px 24px 24px; border: 1px solid #a8caed; border-radius: 8px; background: #e7f2ff; box-shadow: 0 4px 10px #315d8b08; transform: translateY(-50%); }
+.fareCard::before, .fareCard::after { content: ''; position: absolute; top: 50%; width: 12px; height: 12px; border: 1px solid #a8caed; border-radius: 50%; background: var(--fare-surface); transform: translateY(-50%); }
+.fareCard::before { left: -7px; clip-path: inset(0 0 0 50%); }
+.fareCard::after { right: -7px; clip-path: inset(0 50% 0 0); }
+.fareCard h3 { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 0 0 18px; color: #1269bc; font-size: clamp(21px, 2.1vw, 28px); font-weight: 550; line-height: 1.2; letter-spacing: -.035em; }
+.fareCard h3 svg { width: 26px; height: 26px; flex-shrink: 0; }
+.stamps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.stamps > li { min-width: 0; }
+.stamp { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 8px; min-height: 70px; padding: 8px 3px; border: 1px dashed #9cbee3; border-radius: 5px; color: #234f7f; background: #ffffff80; text-decoration: none; font-size: 12px; font-weight: 550; line-height: 1.3; }
+.stamps > li:nth-child(1) .stamp { transform: rotate(-3deg); }
+.stamps > li:nth-child(2) .stamp { transform: rotate(2deg); }
+.stamps > li:nth-child(3) .stamp { transform: rotate(-2deg); }
+.stamps > li:nth-child(4) .stamp { transform: rotate(3deg); }
+.stamp:hover { border-style: solid; border-color: var(--fare-blue); color: var(--fare-blue); }
+.stamp .stampLogo { width: 30px; height: 30px; min-width: 30px; border-radius: 8px; border-color: #d0deed; box-shadow: none; }
+.stampLogo img { width: 100%; height: 100%; }
+.excluded { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; min-height: 174px; padding: 20px 14px; border: 1px solid #cdd9e5; border-radius: 7px; background: #fff; transform: rotate(3deg); }
+.excluded::before, .excluded::after { content: ''; position: absolute; left: -7px; width: 12px; height: 12px; border: 1px solid #cdd9e5; border-radius: 50%; background: var(--fare-surface); clip-path: inset(0 0 0 50%); }
+.excluded::before { top: 24px; }
+.excluded::after { bottom: 24px; }
+.excluded > svg { width: 32px; height: 32px; color: #7b8ea2; }
+.excludedIdentity { display: flex; align-items: center; gap: 9px; min-height: 44px; color: #1d1d1f; text-decoration: none; }
+.excludedIdentity:hover { color: var(--fare-blue); }
+.excludedIdentity strong { font-size: 17px; font-weight: 550; line-height: 1.3; }
+.excludedIdentity .misoLogo { width: 32px; height: 32px; min-width: 32px; border-radius: 8px; box-shadow: none; }
+.misoLogo img { width: 100%; height: 100%; }
+.excluded > span { color: #64768b; font-size: 12px; font-weight: 450; line-height: 1.4; white-space: nowrap; }
+.fareScene figcaption { margin-top: 8px; text-align: center; color: #6c7c8f; font-size: 11px; line-height: 1.4; }
+
+:global([data-story-enhanced='true']) .upperShell { animation: openUpper 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .lowerShell { animation: openLower 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .fareCard { animation: revealFare 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .stamps > li { animation: stampFare 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .stamps > li:nth-child(2) { animation-delay: calc(-1s * var(--scene-progress, 1) + .035s); }
+:global([data-story-enhanced='true']) .stamps > li:nth-child(3) { animation-delay: calc(-1s * var(--scene-progress, 1) + .07s); }
+:global([data-story-enhanced='true']) .stamps > li:nth-child(4) { animation-delay: calc(-1s * var(--scene-progress, 1) + .105s); }
+:global([data-story-enhanced='true']) .excluded { animation: separateMiso 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+@keyframes openUpper { 0%, 10% { transform: translateY(0); } 42%, 100% { transform: translateY(-100px); } }
+@keyframes openLower { 0%, 10% { transform: translateY(0); } 42%, 100% { transform: translateY(100px); } }
+@keyframes revealFare { 0%, 18% { opacity: 0; transform: translateY(-50%) scale(.92); } 46%, 100% { opacity: 1; transform: translateY(-50%) scale(1); } }
+@keyframes stampFare { 0%, 25% { opacity: 0; transform: translateY(12px) scale(.82); } 54%, 100% { opacity: 1; transform: none; } }
+@keyframes separateMiso { 0%, 25% { opacity: 0; transform: translateX(-150px) rotate(0); } 61%, 100% { opacity: 1; transform: translateX(0) rotate(3deg); } }
+
+@media (max-width: 899px) and (min-width: 700px) {
+  .composition { grid-template-columns: minmax(0, 1fr) 144px; gap: 18px; }
+  .fareCard { left: 9%; right: 9%; padding: 22px 16px; }
+  .stamps { gap: 8px; }
+  .stamp { font-size: 11px; }
+  .excluded { min-height: 174px; padding: 16px 8px; }
+  .excluded > span { font-size: 11px; }
+}
+@media (max-width: 699px) {
+  .composition { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+  .plane { height: 290px; }
+  .airframe { top: 75px; height: 140px; }
+  .upperShell { transform: translateY(-85px); }
+  .lowerShell { transform: translateY(85px); }
+  .fareCard { left: 11%; right: 11%; padding: 16px 18px; }
+  .fareCard h3 { gap: 7px; font-size: 21px; margin-bottom: 14px; }
+  .fareCard h3 svg { width: 22px; height: 22px; }
+  .stamps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 12px; }
+  .stamp { flex-direction: row; gap: 7px; min-height: 44px; padding: 7px 5px; font-size: 11px; }
+  .stamp .stampLogo { width: 24px; height: 24px; min-width: 24px; border-radius: 6px; }
+  .excluded { flex-direction: row; gap: 12px; justify-self: center; min-height: 66px; padding: 10px 16px; border-radius: 6px; transform: rotate(2deg); }
+  .excluded::before { top: 50%; transform: translateY(-50%); }
+  .excluded::after { display: none; }
+  .excluded > svg { width: 24px; height: 24px; }
+  .excludedIdentity { gap: 7px; }
+  .excludedIdentity strong { font-size: 14px; }
+  .excludedIdentity .misoLogo { width: 26px; height: 26px; min-width: 26px; border-radius: 7px; }
+  .excluded > span { font-size: 11px; }
+  .fareScene figcaption { margin-top: 17px; font-size: 10px; }
+  @keyframes openUpper { 0%, 10% { transform: translateY(0); } 42%, 100% { transform: translateY(-85px); } }
+  @keyframes openLower { 0%, 10% { transform: translateY(0); } 42%, 100% { transform: translateY(85px); } }
+  @keyframes separateMiso { 0%, 25% { opacity: 0; transform: translateY(-80px) rotate(0); } 61%, 100% { opacity: 1; transform: translateY(0) rotate(2deg); } }
+}
+@media (max-width: 359px) {
+  .fareCard { left: 8%; right: 8%; padding: 16px 12px; }
+  .fareCard h3 { font-size: 19px; gap: 6px; }
+  .stamps { gap: 10px; }
+  .stamp { font-size: 10px; gap: 5px; }
+  .excluded { gap: 8px; padding: 10px 12px; }
+  .excluded > span { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .upperShell,
+  :global([data-story-enhanced='true']) .lowerShell,
+  :global([data-story-enhanced='true']) .fareCard,
+  :global([data-story-enhanced='true']) .stamps > li,
+  :global([data-story-enhanced='true']) .excluded { animation: none; }
+}
+
+@media (max-width: 699px) { .excluded > span, .stamp { font-size: 12px; } }

@@ -1,0 +1,92 @@
+.scene { --utility-blue: #0875e1; --utility-ink: #1d1d1f; --utility-muted: #6b7179; margin: 0; color: var(--utility-ink); }
+.scene a:focus-visible { outline: 2px solid var(--utility-blue); outline-offset: 4px; border-radius: 5px; }
+.scene ul, .scene ol { list-style: none; padding: 0; margin: 0; }
+.speedScene { width: min(100%, 1050px); margin-inline: auto; }
+.speedSteps { display: flex; align-items: center; justify-content: center; gap: 24px; color: #64788e; font-size: 13px; line-height: 1.3; }
+.speedSteps li + li::before { content: '→'; display: inline-block; margin-right: 24px; color: #94b6d8; }
+.speedComparison { display: grid; grid-template-columns: minmax(0, 1fr) 330px minmax(0, 1fr); align-items: center; column-gap: 56px; margin-top: 28px; }
+.speedGroup { justify-self: center; width: 100%; max-width: 250px; }
+.speedGroup h3 { margin: 0 0 18px; font-size: 22px; font-weight: 550; line-height: 1.25; letter-spacing: -.025em; }
+.withinWindow h3 { color: var(--utility-blue); }
+.outsideWindow h3 { color: #5b6b7b; }
+.withinAgents, .outsideAgents { display: flex; flex-direction: column; gap: 12px; }
+.withinAgents > li { position: relative; }
+.agent { display: flex; align-items: center; gap: 14px; min-height: 56px; min-width: 44px; color: inherit; text-decoration: none; }
+.agent:hover .agentName { color: var(--utility-blue); }
+.agent .agentIcon { width: 36px; height: 36px; min-width: 36px; flex-shrink: 0; border-radius: 9px; box-shadow: none; }
+.agentIcon img { display: block; width: 100%; height: 100%; }
+.agentName { min-width: 0; font-size: 18px; font-weight: 500; line-height: 1.3; white-space: nowrap; }
+.withinAgents .agent { padding-right: 28px; }
+.speedCheck { position: absolute; top: calc(50% - 9px); right: 0; width: 18px; height: 18px; color: var(--utility-blue); }
+.stopwatch { position: relative; width: 100%; padding-top: 24px; }
+.watchCrown { position: absolute; top: 0; left: calc(50% - 18px); width: 36px; height: 9px; border-radius: 3px; background: var(--utility-blue); }
+.watchCrown::after { content: ''; position: absolute; top: 9px; left: 14px; width: 8px; height: 15px; background: var(--utility-blue); }
+.watchBody { position: relative; aspect-ratio: 1; }
+.watchDial { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--utility-blue); }
+.watchDial circle { stroke: #bfd5ec; stroke-width: 1.5; }
+.watchDial path { stroke: #c6d8ed; stroke-width: 1; }
+.watchDial path[data-major='true'] { stroke: #8ab4df; stroke-width: 1.5; }
+.watchOrbit { transform-box: view-box; transform-origin: 50% 50%; }
+.watchDial .orbitArc { stroke: var(--utility-blue); stroke-width: 3.25; stroke-linecap: round; stroke-dasharray: .16 .84; stroke-dashoffset: .16; }
+.watchDial .orbitDot { fill: var(--utility-blue); stroke: #fff; stroke-width: 2; }
+.watchFace { position: absolute; inset: 20%; display: flex; align-items: center; justify-content: center; text-align: center; }
+.watchTime { display: flex; align-items: baseline; gap: 8px; color: var(--utility-blue); font-size: 88px; line-height: 1.1; font-weight: 550; letter-spacing: -.065em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.watchTime span { font-size: 25px; font-weight: 450; letter-spacing: -.03em; }
+.speedCaption { margin-top: 24px; color: var(--utility-muted); font-size: 11px; line-height: 1.4; text-align: center; }
+
+:global([data-story-enhanced='true']) .stopwatch { animation: revealWatch 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .withinWindow { animation: revealWithin 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .outsideWindow { animation: revealOutside 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .watchOrbit { animation: clockRunning 10s linear infinite paused; }
+:global([data-story-enhanced='true']) :global([data-scene-active='true']) .watchOrbit { animation-play-state: running; }
+@keyframes revealWatch { 0%, 10% { opacity: 0; transform: scale(.94); } 36%, 100% { opacity: 1; transform: none; } }
+@keyframes revealWithin { 0%, 20% { opacity: 0; transform: translateX(-18px); } 46%, 100% { opacity: 1; transform: none; } }
+@keyframes revealOutside { 0%, 28% { opacity: 0; transform: translateX(18px); } 54%, 100% { opacity: 1; transform: none; } }
+@keyframes clockRunning { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+
+@media (max-width: 1099px) and (min-width: 700px) {
+  .speedComparison { grid-template-columns: minmax(0, 1fr) min(34vw, 320px) minmax(0, 1fr); column-gap: 32px; }
+  .speedGroup h3 { font-size: 20px; }
+  .agent { gap: 10px; }
+  .agentName { font-size: 16px; }
+  .withinAgents .agent { padding-right: 22px; }
+  .speedCheck { width: 16px; height: 16px; top: calc(50% - 8px); }
+  .watchTime { font-size: 76px; }
+  .watchTime span { font-size: 21px; }
+}
+@media (max-width: 699px) {
+  .speedSteps { gap: 14px; font-size: 11px; }
+  .speedSteps li + li::before { margin-right: 14px; }
+  .speedComparison { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 20px; row-gap: 12px; align-items: start; margin-top: 12px; }
+  .stopwatch { grid-column: 1 / -1; grid-row: 1; justify-self: center; width: 198px; padding-top: 18px; }
+  .watchCrown { left: calc(50% - 13px); width: 26px; height: 6px; border-radius: 2px; }
+  .watchCrown::after { top: 6px; left: 10px; width: 6px; height: 12px; }
+  .watchTime { gap: 6px; font-size: 58px; }
+  .watchTime span { font-size: 18px; }
+  .withinWindow { grid-column: 1; grid-row: 2; }
+  .outsideWindow { grid-column: 2; grid-row: 2; }
+  .speedGroup { max-width: 150px; }
+  .speedGroup h3 { margin-bottom: 8px; font-size: 15px; line-height: 1.2; letter-spacing: -.02em; }
+  .withinAgents, .outsideAgents { gap: 0; }
+  .agent { gap: 8px; min-height: 44px; }
+  .agent .agentIcon { width: 28px; height: 28px; min-width: 28px; border-radius: 7px; }
+  .agentName { font-size: 12px; }
+  .withinAgents .agent { padding-right: 15px; }
+  .speedCheck { top: calc(50% - 6px); width: 12px; height: 12px; }
+  .speedCaption { margin-top: 12px; font-size: 10px; }
+}
+@media (max-width: 359px) {
+  .speedComparison { column-gap: 16px; row-gap: 12px; margin-top: 10px; }
+  .stopwatch { width: 190px; }
+  .speedSteps { gap: 10px; }
+  .speedSteps li + li::before { margin-right: 10px; }
+  .agent { gap: 7px; }
+  .agentName { font-size: 11px; }
+  .speedGroup h3 { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .stopwatch,
+  :global([data-story-enhanced='true']) .withinWindow,
+  :global([data-story-enhanced='true']) .outsideWindow,
+  :global([data-story-enhanced='true']) .watchOrbit { animation: none; }
+}

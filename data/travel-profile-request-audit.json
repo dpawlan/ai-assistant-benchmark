@@ -1,0 +1,181 @@
+{
+  "scope": {
+    "audited_on": "2026-10-12",
+    "source": "User-supplied assistant_benchmark_full.zip",
+    "transcript_exports": 10,
+    "agents": [
+      "miso",
+      "grok-bot",
+      "dots",
+      "instinct",
+      "muse"
+    ],
+    "basis": "All supplied chat history for the five report assistants, including booking and subsequent servicing. Repeated exports are continuations, not independent tests.",
+    "method": "An unprompted request must originate with the assistant before the traveler volunteers or explicitly asks to add that item. Reusing saved data is recorded separately.",
+    "limitation": "Onboarding forms outside the supplied chat transcripts were not available for direct verification. Absence means no request was found in these chats, not lack of product support.",
+    "references": "Message and line locations are one-based; repeated chat exports and CSV duplicates were deduplicated during review.",
+    "display_basis": "Known Traveler Number checkpoint includes Miso app onboarding, supported by the accompanying report and the user’s clarification on 2026-10-12; chat-only findings remain separate."
+  },
+  "checkpoints": [
+    {
+      "id": "traveler",
+      "title": "Traveler details",
+      "criterion": "Collected or reused",
+      "slugs": [
+        "miso",
+        "grok-bot",
+        "dots",
+        "instinct",
+        "muse"
+      ]
+    },
+    {
+      "id": "loyalty",
+      "title": "Airline loyalty",
+      "criterion": "Asked unprompted",
+      "slugs": [
+        "miso",
+        "dots",
+        "muse"
+      ]
+    },
+    {
+      "id": "known-traveler",
+      "title": "Known Traveler Number",
+      "criterion": "Asked unprompted",
+      "slugs": [
+        "miso"
+      ]
+    }
+  ],
+  "summary": "Miso collected all three across app onboarding and chat.",
+  "saved_information_note": "Miso collects it in its app before booking. None of the services asked for it over text.",
+  "findings": [
+    {
+      "agent": "miso",
+      "traveler_details": "Saved profile reused; no chat request for legal name, birth date or contact details found.",
+      "loyalty": "Unprompted offer to add United MileagePlus after the rebooked ticket; traveler supplied it afterward.",
+      "known_traveler_number": "Collected unprompted in app onboarding before booking; saved PreCheck was then applied. No request appeared in the supplied chats.",
+      "asked_traveler_details": false,
+      "asked_loyalty": true,
+      "asked_known_traveler_number": false,
+      "references": [
+        {
+          "entry": "files/transcripts/miso_messages.json",
+          "location": "messages 15–18",
+          "supports": "Saved-profile checkout; no identity request"
+        },
+        {
+          "entry": "files/transcripts/r2/miso_messages.json",
+          "location": "message 26",
+          "supports": "Saved PreCheck applied"
+        },
+        {
+          "entry": "files/transcripts/r2/miso_messages.json",
+          "location": "messages 53, 55–56",
+          "supports": "Loyalty request and application"
+        },
+        {
+          "entry": "files/data/round2_reports/miso.md",
+          "location": "line 5",
+          "supports": "Report says onboarding pre-collected traveler details and Known Traveler Number; onboarding exchange is not in supplied chat"
+        }
+      ],
+      "handled_traveler_details": true,
+      "asked_known_traveler_number_in_app": true
+    },
+    {
+      "agent": "grok-bot",
+      "traveler_details": "Unprompted request for legal identity and contact details before ticketing.",
+      "loyalty": "No airline loyalty request found.",
+      "known_traveler_number": "No request found. References to preselected website checkboxes are unrelated to TSA PreCheck.",
+      "asked_traveler_details": true,
+      "asked_loyalty": false,
+      "asked_known_traveler_number": false,
+      "references": [
+        {
+          "entry": "files/transcripts/grokbot_chat.md",
+          "location": "lines 46, 50–52",
+          "supports": "Identity and contact requests"
+        },
+        {
+          "entry": "files/transcripts/r2/grokbot_chat.md",
+          "location": "lines 46, 50–52",
+          "supports": "Same initial booking followed by servicing"
+        }
+      ],
+      "handled_traveler_details": true
+    },
+    {
+      "agent": "dots",
+      "traveler_details": "Airline sign-in populated saved traveler identity; no separate explicit name, birth-date or contact request.",
+      "loyalty": "Proactively offered Delta/SkyMiles sign-in; verified the membership information supplied afterward.",
+      "known_traveler_number": "No request found in the complete supplied chat.",
+      "asked_traveler_details": false,
+      "asked_loyalty": true,
+      "asked_known_traveler_number": false,
+      "references": [
+        {
+          "entry": "files/transcripts/r2/dot_chat.txt",
+          "location": "message 15, line 148",
+          "supports": "Proactive airline loyalty sign-in"
+        },
+        {
+          "entry": "files/transcripts/r2/dot_chat.txt",
+          "location": "messages 18, 20, 23; line 220",
+          "supports": "Membership verification and saved traveler profile"
+        }
+      ],
+      "handled_traveler_details": true
+    },
+    {
+      "agent": "instinct",
+      "traveler_details": "Requested identity/contact details in earlier flow; later reviewed the saved profile and requested an honorific.",
+      "loyalty": "No airline loyalty request found. Payment-wallet sign-in and generic service membership are unrelated.",
+      "known_traveler_number": "No request found across all three supplied rounds.",
+      "asked_traveler_details": true,
+      "asked_loyalty": false,
+      "asked_known_traveler_number": false,
+      "references": [
+        {
+          "entry": "files/transcripts/instinct_messages.json",
+          "location": "messages 34–35",
+          "supports": "Unprompted identity/contact collection"
+        },
+        {
+          "entry": "files/transcripts/r2/instinct_messages.json",
+          "location": "messages 9–10",
+          "supports": "Overlapping earlier identity request"
+        },
+        {
+          "entry": "files/transcripts/r3/instinct_messages.json",
+          "location": "messages 21–22",
+          "supports": "Saved-profile review and honorific request"
+        }
+      ],
+      "handled_traveler_details": true
+    },
+    {
+      "agent": "muse",
+      "traveler_details": "Asked for legal identity and contact details after flight selection, without a preceding request to collect them.",
+      "loyalty": "Included an optional United loyalty number in that request.",
+      "known_traveler_number": "No request found in either full chat export.",
+      "asked_traveler_details": true,
+      "asked_loyalty": true,
+      "asked_known_traveler_number": false,
+      "references": [
+        {
+          "entry": "files/transcripts/muse_chat.txt",
+          "location": "lines 14–24",
+          "supports": "Unprompted identity, contact and optional loyalty requests"
+        },
+        {
+          "entry": "files/transcripts/r2/muse_chat.txt",
+          "location": "lines 14–24",
+          "supports": "Same request in the completed-booking continuation"
+        }
+      ],
+      "handled_traveler_details": true
+    }
+  ]
+}

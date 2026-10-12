@@ -1,0 +1,21 @@
+.report { padding-bottom: 64px; }
+.controls { position: fixed; z-index: 100; right: 20px; bottom: 20px; }
+.toggle { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 44px; padding: 0 14px; border: 1px solid #cfd8e1; border-radius: 8px; background: #fff; color: #536476; font-family: inherit; font-size: 12px; font-weight: 500; cursor: pointer; }
+.toggle svg { width: 18px; height: 18px; }
+.toggle:hover { color: #0875e1; border-color: #8eb6dc; }
+.toggle:focus-visible { outline: 2px solid #0875e1; outline-offset: 3px; }
+.contentsButton, .contents { display: none; }
+@media (max-width: 699px), (max-width: 1024px) and (max-height: 500px) {
+  .report { padding-bottom: calc(64px + env(safe-area-inset-bottom)); }
+  .controls { left: 0; right: 0; bottom: 0; height: calc(64px + env(safe-area-inset-bottom)); box-sizing: border-box; display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid #e5eaf0; background: #fff; }
+  .toggle { width: 100%; font-size: 13px; border-color: transparent; padding: 0 8px; }
+  .toggle:hover { background: #f4f8fc; border-color: transparent; }
+  .contentsButton { display: inline-flex; }
+  .toggle .chevron { width: 13px; height: 13px; margin-left: 1px; }
+  .contents { display: block; position: absolute; bottom: calc(100% + 8px); left: 12px; right: 12px; max-width: 440px; max-height: calc(100dvh - 144px - env(safe-area-inset-bottom)); margin: 0 auto; overflow-y: auto; overscroll-behavior: contain; border: 1px solid #dbe3eb; border-radius: 12px; background: #fff; box-shadow: 0 8px 24px rgb(32 56 79 / 10%); padding: 8px; }
+  .contents ol { display: grid; grid-template-columns: 1fr 1fr; list-style: none; padding: 0; margin: 0; gap: 2px; }
+  .contents a { display: flex; align-items: center; gap: 10px; min-height: 46px; box-sizing: border-box; padding: 8px 10px; border-radius: 7px; color: #536476; font-size: 13px; font-weight: 500; text-decoration: none; }
+  .contents a svg { flex: 0 0 20px; width: 20px; height: 20px; color: #0875e1; }
+  .contents a:hover { color: #0875e1; background: #f4f8fc; }
+  .contents a:focus-visible { outline: 2px solid #0875e1; outline-offset: -2px; background: #f4f8fc; }
+}

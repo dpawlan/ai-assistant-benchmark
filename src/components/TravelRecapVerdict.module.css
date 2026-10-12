@@ -1,0 +1,96 @@
+.verdict { --verdict-blue: #0875e1; width: min(100%, 1020px); margin: 0 auto; text-align: left; }
+.passes { display: flex; flex-direction: column; gap: 20px; margin: 0; padding: 0; list-style: none; }
+.pass { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 142px; border: 1px solid #b9d3ed; border-radius: 8px; background: #fff; }
+.pass:nth-child(2) { border-color: #c9d7e5; }
+.pass:first-child::after { content: ''; position: absolute; top: calc(100% + 1px); left: 50%; width: 1px; height: 19px; background: #accbeb; }
+.passBody { min-width: 0; padding: 20px 24px; }
+.passHeading { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 16px; align-items: center; }
+.identity { display: flex; align-items: center; gap: 12px; min-height: 44px; color: #1d1d1f; text-decoration: none; }
+.identity strong { font-size: 27px; font-weight: 550; line-height: 1.2; letter-spacing: -.035em; }
+.identity .logo { width: 40px; height: 40px; min-width: 40px; border-radius: 10px; box-shadow: none; }
+.logo img { width: 100%; height: 100%; }
+.identity:hover strong { color: var(--verdict-blue); }
+.identity:focus-visible, .compare:focus-visible { outline: 2px solid var(--verdict-blue); outline-offset: 4px; border-radius: 4px; }
+.reason { color: #48627d; font-size: 16px; font-weight: 500; line-height: 1.3; text-wrap: pretty; }
+.capabilities { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; width: min(100%, 430px); margin: 16px 0 0; padding: 0; list-style: none; }
+.capabilities > li { display: flex; align-items: center; gap: 8px; color: #27699f; font-size: 12px; line-height: 1.3; }
+.capabilityIcon { position: relative; display: block; width: 22px; height: 22px; flex-shrink: 0; }
+.capabilityIcon > svg { display: block; width: 100%; height: 100%; }
+.capabilityIcon > i { position: absolute; top: -3px; right: -5px; display: flex; align-items: center; justify-content: center; width: 11px; height: 11px; border: 1px solid #fff; border-radius: 50%; background: #e4f1ff; color: var(--verdict-blue); font-style: normal; font-size: 9px; font-weight: 550; line-height: 1; }
+.capabilities > li[data-handled='false'] { color: #7d8d9d; }
+.capabilities > li[data-handled='false'] i { background: #e8edf2; color: #7d8d9d; }
+.limitation { display: flex; align-items: baseline; flex-wrap: wrap; gap: 5px 10px; margin-top: 16px; font-size: 14px; line-height: 1.35; }
+.limitation strong { color: #1d1d1f; font-weight: 550; }
+.limitation > span { color: #64748a; }
+.passStub { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 16px 12px; border-left: 1px dashed #bfd2e4; border-radius: 0 7px 7px 0; background: #f5f9ff; }
+.passStub::before, .passStub::after { content: ''; position: absolute; left: -6px; width: 10px; height: 10px; border: 1px solid #b9d3ed; border-radius: 50%; background: #fff; }
+.passStub::before { top: -6px; clip-path: inset(50% 0 0); }
+.passStub::after { bottom: -6px; clip-path: inset(0 0 50%); }
+.pass:nth-child(2) .passStub { background: #f8fafc; }
+.pass:nth-child(2) .passStub::before, .pass:nth-child(2) .passStub::after { border-color: #c9d7e5; }
+.score { display: flex; align-items: baseline; gap: 5px; white-space: nowrap; }
+.score strong { color: var(--verdict-blue); font-size: 40px; font-weight: 550; line-height: 1.1; letter-spacing: -.045em; }
+.score > span { color: #65788d; font-size: 11px; line-height: 1.3; }
+.scoreLabel { color: #6a7d91; font-size: 11px; line-height: 1.3; white-space: nowrap; }
+.clockStamp { display: flex; align-items: center; gap: 6px; margin-top: 14px; color: var(--verdict-blue); font-size: 11px; line-height: 1.3; white-space: nowrap; }
+.clockStamp svg { width: 22px; height: 22px; flex-shrink: 0; }
+.compare { display: flex; align-items: center; justify-content: center; gap: 8px; width: fit-content; min-width: 44px; min-height: 44px; margin: 12px auto 0; padding: 0 8px; color: var(--verdict-blue); text-decoration: none; font-size: 13px; }
+
+:global([data-story-enhanced='true']) .pass:first-child { animation: revealPrimary 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .pass:nth-child(2) { animation: revealAlternative 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .pass:first-child::after { animation: connectPicks 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .compare { animation: revealComparison 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+@keyframes revealPrimary { 0%, 12% { opacity: 0; transform: translateY(65px) scale(.9); } 42%, 100% { opacity: 1; transform: none; } }
+@keyframes revealAlternative { 0%, 25% { opacity: 0; transform: translateY(-65px) scale(.9); } 60%, 100% { opacity: 1; transform: none; } }
+@keyframes connectPicks { 0%, 36% { opacity: 0; transform: scaleY(0); } 60%, 100% { opacity: 1; transform: scaleY(1); } }
+@keyframes revealComparison { 0%, 52% { opacity: 0; transform: translateY(8px); } 64%, 100% { opacity: 1; transform: none; } }
+
+@media (max-width: 899px) and (min-width: 700px) {
+  .pass { grid-template-columns: minmax(0, 1fr) 125px; }
+  .passBody { padding: 18px 20px; }
+  .passHeading { grid-template-columns: 150px minmax(0, 1fr); gap: 12px; }
+  .identity strong { font-size: 24px; }
+  .reason { font-size: 14px; }
+  .limitation { font-size: 13px; }
+}
+@media (max-width: 699px) {
+  .passes { gap: 14px; }
+  .pass { grid-template-columns: minmax(0, 1fr) 75px; border-radius: 6px; }
+  .pass:first-child::after { height: 13px; }
+  .passBody { padding: 12px 14px; }
+  .passHeading { grid-template-columns: minmax(0, 1fr); gap: 3px; }
+  .identity { gap: 9px; }
+  .identity strong { font-size: 22px; }
+  .identity .logo { width: 30px; height: 30px; min-width: 30px; border-radius: 8px; }
+  .reason { font-size: 12px; line-height: 1.25; }
+  .capabilities { gap: 4px; margin-top: 10px; }
+  .capabilities > li { flex-direction: column; gap: 3px; font-size: 10px; line-height: 1.2; }
+  .capabilityIcon { width: 17px; height: 17px; }
+  .capabilityIcon > i { top: -3px; right: -4px; width: 9px; height: 9px; font-size: 8px; }
+  .limitation { flex-direction: column; gap: 3px; margin-top: 10px; font-size: 12px; line-height: 1.25; }
+  .passStub { padding: 12px 6px; gap: 4px; border-radius: 0 5px 5px 0; }
+  .score { gap: 3px; }
+  .score strong { font-size: 29px; }
+  .score > span { font-size: 9px; }
+  .scoreLabel { font-size: 9px; }
+  .clockStamp { flex-direction: column; gap: 5px; margin-top: 12px; font-size: 10px; }
+  .clockStamp svg { width: 21px; height: 21px; }
+  .compare { margin-top: 8px; font-size: 12px; }
+}
+@media (max-width: 359px) {
+  .pass { grid-template-columns: minmax(0, 1fr) 65px; }
+  .passBody { padding: 11px 12px; }
+  .identity strong { font-size: 21px; }
+  .reason { font-size: 11px; }
+  .limitation { font-size: 11px; }
+  .score strong { font-size: 28px; }
+  .clockStamp { font-size: 9px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .pass:first-child,
+  :global([data-story-enhanced='true']) .pass:nth-child(2),
+  :global([data-story-enhanced='true']) .pass:first-child::after,
+  :global([data-story-enhanced='true']) .compare { animation: none; }
+}
+
+@media (max-width: 699px) { .capabilities > li, .clockStamp { font-size: 12px; } .score > span, .scoreLabel { font-size: 11px; } }

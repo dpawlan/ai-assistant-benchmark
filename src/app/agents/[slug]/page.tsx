@@ -235,18 +235,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                   <p className={`fund-total${muted ? ' empty' : ''}`}>{fundingSummary(f)}</p>
                   {f && <p className="ag-sub fund-checked">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>}
                   {hasDetail && (
-                    <details className="fund-dd" open>
-                      <summary className="fund-toggle">
-                        <span className="fund-toggle-l">
-                          {[rounds && 'Rounds', f.investors.length > 0 && 'backers', f.sources.length > 0 && 'sources']
-                            .filter(Boolean)
-                            .join(', ')
-                            .replace(/^./, c => c.toUpperCase())}
-                        </span>
-                        <svg className="fund-chev" viewBox="0 0 10 10" aria-hidden="true">
-                          <path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                      </summary>
+                    <div className="fund-details">
                       <div className="fund-body">
                         {rounds && (
                           <div className="fund-line">
@@ -286,7 +275,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                           </div>
                         )}
                       </div>
-                    </details>
+                    </div>
                   )}
                 </>
               );

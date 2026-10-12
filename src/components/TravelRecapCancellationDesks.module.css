@@ -1,0 +1,75 @@
+.cancellationScene { --desk-blue: #0875e1; margin: 0 auto; width: 100%; max-width: 1100px; }
+.desks { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 20px; margin: 0; padding: 0; list-style: none; }
+.desks > li { min-width: 0; }
+.desk { position: relative; display: block; height: 240px; min-width: 44px; color: #1d1d1f; text-decoration: none; }
+.identity { position: absolute; top: 0; left: 8%; right: 8%; display: flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 7px; border: 1px solid #c7d8e9; border-radius: 4px; background: #fff; }
+.identity strong { font-size: 14px; font-weight: 550; line-height: 1.2; white-space: nowrap; }
+.identity .logo { width: 28px; height: 28px; min-width: 28px; border-radius: 7px; box-shadow: none; }
+.logo img { width: 100%; height: 100%; }
+.monitor { position: absolute; top: 78px; left: 17%; right: 17%; display: flex; align-items: center; justify-content: center; height: 58px; padding: 6px; border: 1px solid #9dbde0; border-radius: 5px; background: #f4f9ff; box-shadow: 0 2px 0 #d6e4f3; }
+.confirmation { display: flex; flex-direction: column; align-items: center; gap: 3px; color: var(--desk-blue); }
+.confirmation svg { display: block; width: 22px; height: 22px; }
+.confirmation strong { font-size: 13px; font-weight: 550; line-height: 1.2; }
+.monitorStand { position: absolute; top: 137px; left: calc(50% - 6px); width: 12px; height: 16px; background: #bdd3e9; }
+.monitorStand::after { content: ''; position: absolute; bottom: -2px; left: -10px; width: 32px; height: 3px; border-radius: 3px 3px 0 0; background: #a9c5e1; }
+.counter { position: absolute; top: 153px; left: 0; right: 0; height: 87px; }
+.counterTop { position: absolute; z-index: 2; top: 0; left: 0; right: 0; height: 12px; border: 1px solid #75a9db; border-radius: 3px 3px 1px 1px; background: #d9eaff; box-shadow: 0 3px 0 #bdd7f1; }
+.counterFront { position: absolute; top: 15px; bottom: 5px; left: 3px; right: 11px; border: 1px solid #b4d0ec; background: #eaf3ff; }
+.counterSide { position: absolute; top: 15px; bottom: 5px; right: 3px; width: 9px; border: 1px solid #aac9e7; border-left: 0; background: #d8e9fc; }
+.counterBase { position: absolute; bottom: 0; left: 5px; right: 5px; height: 5px; border: 1px solid #adc8e1; border-top: 0; background: #c9ddef; }
+.desk:hover .identity { border-color: var(--desk-blue); }
+.desk:hover .identity strong { color: var(--desk-blue); }
+.desk:focus-visible { outline: 2px solid var(--desk-blue); outline-offset: 5px; border-radius: 5px; }
+.cancellationScene figcaption { margin-top: 8px; color: #6c7c8f; font-size: 11px; line-height: 1.4; text-align: center; }
+
+:global([data-story-enhanced='true']) .desks > li { animation: assembleDesk 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .confirmation { animation: confirmCancellation 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(2) { animation-delay: calc(-1s * var(--scene-progress, 1) + .025s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(3) { animation-delay: calc(-1s * var(--scene-progress, 1) + .05s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(4) { animation-delay: calc(-1s * var(--scene-progress, 1) + .075s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(5) { animation-delay: calc(-1s * var(--scene-progress, 1) + .1s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(2) .confirmation { animation-delay: calc(-1s * var(--scene-progress, 1) + .035s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(3) .confirmation { animation-delay: calc(-1s * var(--scene-progress, 1) + .07s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(4) .confirmation { animation-delay: calc(-1s * var(--scene-progress, 1) + .105s); }
+:global([data-story-enhanced='true']) .desks > li:nth-child(5) .confirmation { animation-delay: calc(-1s * var(--scene-progress, 1) + .14s); }
+@keyframes assembleDesk { 0%, 8% { opacity: 0; transform: translateY(35px); } 32%, 100% { opacity: 1; transform: none; } }
+@keyframes confirmCancellation { 0%, 28% { opacity: 0; transform: translateY(4px); } 44%, 100% { opacity: 1; transform: none; } }
+
+@media (max-width: 899px) and (min-width: 700px) {
+  .desks { gap: 12px; }
+  .identity { left: 2%; right: 2%; gap: 6px; }
+  .identity strong { font-size: 12px; }
+  .identity .logo { width: 24px; height: 24px; min-width: 24px; border-radius: 6px; }
+  .monitor { left: 13%; right: 13%; }
+}
+@media (max-width: 699px) {
+  .desks { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 12px 5px; }
+  .desks > li { grid-column: span 2; }
+  .desks > li:nth-child(4) { grid-column: 2 / span 2; }
+  .desks > li:nth-child(5) { grid-column: 4 / span 2; }
+  .desk { height: 145px; }
+  .identity { left: 4%; right: 4%; min-height: 38px; flex-direction: column; gap: 3px; padding: 4px 2px; border-radius: 3px; }
+  .identity strong { font-size: 11px; line-height: 1.15; }
+  .identity .logo { width: 21px; height: 21px; min-width: 21px; border-radius: 5px; }
+  .monitor { top: 52px; left: 12%; right: 12%; height: 30px; padding: 3px 2px; border-radius: 3px; }
+  .confirmation { flex-direction: row; gap: 3px; }
+  .confirmation svg { width: 13px; height: 13px; flex-shrink: 0; }
+  .confirmation strong { font-size: 11px; line-height: 1.2; }
+  .monitorStand { top: 83px; left: calc(50% - 4px); width: 8px; height: 9px; }
+  .monitorStand::after { left: -6px; width: 20px; height: 2px; }
+  .counter { top: 92px; height: 53px; }
+  .counterTop { height: 8px; box-shadow: 0 2px 0 #bdd7f1; }
+  .counterFront { top: 10px; bottom: 3px; right: 7px; }
+  .counterSide { top: 10px; bottom: 3px; right: 3px; width: 5px; }
+  .counterBase { height: 3px; }
+  .cancellationScene figcaption { margin-top: 14px; font-size: 10px; }
+}
+@media (max-width: 359px) {
+  .desks { gap: 14px 3px; }
+  .monitor { left: 4%; right: 4%; }
+  .cancellationScene figcaption { margin-top: 10px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .desks > li,
+  :global([data-story-enhanced='true']) .confirmation { animation: none; }
+}

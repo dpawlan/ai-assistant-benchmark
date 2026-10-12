@@ -29,7 +29,6 @@ function bestAt(agent: Agent, short: Record<string, string>): string | null {
 
 export function RankedList({ agents, categories, short }: RankedListProps) {
   const [opinion, setOpinion] = useState(false);
-  const [showPending, setShowPending] = useState(false);
   const scoredCount = categories.length;
 
   const inKind = agents.filter(a => a.kind === 'general');
@@ -103,10 +102,7 @@ export function RankedList({ agents, categories, short }: RankedListProps) {
 
       {pending.length > 0 && (
         <div className="rk-pending">
-          <button type="button" className="rk-toggle" aria-expanded={showPending} onClick={() => setShowPending(v => !v)}>
-            {showPending ? 'Hide' : 'Show'} {pending.length} not yet {opinion ? 'discussed' : 'tested'}
-          </button>
-          {showPending && <div className="rk-list muted">{pending.map(a => row(a, null))}</div>}
+          <div className="rk-list muted">{pending.map(a => row(a, null))}</div>
         </div>
       )}
     </div>

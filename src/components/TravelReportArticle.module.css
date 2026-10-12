@@ -1,0 +1,12 @@
+.page { color: #1d1d1f; background: #fff; --recap-anchor-offset: 110px; }
+.article { max-width: 760px; margin: 0 auto; padding: 64px 32px 48px; }
+.header { scroll-margin-top: calc(var(--report-header-height, 86px) + 24px); }
+.header h1 { font-size: clamp(32px, 4vw, 46px); line-height: 1.13; letter-spacing: -.035em; font-weight: 650; margin: 0 0 24px; }
+.byline { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-bottom: 20px; color: #637080; font-size: 14px; text-decoration: none; }
+.article p { margin: 0 0 18px; font-size: 17px; line-height: 1.75; }
+.article section { margin-top: 40px; scroll-margin-top: calc(var(--report-header-height, 86px) + 24px); }
+.article h2 { font-size: 25px; font-weight: 600; line-height: 1.3; letter-spacing: -.025em; margin: 0 0 16px; }
+.article h3 { font-size: 20px; font-weight: 600; line-height: 1.35; margin: 28px 0 14px; }
+.article p a { display: inline-flex; align-items: center; min-height: 44px; color: #0875e1; text-underline-offset: 3px; }
+.page a:focus-visible { outline: 2px solid #0875e1; outline-offset: 4px; }
+@media (max-width: 699px) { .article { padding: 36px 24px; } .article p { font-size: 16px; line-height: 1.7; } .article h2 { font-size: 23px; } }

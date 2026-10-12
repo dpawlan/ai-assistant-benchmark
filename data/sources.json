@@ -3579,6 +3579,30 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-10-04 from a request-form submission (issue #462). Domain and distinctive name only; handles unknown."
+    },
+    "hark": {
+      "name": "Hark",
+      "handles": [],
+      "domain": "hark.com",
+      "x_queries": [
+        "\"hark.com\"",
+        "\"Hark Labs\""
+      ],
+      "reddit_queries": [
+        "\"hark.com\"",
+        "\"Hark Labs\""
+      ],
+      "hn_queries": [
+        "\"hark.com\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "hark.com",
+        "hark labs"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-10-12 from a request-form submission (issue #483). Common word: queries and match are domain and company name only."
     }
   },
   "_redact_terms": [

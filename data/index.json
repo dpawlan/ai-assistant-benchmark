@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-08",
-  "agent_count": 139,
+  "updated": "2026-10-12",
+  "agent_count": 140,
   "feedback_count": 5797,
-  "confirmed": 112,
+  "confirmed": 113,
   "stretch": 27,
   "agents": [
     {
@@ -3075,6 +3075,28 @@
           "Web app"
         ],
         "checked": "2026-10-04"
+      }
+    },
+    {
+      "slug": "hark",
+      "name": "Hark",
+      "status": "confirmed",
+      "site": "https://hark.com/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Whatever you need, let Hark handle it",
+      "icon": "/logos/hark.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free · Pro² $20/mo (2× usage) · Pro³ $100/mo (10× usage); all features on every plan",
+        "regions": "Not stated",
+        "channels": [
+          "Web app",
+          "iOS app",
+          "Android app"
+        ],
+        "checked": "2026-10-12"
       }
     }
   ]

@@ -76,4 +76,11 @@ _Updated 2026-10-06 weekday vault scan (+5 rows)._
 - (2026-10-05) TechThoughtLeaders: Stars ≠ adoption; Claude Code leads at 39% per JetBrains.
 - (2026-10-02) ClawUp: One-click OpenClaw/Hermes deploy; 1–3 min provisioning.
 
-**Feedback rows:** 47 (as of 2026-10-06)
+_Updated 2026-10-12 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-09) Ali Tarik Sahin (Upstash): Pick OpenClaw to own setup + use 20+ chat apps + large ecosystem.
+- (2026-10-12) Freedom.Tech: v2026.10.2 fixes Windows upgrades, prompt-cache, credential masking.
+- (2026-10-12) Max Kaplan: Claims OpenClaw/Hermes era over as ChatGPT closes functionality gap.
+
+**Feedback rows:** 50 (as of 2026-10-12)

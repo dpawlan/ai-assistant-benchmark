@@ -300,5 +300,60 @@
     "source": "web",
     "collected_at": "2026-10-06T14:00:00Z",
     "notes": "ClawUp Oct 2: one-click Hermes deploy alongside OpenClaw."
+  },
+  {
+    "id": "f12upstash01",
+    "agent": "hermes-agent",
+    "quote": "You want an assistant that learns your routines: Hermes. It turns repeated work into skills and changes models with one command. The install is bigger and the ecosystem is smaller.",
+    "author": "alitariksahin",
+    "author_name": "Ali Tarik Sahin (Upstash)",
+    "date": "2026-10-09",
+    "url": "https://upstash.com/blog/grok-bot-vs-muse-vs-openclaw-vs-hermes",
+    "kind": "comparison",
+    "tags": [
+      "learning",
+      "routines",
+      "skills",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Upstash Oct 9: Pick Hermes for learning routines + skills from repeated work."
+  },
+  {
+    "id": "f12x01",
+    "agent": "hermes-agent",
+    "quote": "I run 5 Hermes agents and 4 Grok Bot agents. These days I reach for Grok Bot almost every time. The reason is simple: everything just works.",
+    "author": "m0xt_",
+    "author_name": "m0xt",
+    "date": "2026-10-12",
+    "url": "https://x.com/m0xt_/status/2109639092711665911",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "multi-agent",
+      "workflow"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Developer runs 5 Hermes agents but now reaches for Grok Bot more."
+  },
+  {
+    "id": "f12x02",
+    "agent": "hermes-agent",
+    "quote": "IMO the era of Hermes & OpenClaw is now over. Over the last few months, ChatGPT has improved significantly and has nearly completely closed the gap on functionality of these tools.",
+    "author": "maxekaplan",
+    "author_name": "Max Kaplan",
+    "date": "2026-10-12",
+    "url": "https://x.com/maxekaplan/status/2109635920290820328",
+    "kind": "comparison",
+    "tags": [
+      "vs-chatgpt",
+      "era-over",
+      "functionality"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Claims Hermes/OpenClaw era over as ChatGPT closes functionality gap."
   }
 ]

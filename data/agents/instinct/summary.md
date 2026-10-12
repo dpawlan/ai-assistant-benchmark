@@ -242,5 +242,17 @@ _Updated 2026-10-09 weekday vault scan (+2 rows)._
 - (2026-10-08) Aisha Malik (TechCrunch): Natura Interface ring supports Instinct for booking reservations.
 - (2026-10-09) Geneva Digital Watch: Instinct is a partner in the Personal Agent Protocol for AI agent-business interactions.
 
-**Feedback rows:** 300 (as of 2026-10-09)
+_Updated 2026-10-12 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-10-09) Allison Johnson (The Verge): Instinct holds its own against Muse and Dots in hands-on testing.
+- (2026-10-09) Allison Johnson (The Verge): Missed swim lessons prerequisite buried in website popup.
+- (2026-10-09) Allison Johnson (The Verge): Proactive calendar conflict detection feels like a real step toward actual help.
+- (2026-10-09) Allison Johnson (The Verge): Handled Ikea return and eye doctor email; good at vague instructions.
+- (2026-09-30) Justin Canetti (OpenAssistant): Pick Instinct for text-first + phone calls + proactive follow-up.
+- (2026-10-12) Pierre Hebrard: Instinct found working storage box vs Muse's endless validation.
+- (2026-10-12) Mikita Manichau: Wine tasting booking came in 13% higher than direct price.
+- (2026-10-12) Tom Blomfield: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot.
+
+**Feedback rows:** 308 (as of 2026-10-12)
 

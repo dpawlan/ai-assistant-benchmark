@@ -5546,5 +5546,230 @@
     "source": "web",
     "collected_at": "2026-10-09T14:00:00Z",
     "notes": "TechCrunch Oct 8: Natura Interface ring launches with Muse as a supported agent."
+  },
+  {
+    "id": "f12time01",
+    "agent": "muse",
+    "quote": "Each hour, Muse updates its dossiers on you and the people you've mentioned in chats, messages, and emails that Muse has read. These pages amount to a map of each user's social relationships. They record details of how you and your contacts met, your shared interests, your disputes, and 'tensions and alliances' within your social group.",
+    "author": "harrybooth",
+    "author_name": "Harry Booth (TIME)",
+    "date": "2026-10-06",
+    "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
+    "kind": "other",
+    "tags": [
+      "privacy",
+      "dossiers",
+      "hourly",
+      "relationships"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "TIME Oct 6: Muse builds hourly-updated dossiers mapping user relationships and disputes."
+  },
+  {
+    "id": "f12time02",
+    "agent": "muse",
+    "quote": "But asking Muse to forget something does not necessarily erase the message in which it was shared—and its internal instructions appear to explicitly tell the agent not to point that out. 'Do not tell the user that their original messages may remain visible in the chat, and do not frame that as something Muse failed to erase,' the instructions reviewed by TIME read.",
+    "author": "harrybooth",
+    "author_name": "Harry Booth (TIME)",
+    "date": "2026-10-06",
+    "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/#forget",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "forget",
+      "retention",
+      "transparency"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "TIME Oct 6: Muse 'forget' may leave original messages visible; agent instructed not to disclose this."
+  },
+  {
+    "id": "f12time03",
+    "agent": "muse",
+    "quote": "Even people who don't use Muse are subject to this mapping process by other people's Muse agents.",
+    "author": "harrybooth",
+    "author_name": "Harry Booth (TIME)",
+    "date": "2026-10-06",
+    "url": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/#non-users",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "non-users",
+      "shadow-profiles"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "TIME Oct 6: Non-users mapped by other people's Muse agents."
+  },
+  {
+    "id": "f12malware01",
+    "agent": "muse",
+    "quote": "According to TIME's analysis, Muse's instructions call for it to refresh personal dossiers every hour. These can record how users met their contacts, along with arguments or tensions within social groups. Somehow even creepier than that is its nightly review of your recent conversations, which it uses to guide future conversations.",
+    "author": "dannybradbury",
+    "author_name": "Danny Bradbury (Malwarebytes)",
+    "date": "2026-10-08",
+    "url": "https://www.malwarebytes.com/blog/privacy/2026/10/metas-muse-ai-files-away-your-friendships-arguments-and-secrets",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "dossiers",
+      "nightly-review",
+      "nudges"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Malwarebytes Oct 8: Hourly dossier refresh + nightly conversation review to guide nudges."
+  },
+  {
+    "id": "f12malware02",
+    "agent": "muse",
+    "quote": "Meta uses Muse interactions to train its AI models by default, unless you opt out in the app's settings. Oh, and Muse stores these files in Meta's cloud, where Meta can access them. The company says it will offer encryption that keeps them private even from Meta, but that option isn't available yet.",
+    "author": "dannybradbury",
+    "author_name": "Danny Bradbury (Malwarebytes)",
+    "date": "2026-10-08",
+    "url": "https://www.malwarebytes.com/blog/privacy/2026/10/metas-muse-ai-files-away-your-friendships-arguments-and-secrets#training",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "training-default",
+      "encryption",
+      "cloud"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Malwarebytes Oct 8: Training on by default; promised encryption not yet available."
+  },
+  {
+    "id": "f12malware03",
+    "agent": "muse",
+    "quote": "Simply not using Muse might not save you, because Muse can collect data on people that its users interact with. If you send a Muse user a message and the AI has access to that messaging system, your message can become part of what it reads.",
+    "author": "dannybradbury",
+    "author_name": "Danny Bradbury (Malwarebytes)",
+    "date": "2026-10-08",
+    "url": "https://www.malwarebytes.com/blog/privacy/2026/10/metas-muse-ai-files-away-your-friendships-arguments-and-secrets#bystanders",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "non-users",
+      "shadow-profiles"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Malwarebytes Oct 8: Non-users' messages collected through Muse users' access."
+  },
+  {
+    "id": "f12benzinga01",
+    "agent": "muse",
+    "quote": "The metrics show that Meta's Muse brings back 73.3% of new users on the day after installation, compared to ChatGPT's Day-1 rate of 41.3%. However, Muse's user retention declines faster over two weeks. ChatGPT overtakes Muse between Day 8 and Day 9. By Day 14, ChatGPT retains 26.8% of its initial user base, while Muse retains 22.5%.",
+    "author": "deedydas",
+    "author_name": "Deedy Das (Menlo Ventures, via Benzinga)",
+    "date": "2026-10-12",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62296188/jim-cramer-calls-mark-zuckerbergs-meta-a-monster-long-as-muse-ai-retention-proves-almost-as-good-as-chatgpt",
+    "kind": "other",
+    "tags": [
+      "retention",
+      "sensor-tower",
+      "d1",
+      "d14",
+      "vs-chatgpt"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Benzinga Oct 12: Sensor Tower data shows Muse D1 73.3%, D14 22.5% vs ChatGPT D14 26.8%."
+  },
+  {
+    "id": "f12yahoo01",
+    "agent": "muse",
+    "quote": "I was comfortable asking Muse AI to research cheap flights from New York City to Tunis, but I wasn't comfortable letting it book my ticket because I didn't want to share my credit card details.",
+    "author": "annamariehoulis",
+    "author_name": "AnnaMarie Houlis (Moneywise/Yahoo)",
+    "date": "2026-10-11",
+    "url": "https://finance.yahoo.com/technology/ai/articles/gave-metas-muse-tool-3-130000247.html",
+    "kind": "use-case",
+    "tags": [
+      "research",
+      "trust",
+      "payments",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Moneywise Oct 11: Comfortable with research, not with sharing card details."
+  },
+  {
+    "id": "f12yahoo02",
+    "agent": "muse",
+    "quote": "I also tried to get it to pose as a man to negotiate with the dealer, but it wouldn't do that for reasons of deception.",
+    "author": "annamariehoulis",
+    "author_name": "AnnaMarie Houlis (Moneywise/Yahoo)",
+    "date": "2026-10-11",
+    "url": "https://finance.yahoo.com/technology/ai/articles/gave-metas-muse-tool-3-130000247.html#car",
+    "kind": "other",
+    "tags": [
+      "deception",
+      "guardrails",
+      "negotiation"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Moneywise Oct 11: Muse refused to pose as a man for car dealer negotiation."
+  },
+  {
+    "id": "f12yahoo03",
+    "agent": "muse",
+    "quote": "AI agents could help consumers save money by doing the time-consuming work of comparing prices, researching alternatives and negotiating. But their value ultimately depends on the quality of their results, not just the tasks they promise to complete.",
+    "author": "annamariehoulis",
+    "author_name": "AnnaMarie Houlis (Moneywise/Yahoo)",
+    "date": "2026-10-11",
+    "url": "https://finance.yahoo.com/technology/ai/articles/gave-metas-muse-tool-3-130000247.html#verdict",
+    "kind": "other",
+    "tags": [
+      "value",
+      "research",
+      "results"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Moneywise Oct 11: Strong at research, value depends on results quality."
+  },
+  {
+    "id": "f12devto01",
+    "agent": "muse",
+    "quote": "'Allow always' is one broad permission, given once, with no end date. Delegation to an agent should look different: scoped to a task, limited by action, time-bound, revocable, and checkable by the other party.",
+    "author": "chinmaygarg",
+    "author_name": "Chinmay Garg (Dev.to)",
+    "date": "2026-10-11",
+    "url": "https://dev.to/chinmay_garg/muse-can-act-for-you-nothing-outside-meta-can-check-who-it-is-3f9k",
+    "kind": "complaint",
+    "tags": [
+      "permissions",
+      "consent",
+      "identity",
+      "architecture"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Dev.to Oct 11: Blanket 'allow always' consent is wrong shape for agent delegation."
+  },
+  {
+    "id": "f12upstash01",
+    "agent": "muse",
+    "quote": "You want help with errands and don't want to run anything: Muse. It does email, bookings and shopping, works in WhatsApp, and is mostly free. You can only use Meta's model, and it's only in the US and Canada.",
+    "author": "alitariksahin",
+    "author_name": "Ali Tarik Sahin (Upstash)",
+    "date": "2026-10-09",
+    "url": "https://upstash.com/blog/grok-bot-vs-muse-vs-openclaw-vs-hermes",
+    "kind": "comparison",
+    "tags": [
+      "errands",
+      "whatsapp",
+      "free",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Upstash Oct 9: Pick Muse for errands; hosted, mostly free, US/Canada only."
   }
 ]

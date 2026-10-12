@@ -46,4 +46,11 @@ _Updated 2026-10-06 weekday vault scan (+3 rows)._
 - (2026-10-05) TechThoughtLeaders: Hermes Agent 251k stars, #2 agent harness on GitHub.
 - (2026-10-02) ClawUp: One-click Hermes deploy alongside OpenClaw.
 
-**Feedback rows:** 16 (as of 2026-10-06)
+_Updated 2026-10-12 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-09) Ali Tarik Sahin (Upstash): Pick Hermes for learning routines + skills from repeated work.
+- (2026-10-12) m0xt: Developer runs 5 Hermes agents but now reaches for Grok Bot more.
+- (2026-10-12) Max Kaplan: Claims Hermes/OpenClaw era over as ChatGPT closes functionality gap.
+
+**Feedback rows:** 19 (as of 2026-10-12)

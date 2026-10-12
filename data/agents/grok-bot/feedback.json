@@ -29262,5 +29262,114 @@
     "source": "web",
     "collected_at": "2026-10-09T14:00:00Z",
     "notes": "TechCrunch Oct 8: Natura Interface ring launches with Grok Bot as a supported agent."
+  },
+  {
+    "id": "f12benzinga01",
+    "agent": "grok-bot",
+    "quote": "By Day 14, ChatGPT kept 26.8% of users, followed by Meta's Muse at 22.5%, Instagram's Threads at 21.2%, Google Maps at 18.5%, and X Corp.'s Grok Bot at 10.4%.",
+    "author": "deedydas",
+    "author_name": "Deedy Das (Menlo Ventures, via Benzinga)",
+    "date": "2026-10-12",
+    "url": "https://www.benzinga.com/markets/equities/26/10/62296188/jim-cramer-calls-mark-zuckerbergs-meta-a-monster-long-as-muse-ai-retention-proves-almost-as-good-as-chatgpt",
+    "kind": "other",
+    "tags": [
+      "retention",
+      "sensor-tower",
+      "d14",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Benzinga Oct 12: Sensor Tower D14 retention 10.4% (vs ChatGPT 26.8%, Muse 22.5%)."
+  },
+  {
+    "id": "f12upstash01",
+    "agent": "grok-bot",
+    "quote": "You want real computer work done across your apps: Grok Bot. Each Bot has its own cloud computer, so it can build things and keep working while you're away. You don't choose the model, and everything runs in Cursor's cloud.",
+    "author": "alitariksahin",
+    "author_name": "Ali Tarik Sahin (Upstash)",
+    "date": "2026-10-09",
+    "url": "https://upstash.com/blog/grok-bot-vs-muse-vs-openclaw-vs-hermes",
+    "kind": "comparison",
+    "tags": [
+      "computer-work",
+      "cloud",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Upstash Oct 9: Pick Grok Bot for real computer work across apps."
+  },
+  {
+    "id": "f12x01",
+    "agent": "grok-bot",
+    "quote": "I run 5 Hermes agents and 4 Grok Bot agents. These days I reach for Grok Bot almost every time. The reason is simple: everything just works. Its harness, meaning everything around the AI model that lets it actually do things, comes built in.",
+    "author": "m0xt_",
+    "author_name": "m0xt",
+    "date": "2026-10-12",
+    "url": "https://x.com/m0xt_/status/2109639092711665911",
+    "kind": "praise",
+    "tags": [
+      "harness",
+      "just-works",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Developer runs 5 Hermes + 4 Grok Bot; reaches for Grok Bot because harness 'just works'."
+  },
+  {
+    "id": "f12x02",
+    "agent": "grok-bot",
+    "quote": "I genuinely love building things by talking to Grok Bot in Tesla. Just setup a Mac and ask Grok to make whatever comes to mind. Prompted this on my drive home and it was done by the time I got there.",
+    "author": "Baconbrix",
+    "author_name": "Evan Bacon",
+    "date": "2026-10-12",
+    "url": "https://x.com/Baconbrix/status/2109463661572149716",
+    "kind": "praise",
+    "tags": [
+      "tesla",
+      "voice",
+      "building"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Expo dev loves building via Grok Bot voice in Tesla."
+  },
+  {
+    "id": "f12x03",
+    "agent": "grok-bot",
+    "quote": "Grok Bot has seriously generous usage limits now.... I've been using it soo much, and I still have 35% of my weekly limit left, with just 3 days until it resets. When Grok Bot first launched, I would have already run out of limits with this much usage.",
+    "author": "XFreeze",
+    "author_name": "X Freeze",
+    "date": "2026-10-12",
+    "url": "https://x.com/XFreeze/status/2109509201521451275",
+    "kind": "praise",
+    "tags": [
+      "usage-limits",
+      "generous",
+      "improvement"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Usage limits now generous; 35% left with heavy use before reset."
+  },
+  {
+    "id": "f12blomfield01",
+    "agent": "grok-bot",
+    "quote": "2027 will be the year of the personal agent. It has finally found PMF with Instinct, Muse & Grokbot. This will cause a tsunami of customer enquiries — it's now essentially free for a customer to send hundreds of emails, texts and phonecalls to make a single purchase.",
+    "author": "t_blom",
+    "author_name": "Tom Blomfield",
+    "date": "2026-10-12",
+    "url": "https://x.com/t_blom/status/2109582965567095134",
+    "kind": "other",
+    "tags": [
+      "pmf",
+      "prediction",
+      "enquiries"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot."
   }
 ]

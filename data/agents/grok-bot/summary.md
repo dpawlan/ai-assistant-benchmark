@@ -147,5 +147,15 @@ _Updated 2026-10-09 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-10-08) Aisha Malik (TechCrunch): Natura Interface ring launches with Grok Bot as a supported agent.
 
-**Feedback rows:** 1214 (as of 2026-10-09)
+_Updated 2026-10-12 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-12) Deedy Das (Menlo Ventures, via Benzinga): Sensor Tower D14 retention 10.4% (vs ChatGPT 26.8%, Muse 22.5%).
+- (2026-10-09) Ali Tarik Sahin (Upstash): Pick Grok Bot for real computer work across apps.
+- (2026-10-12) m0xt: Developer runs 5 Hermes + 4 Grok Bot; reaches for Grok Bot because harness "just works."
+- (2026-10-12) Evan Bacon: Expo dev loves building via Grok Bot voice in Tesla.
+- (2026-10-12) X Freeze: Usage limits now generous; 35% left with heavy use before reset.
+- (2026-10-12) Tom Blomfield: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot.
+
+**Feedback rows:** 1220 (as of 2026-10-12)
 

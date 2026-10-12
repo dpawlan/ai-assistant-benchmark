@@ -6347,5 +6347,155 @@
     "source": "web",
     "collected_at": "2026-10-09T14:00:00Z",
     "notes": "Oct 9: Instinct is a partner in the Personal Agent Protocol for AI agent-business interactions."
+  },
+  {
+    "id": "f12verge01",
+    "agent": "instinct",
+    "quote": "But in my own testing, Instinct has held its own against the other two agents, handling online tasks about as well as a robot can.",
+    "author": "allisonjohnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-10-09",
+    "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+    "kind": "praise",
+    "tags": [
+      "hands-on",
+      "vs-muse",
+      "vs-dots",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Verge Oct 9: Instinct holds its own against Muse and Dots in hands-on testing."
+  },
+  {
+    "id": "f12verge02",
+    "agent": "instinct",
+    "quote": "The times and dates it came up with all checked out — one very low hurdle cleared. But it missed a crucial piece of information: The center has a prerequisite class for kids enrolling in preschool-age lessons. I happened to catch this detail, and it highlights a challenge AI agents face: They're great with a clean set of data, but the internet was made by humans, and often the data sucks.",
+    "author": "allisonjohnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-10-09",
+    "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots#swim",
+    "kind": "complaint",
+    "tags": [
+      "hands-on",
+      "prerequisite-miss",
+      "data-quality",
+      "swim-lessons"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Verge Oct 9: Missed prerequisite class requirement buried in website popup."
+  },
+  {
+    "id": "f12verge03",
+    "agent": "instinct",
+    "quote": "A few times it surprised me by presenting relevant information that I hadn't explicitly asked for... Instinct also flagged a potential conflict on my calendar while it was doing another chore for me. Correctly identifying relevant information and bringing it to my attention proactively feels like a real step toward actual help.",
+    "author": "allisonjohnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-10-09",
+    "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots#proactive",
+    "kind": "praise",
+    "tags": [
+      "hands-on",
+      "proactive",
+      "calendar",
+      "context"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Verge Oct 9: Proactive calendar conflict detection feels like a real step toward actual help."
+  },
+  {
+    "id": "f12verge04",
+    "agent": "instinct",
+    "quote": "Instinct handled a few other tasks well, like emailing my eye doctor's office to set up an appointment and doing the digital paperwork to start an Ikea return. Beyond just filling in some forms for me, it was surprisingly good at handling vague instructions.",
+    "author": "allisonjohnson",
+    "author_name": "Allison Johnson (The Verge)",
+    "date": "2026-10-09",
+    "url": "https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots#ikea",
+    "kind": "praise",
+    "tags": [
+      "hands-on",
+      "ikea",
+      "eye-doctor",
+      "vague-instructions"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Verge Oct 9: Handled Ikea return and eye doctor email; good at vague instructions."
+  },
+  {
+    "id": "f12openasst01",
+    "agent": "instinct",
+    "quote": "Pick Instinct if you can get an invite, prefer to just text an assistant (no app), and want one that makes phone calls and follows up on its own.",
+    "author": "justincanetti",
+    "author_name": "Justin Canetti (OpenAssistant)",
+    "date": "2026-09-30",
+    "url": "https://openassistant.us/blog/instinct-vs-muse",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "text-first",
+      "phone-calls",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "OpenAssistant Sep 30: Pick Instinct for text-first + phone calls + proactive follow-up."
+  },
+  {
+    "id": "f12x01",
+    "agent": "instinct",
+    "quote": "I wanted to book a storage box. Muse and others gave me endless possibilities asking me to validate (I couldn't care less), instinct just found one that worked.",
+    "author": "pierrehebrard",
+    "author_name": "Pierre Hebrard",
+    "date": "2026-10-12",
+    "url": "https://x.com/pierrehebrard/status/2109639750223065182",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "storage",
+      "decisiveness"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Instinct found working storage box vs Muse's endless validation."
+  },
+  {
+    "id": "f12x02",
+    "agent": "instinct",
+    "quote": "Would you give your credit card to an AI assistant? Personally - not atm. Asked Instinct to book a wine tasting, got a 13% higher price. €62 instead of €55. When I asked why? It told me to show it a better offer.",
+    "author": "mikitamanichau",
+    "author_name": "Mikita Manichau",
+    "date": "2026-10-12",
+    "url": "https://x.com/mikitamanichau/status/2109645272846671928",
+    "kind": "complaint",
+    "tags": [
+      "overpay",
+      "wine-tasting",
+      "trust",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Wine tasting booking came in 13% higher than direct price."
+  },
+  {
+    "id": "f12blomfield01",
+    "agent": "instinct",
+    "quote": "2027 will be the year of the personal agent. It has finally found PMF with Instinct, Muse & Grokbot. This will cause a tsunami of customer enquiries — it's now essentially free for a customer to send hundreds of emails, texts and phonecalls to make a single purchase.",
+    "author": "t_blom",
+    "author_name": "Tom Blomfield",
+    "date": "2026-10-12",
+    "url": "https://x.com/t_blom/status/2109582965567095134",
+    "kind": "other",
+    "tags": [
+      "pmf",
+      "prediction",
+      "enquiries"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-12T14:00:00Z",
+    "notes": "Oct 12: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot."
   }
 ]

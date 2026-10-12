@@ -235,5 +235,18 @@ _Updated 2026-10-09 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-10-08) Aisha Malik (TechCrunch): Natura Interface ring launches with Muse as a supported agent.
 
-**Feedback rows:** 268 (as of 2026-10-09)
-**Kinds:** other=79, use-case=39, praise=18, complaint=43, comparison=14, bug=25, news=39
+_Updated 2026-10-12 weekday vault scan (+12 rows)._
+
+**New this scan:**
+- (2026-10-06) Harry Booth (TIME): Hourly-updated dossiers map user relationships, disputes, "tensions and alliances."
+- (2026-10-06) Harry Booth (TIME): Muse 'forget' may leave original messages visible; agent instructed not to disclose this.
+- (2026-10-06) Harry Booth (TIME): Non-users mapped by other people's Muse agents.
+- (2026-10-08) Danny Bradbury (Malwarebytes): Hourly dossier refresh + nightly conversation review to guide nudges.
+- (2026-10-08) Danny Bradbury (Malwarebytes): Training on by default; promised encryption not yet available.
+- (2026-10-12) Deedy Das (Menlo Ventures, via Benzinga): Sensor Tower D1 73.3%, D14 22.5% vs ChatGPT D14 26.8%.
+- (2026-10-11) AnnaMarie Houlis (Moneywise/Yahoo): Strong at research; won't share card details or pose as man for negotiation.
+- (2026-10-11) Chinmay Garg (Dev.to): Blanket 'allow always' consent is wrong shape for agent delegation.
+- (2026-10-09) Ali Tarik Sahin (Upstash): Pick Muse for errands; hosted, mostly free, US/Canada only.
+
+**Feedback rows:** 280 (as of 2026-10-12)
+**Kinds:** other=84, use-case=40, praise=18, complaint=49, comparison=15, bug=25, news=39

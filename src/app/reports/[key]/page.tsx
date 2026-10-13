@@ -15,6 +15,7 @@ import { ArticleCard } from '@/components/ArticleCard';
 import { getAuthor } from '@/lib/authors';
 import { AuthorAvatar } from '@/components/AuthorAvatar';
 import { TravelReportJourney } from '@/components/TravelReportJourney';
+import { ogUrl } from '@/lib/og';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -27,6 +28,20 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { key } = await params;
   const r = getReport(key);
+  if (r?.key === 'consumer-ai-travel') {
+    const title = 'Would you let AI book your next flight?';
+    const description = 'We tested real bookings across five AI assistants. See how Miso, Instinct, GrokBot, Dots and Muse handled booking, seat selection, changes and cancellations.';
+    const image = ogUrl('/og/reports/consumer-ai-travel.png');
+    return {
+      title,
+      description,
+      openGraph: {
+        title, description, type: 'article', siteName: 'Assistant Benchmark',
+        images: [{ url: image, width: 1200, height: 630, alt: `${title} Miso, Instinct, GrokBot, Dots and Muse.` }],
+      },
+      twitter: { card: 'summary_large_image', title, description, images: [image] },
+    };
+  }
   return { title: r ? r.title : 'Report' };
 }
 

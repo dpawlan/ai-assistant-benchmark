@@ -4156,7 +4156,9 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 @media (max-width: 600px) { .travel-evidence-grid { grid-template-columns: 1fr; } }
 
 /* Documented travel tests reuse benchmark tables and evidence cards. */
-.travel-matrix { min-width: 925px; }
+.travel-matrix { min-width: 945px; }
+.travel-matrix col.c-name { width: 178px; }
+.travel-grid-rank { flex: 0 0 16px; }
 .travel-test-card { padding: 24px 0; }
 .travel-test-card a { color: inherit; }
 .travel-test-card a:hover { color: var(--blue); }

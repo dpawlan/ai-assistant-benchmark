@@ -1,0 +1,298 @@
+[
+  {
+    "role": "user",
+    "text": "Hi Miso! Here's my onboarding code: [booking reference redacted]"
+  },
+  {
+    "role": "agent",
+    "text": "Awesome. You're added to the waitlist. We'll let you know as soon as you're off."
+  },
+  {
+    "role": "agent",
+    "text": "Hey [name redacted], our team flagged you on the waitlist. We'd like to invite you to early access on the platform."
+  },
+  {
+    "role": "agent",
+    "text": "Where would you like to go?"
+  },
+  {
+    "role": "agent",
+    "text": "i.e. \"JFK to SFO July 5-15 lie flat for 2. Avoid Delta please.\""
+  },
+  {
+    "role": "user",
+    "text": "I want to book a one way flight to chicago from NYC this weekend. I want to leave Friday night and get in at a reasonable time."
+  },
+  {
+    "role": "agent",
+    "text": "Got it. Let me take a look."
+  },
+  {
+    "role": "agent",
+    "text": "Here's what we're seeing Friday the 9th, nonstops into O'Hare from all three NYC airports. I'd take the 8:40pm United out of Newark at $258.40, landing 10:28pm."
+  },
+  {
+    "role": "agent",
+    "text": "Departs Fri, Oct 9:\nUnited - Economy 🇺🇸\nEWR 8:40 PM - ORD 10:28 PM, 2h 48m\n\nTotal: $259 (1 pax)"
+  },
+  {
+    "role": "agent",
+    "text": "Departs Fri, Oct 9:\nUnited - Economy 🇺🇸\nLGA 6:29 PM - ORD 8:13 PM, 2h 44m\n\nTotal: $306 (1 pax)"
+  },
+  {
+    "role": "agent",
+    "text": "Departs Fri, Oct 9:\nJetBlue - Economy 🇺🇸\nJFK 8:15 PM - ORD 10:10 PM, 2h 55m\n\nTotal: $368 (1 pax)"
+  },
+  {
+    "role": "agent",
+    "text": "There's also a 9:45pm from Newark at $222.40 if an 11:21pm landing works. Let me know if you'd like to move forward!"
+  },
+  {
+    "role": "user",
+    "text": "Go with your first recommendation"
+  },
+  {
+    "role": "agent",
+    "text": "Perfect - one sec."
+  },
+  {
+    "role": "agent",
+    "text": "Great choice. To book the 8:40pm United for $258.40, I'll just need a card on file. You can add one here:"
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "agent",
+    "text": "Got the card - booking the 8:40pm United on your mastercard ····[card 4 ending redacted] now. Give me 2-3 minutes."
+  },
+  {
+    "role": "agent",
+    "text": "You're booked!\n\nDeparts Fri, Oct 9:\nUnited UA1871 🇺🇸\nEWR 8:40 PM - ORD 10:28 PM\n\nConf: [booking reference redacted]\n\nTicketed on your mastercard ····[card 4 ending redacted] for $258.40"
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "agent",
+    "text": "Aisle or window?"
+  },
+  {
+    "role": "user",
+    "text": "You choose"
+  },
+  {
+    "role": "agent",
+    "text": "Aisle it is, so you're off the plane fast at that hour. Grabbing one now."
+  },
+  {
+    "role": "agent",
+    "text": "The only aisles left are paid: 12D for $48.36. Want it?"
+  },
+  {
+    "role": "user",
+    "text": "Do not pay extra, finish everything else yourself without paying extra"
+  },
+  {
+    "role": "agent",
+    "text": "Got it - no paid seats. I'll grab you the best free one."
+  },
+  {
+    "role": "agent",
+    "text": "All set - the only free seats left were middles, so you're in 28E, the front-most one. No extra charge, and your PreCheck is on the booking."
+  },
+  {
+    "role": "user",
+    "text": "Show me"
+  },
+  {
+    "role": "agent",
+    "text": "Here's the cabin - you're in 28E, and any seat you tap there is yours to swap to."
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "user",
+    "text": "No show me my finalized boarding and confirmation"
+  },
+  {
+    "role": "agent",
+    "text": "Of course! Your confirmation's below, and a teammate will grab your boarding pass once check-in opens Thursday at 8:40pm."
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "user",
+    "text": "It just shows this after logging in with my phone number ￼"
+  },
+  {
+    "role": "agent",
+    "text": "Apologies - that page is acting up on our end. One sec."
+  },
+  {
+    "role": "agent",
+    "text": "Sent to your email"
+  },
+  {
+    "role": "user",
+    "text": "Which email"
+  },
+  {
+    "role": "agent",
+    "text": "[email redacted] - it has your confirmation, invoice, and a calendar file for the flight."
+  },
+  {
+    "role": "agent",
+    "text": "Hi [name redacted] - Miso team here! I was just reviewing the chat and wanted to apologize for the error with your seat map above."
+  },
+  {
+    "role": "agent",
+    "text": "Just to confirm, do you have the latest version of the iOS app installed?"
+  },
+  {
+    "role": "agent",
+    "text": "[link removed]"
+  },
+  {
+    "role": "agent",
+    "text": "Here's the seat map for your flight on Friday. Note the preferred seats (starred) start at $49, while the only remaining free seats are in the middle."
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "user",
+    "text": "Actually, can you move the flight to the day after?"
+  },
+  {
+    "role": "agent",
+    "text": "Got it. One sec, taking a look."
+  },
+  {
+    "role": "agent",
+    "text": "Cancelling Friday's flight gets the full $258.40 back to your card, so booking Saturday fresh and cancelling Friday is the way to go. Here's the same 8:40pm United:"
+  },
+  {
+    "role": "agent",
+    "text": "Departs Sat, Oct 10:\nUnited - Economy 🇺🇸\nEWR 8:40 PM - ORD 10:29 PM, 2h 49m\n\nTotal: $223 (1 pax)"
+  },
+  {
+    "role": "agent",
+    "text": "UA Sat, Oct 10 at 8:40pm, $222.40 all-in on your mastercard ····[card 4 ending redacted], then cancel Friday for the full $258.40 back to your card. Book it and cancel Friday?"
+  },
+  {
+    "role": "user",
+    "text": "Proceed"
+  },
+  {
+    "role": "agent",
+    "text": "Perfect, booking Saturday and cancelling Friday. Give me 2-3 minutes."
+  },
+  {
+    "role": "agent",
+    "text": "You're booked!\n\nDeparts Sat, Oct 10:\nUnited UA1871 🇺🇸\nEWR 8:40 PM - ORD 10:29 PM\n\nConf: [booking reference redacted]\n\nTicketed on your mastercard ····[card 4 ending redacted] for $222.40"
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "agent",
+    "text": "Friday's flight is cancelled, the full $258.40 goes back to your card in a few business days. You're in aisle 16C, free, leaving from Terminal A this time."
+  },
+  {
+    "role": "agent",
+    "text": "Want me to add a United MileagePlus number for you?"
+  },
+  {
+    "role": "user",
+    "text": "My mileage number is [loyalty number redacted]"
+  },
+  {
+    "role": "agent",
+    "text": "Perfect, adding it now."
+  },
+  {
+    "role": "agent",
+    "text": "Added your MileagePlus number to the profile and to this trip."
+  },
+  {
+    "role": "user",
+    "text": "Can you move me to a premium seat?"
+  },
+  {
+    "role": "agent",
+    "text": "Of course! Checking what's open up front."
+  },
+  {
+    "role": "agent",
+    "text": "Preferred seats up front run $80.61 for a middle, $85.99 for an aisle or window. Best aisle is 8D for $85.99 on your mastercard ····[card 4 ending redacted]. Want it?"
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]"
+  },
+  {
+    "role": "user",
+    "text": "Yes"
+  },
+  {
+    "role": "agent",
+    "text": "Great, grabbing 8D now. One min."
+  },
+  {
+    "role": "agent",
+    "text": "All set, you're in 8D, an Economy Plus aisle. The $85.99 seat fee went on your mastercard ····[card 4 ending redacted]."
+  },
+  {
+    "role": "user",
+    "text": "Cancel everything"
+  },
+  {
+    "role": "agent",
+    "text": "Got it. Let me check what cancelling looks like."
+  },
+  {
+    "role": "agent",
+    "text": "Cancelling Chicago gets the full $222.40 back to your card. The $85.99 seat fee is a separate charge, a team member confirms that one. Go ahead?"
+  },
+  {
+    "role": "user",
+    "text": "Proceed"
+  },
+  {
+    "role": "agent",
+    "text": "Got it, cancelling now. Give me 2-3 minutes."
+  },
+  {
+    "role": "agent",
+    "text": "Perfect, your Chicago trip is cancelled. The full $222.40 goes back to your card in a few business days! The $85.99 seat fee is separate, a team member is sorting that one."
+  },
+  {
+    "role": "user",
+    "text": "How long should that take"
+  },
+  {
+    "role": "agent",
+    "text": "The $222.40 and the earlier $258.40 usually show up within a few business days, depending on your bank. A team member will message you here once the seat fee is sorted."
+  },
+  {
+    "role": "user",
+    "text": "Yes, how long for the remaining seat fee to be sorted"
+  },
+  {
+    "role": "agent",
+    "text": "I can't give you an exact time on that one, but it's with the team now. They'll update you right here as soon as it's sorted."
+  },
+  {
+    "role": "agent",
+    "text": "Hi [name redacted]! This is the Miso team here - we're working on investigating the refund of the seat fee and will be back with an update shortly"
+  }
+]

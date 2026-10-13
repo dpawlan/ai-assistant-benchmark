@@ -6497,5 +6497,60 @@
     "source": "x",
     "collected_at": "2026-10-12T14:00:00Z",
     "notes": "Oct 12: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot."
+  },
+  {
+    "id": "f13-36kr01",
+    "agent": "instinct",
+    "quote": "After using Instinct for about three weeks, around 40% of users are already willing to provide their personal credit card information. Among users who have connected at least one piece of sensitive information, the retention rate reaches about 80%.",
+    "author": "guijisoft",
+    "author_name": "硅基观察Pro (36kr)",
+    "date": "2026-10-10",
+    "url": "https://eu.36kr.com/en/p/4019986928029832",
+    "kind": "news",
+    "tags": [
+      "retention",
+      "credit-card",
+      "trust",
+      "metrics"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "36kr Oct 10: ~40% link credit cards after ~3 weeks; ~80% retention for users with sensitive data connected."
+  },
+  {
+    "id": "f13-36kr02",
+    "agent": "instinct",
+    "quote": "According to data disclosed by Shinn, the platform's annualized transaction volume has exceeded 1 billion US dollars.",
+    "author": "guijisoft",
+    "author_name": "硅基观察Pro (36kr)",
+    "date": "2026-10-10",
+    "url": "https://eu.36kr.com/en/p/4019986928029832#gmv",
+    "kind": "news",
+    "tags": [
+      "gmv",
+      "transaction-volume",
+      "metrics"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "36kr Oct 10: >$1B annualized transaction volume."
+  },
+  {
+    "id": "f13-36kr03",
+    "agent": "instinct",
+    "quote": "Personal AI assistants can also form their own network. However, the connections in this network are not only the relationships between people, but also the Agents behind each individual.",
+    "author": "guijisoft",
+    "author_name": "硅基观察Pro (36kr)",
+    "date": "2026-10-10",
+    "url": "https://eu.36kr.com/en/p/4019986928029832#network",
+    "kind": "other",
+    "tags": [
+      "agent-network",
+      "coordination",
+      "network-effects"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "36kr Oct 10: Agent-to-agent coordination creates network effects."
   }
 ]

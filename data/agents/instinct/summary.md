@@ -254,5 +254,12 @@ _Updated 2026-10-12 weekday vault scan (+8 rows)._
 - (2026-10-12) Mikita Manichau: Wine tasting booking came in 13% higher than direct price.
 - (2026-10-12) Tom Blomfield: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot.
 
-**Feedback rows:** 308 (as of 2026-10-12)
+_Updated 2026-10-13 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-10) 硅基观察Pro (36kr): ~40% link credit cards after ~3 weeks; ~80% retention for users with sensitive data connected.
+- (2026-10-10) 硅基观察Pro (36kr): >$1B annualized transaction volume.
+- (2026-10-10) 硅基观察Pro (36kr): Agent-to-agent coordination creates network effects.
+
+**Feedback rows:** 311 (as of 2026-10-13)
 

@@ -83,4 +83,10 @@ _Updated 2026-10-12 weekday vault scan (+3 rows)._
 - (2026-10-12) Freedom.Tech: v2026.10.2 fixes Windows upgrades, prompt-cache, credential masking.
 - (2026-10-12) Max Kaplan: Claims OpenClaw/Hermes era over as ChatGPT closes functionality gap.
 
-**Feedback rows:** 50 (as of 2026-10-12)
+_Updated 2026-10-13 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-13) r/openclaw: Every update breaks something; memory and keys fail post-upgrade.
+- (2026-10-13) r/openclaw: Switched to Hermes after another broken update; Hermes ported cron jobs easily.
+
+**Feedback rows:** 52 (as of 2026-10-13)

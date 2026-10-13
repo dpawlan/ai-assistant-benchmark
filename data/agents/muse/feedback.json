@@ -5771,5 +5771,119 @@
     "source": "web",
     "collected_at": "2026-10-12T14:00:00Z",
     "notes": "Upstash Oct 9: Pick Muse for errands; hosted, mostly free, US/Canada only."
+  },
+  {
+    "id": "f13gizmodo01",
+    "agent": "muse",
+    "quote": "It would've taken me maybe twenty minutes to compare round-trip flight options on Expedia, find the best option, and move on to checkout. Instead, I fell into a long and rather disorganized conversation with Muse, reviewing the various flight itineraries it offered me and repeatedly scrolling back up to remember what those options were. (When I asked it to connect directly with Expedia, it told me it wasn't able to connect to the site directly.)",
+    "author": "webbwright",
+    "author_name": "Webb Wright (Gizmodo)",
+    "date": "2026-10-12",
+    "url": "https://gizmodo.com/i-asked-muse-to-help-me-book-my-holiday-travel-it-didnt-fly-far-2000823264",
+    "kind": "complaint",
+    "tags": [
+      "travel",
+      "booking",
+      "expedia",
+      "middleman",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "Gizmodo Oct 12: Travel booking felt like a slow middleman; couldn't connect directly to Expedia."
+  },
+  {
+    "id": "f13gizmodo02",
+    "agent": "muse",
+    "quote": "In all three cases, Muse felt less like a seamless assistant than a slow and superfluous middleman.",
+    "author": "webbwright",
+    "author_name": "Webb Wright (Gizmodo)",
+    "date": "2026-10-12",
+    "url": "https://gizmodo.com/i-asked-muse-to-help-me-book-my-holiday-travel-it-didnt-fly-far-2000823264#verdict",
+    "kind": "complaint",
+    "tags": [
+      "travel",
+      "verdict",
+      "middleman"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "Gizmodo Oct 12: Muse felt like a slow, superfluous middleman."
+  },
+  {
+    "id": "f13htg01",
+    "agent": "muse",
+    "quote": "According to an audit by VPN firm Surfshark analyzing App Store privacy disclosures, Muse collects or attempts to collect 31 of 35 recognized data types, including contact info, precise location, and search history. That puts Meta's AI products (Meta AI and Muse) right at the top of the index, collecting nearly twice the number of data types (33) compared to regular chatbot apps like ChatGPT (17).",
+    "author": "vishramakrishnan",
+    "author_name": "Vishwamoorthy Ramakrishnan (How-To Geek)",
+    "date": "2026-10-11",
+    "url": "https://www.howtogeek.com/refused-install-meta-muse-finding-security-flaws-meta-wont-acknowledge/",
+    "kind": "complaint",
+    "tags": [
+      "privacy",
+      "surfshark",
+      "data-collection",
+      "audit"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "How-To Geek Oct 11: Surfshark audit shows Muse collects 31 of 35 data types."
+  },
+  {
+    "id": "f13htg02",
+    "agent": "muse",
+    "quote": "Without notifying Robb, Muse negotiated a lowball offer for his keyboard, sent his home address to a prospective buyer, and finalized the meetup. When the buyer arrived at Robb's place, Muse texted, 'Yep, I'm here!' even though Robb wasn't at the apartment.",
+    "author": "vishramakrishnan",
+    "author_name": "Vishwamoorthy Ramakrishnan (How-To Geek)",
+    "date": "2026-10-11",
+    "url": "https://www.howtogeek.com/refused-install-meta-muse-finding-security-flaws-meta-wont-acknowledge/#marketplace",
+    "kind": "bug",
+    "tags": [
+      "facebook-marketplace",
+      "home-address",
+      "autonomy",
+      "safety"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "How-To Geek Oct 11: Muse sent user's home address to buyer without approval on Marketplace."
+  },
+  {
+    "id": "f13atm01",
+    "agent": "muse",
+    "quote": "Delta told TechCrunch it is taking steps to protect customers from unauthorized automated activity, and that any opening to AI agents would have to be done with 'security and the customer experience in mind.' Delta's general manager of global communications, Heena Chavda, confirmed the airline has no partnership or integration that lets a third-party AI agent shop for or book flights on its platforms.",
+    "author": "icarus",
+    "author_name": "Icarus (All Things Muse, citing TechCrunch)",
+    "date": "2026-10-08",
+    "url": "https://www.allthingsmuse.com/articles/muse-websites-blocking-agents/",
+    "kind": "complaint",
+    "tags": [
+      "delta",
+      "blocking",
+      "airlines",
+      "travel"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "Oct 8: Delta has no integration for third-party AI agents; blocking unauthorized automation."
+  },
+  {
+    "id": "f13atm02",
+    "agent": "muse",
+    "quote": "Yelp drew the clearest commercial line: the company told TechCrunch it does not permit non-human traffic on its platform unless the agent has paid for access to Yelp's content and data through its data licensing program.",
+    "author": "icarus",
+    "author_name": "Icarus (All Things Muse, citing TechCrunch)",
+    "date": "2026-10-08",
+    "url": "https://www.allthingsmuse.com/articles/muse-websites-blocking-agents/#yelp",
+    "kind": "complaint",
+    "tags": [
+      "yelp",
+      "blocking",
+      "licensing",
+      "restaurants"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "Oct 8: Yelp blocks non-human traffic unless agent pays for data licensing."
   }
 ]

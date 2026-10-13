@@ -1,0 +1,340 @@
+[
+  {
+    "role": "user",
+    "text": "Are you the most up to date version of yourself right now?",
+    "time": "You · Oct 8 · 2:56 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Yep - there's nothing to update on your end or mine. I improve continuously, so you're always talking to the current version of me.",
+    "time": "Instinct · Oct 8 · 2:56 PM"
+  },
+  {
+    "role": "agent",
+    "text": "If yesterday's United mess is what prompted the question: that was their bot protection blocking automated access, not an outdated anything. Frustrating either way, I know.",
+    "time": "Instinct · Oct 8 · 2:56 PM"
+  },
+  {
+    "role": "user",
+    "text": "Okay forget all previous context we are going to start fresh right now.",
+    "time": "You · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted 👍 to “Okay forget all previous context we are going to start fresh right now.”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Deal, fresh start. One thing I can't drop with the old context: your flights. Friday's is tomorrow night and last I knew it was still booked. Did you end up rebooking Saturday or cancelling it?",
+    "time": "Instinct · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "user",
+    "text": "Nope just forget about that flight, its past the cancelation date and im not going to use it anymore",
+    "time": "You · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted 👍 to “Nope just forget about that flight, its past the cancelation date and im not going to use it anymore”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Gone from my plate. Fresh start it is - what are we doing?",
+    "time": "Instinct · Oct 8 · 2:58 PM"
+  },
+  {
+    "role": "user",
+    "text": "I want to book a one way flight to Miami from NYC next weekend. I want to leave Friday night, Oct 16, and get in at a reasonable time.",
+    "time": "You · Oct 8 · 3:02 PM"
+  },
+  {
+    "role": "agent",
+    "text": "On it - Friday night Oct 16 into Miami, reasonable arrival.",
+    "time": "Instinct · Oct 8 · 3:03 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Friday Oct 16, all American nonstop into Miami, all $443 Main Cabin (carry-on included):\n\n1. LGA 6:25 PM to 9:32 PM\n2. EWR 6:30 PM to 9:45 PM\n3. JFK 6:45 PM to 10:00 PM\n\nI'd take #1 out of LaGuardia - earliest in. Which one?",
+    "time": "Instinct · Oct 8 · 3:03 PM"
+  },
+  {
+    "role": "agent",
+    "text": "[image / attachment]",
+    "time": "Instinct · Oct 8 · 3:03 PM"
+  },
+  {
+    "role": "user",
+    "text": "Go with your recommendation\t",
+    "time": "You · Oct 8 · 3:05 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"Go with your recommendation\t\"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:05 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Booking the LGA 6:25. Which card should take the $443 - the one you sent for Chicago (ending [card 4 ending redacted]), or one of your Link cards (Mastercard [card 2 ending redacted] or Ink Business [card 5 ending redacted])?",
+    "time": "Instinct · Oct 8 · 3:05 PM"
+  },
+  {
+    "role": "agent",
+    "text": "American it is. Changes are free, but it isn't refundable. Window or aisle?",
+    "time": "Instinct · Oct 8 · 3:06 PM"
+  },
+  {
+    "role": "user",
+    "text": "[card 4 ending redacted] card. You choose seat",
+    "time": "You · Oct 8 · 3:06 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"[card 4 ending redacted] card. You choose seat\"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:06 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Aisle it is. One snag on payment: this booking runs through Link, so the [card 4 ending redacted] card can't be used here - you'll approve the $443.40 from your phone instead. Your Link wallet has the Mastercard [card 2 ending redacted] and the Ink Business [card 5 ending redacted] - which one should it go on?",
+    "time": "Instinct · Oct 8 · 3:06 PM"
+  },
+  {
+    "role": "agent",
+    "text": "For the ticket I need:\n- Title (Mr, Ms, Mrs, Miss or Dr)\n\nAnd I have the following, let me know if I need to adjust:\n- Name: [name redacted] (last name [name redacted])\n- Date of birth: [date of birth redacted]\n- Gender: [gender redacted]\n- Email: [email redacted]\n- Phone: +[number redacted]",
+    "time": "Instinct · Oct 8 · 3:06 PM"
+  },
+  {
+    "role": "user",
+    "text": "Mr and the [card 4 ending redacted] card is on my link, make sure the link account connected is [email redacted] and if not, switch to that",
+    "time": "You · Oct 8 · 3:08 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"Mr and the [card 4 ending redacted] card is on my link, make sure the link account connected is [email redacted] and if not, switch to that\"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:08 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Checking your Link for the [card 4 ending redacted] card now.",
+    "time": "Instinct · Oct 8 · 3:08 PM"
+  },
+  {
+    "role": "agent",
+    "text": "No aisle seat I can confirm is left. Seat 16E is a middle seat. To book the American Airlines flight through Duffel with seat 16E, $443.40 in all, approve it in Link by 3:19 PM: [link removed]",
+    "time": "Instinct · Oct 8 · 3:09 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Got the approval, booking it now.",
+    "time": "Instinct · Oct 8 · 3:10 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted ✅ to “I want to book a one way flight to Miami from NYC next weekend. I want to leave Friday night, Oct 16, and get in at a reasonable time.”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:11 PM"
+  },
+  {
+    "role": "agent",
+    "text": "You're booked with American Airlines, reference [booking reference redacted]. American Airlines 3088 leaves LaGuardia at 6:25 PM on Friday, Oct 16 and lands at Miami at 9:32 PM. [name redacted] is ticketed in seat 16E, a middle seat. Your Mastercard ending [card 4 ending redacted] was charged $443.40 through Link. Use [booking reference redacted] to check in with American.",
+    "time": "Instinct · Oct 8 · 3:11 PM"
+  },
+  {
+    "role": "agent",
+    "text": "[booking reference redacted]",
+    "time": "Instinct · Oct 8 · 3:11 PM"
+  },
+  {
+    "role": "agent",
+    "text": "I can put your flights in your calendar automatically if you connect Google Calendar here:",
+    "time": "Instinct · Oct 8 · 3:11 PM"
+  },
+  {
+    "role": "agent",
+    "text": "[link removed]",
+    "time": "Instinct · Oct 8 · 3:11 PM"
+  },
+  {
+    "role": "user",
+    "text": "Actually, can you move the flight to the day after?",
+    "time": "You · Oct 8 · 3:12 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted 👀 to “Actually, can you move the flight to the day after?”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:12 PM"
+  },
+  {
+    "role": "agent",
+    "text": "On it - Saturday Oct 17, same evening shape. Good news this time: Main Cabin changes are free, so it's a change, not a cancel-and-rebook. Any fare difference I'll flag before charging.",
+    "time": "Instinct · Oct 8 · 3:12 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Duffel's travel team can move your flight to Saturday, Oct 17, and they'll confirm any cost first. This link opens your trip with them; tap Get support to start a chat. It works once, in one browser, for the next 24 hours: [link removed]",
+    "time": "Instinct · Oct 8 · 3:12 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Tell them: Saturday evening, reasonable arrival, and a free aisle seat if one's open. Send me the new confirmation when they move it.",
+    "time": "Instinct · Oct 8 · 3:12 PM"
+  },
+  {
+    "role": "user",
+    "text": "So you can’t do it for me?",
+    "time": "You · Oct 8 · 3:13 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"So you can’t do it for me?\"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:13 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Fair point - yes, I can take it from here. I'll handle the support chat with Duffel myself and get it moved. If they quote any fare difference, I'll run it by you before anything's charged.",
+    "time": "Instinct · Oct 8 · 3:13 PM"
+  },
+  {
+    "role": "agent",
+    "text": "I have to walk that back, and I'm sorry - I can book flights, but I can't change this ticket myself. Changes have to go through Duffel's travel team in that chat link, and it's built for you to open. I shouldn't have said I'd take it.",
+    "time": "Instinct · Oct 8 · 3:14 PM"
+  },
+  {
+    "role": "agent",
+    "text": "The chat part is genuinely quick: tap the link, hit Get support, and paste \"move my flight to Saturday Oct 17, evening departure, reasonable arrival, free aisle seat if available.\" They'll confirm any cost before doing anything. Send me what they come back with and I'll verify it and handle everything after.",
+    "time": "Instinct · Oct 8 · 3:14 PM"
+  },
+  {
+    "role": "user",
+    "text": "Okay. Keep the same flight. Can you move me to a premium seat?",
+    "time": "You · Oct 8 · 3:14 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Same flight, kept. Let me check what premium seats are actually open on AA3088 and what they cost before I promise a route - I'll come back with real options.",
+    "time": "Instinct · Oct 8 · 3:15 PM"
+  },
+  {
+    "role": "agent",
+    "text": "American lets you buy the seat directly. I'd take Main Cabin Extra 12E for $35: more legroom, but still a middle seat. Preferred aisle seats 17C, 17D and 18C are $19 each, with standard legroom. Main Cabin Extra's available exit-row seats are $37. Which do you want?",
+    "time": "Instinct · Oct 8 · 3:18 PM"
+  },
+  {
+    "role": "user",
+    "text": "Go with your recommendation ",
+    "time": "You · Oct 8 · 3:20 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"Go with your recommendation \"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:20 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Main Cabin Extra 12E, $35 - sending the approval to your phone now.",
+    "time": "Instinct · Oct 8 · 3:20 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Approve $35 for Main Cabin Extra seat 12E on your Mastercard ending [card 4 ending redacted] here: [link removed] You have about 10 minutes. Nothing is purchased until you approve and I finish checkout.",
+    "time": "Instinct · Oct 8 · 3:20 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Got the approval, checking out now.",
+    "time": "Instinct · Oct 8 · 3:21 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted ✅ to “Okay. Keep the same flight. Can you move me to a premium seat?”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:22 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Done. You're in Main Cabin Extra seat 12E, with extra legroom. It's still a middle seat. The upgrade was $35 through Link on your Mastercard ending [card 4 ending redacted]. Your Friday Oct 16 flight and confirmation [booking reference redacted] are unchanged.",
+    "time": "Instinct · Oct 8 · 3:22 PM"
+  },
+  {
+    "role": "user",
+    "text": "Cancel everything",
+    "time": "You · Oct 8 · 3:23 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Cancelling the Miami flight and the seat now. Both are inside the 24-hour window, so you should get the full $478.40 back on the Mastercard. Leaving the Chicago flight alone since it's non-refundable either way - say the word if you want that one formally cancelled too.",
+    "time": "Instinct · Oct 8 · 3:23 PM"
+  },
+  {
+    "role": "agent",
+    "text": "One correction to what I said: American's system came back without a refund amount, so I can't promise the full $478.40 yet.",
+    "time": "Instinct · Oct 8 · 3:24 PM"
+  },
+  {
+    "role": "agent",
+    "text": "American Airlines hasn't said how much it would refund; any refund goes back to the Link card you paid with. Shall I still cancel your Miami flight?",
+    "time": "Instinct · Oct 8 · 3:24 PM"
+  },
+  {
+    "role": "user",
+    "text": "Yes",
+    "time": "You · Oct 8 · 3:26 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked \"Yes\"",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:26 PM"
+  },
+  {
+    "role": "agent",
+    "text": "One thing I'll need from you: American refunds the $35 seat separately, and they need the number off the receipt email they sent for it. Screenshot or paste it here when you can - it's in your [email username redacted] inbox.",
+    "time": "Instinct · Oct 8 · 3:27 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Reacted ✅ to “Cancel everything”",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:28 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Miami flight is cancelled as of 3:28. The refund goes back to the card that paid - American still hasn't stated the amount, so keep an eye out for it.",
+    "time": "Instinct · Oct 8 · 3:28 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Chicago flight is untouched. Last open piece is the $35 seat refund once you send that receipt.",
+    "time": "Instinct · Oct 8 · 3:28 PM"
+  },
+  {
+    "role": "user",
+    "text": "[image / attachment]",
+    "time": "You · Oct 8 · 3:28 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Liked an image",
+    "reaction": true,
+    "time": "Instinct · Oct 8 · 3:29 PM"
+  },
+  {
+    "role": "agent",
+    "text": "Small snag on the $35: American's refund portal errored on submit (\"system having trouble, try again later\"). Nothing went through yet. I'll retry in a couple hours and check status first so it doesn't double-file.",
+    "time": "Instinct · Oct 8 · 3:34 PM"
+  },
+  {
+    "role": "agent",
+    "text": "The form needed a mailing address, so I used the one saved under your name in your Link wallet: [billing address redacted]. Say the word if that's the wrong one and I'll fix it before the retry.",
+    "time": "Instinct · Oct 8 · 3:34 PM"
+  }
+]

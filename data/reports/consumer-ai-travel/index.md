@@ -3,7 +3,7 @@ title: Travel, tested — the AI flight-booking recap
 question: Can AI handle the whole trip in under ten minutes?
 dimension: travel
 published: 2026-10-07
-updated: 2026-10-12
+updated: 2026-10-13
 author: david-pawlan
 preview: true
 cover_tint: #eef4fb

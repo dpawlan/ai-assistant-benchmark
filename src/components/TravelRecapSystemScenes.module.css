@@ -32,8 +32,8 @@
 .methodStub svg { width:64px; height:48px; }
 
 .changeFlights { border-top:1px solid var(--scene-line); }
-.changeFlights > li:nth-child(2) { --flight-phase:-1.6s; }
-.changeFlights > li:nth-child(3) { --flight-phase:-3.2s; }
+.changeFlights > li[data-agent='grok-bot'] { --flight-phase:-1.6s; }
+.changeFlights > li[data-agent='dots'] { --flight-phase:-3.2s; }
 .changeFlight { display:grid; grid-template-columns:160px 56px minmax(32px,1fr) 56px 220px; align-items:center; gap:20px; min-height:76px; padding:10px 0; border-bottom:1px solid var(--scene-line); }
 .changeIdentity { display:flex; flex-direction:column; gap:2px; }
 .changeIdentity .identity { min-height:32px; }
@@ -44,7 +44,8 @@
 .changePath { position:relative; display:flex; align-items:center; color:var(--scene-blue); }
 .routeRail { height:1px; flex:1; background:var(--scene-blue); transform-origin:left; }
 .changePath > i { font-size:22px; font-style:normal; }
-.planeMarker { position:absolute; top:50%; left:calc(100% - 32px); width:18px; height:18px; transform:translateY(-50%); }
+.planeCarrier { position:absolute; top:50%; left:0; width:max(0px,calc(100% - 32px)); height:18px; transform:translate(100%,-50%); pointer-events:none; }
+.planeMarker { display:block; width:18px; height:18px; }
 .planeMarker svg { display:block; width:100%; height:100%; }
 .changeResult { display:flex; flex-direction:column; gap:4px; }
 .changeResult > strong { color:var(--scene-blue); font-size:15px; font-weight:550; }
@@ -53,7 +54,7 @@
 .changeFlight[data-completed='false'] .changePath { color:#929eac; }
 .changeFlight[data-completed='false'] .routeRail { background:none; border-bottom:1px dashed #a9b5c3; }
 .changeFlight[data-completed='false'] .changePath > i { position:absolute; left:55%; transform:translateX(-50%); }
-.changeFlight[data-completed='false'] .planeMarker { left:max(0px,calc(55% - 26px)); }
+.changeFlight[data-completed='false'] .planeCarrier { left:max(0px,calc(55% - 26px)); width:18px; transform:translateY(-50%); }
 .changeFlight[data-completed='false'] .changeResult > strong { color:var(--scene-ink); }
 .changeFlight:hover .identity strong { color:var(--scene-blue); }
 
@@ -66,12 +67,12 @@
 .animated:nth-child(5) { --scene-delay:.14s; }
 :global([data-story-enhanced='true']) .methodTicket { animation:ticketsSpread 1s linear both paused; animation-delay:calc(-1s * var(--scene-progress,1)); }
 :global([data-story-enhanced='true']) .routeRail { animation:routeDrawn 1s linear both paused; animation-delay:calc(var(--scene-delay) - 1s * var(--scene-progress,1)); }
-:global([data-story-enhanced='true']) .planeMarker { animation:flightCruise 5s linear infinite both paused; animation-delay:var(--flight-phase,0s); }
-:global([data-story-enhanced='true']) .changeFlight[data-completed='false'] .planeMarker { animation-name:flightHeld; animation-duration:3.4s; animation-timing-function:ease-in-out; }
-:global([data-story-enhanced='true']) :global([data-scene-active='true']) .planeMarker { animation-play-state:running; }
+:global([data-story-enhanced='true']) .planeCarrier { animation:flightCruise 5s linear infinite both paused; animation-delay:var(--flight-phase,0s); }
+:global([data-story-enhanced='true']) .changeFlight[data-completed='false'] .planeCarrier { animation-name:flightHeld; animation-duration:3.4s; animation-timing-function:ease-in-out; }
+:global([data-story-enhanced='true']) :global([data-scene-active='true']) .planeCarrier { animation-play-state:running; }
 @keyframes ticketsSpread { 0% { transform:translate(var(--stack-x),var(--stack-y)) rotate(var(--stack-tilt)); } 35%,80% { transform:translateY(var(--ticket-rise)) rotate(var(--ticket-tilt)); } 100% { transform:translate(var(--stack-x),var(--stack-y)) rotate(0) scale(.82,.65); } }
 @keyframes routeDrawn { 0% { transform:scaleX(.1); } 50%,100% { transform:scaleX(1); } }
-@keyframes flightCruise { 0% { left:0; opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { left:calc(100% - 32px); opacity:0; } }
+@keyframes flightCruise { 0% { transform:translate(0,-50%); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform:translate(100%,-50%); opacity:0; } }
 @keyframes flightHeld { 0%,100% { transform:translateY(-50%) translateX(-3px); } 50% { transform:translateY(-50%) translateX(0); } }
 
 @media(max-width:1099px) {

@@ -124,7 +124,7 @@ export function TravelRecapComparison({ assistants }: { assistants: Agent[] }) {
             </th>)}
           </tr></thead>
           <tbody className={styles.overall}><tr>
-            <th scope="row" className={styles.rowLabel}><span>Overall reviewed score</span><span className={styles.labelNote}>Out of 10</span></th>
+            <th scope="row" className={styles.rowLabel}><span>Overall reviewed score</span><span className={styles.labelNote}>Out of 10 · 40% booking speed</span></th>
             {ranked.map(assistant => <td key={assistant.slug} data-winner={assistant.slug === 'miso'}>
               <Link href={`/agents/${assistant.slug}`} className={styles.overallScore} aria-label={`${assistant.name}: overall reviewed score ${assistant.travel.score?.toFixed(1) ?? 'not reviewed'} out of 10`}>
                 {assistant.travel.score?.toFixed(1) ?? '—'}

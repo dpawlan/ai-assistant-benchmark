@@ -24,6 +24,6 @@ for (const timing of timings.filter(t => t.dimension === 5)) {
   const run = runs.find(r => r.agent === timing.agent && r.dimension === 19 && r.date === date);
   assert.equal(run?.score ?? null, score, `${timing.agent} speed dimension matches measured timing`);
 }
-console.log('Equal-weight speed dimension scores match timing evidence; unsuccessful attempts are excluded.');
+console.log('Booking-speed dimension scores match timing evidence; unsuccessful attempts are excluded.');
 
 for (const t of timings.filter(t => t.dimension === 5 && t.status === 'completed')) { assert.equal(t.basis, 'flight-selected-booking-request-to-confirmation'); assert(t.request_to_confirmation_minutes >= t.minutes); }

@@ -19,7 +19,27 @@ export interface TravelSummary {
   legacyScore: number | 'n/a' | null;
 }
 
-/** Latest reviewed, evidence-backed run per dimension. Untested dimensions do not affect the average. */
+// Relative weights avoid accumulation error: 14/35 = 40%, and 3/35 = 60% / 7.
+const BOOKING_SPEED_WEIGHT = 14;
+const OTHER_DIMENSION_WEIGHT = 3;
+
+/** Eight-dimension Travel policy: speed gets 40%; the other seven share 60%.
+ * Missing dimensions are excluded and the observed weights are renormalized.
+ */
+function weightedTravelAverage(scores: Record<number, number>): number | null {
+  const entries = Object.entries(scores);
+  if (!entries.length) return null;
+  let weightedTotal = 0;
+  let testedWeight = 0;
+  for (const [dimension, score] of entries) {
+    const weight = Number(dimension) === 19 ? BOOKING_SPEED_WEIGHT : OTHER_DIMENSION_WEIGHT;
+    weightedTotal += score * weight;
+    testedWeight += weight;
+  }
+  return weightedTotal / testedWeight;
+}
+
+/** Latest reviewed, evidence-backed run per dimension. Untested dimensions stay blank. */
 export function summarizeTravel(slug: string, dimensions: number[], runs: TravelRun[], legacyScore: TravelSummary['legacyScore'] = null): TravelSummary {
   const latest: Record<number, TravelRun> = {};
   for (const run of runs) {
@@ -32,16 +52,16 @@ export function summarizeTravel(slug: string, dimensions: number[], runs: Travel
   }
   const scores = Object.fromEntries(Object.entries(latest).map(([id, run]) => [id, run.score]));
   const completed = Object.keys(scores).length;
-  const score = completed > 0
-    ? Math.round(Object.values(scores).reduce((a, b) => a + b, 0) / completed * 10) / 10
-    : null;
+  const weightedAverage = weightedTravelAverage(scores);
+  const score = weightedAverage === null ? null : Math.round(weightedAverage * 10) / 10;
   return { scores, runs: latest, completed, total: dimensions.length, score, legacyScore };
 }
 
-/** Ranking only: three prior results at 5/10; preserve the displayed average. */
+/** Ranking only: regularize the unrounded weighted average with three prior results at 5/10. */
 export function travelRankingScore(summary: Pick<TravelSummary, 'scores'>): number | null {
-  const scores = Object.values(summary.scores);
-  return scores.length ? (scores.reduce((sum, score) => sum + score, 0) + 15) / (scores.length + 3) : null;
+  const average = weightedTravelAverage(summary.scores);
+  const completed = Object.keys(summary.scores).length;
+  return average === null ? null : (average * completed + 15) / (completed + 3);
 }
 
 export function compareTravelRank(

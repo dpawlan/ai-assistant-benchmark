@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { applyRecapSceneMotion } from '@/lib/travel-recap-motion';
 import styles from './TravelRecap.module.css';
 
 export const recapChapters = [
@@ -41,6 +42,7 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
     const story = track.current;
     if (!node || !story) return;
     const sections = recapChapters.map(chapter => node.querySelector<HTMLElement>(`[data-chapter="${chapter.id}"]`)).filter((section): section is HTMLElement => !!section);
+    const headings = sections.map(section => section.querySelector<HTMLElement>('[data-scene-heading]'));
     const anchors = Array.from(story.querySelectorAll<HTMLElement>('[data-story-anchor]'));
     const header = document.querySelector<HTMLElement>('.topbar');
     const navigation = node.querySelector<HTMLElement>('nav');
@@ -49,11 +51,15 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
     const controls = document.querySelector<HTMLElement>('[data-report-controls]');
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     let frame = 0;
+    let layoutFrame = 0;
+    let layoutForced = false;
+    let layoutKey = '';
     let enhanced = false;
     let stageHeight = 0;
     let step = 0;
     let stickyTop = 0;
     let start = 0;
+    let comparisonTop = Infinity;
     let chapter = -1;
     let disposed = false;
 
@@ -100,31 +106,12 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
       }
       const rawPosition = currentPosition();
       const position = clamp(rawPosition, 0, sections.length);
-      const comparisonActive = comparisonSection && comparisonSection.getBoundingClientRect().top <= stickyTop + 26;
+      const comparisonActive = window.scrollY >= comparisonTop - stickyTop - 26;
       const next = comparisonActive ? sections.length : rawPosition < -0.08 ? -1 : clamp(Math.floor(position), 0, sections.length - 1);
       const focus = document.activeElement;
       const oldFocusScene = focus instanceof HTMLElement ? focus.closest<HTMLElement>('[data-story-scene]') : null;
       sections.forEach((section, index) => {
-        const local = position - index;
-        const enter = index === 0 ? 1 : clamp((local + 0.12) / 0.24);
-        const exit = index === sections.length - 1 ? 1 : clamp((1.12 - local) / 0.24);
-        const presence = Math.min(enter, exit);
-        const titleEnter = index === 0 ? 1 : clamp(local / 0.1);
-        const titleExit = index === sections.length - 1 ? 1 : clamp((0.98 - local) / 0.1);
-        const titlePresence = Math.min(titleEnter, titleExit);
-        const titleShift = local < 0.5 ? (1 - titleEnter) * 12 : -(1 - titleExit) * 12;
-        const shift = local < 0.5 ? (1 - presence) * 48 : -(1 - presence) * 48;
-        section.style.setProperty('--scene-progress', `${clamp(local)}`);
-        section.style.setProperty('--scene-opacity', `${presence}`);
-        section.style.setProperty('--scene-shift', `${shift}px`);
-        section.style.setProperty('--scene-scale', `${0.975 + presence * 0.025}`);
-        section.style.setProperty('--scene-title-opacity', `${titlePresence}`);
-        section.style.setProperty('--scene-title-shift', `${titleShift}px`);
-        section.dataset.sceneActive = `${index === next}`;
-        section.dataset.sceneVisible = `${presence > 0.001}`;
-        section.dataset.entered = `${rawPosition >= index - 0.12}`;
-        section.inert = index !== next;
-        section.setAttribute('aria-hidden', `${index !== next}`);
+        applyRecapSceneMotion(section, headings[index], index, sections.length, position, rawPosition, next);
       });
       if (oldFocusScene && oldFocusScene !== sections[next]) {
         // Keep keyboard focus on visible content when a focused chapter leaves the stage.
@@ -135,22 +122,26 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
       setChapter(next);
     };
     const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
-    const syncLayout = () => {
+    const syncLayout = (force = true) => {
       if (disposed) return;
+      const headerHeight = header?.getBoundingClientRect().height ?? 55;
+      const navigationHeight = navigation?.getBoundingClientRect().height ?? 90;
+      const phone = window.innerWidth < 700 || (window.innerWidth <= 1024 && window.innerHeight <= 500);
+      const screenHeight = phone ? viewport?.getBoundingClientRect().height ?? window.innerHeight : window.innerHeight;
+      const controlHeight = phone ? controls?.getBoundingClientRect().height ?? 64 : 0;
+      const geometry = `${window.innerWidth}:${screenHeight}:${headerHeight}:${navigationHeight}:${controlHeight}:${reduceMotion.matches}`;
+      // Phone toolbar movement changes innerHeight without changing our stable scroll stage.
+      if (!force && geometry === layoutKey) return;
+      layoutKey = geometry;
       const wasEnhanced = enhanced;
       const previousComparisonTop = comparisonSection?.getBoundingClientRect().top;
       const wasInComparison = previousComparisonTop !== undefined && previousComparisonTop <= stickyTop + 26;
       const previousComparisonOffset = previousComparisonTop === undefined ? 0 : previousComparisonTop - stickyTop;
       const previousPosition = enhanced && step ? currentPosition() : -1;
       const previousStart = start;
-      const headerHeight = header?.getBoundingClientRect().height ?? 55;
-      const navigationHeight = navigation?.getBoundingClientRect().height ?? 90;
       stickyTop = headerHeight + navigationHeight;
       node.style.setProperty('--recap-header-height', `${headerHeight}px`);
       node.style.setProperty('--recap-nav-height', `${navigationHeight}px`);
-      const phone = window.innerWidth < 700 || (window.innerWidth <= 1024 && window.innerHeight <= 500);
-      const screenHeight = phone ? viewport?.getBoundingClientRect().height ?? window.innerHeight : window.innerHeight;
-      const controlHeight = phone ? controls?.getBoundingClientRect().height ?? 64 : 0;
       stageHeight = Math.max(180, screenHeight - stickyTop - controlHeight);
       step = Math.max(480, stageHeight * 1.35);
       enhanced = !reduceMotion.matches && screenHeight - stickyTop - controlHeight >= (phone ? 180 : 420);
@@ -158,6 +149,12 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
         node.dataset.storyEnhanced = 'true';
         story.style.setProperty('--story-height', `${stageHeight}px`);
         story.style.setProperty('--story-length', `${sections.length * step + stageHeight}px`);
+        const measurements = sections.map(section => {
+          const inner = section.querySelector<HTMLElement>('[data-scene-inner]');
+          const heading = section.querySelector<HTMLElement>('[data-scene-heading]');
+          const canvas = section.querySelector<HTMLElement>('[data-visual-canvas]');
+          return { innerHeight: inner?.offsetHeight ?? 0, headingSpace: heading ? heading.offsetHeight + parseFloat(getComputedStyle(heading).marginBottom) : 0, canvasHeight: canvas?.offsetHeight ?? 0, hasCanvas: !!heading && !!canvas };
+        });
         sections.forEach((section, index) => {
           section.id = `${recapChapters[index].id}-scene`;
           const anchor = anchors[index];
@@ -165,20 +162,17 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
             anchor.id = recapChapters[index].id;
             anchor.style.top = `${(index + 0.67) * step}px`;
           }
-          const inner = section.querySelector<HTMLElement>('[data-scene-inner]');
-          const heading = section.querySelector<HTMLElement>('[data-scene-heading]');
-          const canvas = section.querySelector<HTMLElement>('[data-visual-canvas]');
+          const { innerHeight, headingSpace, canvasHeight, hasCanvas } = measurements[index];
           const padding = phone ? 24 : 48;
-          if (phone && heading && canvas) {
-            const headingSpace = heading.offsetHeight + parseFloat(getComputedStyle(heading).marginBottom);
-            const visualHeight = Math.min(canvas.offsetHeight, Math.max(80, stageHeight - padding - headingSpace));
+          if (phone && hasCanvas) {
+            const visualHeight = Math.min(canvasHeight, Math.max(80, stageHeight - padding - headingSpace));
             section.style.setProperty('--scene-visual-height', `${visualHeight}px`);
-            section.style.setProperty('--scene-visual-overflow', `${Math.max(0, canvas.offsetHeight - visualHeight)}px`);
+            section.style.setProperty('--scene-visual-overflow', `${Math.max(0, canvasHeight - visualHeight)}px`);
             section.style.setProperty('--scene-fit', '1');
           } else {
             section.style.removeProperty('--scene-visual-height');
             section.style.removeProperty('--scene-visual-overflow');
-            const fit = inner ? Math.min(1, (stageHeight - padding) / Math.max(1, inner.offsetHeight)) : 1;
+            const fit = Math.min(1, (stageHeight - padding) / Math.max(1, innerHeight));
             section.style.setProperty('--scene-fit', `${fit}`);
           }
         });
@@ -201,6 +195,10 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
           section.style.removeProperty('--scene-visual-height');
           section.style.removeProperty('--scene-visual-overflow');
           section.style.setProperty('--scene-progress', '1');
+          section.style.removeProperty('opacity');
+          section.style.removeProperty('transform');
+          headings[index]?.style.removeProperty('opacity');
+          headings[index]?.style.removeProperty('transform');
         });
         story.style.removeProperty('--story-height');
         story.style.removeProperty('--story-length');
@@ -214,8 +212,20 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
           if (Math.abs(offset) > 1) window.scrollTo({ top: window.scrollY + offset, behavior: 'instant' });
         }
       }
+      comparisonTop = comparisonSection ? comparisonSection.getBoundingClientRect().top + window.scrollY : Infinity;
       update();
     };
+    const requestLayout = (force: boolean) => {
+      layoutForced ||= force;
+      if (layoutFrame) return;
+      layoutFrame = requestAnimationFrame(() => {
+        layoutFrame = 0;
+        const forced = layoutForced;
+        layoutForced = false;
+        syncLayout(forced);
+      });
+    };
+    const onResize = () => requestLayout(false);
     const onSceneFocus = (event: FocusEvent) => {
       if (!enhanced || !(event.target instanceof HTMLElement)) return;
       const section = event.target.closest<HTMLElement>('[data-story-scene]');
@@ -245,7 +255,7 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
       }
       update();
     };
-    const resize = new ResizeObserver(syncLayout);
+    const resize = new ResizeObserver(() => requestLayout(true));
     if (header) resize.observe(header);
     if (navigation) resize.observe(navigation);
     sections.forEach(section => {
@@ -270,7 +280,7 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
     const initialHash = requestAnimationFrame(() => { jumpToHash(); update(); });
     node.addEventListener('focusin', onSceneFocus);
     window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', syncLayout);
+    window.addEventListener('resize', onResize);
     window.addEventListener('hashchange', jumpToHash);
     reduceMotion.addEventListener('change', onMotionChange);
     return () => {
@@ -279,10 +289,11 @@ export function TravelRecapFrame({ hero, intro, children, comparison }: { hero: 
       signatures.disconnect();
       heroVisibility.disconnect();
       cancelAnimationFrame(frame);
+      cancelAnimationFrame(layoutFrame);
       cancelAnimationFrame(initialHash);
       node.removeEventListener('focusin', onSceneFocus);
       window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', syncLayout);
+      window.removeEventListener('resize', onResize);
       window.removeEventListener('hashchange', jumpToHash);
       reduceMotion.removeEventListener('change', onMotionChange);
     };

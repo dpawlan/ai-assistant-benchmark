@@ -5,7 +5,7 @@ dimension: travel
 published: 2026-10-07
 updated: 2026-10-13
 author: david-pawlan
-preview: true
+preview: false
 cover_tint: #eef4fb
 cover_agents: miso, instinct, grok-bot, dots, muse
 picks:

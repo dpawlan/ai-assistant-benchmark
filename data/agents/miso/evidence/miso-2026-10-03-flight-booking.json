@@ -1,0 +1,9 @@
+{
+  "id": "miso-2026-10-03-flight-booking",
+  "agent": "miso",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-10-03",
+  "context": "Reviewed the original one-to-one iMessage exchange. Miso quoted the chosen flight and total before the payment setup, then returned a ticketing confirmation and amount. It reported assigning the requested free window seat and adding the supplied frequent-flyer number to both the profile and this reservation. It declined a sign-in code and requested the membership number instead. Email confirmation was reported sent after a follow-up. The secure payment flow, airline record and receipt attachment were not independently inspected. The thread does not show a separate final yes after payment setup. Check-in, multi-traveler seat selection and updates across multiple bookings were not exercised. Private messages and identifying booking, account and payment details are withheld.",
+  "published_at": "2026-10-04T00:00:00Z"
+}

@@ -1,0 +1,129 @@
+.systemScene { --scene-blue:#0875e1; --scene-ink:#1d1d1f; --scene-muted:#686870; --scene-line:#e1e7ef; margin:0; color:var(--scene-ink); }
+.systemScene a { color:inherit; text-decoration:none; }
+.systemScene a:focus-visible { outline:3px solid var(--scene-blue); outline-offset:4px; }
+.systemScene figcaption { margin-top:16px; color:var(--scene-muted); font-size:12px; line-height:1.4; text-align:center; }
+.systemScene ol,.systemScene ul { list-style:none; padding:0; margin:0; }
+.identity { display:inline-flex; align-items:center; gap:10px; min-height:44px; }
+.identity strong { font-size:15px; font-weight:550; letter-spacing:-.02em; }
+.icon { width:28px; height:28px; flex-shrink:0; border-radius:7px; box-shadow:none; }
+.icon img { width:28px; height:28px; }
+
+.methodTickets { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); padding:20px 12px!important; }
+.methodTicket { --ticket-tilt:-1.5deg; --ticket-rise:4px; --stack-x:100%; --stack-y:8px; --stack-tilt:-4deg; position:relative; display:flex; flex-direction:column; min-width:0; width:calc(100% + 12px); margin-left:-6px; background:white; border:1px solid #cbd8e5; border-radius:8px; box-shadow:0 4px 10px #29405c0a; transform:translateY(var(--ticket-rise)) rotate(var(--ticket-tilt)); transform-origin:center; }
+.methodTicket:nth-child(2) { --ticket-tilt:.75deg; --ticket-rise:-8px; --stack-x:0px; --stack-y:12px; --stack-tilt:0deg; z-index:2; }
+.methodTicket:nth-child(3) { --ticket-tilt:1.5deg; --ticket-rise:8px; --stack-x:-100%; --stack-y:4px; --stack-tilt:4deg; z-index:1; }
+.methodTicket::before,.methodTicket::after { content:''; position:absolute; z-index:3; bottom:64px; width:16px; height:16px; border:1px solid #cbd8e5; border-radius:50%; background:#f4f8fc; }
+.methodTicket::before { left:-9px; clip-path:inset(0 0 0 50%); }
+.methodTicket::after { right:-9px; clip-path:inset(0 50% 0 0); }
+.methodBody { display:flex; flex-direction:column; flex:1; padding:24px; }
+.methodBody h3 { min-height:56px; margin:0 0 10px; font-size:25px; font-weight:550; line-height:1.13; letter-spacing:-.035em; }
+.methodSubtitle { min-height:40px; font-size:13px; line-height:1.4; color:var(--scene-muted); }
+.methodStamps { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:20px!important; }
+.methodStamps > li { min-width:0; }
+.methodStamp { display:flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:6px; border:1px solid #adc8e3; border-radius:2px; color:#355b83!important; transform:rotate(-2deg); }
+.methodStamps > li:nth-child(2) .methodStamp { transform:rotate(2deg); }
+.methodStamps > li:nth-child(3) .methodStamp { transform:rotate(1deg); }
+.methodStamps > li:nth-child(4) .methodStamp { transform:rotate(-1deg); }
+.methodStamp > span:last-child { font-size:12px; font-weight:500; line-height:1.2; white-space:nowrap; }
+.stampLogo { flex-shrink:0; width:24px; height:24px; border-radius:5px; box-shadow:none; }
+.stampLogo img { width:24px; height:24px; }
+.methodStamp:hover { border-color:var(--scene-blue); color:var(--scene-blue)!important; }
+.methodStub { display:flex; align-items:center; justify-content:center; min-height:72px; padding:8px; border-top:1px dashed #c1d0df; color:var(--scene-blue); }
+.methodStub svg { width:64px; height:48px; }
+
+.changeFlights { border-top:1px solid var(--scene-line); }
+.changeFlights > li[data-agent='grok-bot'] { --flight-phase:-1.6s; }
+.changeFlights > li[data-agent='dots'] { --flight-phase:-3.2s; }
+.changeFlight { display:grid; grid-template-columns:160px 56px minmax(32px,1fr) 56px 220px; align-items:center; gap:20px; min-height:76px; padding:10px 0; border-bottom:1px solid var(--scene-line); }
+.changeIdentity { display:flex; flex-direction:column; gap:2px; }
+.changeIdentity .identity { min-height:32px; }
+.date { display:flex; flex-direction:column; align-items:center; gap:4px; }
+.date > span { font-size:11px; color:var(--scene-muted); white-space:nowrap; }
+.date > strong { font-size:34px; font-weight:500; line-height:1; letter-spacing:-.05em; font-variant-numeric:tabular-nums; }
+.newDate > strong { color:var(--scene-blue); }
+.changePath { position:relative; display:flex; align-items:center; color:var(--scene-blue); }
+.routeRail { height:1px; flex:1; background:var(--scene-blue); transform-origin:left; }
+.changePath > i { font-size:22px; font-style:normal; }
+.planeCarrier { position:absolute; top:50%; left:0; width:max(0px,calc(100% - 32px)); height:18px; transform:translate(100%,-50%); pointer-events:none; }
+.planeMarker { display:block; width:18px; height:18px; }
+.planeMarker svg { display:block; width:100%; height:100%; }
+.changeResult { display:flex; flex-direction:column; gap:4px; }
+.changeResult > strong { color:var(--scene-blue); font-size:15px; font-weight:550; }
+.changeResult > span { font-size:12px; color:var(--scene-muted); line-height:1.35; }
+.changeFlight[data-completed='false'] .newDate > strong { color:#a7b1bd; }
+.changeFlight[data-completed='false'] .changePath { color:#929eac; }
+.changeFlight[data-completed='false'] .routeRail { background:none; border-bottom:1px dashed #a9b5c3; }
+.changeFlight[data-completed='false'] .changePath > i { position:absolute; left:55%; transform:translateX(-50%); }
+.changeFlight[data-completed='false'] .planeCarrier { left:max(0px,calc(55% - 26px)); width:18px; transform:translateY(-50%); }
+.changeFlight[data-completed='false'] .changeResult > strong { color:var(--scene-ink); }
+.changeFlight:hover .identity strong { color:var(--scene-blue); }
+
+
+
+.animated { --scene-delay:0s; }
+.animated:nth-child(2) { --scene-delay:.035s; }
+.animated:nth-child(3) { --scene-delay:.07s; }
+.animated:nth-child(4) { --scene-delay:.105s; }
+.animated:nth-child(5) { --scene-delay:.14s; }
+:global([data-story-enhanced='true']) .methodTicket { animation:ticketsSpread 1s linear both paused; animation-delay:calc(-1s * var(--scene-progress,1)); }
+:global([data-story-enhanced='true']) .routeRail { animation:routeDrawn 1s linear both paused; animation-delay:calc(var(--scene-delay) - 1s * var(--scene-progress,1)); }
+:global([data-story-enhanced='true']) .planeCarrier { animation:flightCruise 5s linear infinite both paused; animation-delay:var(--flight-phase,0s); }
+:global([data-story-enhanced='true']) .changeFlight[data-completed='false'] .planeCarrier { animation-name:flightHeld; animation-duration:3.4s; animation-timing-function:ease-in-out; }
+:global([data-story-enhanced='true']) :global([data-scene-active='true']) .planeCarrier { animation-play-state:running; }
+@keyframes ticketsSpread { 0% { transform:translate(var(--stack-x),var(--stack-y)) rotate(var(--stack-tilt)); } 35%,80% { transform:translateY(var(--ticket-rise)) rotate(var(--ticket-tilt)); } 100% { transform:translate(var(--stack-x),var(--stack-y)) rotate(0) scale(.82,.65); } }
+@keyframes routeDrawn { 0% { transform:scaleX(.1); } 50%,100% { transform:scaleX(1); } }
+@keyframes flightCruise { 0% { transform:translate(0,-50%); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform:translate(100%,-50%); opacity:0; } }
+@keyframes flightHeld { 0%,100% { transform:translateY(-50%) translateX(-3px); } 50% { transform:translateY(-50%) translateX(0); } }
+
+@media(max-width:1099px) {
+  .methodBody { padding:20px; }
+  .methodStamp { flex-direction:column; gap:4px; }
+  .methodStamp > span:last-child { font-size:11px; }
+  .changeFlight { grid-template-columns:136px 48px minmax(24px,1fr) 48px 180px; gap:12px; }
+}
+@media(max-width:699px) {
+  .methodTickets { grid-template-columns:1fr; max-width:420px; margin:0 auto!important; padding:10px 8px!important; }
+  .methodTicket { --stack-x:0px; --stack-y:100%; display:grid; grid-template-columns:minmax(0,1fr) 52px; width:100%; margin:0; }
+  .methodTicket:nth-child(2) { --stack-x:0px; --stack-y:0px; --ticket-rise:0px; margin-top:-4px; }
+  .methodTicket:nth-child(3) { --stack-x:0px; --stack-y:-100%; --ticket-rise:0px; margin-top:-4px; }
+  .methodTicket::before,.methodTicket::after { display:none; }
+  .methodBody { padding:14px 12px; }
+  .methodBody h3 { font-size:19px; min-height:0; margin-bottom:5px; }
+  .methodSubtitle { min-height:0; font-size:11px; line-height:1.3; }
+  .methodStamps { grid-template-columns:repeat(4,minmax(0,1fr)); gap:5px; margin-top:10px!important; }
+  .methodStamp { min-width:44px; min-height:44px; gap:3px; padding:4px 2px; }
+  .methodStamp > span:last-child { font-size:9px; }
+  .stampLogo,.stampLogo img { width:19px; height:19px; }
+  .methodStub { min-height:0; border-top:0; border-left:1px dashed #c1d0df; padding:6px; }
+  .methodStub svg { width:40px; height:36px; }
+  .changeFlight { grid-template-columns:104px 30px minmax(20px,1fr) 30px; gap:6px 8px; padding:8px 0; min-height:76px; }
+  .changeIdentity { grid-column:1; grid-row:1 / 3; }
+  .changeIdentity .identity { gap:6px; }
+  .identity strong { font-size:12px; }
+  .icon,.icon img { width:22px; height:22px; }
+  .date { grid-column:2; grid-row:1; gap:2px; }
+  .newDate { grid-column:4; }
+  .date > strong { font-size:26px; }
+  .date > span { font-size:9px; }
+  .changePath { grid-column:3; grid-row:1; }
+  .changeResult { grid-column:2 / 5; grid-row:2; flex-direction:row; flex-wrap:wrap; gap:2px 6px; }
+  .changeResult > strong { font-size:11px; }
+  .changeResult > span { font-size:10px; }
+  .systemScene figcaption { margin-top:12px; font-size:10px; }
+}
+@media(max-width:359px) {
+  .methodTicket { grid-template-columns:minmax(0,1fr) 40px; }
+  .methodBody { padding:12px 8px; }
+  .methodBody h3 { font-size:17px; }
+  .methodSubtitle { font-size:10px; }
+  .methodStamps { gap:3px; }
+  .methodStamp > span:last-child { font-size:8px; }
+  .methodStub svg { width:30px; height:30px; }
+  .changeFlight { grid-template-columns:90px 28px minmax(16px,1fr) 28px; gap:6px; }
+  .changeResult > span { font-size:9px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .systemScene *,.systemScene *::before,.systemScene *::after { animation:none!important; }
+}
+
+@media (max-width: 699px) { .methodSubtitle { font-size: 12px; } .methodStamp > span:last-child { font-size: 11px; } .changeResult > span { font-size: 12px; line-height: 1.4; } .changeResult > strong { font-size: 12px; } .date > span { font-size: 11px; } }

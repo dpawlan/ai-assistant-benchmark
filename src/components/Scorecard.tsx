@@ -7,6 +7,7 @@ import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
 import { ScoreCell } from './ScoreCell';
 import { CompareRow, Comparison, OUTCOME_LABEL, cardPath, comparePath, shortDate, verdict } from '@/lib/compare-shared';
+import type { TravelSummary } from '@/lib/travel-rollup';
 import { Run } from '@/lib/types';
 
 interface ScorecardProps {
@@ -36,7 +37,8 @@ function ScoreLink({ run, slug, value, win }: { run: Run | null; slug: string; v
   );
 }
 
-function Meta({ run }: { run: Run | null }) {
+function Meta({ run, travel }: { run: Run | null; travel?: TravelSummary }) {
+  if (travel) return <Link className="hh-meta" href="/benchmarks/travel/grid">{travel.score !== null ? 'Travel summary' : typeof travel.legacyScore === 'number' ? 'Travel test' : 'Not tested'}</Link>;
   if (!run) return <span className="hh-meta empty">Not tested</span>;
   return (
     <span className="hh-meta">
@@ -178,7 +180,7 @@ function Row({ row, a, b, on, toggle }: { row: CompareRow; a: string; b: string;
     <div className={`hh-row ${state}${on ? ' on' : ''}`}>
       <div className="hh-side hh-a">
         <ScoreLink run={row.runA} slug={a} value={row.a} win={row.winner === 'a'} />
-        <Meta run={row.runA} />
+        <Meta run={row.runA} travel={row.travelA} />
         {row.runA?.notes && (
           <span className="hh-note" title={row.runA.notes}>
             {row.runA.notes}
@@ -193,7 +195,7 @@ function Row({ row, a, b, on, toggle }: { row: CompareRow; a: string; b: string;
       </button>
       <div className="hh-side hh-b">
         <ScoreLink run={row.runB} slug={b} value={row.b} win={row.winner === 'b'} />
-        <Meta run={row.runB} />
+        <Meta run={row.runB} travel={row.travelB} />
         {row.runB?.notes && (
           <span className="hh-note" title={row.runB.notes}>
             {row.runB.notes}

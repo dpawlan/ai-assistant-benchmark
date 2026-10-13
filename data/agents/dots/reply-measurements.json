@@ -1,0 +1,139 @@
+{
+  "source": "dot.mp4",
+  "date": "2026-10-07",
+  "method": "Estimated from 22 user-to-first-reply exchanges in the October 7 recording. Five-second sampling; measured from the last sent user message, excluding subsequent progress updates. Not a full message-count or unanswered-message audit.",
+  "measurements": [
+    {
+      "exchange": "Initial request",
+      "approx_user_sent_video_seconds": "15",
+      "approx_first_reply_video_seconds": "25",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Airport preference",
+      "approx_user_sent_video_seconds": "50",
+      "approx_first_reply_video_seconds": "60",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Approve flight",
+      "approx_user_sent_video_seconds": "475",
+      "approx_first_reply_video_seconds": "480",
+      "approx_latency_seconds": "5"
+    },
+    {
+      "exchange": "Follow-up nudge",
+      "approx_user_sent_video_seconds": "1315",
+      "approx_first_reply_video_seconds": "1320",
+      "approx_latency_seconds": "5"
+    },
+    {
+      "exchange": "Account clarification",
+      "approx_user_sent_video_seconds": "1335",
+      "approx_first_reply_video_seconds": "1345",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Confirm account",
+      "approx_user_sent_video_seconds": "1355",
+      "approx_first_reply_video_seconds": "1365",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Approve payment method",
+      "approx_user_sent_video_seconds": "1590",
+      "approx_first_reply_video_seconds": "1600",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Locate payment field",
+      "approx_user_sent_video_seconds": "1745",
+      "approx_first_reply_video_seconds": "1750",
+      "approx_latency_seconds": "5"
+    },
+    {
+      "exchange": "Request payment entry",
+      "approx_user_sent_video_seconds": "1820",
+      "approx_first_reply_video_seconds": "1830",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Saved card clarification",
+      "approx_user_sent_video_seconds": "1860",
+      "approx_first_reply_video_seconds": "1870",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Report stuck handoff",
+      "approx_user_sent_video_seconds": "1965",
+      "approx_first_reply_video_seconds": "1975",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Confirm field entry",
+      "approx_user_sent_video_seconds": "2090",
+      "approx_first_reply_video_seconds": "2105",
+      "approx_latency_seconds": "15"
+    },
+    {
+      "exchange": "Booking confirmation question",
+      "approx_user_sent_video_seconds": "2410",
+      "approx_first_reply_video_seconds": "2430",
+      "approx_latency_seconds": "20"
+    },
+    {
+      "exchange": "Request rebooking",
+      "approx_user_sent_video_seconds": "2495",
+      "approx_first_reply_video_seconds": "2505",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Approve rebooking",
+      "approx_user_sent_video_seconds": "2815",
+      "approx_first_reply_video_seconds": "2825",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Request premium seat",
+      "approx_user_sent_video_seconds": "2925",
+      "approx_first_reply_video_seconds": "2935",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Accept recommendation",
+      "approx_user_sent_video_seconds": "3085",
+      "approx_first_reply_video_seconds": "3100",
+      "approx_latency_seconds": "15"
+    },
+    {
+      "exchange": "Confirm upgrade payment entry",
+      "approx_user_sent_video_seconds": "3355",
+      "approx_first_reply_video_seconds": "3365",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Request cancellation",
+      "approx_user_sent_video_seconds": "3490",
+      "approx_first_reply_video_seconds": "3505",
+      "approx_latency_seconds": "15"
+    },
+    {
+      "exchange": "Email clarification",
+      "approx_user_sent_video_seconds": "3885",
+      "approx_first_reply_video_seconds": "3895",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "Share cancellation email",
+      "approx_user_sent_video_seconds": "3940",
+      "approx_first_reply_video_seconds": "3950",
+      "approx_latency_seconds": "10"
+    },
+    {
+      "exchange": "End task",
+      "approx_user_sent_video_seconds": "4055",
+      "approx_first_reply_video_seconds": "4065",
+      "approx_latency_seconds": "10"
+    }
+  ]
+}

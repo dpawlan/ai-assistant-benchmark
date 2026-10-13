@@ -67,7 +67,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const index = getIndexData();
   const related = getRelatedAgents(slug, 6);
   const kindLabel = KIND_LABEL[agent.kind] ?? 'General';
-  const kindHref = agent.kind === 'general' ? '/' : `/?kind=${agent.kind}`;
+  const kindHref = agent.kind === 'travel' ? '/benchmarks/travel' : agent.kind === 'work' ? '/benchmarks/work' : '/';
   const kindPlural = KINDS.find(k => k.key === agent.kind)?.plural ?? 'assistants';
   const domain = displayDomain(agent.site);
   const inReports = getReportsForAgent(slug);
@@ -160,7 +160,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
 
         <section className="ag-scores">
           <h2 className="ag-h2">Scores</h2>
-          <ScoreRows scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
+          <ScoreRows travel={agent.travel} scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
         </section>
 
         {getRuns(slug).some(r => r.tester) && (
@@ -193,11 +193,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
           {agent.usage && (
             <section className="hands-on">
               <h2 className="ag-h2">Hands-on</h2>
-              <p className="ag-sub">From the reviewer&apos;s own thread.</p>
+              <p className="ag-sub">{agent.usage.source === 'screen-recording' ? agent.usage.measurement_note : 'From the reviewer’s own thread.'}</p>
               <div className="info-list">
                 <div className="info-row">
                   <span className="il">Messages exchanged</span>
-                  <span className="iv">{agent.usage.messages}</span>
+                  <span className="iv">{agent.usage.messages ?? '—'}</span>
                 </div>
                 <div className="info-row">
                   <span className="il">Days active</span>
@@ -205,7 +205,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 </div>
                 <div className="info-row">
                   <span className="il">Median reply</span>
-                  <span className={`iv${agent.usage.median_reply_s === null ? ' empty' : ''}`}>{formatSeconds(agent.usage.median_reply_s)}</span>
+                  <span className={`iv${agent.usage.median_reply_s === null ? ' empty' : ''}`}>{agent.usage.approximate ? '~' : ''}{formatSeconds(agent.usage.median_reply_s)}</span>
                 </div>
                 <div className="info-row">
                   <span className="il">Slowest 10% of replies</span>
@@ -213,11 +213,11 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 </div>
                 <div className="info-row">
                   <span className="il">Messages never answered</span>
-                  <span className={`iv${agent.usage.unanswered ? '' : ' empty'}`}>{agent.usage.unanswered}</span>
+                  <span className={`iv${agent.usage.unanswered ? '' : ' empty'}`}>{agent.usage.unanswered ?? '—'}</span>
                 </div>
                 <div className="info-row">
                   <span className="il">Unprompted messages from it</span>
-                  <span className={`iv${agent.usage.proactive_messages ? '' : ' empty'}`}>{agent.usage.proactive_messages}</span>
+                  <span className={`iv${agent.usage.proactive_messages ? '' : ' empty'}`}>{agent.usage.proactive_messages ?? '—'}</span>
                 </div>
               </div>
             </section>
@@ -235,18 +235,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                   <p className={`fund-total${muted ? ' empty' : ''}`}>{fundingSummary(f)}</p>
                   {f && <p className="ag-sub fund-checked">Checked {formatDate(f.checked)}. Amounts appear only when a published source states them.</p>}
                   {hasDetail && (
-                    <details className="fund-dd" open>
-                      <summary className="fund-toggle">
-                        <span className="fund-toggle-l">
-                          {[rounds && 'Rounds', f.investors.length > 0 && 'backers', f.sources.length > 0 && 'sources']
-                            .filter(Boolean)
-                            .join(', ')
-                            .replace(/^./, c => c.toUpperCase())}
-                        </span>
-                        <svg className="fund-chev" viewBox="0 0 10 10" aria-hidden="true">
-                          <path d="M2 3.5l3 3 3-3" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                      </summary>
+                    <div className="fund-details">
                       <div className="fund-body">
                         {rounds && (
                           <div className="fund-line">
@@ -286,7 +275,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
                           </div>
                         )}
                       </div>
-                    </details>
+                    </div>
                   )}
                 </>
               );
@@ -362,4 +351,3 @@ export default async function AgentPage({ params }: AgentPageProps) {
     </div>
   );
 }
-

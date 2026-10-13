@@ -1,0 +1,9 @@
+{
+  "id": "boba-2026-09-10-travel-search-review",
+  "agent": "boba",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-09-10",
+  "context": "Dimension review of the existing benchmark record boba-2026-09-10-blooio-travel. Recorded outcome: Found United UA2389/UA396 nonstop LGA–ORD Standard Economy about $411 but could not finish interactive checkout to a payment page. This review separates flight search from ticketing, assigned seats and check-in. Staging checkout is not evidence of a ticketed reservation. Scores below assess only the documented search; missing documentation is identified in each result. No new booking or live fare verification was performed.",
+  "published_at": "2026-10-04T22:23:16.685298+00:00"
+}

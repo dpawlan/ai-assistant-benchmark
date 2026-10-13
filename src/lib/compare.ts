@@ -52,6 +52,8 @@ function buildOrdered(aSlug: string, bSlug: string): Comparison | null {
     short: CATEGORY_SHORT[c.key] ?? c.label,
     a: a.scores[c.key] ?? null,
     b: b.scores[c.key] ?? null,
+    travelA: c.key === 'travel' ? a.travel : undefined,
+    travelB: c.key === 'travel' ? b.travel : undefined,
     runA: a.latestRuns[c.key] ?? null,
     runB: b.latestRuns[c.key] ?? null,
     opinionA: a.opinion[c.key]?.n ? a.opinion[c.key] : null,

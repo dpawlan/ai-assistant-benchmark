@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { Fragment, Suspense, useEffect, useMemo, useState } from 'react';
 import { track } from '@vercel/analytics';
@@ -8,6 +9,7 @@ import { Agent, Category } from '@/lib/types';
 import { KINDS, KIND_LABEL, isKind } from '@/lib/kinds';
 import { AgentIcon } from './AgentIcon';
 import { OpinionCell } from './OpinionCell';
+import { TravelScore } from './TravelScore';
 import { ScoreCell } from './ScoreCell';
 import { SpeedCell } from './SpeedCell';
 import { CostMark } from './CostMark';
@@ -70,7 +72,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
-  const [showPending, setShowPending] = useState(false);
   const [cost, setCost] = useState<CostKey | 'all'>('all');
   const opinion = view === 'opinion';
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
@@ -173,25 +174,12 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
         )}
         {cols.map(c => (
           <td key={c.key} className={sort === c.key ? 'sorted' : undefined}>
-            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : <ScoreCell value={agent.scores[c.key]} />}
+            {opinion ? <OpinionCell stat={agent.opinion[c.key]} compact /> : c.key === 'travel' ? <TravelScore summary={agent.travel} /> : <ScoreCell value={agent.scores[c.key]} />}
           </td>
         ))}
       </tr>
     );
   };
-
-  const pendingToggle = (n: number, open: boolean, onToggle: () => void) => (
-    <tr className="mx-toggle">
-      <td colSpan={span}>
-        <button type="button" onClick={onToggle} aria-expanded={open}>
-          {open ? 'Hide' : 'Show'} {n} pending
-          <svg className={`mx-chev${open ? ' open' : ''}`} viewBox="0 0 10 10" fill="currentColor" aria-hidden="true">
-            <path d="M5 8L1 3h8z" />
-          </svg>
-        </button>
-      </td>
-    </tr>
-  );
 
   const segEl = (
     <div className="seg" role="tablist" aria-label="Score source">
@@ -206,12 +194,12 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
   return (
     <div>
-      <Suspense fallback={null}>
+      {!compact && <Suspense fallback={null}>
         <KindFromUrl onKind={setKindState} />
-      </Suspense>
+      </Suspense>}
 
       <div className={compact ? 'rank-bar' : undefined}>
-      <div className="kind-bar" role="tablist" aria-label="Peer group">
+      {compact ? <BenchmarkNav active="general" /> : <div className="kind-bar" role="tablist" aria-label="Peer group">
         <button type="button" role="tab" aria-selected={kind === 'all'} className={`kind${kind === 'all' ? ' on' : ''}`} onClick={() => setKind('all')}>
           All
           <span className="kind-n">{agents.length}</span>
@@ -222,9 +210,11 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
             <span className="kind-n">{counts[k.key]}</span>
           </button>
         ))}
-      </div>
+      </div>}
       {compact && segEl}
       </div>
+
+      {compact && <CategoryDescription category="general" />}
 
       {!compact && <div className="cost-bar" role="group" aria-label="Cost">
         <span className="cost-bar-l">Cost</span>
@@ -284,7 +274,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
           {!opinion
             ? sections.filter(sec => !(compact && sec.count === 0)).map(sec => {
-                const collapsed = sec.status === 'pending' && status === 'all' && !showPending;
                 return (
                   <tbody key={sec.status} className={`mx-sec mx-sec-${sec.status}`}>
                     <tr className="mx-sechead">
@@ -300,14 +289,11 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
                         <td colSpan={span}>Nothing here.</td>
                       </tr>
                     )}
-                    {collapsed
-                      ? pendingToggle(sec.count, false, () => setShowPending(true))
-                      : sec.groups.map(g => (
-                          <Fragment key={g.key}>
-                            {g.rows.map(row)}
-                          </Fragment>
-                        ))}
-                    {sec.status === 'pending' && status === 'all' && showPending && sec.count > 0 && pendingToggle(sec.count, true, () => setShowPending(false))}
+                    {sec.groups.map(g => (
+                      <Fragment key={g.key}>
+                        {g.rows.map(row)}
+                      </Fragment>
+                    ))}
                   </tbody>
                 );
               })

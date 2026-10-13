@@ -50,19 +50,7 @@ export default function AboutPage() {
             </p>
           </article>
 
-          <article className="about-person">
-            <h3>Autumn Moulder</h3>
-            <p className="about-role">Testing and scores</p>
-            <p className="about-p">
-              Around twenty years building technology outside the big-tech bubble, most recently at Cohere. In her words: &ldquo;I have thoughts…and had
-              to live with the consequences.&rdquo;
-            </p>
-            <p className="about-links">
-              <a href="https://moulder.me" target="_blank" rel="noopener noreferrer">
-                moulder.me
-              </a>
-            </p>
-          </article>
+
         </div>
       </section>
 

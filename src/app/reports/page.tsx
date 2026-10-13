@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { formatDate, getAgents } from '@/lib/data';
-import { getReports, primaryPick } from '@/lib/reports';
-import { AgentIcon } from '@/components/AgentIcon';
-import type { Agent } from '@/lib/types';
+import { getReports } from '@/lib/reports';
 import { ReportCover } from '@/components/ReportCover';
 import { getArticles } from '@/lib/articles';
 import { ArticleCard } from '@/components/ArticleCard';
@@ -39,7 +37,6 @@ export default function ReportsPage() {
             <span className="rp-eyebrow">Updated {formatDate(featured.updated)}</span>
             <span className="rp-featured-title">{featured.title}</span>
             <span className="rp-featured-dek">{featured.excerpt}</span>
-            <PickLine slug={primaryPick(featured)} bySlug={bySlug} />
           </span>
         </Link>
       )}
@@ -52,7 +49,6 @@ export default function ReportsPage() {
               <span className="rp-eyebrow">Updated {formatDate(r.updated)}</span>
               <span className="rp-card-title">{r.title}</span>
               <span className="rp-card-dek">{r.question}</span>
-              <PickLine slug={primaryPick(r)} bySlug={bySlug} />
             </span>
           </Link>
         ))}
@@ -73,16 +69,5 @@ export default function ReportsPage() {
         </section>
       )}
     </div>
-  );
-}
-
-function PickLine({ slug, bySlug }: { slug: string; bySlug: Record<string, Agent> }) {
-  const a = bySlug[slug];
-  if (!a) return null;
-  return (
-    <span className="rp-pickline">
-      <AgentIcon name={a.name} icon={a.icon} size={20} className="rp-pickline-icon" />
-      Our pick: <b>{a.name}</b>
-    </span>
   );
 }

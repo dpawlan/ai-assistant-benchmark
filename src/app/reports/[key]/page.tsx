@@ -14,6 +14,8 @@ import { getArticleForUpdate, getArticlesForReport } from '@/lib/articles';
 import { ArticleCard } from '@/components/ArticleCard';
 import { getAuthor } from '@/lib/authors';
 import { AuthorAvatar } from '@/components/AuthorAvatar';
+import { TravelReportJourney } from '@/components/TravelReportJourney';
+import { ogUrl } from '@/lib/og';
 
 interface Props {
   params: Promise<{ key: string }>;
@@ -26,6 +28,20 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { key } = await params;
   const r = getReport(key);
+  if (r?.key === 'consumer-ai-travel') {
+    const title = 'Would you let AI book your next flight?';
+    const description = 'We tested real bookings across five AI assistants. See how Miso, Instinct, GrokBot, Dots and Muse handled booking, seat selection, changes and cancellations.';
+    const image = ogUrl('/og/reports/consumer-ai-travel.png');
+    return {
+      title,
+      description,
+      openGraph: {
+        title, description, type: 'article', siteName: 'Assistant Benchmark',
+        images: [{ url: image, width: 1200, height: 630, alt: `${title} Miso, Instinct, GrokBot, Dots and Muse.` }],
+      },
+      twitter: { card: 'summary_large_image', title, description, images: [image] },
+    };
+  }
   return { title: r ? r.title : 'Report' };
 }
 
@@ -34,6 +50,10 @@ export default async function ReportPage({ params }: Props) {
   const report = getReport(key);
   if (!report) notFound();
   const agents = getAgents();
+  const author = getAuthor(report.author ?? 'david-pawlan');
+
+  if (report.key === 'consumer-ai-travel') return <TravelReportJourney agents={agents} author={author} />;
+
   const bySlug = Object.fromEntries(agents.map(a => [a.slug, a]));
   const category = getCategory(report.dimension);
   const ranked = rankByCategory(agents, report.dimension).filter(a => typeof a.scores[report.dimension] === 'number');
@@ -41,8 +61,6 @@ export default async function ReportPage({ params }: Props) {
   const pick = primaryPick(report);
   const pickAgent = bySlug[pick];
   const articles = getArticlesForReport(report.key);
-  const author = getAuthor(report.author ?? 'david-pawlan');
-
   const toc: { id: string; label: string }[] = [
     ...report.sections.map(s =>
       s.type === 'who' ? { id: 'who', label: 'Who this is for' }
@@ -85,17 +103,16 @@ export default async function ReportPage({ params }: Props) {
       {report.picks.map(p => {
         const a = bySlug[p.slug];
         if (!a) return null;
-        return (
-          <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>
-            <span className="rp-pick-label">{p.label}</span>
-            <span className="rp-pick-head">
-              <AgentIcon name={a.name} icon={a.icon} size={44} />
-              <span className="rp-pick-name">{a.name}</span>
-              <ScoreCell value={a.scores[report.dimension]} />
-            </span>
-            <span className="rp-pick-why">{p.why}</span>
-          </Link>
-        );
+        const content = <>
+          <span className="rp-pick-label">{p.label}</span>
+          <span className="rp-pick-head">
+            <AgentIcon name={a.name} icon={a.icon} size={44} />
+            <span className="rp-pick-name">{a.name}</span>
+            <ScoreCell value={a.scores[report.dimension]} />
+          </span>
+          <span className="rp-pick-why">{p.why}</span>
+        </>;
+        return <Link key={p.slug} href={`/agents/${a.slug}`} className={`rp-pick-card ${p === report.picks[0] ? 'lead' : ''}`}>{content}</Link>;
       })}
     </section>
   );
@@ -111,7 +128,12 @@ export default async function ReportPage({ params }: Props) {
           </section>
         );
         if (sec.type === 'ahead') return <section key={i} id="ahead" className="rp-section"><h2>What to look forward to</h2><Markdown body={sec.body} /></section>;
-        if (sec.type === 'extra') return <section key={i} id={sec.id} className="rp-section"><h2>{sec.heading}</h2><Markdown body={sec.body} /></section>;
+        if (sec.type === 'extra') {
+          return <section key={i} id={sec.id} className="rp-section">
+            <h2>{sec.heading}</h2>
+            <Markdown body={sec.body} />
+          </section>;
+        }
         if (sec.type === 'pick') {
           const ps = sec.section;
           const a = bySlug[ps.slug];
@@ -135,10 +157,12 @@ export default async function ReportPage({ params }: Props) {
         return (
           <section key={i} id="competition" className="rp-section">
             <h2>The competition</h2>
-            <p className="rp-muted">Everyone else that took the test, against {pickAgent?.name ?? 'our pick'}. Each one links to the full head to head.</p>
+            <p className="rp-muted">{`Other assistants reviewed, alongside ${pickAgent?.name ?? "our pick"}. Each one links to the full head to head.`}</p>
             {sec.entries.map(c => {
               const a = bySlug[c.slug];
               if (!a) return null;
+              const paragraphs = c.body.trim().split(/\n\s*\n/);
+              const assessmentBody = paragraphs.join('\n\n');
               return (
                 <div key={c.slug} id={`competition-${c.slug}`} className="rp-competitor">
                   <div className="rp-competitor-head">
@@ -149,7 +173,7 @@ export default async function ReportPage({ params }: Props) {
                       <Link href={comparePath(pickAgent.slug, a.slug, [report.dimension])} className="rp-competitor-link">{pickAgent.name} vs {a.name}</Link>
                     )}
                   </div>
-                  <Markdown body={c.body} />
+                  <Markdown body={assessmentBody} />
                 </div>
               );
             })}
@@ -206,7 +230,7 @@ export default async function ReportPage({ params }: Props) {
       {author && <AuthorAvatar author={author} size={32} />}
       <span className="rp-author-text">
         {author ? <Link href={`/authors/${author.slug}`}>By {author.name}</Link> : null}
-        <span>Updated {formatDate(report.updated)}. Published {formatDate(report.published)}.</span>
+        <span>{report.preview ? `Draft updated ${formatDate(report.updated)}` : `Updated ${formatDate(report.updated)}. Published ${formatDate(report.published)}.`}</span>
       </span>
     </div>
   );
@@ -220,8 +244,8 @@ export default async function ReportPage({ params }: Props) {
           <h1 className="rp-title">{report.title}</h1>
           <p className="rp-dek">{report.question}</p>
           {byline}
-          <p className="rp-byline">{ranked.length} assistants tested, {runCount} runs of the same task.</p>
-          {report.preview && <p className="rp-preview">Preview with placeholder prose. Scores are real; the write-up is illustrative.</p>}
+          <p className="rp-byline">{ranked.length} assistants with scores in this dimension, {runCount} latest recorded runs.</p>
+          {report.preview && <p className="rp-preview">Editorial preview · Findings and category picks are provisional.</p>}
         </div>
         <ReportCover report={report} bySlug={bySlug} size="hero" />
       </header>

@@ -1,3 +1,4 @@
+import type { TravelSummary } from './travel-rollup';
 /** Pure head-to-head helpers, safe to import from client components. */
 import { OpinionStat, Run, ScoreValue } from './types';
 
@@ -22,6 +23,8 @@ export interface CompareRow {
   short: string;
   a: ScoreValue;
   b: ScoreValue;
+  travelA?: TravelSummary;
+  travelB?: TravelSummary;
   runA: Run | null;
   runB: Run | null;
   opinionA: OpinionStat | null;

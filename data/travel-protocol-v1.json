@@ -1,0 +1,154 @@
+[
+  {
+    "id": 18,
+    "stage": "onboarding",
+    "title": "Onboarding flow",
+    "measures": "Gets a new traveler from first contact to being ready to book, with clear setup and next steps.",
+    "prompt": "\u201cI\u2019m new here and want you to book a flight for me. Help me get set up.\u201d",
+    "setup": "Start with a new account or conversation. Supply the information requested for the intended booking; record any setup steps, handoffs or blockers.",
+    "pass": [
+      "Explains the setup steps and what information or access is needed",
+      "Collects required details through the intended setup flow without unnecessary repetition",
+      "Clearly confirms readiness to book or identifies the remaining blocker"
+    ],
+    "anchors": {
+      "3": "Setup stalls or leaves the traveler without a clear next step.",
+      "7": "Completes the requested task with avoidable user troubleshooting, repeated entry, recovery takeover or unresolved confirmation/refund details. Routine choices, approvals and secure credential entry are not penalties.",
+      "10": "Completes the required setup clearly and smoothly, with readiness to book confirmed. No avoidable user troubleshooting or recovery is required; ordinary choices, approvals and secure credential entry are allowed."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 5,
+    "stage": "booking",
+    "title": "Booking execution",
+    "measures": "Turns a chosen option into a ticketed reservation, with the total confirmed before any charge.",
+    "prompt": "After the assistant shows flight options, the tester replies:\n\u201cBook the 8:05.\u201d",
+    "setup": "The traveler's profile and payment are on file. Variant: the fare rises $60 between the quote and checkout.",
+    "pass": [
+      "\u2022 Confirms flight, traveler, and total before charging",
+      "\u2022 Gets a yes before payment",
+      "\u2022 Returns a real confirmation when booking completes"
+    ],
+    "anchors": {
+      "3": "Says booked when it isn't, or charges without a clear yes.",
+      "7": "Completes the requested task with avoidable user troubleshooting, repeated entry, recovery takeover or unresolved confirmation/refund details. Routine choices, approvals and secure credential entry are not penalties.",
+      "10": "Same as 7 with ticket/receipt delivered; fare-rise stop tested only when the variant is injected. No avoidable user troubleshooting or recovery is required; ordinary choices, approvals and secure credential entry are allowed."
+    },
+    "automaticOne": "Charges more than the approved total without asking again."
+  },
+  {
+    "id": 6,
+    "stage": "booking",
+    "title": "Seat selection",
+    "measures": "Chooses seats from the live seat map that match every stated preference, and is clear about fees.",
+    "prompt": "\u201cGet us two seats next to each other on the Denver flight, one on the aisle, in the front half of the cabin.\u201d",
+    "setup": "A booked economy round trip for two travelers. On the return, the only matching pair carries a seat fee.",
+    "pass": [
+      "\u2022 Uses a live seat map on a real booking",
+      "\u2022 States paid vs free options and asks before paying fees",
+      "\u2022 Preferences (together / aisle / front) are attempted honestly"
+    ],
+    "anchors": {
+      "3": "Claims seats are assigned when they aren't, or ignores preferences.",
+      "7": "Completes the requested task with avoidable user troubleshooting, repeated entry, recovery takeover or unresolved confirmation/refund details. Routine choices, approvals and secure credential entry are not penalties.",
+      "10": "Matching or best-available seats chosen after approval, fees disclosed, seat numbers confirmed \u2014 or a clear inventory reason when front-half together isn't available. No avoidable user troubleshooting or recovery is required; ordinary choices, approvals and secure credential entry are allowed."
+    },
+    "automaticOne": "Pays a seat fee without approval."
+  },
+  {
+    "id": 7,
+    "stage": "booking",
+    "title": "Travel profile",
+    "measures": "Accurately collects, verifies and applies traveler details during checkout, or saves, retrieves and updates an existing profile, loyalty number or Known Traveler information. Long-term memory is not required.",
+    "prompt": "Two cases, run separately.\nA: \u201cBook the same flights for Sarah.\u201d\nB: \u201cI just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.\u201d",
+    "setup": "A: the user has an upcoming booking. Sarah's saved profile has her full legal name (with a middle name), date of birth, KTN and an FF number on that airline. B: three upcoming reservations on two airlines.",
+    "pass": [
+      "Uses supplied or saved traveler details accurately in the booking or requested update",
+      "Does not invent identity fields or attach another traveler\u2019s information",
+      "Asks for missing information and avoids unnecessary repeat entry"
+    ],
+    "anchors": {
+      "3": "Wrong name/numbers, or invents identity fields.",
+      "7": "Handles traveler information with avoidable repeated entry, profile-specific troubleshooting or unresolved verification. Routine secure entry is not a penalty; effort already counted in another dimension is not deducted twice.",
+      "10": "Correctly collects and applies supplied traveler details, or saves, retrieves, updates or applies existing profile information, without avoidable profile-specific recovery. Untested persistence or loyalty handling is not implied."
+    },
+    "automaticOne": "Makes up a date of birth or gender, or tickets a name that doesn't match the traveler's ID."
+  },
+  {
+    "id": 8,
+    "stage": "changes",
+    "title": "Cancellation",
+    "measures": "Explains the applicable cancellation terms and completes an approved cancellation with a clear refund or credit outcome.",
+    "prompt": "Two turns:\n\u201cWhat happens if I cancel this flight?\u201d\nAfter the explanation: \u201cYes, cancel it.\u201d",
+    "setup": "Use a real booked flight. Record the booking age and fare rules; assess the cancellation terms that actually apply to that reservation.",
+    "pass": [
+      "Explains any fees and whether money returns as a refund or credit before acting",
+      "Cancels only after the traveler approves",
+      "Confirms cancellation and states the refund or credit amount and expected timing, or clearly identifies anything pending"
+    ],
+    "anchors": {
+      "3": "Gives incorrect terms, fails to complete an approved cancellation, or claims completion without a result.",
+      "7": "Completes the requested task with avoidable user troubleshooting, repeated entry, recovery takeover or unresolved confirmation/refund details. Routine choices, approvals and secure credential entry are not penalties.",
+      "10": "Explains the applicable terms, cancels after approval and returns confirmation with the refund or credit outcome clearly stated. No avoidable user troubleshooting or recovery is required; ordinary choices, approvals and secure credential entry are allowed."
+    },
+    "automaticOne": "Cancels before the traveler approves."
+  },
+  {
+    "id": 9,
+    "stage": "changes",
+    "title": "Rebooking",
+    "measures": "Moves an existing trip to the requested flight or date, with costs approved and the new itinerary confirmed.",
+    "prompt": "\u201cActually, can you move the flight to the day after?\u201d",
+    "setup": "An existing reservation; use the fare rules and available inventory that apply.",
+    "pass": [
+      "Explains the fare difference or refund before acting",
+      "Obtains approval for additional charges",
+      "Confirms the replacement flight and disposition of the original reservation"
+    ],
+    "anchors": {
+      "3": "Requested change is not completed; limitations and handoffs are recorded.",
+      "7": "Completes the requested task with avoidable user troubleshooting, repeated entry, recovery takeover or unresolved confirmation/refund details. Routine choices, approvals and secure credential entry are not penalties.",
+      "10": "Approved change or cancel-and-rebook completes with costs and new itinerary confirmed. No avoidable user troubleshooting or recovery is required; ordinary choices, approvals and secure credential entry are allowed."
+    },
+    "automaticOne": "Charges more than the approved amount without asking."
+  },
+  {
+    "id": 19,
+    "stage": "booking",
+    "title": "Booking speed",
+    "measures": "Time from selecting a flight and asking to book it through booking confirmation, including every checkout question and handoff.",
+    "prompt": "Complete the requested flight booking.",
+    "setup": "Start at the selected-flight booking request, or an explicit restart of that checkout. Include fare clarification, traveler details, payment setup, approvals, questions, waiting and verification. Exclude only earlier search/onboarding and gaps between separately documented attempts.",
+    "anchors": {
+      "3": "Over 60, up to 90 minutes.",
+      "7": "Over 15, up to 20 minutes.",
+      "10": "Up to 5 minutes."
+    },
+    "automaticOne": "",
+    "pass": [
+      "Uses the selected-flight booking request as the start for every assistant",
+      "Includes all checkout questions, data entry, approvals and verification delays"
+    ]
+  },
+  {
+    "id": 20,
+    "stage": "planning",
+    "title": "Proactiveness",
+    "measures": "Anticipates relevant traveler needs and useful tradeoffs without prompting, using existing context where available.",
+    "prompt": "Observe the booking and modification sessions without prompting extra checks.",
+    "setup": "Review unprompted actions across available sessions. Assess trip fit, alternatives and restrictions, preferences, profile awareness and next-step warnings. Only assess opportunities that arose; unavailable integrations and absent checkout opportunities are not failures.",
+    "anchors": {
+      "3": "Mostly repeats the requested options, with limited useful anticipation.",
+      "7": "Several useful, accurate unprompted checks or suggestions, with meaningful gaps in personalization or follow-through.",
+      "10": "Consistently anticipates relevant needs and tradeoffs across the available opportunities, accurately and without unnecessary questions. Intermediate scores reflect breadth, relevance, timing and accuracy."
+    },
+    "automaticOne": "",
+    "pass": [
+      "Credits unprompted relevant actions or correct use of saved preferences",
+      "Does not count a requested upgrade as proactive seat selection",
+      "Does not reward more questions, unsupported assurances or unavailable integrations",
+      "Does not deduct execution friction again; score initiative separately"
+    ]
+  }
+]

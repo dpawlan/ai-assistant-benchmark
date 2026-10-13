@@ -17,10 +17,10 @@ export function SpeedCell({ usage }: { usage: Usage | null }) {
     );
   }
   const s = usage.median_reply_s;
-  const title = `Median reply ${short(s)} over ${usage.messages} messages · slowest 10% ${usage.p90_reply_s === null ? '—' : short(usage.p90_reply_s)} · ${usage.unanswered} never answered`;
+  const title = usage.approximate ? `Estimated median reply ${short(s)} across ${usage.sample_exchanges} exchanges · recording sampled every ${usage.sampling_interval_s}s · ${usage.measurement_note ?? ""}` : `Median reply ${short(s)} over ${usage.messages} messages · slowest 10% ${usage.p90_reply_s === null ? '—' : short(usage.p90_reply_s)} · ${usage.unanswered} never answered`;
   return (
     <span className={`sc sc-${speedBucket(s)}`} title={title}>
-      {short(s)}
+      {usage.approximate ? '~' : ''}{short(s)}
     </span>
   );
 }

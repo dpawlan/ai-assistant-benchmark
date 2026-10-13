@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "stage": "plan",
+    "title": "Cash: constrained trip",
+    "measures": "Finds fares that meet every hard constraint, priced all-in, and says plainly when nothing fits.",
+    "prompt": "“Boston to Chicago next Thursday, back Saturday. Nonstop only, land by 11am Thursday, home by 9pm Saturday. Under $450 with a checked bag.”",
+    "setup": "Variant: dates where no itinerary meets every constraint.",
+    "pass": [
+      "• Options respect hard constraints, or the agent says nothing fits",
+      "• Prices are all-in (or bag fees are called out)",
+      "• Near-misses name what broke the constraint"
+    ],
+    "anchors": {
+      "3": "Offers a nonstop/time/budget miss without saying so, or hides bag fees.",
+      "7": "Correctly finds compliant options or correctly says nothing fits, with all-in or bag-aware pricing and a clear pick or near-miss.",
+      "10": "Nothing-fits case handled clearly with at least one priced near-miss or a short note on what to relax; compliant options when they exist are all-in and easy to choose."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 2,
+    "stage": "plan",
+    "title": "Cash: one-way and round trip",
+    "measures": "Prices simple itineraries correctly, including when two one-ways beat a round trip and what each fare includes.",
+    "prompt": "Two cases, run separately.\nA: “One-way, San Francisco to Seattle, Friday afternoon.”\nB: “Round trip, Los Angeles to Denver, out Monday morning, back Wednesday night.”",
+    "setup": "Case B: pick dates where two one-ways on different airlines cost less than the cheapest round trip.",
+    "pass": [
+      "• Dates, directions and rough time windows are right",
+      "• A clear recommendation in each case",
+      "• Basic economy or tight fares get at least a brief caveat when recommended"
+    ],
+    "anchors": {
+      "3": "Wrong date/direction, or pushes basic economy with no caveat.",
+      "7": "Both cases priced correctly with a clear pick. Bonus if case B compares one-ways or states bags/changes, but not required for a 7.",
+      "10": "Both cases right with a clear recommendation; mentions inclusions or OW-vs-RT when it matters, without needing a perfect split-ticket audit."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 3,
+    "stage": "plan",
+    "title": "Multi-city trips",
+    "measures": "Builds a multi-city trip with open-jaw pricing, the right mode between cities and a sensible split of nights.",
+    "prompt": "“NYC to Lisbon, then Madrid and Barcelona, fly home from Barcelona. 10 days mid-May. Business across the Atlantic.”",
+    "setup": "",
+    "pass": [
+      "• Open jaw (in LIS / out BCN) or equivalent multi-city is priced",
+      "• Mode between cities is chosen with a reason (fly vs rail)",
+      "• Sensible night split and a usable total"
+    ],
+    "anchors": {
+      "3": "Prices legs with no trip logic, or ignores the open jaw.",
+      "7": "Open jaw / multi-city priced, LIS–MAD and MAD–BCN handled with reasons, nights roughly even, and an all-in or near-all-in total.",
+      "10": "Same as 7, plus a clear all-in (flights + surface) and ready to book on one approval — day-by-day detail optional."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 4,
+    "stage": "plan",
+    "title": "Points: find award flights",
+    "measures": "Finds real award space, verifies availability and instructs the customer how to book. ",
+    "prompt": "“Two of us to Tokyo in business, late March, give or take 3 days. We have Chase and Amex points.”",
+    "setup": "Enough Chase Ultimate Rewards and Amex Membership Rewards for two seats, and no pre-authorized transfers. Companion profile saved.",
+    "pass": [
+      "• Live award or cash search for the city pair, with at least one workable option for two",
+      "• Options show program or airline and a cash comparison or transfer path when points are in play",
+      "• No points transfer without an explicit yes"
+    ],
+    "anchors": {
+      "3": "Gives advice with no live search, or invents space that isn't there.",
+      "7": "Live search finds real options (award or strong cash alternative), names a transfer path or says cash is cheaper, and waits for approval before any transfer — even if origin needs one clarifying turn.",
+      "10": "Two-seat award or a clear cash recommendation with program/path and cash comparison; traveler can approve a transfer or book in one step. Confirmations only required if they actually transfer."
+    },
+    "automaticOne": "Starts a transfer before approval, or into a program that can't book the seats."
+  },
+  {
+    "id": 5,
+    "stage": "booking",
+    "title": "Booking execution",
+    "measures": "Turns a chosen option into a ticketed reservation, with the total confirmed before any charge.",
+    "prompt": "After the assistant shows flight options, the tester replies:\n“Book the 8:05.”",
+    "setup": "The traveler's profile and payment are on file. Variant: the fare rises $60 between the quote and checkout.",
+    "pass": [
+      "• Confirms flight, traveler, and total before charging",
+      "• Gets a yes before payment",
+      "• Returns a real confirmation when booking completes"
+    ],
+    "anchors": {
+      "3": "Says booked when it isn't, or charges without a clear yes.",
+      "7": "Confirms total (and key rules or card) before charge, tickets on one yes, and returns conf code / amount. Fare-rise re-ask is a plus, not required for a 7.",
+      "10": "Same as 7 with ticket/receipt delivered; fare-rise stop tested only when the variant is injected."
+    },
+    "automaticOne": "Charges more than the approved total without asking again."
+  },
+  {
+    "id": 6,
+    "stage": "booking",
+    "title": "Seat selection",
+    "measures": "Chooses seats from the live seat map that match every stated preference, and is clear about fees.",
+    "prompt": "“Get us two seats next to each other on the Denver flight, one on the aisle, in the front half of the cabin.”",
+    "setup": "A booked economy round trip for two travelers. On the return, the only matching pair carries a seat fee.",
+    "pass": [
+      "• Uses a live seat map on a real booking",
+      "• States paid vs free options and asks before paying fees",
+      "• Preferences (together / aisle / front) are attempted honestly"
+    ],
+    "anchors": {
+      "3": "Claims seats are assigned when they aren't, or ignores preferences.",
+      "7": "Live map checked; adjacent/aisle/front options explained with fees; waits for approval before paying. Exact front-half on every leg not required if inventory is thin.",
+      "10": "Matching or best-available seats chosen after approval, fees disclosed, seat numbers confirmed — or a clear inventory reason when front-half together isn't available."
+    },
+    "automaticOne": "Pays a seat fee without approval."
+  },
+  {
+    "id": 7,
+    "stage": "booking",
+    "title": "Travel profile (KTN, FF)",
+    "measures": "Stores traveler details and applies them correctly: exact ID names, Known Traveler Numbers (KTN) and frequent-flyer (FF) numbers.",
+    "prompt": "Two cases, run separately.\nA: “Book the same flights for Sarah.”\nB: “I just got PreCheck. My Known Traveler Number is [number]. Add it to all my upcoming trips.”",
+    "setup": "A: the user has an upcoming booking. Sarah's saved profile has her full legal name (with a middle name), date of birth, KTN and an FF number on that airline. B: three upcoming reservations on two airlines.",
+    "pass": [
+      "• Uses saved traveler details when booking for someone else or updating KTN/FF",
+      "• Doesn't invent DOB/gender or attach the wrong person's numbers",
+      "• Asks once when something is missing"
+    ],
+    "anchors": {
+      "3": "Wrong name/numbers, or invents identity fields.",
+      "7": "Applies the right traveler's name/KTN/FF when on file, or clearly says what's missing. Updating every upcoming PNR in case B can be partial if most are done.",
+      "10": "Companion booked with exact ID name + own KTN/FF, or KTN saved and applied across upcoming trips with a short change list."
+    },
+    "automaticOne": "Makes up a date of birth or gender, or tickets a name that doesn't match the traveler's ID."
+  },
+  {
+    "id": 8,
+    "stage": "changes",
+    "title": "Cancellation outside the 24-hour window",
+    "measures": "Separates “tell me” from “do it”, and gets refunds, credits and fees right once free cancellation has lapsed.",
+    "prompt": "Two turns:\nTurn 1: “What would it cost to cancel Thursday's trip?”\nTurn 2, after the reply: “OK, cancel it.”",
+    "setup": "Everything was booked 5 days ago, so the 24-hour free cancellation has passed. The trip has a non-refundable main cabin fare, an award ticket on another airline, and a hotel with free cancellation until tomorrow.",
+    "pass": [
+      "• Turn 1 quotes costs/refunds/credits and changes nothing",
+      "• Fees and what comes back are itemized per booking when known",
+      "• Turn 2 only cancels after an explicit OK"
+    ],
+    "anchors": {
+      "3": "Cancels on Turn 1, or is wrong about the 24h window / refund math.",
+      "7": "Accurate Turn 1 breakdown with fees and refunds/credits; nothing cancelled until Turn 2. Full three-booking fixture not required if active trips are itemized correctly.",
+      "10": "Clean cancel after Turn 2 with an itemized report; Turn 1 alone can still score high when execution isn't in scope."
+    },
+    "automaticOne": "Anything is cancelled during turn 1."
+  },
+  {
+    "id": 9,
+    "stage": "changes",
+    "title": "Voluntary changes",
+    "measures": "Makes a requested change with the right fare math and clean servicing.",
+    "prompt": "“Push my return to Tuesday.”",
+    "setup": "A round trip on a fare with a fare difference or change fee. Aisle seats are assigned.",
+    "pass": [
+      "• States change fee and/or fare difference before acting",
+      "• Changes only after approval",
+      "• Delivers updated itinerary when the change is made"
+    ],
+    "anchors": {
+      "3": "Says change is possible with no cost, or changes before approval.",
+      "7": "Accurate cost (fee + fare diff) before acting; waits for yes. Seat reassignment is a plus for 7, required only when seats were assigned and inventory allows.",
+      "10": "Cost shown, one approval, change completed, itinerary/receipt sent; aisle restored when possible."
+    },
+    "automaticOne": "Makes a change that costs money before approval."
+  },
+  {
+    "id": 10,
+    "stage": "changes",
+    "title": "Price tracking",
+    "measures": "Watches fares over time, before and after booking, and acts only within the traveler's instructions.",
+    "prompt": "Two cases, run separately.\nA: “Tell me if JFK to London in business in March drops under $3,000 round trip.”\nB: “If my London fare drops $100 or more, rebook me.”",
+    "setup": "A: inject a $2,850 fare that lasts 3 hours. B: a booked fare whose rules allow changes without a fee; inject a $140 drop that lasts 3 hours.",
+    "pass": [
+      "• Sets a watch or rebook rule matching the ask",
+      "• Case A does not book without a yes",
+      "• Checks on a reasonable cadence (a few times a day is fine)"
+    ],
+    "anchors": {
+      "3": "Agrees to watch then never checks, or books/rebooks outside the instruction.",
+      "7": "Watch or rebook rule set correctly; alert-only in case A. Catching an injected short drop is ideal but not required to score a 7 for setting the watch.",
+      "10": "Catches a real or injected drop in time and alerts or rebooks per instructions with the saving explained."
+    },
+    "automaticOne": "Acts outside the instruction, such as booking in case A or rebooking for a $60 drop."
+  },
+  {
+    "id": 11,
+    "stage": "extras",
+    "title": "Adding a pet",
+    "measures": "Adds a pet to a booking under the airline's current rules, and confirms there's room on that flight.",
+    "prompt": "“Add my cat to my Denver flight. She'll be in a carrier under the seat.”",
+    "setup": "A domestic booking on an airline that allows cats in the cabin for a fee, with a limit per flight. Variant: an international trip where the destination restricts pets in the cabin.",
+    "pass": [
+      "• Checks current airline pet policy for cabin pets",
+      "• States fee and carrier size limits",
+      "• Does not claim the pet is on the reservation until it is"
+    ],
+    "anchors": {
+      "3": "Generic “call the airline,” or claims the pet is added when it isn't.",
+      "7": "Live-ish policy + fee + size limits for the airline; offers to confirm space / add after approval. Specific-flight space confirm is the step up to 10.",
+      "10": "Policy + space on that flight confirmed, then add/pay after approval (variant explained before booking)."
+    },
+    "automaticOne": "Tells the traveler the pet is confirmed when it isn't."
+  },
+  {
+    "id": 12,
+    "stage": "extras",
+    "title": "Special requests",
+    "measures": "Adds and confirms special service requests, and is clear about what isn't guaranteed.",
+    "prompt": "Two cases, run separately.\nA: “Flying with my 10-month-old on the London flight. Need a bassinet.”\nB: “My mom needs wheelchair help at both ends.”",
+    "setup": "A: a long-haul booking that already includes the infant. B: a connecting itinerary with the user's mother as a passenger.",
+    "pass": [
+      "• Knows the right SSR (bassinet / wheelchair) and key limits",
+      "• States what isn't guaranteed",
+      "• Offers to add it to the reservation"
+    ],
+    "anchors": {
+      "3": "Only “call the airline,” or claims done with nothing on the PNR.",
+      "7": "Correct process, limits, and not-guaranteed caveats; offers to file the SSR. Airline confirmation refs are ideal for 10.",
+      "10": "SSR on the PNR (and confirmed when the airline allows), limits stated, references shared."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 13,
+    "stage": "before",
+    "title": "Check-in and boarding pass",
+    "measures": "Checks in without being asked and delivers the boarding pass, including for trips booked elsewhere. Adapted from the Assistant Benchmark Proactive behavior and Chained tasks tests.",
+    "prompt": "Two cases, run separately.\nA: the tester sends nothing. A flight booked through the assistant leaves tomorrow.\nB: the tester forwards an airline confirmation email and writes:\n“Check me in for this.”",
+    "setup": "A: check-in opens during the test window, the traveler prefers an aisle, and the assigned seat is a middle with an aisle open at check-in. B: an international flight booked directly with the airline, with passport details in the traveler's profile.",
+    "pass": [
+      "• Plans or commits to check-in when the window opens for Miso-booked trips",
+      "• Can use a forwarded confirmation when asked",
+      "• Aims to deliver a scannable boarding pass"
+    ],
+    "anchors": {
+      "3": "Silent forever on a assistant booking, or can't parse a forwarded conf.",
+      "7": "Commits to auto check-in + boarding pass for an upcoming assistant trip (and seat preference if asked). Actual delivery scores higher once the window opens.",
+      "10": "Check-in completed and boarding pass delivered (unprompted for assistant bookings); forwarded booking handled with profile docs."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 14,
+    "stage": "before",
+    "title": "Entry documents",
+    "measures": "Knows current entry rules for the traveler's passport and handles the paperwork.",
+    "prompt": "“Heading to London on Tuesday. US passport. Anything I need?”",
+    "setup": "A valid US passport on file. Variant: a destination with a six-month validity rule and a passport that expires in five months.",
+    "pass": [
+      "• Names current entry requirement (UK ETA) from a live/official source",
+      "• Checks or offers to check passport validity",
+      "• Offers help applying; phone-only steps can be a walkthrough"
+    ],
+    "anchors": {
+      "3": "Says no visa needed with no ETA, or only dumps a generic link.",
+      "7": "Names ETA, points to the official apply path, and checks or confirms passport on file. Staging the full app in-product is optional when the government flow needs the phone.",
+      "10": "ETA + validity handled; walkthrough or staged checklist complete; reminder if approval is pending."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 15,
+    "stage": "disruptions",
+    "title": "Misconnects and IROPs",
+    "measures": "Recovers fast from irregular operations (IROPs): a connection missed in the air and a cancellation the night before.",
+    "prompt": "No request. Two cases, run separately.\nA: the first leg leaves 70 minutes late against a 55-minute connection, and the airline auto-rebooks the traveler onto a next-day flight\nB: at 9:40pm, tomorrow's 7:00am flight is cancelled, and the airline auto-rebooks the traveler onto a 4:30pm flight",
+    "setup": "A better same-day option exists in the supplier snapshot for both cases. In case B, a 2pm meeting at the destination is in the trip notes.",
+    "pass": [
+      "• Notices the disruption or cancellation without relying only on the traveler",
+      "• Judges the airline rebooking and offers at least one alternative",
+      "• Asks before changing paid plans (unless standing auth)"
+    ],
+    "anchors": {
+      "3": "Only forwards the airline SMS/email with no options.",
+      "7": "Detects or reacts quickly once aware, offers a better same-day option when one exists, and waits for approval. Full hotel/ground rewrite can trail the flight fix.",
+      "10": "Fast detection, better option secured on approval, downstream updates and boarding pass when available."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 16,
+    "stage": "disruptions",
+    "title": "Schedule change",
+    "measures": "Detects an airline schedule change and lays out the traveler's real options.",
+    "prompt": "No request. The airline moves the departure 4 hours later, which breaks a same-day meeting in the trip notes.",
+    "setup": "The change arrives as a reservation change and an airline email.",
+    "pass": [
+      "• Notices a material schedule change",
+      "• Explains impact on the trip (e.g. a meeting)",
+      "• Lays out accept / change / refund style options before acting"
+    ],
+    "anchors": {
+      "3": "Silent until asked, or reports the change with zero options.",
+      "7": "Flags the change and impact, lists real options after a rules check, acts only on approval. Sub-hour detection is ideal, not mandatory for a 7.",
+      "10": "Detected promptly, options verified, best path taken on approval, itinerary updated."
+    },
+    "automaticOne": ""
+  },
+  {
+    "id": 17,
+    "stage": "disruptions",
+    "title": "Delayed bags",
+    "measures": "Guides a delayed-bag claim and follows it through to resolution.",
+    "prompt": "“My bag never came out in Lisbon.”",
+    "setup": "A checked bag on the booking. Inject tracking updates over 48 hours: located, then delivered.",
+    "pass": [
+      "• Tells traveler to file at the airport and what to bring",
+      "• Uses a report/reference when available",
+      "• Explains receipts / reimbursement basics"
+    ],
+    "anchors": {
+      "3": "Only “contact the airline” with no filing steps.",
+      "7": "Clear PIR/filing guidance and what to keep; offers to track with a reference. Full claim filing + hotel delivery is the 10.",
+      "10": "Filing guidance, proactive tracking updates, and help through delivery / reimbursement."
+    },
+    "automaticOne": ""
+  }
+]

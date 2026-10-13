@@ -1,3 +1,4 @@
+import type { TravelSummary } from './travel-rollup';
 export type AgentStatus = 'confirmed' | 'stretch';
 
 export type CategoryGroup = 'core' | 'endorsed';
@@ -88,20 +89,24 @@ export interface Run {
 
 /** data/agents/<slug>/usage.json: derived from the reviewer's own iMessage thread with the assistant. */
 export interface Usage {
-  source: 'imessage';
+  source: 'imessage' | 'screen-recording';
+  approximate?: boolean;
+  sample_exchanges?: number;
+  sampling_interval_s?: number;
+  measurement_note?: string;
   exported_at: string;
   analyzed_at: string;
-  messages: number;
-  from_me: number;
-  from_agent: number;
+  messages: number | null;
+  from_me: number | null;
+  from_agent: number | null;
   days_active: number;
   first: string | null;
   last: string | null;
   median_reply_s: number | null;
   p90_reply_s: number | null;
-  unanswered: number;
-  proactive_messages: number;
-  episodes: number;
+  unanswered: number | null;
+  proactive_messages: number | null;
+  episodes: number | null;
 }
 
 export interface ExcerptMessage {
@@ -267,6 +272,7 @@ export interface Agent {
   access: Access | null;
   /** Derived per-category scores: latest run wins, then scores.json, then N/A pre-fill for stretch products. */
   scores: AgentScores;
+  travel: TravelSummary;
   /** Latest run per category, when one exists. */
   latestRuns: Record<string, Run>;
   /** Mean of every numeric score, null when none. */

@@ -1,3 +1,5 @@
+import { summarizeTravel, type TravelRun } from './travel-rollup';
+import travelProtocol from '../../data/travel-protocol-v1.json';
 import fs from 'fs';
 import { isRankingEligible } from '../../scripts/lib/contribution.mjs';
 import path from 'path';
@@ -28,14 +30,16 @@ const DATA_DIR = path.join(process.cwd(), 'data');
 const cache = new Map<string, unknown>();
 
 function readJson<T>(file: string): T | null {
-  if (cache.has(file)) return cache.get(file) as T | null;
+  // Files read through fs are not watched by Next; score edits must stay fresh in previews.
+  const useCache = process.env.NODE_ENV !== 'development';
+  if (useCache && cache.has(file)) return cache.get(file) as T | null;
   let value: T | null = null;
   try {
     value = JSON.parse(fs.readFileSync(file, 'utf-8')) as T;
   } catch {
     value = null;
   }
-  cache.set(file, value);
+  if (useCache) cache.set(file, value);
   return value;
 }
 
@@ -279,16 +283,27 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
     else scores[c.key] = null;
   }
 
+  const activeTravelDimensions = travelProtocol.map(t => t.id);
+  const travelResults = (readJson<TravelRun[]>(path.join(DATA_DIR, 'travel-results.json')) ?? [])
+    .filter(run => activeTravelDimensions.includes(run.dimension));
+  const travel = summarizeTravel(entry.slug, activeTravelDimensions, travelResults, scores.travel ?? null);
+  if (travel.score !== null) {
+    scores.travel = travel.score;
+    delete latestRuns.travel; // The legacy run is not evidence for the new aggregate.
+  }
+
   const numeric = (group: Category['group']) =>
     categories
       .filter(c => c.group === group && c.scored !== false)
       .map(c => scores[c.key])
       .filter((v): v is number => typeof v === 'number');
 
-  const lastTested = runs.length ? runs[runs.length - 1].date : null;
+  const dates = [...runs.map(r => r.date), ...Object.values(travel.runs).map(r => r.date)].sort();
+  const lastTested = dates.at(-1) ?? null;
   const latest = Object.values(latestRuns);
   return {
     scores,
+    travel,
     latestRuns,
     overall: mean([...numeric('core'), ...numeric('endorsed')]),
     core: mean(numeric('core')),

@@ -952,5 +952,43 @@
     "source": "x",
     "collected_at": "2026-10-12T14:00:00Z",
     "notes": "Oct 12: Claims OpenClaw/Hermes era over as ChatGPT closes functionality gap."
+  },
+  {
+    "id": "f13reddit01",
+    "agent": "openclaw",
+    "quote": "I've always been with OpenClaw from the beginning, but every single time I update OpenClaw to latest version, something breaks, always and then it takes days to fix those issues, broken memory, broken keys that were literally working before I upgraded it.",
+    "author": "u/No_Potential_5939",
+    "author_name": "No_Potential_5939",
+    "date": "2026-10-13",
+    "url": "https://www.reddit.com/r/openclaw/comments/1waqwug/everytime_i_update_openclaw_it_makes_me_wanna_try/",
+    "kind": "complaint",
+    "tags": [
+      "updates",
+      "breakage",
+      "stability",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "r/openclaw: Every update breaks something; memory and keys fail post-upgrade."
+  },
+  {
+    "id": "f13reddit02",
+    "agent": "openclaw",
+    "quote": "I tried to update last week and it broke everything yet again. I installed Hermes and haven't had any issues. It actually ported over all of my Cron jobs quite easily.",
+    "author": "u/openclaw_user_comment",
+    "author_name": "openclaw user (r/openclaw)",
+    "date": "2026-10-13",
+    "url": "https://www.reddit.com/r/openclaw/comments/1waqwug/everytime_i_update_openclaw_it_makes_me_wanna_try/#hermes-switch",
+    "kind": "comparison",
+    "tags": [
+      "updates",
+      "vs-hermes",
+      "migration",
+      "reddit"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-10-13T14:00:00Z",
+    "notes": "r/openclaw: Switched to Hermes after another broken update; Hermes ported cron jobs easily."
   }
 ]

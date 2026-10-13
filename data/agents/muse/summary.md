@@ -248,5 +248,15 @@ _Updated 2026-10-12 weekday vault scan (+12 rows)._
 - (2026-10-11) Chinmay Garg (Dev.to): Blanket 'allow always' consent is wrong shape for agent delegation.
 - (2026-10-09) Ali Tarik Sahin (Upstash): Pick Muse for errands; hosted, mostly free, US/Canada only.
 
-**Feedback rows:** 280 (as of 2026-10-12)
-**Kinds:** other=84, use-case=40, praise=18, complaint=49, comparison=15, bug=25, news=39
+_Updated 2026-10-13 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-12) Webb Wright (Gizmodo): Travel booking felt like a slow middleman; couldn't connect directly to Expedia.
+- (2026-10-12) Webb Wright (Gizmodo): Muse felt like a slow, superfluous middleman.
+- (2026-10-11) Vishwamoorthy Ramakrishnan (How-To Geek): Surfshark audit shows Muse collects 31 of 35 data types.
+- (2026-10-11) Vishwamoorthy Ramakrishnan (How-To Geek): Muse sent user's home address to buyer without approval on Marketplace.
+- (2026-10-08) Icarus (All Things Muse): Delta has no integration for third-party AI agents; blocking unauthorized automation.
+- (2026-10-08) Icarus (All Things Muse): Yelp blocks non-human traffic unless agent pays for data licensing.
+
+**Feedback rows:** 286 (as of 2026-10-13)
+**Kinds:** other=84, use-case=40, praise=18, complaint=55, comparison=15, bug=26, news=39

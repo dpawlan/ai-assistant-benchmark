@@ -11,6 +11,8 @@
 .container { width: min(100%, 1160px); margin: 0 auto; }
 .heading { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
 .heading h2 { margin: 0; font-size: clamp(28px, 3.2vw, 40px); line-height: 1.12; font-weight: 600; letter-spacing: -.04em; }
+.weighting { margin: 0 0 20px; color: #637080; font-size: 14px; line-height: 1.5; }
+.weighting a { color: #0875e1; text-underline-offset: 3px; }
 .mobileGraphLink { display: none; }
 .tableRegion { width: 100%; overflow-x: auto; overscroll-behavior-x: contain; border: 1px solid #dce5ef; border-radius: 16px; isolation: isolate; }
 .tableRegion:focus-visible { outline: 3px solid #0875e1; outline-offset: 4px; }

@@ -31,7 +31,7 @@ export default async function TravelDimensionPage({ params }: Props) {
     <div className="ag-top"><Link className="back" href="/benchmarks/travel/dimensions">← Travel dimensions</Link></div>
     <div className="page-head"><h1 className="page-title">{task.title}</h1><p className="page-sub">{task.measures}</p></div>
     <BenchmarkNav active="travel" section="dimensions" />
-    {task.id === 19 && <p className="ag-sub">We time each booking from flight selection to confirmation, including checkout, approvals and handoffs. Times are approximate; the speed score uses fixed time bands out of 10.</p>}
+    {task.id === 19 && <p className="ag-sub">We time each booking from flight selection to confirmation, including checkout, approvals and handoffs. Times are approximate; the speed score uses fixed time bands out of 10 and contributes 40% of the overall Travel score.</p>}
     <section className="shelf">
       {agents.map(a => {
         const run = a.travel.runs[task.id];

@@ -1,6 +1,7 @@
 import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 import Link from 'next/link';
 import { BOOKING_SPEED_BANDS } from '@/lib/travel-speed';
+import { TRAVEL_WEIGHTING_DESCRIPTION } from '@/lib/travel-rollup';
 import { BenchmarkNav } from '@/components/BenchmarkNav';
 import type { Metadata } from 'next';
 import { getAgents } from '@/lib/data';
@@ -21,15 +22,15 @@ export default function TravelDimensionsPage() {
     <section className="how" id="how">
       <h2 className="ag-h2">How scoring works</h2>
       <BenchmarkNav active="travel" section="scoring" />
-      <p className="ag-sub">We score each task from 1–10. The latest reviewed result counts; untested tasks stay blank. Travel overall is the average of tested dimensions.</p>
+      <p className="ag-sub">We score each task from 1–10. The latest reviewed result counts; untested tasks stay blank. {TRAVEL_WEIGHTING_DESCRIPTION} Untested dimensions are excluded and the remaining weights are normalized.</p>
       <div className="travel-assessment">
         <p>10 means the task completed without avoidable troubleshooting; 7 reflects recovery work or unresolved details; 3 means it was not completed. Routine choices, payment approval and secure sign-in are not penalties. Proactiveness and booking speed use their own criteria.</p>
-        <p>Rankings account for coverage by adding three neutral scores of 5: (total scores + 15) ÷ (tested dimensions + 3). Displayed averages are unchanged. Assistants need at least three scored dimensions to appear.</p>
+        <p>Rankings use the weighted score with a coverage adjustment for the number of dimensions tested. All five report assistants have all eight dimensions scored, so their order follows the weighted score. Assistants need at least three scored dimensions to appear.</p>
       </div>
       <div className="info-list">
         <div className="info-row"><span className="il">A tested score</span><span className="iv">1 – 10</span></div>
         <div className="info-row"><span className="il">Not tested yet</span><span className="iv empty">—</span></div>
-        <div className="info-row"><span className="il">Travel overall</span><span className="iv">Mean of tested dimensions</span></div>
+        <div className="info-row"><span className="il">Travel overall</span><span className="iv">Speed 40% · Other dimensions 60%</span></div>
         <div className="info-row"><span className="il">Protocol</span><span className="iv">travel-v1 · Draft</span></div>
       </div>
     </section>

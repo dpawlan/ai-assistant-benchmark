@@ -20,6 +20,22 @@ assert.equal(summarizeTravel('example', ids, [run(1, 10, { reviewed: false }), r
 for (const invalid of [run(1, 11), run(1, 8, { evidence_url: '' }), run(18), run(1, 8, { date: 'invalid' })]) assert.throws(() => summarizeTravel('example', ids, [invalid]));
 console.log('Travel rollup: empty, partial, complete, repeated, eligibility and invalid-result checks passed.');
 
+// Sensitivity and incomplete coverage: speed contributes 40%, not a per-agent bonus.
+const weightedFixture = (speed, other = 5) => activeIds.map(id => run(id, id === 19 ? speed : other));
+assert.equal(summarizeTravel('example', activeIds, weightedFixture(5)).score, 5);
+assert.equal(summarizeTravel('example', activeIds, weightedFixture(10)).score, 7);
+const oneBetterDimension = weightedFixture(5).map(r => r.dimension === 5 ? { ...r, score: 10 } : r);
+assert.equal(summarizeTravel('example', activeIds, oneBetterDimension).score, 5.4);
+assert.equal(summarizeTravel('example', activeIds, [run(19, 9), run(5, 3)]).score, 7.9);
+assert.equal(summarizeTravel('example', activeIds, [run(5, 7), run(6, 10)]).score, 8.5);
+assert.equal(summarizeTravel('example', activeIds, [run(19, 9)]).score, 9);
+// Identical test coverage keeps ranking monotonic with the unrounded weighted average.
+const sameRoundedA = { name: 'Zulu', travel: summarizeTravel('example', activeIds, weightedFixture(7.04)) };
+const sameRoundedB = { name: 'Alpha', travel: summarizeTravel('example', activeIds, weightedFixture(7)) };
+assert.equal(sameRoundedA.travel.score, sameRoundedB.travel.score);
+assert.ok(compareTravelRank(sameRoundedA, sameRoundedB) < 0);
+console.log('Travel weighting: 40% speed, remaining dimensions, missing-data normalization and unrounded ranking passed.');
+
 // Exercise the actual data loader with in-memory fixtures; never write test scores.
 const fs = require('node:fs');
 const path = require('node:path');
@@ -90,13 +106,13 @@ for (const id of [6, 7]) assert.equal(miso.scores[id], 10);
 assert.equal(miso.scores[13], undefined);
 assert.equal(miso.scores[8], 7);
 assert.equal(miso.scores[9], 10);
-assert.equal(miso.score, 9);
+assert.equal(miso.score, 9.3);
 const instinct = summarizeTravel('instinct', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
 assert.equal(instinct.scores[5], 7);
 assert.equal(instinct.scores[18], 7);
 assert.equal(instinct.scores[6], 10);
 assert.equal(instinct.scores[7], 10);
-assert.equal(instinct.score, 7.5);
+assert.equal(instinct.score, 8);
 for (const slug of ['instinct', 'grok-bot', 'miso', 'muse', 'dots']) assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).scores[7], slug === 'muse' ? 7 : 10);
 for (const result of actual) {
   assert.ok(result.notes);
@@ -126,7 +142,7 @@ assert.equal(one.travel.score, 10);
 assert.equal(travelRankingScore(summarizeTravel('example', ids, [run(1, 10), run(1, 10, { id: 'repeat', date: '2026-10-05' })])), 6.25);
 console.log('Travel ranking: coverage, quality, unscored placement, ties, repeated tests and unchanged averages passed.');
 
-for (const [slug, expected] of [['grok-bot', 8.3], ['dots', 8], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
+for (const [slug, expected] of [['grok-bot', 7.9], ['dots', 7.1], ['muse', 6.9]]) { assert.equal(summarizeTravel(slug, activeIds, actual.filter(r => activeIds.includes(r.dimension))).score, expected); }
 assert.equal(miso.scores[5], 7);
 const grok = summarizeTravel('grok-bot', activeIds, actual.filter(r => activeIds.includes(r.dimension)));
 assert.equal(grok.scores[5], 10);
@@ -142,3 +158,6 @@ assert.equal(soar.scores[5], 10);
 assert.equal(soar.scores[8], undefined);
 assert.equal(soar.scores[9], undefined);
 assert(actual.some(r => r.agent === 'soar' && r.dimension === 5 && r.date === '2026-10-06' && r.score === 3));
+
+const reportRanking = ['miso', 'grok-bot', 'dots', 'instinct', 'muse'].map(slug => ({ name: slug, travel: summarizeTravel(slug, activeIds, actual.filter(run => activeIds.includes(run.dimension))) })).sort(compareTravelRank);
+assert.deepEqual(reportRanking.map(agent => [agent.name, agent.travel.score]), [['miso', 9.3], ['instinct', 8], ['grok-bot', 7.9], ['dots', 7.1], ['muse', 6.9]]);

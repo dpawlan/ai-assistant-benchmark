@@ -54,7 +54,7 @@ export function TravelReportArticle({ assistants, author }: { assistants: Agent[
         <h2>Best overall: Miso</h2>
         <p>Miso excelled across the trip: fast execution, support for seats and changes, and human backup when needed. Its lack of Basic Economy is a major hindrance for budget travelers.</p>
         <h3>The fast Basic Economy alternative: Instinct</h3>
-        <p>Instinct combined Basic Economy access with a fast booking experience and confirmed paid seat upgrades. Its main limitation is flight changes: Duffel support was required. This makes it a practical alternative for speed and budget fares, while the reviewed overall ranking still places Grok Bot second.</p>
+        <p>Instinct combined Basic Economy access with a fast booking experience and confirmed paid seat upgrades. Its main limitation is flight changes: Duffel support was required. Instinct ranks second under the benchmark’s weighting: booking speed counts for 40%, and the other seven dimensions share 60% equally.</p>
         <p>Grok Bot could complete every task but needed browser help and was slow and verbose. Dots was capable but too slow for practical use in this test. Muse’s planning was strong, but its seat-upgrade and rescheduling limitations weakened the overall result.</p>
       </section>
     </article>

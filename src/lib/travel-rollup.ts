@@ -19,7 +19,23 @@ export interface TravelSummary {
   legacyScore: number | 'n/a' | null;
 }
 
-/** Latest reviewed, evidence-backed run per dimension. Untested dimensions do not affect the average. */
+export const TRAVEL_WEIGHTING_DESCRIPTION = 'Booking speed counts for 40%; the other seven dimensions share 60% equally.';
+
+/** Relative weights: 14 / (14 + 7 × 3) = 40% for booking speed.
+ * Missing dimensions are excluded and the observed weights are normalized.
+ */
+function weightedTravelScore(scores: Record<number, number>): number | null {
+  let weightedTotal = 0;
+  let totalWeight = 0;
+  for (const [dimension, score] of Object.entries(scores)) {
+    const weight = Number(dimension) === 19 ? 14 : 3;
+    weightedTotal += score * weight;
+    totalWeight += weight;
+  }
+  return totalWeight ? weightedTotal / totalWeight : null;
+}
+
+/** Latest reviewed evidence per dimension, combined with the published Travel weights. */
 export function summarizeTravel(slug: string, dimensions: number[], runs: TravelRun[], legacyScore: TravelSummary['legacyScore'] = null): TravelSummary {
   const latest: Record<number, TravelRun> = {};
   for (const run of runs) {
@@ -32,16 +48,18 @@ export function summarizeTravel(slug: string, dimensions: number[], runs: Travel
   }
   const scores = Object.fromEntries(Object.entries(latest).map(([id, run]) => [id, run.score]));
   const completed = Object.keys(scores).length;
-  const score = completed > 0
-    ? Math.round(Object.values(scores).reduce((a, b) => a + b, 0) / completed * 10) / 10
-    : null;
+  const weighted = weightedTravelScore(scores);
+  const score = weighted === null ? null : Math.round(weighted * 10) / 10;
   return { scores, runs: latest, completed, total: dimensions.length, score, legacyScore };
 }
 
-/** Ranking only: three prior results at 5/10; preserve the displayed average. */
+/** Ranking only: shrink the unrounded weighted mean toward 5 using three prior results.
+ * Coverage counts distinct tested dimensions; extra speed weight is not extra evidence.
+ */
 export function travelRankingScore(summary: Pick<TravelSummary, 'scores'>): number | null {
-  const scores = Object.values(summary.scores);
-  return scores.length ? (scores.reduce((sum, score) => sum + score, 0) + 15) / (scores.length + 3) : null;
+  const mean = weightedTravelScore(summary.scores);
+  const completed = Object.keys(summary.scores).length;
+  return mean === null ? null : (mean * completed + 15) / (completed + 3);
 }
 
 export function compareTravelRank(

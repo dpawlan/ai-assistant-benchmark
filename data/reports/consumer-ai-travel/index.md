@@ -3,7 +3,7 @@ title: Travel, tested — the AI flight-booking recap
 question: Can AI handle the whole trip in under ten minutes?
 dimension: travel
 published: 2026-10-07
-updated: 2026-10-12
+updated: 2026-10-13
 author: david-pawlan
 preview: true
 cover_tint: #eef4fb
@@ -77,6 +77,7 @@ Five assistants. Seven travel questions. Real bookings.
 ## How we tested
 
 - Latest reviewed scores: five assistants, eight dimensions.
+- Overall score: booking speed counts for 40%; the other seven dimensions share 60% equally. Individual dimension scores are unchanged.
 - Search-to-checkout classification: reviewer’s full-flow assessment.
 - Recorded selection-to-confirmation timings have a different scope.
 - Routes, fare conditions and traveler assistance varied.

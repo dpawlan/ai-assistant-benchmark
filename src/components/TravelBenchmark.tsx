@@ -4,7 +4,7 @@ import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 
 import Link from 'next/link';
 import { useState } from 'react';
-import { compareTravelRank, TRAVEL_WEIGHTING_DESCRIPTION } from '@/lib/travel-rollup';
+import { compareTravelRank } from '@/lib/travel-rollup';
 import { AgentIcon } from './AgentIcon';
 import { BenchmarkNav, CategoryDescription } from './BenchmarkNav';
 import { OpinionCell } from './OpinionCell';
@@ -35,9 +35,8 @@ export function TravelBenchmark({ agents, grid = false }: { agents: TravelAgent[
         </div>
       </div>
       <CategoryDescription category="travel" />
-      {!opinion && <p className="ag-sub">{TRAVEL_WEIGHTING_DESCRIPTION} <Link href="/benchmarks/travel/dimensions#how">Scoring methodology →</Link></p>}
       {grid ? <div className="matrix-wrap" role="region" aria-label="Travel scores by dimension" tabIndex={0}>
-        <table className="matrix travel-matrix"><colgroup><col className="c-name" /><col className="c-agg" />{!opinion && <col className="travel-time-col" />}{protocol.filter(t => t.id !== 19).map(t => <col key={t.id} className="travel-dimension-col" />)}</colgroup><thead><tr><th scope="col" className="mx-name">Assistant</th><th scope="col">Travel</th>{!opinion && <th scope="col" className="travel-time-heading" title="Selected-flight booking request to confirmation, including all checkout questions, data entry, payment and approvals. Approximate; latest tested booking attempt. Booking speed contributes 40% of the Travel score; the other seven dimensions share 60% equally."><Link href="/benchmarks/travel/dimensions/19">Booking time</Link></th>}{protocol.filter(t => t.id !== 19).map(t => <th scope="col" key={t.id}><Link href={`/benchmarks/travel/dimensions/${t.id}`}>{t.title}</Link></th>)}</tr></thead>
+        <table className="matrix travel-matrix"><colgroup><col className="c-name" /><col className="c-agg" />{!opinion && <col className="travel-time-col" />}{protocol.filter(t => t.id !== 19).map(t => <col key={t.id} className="travel-dimension-col" />)}</colgroup><thead><tr><th scope="col" className="mx-name">Assistant</th><th scope="col">Travel</th>{!opinion && <th scope="col" className="travel-time-heading" title="Selected-flight booking request to confirmation, including all checkout questions, data entry, payment and approvals. Approximate; latest tested booking attempt. Booking speed has 40% of the Travel score; the other seven dimensions share 60%."><Link href="/benchmarks/travel/dimensions/19">Booking time</Link></th>}{protocol.filter(t => t.id !== 19).map(t => <th scope="col" key={t.id}><Link href={`/benchmarks/travel/dimensions/${t.id}`}>{t.title}</Link></th>)}</tr></thead>
           <tbody>{shown.map(a => <tr key={a.slug}><th scope="row" className="mx-name"><Link className="mx-agent" href={`/agents/${a.slug}`}><AgentIcon name={a.name} icon={a.icon} size={28} className="mx-icon" /><span className="mx-nm">{a.name}</span></Link></th><td>{opinion ? <OpinionCell stat={a.travelOpinion} /> : <ScoreCell value={a.travel.score} aggregate />}</td>{!opinion && <td><TravelCompletionTime agent={a.slug} /></td>}{protocol.filter(t => t.id !== 19).map(t => <td key={t.id}><Link href={`/benchmarks/travel/dimensions/${t.id}#${a.slug}`}>{opinion ? <OpinionCell stat={undefined} compact /> : <>{a.travel.scores[t.id] !== undefined ? <ScoreCell value={a.travel.scores[t.id]} /> : <span className="travel-test-status">{a.slug === 'soar' && t.id === 6 ? 'Unverified' : a.slug === 'soar' && [8, 9].includes(t.id) ? 'Not reached' : a.slug === 'muse' && t.id === 5 ? 'Blocked' : 'Not tested'}</span>}</>}</Link></td>)}</tr>)}</tbody>
         </table>
       </div> : <>

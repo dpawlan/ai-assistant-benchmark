@@ -36,19 +36,17 @@
   font-weight: 600;
   line-height: var(--tile-height);
   text-align: center;
-  perspective: 180px;
 }
 
+.tile::before { content: attr(data-character); position: absolute; inset: 0; }
 .tile::after { content: ''; position: absolute; z-index: 4; top: 50%; left: 0; right: 0; border-top: 1px solid #090e1480; pointer-events: none; }
-.finalCharacter { position: absolute; inset: 0; }
-.flap { position: absolute; z-index: 3; inset: 0 0 50%; transform-origin: center bottom; transform-style: preserve-3d; transform: rotateX(calc(var(--flap-progress) * -540deg)); }
-.front, .back { position: absolute; inset: 0; display: block; background: #20252b; backface-visibility: hidden; overflow: hidden; border-radius: 1px; }
-.front > span, .back > span, .oldLower > span { position: absolute; left: 0; right: 0; height: var(--tile-height); }
-.front > span { top: 0; }
-.back { transform: rotateX(180deg); }
-.back > span { top: calc(var(--tile-height) * -.5); }
+.flap { position: absolute; z-index: 3; inset: 0; perspective: 180px; }
+/* Both faces rotate around the same hinge without an intermediate 3D layer. */
+.flap::before, .flap::after { position: absolute; left: 0; right: 0; display: block; background: #20252b; backface-visibility: hidden; overflow: hidden; border-radius: 1px; }
+.flap::before { content: '·'; top: 0; height: 50%; transform-origin: center bottom; transform: rotateX(calc(var(--flap-progress) * -540deg)); }
+.flap::after { content: attr(data-character); bottom: 0; height: 50%; line-height: 0; transform-origin: center top; transform: rotateX(calc(180deg - var(--flap-progress) * 540deg)); }
 .oldLower { position: absolute; z-index: 2; inset: 50% 0 0; overflow: hidden; background: #20252b; opacity: clamp(0, calc((.85 - var(--flap-progress)) * 10), 1); }
-.oldLower > span { top: calc(var(--tile-height) * -.5); }
+.oldLower::before { content: '·'; position: absolute; inset: 0; line-height: 0; }
 
 .rowMethods { display: flex; justify-content: flex-end; align-items: center; gap: 8px; color: #b5d8ff; }
 .rowMethods svg { width: 24px; height: 24px; flex-shrink: 0; }

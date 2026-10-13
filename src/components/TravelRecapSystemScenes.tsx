@@ -84,7 +84,7 @@ export function ChangeScene({ assistants }: SceneProps) {
           <Link className={styles.changeFlight} data-completed={trip.changed} href={`/benchmarks/travel/dimensions/9#${assistant.slug}`} aria-label={`${assistant.name}: ${trip.changed ? 'date changed' : 'date not changed'}. ${trip.change}. View change evidence.`}>
             <span className={styles.changeIdentity}><AssistantIdentity assistant={assistant} /></span>
             <span className={styles.date} aria-label={`Original date: Friday, October ${trip.oldDay}`}><span>Oct</span><strong>{trip.oldDay}</strong></span>
-            <span className={styles.changePath} aria-hidden="true"><span className={styles.routeRail} /><i>{trip.changed ? '→' : '×'}</i><span className={styles.planeMarker}><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 10.5a1.5 1.5 0 0 1 0 3h-7.5L8 21H5.5l3.2-7.5H4l-2 3H.5l1.2-4.5L.5 7.5H2l2 3h4.7L5.5 3H8l5.5 7.5H21Z" /></svg></span></span>
+            <span className={styles.changePath} aria-hidden="true"><span className={styles.routeRail} /><i>{trip.changed ? '→' : '×'}</i><span className={styles.planeCarrier}><span className={styles.planeMarker}><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 10.5a1.5 1.5 0 0 1 0 3h-7.5L8 21H5.5l3.2-7.5H4l-2 3H.5l1.2-4.5L.5 7.5H2l2 3h4.7L5.5 3H8l5.5 7.5H21Z" /></svg></span></span></span>
             <span className={`${styles.date} ${styles.newDate}`} aria-label={`${trip.changed ? 'Confirmed' : 'Requested, not completed'} date: Saturday, October ${trip.newDay}`}><span>Oct</span><strong>{trip.newDay}</strong></span>
             <span className={styles.changeResult}><strong>{trip.changed ? 'Moved' : 'Not moved'}</strong><span>{trip.change}</span></span>
           </Link>

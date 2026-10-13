@@ -25,7 +25,7 @@ export function TravelCompletionTime({ agent, dimension = 5, round, detail = fal
   return <span className={detail ? undefined : 'travel-completion-value'} title={note}>
     <span className="travel-time-score">
       <span>{detail ? `Time to complete: ${label}` : label}{priorSetup && <sup aria-label="Prior onboarding excluded">*</sup>}</span>
-      {score !== null && <span aria-label={`Booking speed: ${score} out of 10`} title={`Booking speed: ${score}/10 · provisional fixed thresholds · 40% of the overall Travel score`}><ScoreCell value={score} /></span>}
+      {score !== null && <span aria-label={`Booking speed: ${score} out of 10`} title={`Booking speed: ${score}/10 · provisional fixed thresholds · 40% of the Travel score`}><ScoreCell value={score} /></span>}
     </span>
     {timing?.status === 'confirmation_unresolved' && <span className="run-line">First confirmation; later contradicted</span>}
     {detail && timing && <span className="run-line">{note}</span>}

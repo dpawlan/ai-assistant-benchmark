@@ -19,23 +19,27 @@ export interface TravelSummary {
   legacyScore: number | 'n/a' | null;
 }
 
-export const TRAVEL_WEIGHTING_DESCRIPTION = 'Booking speed counts for 40%; the other seven dimensions share 60% equally.';
+// Relative weights avoid accumulation error: 14/35 = 40%, and 3/35 = 60% / 7.
+const BOOKING_SPEED_WEIGHT = 14;
+const OTHER_DIMENSION_WEIGHT = 3;
 
-/** Relative weights: 14 / (14 + 7 × 3) = 40% for booking speed.
- * Missing dimensions are excluded and the observed weights are normalized.
+/** Eight-dimension Travel policy: speed gets 40%; the other seven share 60%.
+ * Missing dimensions are excluded and the observed weights are renormalized.
  */
-function weightedTravelScore(scores: Record<number, number>): number | null {
+function weightedTravelAverage(scores: Record<number, number>): number | null {
+  const entries = Object.entries(scores);
+  if (!entries.length) return null;
   let weightedTotal = 0;
-  let totalWeight = 0;
-  for (const [dimension, score] of Object.entries(scores)) {
-    const weight = Number(dimension) === 19 ? 14 : 3;
+  let testedWeight = 0;
+  for (const [dimension, score] of entries) {
+    const weight = Number(dimension) === 19 ? BOOKING_SPEED_WEIGHT : OTHER_DIMENSION_WEIGHT;
     weightedTotal += score * weight;
-    totalWeight += weight;
+    testedWeight += weight;
   }
-  return totalWeight ? weightedTotal / totalWeight : null;
+  return weightedTotal / testedWeight;
 }
 
-/** Latest reviewed evidence per dimension, combined with the published Travel weights. */
+/** Latest reviewed, evidence-backed run per dimension. Untested dimensions stay blank. */
 export function summarizeTravel(slug: string, dimensions: number[], runs: TravelRun[], legacyScore: TravelSummary['legacyScore'] = null): TravelSummary {
   const latest: Record<number, TravelRun> = {};
   for (const run of runs) {
@@ -48,18 +52,16 @@ export function summarizeTravel(slug: string, dimensions: number[], runs: Travel
   }
   const scores = Object.fromEntries(Object.entries(latest).map(([id, run]) => [id, run.score]));
   const completed = Object.keys(scores).length;
-  const weighted = weightedTravelScore(scores);
-  const score = weighted === null ? null : Math.round(weighted * 10) / 10;
+  const weightedAverage = weightedTravelAverage(scores);
+  const score = weightedAverage === null ? null : Math.round(weightedAverage * 10) / 10;
   return { scores, runs: latest, completed, total: dimensions.length, score, legacyScore };
 }
 
-/** Ranking only: shrink the unrounded weighted mean toward 5 using three prior results.
- * Coverage counts distinct tested dimensions; extra speed weight is not extra evidence.
- */
+/** Ranking only: regularize the unrounded weighted average with three prior results at 5/10. */
 export function travelRankingScore(summary: Pick<TravelSummary, 'scores'>): number | null {
-  const mean = weightedTravelScore(summary.scores);
+  const average = weightedTravelAverage(summary.scores);
   const completed = Object.keys(summary.scores).length;
-  return mean === null ? null : (mean * completed + 15) / (completed + 3);
+  return average === null ? null : (average * completed + 15) / (completed + 3);
 }
 
 export function compareTravelRank(

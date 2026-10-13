@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { AgentIcon } from './AgentIcon';
-import { compareTravelRank, TRAVEL_WEIGHTING_DESCRIPTION } from '@/lib/travel-rollup';
+import { compareTravelRank } from '@/lib/travel-rollup';
 import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 import type { Agent } from '@/lib/types';
 import protocol from '../../data/travel-protocol-v1.json';
@@ -109,7 +109,6 @@ export function TravelRecapComparison({ assistants }: { assistants: Agent[] }) {
       <div className={styles.heading}>
         <h2 id="comparison-title" tabIndex={-1}>All five, side by side.</h2>
       </div>
-      <p className={styles.weighting}>{TRAVEL_WEIGHTING_DESCRIPTION} <Link href="/benchmarks/travel/dimensions#how">Scoring methodology →</Link></p>
       <div className={styles.tableRegion}>
         <table className={styles.table}>
           <caption className={styles.visuallyHidden}>Five assistants ranked by the reviewed travel benchmark, with observed trip results, verified information requests and all eight dimension scores.</caption>
@@ -125,9 +124,9 @@ export function TravelRecapComparison({ assistants }: { assistants: Agent[] }) {
             </th>)}
           </tr></thead>
           <tbody className={styles.overall}><tr>
-            <th scope="row" className={styles.rowLabel}><span>Overall weighted score</span><span className={styles.labelNote}>Out of 10</span></th>
+            <th scope="row" className={styles.rowLabel}><span>Overall reviewed score</span><span className={styles.labelNote}>Out of 10 · 40% booking speed</span></th>
             {ranked.map(assistant => <td key={assistant.slug} data-winner={assistant.slug === 'miso'}>
-              <Link href={`/agents/${assistant.slug}`} className={styles.overallScore} aria-label={`${assistant.name}: overall weighted score ${assistant.travel.score?.toFixed(1) ?? 'not reviewed'} out of 10`}>
+              <Link href={`/agents/${assistant.slug}`} className={styles.overallScore} aria-label={`${assistant.name}: overall reviewed score ${assistant.travel.score?.toFixed(1) ?? 'not reviewed'} out of 10`}>
                 {assistant.travel.score?.toFixed(1) ?? '—'}
               </Link>
             </td>)}

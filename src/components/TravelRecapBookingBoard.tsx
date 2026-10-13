@@ -32,13 +32,10 @@ function FlapWord({ text, width, row, status = false }: { text: string; width: n
   return <span className={`${styles.word} ${status ? styles.status : ''}`} aria-hidden="true">
     {text.toUpperCase().padEnd(width, ' ').split('').map((character, index) => {
       const step = .04 + row * .045 + index * .009 + (status ? .11 : 0);
-      return <span className={styles.tile} key={index} style={{ '--flap-step': step } as CSSProperties}>
-        <span className={styles.finalCharacter}>{character === ' ' ? '\u00a0' : character}</span>
-        <span className={styles.oldLower}><span>·</span></span>
-        <span className={styles.flap}>
-          <span className={styles.front}><span>·</span></span>
-          <span className={styles.back}><span>{character === ' ' ? '\u00a0' : character}</span></span>
-        </span>
+      const glyph = character === ' ' ? '\u00a0' : character;
+      return <span className={styles.tile} key={index} data-character={glyph} style={{ '--flap-step': step } as CSSProperties}>
+        <span className={styles.oldLower} />
+        <span className={styles.flap} data-character={glyph} />
       </span>;
     })}
   </span>;

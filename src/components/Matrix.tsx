@@ -151,7 +151,7 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
     return (
       <tr key={agent.slug}>
         <th scope="row" className="mx-name">
-          <Link href={`/agents/${agent.slug}`} className="mx-agent">
+          <Link href={`/agents/${agent.slug}?benchmark=general`} className="mx-agent">
             <AgentIcon name={agent.name} icon={agent.icon} size={28} className="mx-icon" />
             <span className="mx-nmwrap">
               <span className="mx-nm">{agent.name}</span>

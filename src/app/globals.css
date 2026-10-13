@@ -4246,3 +4246,21 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
   .tb-brand, .tb-link, .tb-cta { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; box-sizing: border-box; }
   .tb-brand { justify-content: flex-start; }
 }
+
+/* Profile benchmarks share one compact score area. */
+.ag-score-tabs { display: inline-flex; margin-bottom: 22px; }
+.ag-score-tabs button { min-width: 90px; min-height: 40px; }
+.ag-score-summary { padding-right: 26px; display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+.ag-score-summary .ag-sub { margin: 4px 0 0; }
+.ag-score-summary > .sc { min-width: 52px; height: 40px; font-size: 21px; }
+.ag-dimension-list { border-top: 1px solid var(--hair); }
+.ag-dimension-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 55px; padding: 10px 0; border-bottom: 1px solid var(--hair); font-size: 15px; line-height: 1.4; text-decoration: none; }
+.ag-dimension-row:hover > :first-child { color: var(--blue); }
+.ag-dimension-value { display: inline-flex; align-items: center; justify-content: flex-end; gap: 14px; flex: none; }
+.ag-evidence-arrow { color: var(--sec); font-size: 15px; }
+.ag-score-empty, .ag-score-foot { color: var(--sec); font-size: 12px; }
+.ag-score-foot { margin: 12px 0 0; }
+.ag-score-foot a { color: var(--blue); }
+.ag-scores[id] { scroll-margin-top: 90px; }
+.ag-score-tabs button:focus-visible, .ag-dimension-row:focus-visible, .ag-scores [role="tabpanel"]:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
+@media (max-width: 599px) { .ag-score-summary { padding-right: 20px; } .ag-scores[id] { scroll-margin-top: 120px; } .ag-dimension-row { font-size: 14px; gap: 10px; } .ag-dimension-value { gap: 8px; } }

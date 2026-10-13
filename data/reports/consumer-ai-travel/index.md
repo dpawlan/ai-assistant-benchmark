@@ -1,5 +1,5 @@
 ---
-title: Travel, tested — the AI flight-booking recap
+title: "AI Assistant Consumer Travel Report: October 2026"
 question: Can AI handle the whole trip in under ten minutes?
 dimension: travel
 published: 2026-10-07
@@ -16,7 +16,7 @@ picks:
   - muse | Planning strength | Strong planning, with no confirmed seat or completed rebooking.
 ---
 
-Five assistants. Seven travel questions. Real bookings.
+We tested real bookings across five AI assistants to see which handle flights, changes, seat upgrades, and cancellations best.
 
 ## The standard
 

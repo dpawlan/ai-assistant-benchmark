@@ -116,7 +116,7 @@ export function TravelRecapComparison({ assistants }: { assistants: Agent[] }) {
           <thead><tr>
             <th scope="col" className={styles.rowLabel}>Travel benchmark</th>
             {ranked.map((assistant, index) => <th scope="col" key={assistant.slug} data-winner={assistant.slug === 'miso'}>
-              <Link className={styles.assistant} href={`/agents/${assistant.slug}`} aria-label={`${assistant.name}, travel rank ${index + 1}. View assistant.`}>
+              <Link className={styles.assistant} href={`/agents/${assistant.slug}?benchmark=travel`} aria-label={`${assistant.name}, travel rank ${index + 1}. View assistant.`}>
                 <span className={styles.rank}>#{index + 1}</span>
                 <AgentIcon name={assistant.name} icon={assistant.icon} size={36} className={styles.logo} />
                 <span className={styles.assistantName}>{assistant.name}</span>
@@ -126,7 +126,7 @@ export function TravelRecapComparison({ assistants }: { assistants: Agent[] }) {
           <tbody className={styles.overall}><tr>
             <th scope="row" className={styles.rowLabel}><span>Overall reviewed score</span><span className={styles.labelNote}>Out of 10 · 40% booking speed</span></th>
             {ranked.map(assistant => <td key={assistant.slug} data-winner={assistant.slug === 'miso'}>
-              <Link href={`/agents/${assistant.slug}`} className={styles.overallScore} aria-label={`${assistant.name}: overall reviewed score ${assistant.travel.score?.toFixed(1) ?? 'not reviewed'} out of 10`}>
+              <Link href={`/agents/${assistant.slug}?benchmark=travel`} className={styles.overallScore} aria-label={`${assistant.name}: overall reviewed score ${assistant.travel.score?.toFixed(1) ?? 'not reviewed'} out of 10`}>
                 {assistant.travel.score?.toFixed(1) ?? '—'}
               </Link>
             </td>)}

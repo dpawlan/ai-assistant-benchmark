@@ -45,7 +45,7 @@
 .routeRail { height:1px; flex:1; background:var(--scene-blue); transform-origin:left; }
 .changePath > i { font-size:22px; font-style:normal; }
 .planeMarker { position:absolute; top:50%; left:calc(100% - 32px); width:18px; height:18px; transform:translateY(-50%); }
-.planeMarker svg { display:block; width:100%; height:100%; }
+.planeMarker svg { display:block; width:18px; height:18px; }
 .changeResult { display:flex; flex-direction:column; gap:4px; }
 .changeResult > strong { color:var(--scene-blue); font-size:15px; font-weight:550; }
 .changeResult > span { font-size:12px; color:var(--scene-muted); line-height:1.35; }
@@ -66,12 +66,12 @@
 .animated:nth-child(5) { --scene-delay:.14s; }
 :global([data-story-enhanced='true']) .methodTicket { animation:ticketsSpread 1s linear both paused; animation-delay:calc(-1s * var(--scene-progress,1)); }
 :global([data-story-enhanced='true']) .routeRail { animation:routeDrawn 1s linear both paused; animation-delay:calc(var(--scene-delay) - 1s * var(--scene-progress,1)); }
-:global([data-story-enhanced='true']) .planeMarker { animation:flightCruise 5s linear infinite both paused; animation-delay:var(--flight-phase,0s); }
-:global([data-story-enhanced='true']) .changeFlight[data-completed='false'] .planeMarker { animation-name:flightHeld; animation-duration:3.4s; animation-timing-function:ease-in-out; }
+:global([data-story-enhanced='true']) .planeMarker { left:0; width:max(0px,calc(100% - 32px)); animation:flightCruise 5s linear infinite both paused; animation-delay:var(--flight-phase,0s); }
+:global([data-story-enhanced='true']) .changeFlight[data-completed='false'] .planeMarker { left:max(0px,calc(55% - 26px)); width:18px; animation-name:flightHeld; animation-duration:3.4s; animation-timing-function:ease-in-out; }
 :global([data-story-enhanced='true']) :global([data-scene-active='true']) .planeMarker { animation-play-state:running; }
 @keyframes ticketsSpread { 0% { transform:translate(var(--stack-x),var(--stack-y)) rotate(var(--stack-tilt)); } 35%,80% { transform:translateY(var(--ticket-rise)) rotate(var(--ticket-tilt)); } 100% { transform:translate(var(--stack-x),var(--stack-y)) rotate(0) scale(.82,.65); } }
 @keyframes routeDrawn { 0% { transform:scaleX(.1); } 50%,100% { transform:scaleX(1); } }
-@keyframes flightCruise { 0% { left:0; opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { left:calc(100% - 32px); opacity:0; } }
+@keyframes flightCruise { 0% { transform:translate(0,-50%); opacity:0; } 8% { opacity:1; } 88% { opacity:1; } 100% { transform:translate(100%,-50%); opacity:0; } }
 @keyframes flightHeld { 0%,100% { transform:translateY(-50%) translateX(-3px); } 50% { transform:translateY(-50%) translateX(0); } }
 
 @media(max-width:1099px) {

@@ -101,11 +101,13 @@
 .recap[data-story-enhanced='true'] .chapterAnchors { display: block; }
 .recap[data-story-enhanced='true'] .chapterAnchor { position: absolute; width: 1px; height: 1px; scroll-margin-top: calc(var(--recap-header-height) + var(--recap-nav-height)); pointer-events: none; }
 .recap[data-story-enhanced='true'] .storyStage { position: sticky; top: calc(var(--recap-header-height) + var(--recap-nav-height)); height: var(--story-height); overflow: hidden; overflow: clip; isolation: isolate; background: #f4f8fc; }
-.recap[data-story-enhanced='true'] .scene { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px 32px; border: 0; opacity: var(--scene-opacity, 0); transform: translateY(var(--scene-shift, 0px)) scale(var(--scene-scale, 1)); visibility: hidden; pointer-events: none; }
-.recap[data-story-enhanced='true'] .scene[data-scene-visible='true'] { visibility: visible; will-change: opacity, transform; }
+.recap[data-story-enhanced='true'] .scene { position: absolute; inset: 0; display: grid; place-items: center; padding: 24px 32px; border: 0; opacity: 0; visibility: hidden; pointer-events: none; }
+.recap[data-story-enhanced='true'] .scene[data-scene-visible='true'] { visibility: visible; }
+/* Prepare just the incoming/outgoing scene, not nine full-screen GPU layers. */
+.recap[data-story-enhanced='true'] .scene[data-scene-nearby='true'] { will-change: opacity, transform; }
 .recap[data-story-enhanced='true'] .scene[data-scene-active='true'] { pointer-events: auto; }
 .recap[data-story-enhanced='true'] .sceneInner { width: 100%; transform: scale(var(--scene-fit, 1)); transform-origin: center center; }
-.recap[data-story-enhanced='true'] .sceneHeading { display: flex; flex-direction: column; gap: 10px; text-align: center; margin-bottom: 28px; opacity: var(--scene-title-opacity, 1); transform: translateY(var(--scene-title-shift, 0px)); }
+.recap[data-story-enhanced='true'] .sceneHeading { display: flex; flex-direction: column; gap: 10px; text-align: center; margin-bottom: 28px; }
 .recap[data-story-enhanced='true'] .sceneHeading h2 { max-width: 100%; font-size: clamp(28px, 2.7vw, 36px); }
 .recap[data-story-enhanced='true'] .answer { font-size: 19px; line-height: 1.3; }
 .recap[data-story-enhanced='true'] .answer > span { font-size: 16px; }

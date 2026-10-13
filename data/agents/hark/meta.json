@@ -1,0 +1,24 @@
+{
+  "slug": "hark",
+  "name": "Hark",
+  "site": "https://hark.com/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Hark Labs' personal assistant in a browser and iOS and Android apps: books tables and flights, orders food, handles email and expenses, compares insurance quotes and hands off research and site-building to its own agents. Requested via the form (issue #483).",
+  "public_signal": "low",
+  "tagline": "Whatever you need, let Hark handle it",
+  "icon": "/logos/hark.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free · Pro² $20/mo (2× usage) · Pro³ $100/mo (10× usage); all features on every plan",
+    "regions": "Not stated",
+    "channels": [
+      "Web app",
+      "iOS app",
+      "Android app"
+    ],
+    "checked": "2026-10-12"
+  }
+}

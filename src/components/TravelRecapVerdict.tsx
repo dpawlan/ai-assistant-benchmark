@@ -45,7 +45,7 @@ export function TravelRecapVerdict({ assistants }: { assistants: Agent[] }) {
         return <li className={styles.pass} key={pick.slug} data-agent={pick.slug}>
           <div className={styles.passBody}>
             <div className={styles.passHeading}>
-              <Link href={`/agents/${pick.slug}`} className={styles.identity}><AgentIcon name={assistant.name} icon={assistant.icon} size={40} className={styles.logo} /><strong>{assistant.name}</strong></Link>
+              <Link href={`/agents/${pick.slug}?benchmark=travel`} className={styles.identity}><AgentIcon name={assistant.name} icon={assistant.icon} size={40} className={styles.logo} /><strong>{assistant.name}</strong></Link>
               <span className={styles.reason}>{pick.reason}</span>
             </div>
             <CapabilityStrip canChange={pick.canChange} />

@@ -1,71 +1,34 @@
 import Link from 'next/link';
-import { formatDate } from '@/lib/data';
-import { AgentScores, Category, Run } from '@/lib/types';
-import type { TravelSummary } from '@/lib/travel-rollup';
-import { TravelScore } from './TravelScore';
+import type { AgentScores, Category, Run } from '@/lib/types';
 import { ScoreCell } from './ScoreCell';
 
 interface ScoreRowsProps {
+  slug: string;
   scores: AgentScores;
-  travel?: TravelSummary;
   runs: Record<string, Run>;
   categories: Category[];
-  /** Number of public quotes attached to each category, for the "n quotes" link. */
-  quoteCounts?: Record<string, number>;
+  overall: number | null;
+  testedCount: number;
+  hasTravelBreakdown: boolean;
 }
 
-const OUTCOME: Record<string, string> = { pass: 'Pass', partial: 'Partial', fail: 'Fail', 'n/a': 'N/A' };
-
-/** The 15 category rows. Scored rows show the run behind the number; rows with quotes link to them. */
-export function ScoreRows({ scores, travel, runs, categories, quoteCounts = {} }: ScoreRowsProps) {
-  return (
-    <div>
-      {[{ items: categories }].map(group => (
-        <div key="all">
-          <div className="info-list" style={{ marginTop: 8 }}>
-            {group.items.map(category => {
-              const run = runs[category.key];
-              const n = quoteCounts[category.key] ?? 0;
-              const hasLine = run || n > 0;
-              return (
-                <div key={category.key} className={`info-row${hasLine ? ' has-run' : ''}`}>
-                  <span className="il">
-                    <Link href={`/dimensions/${category.key}`} className="il-link">
-                      {category.label}
-                    </Link>
-                    {hasLine && (
-                      <span className="run-line">
-                        {run && (
-                          <>
-                            {OUTCOME[run.outcome] ?? run.outcome} · {run.protocol === 'task' ? 'test' : 'observed'} · {formatDate(run.date, 'short')}
-                            {run.tester ? ` · by ${run.tester}` : ''}
-                            {run.notes ? ` · ${run.notes}` : ''}
-                            {run.evidence_url && (
-                              <>
-                                {' · '}
-                                {run.evidence_url.startsWith('/') ? (
-                                  <Link href={run.evidence_url}>Read the thread</Link>
-                                ) : (
-                                  <a href={run.evidence_url} target="_blank" rel="noopener noreferrer">
-                                    Evidence
-                                  </a>
-                                )}
-                              </>
-                            )}
-                          </>
-                        )}
-                        {run && n > 0 && ' · '}
-                        {n > 0 && <a href={`#quotes=${category.key}`}>{n === 1 ? '1 quote' : `${n} quotes`}</a>}
-                      </span>
-                    )}
-                  </span>
-                  {category.key === 'travel' && travel ? <TravelScore summary={travel} /> : <ScoreCell value={scores[category.key]} />}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      ))}
+export function ScoreRows({ slug, scores, runs, categories, overall, testedCount, hasTravelBreakdown }: ScoreRowsProps) {
+  return <>
+    <div className="ag-score-summary">
+      <div><h2 className="ag-h2">General score</h2><p className="ag-sub">{testedCount} of {categories.length} dimensions tested</p></div>
+      <ScoreCell value={overall} aggregate />
     </div>
-  );
+    <div className="ag-dimension-list">
+      {categories.map(category => {
+        const value = scores[category.key];
+        const href = category.key === 'travel' && hasTravelBreakdown ? `/agents/${slug}?benchmark=travel#scores` : runs[category.key]?.evidence_url ?? `/dimensions/${category.key}`;
+        const external = !href.startsWith('/');
+        return <Link key={category.key} href={href} className="ag-dimension-row" {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}>
+          <span>{category.label}</span>
+          <span className="ag-dimension-value">{value == null ? <span className="ag-score-empty">Not tested</span> : <ScoreCell value={value} />}<span className="ag-evidence-arrow" aria-hidden="true">↗</span></span>
+        </Link>;
+      })}
+    </div>
+    <p className="ag-score-foot"><Link href="/dimensions#how">Scoring methodology ↗</Link></p>
+  </>;
 }

@@ -22,7 +22,9 @@ import { AgentIcon } from '@/components/AgentIcon';
 import { getReportsForAgent, pickLabel } from '@/lib/reports';
 import { AgentRow } from '@/components/AgentRow';
 import { ScoreRows } from '@/components/ScoreRows';
-import { ScoreCell } from '@/components/ScoreCell';
+import { AgentScoreTabs } from '@/components/AgentScoreTabs';
+import { TravelProfileScores } from '@/components/TravelProfileScores';
+import { TRAVEL_REPORT_AGENTS } from '@/lib/travel-suite';
 import { OpinionCell } from '@/components/OpinionCell';
 import { QuoteList } from '@/components/QuoteList';
 import { KIND_LABEL, KINDS } from '@/lib/kinds';
@@ -74,8 +76,7 @@ export default async function AgentPage({ params }: AgentPageProps) {
   const tagMap = getTagMap();
   const quotes = (agent.feedback ?? []).map(q => ({ ...q, categories: quoteCategories(slug, q, tagMap) }));
   const categoryLabels = Object.fromEntries(categories.map(c => [c.key, c.label]));
-  const quoteCounts: Record<string, number> = {};
-  for (const q of quotes) for (const k of q.categories) quoteCounts[k] = (quoteCounts[k] ?? 0) + 1;
+  const hasTravelBreakdown = TRAVEL_REPORT_AGENTS.includes(slug) && agent.travel.completed > 0;
 
   return (
     <div className="wrap">
@@ -123,23 +124,9 @@ export default async function AgentPage({ params }: AgentPageProps) {
                 ))}
               </p>
             )}
-            <div className="ag-stats">
-              <span className="ag-stat">
-                <ScoreCell value={agent.overall} aggregate />
-                Overall
-              </span>
-              <span className="ag-stat">
-                {agent.testedCount === 0
-                  ? 'Not tested yet'
-                  : `${agent.testedCount} of ${scored.length} tested`}
-              </span>
-              {agent.opinionOverall.n > 0 && (
-                <span className="ag-stat ag-stat-op">
-                  <OpinionCell stat={agent.opinionOverall} />
-                  Public opinion
-                </span>
-              )}
-            </div>
+            {agent.opinionOverall.n > 0 && <div className="ag-stats">
+              <span className="ag-stat ag-stat-op"><OpinionCell stat={agent.opinionOverall} /> Public opinion</span>
+            </div>}
           </div>
           <div className="ag-actions">
             {agent.site && (
@@ -158,9 +145,12 @@ export default async function AgentPage({ params }: AgentPageProps) {
           </div>
         </div>
 
-        <section className="ag-scores">
-          <h2 className="ag-h2">Scores</h2>
-          <ScoreRows travel={agent.travel} scores={agent.scores} runs={agent.latestRuns} categories={scored} quoteCounts={quoteCounts} />
+        <section className="ag-scores" id="scores" aria-label="Score breakdown">
+          <AgentScoreTabs
+            defaultTab={agent.kind === 'travel' && hasTravelBreakdown ? 'travel' : 'general'}
+            general={<ScoreRows slug={slug} overall={agent.overall} testedCount={agent.testedCount} scores={agent.scores} runs={agent.latestRuns} categories={scored} hasTravelBreakdown={hasTravelBreakdown} />}
+            travel={<TravelProfileScores slug={slug} summary={hasTravelBreakdown ? agent.travel : null} />}
+          />
         </section>
 
         {getRuns(slug).some(r => r.tester) && (

@@ -1,0 +1,83 @@
+.seatScene {
+  --seat-blue: #0875e1;
+  --seat-line: #c6daee;
+  margin: 0;
+  width: 100%;
+}
+.resultList { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); max-width: 1060px; margin: 0 auto 28px; padding: 0; list-style: none; gap: 20px; }
+.resultList > li { min-width: 0; }
+.resultLink { display: flex; flex-direction: column; align-items: center; gap: 10px; min-height: 96px; color: #1d1d1f; text-align: center; text-decoration: none; }
+.resultLink:hover { color: var(--seat-blue); }
+.resultLink .resultIcon { width: 32px; height: 32px; min-width: 32px; border-radius: 9px; border-color: #d6e3f0; box-shadow: none; }
+.resultIcon img { width: 100%; height: 100%; }
+.resultCopy { display: grid; gap: 5px; min-width: 0; }
+.resultCopy strong { font-size: 14px; font-weight: 600; line-height: 1.25; }
+.resultCopy > span { max-width: 170px; color: #60748b; font-size: 12px; line-height: 1.4; text-wrap: balance; }
+.resultList > li[data-confirmed='false'] .resultIcon { opacity: .65; }
+.plane { position: relative; width: 100%; max-width: 1100px; aspect-ratio: 3 / 1; margin: 0 auto; }
+.airframe { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.wing { fill: #eaf2fa; stroke: #c8dbef; stroke-width: 1.25; stroke-linejoin: round; }
+.fuselage { fill: #fff; stroke: #b8cee5; stroke-width: 1.8; }
+.cockpit { fill: #dceafb; stroke: #b6d0ec; stroke-width: 1; stroke-linejoin: round; }
+.bulkhead { stroke: #dce7f3; stroke-width: 1; }
+.door { fill: #eef4fa; stroke: #c5d8ee; stroke-width: 1; }
+.windows { fill: #b9d2ee; }
+.aisleLine { stroke: #e0eaf5; stroke-width: 1; stroke-dasharray: 5 8; }
+.cabin { position: absolute; inset: 26% 14% 26% 15%; display: grid; grid-template-columns: repeat(18, minmax(0, 1fr)); gap: 9px; }
+.mobileCabin { display: none; }
+.seatRow { display: grid; grid-template-rows: repeat(3, minmax(0, 1fr)) 16px repeat(3, minmax(0, 1fr)); gap: 4px; min-width: 0; min-height: 0; }
+.seat { position: relative; display: flex; align-items: center; justify-content: center; width: 100%; min-width: 0; min-height: 0; border: 1px solid var(--seat-line); border-radius: 4px 2px 2px 4px; background: #eef5fd; transform-origin: center; }
+.seat::before { content: ''; position: absolute; top: 13%; bottom: 13%; right: -2px; width: 4px; border: 1px solid #c4d8ef; border-radius: 2px; background: #d9e9fa; }
+.seat::after { content: ''; position: absolute; top: -2px; bottom: -2px; left: 17%; right: 17%; border-top: 2px solid #d5e4f5; border-bottom: 2px solid #d5e4f5; border-radius: 3px; }
+.occupied { background: #b6d8ff; border-color: #659ee0; z-index: 1; }
+.occupied::before { border-color: #659ee0; background: #7fb5f0; }
+.occupied::after { border-color: #80b3ea; }
+.seat .seatIcon { position: relative; z-index: 2; width: 26px; height: 26px; min-width: 26px; border-radius: 7px; border-color: #d1e1f3; box-shadow: none; }
+.seatIcon img { width: 100%; height: 100%; }
+.caption { margin-top: 12px; color: #6c7c8f; font-size: 11px; line-height: 1.4; text-align: center; }
+
+:global([data-story-enhanced='true']) .seat { animation: seatArrive 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .09s * var(--seat-step, 0)); }
+:global([data-story-enhanced='true']) .occupied { animation: seatArrive 1s linear both paused, seatUpgrade 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .09s * var(--seat-step, 0)), calc(-1s * var(--scene-progress, 1) + .025s * var(--logo-step, 0)); }
+:global([data-story-enhanced='true']) .seatIcon { animation: logoBoard 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .025s * var(--logo-step, 0)); }
+:global([data-story-enhanced='true']) .resultList { animation: resultsArrive 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+@keyframes seatArrive { 0%, 10% { opacity: 0; transform: scale(.82); } 29%, 100% { opacity: 1; transform: none; } }
+@keyframes seatUpgrade { 0%, 28% { background: #eef5fd; border-color: #c6daee; } 57%, 100% { background: #b6d8ff; border-color: #659ee0; } }
+@keyframes logoBoard { 0%, 24% { opacity: 0; transform: translateY(-28px) scale(.7); } 57%, 100% { opacity: 1; transform: none; } }
+@keyframes resultsArrive { 0%, 9% { opacity: 0; transform: translateY(10px); } 26%, 100% { opacity: 1; transform: none; } }
+
+@media (max-width: 999px) {
+  .resultList { gap: 12px; margin-bottom: 20px; }
+  .cabin { gap: 6px; }
+  .seatRow { gap: 3px; grid-template-rows: repeat(3, minmax(0, 1fr)) 12px repeat(3, minmax(0, 1fr)); }
+  .seat .seatIcon { width: 22px; height: 22px; min-width: 22px; border-radius: 6px; }
+}
+@media (max-width: 699px) {
+  .resultList { grid-template-columns: minmax(0, 1fr); gap: 0; max-width: 400px; margin-bottom: 14px; }
+  .resultLink { flex-direction: row; align-items: center; gap: 10px; min-height: 44px; text-align: left; }
+  .resultLink .resultIcon { width: 26px; height: 26px; min-width: 26px; border-radius: 7px; }
+  .resultCopy { display: flex; align-items: baseline; flex-wrap: wrap; gap: 3px 8px; }
+  .resultCopy strong { font-size: 12px; }
+  .resultCopy > span { max-width: none; font-size: 11px; line-height: 1.35; }
+  .plane { aspect-ratio: 2.15 / 1; }
+  .desktopCabin { display: none; }
+  .mobileCabin { display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 6px; }
+  .seatRow { gap: 3px; grid-template-rows: repeat(3, minmax(0, 1fr)) 12px repeat(3, minmax(0, 1fr)); }
+  .seat { border-radius: 3px 1px 1px 3px; }
+  .seat::before { width: 2px; right: -1px; }
+  .seat::after { top: -1px; bottom: -1px; border-width: 1px; }
+  .seat .seatIcon { width: 20px; height: 20px; min-width: 20px; border-radius: 5px; }
+  .caption { margin-top: 8px; font-size: 10px; }
+}
+@media (max-width: 359px) {
+  .resultCopy { gap: 2px 6px; }
+  .resultCopy strong { font-size: 11px; }
+  .resultCopy > span { font-size: 10px; }
+  .mobileCabin { gap: 4px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .seat,
+  :global([data-story-enhanced='true']) .seatIcon,
+  :global([data-story-enhanced='true']) .resultList { animation: none; }
+}
+
+@media (max-width: 699px) { .resultCopy strong { font-size: 13px; } .resultCopy > span { font-size: 12px; line-height: 1.4; } }

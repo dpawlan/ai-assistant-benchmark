@@ -9,13 +9,12 @@ export function TravelEvidenceMedia({ agent, name, round, dimension }: { agent: 
   const screenshot = travelScreenshots[agent];
   return <div className="travel-session-media">
     {screenshot?.dimensions.includes(dimension) && <TravelScreenshot agent={agent} />}
-    {transcript.length > 0 ? <details className="travel-transcript">
-      <summary>Full transcript · {name}</summary>
+    {transcript.length > 0 ? <section className="travel-transcript" aria-label={`${name} transcript`}>
       <p className="ag-sub">Local preview · Unredacted transcript.</p>
       <ol>{transcript.map((message, index) => <li key={index}>
         <p className="travel-transcript-speaker">{message.role === 'user' ? 'Tester' : name}{message.reaction ? ' · Reaction' : ''}{message.time ? ` · ${message.time.replace(/^[^·]+·\s*/, '')}` : ''}</p>
         <p className="travel-transcript-message">{message.text}</p>
       </li>)}</ol>
-    </details> : <p className="ag-sub">A redacted public transcript is not yet available.</p>}
+    </section> : <p className="ag-sub">A redacted public transcript is not yet available.</p>}
   </div>;
 }

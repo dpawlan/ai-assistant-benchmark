@@ -1,0 +1,41 @@
+.signature { width: 120px; max-width: 100%; margin: 0; color: #0875e1; }
+.art { display: block; width: 100%; height: auto; overflow: visible; }
+.outline { stroke: #a7c8ee; stroke-width: 1.5; fill: #fff; stroke-linejoin: round; }
+.detail { stroke: #c7d3e0; stroke-width: 1.5; stroke-linecap: round; }
+.route { stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.draw { stroke-dasharray: 1; stroke-dashoffset: 0; }
+.blueFill { fill: currentColor; }
+.blueStroke { stroke: currentColor; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+.mutedFill { fill: #a0adba; }
+.mutedStroke { stroke: #94a2b1; stroke-width: 1.5; stroke-linecap: round; }
+.unconfirmed { stroke: #94a2b1; stroke-width: 1.5; stroke-dasharray: 2 3; }
+.cursor { stroke: #fff; stroke-width: 1.5; stroke-linejoin: round; fill: currentColor; }
+.clockHand { stroke: currentColor; stroke-width: 2; stroke-linecap: round; transform-origin: 100px 64px; }
+
+:global([data-story-enhanced='true']) .signature :is(.draw, .helper, .ticket, .plane, .calendar, .chatFirst, .chatSecond, .chatThird, .cursor, .pinFirst, .pinLast, .seat, .clockHand) { animation-duration: 1s; animation-timing-function: linear; animation-fill-mode: both; animation-play-state: paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .draw { animation-name: drawStory; }
+:global([data-story-enhanced='true']) .helper { animation-name: joinSupport; }
+:global([data-story-enhanced='true']) .ticket,
+:global([data-story-enhanced='true']) .calendar,
+:global([data-story-enhanced='true']) .pinLast,
+:global([data-story-enhanced='true']) .seat { animation-name: confirmLater; }
+:global([data-story-enhanced='true']) .plane { animation-name: takeFlight; }
+:global([data-story-enhanced='true']) .chatFirst,
+:global([data-story-enhanced='true']) .pinFirst { animation-name: confirmFirst; }
+:global([data-story-enhanced='true']) .chatSecond { animation-name: confirmSecond; }
+:global([data-story-enhanced='true']) .chatThird { animation-name: confirmThird; }
+:global([data-story-enhanced='true']) .cursor { animation-name: handoff; }
+:global([data-story-enhanced='true']) .clockHand { animation-name: passWindow; }
+@keyframes drawStory { 0%, 12% { stroke-dashoffset: 1; } 44%, 100% { stroke-dashoffset: 0; } }
+@keyframes joinSupport { 0%, 24% { opacity: 0; transform: translateY(6px); } 42%, 100% { opacity: 1; transform: none; } }
+@keyframes confirmFirst { 0%, 12% { opacity: 0; } 28%, 100% { opacity: 1; } }
+@keyframes confirmSecond { 0%, 22% { opacity: 0; } 38%, 100% { opacity: 1; } }
+@keyframes confirmThird { 0%, 32% { opacity: 0; } 48%, 100% { opacity: 1; } }
+@keyframes confirmLater { 0%, 40% { opacity: 0; } 60%, 100% { opacity: 1; } }
+@keyframes takeFlight { 0%, 12% { transform: translateX(-12px); } 44%, 100% { transform: none; } }
+@keyframes handoff { 0%, 40% { opacity: 0; transform: translate(8px, 8px); } 60%, 100% { opacity: 1; transform: none; } }
+@keyframes passWindow { 0%, 12% { transform: rotate(-150deg); } 60%, 100% { transform: rotate(0); } }
+@media (max-width: 699px) { .signature { width: 96px; } }
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .signature :is(.draw, .helper, .ticket, .plane, .calendar, .chatFirst, .chatSecond, .chatThird, .cursor, .pinFirst, .pinLast, .seat, .clockHand) { animation: none; }
+}

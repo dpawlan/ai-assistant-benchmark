@@ -72,7 +72,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
   const [view, setView] = useState<View>('benchmark');
   const [sort, setSort] = useState<SortKey>('overall');
   const [status, setStatus] = useState<BenchStatus | 'all'>('all');
-  const [showPending, setShowPending] = useState(false);
   const [cost, setCost] = useState<CostKey | 'all'>('all');
   const opinion = view === 'opinion';
   const cols = opinion ? categories : categories.filter(c => c.scored !== false);
@@ -182,19 +181,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
     );
   };
 
-  const pendingToggle = (n: number, open: boolean, onToggle: () => void) => (
-    <tr className="mx-toggle">
-      <td colSpan={span}>
-        <button type="button" onClick={onToggle} aria-expanded={open}>
-          {open ? 'Hide' : 'Show'} {n} pending
-          <svg className={`mx-chev${open ? ' open' : ''}`} viewBox="0 0 10 10" fill="currentColor" aria-hidden="true">
-            <path d="M5 8L1 3h8z" />
-          </svg>
-        </button>
-      </td>
-    </tr>
-  );
-
   const segEl = (
     <div className="seg" role="tablist" aria-label="Score source">
       <button type="button" role="tab" aria-selected={!opinion} className={!opinion ? 'on' : ''} onClick={() => setView('benchmark')}>
@@ -288,7 +274,6 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
 
           {!opinion
             ? sections.filter(sec => !(compact && sec.count === 0)).map(sec => {
-                const collapsed = sec.status === 'pending' && status === 'all' && !showPending;
                 return (
                   <tbody key={sec.status} className={`mx-sec mx-sec-${sec.status}`}>
                     <tr className="mx-sechead">
@@ -304,14 +289,11 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
                         <td colSpan={span}>Nothing here.</td>
                       </tr>
                     )}
-                    {collapsed
-                      ? pendingToggle(sec.count, false, () => setShowPending(true))
-                      : sec.groups.map(g => (
-                          <Fragment key={g.key}>
-                            {g.rows.map(row)}
-                          </Fragment>
-                        ))}
-                    {sec.status === 'pending' && status === 'all' && showPending && sec.count > 0 && pendingToggle(sec.count, true, () => setShowPending(false))}
+                    {sec.groups.map(g => (
+                      <Fragment key={g.key}>
+                        {g.rows.map(row)}
+                      </Fragment>
+                    ))}
                   </tbody>
                 );
               })

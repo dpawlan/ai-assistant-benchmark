@@ -1,0 +1,106 @@
+.profileScene { --checkpoint-blue: #0875e1; margin: 0 auto; width: 100%; max-width: 1020px; }
+.comparison { position: relative; }
+.checkpoints { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; margin: 0; padding: 0; list-style: none; }
+.checkpoint { min-width: 0; }
+.checkpointHeading { display: flex; flex-direction: column; align-items: center; gap: 8px; min-height: 63px; text-align: center; }
+.checkpointHeading h3 { display: flex; justify-content: center; align-items: flex-end; margin: 0; min-height: 28px; color: #1d1d1f; font-size: 22px; font-weight: 550; line-height: 1.2; letter-spacing: -.025em; text-wrap: balance; }
+.checkpointHeading > span { color: #61758b; font-size: 12px; line-height: 1.3; }
+.lane { position: relative; display: flex; align-items: center; justify-content: center; height: 150px; }
+.gate { display: block; width: 129px; height: 150px; overflow: visible; }
+.archBody { fill: #f5f9ff; stroke: #94bce4; stroke-width: 1.4; stroke-linejoin: round; }
+.archEdge { stroke: #cadcf0; stroke-width: 1.1; }
+.detectorMarks { stroke: #8eb6df; stroke-width: 1.5; stroke-linecap: round; }
+.scannerStem { stroke: #91abc4; stroke-width: 2; stroke-linecap: round; }
+.scanner { fill: #e5f1ff; stroke: #8ab5df; stroke-width: 1.3; }
+.idCard { fill: #fff; stroke: #9dbfe2; stroke-width: 1; }
+.idDetail { fill: none; stroke: #6f9fcd; stroke-width: 1; stroke-linecap: round; }
+.floor { fill: #e9f2fd; stroke: #b5cde6; stroke-width: 1; stroke-linejoin: round; }
+.gateCount { fill: var(--checkpoint-blue); font-family: inherit; font-size: 36px; font-weight: 550; letter-spacing: -.04em; }
+.checkpoint[data-empty='true'] .gateCount { fill: #7890a8; }
+.checkpoint[data-empty='true'] .archBody { stroke: #b5c9dd; fill: #fafcfe; }
+.queueRail { position: absolute; z-index: 0; top: 182px; left: 0; display: block; width: 100%; height: 48px; overflow: visible; }
+.rope { stroke: #a9c6e6; stroke-width: 1.5; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 0; }
+.stanchion { fill: #fff; stroke: #90afcf; stroke-width: 1.4; stroke-linecap: round; }
+.mobileQueue { display: none; }
+.result { display: flex; flex-direction: column; align-items: center; gap: 12px; min-height: 91px; padding-top: 24px; text-align: center; }
+.roster { display: flex; align-items: flex-start; justify-content: center; gap: 9px; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
+.roster > li { min-width: 0; }
+.assistant { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 7px; min-width: 44px; min-height: 55px; padding: 3px 0; color: #1d1d1f; text-decoration: none; }
+.assistant .logo { width: 30px; height: 30px; min-width: 30px; border-radius: 8px; box-shadow: none; }
+.logo img { width: 100%; height: 100%; }
+.assistant > span:last-child { font-size: 11px; font-weight: 500; line-height: 1.3; white-space: nowrap; }
+.assistant:hover { color: var(--checkpoint-blue); }
+.assistant:focus-visible { outline: 2px solid var(--checkpoint-blue); outline-offset: 3px; border-radius: 5px; }
+.emptyNote { display: block; max-width: 225px; color: #42586f; font-size: 13px; line-height: 1.4; text-wrap: balance; }
+.savedNote { display: block; max-width: 255px; color: #758497; font-size: 11px; line-height: 1.4; text-wrap: pretty; }
+.summary { margin-top: 22px; color: #1d1d1f; font-size: 15px; font-weight: 500; line-height: 1.3; text-align: center; }
+
+:global([data-story-enhanced='true']) .rope { animation: connectQueue 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+:global([data-story-enhanced='true']) .gate { animation: revealCheckpoint 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .04s * var(--checkpoint-step, 0)); }
+:global([data-story-enhanced='true']) .gateCount { animation: countCheckpoint 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .04s * var(--checkpoint-step, 0)); }
+:global([data-story-enhanced='true']) .roster > li { animation: throughCheckpoint 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .025s * var(--assistant-step, 0) + .04s * var(--checkpoint-step, 0)); }
+:global([data-story-enhanced='true']) .emptyNote,
+:global([data-story-enhanced='true']) .savedNote { animation: revealResult 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .04s * var(--checkpoint-step, 0)); }
+:global([data-story-enhanced='true']) .summary { animation: revealSummary 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1)); }
+@keyframes connectQueue { 0%, 8% { stroke-dashoffset: 1; } 34%, 100% { stroke-dashoffset: 0; } }
+@keyframes revealCheckpoint { 0%, 8% { opacity: 0; transform: translateY(15px); } 34%, 100% { opacity: 1; transform: none; } }
+@keyframes countCheckpoint { 0%, 24% { opacity: 0; } 46%, 100% { opacity: 1; } }
+@keyframes throughCheckpoint { 0%, 24% { opacity: 0; transform: translateX(-36px); } 47%, 100% { opacity: 1; transform: none; } }
+@keyframes revealResult { 0%, 32% { opacity: 0; transform: translateY(6px); } 51%, 100% { opacity: 1; transform: none; } }
+@keyframes revealSummary { 0%, 47% { opacity: 0; transform: translateY(5px); } 63%, 100% { opacity: 1; transform: none; } }
+
+@media (max-width: 899px) and (min-width: 700px) {
+  .checkpoints { gap: 24px; }
+  .checkpointHeading { min-height: 79px; }
+  .checkpointHeading h3 { min-height: 48px; font-size: 20px; }
+  .queueRail { top: 198px; }
+  .roster { gap: 3px; }
+  .assistant > span:last-child { font-size: 10px; }
+  .assistant .logo { width: 28px; height: 28px; min-width: 28px; border-radius: 7px; }
+}
+@media (max-width: 699px) {
+  .checkpoints { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+  .checkpoint { display: grid; grid-template-columns: 65px minmax(0, 1fr); column-gap: 14px; row-gap: 7px; }
+  .checkpointHeading { grid-column: 2; grid-row: 1; align-items: flex-start; justify-content: flex-end; gap: 5px; min-height: 0; text-align: left; }
+  .checkpointHeading h3 { display: block; min-height: 0; font-size: 18px; line-height: 1.2; text-wrap: pretty; }
+  .checkpointHeading > span { font-size: 11px; }
+  .lane { grid-column: 1; grid-row: 1 / span 2; align-self: stretch; align-items: center; min-height: 93px; height: 100%; }
+  .gate { width: 65px; height: 76px; }
+  .mobileQueue { position: absolute; z-index: -1; display: block; top: 50%; bottom: -36px; left: 21px; width: 1px; background: #c2d6eb; }
+  .mobileQueue::before, .mobileQueue::after { content: ''; position: absolute; left: -3px; width: 7px; height: 7px; border: 1px solid #a3c1de; border-radius: 50%; background: #fff; }
+  .mobileQueue::before { top: 30px; }
+  .mobileQueue::after { bottom: 9px; }
+  .checkpoint:last-child .mobileQueue { display: none; }
+  .queueRail { display: none; }
+  .result { grid-column: 2; grid-row: 2; align-items: flex-start; gap: 8px; min-height: 0; padding-top: 0; text-align: left; }
+  .roster { justify-content: flex-start; gap: 2px; }
+  .assistant { min-width: 44px; min-height: 44px; padding: 5px; }
+  .assistant .logo { width: 29px; height: 29px; min-width: 29px; border-radius: 7px; }
+  .assistant > span:last-child { display: none; }
+  .emptyNote { max-width: none; font-size: 12px; line-height: 1.3; text-wrap: pretty; }
+  .savedNote { max-width: none; font-size: 11px; line-height: 1.35; }
+  .summary { margin-top: 20px; font-size: 14px; }
+  :global([data-story-enhanced='true']) .mobileQueue { animation: revealCheckpoint 1s linear both paused; animation-delay: calc(-1s * var(--scene-progress, 1) + .04s * var(--checkpoint-step, 0)); }
+  @keyframes throughCheckpoint { 0%, 24% { opacity: 0; transform: translateY(-18px); } 47%, 100% { opacity: 1; transform: none; } }
+}
+@media (max-width: 359px) {
+  .checkpoints { gap: 16px; }
+  .checkpoint { grid-template-columns: 55px minmax(0, 1fr); column-gap: 10px; }
+  .checkpointHeading h3 { font-size: 17px; }
+  .gate { width: 55px; height: 65px; }
+  .mobileQueue { left: 17px; bottom: -32px; }
+  .roster[data-count='5'] { display: grid; grid-template-columns: repeat(3, 44px); }
+  .summary { margin-top: 16px; font-size: 13px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  :global([data-story-enhanced='true']) .rope,
+  :global([data-story-enhanced='true']) .gate,
+  :global([data-story-enhanced='true']) .gateCount,
+  :global([data-story-enhanced='true']) .roster > li,
+  :global([data-story-enhanced='true']) .emptyNote,
+  :global([data-story-enhanced='true']) .savedNote,
+  :global([data-story-enhanced='true']) .summary,
+  :global([data-story-enhanced='true']) .mobileQueue { animation: none; }
+}
+
+@media (max-width: 699px) { .checkpointHeading > span, .savedNote { font-size: 12px; } }

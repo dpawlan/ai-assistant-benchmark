@@ -261,5 +261,12 @@ _Updated 2026-10-13 weekday vault scan (+3 rows)._
 - (2026-10-10) 硅基观察Pro (36kr): >$1B annualized transaction volume.
 - (2026-10-10) 硅基观察Pro (36kr): Agent-to-agent coordination creates network effects.
 
-**Feedback rows:** 311 (as of 2026-10-13)
+_Updated 2026-10-14 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-08) Richard Lichtenstein (Artificial Investment): Week with Instinct — persistent car-dealer monitoring until stock/quote achieved.
+- (2026-10-08) Richard Lichtenstein (Artificial Investment): Business use cases — ongoing monitoring, follow-up, research; less AI-sophisticated users.
+- (2026-10-08) Richard Lichtenstein (Artificial Investment): More aggressive than ChatGPT/Claude — sent dealer message without showing final version.
+
+**Feedback rows:** 314 (as of 2026-10-14)
 

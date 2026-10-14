@@ -355,5 +355,24 @@
     "source": "x",
     "collected_at": "2026-10-12T14:00:00Z",
     "notes": "Oct 12: Claims Hermes/OpenClaw era over as ChatGPT closes functionality gap."
+  },
+  {
+    "id": "f14tiat01",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent is Nous Research's open-source autonomous agent, released under the MIT licence in February 2026. It keeps memory across sessions, writes reusable skills as it works, ships 70+ tools (web search, browser automation, vision, image generation, text-to-speech), connects through 20+ messaging gateways (Telegram, Slack, WhatsApp, Discord, Signal, email), works with any model provider from local to OpenRouter, and runs locally or in the cloud on macOS, Windows, and Linux.",
+    "author": "thereisanaitool",
+    "author_name": "There Is An AI Tool",
+    "date": "2026-10-12",
+    "url": "https://thereisanaitool.com/article/hermes-agent-review-2026/",
+    "kind": "other",
+    "tags": [
+      "explainer",
+      "features",
+      "70-tools",
+      "20-gateways"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "Oct 12 explainer: 70+ tools, 20+ messaging gateways, model-agnostic, MIT license."
   }
 ]

@@ -157,5 +157,10 @@ _Updated 2026-10-12 weekday vault scan (+6 rows)._
 - (2026-10-12) X Freeze: Usage limits now generous; 35% left with heavy use before reset.
 - (2026-10-12) Tom Blomfield: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot.
 
-**Feedback rows:** 1220 (as of 2026-10-12)
+_Updated 2026-10-14 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-13) Cursor Forum User: Grok Bot computer locked since Oct 8 restart; browser, uploads, secrets all blocked.
+
+**Feedback rows:** 1221 (as of 2026-10-14)
 

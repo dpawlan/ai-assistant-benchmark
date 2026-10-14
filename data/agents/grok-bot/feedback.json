@@ -29371,5 +29371,24 @@
     "source": "x",
     "collected_at": "2026-10-12T14:00:00Z",
     "notes": "Oct 12: Monzo founder says personal agents hit PMF with Instinct/Muse/Grok Bot."
+  },
+  {
+    "id": "f14forum01",
+    "agent": "grok-bot",
+    "quote": "Since a box restart on Oct 8, 2026, my Grok Bot's computer has a credential-fill lock that blocks almost everything: Every browser and desktop action fails. I can't attach files or images in chat. The secret entry form fails, and saved keys don't load into process.env.",
+    "author": "forum_user",
+    "author_name": "Cursor Forum User",
+    "date": "2026-10-13",
+    "url": "https://forum.cursor.com/t/grok-bot-computer-locked-since-oct-8-browser-uploads-and-secrets-blocked-update-fails/174499",
+    "kind": "bug",
+    "tags": [
+      "credential-lock",
+      "browser-blocked",
+      "secrets",
+      "update-fails"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "Forum Oct 13: Grok Bot computer locked since Oct 8 restart; browser, uploads, secrets all blocked."
   }
 ]

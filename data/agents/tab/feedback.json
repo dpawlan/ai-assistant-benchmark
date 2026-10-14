@@ -52,5 +52,24 @@
     "source": "web",
     "collected_at": "2026-10-09T14:00:00Z",
     "notes": "Tom's Guide Oct 7: Tab works through iMessage and WhatsApp, no separate app."
+  },
+  {
+    "id": "f14amw01",
+    "agent": "tab",
+    "quote": "Assistant Benchmark scored Tab 5.9 out of 10 and ranked it 21st overall across 15 tasks. Phone calls scored 10 and permission/privacy handling scored 9, while a restaurant reservation task involving website and phone interactions scored 3 after three failures.",
+    "author": "aimarketwatch",
+    "author_name": "AI Market Watch",
+    "date": "2026-10-10",
+    "url": "https://www.ai-market-watch.com/news/personal-ai-assistant-startup-tab-reaches-300m-valuation-shortly-after-launch-j64z76",
+    "kind": "other",
+    "tags": [
+      "benchmark",
+      "phone-calls",
+      "restaurant",
+      "privacy"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "AI Market Watch Oct 10: Tab scored 5.9/10 in Assistant Benchmark; phone calls 10, restaurant task 3."
   }
 ]

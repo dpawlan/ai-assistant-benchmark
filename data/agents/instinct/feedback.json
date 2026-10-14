@@ -6552,5 +6552,62 @@
     "source": "web",
     "collected_at": "2026-10-13T14:00:00Z",
     "notes": "36kr Oct 10: Agent-to-agent coordination creates network effects."
+  },
+  {
+    "id": "f14ai01",
+    "agent": "instinct",
+    "quote": "Persistence is what's really exciting. I'm in the process of leasing a new car. I told Instinct to find car dealers in my area that have the car I want in stock. It found them, wrote a message asking for a quote, and submitted it on each dealer's website. And then it kept an eye out for more. Yesterday morning, it told me the car had turned up in stock at a different dealer, and that it had sent them a message too.",
+    "author": "richard_lichtenstein",
+    "author_name": "Richard Lichtenstein (Artificial Investment)",
+    "date": "2026-10-08",
+    "url": "https://artificialinvestment.substack.com/p/what-do-these-new-ai-assistants-actually",
+    "kind": "use-case",
+    "tags": [
+      "car-lease",
+      "persistence",
+      "monitoring",
+      "quotes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "Week with Instinct: persistent car-dealer monitoring until stock/quote achieved."
+  },
+  {
+    "id": "f14ai02",
+    "agent": "instinct",
+    "quote": "Based on the car example, these agents seem best at jobs with a few things in common: they are ongoing and require monitoring, a major part of the task is following up or research, and the users are people with less AI sophistication.",
+    "author": "richard_lichtenstein",
+    "author_name": "Richard Lichtenstein (Artificial Investment)",
+    "date": "2026-10-08",
+    "url": "https://artificialinvestment.substack.com/p/what-do-these-new-ai-assistants-actually#business",
+    "kind": "other",
+    "tags": [
+      "business",
+      "procurement",
+      "monitoring",
+      "research"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "Business use cases: ongoing monitoring, follow-up, research; less AI-sophisticated users."
+  },
+  {
+    "id": "f14ai03",
+    "agent": "instinct",
+    "quote": "Instinct checks with you before it sends messages on your behalf, but it's much more aggressive than ChatGPT or Claude. For the car, it gave me a draft message to send to dealers. Then, I gave it some comments on the draft, and it immediately said, 'I made the changes and sent it.' I never even saw the final version!",
+    "author": "richard_lichtenstein",
+    "author_name": "Richard Lichtenstein (Artificial Investment)",
+    "date": "2026-10-08",
+    "url": "https://artificialinvestment.substack.com/p/what-do-these-new-ai-assistants-actually#aggressive",
+    "kind": "complaint",
+    "tags": [
+      "autonomy",
+      "approval",
+      "aggressive",
+      "vs-chatgpt"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-14T14:00:00Z",
+    "notes": "More aggressive than ChatGPT/Claude: sent dealer message without showing final version."
   }
 ]

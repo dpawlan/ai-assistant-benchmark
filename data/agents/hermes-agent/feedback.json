@@ -374,5 +374,62 @@
     "source": "web",
     "collected_at": "2026-10-14T14:00:00Z",
     "notes": "Oct 12 explainer: 70+ tools, 20+ messaging gateways, model-agnostic, MIT license."
+  },
+  {
+    "id": "f15fontoura01",
+    "agent": "hermes-agent",
+    "quote": "Pick Hermes if you want an agent runtime that lives on a server: seven execution backends including serverless sandboxes, a Mixture-of-Agents mode, and a model lab behind it.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/",
+    "kind": "comparison",
+    "tags": [
+      "server",
+      "execution-backends",
+      "moa",
+      "vs-openclaw"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura Oct 1: Pick Hermes for server runtime with 7 backends and Mixture-of-Agents."
+  },
+  {
+    "id": "f15fontoura02",
+    "agent": "hermes-agent",
+    "quote": "Hermes can execute in seven backends, three of them cloud sandboxes: Modal, Daytona and Vercel Sandbox. OpenClaw runs tools on the host unless you turn sandboxing on.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/#backends",
+    "kind": "comparison",
+    "tags": [
+      "execution",
+      "sandbox",
+      "modal",
+      "vercel"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura: Hermes 7 backends vs OpenClaw host-default execution."
+  },
+  {
+    "id": "f15fontoura03",
+    "agent": "hermes-agent",
+    "quote": "My case is specific: a VPS, a cost-sensitive budget, and a fleet of work agents that an orchestrator wakes on its own schedule. I do not need a heartbeat, because the orchestrator is the heartbeat. I want commands to execute somewhere disposable. And my adapter, my agents' instruction bundles and my MCP pooler are all built around Hermes. For that case, Hermes is still the right call.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/#why-hermes",
+    "kind": "use-case",
+    "tags": [
+      "vps",
+      "orchestrator",
+      "disposable-execution",
+      "production"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura: Stays with Hermes for VPS fleet with orchestrator-driven schedule."
   }
 ]

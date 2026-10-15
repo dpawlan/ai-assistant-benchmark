@@ -258,5 +258,14 @@ _Updated 2026-10-13 weekday vault scan (+6 rows)._
 - (2026-10-08) Icarus (All Things Muse): Delta has no integration for third-party AI agents; blocking unauthorized automation.
 - (2026-10-08) Icarus (All Things Muse): Yelp blocks non-human traffic unless agent pays for data licensing.
 
-**Feedback rows:** 286 (as of 2026-10-13)
-**Kinds:** other=84, use-case=40, praise=18, complaint=55, comparison=15, bug=26, news=39
+_Updated 2026-10-15 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-14) Jenny Ouyang (Build to Launch): Muse created podcast episode with public RSS from single article.
+- (2026-10-14) Jenny Ouyang (Build to Launch): Muse unifies Meta apps; accounts pre-connected.
+- (2026-10-14) LeonixAI (Threat Radar): Muse and Grok Bot show similar browser fingerprints.
+- (2026-10-14) Sara (Marketing Ops Strategist): Muse B2C-focused with VM; vs Instinct no-interface.
+- (2026-10-14) Sara (Marketing Ops Strategist): Muse free but "data is the product" concern.
+
+**Feedback rows:** 291 (as of 2026-10-15)
+**Kinds:** other=86, use-case=41, praise=19, complaint=56, comparison=16, bug=26, news=39

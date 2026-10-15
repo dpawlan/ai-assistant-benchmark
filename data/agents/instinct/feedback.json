@@ -6609,5 +6609,97 @@
     "source": "web",
     "collected_at": "2026-10-14T14:00:00Z",
     "notes": "More aggressive than ChatGPT/Claude: sent dealer message without showing final version."
+  },
+  {
+    "id": "f15ais01",
+    "agent": "instinct",
+    "quote": "Instinct AI is not known to have suffered a data breach, but it asks for more access than most apps and its terms make you responsible for what it does. Testers have reported an email sent without confirmation and data kept after access was revoked, and the company has changed settings in response.",
+    "author": "aisuperior",
+    "author_name": "AI Superior",
+    "date": "2026-10-08",
+    "url": "https://aisuperior.com/blog/is-instinct-ai-safe/",
+    "kind": "other",
+    "tags": [
+      "safety",
+      "privacy",
+      "terms",
+      "access"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "AI Superior Oct 8: No known breach but broad access; user responsible per terms."
+  },
+  {
+    "id": "f15ais02",
+    "agent": "instinct",
+    "quote": "You authorize the Services to take Actions on your behalf. You appoint Instinct as your agent, and any agreement it enters 'shall be binding on you as if entered into directly by you.'",
+    "author": "aisuperior",
+    "author_name": "AI Superior",
+    "date": "2026-10-08",
+    "url": "https://aisuperior.com/blog/is-instinct-ai-safe/#terms",
+    "kind": "other",
+    "tags": [
+      "terms",
+      "binding",
+      "legal"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "AI Superior: Instinct terms make user-bound to any agreements agent enters."
+  },
+  {
+    "id": "f15ais03",
+    "agent": "instinct",
+    "quote": "The policy does not state retention periods, and it does not mention GDPR or CCPA. For UK and EU users, that means no stated legal basis for processing and no stated route to exercise data subject rights.",
+    "author": "aisuperior",
+    "author_name": "AI Superior",
+    "date": "2026-10-08",
+    "url": "https://aisuperior.com/blog/is-instinct-ai-safe/#gdpr",
+    "kind": "complaint",
+    "tags": [
+      "gdpr",
+      "ccpa",
+      "retention",
+      "privacy"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "AI Superior: No GDPR/CCPA mention; no retention periods; UK/EU data rights unclear."
+  },
+  {
+    "id": "f15ais04",
+    "agent": "instinct",
+    "quote": "On 21 September a user posted screenshots in which Instinct appeared to use someone else's middle name and discussed a photo of a financial document he said he had never sent. The bot apologised, said the photo 'got crossed into' the conversation and called it a 'serious glitch'.",
+    "author": "aisuperior",
+    "author_name": "AI Superior",
+    "date": "2026-10-08",
+    "url": "https://aisuperior.com/blog/is-instinct-ai-safe/#september",
+    "kind": "bug",
+    "tags": [
+      "hallucination",
+      "data-leak",
+      "incident"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "AI Superior: Sep 21 incident with apparent cross-user data; Shinn said hallucination not breach."
+  },
+  {
+    "id": "f15mops01",
+    "agent": "instinct",
+    "quote": "Instinct makes money on travel referrals and purchases, which makes me worry that it might recommend whatever pays out the highest instead of what's best for you.",
+    "author": "saramops",
+    "author_name": "Sara (Marketing Operations Strategist)",
+    "date": "2026-10-14",
+    "url": "https://the-marketing-operations-strategist.beehiiv.com/p/muse-instinct-grok-bot-show-where-ops-ai-is-headed#instinct",
+    "kind": "complaint",
+    "tags": [
+      "monetization",
+      "referrals",
+      "conflict-of-interest"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Marketing Ops: Instinct travel referral monetization raises recommendation bias concern."
   }
 ]

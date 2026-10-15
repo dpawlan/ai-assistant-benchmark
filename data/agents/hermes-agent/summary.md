@@ -58,4 +58,11 @@ _Updated 2026-10-14 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-10-12) There Is An AI Tool: 70+ tools, 20+ messaging gateways, model-agnostic, MIT license.
 
-**Feedback rows:** 20 (as of 2026-10-14)
+_Updated 2026-10-15 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-01) Felipe Fontoura: Pick Hermes for server runtime with 7 backends and Mixture-of-Agents.
+- (2026-10-01) Felipe Fontoura: Hermes 7 backends (including Modal, Daytona, Vercel Sandbox) vs OpenClaw host-default execution.
+- (2026-10-01) Felipe Fontoura: Stays with Hermes for VPS fleet with orchestrator-driven schedule.
+
+**Feedback rows:** 23 (as of 2026-10-15)

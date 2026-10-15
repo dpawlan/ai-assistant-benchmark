@@ -990,5 +990,61 @@
     "source": "reddit",
     "collected_at": "2026-10-13T14:00:00Z",
     "notes": "r/openclaw: Switched to Hermes after another broken update; Hermes ported cron jobs easily."
+  },
+  {
+    "id": "f15fontoura01",
+    "agent": "openclaw",
+    "quote": "Pick OpenClaw if you want a personal assistant that lives on your devices: native apps for macOS, iOS, Android and Linux, a wake word, on-device voice, and a heartbeat that wakes it on its own.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/",
+    "kind": "comparison",
+    "tags": [
+      "native-apps",
+      "wake-word",
+      "heartbeat",
+      "vs-hermes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura Oct 1: Pick OpenClaw for device-native PA with wake word and heartbeat."
+  },
+  {
+    "id": "f15fontoura02",
+    "agent": "openclaw",
+    "quote": "In June, OpenClaw won reach without a contest and Hermes won depth without a contest. In October, OpenClaw still wins reach. Depth is now mostly a tie, with a few places where Hermes is still ahead.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/#june-october",
+    "kind": "comparison",
+    "tags": [
+      "reach",
+      "depth",
+      "vs-hermes",
+      "evolution"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura: OpenClaw still wins reach; depth gap with Hermes mostly closed."
+  },
+  {
+    "id": "f15fontoura03",
+    "agent": "openclaw",
+    "quote": "OpenClaw's heartbeat wakes the agent every 30 minutes by default, one hour when you use Anthropic OAuth, and lets it decide whether something needs doing. Hermes only wakes on cron or when something talks to it. For a personal assistant, the heartbeat is the feature.",
+    "author": "felipefontoura",
+    "author_name": "Felipe Fontoura",
+    "date": "2026-10-01",
+    "url": "https://felipefontoura.com/articles/hermes-agent-vs-openclaw/#heartbeat",
+    "kind": "comparison",
+    "tags": [
+      "heartbeat",
+      "ambient",
+      "vs-hermes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Fontoura: OpenClaw heartbeat (30min) vs Hermes cron-only; heartbeat is the PA feature."
   }
 ]

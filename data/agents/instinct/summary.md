@@ -268,5 +268,14 @@ _Updated 2026-10-14 weekday vault scan (+3 rows)._
 - (2026-10-08) Richard Lichtenstein (Artificial Investment): Business use cases — ongoing monitoring, follow-up, research; less AI-sophisticated users.
 - (2026-10-08) Richard Lichtenstein (Artificial Investment): More aggressive than ChatGPT/Claude — sent dealer message without showing final version.
 
-**Feedback rows:** 314 (as of 2026-10-14)
+_Updated 2026-10-15 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-08) AI Superior: No known breach but broad access; user responsible per terms.
+- (2026-10-08) AI Superior: Terms make user bound to any agreements agent enters.
+- (2026-10-08) AI Superior: No GDPR/CCPA mention; no retention periods; UK/EU data rights unclear.
+- (2026-10-08) AI Superior: Sep 21 incident with apparent cross-user data; Shinn said hallucination not breach.
+- (2026-10-14) Sara (Marketing Ops Strategist): Travel referral monetization raises recommendation bias concern.
+
+**Feedback rows:** 319 (as of 2026-10-15)
 

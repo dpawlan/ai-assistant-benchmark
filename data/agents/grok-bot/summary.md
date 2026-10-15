@@ -162,5 +162,17 @@ _Updated 2026-10-14 weekday vault scan (+1 row)._
 **New this scan:**
 - (2026-10-13) Cursor Forum User: Grok Bot computer locked since Oct 8 restart; browser, uploads, secrets all blocked.
 
-**Feedback rows:** 1221 (as of 2026-10-14)
+_Updated 2026-10-15 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-10-14) Jenny Ouyang (Build to Launch): Three-agent comparison; Grok Bot verdict for multi-agent collaboration out of the box.
+- (2026-10-14) Jenny Ouyang (Build to Launch): X Scout Bot checked Writer's quote word for word before showing draft.
+- (2026-10-14) LeonixAI (Threat Radar): Grok Bot browser fingerprint similar to Muse but varying IP ranges.
+- (2026-10-14) Sara (Marketing Ops Strategist): Grok Bot most used; persistent agents with cloud computers.
+- (2026-10-14) Sara (Marketing Ops Strategist): Grok Bot researched doctors, checked calendar, sent email to reschedule.
+- (2026-10-14) Pasquale Pillitteri: Musk announced Grok Bot will route to Claude Opus 5.5, Midjourney, Suno.
+- (2026-10-14) Pasquale Pillitteri: Team member confirmed all Bots powered by Opus 5.5 as of Oct 7.
+- (2026-10-14) Dhruv Jain (Build to Launch comment): "every job ends with proof, not just 'done'"
+
+**Feedback rows:** 1229 (as of 2026-10-15)
 

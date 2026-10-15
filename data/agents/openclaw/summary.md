@@ -89,4 +89,11 @@ _Updated 2026-10-13 weekday vault scan (+2 rows)._
 - (2026-10-13) r/openclaw: Every update breaks something; memory and keys fail post-upgrade.
 - (2026-10-13) r/openclaw: Switched to Hermes after another broken update; Hermes ported cron jobs easily.
 
-**Feedback rows:** 52 (as of 2026-10-13)
+_Updated 2026-10-15 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-01) Felipe Fontoura: Pick OpenClaw for device-native PA with wake word and heartbeat.
+- (2026-10-01) Felipe Fontoura: OpenClaw still wins reach; depth gap with Hermes mostly closed.
+- (2026-10-01) Felipe Fontoura: OpenClaw heartbeat (30min) vs Hermes cron-only; heartbeat is the PA feature.
+
+**Feedback rows:** 55 (as of 2026-10-15)

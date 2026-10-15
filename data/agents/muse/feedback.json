@@ -5885,5 +5885,96 @@
     "source": "web",
     "collected_at": "2026-10-13T14:00:00Z",
     "notes": "Oct 8: Yelp blocks non-human traffic unless agent pays for data licensing."
+  },
+  {
+    "id": "f15btl01",
+    "agent": "muse",
+    "quote": "One article in, a podcast out, with a public feed. I gave Muse my article on resetting your skill set in one day and asked for a 2-minute episode. It made 'Reset in One Day: An AI Plan for Busy Builders,' read by a host voice called Alex.",
+    "author": "jennyouyang",
+    "author_name": "Jenny Ouyang",
+    "date": "2026-10-14",
+    "url": "https://buildtolaunch.substack.com/p/chatgpt-dot-vs-grok-bot-vs-meta-muse-use-cases#muse-podcast",
+    "kind": "use-case",
+    "tags": [
+      "podcast",
+      "audio",
+      "content-creation"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Build to Launch Oct 14: Muse created podcast episode with public RSS from single article."
+  },
+  {
+    "id": "f15btl02",
+    "agent": "muse",
+    "quote": "Muse makes the Meta apps way easier to use. Everything sits in one place, from the chat to the podcast feed to the files, and your accounts are connected before you ask.",
+    "author": "jennyouyang",
+    "author_name": "Jenny Ouyang",
+    "date": "2026-10-14",
+    "url": "https://buildtolaunch.substack.com/p/chatgpt-dot-vs-grok-bot-vs-meta-muse-use-cases#muse-take",
+    "kind": "praise",
+    "tags": [
+      "meta-apps",
+      "integration",
+      "ease-of-use"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Build to Launch: Muse unifies Meta apps; accounts pre-connected."
+  },
+  {
+    "id": "f15radar01",
+    "agent": "muse",
+    "quote": "Both agents exhibited similar browser and infrastructure characteristics, such as operating system, browser version, and GPU rendering method, with some differences in processor count and screen resolution.",
+    "author": "LeonixAI",
+    "author_name": "LeonixAI (Threat Radar)",
+    "date": "2026-10-14",
+    "url": "https://radar.offseq.com/threat/i-tested-muse-ai-and-grok-bot-different-agents-surprisingly-similar-browser-intel-c06c380694546d7c",
+    "kind": "other",
+    "tags": [
+      "browser-fingerprint",
+      "infrastructure",
+      "vs-grok-bot",
+      "security-research"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Threat Radar Oct 14: Muse and Grok Bot show similar browser fingerprints."
+  },
+  {
+    "id": "f15mops01",
+    "agent": "muse",
+    "quote": "Muse and Instinct are more focused on the B2C consumer. Muse runs your email and calendar inside its own secure virtual machine, while Instinct has basically no interface at all... you just text, call or email it like a human assistant.",
+    "author": "saramops",
+    "author_name": "Sara (Marketing Operations Strategist)",
+    "date": "2026-10-14",
+    "url": "https://the-marketing-operations-strategist.beehiiv.com/p/muse-instinct-grok-bot-show-where-ops-ai-is-headed",
+    "kind": "comparison",
+    "tags": [
+      "b2c",
+      "vm",
+      "vs-instinct"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Marketing Ops Strategist Oct 14: Muse B2C-focused with VM; vs Instinct no-interface."
+  },
+  {
+    "id": "f15mops02",
+    "agent": "muse",
+    "quote": "On monetization, you pay Grok Bot a monthly fee while Muse is free... and with free products, your data is usually the product, even if Meta's current retention policies look clear today.",
+    "author": "saramops",
+    "author_name": "Sara (Marketing Operations Strategist)",
+    "date": "2026-10-14",
+    "url": "https://the-marketing-operations-strategist.beehiiv.com/p/muse-instinct-grok-bot-show-where-ops-ai-is-headed#monetization",
+    "kind": "complaint",
+    "tags": [
+      "free",
+      "data-privacy",
+      "monetization"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Marketing Ops: Muse free but 'data is the product' concern."
   }
 ]

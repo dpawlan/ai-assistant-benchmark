@@ -29390,5 +29390,156 @@
     "source": "web",
     "collected_at": "2026-10-14T14:00:00Z",
     "notes": "Forum Oct 13: Grok Bot computer locked since Oct 8 restart; browser, uploads, secrets all blocked."
+  },
+  {
+    "id": "f15btl01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot gives you a small team instead of one assistant. Each Bot has a name and a job, they all share one cloud computer, and they pass work to each other. It also reads X without setup, which neither of the others does.",
+    "author": "jennyouyang",
+    "author_name": "Jenny Ouyang",
+    "date": "2026-10-14",
+    "url": "https://buildtolaunch.substack.com/p/chatgpt-dot-vs-grok-bot-vs-meta-muse-use-cases",
+    "kind": "comparison",
+    "tags": [
+      "multi-bot",
+      "team",
+      "x-integration",
+      "vs-dots",
+      "vs-muse"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Build to Launch Oct 14 three-agent comparison: Grok Bot as bot team with native X access."
+  },
+  {
+    "id": "f15btl02",
+    "agent": "grok-bot",
+    "quote": "The Bots check each other's work. After reading X, I made X Scout to coordinate with Writer for an 80-word note about the top complaint of personal agents. Writer quoted a real post from @tormius, and X Scout checked the quote against the post, word for word, before showing me the draft.",
+    "author": "jennyouyang",
+    "author_name": "Jenny Ouyang",
+    "date": "2026-10-14",
+    "url": "https://buildtolaunch.substack.com/p/chatgpt-dot-vs-grok-bot-vs-meta-muse-use-cases#bots-check",
+    "kind": "use-case",
+    "tags": [
+      "multi-bot",
+      "verification",
+      "x-research"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Build to Launch: X Scout checked Writer's quote word for word before showing draft."
+  },
+  {
+    "id": "f15btl03",
+    "agent": "grok-bot",
+    "quote": "If I had to start from scratch, with any pre-existing subscriptions, I'd go with Grok Bot. I'm not a Grok fan, I pay for the highest tiers to use Claude and Codex, and minimum to use Grok for basic needs. But it has the one thing I love most: several agents that work together out of the box.",
+    "author": "jennyouyang",
+    "author_name": "Jenny Ouyang",
+    "date": "2026-10-14",
+    "url": "https://buildtolaunch.substack.com/p/chatgpt-dot-vs-grok-bot-vs-meta-muse-use-cases#verdict",
+    "kind": "praise",
+    "tags": [
+      "recommendation",
+      "multi-bot",
+      "vs-dots",
+      "vs-muse"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Build to Launch verdict: Grok Bot best pick for multi-agent collaboration out of the box."
+  },
+  {
+    "id": "f15radar01",
+    "agent": "grok-bot",
+    "quote": "Both sessions showed similar infrastructure characteristics, including software GPU rendering, with differences in reported processor count and screen resolution. Unlike the Muse sessions I tested, Grok Bot traffic did not appear to consistently come from the same IP range.",
+    "author": "LeonixAI",
+    "author_name": "LeonixAI (Threat Radar)",
+    "date": "2026-10-14",
+    "url": "https://radar.offseq.com/threat/i-tested-muse-ai-and-grok-bot-different-agents-surprisingly-similar-browser-intel-c06c380694546d7c",
+    "kind": "other",
+    "tags": [
+      "browser-fingerprint",
+      "infrastructure",
+      "vs-muse",
+      "security-research"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Threat Radar Oct 14: Grok Bot browser fingerprint similar to Muse but varying IP ranges."
+  },
+  {
+    "id": "f15mops01",
+    "agent": "grok-bot",
+    "quote": "I'm using Grok Bot the most so far, with Muse being a close second. Grok Bot gives persistent agents their own cloud computers, so they can log into tools, remember context and keep working after you close your laptop.",
+    "author": "saramops",
+    "author_name": "Sara (Marketing Operations Strategist)",
+    "date": "2026-10-14",
+    "url": "https://the-marketing-operations-strategist.beehiiv.com/p/muse-instinct-grok-bot-show-where-ops-ai-is-headed",
+    "kind": "use-case",
+    "tags": [
+      "persistent",
+      "cloud-computer",
+      "context",
+      "b2b"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Marketing Ops Strategist Oct 14: Grok Bot most used; persistent agents with cloud computers."
+  },
+  {
+    "id": "f15mops02",
+    "agent": "grok-bot",
+    "quote": "Today I used Grok Bot to see an incoming email about my doctor going on maternity leave. I was able to have Grok Bot research the potential doctors to reschedule my checkup with, recommend one with reasoning, check my calendar for availability, and send a response via email so the front desk could go ahead and schedule me.",
+    "author": "saramops",
+    "author_name": "Sara (Marketing Operations Strategist)",
+    "date": "2026-10-14",
+    "url": "https://the-marketing-operations-strategist.beehiiv.com/p/muse-instinct-grok-bot-show-where-ops-ai-is-headed#doctor",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "research",
+      "calendar",
+      "scheduling"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Marketing Ops: Grok Bot researched doctors, checked calendar, sent email to reschedule."
+  },
+  {
+    "id": "f15pill01",
+    "agent": "grok-bot",
+    "quote": "Elon Musk wrote on X on October 7, 2026 that SpaceX will use 'the best back end model for any given task' for Grok Bot, his AI agent, naming three providers: Anthropic's Claude Opus 5.5, Midjourney and Suno, plus other 'leading APIs' left unlisted.",
+    "author": "pasqualepillitteri",
+    "author_name": "Pasquale Pillitteri",
+    "date": "2026-10-14",
+    "url": "https://pasqualepillitteri.it/en/news/23773/musk-confirms-grok-bot-will-choose-claude-opus-5-5-midjourney-suno",
+    "kind": "news",
+    "tags": [
+      "claude-opus-5.5",
+      "midjourney",
+      "suno",
+      "model-routing"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Pillitteri Oct 14: Musk announced Grok Bot will route to Claude Opus 5.5, Midjourney, Suno."
+  },
+  {
+    "id": "f15pill02",
+    "agent": "grok-bot",
+    "quote": "The only sign of implementation comes from a member of the Grok Bot team, who wrote on X that every Bot in the app will be powered by Opus 5.5. TBreak and iThinkDiff report it and date the rollout to October 7.",
+    "author": "pasqualepillitteri",
+    "author_name": "Pasquale Pillitteri",
+    "date": "2026-10-14",
+    "url": "https://pasqualepillitteri.it/en/news/23773/musk-confirms-grok-bot-will-choose-claude-opus-5-5-midjourney-suno#opus",
+    "kind": "news",
+    "tags": [
+      "claude-opus-5.5",
+      "rollout",
+      "team-confirmation"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-15T14:00:00Z",
+    "notes": "Pillitteri: Team member confirmed all Bots powered by Opus 5.5 as of Oct 7."
   }
 ]

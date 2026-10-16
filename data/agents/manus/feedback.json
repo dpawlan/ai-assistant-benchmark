@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "f16ps01",
+    "agent": "manus",
+    "quote": "Research and multi-step web tasks without setup: Manus.",
+    "author": "perkshelf",
+    "author_name": "PerkShelf",
+    "date": "2026-10-15",
+    "url": "https://perkshelf.dev/blog/personal-ai-agents-compared-muse-grok-bot-hermes-openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "research",
+      "web-tasks",
+      "no-setup"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "PerkShelf Oct 15: Manus recommended for research and multi-step web tasks without setup."
+  }
+]

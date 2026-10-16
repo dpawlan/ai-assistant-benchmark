@@ -174,5 +174,14 @@ _Updated 2026-10-15 weekday vault scan (+8 rows)._
 - (2026-10-14) Pasquale Pillitteri: Team member confirmed all Bots powered by Opus 5.5 as of Oct 7.
 - (2026-10-14) Dhruv Jain (Build to Launch comment): "every job ends with proof, not just 'done'"
 
-**Feedback rows:** 1229 (as of 2026-10-15)
+_Updated 2026-10-16 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-09-24) TestedActually: Grok Bot best as plan benefit; no standalone price; unpredictable cost.
+- (2026-10-15) PerkShelf: Grok Bot recommended for work across many apps with agent teams.
+- (2026-10-16) X (nvandewetering): Claude should compete with Grok Bot/Muse/Dots as personal assistant.
+- (2026-10-16) X (Loster): Hermes described as 'self-hosted grok bot'; user loves it.
+- (2026-10-16) X (QuinnAidan_): MCP server tested with four agents including Grok; interop challenges.
+
+**Feedback rows:** 1234 (as of 2026-10-16)
 

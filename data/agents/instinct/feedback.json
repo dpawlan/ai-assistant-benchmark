@@ -6701,5 +6701,137 @@
     "source": "web",
     "collected_at": "2026-10-15T14:00:00Z",
     "notes": "Marketing Ops: Instinct travel referral monetization raises recommendation bias concern."
+  },
+  {
+    "id": "f16vox01",
+    "agent": "instinct",
+    "quote": "I had my own misunderstanding with Instinct. In a text message, the agent reminded me about a couple of emails I'd received and prompted me to follow up. When I replied to the text, I asked Instinct to show me possible replies to these emails. The AI agent instead just sent the responses it wrote. I audibly gasped.",
+    "author": "adamclarkestes",
+    "author_name": "Adam Clark Estes (Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#instinct-email",
+    "kind": "bug",
+    "tags": [
+      "email",
+      "autonomy",
+      "misunderstanding",
+      "drafts",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Instinct sent email replies instead of showing drafts; author audibly gasped."
+  },
+  {
+    "id": "f16vox02",
+    "agent": "instinct",
+    "quote": "She recently took a picture of a parking ticket and sent it to Instinct, no description, no instructions. Instinct, which had her credit card, just paid the ticket.",
+    "author": "mattvh",
+    "author_name": "Matt Van Horn (via Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#parking-ticket",
+    "kind": "use-case",
+    "tags": [
+      "parking-ticket",
+      "payments",
+      "autonomy",
+      "image-recognition"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Van Horn's wife sent parking ticket photo; Instinct paid it autonomously."
+  },
+  {
+    "id": "f16vox03",
+    "agent": "instinct",
+    "quote": "I've been pushy with my mom and my wife, and saying, 'Hey, you should sign up for this. It's magical.'",
+    "author": "mattvh",
+    "author_name": "Matt Van Horn (via Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#magical",
+    "kind": "praise",
+    "tags": [
+      "recommendation",
+      "family",
+      "magical"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Matt Van Horn describes Instinct as magical, pushes family to sign up."
+  },
+  {
+    "id": "f16vox04",
+    "agent": "instinct",
+    "quote": "In the beginning, it's very hard to trust that it's going to just magically do a really big thing. So you give it smaller tasks, and once you see it succeed, then I feel like you develop more trust that it can tackle bigger things.",
+    "author": "juliezhuo",
+    "author_name": "Julie Zhuo (Sundial, via Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#trust",
+    "kind": "other",
+    "tags": [
+      "trust",
+      "onboarding",
+      "start-small",
+      "expert"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Julie Zhuo on building trust with AI agents by starting small."
+  },
+  {
+    "id": "f16vox05",
+    "agent": "instinct",
+    "quote": "I still have a text thread going with Instinct, however. It messages me from time to time, flagging an email or offering to help with an upcoming event. When there's a clear payoff to giving the agent the go-ahead, I reply. Otherwise, I leave it on read.",
+    "author": "adamclarkestes",
+    "author_name": "Adam Clark Estes (Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#instinct-verdict",
+    "kind": "use-case",
+    "tags": [
+      "retention",
+      "proactive",
+      "hands-on",
+      "verdict"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Author stopped using Muse but still texts with Instinct; replies when clear payoff."
+  },
+  {
+    "id": "f16ta01",
+    "agent": "instinct",
+    "quote": "Instinct — best for watching where consumer agents are headed, it books, buys, and cancels end to end and went from stealth to a $2.5 billion valuation in weeks. Don't use it if you want the tool today, it is invite-only, its terms make it a legal agent with binding authority and no delete-on-disconnect.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/#instinct",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "binding-authority",
+      "terms",
+      "invite-only"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: Instinct has binding legal authority in its terms; invite-only."
+  },
+  {
+    "id": "f16x01",
+    "agent": "instinct",
+    "quote": "For the first time, I tried a TOMATO RAMEN yesterday and it was awesome. Instinct AI agent helped me find it.",
+    "author": "adityakalra",
+    "author_name": "adityakalra",
+    "date": "2026-10-16",
+    "url": "https://x.com/adityakalra/status/2111074907664867630",
+    "kind": "use-case",
+    "tags": [
+      "food",
+      "discovery",
+      "recommendations"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Instinct helped user find tomato ramen restaurant."
   }
 ]

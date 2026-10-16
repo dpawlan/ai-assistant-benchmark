@@ -431,5 +431,137 @@
     "source": "web",
     "collected_at": "2026-10-15T14:00:00Z",
     "notes": "Fontoura: Stays with Hermes for VPS fleet with orchestrator-driven schedule."
+  },
+  {
+    "id": "f16ta01",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent — best for technical founders who want to own the harness, self-hosted, model-agnostic, and it distills completed work into reusable skills. Don't use it if you want turnkey, you are the operator, on-call for updates, containment, and your own model keys.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/#hermes",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "self-hosted",
+      "skills",
+      "technical-founders"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: Hermes for technical founders; self-hosted; distills skills."
+  },
+  {
+    "id": "f16ps01",
+    "agent": "hermes-agent",
+    "quote": "Full control and your own choice of model: Hermes or OpenClaw.",
+    "author": "perkshelf",
+    "author_name": "PerkShelf",
+    "date": "2026-10-15",
+    "url": "https://perkshelf.dev/blog/personal-ai-agents-compared-muse-grok-bot-hermes-openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "control",
+      "model-choice",
+      "vs-openclaw"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "PerkShelf Oct 15: Hermes or OpenClaw for full control and model choice."
+  },
+  {
+    "id": "f16x01",
+    "agent": "hermes-agent",
+    "quote": "Honest question: if I'm already tweaking Hermes to be my own personal assistant, is there any benefit to using something like Muse or @bot?",
+    "author": "brianmmdev",
+    "author_name": "brianmmdev",
+    "date": "2026-10-16",
+    "url": "https://x.com/brianmmdev/status/2111080983554580786",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "self-hosted",
+      "personal-assistant"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: User already tweaking Hermes as personal assistant; asks if Muse adds value."
+  },
+  {
+    "id": "f16x02",
+    "agent": "hermes-agent",
+    "quote": "What started as a FOMO experiment with the Hermes agent quickly turned into a full-blown packaging helper. When I started I had no clue of any use case but ended up using Hermes backed by solr4-pro from Upstage freely via Nous Research to complete a few pending things.",
+    "author": "copyninja_",
+    "author_name": "copyninja_",
+    "date": "2026-10-16",
+    "url": "https://x.com/copyninja_/status/2111079913503785125",
+    "kind": "use-case",
+    "tags": [
+      "packaging",
+      "nous-research",
+      "upstage",
+      "fomo-to-use"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Hermes FOMO experiment became real packaging helper via Nous/Upstage free models."
+  },
+  {
+    "id": "f16x03",
+    "agent": "hermes-agent",
+    "quote": "I've been wanting to get a sense of how the free models through Nous Portal fared if I used them for my various personal agents through Hermes. so I got my agent to build me an open benchmark called staffbench. it tests 9 different personal agent roles using those free models.",
+    "author": "calvinnwq",
+    "author_name": "calvinnwq",
+    "date": "2026-10-16",
+    "url": "https://x.com/calvinnwq/status/2111079165273280662",
+    "kind": "use-case",
+    "tags": [
+      "benchmark",
+      "nous-portal",
+      "free-models",
+      "staffbench"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Built staffbench to test 9 personal agent roles on Nous Portal free models via Hermes."
+  },
+  {
+    "id": "f16x04",
+    "agent": "hermes-agent",
+    "quote": "Spent some time testing a fully local AI agent on my POCO X7 Pro using Termux, llama.cpp, and Hermes. Got real terminal execution working, but performance and command accuracy were another story.",
+    "author": "datzholyg",
+    "author_name": "datzholyg",
+    "date": "2026-10-16",
+    "url": "https://x.com/datzholyg/status/2111087183633268776",
+    "kind": "use-case",
+    "tags": [
+      "android",
+      "termux",
+      "llama.cpp",
+      "local",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Local Hermes agent on Android POCO X7 Pro via Termux/llama.cpp; terminal works but accuracy lacking."
+  },
+  {
+    "id": "f16x05",
+    "agent": "hermes-agent",
+    "quote": "You might find Hermes Agent interesting to try. It's self-hosted grok bot. I really love it.",
+    "author": "Loster",
+    "author_name": "Loster",
+    "date": "2026-10-16",
+    "url": "https://x.com/Loster/status/2111075161566822522",
+    "kind": "praise",
+    "tags": [
+      "vs-grok-bot",
+      "self-hosted",
+      "recommendation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Describes Hermes as 'self-hosted grok bot'; loves it."
   }
 ]

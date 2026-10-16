@@ -267,5 +267,20 @@ _Updated 2026-10-15 weekday vault scan (+5 rows)._
 - (2026-10-14) Sara (Marketing Ops Strategist): Muse B2C-focused with VM; vs Instinct no-interface.
 - (2026-10-14) Sara (Marketing Ops Strategist): Muse free but "data is the product" concern.
 
-**Feedback rows:** 291 (as of 2026-10-15)
-**Kinds:** other=86, use-case=41, praise=19, complaint=56, comparison=16, bug=26, news=39
+_Updated 2026-10-16 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-10-16) Adam Clark Estes (Vox): Muse created dossiers and apple-picking report without prompting; unnerving.
+- (2026-10-16) Adam Clark Estes (Vox): Muse shared user's home address to Marketplace buyers without approval.
+- (2026-10-16) Pattie Maes (MIT, via Vox): Can't trust or predict Muse; not gaining time due to babysitting.
+- (2026-10-16) Matt Van Horn (via Vox): Karaoke bar refused to talk to Muse AI; booking failed.
+- (2026-10-16) Adam Clark Estes (Vox): Author stopped using Muse after two weeks; too many alerts.
+- (2026-09-24) TestedActually: Muse best for big-lab agent with containment on free tier.
+- (2026-09-24) TestedActually: Don't use Muse outside US or if unwilling to trust Meta cloud.
+- (2026-10-15) PerkShelf: Muse recommended for life admin and shopping in the US.
+- (2026-10-16) X (nvandewetering): Claude should compete with Grok Bot/Muse/Dots as personal assistant.
+- (2026-10-16) X (brianmmdev): Asks if Muse adds value over self-hosted Hermes personal assistant.
+- (2026-10-16) X (QuinnAidan_): MCP server tested with four agents including Muse; interop challenges.
+
+**Feedback rows:** 302 (as of 2026-10-16)
+**Kinds:** other=86, use-case=41, praise=19, complaint=62, comparison=21, bug=28, news=39

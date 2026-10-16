@@ -29541,5 +29541,101 @@
     "source": "web",
     "collected_at": "2026-10-15T14:00:00Z",
     "notes": "Pillitteri: Team member confirmed all Bots powered by Opus 5.5 as of Oct 7."
+  },
+  {
+    "id": "f16ta01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot — best for an always-on teammate when you already pay for SuperGrok or Cursor, priced as a plan benefit, not a product. Don't use it if you want a predictable bill, there is no standalone price, the cheapest gate is a $30 subscription, and usage allowances are unpublished.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/#grok-bot",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "pricing",
+      "supergrok",
+      "cursor",
+      "bundled"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: Grok Bot best as plan benefit; no standalone price; unpredictable cost."
+  },
+  {
+    "id": "f16ps01",
+    "agent": "grok-bot",
+    "quote": "Work across many apps, with a team of agents: Grok Bot.",
+    "author": "perkshelf",
+    "author_name": "PerkShelf",
+    "date": "2026-10-15",
+    "url": "https://perkshelf.dev/blog/personal-ai-agents-compared-muse-grok-bot-hermes-openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "work",
+      "multi-agent",
+      "recommendation"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "PerkShelf Oct 15: Grok Bot recommended for work across many apps with agent teams."
+  },
+  {
+    "id": "f16x01",
+    "agent": "grok-bot",
+    "quote": "Claude NEEDS to compete with Grok Bot / Muse / Dots and provide a personal assistant AI agent. And give it voice mode. Imagine building triple AAA multiplayer games with Opus 5.5 while you're yapping through your AirPods at the gym. I've fallen in love with the idea of Dots",
+    "author": "nvandewetering",
+    "author_name": "nvandewetering",
+    "date": "2026-10-16",
+    "url": "https://x.com/nvandewetering/status/2111087011352445103",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude",
+      "vs-muse",
+      "vs-dots",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Claude should compete with Grok Bot/Muse/Dots as personal assistant."
+  },
+  {
+    "id": "f16x02",
+    "agent": "grok-bot",
+    "quote": "You might find Hermes Agent interesting to try. It's self-hosted grok bot. I really love it.",
+    "author": "Loster",
+    "author_name": "Loster",
+    "date": "2026-10-16",
+    "url": "https://x.com/Loster/status/2111075161566822522",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "self-hosted",
+      "recommendation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Hermes described as 'self-hosted grok bot'; user loves it."
+  },
+  {
+    "id": "f16x03",
+    "agent": "grok-bot",
+    "quote": "One MCP server. Four AI assistants. Four completely different ways to connect. We tested Claude, Grok, ChatGPT & Muse with LemMeBuyIt. What we discovered exposes a major challenge facing AI agents.",
+    "author": "QuinnAidan_",
+    "author_name": "QuinnAidan_",
+    "date": "2026-10-16",
+    "url": "https://x.com/QuinnAidan_/status/2111076235329650799",
+    "kind": "comparison",
+    "tags": [
+      "mcp",
+      "vs-claude",
+      "vs-chatgpt",
+      "vs-muse",
+      "interoperability"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: MCP server tested with four agents including Grok; interop challenges."
   }
 ]

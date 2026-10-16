@@ -1046,5 +1046,44 @@
     "source": "web",
     "collected_at": "2026-10-15T14:00:00Z",
     "notes": "Fontoura: OpenClaw heartbeat (30min) vs Hermes cron-only; heartbeat is the PA feature."
+  },
+  {
+    "id": "f16ta01",
+    "agent": "openclaw",
+    "quote": "OpenClaw — best for the largest open-source install base and the widest channel reach, around 29 messaging platforms from one gateway. Don't use it if you skip containment, its 2026 record includes exploited CVEs, a poisoned skill marketplace, and exposed instances, isolate it or pick its safer fork.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/#openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "29-channels",
+      "security",
+      "cve",
+      "containment"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: OpenClaw widest reach (29 platforms) but 2026 security record concerning."
+  },
+  {
+    "id": "f16ps01",
+    "agent": "openclaw",
+    "quote": "Full control and your own choice of model: Hermes or OpenClaw.",
+    "author": "perkshelf",
+    "author_name": "PerkShelf",
+    "date": "2026-10-15",
+    "url": "https://perkshelf.dev/blog/personal-ai-agents-compared-muse-grok-bot-hermes-openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "control",
+      "model-choice",
+      "vs-hermes"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "PerkShelf Oct 15: OpenClaw or Hermes for full control and model choice."
   }
 ]

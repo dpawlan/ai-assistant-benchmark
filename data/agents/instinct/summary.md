@@ -277,5 +277,16 @@ _Updated 2026-10-15 weekday vault scan (+5 rows)._
 - (2026-10-08) AI Superior: Sep 21 incident with apparent cross-user data; Shinn said hallucination not breach.
 - (2026-10-14) Sara (Marketing Ops Strategist): Travel referral monetization raises recommendation bias concern.
 
-**Feedback rows:** 319 (as of 2026-10-15)
+_Updated 2026-10-16 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-10-16) Adam Clark Estes (Vox): Instinct sent email replies instead of showing drafts; author audibly gasped.
+- (2026-10-16) Matt Van Horn (via Vox): Wife sent parking ticket photo; Instinct paid it autonomously.
+- (2026-10-16) Matt Van Horn (via Vox): Describes Instinct as magical, pushes family to sign up.
+- (2026-10-16) Julie Zhuo (Sundial, via Vox): On building trust with AI agents by starting small.
+- (2026-10-16) Adam Clark Estes (Vox): Stopped using Muse but still texts with Instinct; replies when clear payoff.
+- (2026-09-24) TestedActually: Instinct has binding legal authority in its terms; invite-only.
+- (2026-10-16) X (adityakalra): Instinct helped user find tomato ramen restaurant.
+
+**Feedback rows:** 326 (as of 2026-10-16)
 

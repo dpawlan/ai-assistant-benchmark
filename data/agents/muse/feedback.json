@@ -5976,5 +5976,216 @@
     "source": "web",
     "collected_at": "2026-10-15T14:00:00Z",
     "notes": "Marketing Ops: Muse free but 'data is the product' concern."
+  },
+  {
+    "id": "f16vox01",
+    "agent": "muse",
+    "quote": "When I first began using Muse, it started doing things I didn't ask it to do. It offered to help with random email threads and created dossiers on people in my work meetings. It generated a detailed report on nearby apple-picking destinations based on a calendar invite from my wife. To me, an AI agent doing these things without prompting isn't helpful. It's unnerving.",
+    "author": "adamclarkestes",
+    "author_name": "Adam Clark Estes (Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent",
+    "kind": "complaint",
+    "tags": [
+      "proactive",
+      "dossiers",
+      "unprompted",
+      "privacy",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Muse created dossiers and apple-picking report without prompting; unnerving."
+  },
+  {
+    "id": "f16vox02",
+    "agent": "muse",
+    "quote": "One early adopter, Matt Robb, gave Muse the keys to his Facebook Marketplace account and was surprised when buyers started showing up at his front door ready to pick up their purchase. Muse, without asking Robb, had told them where to go. It turns out, without realizing it, Robb had given the agent permission to do so, and the agent had simply decided that the most efficient way to get buyers to Robb's door was to give them his home address.",
+    "author": "adamclarkestes",
+    "author_name": "Adam Clark Estes (Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#marketplace",
+    "kind": "bug",
+    "tags": [
+      "facebook-marketplace",
+      "home-address",
+      "autonomy",
+      "safety",
+      "permissions"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Muse shared user's home address to Marketplace buyers without approval."
+  },
+  {
+    "id": "f16vox03",
+    "agent": "muse",
+    "quote": "I feel like I'm not gaining a lot of time because I can't completely trust the system and I can't predict how it will behave and what it will do.",
+    "author": "pattiemaes",
+    "author_name": "Pattie Maes (MIT, via Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#maes",
+    "kind": "complaint",
+    "tags": [
+      "trust",
+      "predictability",
+      "time",
+      "expert"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: MIT's Pattie Maes on Muse: can't trust or predict the system."
+  },
+  {
+    "id": "f16vox04",
+    "agent": "muse",
+    "quote": "Van Horn told me about the unfortunate time he enlisted an AI agent to reserve a room at a karaoke bar. 'The karaoke place said, \"Are you an AI? I don't want to talk to an AI. Please connect me to Matt, the person.\"' And so Muse had failed to book that for me.",
+    "author": "mattvh",
+    "author_name": "Matt Van Horn (via Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#karaoke",
+    "kind": "bug",
+    "tags": [
+      "booking",
+      "phone-calls",
+      "detection",
+      "failure"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Karaoke bar refused to talk to Muse AI; booking failed."
+  },
+  {
+    "id": "f16vox05",
+    "agent": "muse",
+    "quote": "In an effort not to create more emails or alerts or feeds to sift through, I've stopped using Muse. Like any new tool, it will get better and more useful as more people use it, so maybe I'll revisit it in the future.",
+    "author": "adamclarkestes",
+    "author_name": "Adam Clark Estes (Vox)",
+    "date": "2026-10-16",
+    "url": "https://www.vox.com/advice/506547/muse-instinct-chatgpt-dots-ai-personal-agent#verdict",
+    "kind": "complaint",
+    "tags": [
+      "churn",
+      "notifications",
+      "verdict",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "Vox Oct 16: Author stopped using Muse after two weeks; too many alerts."
+  },
+  {
+    "id": "f16ta01",
+    "agent": "muse",
+    "quote": "Muse is the pick if you want a personal agent from a major lab today and accept a Meta-run cloud holding the keys: it is the only one here that is generally available, on a free tier, with containment (a per-user secure VM and a separate watchdog) documented at launch.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "containment",
+      "free-tier",
+      "vm"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: Muse best for big-lab agent with containment on free tier."
+  },
+  {
+    "id": "f16ta02",
+    "agent": "muse",
+    "quote": "Don't use it if you are outside the United States, or you will not hand a Meta-run cloud agent your email and payment rails.",
+    "author": "testedactually",
+    "author_name": "TestedActually",
+    "date": "2026-09-24",
+    "url": "https://testedactually.com/personal-ai-agents/#muse-dont",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "us-only",
+      "privacy",
+      "meta"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "TestedActually Sep 24: Don't use Muse outside US or if unwilling to trust Meta cloud."
+  },
+  {
+    "id": "f16ps01",
+    "agent": "muse",
+    "quote": "Life admin and shopping in the US: Muse.",
+    "author": "perkshelf",
+    "author_name": "PerkShelf",
+    "date": "2026-10-15",
+    "url": "https://perkshelf.dev/blog/personal-ai-agents-compared-muse-grok-bot-hermes-openclaw",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "life-admin",
+      "shopping",
+      "recommendation"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "PerkShelf Oct 15: Muse recommended for life admin and shopping in the US."
+  },
+  {
+    "id": "f16x01",
+    "agent": "muse",
+    "quote": "Claude NEEDS to compete with Grok Bot / Muse / Dots and provide a personal assistant AI agent. And give it voice mode. Imagine building triple AAA multiplayer games with Opus 5.5 while you're yapping through your AirPods at the gym. I've fallen in love with the idea of Dots",
+    "author": "nvandewetering",
+    "author_name": "nvandewetering",
+    "date": "2026-10-16",
+    "url": "https://x.com/nvandewetering/status/2111087011352445103",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude",
+      "vs-grok-bot",
+      "vs-dots",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Claude should compete with Grok Bot/Muse/Dots as personal assistant."
+  },
+  {
+    "id": "f16x02",
+    "agent": "muse",
+    "quote": "Honest question: if I'm already tweaking Hermes to be my own personal assistant, is there any benefit to using something like Muse or @bot?",
+    "author": "brianmmdev",
+    "author_name": "brianmmdev",
+    "date": "2026-10-16",
+    "url": "https://x.com/brianmmdev/status/2111080983554580786",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "self-hosted",
+      "question"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: Asks if Muse adds value over self-hosted Hermes personal assistant."
+  },
+  {
+    "id": "f16x03",
+    "agent": "muse",
+    "quote": "One MCP server. Four AI assistants. Four completely different ways to connect. We tested Claude, Grok, ChatGPT & Muse with LemMeBuyIt. What we discovered exposes a major challenge facing AI agents.",
+    "author": "QuinnAidan_",
+    "author_name": "QuinnAidan_",
+    "date": "2026-10-16",
+    "url": "https://x.com/QuinnAidan_/status/2111076235329650799",
+    "kind": "comparison",
+    "tags": [
+      "mcp",
+      "vs-claude",
+      "vs-grok",
+      "vs-chatgpt",
+      "interoperability"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-16T14:00:00Z",
+    "notes": "X Oct 16: MCP server tested with four agents including Muse; interop challenges."
   }
 ]

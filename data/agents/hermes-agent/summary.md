@@ -65,4 +65,15 @@ _Updated 2026-10-15 weekday vault scan (+3 rows)._
 - (2026-10-01) Felipe Fontoura: Hermes 7 backends (including Modal, Daytona, Vercel Sandbox) vs OpenClaw host-default execution.
 - (2026-10-01) Felipe Fontoura: Stays with Hermes for VPS fleet with orchestrator-driven schedule.
 
-**Feedback rows:** 23 (as of 2026-10-15)
+_Updated 2026-10-16 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-09-24) TestedActually: Hermes for technical founders; self-hosted; distills work into skills.
+- (2026-10-15) PerkShelf: Hermes or OpenClaw for full control and model choice.
+- (2026-10-16) X (brianmmdev): User already tweaking Hermes as personal assistant; asks if Muse adds value.
+- (2026-10-16) X (copyninja_): Hermes FOMO experiment became real packaging helper via Nous/Upstage free models.
+- (2026-10-16) X (calvinnwq): Built staffbench to test 9 personal agent roles on Nous Portal free models via Hermes.
+- (2026-10-16) X (datzholyg): Local Hermes agent on Android POCO X7 Pro via Termux/llama.cpp; terminal works but accuracy lacking.
+- (2026-10-16) X (Loster): Describes Hermes as 'self-hosted grok bot'; loves it.
+
+**Feedback rows:** 30 (as of 2026-10-16)

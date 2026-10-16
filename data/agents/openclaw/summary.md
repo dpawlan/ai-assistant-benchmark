@@ -96,4 +96,10 @@ _Updated 2026-10-15 weekday vault scan (+3 rows)._
 - (2026-10-01) Felipe Fontoura: OpenClaw still wins reach; depth gap with Hermes mostly closed.
 - (2026-10-01) Felipe Fontoura: OpenClaw heartbeat (30min) vs Hermes cron-only; heartbeat is the PA feature.
 
-**Feedback rows:** 55 (as of 2026-10-15)
+_Updated 2026-10-16 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-09-24) TestedActually: OpenClaw widest reach (29 platforms) but 2026 security record concerning.
+- (2026-10-15) PerkShelf: OpenClaw or Hermes for full control and model choice.
+
+**Feedback rows:** 57 (as of 2026-10-16)

@@ -148,5 +148,15 @@
     "outcome": "partial",
     "notes": "Searched down from $68.59 to a $37.98 hand-delivered bouquet over three nudges and flagged a scam florist, but had no card on file.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-14-f8f2a5"
+  },
+  {
+    "id": "wajo-fo-2026-10-19-4b5555",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-10-19",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Now exposes an MCP server, so any MCP client can drive it alongside its own calendar, inbox, Drive, Slack, SMS and phone connections.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-19-4b5555"
   }
 ]

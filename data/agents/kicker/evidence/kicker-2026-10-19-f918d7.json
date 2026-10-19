@@ -1,0 +1,19 @@
+{
+  "id": "kicker-2026-10-19-f918d7",
+  "agent": "kicker",
+  "category": "travel",
+  "protocol": "task",
+  "date": "2026-10-19",
+  "signals": {
+    "turns": 8,
+    "my_messages": 1,
+    "agent_messages": 7,
+    "first_reply_s": 26,
+    "duration_min": 5,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:06:42.537Z"
+}

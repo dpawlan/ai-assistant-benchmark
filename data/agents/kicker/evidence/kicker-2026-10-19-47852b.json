@@ -1,0 +1,19 @@
+{
+  "id": "kicker-2026-10-19-47852b",
+  "agent": "kicker",
+  "category": "online_task",
+  "protocol": "task",
+  "date": "2026-10-19",
+  "signals": {
+    "turns": 16,
+    "my_messages": 3,
+    "agent_messages": 13,
+    "first_reply_s": 19,
+    "duration_min": 7,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:06:42.537Z"
+}

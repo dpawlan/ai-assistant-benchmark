@@ -1,0 +1,19 @@
+{
+  "id": "kicker-2026-10-14-ae448a",
+  "agent": "kicker",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-14",
+  "signals": {
+    "turns": 21,
+    "my_messages": 4,
+    "agent_messages": 17,
+    "first_reply_s": 22,
+    "duration_min": 52,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:06:42.537Z"
+}

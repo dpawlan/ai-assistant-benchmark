@@ -1,0 +1,19 @@
+{
+  "id": "kicker-2026-10-19-e4eb10",
+  "agent": "kicker",
+  "category": "phone_calls",
+  "protocol": "observed",
+  "date": "2026-10-19",
+  "signals": {
+    "turns": 1,
+    "my_messages": 0,
+    "agent_messages": 1,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:06:42.568210Z"
+}

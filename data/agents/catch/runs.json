@@ -58,5 +58,15 @@
     "outcome": "partial",
     "notes": "Tried one florist, found nothing under $50, then stalled at an Instacart login it could not hand over and stopped without buying.",
     "evidence_url": "/agents/catch/evidence/catch-2026-09-24-df2bc4"
+  },
+  {
+    "id": "catch-2026-10-14-1ee6a0",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-14",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Quoted $75 bouquets, found the $27.21 option only from a screenshot, then asked for confirmation twice more after being authorized.",
+    "evidence_url": "/agents/catch/evidence/catch-2026-10-14-1ee6a0"
   }
 ]

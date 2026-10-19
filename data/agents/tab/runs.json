@@ -68,5 +68,15 @@
     "outcome": "partial",
     "notes": "Kept name, card and recipient across tasks, but booked a Saturday dinner without checking the trip it had planned for that weekend.",
     "evidence_url": "/agents/tab/evidence/tab-2026-10-08-56a499"
+  },
+  {
+    "id": "tab-2026-10-14-9626cf",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-14",
+    "score": 4,
+    "outcome": "partial",
+    "notes": "Had a $48.96 bouquet ready to buy, then switched to a $29.85 delivery-app option whose signup code expired before ordering.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-10-14-9626cf"
   }
 ]

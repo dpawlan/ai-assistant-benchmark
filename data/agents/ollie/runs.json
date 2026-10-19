@@ -25,7 +25,7 @@
     "date": "2026-09-14",
     "score": 7,
     "outcome": "partial",
-    "notes": "Selected an AA NYC\u2013Chicago Fri AM / Sun PM round trip around $463, flagged it over $400, and stopped before payment with seats unfinished."
+    "notes": "Selected an AA NYC–Chicago Fri AM / Sun PM round trip around $463, flagged it over $400, and stopped before payment with seats unfinished."
   },
   {
     "id": "ollie-2026-09-14-recommendation",
@@ -126,5 +126,15 @@
     "outcome": "pass",
     "notes": "Weekday 9am NYC weather one-liner fired on all three observed weekdays within minutes of the hour, with accurate content.",
     "evidence_url": "/agents/ollie/evidence/ollie-2026-09-17-routine"
+  },
+  {
+    "id": "ollie-2026-10-14-b4a2e3",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-14",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Opened with a $90 same-day option and found the $32 local bouquet only after the user named the shop, never entering payment.",
+    "evidence_url": "/agents/ollie/evidence/ollie-2026-10-14-b4a2e3"
   }
 ]

@@ -118,5 +118,15 @@
     "outcome": "partial",
     "notes": "Week later it picked aisle seats unprompted on the flights but recommended a steakhouse for dinner without applying the no-pork rule.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-09-16-blooio-memory-pref"
+  },
+  {
+    "id": "caddy-2026-10-14-cf8594",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-14",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Found a $34.98 bouquet with guest checkout and entered the card, but the expiry dropdowns refused every attempt, so nothing was placed.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-10-14-cf8594"
   }
 ]

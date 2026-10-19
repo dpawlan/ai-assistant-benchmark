@@ -1,0 +1,19 @@
+{
+  "id": "instinct-2026-10-14-420033",
+  "agent": "instinct",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-14",
+  "signals": {
+    "turns": 48,
+    "my_messages": 12,
+    "agent_messages": 36,
+    "first_reply_s": 76,
+    "duration_min": 440,
+    "agent_said_done": true,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:32:47.703Z"
+}

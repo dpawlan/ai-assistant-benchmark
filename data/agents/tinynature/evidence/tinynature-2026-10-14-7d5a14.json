@@ -1,0 +1,19 @@
+{
+  "id": "tinynature-2026-10-14-7d5a14",
+  "agent": "tinynature",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-14",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 15,
+    "duration_min": 2,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:32:47.936Z"
+}

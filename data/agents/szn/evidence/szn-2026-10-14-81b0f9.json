@@ -1,0 +1,19 @@
+{
+  "id": "szn-2026-10-14-81b0f9",
+  "agent": "szn",
+  "category": "purchasing",
+  "protocol": "task",
+  "date": "2026-10-14",
+  "signals": {
+    "turns": 27,
+    "my_messages": 12,
+    "agent_messages": 15,
+    "first_reply_s": 908,
+    "duration_min": 404,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-19T22:32:47.730Z"
+}

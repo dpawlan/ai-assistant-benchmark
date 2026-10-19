@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-12",
-  "agent_count": 140,
+  "updated": "2026-10-19",
+  "agent_count": 141,
   "feedback_count": 5797,
-  "confirmed": 113,
+  "confirmed": 114,
   "stretch": 27,
   "agents": [
     {
@@ -3097,6 +3097,29 @@
           "Android app"
         ],
         "checked": "2026-10-12"
+      }
+    },
+    {
+      "slug": "kicker",
+      "name": "Kicker",
+      "status": "confirmed",
+      "site": "https://kickerai.xyz/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your AI friend that actually knows what's going on in your life",
+      "icon": "/logos/kicker.png",
+      "kind": "general",
+      "access": {
+        "pricing": "paid",
+        "price": "$14.99/mo, $9.99/mo billed yearly, or $3.99/wk; 7-day free trial, no card",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "iOS app",
+          "Web app",
+          "Chrome extension"
+        ],
+        "checked": "2026-10-19"
       }
     }
   ]

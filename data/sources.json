@@ -1096,7 +1096,9 @@
         "szn.ai",
         "sznapp"
       ],
-      "imessage_handles": []
+      "imessage_handles": [
+        "+16463228639"
+      ]
     },
     "text-zero": {
       "name": "Text Zero",
@@ -3580,29 +3582,31 @@
       "imessage_handles": [],
       "_note": "Added 2026-10-04 from a request-form submission (issue #462). Domain and distinctive name only; handles unknown."
     },
-    "hark": {
-      "name": "Hark",
+    "kicker": {
+      "name": "Kicker",
       "handles": [],
-      "domain": "hark.com",
+      "domain": "kickerai.xyz",
       "x_queries": [
-        "\"hark.com\"",
-        "\"Hark Labs\""
+        "\"kickerai.xyz\"",
+        "\"Kicker AI\""
       ],
       "reddit_queries": [
-        "\"hark.com\"",
-        "\"Hark Labs\""
+        "\"kickerai.xyz\"",
+        "\"Kicker AI\""
       ],
       "hn_queries": [
-        "\"hark.com\""
+        "\"kickerai.xyz\""
       ],
       "appstore_ids": [],
       "ph_slug": null,
       "match": [
-        "hark.com",
-        "hark labs"
+        "kickerai.xyz",
+        "kicker ai"
       ],
-      "imessage_handles": [],
-      "_note": "Added 2026-10-12 from a request-form submission (issue #483). Common word: queries and match are domain and company name only."
+      "imessage_handles": [
+        "+16282634305"
+      ],
+      "_note": "Added 2026-10-19 after hands-on testing over iMessage. Common word: queries and match are domain and 'Kicker AI' only."
     }
   },
   "_redact_terms": [

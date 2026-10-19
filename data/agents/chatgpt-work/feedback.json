@@ -18,5 +18,72 @@
     "source": "x",
     "collected_at": "2026-10-16T14:00:00Z",
     "notes": "X Oct 16: User fell in love with the idea of Dots; wants Claude to compete."
+  },
+  {
+    "id": "f17ver01",
+    "agent": "chatgpt-work",
+    "quote": "In recent weeks, users of services like Meta's Muse, xAI's Grok, OpenAI's Dots, and Instinct have reported blocks preventing their AI agents from performing tasks across top websites.",
+    "author": "emmaroth",
+    "author_name": "Emma Roth (The Verge)",
+    "date": "2026-10-17",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+    "kind": "complaint",
+    "tags": [
+      "blocking",
+      "delta",
+      "yelp",
+      "websites",
+      "vs-muse",
+      "vs-grok",
+      "vs-instinct"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-19T14:00:00Z",
+    "notes": "Verge Oct 17: Dots (ChatGPT agent), Muse, Grok, Instinct blocked by major websites."
+  },
+  {
+    "id": "f18sai01",
+    "agent": "chatgpt-work",
+    "quote": "Users of Muse, xAI's Grok, OpenAI's Dots and Instinct have reported blocks on major websites over the past few weeks, and Delta, JPMorgan Chase, Charles Schwab and Yelp have confirmed restrictions of their own.",
+    "author": "stateofai",
+    "author_name": "State of AI Editorial",
+    "date": "2026-10-18",
+    "url": "https://www.thestateofai.com/news/delta-jpmorgan-schwab-yelp-amazon-block-ai-agents",
+    "kind": "complaint",
+    "tags": [
+      "blocking",
+      "delta",
+      "jpmorgan",
+      "schwab",
+      "yelp",
+      "vs-muse",
+      "vs-grok",
+      "vs-instinct"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-19T14:00:00Z",
+    "notes": "State of AI Oct 18: Dots and peers blocked by Delta, JPMorgan, Schwab, Yelp."
+  },
+  {
+    "id": "f19tre01",
+    "agent": "chatgpt-work",
+    "quote": "If you run a storefront, tag sessions from Muse, Dots, Grok and Instinct separately for a few weeks, by user agent or partner token, and record two figures: conversion rate, and server requests per completed order.",
+    "author": "sofiamarek",
+    "author_name": "Sofia Marek (Trellner)",
+    "date": "2026-10-19",
+    "url": "https://trellner.com/reports/blocking-ai-agents-without-data/",
+    "kind": "other",
+    "tags": [
+      "blocking",
+      "analysis",
+      "conversion",
+      "data",
+      "vs-muse",
+      "vs-grok",
+      "vs-instinct"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-19T14:00:00Z",
+    "notes": "Trellner Oct 19: Proposes measuring Dots conversion vs cost before blocking."
   }
 ]

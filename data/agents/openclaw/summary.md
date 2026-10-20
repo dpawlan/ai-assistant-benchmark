@@ -103,3 +103,12 @@ _Updated 2026-10-16 weekday vault scan (+2 rows)._
 - (2026-10-15) PerkShelf: OpenClaw or Hermes for full control and model choice.
 
 **Feedback rows:** 57 (as of 2026-10-16)
+
+_Updated 2026-10-20 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-15) Tun Win (tun.lat): OpenClaw self-hosted on home server; handles personal ops over Telegram; deeply satisfying when it works.
+- (2026-10-15) Tun Win (tun.lat): Maintenance pain—updates for CVE fixes break custom setups; every update is a gamble.
+- (2026-10-15) Tun Win (tun.lat): Model churn pain—GPT-5.6 to 6.0 to 6.1 required reworking configs each time.
+
+**Feedback rows:** 60 (as of 2026-10-20)

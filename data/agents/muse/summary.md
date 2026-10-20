@@ -284,3 +284,16 @@ _Updated 2026-10-16 weekday vault scan (+11 rows)._
 
 **Feedback rows:** 302 (as of 2026-10-16)
 **Kinds:** other=86, use-case=41, praise=19, complaint=62, comparison=21, bug=28, news=39
+
+_Updated 2026-10-20 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-10-20) Ina Fried (Axios): Muse and Dots both strong at multistep planning; caught schedule change + ticket status.
+- (2026-10-20) Ina Fried (Axios): Muse recipe booklet had egg count mismatch (12 vs 13 needed).
+- (2026-10-20) Ina Fried (Axios): Muse stuck at Target sign-in; Dots redirected to app instead.
+- (2026-10-20) Ina Fried (Axios): Muse proactively sent unsolicited correction for factual errors.
+- (2026-10-15) Tun Win (tun.lat): Muse is daily driver; convenient, plugins work, handles day-to-day well.
+- (2026-10-15) Tun Win (tun.lat): Muse not frontier for hardest dev work; GPT-5/Opus/Kimi K3 better on complex tasks.
+- (2026-10-15) Tun Win (tun.lat): Muse failed 3x on Qwen fix claiming success; Hermes fixed it in one go.
+
+**Feedback rows:** 313 (as of 2026-10-20)

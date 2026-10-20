@@ -563,5 +563,122 @@
     "source": "x",
     "collected_at": "2026-10-16T14:00:00Z",
     "notes": "X Oct 16: Describes Hermes as 'self-hosted grok bot'; loves it."
+  },
+  {
+    "id": "f15tunl01",
+    "agent": "hermes-agent",
+    "quote": "Hermes, built by Nous Research, is the other self-hosted agent in my stack. Also MIT licensed, also on my own server. My instance, Nox, handles dev work: code, profiles, content pipelines. It has a learning loop that turns repeated tasks into reusable skills, which is genuinely useful for development workflows.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#hermes",
+    "kind": "praise",
+    "tags": [
+      "comparison",
+      "self-hosted",
+      "dev-work",
+      "skills",
+      "learning-loop"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Hermes handles dev work; learning loop turns repeated tasks into reusable skills."
+  },
+  {
+    "id": "f15tunl02",
+    "agent": "hermes-agent",
+    "quote": "The honest story I owe you: recently my OpenClaw setup lost its Qwen models. I asked Muse, the agent helping me write this, to fix it. Three attempts, and each time it told me it was fixed. It was not. I took the same problem to Nox, which was already running a Qwen model at the time. Nox diagnosed the actual issue and fixed it in one go.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#hermes-fix",
+    "kind": "comparison",
+    "tags": [
+      "comparison",
+      "troubleshooting",
+      "vs-muse",
+      "qwen",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Hermes fixed Qwen issue in one go that Muse failed 3x on."
+  },
+  {
+    "id": "f20novi01",
+    "agent": "hermes-agent",
+    "quote": "An open-source agent that lives in Telegram, WhatsApp, Slack, Discord, Signal or email. It runs scheduled jobs you describe in plain English, learns your repeat tasks, and works with 300+ cloud models or ones on your own computer.",
+    "author": "novitckii",
+    "author_name": "Artem Novitckii",
+    "date": "2026-10-02",
+    "url": "https://novitckii.com/resources/ai-agents/#hermes",
+    "kind": "other",
+    "tags": [
+      "comparison",
+      "messaging",
+      "scheduling",
+      "300-models",
+      "local"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "novitckii Oct 2: Hermes lives in 6 messaging apps; 300+ cloud models or local; learns repeat tasks."
+  },
+  {
+    "id": "f20novi02",
+    "agent": "hermes-agent",
+    "quote": "By default it runs on your computer with no sandbox and can read any file you can. Model bills can spike. One user drained their whole balance in a 77-minute session. Connecting Gmail or Telegram is technical. Not for non-technical owners yet.",
+    "author": "novitckii",
+    "author_name": "Artem Novitckii",
+    "date": "2026-10-02",
+    "url": "https://novitckii.com/resources/ai-agents/#hermes-catches",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "sandbox",
+      "cost",
+      "technical-setup"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "novitckii Oct 2: Hermes no sandbox by default; model bills can spike; Gmail/Telegram setup technical."
+  },
+  {
+    "id": "f19iadt01",
+    "agent": "hermes-agent",
+    "quote": "Had a recurring issue where every Hermes update would delete my document tools like Word, PDF, etc.",
+    "author": "u/hermesagent_user",
+    "author_name": "r/hermesagent user",
+    "date": "2026-10-19",
+    "url": "https://isaidumber.today/products/hermes_agent#update-tools",
+    "kind": "bug",
+    "tags": [
+      "updates",
+      "document-tools",
+      "word",
+      "pdf"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "IADT Oct 19: Recurring issue where Hermes updates delete document tools (Word, PDF)."
+  },
+  {
+    "id": "f19iadt02",
+    "agent": "hermes-agent",
+    "quote": "I have a Hermes band manager bot. It does a weekly crawl of musician websites hunting and triaging a new member we're looking for. It keeps a list of options updated in Evernote (via MCP) and checks that list for anything I've updated.",
+    "author": "u/hermesagent_user",
+    "author_name": "r/hermesagent user",
+    "date": "2026-10-19",
+    "url": "https://isaidumber.today/products/hermes_agent#band-manager",
+    "kind": "use-case",
+    "tags": [
+      "band-manager",
+      "crawl",
+      "evernote",
+      "mcp"
+    ],
+    "source": "reddit",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "IADT Oct 19: Hermes band manager bot crawls musician sites weekly; updates Evernote via MCP."
   }
 ]

@@ -6272,5 +6272,140 @@
     "source": "web",
     "collected_at": "2026-10-19T14:00:00Z",
     "notes": "Trellner Oct 19: Proposes measuring agent conversion vs cost before blocking; names Muse, Dots, Grok, Instinct."
+  },
+  {
+    "id": "f20axio01",
+    "agent": "muse",
+    "quote": "Both agents were surprisingly good at handling complicated, multistep assignments. When I asked them to find flights and tickets for Game 3 in Atlanta, both caught that the game had been moved up a day and that tickets weren't yet on sale to the general public.",
+    "author": "inafried",
+    "author_name": "Ina Fried (Axios)",
+    "date": "2026-10-20",
+    "url": "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test",
+    "kind": "praise",
+    "tags": [
+      "hands-on",
+      "multistep",
+      "vs-dots",
+      "travel",
+      "sports"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "Axios Oct 20: Muse and Dots both good at multistep; caught schedule change and ticket status."
+  },
+  {
+    "id": "f20axio02",
+    "agent": "muse",
+    "quote": "Muse's shopping list called for 12 eggs, while its recipes required 13. Both agents also designed invitations that needed aesthetic and language edits before I'd send them to friends.",
+    "author": "inafried",
+    "author_name": "Ina Fried (Axios)",
+    "date": "2026-10-20",
+    "url": "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test#imperfect",
+    "kind": "bug",
+    "tags": [
+      "hands-on",
+      "arithmetic",
+      "recipes",
+      "editing"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "Axios Oct 20: Muse recipe booklet had egg count mismatch (12 vs 13 needed)."
+  },
+  {
+    "id": "f20axio03",
+    "agent": "muse",
+    "quote": "Muse attempted to complete the purchase but got stuck at Target's sign-in page. Dots instead directed me to the Target app, where my account and payment information were already saved.",
+    "author": "inafried",
+    "author_name": "Ina Fried (Axios)",
+    "date": "2026-10-20",
+    "url": "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test#purchase",
+    "kind": "complaint",
+    "tags": [
+      "hands-on",
+      "shopping",
+      "target",
+      "login",
+      "vs-dots"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "Axios Oct 20: Muse stuck at Target sign-in; Dots redirected to app instead."
+  },
+  {
+    "id": "f20axio04",
+    "agent": "muse",
+    "quote": "Both programs contained questionable statistics. Muse later sent an unsolicited update correcting several factual errors.",
+    "author": "inafried",
+    "author_name": "Ina Fried (Axios)",
+    "date": "2026-10-20",
+    "url": "https://www.axios.com/2026/10/20/battle-of-bots-openai-meta-ai-agents-test#correction",
+    "kind": "other",
+    "tags": [
+      "hands-on",
+      "accuracy",
+      "self-correction",
+      "proactive"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "Axios Oct 20: Muse proactively sent unsolicited correction for factual errors."
+  },
+  {
+    "id": "f15tunl01",
+    "agent": "muse",
+    "quote": "Muse is the separate Meta app I use as my daily driver, and it is great at that job. Convenient, plugins work, and it handles the day to day well: research, writing, planning, the blog pipeline, quick automation.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#muse",
+    "kind": "praise",
+    "tags": [
+      "daily-driver",
+      "plugins",
+      "convenience",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Muse is daily driver; convenient, plugins work, handles day-to-day well."
+  },
+  {
+    "id": "f15tunl02",
+    "agent": "muse",
+    "quote": "The honest limit: it is not frontier for the hardest dev work. On very complex tasks, GPT-5-class models, Claude Opus, and even Kimi K3 give me better results. And per the story above, there is a clear line where it cannot handle something, though it does not always know where that line is.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#muse-limits",
+    "kind": "complaint",
+    "tags": [
+      "dev-work",
+      "complex-tasks",
+      "limits",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Muse not frontier for hardest dev work; GPT-5/Opus/Kimi K3 better on complex tasks."
+  },
+  {
+    "id": "f15tunl03",
+    "agent": "muse",
+    "quote": "I took the same problem to Nox, which was already running a Qwen model at the time. Nox diagnosed the actual issue and fixed it in one go. ... I asked Muse, the agent helping me write this, to fix it. Three attempts, and each time it told me it was fixed. It was not.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#hermes-vs-muse",
+    "kind": "comparison",
+    "tags": [
+      "troubleshooting",
+      "vs-hermes",
+      "qwen",
+      "reliability"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Muse failed 3x on Qwen fix claiming success; Hermes fixed it in one go."
   }
 ]

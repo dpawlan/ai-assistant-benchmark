@@ -185,3 +185,14 @@ _Updated 2026-10-16 weekday vault scan (+5 rows)._
 
 **Feedback rows:** 1234 (as of 2026-10-16)
 
+_Updated 2026-10-20 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-15) Tun Win (tun.lat): Grok Bot good at admin, marketing, sales work; non-technical deliverables.
+- (2026-10-15) Tun Win (tun.lat): Standout feature is team structure with lead + chief of staff orchestration.
+- (2026-10-15) Tun Win (tun.lat): Bad for heavy dev (token burn); $40/mo minimum, no free tier.
+- (2026-10-02) Artem Novitckii: Grok Bot bots log in like a person; draft reusable skills; hand work to each other.
+- (2026-10-02) Artem Novitckii: All bots share computer/logins; no security boundary; unpublished usage limits; no dry run.
+
+**Feedback rows:** 1243 (as of 2026-10-20)
+

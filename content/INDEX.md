@@ -1,6 +1,6 @@
 # Index
 
-_Updated 2026-10-19. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
+_Updated 2026-10-20. Status `stretch` = on the benchmark board but outside core personal text-PA; score N/A on most use cases._
 
 | Agent | Folder | Feedback rows | Last updated | Status | Signal |
 |-------|--------|---------------|--------------|--------|--------|
@@ -12,7 +12,7 @@ _Updated 2026-10-19. Status `stretch` = on the benchmark board but outside core 
 | Caddy | `agents/caddy/` | 108 | 2026-09-11 | confirmed | — |
 | Catch | `agents/catch/` | 123 | 2026-09-21 | confirmed | — |
 | Folk | `agents/folk/` | 214 | 2026-09-24 | confirmed | medium |
-| Grok Bot | `agents/grok-bot/` | 1238 | 2026-10-19 | confirmed | — |
+| Grok Bot | `agents/grok-bot/` | 1243 | 2026-10-20 | confirmed | — |
 | Halo | `agents/halo/` | 5 | 2026-09-06 | confirmed | low |
 | HireAlpha | `agents/hirealpha/` | 4 | 2026-09-06 | confirmed | low |
 | Instinct | `agents/instinct/` | 329 | 2026-10-19 | confirmed | — |
@@ -21,10 +21,10 @@ _Updated 2026-10-19. Status `stretch` = on the benchmark board but outside core 
 | Lucas | `agents/lucas/` | 11 | 2026-09-06 | confirmed | low |
 | Mana | `agents/mana/` | 10 | 2026-09-06 | confirmed | low |
 | Miso | `agents/miso/` | 67 | 2026-09-09 | confirmed | high |
-| Muse | `agents/muse/` | 306 | 2026-10-19 | confirmed | — |
+| Muse | `agents/muse/` | 313 | 2026-10-20 | confirmed | — |
 | Moves | `agents/moves/` | 0 | — | stretch | unknown |
 | Ollie | `agents/ollie/` | 132 | 2026-09-11 | confirmed | — |
-| OpenClaw | `agents/openclaw/` | 57 | 2026-10-16 | confirmed | low |
+| OpenClaw | `agents/openclaw/` | 60 | 2026-10-20 | confirmed | low |
 | OpenInstinct | `agents/openinstinct/` | 127 | 2026-09-11 | confirmed | — |
 | Orchid | `agents/orchid/` | 428 | 2026-09-11 | confirmed | — |
 | Pally | `agents/pally/` | 109 | 2026-09-11 | confirmed | — |

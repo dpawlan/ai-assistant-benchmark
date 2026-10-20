@@ -77,3 +77,15 @@ _Updated 2026-10-16 weekday vault scan (+7 rows)._
 - (2026-10-16) X (Loster): Describes Hermes as 'self-hosted grok bot'; loves it.
 
 **Feedback rows:** 30 (as of 2026-10-16)
+
+_Updated 2026-10-20 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-15) Tun Win (tun.lat): Hermes handles dev work; learning loop turns repeated tasks into reusable skills.
+- (2026-10-15) Tun Win (tun.lat): Hermes fixed Qwen issue in one go that Muse failed 3x on.
+- (2026-10-02) Artem Novitckii: Hermes lives in 6 messaging apps; 300+ cloud models or local; learns repeat tasks.
+- (2026-10-02) Artem Novitckii: Hermes no sandbox by default; model bills can spike; Gmail/Telegram setup technical.
+- (2026-10-19) IADT: Recurring issue where Hermes updates delete document tools (Word, PDF).
+- (2026-10-19) IADT: Hermes band manager bot crawls musician sites weekly; updates Evernote via MCP.
+
+**Feedback rows:** 36 (as of 2026-10-20)

@@ -29719,5 +29719,101 @@
     "source": "web",
     "collected_at": "2026-10-19T14:00:00Z",
     "notes": "Trellner Oct 19: Proposes measuring Grok agent conversion vs cost before blocking."
+  },
+  {
+    "id": "f15tunl01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot, from xAI, launched in early beta in August 2026. It is genuinely good at admin, marketing, and sales type work: writing, research, design, the non-technical roles where the deliverable is a document or a plan.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#grok-bot",
+    "kind": "praise",
+    "tags": [
+      "comparison",
+      "admin",
+      "marketing",
+      "sales"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Grok Bot good at admin, marketing, sales work; non-technical deliverables."
+  },
+  {
+    "id": "f15tunl02",
+    "agent": "grok-bot",
+    "quote": "The standout feature is the team structure. You build teams with a team lead plus a chief of staff that orchestrates everything else. It works like departments you can ping when you need them, or put on scheduled daily standups.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#grok-team",
+    "kind": "praise",
+    "tags": [
+      "comparison",
+      "team-structure",
+      "chief-of-staff",
+      "scheduling"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Standout feature is team structure with lead + chief of staff orchestration."
+  },
+  {
+    "id": "f15tunl03",
+    "agent": "grok-bot",
+    "quote": "Two caveats. First, it is a bad fit for heavy dev work. Point it at a codebase with tens of thousands of lines and watch your tokens evaporate. Second, the lowest tier is $40 a month with no free tier, so that token burn is real money out of your pocket.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#grok-caveats",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "dev-work",
+      "token-burn",
+      "pricing"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Bad for heavy dev (token burn); $40/mo minimum, no free tier."
+  },
+  {
+    "id": "f20novi01",
+    "agent": "grok-bot",
+    "quote": "Bots with their own cloud computer that log into your sites like a person. Show it a task once (up to 10 minutes) and it drafts a reusable skill. Bots run on a schedule with your laptop closed and hand work to each other.",
+    "author": "novitckii",
+    "author_name": "Artem Novitckii",
+    "date": "2026-10-02",
+    "url": "https://novitckii.com/resources/ai-agents/#grok-bot",
+    "kind": "other",
+    "tags": [
+      "comparison",
+      "skills",
+      "scheduling",
+      "handoff"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "novitckii Oct 2: Grok Bot bots log in like a person; draft reusable skills; hand work to each other."
+  },
+  {
+    "id": "f20novi02",
+    "agent": "grok-bot",
+    "quote": "Every bot shares the same computer and logins. xAI says not to treat separate bots as a security boundary. The weekly allowance size isn't published. An hourly routine can use a week of usage in a day. There's no dry run.",
+    "author": "novitckii",
+    "author_name": "Artem Novitckii",
+    "date": "2026-10-02",
+    "url": "https://novitckii.com/resources/ai-agents/#grok-catches",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "security",
+      "shared-computer",
+      "usage",
+      "dry-run"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "novitckii Oct 2: All bots share computer/logins; no security boundary; unpublished usage limits; no dry run."
   }
 ]

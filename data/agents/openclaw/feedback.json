@@ -1085,5 +1085,63 @@
     "source": "web",
     "collected_at": "2026-10-16T14:00:00Z",
     "notes": "PerkShelf Oct 15: OpenClaw or Hermes for full control and model choice."
+  },
+  {
+    "id": "f15tunl01",
+    "agent": "openclaw",
+    "quote": "OpenClaw is the open-source, self-hosted agent, MIT licensed, that lives in my messaging apps. My instance, Crabby, runs on my home server and handles my personal operations over Telegram: tracking projects, drafting documents, running scheduled checks. When everything works, it is deeply satisfying.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#openclaw",
+    "kind": "praise",
+    "tags": [
+      "comparison",
+      "self-hosted",
+      "telegram",
+      "personal-ops"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: OpenClaw self-hosted on home server; handles personal ops over Telegram; deeply satisfying when it works."
+  },
+  {
+    "id": "f15tunl02",
+    "agent": "openclaw",
+    "quote": "The pain is maintenance. Updates ship CVE fixes, so you have to update. But updates break my custom setups, which are all wired through hooks and workarounds because the repos keep tight control and offer no native way to build custom configurations. Every update is a small gamble: security patch or broken automation.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#openclaw-maintenance",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "maintenance",
+      "updates",
+      "cve",
+      "breakage"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Maintenance pain—updates for CVE fixes break custom setups; every update is a gamble."
+  },
+  {
+    "id": "f15tunl03",
+    "agent": "openclaw",
+    "quote": "The second pain is model churn. I had GPT-5.6 wired through all my automations and subagent profiles. Then 6.0 dropped, then 6.1 right after. Each release meant reworking configs across the board.",
+    "author": "tunwin",
+    "author_name": "Tun Win (tun.lat)",
+    "date": "2026-10-15",
+    "url": "https://www.tun.lat/post/six-ai-agents-no-single-winner#openclaw-churn",
+    "kind": "complaint",
+    "tags": [
+      "comparison",
+      "model-churn",
+      "gpt-5.6",
+      "config"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-20T14:00:00Z",
+    "notes": "tun.lat Oct 15: Model churn pain—GPT-5.6 to 6.0 to 6.1 required reworking configs each time."
   }
 ]

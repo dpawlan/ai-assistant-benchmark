@@ -85,5 +85,137 @@
     "source": "web",
     "collected_at": "2026-10-19T14:00:00Z",
     "notes": "Trellner Oct 19: Proposes measuring Dots conversion vs cost before blocking."
+  },
+  {
+    "id": "f21wir01",
+    "agent": "chatgpt-work",
+    "quote": "After a few days with Dots, it's clear this nascent feature is still rough in some areas. From mistranscribing what I said to offering to solve captchas it couldn't, my agent's messy actions didn't instill me with confidence.",
+    "author": "rrogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-07",
+    "url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me/",
+    "kind": "complaint",
+    "tags": [
+      "bugs",
+      "captcha",
+      "transcription",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "WIRED Oct 7: Dots rough; mistranscribing speech; failed captcha despite offering to solve it."
+  },
+  {
+    "id": "f21wir02",
+    "agent": "chatgpt-work",
+    "quote": "\"Oh, I love you too, Reece,\" Toolie said. I started wheezing at this random response and muted my mic. Afterward, Toolie explained it misheard my mumbling as an expression of love.",
+    "author": "rrogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-07",
+    "url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me/#love",
+    "kind": "bug",
+    "tags": [
+      "voice",
+      "transcription",
+      "awkward",
+      "hands-on"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "WIRED Oct 7: Dot misheard mumbling and said \"I love you too\"; awkward transcription error."
+  },
+  {
+    "id": "f21pcm01",
+    "agent": "chatgpt-work",
+    "quote": "ChatGPT's Dots consistently worked the best in my testing, which isn't very surprising given the incredibly powerful GPT-6 Astra model behind it. That said, you can't use it unless you have access to a Pro plan or above.",
+    "author": "rcircelli",
+    "author_name": "Ruben Circelli (PCMag)",
+    "date": "2026-10-16",
+    "url": "https://uk.pcmag.com/ai/167960/i-let-3-ai-agents-take-over-my-life-only-1-didnt-fail#dots-won",
+    "kind": "praise",
+    "tags": [
+      "comparison",
+      "best",
+      "gpt-6",
+      "pricing"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "PCMag Oct 16: Dots worked best of 3 agents (Dots, Spark, Muse) thanks to GPT-6 Astra; needs Pro plan."
+  },
+  {
+    "id": "f21pcm02",
+    "agent": "chatgpt-work",
+    "quote": "Dots isn't perfect, either. It doesn't work particularly quickly, for instance, even if it's not as slow as AI agents once were. It also still can't execute every task perfectly.",
+    "author": "rcircelli",
+    "author_name": "Ruben Circelli (PCMag)",
+    "date": "2026-10-16",
+    "url": "https://uk.pcmag.com/ai/167960/i-let-3-ai-agents-take-over-my-life-only-1-didnt-fail#dots-limits",
+    "kind": "complaint",
+    "tags": [
+      "speed",
+      "limitations",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "PCMag Oct 16: Dots not fast; still can't execute every task perfectly."
+  },
+  {
+    "id": "f21gl03",
+    "agent": "chatgpt-work",
+    "quote": "I tell Dottie I want a \"real chief of staff\" for Ground Level AI. But Chip already helps with my admin, I point out. What's different? \"The main difference is that I can keep working between conversations and come back to you without another prompt,\" Dottie says.",
+    "author": "sgoldman",
+    "author_name": "Sharon Goldman (Ground Level AI)",
+    "date": "2026-10-07",
+    "url": "https://www.groundlevel-ai.com/p/i-tried-four-personal-ai-agents-i#dots",
+    "kind": "other",
+    "tags": [
+      "chief-of-staff",
+      "always-on",
+      "comparison"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "Ground Level Oct 7: Dots can keep working between conversations unlike regular ChatGPT."
+  },
+  {
+    "id": "f21gl04",
+    "agent": "chatgpt-work",
+    "quote": "Dottie offers to walk through them with me, one section at a time. I enter sensitive numbers directly into the forms, not the chat. It sounds ridiculous, but this helps. I actually fill things out. Gold star, Dottie.",
+    "author": "sgoldman",
+    "author_name": "Sharon Goldman (Ground Level AI)",
+    "date": "2026-10-07",
+    "url": "https://www.groundlevel-ai.com/p/i-tried-four-personal-ai-agents-i#dots-forms",
+    "kind": "use-case",
+    "tags": [
+      "forms",
+      "401k",
+      "paperwork",
+      "success"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "Ground Level Oct 7: Dots helped fill out 401k transfer forms section by section."
+  },
+  {
+    "id": "f21bnw01",
+    "agent": "chatgpt-work",
+    "quote": "Over the three days after launch, I read the original posts of 20 dots reviews from Reddit, Hacker News, and newsletters. There were 10 negative, 8 positive, and 2 mixed. The most frequent topics were speed (7 mentions) and bugs (5 mentions).",
+    "author": "buildnwrite",
+    "author_name": "BuildnWrite",
+    "date": "2026-10-01",
+    "url": "https://buildnwrite.io/blog/openai-dots-first-day-review/#reviews",
+    "kind": "other",
+    "tags": [
+      "launch",
+      "reviews",
+      "speed",
+      "bugs",
+      "meta-analysis"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-21T14:00:00Z",
+    "notes": "BuildnWrite Oct 1: Meta-analysis of 20 Dots reviews: 10 negative, 8 positive; top complaints: speed, bugs."
   }
 ]

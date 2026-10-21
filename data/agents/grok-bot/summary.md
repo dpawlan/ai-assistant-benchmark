@@ -196,3 +196,14 @@ _Updated 2026-10-20 weekday vault scan (+5 rows)._
 
 **Feedback rows:** 1243 (as of 2026-10-20)
 
+_Updated 2026-10-21 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-13) Jonathan Malkin (Open Door Learning): 20+ hours testing; Grok Bot required $200 plan for one week of use.
+- (2026-10-13) Jonathan Malkin (Open Door Learning): Grok Bot smarter than Muse Spark; handles more work without escalating to Claude.
+- (2026-10-13) Jonathan Malkin (Open Door Learning): Token cost from frequency × context × length; 85-97% tokens were re-read context.
+- (2026-10-07) Sharon Goldman (Ground Level AI): Grok Bot drafted email sounding like her; sent successfully after one edit.
+- (2026-10-07) Sharon Goldman (Ground Level AI): Skipped cutesy names; tried Grok Bot for work and everyday tasks.
+
+**Feedback rows:** 1248 (as of 2026-10-21)
+

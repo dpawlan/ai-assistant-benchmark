@@ -288,5 +288,13 @@ _Updated 2026-10-16 weekday vault scan (+7 rows)._
 - (2026-09-24) TestedActually: Instinct has binding legal authority in its terms; invite-only.
 - (2026-10-16) X (adityakalra): Instinct helped user find tomato ramen restaurant.
 
-**Feedback rows:** 326 (as of 2026-10-16)
+**Feedback rows:** 329 (as of 2026-10-20)
+
+_Updated 2026-10-21 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-07) Sharon Goldman (Ground Level AI): Instinct in WhatsApp; can book flights, trains, events with approval.
+- (2026-10-07) Sharon Goldman (Ground Level AI): Instinct found NYC Ballet tickets, put in cart, got $404 total ready for approval.
+
+**Feedback rows:** 331 (as of 2026-10-21)
 

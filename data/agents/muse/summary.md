@@ -297,3 +297,15 @@ _Updated 2026-10-20 weekday vault scan (+7 rows)._
 - (2026-10-15) Tun Win (tun.lat): Muse failed 3x on Qwen fix claiming success; Hermes fixed it in one go.
 
 **Feedback rows:** 313 (as of 2026-10-20)
+
+_Updated 2026-10-21 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-13) Jonathan Malkin (Open Door Learning): Muse wins on price; free tier 100M tokens/week; $16 gets Wonder model.
+- (2026-10-13) Jonathan Malkin (Open Door Learning): After 20+ hours testing both, solopreneur business now runs on Muse.
+- (2026-10-07) Sharon Goldman (Ground Level AI): First impression of Muse; baby Sasquatch mascot; named it Pip.
+- (2026-10-07) Sharon Goldman (Ground Level AI): Muse failed at checkout; couldn't complete audio interface purchase.
+- (2026-10-16) Ruben Circelli (PCMag): Muse more capable than some agents; free tier is good for testing.
+- (2026-10-16) Ruben Circelli (PCMag): Muse slow; needed manual login for Instacart; no integration.
+
+**Feedback rows:** 319 (as of 2026-10-21)

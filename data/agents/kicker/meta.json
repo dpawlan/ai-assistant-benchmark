@@ -5,21 +5,19 @@
   "handles": [],
   "status": "confirmed",
   "product_class": null,
-  "notes": "Companion Intelligence's texting assistant that picks your three priorities for the day, blocks time, syncs Oura, WHOOP, Fitbit and calendars, and shops through a paired Chrome so checkout runs in your own logged-in accounts. Added after hands-on testing over iMessage.",
+  "notes": "Companion Intelligence's texting assistant that picks your three priorities for the day, blocks time, syncs Oura, WHOOP, Fitbit and calendars, and shops through a paired Chrome so checkout runs in your own logged-in accounts. Free, per the Kicker team on 2026-10-21. Added after hands-on testing over iMessage.",
   "public_signal": "low",
   "tagline": "Your AI friend that actually knows what's going on in your life",
   "icon": "/logos/kicker.png",
   "kind": "general",
   "access": {
-    "pricing": "paid",
-    "price": "$14.99/mo, $9.99/mo billed yearly, or $3.99/wk; 7-day free trial, no card",
+    "pricing": "free",
+    "price": "Free",
     "regions": "Not stated",
     "channels": [
       "iMessage",
-      "iOS app",
-      "Web app",
-      "Chrome extension"
+      "iOS app"
     ],
-    "checked": "2026-10-19"
+    "checked": "2026-10-21"
   }
 }

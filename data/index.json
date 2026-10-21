@@ -3110,16 +3110,14 @@
       "icon": "/logos/kicker.png",
       "kind": "general",
       "access": {
-        "pricing": "paid",
-        "price": "$14.99/mo, $9.99/mo billed yearly, or $3.99/wk; 7-day free trial, no card",
+        "pricing": "free",
+        "price": "Free",
         "regions": "Not stated",
         "channels": [
           "iMessage",
-          "iOS app",
-          "Web app",
-          "Chrome extension"
+          "iOS app"
         ],
-        "checked": "2026-10-19"
+        "checked": "2026-10-21"
       }
     }
   ]

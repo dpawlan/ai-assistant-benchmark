@@ -680,5 +680,80 @@
     "source": "reddit",
     "collected_at": "2026-10-20T14:00:00Z",
     "notes": "IADT Oct 19: Hermes band manager bot crawls musician sites weekly; updates Evernote via MCP."
+  },
+  {
+    "id": "f22x01",
+    "agent": "hermes-agent",
+    "quote": "@DaveShapi I have hermes agent, dots, and grok bot. Grok is by far one of my favorites. Its stupid fast, but I don't use it for coding. I use it for everything else and its been awesome.",
+    "author": "@petersteele",
+    "author_name": "petersteele",
+    "date": "2026-10-22",
+    "url": "https://x.com/petersteele/status/2113116475045114358",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "vs-dots",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User has Hermes alongside Grok Bot and Dots; Grok Bot is favorite."
+  },
+  {
+    "id": "f22x02",
+    "agent": "hermes-agent",
+    "quote": "Grok Bot can now build Dashboards\n\nRIP OpenClaw & Hermes Agent\n\nGrok Bot won in every sense specially in Computer Use it's GOAT LLM Agent",
+    "author": "@VibeCaesar",
+    "author_name": "VibeCaesar",
+    "date": "2026-10-21",
+    "url": "https://x.com/VibeCaesar/status/2112993713383444801",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "vs-openclaw",
+      "computer-use",
+      "rip"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 21: 'RIP Hermes Agent' as Grok Bot surpasses in computer use and dashboards."
+  },
+  {
+    "id": "f22fb01",
+    "agent": "hermes-agent",
+    "quote": "hermes agent connected to local models is now installed on all my machines to manage everything on them. main models i'm using are: - glm 5.3 flash - qwen 3.8 flash next - deepseek v4.1 flash 1017 level reached by local models is just amazing!",
+    "author": "@localhero",
+    "author_name": "localhero (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/localhero/status/2112488012001284098",
+    "kind": "use-case",
+    "tags": [
+      "local-models",
+      "glm",
+      "qwen",
+      "deepseek",
+      "multi-machine"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Hermes on all machines with local models GLM/Qwen/DeepSeek."
+  },
+  {
+    "id": "f22fb02",
+    "agent": "hermes-agent",
+    "quote": "to be honest, i still choose hermes agent because it is much freer and not dependent on one platform",
+    "author": "@freeplatform_user",
+    "author_name": "freeplatform_user (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/freeplatform_user/status/2112488112001284099",
+    "kind": "praise",
+    "tags": [
+      "freedom",
+      "platform-independent",
+      "choice"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Chooses Hermes for platform independence and freedom."
   }
 ]

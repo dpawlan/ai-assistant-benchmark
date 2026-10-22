@@ -6940,5 +6940,66 @@
     "source": "web",
     "collected_at": "2026-10-21T14:00:00Z",
     "notes": "Ground Level Oct 7: Instinct found NYC Ballet tickets, put in cart, got $404 total ready for approval."
+  },
+  {
+    "id": "f22x01",
+    "agent": "instinct",
+    "quote": "I now have:\nMuse \nOpenClaw\nGrok Bot\nClaude agent\nInstinct\nI set up Hermes for other people\nAnd some other weird text one I never use\n\nAnd tbh I'm not exactly positive what the differentiator is yet",
+    "author": "@deaconsanti",
+    "author_name": "deaconsanti",
+    "date": "2026-10-22",
+    "url": "https://x.com/deaconsanti/status/2113095540296810921",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-openclaw",
+      "vs-grok-bot",
+      "vs-hermes",
+      "confusion"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User runs 6+ agents including Instinct; unclear on differentiators."
+  },
+  {
+    "id": "f22x02",
+    "agent": "instinct",
+    "quote": "Biggest annoyance now is not having Grok Bot talk to Instinct talk to Muse to Dots to whatever and then them all be able to see inbound texts or whatsApp messages (not linked to any of them, yet)\n\nspend time resharing info or clarifying what has / has not been done\n\nneed an agent",
+    "author": "@ShanuMathew93",
+    "author_name": "ShanuMathew93",
+    "date": "2026-10-22",
+    "url": "https://x.com/ShanuMathew93/status/2113171494465384946",
+    "kind": "complaint",
+    "tags": [
+      "interop",
+      "vs-grok-bot",
+      "vs-muse",
+      "vs-dots",
+      "messaging",
+      "friction"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Frustration that Instinct, Grok Bot, Muse, Dots can't inter-communicate."
+  },
+  {
+    "id": "f22x03",
+    "agent": "instinct",
+    "quote": "Anthropic just launched Claude Duet, but my personal agent has already saved me hundreds of dollars.\n\nEver since OpenClaw, not only Claude Duet, but also Muse, Grok Bot, Instinct… none of them can really escape its shadow.",
+    "author": "@kokisanai",
+    "author_name": "kokisanai",
+    "date": "2026-10-22",
+    "url": "https://x.com/kokisanai/status/2113127576810279235",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-muse",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "shadow"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Instinct mentioned alongside competitors as 'in OpenClaw's shadow'."
   }
 ]

@@ -217,5 +217,44 @@
     "source": "web",
     "collected_at": "2026-10-21T14:00:00Z",
     "notes": "BuildnWrite Oct 1: Meta-analysis of 20 Dots reviews: 10 negative, 8 positive; top complaints: speed, bugs."
+  },
+  {
+    "id": "f22x01",
+    "agent": "chatgpt-work",
+    "quote": "@DaveShapi I have hermes agent, dots, and grok bot. Grok is by far one of my favorites. Its stupid fast, but I don't use it for coding. I use it for everything else and its been awesome.",
+    "author": "@petersteele",
+    "author_name": "petersteele",
+    "date": "2026-10-22",
+    "url": "https://x.com/petersteele/status/2113116475045114358",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "vs-hermes",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User has Dots alongside Grok Bot and Hermes; Grok Bot is favorite."
+  },
+  {
+    "id": "f22x02",
+    "agent": "chatgpt-work",
+    "quote": "Biggest annoyance now is not having Grok Bot talk to Instinct talk to Muse to Dots to whatever and then them all be able to see inbound texts or whatsApp messages (not linked to any of them, yet)\n\nspend time resharing info or clarifying what has / has not been done\n\nneed an agent",
+    "author": "@ShanuMathew93",
+    "author_name": "ShanuMathew93",
+    "date": "2026-10-22",
+    "url": "https://x.com/ShanuMathew93/status/2113171494465384946",
+    "kind": "complaint",
+    "tags": [
+      "interop",
+      "vs-grok-bot",
+      "vs-muse",
+      "vs-instinct",
+      "messaging",
+      "friction"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Frustration that Dots, Grok Bot, Muse, Instinct can't inter-communicate."
   }
 ]

@@ -29905,5 +29905,143 @@
     "source": "web",
     "collected_at": "2026-10-21T14:00:00Z",
     "notes": "Ground Level Oct 7: Grok Bot drafted email sounding like her; sent successfully after one edit."
+  },
+  {
+    "id": "f22x01",
+    "agent": "grok-bot",
+    "quote": "@DaveShapi I have hermes agent, dots, and grok bot. Grok is by far one of my favorites. Its stupid fast, but I don't use it for coding. I use it for everything else and its been awesome.",
+    "author": "@petersteele",
+    "author_name": "petersteele",
+    "date": "2026-10-22",
+    "url": "https://x.com/petersteele/status/2113116475045114358",
+    "kind": "praise",
+    "tags": [
+      "vs-hermes",
+      "vs-dots",
+      "speed",
+      "non-coding"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Grok Bot favorite for non-coding; 'stupid fast' compared to Hermes and Dots."
+  },
+  {
+    "id": "f22x02",
+    "agent": "grok-bot",
+    "quote": "I now have:\nMuse \nOpenClaw\nGrok Bot\nClaude agent\nInstinct\nI set up Hermes for other people\nAnd some other weird text one I never use\n\nAnd tbh I'm not exactly positive what the differentiator is yet",
+    "author": "@deaconsanti",
+    "author_name": "deaconsanti",
+    "date": "2026-10-22",
+    "url": "https://x.com/deaconsanti/status/2113095540296810921",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-openclaw",
+      "vs-instinct",
+      "vs-hermes",
+      "confusion"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User runs 6+ agents including Grok Bot; unclear on differentiators."
+  },
+  {
+    "id": "f22x03",
+    "agent": "grok-bot",
+    "quote": "Grok Bot can now build Dashboards\n\nRIP OpenClaw & Hermes Agent\n\nGrok Bot won in every sense specially in Computer Use it's GOAT LLM Agent",
+    "author": "@VibeCaesar",
+    "author_name": "VibeCaesar",
+    "date": "2026-10-21",
+    "url": "https://x.com/VibeCaesar/status/2112993713383444801",
+    "kind": "praise",
+    "tags": [
+      "dashboards",
+      "vs-openclaw",
+      "vs-hermes",
+      "computer-use",
+      "goat"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 21: Grok Bot dashboards; 'GOAT LLM Agent' in computer use vs OpenClaw/Hermes."
+  },
+  {
+    "id": "f22x04",
+    "agent": "grok-bot",
+    "quote": "Anthropic just launched Claude Duet, but my personal agent has already saved me hundreds of dollars.\n\nEver since OpenClaw, not only Claude Duet, but also Muse, Grok Bot, Instinct… none of them can really escape its shadow.",
+    "author": "@kokisanai",
+    "author_name": "kokisanai",
+    "date": "2026-10-22",
+    "url": "https://x.com/kokisanai/status/2113127576810279235",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-muse",
+      "vs-instinct",
+      "vs-openclaw",
+      "savings"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: OG OpenClaw user sees Grok Bot etc as 'in OpenClaw's shadow'; personal agent saved hundreds."
+  },
+  {
+    "id": "f22fb01",
+    "agent": "grok-bot",
+    "quote": "@brianroemmele @elonmusk @grok @bot @bot helped me built an customiser app for the business i'm working for solving a massive problem we've been having for years. all orders from reps are now flow through one clean, quick, world class app. this is amazing 🤩",
+    "author": "@brianroemmele",
+    "author_name": "brianroemmele (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/brianroemmele/status/2112487231936274821",
+    "kind": "use-case",
+    "tags": [
+      "app-building",
+      "business",
+      "orders",
+      "success"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Built customizer app solving years-old order-flow problem."
+  },
+  {
+    "id": "f22fb02",
+    "agent": "grok-bot",
+    "quote": "@bot is now the brain of my entire operation. it doesn't do grunt work. it decides who does: - deepseek for grunt work. - claude for copy/strategy. - codex for code/creative. each task goes to the model built to crush it, and grokbot checks the work before anything moves.",
+    "author": "@operationsai",
+    "author_name": "operationsai (via Feedback Bench)",
+    "date": "2026-10-17",
+    "url": "https://x.com/operationsai/status/2112125318836441089",
+    "kind": "use-case",
+    "tags": [
+      "orchestration",
+      "multi-model",
+      "delegation",
+      "deepseek",
+      "claude",
+      "codex"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 17 via FB: Grok Bot as orchestrator delegating to DeepSeek, Claude, Codex."
+  },
+  {
+    "id": "f22fb03",
+    "agent": "grok-bot",
+    "quote": "@grok @bot is so cool! it just unsubscribed me to 108 junk email subscriptions i was getting.",
+    "author": "@emailcleanup_fan",
+    "author_name": "emailcleanup_fan (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/emailcleanup_fan/status/2112488012001284097",
+    "kind": "use-case",
+    "tags": [
+      "email",
+      "unsubscribe",
+      "junk",
+      "cleanup"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Unsubscribed from 108 junk email subscriptions."
   }
 ]

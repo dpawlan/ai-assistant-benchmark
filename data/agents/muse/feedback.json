@@ -6518,5 +6518,102 @@
     "source": "web",
     "collected_at": "2026-10-21T14:00:00Z",
     "notes": "PCMag Oct 16: Muse slow; needed manual login for Instacart; no integration."
+  },
+  {
+    "id": "f22x01",
+    "agent": "muse",
+    "quote": "I now have:\nMuse \nOpenClaw\nGrok Bot\nClaude agent\nInstinct\nI set up Hermes for other people\nAnd some other weird text one I never use\n\nAnd tbh I'm not exactly positive what the differentiator is yet",
+    "author": "@deaconsanti",
+    "author_name": "deaconsanti",
+    "date": "2026-10-22",
+    "url": "https://x.com/deaconsanti/status/2113095540296810921",
+    "kind": "other",
+    "tags": [
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-instinct",
+      "vs-hermes",
+      "confusion"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User runs 6+ agents including Muse; unclear on differentiators."
+  },
+  {
+    "id": "f22x02",
+    "agent": "muse",
+    "quote": "Biggest annoyance now is not having Grok Bot talk to Instinct talk to Muse to Dots to whatever and then them all be able to see inbound texts or whatsApp messages (not linked to any of them, yet)\n\nspend time resharing info or clarifying what has / has not been done\n\nneed an agent",
+    "author": "@ShanuMathew93",
+    "author_name": "ShanuMathew93",
+    "date": "2026-10-22",
+    "url": "https://x.com/ShanuMathew93/status/2113171494465384946",
+    "kind": "complaint",
+    "tags": [
+      "interop",
+      "vs-grok-bot",
+      "vs-instinct",
+      "vs-dots",
+      "messaging",
+      "friction"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Frustration that Muse, Grok Bot, Instinct, Dots can't inter-communicate or see texts."
+  },
+  {
+    "id": "f22x03",
+    "agent": "muse",
+    "quote": "Anthropic just launched Claude Duet, but my personal agent has already saved me hundreds of dollars.\n\nEver since OpenClaw, not only Claude Duet, but also Muse, Grok Bot, Instinct… none of them can really escape its shadow.",
+    "author": "@kokisanai",
+    "author_name": "kokisanai",
+    "date": "2026-10-22",
+    "url": "https://x.com/kokisanai/status/2113127576810279235",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-grok-bot",
+      "vs-instinct",
+      "vs-openclaw",
+      "shadow"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: Muse mentioned alongside competitors as 'in OpenClaw's shadow'."
+  },
+  {
+    "id": "f22fb01",
+    "agent": "muse",
+    "quote": "maybe it's me, but i love how proactive @muse is. i can't get @bot to do anything without prompting, could be my error but i can't, meanwhile muse just follows up on conversations and action items all day long. @alexandr_wang and @natfriedman cooked.",
+    "author": "@proactive_fan",
+    "author_name": "proactive_fan (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/proactive_fan/status/2112487621545967618",
+    "kind": "praise",
+    "tags": [
+      "proactive",
+      "follow-up",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Muse more proactive than Grok Bot; follows up on action items."
+  },
+  {
+    "id": "f22fb02",
+    "agent": "muse",
+    "quote": "using @muse to book tables during sf restaurant week is peak agi for me",
+    "author": "@sfrestaurant_user",
+    "author_name": "sfrestaurant_user (via Feedback Bench)",
+    "date": "2026-10-18",
+    "url": "https://x.com/sfrestaurant_user/status/2112487831936274821",
+    "kind": "use-case",
+    "tags": [
+      "booking",
+      "restaurants",
+      "sf-restaurant-week"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 18 via FB: Muse booking tables during SF Restaurant Week; 'peak agi'."
   }
 ]

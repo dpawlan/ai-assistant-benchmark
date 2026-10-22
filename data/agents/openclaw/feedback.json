@@ -1143,5 +1143,65 @@
     "source": "web",
     "collected_at": "2026-10-20T14:00:00Z",
     "notes": "tun.lat Oct 15: Model churn pain—GPT-5.6 to 6.0 to 6.1 required reworking configs each time."
+  },
+  {
+    "id": "f22x01",
+    "agent": "openclaw",
+    "quote": "I now have:\nMuse \nOpenClaw\nGrok Bot\nClaude agent\nInstinct\nI set up Hermes for other people\nAnd some other weird text one I never use\n\nAnd tbh I'm not exactly positive what the differentiator is yet",
+    "author": "@deaconsanti",
+    "author_name": "deaconsanti",
+    "date": "2026-10-22",
+    "url": "https://x.com/deaconsanti/status/2113095540296810921",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-grok-bot",
+      "vs-instinct",
+      "vs-hermes",
+      "confusion"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: User runs 6+ agents including OpenClaw; unclear on differentiators."
+  },
+  {
+    "id": "f22x02",
+    "agent": "openclaw",
+    "quote": "Grok Bot can now build Dashboards\n\nRIP OpenClaw & Hermes Agent\n\nGrok Bot won in every sense specially in Computer Use it's GOAT LLM Agent",
+    "author": "@VibeCaesar",
+    "author_name": "VibeCaesar",
+    "date": "2026-10-21",
+    "url": "https://x.com/VibeCaesar/status/2112993713383444801",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "vs-hermes",
+      "computer-use",
+      "rip"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 21: 'RIP OpenClaw' as Grok Bot surpasses in computer use and dashboards."
+  },
+  {
+    "id": "f22x03",
+    "agent": "openclaw",
+    "quote": "Anthropic just launched Claude Duet, but my personal agent has already saved me hundreds of dollars.\n\nEver since OpenClaw, not only Claude Duet, but also Muse, Grok Bot, Instinct… none of them can really escape its shadow.",
+    "author": "@kokisanai",
+    "author_name": "kokisanai",
+    "date": "2026-10-22",
+    "url": "https://x.com/kokisanai/status/2113127576810279235",
+    "kind": "praise",
+    "tags": [
+      "pioneer",
+      "vs-claude-duet",
+      "vs-muse",
+      "vs-grok-bot",
+      "vs-instinct",
+      "savings"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-22T14:00:00Z",
+    "notes": "X Oct 22: OG OpenClaw user; personal agent saved hundreds; others 'in OpenClaw's shadow'."
   }
 ]

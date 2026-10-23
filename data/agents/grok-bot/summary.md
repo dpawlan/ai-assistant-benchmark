@@ -207,3 +207,19 @@ _Updated 2026-10-21 weekday vault scan (+5 rows)._
 
 **Feedback rows:** 1248 (as of 2026-10-21)
 
+
+_Updated 2026-10-23 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-10-22) @mfishbein: Stopped using Claude; Grok Bot 24/7 in cloud with own computer—less micro-managing.
+- (2026-10-22) @dangaron: UI/UX comparison—Grok Bot is dedicated app vs Dots buried in ChatGPT.
+- (2026-10-22) @pdoomLTzero: Frames Grok Bot as 'rented' vs owned; ownership axis matters.
+- (2026-10-23) @69houdini1: Prefers multi-agent; notes Grok Bot pivot to 'primary bot'.
+- (2026-10-23) @AnalystAIlab: 72 family finance Qs—Grok Bot got math right but ~25% answers incomplete.
+- (2026-10-22) @Ripuhiring: User ranking puts Grok Bot 3rd behind Muse and Hermes Agent.
+- (2026-10-22) @nvandewetering: 'Dots, Grok Bot, Muse might suck today'—racing to AI Super App.
+- (2026-10-22) @JakeDSBD24: Runs day on Grok Bot agents; 'check before acting' is key.
+- (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Grok Bot.
+- (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
+
+**Feedback rows:** 1265 (as of 2026-10-23)

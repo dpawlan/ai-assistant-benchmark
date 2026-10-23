@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "f23x01",
+    "agent": "gemini-spark",
+    "quote": "So we have Grok Bot, ChatGPT Dots, Meta Muse, and Claude Duet\u2026\n\nBut has everyone forgotten about Gemini Spark?!\n\nI haven't heard ANYTHING about it\u2026",
+    "author": "@ConnorTalksAI",
+    "author_name": "Connor",
+    "date": "2026-10-22",
+    "url": "https://x.com/ConnorTalksAI/status/2113326829985743342",
+    "kind": "other",
+    "tags": [
+      "forgotten",
+      "visibility",
+      "vs-grok-bot",
+      "vs-dots",
+      "vs-muse",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: 'Has everyone forgotten about Gemini Spark?' \u2014 lack of buzz."
+  },
+  {
+    "id": "f23x02",
+    "agent": "gemini-spark",
+    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "author": "@Ripuhiring",
+    "author_name": "Ripu",
+    "date": "2026-10-22",
+    "url": "https://x.com/Ripuhiring/status/2113280947336704137",
+    "kind": "comparison",
+    "tags": [
+      "ranking",
+      "seventh-place",
+      "vs-muse",
+      "vs-hermes",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-instinct",
+      "vs-dots",
+      "vs-poke"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: User ranking puts Gemini Spark 7th of 9."
+  }
+]

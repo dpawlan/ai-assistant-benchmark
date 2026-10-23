@@ -309,3 +309,17 @@ _Updated 2026-10-21 weekday vault scan (+6 rows)._
 - (2026-10-16) Ruben Circelli (PCMag): Muse slow; needed manual login for Instacart; no integration.
 
 **Feedback rows:** 319 (as of 2026-10-21)
+
+_Updated 2026-10-23 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-10-22) @dangaron: UI/UX comparison—Muse is dedicated app vs Dots buried in ChatGPT.
+- (2026-10-22) @pdoomLTzero: Frames Muse as 'rented' vs owned; ownership axis matters.
+- (2026-10-23) @69houdini1: Muse grouped with single-agent approaches vs multi-agent.
+- (2026-10-23) @AnalystAIlab: 72 family finance Qs—Muse got math right but ~25% answers incomplete.
+- (2026-10-22) @Ripuhiring: User ranking puts Muse 1st (gold medal).
+- (2026-10-22) @nvandewetering: 'Dots, Grok Bot, Muse might suck today'—racing to AI Super App.
+- (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Muse.
+- (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
+
+**Feedback rows:** 332 (as of 2026-10-23)

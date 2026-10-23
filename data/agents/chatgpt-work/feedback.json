@@ -256,5 +256,153 @@
     "source": "x",
     "collected_at": "2026-10-22T14:00:00Z",
     "notes": "X Oct 22: Frustration that Dots, Grok Bot, Muse, Instinct can't inter-communicate."
+  },
+  {
+    "id": "f23x01",
+    "agent": "chatgpt-work",
+    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n\u2014 Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
+    "author": "@dangaron",
+    "author_name": "Dan Garon",
+    "date": "2026-10-22",
+    "url": "https://x.com/dangaron/status/2113294208752861212",
+    "kind": "complaint",
+    "tags": [
+      "ui-ux",
+      "buried",
+      "vs-muse",
+      "vs-grok-bot",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: Dots criticized as 'still buried in ChatGPT' vs dedicated apps."
+  },
+  {
+    "id": "f23x02",
+    "agent": "chatgpt-work",
+    "quote": "Will be interesting to see who wins here. Multi agent (Grok Bot, OpenClaw, Hermes) or single agent (Muse, Dots, Duet)\n\nPersonally love multi agents but already seeing you and Grok Bot team peddling back a bit with introduction of primary bot",
+    "author": "@69houdini1",
+    "author_name": "69houdini",
+    "date": "2026-10-23",
+    "url": "https://x.com/69houdini1/status/2113433376288051557",
+    "kind": "comparison",
+    "tags": [
+      "single-agent",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-hermes",
+      "vs-muse"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: Dots grouped with single-agent approaches (Muse, Duet) vs multi-agent."
+  },
+  {
+    "id": "f23x03",
+    "agent": "chatgpt-work",
+    "quote": "Imagine never arguing about money at home again. Car loan or emergency fund? Just ask your personal agent.\n\nWe gave Dots @ChatGPT , @grok @bot , @Muse and Instinct 72 family finance questions.\n\nAll four got the math right. But about 1 in 4 answers left something out: a number,",
+    "author": "@AnalystAIlab",
+    "author_name": "analyst.ai",
+    "date": "2026-10-23",
+    "url": "https://x.com/AnalystAIlab/status/2113560414676210077",
+    "kind": "comparison",
+    "tags": [
+      "finance",
+      "testing",
+      "vs-grok-bot",
+      "vs-muse",
+      "vs-instinct",
+      "math",
+      "completeness"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: 72 family finance Qs\u2014Dots and peers got math right but ~25% omitted details."
+  },
+  {
+    "id": "f23x04",
+    "agent": "chatgpt-work",
+    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "author": "@Ripuhiring",
+    "author_name": "Ripu",
+    "date": "2026-10-22",
+    "url": "https://x.com/Ripuhiring/status/2113280947336704137",
+    "kind": "comparison",
+    "tags": [
+      "ranking",
+      "eighth-place",
+      "vs-muse",
+      "vs-hermes",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-instinct",
+      "vs-gemini-spark",
+      "vs-poke"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: User ranking puts ChatGPT Dots 8th of 9."
+  },
+  {
+    "id": "f23x05",
+    "agent": "chatgpt-work",
+    "quote": "ChatGPT. Claude. Grok. Meta Muse.\n\nThey're all racing toward the same endgame:\n\nThe AI Super App.\n\nOne personal agent that manages your entire digital life. Work, emails, coding, scheduling, everything.\n\nDots, Grok Bot, and Muse might suck today.\n\nBut whoever makes them actually",
+    "author": "@nvandewetering",
+    "author_name": "Nic Vandewetering",
+    "date": "2026-10-22",
+    "url": "https://x.com/nvandewetering/status/2113327021615145341",
+    "kind": "complaint",
+    "tags": [
+      "criticism",
+      "vs-grok-bot",
+      "vs-muse",
+      "super-app",
+      "future"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'\u2014racing to AI Super App."
+  },
+  {
+    "id": "f23x06",
+    "agent": "chatgpt-work",
+    "quote": "1Password will let Muse, Dots, and Grok Bot sign in for you\n\nAfter Claude in July, 1Password opened the same pipe to Meta's Muse, OpenAI's Dots, Grok Bot, ChatGPT Work, and Town. Agents never see usernames, passwords, or vault contents. When they hit a login, 1Password pings you,",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-23",
+    "url": "https://x.com/Tesla_Optimus_K/status/2113421950148280610",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "security",
+      "integration",
+      "vs-muse",
+      "vs-grok-bot",
+      "vs-town"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: 1Password for Agents supports Dots/ChatGPT Work; agents never see credentials."
+  },
+  {
+    "id": "f23x07",
+    "agent": "chatgpt-work",
+    "quote": "Grok Bot, Muse, ChatGPT Dots, and now Claude Duet. Every big lab shipped an always-on agent within months... and they're starting to look the same. The winner won't be the smartest model. It'll be the one you trust with your inbox first. Which one got yours?",
+    "author": "@FambroJoe",
+    "author_name": "FAMBROjoe",
+    "date": "2026-10-22",
+    "url": "https://x.com/FambroJoe/status/2113264616180465945",
+    "kind": "other",
+    "tags": [
+      "trust",
+      "inbox",
+      "vs-grok-bot",
+      "vs-muse",
+      "vs-claude-duet",
+      "differentiation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
   }
 ]

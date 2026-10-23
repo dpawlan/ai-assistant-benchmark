@@ -7540,5 +7540,26 @@
     "notes": "Saner Muse-alts: Town credit metering unpredictability called out.",
     "collected_at": "2026-09-24T14:10:00Z",
     "id": "c1baed58fb3d"
+  },
+  {
+    "id": "f23x01",
+    "agent": "town",
+    "quote": "1Password will let Muse, Dots, and Grok Bot sign in for you\n\nAfter Claude in July, 1Password opened the same pipe to Meta's Muse, OpenAI's Dots, Grok Bot, ChatGPT Work, and Town. Agents never see usernames, passwords, or vault contents. When they hit a login, 1Password pings you,",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-23",
+    "url": "https://x.com/Tesla_Optimus_K/status/2113421950148280610",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "security",
+      "integration",
+      "vs-muse",
+      "vs-dots",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: 1Password for Agents supports Town; agents never see credentials."
   }
 ]

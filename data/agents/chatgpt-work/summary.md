@@ -32,3 +32,16 @@ _Updated 2026-10-21 weekday vault scan (+7 rows)._
 - (2026-10-01) BuildnWrite: Meta-analysis of 20 Dots reviews: 10 negative, 8 positive; top complaints: speed, bugs.
 
 **Feedback rows:** 11 (as of 2026-10-21)
+
+_Updated 2026-10-23 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-10-22) @dangaron: Dots criticized as 'still buried in ChatGPT' vs dedicated apps.
+- (2026-10-23) @69houdini1: Dots grouped with single-agent approaches vs multi-agent.
+- (2026-10-23) @AnalystAIlab: 72 family finance Qs—Dots got math right but ~25% answers incomplete.
+- (2026-10-22) @Ripuhiring: User ranking puts ChatGPT Dots 8th of 9.
+- (2026-10-22) @nvandewetering: 'Dots, Grok Bot, Muse might suck today'—racing to AI Super App.
+- (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Dots/ChatGPT Work.
+- (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
+
+**Feedback rows:** 20 (as of 2026-10-23)

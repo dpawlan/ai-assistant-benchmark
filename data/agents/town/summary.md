@@ -73,3 +73,10 @@ _Updated 2026-09-24 weekday vault scan (+1 row)._
 **Feedback rows:** 307 (as of 2026-09-24)
 
 Thread note: the reviewer's iMessage line +13054098546 (April to June 2026) was his own Sendblue bot, not Town; those messages and runs were removed on 2026-09-21. Town proper starts 2026-09-03 on +16462366967.
+
+_Updated 2026-10-23 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Town.
+
+**Feedback rows:** 308 (as of 2026-10-23)

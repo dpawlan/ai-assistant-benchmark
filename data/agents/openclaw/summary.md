@@ -112,3 +112,11 @@ _Updated 2026-10-20 weekday vault scan (+3 rows)._
 - (2026-10-15) Tun Win (tun.lat): Model churn pain—GPT-5.6 to 6.0 to 6.1 required reworking configs each time.
 
 **Feedback rows:** 60 (as of 2026-10-20)
+
+_Updated 2026-10-23 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-23) @69houdini1: User prefers multi-agent approach (OpenClaw, Grok Bot, Hermes).
+- (2026-10-22) @Ripuhiring: User ranking puts OpenClaw 5th of 9.
+
+**Feedback rows:** 65 (as of 2026-10-23)

@@ -1203,5 +1203,50 @@
     "source": "x",
     "collected_at": "2026-10-22T14:00:00Z",
     "notes": "X Oct 22: OG OpenClaw user; personal agent saved hundreds; others 'in OpenClaw's shadow'."
+  },
+  {
+    "id": "f23x01",
+    "agent": "openclaw",
+    "quote": "Will be interesting to see who wins here. Multi agent (Grok Bot, OpenClaw, Hermes) or single agent (Muse, Dots, Duet)\n\nPersonally love multi agents but already seeing you and Grok Bot team peddling back a bit with introduction of primary bot",
+    "author": "@69houdini1",
+    "author_name": "69houdini",
+    "date": "2026-10-23",
+    "url": "https://x.com/69houdini1/status/2113433376288051557",
+    "kind": "praise",
+    "tags": [
+      "multi-agent",
+      "vs-grok-bot",
+      "vs-hermes",
+      "vs-muse",
+      "vs-dots",
+      "preference"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: User prefers multi-agent (OpenClaw, Grok Bot, Hermes) over single-agent."
+  },
+  {
+    "id": "f23x02",
+    "agent": "openclaw",
+    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "author": "@Ripuhiring",
+    "author_name": "Ripu",
+    "date": "2026-10-22",
+    "url": "https://x.com/Ripuhiring/status/2113280947336704137",
+    "kind": "comparison",
+    "tags": [
+      "ranking",
+      "fifth-place",
+      "vs-muse",
+      "vs-hermes",
+      "vs-grok-bot",
+      "vs-instinct",
+      "vs-gemini-spark",
+      "vs-dots",
+      "vs-poke"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: User ranking puts OpenClaw 5th of 9."
   }
 ]

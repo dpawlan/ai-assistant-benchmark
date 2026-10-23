@@ -298,3 +298,11 @@ _Updated 2026-10-21 weekday vault scan (+2 rows)._
 
 **Feedback rows:** 331 (as of 2026-10-21)
 
+
+_Updated 2026-10-23 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-23) @AnalystAIlab: 72 family finance Qs—Instinct got math right but ~25% answers incomplete.
+- (2026-10-22) @Ripuhiring: User ranking puts Instinct 6th of 9.
+
+**Feedback rows:** 336 (as of 2026-10-23)

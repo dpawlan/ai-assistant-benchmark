@@ -7001,5 +7001,51 @@
     "source": "x",
     "collected_at": "2026-10-22T14:00:00Z",
     "notes": "X Oct 22: Instinct mentioned alongside competitors as 'in OpenClaw's shadow'."
+  },
+  {
+    "id": "f23x01",
+    "agent": "instinct",
+    "quote": "Imagine never arguing about money at home again. Car loan or emergency fund? Just ask your personal agent.\n\nWe gave Dots @ChatGPT , @grok @bot , @Muse and Instinct 72 family finance questions.\n\nAll four got the math right. But about 1 in 4 answers left something out: a number,",
+    "author": "@AnalystAIlab",
+    "author_name": "analyst.ai",
+    "date": "2026-10-23",
+    "url": "https://x.com/AnalystAIlab/status/2113560414676210077",
+    "kind": "comparison",
+    "tags": [
+      "finance",
+      "testing",
+      "vs-dots",
+      "vs-grok-bot",
+      "vs-muse",
+      "math",
+      "completeness"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 23: 72 family finance Qs\u2014Instinct and peers got math right but ~25% omitted details."
+  },
+  {
+    "id": "f23x02",
+    "agent": "instinct",
+    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "author": "@Ripuhiring",
+    "author_name": "Ripu",
+    "date": "2026-10-22",
+    "url": "https://x.com/Ripuhiring/status/2113280947336704137",
+    "kind": "comparison",
+    "tags": [
+      "ranking",
+      "sixth-place",
+      "vs-muse",
+      "vs-hermes",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-gemini-spark",
+      "vs-dots",
+      "vs-poke"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-23T14:00:00Z",
+    "notes": "X Oct 22: User ranking puts Instinct 6th of 9."
   }
 ]

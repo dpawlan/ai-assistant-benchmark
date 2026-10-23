@@ -58,3 +58,10 @@ _Updated 2026-09-17 weekday vault scan (+5 rows)._
 - (2026-07-21) Saner.AI: Slow email checks + "duct tape" premium pricing jab (one-star review).
 - (2026-07-21) Saner.AI: Privacy pushback during onboarding; "ten-foot pole" inbox-connect refusal.
 - (2026-07-21) Saner.AI comparison: Town deeper on email/routines at $99; Poke cheaper/simpler; both lack knowledge base.
+
+_Updated 2026-10-23 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-22) @Ripuhiring: User ranking puts Poke last (9th of 9).
+
+**Feedback rows:** 242 (as of 2026-10-23)

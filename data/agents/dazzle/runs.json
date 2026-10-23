@@ -64,8 +64,8 @@
     "category": "proactive_restraint",
     "protocol": "observed",
     "date": "2026-10-22",
-    "score": 7,
-    "outcome": "partial",
+    "score": 8,
+    "outcome": "pass",
     "notes": "Asks before paying and before booking, but front-loaded delivery and preference questions on a request that asked for none.",
     "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-f35100"
   },
@@ -74,7 +74,7 @@
     "category": "third_party_integrations",
     "protocol": "observed",
     "date": "2026-10-23",
-    "score": 5,
+    "score": 6,
     "outcome": "partial",
     "notes": "Connects Apple and Google Calendar, Apple passes, contacts and a payment account, plus an MCP, but no Slack, Notion or Gmail send.",
     "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-23-2809dd"

@@ -3611,6 +3611,30 @@
         "+16282634305"
       ],
       "_note": "Added 2026-10-19 after hands-on testing over iMessage. Common word: queries and match are domain and 'Kicker AI' only."
+    },
+    "dazzle": {
+      "name": "Dazzle",
+      "handles": [],
+      "domain": "dazzle.ai",
+      "x_queries": [
+        "\"dazzle.ai\""
+      ],
+      "reddit_queries": [
+        "\"dazzle.ai\""
+      ],
+      "hn_queries": [
+        "\"dazzle.ai\""
+      ],
+      "appstore_ids": [],
+      "ph_slug": null,
+      "match": [
+        "dazzle.ai",
+        "agent.dazzle.ai"
+      ],
+      "imessage_handles": [
+        "+16505098882"
+      ],
+      "_note": "Added 2026-10-23 after hands-on testing over iMessage. Common word: domain-only queries and match."
     }
   },
   "_redact_terms": [

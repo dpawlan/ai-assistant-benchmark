@@ -1,17 +1,17 @@
 {
   "source": "imessage",
   "timed": true,
-  "exported_at": "2026-10-19T22:31:53.647Z",
-  "analyzed_at": "2026-10-19T22:31:53.716Z",
-  "messages": 37,
-  "from_me": 12,
-  "from_agent": 25,
-  "days_active": 2,
+  "exported_at": "2026-10-23T15:37:29.967Z",
+  "analyzed_at": "2026-10-23T15:37:31.148Z",
+  "messages": 44,
+  "from_me": 14,
+  "from_agent": 30,
+  "days_active": 4,
   "first": "2026-10-05",
-  "last": "2026-10-14",
+  "last": "2026-10-20",
   "median_reply_s": 11,
   "p90_reply_s": 208,
   "unanswered": 0,
   "proactive_messages": 0,
-  "episodes": 2
+  "episodes": 4
 }

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-19",
-  "agent_count": 141,
+  "updated": "2026-10-23",
+  "agent_count": 142,
   "feedback_count": 5797,
-  "confirmed": 114,
+  "confirmed": 115,
   "stretch": 27,
   "agents": [
     {
@@ -3118,6 +3118,29 @@
           "iOS app"
         ],
         "checked": "2026-10-21"
+      }
+    },
+    {
+      "slug": "dazzle",
+      "name": "Dazzle",
+      "status": "confirmed",
+      "site": "https://dazzle.ai/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Pictures, not prompts",
+      "icon": "/logos/dazzle.png",
+      "kind": "general",
+      "access": {
+        "pricing": "unknown",
+        "price": "Not stated; App Store app, text to start",
+        "regions": "Not stated",
+        "channels": [
+          "iMessage",
+          "iOS app",
+          "Web app",
+          "MCP"
+        ],
+        "checked": "2026-10-23"
       }
     }
   ]

@@ -1,0 +1,25 @@
+{
+  "slug": "dazzle",
+  "name": "Dazzle",
+  "site": "https://dazzle.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Photo-first personal assistant from Dazzle AI: learns from your camera roll, then shops, books and schedules on approval over iMessage, in its iOS app and on the web, paying through a connected Stripe Link wallet. Also exposes an MCP for other agents. Added after hands-on testing over iMessage.",
+  "public_signal": "low",
+  "tagline": "Pictures, not prompts",
+  "icon": "/logos/dazzle.png",
+  "kind": "general",
+  "access": {
+    "pricing": "unknown",
+    "price": "Not stated; App Store app, text to start",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage",
+      "iOS app",
+      "Web app",
+      "MCP"
+    ],
+    "checked": "2026-10-23"
+  }
+}

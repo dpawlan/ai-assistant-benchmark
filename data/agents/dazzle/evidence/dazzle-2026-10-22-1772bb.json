@@ -1,0 +1,19 @@
+{
+  "id": "dazzle-2026-10-22-1772bb",
+  "agent": "dazzle",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-10-22",
+  "signals": {
+    "turns": 8,
+    "my_messages": 1,
+    "agent_messages": 7,
+    "first_reply_s": null,
+    "duration_min": 14,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-10-23T15:41:50.232Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "dazzle-2026-10-23-2809dd",
+  "agent": "dazzle",
+  "category": "third_party_integrations",
+  "protocol": "observed",
+  "date": "2026-10-23",
+  "signals": {
+    "turns": 10,
+    "my_messages": 3,
+    "agent_messages": 7,
+    "first_reply_s": 8,
+    "duration_min": 1,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-23T15:41:50.232Z"
+}

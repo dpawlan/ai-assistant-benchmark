@@ -1,0 +1,19 @@
+{
+  "id": "dazzle-2026-10-22-c408d2",
+  "agent": "dazzle",
+  "category": "recommendation_quality",
+  "protocol": "task",
+  "date": "2026-10-22",
+  "signals": {
+    "turns": 16,
+    "my_messages": 3,
+    "agent_messages": 13,
+    "first_reply_s": 23,
+    "duration_min": 12,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-23T15:41:50.232Z"
+}

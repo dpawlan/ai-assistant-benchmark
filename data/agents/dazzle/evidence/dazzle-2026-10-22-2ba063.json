@@ -1,0 +1,19 @@
+{
+  "id": "dazzle-2026-10-22-2ba063",
+  "agent": "dazzle",
+  "category": "memory",
+  "protocol": "observed",
+  "date": "2026-10-22",
+  "signals": {
+    "turns": 1,
+    "my_messages": 0,
+    "agent_messages": 1,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-10-23T15:41:50.232Z"
+}

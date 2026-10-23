@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dazzle-2026-10-22-21f3ce",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-10-22",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Found an Instacart bouquet under budget, took one approval through a connected payment account, and confirmed the order in 24 minutes.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-21f3ce"
+  },
+  {
+    "id": "dazzle-2026-10-22-b0a7b2",
+    "category": "online_task",
+    "protocol": "task",
+    "date": "2026-10-22",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Took a flowers order from prompt to confirmed delivery, though it asked four setup questions first despite a no-questions brief.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-b0a7b2"
+  },
+  {
+    "id": "dazzle-2026-10-22-9d5de6",
+    "category": "travel",
+    "protocol": "task",
+    "date": "2026-10-22",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Three nonstop options with fare classes and a recommendation in five minutes, then the payment handoff failed at booking.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-9d5de6"
+  },
+  {
+    "id": "dazzle-2026-10-22-2ba063",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-22",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Asked unprompted whether the user would be in New York for the dinner, given the Chicago trip it had just priced.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-2ba063"
+  },
+  {
+    "id": "dazzle-2026-10-22-c408d2",
+    "category": "recommendation_quality",
+    "protocol": "task",
+    "date": "2026-10-22",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Named the right vegan spots instantly, but the flowers search needed two pushes before it stopped asking about preferences.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-c408d2"
+  },
+  {
+    "id": "dazzle-2026-10-22-1772bb",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-10-22",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Sent four unprompted delivery updates down to the driver arriving, drawing on context it learned from the user's photo library.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-1772bb"
+  },
+  {
+    "id": "dazzle-2026-10-22-f35100",
+    "category": "proactive_restraint",
+    "protocol": "observed",
+    "date": "2026-10-22",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Asks before paying and before booking, but front-loaded delivery and preference questions on a request that asked for none.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-22-f35100"
+  },
+  {
+    "id": "dazzle-2026-10-23-2809dd",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-10-23",
+    "score": 5,
+    "outcome": "partial",
+    "notes": "Connects Apple and Google Calendar, Apple passes, contacts and a payment account, plus an MCP, but no Slack, Notion or Gmail send.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-23-2809dd"
+  },
+  {
+    "id": "dazzle-2026-10-23-1ea248",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-10-23",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Cannot send from Gmail; it drafts the message and opens it in the device's Mail app for the user to send.",
+    "evidence_url": "/agents/dazzle/evidence/dazzle-2026-10-23-1ea248"
+  }
+]

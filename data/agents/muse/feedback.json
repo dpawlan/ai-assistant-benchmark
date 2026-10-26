@@ -6782,5 +6782,96 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
+  },
+  {
+    "id": "f23x09",
+    "agent": "muse",
+    "quote": "Anthropic finally has a personal agent. Claude Duet from @claudeai runs on Opus 5.5 and keeps working with your laptop closed. Is it better than Muse? Not for me, yet. Muse literally called my kid's school and put the parent-teacher conference on my calendar",
+    "author": "@altryne",
+    "author_name": "Alex Volkov",
+    "date": "2026-10-23",
+    "url": "https://x.com/altryne/status/2113673052315869236",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "phone-calls",
+      "calendar",
+      "school"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: Muse called school and scheduled parent-teacher conference; Claude Duet not there yet."
+  },
+  {
+    "id": "f25x01",
+    "agent": "muse",
+    "quote": "I tried Muse, and I fell in love with it. So much became possible.",
+    "author": "@web3crypton",
+    "author_name": "HealthyFran",
+    "date": "2026-10-25",
+    "url": "https://x.com/web3crypton/status/2114377173989810571",
+    "kind": "praise",
+    "tags": [
+      "love",
+      "possibilities"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Fell in love with Muse; so much became possible."
+  },
+  {
+    "id": "f25x02",
+    "agent": "muse",
+    "quote": "This is what I love @muse as a personal agent. The level of proactivity and awareness is CRAZYYYY I haven't seen this replicated anywhere and I've tried a shit ton of agents lol",
+    "author": "@ifexy911",
+    "author_name": "IffMeister",
+    "date": "2026-10-25",
+    "url": "https://x.com/ifexy911/status/2114155557519237311",
+    "kind": "praise",
+    "tags": [
+      "proactivity",
+      "awareness",
+      "best-in-class"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Muse proactivity/awareness unmatched; tried many agents."
+  },
+  {
+    "id": "f26x01",
+    "agent": "muse",
+    "quote": "Tried Claude Duet over the past 5 days. Really glad Ant joined the personal agent race, but they are still sooo far behind Grok Bot and Muse in terms of UX and proactivity. Though it's probably the most reliable one compared to the others while being in a research preview.",
+    "author": "@markrachapoom",
+    "author_name": "Mark Rachapoom",
+    "date": "2026-10-26",
+    "url": "https://x.com/markrachapoom/status/2114559959195320580",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-grok-bot",
+      "ux",
+      "proactivity"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 26: Claude Duet far behind Muse and Grok Bot on UX/proactivity."
+  },
+  {
+    "id": "f26x02",
+    "agent": "muse",
+    "quote": "If you actually want a working personal agent with quick set up out of the box muse is such a better product in everyway. Literally canceled grok bot it was slow and just BAD so few plugins",
+    "author": "@Jarretcoon",
+    "author_name": "Jarret",
+    "date": "2026-10-26",
+    "url": "https://x.com/Jarretcoon/status/2114508341493837839",
+    "kind": "praise",
+    "tags": [
+      "vs-grok-bot",
+      "quick-setup",
+      "better-product"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 26: Muse better product than Grok Bot in every way; canceled Grok Bot."
   }
 ]

@@ -1248,5 +1248,133 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts OpenClaw 5th of 9."
+  },
+  {
+    "id": "f23x03",
+    "agent": "openclaw",
+    "quote": "It's actually pretty insane how much better OpenClaw functions as a personal agent harness than Hermes. It's very clear in defaults that Hermes is very engineering use case focused",
+    "author": "@LiuLawrence45",
+    "author_name": "Lawrence Liu",
+    "date": "2026-10-23",
+    "url": "https://x.com/LiuLawrence45/status/2113513370070774098",
+    "kind": "praise",
+    "tags": [
+      "vs-hermes",
+      "personal-agent",
+      "defaults"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: OpenClaw much better as PA harness than engineering-focused Hermes."
+  },
+  {
+    "id": "f24x01",
+    "agent": "openclaw",
+    "quote": "Agreed, Bot is very cool and I just keep finding ways to use it. I started with OpenClaw, but quickly abandoned that for Hermes Agent, which was great. I have since migrated to Grok Bot for a lot and love it.",
+    "author": "@lonzom10",
+    "author_name": "Brian M.",
+    "date": "2026-10-23",
+    "url": "https://x.com/lonzom10/status/2113513178814632062",
+    "kind": "complaint",
+    "tags": [
+      "abandoned",
+      "vs-hermes",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: Quickly abandoned OpenClaw for Hermes, then Grok Bot."
+  },
+  {
+    "id": "f24x02",
+    "agent": "openclaw",
+    "quote": "I don't like using Grok Bot credits for very narrow repeatable tasks... So for each thing like that (like adding a film to jellyfin) I just use a Hermes agent topic in telegram and drop it the path of the file and it loads everything. Then also use OpenClaw for narrow tasks",
+    "author": "@Jordan_RK",
+    "author_name": "JordanAI",
+    "date": "2026-10-24",
+    "url": "https://x.com/Jordan_RK/status/2114071366014284119",
+    "kind": "use-case",
+    "tags": [
+      "narrow-tasks",
+      "vs-grok-bot",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Uses OpenClaw for narrow tasks to save Grok Bot credits."
+  },
+  {
+    "id": "f25x01",
+    "agent": "openclaw",
+    "quote": "Grok @bot now occupies my Raspberry Pi. Previously I had OpenClaw, NanoClaw, and other claws living there. After that it was Hermes agent. Now it's a hub for Grok Bot cron jobs, persistent memory, and application servers that the Bot runs for me.",
+    "author": "@DmitriiNZ",
+    "author_name": "Dimaz",
+    "date": "2026-10-25",
+    "url": "https://x.com/DmitriiNZ/status/2114402608932880842",
+    "kind": "comparison",
+    "tags": [
+      "raspberry-pi",
+      "migration",
+      "vs-grok-bot",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Migrated Raspberry Pi from OpenClaw/Hermes to Grok Bot."
+  },
+  {
+    "id": "f25x02",
+    "agent": "openclaw",
+    "quote": "Open-source harnesses are on fire. Here are a few examples of what people are building with OpenClaw, Hermes Agent, Pi Agent, and the DeepSeek harness. 99% of them can't be done with Grok Bot",
+    "author": "@dadhalfdev",
+    "author_name": "Marco Rodrigues",
+    "date": "2026-10-25",
+    "url": "https://x.com/dadhalfdev/status/2114331982033264930",
+    "kind": "praise",
+    "tags": [
+      "open-source",
+      "capabilities",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: OpenClaw and open-source harnesses can do 99% more than Grok Bot."
+  },
+  {
+    "id": "f25x03",
+    "agent": "openclaw",
+    "quote": "I started using OpenClaw in February this year, then switched to Hermes Agent after the huge mess they made in August. Then I started using Dots as soon as it launched, with my company Teams account. Today I just tried Grok Bot, and overall I'd say it's the best. That said, it",
+    "author": "@yipengsss",
+    "author_name": "Yipeng Sun",
+    "date": "2026-10-25",
+    "url": "https://x.com/yipengsss/status/2114408941425660307",
+    "kind": "complaint",
+    "tags": [
+      "august-mess",
+      "vs-hermes",
+      "vs-dots",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Left OpenClaw after August mess; tried Hermes, Dots, now Grok Bot."
+  },
+  {
+    "id": "f26x01",
+    "agent": "openclaw",
+    "quote": "A lot of my focus gets lost to tiny tasks. A link worth saving. An update I have to sort through to see if it matters. I've long wanted a personal agent to handle those wherever I am. Three tries didn't stick. OpenClaw was the best option that time, but the setup was a hassle",
+    "author": "@limgangrui",
+    "author_name": "Gang Rui",
+    "date": "2026-10-26",
+    "url": "https://x.com/limgangrui/status/2114588744359768159",
+    "kind": "complaint",
+    "tags": [
+      "setup-hassle",
+      "tiny-tasks",
+      "personal-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 26: OpenClaw was best option but setup was a hassle; didn't stick."
   }
 ]

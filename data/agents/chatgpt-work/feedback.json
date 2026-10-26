@@ -404,5 +404,67 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
+  },
+  {
+    "id": "f24x01",
+    "agent": "chatgpt-work",
+    "quote": "Best personal agent right now depends on the job: Professional work, docs, judgment & proactivity are better done by Claude Duet. Coding, local files, computer use & voice are best done by dots with Codex. Multi-step automation, webhooks & handoffs works great in Grokbot.",
+    "author": "@RSP_ER",
+    "author_name": "Raavi.dev",
+    "date": "2026-10-24",
+    "url": "https://x.com/RSP_ER/status/2113917986671407397",
+    "kind": "praise",
+    "tags": [
+      "coding",
+      "local-files",
+      "computer-use",
+      "voice",
+      "codex",
+      "vs-claude-duet",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Dots with Codex best for coding, local files, computer use, voice."
+  },
+  {
+    "id": "f25x01",
+    "agent": "chatgpt-work",
+    "quote": "I started using OpenClaw in February this year, then switched to Hermes Agent after the huge mess they made in August. Then I started using Dots as soon as it launched, with my company Teams account. Today I just tried Grok Bot, and overall I'd say it's the best. That said, it",
+    "author": "@yipengsss",
+    "author_name": "Yipeng Sun",
+    "date": "2026-10-25",
+    "url": "https://x.com/yipengsss/status/2114408941425660307",
+    "kind": "comparison",
+    "tags": [
+      "teams",
+      "migration",
+      "vs-openclaw",
+      "vs-hermes",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Used Dots on company Teams; now prefers Grok Bot overall."
+  },
+  {
+    "id": "f25x02",
+    "agent": "chatgpt-work",
+    "quote": "If you downgrade ChatGPT from Dots-available Pro to no-Dots Plus and have a Dot enabled, it goes to sleep, but keeps sending you messages to which you can't reply, and you can't delete the Dot. OpenAI, this seems like a bug. PS: I still use Dots in my Enterprise account for",
+    "author": "@_simonsmith",
+    "author_name": "Simon Smith",
+    "date": "2026-10-25",
+    "url": "https://x.com/_simonsmith/status/2114477899545780569",
+    "kind": "bug",
+    "tags": [
+      "downgrade",
+      "sleep",
+      "messages",
+      "delete",
+      "pricing-tier"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Dots bug—downgrade leaves sleeping Dot sending unresponsive messages."
   }
 ]

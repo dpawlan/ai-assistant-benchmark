@@ -800,5 +800,344 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts Hermes Agent 2nd (silver medal)."
+  },
+  {
+    "id": "f23x03",
+    "agent": "hermes-agent",
+    "quote": "It's actually pretty insane how much better OpenClaw functions as a personal agent harness than Hermes. It's very clear in defaults that Hermes is very engineering use case focused",
+    "author": "@LiuLawrence45",
+    "author_name": "Lawrence Liu",
+    "date": "2026-10-23",
+    "url": "https://x.com/LiuLawrence45/status/2113513370070774098",
+    "kind": "comparison",
+    "tags": [
+      "vs-openclaw",
+      "engineering-focus",
+      "defaults"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: OpenClaw better as PA harness; Hermes more engineering-focused."
+  },
+  {
+    "id": "f24x01",
+    "agent": "hermes-agent",
+    "quote": "Agreed, Bot is very cool and I just keep finding ways to use it. I started with OpenClaw, but quickly abandoned that for Hermes Agent, which was great. I have since migrated to Grok Bot for a lot and love it.",
+    "author": "@lonzom10",
+    "author_name": "Brian M.",
+    "date": "2026-10-23",
+    "url": "https://x.com/lonzom10/status/2113513178814632062",
+    "kind": "comparison",
+    "tags": [
+      "migration",
+      "vs-openclaw",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: Journey from OpenClaw to Hermes (great) to Grok Bot."
+  },
+  {
+    "id": "f24x02",
+    "agent": "hermes-agent",
+    "quote": "I don't like using Grok Bot credits for very narrow repeatable tasks... So for each thing like that (like adding a film to jellyfin) I just use a Hermes agent topic in telegram and drop it the path of the file and it loads everything. Then also use OpenClaw for narrow tasks",
+    "author": "@Jordan_RK",
+    "author_name": "JordanAI",
+    "date": "2026-10-24",
+    "url": "https://x.com/Jordan_RK/status/2114071366014284119",
+    "kind": "use-case",
+    "tags": [
+      "telegram",
+      "narrow-tasks",
+      "jellyfin",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Uses Hermes in Telegram for narrow tasks like Jellyfin file loading."
+  },
+  {
+    "id": "f24x03",
+    "agent": "hermes-agent",
+    "quote": "Yes unfortunately that is the case, at least for me. The sad part was when I connected Grok Bot to Hermes to transfer everything to Grok Bot. Then Grok Bot shutdown the Hermes agent. Does feel good to close my laptop again though.",
+    "author": "@PwnUrSelf",
+    "author_name": "JUNKY81",
+    "date": "2026-10-24",
+    "url": "https://x.com/PwnUrSelf/status/2114049256051151239",
+    "kind": "other",
+    "tags": [
+      "migration",
+      "vs-grok-bot",
+      "shutdown"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Grok Bot shut down Hermes agent during migration."
+  },
+  {
+    "id": "f24x04",
+    "agent": "hermes-agent",
+    "quote": "Grok Bot all day but I love my Hermes Agent",
+    "author": "@jaychasofficial",
+    "author_name": "Jay Chas",
+    "date": "2026-10-24",
+    "url": "https://x.com/jaychasofficial/status/2113832399792427497",
+    "kind": "praise",
+    "tags": [
+      "vs-grok-bot",
+      "love"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Uses Grok Bot all day but loves Hermes Agent."
+  },
+  {
+    "id": "f24x05",
+    "agent": "hermes-agent",
+    "quote": "My grok bot uses Hermes agent+ n8n wonderfull!",
+    "author": "@moubuntu",
+    "author_name": "Momo D NH",
+    "date": "2026-10-24",
+    "url": "https://x.com/moubuntu/status/2114117496777089033",
+    "kind": "use-case",
+    "tags": [
+      "vs-grok-bot",
+      "n8n",
+      "integration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Combines Hermes Agent with Grok Bot and n8n."
+  },
+  {
+    "id": "f24x06",
+    "agent": "hermes-agent",
+    "quote": "No I'm using Grok bot + Hermes Agent",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-23",
+    "url": "https://x.com/omx0r/status/2113776649107824717",
+    "kind": "use-case",
+    "tags": [
+      "vs-grok-bot",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 23: Uses both Grok Bot and Hermes Agent."
+  },
+  {
+    "id": "f24x07",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent when I want control, Grok @bot when I want a nap",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-24",
+    "url": "https://x.com/omx0r/status/2114143271551119725",
+    "kind": "comparison",
+    "tags": [
+      "control",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Hermes for control, Grok Bot for hands-off."
+  },
+  {
+    "id": "f24x08",
+    "agent": "hermes-agent",
+    "quote": "Love how good the Grok Bot phone app is. Hermes Agent needs a proper mobile app ASAP",
+    "author": "@jan_volad",
+    "author_name": "Jan",
+    "date": "2026-10-24",
+    "url": "https://x.com/jan_volad/status/2113925284936175725",
+    "kind": "complaint",
+    "tags": [
+      "mobile-app",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Hermes needs proper mobile app like Grok Bot."
+  },
+  {
+    "id": "f24x09",
+    "agent": "hermes-agent",
+    "quote": "I run both. Grok @bot for easy wins, Hermes Agent when I want to tinker",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-24",
+    "url": "https://x.com/omx0r/status/2114072355500671173",
+    "kind": "comparison",
+    "tags": [
+      "tinkering",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 24: Hermes for tinkering, Grok Bot for easy wins."
+  },
+  {
+    "id": "f25x01",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent, yes. Grok Bot is very good, and probably the closest product yet to an ideal normal user's agent interface. However, sometimes I want to see or have a more direct hand on what is happening under the hood. Grok Bot is exceptionally opaque by default, and offers",
+    "author": "@Kit_Shicker",
+    "author_name": "Kit Shicker",
+    "date": "2026-10-25",
+    "url": "https://x.com/Kit_Shicker/status/2114246060646322400",
+    "kind": "comparison",
+    "tags": [
+      "control",
+      "vs-grok-bot",
+      "under-the-hood"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Hermes for control/under-the-hood; Grok Bot ideal for normal users but opaque."
+  },
+  {
+    "id": "f25x02",
+    "agent": "hermes-agent",
+    "quote": "Grok @bot now occupies my Raspberry Pi. Previously I had OpenClaw, NanoClaw, and other claws living there. After that it was Hermes agent. Now it's a hub for Grok Bot cron jobs, persistent memory, and application servers that the Bot runs for me.",
+    "author": "@DmitriiNZ",
+    "author_name": "Dimaz",
+    "date": "2026-10-25",
+    "url": "https://x.com/DmitriiNZ/status/2114402608932880842",
+    "kind": "comparison",
+    "tags": [
+      "raspberry-pi",
+      "migration",
+      "vs-grok-bot",
+      "vs-openclaw"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Migrated Raspberry Pi from OpenClaw to Hermes to Grok Bot."
+  },
+  {
+    "id": "f25x03",
+    "agent": "hermes-agent",
+    "quote": "Open-source harnesses are on fire. Here are a few examples of what people are building with OpenClaw, Hermes Agent, Pi Agent, and the DeepSeek harness. 99% of them can't be done with Grok Bot",
+    "author": "@dadhalfdev",
+    "author_name": "Marco Rodrigues",
+    "date": "2026-10-25",
+    "url": "https://x.com/dadhalfdev/status/2114331982033264930",
+    "kind": "praise",
+    "tags": [
+      "open-source",
+      "vs-grok-bot",
+      "capabilities"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Open-source harnesses (incl Hermes) can do 99% more than Grok Bot."
+  },
+  {
+    "id": "f25x04",
+    "agent": "hermes-agent",
+    "quote": "I started using OpenClaw in February this year, then switched to Hermes Agent after the huge mess they made in August. Then I started using Dots as soon as it launched, with my company Teams account. Today I just tried Grok Bot, and overall I'd say it's the best. That said, it",
+    "author": "@yipengsss",
+    "author_name": "Yipeng Sun",
+    "date": "2026-10-25",
+    "url": "https://x.com/yipengsss/status/2114408941425660307",
+    "kind": "comparison",
+    "tags": [
+      "migration",
+      "vs-openclaw",
+      "vs-grok-bot",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Switched to Hermes after OpenClaw mess; now prefers Grok Bot."
+  },
+  {
+    "id": "f25x05",
+    "agent": "hermes-agent",
+    "quote": "Grok bot has a mobile app, hermes doesn't.... yet. I have a pass through set up in my grok bot that connects to my Hermes agent though so best of both worlds",
+    "author": "@Grymrich",
+    "author_name": "Grymrich",
+    "date": "2026-10-25",
+    "url": "https://x.com/Grymrich/status/2114417305073631699",
+    "kind": "comparison",
+    "tags": [
+      "mobile-app",
+      "passthrough",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Hermes lacks mobile app; uses Grok Bot passthrough to access it."
+  },
+  {
+    "id": "f25x06",
+    "agent": "hermes-agent",
+    "quote": "was using hermes agent + deepseek previously. been testing out grok bot these few days, i'm impressed!",
+    "author": "@Zoronomics",
+    "author_name": "Zoronomics.zec",
+    "date": "2026-10-25",
+    "url": "https://x.com/Zoronomics/status/2114335732773036111",
+    "kind": "comparison",
+    "tags": [
+      "deepseek",
+      "vs-grok-bot",
+      "migration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Was using Hermes+DeepSeek; now testing Grok Bot."
+  },
+  {
+    "id": "f25x07",
+    "agent": "hermes-agent",
+    "quote": "The hermes agent mobile app will kill every other agent like grok bot. I'm so excited for this.",
+    "author": "@aymanemsi",
+    "author_name": "Aymane",
+    "date": "2026-10-25",
+    "url": "https://x.com/aymanemsi/status/2114340740843049263",
+    "kind": "praise",
+    "tags": [
+      "mobile-app",
+      "vs-grok-bot",
+      "prediction"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Hermes mobile app will kill Grok Bot and others."
+  },
+  {
+    "id": "f25x08",
+    "agent": "hermes-agent",
+    "quote": "I really want Hermes agent mobile, if we get that I think it's better than grok bot",
+    "author": "@PosaniRishi",
+    "author_name": "Rishi",
+    "date": "2026-10-25",
+    "url": "https://x.com/PosaniRishi/status/2114340440480894982",
+    "kind": "praise",
+    "tags": [
+      "mobile-app",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 25: Hermes with mobile app would beat Grok Bot."
+  },
+  {
+    "id": "f26x01",
+    "agent": "hermes-agent",
+    "quote": "When Nous releases an app for hermes, it's over for the rest of them. There's no better personal agent harness than hermes, and I've tried them all.",
+    "author": "@brendenvonhouse",
+    "author_name": "Brenden House",
+    "date": "2026-10-26",
+    "url": "https://x.com/brendenvonhouse/status/2114583479174545831",
+    "kind": "praise",
+    "tags": [
+      "mobile-app",
+      "best-harness",
+      "tried-all"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-26T14:00:00Z",
+    "notes": "X Oct 26: Hermes is best personal agent harness; app release will end competition."
   }
 ]

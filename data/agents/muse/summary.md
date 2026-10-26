@@ -322,4 +322,13 @@ _Updated 2026-10-23 weekday vault scan (+8 rows)._
 - (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Muse.
 - (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
 
-**Feedback rows:** 332 (as of 2026-10-23)
+**Feedback rows:** 337 (as of 2026-10-26)
+
+_Updated 2026-10-26 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-24) @Cendol_Dawet: Phone call from Muse handled task like talking to a real person.
+- (2026-10-25) @floppy_pigeon: Muse praised for proactivity—'keeps you posted on relevant stuff.'
+- (2026-10-25) @TechJournoEU: Muse vs Grok Bot: 'Both good, Muse feels more polished.'
+- (2026-10-26) @LightInABox99: Ranked Muse #2 behind Grok Bot in personal agent comparison.
+- (2026-10-23) @69houdini1: Multi-agent user includes Muse alongside OpenClaw/Grok Bot/Hermes.

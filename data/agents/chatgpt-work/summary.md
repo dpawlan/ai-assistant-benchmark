@@ -44,4 +44,11 @@ _Updated 2026-10-23 weekday vault scan (+7 rows)._
 - (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Dots/ChatGPT Work.
 - (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
 
-**Feedback rows:** 20 (as of 2026-10-23)
+**Feedback rows:** 23 (as of 2026-10-26)
+
+_Updated 2026-10-26 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-24) @productivityguy: Dots + Codex combo—'finally feels like an integrated workflow.'
+- (2026-10-25) @AIMentor_Dave: Bug report: Dots downgraded to lower model mid-task without warning.
+- (2026-10-25) @floppy_pigeon: Dots praised for Codex integration, compared favorably to standalone agents.

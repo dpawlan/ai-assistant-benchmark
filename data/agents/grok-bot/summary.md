@@ -223,3 +223,34 @@ _Updated 2026-10-23 weekday vault scan (+10 rows)._
 - (2026-10-22) @FambroJoe: 'Winner is who you trust with inbox first'—agents converging.
 
 **Feedback rows:** 1265 (as of 2026-10-23)
+
+_Updated 2026-10-26 weekday vault scan (+30 rows)._
+
+**New this scan:**
+- (2026-10-23) @6QGvWNjEM881921: Grok Bot wrote X post but got stuck at login step.
+- (2026-10-23) @UpgradeAmerican: Switched Pixel assistant to Grok Bot; handled 6 calendar changes.
+- (2026-10-23) @eltc9584: Grok Bot integrates with phone Calendar/Reminders; 6 apps on permissions.
+- (2026-10-23) @lonzom10: Journey from OpenClaw to Hermes to Grok Bot; loves it.
+- (2026-10-24) @Jordan_RK: Uses Hermes/OpenClaw for narrow tasks to save Grok Bot credits.
+- (2026-10-24) @dadhalfdev: Grok Bot limitations—bad at writing, needs custom tools.
+- (2026-10-24) @PwnUrSelf: Migrated from Hermes to Grok Bot; can close laptop now.
+- (2026-10-24) @jaychasofficial: Uses Grok Bot all day; also loves Hermes.
+- (2026-10-24) @jan_volad: Loves Grok Bot phone app; Hermes needs mobile.
+- (2026-10-24) @BigAL1486: Claude Duet more proactive than Grok Bot.
+- (2026-10-24) @RSP_ER: Grokbot best for multi-step automation, webhooks, handoffs.
+- (2026-10-24) @zcj6612: Fully migrated personal finance to Grok Bot; no wallet.
+- (2026-10-25) @Kit_Shicker: Grok Bot closest to ideal user agent UI but opaque.
+- (2026-10-25) @DmitriiNZ: Raspberry Pi hub migrated from OpenClaw/Hermes to Grok Bot.
+- (2026-10-25) @dadhalfdev: 99% of open-source harness builds can't be done with Grok Bot.
+- (2026-10-25) @yipengsss: OpenClaw→Hermes→Dots→Grok Bot journey; Grok Bot is the best.
+- (2026-10-26) @zefirium: Google Trends—Grok Bot only agent app growing; doubled Oct 1-25.
+- (2026-10-25) @Grymrich: Grok Bot has mobile app; passes through to Hermes.
+- (2026-10-25) @Zoronomics: Moved from Hermes+DeepSeek to Grok Bot; impressed.
+- (2026-10-25) @aymanemsi: Predicts Hermes mobile app will kill Grok Bot.
+- (2026-10-25) @LankC11: 'Hey Grok' iPhone shortcut went viral (6K bookmarks).
+- (2026-10-25) @tweetangelc: Content pipeline with 44 Grok Bot bots.
+- (2026-10-26) @markrachapoom: Claude Duet far behind Grok Bot/Muse on UX/proactivity.
+- (2026-10-26) @Jarretcoon: Canceled Grok Bot—slow, few plugins; Muse better.
+- (2026-10-26) @chiefharis: Grok Bot researched car part, VIN, prepared questions.
+
+**Feedback rows:** 1295 (as of 2026-10-26)

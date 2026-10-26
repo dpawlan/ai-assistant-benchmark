@@ -119,4 +119,15 @@ _Updated 2026-10-23 weekday vault scan (+2 rows)._
 - (2026-10-23) @69houdini1: User prefers multi-agent approach (OpenClaw, Grok Bot, Hermes).
 - (2026-10-22) @Ripuhiring: User ranking puts OpenClaw 5th of 9.
 
-**Feedback rows:** 65 (as of 2026-10-23)
+**Feedback rows:** 72 (as of 2026-10-26)
+
+_Updated 2026-10-26 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-10-23) @69houdini1: Multi-agent approach praised—OpenClaw, Grok Bot, Hermes.
+- (2026-10-24) @techstack_daily: OpenClaw vs Hermes: 'Both need patience but OpenClaw wins on ecosystem.'
+- (2026-10-24) @selfhost_coder: Migrated from Muse to OpenClaw for ownership; 'worth the setup pain.'
+- (2026-10-25) @homelab_zak: OpenClaw + Telegram infra—'runs flawlessly once configured.'
+- (2026-10-25) @floppy_pigeon: 'OpenClaw has the features but Hermes has the community.'
+- (2026-10-26) @LightInABox99: Ranked OpenClaw 4th of 6 in personal agent comparison.
+- (2026-10-23) @Ripuhiring: User ranking puts OpenClaw 5th of 9.

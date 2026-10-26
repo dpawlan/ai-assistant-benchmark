@@ -97,3 +97,26 @@ _Updated 2026-10-23 weekday vault scan (+2 rows)._
 - (2026-10-22) @Ripuhiring: User ranking puts Hermes Agent 2nd (silver medal).
 
 **Feedback rows:** 42 (as of 2026-10-23)
+
+_Updated 2026-10-26 weekday vault scan (+19 rows)._
+
+**New this scan:**
+- (2026-10-23) @LiuLawrence45: OpenClaw better as PA harness; Hermes more engineering-focused.
+- (2026-10-23) @lonzom10: Journey from OpenClaw to Hermes (great) to Grok Bot.
+- (2026-10-24) @Jordan_RK: Uses Hermes in Telegram for narrow tasks like Jellyfin file loading.
+- (2026-10-24) @jaychasofficial: Uses Grok Bot all day but loves Hermes Agent.
+- (2026-10-24) @moubuntu: Combines Hermes Agent with Grok Bot and n8n.
+- (2026-10-24) @omx0r: Hermes for control, Grok Bot for hands-off.
+- (2026-10-24) @jan_volad: Hermes needs proper mobile app like Grok Bot.
+- (2026-10-24) @omx0r: Hermes for tinkering, Grok Bot for easy wins.
+- (2026-10-25) @Kit_Shicker: Hermes for control/under-the-hood; Grok Bot ideal for normal users but opaque.
+- (2026-10-25) @DmitriiNZ: Migrated Raspberry Pi from OpenClaw to Hermes to Grok Bot.
+- (2026-10-25) @dadhalfdev: Open-source harnesses (incl Hermes) can do 99% more than Grok Bot.
+- (2026-10-25) @yipengsss: Switched to Hermes after OpenClaw mess; now prefers Grok Bot.
+- (2026-10-25) @Grymrich: Hermes lacks mobile app; uses Grok Bot passthrough to access it.
+- (2026-10-25) @Zoronomics: Was using Hermes+DeepSeek; now testing Grok Bot.
+- (2026-10-25) @aymanemsi: Hermes mobile app will kill Grok Bot and others.
+- (2026-10-25) @PosaniRishi: Hermes with mobile app would beat Grok Bot.
+- (2026-10-26) @brendenvonhouse: Hermes is best personal agent harness; app release will end competition.
+
+**Feedback rows:** 61 (as of 2026-10-26)

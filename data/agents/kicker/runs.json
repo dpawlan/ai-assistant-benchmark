@@ -60,16 +60,6 @@
     "evidence_url": "/agents/kicker/evidence/kicker-2026-10-19-47852b"
   },
   {
-    "id": "kicker-2026-10-19-f918d7",
-    "category": "travel",
-    "protocol": "task",
-    "date": "2026-10-19",
-    "score": 6,
-    "outcome": "partial",
-    "notes": "Found the cheapest nonstop round trip and reached the airline's passenger page, spelling out the basic economy and return airport catches.",
-    "evidence_url": "/agents/kicker/evidence/kicker-2026-10-19-f918d7"
-  },
-  {
     "id": "kicker-2026-10-19-bca8ad",
     "category": "permissions_privacy",
     "protocol": "observed",

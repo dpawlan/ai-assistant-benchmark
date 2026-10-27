@@ -11,3 +11,11 @@ _Updated 2026-10-23 weekday vault scan (+2 rows)._
 - (2026-10-22) @Ripuhiring: User ranking puts Gemini Spark 7th of 9.
 
 **Feedback rows:** 2 (as of 2026-10-23)
+
+_Updated 2026-10-27 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-27) @The_Contextian: Cites WIRED—Gemini Spark 1/5 on food task.
+- (2026-10-27) WIRED: Best morning briefing (5/5) but worst lunch (1/5) and conflict (1/5); 12/25 total.
+
+**Feedback rows:** 7 (as of 2026-10-27)

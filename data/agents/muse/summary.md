@@ -332,3 +332,12 @@ _Updated 2026-10-26 weekday vault scan (+5 rows)._
 - (2026-10-25) @TechJournoEU: Muse vs Grok Bot: 'Both good, Muse feels more polished.'
 - (2026-10-26) @LightInABox99: Ranked Muse #2 behind Grok Bot in personal agent comparison.
 - (2026-10-23) @69houdini1: Multi-agent user includes Muse alongside OpenClaw/Grok Bot/Hermes.
+
+_Updated 2026-10-27 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-26) @fabricated_mnd: Muse US-only limitation.
+- (2026-10-27) @jdudley: Muse far ahead of Claude Duet.
+- (2026-10-27) WIRED: Muse 'Most Accessible'—2nd place (18/25), free, 5/5 on itinerary.
+
+**Feedback rows:** 342 (as of 2026-10-27)

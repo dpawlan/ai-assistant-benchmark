@@ -6874,4 +6874,100 @@
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: Muse better product than Grok Bot in every way; canceled Grok Bot."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "muse",
+    "quote": "Finally pulled the trigger and paid for Grok Bot. I've been wanting to try a personal AI agents for a while. Muse and Claude Duet is US only, Dots is $100 a month, and Instinct isn't on the same level (more suitable for simple tasks). OpenClaw and Hermes is too technical for me.",
+    "author": "@fabricated_mnd",
+    "author_name": "Fab Mind",
+    "date": "2026-10-26",
+    "url": "https://x.com/fabricated_mnd/status/2114755653080432872",
+    "kind": "other",
+    "tags": [
+      "us-only",
+      "availability",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Muse US-only limitation mentioned."
+  },
+  {
+    "id": "f27x02",
+    "agent": "muse",
+    "quote": "I was excited to get off the @AnthropicAI Claude Duet waitlist but I'm finding it to be the most rudimentary of all the \"always on bot\" platforms. @xai Grok Bot, @Meta  Muse, and even @OpenAI Dots are far ahead of Anthropic here in my experience. Grok Bot leads IMHO.",
+    "author": "@jdudley",
+    "author_name": "jdudley",
+    "date": "2026-10-27",
+    "url": "https://x.com/jdudley/status/2115075419670229190",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-grok-bot",
+      "far-ahead"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Muse far ahead of Claude Duet on always-on bot platforms."
+  },
+  {
+    "id": "f27w01",
+    "agent": "muse",
+    "quote": "Most Accessible: Meta Muse. Muse is for the normies! And that's fine. It did well in tests, coming in a close second on the scorecard, and was the easiest to set up. Oh, and it's free. Despite Meta's assurances that it responsibly processes user info in secure virtual machines, I still have concerns given the company's past mishandling of user data.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#muse-accessible",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "most-accessible",
+      "free",
+      "privacy-concern"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Muse most accessible, 2nd place, free; privacy concerns remain."
+  },
+  {
+    "id": "f27w02",
+    "agent": "muse",
+    "quote": "Muse: 5/5. This draft itinerary was extremely easy to read, with visual tables and straightforward tips. Fly out of SFO the week after Golden Week, on a nonstop to Beijing, home nonstop from Shanghai. Four hotels, no backtracking — imperial history first, Sichuan food and pandas in the middle, Shanghai nightlife to finish.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#muse-itinerary",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "travel-itinerary",
+      "5-of-5",
+      "best"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Muse 5/5 on travel itinerary—best, easy to read with visual tables."
+  },
+  {
+    "id": "f27w03",
+    "agent": "muse",
+    "quote": "Muse: 4/5. Very similar to the order that I actually placed. Picked DragonEats through DoorDash. For you: Roast Pork BM—$13.19, Vietnamese Iced Coffee—$5.29. For your boss (all vegan): Teriyaki Tofu Roll—$12.09—the fresh spring roll, kept with the default peanut sauce, not fish sauce; Teriyaki Tofu BM—$12.09. Item total is $42.66.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#muse-lunch",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "lunch-order",
+      "4-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Muse 4/5 on lunch—similar to actual order placed."
+  }
 ]

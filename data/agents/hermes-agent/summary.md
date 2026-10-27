@@ -120,3 +120,17 @@ _Updated 2026-10-26 weekday vault scan (+19 rows)._
 - (2026-10-26) @brendenvonhouse: Hermes is best personal agent harness; app release will end competition.
 
 **Feedback rows:** 61 (as of 2026-10-26)
+
+_Updated 2026-10-27 weekday vault scan (+15 rows)._
+
+**New this scan:**
+- (2026-10-26) @MiaAI_lab: Grok Bot itself says Hermes is closest alternative.
+- (2026-10-27) @FluxVoyager: Long-time user—Grok Bot is 'Hermes sterilized for normies.'
+- (2026-10-27) @petercat721: Same 'just works' experience with Hermes + Grok 4.6/4.7.
+- (2026-10-26) @Kadeka_SI: 'Best local alternative—established and data transparent.'
+- (2026-10-26) @w33nsy: Hitting limits—self-improvement sometimes regresses; VPS overhead.
+- (2026-10-26) @fabricated_mnd: Hermes 'too technical' for casual user.
+- (2026-10-26) @alexcovo_eth: Hermes with new 'Acting skill' in video production.
+- (2026-10-26) @AFeastOfIdeas: Confirms Hermes can join a Grok Bot fleet.
+
+**Feedback rows:** 76 (as of 2026-10-27)

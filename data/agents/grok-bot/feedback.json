@@ -30808,4 +30808,358 @@
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: Grok Bot researched car part, VIN, prepared questions for visit."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot says the closest alternative to Grok Bot is Hermes Agent with Hermes Desktop.",
+    "author": "@MiaAI_lab",
+    "author_name": "Mia",
+    "date": "2026-10-26",
+    "url": "https://x.com/MiaAI_lab/status/2114758438630957187",
+    "kind": "other",
+    "tags": [
+      "vs-hermes",
+      "self-referential"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Grok Bot itself says Hermes Agent is closest alternative."
+  },
+  {
+    "id": "f27x02",
+    "agent": "grok-bot",
+    "quote": "Long time Hermes Agent user.  When Grok Bot came out I was really stumped for a reason to use it.  It was like Hermes Agent but sterilized for normies.",
+    "author": "@FluxVoyager",
+    "author_name": "FluxVoyager",
+    "date": "2026-10-27",
+    "url": "https://x.com/FluxVoyager/status/2115007485564395979",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "normies",
+      "accessibility"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot = 'Hermes Agent sterilized for normies'."
+  },
+  {
+    "id": "f27x03",
+    "agent": "grok-bot",
+    "quote": "I agree, Grok bot really versitle and just works. \n\nAnd the same experience I had with Hermes Agent with a good model like Grok 4.6 / 4.7",
+    "author": "@petercat721",
+    "author_name": "Peter Catania",
+    "date": "2026-10-27",
+    "url": "https://x.com/petercat721/status/2115052704141647913",
+    "kind": "praise",
+    "tags": [
+      "versatile",
+      "just-works",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot versatile and just works; similar Hermes experience with Grok 4.6/4.7."
+  },
+  {
+    "id": "f27x04",
+    "agent": "grok-bot",
+    "quote": "Grok @bot runs my day, Hermes Agent gets the long builds. Teamwork 😄",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-26",
+    "url": "https://x.com/omx0r/status/2114759669000380583",
+    "kind": "use-case",
+    "tags": [
+      "daily-use",
+      "vs-hermes",
+      "division-of-labor"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Grok Bot for daily tasks, Hermes for long builds."
+  },
+  {
+    "id": "f27x05",
+    "agent": "grok-bot",
+    "quote": "Grok @bot never skips a check-in.\nHermes Agent tidies its memory every night at 2am.",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-27",
+    "url": "https://x.com/omx0r/status/2115056203965325715",
+    "kind": "use-case",
+    "tags": [
+      "check-ins",
+      "vs-hermes",
+      "memory"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot reliable for check-ins; Hermes tidies memory at 2am."
+  },
+  {
+    "id": "f27x06",
+    "agent": "grok-bot",
+    "quote": "I just use them on different layers, Grok Bot + Hermes Agent is working out pretty good. I still have agency over everything while benefiting from Grok Bot's killer features.",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-27",
+    "url": "https://x.com/alexcovo_eth/status/2114871807870210063",
+    "kind": "use-case",
+    "tags": [
+      "multi-agent",
+      "vs-hermes",
+      "layered-use"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Using Grok Bot + Hermes on different layers; maintains agency."
+  },
+  {
+    "id": "f27x07",
+    "agent": "grok-bot",
+    "quote": "I have grok @bot some editing duties recently, and it's really solid. But I would like to delegate the task back to hermes agent to test this Terra 6.1 🤔",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-26",
+    "url": "https://x.com/alexcovo_eth/status/2114838097447805292",
+    "kind": "use-case",
+    "tags": [
+      "editing",
+      "solid",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Grok Bot solid on editing duties; considering switch to Hermes for Terra 6.1."
+  },
+  {
+    "id": "f27x08",
+    "agent": "grok-bot",
+    "quote": "A Tribute to MicroDucks (Part 2)  \nScript/Music/Sound Effects/StackChan Face/Video Editing+Effects/Graphics: Grok @bot\nActor:  @M5Stack  StackChan robot Nous Girl + \n@NousResearch Hermes-Agent using new \"Acting skill\" + @openAI GPT-Luna-6 (Reasoning Off)",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-26",
+    "url": "https://x.com/alexcovo_eth/status/2114781602475917358",
+    "kind": "use-case",
+    "tags": [
+      "creative",
+      "video-production",
+      "multi-agent",
+      "hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Video production with Grok Bot (script/music/editing) + Hermes (acting)."
+  },
+  {
+    "id": "f27x09",
+    "agent": "grok-bot",
+    "quote": "I got more stuff done with Grok Bot and my local Hermes Agent than any other frontier solution, cheaper and faster. Needs lots of Harness Engineering though.",
+    "author": "@kawandanet",
+    "author_name": "Kawanda",
+    "date": "2026-10-27",
+    "url": "https://x.com/kawandanet/status/2114968847522684943",
+    "kind": "praise",
+    "tags": [
+      "productivity",
+      "vs-hermes",
+      "cheap",
+      "fast",
+      "harness-engineering"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot + local Hermes more productive/cheaper/faster than frontier; needs harness work."
+  },
+  {
+    "id": "f27x10",
+    "agent": "grok-bot",
+    "quote": "Currently trying out @OpenBot_ \n\nI liked the grok bot made me feel but the usage limit is shit and Hermes agent doesn't give those kind of feels",
+    "author": "@migzauto",
+    "author_name": "Miguel Ricaforte",
+    "date": "2026-10-26",
+    "url": "https://x.com/migzauto/status/2114868376074137815",
+    "kind": "complaint",
+    "tags": [
+      "usage-limits",
+      "vs-hermes",
+      "feel"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Likes Grok Bot feel but usage limit is 'shit'; Hermes lacks same feel."
+  },
+  {
+    "id": "f27x11",
+    "agent": "grok-bot",
+    "quote": "Finally pulled the trigger and paid for Grok Bot. I've been wanting to try a personal AI agents for a while. Muse and Claude Duet is US only, Dots is $100 a month, and Instinct isn't on the same level (more suitable for simple tasks). OpenClaw and Hermes is too technical for me.",
+    "author": "@fabricated_mnd",
+    "author_name": "Fab Mind",
+    "date": "2026-10-26",
+    "url": "https://x.com/fabricated_mnd/status/2114755653080432872",
+    "kind": "comparison",
+    "tags": [
+      "signup",
+      "vs-muse",
+      "vs-instinct",
+      "vs-openclaw",
+      "vs-hermes",
+      "accessibility"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Chose Grok Bot—Muse/Claude Duet US-only, Dots $100, Instinct simple, OpenClaw/Hermes too technical."
+  },
+  {
+    "id": "f27x12",
+    "agent": "grok-bot",
+    "quote": "I was excited to get off the @AnthropicAI Claude Duet waitlist but I'm finding it to be the most rudimentary of all the \"always on bot\" platforms. @xai Grok Bot, @Meta  Muse, and even @OpenAI Dots are far ahead of Anthropic here in my experience. Grok Bot leads IMHO.",
+    "author": "@jdudley",
+    "author_name": "jdudley",
+    "date": "2026-10-27",
+    "url": "https://x.com/jdudley/status/2115075419670229190",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-muse",
+      "vs-dots",
+      "leads"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot leads; Claude Duet most rudimentary of always-on bots."
+  },
+  {
+    "id": "f27x13",
+    "agent": "grok-bot",
+    "quote": "Grok Bot is actually amazing tool for content optimization, just curious how their competitor OpenAI dots works, but Grok Bot looks good and perfect chose for now.",
+    "author": "@ItsNazar17",
+    "author_name": "Nazar",
+    "date": "2026-10-26",
+    "url": "https://x.com/ItsNazar17/status/2114738179467329577",
+    "kind": "praise",
+    "tags": [
+      "content-optimization",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Grok Bot amazing for content optimization; perfect choice for now."
+  },
+  {
+    "id": "f27x14",
+    "agent": "grok-bot",
+    "quote": "After using Grok Bot, Dot, and Claude Duet, I think Claude Duet has strong potential, only thing I miss the most is that it doesn't have access to my local computer.",
+    "author": "@jeffrey_ho",
+    "author_name": "Jeffrey",
+    "date": "2026-10-27",
+    "url": "https://x.com/jeffrey_ho/status/2114914336963543389",
+    "kind": "comparison",
+    "tags": [
+      "vs-dots",
+      "vs-claude-duet",
+      "local-access"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Tested Grok Bot/Dots/Claude Duet; Claude Duet lacks local computer access."
+  },
+  {
+    "id": "f27w01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot: 1/5. Old news. Meta's Muse Has Basic Taste—by Design. A leaked set of instructions tells Meta's AI agent to fill its top picks with well-known stores and to check only three websites per request, just as millions of people start handing it their holiday shopping lists.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#grok-bot-briefing",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "morning-briefing",
+      "1-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Grok Bot 1/5 on morning briefing—'old news' pitch about Muse."
+  },
+  {
+    "id": "f27w02",
+    "agent": "grok-bot",
+    "quote": "Grok Bot: 4/5. Another strong alternative. Picked Freshroll through DoorDash. For you: Power Hour vermicelli bowl with garlic-ginger-honey pork and NamNam sauce, $15.85. Vietnamese cold-brew iced coffee, $5.85. For your boss (vegan): Rainbow Bowl, vermicelli with sesame-lime tofu and citrus ginger sauce, $15.85. Freshroll tofu spring roll with peanut sauce, no fried piece, $5.85. That's $43.40 before tax and fees.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#grok-bot-lunch",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "lunch-order",
+      "4-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Grok Bot 4/5 on lunch—strong alternative with detailed cart."
+  },
+  {
+    "id": "f27w03",
+    "agent": "grok-bot",
+    "quote": "Grok Bot: 2/5. Missed the conflict on my schedule, though it shared how to avoid this happening again. I should have caught it, and from now on I'll check your self-reminder emails along with your calendars.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#grok-bot-conflict",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "schedule-conflict",
+      "2-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Grok Bot 2/5 on conflict detection—missed overlap, offered future fix."
+  },
+  {
+    "id": "f27w04",
+    "agent": "grok-bot",
+    "quote": "Grok Bot: 4/5. Grok Bot's output was easy to read and full of realistically helpful tips and suggestions. A first-draft 13-night trip for two: Beijing, Xi'an, Chengdu and Shanghai, departing SFO on Oct 13 and returning Oct 27, after Golden Week.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#grok-bot-itinerary",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "travel-itinerary",
+      "4-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Grok Bot 4/5 on travel itinerary—easy to read, helpful tips."
+  },
+  {
+    "id": "f27w05",
+    "agent": "grok-bot",
+    "quote": "Grok Bot: 5/5. This output made sense to me, and if the scenario were real, I would likely follow through on it. I can set a reminder for later this morning to check in on your mom and see how her leg's doing, so it's off your mind for now.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#grok-bot-insomnia",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "late-night",
+      "5-of-5",
+      "best"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Grok Bot 5/5 on late-night task—best response, actionable."
+  }
 ]

@@ -131,3 +131,10 @@ _Updated 2026-10-26 weekday vault scan (+7 rows)._
 - (2026-10-25) @floppy_pigeon: 'OpenClaw has the features but Hermes has the community.'
 - (2026-10-26) @LightInABox99: Ranked OpenClaw 4th of 6 in personal agent comparison.
 - (2026-10-23) @Ripuhiring: User ranking puts OpenClaw 5th of 9.
+
+_Updated 2026-10-27 weekday vault scan (+1 rows)._
+
+**New this scan:**
+- (2026-10-26) @fabricated_mnd: OpenClaw 'too technical' for casual user.
+
+**Feedback rows:** 73 (as of 2026-10-27)

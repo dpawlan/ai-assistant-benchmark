@@ -44,4 +44,103 @@
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts Gemini Spark 7th of 9."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "gemini-spark",
+    "quote": "Wired gave six phone agents a day of tasks. Gemini Spark scored 1 of 5, and Claude Duet got a 3 on food.",
+    "author": "@The_Contextian",
+    "author_name": "The_Contextian",
+    "date": "2026-10-27",
+    "url": "https://x.com/The_Contextian/status/2115064340352999907",
+    "kind": "other",
+    "tags": [
+      "wired",
+      "benchmark",
+      "1-of-5"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Cites WIRED test—Gemini Spark 1/5 on food task."
+  },
+  {
+    "id": "f27w01",
+    "agent": "gemini-spark",
+    "quote": "Gemini Spark: 5/5. A conversational headline that identifies a core tension online. Walmart Wants Your AI Agent to Buy Your Groceries. Amazon Is Calling the Cops. As retail giants clash over autonomous checkout, giving an AI companion like Meta's Muse a weekly spending allowance reveals what happens when we stop clicking \"Add to Cart\" and outsource our domestic appetites to software.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#gemini-spark-briefing",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "morning-briefing",
+      "5-of-5",
+      "best"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Gemini Spark 5/5 on morning briefing—best pitch of all six."
+  },
+  {
+    "id": "f27w02",
+    "agent": "gemini-spark",
+    "quote": "Gemini Spark: 1/5. If I brought my boss a single $6 spring roll for lunch, he'd end up hangry and at the vending machine before long. Picked Freshroll through DoorDash. For your boss, the cart includes a vegan Freshroll fresh spring roll filled with sesame-lime tofu and served with Grandma's peanut sauce ($5.85). For you, there's a regular bánh mì sandwich loaded with garlic-, ginger-, and honey-roasted pork ($10.85), paired with a Vietnamese cold-brew iced coffee ($5.85) for an afternoon caffeine boost—bringing the pickup subtotal to $22.55.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#gemini-spark-lunch",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "lunch-order",
+      "1-of-5",
+      "worst"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Gemini Spark 1/5 on lunch—only ordered one $6 spring roll for boss."
+  },
+  {
+    "id": "f27w03",
+    "agent": "gemini-spark",
+    "quote": "Gemini Spark: 1/5. It didn't flag the overlapping events and didn't suggest easy ways to avoid this in the future. Because the reminder arrived as an email message rather than a calendar entry or scheduled task, the cross-app overlap wasn't surfaced before 2:00 pm.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#gemini-spark-conflict",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "schedule-conflict",
+      "1-of-5",
+      "worst"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Gemini Spark 1/5 on conflict—didn't flag overlap or offer fixes."
+  },
+  {
+    "id": "f27w04",
+    "agent": "gemini-spark",
+    "quote": "Gemini Spark: 2/5. OK, this is fine advice for a user complaining about sleep issues. At the same time, the comment about my empty morning calendar was annoying. Insomnia isn't just tied to what's on my Google Calendar. The best quick task right now is a mental download to get whatever is looping in your head onto paper so your brain can let go of it—especially since your calendar is completely clear today, with no morning commitments waiting for you.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#gemini-spark-insomnia",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "late-night",
+      "2-of-5",
+      "annoying"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Gemini Spark 2/5 on late-night—annoying comment about empty calendar."
+  }
 ]

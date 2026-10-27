@@ -254,3 +254,18 @@ _Updated 2026-10-26 weekday vault scan (+30 rows)._
 - (2026-10-26) @chiefharis: Grok Bot researched car part, VIN, prepared questions.
 
 **Feedback rows:** 1295 (as of 2026-10-26)
+
+_Updated 2026-10-27 weekday vault scan (+19 rows)._
+
+**New this scan:**
+- (2026-10-26) @MiaAI_lab: Grok Bot says closest alternative is Hermes Agent.
+- (2026-10-27) @FluxVoyager: 'Hermes Agent sterilized for normies.'
+- (2026-10-27) @petercat721: 'Grok bot really versatile and just works.'
+- (2026-10-26) @omx0r: 'Grok Bot runs my day, Hermes gets long builds.'
+- (2026-10-27) @kawandanet: Grok Bot + local Hermes beats frontier solutions.
+- (2026-10-26) @migzauto: Likes Grok Bot feel but 'usage limit is shit.'
+- (2026-10-26) @fabricated_mnd: Chose Grok Bot—Muse/Claude Duet US-only, Dots $100, Instinct simple.
+- (2026-10-27) @jdudley: 'Grok Bot leads IMHO'—Claude Duet most rudimentary.
+- (2026-10-27) WIRED: Grok Bot tied 3rd (16/25)—5/5 late-night, 4/5 lunch/itinerary, 2/5 conflict, 1/5 briefing.
+
+**Feedback rows:** 1314 (as of 2026-10-27)

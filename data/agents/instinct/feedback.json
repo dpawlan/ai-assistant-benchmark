@@ -7048,4 +7048,62 @@
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts Instinct 6th of 9."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "instinct",
+    "quote": "Finally pulled the trigger and paid for Grok Bot. I've been wanting to try a personal AI agents for a while. Muse and Claude Duet is US only, Dots is $100 a month, and Instinct isn't on the same level (more suitable for simple tasks). OpenClaw and Hermes is too technical for me.",
+    "author": "@fabricated_mnd",
+    "author_name": "Fab Mind",
+    "date": "2026-10-26",
+    "url": "https://x.com/fabricated_mnd/status/2114755653080432872",
+    "kind": "complaint",
+    "tags": [
+      "not-same-level",
+      "simple-tasks",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Instinct 'not on the same level, more suitable for simple tasks'."
+  },
+  {
+    "id": "f27w01",
+    "agent": "instinct",
+    "quote": "Most Annoying: Instinct. You might like the sparse design fully integrated into your messenger; I did not. While other WIRED writers have lauded Instinct, calling it so good that they didn't care what happened to their privacy, the texting-only aspect felt like a deal-breaker for me. I left the experience feeling too removed from what my agent was doing on my behalf and annoyed at its emoji reactions, like a grimace face when I told the agent it missed my scheduling conflict.",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#instinct-annoying",
+    "kind": "complaint",
+    "tags": [
+      "wired",
+      "benchmark",
+      "most-annoying",
+      "texting-only",
+      "emoji-reactions"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Instinct 'most annoying'—texting-only deal-breaker, emoji reactions annoying."
+  },
+  {
+    "id": "f27w02",
+    "agent": "instinct",
+    "quote": "Instinct: 2/5. It didn't flag the overlap, but it provided tips to fix similar issues in the future. I had nothing cross-checking your inbox against your calendar. Want me to run that check every morning and flag collisions before they hit?",
+    "author": "Reece Rogers",
+    "author_name": "Reece Rogers (WIRED)",
+    "date": "2026-10-27",
+    "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/#instinct-conflict",
+    "kind": "review",
+    "tags": [
+      "wired",
+      "benchmark",
+      "schedule-conflict",
+      "2-of-5"
+    ],
+    "source": "web",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "WIRED Oct 27: Instinct 2/5 on conflict detection—missed overlap."
+  }
 ]

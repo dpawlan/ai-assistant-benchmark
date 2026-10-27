@@ -1140,4 +1140,276 @@
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: Hermes is best personal agent harness; app release will end competition."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "hermes-agent",
+    "quote": "Grok Bot says the closest alternative to Grok Bot is Hermes Agent with Hermes Desktop.",
+    "author": "@MiaAI_lab",
+    "author_name": "Mia",
+    "date": "2026-10-26",
+    "url": "https://x.com/MiaAI_lab/status/2114758438630957187",
+    "kind": "other",
+    "tags": [
+      "vs-grok-bot",
+      "recommended-by-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Grok Bot itself says Hermes Agent is closest alternative."
+  },
+  {
+    "id": "f27x02",
+    "agent": "hermes-agent",
+    "quote": "Long time Hermes Agent user.  When Grok Bot came out I was really stumped for a reason to use it.  It was like Hermes Agent but sterilized for normies.",
+    "author": "@FluxVoyager",
+    "author_name": "FluxVoyager",
+    "date": "2026-10-27",
+    "url": "https://x.com/FluxVoyager/status/2115007485564395979",
+    "kind": "praise",
+    "tags": [
+      "long-time-user",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Long-time Hermes user; Grok Bot = Hermes 'sterilized for normies'."
+  },
+  {
+    "id": "f27x03",
+    "agent": "hermes-agent",
+    "quote": "I agree, Grok bot really versitle and just works. \n\nAnd the same experience I had with Hermes Agent with a good model like Grok 4.6 / 4.7",
+    "author": "@petercat721",
+    "author_name": "Peter Catania",
+    "date": "2026-10-27",
+    "url": "https://x.com/petercat721/status/2115052704141647913",
+    "kind": "praise",
+    "tags": [
+      "grok-4.6",
+      "grok-4.7",
+      "just-works"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Same 'just works' experience with Hermes using Grok 4.6/4.7."
+  },
+  {
+    "id": "f27x04",
+    "agent": "hermes-agent",
+    "quote": "Grok @bot runs my day, Hermes Agent gets the long builds. Teamwork 😄",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-26",
+    "url": "https://x.com/omx0r/status/2114759669000380583",
+    "kind": "use-case",
+    "tags": [
+      "long-builds",
+      "vs-grok-bot",
+      "division-of-labor"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hermes handles long builds while Grok Bot runs daily tasks."
+  },
+  {
+    "id": "f27x05",
+    "agent": "hermes-agent",
+    "quote": "Grok @bot never skips a check-in.\nHermes Agent tidies its memory every night at 2am.",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-27",
+    "url": "https://x.com/omx0r/status/2115056203965325715",
+    "kind": "use-case",
+    "tags": [
+      "memory-management",
+      "scheduled",
+      "2am"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Hermes tidies its memory every night at 2am."
+  },
+  {
+    "id": "f27x06",
+    "agent": "hermes-agent",
+    "quote": "I just use them on different layers, Grok Bot + Hermes Agent is working out pretty good. I still have agency over everything while benefiting from Grok Bot's killer features.",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-27",
+    "url": "https://x.com/alexcovo_eth/status/2114871807870210063",
+    "kind": "use-case",
+    "tags": [
+      "multi-agent",
+      "layered-use",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Using Hermes + Grok Bot on different layers works well."
+  },
+  {
+    "id": "f27x07",
+    "agent": "hermes-agent",
+    "quote": "I have grok @bot some editing duties recently, and it's really solid. But I would like to delegate the task back to hermes agent to test this Terra 6.1 🤔",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-26",
+    "url": "https://x.com/alexcovo_eth/status/2114838097447805292",
+    "kind": "use-case",
+    "tags": [
+      "terra-6.1",
+      "model-testing",
+      "editing"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Planning to test Hermes with Terra 6.1 model."
+  },
+  {
+    "id": "f27x08",
+    "agent": "hermes-agent",
+    "quote": "A Tribute to MicroDucks (Part 2)  \nScript/Music/Sound Effects/StackChan Face/Video Editing+Effects/Graphics: Grok @bot\nActor:  @M5Stack  StackChan robot Nous Girl + \n@NousResearch Hermes-Agent using new \"Acting skill\" + @openAI GPT-Luna-6 (Reasoning Off)",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-26",
+    "url": "https://x.com/alexcovo_eth/status/2114781602475917358",
+    "kind": "use-case",
+    "tags": [
+      "acting-skill",
+      "creative",
+      "video-production",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hermes with new 'Acting skill' in video production."
+  },
+  {
+    "id": "f27x09",
+    "agent": "hermes-agent",
+    "quote": "I got more stuff done with Grok Bot and my local Hermes Agent than any other frontier solution, cheaper and faster. Needs lots of Harness Engineering though.",
+    "author": "@kawandanet",
+    "author_name": "Kawanda",
+    "date": "2026-10-27",
+    "url": "https://x.com/kawandanet/status/2114968847522684943",
+    "kind": "praise",
+    "tags": [
+      "local",
+      "productivity",
+      "cheap",
+      "fast",
+      "harness-engineering"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 27: Local Hermes + Grok Bot beats frontier solutions; needs harness work."
+  },
+  {
+    "id": "f27x10",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent is still the best local Grok Bot alternative. The others are some nice tries, but not as established and data transparent as Hermes.",
+    "author": "@Kadeka_SI",
+    "author_name": "Kadeka_SI",
+    "date": "2026-10-26",
+    "url": "https://x.com/Kadeka_SI/status/2114863640373289372",
+    "kind": "praise",
+    "tags": [
+      "best-local",
+      "established",
+      "data-transparent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hermes best local alternative—established and data transparent."
+  },
+  {
+    "id": "f27x11",
+    "agent": "hermes-agent",
+    "quote": "Currently trying out @OpenBot_ \n\nI liked the grok bot made me feel but the usage limit is shit and Hermes agent doesn't give those kind of feels",
+    "author": "@migzauto",
+    "author_name": "Miguel Ricaforte",
+    "date": "2026-10-26",
+    "url": "https://x.com/migzauto/status/2114868376074137815",
+    "kind": "complaint",
+    "tags": [
+      "feel",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hermes doesn't give the same 'feel' as Grok Bot."
+  },
+  {
+    "id": "f27x12",
+    "agent": "hermes-agent",
+    "quote": "I've been running Hermes Agent + Codex + Oracle for a while, but I'm starting to hit its limits.\n\nCodex feels like it's getting dumber compared to other models, Hermes' self-improvement sometimes turns into self-regression, and managing a VPS takes more attention than I'd like.",
+    "author": "@w33nsy",
+    "author_name": "Weensy",
+    "date": "2026-10-26",
+    "url": "https://x.com/w33nsy/status/2114731163055173810",
+    "kind": "complaint",
+    "tags": [
+      "limits",
+      "self-regression",
+      "vps-management",
+      "codex",
+      "oracle"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hitting Hermes limits—self-improvement sometimes regresses; VPS management overhead."
+  },
+  {
+    "id": "f27x13",
+    "agent": "hermes-agent",
+    "quote": "Finally pulled the trigger and paid for Grok Bot. I've been wanting to try a personal AI agents for a while. Muse and Claude Duet is US only, Dots is $100 a month, and Instinct isn't on the same level (more suitable for simple tasks). OpenClaw and Hermes is too technical for me.",
+    "author": "@fabricated_mnd",
+    "author_name": "Fab Mind",
+    "date": "2026-10-26",
+    "url": "https://x.com/fabricated_mnd/status/2114755653080432872",
+    "kind": "complaint",
+    "tags": [
+      "too-technical",
+      "accessibility",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Hermes too technical; chose Grok Bot instead."
+  },
+  {
+    "id": "f27x14",
+    "agent": "hermes-agent",
+    "quote": "What the easiest way to connect @Grok Bot with Hermes agent for collaboration? Did someone found the way?",
+    "author": "@sunset_evm",
+    "author_name": "artem",
+    "date": "2026-10-26",
+    "url": "https://x.com/sunset_evm/status/2114837638243062203",
+    "kind": "other",
+    "tags": [
+      "integration",
+      "vs-grok-bot",
+      "question"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Asking how to connect Grok Bot with Hermes for collaboration."
+  },
+  {
+    "id": "f27x15",
+    "agent": "hermes-agent",
+    "quote": "Can you bring a Hermes agent into a Grok Bot fleet? Yes!",
+    "author": "@AFeastOfIdeas",
+    "author_name": "Brad",
+    "date": "2026-10-26",
+    "url": "https://x.com/AFeastOfIdeas/status/2114713139564425276",
+    "kind": "other",
+    "tags": [
+      "integration",
+      "grok-bot-fleet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: Confirms Hermes can join a Grok Bot fleet."
+  }
 ]

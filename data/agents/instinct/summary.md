@@ -306,3 +306,11 @@ _Updated 2026-10-23 weekday vault scan (+2 rows)._
 - (2026-10-22) @Ripuhiring: User ranking puts Instinct 6th of 9.
 
 **Feedback rows:** 336 (as of 2026-10-23)
+
+_Updated 2026-10-27 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-26) @fabricated_mnd: 'Not on the same level—more suitable for simple tasks.'
+- (2026-10-27) WIRED: 'Most Annoying'—texting-only, emoji reactions, 12/25 total.
+
+**Feedback rows:** 339 (as of 2026-10-27)

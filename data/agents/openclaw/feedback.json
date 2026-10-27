@@ -1377,4 +1377,23 @@
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: OpenClaw was best option but setup was a hassle; didn't stick."
   }
+,
+  {
+    "id": "f27x01",
+    "agent": "openclaw",
+    "quote": "Finally pulled the trigger and paid for Grok Bot. I've been wanting to try a personal AI agents for a while. Muse and Claude Duet is US only, Dots is $100 a month, and Instinct isn't on the same level (more suitable for simple tasks). OpenClaw and Hermes is too technical for me.",
+    "author": "@fabricated_mnd",
+    "author_name": "Fab Mind",
+    "date": "2026-10-26",
+    "url": "https://x.com/fabricated_mnd/status/2114755653080432872",
+    "kind": "complaint",
+    "tags": [
+      "too-technical",
+      "accessibility",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-27T14:00:00Z",
+    "notes": "X Oct 26: OpenClaw too technical for casual user."
+  }
 ]

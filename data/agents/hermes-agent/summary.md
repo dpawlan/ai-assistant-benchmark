@@ -133,4 +133,19 @@ _Updated 2026-10-27 weekday vault scan (+15 rows)._
 - (2026-10-26) @alexcovo_eth: Hermes with new 'Acting skill' in video production.
 - (2026-10-26) @AFeastOfIdeas: Confirms Hermes can join a Grok Bot fleet.
 
-**Feedback rows:** 76 (as of 2026-10-27)
+**Feedback rows:** 87 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-10-27) @samarthmamadapu: Runs Hermes through Grok Bot mobile UI via API server.
+- (2026-10-27) @MystiqueMide: Hermes mobile coming soon; may beat Grok Bot for top spot.
+- (2026-10-27) @samuel_yostt: User loves Hermes agent; asks what Grok Bot adds.
+- (2026-10-28) @Son_of_a_Pigeon: Each Grok Bot can have its own Hermes agent.
+- (2026-10-27) @DarthJML: Hermes #1 for power users; uses both Hermes and Grok Bot.
+- (2026-10-27) @ivanfioravanti: Hermes with local AI is something different from Grok Bot ecosystem.
+- (2026-10-28) @agentsinuse: Experimental Grok Bot + Hermes bridge for documents and wake-up.
+- (2026-10-28) @adityaa_behera: Claude Duet limited; recommends Hermes agent instead.
+- (2026-10-28) @omx0r: Hermes finishes tasks in 4 min; human approval is bottleneck.
+- (2026-10-27) @KlementXV: Months using Hermes with OpenRouter + Codex as personal assistant.
+- (2026-10-27) @alexcovo_eth: Uses Hermes for robot control with persistent memory.

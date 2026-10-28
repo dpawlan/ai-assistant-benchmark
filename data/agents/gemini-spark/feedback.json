@@ -142,5 +142,58 @@
     "source": "web",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "WIRED Oct 27: Gemini Spark 2/5 on late-night—annoying comment about empty calendar."
+  },
+  {
+    "id": "f28x01",
+    "agent": "gemini-spark",
+    "quote": "OpenAI Dots won a six-agent bake-off. It also costs $100 a month. A Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Anthropic Claude Duet, Google Gemini Spark, and xAI Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash.",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-27",
+    "url": "https://x.com/Tesla_Optimus_K/status/2115200727790571521",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "six-agents"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Wired six-agent bake-off summary; Gemini Spark was one of six tested."
+  },
+  {
+    "id": "f28x02",
+    "agent": "gemini-spark",
+    "quote": "Wired ran six AI agents through a day of real tasks: OpenAI Dots, Claude Duet, Grok Bot, Meta Muse, Gemini Spark, Instinct. Only two caught a calendar clash. Dots won, but it needs ChatGPT Pro at $100 a month. Would you pay that for an agent that runs your day?",
+    "author": "@Notorious_corbz",
+    "author_name": "Dialed",
+    "date": "2026-10-28",
+    "url": "https://x.com/Notorious_corbz/status/2115260762566647824",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "calendar-clash"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Wired test—Gemini Spark was one of six; only 2 caught calendar clash."
+  },
+  {
+    "id": "f28x03",
+    "agent": "gemini-spark",
+    "quote": "Has anyone used Gemini Spark/Tasks? I honestly haven't...",
+    "author": "@TechGeekAnthony",
+    "author_name": "Tech Geek Anthony",
+    "date": "2026-10-28",
+    "url": "https://x.com/TechGeekAnthony/status/2115275109942370789",
+    "kind": "other",
+    "tags": [
+      "awareness",
+      "question"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Asks if anyone has used Gemini Spark—lack of awareness/buzz."
   }
 ]

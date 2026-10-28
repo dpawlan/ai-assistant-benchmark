@@ -313,4 +313,11 @@ _Updated 2026-10-27 weekday vault scan (+3 rows)._
 - (2026-10-26) @fabricated_mnd: 'Not on the same level—more suitable for simple tasks.'
 - (2026-10-27) WIRED: 'Most Annoying'—texting-only, emoji reactions, 12/25 total.
 
-**Feedback rows:** 339 (as of 2026-10-27)
+**Feedback rows:** 342 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Instinct was one of six tested.
+- (2026-10-28) @Notorious_corbz: Wired test—Instinct was one of six; only 2 caught calendar clash.
+- (2026-10-27) @themachinemoney: Stripe Link balance live in Instinct—add money, set limit, agent buys.

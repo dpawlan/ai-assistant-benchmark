@@ -7105,5 +7105,60 @@
     "source": "web",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "WIRED Oct 27: Instinct 2/5 on conflict detection—missed overlap."
+  },
+  {
+    "id": "f28x01",
+    "agent": "instinct",
+    "quote": "OpenAI Dots won a six-agent bake-off. It also costs $100 a month. A Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Anthropic Claude Duet, Google Gemini Spark, and xAI Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash.",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-27",
+    "url": "https://x.com/Tesla_Optimus_K/status/2115200727790571521",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "six-agents"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Wired six-agent bake-off summary; Instinct was one of six tested."
+  },
+  {
+    "id": "f28x02",
+    "agent": "instinct",
+    "quote": "Wired ran six AI agents through a day of real tasks: OpenAI Dots, Claude Duet, Grok Bot, Meta Muse, Gemini Spark, Instinct. Only two caught a calendar clash. Dots won, but it needs ChatGPT Pro at $100 a month. Would you pay that for an agent that runs your day?",
+    "author": "@Notorious_corbz",
+    "author_name": "Dialed",
+    "date": "2026-10-28",
+    "url": "https://x.com/Notorious_corbz/status/2115260762566647824",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "calendar-clash"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Wired test—Instinct was one of six; only 2 caught calendar clash."
+  },
+  {
+    "id": "f28x03",
+    "agent": "instinct",
+    "quote": "1/5 Stripe's Link just gave AI agents pocket money. Oct 26: \"Link balance\" went live inside the Instinct agent. You add money, set a per-purchase limit, and the agent buys within it. Reality check: live, but US only (NY coming soon).",
+    "author": "@themachinemoney",
+    "author_name": "Machine Money",
+    "date": "2026-10-27",
+    "url": "https://x.com/themachinemoney/status/2115068223800643810",
+    "kind": "news",
+    "tags": [
+      "stripe",
+      "link-balance",
+      "payments",
+      "us-only"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Stripe Link balance live in Instinct—add money, set limit, agent buys."
   }
 ]

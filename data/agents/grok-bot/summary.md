@@ -268,4 +268,23 @@ _Updated 2026-10-27 weekday vault scan (+19 rows)._
 - (2026-10-27) @jdudley: 'Grok Bot leads IMHO'—Claude Duet most rudimentary.
 - (2026-10-27) WIRED: Grok Bot tied 3rd (16/25)—5/5 late-night, 4/5 lunch/itinerary, 2/5 conflict, 1/5 briefing.
 
-**Feedback rows:** 1314 (as of 2026-10-27)
+**Feedback rows:** 1329 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+15 rows)._
+
+**New this scan:**
+- (2026-10-27) @samarthmamadapu: Runs Hermes agent through Grok Bot mobile UI via API bridge.
+- (2026-10-27) @MystiqueMide: Hermes mobile may beat Grok Bot for top spot.
+- (2026-10-27) @samuel_yostt: User loves Hermes; asks what Grok Bot adds.
+- (2026-10-28) @Son_of_a_Pigeon: 'Grok bot is the best'—each bot can have its own Hermes agent.
+- (2026-10-27) @DarthJML: Grok Bot wins on simplicity; uses for X routines and phone-to-PC bridge.
+- (2026-10-27) @ivanfioravanti: Grok Bot ecosystem 'incredibly mature'; Hermes with local AI different.
+- (2026-10-28) @agentsinuse: Experimental Grok Bot + Hermes bridge for documents and wake-up.
+- (2026-10-28) @adityaa_behera: Claude Duet limited; recommends Grok Bot or Hermes instead.
+- (2026-10-28) @omx0r: Grok Bot checks tasks in 2 min; human approval is bottleneck.
+- (2026-10-28) @uctive: Grok Bot found free chair offer in spam; 'paid for itself'.
+- (2026-10-27) @KlementXV: After months on Hermes, tried Grok Bot—impressive, evolving fast.
+- (2026-10-27) @alexcovo_eth: Uses Grok Bot + Hermes for robot control with persistent memory.
+- (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Dots won but costs $100/mo.
+- (2026-10-28) @Notorious_corbz: Wired test—only 2 of 6 agents caught calendar clash.
+- (2026-10-28) @darin_gordon: Muse agent not in the same ballpark as Grok Bot.

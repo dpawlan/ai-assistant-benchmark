@@ -1411,5 +1411,202 @@
     "source": "x",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "X Oct 26: Confirms Hermes can join a Grok Bot fleet."
+  },
+  {
+    "id": "f28x01",
+    "agent": "hermes-agent",
+    "quote": "I now run my Hermes agent entirely through grok bot on my phone. The best of both worlds is if you set up your Grok bot to be able to talk to your Hermes agent through the API server. I now get most of my stuff done on my Hermes agent, through the Grok bot UI.",
+    "author": "@samarthmamadapu",
+    "author_name": "Samarth Mamadapur",
+    "date": "2026-10-27",
+    "url": "https://x.com/samarthmamadapu/status/2115118568408752194",
+    "kind": "use_case",
+    "tags": [
+      "grok-bot-ui",
+      "api",
+      "mobile"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Runs Hermes through Grok Bot mobile UI via API server."
+  },
+  {
+    "id": "f28x02",
+    "agent": "hermes-agent",
+    "quote": "hermes agent is coming to mobile very soon. i bet this will beat grok bot and take back its spot as the best ai agent in the world. i just hope the team takes their time and doesn't rush the launch. we need an app that anyone can use, whether you're a complete beginner or a",
+    "author": "@MystiqueMide",
+    "author_name": "MystiqueMide",
+    "date": "2026-10-27",
+    "url": "https://x.com/MystiqueMide/status/2115140467390063057",
+    "kind": "praise",
+    "tags": [
+      "mobile-app",
+      "best-agent",
+      "anticipation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Hermes mobile coming soon; may beat Grok Bot for top spot."
+  },
+  {
+    "id": "f28x03",
+    "agent": "hermes-agent",
+    "quote": "I love my Hermes agent, I wonder if grok bot provides any benefits over it",
+    "author": "@samuel_yostt",
+    "author_name": "Sam",
+    "date": "2026-10-27",
+    "url": "https://x.com/samuel_yostt/status/2115114922665230423",
+    "kind": "praise",
+    "tags": [
+      "love",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: User loves Hermes agent; asks what Grok Bot adds."
+  },
+  {
+    "id": "f28x04",
+    "agent": "hermes-agent",
+    "quote": "Yess grok bot is the best. Haha because each bot can have its own Hermes agent",
+    "author": "@Son_of_a_Pigeon",
+    "author_name": "Ohad Grodzenski",
+    "date": "2026-10-28",
+    "url": "https://x.com/Son_of_a_Pigeon/status/2115437128532517037",
+    "kind": "use_case",
+    "tags": [
+      "grok-bot-integration",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Each Grok Bot can have its own Hermes agent."
+  },
+  {
+    "id": "f28x05",
+    "agent": "hermes-agent",
+    "quote": "Hermes vs Grok Bot isn't really a fight. Hermes is for power users who want full creative freedom, and it's #1 there. Grok Bot wins on simplicity: grab it off the app store and let it rip. I use both, Grok Bot for my X routines and a bridge from my phone to my PC.",
+    "author": "@DarthJML",
+    "author_name": "Cyber Viking Johnny",
+    "date": "2026-10-27",
+    "url": "https://x.com/DarthJML/status/2115199480723370136",
+    "kind": "praise",
+    "tags": [
+      "power-users",
+      "creative-freedom",
+      "number-one",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Hermes #1 for power users; uses both Hermes and Grok Bot."
+  },
+  {
+    "id": "f28x06",
+    "agent": "hermes-agent",
+    "quote": "App ecosystem around grok bot is incredibly mature. But Hermes Agent with local AI is still something different.",
+    "author": "@ivanfioravanti",
+    "author_name": "Ivan Fioravanti",
+    "date": "2026-10-27",
+    "url": "https://x.com/ivanfioravanti/status/2115217728726544517",
+    "kind": "comparison",
+    "tags": [
+      "local-ai",
+      "different",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Hermes with local AI is something different from Grok Bot ecosystem."
+  },
+  {
+    "id": "f28x07",
+    "agent": "hermes-agent",
+    "quote": "@JamesOnEdge linked Grok Bot and Hermes Agent for document requests and wake-up messages. An experimental bridge, with delivery and recovery limits documented.",
+    "author": "@agentsinuse",
+    "author_name": "Agents In Use",
+    "date": "2026-10-28",
+    "url": "https://x.com/agentsinuse/status/2115311497953837382",
+    "kind": "use_case",
+    "tags": [
+      "bridge",
+      "documents",
+      "grok-bot-integration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Experimental Grok Bot + Hermes bridge for documents and wake-up messages."
+  },
+  {
+    "id": "f28x08",
+    "agent": "hermes-agent",
+    "quote": "Claude duet is finally open. >only in USA >only for max users >coming for pro users. They did exactly what openai did with dots. (It's better to use grok bot or hermes agent)",
+    "author": "@adityaa_behera",
+    "author_name": "INDIE | KAI",
+    "date": "2026-10-28",
+    "url": "https://x.com/adityaa_behera/status/2115380450399314050",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-dots",
+      "recommendation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Claude Duet limited like Dots; recommends Hermes agent instead."
+  },
+  {
+    "id": "f28x09",
+    "agent": "hermes-agent",
+    "quote": "I found the bottleneck in my AI team. Hermes Agent finishes the task in 4 minutes. Grok Bot checks it in 2. Then they both wait 3 hours for me to tap \"approve\". Who's the slowest member of your team?",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-28",
+    "url": "https://x.com/omx0r/status/2115417346428805232",
+    "kind": "use_case",
+    "tags": [
+      "multi-agent",
+      "speed",
+      "4-minutes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Hermes finishes tasks in 4 min; human approval is the bottleneck."
+  },
+  {
+    "id": "f28x10",
+    "agent": "hermes-agent",
+    "quote": "After months of using Hermes Agent as my personal assistant (OpenRouter models + my Codex subscription), I tried Grok @bot. It's impressive: easy to use, well integrated, good tools/MCP, Tesla integration, dev workflows, and a powerful computer. It's evolving fast.",
+    "author": "@KlementXV",
+    "author_name": "Klement",
+    "date": "2026-10-27",
+    "url": "https://x.com/KlementXV/status/2115122161765495014",
+    "kind": "use_case",
+    "tags": [
+      "openrouter",
+      "codex",
+      "personal-assistant"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Months using Hermes with OpenRouter + Codex as personal assistant."
+  },
+  {
+    "id": "f28x11",
+    "agent": "hermes-agent",
+    "quote": "I use LLMs Grok @bot and @NousResearch Hermes Agent and basically have the entire intelligence and nervous system to run a robot (hardware). Oh yeah, and my robots remember. They have memory now with hermes. AI came for software and now for hardware.",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-27",
+    "url": "https://x.com/alexcovo_eth/status/2115225579846877293",
+    "kind": "use_case",
+    "tags": [
+      "robotics",
+      "memory",
+      "hardware"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Uses Hermes for robot control with persistent memory."
   }
 ]

@@ -466,5 +466,79 @@
     "source": "x",
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 25: Dots bug—downgrade leaves sleeping Dot sending unresponsive messages."
+  },
+  {
+    "id": "f28x01",
+    "agent": "chatgpt-work",
+    "quote": "OpenAI Dots won a six-agent bake-off. It also costs $100 a month. A Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Anthropic Claude Duet, Google Gemini Spark, and xAI Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash.",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-27",
+    "url": "https://x.com/Tesla_Optimus_K/status/2115200727790571521",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "winner",
+      "5-of-5"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Wired bake-off—Dots won 5/5 on lunch and calendar clash; costs $100/mo."
+  },
+  {
+    "id": "f28x02",
+    "agent": "chatgpt-work",
+    "quote": "Wired ran six AI agents through a day of real tasks: OpenAI Dots, Claude Duet, Grok Bot, Meta Muse, Gemini Spark, Instinct. Only two caught a calendar clash. Dots won, but it needs ChatGPT Pro at $100 a month. Would you pay that for an agent that runs your day?",
+    "author": "@Notorious_corbz",
+    "author_name": "Dialed",
+    "date": "2026-10-28",
+    "url": "https://x.com/Notorious_corbz/status/2115260762566647824",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "winner",
+      "price"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Wired test—Dots won but requires $100/mo ChatGPT Pro."
+  },
+  {
+    "id": "f28x03",
+    "agent": "chatgpt-work",
+    "quote": "me : research this. chatgpt work (26m later) : here result. me : very nice. tell me this metric. chatgpt work (4m later): ..... ( i killed task). me : it is so simple. What is this? chatgpt work (2m later) : .... (pointed research html again). %70 usage and 40m gone forever.",
+    "author": "@nurullah_kuus",
+    "author_name": "Nurullah Kuş",
+    "date": "2026-10-28",
+    "url": "https://x.com/nurullah_kuus/status/2115397061520617550",
+    "kind": "complaint",
+    "tags": [
+      "slow",
+      "wasted-time",
+      "frustration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: ChatGPT Work slow—research took 26min, follow-up failed; 70% usage, 40min wasted."
+  },
+  {
+    "id": "f28x04",
+    "agent": "chatgpt-work",
+    "quote": "BREAKING: OpenAI is investigating degraded performance on ChatGPT Work right now. Status page flipped to Partial System Degradation. Not all of ChatGPT — Work specifically.",
+    "author": "@Bogirl0",
+    "author_name": "Bo | AI Tools Daily",
+    "date": "2026-10-28",
+    "url": "https://x.com/Bogirl0/status/2115292740095459390",
+    "kind": "bug",
+    "tags": [
+      "outage",
+      "degradation",
+      "status-page"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: ChatGPT Work partial system degradation reported."
   }
 ]

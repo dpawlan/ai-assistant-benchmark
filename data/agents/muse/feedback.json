@@ -6969,5 +6969,111 @@
     "source": "web",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "WIRED Oct 27: Muse 4/5 on lunch—similar to actual order placed."
+  },
+  {
+    "id": "f28x01",
+    "agent": "muse",
+    "quote": "OpenAI Dots won a six-agent bake-off. It also costs $100 a month. A Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Anthropic Claude Duet, Google Gemini Spark, and xAI Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash.",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-27",
+    "url": "https://x.com/Tesla_Optimus_K/status/2115200727790571521",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "vs-dots",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Wired six-agent bake-off summary; Muse was one of six tested."
+  },
+  {
+    "id": "f28x02",
+    "agent": "muse",
+    "quote": "Wired ran six AI agents through a day of real tasks: OpenAI Dots, Claude Duet, Grok Bot, Meta Muse, Gemini Spark, Instinct. Only two caught a calendar clash. Dots won, but it needs ChatGPT Pro at $100 a month. Would you pay that for an agent that runs your day?",
+    "author": "@Notorious_corbz",
+    "author_name": "Dialed",
+    "date": "2026-10-28",
+    "url": "https://x.com/Notorious_corbz/status/2115260762566647824",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "calendar-clash"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Wired test—Muse was one of six agents; only 2 caught calendar clash."
+  },
+  {
+    "id": "f28x03",
+    "agent": "muse",
+    "quote": "A Muse agent running Muse Spark isn't in the same ballpark as a GrokBot",
+    "author": "@darin_gordon",
+    "author_name": "Darin",
+    "date": "2026-10-28",
+    "url": "https://x.com/darin_gordon/status/2115429969836769760",
+    "kind": "complaint",
+    "tags": [
+      "vs-grok-bot",
+      "inferior"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Muse agent not in the same ballpark as Grok Bot."
+  },
+  {
+    "id": "f28x04",
+    "agent": "muse",
+    "quote": "Oh i see the difference already. Muse agent cannot follow tasks very well",
+    "author": "@TOATspace",
+    "author_name": "TOATspace",
+    "date": "2026-10-28",
+    "url": "https://x.com/TOATspace/status/2115405116891394398",
+    "kind": "complaint",
+    "tags": [
+      "task-following",
+      "poor"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Muse agent cannot follow tasks very well."
+  },
+  {
+    "id": "f28x05",
+    "agent": "muse",
+    "quote": "I tried having my muse agent play the oracle. But its too slow. I haven't beaten the oracle once btw",
+    "author": "@Brokejumpmaster",
+    "author_name": "Broke Never",
+    "date": "2026-10-28",
+    "url": "https://x.com/Brokejumpmaster/status/2115422364305608755",
+    "kind": "complaint",
+    "tags": [
+      "slow",
+      "games"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Muse agent too slow for game use case."
+  },
+  {
+    "id": "f28x06",
+    "agent": "muse",
+    "quote": "If @Muse expects us to connect our lives to this Muse agent the least they could have done was give us 2FA instead of just this simple email login nonsense.",
+    "author": "@AldricEverhart",
+    "author_name": "Aldric Everhart",
+    "date": "2026-10-28",
+    "url": "https://x.com/AldricEverhart/status/2115331164718195018",
+    "kind": "complaint",
+    "tags": [
+      "security",
+      "2fa",
+      "authentication"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Muse needs 2FA instead of simple email login for life data."
   }
 ]

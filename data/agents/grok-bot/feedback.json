@@ -31161,5 +31161,278 @@
     "source": "web",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "WIRED Oct 27: Grok Bot 5/5 on late-night task—best response, actionable."
+  },
+  {
+    "id": "f28x01",
+    "agent": "grok-bot",
+    "quote": "I now run my Hermes agent entirely through grok bot on my phone. The best of both worlds is if you set up your Grok bot to be able to talk to your Hermes agent through the API server. I now get most of my stuff done on my Hermes agent, through the Grok bot UI.",
+    "author": "@samarthmamadapu",
+    "author_name": "Samarth Mamadapur",
+    "date": "2026-10-27",
+    "url": "https://x.com/samarthmamadapu/status/2115118568408752194",
+    "kind": "use_case",
+    "tags": [
+      "mobile",
+      "hermes-integration",
+      "api"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Runs Hermes agent through Grok Bot mobile UI via API bridge."
+  },
+  {
+    "id": "f28x02",
+    "agent": "grok-bot",
+    "quote": "hermes agent is coming to mobile very soon. i bet this will beat grok bot and take back its spot as the best ai agent in the world. i just hope the team takes their time and doesn't rush the launch.",
+    "author": "@MystiqueMide",
+    "author_name": "MystiqueMide",
+    "date": "2026-10-27",
+    "url": "https://x.com/MystiqueMide/status/2115140467390063057",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "mobile",
+      "best-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Hermes mobile may beat Grok Bot for top spot."
+  },
+  {
+    "id": "f28x03",
+    "agent": "grok-bot",
+    "quote": "I love my Hermes agent, I wonder if grok bot provides any benefits over it",
+    "author": "@samuel_yostt",
+    "author_name": "Sam",
+    "date": "2026-10-27",
+    "url": "https://x.com/samuel_yostt/status/2115114922665230423",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "question"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: User loves Hermes, asks what Grok Bot adds."
+  },
+  {
+    "id": "f28x04",
+    "agent": "grok-bot",
+    "quote": "Yess grok bot is the best. Haha because each bot can have its own Hermes agent",
+    "author": "@Son_of_a_Pigeon",
+    "author_name": "Ohad Grodzenski",
+    "date": "2026-10-28",
+    "url": "https://x.com/Son_of_a_Pigeon/status/2115437128532517037",
+    "kind": "praise",
+    "tags": [
+      "best",
+      "hermes-integration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: 'Grok bot is the best'—each bot can have its own Hermes agent."
+  },
+  {
+    "id": "f28x05",
+    "agent": "grok-bot",
+    "quote": "Hermes vs Grok Bot isn't really a fight. Hermes is for power users who want full creative freedom, and it's #1 there. Grok Bot wins on simplicity: grab it off the app store and let it rip. I use both, Grok Bot for my X routines and a bridge from my phone to my PC.",
+    "author": "@DarthJML",
+    "author_name": "Cyber Viking Johnny",
+    "date": "2026-10-27",
+    "url": "https://x.com/DarthJML/status/2115199480723370136",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "simplicity",
+      "x-routines",
+      "bridge"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot wins on simplicity; uses it for X routines and phone-to-PC bridge."
+  },
+  {
+    "id": "f28x06",
+    "agent": "grok-bot",
+    "quote": "App ecosystem around grok bot is incredibly mature. But Hermes Agent with local AI is still something different.",
+    "author": "@ivanfioravanti",
+    "author_name": "Ivan Fioravanti",
+    "date": "2026-10-27",
+    "url": "https://x.com/ivanfioravanti/status/2115217728726544517",
+    "kind": "praise",
+    "tags": [
+      "ecosystem",
+      "mature",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Grok Bot ecosystem 'incredibly mature'; Hermes with local AI is different."
+  },
+  {
+    "id": "f28x07",
+    "agent": "grok-bot",
+    "quote": "@JamesOnEdge linked Grok Bot and Hermes Agent for document requests and wake-up messages. An experimental bridge, with delivery and recovery limits documented.",
+    "author": "@agentsinuse",
+    "author_name": "Agents In Use",
+    "date": "2026-10-28",
+    "url": "https://x.com/agentsinuse/status/2115311497953837382",
+    "kind": "use_case",
+    "tags": [
+      "bridge",
+      "documents",
+      "hermes-integration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Experimental Grok Bot + Hermes bridge for documents and wake-up messages."
+  },
+  {
+    "id": "f28x08",
+    "agent": "grok-bot",
+    "quote": "Claude duet is finally open. >only in USA >only for max users >coming for pro users. They did exactly what openai did with dots. (It's better to use grok bot or hermes agent)",
+    "author": "@adityaa_behera",
+    "author_name": "INDIE | KAI",
+    "date": "2026-10-28",
+    "url": "https://x.com/adityaa_behera/status/2115380450399314050",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-dots",
+      "recommendation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Claude Duet limited like Dots; recommends Grok Bot or Hermes instead."
+  },
+  {
+    "id": "f28x09",
+    "agent": "grok-bot",
+    "quote": "I found the bottleneck in my AI team. Hermes Agent finishes the task in 4 minutes. Grok Bot checks it in 2. Then they both wait 3 hours for me to tap \"approve\". Who's the slowest member of your team?",
+    "author": "@omx0r",
+    "author_name": "Omar",
+    "date": "2026-10-28",
+    "url": "https://x.com/omx0r/status/2115417346428805232",
+    "kind": "use_case",
+    "tags": [
+      "multi-agent",
+      "speed",
+      "approval-bottleneck"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot checks tasks in 2 min; human approval is the bottleneck."
+  },
+  {
+    "id": "f28x10",
+    "agent": "grok-bot",
+    "quote": "My Grok bot unexpectedly paid for itself! It found an offer in spam to test a chair from @LiberNovo for free. Normally, I delete emails like that without even finishing the first sentence! But just to test the bot, I said: \"Look into it!\" And now the chair is here!",
+    "author": "@uctive",
+    "author_name": "Vik | Practical AI & Tech",
+    "date": "2026-10-28",
+    "url": "https://x.com/uctive/status/2115342233167687793",
+    "kind": "use_case",
+    "tags": [
+      "email",
+      "spam-filter",
+      "paid-for-itself"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot found free chair offer in spam; 'paid for itself'."
+  },
+  {
+    "id": "f28x11",
+    "agent": "grok-bot",
+    "quote": "After months of using Hermes Agent as my personal assistant (OpenRouter models + my Codex subscription), I tried Grok @bot. It's impressive: easy to use, well integrated, good tools/MCP, Tesla integration, dev workflows, and a powerful computer. It's evolving fast.",
+    "author": "@KlementXV",
+    "author_name": "Klement",
+    "date": "2026-10-27",
+    "url": "https://x.com/KlementXV/status/2115122161765495014",
+    "kind": "praise",
+    "tags": [
+      "vs-hermes",
+      "impressive",
+      "mcp",
+      "tesla",
+      "evolving"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: After months on Hermes, tried Grok Bot—impressive, well integrated, evolving fast."
+  },
+  {
+    "id": "f28x12",
+    "agent": "grok-bot",
+    "quote": "I use LLMs Grok @bot and @NousResearch Hermes Agent and basically have the entire intelligence and nervous system to run a robot (hardware). Oh yeah, and my robots remember. They have memory now with hermes. AI came for software and now for hardware.",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-27",
+    "url": "https://x.com/alexcovo_eth/status/2115225579846877293",
+    "kind": "use_case",
+    "tags": [
+      "robotics",
+      "memory",
+      "hermes-integration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Uses Grok Bot + Hermes for robot control with persistent memory."
+  },
+  {
+    "id": "f28x13",
+    "agent": "grok-bot",
+    "quote": "OpenAI Dots won a six-agent bake-off. It also costs $100 a month. A Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Anthropic Claude Duet, Google Gemini Spark, and xAI Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash.",
+    "author": "@Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-10-27",
+    "url": "https://x.com/Tesla_Optimus_K/status/2115200727790571521",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "vs-dots",
+      "vs-muse",
+      "vs-instinct"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 27: Wired six-agent bake-off; Dots won but costs $100/mo."
+  },
+  {
+    "id": "f28x14",
+    "agent": "grok-bot",
+    "quote": "Wired ran six AI agents through a day of real tasks: OpenAI Dots, Claude Duet, Grok Bot, Meta Muse, Gemini Spark, Instinct. Only two caught a calendar clash. Dots won, but it needs ChatGPT Pro at $100 a month. Would you pay that for an agent that runs your day?",
+    "author": "@Notorious_corbz",
+    "author_name": "Dialed",
+    "date": "2026-10-28",
+    "url": "https://x.com/Notorious_corbz/status/2115260762566647824",
+    "kind": "comparison",
+    "tags": [
+      "wired",
+      "bakeoff",
+      "vs-dots",
+      "calendar-clash"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Wired test—only 2 of 6 agents caught calendar clash; Dots won but $100/mo."
+  },
+  {
+    "id": "f28x15",
+    "agent": "grok-bot",
+    "quote": "A Muse agent running Muse Spark isn't in the same ballpark as a GrokBot",
+    "author": "@darin_gordon",
+    "author_name": "Darin",
+    "date": "2026-10-28",
+    "url": "https://x.com/darin_gordon/status/2115429969836769760",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "better"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-28T14:00:00Z",
+    "notes": "X Oct 28: Muse agent not in the same ballpark as Grok Bot."
   }
 ]

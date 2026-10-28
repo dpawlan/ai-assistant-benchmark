@@ -18,4 +18,11 @@ _Updated 2026-10-27 weekday vault scan (+5 rows)._
 - (2026-10-27) @The_Contextian: Cites WIRED—Gemini Spark 1/5 on food task.
 - (2026-10-27) WIRED: Best morning briefing (5/5) but worst lunch (1/5) and conflict (1/5); 12/25 total.
 
-**Feedback rows:** 7 (as of 2026-10-27)
+**Feedback rows:** 10 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Gemini Spark was one of six tested.
+- (2026-10-28) @Notorious_corbz: Wired test—Gemini Spark was one of six; only 2 caught calendar clash.
+- (2026-10-28) @TechGeekAnthony: Asks if anyone has used Gemini Spark—lack of awareness/buzz.

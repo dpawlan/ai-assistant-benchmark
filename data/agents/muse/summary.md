@@ -340,4 +340,14 @@ _Updated 2026-10-27 weekday vault scan (+5 rows)._
 - (2026-10-27) @jdudley: Muse far ahead of Claude Duet.
 - (2026-10-27) WIRED: Muse 'Most Accessible'—2nd place (18/25), free, 5/5 on itinerary.
 
-**Feedback rows:** 342 (as of 2026-10-27)
+**Feedback rows:** 348 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Muse was one of six tested.
+- (2026-10-28) @Notorious_corbz: Wired test—Muse was one of six; only 2 caught calendar clash.
+- (2026-10-28) @darin_gordon: Muse agent not in the same ballpark as Grok Bot.
+- (2026-10-28) @TOATspace: Muse agent cannot follow tasks very well.
+- (2026-10-28) @Brokejumpmaster: Muse agent too slow for game use case.
+- (2026-10-28) @AldricEverhart: Muse needs 2FA instead of simple email login for life data.

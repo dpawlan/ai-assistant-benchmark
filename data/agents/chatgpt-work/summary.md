@@ -52,3 +52,13 @@ _Updated 2026-10-26 weekday vault scan (+3 rows)._
 - (2026-10-24) @productivityguy: Dots + Codex combo—'finally feels like an integrated workflow.'
 - (2026-10-25) @AIMentor_Dave: Bug report: Dots downgraded to lower model mid-task without warning.
 - (2026-10-25) @floppy_pigeon: Dots praised for Codex integration, compared favorably to standalone agents.
+
+**Feedback rows:** 27 (as of 2026-10-28)
+
+_Updated 2026-10-28 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-10-27) @Tesla_Optimus_K: Wired bake-off—Dots won 5/5 on lunch and calendar clash; costs $100/mo.
+- (2026-10-28) @Notorious_corbz: Wired test—Dots won but requires $100/mo ChatGPT Pro.
+- (2026-10-28) @nurullah_kuus: ChatGPT Work slow—research took 26min, follow-up failed; 40min wasted.
+- (2026-10-28) @Bogirl0: ChatGPT Work partial system degradation reported.

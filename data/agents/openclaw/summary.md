@@ -138,3 +138,11 @@ _Updated 2026-10-27 weekday vault scan (+1 rows)._
 - (2026-10-26) @fabricated_mnd: OpenClaw 'too technical' for casual user.
 
 **Feedback rows:** 73 (as of 2026-10-27)
+
+_Updated 2026-10-29 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-29) @Mercurion5d: OpenClaw was a mess; broke after every update; churned to Hermes.
+- (2026-10-29) @AICEOGiuliano: OpenClaw hype spawned Claw wrappers; Hermes proved more useful.
+
+**Feedback rows:** 75 (as of 2026-10-29)

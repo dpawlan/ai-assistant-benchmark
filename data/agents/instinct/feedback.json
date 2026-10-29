@@ -7022,12 +7022,12 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 23: 72 family finance Qs\u2014Instinct and peers got math right but ~25% omitted details."
+    "notes": "X Oct 23: 72 family finance Qs—Instinct and peers got math right but ~25% omitted details."
   },
   {
     "id": "f23x02",
     "agent": "instinct",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -7047,8 +7047,7 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts Instinct 6th of 9."
-  }
-,
+  },
   {
     "id": "f27x01",
     "agent": "instinct",
@@ -7160,5 +7159,24 @@
     "source": "x",
     "collected_at": "2026-10-28T14:00:00Z",
     "notes": "X Oct 27: Stripe Link balance live in Instinct—add money, set limit, agent buys."
+  },
+  {
+    "id": "f29x01",
+    "agent": "instinct",
+    "quote": "🚨 Shopify made Shop Pay a checkout for AI agents today.\n\nWith its Fall '26 Edition, you can buy with Shop Pay inside Meta's Muse, Claude Duet, Grok Bot and Instinct. Shopify says Claude Duet, Grok Bot and Instinct can even check out from brands that aren't on Shopify, without",
+    "author": "@themacrosift",
+    "author_name": "RC | Macro Sift",
+    "date": "2026-10-29",
+    "url": "https://x.com/themacrosift/status/2115636367267074152",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "shop-pay",
+      "checkout",
+      "payments"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Instinct and other agents."
   }
 ]

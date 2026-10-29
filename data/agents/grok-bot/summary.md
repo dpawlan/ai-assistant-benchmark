@@ -288,3 +288,27 @@ _Updated 2026-10-28 weekday vault scan (+15 rows)._
 - (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Dots won but costs $100/mo.
 - (2026-10-28) @Notorious_corbz: Wired test—only 2 of 6 agents caught calendar clash.
 - (2026-10-28) @darin_gordon: Muse agent not in the same ballpark as Grok Bot.
+
+_Updated 2026-10-29 weekday vault scan (+18 rows)._
+
+**New this scan:**
+- (2026-10-28) @dadhalfdev: Grok Bot overhyped for outreach; Hermes does better with same API.
+- (2026-10-28) @omx0r: Grok Bot on phone, Hermes for long jobs; 'joint custody'.
+- (2026-10-29) @Yani3rt: Didn't notice Grok Bot downtime because using Hermes Agent.
+- (2026-10-28) @K3rm1t_51: Wondering about Grok Bot + Hermes on same Discord server.
+- (2026-10-28) @R3c0nf1g3r3d: Burned quota in 1 hr; canceling for Hermes Agent.
+- (2026-10-29) @alexcovo_eth: Grok Bot went down; Hermes kept agents working.
+- (2026-10-29) @AICEOGiuliano: OpenClaw→Hermes→Grok Bot reigns; alternatives launching.
+- (2026-10-29) @real_bf4: Grok Bot emailed Hermes agent—agent-to-agent work.
+- (2026-10-28) @omx0r: Grok Bot separate chat per task; Hermes one Telegram chat.
+- (2026-10-29) @kkarasavvas: Hermes on DGX Spark for months; also uses Grok Bot a lot.
+- (2026-10-28) @Kernnel_Build: Use Grok Bot sparingly; supplement with Hermes.
+- (2026-10-28) @alexcovo_eth: StackChan robot using Grok Bot + Hermes Agent.
+- (2026-10-29) @Mercurion5d: OpenClaw broke; switched to Hermes then Grok Bot.
+- (2026-10-29) @asura24py: Moving personal automations to Grok Bot.
+- (2026-10-28) @maiboltahun: Grok Bot as teammate owning results, not chatbot.
+- (2026-10-29) @bwilson85tech: Planning side-by-side test with Dots and Claude Duet.
+- (2026-10-28) @swimmer_303: Grok Bot handles marketing autonomously; Claude Duet can't.
+- (2026-10-29) @themacrosift: Shopify Fall '26 adds Shop Pay checkout for Grok Bot.
+
+**Feedback rows:** 1347 (as of 2026-10-29)

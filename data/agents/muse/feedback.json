@@ -6619,7 +6619,7 @@
   {
     "id": "f23x01",
     "agent": "muse",
-    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n\u2014 Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
+    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n— Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
     "author": "@dangaron",
     "author_name": "Dan Garon",
     "date": "2026-10-22",
@@ -6695,12 +6695,12 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 23: 72 family finance Qs\u2014all 4 agents including Muse got math right but ~25% omitted details."
+    "notes": "X Oct 23: 72 family finance Qs—all 4 agents including Muse got math right but ~25% omitted details."
   },
   {
     "id": "f23x05",
     "agent": "muse",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -6739,7 +6739,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'\u2014racing to AI Super App."
+    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'—racing to AI Super App."
   },
   {
     "id": "f23x07",
@@ -6781,7 +6781,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
+    "notes": "X Oct 22: 'Winner is who you trust with inbox first'—agents converging."
   },
   {
     "id": "f23x09",
@@ -6873,8 +6873,7 @@
     "source": "x",
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: Muse better product than Grok Bot in every way; canceled Grok Bot."
-  }
-,
+  },
   {
     "id": "f27x01",
     "agent": "muse",
@@ -7075,5 +7074,24 @@
     "source": "x",
     "collected_at": "2026-10-28T14:00:00Z",
     "notes": "X Oct 28: Muse needs 2FA instead of simple email login for life data."
+  },
+  {
+    "id": "f29x01",
+    "agent": "muse",
+    "quote": "🚨 Shopify made Shop Pay a checkout for AI agents today.\n\nWith its Fall '26 Edition, you can buy with Shop Pay inside Meta's Muse, Claude Duet, Grok Bot and Instinct. Shopify says Claude Duet, Grok Bot and Instinct can even check out from brands that aren't on Shopify, without",
+    "author": "@themacrosift",
+    "author_name": "RC | Macro Sift",
+    "date": "2026-10-29",
+    "url": "https://x.com/themacrosift/status/2115636367267074152",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "shop-pay",
+      "checkout",
+      "payments"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Muse and other agents."
   }
 ]

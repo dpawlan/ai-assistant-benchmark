@@ -1228,7 +1228,7 @@
   {
     "id": "f23x02",
     "agent": "openclaw",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -1376,8 +1376,7 @@
     "source": "x",
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: OpenClaw was best option but setup was a hassle; didn't stick."
-  }
-,
+  },
   {
     "id": "f27x01",
     "agent": "openclaw",
@@ -1395,5 +1394,42 @@
     "source": "x",
     "collected_at": "2026-10-27T14:00:00Z",
     "notes": "X Oct 26: OpenClaw too technical for casual user."
+  },
+  {
+    "id": "f29x01",
+    "agent": "openclaw",
+    "quote": "@lucassam888 Ha, yeah, OpenClaw was a mess (probably still is...), but it broke after every single update and I spent hours troubleshooting. Switched to Hermes, now Grok Bot.\n\nAlthough I miss all the ways I can customize my Hermes agent in grokbot, they should give us some more levers.",
+    "author": "@Mercurion5d",
+    "author_name": "Mercurio",
+    "date": "2026-10-29",
+    "url": "https://x.com/Mercurion5d/status/2115689208929034329",
+    "kind": "complaint",
+    "tags": [
+      "mess",
+      "updates",
+      "troubleshooting",
+      "churned"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: OpenClaw was a mess; broke after every update; switched to Hermes then Grok Bot."
+  },
+  {
+    "id": "f29x02",
+    "agent": "openclaw",
+    "quote": "When OpenClaw hype for personal Agents was on, everyone shipped a Claw wrapper\n\nWhen Hermes Agent showed to be more useful than OC, it had its hype but no wrappers, why's that?\n\nNow Grok Bot reigns & I see so many Grok Bot alternatives as a Launch Pitch on my FYP",
+    "author": "@AICEOGiuliano",
+    "author_name": "Giuliano",
+    "date": "2026-10-29",
+    "url": "https://x.com/AICEOGiuliano/status/2115784945209692539",
+    "kind": "comparison",
+    "tags": [
+      "hype",
+      "wrappers",
+      "era-over"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: OpenClaw hype spawned Claw wrappers; Hermes proved more useful."
   }
 ]

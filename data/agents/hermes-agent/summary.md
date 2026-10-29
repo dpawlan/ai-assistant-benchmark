@@ -149,3 +149,23 @@ _Updated 2026-10-28 weekday vault scan (+11 rows)._
 - (2026-10-28) @omx0r: Hermes finishes tasks in 4 min; human approval is bottleneck.
 - (2026-10-27) @KlementXV: Months using Hermes with OpenRouter + Codex as personal assistant.
 - (2026-10-27) @alexcovo_eth: Uses Hermes for robot control with persistent memory.
+
+_Updated 2026-10-29 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-10-28) @dadhalfdev: Hermes does better than Grok Bot for outreach with same API.
+- (2026-10-28) @omx0r: Hermes gets the long jobs; Grok Bot on phone.
+- (2026-10-29) @Yani3rt: Using Hermes; didn't notice Grok Bot downtime.
+- (2026-10-28) @K3rm1t_51: Uses Discord to communicate with Hermes Agent bot.
+- (2026-10-28) @R3c0nf1g3r3d: Sticking with Hermes after Grok Bot quota frustration.
+- (2026-10-29) @alexcovo_eth: Hermes as redundant backup during Grok Bot downtime.
+- (2026-10-29) @AICEOGiuliano: Hermes proved more useful than OpenClaw during hype.
+- (2026-10-29) @real_bf4: Hermes resolved issue raised by Grok Bot email.
+- (2026-10-28) @omx0r: Hermes runs through one Telegram chat while app is built.
+- (2026-10-29) @kkarasavvas: Hermes on DGX Spark for months; uses for model variety.
+- (2026-10-28) @Kernnel_Build: Uses Hermes auth to supplement Grok Bot.
+- (2026-10-28) @alexcovo_eth: StackChan robot using Hermes-Agent with lights/emotions.
+- (2026-10-29) @Mercurion5d: Misses Hermes customization after moving to Grok Bot.
+- (2026-10-29) @asura24py: Uses Hermes for research; moving automations to Grok Bot.
+
+**Feedback rows:** 101 (as of 2026-10-29)

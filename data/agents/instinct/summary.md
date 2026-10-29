@@ -321,3 +321,10 @@ _Updated 2026-10-28 weekday vault scan (+3 rows)._
 - (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Instinct was one of six tested.
 - (2026-10-28) @Notorious_corbz: Wired test—Instinct was one of six; only 2 caught calendar clash.
 - (2026-10-27) @themachinemoney: Stripe Link balance live in Instinct—add money, set limit, agent buys.
+
+_Updated 2026-10-29 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-29) @themacrosift: Shopify Fall '26 adds Shop Pay checkout for Instinct.
+
+**Feedback rows:** 343 (as of 2026-10-29)

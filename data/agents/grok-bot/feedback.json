@@ -30067,7 +30067,7 @@
   {
     "id": "f23x02",
     "agent": "grok-bot",
-    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n\u2014 Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
+    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n— Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
     "author": "@dangaron",
     "author_name": "Dan Garon",
     "date": "2026-10-22",
@@ -30144,12 +30144,12 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 23: 72 family finance Qs\u2014all 4 agents got math right but ~25% omitted details."
+    "notes": "X Oct 23: 72 family finance Qs—all 4 agents got math right but ~25% omitted details."
   },
   {
     "id": "f23x06",
     "agent": "grok-bot",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -30188,7 +30188,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'\u2014racing to AI Super App."
+    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'—racing to AI Super App."
   },
   {
     "id": "f23x08",
@@ -30250,7 +30250,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
+    "notes": "X Oct 22: 'Winner is who you trust with inbox first'—agents converging."
   },
   {
     "id": "f23x11",
@@ -30807,8 +30807,7 @@
     "source": "x",
     "collected_at": "2026-10-26T14:00:00Z",
     "notes": "X Oct 26: Grok Bot researched car part, VIN, prepared questions for visit."
-  }
-,
+  },
   {
     "id": "f27x01",
     "agent": "grok-bot",
@@ -31434,5 +31433,343 @@
     "source": "x",
     "collected_at": "2026-10-28T14:00:00Z",
     "notes": "X Oct 28: Muse agent not in the same ballpark as Grok Bot."
+  },
+  {
+    "id": "f29x01",
+    "agent": "grok-bot",
+    "quote": "Grok Bot for outreach is overhyped.\n\nHermes Agent does a better job.\n\nI've connected the @treg_ai API to both Grok Bot and Hermes Agent.\n\nTreg uses the Harvest API for LinkedIn, so I used it to pull posts from potential leads on the platform.\n\nI changed the inputs several times",
+    "author": "@dadhalfdev",
+    "author_name": "Marco Rodrigues 🔧",
+    "date": "2026-10-28",
+    "url": "https://x.com/dadhalfdev/status/2115461435778036120",
+    "kind": "complaint",
+    "tags": [
+      "outreach",
+      "overhyped",
+      "vs-hermes",
+      "linkedin"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot overhyped for outreach; Hermes Agent does better with same API."
+  },
+  {
+    "id": "f29x02",
+    "agent": "grok-bot",
+    "quote": "@thenamanraj Grok Bot lives on my phone, Hermes Agent gets the long jobs. Joint custody 😄",
+    "author": "@omx0r",
+    "author_name": "Omar 🦭",
+    "date": "2026-10-28",
+    "url": "https://x.com/omx0r/status/2115495599298810080",
+    "kind": "use_case",
+    "tags": [
+      "mobile",
+      "division-of-labor",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot on phone, Hermes for long jobs; 'joint custody'."
+  },
+  {
+    "id": "f29x03",
+    "agent": "grok-bot",
+    "quote": "So Grok bot was down today? I dont even know because I use Hermes Agent 😎🦭🤣",
+    "author": "@Yani3rt",
+    "author_name": "Yani Pascual",
+    "date": "2026-10-29",
+    "url": "https://x.com/Yani3rt/status/2115598348539572664",
+    "kind": "complaint",
+    "tags": [
+      "downtime",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Didn't notice Grok Bot downtime because using Hermes Agent."
+  },
+  {
+    "id": "f29x04",
+    "agent": "grok-bot",
+    "quote": "@nima_owji I use Discord to communicate with my Hermes Agent bot. Wonder if Hooking up Grok bot to that same server would allow the two agents systems to work together.",
+    "author": "@K3rm1t_51",
+    "author_name": "NA_HouseHippo",
+    "date": "2026-10-28",
+    "url": "https://x.com/K3rm1t_51/status/2115475441926701343",
+    "kind": "use_case",
+    "tags": [
+      "discord",
+      "multi-agent",
+      "integration",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Wondering about hooking Grok Bot to Discord server with Hermes Agent."
+  },
+  {
+    "id": "f29x05",
+    "agent": "grok-bot",
+    "quote": "@akarixbt Grok bot usage is a joke. I'm all out in 1 hr on my first day and have to wait a month for it to reset? Canceling this BS and sticking with Hermes Agent.",
+    "author": "@R3c0nf1g3r3d",
+    "author_name": "Ʀ3ᴄ0ɴ1ɢ3ʀ3ᴅ",
+    "date": "2026-10-28",
+    "url": "https://x.com/R3c0nf1g3r3d/status/2115571996356735272",
+    "kind": "complaint",
+    "tags": [
+      "usage-limits",
+      "canceling",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Burned Grok Bot quota in 1 hr on first day; canceling for Hermes Agent."
+  },
+  {
+    "id": "f29x06",
+    "agent": "grok-bot",
+    "quote": "@rezoundous Yes. Absolutely. Hermes Agent is complimentary. You can run Outer/Inner shells. Give yourself a more redundant system. For example Grok Bot went full completely limp d*ck today so fortunately had everything saved through hermes so my agents could keep working while Grok bot",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-29",
+    "url": "https://x.com/alexcovo_eth/status/2115661814050496590",
+    "kind": "complaint",
+    "tags": [
+      "downtime",
+      "redundancy",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Grok Bot went down; Hermes kept agents working as redundant backup."
+  },
+  {
+    "id": "f29x07",
+    "agent": "grok-bot",
+    "quote": "When OpenClaw hype for personal Agents was on, everyone shipped a Claw wrapper\n\nWhen Hermes Agent showed to be more useful than OC, it had its hype but no wrappers, why's that?\n\nNow Grok Bot reigns & I see so many Grok Bot alternatives as a Launch Pitch on my FYP",
+    "author": "@AICEOGiuliano",
+    "author_name": "Giuliano",
+    "date": "2026-10-29",
+    "url": "https://x.com/AICEOGiuliano/status/2115784945209692539",
+    "kind": "comparison",
+    "tags": [
+      "vs-openclaw",
+      "vs-hermes",
+      "reigns",
+      "wrappers"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: OpenClaw hype→Hermes more useful→now Grok Bot reigns with alternatives launching."
+  },
+  {
+    "id": "f29x08",
+    "agent": "grok-bot",
+    "quote": "@justalexoki I had a strange moment the other day, the builders I work have a Hermes' agent with an email that handles a lot of admin stuff.\n\nMy grok bot emailed it raising an issue about who was supplying a certain piece of stock. The Hermes' agent resolved the issue and the next week asked",
+    "author": "@real_bf4",
+    "author_name": "Real BF4",
+    "date": "2026-10-29",
+    "url": "https://x.com/real_bf4/status/2115640793214116182",
+    "kind": "use_case",
+    "tags": [
+      "agent-to-agent",
+      "email",
+      "admin",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Grok Bot emailed Hermes agent; Hermes resolved issue—agent-to-agent work."
+  },
+  {
+    "id": "f29x09",
+    "agent": "grok-bot",
+    "quote": "My AI team lives on my phone now 📱\n\nGrok Bot gets a separate chat for every task, so nothing gets mixed up.\n\nHermes Agent runs everything through one Telegram chat for now, while they build an app. Basically a group chat where one member does all the talking.\n\nOne chat per task",
+    "author": "@omx0r",
+    "author_name": "Omar 🦭",
+    "date": "2026-10-28",
+    "url": "https://x.com/omx0r/status/2115471236650107329",
+    "kind": "use_case",
+    "tags": [
+      "mobile",
+      "chat-per-task",
+      "vs-hermes",
+      "telegram"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot separate chat per task; Hermes one Telegram chat."
+  },
+  {
+    "id": "f29x10",
+    "agent": "grok-bot",
+    "quote": "I've run my own Hermes agent on my DGX Spark for months. It's pretty good, but it needs maintenance — updates, model swaps, config fixes, restarts.\n\nI mainly use Hermes for the variety of models plus my local model.\n\nI've also been using Grok Bot a lot and it's a real",
+    "author": "@kkarasavvas",
+    "author_name": "Kostas Karasavvas",
+    "date": "2026-10-29",
+    "url": "https://x.com/kkarasavvas/status/2115765664153555422",
+    "kind": "use_case",
+    "tags": [
+      "dgx-spark",
+      "maintenance",
+      "vs-hermes",
+      "local-models"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Runs Hermes on DGX Spark for months; also uses Grok Bot a lot."
+  },
+  {
+    "id": "f29x11",
+    "agent": "grok-bot",
+    "quote": "@marcos_builds The best strategy with that price range is to supplement.  If you want the deep well on grok bot you're going to have to pay for it.  No other way.  I use it sparingly, but I also use the auth through hermes agent along with other subscriptions.  Gotta be scrappy at that price",
+    "author": "@Kernnel_Build",
+    "author_name": "Kernnel-Industries",
+    "date": "2026-10-28",
+    "url": "https://x.com/Kernnel_Build/status/2115467092182868473",
+    "kind": "use_case",
+    "tags": [
+      "pricing",
+      "supplement",
+      "vs-hermes",
+      "auth"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Use Grok Bot sparingly; supplement with Hermes auth and other subs."
+  },
+  {
+    "id": "f29x12",
+    "agent": "grok-bot",
+    "quote": "Round #5 - My Nous Girl Bot knows how to use its lights  whether thinking, emotions, dancing, etc, adds some atmosphere to your conversation and interactions.\n\n@M5Stack\n\nStackChan Robot Grok\n\nGrok @bot + Hermes-Agent by @NousResearch\n\nFollow for more updates and videos! 🤖\n*new",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-10-28",
+    "url": "https://x.com/alexcovo_eth/status/2115477598776013183",
+    "kind": "use_case",
+    "tags": [
+      "hardware",
+      "m5stack",
+      "stackchan",
+      "vs-hermes",
+      "robot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: StackChan robot using Grok Bot + Hermes Agent with lights/emotions."
+  },
+  {
+    "id": "f29x13",
+    "agent": "grok-bot",
+    "quote": "@lucassam888 Ha, yeah, OpenClaw was a mess (probably still is...), but it broke after every single update and I spent hours troubleshooting. Switched to Hermes, now Grok Bot.\n\nAlthough I miss all the ways I can customize my Hermes agent in grokbot, they should give us some more levers.",
+    "author": "@Mercurion5d",
+    "author_name": "Mercurio",
+    "date": "2026-10-29",
+    "url": "https://x.com/Mercurion5d/status/2115689208929034329",
+    "kind": "comparison",
+    "tags": [
+      "vs-openclaw",
+      "vs-hermes",
+      "customization",
+      "journey"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: OpenClaw broke on updates; switched to Hermes then Grok Bot; misses Hermes customization."
+  },
+  {
+    "id": "f29x14",
+    "agent": "grok-bot",
+    "quote": "@meowkoteeq Yeah I feel you, I have 5 machines connected to my t3 code network, 2 for work 1 server, my mac and my gaming computer.\nI have hermes running which is the one I use for research, t3 code which I use for coding and I hsve started moving more of my personal automations to grok bot.",
+    "author": "@asura24py",
+    "author_name": "Fernando",
+    "date": "2026-10-29",
+    "url": "https://x.com/asura24py/status/2115795448359244223",
+    "kind": "use_case",
+    "tags": [
+      "multi-machine",
+      "automations",
+      "vs-hermes",
+      "migration"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: 5 machines; Hermes for research, moving personal automations to Grok Bot."
+  },
+  {
+    "id": "f29x15",
+    "agent": "grok-bot",
+    "quote": "Grok Bot (and any always-on agent) is more useful when you treat it as a teammate that owns a result, not a chatbot that owns a conversation.\n\nThe open-source pieces that make this practical:\n\n- Official Grok Build harness (agent loop, tools, TUI, skills, MCP):",
+    "author": "@maiboltahun",
+    "author_name": "Akash Choudhury",
+    "date": "2026-10-28",
+    "url": "https://x.com/maiboltahun/status/2115471150239096916",
+    "kind": "use_case",
+    "tags": [
+      "teammate",
+      "result-ownership",
+      "philosophy",
+      "harness"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Grok Bot more useful as teammate owning results, not chatbot owning conversation."
+  },
+  {
+    "id": "f29x16",
+    "agent": "grok-bot",
+    "quote": "Got off the waitlist for Claude Duet this morning.\n\nSo I guess my weekend is spoken for: Grok Bot, ChatGPT Dot, and Claude Duet, side by side on the same real work.\n\nWhat should I throw at all three? Best test ideas get used.",
+    "author": "@bwilson85tech",
+    "author_name": "Brandon Wilson",
+    "date": "2026-10-29",
+    "url": "https://x.com/bwilson85tech/status/2115779398754255150",
+    "kind": "comparison",
+    "tags": [
+      "vs-claude-duet",
+      "vs-dots",
+      "testing",
+      "bakeoff"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Planning side-by-side test of Grok Bot, ChatGPT Dots, and Claude Duet."
+  },
+  {
+    "id": "f29x17",
+    "agent": "grok-bot",
+    "quote": "Claude Duet is so bad it's not even funny.\n\nI just tried putting Claude Duet in charge of my marketing department.\n\nIt couldn't. It needed manual approval for every single post. Even if I gave it explicit permission. It is a Claude issue.\n\nGrok Bot can.\n\nDo better, Claude.",
+    "author": "@swimmer_303",
+    "author_name": "The Inventor",
+    "date": "2026-10-28",
+    "url": "https://x.com/swimmer_303/status/2115592438928572631",
+    "kind": "praise",
+    "tags": [
+      "vs-claude-duet",
+      "marketing",
+      "autonomy",
+      "approvals"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 28: Claude Duet needed approval for every post; Grok Bot can handle marketing autonomously."
+  },
+  {
+    "id": "f29x18",
+    "agent": "grok-bot",
+    "quote": "🚨 Shopify made Shop Pay a checkout for AI agents today.\n\nWith its Fall '26 Edition, you can buy with Shop Pay inside Meta's Muse, Claude Duet, Grok Bot and Instinct. Shopify says Claude Duet, Grok Bot and Instinct can even check out from brands that aren't on Shopify, without",
+    "author": "@themacrosift",
+    "author_name": "RC | Macro Sift",
+    "date": "2026-10-29",
+    "url": "https://x.com/themacrosift/status/2115636367267074152",
+    "kind": "news",
+    "tags": [
+      "shopify",
+      "shop-pay",
+      "checkout",
+      "payments"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-29T14:00:00Z",
+    "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Grok Bot and other agents."
   }
 ]

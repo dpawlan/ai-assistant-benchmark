@@ -351,3 +351,10 @@ _Updated 2026-10-28 weekday vault scan (+6 rows)._
 - (2026-10-28) @TOATspace: Muse agent cannot follow tasks very well.
 - (2026-10-28) @Brokejumpmaster: Muse agent too slow for game use case.
 - (2026-10-28) @AldricEverhart: Muse needs 2FA instead of simple email login for life data.
+
+_Updated 2026-10-29 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-29) @themacrosift: Shopify Fall '26 adds Shop Pay checkout for Muse.
+
+**Feedback rows:** 349 (as of 2026-10-29)

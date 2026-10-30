@@ -358,3 +358,15 @@ _Updated 2026-10-29 weekday vault scan (+1 row)._
 - (2026-10-29) @themacrosift: Shopify Fall '26 adds Shop Pay checkout for Muse.
 
 **Feedback rows:** 349 (as of 2026-10-29)
+
+_Updated 2026-10-30 vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-30) @abd_mukadam: Meta Muse generated more buzz than Claude Duet.
+- (2026-10-29) @Capslock404: Notes widespread testing of Muse when Duet launched.
+- (2026-10-30) @Torerone: Feature request—Grok bot interop with Muse.
+- (2026-10-29) @EbenEsterhuizen: Muse drove most of agent-placed ecommerce growth to 0.68%.
+- (2026-10-30) @cslelouch: 1Password agent support includes Meta's Muse.
+- (2026-10-29) @_odsc: ODSC: Muse as key player in personal AI shift.
+
+**Feedback rows:** 354 (as of 2026-10-30)

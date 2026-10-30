@@ -2,7 +2,7 @@
   {
     "id": "f23x01",
     "agent": "gemini-spark",
-    "quote": "So we have Grok Bot, ChatGPT Dots, Meta Muse, and Claude Duet\u2026\n\nBut has everyone forgotten about Gemini Spark?!\n\nI haven't heard ANYTHING about it\u2026",
+    "quote": "So we have Grok Bot, ChatGPT Dots, Meta Muse, and Claude Duet…\n\nBut has everyone forgotten about Gemini Spark?!\n\nI haven't heard ANYTHING about it…",
     "author": "@ConnorTalksAI",
     "author_name": "Connor",
     "date": "2026-10-22",
@@ -18,12 +18,12 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Has everyone forgotten about Gemini Spark?' \u2014 lack of buzz."
+    "notes": "X Oct 22: 'Has everyone forgotten about Gemini Spark?' — lack of buzz."
   },
   {
     "id": "f23x02",
     "agent": "gemini-spark",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -43,8 +43,7 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 22: User ranking puts Gemini Spark 7th of 9."
-  }
-,
+  },
   {
     "id": "f27x01",
     "agent": "gemini-spark",
@@ -195,5 +194,24 @@
     "source": "x",
     "collected_at": "2026-10-28T14:00:00Z",
     "notes": "X Oct 28: Asks if anyone has used Gemini Spark—lack of awareness/buzz."
+  },
+  {
+    "id": "b516b42d7829",
+    "agent": "gemini-spark",
+    "quote": "Gemini Spark costs $20 a month.",
+    "author": "@tinkerlog",
+    "author_name": "Tinker",
+    "date": "2026-10-29",
+    "url": "https://x.com/tinkerlog/status/2115873202492542982",
+    "kind": "other",
+    "tags": [
+      "pricing",
+      "vs-grok-bot",
+      "vs-claude-duet",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Pricing comparison: Gemini Spark $20/mo vs Grok Bot $30/mo."
   }
 ]

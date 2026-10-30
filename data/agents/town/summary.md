@@ -80,3 +80,10 @@ _Updated 2026-10-23 weekday vault scan (+1 row)._
 - (2026-10-23) @Tesla_Optimus_K: 1Password for Agents supports Town.
 
 **Feedback rows:** 308 (as of 2026-10-23)
+
+_Updated 2026-10-30 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-30) @cslelouch: 1Password agent support includes agents from Town.
+
+**Feedback rows:** 309 (as of 2026-10-30)

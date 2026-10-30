@@ -31771,5 +31771,202 @@
     "source": "x",
     "collected_at": "2026-10-29T14:00:00Z",
     "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Grok Bot and other agents."
+  },
+  {
+    "id": "dd32e18043ea",
+    "agent": "grok-bot",
+    "quote": "I really like the Grok bot, and I enjoy it way more than my Hermes agent. But the limits aren't great. I just had a five-minute conversation with my agent, and it used 4% of my weekly allowance.",
+    "author": "@rmbfoto",
+    "author_name": "rmedina",
+    "date": "2026-10-30",
+    "url": "https://x.com/rmbfoto/status/2116119275505360983",
+    "kind": "complaint",
+    "tags": [
+      "limits",
+      "quota",
+      "vs-hermes-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Likes Grok bot over Hermes but 4% weekly quota for 5 min chat is a pain point."
+  },
+  {
+    "id": "e2bce0fc2f82",
+    "agent": "grok-bot",
+    "quote": "In the cloud is Grok bot",
+    "author": "@petercat721",
+    "author_name": "Peter Catania",
+    "date": "2026-10-29",
+    "url": "https://x.com/petercat721/status/2115892231018090497",
+    "kind": "use-case",
+    "tags": [
+      "cloud",
+      "vs-hermes-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Uses Grok bot for cloud tasks, Hermes Agent for local."
+  },
+  {
+    "id": "68491d6a02e8",
+    "agent": "grok-bot",
+    "quote": "I've never felt more productive in my life. Grok Bot is the best product since the iPhone.",
+    "author": "@jaychasofficial",
+    "author_name": "Jay Chas",
+    "date": "2026-10-30",
+    "url": "https://x.com/jaychasofficial/status/2116152564651524276",
+    "kind": "praise",
+    "tags": [
+      "productivity",
+      "endorsement"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Strong endorsement: Grok Bot is the best product since the iPhone."
+  },
+  {
+    "id": "711af9580c9c",
+    "agent": "grok-bot",
+    "quote": "I think 600K is an undercount. Similarweb only tracks the iPhone and Android apps, not PC/web. Plenty of people run Grok Bot from a desktop, so real DAU is likely higher.",
+    "author": "@DegenYan9",
+    "author_name": "Degen Yang",
+    "date": "2026-10-30",
+    "url": "https://x.com/DegenYan9/status/2116134729770778992",
+    "kind": "other",
+    "tags": [
+      "dau",
+      "usage",
+      "desktop"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Analysis: Grok Bot DAU likely higher than 600K due to desktop usage."
+  },
+  {
+    "id": "a0a7e4520664",
+    "agent": "grok-bot",
+    "quote": "I went with grokbot because it is the best",
+    "author": "@robertocarrizo",
+    "author_name": "Roberto",
+    "date": "2026-10-30",
+    "url": "https://x.com/robertocarrizo/status/2115994214907699584",
+    "kind": "praise",
+    "tags": [
+      "endorsement",
+      "vs-hermes-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Uses Hermes locally but chose Grok bot for communication \"because it is the best\"."
+  },
+  {
+    "id": "02c3c4df00a0",
+    "agent": "grok-bot",
+    "quote": "What if you could have a @NousResearch Hermes agent as your chief of staff over all of your grokbot fleets",
+    "author": "@PixelRainbowNFT",
+    "author_name": "PixelRainbow",
+    "date": "2026-10-30",
+    "url": "https://x.com/PixelRainbowNFT/status/2116154219677782395",
+    "kind": "use-case",
+    "tags": [
+      "fleet",
+      "orchestration",
+      "vs-hermes-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Idea: Using Grok bot fleets managed by Hermes agent chief of staff."
+  },
+  {
+    "id": "d0291dec110d",
+    "agent": "grok-bot",
+    "quote": "Claude Duet has generated far less buzz than Grok bot or Meta Muse did.",
+    "author": "@abd_mukadam",
+    "author_name": "Abdullah Mukadam",
+    "date": "2026-10-30",
+    "url": "https://x.com/abd_mukadam/status/2116090994164998505",
+    "kind": "comparison",
+    "tags": [
+      "buzz",
+      "first-mover",
+      "vs-muse",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Grok bot generated more buzz than Claude Duet; first-mover advantage noted."
+  },
+  {
+    "id": "c0c1f7db9519",
+    "agent": "grok-bot",
+    "quote": "while everyone is still testing Grok Bot and Meta Muse, Anthropic shipped the most proactive agent of the four",
+    "author": "@Capslock404",
+    "author_name": "Capslock",
+    "date": "2026-10-29",
+    "url": "https://x.com/Capslock404/status/2115821602810040811",
+    "kind": "other",
+    "tags": [
+      "testing",
+      "adoption",
+      "vs-muse"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Notes widespread testing of Grok Bot and Muse when Anthropic launched Duet."
+  },
+  {
+    "id": "2509c8c17515",
+    "agent": "grok-bot",
+    "quote": "The ability to work with other AI agents outside of grokbot. It's be cool to have Grokbot being able to work with Meta Muse while simultaneously working with our Codex/ Claud/ or other agents.",
+    "author": "@Torerone",
+    "author_name": "Tyrone",
+    "date": "2026-10-30",
+    "url": "https://x.com/Torerone/status/2115961200471134265",
+    "kind": "use-case",
+    "tags": [
+      "feature-request",
+      "interop",
+      "vs-muse",
+      "multi-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Feature request: Grok bot interop with Muse and other agents."
+  },
+  {
+    "id": "7bfc46554484",
+    "agent": "grok-bot",
+    "quote": "supported agents include Claude Duet, OpenAI's Dots, ChatGPT Work, Grok Bot, Meta's Muse and agents from Town.",
+    "author": "@cslelouch",
+    "author_name": "Lelouch | AI and Tech",
+    "date": "2026-10-30",
+    "url": "https://x.com/cslelouch/status/2116043166495506529",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "integration",
+      "support"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "1Password agent support includes ChatGPT Work, Grok Bot, Muse, Town agents."
+  },
+  {
+    "id": "83fd653096e9",
+    "agent": "grok-bot",
+    "quote": "Grok Bot costs $30 a month.",
+    "author": "@tinkerlog",
+    "author_name": "Tinker",
+    "date": "2026-10-29",
+    "url": "https://x.com/tinkerlog/status/2115873202492542982",
+    "kind": "other",
+    "tags": [
+      "pricing",
+      "vs-gemini-spark",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Pricing comparison: Grok Bot $30/mo vs Gemini Spark $20/mo."
   }
 ]

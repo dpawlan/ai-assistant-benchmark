@@ -7093,5 +7093,98 @@
     "source": "x",
     "collected_at": "2026-10-29T14:00:00Z",
     "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Muse and other agents."
+  },
+  {
+    "id": "7efe008c5c38",
+    "agent": "muse",
+    "quote": "Claude Duet has generated far less buzz than Grok bot or Meta Muse did.",
+    "author": "@abd_mukadam",
+    "author_name": "Abdullah Mukadam",
+    "date": "2026-10-30",
+    "url": "https://x.com/abd_mukadam/status/2116090994164998505",
+    "kind": "comparison",
+    "tags": [
+      "buzz",
+      "first-mover",
+      "vs-grok-bot",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Meta Muse generated more buzz than Claude Duet; first-mover advantage noted."
+  },
+  {
+    "id": "168212686e13",
+    "agent": "muse",
+    "quote": "while everyone is still testing Grok Bot and Meta Muse, Anthropic shipped the most proactive agent of the four",
+    "author": "@Capslock404",
+    "author_name": "Capslock",
+    "date": "2026-10-29",
+    "url": "https://x.com/Capslock404/status/2115821602810040811",
+    "kind": "other",
+    "tags": [
+      "testing",
+      "adoption",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Notes widespread testing of Grok Bot and Muse when Anthropic launched Duet."
+  },
+  {
+    "id": "b587e983c5fb",
+    "agent": "muse",
+    "quote": "Agent-placed orders doubled to 0.68% of US ecommerce last quarter. Most of that jump came from one assistant: Meta Muse.",
+    "author": "@EbenEsterhuizen",
+    "author_name": "eben — e/acc",
+    "date": "2026-10-29",
+    "url": "https://x.com/EbenEsterhuizen/status/2115846965564985610",
+    "kind": "other",
+    "tags": [
+      "ecommerce",
+      "adoption",
+      "data"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Data: Muse drove most of agent-placed ecommerce order growth to 0.68%."
+  },
+  {
+    "id": "c3274d596f7e",
+    "agent": "muse",
+    "quote": "supported agents include Claude Duet, OpenAI's Dots, ChatGPT Work, Grok Bot, Meta's Muse and agents from Town.",
+    "author": "@cslelouch",
+    "author_name": "Lelouch | AI and Tech",
+    "date": "2026-10-30",
+    "url": "https://x.com/cslelouch/status/2116043166495506529",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "integration",
+      "support"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "1Password agent support includes ChatGPT Work, Grok Bot, Muse, Town agents."
+  },
+  {
+    "id": "7a8f0c368517",
+    "agent": "muse",
+    "quote": "The Personal AI Shift: OpenClaw, Muse, Instinct, and What Comes Next",
+    "author": "@_odsc",
+    "author_name": "ODSC (Open Data Science Conference) AI",
+    "date": "2026-10-29",
+    "url": "https://x.com/_odsc/status/2115865758064623645",
+    "kind": "other",
+    "tags": [
+      "odsc",
+      "personal-ai",
+      "industry",
+      "vs-openclaw",
+      "vs-instinct"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "ODSC: Muse as key player in personal AI shift to delegation."
   }
 ]

@@ -7561,5 +7561,23 @@
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
     "notes": "X Oct 23: 1Password for Agents supports Town; agents never see credentials."
+  },
+  {
+    "id": "2c8de350acfc",
+    "agent": "town",
+    "quote": "supported agents include Claude Duet, OpenAI's Dots, ChatGPT Work, Grok Bot, Meta's Muse and agents from Town.",
+    "author": "@cslelouch",
+    "author_name": "Lelouch | AI and Tech",
+    "date": "2026-10-30",
+    "url": "https://x.com/cslelouch/status/2116043166495506529",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "integration",
+      "support"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "1Password agent support includes ChatGPT Work, Grok Bot, Muse, Town agents."
   }
 ]

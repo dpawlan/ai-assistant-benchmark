@@ -26,3 +26,12 @@ _Updated 2026-10-28 weekday vault scan (+3 rows)._
 - (2026-10-27) @Tesla_Optimus_K: Wired six-agent bake-off; Gemini Spark was one of six tested.
 - (2026-10-28) @Notorious_corbz: Wired test—Gemini Spark was one of six; only 2 caught calendar clash.
 - (2026-10-28) @TechGeekAnthony: Asks if anyone has used Gemini Spark—lack of awareness/buzz.
+
+**Feedback rows:** 10 (as of 2026-10-28)
+
+_Updated 2026-10-30 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-29) @tinkerlog: Pricing comparison—Gemini Spark $20/mo vs Grok Bot $30/mo.
+
+**Feedback rows:** 11 (as of 2026-10-30)

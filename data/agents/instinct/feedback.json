@@ -7178,5 +7178,25 @@
     "source": "x",
     "collected_at": "2026-10-29T14:00:00Z",
     "notes": "X Oct 29: Shopify Fall '26 adds Shop Pay checkout for Instinct and other agents."
+  },
+  {
+    "id": "21b65906c74f",
+    "agent": "instinct",
+    "quote": "The Personal AI Shift: OpenClaw, Muse, Instinct, and What Comes Next",
+    "author": "@_odsc",
+    "author_name": "ODSC (Open Data Science Conference) AI",
+    "date": "2026-10-29",
+    "url": "https://x.com/_odsc/status/2115865758064623645",
+    "kind": "other",
+    "tags": [
+      "odsc",
+      "personal-ai",
+      "industry",
+      "vs-openclaw",
+      "vs-muse"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "ODSC: Instinct as key player in personal AI shift to delegation."
   }
 ]

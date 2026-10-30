@@ -312,3 +312,20 @@ _Updated 2026-10-29 weekday vault scan (+18 rows)._
 - (2026-10-29) @themacrosift: Shopify Fall '26 adds Shop Pay checkout for Grok Bot.
 
 **Feedback rows:** 1347 (as of 2026-10-29)
+
+_Updated 2026-10-30 vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-10-30) @rmbfoto: Likes Grok bot over Hermes but 4% weekly quota for 5 min chat is a pain point.
+- (2026-10-29) @petercat721: Uses Grok bot for cloud tasks, Hermes Agent for local.
+- (2026-10-30) @jaychasofficial: 'Grok Bot is the best product since the iPhone.'
+- (2026-10-30) @DegenYan9: Analysis—Grok Bot DAU likely higher than 600K due to desktop usage.
+- (2026-10-30) @robertocarrizo: Chose grokbot 'because it is the best' for communication.
+- (2026-10-30) @PixelRainbowNFT: Idea—Grok bot fleets managed by Hermes agent chief of staff.
+- (2026-10-30) @abd_mukadam: Grok bot generated more buzz than Claude Duet.
+- (2026-10-29) @Capslock404: Notes widespread testing of Grok Bot when Duet launched.
+- (2026-10-30) @Torerone: Feature request—Grok bot interop with Muse and other agents.
+- (2026-10-30) @cslelouch: 1Password agent support includes Grok Bot.
+- (2026-10-29) @tinkerlog: Pricing comparison—Grok Bot $30/mo vs Gemini Spark $20/mo.
+
+**Feedback rows:** 1358 (as of 2026-10-30)

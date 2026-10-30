@@ -146,3 +146,11 @@ _Updated 2026-10-29 weekday vault scan (+2 rows)._
 - (2026-10-29) @AICEOGiuliano: OpenClaw hype spawned Claw wrappers; Hermes proved more useful.
 
 **Feedback rows:** 75 (as of 2026-10-29)
+
+_Updated 2026-10-30 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-10-30) @ForestTechSol: OpenClaw at launch—'spent days getting it to work. Underwhelmed.'
+- (2026-10-29) @_odsc: Former OpenClaw maintainer on personal AI shift to delegation.
+
+**Feedback rows:** 77 (as of 2026-10-30)

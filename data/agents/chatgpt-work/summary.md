@@ -62,3 +62,14 @@ _Updated 2026-10-28 weekday vault scan (+4 rows)._
 - (2026-10-28) @Notorious_corbz: Wired test—Dots won but requires $100/mo ChatGPT Pro.
 - (2026-10-28) @nurullah_kuus: ChatGPT Work slow—research took 26min, follow-up failed; 40min wasted.
 - (2026-10-28) @Bogirl0: ChatGPT Work partial system degradation reported.
+
+**Feedback rows:** 27 (as of 2026-10-28)
+
+_Updated 2026-10-30 vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-10-30) @primocollab: 1Password integrations with ChatGPT Work coming soon.
+- (2026-10-29) @mydevopsguy: ChatGPT Work 'already handles much of this territory' vs Claude Duet.
+- (2026-10-30) @cslelouch: 1Password agent support includes ChatGPT Work.
+
+**Feedback rows:** 30 (as of 2026-10-30)

@@ -1866,5 +1866,114 @@
     "source": "x",
     "collected_at": "2026-10-29T14:00:00Z",
     "notes": "X Oct 29: Uses Hermes for research across 5 machines; moving personal automations to Grok Bot."
+  },
+  {
+    "id": "345fdbe9d8a7",
+    "agent": "hermes-agent",
+    "quote": "I really like the Grok bot, and I enjoy it way more than my Hermes agent.",
+    "author": "@rmbfoto",
+    "author_name": "rmedina",
+    "date": "2026-10-30",
+    "url": "https://x.com/rmbfoto/status/2116119275505360983",
+    "kind": "comparison",
+    "tags": [
+      "vs-grok-bot",
+      "preference"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "User prefers Grok bot over Hermes agent."
+  },
+  {
+    "id": "6a273876a6cd",
+    "agent": "hermes-agent",
+    "quote": "For local is Hermes Agent",
+    "author": "@petercat721",
+    "author_name": "Peter Catania",
+    "date": "2026-10-29",
+    "url": "https://x.com/petercat721/status/2115892231018090497",
+    "kind": "use-case",
+    "tags": [
+      "local",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Uses Hermes Agent for local tasks, Grok bot for cloud."
+  },
+  {
+    "id": "3e9f9623ed69",
+    "agent": "hermes-agent",
+    "quote": "I'll just switch fully to Hermes and make it manage everything else. It's just too much otherwise.",
+    "author": "@lkmvch",
+    "author_name": "andrei alikimovich",
+    "date": "2026-10-29",
+    "url": "https://x.com/lkmvch/status/2115892829742682229",
+    "kind": "praise",
+    "tags": [
+      "consolidation",
+      "vs-grok-bot",
+      "vs-dot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "User consolidating to Hermes agent to manage multiple other agents."
+  },
+  {
+    "id": "c45c5e20e01f",
+    "agent": "hermes-agent",
+    "quote": "The main agent is Hermes agent running on all local and cloud when necessary. Hermes communicates with grok bot to change models in any of the computers that host these models, like a switchblade.",
+    "author": "@robertocarrizo",
+    "author_name": "Roberto",
+    "date": "2026-10-30",
+    "url": "https://x.com/robertocarrizo/status/2115994214907699584",
+    "kind": "use-case",
+    "tags": [
+      "multi-gpu",
+      "local",
+      "model-switching",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Runs Hermes agent on 2x3090+5090 as main agent orchestrating local/cloud models."
+  },
+  {
+    "id": "edd996081b27",
+    "agent": "hermes-agent",
+    "quote": "What if you could have a @NousResearch Hermes agent as your chief of staff over all of your grokbot fleets... this way Hermes leverages its kanban and delegation and AR/verification and judge capabilities natively",
+    "author": "@PixelRainbowNFT",
+    "author_name": "PixelRainbow",
+    "date": "2026-10-30",
+    "url": "https://x.com/PixelRainbowNFT/status/2116154219677782395",
+    "kind": "use-case",
+    "tags": [
+      "orchestration",
+      "chief-of-staff",
+      "vs-grok-bot",
+      "kanban",
+      "delegation"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Idea: Hermes agent as orchestrator over Grok bot fleets for delegation/verification."
+  },
+  {
+    "id": "2f27685a1f3a",
+    "agent": "hermes-agent",
+    "quote": "Composer 2.5 plus Hermes agent combo is seriously powerful",
+    "author": "@NFT_Nadiyaa",
+    "author_name": "Real Nadiya",
+    "date": "2026-10-30",
+    "url": "https://x.com/NFT_Nadiyaa/status/2116085284228202731",
+    "kind": "praise",
+    "tags": [
+      "composer",
+      "combo",
+      "powerful"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Composer 2.5 + Hermes agent combo praised as seriously powerful."
   }
 ]

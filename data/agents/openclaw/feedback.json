@@ -1431,5 +1431,41 @@
     "source": "x",
     "collected_at": "2026-10-29T14:00:00Z",
     "notes": "X Oct 29: OpenClaw hype spawned Claw wrappers; Hermes proved more useful."
+  },
+  {
+    "id": "8c0fef751d1b",
+    "agent": "openclaw",
+    "quote": "Tried OpenClaw at launch. Spent days getting it to work. Underwhelmed.",
+    "author": "@ForestTechSol",
+    "author_name": "ForestTech Solutions",
+    "date": "2026-10-30",
+    "url": "https://x.com/ForestTechSol/status/2116163181064192196",
+    "kind": "complaint",
+    "tags": [
+      "setup",
+      "underwhelmed",
+      "launch"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "OpenClaw at launch: days to set up, underwhelmed with results."
+  },
+  {
+    "id": "e2494177e3a4",
+    "agent": "openclaw",
+    "quote": "@BradGroux, Co-Founder and CEO of @DigitalMeld and a former @openclaw maintainer, explains why persistent memory, personal",
+    "author": "@_odsc",
+    "author_name": "ODSC (Open Data Science Conference) AI",
+    "date": "2026-10-29",
+    "url": "https://x.com/_odsc/status/2115865758064623645",
+    "kind": "other",
+    "tags": [
+      "odsc",
+      "persistent-memory",
+      "industry"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "ODSC: Former OpenClaw maintainer on personal AI shift to delegation."
   }
 ]

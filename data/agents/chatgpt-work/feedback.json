@@ -260,7 +260,7 @@
   {
     "id": "f23x01",
     "agent": "chatgpt-work",
-    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n\u2014 Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
+    "quote": "First reaction on Claude Duet is that it's setting a new bar for agent UI/UX. Have been playing with the TestFlight all morning.\n\n— Dedicated app that isn't Claude (OpenAI Dots still buried in ChatGPT. Muse, Grok Bot are dedicated apps.",
     "author": "@dangaron",
     "author_name": "Dan Garon",
     "date": "2026-10-22",
@@ -317,12 +317,12 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 23: 72 family finance Qs\u2014Dots and peers got math right but ~25% omitted details."
+    "notes": "X Oct 23: 72 family finance Qs—Dots and peers got math right but ~25% omitted details."
   },
   {
     "id": "f23x04",
     "agent": "chatgpt-work",
-    "quote": "Do you agree ?\n\n\ud83e\udd47 Muse (Meta)\n\ud83e\udd48 Hermes Agent (Nous Research)\n\ud83e\udd49 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
+    "quote": "Do you agree ?\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)",
     "author": "@Ripuhiring",
     "author_name": "Ripu",
     "date": "2026-10-22",
@@ -361,7 +361,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'\u2014racing to AI Super App."
+    "notes": "X Oct 22: 'Dots, Grok Bot, and Muse might suck today'—racing to AI Super App."
   },
   {
     "id": "f23x06",
@@ -403,7 +403,7 @@
     ],
     "source": "x",
     "collected_at": "2026-10-23T14:00:00Z",
-    "notes": "X Oct 22: 'Winner is who you trust with inbox first'\u2014agents converging."
+    "notes": "X Oct 22: 'Winner is who you trust with inbox first'—agents converging."
   },
   {
     "id": "f24x01",
@@ -540,5 +540,58 @@
     "source": "x",
     "collected_at": "2026-10-28T14:00:00Z",
     "notes": "X Oct 28: ChatGPT Work partial system degradation reported."
+  },
+  {
+    "id": "6200e1758260",
+    "agent": "chatgpt-work",
+    "quote": "Integrations with Claude Duet and ChatGPT Work are listed as coming soon.",
+    "author": "@primocollab",
+    "author_name": "Primo Collab",
+    "date": "2026-10-30",
+    "url": "https://x.com/primocollab/status/2115994628646191223",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "integration",
+      "coming-soon"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "1Password agent integrations with ChatGPT Work coming soon."
+  },
+  {
+    "id": "f0d11572402c",
+    "agent": "chatgpt-work",
+    "quote": "ChatGPT Work and dots already handle much of this territory.",
+    "author": "@mydevopsguy",
+    "author_name": "Released Solutions",
+    "date": "2026-10-29",
+    "url": "https://x.com/mydevopsguy/status/2115806827912765729",
+    "kind": "comparison",
+    "tags": [
+      "capability",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "Notes ChatGPT Work already covers territory that Claude Duet targets."
+  },
+  {
+    "id": "7205e8f0f93c",
+    "agent": "chatgpt-work",
+    "quote": "supported agents include Claude Duet, OpenAI's Dots, ChatGPT Work, Grok Bot, Meta's Muse and agents from Town.",
+    "author": "@cslelouch",
+    "author_name": "Lelouch | AI and Tech",
+    "date": "2026-10-30",
+    "url": "https://x.com/cslelouch/status/2116043166495506529",
+    "kind": "other",
+    "tags": [
+      "1password",
+      "integration",
+      "support"
+    ],
+    "source": "x",
+    "collected_at": "2026-10-30",
+    "notes": "1Password agent support includes ChatGPT Work, Grok Bot, Muse, Town agents."
   }
 ]

@@ -169,3 +169,15 @@ _Updated 2026-10-29 weekday vault scan (+14 rows)._
 - (2026-10-29) @asura24py: Uses Hermes for research; moving automations to Grok Bot.
 
 **Feedback rows:** 101 (as of 2026-10-29)
+
+_Updated 2026-10-30 vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-10-30) @rmbfoto: User prefers Grok bot over Hermes agent.
+- (2026-10-29) @petercat721: Uses Hermes Agent for local tasks, Grok bot for cloud.
+- (2026-10-29) @lkmvch: Consolidating to Hermes to manage all other agents.
+- (2026-10-30) @robertocarrizo: Main agent is Hermes running 2x3090+5090 for local/cloud orchestration.
+- (2026-10-30) @PixelRainbowNFT: Idea—Hermes as chief of staff with kanban/delegation over Grok bot fleets.
+- (2026-10-30) @NFT_Nadiyaa: Composer 2.5 + Hermes agent combo 'seriously powerful.'
+
+**Feedback rows:** 107 (as of 2026-10-30)

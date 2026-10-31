@@ -168,30 +168,6 @@
     "notes": "Added the supplied frequent-flyer number to the saved profile and reservation, completing the requested update."
   },
   {
-    "id": "ollie-2026-09-14-travel-dimension-1",
-    "agent": "ollie",
-    "dimension": 1,
-    "date": "2026-09-14",
-    "score": 10,
-    "evidence_url": "/agents/ollie/evidence/ollie-2026-09-14-travel-search-review",
-    "reviewed": true,
-    "version": "travel-v1",
-    "protocol": "observed",
-    "notes": "Returned a Friday-morning/Sunday-evening option and clearly flagged the fare above the cap before payment."
-  },
-  {
-    "id": "ollie-2026-09-14-travel-dimension-2",
-    "agent": "ollie",
-    "dimension": 2,
-    "date": "2026-09-14",
-    "score": 7,
-    "evidence_url": "/agents/ollie/evidence/ollie-2026-09-14-travel-search-review",
-    "reviewed": true,
-    "version": "travel-v1",
-    "protocol": "observed",
-    "notes": "Priced the requested round trip and disclosed the budget miss; fare inclusions were not established in the saved result."
-  },
-  {
     "id": "orchid-2026-09-19-travel-dimension-1",
     "agent": "orchid",
     "dimension": 1,
@@ -693,7 +669,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Identified the traveler\u2019s two United loyalty accounts and selected the appropriate account in the booking preparation. The later payment blocker does not negate this completed profile task; application to an issued ticket was not verified."
+    "notes": "Identified the traveler’s two United loyalty accounts and selected the appropriate account in the booking preparation. The later payment blocker does not negate this completed profile task; application to an issued ticket was not verified."
   },
   {
     "id": "dots-2026-10-07-round-2-dimension-7",
@@ -753,7 +729,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Completed the approved $354.40 booking and returned ticket confirmation after the correct Link account was connected. The tester\u2019s account mismatch is not penalized; avoidable broken reconnect links are scored once under resumed onboarding."
+    "notes": "Completed the approved $354.40 booking and returned ticket confirmation after the correct Link account was connected. The tester’s account mismatch is not penalized; avoidable broken reconnect links are scored once under resumed onboarding."
   },
   {
     "id": "miso-2026-10-06-round-1-dimension-19",
@@ -765,7 +741,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Approximately 3 minutes from selected-flight booking request to confirmation; speed 10/10. 14:13 \u201cGo with your first recommendation\u201d to 14:16 booking confirmation. Includes card entry and checkout questions; minute-resolution transcript."
+    "notes": "Approximately 3 minutes from selected-flight booking request to confirmation; speed 10/10. 14:13 “Go with your first recommendation” to 14:16 booking confirmation. Includes card entry and checkout questions; minute-resolution transcript."
   },
   {
     "id": "instinct-2026-10-06-round-1-dimension-19",
@@ -777,7 +753,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Approximately 12 minutes from selected-flight booking request to confirmation; speed 8/10. 11:46 \u201cGo with your top recommendation\u201d to 11:58 booking confirmation. Includes fare clarification, traveler details, payment setup and approval; minute-resolution transcript."
+    "notes": "Approximately 12 minutes from selected-flight booking request to confirmation; speed 8/10. 11:46 “Go with your top recommendation” to 11:58 booking confirmation. Includes fare clarification, traveler details, payment setup and approval; minute-resolution transcript."
   },
   {
     "id": "grok-bot-2026-10-06-round-1-dimension-19",
@@ -813,7 +789,7 @@
     "reviewed": true,
     "version": "travel-v1",
     "protocol": "observed",
-    "notes": "Approximately 16 minutes from selected-flight booking request to confirmation; speed 7/10. 12:17 \u201ctry again\u201d resumes checkout for the previously selected flight; 12:33 ticket confirmation. Includes Link diagnosis/reconnection and renewed price approval. The previous day\u2019s unsuccessful attempt remains documented separately; the overnight gap is excluded."
+    "notes": "Approximately 16 minutes from selected-flight booking request to confirmation; speed 7/10. 12:17 “try again” resumes checkout for the previously selected flight; 12:33 ticket confirmation. Includes Link diagnosis/reconnection and renewed price approval. The previous day’s unsuccessful attempt remains documented separately; the overnight gap is excluded."
   },
   {
     "id": "muse-2026-10-07-round-2-dimension-18",

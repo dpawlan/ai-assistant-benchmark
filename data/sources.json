@@ -597,43 +597,6 @@
       "imessage_handles": [],
       "_note": " Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
-    "ollie": {
-      "name": "Ollie",
-      "handles": [
-        "heyollieai",
-        "blennon_",
-        "christyshannon"
-      ],
-      "domain": "ollie.ai",
-      "x_queries": [
-        "\"ollie.ai\"",
-        "@heyollieai",
-        "(\"ollie.ai\" OR @heyollieai OR @blennon_) (booked OR flight OR hotel OR reservation OR ordered OR subscription OR cancel OR called OR calendar OR inbox OR email OR refund OR tickets OR delivery OR appointment)"
-      ],
-      "reddit_queries": [
-        "\"ollie.ai\"",
-        "\"ollie ai\""
-      ],
-      "hn_queries": [
-        "\"ollie.ai\"",
-        "\"ollie ai\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "ollie.ai",
-        "@heyollieai",
-        "heyollieai",
-        "ollie ai",
-        "ollie assistant",
-        "ollie agent",
-        "ollieai",
-        "ollieapp"
-      ],
-      "imessage_handles": [
-        "+14157700119"
-      ]
-    },
     "openinstinct": {
       "name": "OpenInstinct",
       "handles": [

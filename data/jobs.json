@@ -1054,12 +1054,6 @@
           "agent": "instinct",
           "note": "In a few days: booked a cabin and a dinner reservation for a birthday, ordered whey protein from Costco, faxed an obscure document to a bank to get a late fee refunded, and checked whether a new dentist was in-network.",
           "outcome": "done"
-        },
-        {
-          "quote": "cee4248807f2",
-          "agent": "ollie",
-          "note": "The poster had a long list of personal logistics tasks to hand to a text-based agent and tried Ollie for them. Too many errors to keep going.",
-          "outcome": "failed"
         }
       ]
     },

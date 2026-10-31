@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-23",
-  "agent_count": 142,
-  "feedback_count": 5797,
-  "confirmed": 115,
+  "updated": "2026-10-31",
+  "agent_count": 141,
+  "feedback_count": 5663,
+  "confirmed": 114,
   "stretch": 27,
   "agents": [
     {
@@ -843,27 +843,6 @@
           "MCP"
         ],
         "checked": "2026-09-13"
-      }
-    },
-    {
-      "slug": "ollie",
-      "name": "Ollie",
-      "status": "confirmed",
-      "site": "https://ollie.ai/",
-      "feedback_count": 134,
-      "public_signal": null,
-      "tagline": "Privacy-first assistant for email, calendar and reminders",
-      "icon": "/logos/ollie.png",
-      "kind": "general",
-      "access": {
-        "pricing": "freemium",
-        "price": "Free (50 messages/mo); Everyday $25/mo; Always-On $100/mo",
-        "regions": "Not stated",
-        "channels": [
-          "iMessage",
-          "App"
-        ],
-        "checked": "2026-09-29"
       }
     },
     {

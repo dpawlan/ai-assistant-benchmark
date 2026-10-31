@@ -3,7 +3,7 @@ import type { OpinionStat, Usage } from './types';
 import type { TravelSummary } from './travel-rollup';
 /** Proposed cohorts and protocol structure. These are not scored runs. */
 export const TRAVEL_PILOT = ['soar', 'muse', 'instinct', 'grok-bot', 'dots'];
-export const TRAVEL_NEXT = ['miso', 'odessia', 'town', 'pally', 'ollie'];
+export const TRAVEL_NEXT = ['miso', 'odessia', 'town', 'pally'];
 export const TRAVEL_STAGES = [
   { key: 'plan', label: 'Plan & shop', short: 'Planning', description: 'Find the right trip, at the real price.' },
   { key: 'booking', label: 'Booking', short: 'Booking', description: 'From a recommendation to a ticket in your name.' },

@@ -370,3 +370,14 @@ _Updated 2026-10-30 vault scan (+5 rows)._
 - (2026-10-29) @_odsc: ODSC: Muse as key player in personal AI shift.
 
 **Feedback rows:** 354 (as of 2026-10-30)
+
+_Updated 2026-11-02 vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-10-31) @FranciswongCro: AI setup: Muse (free) for personal stuff; keeping Muse for personal.
+- (2026-10-30) @Geektak: Meta Muse is go-to everything assistant; satisfies set-it-and-forget-it needs.
+- (2026-11-01) @jumpdaily_EN: Amazon blocks Meta Muse; bets on Alexa for Shopping; Jassy says low external agent purchases.
+- (2026-11-01) @StockSavvyShay: UBS models META Muse at 3M daily users; AMD EPYC chip requirements vary by concurrent agents.
+- (2026-11-01) @fishjar: Hard part isn't checkout handshake, it's liability—who eats the chargeback when Muse misreads intent?
+
+**Feedback rows:** 359 (as of 2026-11-02)

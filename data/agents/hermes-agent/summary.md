@@ -181,3 +181,26 @@ _Updated 2026-10-30 vault scan (+6 rows)._
 - (2026-10-30) @NFT_Nadiyaa: Composer 2.5 + Hermes agent combo 'seriously powerful.'
 
 **Feedback rows:** 107 (as of 2026-10-30)
+
+_Updated 2026-11-02 vault scan (+17 rows)._
+
+**New this scan:**
+- (2026-11-02) @GodsBoy7777: agent-importers plugin 1.2.0 includes Grok Bot and OpenBot importers for Hermes.
+- (2026-11-02) @tkarrdeiz: VMs with Grok Bot installed giving Hermes access; Grok Bot keeps them healthy.
+- (2026-11-02) @erick_lindberg_: "My Hermes agent helped me create my first PR for Hermes agent."
+- (2026-11-01) @tylerjharden: Hermes Agent usage breakdown 1000x better than @bot; huge factor for enterprise migration.
+- (2026-11-02) @davidofug: Hermes Agent running on Telegram and Laptop; excited for mobile app.
+- (2026-10-31) @suhasbaliga: Instinct of early days was 'Hermes you wish you had'; today 'mogged by any Hermes Agent.'
+- (2026-11-02) @alexcovo_eth: Nous-Girl robot powered by Hermes Agent; gave Hermes a tiny robot body.
+- (2026-11-01) @alexcovo_eth: Passes all context and pointers to Hermes for provenance over memories.
+- (2026-11-02) @JASONMCNAB: Everything should be on Hermes; ops keep running with adjustment if Grok Bot hits limits.
+- (2026-10-30) @pablothethinker: Hermes Agent is excellent server engineer; took over after Grok Bot setup.
+- (2026-11-01) @alexcovo_eth: Loves Hermes-agent: no matter what AI labs decide, has a choice. Not locked in.
+- (2026-10-31) @Ryantuc: Not a dev, no Swift experience; Hermes agent; weeks in app store purgatory. Contributed upstream.
+- (2026-10-31) @real_kukuruza: Hermes Agent Mobile beta first look at NousCon 2026; sleek design and smooth performance.
+- (2026-10-31) @davidofug: Hermes Agent Mobile App connected to cloud gateway via Google login.
+- (2026-11-01) @FluxVoyager: Landed on Hermes Agent; just beats Grok Build but Grok Build does more important work.
+- (2026-11-01) @MichaelGannotti: Hermes Agent mobile beta for iOS/Android; chat, Live Mode, routines, skills, Shopify.
+- (2026-10-30) @Geektak: OpenClaw and Hermes can do more but Meta Muse satisfies set-it-and-forget-it needs.
+
+**Feedback rows:** 124 (as of 2026-11-02)

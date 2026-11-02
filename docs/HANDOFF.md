@@ -49,7 +49,7 @@ Every agent has `kind` in `meta.json` and `index.json` (general | travel | email
 
 ## Scorecard status sections
 
-The benchmark view of the scorecard is split into **Completed / In progress / Pending** (`src/lib/status.ts`): completed = every applicable dimension has a score or N/A, in progress = at least one score, pending = none. A stacked bar with counts sits under the peer-group chips (legend items filter to one status); the Tested column shows scored/applicable; Pending is collapsed behind a toggle. Completed is empty until an assistant is fully scored — that is deliberate, so Overall reads as a running mean, not a final number. Public-opinion view is unchanged.
+The benchmark view of the scorecard is split into **Completed / In progress / Pending** (`src/lib/status.ts`): completed = every applicable dimension has a score or N/A, in progress = at least one score, pending = none. A stacked bar with counts sits under the peer-group chips (legend items filter to one status); the Tested column shows scored/applicable; Pending is collapsed behind a toggle. Completed is empty until an assistant is fully scored — that is deliberate, so Overall reads as a running mean, not a final number. Since 2026-11-02 the General Overall also blends in reply speed at 20% (`weightedOverall` in `src/lib/score.ts`; David chose the weight); the travel report has its own 40% booking-speed weight. Public-opinion view is unchanged.
 
 **Listed, not scored:** `miso-nutrition` (Sunod's calorie tracker, Health & food group) is on the roster for reference only. Do not add runs or scores until David says so (2026-09-14). It is a different product from `miso`, the travel agent.
 

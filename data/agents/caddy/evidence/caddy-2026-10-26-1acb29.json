@@ -1,0 +1,19 @@
+{
+  "id": "caddy-2026-10-26-1acb29",
+  "agent": "caddy",
+  "category": "proactive_behavior",
+  "protocol": "observed",
+  "date": "2026-10-26",
+  "signals": {
+    "turns": 0,
+    "my_messages": 0,
+    "agent_messages": 0,
+    "first_reply_s": null,
+    "duration_min": 0,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": true
+  },
+  "published_at": "2026-11-02T17:50:05.577882Z"
+}

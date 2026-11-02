@@ -160,6 +160,16 @@
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-19-4b5555"
   },
   {
+    "id": "wajo-fo-2026-10-19-d65a8d",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-19",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Exported every saved memory and open item as a markdown file on request, with a warning about the personal details it contained.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-19-d65a8d"
+  },
+  {
     "id": "wajo-fo-2026-11-02-c7fb61",
     "category": "running_routine",
     "protocol": "observed",

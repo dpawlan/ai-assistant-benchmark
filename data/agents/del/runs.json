@@ -68,5 +68,35 @@
     "outcome": "partial",
     "notes": "Watches calendars and inboxes and drives its own browser, but offers only about nine integrations, with bank links as the payment hookup.",
     "evidence_url": "/agents/del/evidence/del-2026-10-07-75efea"
+  },
+  {
+    "id": "del-2026-10-14-53a977",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-10-14",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged a double-booked noon, bounced venue emails, a venue capacity and closing-time clash and an open RSVP, all unprompted.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-14-53a977"
+  },
+  {
+    "id": "del-2026-10-19-8f47b3",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-10-19",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Produced the fullest context export of any assistant, people files, tasks and notes, though it still missed a trip conflict earlier.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-19-8f47b3"
+  },
+  {
+    "id": "del-2026-10-21-f34ec8",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-10-21",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "The morning brief fired daily for two weeks with calendar, replies owed and venue status, leaning on items it had already raised.",
+    "evidence_url": "/agents/del/evidence/del-2026-10-21-f34ec8"
   }
 ]

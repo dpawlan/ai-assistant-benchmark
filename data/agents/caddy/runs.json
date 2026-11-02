@@ -128,5 +128,15 @@
     "outcome": "partial",
     "notes": "Found a $34.98 bouquet with guest checkout and entered the card, but the expiry dropdowns refused every attempt, so nothing was placed.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-10-14-cf8594"
+  },
+  {
+    "id": "caddy-2026-10-26-1acb29",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-10-26",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Flagged unprompted that a flowers order was still unplaced after its delivery date passed, but little else on its own.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-10-26-1acb29"
   }
 ]

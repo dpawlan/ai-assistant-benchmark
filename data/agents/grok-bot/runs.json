@@ -418,5 +418,25 @@
     "outcome": "fail",
     "notes": "After reconnecting the X connector its API calls stayed forbidden; it stopped looping reinstalls and reported the block.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-09-07-58cf54"
+  },
+  {
+    "id": "grok-bot-2026-11-02-25e626",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Scheduled routines fire on time every day with accurate content, and are easy to edit or pause from the chat.",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-11-02-25e626"
+  },
+  {
+    "id": "grok-bot-2026-11-02-3027a3",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Its connector catalogue has grown well beyond the early X API struggles; it now connects to a broad set of apps and works through them.",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-11-02-3027a3"
   }
 ]

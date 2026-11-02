@@ -1,5 +1,25 @@
 /** Pure score helpers, safe to import from client components. */
 
+/** Share of the General overall that comes from reply speed; the rest is the mean of category scores. */
+export const SPEED_WEIGHT = 0.2;
+
+/**
+ * Reply speed on the 1–10 scale: 10 at a 10-second median or faster, one point off per doubling
+ * (20s = 9, 40s = 8, 80s = 7, 160s = 6), floored at 1. Null when there is no measured thread.
+ */
+export function speedScore(medianReplyS: number | null | undefined): number | null {
+  if (medianReplyS === null || medianReplyS === undefined) return null;
+  return Math.max(1, Math.min(10, 10 - Math.log2(Math.max(medianReplyS, 10) / 10)));
+}
+
+/** General overall: category mean blended with reply speed at SPEED_WEIGHT. Without a speed, the mean alone. */
+export function weightedOverall(categoryMean: number | null, medianReplyS: number | null | undefined): number | null {
+  if (categoryMean === null) return null;
+  const speed = speedScore(medianReplyS);
+  const blended = speed === null ? categoryMean : speed * SPEED_WEIGHT + categoryMean * (1 - SPEED_WEIGHT);
+  return Math.round(blended * 10) / 10;
+}
+
 /** 1–5 bucket for the blue score ramp. */
 export function scoreBucket(score: number): 1 | 2 | 3 | 4 | 5 {
   if (score >= 9) return 5;

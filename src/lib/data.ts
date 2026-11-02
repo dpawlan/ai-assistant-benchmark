@@ -4,7 +4,7 @@ import fs from 'fs';
 import { isRankingEligible } from '../../scripts/lib/contribution.mjs';
 import path from 'path';
 export { scoreBucket, opinionRank, isThin, THIN_SAMPLE } from './score';
-import { opinionRank } from './score';
+import { opinionRank, weightedOverall } from './score';
 import { EvidenceOutcome,
   JobEntry,
   JobGroup,
@@ -256,8 +256,12 @@ export function rankByOpinion(agents: Agent[], key: string): Agent[] {
 }
 
 function mean(values: number[]): number | null {
+  return rawMean(values) === null ? null : Math.round((rawMean(values) as number) * 10) / 10;
+}
+
+function rawMean(values: number[]): number | null {
   if (values.length === 0) return null;
-  return Math.round((values.reduce((a, b) => a + b, 0) / values.length) * 10) / 10;
+  return values.reduce((a, b) => a + b, 0) / values.length;
 }
 
 /**
@@ -265,7 +269,7 @@ function mean(values: number[]): number | null {
  * Latest run per category wins; scores.json fills anything without a run;
  * stretch products with a `likely_applicable` list get N/A everywhere else.
  */
-function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Category[]) {
+function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Category[], usage: Usage | null) {
   const base = readJson<AgentScores>(path.join(agentDir(entry.slug), 'scores.json')) ?? {};
   const runs = getRuns(entry.slug).filter(isRankingEligible);
   const latestRuns: Record<string, Run> = {};
@@ -305,7 +309,8 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
     scores,
     travel,
     latestRuns,
-    overall: mean([...numeric('core'), ...numeric('endorsed')]),
+    // Category mean blended with measured reply speed (SPEED_WEIGHT in score.ts); unmeasured agents use the mean alone.
+    overall: weightedOverall(rawMean([...numeric('core'), ...numeric('endorsed')]), usage?.median_reply_s ?? null),
     core: mean(numeric('core')),
     endorsed: mean(numeric('endorsed')),
     testedCount: categories.filter(c => c.scored !== false && typeof scores[c.key] === 'number').length,
@@ -317,6 +322,7 @@ function deriveScores(entry: RosterEntry, meta: AgentMeta | null, categories: Ca
 
 function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
   const meta = readJson<AgentMeta>(path.join(agentDir(entry.slug), 'meta.json'));
+  const usage = getUsage(entry.slug);
   return {
     slug: entry.slug,
     name: entry.name,
@@ -329,9 +335,9 @@ function fromRoster(entry: RosterEntry, categories: Category[]): Agent {
     icon: entry.icon ?? null,
     kind: entry.kind ?? 'general',
     access: entry.access ?? null,
-    ...deriveScores(entry, meta, categories),
+    ...deriveScores(entry, meta, categories, usage),
     ...deriveOpinion(entry.slug, categories),
-    usage: getUsage(entry.slug),
+    usage,
     funding: getFunding(entry.slug),
   };
 }

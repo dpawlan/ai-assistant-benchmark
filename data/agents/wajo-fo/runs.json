@@ -158,5 +158,25 @@
     "outcome": "pass",
     "notes": "Now exposes an MCP server, so any MCP client can drive it alongside its own calendar, inbox, Drive, Slack, SMS and phone connections.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-10-19-4b5555"
+  },
+  {
+    "id": "wajo-fo-2026-11-02-c7fb61",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "The weekday 7am briefing has fired every day for two months with calendar, replies owed and weather, and pauses or changes on request.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-c7fb61"
+  },
+  {
+    "id": "wajo-fo-2026-11-02-847bdb",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Holds every booking and order for a yes before paying, reconnects accounts through short-lived links, and never takes card details in chat.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-847bdb"
   }
 ]

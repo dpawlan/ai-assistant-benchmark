@@ -1,0 +1,19 @@
+{
+  "id": "asaply-2026-11-02-e90462",
+  "agent": "asaply",
+  "category": "travel",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 3,
+    "my_messages": 1,
+    "agent_messages": 2,
+    "first_reply_s": 8,
+    "duration_min": 0,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-02T19:11:11.014Z"
+}

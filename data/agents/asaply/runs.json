@@ -53,5 +53,25 @@
     "score": "n/a",
     "outcome": "n/a",
     "notes": "Declined birthday cards and trivia games as outside its coffee, food, and local-spots scope."
+  },
+  {
+    "id": "asaply-2026-11-02-e90462",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 1,
+    "outcome": "fail",
+    "notes": "Said it cannot book flights and offered an airport ride or coffee for the trip instead.",
+    "evidence_url": "/agents/asaply/evidence/asaply-2026-11-02-e90462"
+  },
+  {
+    "id": "asaply-2026-11-02-fde8b2",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 7,
+    "outcome": "partial",
+    "notes": "Said it can search the inbox and draft replies once Google is attached, and offered to send the setup step.",
+    "evidence_url": "/agents/asaply/evidence/asaply-2026-11-02-fde8b2"
   }
 ]

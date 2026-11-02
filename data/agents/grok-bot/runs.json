@@ -438,5 +438,25 @@
     "outcome": "pass",
     "notes": "Its connector catalogue has grown well beyond the early X API struggles; it now connects to a broad set of apps and works through them.",
     "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-11-02-3027a3"
+  },
+  {
+    "id": "grok-bot-2026-11-02-83e873",
+    "category": "phone_calls",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Places real calls to businesses, gets both questions answered, and reports back clearly.",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-11-02-83e873"
+  },
+  {
+    "id": "grok-bot-2026-11-02-ed108c",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "App logins stay on the connector backend and admins can block apps, but access is full rather than read-only scoped.",
+    "evidence_url": "/agents/grok-bot/evidence/grok-bot-2026-11-02-ed108c"
   }
 ]

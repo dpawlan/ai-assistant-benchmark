@@ -68,5 +68,15 @@
     "outcome": "partial",
     "notes": "Quoted $75 bouquets, found the $27.21 option only from a screenshot, then asked for confirmation twice more after being authorized.",
     "evidence_url": "/agents/catch/evidence/catch-2026-10-14-1ee6a0"
+  },
+  {
+    "id": "catch-2026-11-02-83e873",
+    "category": "phone_calls",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Places real calls to businesses, gets both questions answered, and reports back clearly.",
+    "evidence_url": "/agents/catch/evidence/catch-2026-11-02-83e873"
   }
 ]

@@ -329,3 +329,21 @@ _Updated 2026-10-30 vault scan (+11 rows)._
 - (2026-10-29) @tinkerlog: Pricing comparison—Grok Bot $30/mo vs Gemini Spark $20/mo.
 
 **Feedback rows:** 1358 (as of 2026-10-30)
+
+_Updated 2026-11-02 vault scan (+12 rows)._
+
+**New this scan:**
+- (2026-10-31) @Procalvl: Uses Grok Bot for automation and QoL; Claude Max for coding; Grok Bot interfaces with Claude.
+- (2026-11-01) @scottshao_: Clarifies Grok app vs Grok Bot app distinction; uses Grok Bot inside Grok app.
+- (2026-10-31) @CA_Worman: Grok Bot correctly identified motherboard/OS/PCIe; recommended Wi-Fi adapter with reasoning.
+- (2026-10-31) @Prismxverse: Grok Bot better for animation than Grok Imagine; can fix specific shots without regenerating.
+- (2026-11-02) @GodsBoy7777: agent-importers plugin 1.2.0 for Grok Bot to Hermes Agent migration.
+- (2026-11-01) @Nate_Common: Disappointed—Grok Bot refused form submission claiming automation blocking though ToS allowed.
+- (2026-11-02) @tkarrdeiz: Proposes Grok Bot as admin/mentor over Hermes fleet VMs.
+- (2026-10-31) @JekyllTraveler: Runs Grok Bot on Linux server; tasks via Android app; uses Chrome for Amazon.
+- (2026-10-31) @FranciswongCro: AI setup: Grok Bot Premium for work; planning Grok Bot Super consolidation.
+- (2026-11-01) @alexcovo_eth: Uses Grok Bot to write to own directories; passes context to Hermes for provenance.
+- (2026-11-02) @JASONMCNAB: Recommends Hermes for ops; when Grok Bot hits limits, ops continue with adjustment.
+- (2026-10-30) @pablothethinker: Set up Minecraft server with Grok Bot handling initial setup before Hermes took over.
+
+**Feedback rows:** 1370 (as of 2026-11-02)

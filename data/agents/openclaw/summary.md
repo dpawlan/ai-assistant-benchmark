@@ -154,3 +154,10 @@ _Updated 2026-10-30 vault scan (+2 rows)._
 - (2026-10-29) @_odsc: Former OpenClaw maintainer on personal AI shift to delegation.
 
 **Feedback rows:** 77 (as of 2026-10-30)
+
+_Updated 2026-11-02 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-10-30) @Geektak: OpenClaw and Hermes can do more but Meta Muse satisfies set-it-and-forget-it needs.
+
+**Feedback rows:** 78 (as of 2026-11-02)

@@ -1485,5 +1485,63 @@
     "source": "x",
     "collected_at": "2026-11-02",
     "notes": "OpenClaw and Hermes can do more than Muse but Muse satisfies set-it-and-forget-it needs."
+  },
+  {
+    "id": "955333935481",
+    "agent": "openclaw",
+    "quote": "I feel like I\u2019m cheating with Claude Duet. \n\nI use @get_bb_app. When I got access to Duet, I connected Claude. This opened up local access to all of my machines. \n\nMore importantly, it gave Claude access to my two OpenClaw, Claude and Codex. \n\nThat\u2019s multi-harness Projects with",
+    "author": "@tregoudeau",
+    "author_name": "Deau",
+    "date": "2026-11-02",
+    "url": "https://x.com/tregoudeau/status/2117266955333935481",
+    "kind": "use-case",
+    "tags": [
+      "vs-duet",
+      "openclaw",
+      "multi-harness"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User feels like cheating with Claude Duet + BB app: local access to machines, OpenClaw, Codex."
+  },
+  {
+    "id": "115375857708",
+    "agent": "openclaw",
+    "quote": "@mrfundman Grok bot &gt; claude duet &gt;  muse &gt; hermes &gt; dots &gt; openclaw&gt; hark. Wtf is even manus doing there? Muse and dots suck your all personal data btw\ud83d\udc80",
+    "author": "@ashandironzero",
+    "author_name": "John Snow?",
+    "date": "2026-11-03",
+    "url": "https://x.com/ashandironzero/status/2117514115375857708",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-dots",
+      "vs-openclaw",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Ranking: Grok bot > Duet > Muse > Hermes > Dots > OpenClaw. Notes Muse and Dots suck personal data."
+  },
+  {
+    "id": "803838288027",
+    "agent": "openclaw",
+    "quote": "That's why I was thinking there really is no reason to have Openclaw, Hermes, Grok Bot, Claude Duet, Dot, and Muse. They fundamentally all do the same thing and regular agents (Claude Code, Codex, etc.) could do as well. \n\nThe one that makes the most sense to keep are the open",
+    "author": "@yanique_a",
+    "author_name": "Yan",
+    "date": "2026-11-02",
+    "url": "https://x.com/yanique_a/status/2117270803838288027",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-openclaw",
+      "vs-duet",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Questions need for multiple agents: OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse all do same thing."
   }
 ]

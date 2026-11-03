@@ -35,3 +35,10 @@ _Updated 2026-10-30 vault scan (+1 row)._
 - (2026-10-29) @tinkerlog: Pricing comparison—Gemini Spark $20/mo vs Grok Bot $30/mo.
 
 **Feedback rows:** 11 (as of 2026-10-30)
+
+_Updated 2026-11-03 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-03) @Its_lakshya_ai: Asks about Gemini Spark—not many developers know it exists vs Dots/Duet/Grok Bot.
+
+**Feedback rows:** 12 (as of 2026-11-03)

@@ -7277,5 +7277,100 @@
     "source": "x",
     "collected_at": "2026-11-02",
     "notes": "Hard part isn't checkout handshake, it's liability. When Muse misreads intent, who eats the chargeback?"
+  },
+  {
+    "id": "925886542050",
+    "agent": "muse",
+    "quote": "Grok Bot vs Muse vs Dots vs Claude Duet\n\n4 AI agents that keep working after you close the app. Only one has a free tier.\n\nPrice: Muse $0 to start, Duet $20 (waitlist), Grok Bot $30, Dots from $100\nSafest: Duet and Muse\nMost hands-off: Grok Bot and Dots\n\nFull scoreboard and my",
+    "author": "@bobbyhalljr_dev",
+    "author_name": "Bobby Hall Jr",
+    "date": "2026-11-03",
+    "url": "https://x.com/bobbyhalljr_dev/status/2117409925886542050",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "vs-duet",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Comparison: Muse $0, Duet $20 (waitlist), Grok Bot $30, Dots $100; Grok Bot most hands-off."
+  },
+  {
+    "id": "294407463175",
+    "agent": "muse",
+    "quote": "I think like right now, no AI agent can really compete with Grok Bot. \n\nWhat do you think about other agents?\n- OpenAI Dots\n- Meta Muse\n- Claude Duet",
+    "author": "@KaranMewada_",
+    "author_name": "Karan Mewada",
+    "date": "2026-11-03",
+    "url": "https://x.com/KaranMewada_/status/2117584294407463175",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "vs-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User thinks no AI agent can compete with Grok Bot right now; asks about others."
+  },
+  {
+    "id": "104299450484",
+    "agent": "muse",
+    "quote": "1. riley brown put grok bot, openai dots, meta muse and claude duet through hands-on use. his take: grok bot has the best ui, dots is strongest with codex, and the cloud vm is overrated.",
+    "author": "@workingdevshero",
+    "author_name": "Working Dev's Hero",
+    "date": "2026-11-02",
+    "url": "https://x.com/workingdevshero/status/2117315104299450484",
+    "kind": "praise",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "review"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Riley Brown review: Grok Bot best UI, Dots strongest with Codex, cloud VM overrated."
+  },
+  {
+    "id": "115375857708",
+    "agent": "muse",
+    "quote": "@mrfundman Grok bot &gt; claude duet &gt;  muse &gt; hermes &gt; dots &gt; openclaw&gt; hark. Wtf is even manus doing there? Muse and dots suck your all personal data btw\ud83d\udc80",
+    "author": "@ashandironzero",
+    "author_name": "John Snow?",
+    "date": "2026-11-03",
+    "url": "https://x.com/ashandironzero/status/2117514115375857708",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-dots",
+      "vs-openclaw",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Ranking: Grok bot > Duet > Muse > Hermes > Dots > OpenClaw. Notes Muse and Dots suck personal data."
+  },
+  {
+    "id": "803838288027",
+    "agent": "muse",
+    "quote": "That's why I was thinking there really is no reason to have Openclaw, Hermes, Grok Bot, Claude Duet, Dot, and Muse. They fundamentally all do the same thing and regular agents (Claude Code, Codex, etc.) could do as well. \n\nThe one that makes the most sense to keep are the open",
+    "author": "@yanique_a",
+    "author_name": "Yan",
+    "date": "2026-11-02",
+    "url": "https://x.com/yanique_a/status/2117270803838288027",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-openclaw",
+      "vs-duet",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Questions need for multiple agents: OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse all do same thing."
   }
 ]

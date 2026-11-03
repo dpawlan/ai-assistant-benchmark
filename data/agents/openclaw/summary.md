@@ -161,3 +161,12 @@ _Updated 2026-11-02 vault scan (+1 row)._
 - (2026-10-30) @Geektak: OpenClaw and Hermes can do more but Meta Muse satisfies set-it-and-forget-it needs.
 
 **Feedback rows:** 78 (as of 2026-11-02)
+
+_Updated 2026-11-03 vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-02) @tregoudeau: Uses Claude Duet + BB app for local access to machines, OpenClaw, Codex—multi-harness Projects.
+- (2026-11-03) @ashandironzero: Ranking: Grok bot > Duet > Muse > Hermes > Dots > OpenClaw.
+- (2026-11-02) @yanique_a: Questions need for OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse—all do the same thing.
+
+**Feedback rows:** 81 (as of 2026-11-03)

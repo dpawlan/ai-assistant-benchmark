@@ -381,3 +381,14 @@ _Updated 2026-11-02 vault scan (+5 rows)._
 - (2026-11-01) @fishjar: Hard part isn't checkout handshake, it's liability—who eats the chargeback when Muse misreads intent?
 
 **Feedback rows:** 359 (as of 2026-11-02)
+
+_Updated 2026-11-03 vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-03) @bobbyhalljr_dev: Comparison: Muse $0, Duet $20 (waitlist), Grok Bot $30, Dots $100; Muse safest alongside Duet.
+- (2026-11-03) @workingdevshero: Riley Brown review: Grok Bot best UI, Dots strongest with Codex, cloud VM overrated.
+- (2026-11-03) @KaranMewada_: User thinks no AI agent can compete with Grok Bot; asks about Muse and others.
+- (2026-11-03) @ashandironzero: Ranking: Grok bot > Duet > Muse; notes Muse and Dots suck personal data.
+- (2026-11-02) @yanique_a: Questions need for multiple agents: all do the same thing fundamentally.
+
+**Feedback rows:** 364 (as of 2026-11-03)

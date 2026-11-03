@@ -25,5 +25,15 @@
     "score": 6,
     "outcome": "partial",
     "notes": "Shortlisted Gage and Pizano for dinner without live 7:30 table confirmation."
+  },
+  {
+    "id": "folk-2026-11-02-b172b6",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 3,
+    "outcome": "fail",
+    "notes": "Hit a cart failure, sent screenshots, asked for a name and phone number, then went silent after saying it was continuing checkout.",
+    "evidence_url": "/agents/folk/evidence/folk-2026-11-02-b172b6"
   }
 ]

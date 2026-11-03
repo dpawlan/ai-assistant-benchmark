@@ -128,5 +128,15 @@
     "outcome": "pass",
     "notes": "Weekday 9am NYC weather one-liner fired on all three observed weekdays, on schedule, with accurate content.",
     "evidence_url": "/agents/pally/evidence/pally-2026-09-17-routine"
+  },
+  {
+    "id": "pally-2026-11-02-c574fb",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "Staged a $26.11 Belkin cable at B&H and took two approvals, then said the checkout was processing and never confirmed an order.",
+    "evidence_url": "/agents/pally/evidence/pally-2026-11-02-c574fb"
   }
 ]

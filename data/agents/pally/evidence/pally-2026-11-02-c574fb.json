@@ -1,0 +1,19 @@
+{
+  "id": "pally-2026-11-02-c574fb",
+  "agent": "pally",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 26,
+    "my_messages": 6,
+    "agent_messages": 20,
+    "first_reply_s": 3,
+    "duration_min": 50,
+    "agent_said_done": false,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T12:39:56.071Z"
+}

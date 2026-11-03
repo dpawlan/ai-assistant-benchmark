@@ -347,3 +347,23 @@ _Updated 2026-11-02 vault scan (+12 rows)._
 - (2026-10-30) @pablothethinker: Set up Minecraft server with Grok Bot handling initial setup before Hermes took over.
 
 **Feedback rows:** 1370 (as of 2026-11-02)
+
+_Updated 2026-11-03 vault scan (+27 rows)._
+
+**New this scan:**
+- (2026-11-03) @Ai_Census: Elon Musk: 'cost of serving Grok Bot was unsustainably high relative to revenue'; NousResearch replied 'hermes migrate grok-bot.'
+- (2026-11-02) @shoaf22: Grok Bot usage meter misleading—Weekly Grok Bot Limit bar doesn't behave like SuperGrok bar.
+- (2026-11-03) @lolfe12: Grok Bot phone calls US-only; user in France cannot call uncle in Canada.
+- (2026-11-03) @HermesWatcher: Hermes v0.22.6 shipped 'hermes migrate grok-bot'; routines, skills and memories come over.
+- (2026-11-03) @jevlorde: Installed Hermes inside Grok Bot on mobile; uses as fallback when Grok Bot quota dies.
+- (2026-11-03) @Satlan_Leng: Hermes Agent popping up as backup as Grok Bot usage gets tightened up.
+- (2026-11-03) @telegraphic_dev: Grok Bot Ultra cannot handle workload; Hermes Agent with Codex handles it gracefully.
+- (2026-11-02) @Aerixi0: Agent Arena round 7: Grok Bot won $100→$1,486 (14.9x) on last trade.
+- (2026-11-03) @GreggApplefield: Grok Bot for weekly tennis court booking and player roster management.
+- (2026-11-03) @chetankale_: Shopping via Grok Bot: product cards, order tracking, multiple payment options.
+- (2026-11-02) @BotDirectoryAI: Siri Shortcut to start Grok Bot voice chat.
+- (2026-11-02) @BotPlainly: iPhone Action button → Grok Bot voice chat shortcut.
+- (2026-11-03) @OldArmyBroad: Praise—Grok Bot helped remove personal info from internet sites (Premium+).
+- (2026-11-03) @bobbyhalljr_dev: Comparison: Muse $0, Duet $20 (waitlist), Grok Bot $30, Dots $100.
+
+**Feedback rows:** 1397 (as of 2026-11-03)

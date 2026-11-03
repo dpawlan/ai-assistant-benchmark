@@ -32186,5 +32186,488 @@
     "source": "x",
     "collected_at": "2026-11-02",
     "notes": "Set up Minecraft server with Grok Bot handling most initial setup before Hermes took over."
+  },
+  {
+    "id": "486985183264",
+    "agent": "grok-bot",
+    "quote": "Tennis players - Grok Bot can schedule your weekly matches and court time\n\nConnect Grok Bot to Playbypoint\n\nGive Grok Bot weekly schedule it can auto book courts for you since they fill up fast\n\nNext let Grok Bot go through your phone contacts and create a list of players\n\nGrok",
+    "author": "@GreggApplefield",
+    "author_name": "Gregg Applefield",
+    "date": "2026-11-03",
+    "url": "https://x.com/GreggApplefield/status/2117608486985183264",
+    "kind": "use-case",
+    "tags": [
+      "tennis",
+      "scheduling"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Grok Bot for weekly tennis court booking and player roster management."
+  },
+  {
+    "id": "164805111967",
+    "agent": "grok-bot",
+    "quote": "Why can't Grok bot just go out and make more money for Grok bot if Grok bot costs too much? \ud83e\udd23\n\nSorry, sorry. I know it's in poor taste.\n\nI was really big into Grok Imagine when they did the same thing. I'm guessing to free up compute for Grok bot. \n\nNow they are doing it to you",
+    "author": "@Coalfireband",
+    "author_name": "Dana Goins",
+    "date": "2026-11-03",
+    "url": "https://x.com/Coalfireband/status/2117440164805111967",
+    "kind": "complaint",
+    "tags": [
+      "pricing",
+      "usage-limits",
+      "grok-imagine"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Sardonic comment on Grok Bot cost cuts; references Grok Imagine usage limit changes."
+  },
+  {
+    "id": "114505138487",
+    "agent": "grok-bot",
+    "quote": "A user asked Elon Musk for a Grok Bot usage reset. His answer:\n\n\"The cost of serving Grok Bot was unsustainably high relative to revenue,\" @elonmusk posted Sunday.\n\n@NousResearch replied with one line: \"hermes migrate grok-bot\"",
+    "author": "@Ai_Census",
+    "author_name": "AiCensus",
+    "date": "2026-11-03",
+    "url": "https://x.com/Ai_Census/status/2117603114505138487",
+    "kind": "other",
+    "tags": [
+      "elon",
+      "pricing",
+      "vs-hermes",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Elon Musk: 'cost of serving Grok Bot was unsustainably high relative to revenue'; NousResearch replied 'hermes migrate grok-bot'."
+  },
+  {
+    "id": "873825054980",
+    "agent": "grok-bot",
+    "quote": "Shopping via Grok Bot:\n\nA new and improved shopping experience on Grok bot,  with product cards, order tracking cards, and multiple payment options via secure vaults.\n\nHave you shopped with Grok Bot yet?",
+    "author": "@chetankale_",
+    "author_name": "Chetan Kale",
+    "date": "2026-11-03",
+    "url": "https://x.com/chetankale_/status/2117465873825054980",
+    "kind": "use-case",
+    "tags": [
+      "shopping",
+      "payments"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Shopping via Grok Bot: product cards, order tracking, multiple payment options via secure vaults."
+  },
+  {
+    "id": "465105981509",
+    "agent": "grok-bot",
+    "quote": "Grok Bot can make phone calls now \ud83c\udf89\nme in France: call me\nGrok Bot: US numbers only\nme: call my uncle in Canada\nGrok Bot: US numbers only\nme: \ud83e\uddcd",
+    "author": "@lolfe12",
+    "author_name": "S",
+    "date": "2026-11-03",
+    "url": "https://x.com/lolfe12/status/2117512465105981509",
+    "kind": "complaint",
+    "tags": [
+      "phone",
+      "us-only"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Grok Bot phone calls US-only; user in France cannot call uncle in Canada."
+  },
+  {
+    "id": "176048005131",
+    "agent": "grok-bot",
+    "quote": "holy f*ck, you have NO IDEA what Grok Bot is actually capable of\n\ntop repos to make your Grok Bot actually useful:\n\nSuperpowers -&gt; the biggest skill pack for agents: planning, debugging, writing\nhttps://t.co/iOGLunexNu\n\nGrok Bot Field Notes -&gt; 69 bot roles, 9 playbooks and 40 https://t.co/NEsyM99eNV",
+    "author": "@thegreatest_sv",
+    "author_name": "kiosa",
+    "date": "2026-11-03",
+    "url": "https://x.com/thegreatest_sv/status/2117591176048005131",
+    "kind": "other",
+    "tags": [
+      "repos",
+      "skills"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Repos to extend Grok Bot: Superpowers skill pack, Grok Bot Field Notes with 69 bot roles."
+  },
+  {
+    "id": "809567760572",
+    "agent": "grok-bot",
+    "quote": "The Grok Bot usage meter is misleading. @xai @bot @elonmusk \nThe Weekly Grok Bot Limit bar shows percentage used the same way the SuperGrok bar does, but they don\u2019t behave the same. On SuperGrok the percentage is the real limit \u2014 it runs to 100%. On Grok Bot I hit \u201cincluded usage",
+    "author": "@shoaf22",
+    "author_name": "Isaac",
+    "date": "2026-11-03",
+    "url": "https://x.com/shoaf22/status/2117410809567760572",
+    "kind": "complaint",
+    "tags": [
+      "usage-limits",
+      "misleading"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Grok Bot usage meter misleading: Weekly Grok Bot Limit bar shows percentage but doesn't behave like SuperGrok bar."
+  },
+  {
+    "id": "584550596666",
+    "agent": "grok-bot",
+    "quote": "THE SHARK LED FOR MOST OF THE RACE. MY GROK BOT WON IT ON THE LAST TRADE\n\n$100 \u2192 $1,486. 14.9x. i didn't pick a single coin\n\nit's called Agent Arena. round 7. 4 AI agents, $100 each, no humans. first one to $1.4K wins\n\nthe lineup:\n\n\u2192 Grok Bot\n\u2192 Shark\n\u2192 Fox\n\u2192 Owl\n\nhow the https://t.co/psFz06ldTm",
+    "author": "@Aerixi0",
+    "author_name": "Aerixi",
+    "date": "2026-11-02",
+    "url": "https://x.com/Aerixi0/status/2117362584550596666",
+    "kind": "use-case",
+    "tags": [
+      "trading",
+      "agent-arena"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Agent Arena round 7: Grok Bot won $100\u2192$1,486 (14.9x) on last trade against Shark, Fox, Owl."
+  },
+  {
+    "id": "243083927933",
+    "agent": "grok-bot",
+    "quote": "Talk to Grok Bot hands-free on iPhone, with no always-on mic:\n\n1. Shortcuts \u2192 + \u2192 Add Action \u2192 search \"Grok Bot\" \u2192 \"Start a Voice Chat with Bot\"\n2. Name it \"Grok Bot\"\n3. Turn on \"Allow Running When Locked\"\n\nNow just say \"Hey Siri, Grok Bot.\"\n\nSave this for later.\n\nVia",
+    "author": "@BotDirectoryAI",
+    "author_name": "Bot Directory AI",
+    "date": "2026-11-02",
+    "url": "https://x.com/BotDirectoryAI/status/2117312243083927933",
+    "kind": "use-case",
+    "tags": [
+      "ios",
+      "siri",
+      "shortcuts",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Siri Shortcut to start Grok Bot voice chat: 'Hey Siri, Grok Bot.'"
+  },
+  {
+    "id": "346203095354",
+    "agent": "grok-bot",
+    "quote": "\ud83d\udc47\ud83c\udffb\nI\u2019d  just like to say that Grok bot is AMAZING!! WOW!!\ud83e\udd2f\nWanna get your personal info off the Internet? Grok bot can do it! A friend created &amp; sent me his program to get your name off every site &amp; BOOM! Grok bot got it done! (For Premium + accounts) \ud83d\ude09",
+    "author": "@OldArmyBroad",
+    "author_name": "SasEoldArmyBroad",
+    "date": "2026-11-03",
+    "url": "https://x.com/OldArmyBroad/status/2117432346203095354",
+    "kind": "praise",
+    "tags": [
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Praise: Grok Bot helped remove personal info from internet sites (Premium+ feature)."
+  },
+  {
+    "id": "257193103567",
+    "agent": "grok-bot",
+    "quote": "It's live. \ud83d\udd25\n\nhermes migrate grok-bot works now. It shipped in Hermes v0.22.6.\n\n\u25b8 On the CLI: hermes update, then hermes migrate grok-bot\n\u25b8 Installing fresh: setup offers to bring your Grok Bot over\n\u25b8 OpenBot users can move over too\n\nYour routines, skills and memories come",
+    "author": "@HermesWatcher",
+    "author_name": "Hermes Release Watch",
+    "date": "2026-11-03",
+    "url": "https://x.com/HermesWatcher/status/2117459257193103567",
+    "kind": "other",
+    "tags": [
+      "migration",
+      "vs-hermes",
+      "v0.22.6"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Hermes v0.22.6 shipped 'hermes migrate grok-bot'; routines, skills and memories come over."
+  },
+  {
+    "id": "972200157519",
+    "agent": "grok-bot",
+    "quote": "\ud83d\udc40 GOOD NEWS: Grok @bot is testing ways to restore your usage, so your AI workflow could go even further!\n\nNeed something? Set Grok Bot to auto-subscribe on Uquid, then simply tell it to cancel when you\u2019re done. You can even use multiple bots to manage different subscriptions",
+    "author": "@uquidcard",
+    "author_name": "UQUID | Digital Commerce Infrastructure",
+    "date": "2026-11-03",
+    "url": "https://x.com/uquidcard/status/2117573972200157519",
+    "kind": "use-case",
+    "tags": [
+      "subscriptions",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Grok Bot testing ways to restore usage; user suggests auto-subscribe on Uquid, cancel when done."
+  },
+  {
+    "id": "606740775036",
+    "agent": "grok-bot",
+    "quote": "Monday tip: turn your iPhone's Action button into a Grok Bot button.\n\nSettings \u2192 Action Button \u2192 swipe to Shortcut \u2192 Grok Bot \u2192 Start Voice Chat\n\nPress it and you're talking to your Bot. Needs an iPhone 15 Pro or later and Grok Bot app 1.16+.",
+    "author": "@BotPlainly",
+    "author_name": "Bot Plainly",
+    "date": "2026-11-02",
+    "url": "https://x.com/BotPlainly/status/2117280606740775036",
+    "kind": "use-case",
+    "tags": [
+      "ios",
+      "action-button",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "iPhone Action button \u2192 Grok Bot voice chat shortcut; needs iPhone 15 Pro+ and app 1.16+."
+  },
+  {
+    "id": "466759057748",
+    "agent": "grok-bot",
+    "quote": "@mrfundman I'm big on Grok Bot right now. I always do a ton of building in Codex so Dot naturally comes with it (don't like it as much as Grok Bot).\n\nWhat's your selling point for Duet &gt; Grok Bot?",
+    "author": "@brandonhassler",
+    "author_name": "Brandon Hassler",
+    "date": "2026-11-03",
+    "url": "https://x.com/brandonhassler/status/2117460466759057748",
+    "kind": "other",
+    "tags": [
+      "codex",
+      "vs-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User big on Grok Bot; also uses Codex for building; asks selling point for Duet vs Grok Bot."
+  },
+  {
+    "id": "824871940103",
+    "agent": "grok-bot",
+    "quote": "@QuantumBikerX @jumperz what exactly was the problem with A2A? I'm planing to connect my Hermes agent to Grok Bot via https://t.co/GnPoqH8hYS. I have tried Grok Bot but even Ultra cannot handle the amount of work I'm demanding whereas Hermes Agent with Codex handles it gracefully. I still want to keep",
+    "author": "@telegraphic_dev",
+    "author_name": "Vladimir Orany",
+    "date": "2026-11-03",
+    "url": "https://x.com/telegraphic_dev/status/2117576824871940103",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "a2a",
+      "workload"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User tried Grok Bot but Ultra cannot handle workload; Hermes Agent with Codex handles it gracefully."
+  },
+  {
+    "id": "925886542050",
+    "agent": "grok-bot",
+    "quote": "Grok Bot vs Muse vs Dots vs Claude Duet\n\n4 AI agents that keep working after you close the app. Only one has a free tier.\n\nPrice: Muse $0 to start, Duet $20 (waitlist), Grok Bot $30, Dots from $100\nSafest: Duet and Muse\nMost hands-off: Grok Bot and Dots\n\nFull scoreboard and my",
+    "author": "@bobbyhalljr_dev",
+    "author_name": "Bobby Hall Jr",
+    "date": "2026-11-03",
+    "url": "https://x.com/bobbyhalljr_dev/status/2117409925886542050",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "vs-duet",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Comparison: Muse $0, Duet $20 (waitlist), Grok Bot $30, Dots $100; Grok Bot most hands-off."
+  },
+  {
+    "id": "564224586203",
+    "agent": "grok-bot",
+    "quote": "@HermesWatcher Is it cheaper than grok bot?\nIs it as good as grok bot?\nBecause I am checking for alternatives and nobody can replace the grok bot/Claude performance",
+    "author": "@DarkLord_gr",
+    "author_name": "DarkLord_gr | DeFi Dojo",
+    "date": "2026-11-02",
+    "url": "https://x.com/DarkLord_gr/status/2117383564224586203",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Checking Hermes as Grok Bot alternative; 'nobody can replace the grok bot/Claude performance.'"
+  },
+  {
+    "id": "947899011553",
+    "agent": "grok-bot",
+    "quote": "hermes agent mobile opened android access \u2014\npricing felt worse than just using your own vps.\n\nso i installed the latest hermes agent inside grok bot\nand bound it to the mobile app.\n\nwhen grok bot quota dies,\nfallback isn't \"stare at the screen\".\nit's another agent driving the",
+    "author": "@jevlorde",
+    "author_name": "jev lorde",
+    "date": "2026-11-03",
+    "url": "https://x.com/jevlorde/status/2117564947899011553",
+    "kind": "use-case",
+    "tags": [
+      "mobile",
+      "fallback",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Installed Hermes inside Grok Bot on mobile; uses as fallback when Grok Bot quota dies."
+  },
+  {
+    "id": "455498162332",
+    "agent": "grok-bot",
+    "quote": "@Seltaa_ I have only just started playing with Grok bot. What lead me to trying it out was Hermes Agent. With as many things you have going, it may be able to bridge the access issues/voice.\n\nI have seen Hermes Agent now popping up as the backup as Grok Bot usage gets tightened up.",
+    "author": "@Satlan_Leng",
+    "author_name": "Leng",
+    "date": "2026-11-03",
+    "url": "https://x.com/Satlan_Leng/status/2117584455498162332",
+    "kind": "other",
+    "tags": [
+      "vs-hermes",
+      "fallback",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Hermes Agent popping up as backup as Grok Bot usage gets tightened up."
+  },
+  {
+    "id": "305433653343",
+    "agent": "grok-bot",
+    "quote": "With every big splash and the wave settles, local is still the answer. \n\nSet up your workflows with Hermes agent with local AI. \n\nIf you wish, use grok bot as a coord with v1 of your Hermes agent or webhook. \n\nIf rates or policies change of paid systems, you are still up and",
+    "author": "@JASONMCNAB",
+    "author_name": "JASON MCNAB",
+    "date": "2026-11-03",
+    "url": "https://x.com/JASONMCNAB/status/2117598305433653343",
+    "kind": "use-case",
+    "tags": [
+      "vs-hermes",
+      "local",
+      "fallback"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Set up workflows with Hermes + local AI; use Grok Bot as coord; ops stay up if policies change."
+  },
+  {
+    "id": "268549931507",
+    "agent": "grok-bot",
+    "quote": "@tinkerlog @nienburg @bot @NousResearch Grok is a great conversational surface for me and I use it to collaborate with Hermes Agent. It helps me plan and gather my thoughts and then it passes all tasks to my orchestrator agent in Hermes-agent. There the process, tasks, etc get assigned to the appropriate agent running",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-11-02",
+    "url": "https://x.com/alexcovo_eth/status/2117285268549931507",
+    "kind": "use-case",
+    "tags": [
+      "vs-hermes",
+      "orchestrator"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Uses Grok as conversational surface to collaborate with Hermes orchestrator agent."
+  },
+  {
+    "id": "584851673524",
+    "agent": "grok-bot",
+    "quote": "Elon Musk said the cost of serving Grokbot was unsustainably high relative to revenue, and users are now moving to Hermes agent.\n\nMusk made the statement in a reply on X on Sunday, November 2nd. He said Grokbot was too expensive to run and that it could not be priced high enough",
+    "author": "@AGTPinsights",
+    "author_name": "AGTP",
+    "date": "2026-11-03",
+    "url": "https://x.com/AGTPinsights/status/2117428584851673524",
+    "kind": "other",
+    "tags": [
+      "elon",
+      "pricing",
+      "vs-hermes",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Elon Musk said Grokbot cost unsustainably high vs revenue; users moving to Hermes agent."
+  },
+  {
+    "id": "294407463175",
+    "agent": "grok-bot",
+    "quote": "I think like right now, no AI agent can really compete with Grok Bot. \n\nWhat do you think about other agents?\n- OpenAI Dots\n- Meta Muse\n- Claude Duet",
+    "author": "@KaranMewada_",
+    "author_name": "Karan Mewada",
+    "date": "2026-11-03",
+    "url": "https://x.com/KaranMewada_/status/2117584294407463175",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "vs-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User thinks no AI agent can compete with Grok Bot right now; asks about others."
+  },
+  {
+    "id": "877290188938",
+    "agent": "grok-bot",
+    "quote": "DOTS, DUET, GROK BOT... BUT WHAT ABOUT GEMINI SPARK ??\n\nHonestly, not many developers even know that Gemini Spark exists\ud83e\udee0\n\n- OpenAI has ChatGPT Dots\n\n- Anthropic has Claude Duet\n\n- XAI has Grok Bot\n\nAnd Google has Gemini Spark....\n\n- Dots is pushing always-on AI agents.\n- Duet",
+    "author": "@Its_lakshya_ai",
+    "author_name": "Lakshya",
+    "date": "2026-11-03",
+    "url": "https://x.com/Its_lakshya_ai/status/2117596877290188938",
+    "kind": "other",
+    "tags": [
+      "vs-gemini",
+      "vs-dots",
+      "vs-duet",
+      "visibility"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Asks about Gemini Spark; not many developers know it exists vs Dots/Duet/Grok Bot."
+  },
+  {
+    "id": "104299450484",
+    "agent": "grok-bot",
+    "quote": "1. riley brown put grok bot, openai dots, meta muse and claude duet through hands-on use. his take: grok bot has the best ui, dots is strongest with codex, and the cloud vm is overrated.",
+    "author": "@workingdevshero",
+    "author_name": "Working Dev's Hero",
+    "date": "2026-11-02",
+    "url": "https://x.com/workingdevshero/status/2117315104299450484",
+    "kind": "praise",
+    "tags": [
+      "vs-muse",
+      "vs-dots",
+      "review"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Riley Brown review: Grok Bot best UI, Dots strongest with Codex, cloud VM overrated."
+  },
+  {
+    "id": "115375857708",
+    "agent": "grok-bot",
+    "quote": "@mrfundman Grok bot &gt; claude duet &gt;  muse &gt; hermes &gt; dots &gt; openclaw&gt; hark. Wtf is even manus doing there? Muse and dots suck your all personal data btw\ud83d\udc80",
+    "author": "@ashandironzero",
+    "author_name": "John Snow?",
+    "date": "2026-11-03",
+    "url": "https://x.com/ashandironzero/status/2117514115375857708",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-dots",
+      "vs-openclaw",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Ranking: Grok bot > Duet > Muse > Hermes > Dots > OpenClaw. Notes Muse and Dots suck personal data."
+  },
+  {
+    "id": "803838288027",
+    "agent": "grok-bot",
+    "quote": "That's why I was thinking there really is no reason to have Openclaw, Hermes, Grok Bot, Claude Duet, Dot, and Muse. They fundamentally all do the same thing and regular agents (Claude Code, Codex, etc.) could do as well. \n\nThe one that makes the most sense to keep are the open",
+    "author": "@yanique_a",
+    "author_name": "Yan",
+    "date": "2026-11-02",
+    "url": "https://x.com/yanique_a/status/2117270803838288027",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-openclaw",
+      "vs-duet",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Questions need for multiple agents: OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse all do same thing."
   }
 ]

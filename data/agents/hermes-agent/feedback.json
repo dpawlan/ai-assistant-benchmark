@@ -2282,5 +2282,362 @@
     "source": "x",
     "collected_at": "2026-11-02",
     "notes": "OpenClaw and Hermes can do more but Meta Muse satisfies set-it-and-forget-it needs."
+  },
+  {
+    "id": "114505138487",
+    "agent": "hermes-agent",
+    "quote": "A user asked Elon Musk for a Grok Bot usage reset. His answer:\n\n\"The cost of serving Grok Bot was unsustainably high relative to revenue,\" @elonmusk posted Sunday.\n\n@NousResearch replied with one line: \"hermes migrate grok-bot\"",
+    "author": "@Ai_Census",
+    "author_name": "AiCensus",
+    "date": "2026-11-03",
+    "url": "https://x.com/Ai_Census/status/2117603114505138487",
+    "kind": "other",
+    "tags": [
+      "elon",
+      "pricing",
+      "vs-hermes",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Elon Musk: 'cost of serving Grok Bot was unsustainably high relative to revenue'; NousResearch replied 'hermes migrate grok-bot'."
+  },
+  {
+    "id": "257193103567",
+    "agent": "hermes-agent",
+    "quote": "It's live. \ud83d\udd25\n\nhermes migrate grok-bot works now. It shipped in Hermes v0.22.6.\n\n\u25b8 On the CLI: hermes update, then hermes migrate grok-bot\n\u25b8 Installing fresh: setup offers to bring your Grok Bot over\n\u25b8 OpenBot users can move over too\n\nYour routines, skills and memories come",
+    "author": "@HermesWatcher",
+    "author_name": "Hermes Release Watch",
+    "date": "2026-11-03",
+    "url": "https://x.com/HermesWatcher/status/2117459257193103567",
+    "kind": "other",
+    "tags": [
+      "migration",
+      "vs-hermes",
+      "v0.22.6"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Hermes v0.22.6 shipped 'hermes migrate grok-bot'; routines, skills and memories come over."
+  },
+  {
+    "id": "824871940103",
+    "agent": "hermes-agent",
+    "quote": "@QuantumBikerX @jumperz what exactly was the problem with A2A? I'm planing to connect my Hermes agent to Grok Bot via https://t.co/GnPoqH8hYS. I have tried Grok Bot but even Ultra cannot handle the amount of work I'm demanding whereas Hermes Agent with Codex handles it gracefully. I still want to keep",
+    "author": "@telegraphic_dev",
+    "author_name": "Vladimir Orany",
+    "date": "2026-11-03",
+    "url": "https://x.com/telegraphic_dev/status/2117576824871940103",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "a2a",
+      "workload"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User tried Grok Bot but Ultra cannot handle workload; Hermes Agent with Codex handles it gracefully."
+  },
+  {
+    "id": "564224586203",
+    "agent": "hermes-agent",
+    "quote": "@HermesWatcher Is it cheaper than grok bot?\nIs it as good as grok bot?\nBecause I am checking for alternatives and nobody can replace the grok bot/Claude performance",
+    "author": "@DarkLord_gr",
+    "author_name": "DarkLord_gr | DeFi Dojo",
+    "date": "2026-11-02",
+    "url": "https://x.com/DarkLord_gr/status/2117383564224586203",
+    "kind": "comparison",
+    "tags": [
+      "vs-hermes",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Checking Hermes as Grok Bot alternative; 'nobody can replace the grok bot/Claude performance.'"
+  },
+  {
+    "id": "294135566525",
+    "agent": "hermes-agent",
+    "quote": "@Teknium Well we definitely need an Hermes agent to manage our Hermes agent at this point, great work with upgrades",
+    "author": "@harrypo97023567",
+    "author_name": "harry potter",
+    "date": "2026-11-03",
+    "url": "https://x.com/harrypo97023567/status/2117518294135566525",
+    "kind": "praise",
+    "tags": [
+      "hermes",
+      "upgrades"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Praise for Hermes upgrades: 'need an Hermes agent to manage our Hermes agent.'"
+  },
+  {
+    "id": "457683239094",
+    "agent": "hermes-agent",
+    "quote": "@BearHuddleston A separate Hermes Desktop app package for all supported platforms that doesn't try to install a local Hermes agent. It's always just the Hermes Desktop app. It gracefully handles there not being a locally installed Hermes agent.",
+    "author": "@tangouninformed",
+    "author_name": "not tango uniform",
+    "date": "2026-11-03",
+    "url": "https://x.com/tangouninformed/status/2117432457683239094",
+    "kind": "other",
+    "tags": [
+      "desktop",
+      "local"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Request for standalone Hermes Desktop app that works without local Hermes agent."
+  },
+  {
+    "id": "657240944839",
+    "agent": "hermes-agent",
+    "quote": "Your Hermes Agent bots on your phone: Pomelu is now on Google Play.\n\nWe build it, open source. Each Hermes bot is a chat: live answers, approvals, voice, files, Bot Screen. No account, no tracking.\n\nCatch: needs your own Hermes Agent 0.21.5+. iOS soon.\n\nhttps://t.co/oHoIeGtnjH",
+    "author": "@ReadmeRadar",
+    "author_name": "Readme Radar \u00b7 open-source AI",
+    "date": "2026-11-03",
+    "url": "https://x.com/ReadmeRadar/status/2117618657240944839",
+    "kind": "other",
+    "tags": [
+      "mobile",
+      "android",
+      "pomelu"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Pomelu on Google Play: open-source Hermes Agent mobile client; needs Hermes 0.21.5+."
+  },
+  {
+    "id": "947899011553",
+    "agent": "hermes-agent",
+    "quote": "hermes agent mobile opened android access \u2014\npricing felt worse than just using your own vps.\n\nso i installed the latest hermes agent inside grok bot\nand bound it to the mobile app.\n\nwhen grok bot quota dies,\nfallback isn't \"stare at the screen\".\nit's another agent driving the",
+    "author": "@jevlorde",
+    "author_name": "jev lorde",
+    "date": "2026-11-03",
+    "url": "https://x.com/jevlorde/status/2117564947899011553",
+    "kind": "use-case",
+    "tags": [
+      "mobile",
+      "fallback",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Installed Hermes inside Grok Bot on mobile; uses as fallback when Grok Bot quota dies."
+  },
+  {
+    "id": "455498162332",
+    "agent": "hermes-agent",
+    "quote": "@Seltaa_ I have only just started playing with Grok bot. What lead me to trying it out was Hermes Agent. With as many things you have going, it may be able to bridge the access issues/voice.\n\nI have seen Hermes Agent now popping up as the backup as Grok Bot usage gets tightened up.",
+    "author": "@Satlan_Leng",
+    "author_name": "Leng",
+    "date": "2026-11-03",
+    "url": "https://x.com/Satlan_Leng/status/2117584455498162332",
+    "kind": "other",
+    "tags": [
+      "vs-hermes",
+      "fallback",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Hermes Agent popping up as backup as Grok Bot usage gets tightened up."
+  },
+  {
+    "id": "305433653343",
+    "agent": "hermes-agent",
+    "quote": "With every big splash and the wave settles, local is still the answer. \n\nSet up your workflows with Hermes agent with local AI. \n\nIf you wish, use grok bot as a coord with v1 of your Hermes agent or webhook. \n\nIf rates or policies change of paid systems, you are still up and",
+    "author": "@JASONMCNAB",
+    "author_name": "JASON MCNAB",
+    "date": "2026-11-03",
+    "url": "https://x.com/JASONMCNAB/status/2117598305433653343",
+    "kind": "use-case",
+    "tags": [
+      "vs-hermes",
+      "local",
+      "fallback"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Set up workflows with Hermes + local AI; use Grok Bot as coord; ops stay up if policies change."
+  },
+  {
+    "id": "639943004562",
+    "agent": "hermes-agent",
+    "quote": "toll is now in the @NousResearch hermes agent plugin catalog\n\nany hermes agent can install toll and read robinhood chain before it acts:\n\u00b7 check a coin: who made it, wallets that moved together, can the LP be pulled\n\u00b7 check a transaction before signing: ALLOW / WARN / BLOCK with",
+    "author": "@Tollxyz_",
+    "author_name": "Toll",
+    "date": "2026-11-03",
+    "url": "https://x.com/Tollxyz_/status/2117444639943004562",
+    "kind": "other",
+    "tags": [
+      "plugin",
+      "robinhood",
+      "toll"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Toll plugin now in Hermes catalog: check coins, wallets, LP pulls, transaction safety."
+  },
+  {
+    "id": "798598398386",
+    "agent": "hermes-agent",
+    "quote": "@tonysimons To be honest, I want to lock all of my skills completely. I really don't want any skill to be modified by my Hermes Agent without my knowledge\u2014because once a skill is modified, it will no longer stay up to date with updates from the original source. What's worse, Hermes Agent",
+    "author": "@VinkySimon",
+    "author_name": "Vinky Simon",
+    "date": "2026-11-03",
+    "url": "https://x.com/VinkySimon/status/2117552798598398386",
+    "kind": "complaint",
+    "tags": [
+      "skills",
+      "updates"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User wants to lock skills completely; modified skills won't stay up to date with source."
+  },
+  {
+    "id": "318718443818",
+    "agent": "hermes-agent",
+    "quote": "DSH is coming for Hermes Agent quicker than I ever expected! I love my Hermes Agent set up (and it is already installed and working perfectly!) but I think I'll have to find a way to try DSH soon",
+    "author": "@robertomasymas",
+    "author_name": "Roberto Tom\u00e1s C \ud83c\udf49",
+    "date": "2026-11-02",
+    "url": "https://x.com/robertomasymas/status/2117290318718443818",
+    "kind": "other",
+    "tags": [
+      "dsh",
+      "competition"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "DSH coming for Hermes Agent faster than expected; loves Hermes setup but will try DSH."
+  },
+  {
+    "id": "697958510882",
+    "agent": "hermes-agent",
+    "quote": "if you use Omarchy, your Hermes Agent can follow it: pick a theme in Omarchy and your Hermes Agent switches to the same one.\n\nit comes with all 23 Omarchy themes, and `/theme &lt;name&gt;` switches by hand when you want a different one.\n\n`hermes-themes-pack`, time to give it a try!",
+    "author": "@witcheer",
+    "author_name": "witcheer",
+    "date": "2026-11-02",
+    "url": "https://x.com/witcheer/status/2117261697958510882",
+    "kind": "other",
+    "tags": [
+      "omarchy",
+      "themes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "hermes-themes-pack: Hermes Agent follows Omarchy theme selection; 23 themes included."
+  },
+  {
+    "id": "123809198321",
+    "agent": "hermes-agent",
+    "quote": "CRAZY SETUP HERMES-AGENT\n\nI\u2019ve massively amplified coding workflows on Hermes Agent.\n\nAt my company, complex problems we once couldn't crack are now solved effortlessly through Hermes alone.\n\nWith augmented memory, specialized skills, and fine-tuned aesthetic intuition, it covers",
+    "author": "@rlaope",
+    "author_name": "HOPE.",
+    "date": "2026-11-03",
+    "url": "https://x.com/rlaope/status/2117430123809198321",
+    "kind": "praise",
+    "tags": [
+      "coding",
+      "workflows"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "CRAZY SETUP: massively amplified coding workflows with augmented memory, specialized skills."
+  },
+  {
+    "id": "268549931507",
+    "agent": "hermes-agent",
+    "quote": "@tinkerlog @nienburg @bot @NousResearch Grok is a great conversational surface for me and I use it to collaborate with Hermes Agent. It helps me plan and gather my thoughts and then it passes all tasks to my orchestrator agent in Hermes-agent. There the process, tasks, etc get assigned to the appropriate agent running",
+    "author": "@alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-11-02",
+    "url": "https://x.com/alexcovo_eth/status/2117285268549931507",
+    "kind": "use-case",
+    "tags": [
+      "vs-hermes",
+      "orchestrator"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Uses Grok as conversational surface to collaborate with Hermes orchestrator agent."
+  },
+  {
+    "id": "584851673524",
+    "agent": "hermes-agent",
+    "quote": "Elon Musk said the cost of serving Grokbot was unsustainably high relative to revenue, and users are now moving to Hermes agent.\n\nMusk made the statement in a reply on X on Sunday, November 2nd. He said Grokbot was too expensive to run and that it could not be priced high enough",
+    "author": "@AGTPinsights",
+    "author_name": "AGTP",
+    "date": "2026-11-03",
+    "url": "https://x.com/AGTPinsights/status/2117428584851673524",
+    "kind": "other",
+    "tags": [
+      "elon",
+      "pricing",
+      "vs-hermes",
+      "usage-limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Elon Musk said Grokbot cost unsustainably high vs revenue; users moving to Hermes agent."
+  },
+  {
+    "id": "838281007457",
+    "agent": "hermes-agent",
+    "quote": "my Hermes agent has mostly become a \"last 30 days\" skill agent \ud83d\ude02",
+    "author": "@paleocybernetic",
+    "author_name": "paleocybernetic",
+    "date": "2026-11-03",
+    "url": "https://x.com/paleocybernetic/status/2117476838281007457",
+    "kind": "other",
+    "tags": [
+      "skills",
+      "30-days"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "User's Hermes agent mostly a 'last 30 days' skill agent."
+  },
+  {
+    "id": "115375857708",
+    "agent": "hermes-agent",
+    "quote": "@mrfundman Grok bot &gt; claude duet &gt;  muse &gt; hermes &gt; dots &gt; openclaw&gt; hark. Wtf is even manus doing there? Muse and dots suck your all personal data btw\ud83d\udc80",
+    "author": "@ashandironzero",
+    "author_name": "John Snow?",
+    "date": "2026-11-03",
+    "url": "https://x.com/ashandironzero/status/2117514115375857708",
+    "kind": "comparison",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-dots",
+      "vs-openclaw",
+      "privacy"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Ranking: Grok bot > Duet > Muse > Hermes > Dots > OpenClaw. Notes Muse and Dots suck personal data."
+  },
+  {
+    "id": "803838288027",
+    "agent": "hermes-agent",
+    "quote": "That's why I was thinking there really is no reason to have Openclaw, Hermes, Grok Bot, Claude Duet, Dot, and Muse. They fundamentally all do the same thing and regular agents (Claude Code, Codex, etc.) could do as well. \n\nThe one that makes the most sense to keep are the open",
+    "author": "@yanique_a",
+    "author_name": "Yan",
+    "date": "2026-11-02",
+    "url": "https://x.com/yanique_a/status/2117270803838288027",
+    "kind": "other",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-openclaw",
+      "vs-duet",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-03",
+    "notes": "Questions need for multiple agents: OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse all do same thing."
   }
 ]

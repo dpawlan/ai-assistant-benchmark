@@ -204,3 +204,23 @@ _Updated 2026-11-02 vault scan (+17 rows)._
 - (2026-10-30) @Geektak: OpenClaw and Hermes can do more but Meta Muse satisfies set-it-and-forget-it needs.
 
 **Feedback rows:** 124 (as of 2026-11-02)
+
+_Updated 2026-11-03 vault scan (+20 rows)._
+
+**New this scan:**
+- (2026-11-03) @Ai_Census: Elon Musk: 'cost of serving Grok Bot unsustainably high vs revenue'; NousResearch replied 'hermes migrate grok-bot.'
+- (2026-11-03) @AGTPinsights: Elon Musk statement on cost; users moving to Hermes agent.
+- (2026-11-03) @HermesWatcher: Hermes v0.22.6 shipped 'hermes migrate grok-bot'; routines, skills and memories come over.
+- (2026-11-03) @jevlorde: Installed Hermes inside Grok Bot on mobile; uses as fallback when Grok Bot quota dies.
+- (2026-11-03) @Satlan_Leng: Hermes Agent popping up as backup as Grok Bot usage gets tightened up.
+- (2026-11-03) @JASONMCNAB: Set up workflows with Hermes + local AI; ops stay up if Grok Bot policies change.
+- (2026-11-03) @ReadmeRadar: Pomelu on Google Play: open-source Hermes Agent mobile client; needs Hermes 0.21.5+.
+- (2026-11-03) @rlaope: CRAZY SETUP—massively amplified coding workflows with augmented memory, specialized skills.
+- (2026-11-03) @harrypo97023567: Praise for upgrades: 'need an Hermes agent to manage our Hermes agent.'
+- (2026-11-03) @telegraphic_dev: Grok Bot Ultra cannot handle workload; Hermes Agent with Codex handles it gracefully.
+- (2026-11-02) @DarkLord_gr: Checking Hermes as Grok Bot alternative; 'nobody can replace the grok bot/Claude performance.'
+- (2026-11-03) @alexcovo_eth: Uses Grok as conversational surface to collaborate with Hermes orchestrator agent.
+- (2026-11-03) @Tollxyz_: Toll plugin now in Hermes catalog—check coins, wallets, LP pulls, transaction safety.
+- (2026-11-02) @witcheer: hermes-themes-pack: Hermes Agent follows Omarchy theme selection; 23 themes included.
+
+**Feedback rows:** 144 (as of 2026-11-03)

@@ -147,5 +147,25 @@
     "outcome": "pass",
     "notes": "Offers Link, a delivery-app connector, Google and a virtual-card store, each through a secure page it sends the moment you ask.",
     "evidence_url": "/agents/tomo/evidence/tomo-2026-10-29-41791a"
+  },
+  {
+    "id": "tomo-2026-11-02-280e3e",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Picked an Anker 240W cable, staged a $23.94 total, took one tap-to-approve and returned an order number in eight minutes.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-11-02-280e3e"
+  },
+  {
+    "id": "tomo-2026-11-02-913683",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Drove a retailer checkout to a confirmed order from one message, with the exact model, seller, total and delivery window shown first.",
+    "evidence_url": "/agents/tomo/evidence/tomo-2026-11-02-913683"
   }
 ]

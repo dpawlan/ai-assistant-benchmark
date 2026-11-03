@@ -1,0 +1,19 @@
+{
+  "id": "szn-2026-11-02-1cff02",
+  "agent": "szn",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 19,
+    "my_messages": 5,
+    "agent_messages": 14,
+    "first_reply_s": 10,
+    "duration_min": 29,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T00:52:33.521Z"
+}

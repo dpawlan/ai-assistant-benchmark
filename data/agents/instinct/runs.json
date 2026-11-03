@@ -207,5 +207,15 @@
     "outcome": "n/a",
     "notes": "Has no outbound calling and says so; it drafts the ask and hands you the number to dial.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-11-02-bce4bd"
+  },
+  {
+    "id": "instinct-2026-11-02-607774",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Ordered a $23.94 Anker cable on one approval, then owned up to a wrong billing address and a duplicate order it got refunded.",
+    "evidence_url": "/agents/instinct/evidence/instinct-2026-11-02-607774"
   }
 ]

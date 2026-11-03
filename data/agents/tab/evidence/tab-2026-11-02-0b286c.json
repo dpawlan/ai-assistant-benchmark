@@ -1,0 +1,19 @@
+{
+  "id": "tab-2026-11-02-0b286c",
+  "agent": "tab",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 16,
+    "my_messages": 4,
+    "agent_messages": 12,
+    "first_reply_s": 30,
+    "duration_min": 40,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": false,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T00:52:33.521Z"
+}

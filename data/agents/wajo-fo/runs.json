@@ -188,5 +188,25 @@
     "outcome": "pass",
     "notes": "Holds every booking and order for a yes before paying, reconnects accounts through short-lived links, and never takes card details in chat.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-847bdb"
+  },
+  {
+    "id": "wajo-fo-2026-11-02-ecfa64",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Found a $19.99 Anker cable, built the checkout with screenshots, and finished on its own card rail when the saved card stalled.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-ecfa64"
+  },
+  {
+    "id": "wajo-fo-2026-11-02-74345c",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Staged a full checkout and recovered from a payment stall, but needed two approval rounds and never showed an order number.",
+    "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-74345c"
   }
 ]

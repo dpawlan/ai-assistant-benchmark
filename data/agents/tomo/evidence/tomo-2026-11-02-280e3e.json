@@ -1,0 +1,19 @@
+{
+  "id": "tomo-2026-11-02-280e3e",
+  "agent": "tomo",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 18,
+    "my_messages": 2,
+    "agent_messages": 16,
+    "first_reply_s": 5,
+    "duration_min": 8,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T00:52:33.521Z"
+}

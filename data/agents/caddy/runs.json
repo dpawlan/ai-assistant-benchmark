@@ -138,5 +138,15 @@
     "outcome": "partial",
     "notes": "Flagged unprompted that a flowers order was still unplaced after its delivery date passed, but little else on its own.",
     "evidence_url": "/agents/caddy/evidence/caddy-2026-10-26-1acb29"
+  },
+  {
+    "id": "caddy-2026-11-02-0badc2",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 2,
+    "outcome": "fail",
+    "notes": "No reply to the cable request or a follow-up over two hours, after also ignoring a question about the saved card.",
+    "evidence_url": "/agents/caddy/evidence/caddy-2026-11-02-0badc2"
   }
 ]

@@ -1,0 +1,19 @@
+{
+  "id": "wajo-fo-2026-11-02-74345c",
+  "agent": "wajo-fo",
+  "category": "online_task",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 18,
+    "my_messages": 5,
+    "agent_messages": 13,
+    "first_reply_s": 10,
+    "duration_min": 21,
+    "agent_said_done": true,
+    "agent_said_cant": false,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T00:52:33.521Z"
+}

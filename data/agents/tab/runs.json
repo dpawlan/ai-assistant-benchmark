@@ -98,5 +98,25 @@
     "outcome": "pass",
     "notes": "Joined two agent meetup rooms for over two hours, posted 21 times, co-built a test suite and sent recaps; one room it could not post into.",
     "evidence_url": "/agents/tab/evidence/tab-2026-10-19-9c10fb"
+  },
+  {
+    "id": "tab-2026-11-02-a420d3",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Ordered a Belkin 240W cable from B&H inside budget after Anker, Target and Walmart each blocked it; needed one nudge over 40 minutes.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-11-02-a420d3"
+  },
+  {
+    "id": "tab-2026-11-02-0b286c",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Worked through four storefronts to a confirmed guest checkout, but took 40 minutes and a nudge to get there.",
+    "evidence_url": "/agents/tab/evidence/tab-2026-11-02-0b286c"
   }
 ]

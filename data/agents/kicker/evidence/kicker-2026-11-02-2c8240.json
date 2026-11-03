@@ -1,0 +1,19 @@
+{
+  "id": "kicker-2026-11-02-2c8240",
+  "agent": "kicker",
+  "category": "purchasing",
+  "protocol": "observed",
+  "date": "2026-11-02",
+  "signals": {
+    "turns": 47,
+    "my_messages": 7,
+    "agent_messages": 40,
+    "first_reply_s": 5,
+    "duration_min": 12,
+    "agent_said_done": false,
+    "agent_said_cant": true,
+    "agent_asked_question": true,
+    "agent_initiated": false
+  },
+  "published_at": "2026-11-03T00:52:33.521Z"
+}

@@ -148,5 +148,15 @@
     "outcome": "pass",
     "notes": "Found the $15 bouquet after a screenshot nudge, confirmed the exact $27.21 total before paying, and got the order through.",
     "evidence_url": "/agents/szn/evidence/szn-2026-10-14-81b0f9"
+  },
+  {
+    "id": "szn-2026-11-02-1cff02",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Found the cheapest cable at $10.88 on Best Buy and placed the order, but needed three go-aheads after the first approval.",
+    "evidence_url": "/agents/szn/evidence/szn-2026-11-02-1cff02"
   }
 ]

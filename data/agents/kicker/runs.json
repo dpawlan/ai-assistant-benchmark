@@ -88,5 +88,15 @@
     "outcome": "n/a",
     "notes": "Has no outbound calling; it hands over the business's number for the user to call.",
     "evidence_url": "/agents/kicker/evidence/kicker-2026-10-19-e4eb10"
+  },
+  {
+    "id": "kicker-2026-11-02-2c8240",
+    "category": "purchasing",
+    "protocol": "observed",
+    "date": "2026-11-02",
+    "score": 4,
+    "outcome": "fail",
+    "notes": "Priced a $10.88 Anker cable and built a Best Buy guest checkout to the payment step, then said it cannot pay at any store but one.",
+    "evidence_url": "/agents/kicker/evidence/kicker-2026-11-02-2c8240"
   }
 ]

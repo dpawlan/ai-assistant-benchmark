@@ -342,3 +342,10 @@ _Updated 2026-11-02 vault scan (+1 row)._
 - (2026-10-31) @suhasbaliga: Instinct of early days was great; today 'mogged by any Hermes Agent.'
 
 **Feedback rows:** 345 (as of 2026-11-02)
+
+_Updated 2026-11-04 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-04) @FaulknerPearce: Disappointed with Instinct—felt like bad OpenClaw 6 months ago; try Grok Bot instead.
+
+**Feedback rows:** 346 (as of 2026-11-04)

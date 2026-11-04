@@ -367,3 +367,33 @@ _Updated 2026-11-03 vault scan (+27 rows)._
 - (2026-11-03) @bobbyhalljr_dev: Comparison: Muse $0, Duet $20 (waitlist), Grok Bot $30, Dots $100.
 
 **Feedback rows:** 1397 (as of 2026-11-03)
+
+_Updated 2026-11-04 vault scan (+24 rows)._
+
+**New this scan:**
+- (2026-11-04) @chandangbhagat: Grok Bot is insane—bot messaging to other bot blown me away.
+- (2026-11-04) @nazirulhafiy: Strava+IFTTT+Grok Bot Mail automation for monthly workout tracking.
+- (2026-11-04) @CaliforniaJoan: LOVE Grok Bot; Muse slightly better for simple trip but Grok Bot wins on complex tasks.
+- (2026-11-04) @MLeeJr: Keeps entire agent repo in Cursor with daily checkpoint pushing; Hermes also has access.
+- (2026-11-04) @StephDebour: Grok Bot booked winter tire appointment; Copilot is great inside work apps, Grok Bot everywhere else.
+- (2026-11-04) @artisbautra: Claude Max + new X subscription Premium plan includes X usage for Cursor and Grok Bot.
+- (2026-11-04) @TridentBob: Made Grok Bot the manager for routines and memory; heavy writing/research to Claude/Gemini.
+- (2026-11-04) @Epholum: Usage dropped by half or more after merging accounts and switching to X Subscription.
+- (2026-11-04) @Texas_Twins_Dad: Grok Bot can now get Tesla navigation ready via dentist appointment workflow (36 likes).
+- (2026-11-04) @Chuyu4050: Asks about separate grok bot subscription on app.
+- (2026-11-04) @PaulDerrington: Grok bot getting too expensive; Free Muse Bot praised.
+- (2026-11-04) @zaneccampbell: Much better workflow in Grok Bot vs Claude; Claude gets stuck or requires approval.
+- (2026-11-03) @jimboot: Runs Grok Bot personal, Hermes for business; hermes migrate grok-bot might be answer.
+- (2026-11-03) @ThomasScott_Co: hermes migrate grok-bot got attention fast; routines come over paused, logins stay behind.
+- (2026-11-03) @tonbistudio: 'hermes migrate grok-bot' for unhappy users—memories, skills, routines come over (160 likes).
+- (2026-11-04) @bb833dong: Hermes Agent Mobile on Android; installed Hermes in Grok Bot as backup when tokens dry.
+- (2026-11-03) @FurmanDimitri: Using Hermes Agent with Opus5.5; asks why switch to Grok Bot.
+- (2026-11-03) @Satlan_Leng: Set up your own Hermes Agent; ask Grok Bot how to unload planning to Hermes.
+- (2026-11-03) @tkinfinance: Still find myself using Meta Muse over Claude Duet and Grok Bot—great Computer Use and free tier.
+- (2026-11-03) @NickPassig: Meta Muse and Grok Bot best for agentic work; ChatGPT Work best for reasoning/pair programming.
+- (2026-11-04) @KI_Vater: Uses GrokBot, Hermes, and OpenClaw (Duet unavailable in EU).
+- (2026-11-04) @FaulknerPearce: Instinct felt like bad OpenClaw 6 months ago; try Grok Bot instead.
+- (2026-11-03) @Rhiz3K: Analysis of X Subscription Grok Bot pricing and token allowance.
+- (2026-11-04) @Procalvl: Claude Duet > Grok Bot > Muse > Dots ranking; Grok Bot resembles Claude Duet with a mask.
+
+**Feedback rows:** 1421 (as of 2026-11-04)

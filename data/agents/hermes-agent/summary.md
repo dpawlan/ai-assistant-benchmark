@@ -224,3 +224,20 @@ _Updated 2026-11-03 vault scan (+20 rows)._
 - (2026-11-02) @witcheer: hermes-themes-pack: Hermes Agent follows Omarchy theme selection; 23 themes included.
 
 **Feedback rows:** 144 (as of 2026-11-03)
+
+_Updated 2026-11-04 vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-11-04) @MLeeJr: Keeps Grok Bot agent repo on Cursor; Hermes setup has access to Grok Bot.
+- (2026-11-03) @jimboot: Runs Hermes for business, Grok Bot personal; 'hermes migrate grok-bot might be an answer.'
+- (2026-11-03) @Mr_RyanLewis: Real test for hermes migrate is whether locked skills and guardrails survive.
+- (2026-11-03) @ThomasScott_Co: Robot site run by AI CEO on Grok Bot; hermes migrate grok-bot noticed—routines paused, logins stay behind.
+- (2026-11-03) @tonbistudio: 'hermes migrate grok-bot' for unhappy users (160 likes)—memories, skills, routines come over.
+- (2026-11-04) @bb833dong: Hermes Agent Mobile on Android; pricing rough; installed Hermes in Grok Bot as fallback.
+- (2026-11-03) @FurmanDimitri: Using Hermes Agent with Opus5.5; asks what makes Grok Bot better.
+- (2026-11-04) @pablothethinker: Getting Hermes Agent to connect Xbox controller; fixing Wi-Fi from bad update.
+- (2026-11-03) @Satlan_Leng: Unhappy with Grok Bot limits—set up Hermes Agent on free/local, ask Grok Bot to unload planning.
+- (2026-11-03) @NickPassig: Hermes on 'maybe again soon' list.
+- (2026-11-04) @KI_Vater: Uses GrokBot, Hermes, and OpenClaw (Duet unavailable in EU).
+
+**Feedback rows:** 155 (as of 2026-11-04)

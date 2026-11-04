@@ -170,3 +170,11 @@ _Updated 2026-11-03 vault scan (+3 rows)._
 - (2026-11-02) @yanique_a: Questions need for OpenClaw, Hermes, Grok Bot, Duet, Dot, Muse—all do the same thing.
 
 **Feedback rows:** 81 (as of 2026-11-03)
+
+_Updated 2026-11-04 vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-03) @NickPassig: OpenClaw on 'not now' list alongside Codex and Dots.
+- (2026-11-04) @KI_Vater: Uses GrokBot, Hermes, and OpenClaw (Duet unavailable in EU).
+
+**Feedback rows:** 83 (as of 2026-11-04)

@@ -593,5 +593,24 @@
     "source": "x",
     "collected_at": "2026-10-30",
     "notes": "1Password agent support includes ChatGPT Work, Grok Bot, Muse, Town agents."
+  },
+  {
+    "id": "593226875141",
+    "agent": "chatgpt-work",
+    "quote": "Meta Muse AI and Grok Bot are the best for agentic work\n\nChatGPT Work is best for long thread reasoning and pair programming\n\nNot now list:\nCodex\nDots\nOpenclaw\n\nMaybe again soon:\nClaude Code\nNous Hermes",
+    "author": "@NickPassig",
+    "author_name": "NickyP",
+    "date": "2026-11-03",
+    "url": "https://x.com/NickPassig/status/2117646593226875141",
+    "kind": "praise",
+    "tags": [
+      "vs-muse",
+      "vs-hermes",
+      "vs-openclaw",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-04",
+    "notes": "User praises muse/grok-bot/chatgpt-work/openclaw/hermes-agent: Meta Muse AI and Grok Bot are the best for agentic work ChatGPT Work is best "
   }
 ]

@@ -73,3 +73,10 @@ _Updated 2026-10-30 vault scan (+3 rows)._
 - (2026-10-30) @cslelouch: 1Password agent support includes ChatGPT Work.
 
 **Feedback rows:** 30 (as of 2026-10-30)
+
+_Updated 2026-11-04 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-03) @NickPassig: ChatGPT Work best for long thread reasoning and pair programming.
+
+**Feedback rows:** 31 (as of 2026-11-04)

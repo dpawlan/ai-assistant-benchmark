@@ -392,3 +392,15 @@ _Updated 2026-11-03 vault scan (+5 rows)._
 - (2026-11-02) @yanique_a: Questions need for multiple agents: all do the same thing fundamentally.
 
 **Feedback rows:** 364 (as of 2026-11-03)
+
+_Updated 2026-11-04 vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-04) @CaliforniaJoan: Muse a little better for simple trip tasks; Grok Bot wins on complex.
+- (2026-11-04) @PaulDerrington: Free Muse Bot praised as alternative to expensive Grok Bot.
+- (2026-11-03) @tkinfinance: Meta Muse preferred over Claude Duet and Grok Bot—great Computer Use and generous free tier.
+- (2026-11-03) @NickPassig: Meta Muse and Grok Bot best for agentic work.
+- (2026-11-04) @DaysBehindEU: Muse 57 days since launch—only US, Canada, Japan, Singapore.
+- (2026-11-04) @Procalvl: Claude Duet > Grok Bot > Muse > Dots ranking; Muse surpasses Dots on usage.
+
+**Feedback rows:** 370 (as of 2026-11-04)

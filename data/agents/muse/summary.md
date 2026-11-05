@@ -404,3 +404,12 @@ _Updated 2026-11-04 vault scan (+6 rows)._
 - (2026-11-04) @Procalvl: Claude Duet > Grok Bot > Muse > Dots ranking; Muse surpasses Dots on usage.
 
 **Feedback rows:** 370 (as of 2026-11-04)
+
+_Updated 2026-11-05 vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-05) @ConnorTalksAI: Agent comparison—Duet, Dots, Grok Bot, Muse; asks about Gemini Spark.
+- (2026-11-04) @constellationr: Shopify reports personal AI agent traffic surging from Muse and Claude Duet.
+- (2026-11-05) @sustainme_in: Battle of always-on agents—Duet vs Grok Bot vs Dots vs Muse breakdown.
+
+**Feedback rows:** 373 (as of 2026-11-05)

@@ -42,3 +42,10 @@ _Updated 2026-11-03 vault scan (+1 row)._
 - (2026-11-03) @Its_lakshya_ai: Asks about Gemini Spark—not many developers know it exists vs Dots/Duet/Grok Bot.
 
 **Feedback rows:** 12 (as of 2026-11-03)
+
+_Updated 2026-11-05 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-05) @ConnorTalksAI: Agent comparison—"But did everyone forget about Gemini Spark?" alongside Duet, Dots, Grok Bot, Muse.
+
+**Feedback rows:** 13 (as of 2026-11-05)

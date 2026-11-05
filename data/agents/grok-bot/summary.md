@@ -397,3 +397,25 @@ _Updated 2026-11-04 vault scan (+24 rows)._
 - (2026-11-04) @Procalvl: Claude Duet > Grok Bot > Muse > Dots ranking; Grok Bot resembles Claude Duet with a mask.
 
 **Feedback rows:** 1421 (as of 2026-11-04)
+
+_Updated 2026-11-05 vault scan (+16 rows)._
+
+**New this scan:**
+- (2026-11-05) @Sar_Barshem: 3D campus for Grok Bot teams—walk into any room, see work, approve without opening chat.
+- (2026-11-05) @cnystrom: Grok Bot saved $85 by requesting TurboTax refund and canceling subscription.
+- (2026-11-05) @mikeMaher: Usage nerf—71% consumed in 24h vs six days last week; "Grok Bot is unusable now."
+- (2026-11-05) @karatademada: Heavy usage hit limit; Grok Bot asked for help improving in exchange for reset.
+- (2026-11-05) @ClassyCliffy: Upgraded Pro+ to Ultra; 80% used in one day on Ultra—"feel the rug pull."
+- (2026-11-04) @its_LtDan: Ticket queue pattern—Grok Bot writes heavy jobs to Postgres, workers claim tickets.
+- (2026-11-04) @gonta_southwood: Calls $30 entry price, US numbers only; Washington and Illinois blocked.
+- (2026-11-05) @CyberMikeOG: Praise for incredible stories/graphics and soundtracks.
+- (2026-11-04) @wikiwayne: Built Grok Bot as front-end to Hermes Agent CLI with receipts.
+- (2026-11-05) @badenpiland: "So is everyone switching from Grok Bot to Hermes Agent?"
+- (2026-11-05) @ConnorTalksAI: Agent comparison—mentions Grok Bot alongside Duet, Dots, Muse.
+- (2026-11-05) @sustainme_in: Battle of always-on agents—Duet vs Grok Bot vs Dots vs Muse breakdown.
+- (2026-11-04) @cascacius: Preference ranking—Hermes over Grok Bot, Taskade over Grok Bot, OpenClaw over Grok Bot.
+- (2026-11-05) @Jorgenbo: Spends time limiting usage of Grok Bot; wants built-in resource management.
+- (2026-11-04) @ianbower: Grok Bot prank call—refrigerator running joke.
+- (2026-11-05) @FredBot7: Question about deleting/changing Grok Bot email address.
+
+**Feedback rows:** 1437 (as of 2026-11-05)

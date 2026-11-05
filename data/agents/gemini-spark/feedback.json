@@ -232,5 +232,25 @@
     "source": "x",
     "collected_at": "2026-11-03",
     "notes": "Asks about Gemini Spark; not many developers know it exists vs Dots/Duet/Grok Bot."
+  },
+  {
+    "id": "664785543475",
+    "agent": "gemini-spark",
+    "quote": "Everyone talks about Claude Duet, ChatGPT Dots, Grok Bot, and Meta Muse\u2026\n\nBut did everyone forget about Gemini Spark???? https://t.co/Ke5B1YwqeV",
+    "author": "@ConnorTalksAI",
+    "author_name": "Connor",
+    "date": "2026-11-05",
+    "url": "https://x.com/ConnorTalksAI/status/2118159664785543475",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-muse",
+      "vs-gemini-spark",
+      "vs-chatgpt",
+      "vs-claude-duet"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-05",
+    "notes": "X Nov 2026: Everyone talks about Claude Duet, ChatGPT Dots, Grok Bot, and Meta Muse\u2026  But did everyone forget ab..."
   }
 ]

@@ -178,3 +178,10 @@ _Updated 2026-11-04 vault scan (+2 rows)._
 - (2026-11-04) @KI_Vater: Uses GrokBot, Hermes, and OpenClaw (Duet unavailable in EU).
 
 **Feedback rows:** 83 (as of 2026-11-04)
+
+_Updated 2026-11-05 vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-04) @cascacius: Preference ranking—OpenClaw over Grok Bot (alongside Hermes, Taskade, Claude).
+
+**Feedback rows:** 84 (as of 2026-11-05)

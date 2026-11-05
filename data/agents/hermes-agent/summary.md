@@ -241,3 +241,23 @@ _Updated 2026-11-04 vault scan (+11 rows)._
 - (2026-11-04) @KI_Vater: Uses GrokBot, Hermes, and OpenClaw (Duet unavailable in EU).
 
 **Feedback rows:** 155 (as of 2026-11-04)
+
+_Updated 2026-11-05 vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-11-04) @MichaelGannotti: Added new Hermes Agent to Nous Research Cloud dashboard; iOS beta next.
+- (2026-11-05) @ItsJoeArmstrong: Stopped using Descript—Hermes Agent now edits videos.
+- (2026-11-05) @gustavrlo: Uses Hermes for emails, data cataloging, Jira; asks for coding tips.
+- (2026-11-04) @Nterlace: Hermes Agent v0.22.7 shipped with 174 PRs—cron jobs and pinned Kanban tabs.
+- (2026-11-05) @alexcovo_eth: StackChan Robot + Hermes Agent—10yo building agent for homeschool assignments.
+- (2026-11-05) @witcheer: Plugin tutorial—hermes plugins search/install workflow.
+- (2026-11-04) @wikiwayne: Built Grok Bot as front-end to Hermes Agent CLI.
+- (2026-11-04) @honchodotdev: Honcho plugin for Hermes—learns how you work across platforms.
+- (2026-11-04) @JASONMCNAB: Hermes + local AI recommended; ops continue if paid AI limits hit.
+- (2026-11-04) @witcheer: Nanbeige4.3-33B vs Qwen3.8-27B benchmark on Hermes tool calls.
+- (2026-11-04) @fram3o: Passionate defense—"if they touch hermes agent it's absolute war."
+- (2026-11-05) @badenpiland: "So is everyone switching from Grok Bot to Hermes Agent?"
+- (2026-11-04) @mfranz_on: "Hermes Agent won the Agent battle. The best AI agent out there."
+- (2026-11-04) @cascacius: Preference ranking—Hermes over Grok Bot.
+
+**Feedback rows:** 169 (as of 2026-11-05)

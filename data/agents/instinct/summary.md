@@ -349,3 +349,12 @@ _Updated 2026-11-04 vault scan (+1 row)._
 - (2026-11-04) @FaulknerPearce: Disappointed with Instinct—felt like bad OpenClaw 6 months ago; try Grok Bot instead.
 
 **Feedback rows:** 346 (as of 2026-11-04)
+
+_Updated 2026-11-06 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-06) @notpuang: "I don't need any personal assistant anymore, @instinct is just too good."
+- (2026-11-06) @tonycarne3031: In 5 weeks—mapped 200+ AI travel companies, edited podcasts, newsletters, built company, booked tennis, cinema vouchers, library signup, trips, morning video briefings.
+- (2026-11-06) @Mike_AF__: Instinct and Muse have PA superpower vs Grok Bot specialized mercenaries.
+
+**Feedback rows:** 349 (as of 2026-11-06)

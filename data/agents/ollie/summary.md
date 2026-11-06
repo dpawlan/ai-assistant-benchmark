@@ -30,3 +30,11 @@ _Updated 2026-09-11 weekday vault scan (+1 rows)._
 
 **New this scan:**
 - (2026-09-03) Sarah Perez: Ollie, meanwhile, experienced an infrastructure outage with its text provider when I was testing it, and it stopped responding.
+
+_Updated 2026-11-06 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-06) @jyotirawattech: Ollie shuts down today (Nov 6); CEO says got close but couldn't keep up. Fork for bootstrappers: shut cleanly + niche cashflow still beats racing frontier.
+- (2026-11-05) @blennon_: A week since shutdown announced; outpouring of support vs fear of going unnoticed.
+
+**Feedback rows:** 136 (as of 2026-11-06)

@@ -49,3 +49,11 @@ _Updated 2026-11-05 vault scan (+1 row)._
 - (2026-11-05) @ConnorTalksAI: Agent comparison—"But did everyone forget about Gemini Spark?" alongside Duet, Dots, Grok Bot, Muse.
 
 **Feedback rows:** 13 (as of 2026-11-05)
+
+_Updated 2026-11-06 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-06) @DaysBehindEU: EU AI waiting list—Gemini Spark 99 days since went wide elsewhere; still hasn't reached EU.
+- (2026-11-06) @gadi_neelesh: AI features Europeans still missing—Gemini Spark among Google features unavailable.
+
+**Feedback rows:** 15 (as of 2026-11-06)

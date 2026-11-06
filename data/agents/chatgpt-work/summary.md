@@ -80,3 +80,12 @@ _Updated 2026-11-04 vault scan (+1 row)._
 - (2026-11-03) @NickPassig: ChatGPT Work best for long thread reasoning and pair programming.
 
 **Feedback rows:** 31 (as of 2026-11-04)
+
+_Updated 2026-11-06 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-06) @Cypher_Ai1: Thread on why OpenAI merged products—ChatGPT Work integration creating shared limits.
+- (2026-11-06) @FrancoisOlwage: Hasn't tried Dots/Duet; Claude Code or ChatGPT Work compared to Grok Bot for coding.
+- (2026-11-06) @rainwoodart: ChatGPT Work essential for daily workflow—Word docs, Excel, tedious tasks.
+
+**Feedback rows:** 34 (as of 2026-11-06)

@@ -413,3 +413,16 @@ _Updated 2026-11-05 vault scan (+3 rows)._
 - (2026-11-05) @sustainme_in: Battle of always-on agents—Duet vs Grok Bot vs Dots vs Muse breakdown.
 
 **Feedback rows:** 373 (as of 2026-11-05)
+
+_Updated 2026-11-06 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-06) @politicalmath: Amazon blocked Muse to fight AI bots; bots let people skip the shopping experience.
+- (2026-11-06) @theaaron: Meta Edits app on MacOS with local MCP; Muse can edit reels and post without switching.
+- (2026-11-06) @theaaron: Liked Muse; now with voice mode and Edits Mac app, loves it.
+- (2026-11-06) @Krio18Tv: Built project in one week using Muse—great experience.
+- (2026-11-06) @bdank07: Muse does things without asking; full report prepared without instruction—better than nothing vs paid unusable bots.
+- (2026-11-06) @gadi_neelesh: AI features Europeans still missing—Muse personal AI agent.
+- (2026-11-06) @Mike_AF__: Muse and Instinct are PA superpowers vs Grok Bot specialized mercenaries.
+
+**Feedback rows:** 380 (as of 2026-11-06)

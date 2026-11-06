@@ -42,3 +42,10 @@ _Updated 2026-09-17 weekday vault scan (+1 row)._
 
 **New this scan:**
 - (2026-06-09) this+that: Draft quality + scheduling praise; still-need-to-read + voice-matching + seat cost complaints. (Note: author works on competing product)
+
+_Updated 2026-11-06 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-06) @mohastaf: Thinks Slashy will take over Notion in mail and calendar; Notion has lost direction.
+
+**Feedback rows:** 251 (as of 2026-11-06)

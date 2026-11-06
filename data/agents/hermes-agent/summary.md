@@ -261,3 +261,20 @@ _Updated 2026-11-05 vault scan (+14 rows)._
 - (2026-11-04) @cascacius: Preference ranking—Hermes over Grok Bot.
 
 **Feedback rows:** 169 (as of 2026-11-05)
+
+_Updated 2026-11-06 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-11-06) @jeff_barker_rei: Uses Hermes for some tasks alongside Grok Bot.
+- (2026-11-06) @emmagine79: Hermes agent turned Kindle into remote for video lights.
+- (2026-11-06) @menkesu: OpenRouter data—Hermes Agent 26% of top-10 app tokens, #1 not a coding tool.
+- (2026-11-06) @arar666777: v0.23 runs in browser tab—gateway for every chat, /Rewind and spend limits.
+- (2026-11-06) @PeterTarasCom: Desktop app 0.23.0 feels solid; better Electron foundation.
+- (2026-11-06) @frmdomi: Hermes built itself a team of bots—game dev, EuroMakers, social.
+- (2026-11-06) @Meedo11: Stopped OpenClaw; transferred routines to Grok Bot but Hermes ready with model choice.
+- (2026-11-06) @jamesbrooksco: Hermes agent made all site changes from one prompt; 70% of visitors from ChatGPT.
+- (2026-11-06) @pablothethinker: Uses Nous Portal free + Hermes Agent with Reflection Beam 1.0 501B.
+- (2026-11-06) @Sarah_Cecc: Uses Hermes alongside OpenClaw and Grok Bot on Mac mini.
+- (2026-11-06) @hoftutor: Moving from Grok Bot to Hermes for business; Grok Bot for personal.
+
+**Feedback rows:** 180 (as of 2026-11-06)

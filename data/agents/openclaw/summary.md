@@ -185,3 +185,15 @@ _Updated 2026-11-05 vault scan (+1 row)._
 - (2026-11-04) @cascacius: Preference ranking—OpenClaw over Grok Bot (alongside Hermes, Taskade, Claude).
 
 **Feedback rows:** 84 (as of 2026-11-05)
+
+_Updated 2026-11-06 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-06) @frugalbc: Considering switch back to OpenClaw after Grok Bot usage issues.
+- (2026-11-06) @ashwinsharan158: Harness leaderboard—mini-swe-agent 51.4% solved, OpenClaw 27.3%; wrapper matters more than model.
+- (2026-11-06) @8Examples: Changed hands-free OpenClaw wake word detection from acoustic to LLM-based.
+- (2026-11-06) @frmdomi: "OpenClaw is so far behind, damn. It's literally just slop right now."
+- (2026-11-06) @Meedo11: Stopped OpenClaw days ago; transferred routines to Grok Bot; Hermes ready as backup.
+- (2026-11-06) @Sarah_Cecc: Uses OpenClaw alongside Hermes and Grok Bot on Mac mini; separate identity.
+
+**Feedback rows:** 90 (as of 2026-11-06)

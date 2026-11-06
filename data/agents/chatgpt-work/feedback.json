@@ -612,5 +612,56 @@
     "source": "x",
     "collected_at": "2026-11-04",
     "notes": "User praises muse/grok-bot/chatgpt-work/openclaw/hermes-agent: Meta Muse AI and Grok Bot are the best for agentic work ChatGPT Work is best "
+  },
+  {
+    "id": "2118659877015097449",
+    "agent": "chatgpt-work",
+    "quote": "4. Why OpenAI is doing this  the Work integration.\n\nThe shared limit isn’t random. It’s a consequence of OpenAI merging products.\n\nThe backstory:\n\nOpenAI launched several products separately: ChatGPT (chat), Codex (coding), ChatGPT Work (agentic tasks), ChatGPT for Excel,",
+    "author": "Cypher_Ai1",
+    "author_name": "Emilia Cypher",
+    "date": "2026-11-06",
+    "url": "https://x.com/Cypher_Ai1/status/2118659877015097449",
+    "kind": "usecase",
+    "tags": [
+      "x",
+      "limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-06T15:00:00Z",
+    "notes": "6 likes; 4. Why OpenAI is doing this  the Work integration.\n\nThe shared limit isn’t rando..."
+  },
+  {
+    "id": "2118645139228794966",
+    "agent": "chatgpt-work",
+    "quote": "@nvandewetering I've not tried Dots or Duet, so can't comment other than having seen people find they can do the tasks better through Claude Code or ChatGPT Work. \n\nThe only pain in the butt with Grok Bot is the usage limits being burned quickly when working on a coding project. For everything",
+    "author": "FrancoisOlwage",
+    "author_name": "Francois Olwage",
+    "date": "2026-11-06",
+    "url": "https://x.com/FrancoisOlwage/status/2118645139228794966",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "limits",
+      "grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-06T15:00:00Z",
+    "notes": "0 likes; @nvandewetering I've not tried Dots or Duet, so can't comment other than having ..."
+  },
+  {
+    "id": "2118598238437806246",
+    "agent": "chatgpt-work",
+    "quote": "@gdb ChatGPT Work has become an essential part of my daily workflow. From handling Word documents and Excel spreadsheets to taking care of tedious everyday tasks, I can delegate it all to ChatGPT Work. It's absolutely amazing!",
+    "author": "rainwoodart",
+    "author_name": "rainwood",
+    "date": "2026-11-06",
+    "url": "https://x.com/rainwoodart/status/2118598238437806246",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-06T15:00:00Z",
+    "notes": "0 likes; @gdb ChatGPT Work has become an essential part of my daily workflow. From handli..."
   }
 ]

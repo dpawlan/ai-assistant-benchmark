@@ -419,3 +419,27 @@ _Updated 2026-11-05 vault scan (+16 rows)._
 - (2026-11-05) @FredBot7: Question about deleting/changing Grok Bot email address.
 
 **Feedback rows:** 1437 (as of 2026-11-05)
+
+_Updated 2026-11-06 weekday vault scan (+18 rows)._
+
+**New this scan:**
+- (2026-11-06) @frugalbc: Usage reset but hit limit anyway; considering switch to OpenClaw.
+- (2026-11-06) @jeff_barker_rei: "Grok Bot just works"; also uses Hermes for some tasks.
+- (2026-11-06) @OwenKemeys: Silent model dumbing down inexcusable; product great but worthless with bad model.
+- (2026-11-06) @CostaKapo: Would pay $1000+/mo to get back first few weeks of Grok Bot.
+- (2026-11-06) @nolitdev: $30 plan review—large architecture rewrites, code quality good enough for handoff.
+- (2026-11-06) @D20Mafia: Grok Bot preparing meal plan and ordering groceries—"insane time saver."
+- (2026-11-06) @sameerbhat101: Grok Bot gotten dumb in last few days; asks if Opus 5.5 taken down.
+- (2026-11-06) @TylerHilliard: Usage majorly degraded; 10% of $100 plan burned trying to reset computer.
+- (2026-11-06) @johnhelmuth_: Usage horrible; may resubscribe to GPT if Astra releases today.
+- (2026-11-06) @moritzkremb: Hopes Grok 4.8 matches Opus 5.5; more mistakes lately, re-explain often.
+- (2026-11-06) @xsosotat: Browser still dead on cloud egress; ERR_TUNNEL_CONNECTION_FAILED.
+- (2026-11-06) @danielfoch: Agent streaming thinking into chat—"full OpenClaw experience, and I love it."
+- (2026-11-06) @pablothethinker: Exhausted usage in two days with Reflection Beam 1.0 501B.
+- (2026-11-06) @Sarah_Cecc: Runs Grok Bot with OpenClaw and Hermes on Mac mini; separate identity.
+- (2026-11-06) @FrancoisOlwage: Usage limits burn quickly on coding; otherwise best for delegation.
+- (2026-11-06) @hoftutor: Moving from Grok Bot to Hermes; Grok Bot for personal, Hermes for business.
+- (2026-11-06) @Mike_AF__: Grok Bot is specialized mercenaries vs Muse/Instinct as PA.
+- (2026-11-06) @AskShahzadMirza: Significant decline after update; struggling 18h with same tasks.
+
+**Feedback rows:** 1455 (as of 2026-11-06)

@@ -426,3 +426,15 @@ _Updated 2026-11-06 weekday vault scan (+7 rows)._
 - (2026-11-06) @Mike_AF__: Muse and Instinct are PA superpowers vs Grok Bot specialized mercenaries.
 
 **Feedback rows:** 380 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-09) @thiyaguindia: Compares Muse to Grok Bot; usage questions.
+- (2026-11-08) @wgreklek: Muse side chats are bots; can set up Muse like Grok Bot.
+- (2026-11-07) @moongrove92: Free Meta Muse "sooooo much better" than free Gemini app.
+- (2026-11-06) @pillitterip: Muse agent now talks back; voice rolling out; interrupt mid-sentence.
+- (2026-11-06) @borisdayma: Coordinator should be Claude/ChatGPT; can't communicate with Muse agent.
+- (2026-11-07) @PalmBeachAI: When Grok Bot ran dry, used Muse via Tailscale; synced work.
+
+**Feedback rows:** 386 (as of 2026-11-09)

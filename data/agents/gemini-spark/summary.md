@@ -57,3 +57,14 @@ _Updated 2026-11-06 weekday vault scan (+2 rows)._
 - (2026-11-06) @gadi_neelesh: AI features Europeans still missing—Gemini Spark among Google features unavailable.
 
 **Feedback rows:** 15 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-08) @fajarsentosabuz: Gemini 4 Argon strong; Gemini Spark surprised—2-shot video; horrendous usage.
+- (2026-11-08) @ItsKamranK: "Gemini Spark is the worst...."
+- (2026-11-08) @StoutGamer: "Gemini Spark is the worst. No comparison."
+- (2026-11-08) @lvauthrin: Form submission denied unless URL in chat session; restriction frustrating.
+- (2026-11-06) @KeridwenCodet: "Gemini Spark never even made it to Europe…"
+
+**Feedback rows:** 20 (as of 2026-11-09)

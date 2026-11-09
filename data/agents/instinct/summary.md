@@ -358,3 +358,12 @@ _Updated 2026-11-06 weekday vault scan (+3 rows)._
 - (2026-11-06) @Mike_AF__: Instinct and Muse have PA superpower vs Grok Bot specialized mercenaries.
 
 **Feedback rows:** 349 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-06) @SanalaShiv36881: Using Instinct agent—problem is it doesn't work until demanding proof.
+- (2026-11-09) @WillMoldow: Instinct agent "upgraded" to middle seat without telling; time to update preferences.
+- (2026-11-09) @OneBandwagonFan: Worked with Instinct agent on 200+ emails, 30+ follow-ups after AfroTech.
+
+**Feedback rows:** 352 (as of 2026-11-09)

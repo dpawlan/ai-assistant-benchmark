@@ -278,3 +278,23 @@ _Updated 2026-11-06 weekday vault scan (+11 rows)._
 - (2026-11-06) @hoftutor: Moving from Grok Bot to Hermes for business; Grok Bot for personal.
 
 **Feedback rows:** 180 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-11-08) @JASONMCNAB: Hermes Agent and local is the answer; Grok Bot as coordinator.
+- (2026-11-07) @omgitsderek: "Hermes agent for sure"—used all agents, keeps coming back.
+- (2026-11-08) @MohamadRe2a: Daily Hermes work—gateway restart, doctor fix, "thats me."
+- (2026-11-08) @francoleff: Google Workspace for Hermes Agent plugin; Hackathon submission (216 likes).
+- (2026-11-08) @YoYang2095: Hermes Agent completely uninstalled; ideology criticism.
+- (2026-11-07) @jantegze: "Hermes agent is like 100x better" than OpenClaw.
+- (2026-11-07) @real_kukuruza: "hermes agent > grok-bot" comparison.
+- (2026-11-07) @KoreyRyanJones: "My Hermes agent very rarely fails me."
+- (2026-11-08) @Novatechinfo: Hermes Agent v0.23 "brilliant, lighter faster and beautifully unified."
+- (2026-11-07) @FazGPT: Lost respect for Nous; wonders about security agency spyware (38 likes).
+- (2026-11-07) @davidfano: Prefers OpenClaw but thinks both Hermes and OpenClaw are good.
+- (2026-11-07) @leov: Turning over work agents from OpenClaw to Hermes—"not serious people."
+- (2026-11-08) @HermesAgentTips: Was creating OpenClaw content, stumbled on Hermes, fell in love.
+- (2026-11-06) @josiahgarber: Migrating to Hermes from OpenClaw.
+
+**Feedback rows:** 194 (as of 2026-11-09)

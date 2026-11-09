@@ -443,3 +443,25 @@ _Updated 2026-11-06 weekday vault scan (+18 rows)._
 - (2026-11-06) @AskShahzadMirza: Significant decline after update; struggling 18h with same tasks.
 
 **Feedback rows:** 1455 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+16 rows)._
+
+**New this scan:**
+- (2026-11-08) @AccessTips: Re-signing for grok bot—using for blood pressure readings.
+- (2026-11-09) @sepihsn: Questions around Grok Bot limits reset; no official announcement.
+- (2026-11-07) @CJS_52: Dot more useful side-by-side vs Grok Bot; Grok Bot had limitations.
+- (2026-11-09) @thiyaguindia: Compares Muse to Grok Bot; usage burned 20% on one task.
+- (2026-11-09) @han_arvin: Cost issues with Grok Bot; mandatory Cursor connector blocking other triage.
+- (2026-11-08) @JASONMCNAB: Hermes Agent + local is the answer; use Grok Bot as coordinator.
+- (2026-11-07) @real_kukuruza: "hermes agent > grok-bot" comparison.
+- (2026-11-08) @wgreklek: Muse side chats are bots like Grok Bot; can set up Muse like Grok Bot.
+- (2026-11-09) @snir000: Full circle—OpenClaw → Grok Bot → OpenClaw.
+- (2026-11-08) @RandytheReal: After one week switched to OpenMausBot; usage limit baffling.
+- (2026-11-07) @ashish_Dub: Every day Grok Bot usage getting worse; 100% at 4 days remaining.
+- (2026-11-07) @jonathangosper: Usage 99% with two days left; switched plans, counter reset to 0%.
+- (2026-11-07) @PalmBeachAI: When Grok Bot ran dry, used Muse via Tailscale; synced Grok Brain.
+- (2026-11-09) @georgeorch: Usage reset overnight; bots running full speed.
+- (2026-11-07) @rrlevy: "You completely broke Grok Bot with new usage limits" (24 likes).
+- (2026-11-07) @orendev_: Grok Bot added way to reset limits by allowing usage for improvement (652 likes).
+
+**Feedback rows:** 1471 (as of 2026-11-09)

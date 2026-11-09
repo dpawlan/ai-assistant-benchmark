@@ -197,3 +197,20 @@ _Updated 2026-11-06 weekday vault scan (+6 rows)._
 - (2026-11-06) @Sarah_Cecc: Uses OpenClaw alongside Hermes and Grok Bot on Mac mini; separate identity.
 
 **Feedback rows:** 90 (as of 2026-11-06)
+
+_Updated 2026-11-09 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-11-07) @jantegze: Tried OpenClaw; "Hermes agent is like 100x better."
+- (2026-11-08) @PriorReason: OpenClaw gateway using 2GB+ on 4GB VPS—asks if normal.
+- (2026-11-08) @AIMoshHq: Garry Tan benchmark—OpenClaw $0.44/task vs Claude Code $0.22, half the time.
+- (2026-11-08) @ColdMorningGrit: Set up agent flux with OpenClaw; knew nothing, now right-hand man.
+- (2026-11-09) @snir000: Full circle—OpenClaw → Grok Bot → OpenClaw.
+- (2026-11-07) @davidfano: Prefers OpenClaw; thinks both OpenClaw and Hermes are good.
+- (2026-11-07) @leov: Turning over work agents from OpenClaw to Hermes—"not serious people."
+- (2026-11-08) @HermesAgentTips: Was creating OpenClaw content, stumbled on Hermes, fell in love.
+- (2026-11-06) @josiahgarber: Bit the bullet—migrating to Hermes from OpenClaw.
+- (2026-11-07) @Luis_MMF: Using OpenClaw Enterprise with team of accountants; very useful.
+- (2026-11-06) @crmitchelmore: Migrated from dots to OpenClaw, tried for weeks, going back to OpenClaw.
+
+**Feedback rows:** 101 (as of 2026-11-09)

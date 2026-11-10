@@ -89,3 +89,16 @@ _Updated 2026-11-06 weekday vault scan (+3 rows)._
 - (2026-11-06) @rainwoodart: ChatGPT Work essential for daily workflow—Word docs, Excel, tedious tasks.
 
 **Feedback rows:** 34 (as of 2026-11-06)
+
+_Updated 2026-11-10 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-10) @houseofruchi: "Anyone else noticed their ChatGPT Work usage throttled this week?"
+- (2026-11-09) @wb1936: "ChatGPT Work on wen isn't stable enough and my sessions often stall."
+- (2026-11-10) @garrrygrewal: "Why can't I access ChatGPT work chats on the mobile app…"
+- (2026-11-10) @imatrof: "Changing a game by voice while you're playing is really addictive"—tried with kids.
+- (2026-11-09) @OracleODixie: Day 19 locked out of ChatGPT Work project source code—no engineering escalation.
+- (2026-11-09) @Om_Dream1: Wishes ChatGPT Work and Codex shared projects—can't continue across both.
+- (2026-11-09) @jb510: Codex Desktop + ChatGPT Desktop were awesome; ChatGPT Work "UX garbage pile."
+
+**Feedback rows:** 41 (as of 2026-11-10)

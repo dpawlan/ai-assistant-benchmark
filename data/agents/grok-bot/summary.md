@@ -465,3 +465,21 @@ _Updated 2026-11-09 weekday vault scan (+16 rows)._
 - (2026-11-07) @orendev_: Grok Bot added way to reset limits by allowing usage for improvement (652 likes).
 
 **Feedback rows:** 1471 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+12 rows)._
+
+**New this scan:**
+- (2026-11-10) @charan_ceykey: Language learning with Grok Bot—"will become your tutor and partner."
+- (2026-11-10) @FlowGlowLiving: Free usage reset discovery; encouraging users to check before deadline.
+- (2026-11-09) @CarolinaDill: Weekly bot monitoring—"one Grok Bot checks on the rest."
+- (2026-11-09) @314MxxD: Using Grok Bot for privacy—removed home photos from internet.
+- (2026-11-09) @ConservFirstFL: Building business with Grok Bot—"mad I waited this long."
+- (2026-11-10) @ShaikMohammedN2: "nothing less than magic" praise.
+- (2026-11-09) @MrRandumizer: Shared usage between Grok and Grok Bot—"feels robbed."
+- (2026-11-10) @dilli220926: Made entire video using Grok Bot—"amazing what you can do."
+- (2026-11-10) @MrRandumizer: Usage inefficiency—simple questions burn as much as video edits.
+- (2026-11-09) @scottbillows: Pivoted from Gemini Spark to Grok Bot; new use cases weekly.
+- (2026-11-09) @atharvesting: Grok Bot + Instinct combo for personal productivity humor.
+- (2026-11-10) @aaditya_roy_04: Asks when Gemini Spark will match Grok Bot quality.
+
+**Feedback rows:** 1483 (as of 2026-11-10)

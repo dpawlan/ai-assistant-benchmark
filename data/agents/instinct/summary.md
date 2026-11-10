@@ -367,3 +367,11 @@ _Updated 2026-11-09 weekday vault scan (+3 rows)._
 - (2026-11-09) @OneBandwagonFan: Worked with Instinct agent on 200+ emails, 30+ follow-ups after AfroTech.
 
 **Feedback rows:** 352 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-09) @atharvesting: Uses Grok Bot + Instinct combo—agents talking about "what a waste of potential i am."
+- (2026-11-09) @amelia_guertin: Asking Instinct agent to go shopping on Black Friday—"wish me luck."
+
+**Feedback rows:** 354 (as of 2026-11-10)

@@ -68,3 +68,14 @@ _Updated 2026-11-09 weekday vault scan (+5 rows)._
 - (2026-11-06) @KeridwenCodet: "Gemini Spark never even made it to Europe…"
 
 **Feedback rows:** 20 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-09) @scottbillows: Pivoted from Gemini Spark to Grok Bot—"huge lost opportunity" for Google.
+- (2026-11-09) @thatsdyynamic: "gng what happened to gemini spark. does anyone use it?"
+- (2026-11-10) @facedevstuff: "They've sort of pioneered it with Gemini Spark but fumbled it."
+- (2026-11-10) @rjjuser: Gemini Spark ranks 8th of 9 agents—$19.99/mo, not available in EU/UK.
+- (2026-11-10) @aaditya_roy_04: Asks when Gemini Spark will be as good as Grok Bot.
+
+**Feedback rows:** 25 (as of 2026-11-10)

@@ -214,3 +214,16 @@ _Updated 2026-11-09 weekday vault scan (+11 rows)._
 - (2026-11-06) @crmitchelmore: Migrated from dots to OpenClaw, tried for weeks, going back to OpenClaw.
 
 **Feedback rows:** 101 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-09) @scottbillows: Pivoted from Gemini Spark to Grok Bot; mentions OpenClaw/Hermes ecosystem.
+- (2026-11-10) @cbgrok: "I think you are pro openclaw?...I've been through the grinder with openclaw."
+- (2026-11-10) @joelniklaus: OpenClaw defaults to 8,192 tokens when maxTokens unset—checking limits.
+- (2026-11-09) @jarredsumner: "OpenCode uses 41% less memory with Bun AoT and OpenClaw starts 3x faster" (641 likes).
+- (2026-11-10) @ap13p: OpenClaw using 9GB RAM for 2 sessions with 2 subagents each.
+- (2026-11-10) @helpnetsecurity: 575+ malicious OpenClaw skills delivered malware to Windows/macOS.
+- (2026-11-10) @openloftAI: OpenLoft: one-click OpenClaw deployment to lower barrier.
+
+**Feedback rows:** 108 (as of 2026-11-10)

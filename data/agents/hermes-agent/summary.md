@@ -298,3 +298,15 @@ _Updated 2026-11-09 weekday vault scan (+14 rows)._
 - (2026-11-06) @josiahgarber: Migrating to Hermes from OpenClaw.
 
 **Feedback rows:** 194 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-10) @_kavinhere: "Started using Hermes Agent"—praised website UI by @NousResearch.
+- (2026-11-10) @danielbitpro: "Fever pace" of changes—kudos to Nous team.
+- (2026-11-10) @UsuarioCrypto22: Windows WinError 32 during pnpm installation—asks for fix/workaround.
+- (2026-11-10) @___Joe___K: Plugin to control notification beeps—quality of life improvement.
+- (2026-11-10) @jamisafari: Loved Hermes agent; checking alternatives mentioned.
+- (2026-11-09) @XBToshi: Uses Deepseek 4.1 through Opencode—no need for OpenClaw or Hermes.
+
+**Feedback rows:** 200 (as of 2026-11-10)

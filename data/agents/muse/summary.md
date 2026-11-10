@@ -438,3 +438,14 @@ _Updated 2026-11-09 weekday vault scan (+6 rows)._
 - (2026-11-07) @PalmBeachAI: When Grok Bot ran dry, used Muse via Tailscale; synced work.
 
 **Feedback rows:** 386 (as of 2026-11-09)
+
+_Updated 2026-11-10 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-09) @adrianjordan_io: Meta Muse agent now has Voice—can use Voice Mode with multiple voices.
+- (2026-11-09) @adam__morgan__: Meta Muse agent running into same problems mentioned.
+- (2026-11-10) @HouseHackerJon: Asks where to find settings in Muse app.
+- (2026-11-10) @ApplesClubs: Meta Muse AI Agent now supports Apple Watch—voice commands (13 likes).
+- (2026-11-09) @ArcyloOfficial: "Meta Muse hardly does anything. Non comparable."
+
+**Feedback rows:** 391 (as of 2026-11-10)

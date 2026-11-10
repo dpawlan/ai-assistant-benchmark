@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { NewsletterSignup } from './NewsletterSignup';
@@ -17,7 +17,12 @@ export function NewsletterPopup() {
 
 function Popup({ excluded }: { excluded: boolean }) {
   const dialog = useRef<HTMLDialogElement>(null);
-  const [open, setOpen] = useState(false);
+  const [prepared, setPrepared] = useState(false);
+  const [due, setDue] = useState(false);
+  const [ready, setReady] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
+  const onReady = useCallback(() => setReady(true), []);
+  const open = due && ready && !dismissed;
   const demo = useRef(false);
 
   useEffect(() => {
@@ -31,13 +36,9 @@ function Popup({ excluded }: { excluded: boolean }) {
         if ((dismissed > 0 && Date.now() - dismissed < MONTH) || sessionStorage.getItem(SEEN)) return;
       } catch { /* The form remains usable when browser storage is disabled. */ }
     }
-    const timer = window.setTimeout(() => {
-      if (!demo.current) {
-        try { sessionStorage.setItem(SEEN, '1'); } catch { /* optional persistence */ }
-      }
-      setOpen(true);
-    }, demo.current ? 100 : 25000);
-    return () => window.clearTimeout(timer);
+    const preload = window.setTimeout(() => setPrepared(true), 0);
+    const timer = window.setTimeout(() => setDue(true), demo.current ? 100 : 25000);
+    return () => { window.clearTimeout(preload); window.clearTimeout(timer); };
   }, [excluded]);
 
   useEffect(() => {
@@ -46,6 +47,9 @@ function Popup({ excluded }: { excluded: boolean }) {
     const previous = document.activeElement as HTMLElement | null;
     const overflow = document.body.style.overflow;
     element?.showModal();
+    if (!demo.current) {
+      try { sessionStorage.setItem(SEEN, '1'); } catch { /* optional persistence */ }
+    }
     document.body.style.overflow = 'hidden';
     return () => {
       element?.close();
@@ -59,10 +63,10 @@ function Popup({ excluded }: { excluded: boolean }) {
       try { localStorage.setItem(DISMISSED, String(Date.now())); } catch { /* optional persistence */ }
     }
     dialog.current?.close();
-    setOpen(false);
+    setDismissed(true);
   }
 
-  if (!open) return null;
+  if (!prepared || dismissed) return null;
   return <dialog ref={dialog} className="newsletter-popup" aria-labelledby="newsletter-popup-title"
     onCancel={event => { event.preventDefault(); dismiss(); }}
     onClick={event => {
@@ -74,6 +78,6 @@ function Popup({ excluded }: { excluded: boolean }) {
     <Image src="/newsletter/icon.png" alt="" width={56} height={56} />
     <h2 id="newsletter-popup-title">Keep up with AI agents and the agentic economy.</h2>
     <p className="newsletter-popup-cadence">In your inbox every Monday morning.</p>
-    <NewsletterSignup />
+    <NewsletterSignup onReady={onReady} />
   </dialog>;
 }

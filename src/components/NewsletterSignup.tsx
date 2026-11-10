@@ -1,8 +1,11 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { preconnect, preload } from 'react-dom';
 
-export function NewsletterSignup() {
+export function NewsletterSignup({ onReady }: { onReady?: () => void } = {}) {
+  preconnect('https://subscribe-forms.beehiiv.com');
+  preload('https://subscribe-forms.beehiiv.com/v3/loader.js', { as: 'script' });
   const container = useRef<HTMLDivElement>(null);
   const [failed, setFailed] = useState(false);
   useEffect(() => {
@@ -13,13 +16,21 @@ export function NewsletterSignup() {
     script.src = 'https://subscribe-forms.beehiiv.com/v3/loader.js';
     script.dataset.beehiivForm = '471acc77-560e-4a7b-a1d1-057497840354';
     script.onerror = () => setFailed(true);
+    const frames = new Set<HTMLIFrameElement>();
+    const loaded = () => onReady?.();
     const observer = new MutationObserver(() => {
-      host.querySelectorAll('iframe').forEach(frame => { frame.title = 'Subscribe to the Assistant Benchmark newsletter'; });
+      host.querySelectorAll('iframe').forEach(frame => {
+        if (frames.has(frame)) return;
+        frames.add(frame);
+        frame.title = 'Subscribe to the Assistant Benchmark newsletter';
+        frame.loading = 'eager';
+        frame.addEventListener('load', loaded);
+      });
     });
     observer.observe(host, { childList: true, subtree: true });
     host.appendChild(script);
-    return () => { observer.disconnect(); script.onerror = null; host.replaceChildren(); };
-  }, []);
+    return () => { observer.disconnect(); frames.forEach(frame => frame.removeEventListener('load', loaded)); script.onerror = null; host.replaceChildren(); };
+  }, [onReady]);
   return <div className="nl-signup" id="subscribe">
     <div ref={container} aria-label="Newsletter subscription form" />
     {failed && <p className="nl-form-note">The signup form couldn’t load. You can still subscribe below.</p>}

@@ -8,6 +8,7 @@ const LINKS = [
   { href: '/reports', label: 'Reports', match: (p: string) => p.startsWith('/reports') || p.startsWith('/articles') || p.startsWith('/authors') },
   { href: '/use-cases', label: 'Use cases', match: (p: string) => p.startsWith('/use-cases') },
   { href: '/compare', label: 'Compare', match: (p: string) => p.startsWith('/compare') },
+  { href: '/newsletter', label: 'Newsletter', match: (p: string) => p.startsWith('/newsletter') },
 ];
 
 /** One bar replaces the sidebar: the mark, three places to go, and the one thing a visitor can do for us. */

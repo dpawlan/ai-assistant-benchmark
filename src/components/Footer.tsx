@@ -20,6 +20,7 @@ export function Footer({ updated }: { updated: string }) {
       <p className="links">
         <Link href={dimensionsHref}>Dimensions</Link>
         <Link href="/about">About</Link>
+        <Link href="/newsletter">Newsletter</Link>
         <Link href="/request">Request a test</Link>
       </p>
       <p className="credit">

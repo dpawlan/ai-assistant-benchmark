@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
 import { TopBar } from './TopBar';
+import { NewsletterPopup } from './NewsletterPopup';
 
 interface ShellProps {
   footer: ReactNode;
@@ -13,6 +14,7 @@ export function Shell({ footer, children }: ShellProps) {
       <TopBar />
       <main>{children}</main>
       {footer}
+      <NewsletterPopup />
     </div>
   );
 }

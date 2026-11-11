@@ -449,3 +449,14 @@ _Updated 2026-11-10 weekday vault scan (+5 rows)._
 - (2026-11-09) @ArcyloOfficial: "Meta Muse hardly does anything. Non comparable."
 
 **Feedback rows:** 391 (as of 2026-11-10)
+
+_Updated 2026-11-11 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-10) @timknproject: Content pipeline—Muse finds ideas and sends to Grok Bot for scripts/editing; 8x views increase.
+- (2026-11-10) @adam__morgan__: Muse writes Marketplace listings—titles, descriptions, prices from images.
+- (2026-11-10) @analyticsinme: India pricing announced—Rs.1,799/mo Power, Rs.8,999/mo Maximum.
+- (2026-11-10) @cogangstalkers: "i think my friend fell in love with his muse assistant."
+- (2026-11-11) @WSPA7: Experts warn about giving AI agents access to financial accounts.
+
+**Feedback rows:** 396 (as of 2026-11-11)

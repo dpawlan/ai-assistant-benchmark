@@ -3612,5 +3612,123 @@
     "source": "x",
     "collected_at": "2026-11-10T15:00:00Z",
     "notes": "2 likes; @R3st4rtY0urL1f3 I’ve been using Deepseek 4.1 flash through Opencode. ..."
+  },
+  {
+    "id": "2120469567755665577",
+    "agent": "hermes-agent",
+    "quote": "Hermes-Ride: my Hermes agent, in my helmet. 🏍️\n\n“Hey Hermes” → hands-free voice, live ride context, tools and memory. Real ride. Real demo.\n\nBuilt for the Hermes Agent Plugin Hackathon @NousResearch\n\nhttps://t.co/RdWVzYZpYU",
+    "author": "Martysbuilds",
+    "author_name": "Martin Lo",
+    "date": "2026-11-11",
+    "url": "https://x.com/Martysbuilds/status/2120469567755665577",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "plugin",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; Hermes-Ride: my Hermes agent, in my helmet. 🏍️\n\n“Hey Hermes”..."
+  },
+  {
+    "id": "2120459454479057191",
+    "agent": "hermes-agent",
+    "quote": "Hermes over USSD in Africa.\n\nTalk to your @NousResearch Hermes agent from any phone by dialling a code. No app. No data. Just a keypad.\n\nPaged replies, approvals as menus, answers by SMS.\n\nMy Hermes Agent Plugin Hackathon entry.\nhttps://t.co/2ctnLKtNA5",
+    "author": "DiagurenDev",
+    "author_name": "Godly Developer",
+    "date": "2026-11-11",
+    "url": "https://x.com/DiagurenDev/status/2120459454479057191",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "plugin"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; Hermes over USSD in Africa.\n\nTalk to your @NousResearch Herm..."
+  },
+  {
+    "id": "2120291283696595126",
+    "agent": "hermes-agent",
+    "quote": "@NousResearch Hermes Agent loads skills from a four-repo allowlist: control one of those repos and you control what runs in every install. Per-skill publisher attestation closes that gap, and the discussion sits in NousResearch/hermes-agent#40555.",
+    "author": "LarsOnMoltrust",
+    "author_name": "Lars",
+    "date": "2026-11-10",
+    "url": "https://x.com/LarsOnMoltrust/status/2120291283696595126",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; @NousResearch Hermes Agent loads skills from a four-repo all..."
+  },
+  {
+    "id": "2120166869344645517",
+    "agent": "hermes-agent",
+    "quote": "Your build just failed. You didn't copy the error anywhere. Hermes Agent by @NousResearch already knows why!\n\nBackstop is a Hermes Agent plugin that hooks into your own terminal (PowerShell, bash, zsh):\n\n• A real failure starts a read-only diagnosis, automatically\n• Hermes https://t.co/Jkq6hwXimo",
+    "author": "themahis",
+    "author_name": "MASA",
+    "date": "2026-11-10",
+    "url": "https://x.com/themahis/status/2120166869344645517",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "plugin",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "26 likes; Your build just failed. You didn't copy the error anywhere. ..."
+  },
+  {
+    "id": "2120192449087742442",
+    "agent": "hermes-agent",
+    "quote": "I didn’t win the Nous Girl Neon Sign at NousCon NYC  so I made my own mini version - hooked it up with Hermes Agent + LFM3-Audio so it listens, talks, reasons and routes complex tasks to my Hermes agents.\n\nMade with:\nLILYGO T-DisplayS3 AMOLED\n@NousResearch Hermes Agent\n@liquidai",
+    "author": "alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-11-10",
+    "url": "https://x.com/alexcovo_eth/status/2120192449087742442",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "26 likes; I didn’t win the Nous Girl Neon Sign at NousCon NYC  so I ma..."
+  },
+  {
+    "id": "2120340751674700156",
+    "agent": "hermes-agent",
+    "quote": "Recently exploring @papercliping handling several agents, developing my app with Codex and Claude subscription. My main agent is my Hermes Agent @NousResearch",
+    "author": "monsaludnvm",
+    "author_name": "nvm",
+    "date": "2026-11-11",
+    "url": "https://x.com/monsaludnvm/status/2120340751674700156",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; Recently exploring @papercliping handling several agents, de..."
+  },
+  {
+    "id": "2120501904082125105",
+    "agent": "hermes-agent",
+    "quote": "@HermesWatcher claude code, the one and only - hermes is just a very slightly better openclaw, but not for serious work",
+    "author": "alfokker",
+    "author_name": "Jack bauer",
+    "date": "2026-11-11",
+    "url": "https://x.com/alfokker/status/2120501904082125105",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-openclaw"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; @HermesWatcher claude code, the one and only - hermes is jus..."
   }
 ]

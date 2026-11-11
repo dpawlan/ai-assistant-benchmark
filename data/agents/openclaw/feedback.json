@@ -2013,5 +2013,88 @@
     "source": "x",
     "collected_at": "2026-11-10T15:00:00Z",
     "notes": "2 likes; OpenClaw is powerful, but setting it up is a barrier. Especially for p..."
+  },
+  {
+    "id": "2120501904082125105",
+    "agent": "openclaw",
+    "quote": "@HermesWatcher claude code, the one and only - hermes is just a very slightly better openclaw, but not for serious work",
+    "author": "alfokker",
+    "author_name": "Jack bauer",
+    "date": "2026-11-11",
+    "url": "https://x.com/alfokker/status/2120501904082125105",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; @HermesWatcher claude code, the one and only - hermes is jus..."
+  },
+  {
+    "id": "2120369490647281792",
+    "agent": "openclaw",
+    "quote": "OpenClaw v2026.11.3 is out, a patch that fixes credential handling and recovery from interrupted updates, with fewer backup timeouts on slow storage.\n\nIt bundles 56 PRs from 36 contributors.\n\n#OpenClaw",
+    "author": "iCleanAI",
+    "author_name": "Hekate",
+    "date": "2026-11-11",
+    "url": "https://x.com/iCleanAI/status/2120369490647281792",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; OpenClaw v2026.11.3 is out, a patch that fixes credential ha..."
+  },
+  {
+    "id": "2120240681679724688",
+    "agent": "openclaw",
+    "quote": "OpenClaw Telegram bot ignores strangers with dmPolicy open?\n\nSenders not in allowFrom are still dropped. Add the wildcard:\n\nopenclaw config set channels.telegram.allowFrom '[\"*\"]'\n\nNo restart needed.\n\nOpenClaw / Hermes Agent / DeepSeek Harness / OpenCode\nhttps://t.co/9ZqYgFldFv",
+    "author": "JayQinQT",
+    "author_name": "Jay",
+    "date": "2026-11-10",
+    "url": "https://x.com/JayQinQT/status/2120240681679724688",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "1 likes; OpenClaw Telegram bot ignores strangers with dmPolicy open?\n..."
+  },
+  {
+    "id": "2120360785142755408",
+    "agent": "openclaw",
+    "quote": "OpenClaw agent won't run shell commands?\n\nopenclaw exec-policy show\n\"exec: Excluded by policy\" = messaging profile. Add:\n\nopenclaw config set tools.alsoAllow '[\"exec\",\"process\"]'\n\nTrusted chats only.\n\nOpenClaw / Hermes Agent / DeepSeek Harness / OpenCode\nhttps://t.co/9ZqYgFldFv",
+    "author": "JayQinQT",
+    "author_name": "Jay",
+    "date": "2026-11-11",
+    "url": "https://x.com/JayQinQT/status/2120360785142755408",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "vs-hermes"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "1 likes; OpenClaw agent won't run shell commands?\n\nopenclaw exec-poli..."
+  },
+  {
+    "id": "2120189176406503509",
+    "agent": "openclaw",
+    "quote": "@vincent_koc I've done google meet video recordings this way with openclaw 🤌",
+    "author": "DumbTien",
+    "author_name": "Daniil Karpenko",
+    "date": "2026-11-10",
+    "url": "https://x.com/DumbTien/status/2120189176406503509",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-11",
+    "notes": "0 likes; @vincent_koc I've done google meet video recordings this way..."
   }
 ]

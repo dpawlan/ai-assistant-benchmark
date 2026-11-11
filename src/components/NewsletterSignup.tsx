@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { preconnect, preload } from 'react-dom';
 
-export function NewsletterSignup({ onReady }: { onReady?: () => void } = {}) {
+export function NewsletterSignup({ onReady, showFallback = false }: { onReady?: () => void; showFallback?: boolean } = {}) {
   preconnect('https://subscribe-forms.beehiiv.com');
   preload('https://subscribe-forms.beehiiv.com/v3/loader.js', { as: 'script' });
   const container = useRef<HTMLDivElement>(null);
@@ -17,7 +17,7 @@ export function NewsletterSignup({ onReady }: { onReady?: () => void } = {}) {
     script.dataset.beehiivForm = '471acc77-560e-4a7b-a1d1-057497840354';
     script.onerror = () => setFailed(true);
     const frames = new Set<HTMLIFrameElement>();
-    const loaded = () => onReady?.();
+    const loaded = () => { setFailed(false); onReady?.(); };
     const observer = new MutationObserver(() => {
       host.querySelectorAll('iframe').forEach(frame => {
         if (frames.has(frame)) return;
@@ -32,8 +32,9 @@ export function NewsletterSignup({ onReady }: { onReady?: () => void } = {}) {
     return () => { observer.disconnect(); frames.forEach(frame => frame.removeEventListener('load', loaded)); script.onerror = null; host.replaceChildren(); };
   }, [onReady]);
   return <div className="nl-signup" id="subscribe">
-    <div ref={container} aria-label="Newsletter subscription form" />
-    {failed && <p className="nl-form-note">The signup form couldn’t load. You can still subscribe below.</p>}
+    <div ref={container} aria-label="Newsletter subscription form" style={showFallback || failed ? { position: 'absolute', width: '100%', visibility: 'hidden', pointerEvents: 'none' } : undefined} />
+    {(showFallback || failed) && <a className="nl-signup-fallback" href="https://assistant-benchmark-newsletter.beehiiv.com/subscribe" target="_blank" rel="noopener noreferrer">Subscribe on Beehiiv ↗</a>}
+    {failed && <p className="nl-form-note">The embedded form couldn’t load. Use the Beehiiv link to subscribe.</p>}
     <p className="nl-form-note">Free to read. Unsubscribe anytime. <a href="https://assistant-benchmark-newsletter.beehiiv.com/subscribe" target="_blank" rel="noopener noreferrer">Subscribe on Beehiiv ↗</a></p>
   </div>;
 }

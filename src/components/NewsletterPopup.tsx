@@ -8,6 +8,8 @@ import './newsletter-popup.css';
 
 const DISMISSED = 'ab:newsletter-dismissed:v1';
 const SEEN = 'ab:newsletter-seen:v1';
+const STARTED = 'ab:newsletter-started:v1';
+const DELAY = 10000;
 const MONTH = 30 * 24 * 60 * 60 * 1000;
 
 export function NewsletterPopup() {
@@ -22,22 +24,27 @@ function Popup({ excluded }: { excluded: boolean }) {
   const [ready, setReady] = useState(false);
   const [dismissed, setDismissed] = useState(false);
   const onReady = useCallback(() => setReady(true), []);
-  const open = due && ready && !dismissed;
+  const open = due && !dismissed;
   const demo = useRef(false);
 
   useEffect(() => {
     // Local-only shortcut for reviewing the popup without waiting or altering preferences.
     demo.current = ['127.0.0.1', 'localhost'].includes(window.location.hostname)
       && new URLSearchParams(window.location.search).get('newsletterPopup') === 'preview';
+    let delay = demo.current ? 100 : DELAY;
     if (!demo.current) {
       if (excluded) return;
       try {
         const dismissed = Number(localStorage.getItem(DISMISSED));
         if ((dismissed > 0 && Date.now() - dismissed < MONTH) || sessionStorage.getItem(SEEN)) return;
+        const stored = Number(sessionStorage.getItem(STARTED));
+        const started = stored > 0 && stored <= Date.now() ? stored : Date.now();
+        sessionStorage.setItem(STARTED, String(started));
+        delay = Math.max(0, DELAY - (Date.now() - started));
       } catch { /* The form remains usable when browser storage is disabled. */ }
     }
     const preload = window.setTimeout(() => setPrepared(true), 0);
-    const timer = window.setTimeout(() => setDue(true), demo.current ? 100 : 25000);
+    const timer = window.setTimeout(() => setDue(true), delay);
     return () => { window.clearTimeout(preload); window.clearTimeout(timer); };
   }, [excluded]);
 
@@ -78,6 +85,6 @@ function Popup({ excluded }: { excluded: boolean }) {
     <Image src="/newsletter/icon.png" alt="" width={56} height={56} />
     <h2 id="newsletter-popup-title">Keep up with AI agents and the agentic economy.</h2>
     <p className="newsletter-popup-cadence">In your inbox every Monday morning.</p>
-    <NewsletterSignup onReady={onReady} />
+    <NewsletterSignup onReady={onReady} showFallback={due && !ready} />
   </dialog>;
 }

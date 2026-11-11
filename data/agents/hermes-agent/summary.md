@@ -310,3 +310,16 @@ _Updated 2026-11-10 weekday vault scan (+6 rows)._
 - (2026-11-09) @XBToshi: Uses Deepseek 4.1 through Opencode—no need for OpenClaw or Hermes.
 
 **Feedback rows:** 200 (as of 2026-11-10)
+
+_Updated 2026-11-11 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-11) @Martysbuilds: Hermes-Ride—helmet-mounted agent with voice/memory for rides; Plugin Hackathon entry.
+- (2026-11-11) @DiagurenDev: Hermes over USSD in Africa—dial code access from any phone, no app/data; Plugin Hackathon entry.
+- (2026-11-10) @themahis: Backstop plugin—terminal hook for automatic build failure diagnosis (26 likes).
+- (2026-11-10) @alexcovo_eth: Mini Nous Girl Neon Sign build—Hermes Agent + LFM3-Audio for voice/reasoning (26 likes).
+- (2026-11-11) @monsaludnvm: Main agent is Hermes Agent alongside Codex and Claude.
+- (2026-11-10) @LarsOnMoltrust: Skill allowlist security concern—per-skill publisher attestation discussion.
+- (2026-11-11) @alfokker: "hermes is just a very slightly better openclaw, but not for serious work."
+
+**Feedback rows:** 207 (as of 2026-11-11)

@@ -483,3 +483,23 @@ _Updated 2026-11-10 weekday vault scan (+12 rows)._
 - (2026-11-10) @aaditya_roy_04: Asks when Gemini Spark will match Grok Bot quality.
 
 **Feedback rows:** 1483 (as of 2026-11-10)
+
+_Updated 2026-11-11 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-11-11) @XFreeze: Tailscale private network access unlocked—Grok Bot can join tailnets, connect to private MCP servers (477 likes).
+- (2026-11-11) @XFreeze: Hidden instruction warnings—Grok Bot surfaces and refuses prompt injection attempts (252 likes).
+- (2026-11-11) @AGTPinsights: iMessage texting and conversation search now available.
+- (2026-11-11) @MichaelGannotti: iMessage capability landing—"can now send text messages over iMessage."
+- (2026-11-11) @Kristennetten: Usage reset on personal timer; extra Monday usage from team; enjoying building (35 likes).
+- (2026-11-11) @Kappaemmedev: Using Grok Bot from Japan to fix PC 8000km away; no problems after usage reset (12 likes).
+- (2026-11-11) @OneHumanIO: Usage policy change—shared pool vs separate usage; Musk statement on serving costs.
+- (2026-11-10) @timknproject: Content pipeline—Muse finds ideas, Grok Bot writes scripts and edits; only filming manual.
+- (2026-11-11) @mikedimarcus: "Grok bot is unbeatable, muse, duet, no one can tank how good grok bot is."
+- (2026-11-11) @SportsBurner130: iPhone shortcut—alarm triggers morning brief call (2 likes).
+- (2026-11-11) @pranavsm: Task dropped for 29 days; lied about data usage; complaint.
+- (2026-11-11) @hugenious: Login loop bug after upgrade; support ticket 25 days unresolved.
+- (2026-11-11) @kklu68: Grok smarter than Grok Bot for some image generation.
+- (2026-11-11) @gromp___: Sarcastic ad fatigue comment.
+
+**Feedback rows:** 1497 (as of 2026-11-11)

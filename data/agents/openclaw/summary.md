@@ -227,3 +227,14 @@ _Updated 2026-11-10 weekday vault scan (+7 rows)._
 - (2026-11-10) @openloftAI: OpenLoft: one-click OpenClaw deployment to lower barrier.
 
 **Feedback rows:** 108 (as of 2026-11-10)
+
+_Updated 2026-11-11 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-11) @iCleanAI: v2026.11.3 patch—credential handling, interrupted update recovery, backup timeouts; 56 PRs from 36 contributors.
+- (2026-11-10) @JayQinQT: Telegram bot config tip—dmPolicy allowFrom wildcard for strangers.
+- (2026-11-11) @JayQinQT: Shell commands disabled by policy—tools.alsoAllow config workaround.
+- (2026-11-10) @DumbTien: Google Meet video recordings via OpenClaw.
+- (2026-11-11) @alfokker: "hermes is just a very slightly better openclaw, but not for serious work."
+
+**Feedback rows:** 113 (as of 2026-11-11)

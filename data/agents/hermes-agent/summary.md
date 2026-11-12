@@ -323,3 +323,16 @@ _Updated 2026-11-11 weekday vault scan (+7 rows)._
 - (2026-11-11) @alfokker: "hermes is just a very slightly better openclaw, but not for serious work."
 
 **Feedback rows:** 207 (as of 2026-11-11)
+
+_Updated 2026-11-12 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-11) @jmsonrich: hermes-ussd—Hermes Agent for feature phones via USSD/SMS; built for patchy signal (Plugin Hackathon).
+- (2026-11-11) @Trackwell: freight-dispatch—dispatch desk for Hermes Agent with live SAFER vetting (Plugin Hackathon).
+- (2026-11-11) @chilly_geek: memex8—self-hosted long-term memory plugin with semantic recall and nightly consolidation (2 likes).
+- (2026-11-11) @SpawnBackrooms: SPAWN—network of backrooms for agent collaboration on projects (25 likes).
+- (2026-11-12) @iamheadie: Housebets Halloween video built with Claude + Hermes Agent + Higgsfield in Telegram (3 likes).
+- (2026-11-12) @nuonrg: 1k+ plugin submissions; plugin landed quickly after submitting (2 likes).
+- (2026-11-12) @Fan__Azam: Memory retention complaint—"OpenClaw, Hermes, Prime — none of them retained anything useful."
+
+**Feedback rows:** 214 (as of 2026-11-12)

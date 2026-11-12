@@ -79,3 +79,11 @@ _Updated 2026-11-10 weekday vault scan (+5 rows)._
 - (2026-11-10) @aaditya_roy_04: Asks when Gemini Spark will be as good as Grok Bot.
 
 **Feedback rows:** 25 (as of 2026-11-10)
+
+_Updated 2026-11-12 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-12) @FrenkHelen25111: Usage praise—college project used only 63% of 5-hour allowance; "gemini is just so good with limits."
+- (2026-11-11) @MikeAnthony: UK availability—Gemini Spark blocked for UK Pro subscribers while Grok Bot works.
+
+**Feedback rows:** 27 (as of 2026-11-12)

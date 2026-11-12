@@ -102,3 +102,12 @@ _Updated 2026-11-10 weekday vault scan (+7 rows)._
 - (2026-11-09) @jb510: Codex Desktop + ChatGPT Desktop were awesome; ChatGPT Work "UX garbage pile."
 
 **Feedback rows:** 41 (as of 2026-11-10)
+
+_Updated 2026-11-12 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-11) @extrapolatorai: Enterprise news—Gilbert + Tobin ran 120-partner annual review in minutes for ~$62.
+- (2026-11-12) @AI_5_five: Enterprise news—Uber putting all 30,000 employees on ChatGPT Work (TechCrunch link).
+- (2026-11-11) @MikeAnthony: UK availability—ChatGPT Dots blocked for UK Pro subscribers while Grok Bot works.
+
+**Feedback rows:** 44 (as of 2026-11-12)

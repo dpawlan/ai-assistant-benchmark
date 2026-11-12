@@ -503,3 +503,17 @@ _Updated 2026-11-11 weekday vault scan (+14 rows)._
 - (2026-11-11) @gromp___: Sarcastic ad fatigue comment.
 
 **Feedback rows:** 1497 (as of 2026-11-11)
+
+_Updated 2026-11-12 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-11) @NURM_Dima: Full video made with Grok Bot—directing, images, video, music, editing and sound via Grok Imagine (7 likes).
+- (2026-11-11) @RyDawg42: Messages connector in library; Voice chat from iPhone Action button; easier to search, read, send.
+- (2026-11-12) @kongzentao: Heavy user complaint about Team feature charging unexpectedly (ticket T-J66792).
+- (2026-11-12) @Empire_Eyes_: Bot-to-bot communication—one Grok Bot retrieving info from another.
+- (2026-11-12) @arnoldgamboa: UI/UX comparison—advises copying Grok Bot's design; OpenBot functional but not fun.
+- (2026-11-12) @_simonsmith: Subscription limitations—once created via Grok Bot, can only manage via Grok Bot.
+- (2026-11-12) @ritrubia: Switched from OpenClaw—"loving grok @bot so much that I deleted my OpenClaw agents."
+- (2026-11-11) @MikeAnthony: UK availability comparison—Grok Bot live while Gemini Spark and ChatGPT Dots blocked.
+
+**Feedback rows:** 1505 (as of 2026-11-12)

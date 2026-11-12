@@ -238,3 +238,15 @@ _Updated 2026-11-11 weekday vault scan (+5 rows)._
 - (2026-11-11) @alfokker: "hermes is just a very slightly better openclaw, but not for serious work."
 
 **Feedback rows:** 113 (as of 2026-11-11)
+
+_Updated 2026-11-12 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-12) @billy_oduya: Update fatigue—"Wild to realize that I'll never attempt to update Openclaw ever again."
+- (2026-11-12) @Fan__Azam: Memory retention complaint—"OpenClaw, Hermes, Prime — none of them retained anything useful."
+- (2026-11-12) @LSanapalli: Security warning—Openclaw browser installed malware (Phexia infostealer) via fake verification page.
+- (2026-11-12) @JayQinQT: Memory tip—vector search paused without OpenAI key; keyword-only; fix with embedding key.
+- (2026-11-11) @JayQinQT: Skills tip—missing env var silently hides skill from model; use openclaw skills info.
+- (2026-11-12) @ritrubia: Migration to Grok Bot—"loving grok @bot so much that I deleted my OpenClaw agents."
+
+**Feedback rows:** 119 (as of 2026-11-12)

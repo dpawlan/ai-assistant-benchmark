@@ -460,3 +460,12 @@ _Updated 2026-11-11 weekday vault scan (+5 rows)._
 - (2026-11-11) @WSPA7: Experts warn about giving AI agents access to financial accounts.
 
 **Feedback rows:** 396 (as of 2026-11-11)
+
+_Updated 2026-11-12 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-11) @premal2000: Voice mode praise—"Muse voice is awesome. Seamless."
+- (2026-11-11) @XyDmu: Criticism—"Meta Muse acts like Elizabeth Holmes."
+- (2026-11-12) @imhaoyi: Browser automation comparison—moved tasks from Muse to Hark personal agent; impressed.
+
+**Feedback rows:** 399 (as of 2026-11-12)

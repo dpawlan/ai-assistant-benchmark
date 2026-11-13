@@ -217,5 +217,14 @@
     "outcome": "pass",
     "notes": "Ordered a $23.94 Anker cable on one approval, then owned up to a wrong billing address and a duplicate order it got refunded.",
     "evidence_url": "/agents/instinct/evidence/instinct-2026-11-02-607774"
+  },
+  {
+    "id": "instinct-2026-11-13-914657",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-11-13",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Drafted and sent the follow-ups cleanly, but copied a colleague on one email without being asked."
   }
 ]

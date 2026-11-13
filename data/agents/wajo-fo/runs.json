@@ -208,5 +208,14 @@
     "outcome": "partial",
     "notes": "Staged a full checkout and recovered from a payment stall, but needed two approval rounds and never showed an order number.",
     "evidence_url": "/agents/wajo-fo/evidence/wajo-fo-2026-11-02-74345c"
+  },
+  {
+    "id": "wajo-fo-2026-11-13-c39c54",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-11-13",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Handled the reply request end to end once its mail access was in place."
   }
 ]

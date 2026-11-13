@@ -517,3 +517,17 @@ _Updated 2026-11-12 weekday vault scan (+8 rows)._
 - (2026-11-11) @MikeAnthony: UK availability comparison—Grok Bot live while Gemini Spark and ChatGPT Dots blocked.
 
 **Feedback rows:** 1505 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-13) @ImYoDoc: Reply to Elon Musk—"Grok bot is amazing!!" already using features before announcements.
+- (2026-11-13) @fusexbt: SpaceXAI engineer runs 20+ Grok Bot agents as a company—Chief of Staff, managers, workers.
+- (2026-11-13) @TomaszUrba16422: Polish keyboard shortcut collides with Side Chat—Right Alt + S conflict.
+- (2026-11-13) @SamE1311025: UX confusion—Grok app vs Grok Bot app confusing people.
+- (2026-11-13) @TheLaserApe: Free usage reset by helping train Grok Bot; testing Grok 4.8 behind the scenes.
+- (2026-11-13) @GergelyOrosz: Cloud workload comparison—Grok Bot figured it out while Codex/Claude Code couldn't.
+- (2026-11-13) @Marko_Poly: Secondhand—Jason Calacanis paying $20k/yr for Claude vs $40/mo for Grok Bot on This Week in AI.
+- (2026-11-13) @0xFrench75: Feature request—inter-user Grok Bot collaboration.
+
+**Feedback rows:** 1513 (as of 2026-11-13)

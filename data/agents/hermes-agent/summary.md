@@ -336,3 +336,17 @@ _Updated 2026-11-12 weekday vault scan (+7 rows)._
 - (2026-11-12) @Fan__Azam: Memory retention complaint—"OpenClaw, Hermes, Prime — none of them retained anything useful."
 
 **Feedback rows:** 214 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-13) @Shaughnessy119: Monthly Hermes Agent usage on OpenRouter chart shared (71 likes).
+- (2026-11-13) @ShravanSRai: Plugin Hackathon entry—Hermes Voice Gateway for business phone lines.
+- (2026-11-13) @dallsirvan: hermes-droid merged into @NousResearch main—18 Android OS tools, wireless MQTT, ADB execution.
+- (2026-11-12) @mq3737: "hermes agent is actually peak, the best harness I used so far" praise.
+- (2026-11-12) @Hayk_guy: Butler plugin—reaches out first, texts/calls users for daily non-negotiables.
+- (2026-11-12) @alexdolbun: Testing AMD AI Developer Program with Hermes Agent and Grok—4/10 onboarding experience.
+- (2026-11-12) @LoganB254: Wishlist—one-click plugin install across profiles instead of profile-by-profile.
+- (2026-11-12) @kzariajg: "I only wake up and live to see if I can download the Hermes Agent app on my phone" enthusiasm.
+
+**Feedback rows:** 222 (as of 2026-11-13)

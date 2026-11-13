@@ -492,5 +492,90 @@
     "source": "x",
     "collected_at": "2026-11-12",
     "notes": "Why is GrokBot already live and working in the UK, while Gem..."
+  },
+  {
+    "id": "2120995113820196912",
+    "agent": "gemini-spark",
+    "quote": "Also with Gemini 4 Hydrogen, Gemini Spark has become much faster.",
+    "author": "aladagberk",
+    "author_name": "Berk Aladag",
+    "date": "2026-11-12",
+    "url": "https://x.com/aladagberk/status/2120995113820196912",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "Also with Gemini 4 Hydrogen, Gemini Spark has become much fa..."
+  },
+  {
+    "id": "2120968895393648764",
+    "agent": "gemini-spark",
+    "quote": "@TekonBurns Yeah... Problem with Gemini now in the UK is it doesn't support my workflow fully. lacks the plugins and Gemini spark is non functional here. Vpns help but they slow things down. Claude is nice but doesn't have the native image model... But I guess it's a good alternative.",
+    "author": "MikeAnthony",
+    "author_name": "MikeAnthony",
+    "date": "2026-11-12",
+    "url": "https://x.com/MikeAnthony/status/2120968895393648764",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "plugin",
+      "availability"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "1 likes; @TekonBurns Yeah... Problem with Gemini now in the UK is it ..."
+  },
+  {
+    "id": "2121187081615532500",
+    "agent": "gemini-spark",
+    "quote": "@OfficialLoganK When will Gemini Spark and the connectors arrive in the EU (personal accounts)? 😶‍🌫️",
+    "author": "Pabl0AI",
+    "author_name": "Pablo",
+    "date": "2026-11-13",
+    "url": "https://x.com/Pabl0AI/status/2121187081615532500",
+    "kind": "feature_request",
+    "tags": [
+      "x",
+      "availability"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "1 likes; @OfficialLoganK When will Gemini Spark and the connectors ar..."
+  },
+  {
+    "id": "2121230617266294839",
+    "agent": "gemini-spark",
+    "quote": "@OfficialLoganK Gemini Spark in the UK and with enterprise accounts 🙏🏽",
+    "author": "Darshaan_",
+    "author_name": "Darshaan",
+    "date": "2026-11-13",
+    "url": "https://x.com/Darshaan_/status/2121230617266294839",
+    "kind": "news",
+    "tags": [
+      "x",
+      "enterprise",
+      "availability"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@OfficialLoganK Gemini Spark in the UK and with enterprise a..."
+  },
+  {
+    "id": "2121232987660394966",
+    "agent": "gemini-spark",
+    "quote": "@OfficialLoganK @LyalinDotCom Improvements to Gemini spark to make it a true competitor to muse, dots, grok bot, etc",
+    "author": "nazlouis_yt",
+    "author_name": "Naz Louis",
+    "date": "2026-11-13",
+    "url": "https://x.com/nazlouis_yt/status/2121232987660394966",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@OfficialLoganK @LyalinDotCom Improvements to Gemini spark t..."
   }
 ]

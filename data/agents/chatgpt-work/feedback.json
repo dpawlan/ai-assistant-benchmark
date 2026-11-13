@@ -833,5 +833,128 @@
     "source": "x",
     "collected_at": "2026-11-12",
     "notes": "Uber puts all 30,000 employees on ChatGPT Work | TechCrunch ..."
+  },
+  {
+    "id": "2121083180782662088",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux ChatGPT Work: constant permissioning issues, constant crashing (red popup at top), poor at outputting screenshots",
+    "author": "seanbrown_",
+    "author_name": "Sean Brown",
+    "date": "2026-11-13",
+    "url": "https://x.com/seanbrown_/status/2121083180782662088",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "ui"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux ChatGPT Work: constant permissioning issues, con..."
+  },
+  {
+    "id": "2121085740964884841",
+    "agent": "chatgpt-work",
+    "quote": "@joesparks ChatGPT Work on Opus 6.1 mostly. Astra burns too fast for my Plus subscription lol",
+    "author": "OfficialSSFresh",
+    "author_name": "Samuel Sparks",
+    "date": "2026-11-13",
+    "url": "https://x.com/OfficialSSFresh/status/2121085740964884841",
+    "kind": "other",
+    "tags": [
+      "x",
+      "pricing"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "2 likes; @joesparks ChatGPT Work on Opus 6.1 mostly. Astra burns too ..."
+  },
+  {
+    "id": "2121108433793659046",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux 1- Chatgpt, work, codex so confusing and fragmented. \n2- Remove 5hr limit from plus\n3- bring dot to plus",
+    "author": "siav2022",
+    "author_name": "Siavash",
+    "date": "2026-11-13",
+    "url": "https://x.com/siav2022/status/2121108433793659046",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "ui",
+      "coding",
+      "limits"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux 1- Chatgpt, work, codex so confusing and fragmen..."
+  },
+  {
+    "id": "2121085042583605476",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux switching between Codex, ChatGPT, work and chat makes no sense, is poorly explained, and is tedious.\n\nCodex needs to learn how to clean up after itself",
+    "author": "rempred",
+    "author_name": "rempred",
+    "date": "2026-11-13",
+    "url": "https://x.com/rempred/status/2121085042583605476",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "ui",
+      "coding"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux switching between Codex, ChatGPT, work and chat ..."
+  },
+  {
+    "id": "2121132889555587446",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux The chatgpt work web version needs a plan mode.",
+    "author": "ruxideng",
+    "author_name": "ruxideng",
+    "date": "2026-11-13",
+    "url": "https://x.com/ruxideng/status/2121132889555587446",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "ui"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux The chatgpt work web version needs a plan mode...."
+  },
+  {
+    "id": "2121137779149070747",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux + you should consider a different system prompt in chatgpt work versus codex. The needs and expectations are different. In chatgpt work, being a super excecuter is not enough. The model needs to have more coworker vibes like Opus : more proactive and thinks with the user",
+    "author": "Mohsine_Mahzi",
+    "author_name": "Mohsine Mahzi",
+    "date": "2026-11-13",
+    "url": "https://x.com/Mohsine_Mahzi/status/2121137779149070747",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "ui",
+      "coding"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux + you should consider a different system prompt ..."
+  },
+  {
+    "id": "2121143233715769788",
+    "agent": "chatgpt-work",
+    "quote": "@thsottiaux @argofowl Can you guys please add skills to ChatGPT work?",
+    "author": "meadowlarkspur",
+    "author_name": "larkspur",
+    "date": "2026-11-13",
+    "url": "https://x.com/meadowlarkspur/status/2121143233715769788",
+    "kind": "feature_request",
+    "tags": [
+      "x",
+      "ui"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@thsottiaux @argofowl Can you guys please add skills to Chat..."
   }
 ]

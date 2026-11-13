@@ -250,3 +250,16 @@ _Updated 2026-11-12 weekday vault scan (+6 rows)._
 - (2026-11-12) @ritrubia: Migration to Grok Bot—"loving grok @bot so much that I deleted my OpenClaw agents."
 
 **Feedback rows:** 119 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-13) @JayQinQT: Config tip—Telegram allowFrom arrays get replaced, not merged; use index-based patching.
+- (2026-11-13) @fagamericano: Enterprise praise—switched providers after Anthropic issues; OSS avoids vendor lock-in.
+- (2026-11-13) @smoothdvd: Criticism—"Too complicated, just like OpenClaw. I installed it, then dragged it straight to the Trash."
+- (2026-11-12) @Lalroch: Migrated from OpenCode to OpenClaw ~1 month ago—both have papercuts but OpenClaw easier to iterate on.
+- (2026-11-13) @dire_goblin: Comparison—"Dots are retarded compared to local OpenClaw agents"; memory and tuning limits.
+- (2026-11-13) @izerop143: Still runs 3 OpenClaw agents for specific tasks plus general intelligence.
+- (2026-11-13) @dah_uk: "i've never not yolo'd neither CC or Codex or openclaw. still never had any trouble."
+
+**Feedback rows:** 126 (as of 2026-11-13)

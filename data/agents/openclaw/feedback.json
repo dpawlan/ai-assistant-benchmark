@@ -2194,5 +2194,124 @@
     "source": "x",
     "collected_at": "2026-11-12",
     "notes": "I am loving grok @bot so much that I deleted my OpenClaw age..."
+  },
+  {
+    "id": "2121208064737231291",
+    "agent": "openclaw",
+    "quote": "OpenClaw config patch wiped my Telegram allowFrom: added 1 ID, the other 2 vanished.\n\nArrays get replaced, not merged. Add by index:\nopenclaw config set 'channels.telegram.allowFrom[2]' '\"<id>\"' --strict-json\n\nGUI for OpenClaw / Hermes / DSH / OpenCode: https://t.co/9ZqYgFldFv",
+    "author": "JayQinQT",
+    "author_name": "Jay",
+    "date": "2026-11-13",
+    "url": "https://x.com/JayQinQT/status/2121208064737231291",
+    "kind": "other",
+    "tags": [
+      "x",
+      "telegram",
+      "ui"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "OpenClaw config patch wiped my Telegram allowFrom: added 1 I..."
+  },
+  {
+    "id": "2121244419420512496",
+    "agent": "openclaw",
+    "quote": "Well @AnthropicAI  is having issues today, so we quickly switched providers in our @openclaw enterprise deployment and... continued on like (almost) nothing happened.\n\nThat's the power you have when you use OSS tools and not get vendored locked in.",
+    "author": "fagamericano",
+    "author_name": "Damián🦞",
+    "date": "2026-11-13",
+    "url": "https://x.com/fagamericano/status/2121244419420512496",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "mobile",
+      "ui",
+      "enterprise"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "Well @AnthropicAI  is having issues today, so we quickly swi..."
+  },
+  {
+    "id": "2121074237666632149",
+    "agent": "openclaw",
+    "quote": "@G_Z_Y Too complicated, just like OpenClaw. I installed it, then dragged it straight to the Trash.",
+    "author": "smoothdvd",
+    "author_name": "smoothdvd",
+    "date": "2026-11-13",
+    "url": "https://x.com/smoothdvd/status/2121074237666632149",
+    "kind": "complaint",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@G_Z_Y Too complicated, just like OpenClaw. I installed it, ..."
+  },
+  {
+    "id": "2120958689666601271",
+    "agent": "openclaw",
+    "quote": "@cleanunicorn Have migrated from OpenCode to OpenClaw ~1m+ ago. Both are good and have papercuts but using OpenClaw is making it easier to iterate on my setup.",
+    "author": "Lalroch",
+    "author_name": "Nikolaos Perrakis",
+    "date": "2026-11-12",
+    "url": "https://x.com/Lalroch/status/2120958689666601271",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@cleanunicorn Have migrated from OpenCode to OpenClaw ~1m+ a..."
+  },
+  {
+    "id": "2121196391821365671",
+    "agent": "openclaw",
+    "quote": "@steipete Dots are retarded compared to local OpenClaw agents, in my experience. They don't have the full context, their memory is questionable, they can't be tuned",
+    "author": "dire_goblin",
+    "author_name": "Pavel Zun",
+    "date": "2026-11-13",
+    "url": "https://x.com/dire_goblin/status/2121196391821365671",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "memory"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "1 likes; @steipete Dots are retarded compared to local OpenClaw agent..."
+  },
+  {
+    "id": "2121037782399484267",
+    "agent": "openclaw",
+    "quote": "I still run 3 OpenClaw agents design for specific tasks and some general intelligence too... 🫥",
+    "author": "izerop143",
+    "author_name": "Patrick",
+    "date": "2026-11-13",
+    "url": "https://x.com/izerop143/status/2121037782399484267",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "1 likes; I still run 3 OpenClaw agents design for specific tasks and ..."
+  },
+  {
+    "id": "2121045056148701344",
+    "agent": "openclaw",
+    "quote": "@steipete i've never not yolo'd neither CC or Codex or openclaw. still never had any trouble.",
+    "author": "dah_uk",
+    "author_name": "Dan 🪼",
+    "date": "2026-11-13",
+    "url": "https://x.com/dah_uk/status/2121045056148701344",
+    "kind": "other",
+    "tags": [
+      "x",
+      "coding"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-13",
+    "notes": "@steipete i've never not yolo'd neither CC or Codex or openc..."
   }
 ]

@@ -469,3 +469,13 @@ _Updated 2026-11-12 weekday vault scan (+3 rows)._
 - (2026-11-12) @imhaoyi: Browser automation comparison—moved tasks from Muse to Hark personal agent; impressed.
 
 **Feedback rows:** 399 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-13) @yabhishekhd: News—Meta India head says Muse coming to India in 2027; 10M US/Canada users in 6 weeks (160 likes).
+- (2026-11-13) @REALGIFGAWD: Use case—AI painted Mona Lisa live in browser; includes referral code.
+- (2026-11-12) @katooomegumiii: Praise—"Meta you are officially my favorite company now thank you for giving us Muse."
+- (2026-11-12) @WillBiddy_: Feature request—Europe launch requested; new product launches daily (53 likes).
+
+**Feedback rows:** 403 (as of 2026-11-13)

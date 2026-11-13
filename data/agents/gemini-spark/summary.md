@@ -87,3 +87,14 @@ _Updated 2026-11-12 weekday vault scan (+2 rows)._
 - (2026-11-11) @MikeAnthony: UK availability—Gemini Spark blocked for UK Pro subscribers while Grok Bot works.
 
 **Feedback rows:** 27 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-12) @aladagberk: Gemini 4 Hydrogen made Gemini Spark much faster.
+- (2026-11-12) @MikeAnthony: UK workflow issues—Gemini Spark non-functional; VPN helps but slows things down.
+- (2026-11-13) @Pabl0AI: Feature request—when will Gemini Spark and connectors arrive in the EU?
+- (2026-11-13) @Darshaan_: Feature request—Gemini Spark in UK and with enterprise accounts.
+- (2026-11-13) @nazlouis_yt: Comparison—improvements needed to make Spark a true competitor to Muse, Dots, Grok Bot.
+
+**Feedback rows:** 32 (as of 2026-11-13)

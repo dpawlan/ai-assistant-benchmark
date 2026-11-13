@@ -111,3 +111,16 @@ _Updated 2026-11-12 weekday vault scan (+3 rows)._
 - (2026-11-11) @MikeAnthony: UK availability—ChatGPT Dots blocked for UK Pro subscribers while Grok Bot works.
 
 **Feedback rows:** 44 (as of 2026-11-12)
+
+_Updated 2026-11-13 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-13) @seanbrown_: Complaint—constant permissioning issues, crashes, poor screenshots.
+- (2026-11-13) @OfficialSSFresh: Usage—ChatGPT Work on Opus 6.1; Astra burns too fast for Plus.
+- (2026-11-13) @siav2022: Complaint—ChatGPT/Work/Codex confusing; remove 5hr limit from Plus; bring Dots to Plus.
+- (2026-11-13) @rempred: Complaint—switching between Codex, ChatGPT, Work and Chat tedious; Codex needs cleanup.
+- (2026-11-13) @ruxideng: Feature request—ChatGPT Work web version needs plan mode.
+- (2026-11-13) @Mohsine_Mahzi: Feedback—system prompt should differ between ChatGPT Work vs Codex; needs coworker vibes like Opus.
+- (2026-11-13) @meadowlarkspur: Feature request—add skills to ChatGPT Work.
+
+**Feedback rows:** 51 (as of 2026-11-13)

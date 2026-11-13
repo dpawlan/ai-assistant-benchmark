@@ -3600,6 +3600,77 @@
         "+16505098882"
       ],
       "_note": "Added 2026-10-23 after hands-on testing over iMessage. Common word: domain-only queries and match."
+    },
+    "rene": {
+      "name": "Rene",
+      "handles": [],
+      "domain": "rene.co",
+      "x_queries": [
+        "\"rene.co\""
+      ],
+      "reddit_queries": [
+        "\"rene.co\""
+      ],
+      "hn_queries": [
+        "\"rene.co\""
+      ],
+      "appstore_ids": [
+        6768238195
+      ],
+      "ph_slug": null,
+      "match": [
+        "rene.co"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-11-13. Common word: domain-only queries and match."
+    },
+    "frida": {
+      "name": "Frida",
+      "handles": [],
+      "domain": "frida.chat",
+      "x_queries": [
+        "\"frida.chat\""
+      ],
+      "reddit_queries": [
+        "\"frida.chat\""
+      ],
+      "hn_queries": [
+        "\"frida.chat\""
+      ],
+      "appstore_ids": [
+        6808538428
+      ],
+      "ph_slug": null,
+      "match": [
+        "frida.chat"
+      ],
+      "imessage_handles": [],
+      "_note": "Added 2026-11-13. Common word: domain-only queries and match."
+    },
+    "quest": {
+      "name": "Quest",
+      "handles": [],
+      "domain": "new.quest",
+      "x_queries": [
+        "\"new.quest\""
+      ],
+      "reddit_queries": [
+        "\"new.quest\""
+      ],
+      "hn_queries": [
+        "\"new.quest\""
+      ],
+      "appstore_ids": [
+        6763097866
+      ],
+      "ph_slug": null,
+      "match": [
+        "new.quest"
+      ],
+      "imessage_handles": [
+        "+16282987901"
+      ],
+      "_note": "Added 2026-11-13. Common word: domain-only queries and match."
     }
   },
   "_redact_terms": [

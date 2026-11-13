@@ -1,0 +1,22 @@
+{
+  "slug": "frida",
+  "name": "Frida",
+  "site": "https://frida.chat/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Frida (MonyCompany Inc.): personal agent with an adaptive interface built around agentic commerce, with Stripe and Crossmint among its named partners. iOS app only. Added 2026-11-13 ahead of hands-on testing.",
+  "public_signal": "low",
+  "tagline": "Your favorite personal agent",
+  "icon": "/logos/frida.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free; paid tiers not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app"
+    ],
+    "checked": "2026-11-13"
+  }
+}

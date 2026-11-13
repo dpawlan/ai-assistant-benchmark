@@ -1,0 +1,25 @@
+{
+  "slug": "rene",
+  "name": "Rene",
+  "site": "https://rene.co/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Rene (Marumaru, LLC): a shared personal assistant that works inside group chats and handles email, calendar and scheduling on approval. iOS app plus Telegram, WhatsApp and SMS. Requested via the site form on 2026-11-13.",
+  "public_signal": "low",
+  "tagline": "Multiplayer Personal Superintelligence",
+  "icon": "/logos/rene.png",
+  "kind": "general",
+  "access": {
+    "pricing": "freemium",
+    "price": "Free to start, no card required; paid tiers not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "Telegram",
+      "WhatsApp",
+      "SMS"
+    ],
+    "checked": "2026-11-13"
+  }
+}

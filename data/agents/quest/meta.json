@@ -1,0 +1,24 @@
+{
+  "slug": "quest",
+  "name": "Quest",
+  "site": "https://new.quest/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Quest (New Quest AI Inc.): always-on personal advisor that builds a profile from your email and connections, then acts through its own phone number and messaging apps. iOS app; texts over iMessage as 'Q'. Added 2026-11-13 after it reached out over iMessage.",
+  "public_signal": "low",
+  "tagline": "Personal AI advisor",
+  "icon": "/logos/quest.png",
+  "kind": "general",
+  "access": {
+    "pricing": "free",
+    "price": "Free; in-app purchases not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iOS app",
+      "iMessage",
+      "WhatsApp"
+    ],
+    "checked": "2026-11-13"
+  }
+}

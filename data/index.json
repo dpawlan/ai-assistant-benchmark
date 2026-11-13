@@ -1,8 +1,8 @@
 {
-  "updated": "2026-10-31",
-  "agent_count": 141,
+  "updated": "2026-11-13",
+  "agent_count": 144,
   "feedback_count": 5663,
-  "confirmed": 114,
+  "confirmed": 117,
   "stretch": 27,
   "agents": [
     {
@@ -3120,6 +3120,71 @@
           "MCP"
         ],
         "checked": "2026-10-23"
+      }
+    },
+    {
+      "slug": "rene",
+      "name": "Rene",
+      "status": "confirmed",
+      "site": "https://rene.co/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Multiplayer Personal Superintelligence",
+      "icon": "/logos/rene.png",
+      "kind": "general",
+      "access": {
+        "pricing": "freemium",
+        "price": "Free to start, no card required; paid tiers not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "Telegram",
+          "WhatsApp",
+          "SMS"
+        ],
+        "checked": "2026-11-13"
+      }
+    },
+    {
+      "slug": "frida",
+      "name": "Frida",
+      "status": "confirmed",
+      "site": "https://frida.chat/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Your favorite personal agent",
+      "icon": "/logos/frida.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free; paid tiers not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app"
+        ],
+        "checked": "2026-11-13"
+      }
+    },
+    {
+      "slug": "quest",
+      "name": "Quest",
+      "status": "confirmed",
+      "site": "https://new.quest/",
+      "feedback_count": 0,
+      "public_signal": "low",
+      "tagline": "Personal AI advisor",
+      "icon": "/logos/quest.png",
+      "kind": "general",
+      "access": {
+        "pricing": "free",
+        "price": "Free; in-app purchases not stated",
+        "regions": "Not stated",
+        "channels": [
+          "iOS app",
+          "iMessage",
+          "WhatsApp"
+        ],
+        "checked": "2026-11-13"
       }
     }
   ]

@@ -956,5 +956,24 @@
     "source": "x",
     "collected_at": "2026-11-13",
     "notes": "@thsottiaux @argofowl Can you guys please add skills to Chat..."
+  },
+  {
+    "id": "2121790308031893760",
+    "agent": "chatgpt-work",
+    "quote": "@robinebers @elonmusk grok bot sometimes outperformed an actual task that GPT Work failed at or wasn’t as high quality output compared to Grok bot.\n\nWish Claude Code/Codex plugin worked with Grok Bot",
+    "author": "theandyjang",
+    "author_name": "Andy Jang",
+    "date": "2026-11-15",
+    "url": "https://x.com/theandyjang/status/2121790308031893760",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "vs-chatgpt-work",
+      "coding",
+      "plugin"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-16",
+    "notes": "@robinebers @elonmusk grok bot sometimes outperformed an act..."
   }
 ]

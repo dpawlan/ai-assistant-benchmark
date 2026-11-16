@@ -65,3 +65,10 @@ _Updated 2026-10-23 weekday vault scan (+1 row)._
 - (2026-10-22) @Ripuhiring: User ranking puts Poke last (9th of 9).
 
 **Feedback rows:** 242 (as of 2026-10-23)
+
+_Updated 2026-11-16 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-15) @wolpsie: "poke came and gone really fast"—suggests product lost momentum.
+
+**Feedback rows:** 243 (as of 2026-11-16)

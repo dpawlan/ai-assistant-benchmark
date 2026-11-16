@@ -124,3 +124,10 @@ _Updated 2026-11-13 weekday vault scan (+7 rows)._
 - (2026-11-13) @meadowlarkspur: Feature request—add skills to ChatGPT Work.
 
 **Feedback rows:** 51 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-15) @theandyjang: Grok Bot outperformed GPT Work on some tasks; wishes Claude Code/Codex worked with Grok Bot.
+
+**Feedback rows:** 52 (as of 2026-11-16)

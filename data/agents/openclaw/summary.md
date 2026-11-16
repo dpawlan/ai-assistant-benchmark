@@ -263,3 +263,16 @@ _Updated 2026-11-13 weekday vault scan (+7 rows)._
 - (2026-11-13) @dah_uk: "i've never not yolo'd neither CC or Codex or openclaw. still never had any trouble."
 
 **Feedback rows:** 126 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-14) @mariagorskikh: Personal AI rush started with OpenClaw—its own computer was why it was so good (29 likes).
+- (2026-11-14) @dasunpremadasa: Replaced all OpenClaw agents with Grok Bots.
+- (2026-11-15) @capsraunak: Grok Bot dominated OpenClaw; "no one even uses openclaw anymore."
+- (2026-11-15) @GodinPatri43620: Hermes more consistent than OpenClaw; OpenClaw goes down unwanted roads.
+- (2026-11-14) @itsshashank: Learning from Hermes and OpenClaw on memory management.
+- (2026-11-14) @Anaknegeri_JP: Long-time user from Indonesia—OpenClaw falling behind newer projects; requests free tier.
+- (2026-11-14) @conoro: Every OpenClaw update a disaster for months; discovered bug creating 870k+ files.
+
+**Feedback rows:** 133 (as of 2026-11-16)

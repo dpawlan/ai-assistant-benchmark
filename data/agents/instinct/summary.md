@@ -375,3 +375,12 @@ _Updated 2026-11-10 weekday vault scan (+2 rows)._
 - (2026-11-09) @amelia_guertin: Asking Instinct agent to go shopping on Black Friday—"wish me luck."
 
 **Feedback rows:** 354 (as of 2026-11-10)
+
+_Updated 2026-11-16 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-16) @samfjacobs: Instinct agent closed Citibank account—felt like technological breakthrough (closing Citibank accounts is notoriously difficult).
+- (2026-11-16) @Chillestdotcom: Instinct agent monitoring flights and reservations; automatically requesting compensation.
+- (2026-11-15) @ZachDevDev: While driving, Instinct found parking via calendar event, paid, sent Waze link—hands-free.
+
+**Feedback rows:** 357 (as of 2026-11-16)

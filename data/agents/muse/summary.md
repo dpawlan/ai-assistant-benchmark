@@ -479,3 +479,15 @@ _Updated 2026-11-13 weekday vault scan (+4 rows)._
 - (2026-11-12) @WillBiddy_: Feature request—Europe launch requested; new product launches daily (53 likes).
 
 **Feedback rows:** 403 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-15) @nklsinvestments: Muse most advanced and natural-sounding model in S2S tests at leading AI lab (4 likes).
+- (2026-11-14) @0xApollo440: Muse can place calls to US businesses for paid subscribers (8 likes).
+- (2026-11-16) @dereko33x: Muse has many more voices than Grok Bot; can change voice on the fly.
+- (2026-11-15) @bruno_munhoz: Grok Bot coordinated with Meta Muse via email; two AIs coordinating.
+- (2026-11-15) @AgentMsgr: Group chat app making Muse and Grok Bot multiplayer (42 likes).
+- (2026-11-15) @CapTableZero: Prototype with Muse using AntiGravity and Grok Build on Muse VM.
+
+**Feedback rows:** 409 (as of 2026-11-16)

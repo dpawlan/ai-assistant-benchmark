@@ -531,3 +531,26 @@ _Updated 2026-11-13 weekday vault scan (+8 rows)._
 - (2026-11-13) @0xFrench75: Feature request—inter-user Grok Bot collaboration.
 
 **Feedback rows:** 1513 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+17 rows)._
+
+**New this scan:**
+- (2026-11-16) @nikkitson: Uses Grok Bot for management layer; Claude for coding; Grok Bot better at multi-tasking people-work.
+- (2026-11-16) @AlexTench: Grok Bot surprise—gave queue jump at airport via easyJet speedy boarding.
+- (2026-11-16) @TitaniumTomP: iPhone Action Button → Grok Bot → Tesla Cabin Commander voice control (10 likes).
+- (2026-11-16) @0xbobaaa: Grok Bot edited 23-hour Starship livestream into highlight reel with music (44 likes).
+- (2026-11-15) @theandyjang: Grok Bot outperformed GPT Work on some tasks; wishes Claude Code/Codex worked with Grok Bot.
+- (2026-11-15) @himanshu_v92: Plugged ChatGPT subscription into Grok Bot via Codex CLI; usage tip.
+- (2026-11-15) @TonyGainzzz: Connects Grok Bot to Sellerboard/Seller Snap; repricing and COGs updates.
+- (2026-11-15) @sp4rsh_: Grok Bot + Claude Code pipeline for YouTube shorts.
+- (2026-11-16) @dereko33x: Prefers Grok Bot Zagan voice for monologue without interruption; also uses Muse.
+- (2026-11-15) @bruno_munhoz: Grok Bot as second brain; coordinated with Meta Muse via email.
+- (2026-11-15) @AgentMsgr: Group chat app making Muse and Grok Bot multiplayer (42 likes).
+- (2026-11-14) @pablothethinker: When Grok Bot usage depleted, Hark handled needs; Hermes finishing cleanup.
+- (2026-11-13) @mhkafadar_: Comparison—Grok Bot most stable; Hermes most flexible; Dot furthest behind.
+- (2026-11-14) @dasunpremadasa: Replaced all OpenClaw agents with Grok Bots.
+- (2026-11-15) @capsraunak: Grok Bot dominated OpenClaw; "no one even uses openclaw anymore."
+- (2026-11-15) @EricFeigl: Feature request—option to disable redundant Grok Bot messages in both Grok Bot app and X Chat.
+- (2026-11-16) @kakhidze_nika: Day 4 asking for free year—morning Grok Bot routine: inbox check, paper-trading, draft post.
+
+**Feedback rows:** 1530 (as of 2026-11-16)

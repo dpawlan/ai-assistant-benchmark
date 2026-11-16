@@ -98,3 +98,13 @@ _Updated 2026-11-13 weekday vault scan (+5 rows)._
 - (2026-11-13) @nazlouis_yt: Comparison—improvements needed to make Spark a true competitor to Muse, Dots, Grok Bot.
 
 **Feedback rows:** 32 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-16) @raregazzetto: Over 30 countries still waiting for Gemini Spark release.
+- (2026-11-15) @DaysBehindEU: UK Google AI Pro at £18.99/mo still no Gemini Spark; 160 countries got it 108 days ago.
+- (2026-11-15) @SunnyvaleSBay: Uses Gemini Spark only for checking Gmail and adding to Google family calendar—not same weight class.
+- (2026-11-15) @Rohit_115: Everyone launched personal agents—Muse, Grok Bot, Dots, Duet—but Gemini Spark is useless; called 24/7 agent but not improved.
+
+**Feedback rows:** 36 (as of 2026-11-16)

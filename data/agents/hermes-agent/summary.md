@@ -350,3 +350,19 @@ _Updated 2026-11-13 weekday vault scan (+8 rows)._
 - (2026-11-12) @kzariajg: "I only wake up and live to see if I can download the Hermes Agent app on my phone" enthusiasm.
 
 **Feedback rows:** 222 (as of 2026-11-13)
+
+_Updated 2026-11-16 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-16) @witcheer: year-wrapped community plugin—13 story cards from Hermes Agent history; 950 "please" in a year (87 likes).
+- (2026-11-15) @sudoingX: Hermes Agent driving Ling 3.0 medical model on 2x DGX Sparks; 131k prompt limit (30 likes).
+- (2026-11-15) @rishflips: Twring plugin—call your Hermes agent or let it call you.
+- (2026-11-15) @ko_spell: PR merged for Hermes Phone Control plugin at Hackathon.
+- (2026-11-15) @alexcovo_eth: Hermes agent created and designed t-shirt end-to-end.
+- (2026-11-14) @MichaelGannotti: Aiona (lead Hermes agent) supervising security code review agent.
+- (2026-11-14) @pablothethinker: When Grok Bot depleted, Hermes handling needs; I.L.O. finishing transfer.
+- (2026-11-13) @mhkafadar_: Comparison—Hermes most flexible; Grok Bot most stable; Dot furthest behind.
+- (2026-11-15) @GodinPatri43620: Hermes more consistent than OpenClaw; more methodical; OpenClaw too autonomous.
+- (2026-11-14) @itsshashank: Suggests learning from Hermes and OpenClaw on memory management.
+
+**Feedback rows:** 232 (as of 2026-11-16)

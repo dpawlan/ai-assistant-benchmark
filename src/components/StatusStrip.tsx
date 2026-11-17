@@ -11,7 +11,7 @@ interface StatusStripProps {
   onPick?: (s: BenchStatus | 'all') => void;
 }
 
-/** Completed / in progress / pending, so the headline count is read as coverage, not a finished table. */
+/** In progress / pending, so the headline count is read as coverage, not a finished table. */
 export function StatusStrip({ agents, categories, active = 'all', onPick }: StatusStripProps) {
   const counts = useMemo(() => statusCounts(agents, categories), [agents, categories]);
   const total = agents.length || 1;

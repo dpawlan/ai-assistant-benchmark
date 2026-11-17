@@ -1,20 +1,18 @@
-/** Benchmark completion status per assistant. Client-safe: pure functions over Agent + Category. */
+/** Benchmark status per assistant: anything being tested is in progress, nothing is ever marked complete. Client-safe: pure functions over Agent + Category. */
 import type { Agent, Category } from './types';
 
-export type BenchStatus = 'completed' | 'in_progress' | 'pending';
+export type BenchStatus = 'in_progress' | 'pending';
 
-export const STATUS_ORDER: BenchStatus[] = ['completed', 'in_progress', 'pending'];
+export const STATUS_ORDER: BenchStatus[] = ['in_progress', 'pending'];
 
 export const STATUS_LABEL: Record<BenchStatus, string> = {
-  completed: 'Completed',
   in_progress: 'In progress',
   pending: 'Pending',
 };
 
 /** One line under each group header, or beside the strip. */
 export const STATUS_CAPTION: Record<BenchStatus, string> = {
-  completed: 'Every dimension scored or ruled out. Overall is final for this benchmark version.',
-  in_progress: 'Some dimensions scored. Overall is a partial mean and will move as tests land.',
+  in_progress: 'Being tested. Overall is a running mean and will move as tests land.',
   pending: 'On the roster, not tested yet. No score.',
 };
 
@@ -44,12 +42,11 @@ export function coverage(agent: Agent, categories: Category[]): Coverage {
 export function benchStatus(agent: Agent, categories: Category[]): BenchStatus {
   const c = coverage(agent, categories);
   if (c.scored === 0) return 'pending';
-  if (c.scored >= c.applicable) return 'completed';
   return 'in_progress';
 }
 
 export function statusCounts(agents: Agent[], categories: Category[]): Record<BenchStatus, number> {
-  const out: Record<BenchStatus, number> = { completed: 0, in_progress: 0, pending: 0 };
+  const out: Record<BenchStatus, number> = { in_progress: 0, pending: 0 };
   for (const a of agents) out[benchStatus(a, categories)]++;
   return out;
 }

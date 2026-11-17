@@ -281,10 +281,10 @@ export function Matrix({ agents, categories, short, compact = false }: MatrixPro
                         <span className={`st-dot st-${sec.status}`} aria-hidden="true" />
                         {STATUS_LABEL[sec.status]}
                         <span className="mx-count">{sec.count}</span>
-                        {!compact && <span className="mx-secsub">{sec.count === 0 && sec.status === 'completed' ? 'None yet. An assistant lands here once every applicable dimension is scored.' : STATUS_CAPTION[sec.status]}</span>}
+                        {!compact && <span className="mx-secsub">{STATUS_CAPTION[sec.status]}</span>}
                       </th>
                     </tr>
-                    {sec.count === 0 && sec.status !== 'completed' && (
+                    {sec.count === 0 && (
                       <tr className="mx-empty">
                         <td colSpan={span}>Nothing here.</td>
                       </tr>

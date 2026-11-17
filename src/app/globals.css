@@ -3370,7 +3370,6 @@ a.chip.blue:hover {
   flex: none;
 }
 
-.st-dot.st-completed { background: var(--st-completed); }
 .st-dot.st-in_progress { background: var(--st-in_progress); }
 .st-dot.st-pending { background: var(--st-pending); }
 
@@ -3388,7 +3387,6 @@ a.chip.blue:hover {
 }
 
 .st-seg { display: block; height: 100%; }
-.st-seg.st-completed { background: var(--st-completed); }
 .st-seg.st-in_progress { background: var(--st-in_progress); }
 .st-seg.st-pending { background: transparent; }
 

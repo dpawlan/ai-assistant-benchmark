@@ -185,5 +185,23 @@
     "score": 10,
     "outcome": "pass",
     "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
+  },
+  {
+    "id": "tomo-2026-11-17-fa0a7b",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Every purchase waited for an approval tap and nothing was placed without one; Google access still asks for full scopes."
+  },
+  {
+    "id": "tomo-2026-11-17-1a37a2",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Carried the delivery address and payment setup from one day's run into the next without re-entry."
   }
 ]

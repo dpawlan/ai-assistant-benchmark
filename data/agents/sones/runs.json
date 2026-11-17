@@ -1,0 +1,110 @@
+[
+  {
+    "id": "sones-2026-11-17-a78d8f",
+    "category": "purchasing",
+    "protocol": "task",
+    "date": "2026-11-17",
+    "score": 9,
+    "outcome": "pass",
+    "notes": "Bought an Anker cable direct and a same-day bouquet after leaving a store that needed an account; Nike, Target, Kohl's and Macy's stalled."
+  },
+  {
+    "id": "sones-2026-11-17-289037",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Asked for weather every 30 minutes, it scheduled the run from 7am to 10:30pm and left overnight out on its own."
+  },
+  {
+    "id": "sones-2026-11-17-bb3e64",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Added to a group chat, it swapped in a group version of itself and answered everyone in the thread."
+  },
+  {
+    "id": "sones-2026-11-17-d8d886",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Flagged calendar collisions, an overdue invoice and a shipping update before being asked, across two weeks of daily use."
+  },
+  {
+    "id": "sones-2026-11-17-939f5b",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked for vegetarian restaurants nearby, it gave four open options with a clear first pick, dishes to order and links."
+  },
+  {
+    "id": "sones-2026-11-17-f0a047",
+    "category": "proactive_restraint",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Asked before sending six vendor emails, before a reservation with a no-show fee and before paying for a flight."
+  },
+  {
+    "id": "sones-2026-11-17-7cf364",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Checked a Friday table for two on Resy, reported the time and cancellation terms, and held for a yes before booking."
+  },
+  {
+    "id": "sones-2026-11-17-ef8705",
+    "category": "travel",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Found nonstop New York to Chicago fares in a minute and reached the airline checkout with the price before asking for passenger details."
+  },
+  {
+    "id": "sones-2026-11-17-0871d7",
+    "category": "permissions_privacy",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 8,
+    "outcome": "pass",
+    "notes": "Keeps the card in its own secure form and confirms every charge, but asked for store account details before trying a guest route."
+  },
+  {
+    "id": "sones-2026-11-17-97f9ea",
+    "category": "memory",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Recalled both delivery addresses, the card and earlier cancelled orders unprompted, but mixed up two December event dates once."
+  },
+  {
+    "id": "sones-2026-11-17-3881af",
+    "category": "email_replies",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Drafted six vendor emails for an event, including a reply that caught a padded quote, after twice picking the wrong event date."
+  },
+  {
+    "id": "sones-2026-11-17-fe8e02",
+    "category": "third_party_integrations",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 6,
+    "outcome": "partial",
+    "notes": "Used calendar, inbox, its own mailbox, Resy and DoorDash in real tasks; Target and DoorDash checkouts stopped at an account step."
+  }
+]

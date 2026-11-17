@@ -1,0 +1,22 @@
+{
+  "slug": "sones",
+  "name": "Sones",
+  "site": "https://sones.ai/",
+  "handles": [],
+  "status": "confirmed",
+  "product_class": null,
+  "notes": "Sones: a personal assistant over iMessage, invite-only beta. Handles purchases, bookings, email drafts, calendar and inbox follow-ups, and spawns a group version of itself in group chats. Added from hands-on testing on 2026-11-17.",
+  "public_signal": "low",
+  "tagline": "World's most capable personal agent",
+  "icon": "/logos/sones.png",
+  "kind": "general",
+  "access": {
+    "pricing": "waitlist",
+    "price": "Invite-only beta via waitlist; pricing not stated",
+    "regions": "Not stated",
+    "channels": [
+      "iMessage"
+    ],
+    "checked": "2026-11-17"
+  }
+}

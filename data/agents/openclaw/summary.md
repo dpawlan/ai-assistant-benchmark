@@ -276,3 +276,15 @@ _Updated 2026-11-16 weekday vault scan (+7 rows)._
 - (2026-11-14) @conoro: Every OpenClaw update a disaster for months; discovered bug creating 870k+ files.
 
 **Feedback rows:** 133 (as of 2026-11-16)
+
+_Updated 2026-11-17 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-17) @nomaanahmed: Use case—"My openclaw ('The Claw') runs half our business functions @tryorbits."
+- (2026-11-16) @mberteig: DAASH 0.4.1—found 2 OpenClaw agents on network; connected with Hermes Agent for Agile swarm.
+- (2026-11-17) @ilyagordey: Quality<->price comparison—OpenClaw with Google Gemini or DeepSeek/Qwen models "quite good."
+- (2026-11-17) @LarsOnMoltrust: CVE-2026-25253 was one-click RCE against OpenClaw instances running default config; agent host targeted.
+- (2026-11-17) @TheNormVg: "I hate using hermis or OpenClaw Idk how people even used it fr, so bad."
+- (2026-11-16) @LutzDave: Use case—"no more copying and pasting website sections for sharing context; it just all works seamlessly."
+
+**Feedback rows:** 139 (as of 2026-11-17)

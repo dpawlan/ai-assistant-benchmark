@@ -491,3 +491,13 @@ _Updated 2026-11-16 weekday vault scan (+6 rows)._
 - (2026-11-15) @CapTableZero: Prototype with Muse using AntiGravity and Grok Build on Muse VM.
 
 **Feedback rows:** 409 (as of 2026-11-16)
+
+_Updated 2026-11-17 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-16) @BoBilbo28: "He just texted me that he loves the Meta Muse app"—friend who hated AI thinks it'll massively improve his work.
+- (2026-11-17) @Bigtomk22YT: "Meta/Muse is by far the best with more free features and the smartest AI I've used."
+- (2026-11-17) @wgreklek: Praise—"minimal safety layers and the AI truly treats you as an adult"; can discuss almost any topic.
+- (2026-11-17) @AunySillyMe: "Have you used meta muse yet? It's practically free and it can do everything!!"
+
+**Feedback rows:** 413 (as of 2026-11-17)

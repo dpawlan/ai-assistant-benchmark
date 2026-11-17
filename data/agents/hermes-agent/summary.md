@@ -366,3 +366,17 @@ _Updated 2026-11-16 weekday vault scan (+10 rows)._
 - (2026-11-14) @itsshashank: Suggests learning from Hermes and OpenClaw on memory management.
 
 **Feedback rows:** 232 (as of 2026-11-16)
+
+_Updated 2026-11-17 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-16) @IBuzovskyi: HERMES AGENT IS #1 ON OPENROUTER AGAIN—1.71T tokens vs Kilo Code 1.21T, Claude Code 1.17T (35 likes).
+- (2026-11-17) @TheSimonHarms: Gave Hermes Agent a worklist for 3-day cruise; did 4 hours of work then gave up.
+- (2026-11-17) @BkashJosi: Hermes Agent v0.23.2 shipped 1,989 merged PRs; wait-for-reset feature—waits for AI limit reset, finishes job (54 likes).
+- (2026-11-16) @alexcovo_eth: StackChan Nous-Girl Robot assisting on fashion photoshoot with Capture One Pro (40 likes).
+- (2026-11-16) @atKenNelson: Moved important things to Hermes Agent after Grok Bot usage unpredictability.
+- (2026-11-17) @qaisdotai: "i think hermes agent offers more value than grok bot" (4 likes).
+- (2026-11-16) @mberteig: DAASH 0.4.1 Agile swarm—found 2 OpenClaw agents on network, connected with Hermes Agent; did 5 tasks in 21 min.
+- (2026-11-17) @TheNormVg: "I hate using hermis or OpenClaw Idk how people even used it fr, so bad."
+
+**Feedback rows:** 240 (as of 2026-11-17)

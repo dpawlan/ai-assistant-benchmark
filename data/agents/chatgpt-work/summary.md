@@ -131,3 +131,17 @@ _Updated 2026-11-16 weekday vault scan (+1 row)._
 - (2026-11-15) @theandyjang: Grok Bot outperformed GPT Work on some tasks; wishes Claude Code/Codex worked with Grok Bot.
 
 **Feedback rows:** 52 (as of 2026-11-16)
+
+_Updated 2026-11-17 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-16) @alex: "gotta consolidate: confused at ChatGPT chat, ChatGPT work, Codex, and Dot all in the same app."
+- (2026-11-16) @JasonLeeBedunah: Praise—chatgpt work with browser plugin debugged WordPress issue in 2 minutes.
+- (2026-11-16) @rizalthama: Bug—"No usable execution environment is available" when opening ZIP files or running commands.
+- (2026-11-17) @JarGoblin: Bug—permissions not shared between chats in same project; spawns cloud instance for no reason.
+- (2026-11-17) @slashr___: "surprised by how clunky Dots is"—making Dots behave like ChatGPT Work thread is low hanging fruit.
+- (2026-11-16) @tonystark959: Bug—"No usable execution environment is available"; support closed chat when asking for refund (1 like).
+- (2026-11-17) @TekonBurns: 🚨 Silent multi-hour container outage—Python, PDF/Excel reads, skills, terminal tools fail to boot (40 likes).
+- (2026-11-16) @Misha_su: Bug—versioned files fail to auto-write back to library; tools/call → HTTP 401 error.
+
+**Feedback rows:** 60 (as of 2026-11-17)

@@ -554,3 +554,20 @@ _Updated 2026-11-16 weekday vault scan (+17 rows)._
 - (2026-11-16) @kakhidze_nika: Day 4 asking for free year—morning Grok Bot routine: inbox check, paper-trading, draft post.
 
 **Feedback rows:** 1530 (as of 2026-11-16)
+
+_Updated 2026-11-17 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-11-17) @oG_seNseii: Planning to delegate to Hermes Agent to cut down on Grok Bot usage limits.
+- (2026-11-17) @XFreeze: SpaceXSI testing Grok Bot answering live phone calls directly from chat (41 likes).
+- (2026-11-17) @Vasu_ai123: Cancelled Grok Bot sub—prefers open-source version with Claude sub; "complete waste of money."
+- (2026-11-17) @manvendrasingh: Gets more work done with Grok Bot than Claude; "exceptionally effective and efficient."
+- (2026-11-17) @SomeUKTeslaGuy: Agentic shopping use case—Grok Bot found £6 discounted trousers, paid for chunk of subscription (3 likes).
+- (2026-11-17) @distortgeekin: Cancelled ChatGPT, Notion and Zapier—"$62 a month → $0"; Grok Bot does all three now (33 likes).
+- (2026-11-17) @batibatati: Usage limit humor—"Good morning bro, you've just consumed 20% of usage with that message."
+- (2026-11-17) @itscodykillian: Claude vs Grok Bot for meetings comparison—picks Grok Bot for cross-platform support.
+- (2026-11-17) @njrandell: Maxxing out Grok Bot on Ultra; set up PC with Grok Bot managing Claude for more coding work.
+- (2026-11-16) @atKenNelson: Burned 5% usage shopping for glasses; moved important things to Hermes Agent due to unpredictability.
+- (2026-11-17) @qaisdotai: "i think hermes agent offers more value than grok bot" (4 likes).
+
+**Feedback rows:** 1541 (as of 2026-11-17)

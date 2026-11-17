@@ -86,5 +86,14 @@
     "score": 8,
     "outcome": "pass",
     "notes": "Ran the scheduled routine as set up and reported back on schedule."
+  },
+  {
+    "id": "zapia-2026-11-17-e388ab",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Scheduled routines landed on time with the content they were set up to send."
   }
 ]

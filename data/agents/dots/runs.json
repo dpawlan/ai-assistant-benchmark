@@ -78,5 +78,14 @@
     "outcome": "n/a",
     "notes": "Has no outbound calling; you can call it from the app, and it contacts businesses by email instead.",
     "evidence_url": "/agents/dots/evidence/dots-2026-10-05-7ef289"
+  },
+  {
+    "id": "dots-2026-11-17-c82fc6",
+    "category": "running_routine",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Scheduled routines landed on time with the content they were set up to send."
   }
 ]

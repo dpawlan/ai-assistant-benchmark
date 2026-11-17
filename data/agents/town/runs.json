@@ -97,5 +97,14 @@
     "outcome": "pass",
     "notes": "Delivered an on-brief dog birthday card with a larger-title rework and a five-question 90s quiz marked correctly, in a private chat.",
     "evidence_url": "/agents/town/evidence/town-2026-09-30-jackcontent"
+  },
+  {
+    "id": "town-2026-11-17-226684",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

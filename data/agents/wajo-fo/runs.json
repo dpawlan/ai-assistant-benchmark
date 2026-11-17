@@ -217,5 +217,14 @@
     "score": 7,
     "outcome": "pass",
     "notes": "Handled the reply request end to end once its mail access was in place."
+  },
+  {
+    "id": "wajo-fo-2026-11-17-b661cf",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

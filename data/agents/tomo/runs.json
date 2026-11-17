@@ -176,5 +176,14 @@
     "score": 10,
     "outcome": "pass",
     "notes": "Scheduled routines landed on time with the content they were set up to send."
+  },
+  {
+    "id": "tomo-2026-11-17-de90a6",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

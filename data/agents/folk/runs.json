@@ -15,7 +15,7 @@
     "date": "2026-09-14",
     "score": 6,
     "outcome": "partial",
-    "notes": "Found an American one-stop NYC–Chicago round trip at $411 over the $400 cap but could not open the booking page or reach payment."
+    "notes": "Found an American one-stop NYC\u2013Chicago round trip at $411 over the $400 cap but could not open the booking page or reach payment."
   },
   {
     "id": "folk-2026-09-14-recommendation",
@@ -35,5 +35,14 @@
     "outcome": "fail",
     "notes": "Hit a cart failure, sent screenshots, asked for a name and phone number, then went silent after saying it was continuing checkout.",
     "evidence_url": "/agents/folk/evidence/folk-2026-11-02-b172b6"
+  },
+  {
+    "id": "folk-2026-11-17-68dd0a",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

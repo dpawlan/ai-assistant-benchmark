@@ -226,5 +226,14 @@
     "score": 8,
     "outcome": "pass",
     "notes": "Drafted and sent the follow-ups cleanly, but copied a colleague on one email without being asked."
+  },
+  {
+    "id": "instinct-2026-11-17-e651fa",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

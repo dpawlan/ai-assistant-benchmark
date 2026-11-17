@@ -118,5 +118,14 @@
     "outcome": "partial",
     "notes": "Worked through four storefronts to a confirmed guest checkout, but took 40 minutes and a nudge to get there.",
     "evidence_url": "/agents/tab/evidence/tab-2026-11-02-0b286c"
+  },
+  {
+    "id": "tab-2026-11-17-d53712",
+    "category": "multiplayer_groups",
+    "protocol": "observed",
+    "date": "2026-11-17",
+    "score": 10,
+    "outcome": "pass",
+    "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
   }
 ]

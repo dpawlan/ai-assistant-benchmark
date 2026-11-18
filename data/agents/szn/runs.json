@@ -185,5 +185,14 @@
     "score": 10,
     "outcome": "pass",
     "notes": "Group chats are a shipped, announced feature: add it to an existing thread and it works for everyone in it."
+  },
+  {
+    "id": "szn-2026-11-18-874a12",
+    "category": "proactive_behavior",
+    "protocol": "observed",
+    "date": "2026-11-18",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Relays inbox items, shipping changes and security alerts unprompted, but the volume runs high and a few earlier updates needed correcting."
   }
 ]

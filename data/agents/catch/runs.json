@@ -78,5 +78,23 @@
     "outcome": "pass",
     "notes": "Places real calls to businesses, gets both questions answered, and reports back clearly.",
     "evidence_url": "/agents/catch/evidence/catch-2026-11-02-83e873"
+  },
+  {
+    "id": "catch-2026-11-18-829cb5",
+    "category": "online_task",
+    "protocol": "observed",
+    "date": "2026-11-18",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Found a specific cable model, seller, price and stock within minutes, but every checkout page it reached stalled before payment."
+  },
+  {
+    "id": "catch-2026-11-18-9711cf",
+    "category": "recommendation_quality",
+    "protocol": "observed",
+    "date": "2026-11-18",
+    "score": 7,
+    "outcome": "pass",
+    "notes": "Named one braided 100W cable with model number, seller and stock status and said why, inside the stated price ceiling."
   }
 ]

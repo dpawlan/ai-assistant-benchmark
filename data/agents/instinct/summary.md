@@ -384,3 +384,10 @@ _Updated 2026-11-16 weekday vault scan (+3 rows)._
 - (2026-11-15) @ZachDevDev: While driving, Instinct found parking via calendar event, paid, sent Waze link—hands-free.
 
 **Feedback rows:** 357 (as of 2026-11-16)
+
+_Updated 2026-11-18 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-18) @agentmomlife: ChatGPT browser control handles credit card cash-back; Instinct agent clips grocery coupons daily.
+
+**Feedback rows:** 358 (as of 2026-11-18)

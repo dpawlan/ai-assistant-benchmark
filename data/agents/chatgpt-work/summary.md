@@ -145,3 +145,11 @@ _Updated 2026-11-17 weekday vault scan (+8 rows)._
 - (2026-11-16) @Misha_su: Bug—versioned files fail to auto-write back to library; tools/call → HTTP 401 error.
 
 **Feedback rows:** 60 (as of 2026-11-17)
+
+_Updated 2026-11-18 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-17) @kkpeckk: "Am I the only one with the gut feeling that the mid-market won't adopt Claude Code, Cowork, Codex or ChatGPT Work?" (22 likes).
+- (2026-11-17) @AntarikshC: Bug—"whenever i ask dot to start a ChatGPT work thread, it just fails"; browser doesn't stay logged in.
+
+**Feedback rows:** 62 (as of 2026-11-18)

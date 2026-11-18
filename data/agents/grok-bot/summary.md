@@ -571,3 +571,22 @@ _Updated 2026-11-17 weekday vault scan (+11 rows)._
 - (2026-11-17) @qaisdotai: "i think hermes agent offers more value than grok bot" (4 likes).
 
 **Feedback rows:** 1541 (as of 2026-11-17)
+
+_Updated 2026-11-18 weekday vault scan (+13 rows)._
+
+**New this scan:**
+- (2026-11-18) @kursormaxx: Scam bot call story—Grok Bot picked up at 3:12 AM, two AIs talked for 47 min, scam bot got nothing (11 likes).
+- (2026-11-18) @yuvrajv5: "Grok Bot is fast, smart, and actually understands the tasks"—prefers over Claude; trying Hermes/OpenBot.
+- (2026-11-18) @BrotherHelmer: Asks about legacy Cursor Ultra vs new plan—"will I get more Grok bot or not more Grok bot if I swap?"
+- (2026-11-18) @EricFeigl: Feature request—disable Grok Bots from X Chat; redundant notifications.
+- (2026-11-18) @RossDavidT: Upgraded to pooled plan; running out of usage weekly.
+- (2026-11-18) @RockyRoad226: Used Grok Bot exclusively until usage issues forced looking elsewhere; app polish "really really good."
+- (2026-11-17) @OneHegemon: Bot management advice—Grok bot accurate and thorough but "creates massive inefficiency."
+- (2026-11-18) @roachnc1: Feature request—let Grok Bot use iPhone for photo library and iMessage access.
+- (2026-11-17) @MarcMPSGC: Feature request—separate Grok Bot from X Chat; unread indicator overlap.
+- (2026-11-17) @mingleby39: "Ask grok bot what more it can do"—team used Grok Bot to debug itself.
+- (2026-11-18) @testerlabor: "Grok Bot is my main reason now"—can also generate images and videos.
+- (2026-11-18) @xiParas: "Grok bot did a Pretty Good job wasn't expecting that!" HTML project praise.
+- (2026-11-18) @techwheel_co: "Meta's Muse agent is kind of cute... day-to-day agentic systems like Grok Bot and Meta Muse will have a net positive impact."
+
+**Feedback rows:** 1554 (as of 2026-11-18)

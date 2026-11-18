@@ -380,3 +380,19 @@ _Updated 2026-11-17 weekday vault scan (+8 rows)._
 - (2026-11-17) @TheNormVg: "I hate using hermis or OpenClaw Idk how people even used it fr, so bad."
 
 **Feedback rows:** 240 (as of 2026-11-17)
+
+_Updated 2026-11-18 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-17) @ravikp7: Alexa integration demo—reach Hermes agent through custom skill; mobile coding via Telegram (20 likes).
+- (2026-11-18) @PriyanshuMadan: Canceled Copilot Money; replaced with Hermes Agent build (4 likes).
+- (2026-11-18) @techtalentpod: Building new website with Hermes Agent.
+- (2026-11-17) @TheRevenantJS: Recommends Hermes Agent—"open source and they have a cloud option."
+- (2026-11-17) @Kelcee: "once you do life is just.." setup praise (2 likes).
+- (2026-11-18) @speteai: AIPowerGrid provider merged into Hermes plugin catalog; agents can run on community GPU network.
+- (2026-11-18) @Candljs: Pineapple poke-off test—handed prompt to Hermes, split between Fable 5.2 and Sol 6.2 Astra (9 likes).
+- (2026-11-18) @sovereignbrah: Solution for strict refusals—Hermes Agent with GLM 5.3 or Deepseek v4.1 Flash (8 likes).
+- (2026-11-18) @souly9999: Installed Hermes on Oracle VPS; asks about webui dashboard deprecation (2 likes).
+- (2026-11-18) @redpillclear: Suggests supporting older Intel Macs (Monterey); millions of cheap Mac Minis could run Hermes.
+
+**Feedback rows:** 250 (as of 2026-11-18)

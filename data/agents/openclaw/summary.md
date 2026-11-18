@@ -288,3 +288,10 @@ _Updated 2026-11-17 weekday vault scan (+6 rows)._
 - (2026-11-16) @LutzDave: Use case—"no more copying and pasting website sections for sharing context; it just all works seamlessly."
 
 **Feedback rows:** 139 (as of 2026-11-17)
+
+_Updated 2026-11-18 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-17) @heyneighbor: "Everyone knows @openclaw can control your computer. But did you know it can control as many devices as you want? Here's how Nodes work in OpenClaw" (140 likes).
+
+**Feedback rows:** 140 (as of 2026-11-18)

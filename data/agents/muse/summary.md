@@ -501,3 +501,16 @@ _Updated 2026-11-17 weekday vault scan (+4 rows)._
 - (2026-11-17) @AunySillyMe: "Have you used meta muse yet? It's practically free and it can do everything!!"
 
 **Feedback rows:** 413 (as of 2026-11-17)
+
+_Updated 2026-11-18 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-18) @strangebaaza: "My Meta Muse agent is so smart"—just released in Australia; figuring out what to do with it.
+- (2026-11-18) @techwheel_co: "Meta's Muse agent is kind of cute... feels like magic" (also tagged grok-bot).
+- (2026-11-18) @vbridgesruiz: "blown away... Not AGI. Not RSI. But powerful tech!"
+- (2026-11-17) @harden_369741: Secondhand report—Joe Thomas lawsuit; Meta filters locked Facebook pages for a week, lost $25k (2 likes).
+- (2026-11-18) @mmmik000: Feature request—voice call Muse inside WhatsApp, not just message.
+- (2026-11-18) @jfrancof: "Meta Muse is the Best Personal Agent" (1 like).
+- (2026-11-18) @eliminAIt: Day 1 Australia launch—setup easy; Sage drafted post; "just read & approved it."
+
+**Feedback rows:** 420 (as of 2026-11-18)

@@ -108,3 +108,13 @@ _Updated 2026-11-16 weekday vault scan (+4 rows)._
 - (2026-11-15) @Rohit_115: Everyone launched personal agents—Muse, Grok Bot, Dots, Duet—but Gemini Spark is useless; called 24/7 agent but not improved.
 
 **Feedback rows:** 36 (as of 2026-11-16)
+
+_Updated 2026-11-18 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-17) @dming: "Tasks and Gemini Spark have been out for a while. It just wasn't very good until maybe recently with the new Hydrogen model" (7 likes).
+- (2026-11-17) @alicekeeler: "Do you have the Gemini Spark in your Google Slides sidebar? Ask it to DO THINGS" (3 likes).
+- (2026-11-17) @NekDenis: "Now Tasks (aka Gemini Spark) are available in Gemini even for free and Plus tiers. And they are really helpful!" (4 likes).
+- (2026-11-17) @wayne_gakuo: "I've been using Tasks for a few months now, since it was called Gemini Spark and it's been pretty useful."
+
+**Feedback rows:** 40 (as of 2026-11-18)

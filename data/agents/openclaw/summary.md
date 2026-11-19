@@ -295,3 +295,15 @@ _Updated 2026-11-18 weekday vault scan (+1 row)._
 - (2026-11-17) @heyneighbor: "Everyone knows @openclaw can control your computer. But did you know it can control as many devices as you want? Here's how Nodes work in OpenClaw" (140 likes).
 
 **Feedback rows:** 140 (as of 2026-11-18)
+
+_Updated 2026-11-19 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-19) @SuperIntBrian: Complaint—after OpenClaw broke with every update, moved to Grok Bot; small team can't tolerate OpenClaw.
+- (2026-11-19) @farrux_hewson: Complaint—built PocketClaw because frustrated with OpenClaw; maintenance taking too long.
+- (2026-11-19) @rayzhudev: Use case—has OpenClaw talking to dots and Muse to orchestrate; "muse kinda annoying."
+- (2026-11-19) @maganaj1313: Comparison—VOOL used ~28× fewer tokens than OpenClaw, cost ~92.6% less.
+- (2026-11-19) @worshipbitcoin: "AI can now one shot triple-A games... But can it handle an openclaw update?" (6 likes).
+- (2026-11-19) @NixFred: Complaint—"Not a fan of the hermes and openclaw for normal day to day usage."
+
+**Feedback rows:** 146 (as of 2026-11-19)

@@ -498,38 +498,6 @@
       "imessage_handles": [],
       "_note": "Added 2026-09-10 from a request-form submission. Handles are best guesses; verify before collecting. Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
     },
-    "buoy": {
-      "name": "Buoy",
-      "handles": [
-        "buoychat",
-        "riccqi",
-        "ronithhh"
-      ],
-      "domain": "buoy.chat",
-      "x_queries": [
-        "\"buoy.chat\"",
-        "@buoychat",
-        "@riccqi",
-        "@ronithhh"
-      ],
-      "reddit_queries": [
-        "\"buoy.chat\"",
-        "\"buoy ai\""
-      ],
-      "hn_queries": [
-        "\"buoy.chat\"",
-        "\"buoy ai\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "buoy.chat",
-        "@buoychat",
-        "buoy ai"
-      ],
-      "imessage_handles": [],
-      "_note": " Generic product name: queries and match are domain/handle only (bare-name search pulled in unrelated posts on 2026-09-10)."
-    },
     "caddy": {
       "name": "Caddy",
       "handles": [
@@ -792,29 +760,6 @@
         "+16505098882"
       ],
       "_note": "Added 2026-10-23 after hands-on testing over iMessage. Common word: domain-only queries and match."
-    },
-    "del": {
-      "name": "Del",
-      "handles": [],
-      "domain": "withdel.com",
-      "x_queries": [
-        "\"withdel.com\""
-      ],
-      "reddit_queries": [
-        "\"withdel.com\""
-      ],
-      "hn_queries": [
-        "\"withdel.com\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "withdel.com"
-      ],
-      "imessage_handles": [
-        "+14158156344"
-      ],
-      "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
     },
     "dj-beebot": {
       "name": "DJ BeeBot",
@@ -1843,34 +1788,6 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-14 from a request-form submission. Domain/handle queries only; handles are best guesses."
-    },
-    "mitra": {
-      "name": "Mitra",
-      "handles": [
-        "mitra_run",
-        "samrithshankar"
-      ],
-      "domain": "mitra.run",
-      "x_queries": [
-        "\"mitra.run\"",
-        "@mitra_run",
-        "@samrithshankar"
-      ],
-      "reddit_queries": [
-        "\"mitra.run\""
-      ],
-      "hn_queries": [
-        "\"mitra.run\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "mitra.run",
-        "@mitra_run",
-        "mitra ai"
-      ],
-      "imessage_handles": [],
-      "_note": "Added 2026-09-13 from a request-form submission. Domain/handle queries only; handles are best guesses."
     },
     "moldable": {
       "name": "Moldable",
@@ -3428,27 +3345,6 @@
       ],
       "imessage_handles": [],
       "_note": "Added 2026-09-24 from a request-form submission (issue #374). Domain/handle queries only."
-    },
-    "trybutler": {
-      "name": "Butler",
-      "handles": [],
-      "domain": "trybutler.xyz",
-      "x_queries": [
-        "\"trybutler.xyz\""
-      ],
-      "reddit_queries": [
-        "\"trybutler.xyz\""
-      ],
-      "hn_queries": [
-        "\"trybutler.xyz\""
-      ],
-      "appstore_ids": [],
-      "ph_slug": null,
-      "match": [
-        "trybutler.xyz"
-      ],
-      "imessage_handles": [],
-      "_note": "Added 2026-09-15 from a request-form submission. Domain/handle queries only; handles are best guesses."
     },
     "turnpanel": {
       "name": "TurnPanel",

@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-17",
-  "agent_count": 144,
-  "feedback_count": 5663,
-  "confirmed": 117,
+  "updated": "2026-11-19",
+  "agent_count": 138,
+  "feedback_count": 5646,
+  "confirmed": 111,
   "stretch": 27,
   "agents": [
     {
@@ -421,26 +421,6 @@
       }
     },
     {
-      "slug": "buoy",
-      "name": "Buoy",
-      "status": "confirmed",
-      "site": "https://buoy.chat/",
-      "feedback_count": 17,
-      "public_signal": "low",
-      "tagline": "iOS assistant that runs web apps and scheduled tasks",
-      "icon": "/logos/buoy.png",
-      "kind": "general",
-      "access": {
-        "pricing": "waitlist",
-        "price": "Waitlist (TestFlight)",
-        "regions": "Not stated",
-        "channels": [
-          "iOS app"
-        ],
-        "checked": "2026-09-09"
-      }
-    },
-    {
       "slug": "caddy",
       "name": "Caddy",
       "status": "confirmed",
@@ -651,26 +631,6 @@
           "MCP"
         ],
         "checked": "2026-10-23"
-      }
-    },
-    {
-      "slug": "del",
-      "name": "Del",
-      "status": "confirmed",
-      "site": "https://www.withdel.com/",
-      "feedback_count": 0,
-      "public_signal": "low",
-      "tagline": "Your digital handyman",
-      "icon": "/logos/del.png",
-      "kind": "general",
-      "access": {
-        "pricing": "unknown",
-        "price": "Two-week free trial; price after that not stated",
-        "regions": "Not stated",
-        "channels": [
-          "SMS"
-        ],
-        "checked": "2026-09-14"
       }
     },
     {
@@ -1253,28 +1213,6 @@
       }
     },
     {
-      "slug": "iris",
-      "name": "Iris",
-      "status": "confirmed",
-      "site": "https://iris-agent.co/",
-      "feedback_count": 0,
-      "public_signal": "low",
-      "tagline": "A personal AI assistant you text, built on Hermes Agent",
-      "icon": "/logos/iris.png",
-      "kind": "general",
-      "access": {
-        "pricing": "freemium",
-        "price": "Free · Plus $19/mo · Teams custom",
-        "regions": "US number",
-        "channels": [
-          "iMessage",
-          "SMS",
-          "Web"
-        ],
-        "checked": "2026-09-19"
-      }
-    },
-    {
       "slug": "joshu",
       "name": "Joshu",
       "status": "confirmed",
@@ -1681,26 +1619,6 @@
       }
     },
     {
-      "slug": "mitra",
-      "name": "Mitra",
-      "status": "confirmed",
-      "site": "https://mitra.run/",
-      "feedback_count": 0,
-      "public_signal": "low",
-      "tagline": "The AI companion that gets work done",
-      "icon": "/logos/mitra.png",
-      "kind": "work",
-      "access": {
-        "pricing": "freemium",
-        "price": "Free to start (200 credits, no card); then per run",
-        "regions": "Not stated",
-        "channels": [
-          "Web app"
-        ],
-        "checked": "2026-09-13"
-      }
-    },
-    {
       "slug": "moldable",
       "name": "Moldable",
       "status": "stretch",
@@ -1846,26 +1764,6 @@
           "iOS app"
         ],
         "checked": "2026-09-29"
-      }
-    },
-    {
-      "slug": "odessia",
-      "name": "Odessia",
-      "status": "confirmed",
-      "site": "https://odessia.com/",
-      "feedback_count": 0,
-      "public_signal": "low",
-      "tagline": "An AI travel agent that plans and books the whole trip in one conversation",
-      "icon": "/logos/odessia.png",
-      "kind": "travel",
-      "access": {
-        "pricing": "free",
-        "price": "Free to use; commission on bookings",
-        "regions": "Not stated",
-        "channels": [
-          "Web"
-        ],
-        "checked": "2026-09-19"
       }
     },
     {
@@ -3006,28 +2904,6 @@
           "Web app"
         ],
         "checked": "2026-09-24"
-      }
-    },
-    {
-      "slug": "trybutler",
-      "name": "Butler",
-      "status": "confirmed",
-      "site": "https://trybutler.xyz/",
-      "feedback_count": 0,
-      "public_signal": "low",
-      "tagline": "Not a to-do app. A to-done app.",
-      "icon": "/logos/trybutler.png",
-      "kind": "general",
-      "access": {
-        "pricing": "freemium",
-        "price": "Free credits to start · Starter (200 credits/mo) · Pro (500 credits/mo) · one-time packs; dollar prices shown only in the App Store",
-        "regions": "Not stated",
-        "channels": [
-          "Web app",
-          "iOS app",
-          "Email"
-        ],
-        "checked": "2026-09-15"
       }
     },
     {

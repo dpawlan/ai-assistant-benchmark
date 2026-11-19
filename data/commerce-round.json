@@ -1,0 +1,781 @@
+{
+  "source": "https://claude.ai/artifact/DM2q8C6ZPD5UY4irQyniWx#b72bd10d-e7f1",
+  "sourceTitle": "Commerce Round Summary",
+  "asOf": "2026-11-18",
+  "agents": 25,
+  "attempts": 200,
+  "classifiedAttempts": 200,
+  "unclassifiedAttempts": 0,
+  "outcomes": [
+    {
+      "key": "blocked",
+      "label": "Blocked before payment",
+      "count": 72,
+      "color": "#94a3b8",
+      "detail": "A site block, bot wall or sign-in wall stopped the purchase before payment."
+    },
+    {
+      "key": "reported",
+      "label": "Failed in app",
+      "count": 55,
+      "color": "#475569",
+      "detail": "The purchase did not complete in the app."
+    },
+    {
+      "key": "declined",
+      "label": "Payment declined",
+      "count": 13,
+      "color": "#dc5665",
+      "detail": "The purchase reached payment, but the retailer declined it."
+    },
+    {
+      "key": "incomplete",
+      "label": "Incomplete",
+      "count": 24,
+      "color": "#6278dc",
+      "detail": "Checkout stopped at a wallet connection, an approval or a missing detail."
+    },
+    {
+      "key": "cancelled",
+      "label": "Cancelled or refunded",
+      "count": 8,
+      "color": "#e7a644",
+      "detail": "The retailer initially confirmed the order, then cancelled or refunded it."
+    },
+    {
+      "key": "accepted",
+      "label": "Accepted",
+      "count": 28,
+      "color": "#168367",
+      "detail": "The order was placed and accepted by the retailer."
+    }
+  ],
+  "stores": [
+    {
+      "name": "Amazon",
+      "attempts": 25,
+      "outcomes": [
+        10,
+        13,
+        0,
+        2,
+        0,
+        0
+      ],
+      "note": "No accepted orders across 25 shopping attempts."
+    },
+    {
+      "name": "Target",
+      "attempts": 25,
+      "outcomes": [
+        17,
+        6,
+        0,
+        1,
+        0,
+        1
+      ],
+      "note": "One accepted order. Champion socks arrived instead of the requested Nike socks; checkout involved human support."
+    },
+    {
+      "name": "Nike",
+      "attempts": 25,
+      "outcomes": [
+        6,
+        6,
+        10,
+        1,
+        0,
+        2
+      ],
+      "note": "Zapia and Robyn placed accepted orders."
+    },
+    {
+      "name": "Dick’s",
+      "attempts": 25,
+      "outcomes": [
+        9,
+        6,
+        0,
+        4,
+        2,
+        4
+      ],
+      "note": "Four accepted orders. One delivery had the wrong color; another was returned after a delivery failure."
+    },
+    {
+      "name": "Kohl’s",
+      "attempts": 25,
+      "outcomes": [
+        12,
+        6,
+        0,
+        5,
+        0,
+        2
+      ],
+      "note": "GrokBot and Zapia placed accepted orders."
+    },
+    {
+      "name": "Macy’s",
+      "attempts": 25,
+      "outcomes": [
+        11,
+        9,
+        0,
+        0,
+        4,
+        1
+      ],
+      "note": "Five orders were confirmed, but four were cancelled. Caddy’s order stood."
+    },
+    {
+      "name": "Open-choice cable",
+      "attempts": 25,
+      "outcomes": [
+        3,
+        4,
+        0,
+        6,
+        2,
+        10
+      ],
+      "note": "Ten accepted orders. Four came after a store switch."
+    },
+    {
+      "name": "Open-choice flowers",
+      "attempts": 25,
+      "outcomes": [
+        4,
+        5,
+        3,
+        5,
+        0,
+        8
+      ],
+      "note": "Eight accepted flower orders across 25 assistants."
+    }
+  ],
+  "otherStores": [],
+  "orders": [
+    {
+      "agent": "Instinct",
+      "slug": "instinct",
+      "store": "Amazon / Whole Foods",
+      "total": 32.15,
+      "minutes": 17,
+      "agentMinutes": 14,
+      "outcome": "Delivered",
+      "note": "Flower order completed using the tester’s Amazon account and sign-in codes."
+    },
+    {
+      "agent": "Kicker",
+      "slug": "kicker",
+      "store": "Amazon",
+      "total": null,
+      "minutes": 52,
+      "agentMinutes": null,
+      "outcome": "Accepted",
+      "note": "Flower order completed in the tester’s own browser."
+    },
+    {
+      "agent": "Tomo",
+      "slug": "tomo",
+      "store": "Anker",
+      "total": 23.94,
+      "minutes": 8,
+      "outcome": "Delivered",
+      "note": "Paid through Link after approval.",
+      "agentMinutes": 7
+    },
+    {
+      "agent": "Instinct",
+      "slug": "instinct",
+      "store": "Anker",
+      "total": 23.94,
+      "minutes": 18,
+      "outcome": "Delivered",
+      "note": "A duplicate order was detected and refunded.",
+      "agentMinutes": 16
+    },
+    {
+      "agent": "Tab",
+      "slug": "tab",
+      "store": "B&H",
+      "total": 27.15,
+      "minutes": 40,
+      "outcome": "Delivered with disclosed substitution",
+      "note": "Switched to a Belkin cable at B&H and disclosed the change.",
+      "agentMinutes": 23
+    },
+    {
+      "agent": "szn",
+      "slug": "szn",
+      "store": "Best Buy / AnkerDirect",
+      "total": 10.88,
+      "minutes": 29,
+      "outcome": "Returned and refunded",
+      "note": "Returned after a delivery failure; refunded in full.",
+      "agentMinutes": 27
+    },
+    {
+      "agent": "Caddy",
+      "slug": "caddy",
+      "store": "Anker",
+      "total": 16.89,
+      "minutes": 24,
+      "outcome": "Delivered",
+      "note": "24 minutes after wallet setup.",
+      "agentMinutes": 24
+    },
+    {
+      "agent": "Wajo",
+      "slug": "wajo-fo",
+      "store": "Dick’s",
+      "total": 34.96,
+      "minutes": 20,
+      "outcome": "Returned; item price refunded",
+      "note": "Item price refunded; shipping was not.",
+      "agentMinutes": 20
+    },
+    {
+      "agent": "Caddy",
+      "slug": "caddy",
+      "store": "Macy’s",
+      "total": 32.94,
+      "minutes": 13,
+      "outcome": "Not merchant-cancelled",
+      "note": "Billing address was set incorrectly.",
+      "agentMinutes": 12
+    },
+    {
+      "agent": "Hark",
+      "slug": "hark",
+      "store": "Dick’s",
+      "total": 25.96,
+      "minutes": 59,
+      "outcome": "Delivered; wrong color",
+      "note": "White requested; multicolor delivered.",
+      "agentMinutes": 10
+    },
+    {
+      "agent": "Dazzle",
+      "slug": "dazzle",
+      "store": "Target",
+      "total": 20.99,
+      "minutes": 49,
+      "outcome": "Delivered; different brand",
+      "note": "Nike requested; Champion delivered. Human-assisted checkout.",
+      "agentMinutes": 46
+    },
+    {
+      "agent": "Muse",
+      "slug": "muse",
+      "store": "Dick’s",
+      "total": 39.99,
+      "minutes": null,
+      "outcome": "Delivered",
+      "note": "Delivered.",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Zapia",
+      "slug": "zapia",
+      "store": "Nike",
+      "total": null,
+      "minutes": null,
+      "outcome": "Delivered",
+      "note": "Delivered.",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Robyn",
+      "slug": null,
+      "store": "Nike",
+      "total": 38.71,
+      "minutes": 9,
+      "outcome": "Accepted; awaiting delivery",
+      "note": "The tester entered the card details.",
+      "agentMinutes": 8
+    },
+    {
+      "agent": "Sones",
+      "slug": "sones",
+      "store": "Anker",
+      "total": 23.94,
+      "minutes": 8,
+      "outcome": "Accepted; awaiting delivery",
+      "note": "Awaiting delivery.",
+      "agentMinutes": 8
+    },
+    {
+      "agent": "Hark",
+      "slug": "hark",
+      "store": "Anker",
+      "total": 23.94,
+      "minutes": 161,
+      "outcome": "Accepted; awaiting delivery",
+      "note": "Approval missed; ordered after two nudges.",
+      "agentMinutes": 65
+    },
+    {
+      "agent": "Market",
+      "slug": "market",
+      "store": "Not recorded",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "",
+      "agentMinutes": null
+    },
+    {
+      "agent": "GrokBot",
+      "slug": "grok-bot",
+      "store": "Not recorded",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "Completed after four store routes.",
+      "agentMinutes": null
+    },
+    {
+      "agent": "GrokBot",
+      "slug": "grok-bot",
+      "store": "Kohl’s",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Zapia",
+      "slug": "zapia",
+      "store": "Dick’s",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Zapia",
+      "slug": "zapia",
+      "store": "Kohl’s",
+      "total": 31.6,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Zapia",
+      "slug": "zapia",
+      "store": "Not recorded",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Hark",
+      "slug": "hark",
+      "store": "Not recorded",
+      "total": null,
+      "minutes": null,
+      "outcome": "Accepted",
+      "note": "First vendor.",
+      "agentMinutes": null
+    },
+    {
+      "agent": "Sones",
+      "slug": "sones",
+      "store": "From You Flowers",
+      "total": 42.43,
+      "minutes": 94,
+      "outcome": "Accepted above original cap",
+      "note": "The tester raised the cap from $40 to $43. Time includes 73 minutes waiting for approval.",
+      "agentMinutes": 21
+    },
+    {
+      "agent": "Dazzle",
+      "slug": "dazzle",
+      "store": "Instacart",
+      "total": 31.53,
+      "minutes": null,
+      "agentMinutes": null,
+      "outcome": "Accepted",
+      "note": "Flower delivery confirmed by tester on November 18. Human-assisted checkout."
+    },
+    {
+      "agent": "Muse",
+      "slug": "muse",
+      "store": "Florist",
+      "total": null,
+      "minutes": null,
+      "agentMinutes": null,
+      "outcome": "Accepted",
+      "note": "Flower delivery confirmed by tester on November 18."
+    },
+    {
+      "agent": "Zapia",
+      "slug": "zapia",
+      "store": "Florist",
+      "total": null,
+      "minutes": null,
+      "agentMinutes": null,
+      "outcome": "Accepted",
+      "note": "Flower delivery confirmed by tester on November 18."
+    },
+    {
+      "agent": "GrokBot",
+      "slug": "grok-bot",
+      "store": "Florist",
+      "total": null,
+      "minutes": null,
+      "agentMinutes": null,
+      "outcome": "Accepted",
+      "note": "Flower delivery confirmed by tester on November 18."
+    }
+  ],
+  "tasks": 8,
+  "agentResults": [
+    {
+      "name": "Zapia",
+      "accepted": 5,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 3
+    },
+    {
+      "name": "Hark",
+      "accepted": 3,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 5
+    },
+    {
+      "name": "GrokBot",
+      "accepted": 3,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 5
+    },
+    {
+      "name": "Instinct",
+      "accepted": 2,
+      "cancelled": 1,
+      "incomplete": 0,
+      "failed": 5
+    },
+    {
+      "name": "Caddy",
+      "accepted": 2,
+      "cancelled": 0,
+      "incomplete": 1,
+      "failed": 5
+    },
+    {
+      "name": "Sones",
+      "accepted": 2,
+      "cancelled": 0,
+      "incomplete": 1,
+      "failed": 5
+    },
+    {
+      "name": "Dazzle",
+      "accepted": 2,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 6
+    },
+    {
+      "name": "Muse",
+      "accepted": 2,
+      "cancelled": 1,
+      "incomplete": 0,
+      "failed": 5
+    },
+    {
+      "name": "Tomo",
+      "accepted": 1,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 7
+    },
+    {
+      "name": "Tab",
+      "accepted": 1,
+      "cancelled": 2,
+      "incomplete": 2,
+      "failed": 3
+    },
+    {
+      "name": "szn",
+      "accepted": 1,
+      "cancelled": 2,
+      "incomplete": 2,
+      "failed": 3
+    },
+    {
+      "name": "Kicker",
+      "accepted": 1,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 7
+    },
+    {
+      "name": "Wajo",
+      "accepted": 1,
+      "cancelled": 1,
+      "incomplete": 2,
+      "failed": 4
+    },
+    {
+      "name": "Market",
+      "accepted": 1,
+      "cancelled": 0,
+      "incomplete": 1,
+      "failed": 6
+    },
+    {
+      "name": "Robyn",
+      "accepted": 1,
+      "cancelled": 0,
+      "incomplete": 2,
+      "failed": 5
+    },
+    {
+      "name": "Pally",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 5,
+      "failed": 3
+    },
+    {
+      "name": "Folk",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 1,
+      "failed": 7
+    },
+    {
+      "name": "Quest",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 8
+    },
+    {
+      "name": "Rene",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 2,
+      "failed": 6
+    },
+    {
+      "name": "Aloe (Skydive)",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 3,
+      "failed": 5
+    },
+    {
+      "name": "Airtap",
+      "accepted": 0,
+      "cancelled": 1,
+      "incomplete": 1,
+      "failed": 6
+    },
+    {
+      "name": "Catch",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 1,
+      "failed": 7
+    },
+    {
+      "name": "Claude Duet",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 8
+    },
+    {
+      "name": "Frida",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 8
+    },
+    {
+      "name": "Poke",
+      "accepted": 0,
+      "cancelled": 0,
+      "incomplete": 0,
+      "failed": 8
+    }
+  ],
+  "cableRoutes": [
+    {
+      "label": "First store",
+      "count": 4
+    },
+    {
+      "label": "After a switch",
+      "count": 4
+    },
+    {
+      "label": "Route not recorded",
+      "count": 2
+    }
+  ],
+  "flowerRoutes": {
+    "vendorsTried": 68,
+    "testerRedirects": 49,
+    "workflowsRedirected": 20
+  },
+  "taskDescriptions": [
+    "Computer mouse from Amazon",
+    "White socks from Target",
+    "Nike socks from Nike",
+    "Nike socks from Dick’s",
+    "Nike socks from Kohl’s",
+    "Nike socks from Macy’s",
+    "USB-C cable under $35, any retailer",
+    "Flowers under $40, any retailer"
+  ],
+  "scoringRule": "Each assistant contributes one scored outcome per task. Completed purchases take precedence over unsuccessful attempts.",
+  "methods": {
+    "goal": "Can an AI assistant turn a shopping request into an accepted order—and what happens when checkout, payment or delivery gets in the way?",
+    "login": "On open-choice tasks, we directed assistants toward guest checkout when sign-in blocked progress.",
+    "scope": "25 assistants, eight shopping tasks each, 200 scored outcomes. Six tasks specified the retailer; two let the assistant choose the store.",
+    "timing": "Elapsed time runs from the request to confirmation and includes approval waits. Agent working time subtracts time waiting for tester replies.",
+    "acceptance": "Accepted means an order was placed and was not cancelled by the merchant at the payment stage.",
+    "human": "Payment setup, approval and card entry could require tester input. Dazzle uses human-assisted checkout rather than browser automation, so its result represents a different completion route.",
+    "taskBriefs": [
+      {
+        "task": "Computer mouse from Amazon",
+        "brief": "Buy a computer mouse from Amazon; reach checkout and complete the purchase.",
+        "goal": "Retailer access and checkout",
+        "prompt": "Help me buy one new Logitech M170 wireless mouse, black, with its USB receiver, from Amazon. Deliver to same address. Confirm the cart before you checkout."
+      },
+      {
+        "task": "White socks from Target",
+        "brief": "Buy white socks from Target. The original task requested Nike; Target clothing requests changed later in the round.",
+        "goal": "Retailer access and product accuracy",
+        "prompt": "Buy me white Nike socks from Target, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward."
+      },
+      {
+        "task": "Nike socks from Nike",
+        "brief": "Buy Nike socks directly from Nike.",
+        "goal": "Checkout and payment acceptance",
+        "prompt": "Buy me white Nike socks from Nike, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward."
+      },
+      {
+        "task": "Nike socks from Dick’s",
+        "brief": "Buy Nike socks from Dick’s Sporting Goods.",
+        "goal": "Checkout, billing and correct variant",
+        "prompt": "Buy me white Nike socks from Dick’s, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward."
+      },
+      {
+        "task": "Nike socks from Kohl’s",
+        "brief": "Buy Nike socks from Kohl’s.",
+        "goal": "Retailer access and checkout",
+        "prompt": "Buy me white Nike socks from Kohl’s, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward."
+      },
+      {
+        "task": "Nike socks from Macy’s",
+        "brief": "Buy Nike socks from Macy’s.",
+        "goal": "Order confirmation and subsequent cancellation",
+        "prompt": "Buy me white Nike socks from Macy’s, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward."
+      },
+      {
+        "task": "USB-C cable under $35, any retailer",
+        "brief": "Choose a store and buy a USB-C cable within a $35 budget.",
+        "goal": "Store choice and recovery after a blocker",
+        "prompt": "I need one new USB-C cord. My budget is $30 after tax and shipping, with a $35 maximum total delivered to my office. I have no preferred brand or store. Show the exact model, seller, product link, availability and delivery estimate."
+      },
+      {
+        "task": "Flowers under $40, any retailer",
+        "brief": "Choose a vendor and buy flowers for same-day delivery within a $40 budget.",
+        "goal": "Vendor choice, guest checkout and delivery",
+        "prompt": "Buy me flowers, cheap as you can find, deliver to my and home address and only do self checkout."
+      }
+    ],
+    "prompts": {
+      "socks": "Buy me white Nike socks from STORE, preferably under $30. Deliver it to my same address. Confirm the cart before moving forward.",
+      "amazon": "Help me buy one new Logitech M170 wireless mouse, black, with its USB receiver, from Amazon. Deliver to same address. Confirm the cart before you checkout.",
+      "cable": "I need one new USB-C cord. My budget is $30 after tax and shipping, with a $35 maximum total delivered to my office. I have no preferred brand or store. Show the exact model, seller, product link, availability and delivery estimate.",
+      "flowers": "Buy me flowers, cheap as you can find, deliver to my and home address and only do self checkout."
+    },
+    "intro": "We gave 25 assistants eight shopping tasks each: six at named retailers and two where they chose the store. We asked them to confirm the cart before checkout, then recorded order acceptance, cancellations and what arrived."
+  },
+  "findings": {
+    "billing": "When using a new credit card, the agents used the shipping address as the billing address without asking the user to confirm it. Dick’s cancelled both orders because the addresses did not match the card’s billing details.",
+    "choiceMetrics": [
+      {
+        "value": "40%",
+        "title": "Cable requests ended in an accepted order"
+      },
+      {
+        "value": "16%",
+        "title": "Flower requests ended in an accepted order"
+      },
+      {
+        "value": "80%",
+        "title": "Flower runs needed user guidance to try another store after a blocker"
+      }
+    ],
+    "accuracyTitle": "Two sock orders arrived with a different brand or color."
+  },
+  "productReferences": [
+    {
+      "retailer": "Target",
+      "requested": "Nike socks",
+      "received": "Champion socks",
+      "image": "/images/commerce/champion-white-socks.jpg",
+      "alt": "White Champion low-cut socks",
+      "source": "https://www.target.com/p/-/A-94580330"
+    },
+    {
+      "retailer": "Dick’s",
+      "requested": "White socks",
+      "received": "Beige multicolor Nike pack",
+      "image": "/images/commerce/nike-beige-multicolor.png",
+      "alt": "Beige Nike socks with the beige, tan and earth-tone pack variants",
+      "source": "https://www.nike.com/t-dark/everyday-plus-cushioned-training-crew-socks-6-pairs-xGOLbiOE/SX6897-904"
+    }
+  ],
+  "selectionHabits": {
+    "rows": [
+      {
+        "label": "Accepted orders (total)",
+        "cable": 10,
+        "flowers": 8
+      },
+      {
+        "label": "Accepted at the first chosen store",
+        "cable": 6,
+        "flowers": 6
+      },
+      {
+        "label": "Accepted after a checkout blocker and user redirection",
+        "cable": 4,
+        "flowers": 2
+      },
+      {
+        "label": "No accepted order",
+        "cable": 15,
+        "flowers": 17
+      }
+    ],
+    "flowerGuidance": "20 of 25 flower runs needed a user prompt after checkout was blocked.",
+    "cableFirst": "Six cable orders succeeded on the first try; four were from Anker direct.",
+    "flowerFirst": "Eight assistants first proposed a service requiring sign-in, such as Instacart, DoorDash or Amazon.",
+    "cableNotAccepted": "7 failed, 6 were incomplete and 2 were canceled after confirmation.",
+    "flowersNotAccepted": "12 failed and 5 were incomplete.",
+    "guidanceCountCable": null
+  }
+}

@@ -118,3 +118,14 @@ _Updated 2026-11-18 weekday vault scan (+4 rows)._
 - (2026-11-17) @wayne_gakuo: "I've been using Tasks for a few months now, since it was called Gemini Spark and it's been pretty useful."
 
 **Feedback rows:** 40 (as of 2026-11-18)
+
+_Updated 2026-11-19 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-18) @rosebud_qubit: Praise—"Just work your ass off for tasks in gemini, the automations are-great, loving it."
+- (2026-11-18) @GeminiApp: News—Tasks in Gemini can now run on Neon, working through complex jobs more quickly (85 likes).
+- (2026-11-19) @pulpmatrix: News—Tasks in Gemini free in six countries; was $19.99/mo behind AI Pro; no published free-tier caps.
+- (2026-11-19) @KiranAIGrowth: News—Google Tasks free in India but advanced features (calls, texts, payments) US-only.
+- (2026-11-18) @waleedq_dev: Google's post on Tasks—bots were blocked by default; "Always allow" turns per-purchase check into standing consent.
+
+**Feedback rows:** 45 (as of 2026-11-19)

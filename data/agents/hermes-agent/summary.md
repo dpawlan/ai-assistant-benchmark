@@ -396,3 +396,15 @@ _Updated 2026-11-18 weekday vault scan (+10 rows)._
 - (2026-11-18) @redpillclear: Suggests supporting older Intel Macs (Monterey); millions of cheap Mac Minis could run Hermes.
 
 **Feedback rows:** 250 (as of 2026-11-18)
+
+_Updated 2026-11-19 weekday vault scan (+6 rows)._
+
+**New this scan:**
+- (2026-11-19) @pablothethinker: Use case—Qwen4 Max + Hermes Agent built server fleet display with status updates while away.
+- (2026-11-18) @kzariajg: Comparison—Hermes agent setup usually better in every point vs Grok Bot; better models, computer use, all features.
+- (2026-11-19) @0xdierich: News—Qwen 4 Max is FREE inside Hermes Agent; close to Gemini 4 Neon and Fable 5.2 (12 likes).
+- (2026-11-18) @alexcovo_eth: Use case—has Fable 5.2 prompt OpenAI models through Hermes-Agent mostly.
+- (2026-11-19) @maganaj1313: Comparison—VOOL used ~37× fewer tokens than Hermes, cost ~90.8% less, only 2–3 points lower score.
+- (2026-11-19) @NixFred: Complaint—"Not a fan of the hermes and openclaw for normal day to day usage."
+
+**Feedback rows:** 256 (as of 2026-11-19)

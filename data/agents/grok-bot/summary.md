@@ -590,3 +590,14 @@ _Updated 2026-11-18 weekday vault scan (+13 rows)._
 - (2026-11-18) @techwheel_co: "Meta's Muse agent is kind of cute... day-to-day agentic systems like Grok Bot and Meta Muse will have a net positive impact."
 
 **Feedback rows:** 1554 (as of 2026-11-18)
+
+_Updated 2026-11-19 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-19) @Texas_Twins_Dad: "I asked Grok Bot to build an interactive 3D sphere... You can start a completely new business with Grok Bot" (27 likes).
+- (2026-11-19) @abdurrahmanregi: Feature request—Grok Bot needs to talk (not just write) in Teams meetings; access other machines.
+- (2026-11-19) @paraclyst: Feature request—allow connecting two GitHub accounts (professional and personal) simultaneously.
+- (2026-11-18) @kzariajg: Comparison—wants to upgrade for Grok Bot but Hermes agent setup usually better in every point.
+- (2026-11-19) @SuperIntBrian: Complaint—after OpenClaw broke with every update, moved to Grok Bot; small team can't tolerate OpenClaw in production.
+
+**Feedback rows:** 1559 (as of 2026-11-19)

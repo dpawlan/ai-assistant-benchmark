@@ -129,3 +129,14 @@ _Updated 2026-11-19 weekday vault scan (+5 rows)._
 - (2026-11-18) @waleedq_dev: Google's post on Tasks—bots were blocked by default; "Always allow" turns per-purchase check into standing consent.
 
 **Feedback rows:** 45 (as of 2026-11-19)
+
+_Updated 2026-11-20 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-19) @GeminiApp: Let Tasks in Gemini tackle your to-do list. At our next Gemini Discord event, a member of our team will demo how Tasks in Gemini can help (331 likes).
+- (2026-11-20) @brij_fi: Tasks in Gemini can now check out with Google Pay, using the Agent Payments Protocol (AP2).
+- (2026-11-19) @techcity_hq: Google made Tasks in Gemini free. The fine print: having it call a business needs a Pixel 10 or 11, a US SIM and a paid plan.
+- (2026-11-20) @chrispapa: Google is rolling out free Tasks in Gemini in six countries. Scheduling an appointment is a good UX test.
+- (2026-11-19) @Kingfish737: Google's Gemini can now sit on hold for you 📞 Tasks in Gemini is free, and in the US it can call businesses and check out with Google Pay.
+
+**Feedback rows:** 50 (as of 2026-11-20)

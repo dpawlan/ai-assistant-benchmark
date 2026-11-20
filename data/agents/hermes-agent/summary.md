@@ -408,3 +408,18 @@ _Updated 2026-11-19 weekday vault scan (+6 rows)._
 - (2026-11-19) @NixFred: Complaint—"Not a fan of the hermes and openclaw for normal day to day usage."
 
 **Feedback rows:** 256 (as of 2026-11-19)
+
+_Updated 2026-11-20 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-11-20) @real_kukuruza: Telegram's Dictator asks before sending messages by default. @testingcatalog reports it may run on Hermes Agent.
+- (2026-11-20) @Dave_Parke: Created a Hermes agent that focuses on OSINT and regularly checks GitHub for new repos; created a Hermes agent to help with writing.
+- (2026-11-20) @OG_PH: I LOVE HERMES AGENT..
+- (2026-11-20) @CobusGreylingZA: Hermes Agent inside Teams!
+- (2026-11-20) @StatsWire: You can use gemini models in hermes agent with your subscription.
+- (2026-11-20) @chibafx: Hermes Agent Enterprise | Microsoft Marketplace.
+- (2026-11-20) @artale93: my hermes agent merged fl + ableton.
+- (2026-11-19) @H8notme_AI: Hermes or openclaw i'm really confused and keep swapping between them?
+- (2026-11-19) @JesseJstreet: I ran a Hermes agent alongside my OpenClaw for a while, but it was just dumb on a fairly decent model and ended up shutting it down.
+
+**Feedback rows:** 265 (as of 2026-11-20)

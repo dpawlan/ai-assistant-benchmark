@@ -2643,5 +2643,117 @@
     "source": "x",
     "collected_at": "2026-11-19",
     "notes": "@alexokita Not a fan of the hermes and openclaw for normal day to day usage b..."
+  },
+  {
+    "id": "2123451069208707422",
+    "agent": "openclaw",
+    "quote": "Hermes or openclaw i’m really confused and keep swapping between them?\n#HermesAgent #openclaw #ai",
+    "author": "H8notme_AI",
+    "author_name": "H8notme Ai",
+    "date": "2026-11-19",
+    "url": "https://x.com/H8notme_AI/status/2123451069208707422",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123477278977847387",
+    "agent": "openclaw",
+    "quote": "If an OpenClaw agent is deleting mail or files, send /stop in the chat. OpenClaw's docs say that aborts the current run. Plain \"stop\" is just another message to the model. If /stop fails, stop the macOS app or the openclaw gateway process.\n\nGuide:",
+    "author": "ismyagentsafe",
+    "author_name": "Is My Agent Safe",
+    "date": "2026-11-19",
+    "url": "https://x.com/ismyagentsafe/status/2123477278977847387",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123451968031260892",
+    "agent": "openclaw",
+    "quote": "A couple of these Obsidian / OpenClaw workflows have been really handy for me.",
+    "author": "KenMazaika",
+    "author_name": "Ken Mazaika",
+    "date": "2026-11-19",
+    "url": "https://x.com/KenMazaika/status/2123451968031260892",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123511556918886848",
+    "agent": "openclaw",
+    "quote": "My setup is similar. I have an OpenClaw agent on a dedicated Mac, and its own iCloud, and Google account. I ran a Hermes agent alongside my OpenClaw for a while, but it was just dumb on a fairly decent model and ended up shutting it down in favor of OpenClaw running OpenAI models. Most of my heavy agent work now is in Grok Bot and my Muse agent handles day to day 'personal assistant' stuff. I moved of Obsidian (no web access to notes) in favor of Notion that all of my agents use.",
+    "author": "JesseJstreet",
+    "author_name": "Jesse Mendoza",
+    "date": "2026-11-19",
+    "url": "https://x.com/JesseJstreet/status/2123511556918886848",
+    "kind": "use-case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123553148748829181",
+    "agent": "openclaw",
+    "quote": "Claws are great for a lot of things. Typing isn't one of them.\n\nSo box by Simular (@simularbox) gives your @openclaw agent a computer of its own, now on ClawHub:\nopenclaw plugins install @simular-ai/openclaw-box\n\nSign in once and it gets state-of-the-art computer use: it finds the buttons on screen and runs a whole plan of clicks in one call. Faster, and far fewer tokens.\n\nSetup below.",
+    "author": "SimularAI",
+    "author_name": "Simular",
+    "date": "2026-11-19",
+    "url": "https://x.com/SimularAI/status/2123553148748829181",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": "Product/feature news."
+  },
+  {
+    "id": "2123457468403708321",
+    "agent": "openclaw",
+    "quote": "You can run @openclaw on @coolifyio @heyandras behind an AI firewall 👇\n\nOne Compose file starts OpenClaw and the ControlClaw firewall. The firewall is OpenClaw's only way to the internet, and every request shows in its panel.\n\nThe firewall's AI checks requests against rules in plain English, like \"Approve reads and new pull requests. Never deletes or force pushes.\"\ncc @\n\nStep by step guide 👉 https://t.co/LnMW5xkXit",
+    "author": "madarco",
+    "author_name": "Marco D'Alia",
+    "date": "2026-11-19",
+    "url": "https://x.com/madarco/status/2123457468403708321",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": "Product/feature news."
+  },
+  {
+    "id": "2123545336857894922",
+    "agent": "openclaw",
+    "quote": "#MSIgnite @AMD had the best costume at Ignite! They run a workshop for how to run @openclaw  with AMD on Microsoft Foundry",
+    "author": "chanezonfr",
+    "author_name": "Patrick Chanezon",
+    "date": "2026-11-19",
+    "url": "https://x.com/chanezonfr/status/2123545336857894922",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
   }
 ]

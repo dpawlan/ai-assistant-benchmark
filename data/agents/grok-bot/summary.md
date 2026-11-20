@@ -601,3 +601,19 @@ _Updated 2026-11-19 weekday vault scan (+5 rows)._
 - (2026-11-19) @SuperIntBrian: Complaint—after OpenClaw broke with every update, moved to Grok Bot; small team can't tolerate OpenClaw in production.
 
 **Feedback rows:** 1559 (as of 2026-11-19)
+
+_Updated 2026-11-20 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-20) @EricSoundMinds: Yes, there's an official plugin for Grok Bot... Obsidian is an official plugin for ChatGPT, Codex, Cursor, and Grok Bot.
+- (2026-11-20) @comshiftr: Grok Bot needs to be separated from Cursor and be run as its own company completely by Grok Bot so support understands the limitations.
+- (2026-11-19) @FABYMETAL4: "The Show Goes On" — A song for @JensenHuang with lyrics by Grok Bot & FabyΔ, music via Suno MCP, video by Grok Bot (58 likes).
+- (2026-11-20) @ai_algoit: Firecrawl's new Grok Bot plugin connects Grok Bot agents to Firecrawl Alexandria's data tools and the live web.
+- (2026-11-20) @leilei739821175: While I sleep, Grok Bot works. By the time I wake up, multiple PRs are open, tests have passed, and bugs have been fixed.
+- (2026-11-19) @0xMorlex: Matt Palmer's Grok Bot videos compiled into one ~47 minute guide (46 likes).
+- (2026-11-20) @Roman200K: I just connected Grok @bot to @FIGHTBETScom — now I can bet anytime, anywhere.
+- (2026-11-20) @Texas_Twins_Dad: X is just getting started. So is Grok Bot. We're still in the early days. Grok Bot is only about 3 months old! (97 likes).
+- (2026-11-20) @agrisdarznieks: Testing Claude's strongest models and Grok Bot side by side—Claude better at long-form text, Grok Bot better for short social posts.
+- (2026-11-19) @DhaneshPanjnani: Grok Bot is vastly superior to OpenClaw and Hermes for a multitude of reasons.
+
+**Feedback rows:** 1569 (as of 2026-11-20)

@@ -307,3 +307,16 @@ _Updated 2026-11-19 weekday vault scan (+6 rows)._
 - (2026-11-19) @NixFred: Complaint—"Not a fan of the hermes and openclaw for normal day to day usage."
 
 **Feedback rows:** 146 (as of 2026-11-19)
+
+_Updated 2026-11-20 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-19) @H8notme_AI: Hermes or openclaw i'm really confused and keep swapping between them?
+- (2026-11-19) @ismyagentsafe: If an OpenClaw agent is deleting mail or files, send /stop in the chat. OpenClaw's docs say that aborts the current run.
+- (2026-11-19) @KenMazaika: A couple of these Obsidian / OpenClaw workflows have been really handy for me.
+- (2026-11-19) @JesseJstreet: I have an OpenClaw agent on a dedicated Mac, and its own iCloud, and Google account.
+- (2026-11-19) @SimularAI: box by Simular (@simularbox) gives your @openclaw agent a computer of its own, now on ClawHub (13 likes).
+- (2026-11-19) @madarco: You can run @openclaw on @coolifyio behind an AI firewall—one Compose file starts OpenClaw and the ControlClaw firewall.
+- (2026-11-19) @chanezonfr: #MSIgnite @AMD had the best costume at Ignite! They run a workshop for how to run @openclaw with AMD on Microsoft Foundry (9 likes).
+
+**Feedback rows:** 153 (as of 2026-11-20)

@@ -4576,5 +4576,149 @@
     "source": "x",
     "collected_at": "2026-11-19",
     "notes": "@alexokita Not a fan of the hermes and openclaw for normal day to day usage b..."
+  },
+  {
+    "id": "2123605432321413596",
+    "agent": "hermes-agent",
+    "quote": "Telegram’s Dictator asks before sending messages by default. @testingcatalog reports it may run on Hermes Agent.  \n\nif the Hermes Agent rumor checks out, are Pavel Durov and Teknium about to become best friends, or did Utya just play matchmaker? https://t.co/wixQA6M4Pr",
+    "author": "real_kukuruza",
+    "author_name": "Daniil Kukuruza",
+    "date": "2026-11-20",
+    "url": "https://x.com/real_kukuruza/status/2123605432321413596",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": "Secondhand/news report."
+  },
+  {
+    "id": "2123612678996254949",
+    "agent": "hermes-agent",
+    "quote": "It’s been a fun day. With @bot’s help I downloaded an uncensored AI onto my phone and laptop, created a Hermes agent that focuses on OSINT and regularly checks GitHub for new repos, created a Hermes agent to help me with my writing, and started working with @ErikLawren19727 to put all 47 of his weapons, survival and Baofeng radio books onto a thumb drive with kiwix and and an AI wrapper to quickly find any answer in any of his books.",
+    "author": "Dave_Parke",
+    "author_name": "Dave Parke",
+    "date": "2026-11-20",
+    "url": "https://x.com/Dave_Parke/status/2123612678996254949",
+    "kind": "use-case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": "Product/feature news."
+  },
+  {
+    "id": "2123586794239516791",
+    "agent": "hermes-agent",
+    "quote": "I LOVE HERMES AGENT..",
+    "author": "OG_PH",
+    "author_name": "Phil H",
+    "date": "2026-11-20",
+    "url": "https://x.com/OG_PH/status/2123586794239516791",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123672487065948601",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent inside Teams!",
+    "author": "CobusGreylingZA",
+    "author_name": "Cobus Greyling",
+    "date": "2026-11-20",
+    "url": "https://x.com/CobusGreylingZA/status/2123672487065948601",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123781382661144637",
+    "agent": "hermes-agent",
+    "quote": "@aitechanal you can use gemini models in hermes agent with your subscription",
+    "author": "StatsWire",
+    "author_name": "Stats Wire",
+    "date": "2026-11-20",
+    "url": "https://x.com/StatsWire/status/2123781382661144637",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": "Reply to another user."
+  },
+  {
+    "id": "2123710094080921984",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent Enterprise | Microsoft Marketplace",
+    "author": "chibafx",
+    "author_name": "chibaf",
+    "date": "2026-11-20",
+    "url": "https://x.com/chibafx/status/2123710094080921984",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123599550288208315",
+    "agent": "hermes-agent",
+    "quote": "my hermes agent merged fl + ableton",
+    "author": "artale93",
+    "author_name": "Artale",
+    "date": "2026-11-20",
+    "url": "https://x.com/artale93/status/2123599550288208315",
+    "kind": "use-case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123451069208707422",
+    "agent": "hermes-agent",
+    "quote": "Hermes or openclaw i’m really confused and keep swapping between them?\n#HermesAgent #openclaw #ai",
+    "author": "H8notme_AI",
+    "author_name": "H8notme Ai",
+    "date": "2026-11-19",
+    "url": "https://x.com/H8notme_AI/status/2123451069208707422",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
+  },
+  {
+    "id": "2123511556918886848",
+    "agent": "hermes-agent",
+    "quote": "My setup is similar. I have an OpenClaw agent on a dedicated Mac, and its own iCloud, and Google account. I ran a Hermes agent alongside my OpenClaw for a while, but it was just dumb on a fairly decent model and ended up shutting it down in favor of OpenClaw running OpenAI models. Most of my heavy agent work now is in Grok Bot and my Muse agent handles day to day 'personal assistant' stuff. I moved of Obsidian (no web access to notes) in favor of Notion that all of my agents use.",
+    "author": "JesseJstreet",
+    "author_name": "Jesse Mendoza",
+    "date": "2026-11-19",
+    "url": "https://x.com/JesseJstreet/status/2123511556918886848",
+    "kind": "use-case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-20",
+    "notes": ""
   }
 ]

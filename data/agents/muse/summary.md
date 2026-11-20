@@ -523,3 +523,16 @@ _Updated 2026-11-19 weekday vault scan (+3 rows)._
 - (2026-11-19) @rayzhudev: Complaint—"muse kinda annoying though cus it's too precautious."
 
 **Feedback rows:** 423 (as of 2026-11-19)
+
+_Updated 2026-11-20 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-20) @imustafasanaul: 🚨 Spotted! Meta Muse AI integration in Instagram Stories! A new "Your Muse" option is appearing directly in the Add to Story interface.
+- (2026-11-20) @tbreakdotcom: Meta puts its Muse AI agent in Chrome's sidebar.
+- (2026-11-19) @AIStockWire_: #Meta's ($META) Muse AI agent read Signal messages on Android and Mac in tests. Meta calls the problems "isolated incidents".
+- (2026-11-20) @analyticsinme: Meta Muse Charm Price Revealed: AI Device Set to Launch at USD 300.
+- (2026-11-20) @v_shakthi: A South Carolina business owner and his Meta Muse AI agent have sued Meta after Facebook pages were suspended.
+- (2026-11-20) @nxtday: Meta employees say Muse mixed up chats and showed them other people's bank balances.
+- (2026-11-19) @iamjoshholladay: I used Meta Muse to scrape a company's Google Maps images. Claude couldn't, ChatGPT couldn't. Meta Muse did it.
+
+**Feedback rows:** 430 (as of 2026-11-20)

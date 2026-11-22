@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { AgentIcon } from '@/components/AgentIcon';
 import type { Agent } from '@/lib/types';
 import type { Report } from '@/lib/reports';
@@ -7,6 +8,11 @@ import type { Report } from '@/lib/reports';
  * with the same proportions. `report.cover.agents` lists them in order; the first is the pick.
  */
 export function ReportCover({ report, bySlug, size = 'card' }: { report: Report; bySlug: Record<string, Agent>; size?: 'card' | 'hero' }) {
+  if (report.key === 'consumer-ai-commerce') return (
+    <div className={`rp-cover rp-cover-${size}`} style={{ background: '#fff', padding: 0 }} aria-hidden="true">
+      <Image src="/images/commerce/commerce-og.png" alt="" width={1732} height={908} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+    </div>
+  );
   const travel = report.key === 'consumer-ai-travel';
   const agents = report.cover.agents.map(s => bySlug[s]).filter(Boolean);
   const [lead, ...rest] = agents;

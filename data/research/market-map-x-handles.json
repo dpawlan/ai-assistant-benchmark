@@ -1,0 +1,216 @@
+{
+  "checked_on": "2026-11-23",
+  "added": [
+    {
+      "name": "Muse",
+      "handle": "Muse",
+      "source": "https://teapawt.net/MUSE",
+      "basis": "Profile mirror matches product domain and Meta launch"
+    },
+    {
+      "name": "Alexa+",
+      "handle": "amazonalexa",
+      "source": "https://linktr.ee/alexasocial",
+      "basis": "Official social links page"
+    },
+    {
+      "name": "Shuffle",
+      "handle": "tryshuffleai",
+      "source": "https://www.textshuffle.com/",
+      "basis": "Official website link"
+    },
+    {
+      "name": "Boba",
+      "handle": "humansand",
+      "source": "https://humansand.ai/",
+      "basis": "Official parent company account; company site links Boba"
+    },
+    {
+      "name": "Airtap",
+      "handle": "airtap_ai",
+      "source": "https://www.toolify.ai/tool/airtap",
+      "basis": "Directory social link corroborated by profile mirror linking airtap.ai"
+    },
+    {
+      "name": "Doti",
+      "handle": "heydoti",
+      "source": "https://www.sotwe.com/heydoti",
+      "basis": "Product account mirror describes matching iMessage assistant"
+    },
+    {
+      "name": "Neo",
+      "handle": "01labsAI",
+      "source": "https://01labs.ai/",
+      "basis": "Official developer website link"
+    },
+    {
+      "name": "Quest",
+      "handle": "personal_quest",
+      "source": "https://www.teapawt.net/personal_quest",
+      "basis": "Profile mirror links new.quest"
+    },
+    {
+      "name": "Robyn",
+      "handle": "meetrobyn",
+      "source": "https://www.meetrobyn.com/",
+      "basis": "Official website twitter:site; profile mirror matches domain"
+    },
+    {
+      "name": "Loyal AI",
+      "handle": "loyal",
+      "source": "https://www.nitter.gq/loyal",
+      "basis": "Current profile mirror links underdog.ai; official site still links former UnderdogAI handle"
+    },
+    {
+      "name": "Atlas",
+      "handle": "voyagelabshq",
+      "source": "https://voyagelabs.ai/",
+      "basis": "Official developer website link"
+    },
+    {
+      "name": "Slashy",
+      "handle": "slashyemail",
+      "source": "https://www.slashy.com/",
+      "basis": "Official rendered website link"
+    },
+    {
+      "name": "Skej",
+      "handle": "ccskej",
+      "source": "https://skej.com/",
+      "basis": "Official website link and twitter:site"
+    },
+    {
+      "name": "Grok Bot",
+      "handle": "bot",
+      "source": "https://help.x.com/en/using-x/about-bot",
+      "basis": "Official X help identifies Grok Bot account"
+    },
+    {
+      "name": "Ako",
+      "handle": "with_ako",
+      "source": "https://ww.twstalker.com/ntkris",
+      "basis": "Founder profile identifies company handle and withako.com"
+    },
+    {
+      "name": "Sauna",
+      "handle": "wordware",
+      "source": "https://mobile.twstalker.com/wordware",
+      "basis": "Company profile mirror named Sauna.ai links sauna.ai"
+    },
+    {
+      "name": "Vestra",
+      "handle": "vestra_ai",
+      "source": "https://www.tribuneindia.com/news/business/vestra-empowering-non-tech-users-to-build-with-ai/amp",
+      "basis": "Company announcement explicitly names social handle"
+    },
+    {
+      "name": "Righthand",
+      "handle": "righthanddotai",
+      "source": "https://ngntipkolamrenang.twstalker.com/JuliusStener",
+      "basis": "Founder profile identifies company handle and domain"
+    },
+    {
+      "name": "Espa",
+      "handle": "EspaLabs",
+      "source": "https://instalker.org/dojideon",
+      "basis": "Founder profile identifies company handle and espa.ai; investor corroborates"
+    },
+    {
+      "name": "Orgo",
+      "handle": "orgo",
+      "source": "https://www.ycombinator.com/companies/orgo",
+      "basis": "Company YC page links official account"
+    },
+    {
+      "name": "Nevermined",
+      "handle": "neverminedio",
+      "source": "https://nevermined.ai/",
+      "basis": "Official website link"
+    },
+    {
+      "name": "Gigi",
+      "handle": "gigi_network",
+      "source": "https://www.nitter.gq/gigi_network",
+      "basis": "Product account mirror links gigi.co; founder profile corroborates"
+    },
+    {
+      "name": "opencommerce",
+      "handle": "agentcardhq",
+      "source": "https://opencommerce.sh/",
+      "basis": "Developer company account; product identified as opencommerce by Agentcard, corroborated by launch coverage"
+    }
+  ],
+  "unresolved": [
+    "Doubao",
+    "Sones",
+    "Asmi",
+    "tinyNature",
+    "Brea",
+    "HireAlpha",
+    "Joshu",
+    "Mana",
+    "aila",
+    "Familiar",
+    "Frida",
+    "Friday",
+    "Ka",
+    "Luke",
+    "Nessi",
+    "Stumpy",
+    "Buddy",
+    "Sunny",
+    "Halo",
+    "Kith Rabbit",
+    "Pickle",
+    "Arden",
+    "Maxi",
+    "Bantr",
+    "AVA",
+    "Miso Nutrition",
+    "Babs",
+    "CC",
+    "Agent Band",
+    "Central",
+    "Otty",
+    "Mira",
+    "Sonara",
+    "OpenInstinct",
+    "CraftBot",
+    "PhoneUse",
+    "Glasshand",
+    "Phonebox",
+    "AgentEmail",
+    "messages.dev",
+    "CartAI",
+    "firmly",
+    "Egoist",
+    "TasteGraph",
+    "Daimon",
+    "Twent",
+    "Anna"
+  ],
+  "notes": [
+    "X profile pages frequently returned 403; profile mirrors and company/creator references were used where official website links were unavailable.",
+    "Asmi withheld: website metadata says AsmiAI, while the matching profile mirror uses AsmiAIOriginal.",
+    "Founder-only links were not added as product accounts.",
+    "Broader official-site audit performed; not all existing handles independently confirmed.",
+    "Twent and Anna removed from article pending corroboration beyond social metadata.",
+    "Perplexity Computer corrected from AskPerplexity to perplexity_ai based on official product page footer.",
+    "Visually inspected all 262 map icons against available official-site icons; favicon differences alone are not treated as errors. Oz wizard mascot corroborated by Anyreach company posts despite different website favicon.",
+    "No blanket verification of all logos or names: some official assets could not be loaded and some entries use product icons rather than corporate marks."
+  ],
+  "withheld_after_review": [
+    {
+      "name": "Twent",
+      "handle": "twentapp",
+      "source": "https://twent.xyz/",
+      "basis": "Official website twitter:site metadata"
+    },
+    {
+      "name": "Anna",
+      "handle": "hianna_ai",
+      "source": "https://www.hianna.ai/",
+      "basis": "Official website twitter:site and twitter:creator"
+    }
+  ]
+}

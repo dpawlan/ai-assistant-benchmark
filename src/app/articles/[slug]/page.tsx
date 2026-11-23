@@ -9,6 +9,7 @@ import { comparePath } from '@/lib/compare-shared';
 import { AgentIcon } from '@/components/AgentIcon';
 import { ScoreCell } from '@/components/ScoreCell';
 import { Markdown } from '@/components/Markdown';
+import { MarketMapSection } from '@/components/MarketMapSection';
 import { ReportCover } from '@/components/ReportCover';
 import { ArticleHero } from '@/components/ArticleHero';
 import { ArticleCard } from '@/components/ArticleCard';
@@ -100,7 +101,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
 
         <div className="art-body">
-          <Markdown body={article.body} />
+          <Markdown body={article.body} sectionVisual={slug === 'the-ai-agent-market-map' ? (heading) => <MarketMapSection heading={heading} /> : undefined} />
         </div>
 
         {report && (

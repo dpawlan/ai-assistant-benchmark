@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Inline } from '@/components/Markdown';
 import { AgentIcon } from '@/components/AgentIcon';
 import { ReportCover } from '@/components/ReportCover';
 import type { Agent } from '@/lib/types';
@@ -15,7 +16,7 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
     return (
       <figure className={`art-hero art-hero-${size}`}>
         <Image src={article.hero} alt="" width={1600} height={800} className="art-hero-img" />
-        {size === 'full' && article.heroCaption && <figcaption>{article.heroCaption}</figcaption>}
+        {size === 'full' && article.heroCaption && <figcaption><Inline text={article.heroCaption} /></figcaption>}
       </figure>
     );
   }
@@ -23,7 +24,7 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
     return (
       <figure className={`art-hero art-hero-${size}`}>
         <ReportCover report={report} bySlug={bySlug} size={size === 'full' ? 'hero' : 'card'} />
-        {size === 'full' && article.heroCaption && <figcaption>{article.heroCaption}</figcaption>}
+        {size === 'full' && article.heroCaption && <figcaption><Inline text={article.heroCaption} /></figcaption>}
       </figure>
     );
   }
@@ -48,7 +49,7 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
           ))}
         </div>
       </div>
-      {size === 'full' && article.heroCaption && <figcaption>{article.heroCaption}</figcaption>}
+      {size === 'full' && article.heroCaption && <figcaption><Inline text={article.heroCaption} /></figcaption>}
     </figure>
   );
 }

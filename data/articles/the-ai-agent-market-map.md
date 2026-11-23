@@ -5,16 +5,12 @@ date: 2026-11-23
 author: David Pawlan
 kind: Market map
 hero: /images/articles/ai-agent-market-map-99328be234.png
-hero_caption: "The AI Agent Market Map, November 2026."
+hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-99328be234.png)"
 ---
 
 We mapped 262 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
 
 Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
-
-Inclusion describes a product’s focus; it is not a performance ranking. For hands-on results, see our [consumer reports](https://assistantbenchmark.com/reports).
-
-[Open the full-resolution market map](/images/articles/ai-agent-market-map-99328be234.png)
 
 [Big lab & big tech](#big-lab-big-tech) · [Consumer personal assistants](#consumer-personal-assistants) · [Shopping & commerce](#shopping-commerce) · [Travel](#travel) · [Finance & money](#finance-money) · [Email & calendar](#email-calendar) · [Multiplayer & group chat](#multiplayer-group-chat) · [Home, family & health](#home-family-health) · [Voice & phone](#voice-phone) · [Open source & self-hosted](#open-source-self-hosted) · [Work & productivity](#work-productivity) · [Agent infrastructure](#agent-infrastructure)
 

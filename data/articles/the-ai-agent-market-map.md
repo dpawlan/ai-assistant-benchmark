@@ -10,7 +10,7 @@ hero_caption: "The AI Agent Market Map, November 2026."
 
 We mapped 262 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
 
-Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category. The map draws on Assistant Benchmark, At Your Service, the a16z B2A Economy maps, and community submissions.
+Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
 
 Inclusion describes a product’s focus; it is not a performance ranking. For hands-on results, see our [consumer reports](https://assistantbenchmark.com/reports).
 

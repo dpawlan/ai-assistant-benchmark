@@ -15,7 +15,13 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
   if (article.hero) {
     return (
       <figure className={`art-hero art-hero-${size}`}>
-        <Image src={article.hero} alt="" width={1600} height={800} className="art-hero-img" />
+        {size === 'full' && article.slug === 'the-ai-agent-market-map' ? (
+          <a href={article.hero} target="_blank" rel="noopener noreferrer" aria-label="Open the full-resolution market map" style={{ display: 'block' }}>
+            <Image src={article.hero} alt="The AI Agent Market Map" width={1600} height={800} className="art-hero-img" />
+          </a>
+        ) : (
+          <Image src={article.hero} alt="" width={1600} height={800} className="art-hero-img" />
+        )}
         {size === 'full' && article.heroCaption && <figcaption><Inline text={article.heroCaption} /></figcaption>}
       </figure>
     );

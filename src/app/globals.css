@@ -3961,6 +3961,8 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 .art-hero-mark svg { width: 56%; height: 56%; }
 .art-hero-img { display: block; width: 100%; height: auto; border-radius: 18px; }
 .art-hero figcaption { margin: 10px 4px 0; font-size: 13px; color: var(--sec); }
+.art-hero figcaption a { color: var(--blue); }
+.art-hero figcaption a:hover { text-decoration: underline; }
 .art-hero-thumb { margin: 0; }
 .art-hero-thumb .art-hero-art { border-radius: 12px; }
 .art-hero-thumb .art-hero-icons { gap: 8px; }

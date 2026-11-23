@@ -2755,5 +2755,165 @@
     "source": "x",
     "collected_at": "2026-11-20",
     "notes": ""
+  },
+  {
+    "id": "2124158392143093829",
+    "agent": "openclaw",
+    "quote": "Harness Leaderboard\nJoel Niklaus's Harness Leaderboard compares coding harnesses with the same open model, effort and tasks.\nAt launch (Nov 5): mini-swe-agent 51.4%, OpenClaw 27.3%, a 24 point gap.\n\nBoard v0.1.10 (Nov 20): my average over its four models runs from 42.7%",
+    "author": "asifroyal",
+    "author_name": "AM",
+    "date": "2026-11-21",
+    "url": "https://x.com/asifroyal/status/2124158392143093829",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124270599212335296",
+    "agent": "openclaw",
+    "quote": "@heypetar Umm Hermes is a lot better than OpenClaw because OpenClaw contains a lot of junk and is heavy on resource usage side. \n\nAbout herdr, it is good.",
+    "author": "iraiansar",
+    "author_name": "Rai | visualsentinel.com",
+    "date": "2026-11-21",
+    "url": "https://x.com/iraiansar/status/2124270599212335296",
+    "kind": "complaint",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124774761976963463",
+    "agent": "openclaw",
+    "quote": "STEALIEN Discovers Security Vulnerability in OpenClaw, Assigned CVE-2026-100558\n\n#STEALIEN #OpenClaw #CVE #AISecurity #AIAgents #Cybersecurity #UFOTechBlog \n\nYongyeop Cho, Principal Researcher at STEALIEN, discovered and reported a security vulnerability",
+    "author": "stealien",
+    "author_name": "STEALIEN",
+    "date": "2026-11-23",
+    "url": "https://x.com/stealien/status/2124774761976963463",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124240498437075191",
+    "agent": "openclaw",
+    "quote": "@michael_kove 1. Muse\n2. Grok\n3. Dots\n4. Hermes\n5. Openclaw",
+    "author": "jaschaio",
+    "author_name": "Jascha Brinkmann",
+    "date": "2026-11-21",
+    "url": "https://x.com/jaschaio/status/2124240498437075191",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "Bare ranking list in a reply; no reasons given (Grok = Grok Bot in context of agent ranking)."
+  },
+  {
+    "id": "2124133011335864655",
+    "agent": "openclaw",
+    "quote": "I gave up on @Hermes_Agent . Too many bugs.\n\nPS: @openclaw  is even worse.",
+    "author": "EduPichler",
+    "author_name": "Edu",
+    "date": "2026-11-21",
+    "url": "https://x.com/EduPichler/status/2124133011335864655",
+    "kind": "bug",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124007966936588563",
+    "agent": "openclaw",
+    "quote": "How she is built: Claude on OpenClaw, over WhatsApp. A glucose sensor, a breathing machine, a scale and a camera report by themselves. Every lab becomes a row in his record.\n\nBuilt by my agent fleet at\n\n@openclaw @alexalbert__ @Withings",
+    "author": "Karim_Elsahy",
+    "author_name": "Karim Elsahy",
+    "date": "2026-11-21",
+    "url": "https://x.com/Karim_Elsahy/status/2124007966936588563",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124453501837414644",
+    "agent": "openclaw",
+    "quote": "openclaw has too much of a learning curve, finally got it working \nkrill is great tho \n\n@hrudolph @openclaw",
+    "author": "zirmythen",
+    "author_name": "zirmythen",
+    "date": "2026-11-22",
+    "url": "https://x.com/zirmythen/status/2124453501837414644",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124191848889725350",
+    "agent": "openclaw",
+    "quote": "@alauppe @openclaw @Pishgar It was on Gemini and it used to be reasonable. The price exploded in the last month",
+    "author": "pete_bas",
+    "author_name": "Peter Bas",
+    "date": "2026-11-21",
+    "url": "https://x.com/pete_bas/status/2124191848889725350",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "Reply in thread; 'It' refers to running OpenClaw on a Gemini model/API — cost complaint."
+  },
+  {
+    "id": "2124054456056553577",
+    "agent": "openclaw",
+    "quote": "GPT‑6.2 Sol with Ultrafast is now in Codex on ChatGPT Pro $200 and above. I turned it on for our OpenClaw bot, and my wife noticed right away. “Clawdy just got a lot faster.” 🦞🤣 Try it this weekend. #OpenClaw #Codex",
+    "author": "alexdessAI",
+    "author_name": "Alex Dess",
+    "date": "2026-11-21",
+    "url": "https://x.com/alexdessAI/status/2124054456056553577",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124157609968017789",
+    "agent": "openclaw",
+    "quote": ".@openclaw this is what happens for every upgrade. I have to get Codex to finish it. \"openclaw update\" always fails 😒 \nExample - Codex: \"The update stopped during its database migration check; the existing 2026.11.3 gateway is still running. There’s plenty of disk space—about 54",
+    "author": "p45c41",
+    "author_name": "Pascal",
+    "date": "2026-11-21",
+    "url": "https://x.com/p45c41/status/2124157609968017789",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
   }
 ]

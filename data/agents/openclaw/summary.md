@@ -320,3 +320,19 @@ _Updated 2026-11-20 weekday vault scan (+7 rows)._
 - (2026-11-19) @chanezonfr: #MSIgnite @AMD had the best costume at Ignite! They run a workshop for how to run @openclaw with AMD on Microsoft Foundry (9 likes).
 
 **Feedback rows:** 153 (as of 2026-11-20)
+
+_Updated 2026-11-23 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-21) @asifroyal: Harness Leaderboard—mini-swe-agent 51.4%, OpenClaw 27.3% at launch; Nov 20 avg 42.7%.
+- (2026-11-21) @iraiansar: "Hermes is a lot better than OpenClaw because OpenClaw contains a lot of junk and is heavy on resource usage."
+- (2026-11-23) @stealien: STEALIEN Discovers Security Vulnerability in OpenClaw, Assigned CVE-2026-100558 (AI security research).
+- (2026-11-21) @jaschaio: Ranking list—1. Muse 2. Grok 3. Dots 4. Hermes 5. Openclaw.
+- (2026-11-21) @EduPichler: "I gave up on @Hermes_Agent. Too many bugs. PS: @openclaw is even worse."
+- (2026-11-21) @Karim_Elsahy: Use case—Claude on OpenClaw over WhatsApp with glucose sensor, breathing machine, scale, camera reporting.
+- (2026-11-22) @zirmythen: "openclaw has too much of a learning curve, finally got it working. krill is great tho."
+- (2026-11-21) @pete_bas: Cost complaint—OpenClaw on Gemini price exploded in the last month.
+- (2026-11-21) @alexdessAI: "GPT-6.2 Sol with Ultrafast is now in Codex... my wife noticed right away. 'Clawdy just got a lot faster.'"
+- (2026-11-21) @p45c41: "openclaw update always fails"—gets Codex to finish upgrades; database migration check always stops.
+
+**Feedback rows:** 163 (as of 2026-11-23)

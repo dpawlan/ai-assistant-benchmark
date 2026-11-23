@@ -8500,5 +8500,149 @@
     "source": "x",
     "collected_at": "2026-11-20",
     "notes": ""
+  },
+  {
+    "id": "2124248737132298387",
+    "agent": "muse",
+    "quote": "BREAKING: $META Muse agent now lives in a chrome sidebar",
+    "author": "Kalshi_Finance",
+    "author_name": "Kalshi Finance",
+    "date": "2026-11-21",
+    "url": "https://x.com/Kalshi_Finance/status/2124248737132298387",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "News-style headline."
+  },
+  {
+    "id": "2124518266383294733",
+    "agent": "muse",
+    "quote": "NebuSec on Meta Muse: agent exports attacker page to PDF, Chromium bug = code exec in its container, Sentinel misses the exfil so chats and memory leave with no approval prompt, kernel bug = root on the user VM and its cred store.\n\npatched pre-disclosure.",
+    "author": "jenistranger",
+    "author_name": "Eugene M.",
+    "date": "2026-11-22",
+    "url": "https://x.com/jenistranger/status/2124518266383294733",
+    "kind": "bug",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "Summary of NebuSec security research; says issues were patched pre-disclosure."
+  },
+  {
+    "id": "2124004121711981033",
+    "agent": "muse",
+    "quote": "@alexandr_wang Me and my Meta muse agent have been stacking paper man. His name is Big Dog. \n\nHow do I use my boy?\n\n1. Prospecting \n2. Shopping/Facebook marketplace swindling \n3. Email check up/life stuff\n\nWe are in a golden age of AI, if you know you know.",
+    "author": "PatAlpaugh4",
+    "author_name": "Pat A",
+    "date": "2026-11-21",
+    "url": "https://x.com/PatAlpaugh4/status/2124004121711981033",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124866623202836945",
+    "agent": "muse",
+    "quote": "I put my 3-year-old on a video call with my $META @Muse agent.\n\nMy agent is Mega Man.\n\nMy son has no idea who Mega Man is.\n\nHis face lit up anyway, and he wanted to tell him everything.\n\nKids will want to talk to agents all day.\n\nThat makes Meta's upcoming Muse Charm look like it",
+    "author": "dustinalper",
+    "author_name": "Dustin Alper",
+    "date": "2026-11-23",
+    "url": "https://x.com/dustinalper/status/2124866623202836945",
+    "kind": "use-case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124216021569372308",
+    "agent": "muse",
+    "quote": "JUST IN: Researchers hijack $META Muse AI agent with a single malicious webpage, accessing private chats and stored memories",
+    "author": "Kalshi_Finance",
+    "author_name": "Kalshi Finance",
+    "date": "2026-11-21",
+    "url": "https://x.com/Kalshi_Finance/status/2124216021569372308",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "News-style headline repost about security research."
+  },
+  {
+    "id": "2124270304969269462",
+    "agent": "muse",
+    "quote": "Meta Muse AI Agent launches today in Australia – My Muse Lloyd is already hard at work -",
+    "author": "vk4nu",
+    "author_name": "Hayden Sims",
+    "date": "2026-11-21",
+    "url": "https://x.com/vk4nu/status/2124270304969269462",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124511552573194707",
+    "agent": "muse",
+    "quote": "$META Muse App prolly going to 100M+ DAUs in short order imho\n\n(Not investment advice, obviously)\n\nI feel the magic, the value is real, and agentic commerce will be obvious in hindsight imho\n\nWilling to bet my reputation as a critical thinker on that point, despite the hate from",
+    "author": "corleonecapital",
+    "author_name": "Vito",
+    "date": "2026-11-22",
+    "url": "https://x.com/corleonecapital/status/2124511552573194707",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
+  },
+  {
+    "id": "2124240498437075191",
+    "agent": "muse",
+    "quote": "@michael_kove 1. Muse\n2. Grok\n3. Dots\n4. Hermes\n5. Openclaw",
+    "author": "jaschaio",
+    "author_name": "Jascha Brinkmann",
+    "date": "2026-11-21",
+    "url": "https://x.com/jaschaio/status/2124240498437075191",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": "Bare ranking list in a reply; no reasons given (Grok = Grok Bot in context of agent ranking)."
+  },
+  {
+    "id": "2124500144078876998",
+    "agent": "muse",
+    "quote": "My agent setup:\n\n> Meta Muse for shopping + fun\n> Claude Duet for business + critical\n\nMeta Muse has a better harness. It’s \nfucking magical. Credit where it’s do. See it in things like shopping + chat.\n\nClaude Duet has the better model. I trust Opus 5.5 to do serious work. See",
+    "author": "corleonecapital",
+    "author_name": "Vito",
+    "date": "2026-11-22",
+    "url": "https://x.com/corleonecapital/status/2124500144078876998",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-23",
+    "notes": ""
   }
 ]

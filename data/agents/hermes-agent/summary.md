@@ -423,3 +423,22 @@ _Updated 2026-11-20 weekday vault scan (+9 rows)._
 - (2026-11-19) @JesseJstreet: I ran a Hermes agent alongside my OpenClaw for a while, but it was just dumb on a fairly decent model and ended up shutting it down.
 
 **Feedback rows:** 265 (as of 2026-11-20)
+
+_Updated 2026-11-23 weekday vault scan (+13 rows)._
+
+**New this scan:**
+- (2026-11-22) @superkiing1: "It seems that I feel that hermes agent is still the best... I have completely returned to using hermes agent."
+- (2026-11-21) @ricosystems: "Grok Bot updates my Hermes agent daily. My Hermes agent updates my Hindsight. Love it."
+- (2026-11-23) @pablothethinker: Workflow—Day-to-day Coding/Debug → Hark & Hermes Agent; Write & Run Tests → Hermes Agent.
+- (2026-11-22) @mannyahmd: Comparison—why no famous YouTuber singing about OpenBot? Wanted Hermes Agent to be this but no phone app on time.
+- (2026-11-22) @PixelRainbowNFT: Figured out how to get Hermes agent inside Grok Bot app.
+- (2026-11-23) @quotumorg: prompt peak 219,454 vs 54,318. Hermes Agent with LCM-X on a 64K window; v0.30.1 vs v0.30.2 comparison (7 likes).
+- (2026-11-20) @alexcovo_eth: "My Hermes Agent got a new interface!" Used Runway and hooked it up to Hermes Agent; criticizes uninspired agent UIs (39 likes).
+- (2026-11-21) @atKenNelson: Uses Hermes Agent and Grok Bot for different things; Hermes Agent could do what Grok Bot does.
+- (2026-11-23) @LeverageGenAI: Use case—Windows VPS with Hermes Agent Desktop App, Obsidian Vault for memory, powered by OpenCode Go $10 subscription.
+- (2026-11-23) @webtkdev: OpenRouter coding-agent ranking—Hermes Agent at 1.67T tokens, #2 after Claude Code (1.8T).
+- (2026-11-21) @iraiansar: "Hermes is a lot better than OpenClaw because OpenClaw contains a lot of junk and is heavy on resource usage."
+- (2026-11-21) @jaschaio: Ranking list—1. Muse 2. Grok 3. Dots 4. Hermes 5. Openclaw.
+- (2026-11-21) @EduPichler: "I gave up on @Hermes_Agent. Too many bugs. PS: @openclaw is even worse."
+
+**Feedback rows:** 278 (as of 2026-11-23)

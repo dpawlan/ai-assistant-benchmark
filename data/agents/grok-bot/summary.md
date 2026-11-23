@@ -617,3 +617,22 @@ _Updated 2026-11-20 weekday vault scan (+10 rows)._
 - (2026-11-19) @DhaneshPanjnani: Grok Bot is vastly superior to OpenClaw and Hermes for a multitude of reasons.
 
 **Feedback rows:** 1569 (as of 2026-11-20)
+
+_Updated 2026-11-23 weekday vault scan (+13 rows)._
+
+**New this scan:**
+- (2026-11-21) @buildAgoat: Grok Bot Inception—Grok Bot A → Open Computer → Login to Grok Bot B → C; saved hours re-configuring multi-office setup.
+- (2026-11-23) @FelixFortis64: Feature request—wants one desktop app for X, Grok, Grok Bot, and Imagine.
+- (2026-11-22) @telegraphic_dev: Grok Bot + OpenBot workflow—Grok Bot sends work, OpenBots report, Grok Bot merges PRs once green.
+- (2026-11-23) @sanjeed_i: Hosted 1st Grok Bot Bengaluru meetup; 1,000+ registered; people running startups with 30+ bots (76 likes).
+- (2026-11-21) @cradrrat: Event host says "Grok Bot is what made this whole event possible. My team set up Grok Bot across the board."
+- (2026-11-20) @Hrundel75: "TURNS OUT I'M THE BEST INDICATOR ON SOLANA. YOU JUST HAVE TO READ ME BACKWARDS." Made Grok Bot trade against him—$300 → $18,946 (85 likes).
+- (2026-11-23) @danila_shapira: Complaint—Grok Bot usage on $60 plan draining too fast; asks for Grok Bot-only pricing option.
+- (2026-11-20) @Dask724: Feature wish—"Hey Grok Bot" wake word with on-device detection, visible mic light.
+- (2026-11-21) @ricosystems: "Grok Bot updates my Hermes agent daily. My Hermes agent updates my Hindsight. Love it."
+- (2026-11-23) @pablothethinker: Workflow—Realtime Research → Hark/Grok; Complex Coding/Debug → GrokBot.
+- (2026-11-22) @PixelRainbowNFT: Figured out how to get Hermes agent inside Grok Bot app.
+- (2026-11-21) @atKenNelson: Uses Hermes Agent and Grok Bot for different things; Grok Bot to extent X subscription covers.
+- (2026-11-21) @jaschaio: Ranking list—1. Muse 2. Grok 3. Dots 4. Hermes 5. Openclaw.
+
+**Feedback rows:** 1582 (as of 2026-11-23)

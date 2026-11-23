@@ -140,3 +140,13 @@ _Updated 2026-11-20 weekday vault scan (+5 rows)._
 - (2026-11-19) @Kingfish737: Google's Gemini can now sit on hold for you 📞 Tasks in Gemini is free, and in the US it can call businesses and check out with Google Pay.
 
 **Feedback rows:** 50 (as of 2026-11-20)
+
+_Updated 2026-11-23 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-21) @XiaoJiufxie: "Tasks in Gemini is free in six countries now. The agent race is shifting from 'who has the best model' to 'who does your errands without you noticing.'"
+- (2026-11-21) @katiefeeneyy: Sponsored—"See how I put Tasks in Gemini to work before I land in Oklahoma for the big game" (14 likes).
+- (2026-11-21) @BosscoSean: "Google's personal AI agent, Tasks in Gemini, is now free in 6 countries, including the US."
+- (2026-11-21) @aipulsetodayhq: "Gemini can now phone businesses for you. Google brought Duplex to Tasks in Gemini."
+
+**Feedback rows:** 54 (as of 2026-11-23)

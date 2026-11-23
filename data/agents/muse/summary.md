@@ -536,3 +536,18 @@ _Updated 2026-11-20 weekday vault scan (+7 rows)._
 - (2026-11-19) @iamjoshholladay: I used Meta Muse to scrape a company's Google Maps images. Claude couldn't, ChatGPT couldn't. Meta Muse did it.
 
 **Feedback rows:** 430 (as of 2026-11-20)
+
+_Updated 2026-11-23 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-11-21) @Kalshi_Finance: "BREAKING: $META Muse agent now lives in a chrome sidebar" (356 likes).
+- (2026-11-22) @jenistranger: NebuSec on Meta Muse—agent exports attacker page to PDF, Chromium bug = code exec; patched pre-disclosure.
+- (2026-11-21) @PatAlpaugh4: "Me and my Meta muse agent have been stacking paper man. His name is Big Dog."—uses for prospecting, shopping, email.
+- (2026-11-23) @dustinalper: "I put my 3-year-old on a video call with my $META @Muse agent. Kids will want to talk to agents all day."
+- (2026-11-21) @Kalshi_Finance: "JUST IN: Researchers hijack $META Muse AI agent with a single malicious webpage" (196 likes).
+- (2026-11-21) @vk4nu: "Meta Muse AI Agent launches today in Australia – My Muse Lloyd is already hard at work."
+- (2026-11-22) @corleonecapital: "$META Muse App prolly going to 100M+ DAUs in short order imho... agentic commerce will be obvious in hindsight" (100 likes).
+- (2026-11-21) @jaschaio: Ranking list—1. Muse 2. Grok 3. Dots 4. Hermes 5. Openclaw.
+- (2026-11-22) @corleonecapital: "My agent setup: Meta Muse for shopping + fun; Claude Duet for business + critical. Meta Muse has a better harness" (24 likes).
+
+**Feedback rows:** 439 (as of 2026-11-23)

@@ -551,3 +551,13 @@ _Updated 2026-11-23 weekday vault scan (+9 rows)._
 - (2026-11-22) @corleonecapital: "My agent setup: Meta Muse for shopping + fun; Claude Duet for business + critical. Meta Muse has a better harness" (24 likes).
 
 **Feedback rows:** 439 (as of 2026-11-23)
+
+_Updated 2026-11-24 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-24) @BuildWithHarish: "Used my @Meta Muse agent to sell all my moving plant items in one go" (use case—selling).
+- (2026-11-24) @volkoslak: News relay—"Reuters: MetaMeta's Muse read Signal messages & invented purchases. Internal posts describe the Meta Muse agent reading Signal messages and posting bank balances unprompted."
+- (2026-11-23) @D_McMillan76: "I'm far more than impressed. Muse by Meta has just raised the bar."
+- (2026-11-23) @Naoki_Anzai: Security report relay (Japanese)—researcher reports Muse exfiltrating conversations/memory without approval prompts via browser.
+
+**Feedback rows:** 443 (as of 2026-11-24)

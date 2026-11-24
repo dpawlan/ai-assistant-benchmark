@@ -35845,5 +35845,161 @@
     "source": "x",
     "collected_at": "2026-11-23",
     "notes": "Bare ranking list in a reply; no reasons given (Grok = Grok Bot in context of agent ranking)."
+  },
+  {
+    "id": "2125126278974144538",
+    "agent": "grok-bot",
+    "quote": "Hello @bot add a feature in Grok Bot app to set a different background for each bot's chat in the Grok Bot app. Can you tag relevant people in the Grok bot team to this feature request?",
+    "author": "jitendravyas",
+    "author_name": "Jitendra Vyas",
+    "date": "2026-11-24",
+    "url": "https://x.com/jitendravyas/status/2125126278974144538",
+    "kind": "feature_request",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125223319096164655",
+    "agent": "grok-bot",
+    "quote": "@OpenAI Anyone who actually knows what they're doing isn't working for a meager $8k a month. Why help the competition? We're printing money right now and we're doing it with Grok Bot. You guys missed this one completely and Dot just isn't good. Big OpenAI fan historically, but I've moved",
+    "author": "beistnormie",
+    "author_name": "beɪst ˈnɔːr.mi",
+    "date": "2026-11-24",
+    "url": "https://x.com/beistnormie/status/2125223319096164655",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-dots"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125188271437172877",
+    "agent": "grok-bot",
+    "quote": "@NftGaya @EvilPanda @js89lostitall Claude. 100%. Why? Grok Bot burns tokens like crazy and the main workaround is to have Grok Bot use Claude or Codex in CLI. Without Claude/Codex, then you have to let Grok Bot do EVERYTHING and you will eat your usage fast.",
+    "author": "iam_fernandob",
+    "author_name": "Fernando",
+    "date": "2026-11-24",
+    "url": "https://x.com/iam_fernandob/status/2125188271437172877",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "usage"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125221426697511262",
+    "agent": "grok-bot",
+    "quote": "Grok Bot drives my OpenCode now. I still make the decisions.\n\nIf a task can run end to end without me, Grok Bot takes it. If it needs real thinking, I drive.\n\nGrok Bot doesn't write code. It pilots the same OpenCode server I use.\n\nMornings I plan. Bots build. I review and merge.",
+    "author": "oorestisime",
+    "author_name": "oorestisime",
+    "date": "2026-11-24",
+    "url": "https://x.com/oorestisime/status/2125221426697511262",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2124903711747281269",
+    "agent": "grok-bot",
+    "quote": "You can already clone your voice with Grok. \n\nHow long until we can use our voice with Grok Bot?\n\nGrok Bot doesn't let you upload your own voice file yet. \n\nWould you let grok bot use your own voice?!",
+    "author": "RyDawg42",
+    "author_name": "Ryan G",
+    "date": "2026-11-23",
+    "url": "https://x.com/RyDawg42/status/2124903711747281269",
+    "kind": "feature_request",
+    "tags": [
+      "x",
+      "voice"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2124955051278184596",
+    "agent": "grok-bot",
+    "quote": "I use one email for X, Grok and Grok Bot so why doesn't my X account know I use Grok Bot? If I sign into Grok Bot with X does it use different credits than signing in with my Grok email? I can use Grok Bot with only X or with only Grok so if either one works on its own, shouldn't",
+    "author": "rolandmunyard",
+    "author_name": "Roland Munyard",
+    "date": "2026-11-23",
+    "url": "https://x.com/rolandmunyard/status/2124955051278184596",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "account"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125213503468478878",
+    "agent": "grok-bot",
+    "quote": "@mattyp Matt, I have Grok Bot running on my iPhone, MacBook, and Mac Mini. I can ask Grok Bot on my phone to run a process through my Mac Mini's MCP and it works. So well that I removed Tailscale. Am I missing something? Side note: being able to run Grok Bot as a service would be nice.",
+    "author": "douglaskarr",
+    "author_name": "Douglas Karr",
+    "date": "2026-11-24",
+    "url": "https://x.com/douglaskarr/status/2125213503468478878",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "mcp"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125204818981736936",
+    "agent": "grok-bot",
+    "quote": "@venthewise @claudeai @GeminiApp Grok Bot is not sustainable for individual as usage consumes fast. Migrated to @NousResearch  hermes agent.",
+    "author": "cantonesify",
+    "author_name": "Steven",
+    "date": "2026-11-24",
+    "url": "https://x.com/cantonesify/status/2125204818981736936",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "usage",
+      "vs-hermes-agent"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125220289416196547",
+    "agent": "grok-bot",
+    "quote": "@rohit3a Can't agree more, the moment GPT dots or Claude duet or Gemini Tasks is in my country, and there's a good bot porting workflow, is the moment I quit grok bot. \n\nBad usage, Bad Price, bad model. Its crutch is Opus 5.5. which wastes token like no tommorow.",
+    "author": "RenovatioRoma",
+    "author_name": "Renovatio Roma",
+    "date": "2026-11-24",
+    "url": "https://x.com/RenovatioRoma/status/2125220289416196547",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "usage",
+      "pricing",
+      "vs-dots",
+      "vs-claude-duet",
+      "vs-gemini-tasks"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
   }
 ]

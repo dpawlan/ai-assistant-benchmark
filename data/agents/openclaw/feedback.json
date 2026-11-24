@@ -2915,5 +2915,72 @@
     "source": "x",
     "collected_at": "2026-11-23",
     "notes": ""
+  },
+  {
+    "id": "2124959954452828225",
+    "agent": "openclaw",
+    "quote": "Funny realizing I haven't touched Telegram for @openclaw in months. The desktop and iOS apps have completely taken over my daily workflow. Great work @openclaw.",
+    "author": "Jvitela91",
+    "author_name": "Jonathan Vitela",
+    "date": "2026-11-23",
+    "url": "https://x.com/Jvitela91/status/2124959954452828225",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "desktop",
+      "ios"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125110939620147353",
+    "agent": "openclaw",
+    "quote": "Openclaw has gone from unreliable to incoherent nonsense. Complete trash.",
+    "author": "pranav_modi",
+    "author_name": "Pranav Modi",
+    "date": "2026-11-24",
+    "url": "https://x.com/pranav_modi/status/2125110939620147353",
+    "kind": "complaint",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125186271412899906",
+    "agent": "openclaw",
+    "quote": "@engoli34 @Avenoxai @refuselessai @explabsai hallettım baska bır ısımle deepseek kurdum openclaw a ve acayıp bedavaya calısıyor",
+    "author": "yg6595694716871",
+    "author_name": "yg",
+    "date": "2026-11-24",
+    "url": "https://x.com/yg6595694716871/status/2125186271412899906",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "deepseek"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Turkish: installed DeepSeek under another name on OpenClaw and says it works cheaply."
+  },
+  {
+    "id": "2125233655941636421",
+    "agent": "openclaw",
+    "quote": "从openclaw出来到现在，刚9个月\n\nopenclaw已经是路边一条了\n\n而大家都在疯狂卷agent",
+    "author": "aronhouyu",
+    "author_name": "Aron厚玉",
+    "date": "2026-11-24",
+    "url": "https://x.com/aronhouyu/status/2125233655941636421",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Chinese: 9 months since OpenClaw came out, says it's now left behind while everyone is competing on agents."
   }
 ]

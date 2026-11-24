@@ -943,5 +943,41 @@
     "source": "x",
     "collected_at": "2026-11-23",
     "notes": "News summary of Duplex calling in Tasks in Gemini (Gemini Spark rebrand)."
+  },
+  {
+    "id": "2125036234385084629",
+    "agent": "gemini-spark",
+    "quote": "Gemini Tasks 開始向部分地區的免費帳戶推出。任務在雲端執行，關掉本機也能繼續。這篇整理日本實測畫面、排程方式和免費版限制，台灣尚未列入首波。",
+    "author": "kocpc",
+    "author_name": "電腦王阿達",
+    "date": "2026-11-24",
+    "url": "https://x.com/kocpc/status/2125036234385084629",
+    "kind": "news",
+    "tags": [
+      "x",
+      "tasks",
+      "free-tier"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Chinese: Gemini Tasks rolling out to free accounts in some regions; tasks run in cloud. Taiwan not in first wave."
+  },
+  {
+    "id": "2124947808646267349",
+    "agent": "gemini-spark",
+    "quote": "Why is gemini UI so laggy while generating answers, chatgpt used to have similar issues but now they have figured it out, \nbtw kudos on tasks in gemini, so helpful to create pdfs and simulations\n@GeminiApp",
+    "author": "Blackaf69420",
+    "author_name": "Clowns",
+    "date": "2026-11-23",
+    "url": "https://x.com/Blackaf69420/status/2124947808646267349",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "ui",
+      "tasks"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Mixed: complains about laggy UI but praises Tasks for PDFs/simulations."
   }
 ]

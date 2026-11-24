@@ -150,3 +150,11 @@ _Updated 2026-11-23 weekday vault scan (+4 rows)._
 - (2026-11-21) @aipulsetodayhq: "Gemini can now phone businesses for you. Google brought Duplex to Tasks in Gemini."
 
 **Feedback rows:** 54 (as of 2026-11-23)
+
+_Updated 2026-11-24 weekday vault scan (+2 rows)._
+
+**New this scan:**
+- (2026-11-24) @kocpc: News (Chinese)—Gemini Tasks rolling out to free accounts in some regions; tasks run in cloud; Taiwan not in first wave.
+- (2026-11-23) @Blackaf69420: Mixed—"Why is gemini UI so laggy while generating answers... btw kudos on tasks in gemini, so helpful to create pdfs and simulations."
+
+**Feedback rows:** 56 (as of 2026-11-24)

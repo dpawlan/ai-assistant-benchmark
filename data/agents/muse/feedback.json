@@ -8644,5 +8644,73 @@
     "source": "x",
     "collected_at": "2026-11-23",
     "notes": ""
+  },
+  {
+    "id": "2125017968216301810",
+    "agent": "muse",
+    "quote": "Used my @Meta Muse agent to sell all my moving plant items in one go",
+    "author": "BuildWithHarish",
+    "author_name": "Harish",
+    "date": "2026-11-24",
+    "url": "https://x.com/BuildWithHarish/status/2125017968216301810",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "selling"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125087334307615001",
+    "agent": "muse",
+    "quote": "Reuters: MetaMeta's Muse read Signal messages & invented purchases. Internal posts describe the Meta Muse agent reading Signal messages and posting bank balances unprompted. Meta calls them isolated incidents and says many were hallucinations it has fixed.\nhttps://t.co/sHGdVkLvG4",
+    "author": "volkoslak",
+    "author_name": "Rusalka",
+    "date": "2026-11-24",
+    "url": "https://x.com/volkoslak/status/2125087334307615001",
+    "kind": "news",
+    "tags": [
+      "x",
+      "privacy",
+      "reuters"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Relays Reuters report about privacy issues; not first-hand use."
+  },
+  {
+    "id": "2124881311131217956",
+    "agent": "muse",
+    "quote": "I'm far more than impressed. Muse by Meta has just raised the bar.",
+    "author": "D_McMillan76",
+    "author_name": "Dwight McMillan",
+    "date": "2026-11-23",
+    "url": "https://x.com/D_McMillan76/status/2124881311131217956",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2124994117101142493",
+    "agent": "muse",
+    "quote": "【Meta Muse、ブラウザー経由で会話・記憶に到達。研究者が実証】\n\nMetaのAIエージェント「Muse」で、承認画面が出ないまま、検証用の会話履歴や記憶を外に送れたと研究者が報告。記憶の書き換えも確認されました。\n\n続きは↓（1/2）\n\n#Meta #Muse #AIエージェント #セキュリティ",
+    "author": "Naoki_Anzai",
+    "author_name": "安斎　直紀| EC自動化国_国王",
+    "date": "2026-11-23",
+    "url": "https://x.com/Naoki_Anzai/status/2124994117101142493",
+    "kind": "news",
+    "tags": [
+      "x",
+      "security"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Relays researcher security report (Japanese) about browser access to Muse conversations/memory without approval prompts; not first-hand use."
   }
 ]

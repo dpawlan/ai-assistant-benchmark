@@ -336,3 +336,13 @@ _Updated 2026-11-23 weekday vault scan (+10 rows)._
 - (2026-11-21) @p45c41: "openclaw update always fails"—gets Codex to finish upgrades; database migration check always stops.
 
 **Feedback rows:** 163 (as of 2026-11-23)
+
+_Updated 2026-11-24 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-23) @Jvitela91: "Funny realizing I haven't touched Telegram for @openclaw in months. The desktop and iOS apps have completely taken over my daily workflow."
+- (2026-11-24) @pranav_modi: "Openclaw has gone from unreliable to incoherent nonsense. Complete trash."
+- (2026-11-24) @yg6595694716871: Use case (Turkish)—installed DeepSeek under another name on OpenClaw; runs cheaply.
+- (2026-11-24) @aronhouyu: (Chinese)—"9 months since OpenClaw came out, it's now left behind while everyone is competing on agents."
+
+**Feedback rows:** 167 (as of 2026-11-24)

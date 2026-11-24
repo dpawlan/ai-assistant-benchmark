@@ -442,3 +442,16 @@ _Updated 2026-11-23 weekday vault scan (+13 rows)._
 - (2026-11-21) @EduPichler: "I gave up on @Hermes_Agent. Too many bugs. PS: @openclaw is even worse."
 
 **Feedback rows:** 278 (as of 2026-11-23)
+
+_Updated 2026-11-24 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-24) @chenzhangreal: "building a dag graph plugin from kanban.db in an hour is actually insane. hermes agent moves way too fast."
+- (2026-11-24) @cantonesify: Migrated from Grok Bot—"not sustainable for individual as usage consumes fast."
+- (2026-11-24) @Ernest_Ng115: Security advisory (Chinese)—CVE-2026-130164 (CVSS 7.8) affects versions 0.21.6–0.23.1 in Docker/SSH.
+- (2026-11-24) @Titan1Beast: "i am in awe of @deepseek_ai @NousResearch work in hermes agent. deepseek 100% cache hit rates are consistent."
+- (2026-11-23) @Molibig: "@NousResearch I love Hermes agent"
+- (2026-11-24) @yohan0405: Use case—runs Hermes Agent as systemd service on Tailscale address; SSH from Air or phone.
+- (2026-11-24) @lexbakh: Opened first PR to Hermes Agent—bug fix for compressed MCP tool results refetch issue.
+
+**Feedback rows:** 285 (as of 2026-11-24)

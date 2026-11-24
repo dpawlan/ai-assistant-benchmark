@@ -636,3 +636,18 @@ _Updated 2026-11-23 weekday vault scan (+13 rows)._
 - (2026-11-21) @jaschaio: Ranking list—1. Muse 2. Grok 3. Dots 4. Hermes 5. Openclaw.
 
 **Feedback rows:** 1582 (as of 2026-11-23)
+
+_Updated 2026-11-24 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-11-24) @jitendravyas: Feature request—set different background for each bot's chat in Grok Bot app.
+- (2026-11-24) @beistnormie: "We're printing money right now and we're doing it with Grok Bot." Moved from OpenAI; Dot not good.
+- (2026-11-24) @iam_fernandob: "Grok Bot burns tokens like crazy"—workaround is using Claude or Codex in CLI.
+- (2026-11-24) @oorestisime: "Grok Bot drives my OpenCode now. I still make the decisions." Mornings plan, bots build, review and merge.
+- (2026-11-23) @RyDawg42: Feature request—upload own voice file for Grok Bot voice cloning.
+- (2026-11-23) @rolandmunyard: Account confusion—X, Grok, Grok Bot same email but credits don't sync.
+- (2026-11-24) @douglaskarr: "Grok Bot on my phone to run a process through my Mac Mini's MCP and it works. So well that I removed Tailscale."
+- (2026-11-24) @cantonesify: "Grok Bot is not sustainable for individual as usage consumes fast. Migrated to Hermes agent."
+- (2026-11-24) @RenovatioRoma: "Bad usage, Bad Price, bad model. Its crutch is Opus 5.5 which wastes token like no tommorow."
+
+**Feedback rows:** 1591 (as of 2026-11-24)

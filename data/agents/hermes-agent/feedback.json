@@ -4928,5 +4928,126 @@
     "source": "x",
     "collected_at": "2026-11-23",
     "notes": ""
+  },
+  {
+    "id": "2125017674744762600",
+    "agent": "hermes-agent",
+    "quote": "@LeverageGenAI @NousResearch building a dag graph plugin from kanban.db in an hour is actually insane. hermes agent moves way too fast.",
+    "author": "chenzhangreal",
+    "author_name": "Chen",
+    "date": "2026-11-24",
+    "url": "https://x.com/chenzhangreal/status/2125017674744762600",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125204818981736936",
+    "agent": "hermes-agent",
+    "quote": "@venthewise @claudeai @GeminiApp Grok Bot is not sustainable for individual as usage consumes fast. Migrated to @NousResearch  hermes agent.",
+    "author": "cantonesify",
+    "author_name": "Steven",
+    "date": "2026-11-24",
+    "url": "https://x.com/cantonesify/status/2125204818981736936",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-grok-bot"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125097328897835276",
+    "agent": "hermes-agent",
+    "quote": "平常有在用開源 AI 代理人 Hermes Agent 的朋友注意一下，GitHub 官方安全資料庫在 11 月 23 日正式公開了一個編號 CVE-2026-130164 的高危安全漏洞公告（CVSS 評分 7.8）\n這個漏洞影響 0.21.6 到 0.23.1 版本，當你在 Docker 容器或 SSH",
+    "author": "Ernest_Ng115",
+    "author_name": "Ernest Ng",
+    "date": "2026-11-24",
+    "url": "https://x.com/Ernest_Ng115/status/2125097328897835276",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "security",
+      "cve"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": "Chinese post about CVE-2026-130164 security vulnerability (CVSS 7.8) in Hermes Agent versions 0.21.6–0.23.1."
+  },
+  {
+    "id": "2125161092884156529",
+    "agent": "hermes-agent",
+    "quote": "i am in awe of @deepseek_ai @NousResearch work in hermes agent\n\ndeepseek 100% cache hit rates are consistent",
+    "author": "Titan1Beast",
+    "author_name": "BeastTitanHunter",
+    "date": "2026-11-24",
+    "url": "https://x.com/Titan1Beast/status/2125161092884156529",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "deepseek",
+      "cache"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125006125296996497",
+    "agent": "hermes-agent",
+    "quote": "@NousResearch I love Hermes agent",
+    "author": "Molibig",
+    "author_name": "Moli",
+    "date": "2026-11-23",
+    "url": "https://x.com/Molibig/status/2125006125296996497",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125148702805495961",
+    "agent": "hermes-agent",
+    "quote": "The old Pro runs Hermes Agent from @NousResearch as a systemd service on its Tailscale address. Day to day I just ssh in from my Air or my phone and work in Herdr. My laptop runs nothing.",
+    "author": "yohan0405",
+    "author_name": "Yohan Lee",
+    "date": "2026-11-24",
+    "url": "https://x.com/yohan0405/status/2125148702805495961",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "systemd",
+      "tailscale"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
+  },
+  {
+    "id": "2125172300807106635",
+    "agent": "hermes-agent",
+    "quote": "Opened my first PR to @NousResearch Hermes Agent.\n\nBug: compressed MCP tool results became \"(N chars result)\", so the agent refetched data it already had.\n\nFix: keep args, a stable hash and size in the stub.\n\nhttps://t.co/v0joViZYj7",
+    "author": "lexbakh",
+    "author_name": "Lex Bakh",
+    "date": "2026-11-24",
+    "url": "https://x.com/lexbakh/status/2125172300807106635",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "contribution",
+      "mcp"
+    ],
+    "source": "x",
+    "collected_at": "2026-11-24",
+    "notes": ""
   }
 ]

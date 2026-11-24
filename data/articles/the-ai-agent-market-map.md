@@ -1,14 +1,14 @@
 ---
-title: "The AI Agent Market Map: 263 Products to Know"
+title: "The AI Agent Market Map: 264 Products to Know"
 dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them—with a one-line description, website, and X account for each."
 date: 2026-11-23
 author: David Pawlan
 kind: Market map
-hero: /images/articles/ai-agent-market-map-799e1ebe7a.png
-hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-799e1ebe7a.png)"
+hero: /images/articles/ai-agent-market-map-29b10e6d82.png
+hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-29b10e6d82.png)"
 ---
 
-We mapped 263 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
+We mapped 264 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
 
 Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
 
@@ -148,6 +148,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Anna](https://www.hianna.ai/)** — AI family assistant for schedules, meals, tasks and the mental load.
 - **[OHAI!](https://www.ohai.ai/)** — Household-manager AI assistant over text for calendars, to-dos, email and family life. · [@ohaidotai](https://x.com/ohaidotai)
 - **[Fambot](https://fambot.com/)** — Turns school emails, newsletters and calendars into a clear daily plan for parents. · [@fambotai](https://x.com/fambotai)
+- **[Offseason](https://offseasonwellness.com/)** — A wellness assistant on iMessage that plans and books routines around your calendar, goals, and wearable data. · [@offseasonai](https://x.com/offseasonai)
 
 ## Voice & phone
 

@@ -20,7 +20,7 @@ export function MarketMapSection({ heading }: { heading: string }) {
   const [x, y, width, height] = bounds;
   const clipId = `market-map-${heading.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
   return (
-    <a href="/images/articles/ai-agent-market-map-799e1ebe7a.png" target="_blank" rel="noopener noreferrer"
+    <a href="/images/articles/ai-agent-market-map-29b10e6d82.png" target="_blank" rel="noopener noreferrer"
       aria-label={`Enlarge the market map: ${heading}`} style={{ display: 'block', margin: '20px 0 28px' }}>
       <svg viewBox={bounds.join(' ')} role="img" aria-label={`${heading} agents and logos`}
         style={{ display: 'block', width: '100%', height: 'auto', maxHeight: 340, overflow: 'hidden' }}>
@@ -29,7 +29,7 @@ export function MarketMapSection({ heading }: { heading: string }) {
             <rect x={x} y={y} width={width} height={height} rx={width * 0.02} />
           </clipPath>
         </defs>
-        <image href="/images/articles/ai-agent-market-map-799e1ebe7a.png" width="4000" height="3832" clipPath={`url(#${clipId})`} />
+        <image href="/images/articles/ai-agent-market-map-29b10e6d82.png" width="4000" height="3832" clipPath={`url(#${clipId})`} />
       </svg>
     </a>
   );

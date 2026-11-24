@@ -1,14 +1,14 @@
 ---
-title: "The AI Agent Market Map: 262 Products to Know"
+title: "The AI Agent Market Map: 263 Products to Know"
 dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them—with a one-line description, website, and X account for each."
 date: 2026-11-23
 author: David Pawlan
 kind: Market map
-hero: /images/articles/ai-agent-market-map-99328be234.png
-hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-99328be234.png)"
+hero: /images/articles/ai-agent-market-map-799e1ebe7a.png
+hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-799e1ebe7a.png)"
 ---
 
-We mapped 262 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
+We mapped 263 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
 
 Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
 
@@ -312,3 +312,4 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Egoist](https://ego.ist/)** — AI Passport — a personal context layer you carry across the AI apps you use.
 - **[TasteGraph](https://tastegraph.ai/)** — Preference data for shopping-agent recommendations.
 - **[Gigi](https://gigi.co/)** — An agent network for finding people and relationship-based introductions. · [@gigi_network](https://x.com/gigi_network)
+- **[Anchor Browser](https://anchorbrowser.io/)** — Cloud browser infrastructure for AI agents, with managed authentication and isolated browser sessions. · [@AnchorBrowser](https://x.com/AnchorBrowser)

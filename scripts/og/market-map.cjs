@@ -2,7 +2,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { chromium } = require('playwright');
 const root = path.resolve(__dirname, '../..');
-const source = fs.readFileSync(path.join(root, 'public/images/articles/ai-agent-market-map-99328be234.png')).toString('base64');
+const source = fs.readFileSync(path.join(root, 'public/images/articles/ai-agent-market-map-799e1ebe7a.png')).toString('base64');
 // Original map tile coordinates; artwork is copied without redrawing.
 const icons = [
  ['Claude Duet',410,275],['Dots',172,275],['Grok Bot',1362,2260],['Muse',886,275],

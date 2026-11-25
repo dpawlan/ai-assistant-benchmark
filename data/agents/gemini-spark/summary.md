@@ -158,3 +158,14 @@ _Updated 2026-11-24 weekday vault scan (+2 rows)._
 - (2026-11-23) @Blackaf69420: Mixed—"Why is gemini UI so laggy while generating answers... btw kudos on tasks in gemini, so helpful to create pdfs and simulations."
 
 **Feedback rows:** 56 (as of 2026-11-24)
+
+_Updated 2026-11-25 weekday vault scan (+5 rows)._
+
+**New this scan:**
+- (2026-11-24) @Surigie1988: JP—Muse more convenient than expected; will use alongside Gemini Spark.
+- (2026-11-25) @8AIEnthusiast9: Feature request—Gemini Spark and app should be more connected to dev env like OpenAI Dots; feels subpar vs Dots/Grok Bot.
+- (2026-11-25) @SuzukuStudio: JP—Task (formerly Gemini Spark) already available to free JP users; Pro users can use Carbon in AI mode.
+- (2026-11-25) @nike_vict: JP—Google One AI features—Spark, video/music gen, Drive 5TB, Meet transcripts—under ¥3000/mo (¥1200 Black Friday).
+- (2026-11-25) @DiegoUSDZ: ES—Announced Spark as 24/7 personal agent at I/O, launched it, loved it for long tasks—and killed it.
+
+**Feedback rows:** 61 (as of 2026-11-25)

@@ -455,3 +455,22 @@ _Updated 2026-11-24 weekday vault scan (+7 rows)._
 - (2026-11-24) @lexbakh: Opened first PR to Hermes Agent—bug fix for compressed MCP tool results refetch issue.
 
 **Feedback rows:** 285 (as of 2026-11-24)
+
+_Updated 2026-11-25 weekday vault scan (+13 rows)._
+
+**New this scan:**
+- (2026-11-24) @alexcovo_eth: Use case—Claude Duet $500/week credit paired with Hermes agent locally via Claude Code.
+- (2026-11-25) @rlaope: omher desktop 1.2.1—CLI Desktop with Hermes-Agent Bot, workflows, connectors, skills, cron, memory.
+- (2026-11-25) @galdayan1895: Dial is now official Hermes Agent plugin—text and call from own phone number.
+- (2026-11-24) @UnbrokenApple: Praise—"Nouse Research Hermes Agent is perfection."
+- (2026-11-24) @JASONMCNAB: Use case—Raspberry Pi 5 16gb as always-on Hermes Agent with phone comms.
+- (2026-11-25) @ternyu: ZH—stopped using OpenClaw and Hermes Agent for simpler Claude Code/Codex/Grok/Agy setup.
+- (2026-11-25) @heirakuG: JP—Hermes on remote MacBook Pro 2014 + Windows 11 via hermes peer; can read Claude/Codex logs—fun.
+- (2026-11-24) @DarthJML: Praise—"Hermes agent is an amazing tool :)"
+- (2026-11-25) @crypto_ninjas: Praise—"Hermes agent makes web app testing so much faster now."
+- (2026-11-24) @ElDeFiante: Feature request—"I need Google Neon on Hermes Agent NOOOOOWWWWW!"
+- (2026-11-25) @r_u_thinking: Comparison—hermes + grok 3-5x faster than Grok Bot; hermes + local model on par.
+- (2026-11-25) @KuritoL: OpenClaw feed quiet; almost switched to Hermes; OpenClaw needs evangelist.
+- (2026-11-24) @btcbenchmark: "Why is absolutely no-one using openclaw anymore? Everyone uses Hermes now."
+
+**Feedback rows:** 298 (as of 2026-11-25)

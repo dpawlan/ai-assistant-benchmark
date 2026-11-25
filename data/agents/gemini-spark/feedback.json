@@ -979,5 +979,88 @@
     "source": "x",
     "collected_at": "2026-11-24",
     "notes": "Mixed: complains about laggy UI but praises Tasks for PDFs/simulations."
+  },
+  {
+    "id": "2125239821774069896",
+    "agent": "gemini-spark",
+    "quote": "MetaのMuseが思ったよりも便利なことに気づいた\nGemini sparkと併用していこう",
+    "author": "Surigie1988",
+    "author_name": "Naoらん",
+    "date": "2026-11-24",
+    "url": "https://x.com/Surigie1988/status/2125239821774069896",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-muse"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Google One AI features—Spark, video/music gen, Drive 5TB, Meet transcripts—under ¥3000/mo (¥1200 Black Friday)."
+  },
+  {
+    "id": "2125393363558105421",
+    "agent": "gemini-spark",
+    "quote": "@ChrisDemeke @googledevs Not exactly dev or maybe it would be, but it would be nice if Gemini Spark and the Gemini app were more connected to the dev environment similar to OpenAI dots. \nWhile we are at it, Spark feels subpar in comparison to either dots or grokbot or other personal agents.",
+    "author": "8AIEnthusiast9",
+    "author_name": "Nehuen",
+    "date": "2026-11-25",
+    "url": "https://x.com/8AIEnthusiast9/status/2125393363558105421",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-openai"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125496956088995936",
+    "agent": "gemini-spark",
+    "quote": "@takanashi_lab タスク(旧Gemini Spark)は無料を含む日本のユーザですでに使える(チャットよりナレッジワーク等に格段に強い)他、Google検索 AIモードではProユーザはCarbonも使える(例外もある？)ことを付け加えさせてください…！",
+    "author": "SuzukuStudio",
+    "author_name": "鈴空スタヂオ🐯🦔 @C109 1日目西2 こ-16a",
+    "date": "2026-11-25",
+    "url": "https://x.com/SuzukuStudio/status/2125496956088995936",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Task (formerly Gemini Spark) already available to free JP users; Pro users can also use Carbon in Search AI mode."
+  },
+  {
+    "id": "2125502659440656765",
+    "agent": "gemini-spark",
+    "quote": "・アンチグラビティが高速かつ高精度で使える\n・Gemini sparkが使える\n・動画生成できる\n・楽曲生成できる\n・Google drive5TB\n・YouTube premium lite使える\n・Google meetが自動文字起こしと要約になる（録画もできる）\n\nこれが月3000円以下。\n今ならブラックフライデーで月1200円以下",
+    "author": "nike_vict",
+    "author_name": "ニケ",
+    "date": "2026-11-25",
+    "url": "https://x.com/nike_vict/status/2125502659440656765",
+    "kind": "other",
+    "tags": [
+      "x",
+      "video"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Google One AI features—Spark, video/music gen, Drive 5TB, Meet transcripts—under ¥3000/mo (¥1200 Black Friday)."
+  },
+  {
+    "id": "2125527233141813614",
+    "agent": "gemini-spark",
+    "quote": "Hola red. Queria compartir por aca algo que vengo pensando y no se si a otros lesnpasa tambien. \n\nEn el pasado Google I/O - anunciaron Spark tu agente personal funcionando 24/7. El cual luego salio publico y me encantaba sobre todo para tareas en el tiempo largas. \n\nY mataron.",
+    "author": "DiegoUSDZ",
+    "author_name": "Diego Aguirre (Voftec)",
+    "date": "2026-11-25",
+    "url": "https://x.com/DiegoUSDZ/status/2125527233141813614",
+    "kind": "complaint",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "ES: Announced Spark as 24/7 personal agent at Google I/O, launched it, loved it for long tasks—and killed it."
   }
 ]

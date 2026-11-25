@@ -651,3 +651,18 @@ _Updated 2026-11-24 weekday vault scan (+9 rows)._
 - (2026-11-24) @RenovatioRoma: "Bad usage, Bad Price, bad model. Its crutch is Opus 5.5 which wastes token like no tommorow."
 
 **Feedback rows:** 1591 (as of 2026-11-24)
+
+_Updated 2026-11-25 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-11-24) @nikhilx22: Grok Bot capabilities list—market research, content planning, SEO, AEO/GEO, video editing, growth hacking, UI/UX, sales, marketing.
+- (2026-11-25) @outageslive: xAI status—Grok Bot inbound email degraded performance.
+- (2026-11-25) @itzadamxl: Complaint—Grok Bot asked to upgrade app for storage but couldn't do it autonomously.
+- (2026-11-25) @EricChez: Use case—Gemini + Obsidian + Grok Bot YouTube publishing pipeline.
+- (2026-11-25) @r_u_thinking: Comparison—hermes + grok 3-5x faster than Grok Bot; hermes + local model on par.
+- (2026-11-25) @OleEichhorn: Use case—23-year-old blog "waybackification" via Grok Bot.
+- (2026-11-25) @candidonuske: Technical question—Grok Bot subagent tool model routing after v0.15.46.
+- (2026-11-25) @Kevin_Logan: Use case—$20 Claude Pro + Grok Bot workflow; Grok Bot to 90%, Claude for polish.
+- (2026-11-25) @ternyu: ZH—simplified to Claude Code/Codex/Grok/Agy; stopped OpenClaw/Hermes but likes Grok Bot for ease.
+
+**Feedback rows:** 1600 (as of 2026-11-25)

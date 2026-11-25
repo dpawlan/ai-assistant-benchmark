@@ -8712,5 +8712,139 @@
     "source": "x",
     "collected_at": "2026-11-24",
     "notes": "Relays researcher security report (Japanese) about browser access to Muse conversations/memory without approval prompts; not first-hand use."
+  },
+  {
+    "id": "2125247466647757272",
+    "agent": "muse",
+    "quote": "@AIatMeta At first I used the Meta Muse agent free — it seemed like a no-brainer (and yes I can 0151 that em) and handled a lot of tasks without issue.\n\nI started adding side chats specific to the work I was doing. \n\nAs time went on, I started noticing some issues creeping in ~every 2 days",
+    "author": "PSLLCConsulting",
+    "author_name": "Prompt Solutions",
+    "date": "2026-11-24",
+    "url": "https://x.com/PSLLCConsulting/status/2125247466647757272",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125528617564188793",
+    "agent": "muse",
+    "quote": "Meta Muse app tops US free app charts\n\nMeta has expanded its Muse AI assistant to the UK.\n\nThe app is already available in the US and Canada.\n\nMuse can shop book tickets and carry out negotiations on a user's behalf.\n\nIn the US the app ranks first on Google and second on Apple's",
+    "author": "ApollonVisual",
+    "author_name": "Apollo",
+    "date": "2026-11-25",
+    "url": "https://x.com/ApollonVisual/status/2125528617564188793",
+    "kind": "news",
+    "tags": [
+      "x",
+      "shopping"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "News aggregator post."
+  },
+  {
+    "id": "2125501782277447909",
+    "agent": "muse",
+    "quote": "Walmart is letting Meta's Muse shop Black Friday for you\n\nWalmart hooked Muse into its store. Open the Muse app, sign in to Walmart, tell it what you want — it finds products, compares, and builds a cart. Agent Gateway, which launched in October, is the pipe. Instacart already",
+    "author": "Tesla_Optimus_K",
+    "author_name": "Tesla_Optimus",
+    "date": "2026-11-25",
+    "url": "https://x.com/Tesla_Optimus_K/status/2125501782277447909",
+    "kind": "other",
+    "tags": [
+      "x",
+      "shopping"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125537351606935901",
+    "agent": "muse",
+    "quote": "@shota7180 Claudeは会社の仕事を任せる。Meta Museは個人の用事を任せるというが、最近はMeta Museが熱い！\n結局、今の自分にはどちらが向いているかが知りたい。",
+    "author": "nao_airikai",
+    "author_name": "nao@AI_writer",
+    "date": "2026-11-25",
+    "url": "https://x.com/nao_airikai/status/2125537351606935901",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-claude"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Muse more convenient than expected; will use alongside Gemini Spark."
+  },
+  {
+    "id": "2125587521736196134",
+    "agent": "muse",
+    "quote": "@ChristianKoeppl $100/ month for an inferior product vs. free Meta Muse.",
+    "author": "WillBiddy_",
+    "author_name": "Will Biddy",
+    "date": "2026-11-25",
+    "url": "https://x.com/WillBiddy_/status/2125587521736196134",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125563651507605875",
+    "agent": "muse",
+    "quote": "JUST IN: $AMZN is considering allowing $META Muse access to shop on Amazon",
+    "author": "Kalshi_Finance",
+    "author_name": "Kalshi Finance",
+    "date": "2026-11-25",
+    "url": "https://x.com/Kalshi_Finance/status/2125563651507605875",
+    "kind": "news",
+    "tags": [
+      "x",
+      "shopping"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "News aggregator post."
+  },
+  {
+    "id": "2125541647643721783",
+    "agent": "muse",
+    "quote": "@leo_xiaolei Meta Muse video did a fantastic job with this reference.",
+    "author": "mark_delacroix",
+    "author_name": "Constan†ine",
+    "date": "2026-11-25",
+    "url": "https://x.com/mark_delacroix/status/2125541647643721783",
+    "kind": "other",
+    "tags": [
+      "x",
+      "video"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125239821774069896",
+    "agent": "muse",
+    "quote": "MetaのMuseが思ったよりも便利なことに気づいた\nGemini sparkと併用していこう",
+    "author": "Surigie1988",
+    "author_name": "Naoらん",
+    "date": "2026-11-24",
+    "url": "https://x.com/Surigie1988/status/2125239821774069896",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-gemini"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Google One AI features—Spark, video/music gen, Drive 5TB, Meet transcripts—under ¥3000/mo (¥1200 Black Friday)."
   }
 ]

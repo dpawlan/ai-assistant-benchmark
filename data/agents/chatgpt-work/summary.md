@@ -153,3 +153,16 @@ _Updated 2026-11-18 weekday vault scan (+2 rows)._
 - (2026-11-17) @AntarikshC: Bug—"whenever i ask dot to start a ChatGPT work thread, it just fails"; browser doesn't stay logged in.
 
 **Feedback rows:** 62 (as of 2026-11-18)
+
+_Updated 2026-11-25 weekday vault scan (+7 rows)._
+
+**New this scan:**
+- (2026-11-24) @daveytea: Integration news—Pantheon now works with ChatGPT Work and Dots.
+- (2026-11-25) @kittananj: Complaint—unclear which session is cloud vs local; tasks failed due to lack of access.
+- (2026-11-25) @h_a_t_a_r_a_k_e: JP—status update on ChatGPT/Work/Codex elevated errors; improving after mitigation.
+- (2026-11-25) @daniexbt: Question—"Where did full access in ChatGPT work go?"
+- (2026-11-25) @SergioMarakis: Complaint—one quota across ChatGPT/Work/Codex means heavy Codex users squeezed first.
+- (2026-11-25) @AltHarbor: Comparison—"ChatGPT Work is Codex with training wheels for people intimidated by repository."
+- (2026-11-24) @gcinkara: TR—wondered what ChatGPT Work is for; now indispensable after a month.
+
+**Feedback rows:** 69 (as of 2026-11-25)

@@ -1,0 +1,35 @@
+{
+  "updated": "2026-11-25",
+  "scope": {
+    "current_map": 293,
+    "historical_additions": 7,
+    "total": 300
+  },
+  "verified_event_records": 14,
+  "products_with_verified_events": 11,
+  "prototype_products": 10,
+  "complete": false,
+  "rules": [
+    "Use product launch or public announcement, never date added to map.",
+    "Separate announcement, waitlist, preview and general availability.",
+    "Company founding dates and repository creation dates are not product launches.",
+    "Retain source URL, event scope, precision and verification date.",
+    "A partial shutdown does not remove the entire product.",
+    "Keep renames and migrations linked rather than treating them as unrelated launches.",
+    "An unknown date remains unknown; do not plot an inferred exact day.",
+    "Current logo artwork is used; historical branding is not reconstructed."
+  ],
+  "next_review": [
+    "Sones: establish first announcement before its November 10 Lucas migration.",
+    "Ollie: investigate pre-June family-assistant availability and prior shopping/meal products.",
+    "Vellum: distinguish earlier local-assistant releases from April 2 hosted launch.",
+    "Buoy: verify original launch and November 15 sunset from Interface Club; do not confuse iris.fun with iris-agent.co.",
+    "Del, Mitra, Odessia, Iris and Butler: verify whether each actually closed, pivoted or was removed from coverage.",
+    "Continue individual primary-source review for every remaining inventory record; raw search files are leads, not verified events."
+  ],
+  "validation": [
+    "TypeScript passed",
+    "Browser: closure boundaries, partial shutdown, source dialog, playback, categories, image loading and mobile overflow passed"
+  ],
+  "publication": "Local preview on codex/market-map-timeline; not published to production."
+}

@@ -1,0 +1,3164 @@
+[
+  {
+    "id": "dots",
+    "name": "Dots",
+    "website": "https://openai.com/index/introducing-dots/",
+    "category": "Big lab & big tech",
+    "description": "Personal agents from OpenAI that can work independently on delegated tasks.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-09-29",
+        "precision": "day",
+        "kind": "launch",
+        "label": "Rollout announced",
+        "note": "Rollout began for eligible Pro, Business Premium and Enterprise users.",
+        "source": "https://openai.com/index/introducing-dots/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "claude-duet",
+    "name": "Claude Duet",
+    "website": "https://claude.com/product/claude-duet",
+    "category": "Big lab & big tech",
+    "description": "A proactive personal agent from Anthropic for work and everyday tasks.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-10-21",
+        "precision": "day",
+        "kind": "preview",
+        "label": "Research preview announced",
+        "note": "US Pro, Max and Ultra subscribers could join the waitlist; access was not generally available.",
+        "source": "https://claude.com/resources/articles/claude-duet",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "tasks-in-gemini",
+    "name": "Tasks in Gemini",
+    "website": "https://gemini.google/overview/productivity/",
+    "category": "Big lab & big tech",
+    "description": "Task delegation in Gemini for handling routine work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "muse",
+    "name": "Muse",
+    "website": "https://muse.ai/",
+    "category": "Big lab & big tech",
+    "description": "A personal AI agent from Meta for getting everyday tasks done.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-09-08",
+        "precision": "day",
+        "kind": "launch",
+        "label": "Public introduction",
+        "note": "Meta introduced Muse as a personal AI agent. This is the original publication date, not the later article update.",
+        "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "website": "https://grok.com/",
+    "category": "Big lab & big tech",
+    "description": "An AI assistant with access to information from the web and X.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2023-11-03",
+        "precision": "day",
+        "kind": "preview",
+        "label": "Early beta announced",
+        "note": "The official announcement offered limited US early access through a waitlist. This record covers Grok, not Grok Bot.",
+        "source": "https://x.ai/news/grok",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "website": "https://copilot.com/",
+    "category": "Big lab & big tech",
+    "description": "An AI assistant across Windows, Microsoft 365, and the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "perplexity-computer",
+    "name": "Perplexity Computer",
+    "website": "https://www.perplexity.ai/products/computer",
+    "category": "Big lab & big tech",
+    "description": "Perplexity's general-purpose digital worker for research and real-world tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "siri",
+    "name": "Siri",
+    "website": "https://www.apple.com/siri/",
+    "category": "Big lab & big tech",
+    "description": "Apple's assistant, rebuilt for Apple Intelligence, across iPhone, iPad and Mac.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "alexa",
+    "name": "Alexa+",
+    "website": "https://alexa.amazon.com/",
+    "category": "Big lab & big tech",
+    "description": "Amazon's Alexa+ assistant: dive deep into topics, draft messages, plan, and take action.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "doubao",
+    "name": "Doubao",
+    "website": "https://www.doubao.com/",
+    "category": "Big lab & big tech",
+    "description": "ByteDance's AI assistant for chat, writing, translation and coding.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hark",
+    "name": "Hark",
+    "website": "https://hark.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant for delegated tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "instinct",
+    "name": "Instinct",
+    "website": "https://instinct.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant you can text or call; it uses a phone and computer the way you do.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tomo",
+    "name": "Tomo",
+    "website": "https://tomo.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "zapia",
+    "name": "Zapia",
+    "website": "https://zapia.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant for completing tasks, including online shopping.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "pally",
+    "name": "Pally",
+    "website": "https://pally.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "fo-by-wajo",
+    "name": "Fo by Wajo",
+    "website": "https://wajo.ai/",
+    "category": "Consumer personal assistants",
+    "description": "An assistant that makes calls, books services, and handles payments.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "dazzle",
+    "name": "Dazzle",
+    "website": "https://dazzle.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agent guided through pictures.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-09-29",
+        "precision": "day",
+        "kind": "launch",
+        "label": "Public launch",
+        "note": "The announcement offered the app, web and text access.",
+        "source": "https://dazzle.ai/announcing-dazzle-pictures-not-prompts/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "sones",
+    "name": "Sones",
+    "website": "https://sones.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Proactive personal agent for real-world tasks (formerly Lucas).",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-11-10",
+        "precision": "day",
+        "kind": "migration",
+        "label": "Lucas migration announced",
+        "note": "Lucas users were invited to move to Sones. The announcement says Lucas stops answering after November 30. This does not establish the first launch of Sones.",
+        "source": "https://meetlucas.ai/updates/2026-11-10-lucas-is-moving-to-sones/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "szn",
+    "name": "szn",
+    "website": "https://theszn.ai/",
+    "category": "Consumer personal assistants",
+    "description": "An assistant for calls, email, bookings, and follow-up.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tab",
+    "name": "Tab",
+    "website": "https://tab.bot/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant in Messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "catch",
+    "name": "Catch",
+    "website": "https://catchagent.ai/",
+    "category": "Consumer personal assistants",
+    "description": "An assistant for scheduling, email, and calls.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "caddy",
+    "name": "Caddy",
+    "website": "https://caddy.app/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant in Messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "orchid",
+    "name": "Orchid",
+    "website": "https://orchid.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant that lives in your messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "boba",
+    "name": "Boba",
+    "website": "https://boba.app/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant available by text, group chat, and the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "asmi",
+    "name": "Asmi",
+    "website": "https://www.asmiai.com/",
+    "category": "Consumer personal assistants",
+    "description": "AI that handles your chores in the physical world.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "poke",
+    "name": "Poke",
+    "website": "https://poke.com/",
+    "category": "Consumer personal assistants",
+    "description": "A proactive assistant available through Messages, WhatsApp, and Telegram.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "asaply",
+    "name": "asaply",
+    "website": "https://asaply.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Text-based errand assistant for coffee, tickets, rides and pickups.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "boski",
+    "name": "Boski",
+    "website": "https://boski.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tinynature",
+    "name": "tinyNature",
+    "website": "https://tinypeople.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Personal AI assistant you message on WhatsApp.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "brea",
+    "name": "Brea",
+    "website": "https://brea.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant for delegated tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hirealpha",
+    "name": "HireAlpha",
+    "website": "https://hirealpha.chat/",
+    "category": "Consumer personal assistants",
+    "description": "Friend, coworker and cofounder as iMessage contacts.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "vellum",
+    "name": "Vellum",
+    "website": "https://www.vellum.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant built around your context.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-04-02",
+        "precision": "day",
+        "kind": "launch",
+        "label": "Hosted assistants launched",
+        "note": "Release v0.6.0 introduced cloud-hosted assistants and made the assistant repository public. Earlier local releases exist.",
+        "source": "https://www.vellum.ai/docs/releases#v060",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      },
+      {
+        "date": "2026-05-07",
+        "precision": "day",
+        "kind": "announcement",
+        "label": "Personal Intelligence introduction",
+        "note": "A later public introduction; it does not replace the earlier hosted-service release date.",
+        "source": "https://www.vellum.ai/blog/introducing-vellum",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      },
+      {
+        "date": "2026-11-07",
+        "precision": "day",
+        "kind": "partial_shutdown",
+        "label": "Hosted shutdown began",
+        "note": "Cloud assistants began being exported and turned off. Self-hosted assistants can continue; this is not a company-wide shutdown.",
+        "source": "https://www.vellum.ai/vellum-assistant-platform-shutdown",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "joshu",
+    "name": "Joshu",
+    "website": "https://joshu.me/",
+    "category": "Consumer personal assistants",
+    "description": "An assistant with a desk: its own computer, phone and email.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "mana",
+    "name": "Mana",
+    "website": "https://mana.space/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant and workspace \u2014 an AI-native operating system.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "the-shadow",
+    "name": "The Shadow",
+    "website": "https://theshadow.io/",
+    "category": "Consumer personal assistants",
+    "description": "Shadow, your personal assistant for real life: bookings, shopping and everyday to-dos.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "today",
+    "name": "Today",
+    "website": "https://today.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A proactive assistant that uses personal context to anticipate tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "aila",
+    "name": "aila",
+    "website": "https://www.myai.la/",
+    "category": "Consumer personal assistants",
+    "description": "An Istanbul lifestyle assistant that handles requests with your approval.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "airtap",
+    "name": "Airtap",
+    "website": "https://airtap.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Invite-only personal AI that operates real phone apps over chat.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "doti",
+    "name": "Doti",
+    "website": "https://heydoti.co/",
+    "category": "Consumer personal assistants",
+    "description": "The AI assistant you can text, in iMessage and RCS.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "faff",
+    "name": "Faff",
+    "website": "https://usefaff.com/",
+    "category": "Consumer personal assistants",
+    "description": "A WhatsApp assistant for life admin in India.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "familiar",
+    "name": "Familiar",
+    "website": "https://withfamiliar.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A proactive personal AI agent.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "frida",
+    "name": "Frida",
+    "website": "https://frida.chat/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI agent accessed through chat.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ka",
+    "name": "Ka",
+    "website": "https://textka.com/",
+    "category": "Consumer personal assistants",
+    "description": "The AI personal assistant you text on iMessage.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "luke",
+    "name": "Luke",
+    "website": "https://www.getluke.app/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant built around your context.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "neo",
+    "name": "Neo",
+    "website": "https://01labs.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI assistant from 01 Labs.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "nessi",
+    "name": "Nessi",
+    "website": "https://getnessi.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant you can text.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "quest",
+    "name": "Quest",
+    "website": "https://new.quest/",
+    "category": "Consumer personal assistants",
+    "description": "Personal AI advisor for life goals and memory.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "stumpy",
+    "name": "Stumpy",
+    "website": "https://stumpy.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Persistent AI agents that show up in Telegram, texts and email.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "waldo",
+    "name": "Waldo",
+    "website": "https://heywaldo.in/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agent for everyday tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "dana",
+    "name": "Dana",
+    "website": "https://heydana.ai/",
+    "category": "Consumer personal assistants",
+    "description": "Personal AI on WhatsApp and iMessage that can shop and move money.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "robyn",
+    "name": "Robyn",
+    "website": "https://www.meetrobyn.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agent platform accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "alien-agent",
+    "name": "Alien Agent",
+    "website": "https://alien.org/",
+    "category": "Consumer personal assistants",
+    "description": "A personal assistant that reads, books, and pays on your behalf.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "1helm",
+    "name": "1Helm",
+    "website": "https://1helm.com/",
+    "category": "Consumer personal assistants",
+    "description": "Assistant with its own browser for bookings, shopping and forms.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "buddy",
+    "name": "Buddy",
+    "website": "https://vxbe.space/",
+    "category": "Consumer personal assistants",
+    "description": "VXBE's personal agent via iMessage, email and Windows.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sunny",
+    "name": "Sunny",
+    "website": "https://trysunny.app/",
+    "category": "Consumer personal assistants",
+    "description": "The assistant you text.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "oz",
+    "name": "Oz",
+    "website": "https://oz.anyreach.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A text-based assistant for quotes, client updates, and paperwork.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "halo",
+    "name": "Halo",
+    "website": "https://meethalo.app/",
+    "category": "Consumer personal assistants",
+    "description": "An on-device iPhone assistant for everyday automation.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kith-rabbit",
+    "name": "Kith Rabbit",
+    "website": "https://kithrabbit.com/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agent for mapping and keeping your connections.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "twent",
+    "name": "Twent",
+    "website": "https://twent.xyz/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agentic OS for Android: automate apps, run a terminal, connect services.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "pickle",
+    "name": "Pickle",
+    "website": "https://pickle.com/",
+    "category": "Consumer personal assistants",
+    "description": "Your personal AI agent \u2014 it calls, books, orders and makes plans, with your approval.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "loyal-ai",
+    "name": "Loyal AI",
+    "website": "https://underdog.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A loyal AI for mail, calendar and everyday work that runs locally on your computer.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "groupthink",
+    "name": "Groupthink",
+    "website": "https://groupthink.com/",
+    "category": "Consumer personal assistants",
+    "description": "A memory for the people in your life and work, so relationships don't go cold.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "arlo",
+    "name": "Arlo",
+    "website": "https://www.arlo.sh/",
+    "category": "Consumer personal assistants",
+    "description": "Personal AI assistant for calls, bookings and everyday tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "daimon",
+    "name": "Daimon",
+    "website": "https://www.daimonapp.ai/",
+    "category": "Consumer personal assistants",
+    "description": "A personal AI advisor with memory.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "stiled",
+    "name": "Stiled",
+    "website": "https://www.stiled.app/",
+    "category": "Shopping & commerce",
+    "description": "A fashion-shopping assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "scout",
+    "name": "Scout",
+    "website": "https://shoponscout.com/",
+    "category": "Shopping & commerce",
+    "description": "A voice-based shopping assistant.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sellee",
+    "name": "Sellee",
+    "website": "https://www.sellee.ai/",
+    "category": "Shopping & commerce",
+    "description": "Uses a product photo to price an item, list it, and negotiate a sale.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "littl",
+    "name": "Littl",
+    "website": "https://dolittl.ai/",
+    "category": "Shopping & commerce",
+    "description": "A personal assistant that takes action with your permission.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "miso",
+    "name": "Miso",
+    "website": "https://miso.com/",
+    "category": "Travel",
+    "description": "Personal AI travel agent over iMessage, for flights and hotels.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "soar",
+    "name": "Soar",
+    "website": "https://joinsoar.co/",
+    "category": "Travel",
+    "description": "Personal travel companion that turns your inbox into trips.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "jett",
+    "name": "Jett",
+    "website": "https://www.usejett.com/",
+    "category": "Travel",
+    "description": "Personal AI travel agent that searches, scores and books flights and hotels.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "mindtrip",
+    "name": "Mindtrip",
+    "website": "https://mindtrip.ai/",
+    "category": "Travel",
+    "description": "Travel agent that books flights and hotels in chat.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "website": "https://atlas.voyagelabs.ai/",
+    "category": "Travel",
+    "description": "Voyage Labs' personal agent for trips, dining and experiences.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "arden",
+    "name": "Arden",
+    "website": "https://arden.co/",
+    "category": "Travel",
+    "description": "AI travel assistant that manages trips and automatically claims missed savings.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "veeza-ai",
+    "name": "Veeza AI",
+    "website": "https://www.veeza.ai/en",
+    "category": "Travel",
+    "description": "AI that fills tourist-visa forms, prepares documents and handles appointments.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "lola",
+    "name": "Lola",
+    "website": "https://lola.com/",
+    "category": "Travel",
+    "description": "AI assistant for experiences \u2014 find hotels and restaurants, and book them.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "flip",
+    "name": "Flip",
+    "website": "https://fliptexts.com/",
+    "category": "Finance & money",
+    "description": "A personal money-management assistant in iMessage.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "maxi",
+    "name": "Maxi",
+    "website": "https://www.usemaxi.app/",
+    "category": "Finance & money",
+    "description": "A personal finance assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "treasury",
+    "name": "Treasury",
+    "website": "https://treasury.sh/",
+    "category": "Finance & money",
+    "description": "AI budgeting and personal finance app \u2014 ask your money anything.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ecomerate",
+    "name": "Ecomerate",
+    "website": "https://ecomerate.com/",
+    "category": "Finance & money",
+    "description": "AI stock-research analyst you text via iMessage.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "catalyst",
+    "name": "Catalyst",
+    "website": "https://catalyst.app/",
+    "category": "Finance & money",
+    "description": "Researches investment ideas, builds strategies, and executes trades.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "supertake",
+    "name": "Supertake",
+    "website": "https://www.supertake.com/",
+    "category": "Finance & money",
+    "description": "Turns your takes into shareable portfolios using frontier AI and trading agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "scalar-field",
+    "name": "Scalar Field",
+    "website": "https://scalarfield.io/",
+    "category": "Finance & money",
+    "description": "AI agentic trading desk for research, backtesting and brokerage-connected execution.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "volaren",
+    "name": "Volaren",
+    "website": "https://www.volaren.ai/",
+    "category": "Finance & money",
+    "description": "Personal investing agent that explains your portfolio and can trade for you.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "anyalpha",
+    "name": "AnyAlpha",
+    "website": "https://anyalpha.ai/",
+    "category": "Finance & money",
+    "description": "Agentic trading platform: your AI agent researches, backtests and trades 24/7.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "conviction",
+    "name": "Conviction",
+    "website": "https://www.convictiontrade.ai/",
+    "category": "Finance & money",
+    "description": "Describe a trading idea; an AI agent backtests it, monitors the market and trades.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "instinct-xyz",
+    "name": "Instinct.xyz",
+    "website": "https://instinct.xyz/",
+    "category": "Finance & money",
+    "description": "Trading intelligence with agents that monitor markets and find trades 24/7.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "slashy",
+    "name": "Slashy",
+    "website": "https://www.slashy.com/",
+    "category": "Email & calendar",
+    "description": "An AI assistant for handling email.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ezail",
+    "name": "Ezail",
+    "website": "https://www.ezail.com/",
+    "category": "Email & calendar",
+    "description": "The AI colleague your team copies on email.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kai",
+    "name": "Kai",
+    "website": "https://hirekai.ai/",
+    "category": "Email & calendar",
+    "description": "AI executive assistant for email and calendar, by Morgen.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "prio",
+    "name": "Prio",
+    "website": "https://prio.sh/",
+    "category": "Email & calendar",
+    "description": "AI chief of staff and personal agent for founders and CEOs.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "skej",
+    "name": "Skej",
+    "website": "https://skej.com/",
+    "category": "Email & calendar",
+    "description": "Assistant in email, SMS and Slack that schedules, drafts and follows up.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "howie",
+    "name": "Howie",
+    "website": "https://howie.com/",
+    "category": "Email & calendar",
+    "description": "A calendar assistant that schedules meetings through email and text.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "wabi",
+    "name": "Wabi",
+    "website": "https://wabi.ai/",
+    "category": "Multiplayer & group chat",
+    "description": "The AI assistant you use together, in shared threads.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "alfi",
+    "name": "Alfi",
+    "website": "https://www.text.ai/",
+    "category": "Multiplayer & group chat",
+    "description": "Bringing Alfi to every group chat, from Text.ai.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "bantr",
+    "name": "Bantr",
+    "website": "https://www.socialcompanyofus.com/what-bantr-does",
+    "category": "Multiplayer & group chat",
+    "description": "A text-message assistant for planning, budgeting and investing, solo or in a group.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rene",
+    "name": "Rene",
+    "website": "https://rene.co/",
+    "category": "Multiplayer & group chat",
+    "description": "A shared personal AI assistant.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "qordinate",
+    "name": "Qordinate",
+    "website": "https://www.qordinate.ai/",
+    "category": "Multiplayer & group chat",
+    "description": "An AI assistant designed for collaborative work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kicker",
+    "name": "Kicker",
+    "website": "https://kickerai.xyz/",
+    "category": "Home, family & health",
+    "description": "AI health friend that connects wearables and your calendar to keep you on track.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "orbits",
+    "name": "Orbits",
+    "website": "https://tryorbits.com/",
+    "category": "Home, family & health",
+    "description": "An AI assistant for household tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ava",
+    "name": "AVA",
+    "website": "https://hiava.com/",
+    "category": "Home, family & health",
+    "description": "An AI assistant for household management.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "norton-family-assistant",
+    "name": "Norton Family Assistant",
+    "website": "https://us.norton.com/products/family-assistant",
+    "category": "Home, family & health",
+    "description": "A secure AI agent for busy parents and families.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "bo",
+    "name": "Bo",
+    "website": "https://www.getbo.com/",
+    "category": "Home, family & health",
+    "description": "A health-focused assistant accessed through text messages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "august",
+    "name": "August",
+    "website": "https://www.meetaugust.ai/",
+    "category": "Home, family & health",
+    "description": "A personal AI health assistant.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "miso-nutrition",
+    "name": "Miso Nutrition",
+    "website": "https://withmiso.ai/",
+    "category": "Home, family & health",
+    "description": "An assistant for logging meals through conversation.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "babs",
+    "name": "Babs",
+    "website": "https://www.hellobabs.ai/",
+    "category": "Home, family & health",
+    "description": "AI family operating system that organizes school email, calendars and reminders.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cc",
+    "name": "CC",
+    "website": "https://labs.google.com/cc/landing",
+    "category": "Home, family & health",
+    "description": "Google Labs family AI agent for shared calendars, email and household logistics.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "anna",
+    "name": "Anna",
+    "website": "https://www.hianna.ai/",
+    "category": "Home, family & health",
+    "description": "AI family assistant for schedules, meals, tasks and the mental load.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ohai",
+    "name": "OHAI!",
+    "website": "https://www.ohai.ai/",
+    "category": "Home, family & health",
+    "description": "Household-manager AI assistant over text for calendars, to-dos, email and family life.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "fambot",
+    "name": "Fambot",
+    "website": "https://fambot.com/",
+    "category": "Home, family & health",
+    "description": "Turns school emails, newsletters and calendars into a clear daily plan for parents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "offseason",
+    "name": "Offseason",
+    "website": "https://offseasonwellness.com/",
+    "category": "Home, family & health",
+    "description": "A wellness assistant on iMessage that plans and books routines around your calendar, goals, and wearable data.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sesame",
+    "name": "Sesame",
+    "website": "https://www.sesame.com/",
+    "category": "Voice & phone",
+    "description": "Voice agents for conversation, research, planning and everyday tasks.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2025-02-27",
+        "precision": "day",
+        "kind": "preview",
+        "label": "Voice preview released",
+        "note": "A public conversational voice demo, not the launch of every later Sesame product.",
+        "source": "https://www.sesame.com/journal/crossing-the-uncanny-valley-of-voice",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "agent-band",
+    "name": "Agent Band",
+    "website": "https://meetagent.com/",
+    "category": "Voice & phone",
+    "description": "A voice-controlled assistant for bookings and calls.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "pneum",
+    "name": "Pneum",
+    "website": "https://pneum.ai/",
+    "category": "Voice & phone",
+    "description": "An assistant that takes requests by voice or text.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "deft",
+    "name": "Deft",
+    "website": "https://heydeft.ai/",
+    "category": "Voice & phone",
+    "description": "A personal assistant for phone calls and WhatsApp tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "website": "https://manus.im/",
+    "category": "Work & productivity",
+    "description": "A general-purpose agent for creating slides, websites, games, and other deliverables.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "shuffle",
+    "name": "Shuffle",
+    "website": "https://textshuffle.com/",
+    "category": "Work & productivity",
+    "description": "Automates daily posting across social platforms.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "migoo",
+    "name": "Migoo",
+    "website": "https://migoo.ai/",
+    "category": "Work & productivity",
+    "description": "An AI agent for video work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "friday",
+    "name": "Friday",
+    "website": "https://askfriday.io/",
+    "category": "Work & productivity",
+    "description": "Autonomous workspace agent that picks up research, analysis and first drafts.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "magica",
+    "name": "Magica",
+    "website": "https://magica.com/",
+    "category": "Work & productivity",
+    "description": "An AI worker for delegated tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "grokbot",
+    "name": "GrokBot",
+    "website": "https://docs.x.ai/grok-bot/overview",
+    "category": "Work & productivity",
+    "description": "A proactive AI teammate with a real computer in the cloud.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "town",
+    "name": "Town",
+    "website": "https://www.town.com/",
+    "category": "Work & productivity",
+    "description": "An assistant that learns how you work and takes on tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rocker",
+    "name": "Rocker",
+    "website": "https://www.rocker.ai/",
+    "category": "Work & productivity",
+    "description": "A work assistant that uses company context.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ako",
+    "name": "Ako",
+    "website": "https://withako.com/",
+    "category": "Work & productivity",
+    "description": "An AI employee for your team, with its own email and workspace.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "autohive",
+    "name": "Autohive",
+    "website": "https://www.autohive.com/",
+    "category": "Work & productivity",
+    "description": "Agents for automating repetitive team tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "chorus",
+    "name": "Chorus",
+    "website": "https://chorus.com/",
+    "category": "Work & productivity",
+    "description": "AI employees for marketing, ops, data, finance and engineering.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cole",
+    "name": "Cole",
+    "website": "https://pocodot.ai/",
+    "category": "Work & productivity",
+    "description": "AI assistant for WhatsApp, iMessage, LINE and group chats, from Pocodot.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "energy",
+    "name": "Energy",
+    "website": "https://getenergy.com/",
+    "category": "Work & productivity",
+    "description": "A desktop workspace where AI carries out tasks across apps.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "eney",
+    "name": "Eney",
+    "website": "https://eney.ai/",
+    "category": "Work & productivity",
+    "description": "A proactive assistant for coordinating work across tools.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "chatgpt-work",
+    "name": "ChatGPT Work",
+    "website": "https://chatgpt.com/work/",
+    "category": "Work & productivity",
+    "description": "A workspace for turning team requests into completed work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "skydive",
+    "name": "Skydive",
+    "website": "https://www.skydive.com/",
+    "category": "Work & productivity",
+    "description": "Cloud agents you talk to in Slack, email or iMessage.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "superagent",
+    "name": "Superagent",
+    "website": "https://base44.com/superagents",
+    "category": "Work & productivity",
+    "description": "A Base44 platform for building and deploying agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "heyclicky",
+    "name": "heyclicky",
+    "website": "https://www.heyclicky.com/",
+    "category": "Work & productivity",
+    "description": "An AI buddy for Mac and Windows that sees your screen and runs agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "lava",
+    "name": "Lava",
+    "website": "https://www.lava.so/",
+    "category": "Work & productivity",
+    "description": "An agent that works across the tools you use.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "milo",
+    "name": "Milo",
+    "website": "https://joinhexagon.com/milo",
+    "category": "Work & productivity",
+    "description": "An AI teammate from Hexagon for delegated work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "littlebird",
+    "name": "Littlebird",
+    "website": "https://littlebird.ai/",
+    "category": "Work & productivity",
+    "description": "An assistant with a memory of your work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "jack-jill",
+    "name": "Jack & Jill",
+    "website": "https://www.jackandjill.ai/",
+    "category": "Work & productivity",
+    "description": "Two agents: Jack finds your next job, Jill recruits for companies.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "central",
+    "name": "Central",
+    "website": "https://trycentral.com/",
+    "category": "Work & productivity",
+    "description": "AI business receptionist across every customer channel.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cheqq",
+    "name": "Cheqq",
+    "website": "https://cheqq.ai/",
+    "category": "Work & productivity",
+    "description": "AI agents that run operations for small businesses and solo founders.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sidekick-pro",
+    "name": "Sidekick Pro",
+    "website": "https://sidekickpro.com/",
+    "category": "Work & productivity",
+    "description": "An agent for completing work tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "toyo",
+    "name": "Toyo",
+    "website": "https://toyo.ai/",
+    "category": "Work & productivity",
+    "description": "Builds and runs managed AI agents and workflows for teams, in Slack.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "idem",
+    "name": "idem",
+    "website": "https://idem.so/",
+    "category": "Work & productivity",
+    "description": "A personal assistant that learns your context and preferences.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sauna",
+    "name": "Sauna",
+    "website": "https://www.sauna.ai/",
+    "category": "Work & productivity",
+    "description": "An AI workspace for managing work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sai",
+    "name": "Sai",
+    "website": "https://www.sai.work/",
+    "category": "Work & productivity",
+    "description": "Robosecretary that runs work on an autonomous computer fleet, from Simular.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "vestra",
+    "name": "Vestra",
+    "website": "https://vestra.ai/",
+    "category": "Work & productivity",
+    "description": "An agent workspace designed to build out its own operations.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tasklet",
+    "name": "Tasklet",
+    "website": "https://tasklet.ai/",
+    "category": "Work & productivity",
+    "description": "Agents for running business workflows.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hyperagent",
+    "name": "Hyperagent",
+    "website": "https://www.hyperagent.com/",
+    "category": "Work & productivity",
+    "description": "Agents for executing work tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "stanley",
+    "name": "Stanley",
+    "website": "https://getstanley.ai/",
+    "category": "Work & productivity",
+    "description": "An AI content agent for social media.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "website": "https://devin.ai/",
+    "category": "Work & productivity",
+    "description": "An AI software engineer from Cognition.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "righthand",
+    "name": "Righthand",
+    "website": "https://www.righthand.ai/",
+    "category": "Work & productivity",
+    "description": "An AI agent for taking on delegated jobs.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "fleece-ai",
+    "name": "Fleece AI",
+    "website": "https://fleeceai.app/",
+    "category": "Work & productivity",
+    "description": "Deploy autonomous AI agents that execute your tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "solo-work",
+    "name": "Solo Work",
+    "website": "https://solomail.io/",
+    "category": "Work & productivity",
+    "description": "Prepared agent teams for operating a business.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "standout",
+    "name": "Standout",
+    "website": "https://standout.work/",
+    "category": "Work & productivity",
+    "description": "A career assistant for introductions to job opportunities.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "otty",
+    "name": "Otty",
+    "website": "https://www.heyotty.com/",
+    "category": "Work & productivity",
+    "description": "Your AI career agent \u2014 finds jobs and applies with your permission.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "caspian",
+    "name": "Caspian",
+    "website": "https://textcaspian.com/",
+    "category": "Work & productivity",
+    "description": "Personal chief-of-staff app for macOS, from the NOX team.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "lindy",
+    "name": "Lindy",
+    "website": "https://www.lindy.ai/",
+    "category": "Work & productivity",
+    "description": "An AI employee that connects to your tools and does real work for the team.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "espa",
+    "name": "Espa",
+    "website": "https://espa.ai/",
+    "category": "Work & productivity",
+    "description": "AI assistant that schedules meetings, organizes email and follows through on to-dos.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "mira",
+    "name": "Mira",
+    "website": "https://getmira.run/",
+    "category": "Work & productivity",
+    "description": "Hire an AI employee that gets computer work done for you.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "superhuman-go",
+    "name": "Superhuman Go",
+    "website": "https://superhuman.com/go",
+    "category": "Work & productivity",
+    "description": "Proactive AI assistant that works across the apps you already use.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "fyxer",
+    "name": "Fyxer",
+    "website": "https://www.fyxer.com/",
+    "category": "Work & productivity",
+    "description": "AI assistant across email, chat, calendar and meetings.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "talentpluto",
+    "name": "Talentpluto",
+    "website": "https://talentpluto.com/",
+    "category": "Work & productivity",
+    "description": "AI voice agent that learns your story and makes you discoverable to the right people.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "dex",
+    "name": "Dex",
+    "website": "https://meetdex.ai/",
+    "category": "Work & productivity",
+    "description": "AI talent agent matching senior software engineers with top tech companies.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sonara",
+    "name": "Sonara",
+    "website": "https://www.sonara.ai/",
+    "category": "Work & productivity",
+    "description": "AI job-search agent that finds matching roles and applies for you.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hiringcafe",
+    "name": "HiringCafe",
+    "website": "https://hiring.cafe/",
+    "category": "Work & productivity",
+    "description": "Job search engine with Talent Agent, which finds matching roles for you every day.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "jobright",
+    "name": "Jobright",
+    "website": "https://jobright.ai/",
+    "category": "Work & productivity",
+    "description": "AI job-search agent that matches roles, tailors resumes and autofills applications.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "lia",
+    "name": "Lia",
+    "website": "https://www.liarefer.com/",
+    "category": "Work & productivity",
+    "description": "AI career agent that introduces you directly to decision makers at tech companies.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tsenta",
+    "name": "Tsenta",
+    "website": "https://tsenta.com/",
+    "category": "Work & productivity",
+    "description": "AI agent that auto-applies to jobs on company career pages.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "website": "https://openclaw.ai/",
+    "category": "Open source & self-hosted",
+    "description": "An open-source assistant for taking action on tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "openinstinct",
+    "name": "OpenInstinct",
+    "website": "https://openinstinct.sh/",
+    "category": "Open source & self-hosted",
+    "description": "Open-source assistant that lives in your iMessage thread.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "website": "https://hermes-agent.nousresearch.com/",
+    "category": "Open source & self-hosted",
+    "description": "An adaptive AI agent from Nous Research.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "craftbot",
+    "name": "CraftBot",
+    "website": "https://github.com/CraftOS-dev/CraftBot",
+    "category": "Open source & self-hosted",
+    "description": "One open-source agent for every kind of work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "website": "https://romeos.cc/",
+    "category": "Open source & self-hosted",
+    "description": "Open-source home for your AI agents, on WhatsApp, Telegram or Discord.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "letta",
+    "name": "Letta",
+    "website": "https://www.letta.com/agent/",
+    "category": "Open source & self-hosted",
+    "description": "A personalized agent that remembers and learns.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2024-09-23",
+        "precision": "day",
+        "kind": "announcement",
+        "label": "Letta announced",
+        "note": "Letta was introduced as the successor platform to MemGPT. Cloud access was an early pilot; MemGPT predates this announcement.",
+        "source": "https://www.letta.com/blog/announcing-letta/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "website": "https://agpt.co/",
+    "category": "Open source & self-hosted",
+    "description": "An open-source platform for building and running agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "link",
+    "name": "Link",
+    "website": "https://docs.stripe.com/agentic-commerce/agents/link-agent-wallet",
+    "category": "Agent infrastructure",
+    "description": "Stripe's Link Agent Wallet: agents request a payment, the user approves.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "visa-intelligent-commerce",
+    "name": "Visa Intelligent Commerce",
+    "website": "https://www.visa.com/en-us/solutions/intelligent-commerce",
+    "category": "Agent infrastructure",
+    "description": "Visa infrastructure for agent-initiated commerce.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "website": "https://www.browserbase.com/",
+    "category": "Agent infrastructure",
+    "description": "Headless browsers in the cloud for agents that need to use the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "1password-for-agents",
+    "name": "1Password for Agents",
+    "website": "https://1password.com/blog/1password-for-ai-agents",
+    "category": "Agent infrastructure",
+    "description": "A credential-access tool that lets agents request logins for user approval.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "linq",
+    "name": "Linq",
+    "website": "https://linqapp.com/",
+    "category": "Agent infrastructure",
+    "description": "Texting and calling infrastructure behind agents like Poke.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "aside",
+    "name": "Aside",
+    "website": "https://aside.com/",
+    "category": "Agent infrastructure",
+    "description": "An AI assistant that is also a browser.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "synorb",
+    "name": "Synorb",
+    "website": "https://synorb.com/",
+    "category": "Agent infrastructure",
+    "description": "Source-cited, time-bounded outside context for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "aeon",
+    "name": "Aeon",
+    "website": "https://www.aeon.fun/",
+    "category": "Agent infrastructure",
+    "description": "An autonomous agent framework.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "website": "https://browser-use.com/",
+    "category": "Agent infrastructure",
+    "description": "Open-source browser agents and cloud browsers for automating the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "box-by-simular",
+    "name": "Box by Simular",
+    "website": "https://www.simular.ai/",
+    "category": "Agent infrastructure",
+    "description": "Computers made for agents, from the autonomous-computer company Simular.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "composio",
+    "name": "Composio",
+    "website": "https://composio.dev/",
+    "category": "Agent infrastructure",
+    "description": "Integrations that give AI agents access to apps and tools.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "nango",
+    "name": "Nango",
+    "website": "https://www.nango.dev/",
+    "category": "Agent infrastructure",
+    "description": "API integrations for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "website": "https://www.arcade.dev/",
+    "category": "Agent infrastructure",
+    "description": "Actions runtime that governs every action for enterprise AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "auth0-ai-token-vault",
+    "name": "Auth0 AI Token Vault",
+    "website": "https://auth0.com/ai",
+    "category": "Agent infrastructure",
+    "description": "Identity and token vault so agents can call APIs securely.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "pipedream",
+    "name": "Pipedream",
+    "website": "https://pipedream.com/",
+    "category": "Agent infrastructure",
+    "description": "Integration layer for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "scalekit",
+    "name": "Scalekit",
+    "website": "https://www.scalekit.com/",
+    "category": "Agent infrastructure",
+    "description": "An MCP gateway connecting agents to tools with per-user authentication.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "descope",
+    "name": "Descope",
+    "website": "https://www.descope.com/",
+    "category": "Agent infrastructure",
+    "description": "Identity platform for customers and AI agents, including outbound app access.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "workos-pipes",
+    "name": "WorkOS Pipes",
+    "website": "https://workos.com/docs/pipes",
+    "category": "Agent infrastructure",
+    "description": "Connects users' third-party accounts so apps and AI agents can act in them.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "keycard",
+    "name": "Keycard",
+    "website": "https://www.keycard.ai/",
+    "category": "Agent infrastructure",
+    "description": "Runtime authorization for agents: identity, authority and policy-scoped access.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kernel",
+    "name": "Kernel",
+    "website": "https://www.kernel.sh/",
+    "category": "Agent infrastructure",
+    "description": "Browser infrastructure for web agents and automations.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "notte",
+    "name": "Notte",
+    "website": "https://notte.cc/",
+    "category": "Agent infrastructure",
+    "description": "Browser platform and framework for AI agents that use the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "browserless",
+    "name": "Browserless",
+    "website": "https://www.browserless.io/",
+    "category": "Agent infrastructure",
+    "description": "Hosted browsers for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "orgo",
+    "name": "Orgo",
+    "website": "https://www.orgo.ai/",
+    "category": "Agent infrastructure",
+    "description": "Cloud computers for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "e2b",
+    "name": "E2B",
+    "website": "https://e2b.dev/",
+    "category": "Agent infrastructure",
+    "description": "Cloud sandboxes and runtime for enterprise AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cua",
+    "name": "Cua",
+    "website": "https://www.trycua.com/",
+    "category": "Agent infrastructure",
+    "description": "Computer infrastructure for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "daytona",
+    "name": "Daytona",
+    "website": "https://www.daytona.io/",
+    "category": "Agent infrastructure",
+    "description": "Secure infrastructure for running AI-generated code.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tensorlake",
+    "name": "Tensorlake",
+    "website": "https://tensorlake.ai/",
+    "category": "Agent infrastructure",
+    "description": "Sandboxes for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "phoneuse",
+    "name": "PhoneUse",
+    "website": "https://www.phoneuse.com/",
+    "category": "Agent infrastructure",
+    "description": "Phones for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "glasshand",
+    "name": "Glasshand",
+    "website": "https://glasshand.com/",
+    "category": "Agent infrastructure",
+    "description": "Real iPhones and Macs for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "droidrun",
+    "name": "droidrun",
+    "website": "https://droidrun.ai/",
+    "category": "Agent infrastructure",
+    "description": "The phone layer for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "phonebox",
+    "name": "Phonebox",
+    "website": "https://phonebox.dev/",
+    "category": "Agent infrastructure",
+    "description": "Cloud phones for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tapkit",
+    "name": "Tapkit",
+    "website": "https://tapkit.ai/",
+    "category": "Agent infrastructure",
+    "description": "Infrastructure for agents that tap and control phones.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "mem0",
+    "name": "Mem0",
+    "website": "https://mem0.ai/",
+    "category": "Agent infrastructure",
+    "description": "Persistent memory layer for AI agents and apps.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "supermemory",
+    "name": "supermemory",
+    "website": "https://supermemory.ai/",
+    "category": "Agent infrastructure",
+    "description": "Memory and continual learning for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "honcho",
+    "name": "Honcho",
+    "website": "https://honcho.dev/",
+    "category": "Agent infrastructure",
+    "description": "Open-source AI memory for agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "zep",
+    "name": "Zep",
+    "website": "https://www.getzep.com/",
+    "category": "Agent infrastructure",
+    "description": "Enterprise context layer for agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cognee",
+    "name": "Cognee",
+    "website": "https://www.cognee.ai/",
+    "category": "Agent infrastructure",
+    "description": "Open-source agent memory platform.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "memorylake",
+    "name": "MemoryLake",
+    "website": "https://memorylake.ai/",
+    "category": "Agent infrastructure",
+    "description": "A memory layer for AI systems.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "openmail",
+    "name": "OpenMail",
+    "website": "https://openmail.sh/",
+    "category": "Agent infrastructure",
+    "description": "Email API for AI agents: inboxes, webhooks and delivery.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "agentmail",
+    "name": "AgentMail",
+    "website": "https://www.agentmail.to/",
+    "category": "Agent infrastructure",
+    "description": "Email inbox API for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "agentemail",
+    "name": "AgentEmail",
+    "website": "https://www.agentemail.co/",
+    "category": "Agent infrastructure",
+    "description": "Email infrastructure for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "chert",
+    "name": "Chert",
+    "website": "https://trychert.com/",
+    "category": "Agent infrastructure",
+    "description": "iMessage and FaceTime APIs for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "messages-dev",
+    "name": "messages.dev",
+    "website": "https://messages.dev/",
+    "category": "Agent infrastructure",
+    "description": "iMessage API for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "photon",
+    "name": "Photon",
+    "website": "https://photon.codes/",
+    "category": "Agent infrastructure",
+    "description": "Brings agents to iMessage, WhatsApp, Telegram, Slack and more.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "dial",
+    "name": "Dial",
+    "website": "https://getdial.ai/",
+    "category": "Agent infrastructure",
+    "description": "Phone numbers for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "nevermined",
+    "name": "Nevermined",
+    "website": "https://nevermined.ai/",
+    "category": "Agent infrastructure",
+    "description": "Payments infrastructure for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ampersend",
+    "name": "Ampersend",
+    "website": "https://www.ampersend.ai/",
+    "category": "Agent infrastructure",
+    "description": "Control layer for payments in the agent economy.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "catena",
+    "name": "Catena",
+    "website": "https://catena.com/",
+    "category": "Agent infrastructure",
+    "description": "Infrastructure for how AI agents use money.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "natural",
+    "name": "Natural",
+    "website": "https://www.natural.com/",
+    "category": "Agent infrastructure",
+    "description": "Payments infrastructure for agentic commerce.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "privy-agent-wallets",
+    "name": "Privy Agent Wallets",
+    "website": "https://www.privy.io/agent-wallets",
+    "category": "Agent infrastructure",
+    "description": "Wallets built for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kite",
+    "name": "Kite",
+    "website": "https://gokite.ai/",
+    "category": "Agent infrastructure",
+    "description": "Payments layer for the agent economy.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "crossmint",
+    "name": "Crossmint",
+    "website": "https://www.crossmint.com/",
+    "category": "Agent infrastructure",
+    "description": "Stablecoin and wallet APIs used by agentic apps.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rye",
+    "name": "Rye",
+    "website": "https://rye.com/",
+    "category": "Agent infrastructure",
+    "description": "Checkout infrastructure for shopping agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "website": "https://www.zinc.com/",
+    "category": "Agent infrastructure",
+    "description": "An API for placing online purchases.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "cartai",
+    "name": "CartAI",
+    "website": "https://cartai.ai/",
+    "category": "Agent infrastructure",
+    "description": "Catalog, wallet, checkout, and monetization tools for AI agents that buy, available individually or as a full stack.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sapiom",
+    "name": "Sapiom",
+    "website": "https://sapiom.ai/",
+    "category": "Agent infrastructure",
+    "description": "Payment infrastructure for AI.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "agentcard",
+    "name": "Agentcard",
+    "website": "https://agentcard.com/",
+    "category": "Agent infrastructure",
+    "description": "Payment tools that let agents make online purchases.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "prava",
+    "name": "Prava",
+    "website": "https://prava.space/",
+    "category": "Agent infrastructure",
+    "description": "Payments API for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "versine",
+    "name": "Versine",
+    "website": "https://versine.com/",
+    "category": "Agent infrastructure",
+    "description": "Lets an AI agent send and receive money.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "lithic",
+    "name": "Lithic",
+    "website": "https://www.lithic.com/solutions/agentic-commerce",
+    "category": "Agent infrastructure",
+    "description": "Card and payments infrastructure for agentic commerce.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "skyfire",
+    "name": "Skyfire",
+    "website": "https://skyfire.xyz/",
+    "category": "Agent infrastructure",
+    "description": "Trust and payments stack for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "t54",
+    "name": "t54",
+    "website": "https://t54.ai/",
+    "category": "Agent infrastructure",
+    "description": "Payments and settlement infrastructure for agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "astrasync",
+    "name": "AstraSync",
+    "website": "https://astrasync.ai/",
+    "category": "Agent infrastructure",
+    "description": "Know Your Agent identity platform.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "website": "https://www.sardine.ai/",
+    "category": "Agent infrastructure",
+    "description": "Agentic financial-crime platform for fraud prevention and AML.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "exa",
+    "name": "Exa",
+    "website": "https://exa.ai/",
+    "category": "Agent infrastructure",
+    "description": "Search API for AI agents, with real-time web data.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tavily",
+    "name": "Tavily",
+    "website": "https://tavily.com/",
+    "category": "Agent infrastructure",
+    "description": "Search and web-extraction API built for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "parallel",
+    "name": "Parallel",
+    "website": "https://parallel.ai/",
+    "category": "Agent infrastructure",
+    "description": "Web infrastructure for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "website": "https://www.firecrawl.dev/",
+    "category": "Agent infrastructure",
+    "description": "Knowledge infrastructure for AI agents that need to read the web.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "context-dev",
+    "name": "Context.dev",
+    "website": "https://www.context.dev/",
+    "category": "Agent infrastructure",
+    "description": "Web scraping, search and crawl API for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "keenable",
+    "name": "Keenable",
+    "website": "https://keenable.ai/",
+    "category": "Agent infrastructure",
+    "description": "Independent web search API for AI.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "opencommerce",
+    "name": "opencommerce",
+    "website": "https://opencommerce.sh/",
+    "category": "Agent infrastructure",
+    "description": "A unified API for purchases across stores.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "channel3",
+    "name": "Channel3",
+    "website": "https://www.trychannel3.com/",
+    "category": "Agent infrastructure",
+    "description": "Product graph so agents can search, recommend and purchase.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "shopify-catalog",
+    "name": "Shopify Catalog",
+    "website": "https://shopify.dev/docs/agents/catalog/catalog-api",
+    "category": "Agent infrastructure",
+    "description": "Catalog API so agents can search and recommend Shopify products.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "firmly",
+    "name": "firmly",
+    "website": "https://firmly.ai/",
+    "category": "Agent infrastructure",
+    "description": "Agentic commerce platform so people can buy inside AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "monid",
+    "name": "Monid",
+    "website": "https://monid.ai/",
+    "category": "Agent infrastructure",
+    "description": "An agent skill for accessing tools and APIs.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "treg",
+    "name": "treg",
+    "website": "https://treg.to/",
+    "category": "Agent infrastructure",
+    "description": "OpenRouter for agent tools and data, billed per call.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "toolrouter",
+    "name": "ToolRouter",
+    "website": "https://toolrouter.com/",
+    "category": "Agent infrastructure",
+    "description": "A single MCP connection to hosted agent tools.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "apify",
+    "name": "Apify",
+    "website": "https://apify.com/",
+    "category": "Agent infrastructure",
+    "description": "Marketplace of ready-to-run tools and web data for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "configure",
+    "name": "Configure",
+    "website": "https://configure.dev/",
+    "category": "Agent infrastructure",
+    "description": "Plaid-like infrastructure so users can connect memory and apps across agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hindsight",
+    "name": "Hindsight",
+    "website": "https://hindsight.vectorize.io/",
+    "category": "Agent infrastructure",
+    "description": "Long-term memory for AI agents that learns across sessions.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "inkbox",
+    "name": "Inkbox",
+    "website": "https://inkbox.ai/",
+    "category": "Agent infrastructure",
+    "description": "A computer for your agents, with email, phone, iMessage and WhatsApp.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "locus",
+    "name": "Locus",
+    "website": "https://paywithlocus.com/",
+    "category": "Agent infrastructure",
+    "description": "Paid APIs and tools for agents, metered and billed per user.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "seaworthy",
+    "name": "Seaworthy",
+    "website": "https://getseaworthy.ai/",
+    "category": "Agent infrastructure",
+    "description": "One API so agents can make phone calls, payments and real-world errands.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "henry-labs",
+    "name": "Henry Labs",
+    "website": "https://henrylabs.ai/",
+    "category": "Agent infrastructure",
+    "description": "Embedded checkout and operating system for agentic commerce.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rentahuman",
+    "name": "RentAHuman",
+    "website": "https://rentahuman.ai/",
+    "category": "Agent infrastructure",
+    "description": "Marketplace so AI agents can hire people for real-world tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "orbit",
+    "name": "Orbit",
+    "website": "https://developer.orbitsearch.com/",
+    "category": "Agent infrastructure",
+    "description": "Agent login and people context so products can personalize from the first session.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "egoist",
+    "name": "Egoist",
+    "website": "https://ego.ist/",
+    "category": "Agent infrastructure",
+    "description": "AI Passport \u2014 a personal context layer you carry across the AI apps you use.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "tastegraph",
+    "name": "TasteGraph",
+    "website": "https://tastegraph.ai/",
+    "category": "Agent infrastructure",
+    "description": "Preference data for shopping-agent recommendations.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "gigi",
+    "name": "Gigi",
+    "website": "https://gigi.co/",
+    "category": "Agent infrastructure",
+    "description": "An agent network for finding people and relationship-based introductions.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "anchor-browser",
+    "name": "Anchor Browser",
+    "website": "https://anchorbrowser.io/",
+    "category": "Agent infrastructure",
+    "description": "Cloud browser infrastructure for AI agents, with managed authentication and isolated browser sessions.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "del",
+    "name": "Del",
+    "website": "https://www.withdel.com/",
+    "category": "Historical assistants",
+    "description": "Your digital handyman",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "buoy",
+    "name": "Buoy",
+    "website": "https://buoy.chat/",
+    "category": "Historical assistants",
+    "description": "iOS assistant that runs web apps and scheduled tasks",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "mitra",
+    "name": "Mitra",
+    "website": "https://mitra.run/",
+    "category": "Historical assistants",
+    "description": "The AI companion that gets work done",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "odessia",
+    "name": "Odessia",
+    "website": "https://odessia.com/",
+    "category": "Historical assistants",
+    "description": "An AI travel agent that plans and books the whole trip in one conversation",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "website": "https://iris-agent.co/",
+    "category": "Historical assistants",
+    "description": "A personal AI assistant you text, built on Hermes Agent",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "trybutler",
+    "name": "Butler",
+    "website": "https://trybutler.xyz/",
+    "category": "Historical assistants",
+    "description": "Not a to-do app. A to-done app.",
+    "mapped": false,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ollie",
+    "name": "Ollie",
+    "website": "https://ollie.ai/",
+    "category": "Historical assistants",
+    "description": "Personal family assistant",
+    "mapped": false,
+    "events": [
+      {
+        "date": "2026-06-02",
+        "precision": "day",
+        "kind": "announcement",
+        "label": "Family assistant launch announcement",
+        "note": "Founder Bill Lennon introduced the family assistant publicly. Earlier users existed; this is a confirmed announcement, not a claim about its first-ever user.",
+        "source": "https://x.com/blennon_/status/2061868938443550842",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      },
+      {
+        "date": "2026-11-06",
+        "precision": "day",
+        "kind": "shutdown",
+        "label": "Service sunset",
+        "note": "The official farewell specifies this effective shutdown date and refunds for unused subscriptions.",
+        "source": "https://ollie.ai/farewell/",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "dabanti",
+    "name": "Dabanti",
+    "website": "https://www.dabanti.com/",
+    "category": "Work & productivity",
+    "description": "An AI job-search assistant for finding roles and preparing tailored applications.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "minds",
+    "name": "Minds (Animoca Minds)",
+    "website": "https://hellominds.ai/",
+    "category": "Work & productivity",
+    "description": "A personal AI agent from Animoca Brands for research, bookings, and tasks through email and messaging.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "bond",
+    "name": "Bond",
+    "website": "https://bondapp.io/",
+    "category": "Work & productivity",
+    "description": "Turns commitments across email, Slack, and calendars into a to-do list that updates itself.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "demi",
+    "name": "Demi",
+    "website": "https://demi.ai/",
+    "category": "Work & productivity",
+    "description": "A proactive Mac assistant for email replies, meeting preparation, and follow-ups.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "alysis",
+    "name": "Alysis",
+    "website": "https://alysiscode.com/",
+    "category": "Work & productivity",
+    "description": "An AI agent for coding and computer tasks, available on desktop and in the terminal.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "zenzap",
+    "name": "Zenzap",
+    "website": "https://zenzap.co/",
+    "category": "Work & productivity",
+    "description": "A work chat where teams and AI agents share context and automate tasks together.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "viktor",
+    "name": "Viktor",
+    "website": "https://viktor.com/",
+    "category": "Work & productivity",
+    "description": "An AI teammate in Slack and Microsoft Teams that creates reports, runs research, and works across connected tools.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ando",
+    "name": "Ando",
+    "website": "https://www.ando.so/",
+    "category": "Work & productivity",
+    "description": "Team messaging where people and AI agents share channels and coordinate work.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "metix",
+    "name": "Metix",
+    "website": "https://www.metix.ai/",
+    "category": "Work & productivity",
+    "description": "An AI recruiter that sources candidates and helps arrange interviews.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "boardy",
+    "name": "Boardy",
+    "website": "https://www.boardy.ai/",
+    "category": "Work & productivity",
+    "description": "An AI networking assistant that makes introductions after both people opt in.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "polar-browser",
+    "name": "Polar Browser",
+    "website": "https://polarbrowser.com/",
+    "category": "Agent infrastructure",
+    "description": "An AI browser that carries out research, recruiting, sales, and operations tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "clawbank",
+    "name": "ClawBank",
+    "website": "https://clawbank.co/",
+    "category": "Agent infrastructure",
+    "description": "Infrastructure for agents to form companies, manage bank accounts, and sign contracts.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rep",
+    "name": "REP",
+    "website": "https://r3p.app/",
+    "category": "Agent infrastructure",
+    "description": "Portable identity and preference data that people can share with agents and businesses.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "sealgraf",
+    "name": "Sealgraf",
+    "website": "https://sealgraf.com/app/",
+    "category": "Agent infrastructure",
+    "description": "Spending permissions and sealed receipts for purchases made by AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ucii",
+    "name": "UCII",
+    "website": "https://ucii.sportgen-ai.com/",
+    "category": "Agent infrastructure",
+    "description": "Identity and authorization infrastructure that checks agent actions against human-issued permissions.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "boxlite",
+    "name": "BoxLite",
+    "website": "https://boxlite.ai/",
+    "category": "Agent infrastructure",
+    "description": "Hardware-isolated computing environments and cloud infrastructure for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "baselayer",
+    "name": "Baselayer",
+    "website": "https://baselayerhq.com/",
+    "category": "Agent infrastructure",
+    "description": "Identity verification for businesses and the people who authorize AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "agentphone",
+    "name": "AgentPhone",
+    "website": "https://www.agentphone.ai/",
+    "category": "Agent infrastructure",
+    "description": "Phone numbers, voice calls, and text messaging for AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "wiive",
+    "name": "wiive",
+    "website": "https://wiive.it/",
+    "category": "Consumer personal assistants",
+    "description": "An early personal agent that learns preferences and coordinates decisions with other people\u2019s agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "rabbit-os3",
+    "name": "rabbit OS3",
+    "website": "https://rabbit.tech/",
+    "category": "Consumer personal assistants",
+    "description": "A personal agent operating system for carrying out tasks across the web and connected devices.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "comma",
+    "name": "Comma",
+    "website": "https://comma.surf/",
+    "category": "Consumer personal assistants",
+    "description": "An open-source, always-on personal agent available across desktop, web, and mobile.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "ira",
+    "name": "Ira",
+    "website": "https://ira.so/",
+    "category": "Consumer personal assistants",
+    "description": "An invite-only personal assistant for email, bookings, shopping, and calls.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "storerouter",
+    "name": "StoreRouter",
+    "website": "https://storerouter.ai/",
+    "category": "Shopping & commerce",
+    "description": "A product-search API that gives agents structured catalog data across online stores.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "waverunner",
+    "name": "Waverunner",
+    "website": "https://waverunner.ai/",
+    "category": "Shopping & commerce",
+    "description": "A commerce platform with agents for payment routing, subscriptions, and customer operations.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "kwant-bot",
+    "name": "kwant Bot",
+    "website": "https://kwant.si/",
+    "category": "Open source & self-hosted",
+    "description": "Open-source, self-hosted agents that share chats, hand off work, and run scheduled tasks.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "openbot",
+    "name": "OpenBot",
+    "website": "https://open.bot/",
+    "category": "Open source & self-hosted",
+    "description": "A self-hostable AI coworker platform from CopilotKit, with tools, approvals, and shared workspaces.",
+    "mapped": true,
+    "events": [
+      {
+        "date": "2026-11-10",
+        "precision": "day",
+        "kind": "launch",
+        "label": "OpenBot 1.0 launched",
+        "note": "The official account announced Mac and Windows availability. Earlier Open-Dots, Muse and Duet projects are not counted as this release.",
+        "source": "https://x.com/0penBot/status/2120227434683617438",
+        "source_type": "primary",
+        "verified_on": "2026-11-25"
+      }
+    ],
+    "research_status": "events_verified",
+    "research_note": "Verified event dates; earliest-launch and complete lifecycle research remain open."
+  },
+  {
+    "id": "laze",
+    "name": "Laze",
+    "website": "https://laze.so/",
+    "category": "Multiplayer & group chat",
+    "description": "A shared workspace where teammates can chat with each other\u2019s AI agents.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "hachi",
+    "name": "Hachi",
+    "website": "https://hachi.im/",
+    "category": "Email & calendar",
+    "description": "A proactive inbox that prepares research, files, and replies across messaging channels; currently on a waitlist.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  },
+  {
+    "id": "blue-agent",
+    "name": "Blue Agent",
+    "website": "https://blueagent.dev/",
+    "category": "Finance & money",
+    "description": "An agent on Base for market research, onchain tools, and transactions users approve.",
+    "mapped": true,
+    "events": [],
+    "research_status": "pending"
+  }
+]

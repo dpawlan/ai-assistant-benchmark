@@ -1,0 +1,13 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch({headless:true});const page=await b.newPage({viewport:{width:1440,height:1100}});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto((process.env.TIMELINE_BASE_URL || 'http://localhost:3125') + '/market-map');await page.waitForLoadState('networkidle');
+const history=n=>page.getByRole('button',{name:`View ${n} history`,exact:true});
+if(await history('Ollie').count())throw Error('Closed Ollie visible');
+await page.locator('#map-date').fill('2026-11-05');if(await history('Ollie').count()!==1)throw Error('Ollie missing before closure');
+await page.locator('#map-date').fill('2026-11-06');if(await history('Ollie').count())throw Error('Ollie remains after closure');
+await page.getByRole('checkbox').check();await history('Ollie').click();await page.getByRole('dialog').waitFor();if(!await page.getByRole('dialog').getByText('Service sunset',{exact:true}).count())throw Error('Missing shutdown evidence');await page.keyboard.press('Escape');
+await page.locator('#map-date').fill('2026-11-25');if(await history('Vellum').count()!==1)throw Error('Partial shutdown removed Vellum');
+await page.getByRole('checkbox').uncheck();await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(400);await page.screenshot({animations:'disabled',path:'/tmp/market-map-timeline-desktop.png',fullPage:true});
+await page.getByRole('button',{name:'Play timeline',exact:true}).click();await page.waitForTimeout(1500);if(await page.locator('#map-date').inputValue()==='2026-11-25')throw Error('Playback failed');await page.getByRole('button',{name:'Pause',exact:true}).click();
+await page.locator('#map-date').fill('2026-11-25');await page.locator('select').selectOption('Open source & self-hosted');if(await history('Dots').count())throw Error('Category filter failed');await page.locator('select').selectOption('All categories');
+const bad=await page.locator('main img').evaluateAll(imgs=>imgs.filter(i=>!i.complete||!i.naturalWidth).map(i=>i.src));if(bad.length)throw Error('Broken logos: '+bad.join(','));
+await page.setViewportSize({width:390,height:844});await page.evaluate(()=>window.scrollTo(0,0));await page.waitForTimeout(400);await page.screenshot({animations:'disabled',path:'/tmp/market-map-timeline-mobile.png',fullPage:true});if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw Error('Mobile overflow');if(errors.length)throw Error(errors.join('\n'));console.log('PASS: shutdown boundaries, partial shutdown, sources dialog, playback, category filter, logos, mobile overflow.');await b.close();})();

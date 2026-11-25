@@ -4268,3 +4268,6 @@ footer .links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6p
 @media (max-width: 699px), (max-width: 1024px) and (max-height: 500px) {
   body:has([data-travel-mode]) .topbar { background: #fff; backdrop-filter: none !important; }
 }
+
+/* Keep all primary tabs reachable as the navigation grows. */
+@media (max-width: 700px) { .tb-links { min-width: 0; max-width: 100%; overflow-x: auto; } .tb-link { flex-shrink: 0; } }

@@ -1,0 +1,236 @@
+{
+  "asOf": "2026-11-25",
+  "researchTotal": 300,
+  "products": [
+    {
+      "id": "dots",
+      "name": "Dots",
+      "category": "Big lab & big tech",
+      "description": "Personal agents from OpenAI that can work independently on delegated tasks.",
+      "website": "https://openai.com/index/introducing-dots/",
+      "logo": "/logos/timeline/dots.png",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "precision": "day",
+          "kind": "launch",
+          "label": "Rollout announced",
+          "note": "Rollout began for eligible Pro, Business Premium and Enterprise users.",
+          "source": "https://openai.com/index/introducing-dots/",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "claude-duet",
+      "name": "Claude Duet",
+      "category": "Big lab & big tech",
+      "description": "A proactive personal agent from Anthropic for work and everyday tasks.",
+      "website": "https://claude.com/product/claude-duet",
+      "logo": "/logos/timeline/claude-duet.png",
+      "events": [
+        {
+          "date": "2026-10-21",
+          "precision": "day",
+          "kind": "preview",
+          "label": "Research preview announced",
+          "note": "US Pro, Max and Ultra subscribers could join the waitlist; access was not generally available.",
+          "source": "https://claude.com/resources/articles/claude-duet",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "muse",
+      "name": "Muse",
+      "category": "Big lab & big tech",
+      "description": "A personal AI agent from Meta for getting everyday tasks done.",
+      "website": "https://muse.ai/",
+      "logo": "/logos/timeline/muse.png",
+      "events": [
+        {
+          "date": "2026-09-08",
+          "precision": "day",
+          "kind": "launch",
+          "label": "Public introduction",
+          "note": "Meta introduced Muse as a personal AI agent. This is the original publication date, not the later article update.",
+          "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "category": "Big lab & big tech",
+      "description": "An AI assistant with access to information from the web and X.",
+      "website": "https://grok.com/",
+      "logo": "/logos/timeline/grok.png",
+      "events": [
+        {
+          "date": "2023-11-03",
+          "precision": "day",
+          "kind": "preview",
+          "label": "Early beta announced",
+          "note": "The official announcement offered limited US early access through a waitlist. This record covers Grok, not Grok Bot.",
+          "source": "https://x.ai/news/grok",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "dazzle",
+      "name": "Dazzle",
+      "category": "Consumer personal assistants",
+      "description": "A personal agent guided through pictures.",
+      "website": "https://dazzle.ai/",
+      "logo": "/logos/timeline/dazzle.png",
+      "events": [
+        {
+          "date": "2026-09-29",
+          "precision": "day",
+          "kind": "launch",
+          "label": "Public launch",
+          "note": "The announcement offered the app, web and text access.",
+          "source": "https://dazzle.ai/announcing-dazzle-pictures-not-prompts/",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "vellum",
+      "name": "Vellum",
+      "category": "Consumer personal assistants",
+      "description": "A personal assistant built around your context.",
+      "website": "https://www.vellum.ai/",
+      "logo": "/logos/timeline/vellum.png",
+      "events": [
+        {
+          "date": "2026-04-02",
+          "precision": "day",
+          "kind": "launch",
+          "label": "Hosted assistants launched",
+          "note": "Release v0.6.0 introduced cloud-hosted assistants and made the assistant repository public. Earlier local releases exist.",
+          "source": "https://www.vellum.ai/docs/releases#v060",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        },
+        {
+          "date": "2026-05-07",
+          "precision": "day",
+          "kind": "announcement",
+          "label": "Personal Intelligence introduction",
+          "note": "A later public introduction; it does not replace the earlier hosted-service release date.",
+          "source": "https://www.vellum.ai/blog/introducing-vellum",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        },
+        {
+          "date": "2026-11-07",
+          "precision": "day",
+          "kind": "partial_shutdown",
+          "label": "Hosted shutdown began",
+          "note": "Cloud assistants began being exported and turned off. Self-hosted assistants can continue; this is not a company-wide shutdown.",
+          "source": "https://www.vellum.ai/vellum-assistant-platform-shutdown",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "sesame",
+      "name": "Sesame",
+      "category": "Voice & phone",
+      "description": "Voice agents for conversation, research, planning and everyday tasks.",
+      "website": "https://www.sesame.com/",
+      "logo": "/logos/timeline/sesame.png",
+      "events": [
+        {
+          "date": "2025-02-27",
+          "precision": "day",
+          "kind": "preview",
+          "label": "Voice preview released",
+          "note": "A public conversational voice demo, not the launch of every later Sesame product.",
+          "source": "https://www.sesame.com/journal/crossing-the-uncanny-valley-of-voice",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "letta",
+      "name": "Letta",
+      "category": "Open source & self-hosted",
+      "description": "A personalized agent that remembers and learns.",
+      "website": "https://www.letta.com/agent/",
+      "logo": "/logos/timeline/letta.png",
+      "events": [
+        {
+          "date": "2024-09-23",
+          "precision": "day",
+          "kind": "announcement",
+          "label": "Letta announced",
+          "note": "Letta was introduced as the successor platform to MemGPT. Cloud access was an early pilot; MemGPT predates this announcement.",
+          "source": "https://www.letta.com/blog/announcing-letta/",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "ollie",
+      "name": "Ollie",
+      "category": "Consumer personal assistants",
+      "description": "Personal family assistant",
+      "website": "https://ollie.ai/",
+      "logo": "/logos/timeline/ollie.png",
+      "events": [
+        {
+          "date": "2026-06-02",
+          "precision": "day",
+          "kind": "announcement",
+          "label": "Family assistant launch announcement",
+          "note": "Founder Bill Lennon introduced the family assistant publicly. Earlier users existed; this is a confirmed announcement, not a claim about its first-ever user.",
+          "source": "https://x.com/blennon_/status/2061868938443550842",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        },
+        {
+          "date": "2026-11-06",
+          "precision": "day",
+          "kind": "shutdown",
+          "label": "Service sunset",
+          "note": "The official farewell specifies this effective shutdown date and refunds for unused subscriptions.",
+          "source": "https://ollie.ai/farewell/",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "openbot",
+      "name": "OpenBot",
+      "category": "Open source & self-hosted",
+      "description": "A self-hostable AI coworker platform from CopilotKit, with tools, approvals, and shared workspaces.",
+      "website": "https://open.bot/",
+      "logo": "/logos/timeline/openbot.png",
+      "events": [
+        {
+          "date": "2026-11-10",
+          "precision": "day",
+          "kind": "launch",
+          "label": "OpenBot 1.0 launched",
+          "note": "The official account announced Mac and Windows availability. Earlier Open-Dots, Muse and Duet projects are not counted as this release.",
+          "source": "https://x.com/0penBot/status/2120227434683617438",
+          "source_type": "primary",
+          "verified_on": "2026-11-25"
+        }
+      ]
+    }
+  ]
+}

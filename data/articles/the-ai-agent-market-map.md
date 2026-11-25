@@ -278,7 +278,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Crossmint](https://www.crossmint.com/)** — Stablecoin and wallet APIs used by agentic apps. · [@crossmint](https://x.com/crossmint)
 - **[Rye](https://rye.com/)** — Checkout infrastructure for shopping agents. · [@rye](https://x.com/rye)
 - **[Zinc](https://www.zinc.com/)** — An API for placing online purchases. · [@zincdotcom](https://x.com/zincdotcom)
-- **[CartAI](https://cartai.ai/)** — Programmatic checkout API for AI platforms.
+- **[CartAI](https://cartai.ai/)** — Catalog, wallet, checkout, and monetization tools for AI agents that buy, available individually or as a full stack. · [@TheCartAI](https://x.com/TheCartAI)
 - **[Sapiom](https://sapiom.ai/)** — Payment infrastructure for AI. · [@sapiom](https://x.com/sapiom)
 - **[Agentcard](https://agentcard.com/)** — Payment tools that let agents make online purchases. · [@agentcardhq](https://x.com/agentcardhq)
 - **[Prava](https://prava.space/)** — Payments API for AI agents. · [@pravapayments](https://x.com/pravapayments)

@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: a.title,
     description: a.dek,
-    openGraph: { title: a.title, description: a.dek, type: 'article', url: `${SITE}/articles/${a.slug}`, images: [{ url: image, width: 1200, height: 630, alt: a.title }] },
+    openGraph: { title: a.title, description: a.dek, type: 'article', publishedTime: a.date, modifiedTime: a.updated || a.date, url: `${SITE}/articles/${a.slug}`, images: [{ url: image, width: 1200, height: 630, alt: a.title }] },
     twitter: { card: 'summary_large_image', title: a.title, description: a.dek, images: [image] },
   };
 }
@@ -81,7 +81,7 @@ export default async function ArticlePage({ params }: Props) {
             <AuthorAvatar author={author} name={article.author} size={36} />
             <span className="art-byline-text">
               <span className="art-author">{authorHref ? <Link href={authorHref}>By {article.author}</Link> : `By ${article.author}`}</span>
-              <span className="art-date">{formatDate(article.date)}. {readingMinutes(article.body)} minute read.</span>
+              <span className="art-date">{article.updated ? `Updated ${formatDate(article.updated)}` : formatDate(article.date)}. {readingMinutes(article.body)} minute read.</span>
             </span>
             <a className="art-share" href={share} target="_blank" rel="noopener noreferrer">
               <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.4 8.5L23 22h-6.8l-5.3-6.9L4.8 22H1.7l7.9-9L0 2h7l4.8 6.3L18.9 2zm-1.2 18h1.9L6.4 3.9H4.4L17.7 20z"/></svg>

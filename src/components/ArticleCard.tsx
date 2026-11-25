@@ -12,7 +12,7 @@ export function ArticleCard({ article, report, bySlug, showReport = true }: { ar
       <ArticleHero article={article} report={report} agents={agents} bySlug={bySlug} size="thumb" />
       <span className="art-card-text">
         <span className="art-card-meta">
-          {article.kind}, {formatDate(article.date)}
+          {article.kind}, {article.updated ? `Updated ${formatDate(article.updated)}` : formatDate(article.date)}
           {showReport && report ? `, from ${report.title}` : ''}
         </span>
         <span className="art-card-title">{article.title}</span>

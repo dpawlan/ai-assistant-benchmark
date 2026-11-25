@@ -1,14 +1,15 @@
 ---
-title: "The AI Agent Market Map: 264 Products to Know"
+title: "The AI Agent Market Map: 293 Products to Know"
 dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them—with a one-line description, website, and X account for each."
 date: 2026-11-23
+updated: 2026-11-25
 author: David Pawlan
 kind: Market map
-hero: /images/articles/ai-agent-market-map-29b10e6d82.png
-hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-29b10e6d82.png)"
+hero: /images/articles/ai-agent-market-map-bad8720b54.png
+hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-bad8720b54.png)"
 ---
 
-We mapped 264 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
+We mapped 293 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
 
 Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
 
@@ -84,6 +85,10 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Groupthink](https://groupthink.com/)** — A memory for the people in your life and work, so relationships don't go cold. · [@groupthinkai](https://x.com/groupthinkai)
 - **[Arlo](https://www.arlo.sh/)** — Personal AI assistant for calls, bookings and everyday tasks. · [@arlo_agent](https://x.com/arlo_agent)
 - **[Daimon](https://www.daimonapp.ai/)** — A personal AI advisor with memory.
+- **[wiive](https://wiive.it/)** — An early personal agent that learns preferences and coordinates decisions with other people’s agents. · [@wiiveai](https://x.com/wiiveai)
+- **[rabbit OS3](https://rabbit.tech/)** — A personal agent operating system for carrying out tasks across the web and connected devices. · [@rabbit_hmi](https://x.com/rabbit_hmi)
+- **[Comma](https://comma.surf/)** — An open-source, always-on personal agent available across desktop, web, and mobile. · [@CommaAgents](https://x.com/CommaAgents)
+- **[Ira](https://ira.so/)** — An invite-only personal assistant for email, bookings, shopping, and calls. · [@iradotso](https://x.com/iradotso)
 
 ## Shopping & commerce
 
@@ -91,6 +96,8 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Scout](https://shoponscout.com/)** — A voice-based shopping assistant. · [@ShopOnScout](https://x.com/ShopOnScout)
 - **[Sellee](https://www.sellee.ai/)** — Uses a product photo to price an item, list it, and negotiate a sale. · [@selleeai](https://x.com/selleeai)
 - **[Littl](https://dolittl.ai/)** — A personal assistant that takes action with your permission. · [@dolittlai](https://x.com/dolittlai)
+- **[StoreRouter](https://storerouter.ai/)** — A product-search API that gives agents structured catalog data across online stores. · [@storerouter](https://x.com/storerouter)
+- **[Waverunner](https://waverunner.ai/)** — A commerce platform with agents for payment routing, subscriptions, and customer operations. · [@Waverunnerai](https://x.com/Waverunnerai)
 
 ## Travel
 
@@ -116,6 +123,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[AnyAlpha](https://anyalpha.ai/)** — Agentic trading platform: your AI agent researches, backtests and trades 24/7. · [@anyalphaai](https://x.com/anyalphaai)
 - **[Conviction](https://www.convictiontrade.ai/)** — Describe a trading idea; an AI agent backtests it, monitors the market and trades. · [@tryconviction](https://x.com/tryconviction)
 - **[Instinct.xyz](https://instinct.xyz/)** — Trading intelligence with agents that monitor markets and find trades 24/7. · [@instinct_xyz](https://x.com/instinct_xyz)
+- **[Blue Agent](https://blueagent.dev/)** — An agent on Base for market research, onchain tools, and transactions users approve. · [@blueagent_](https://x.com/blueagent_)
 
 ## Email & calendar
 
@@ -125,6 +133,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Prio](https://prio.sh/)** — AI chief of staff and personal agent for founders and CEOs. · [@useprio](https://x.com/useprio)
 - **[Skej](https://skej.com/)** — Assistant in email, SMS and Slack that schedules, drafts and follows up. · [@ccskej](https://x.com/ccskej)
 - **[Howie](https://howie.com/)** — A calendar assistant that schedules meetings through email and text. · [@howie_ai](https://x.com/howie_ai)
+- **[Hachi](https://hachi.im/)** — A proactive inbox that prepares research, files, and replies across messaging channels; currently on a waitlist. · [@HachiHQ](https://x.com/HachiHQ)
 
 ## Multiplayer & group chat
 
@@ -133,6 +142,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Bantr](https://www.socialcompanyofus.com/what-bantr-does)** — A text-message assistant for planning, budgeting and investing, solo or in a group.
 - **[Rene](https://rene.co/)** — A shared personal AI assistant. · [@Rene_Labs](https://x.com/Rene_Labs)
 - **[Qordinate](https://www.qordinate.ai/)** — An AI assistant designed for collaborative work. · [@qordinate_ai](https://x.com/qordinate_ai)
+- **[Laze](https://laze.so/)** — A shared workspace where teammates can chat with each other’s AI agents. · [@laze_so](https://x.com/laze_so)
 
 ## Home, family & health
 
@@ -211,6 +221,16 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Jobright](https://jobright.ai/)** — AI job-search agent that matches roles, tailors resumes and autofills applications. · [@jobrightai](https://x.com/jobrightai)
 - **[Lia](https://www.liarefer.com/)** — AI career agent that introduces you directly to decision makers at tech companies. · [@tryrefer](https://x.com/tryrefer)
 - **[Tsenta](https://tsenta.com/)** — AI agent that auto-applies to jobs on company career pages. · [@tsentaai](https://x.com/tsentaai)
+- **[Dabanti](https://www.dabanti.com/)** — An AI job-search assistant for finding roles and preparing tailored applications. · [@dabantiai](https://x.com/dabantiai)
+- **[Minds (Animoca Minds)](https://hellominds.ai/)** — A personal AI agent from Animoca Brands for research, bookings, and tasks through email and messaging. · [@hellominds_](https://x.com/hellominds_)
+- **[Bond](https://bondapp.io/)** — Turns commitments across email, Slack, and calendars into a to-do list that updates itself. · [@bondhq_](https://x.com/bondhq_)
+- **[Demi](https://demi.ai/)** — A proactive Mac assistant for email replies, meeting preparation, and follow-ups. · [@officialdemiai](https://x.com/officialdemiai)
+- **[Alysis](https://alysiscode.com/)** — An AI agent for coding and computer tasks, available on desktop and in the terminal. · [@alysis_ai](https://x.com/alysis_ai)
+- **[Zenzap](https://zenzap.co/)** — A work chat where teams and AI agents share context and automate tasks together. · [@zenzap_chat](https://x.com/zenzap_chat)
+- **[Viktor](https://viktor.com/)** — An AI teammate in Slack and Microsoft Teams that creates reports, runs research, and works across connected tools. · [@viktor_com](https://x.com/viktor_com)
+- **[Ando](https://www.ando.so/)** — Team messaging where people and AI agents share channels and coordinate work. · [@andocorporation](https://x.com/andocorporation)
+- **[Metix](https://www.metix.ai/)** — An AI recruiter that sources candidates and helps arrange interviews. · [@metix_ai](https://x.com/metix_ai)
+- **[Boardy](https://www.boardy.ai/)** — An AI networking assistant that makes introductions after both people opt in. · [@boardyai](https://x.com/boardyai)
 
 ## Open source & self-hosted
 
@@ -221,6 +241,8 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Rome](https://romeos.cc/)** — Open-source home for your AI agents, on WhatsApp, Telegram or Discord. · [@RomeAILab](https://x.com/RomeAILab)
 - **[Letta](https://www.letta.com/agent/)** — A personalized agent that remembers and learns. · [@Letta_AI](https://x.com/Letta_AI)
 - **[AutoGPT](https://agpt.co/)** — An open-source platform for building and running agents. · [@Auto_GPT](https://x.com/Auto_GPT)
+- **[kwant Bot](https://kwant.si/)** — Open-source, self-hosted agents that share chats, hand off work, and run scheduled tasks. · [@kwantBot](https://x.com/kwantBot)
+- **[OpenBot](https://open.bot/)** — A self-hostable AI coworker platform from CopilotKit, with tools, approvals, and shared workspaces. · [@0penBot](https://x.com/0penBot)
 
 ## Agent infrastructure
 
@@ -314,3 +336,11 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[TasteGraph](https://tastegraph.ai/)** — Preference data for shopping-agent recommendations.
 - **[Gigi](https://gigi.co/)** — An agent network for finding people and relationship-based introductions. · [@gigi_network](https://x.com/gigi_network)
 - **[Anchor Browser](https://anchorbrowser.io/)** — Cloud browser infrastructure for AI agents, with managed authentication and isolated browser sessions. · [@AnchorBrowser](https://x.com/AnchorBrowser)
+- **[Polar Browser](https://polarbrowser.com/)** — An AI browser that carries out research, recruiting, sales, and operations tasks. · [@polarbrowser](https://x.com/polarbrowser)
+- **[ClawBank](https://clawbank.co/)** — Infrastructure for agents to form companies, manage bank accounts, and sign contracts. · [@ClawBankHQ](https://x.com/ClawBankHQ)
+- **[REP](https://r3p.app/)** — Portable identity and preference data that people can share with agents and businesses. · [@rep_hq](https://x.com/rep_hq)
+- **[Sealgraf](https://sealgraf.com/app/)** — Spending permissions and sealed receipts for purchases made by AI agents.
+- **[UCII](https://ucii.sportgen-ai.com/)** — Identity and authorization infrastructure that checks agent actions against human-issued permissions.
+- **[BoxLite](https://boxlite.ai/)** — Hardware-isolated computing environments and cloud infrastructure for AI agents. · [@BoxLiteAI](https://x.com/BoxLiteAI)
+- **[Baselayer](https://baselayerhq.com/)** — Identity verification for businesses and the people who authorize AI agents. · [@Baselayerhq](https://x.com/Baselayerhq)
+- **[AgentPhone](https://www.agentphone.ai/)** — Phone numbers, voice calls, and text messaging for AI agents. · [@AgentPhoneHQ](https://x.com/AgentPhoneHQ)

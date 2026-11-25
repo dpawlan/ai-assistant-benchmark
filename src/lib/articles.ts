@@ -7,6 +7,7 @@ export interface Article {
   title: string;
   dek: string;
   date: string;
+  updated?: string;
   author: string;
   kind: string;
   report: string | null;
@@ -38,6 +39,7 @@ function parse(slug: string, raw: string): Article {
     title: str(meta.title, slug),
     dek: str(meta.dek),
     date: str(meta.date),
+    updated: str(meta.updated) || undefined,
     author: str(meta.author),
     kind: str(meta.kind, 'Article'),
     report: str(meta.report) || null,

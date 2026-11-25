@@ -391,3 +391,10 @@ _Updated 2026-11-18 weekday vault scan (+1 row)._
 - (2026-11-18) @agentmomlife: ChatGPT browser control handles credit card cash-back; Instinct agent clips grocery coupons daily.
 
 **Feedback rows:** 358 (as of 2026-11-18)
+
+_Updated 2026-11-25 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-25) @AlexanderTw33ts: Complaint—banned from Handshake for trying to create a job posting using Instinct agent.
+
+**Feedback rows:** 359 (as of 2026-11-25)

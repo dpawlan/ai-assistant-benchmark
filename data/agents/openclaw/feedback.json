@@ -2982,5 +2982,176 @@
     "source": "x",
     "collected_at": "2026-11-24",
     "notes": "Chinese: 9 months since OpenClaw came out, says it's now left behind while everyone is competing on agents."
+  },
+  {
+    "id": "2125568557966917842",
+    "agent": "openclaw",
+    "quote": "最後我簡化了只用 Claude Code / Codex / Grok / Agy 加必要的 skills，不再使用 OpenClaw 跟 Hermes Agent 這類的重 Agents，不過 Grok Bot 我倒是用的很喜歡，而且可以無腦使用。\n从重度使用到完全删除，我经历了什么？Hermes Agent 为何不再适合我？",
+    "author": "ternyu",
+    "author_name": "BlackCat",
+    "date": "2026-11-25",
+    "url": "https://x.com/ternyu/status/2125568557966917842",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-hermes",
+      "vs-grok-bot",
+      "vs-claude"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125349872140456152",
+    "agent": "openclaw",
+    "quote": "OpenClaw turns 1 today 🎂\n\nIt kicked off the Mac mini craze. I wrote a guide on how to run Mac minis headless, and you guys devoured it, racking up 1M+ views.\n\nSo to celebrate @openclaw birthday, I've updated my guide 👇",
+    "author": "mronge",
+    "author_name": "Matt Ronge",
+    "date": "2026-11-24",
+    "url": "https://x.com/mronge/status/2125349872140456152",
+    "kind": "news",
+    "tags": [
+      "x",
+      "hardware"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125384687246053533",
+    "agent": "openclaw",
+    "quote": "@Donniebuilds While you were away, my feed barely had any OpenClaw posts anymore. almost switched to Hermes! OpenClaw really needs an evangelist like you. 🤣",
+    "author": "KuritoL",
+    "author_name": "kurito.exe",
+    "date": "2026-11-25",
+    "url": "https://x.com/KuritoL/status/2125384687246053533",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-hermes"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125346366964580811",
+    "agent": "openclaw",
+    "quote": "@RoxRye @Ionkosm Yeah, inside OpenClaw I stick to one main agent and just swap the model underneath based on what I'm working on or what usage I want to use up. Think of the agent as your memory, notes, and setup, and the model as the brain you plug into it. You can also run multiple threads",
+    "author": "Jvitela91",
+    "author_name": "Jonathan Vitela",
+    "date": "2026-11-24",
+    "url": "https://x.com/Jvitela91/status/2125346366964580811",
+    "kind": "other",
+    "tags": [
+      "x",
+      "usage"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125412687572025777",
+    "agent": "openclaw",
+    "quote": "@openclaw The fine print: OpenClaw built the test, and its own harness ranks first (45.23% vs Pi 45.22%, Claude Code 42.87%). The full paper is still pending, and each run was graded once.\n\nSource: OpenClaw blog. Image: OpenClaw. Follow @BroadwakeAI for more fine print.",
+    "author": "BroadwakeAI",
+    "author_name": "BroadwakeAI",
+    "date": "2026-11-25",
+    "url": "https://x.com/BroadwakeAI/status/2125412687572025777",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-claude"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125330077730983948",
+    "agent": "openclaw",
+    "quote": "Why is absolutely no-one using openclaw anymore? Everyone uses Hermes now",
+    "author": "btcbenchmark",
+    "author_name": "Remu ⚡️",
+    "date": "2026-11-24",
+    "url": "https://x.com/btcbenchmark/status/2125330077730983948",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-hermes"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125372726722605109",
+    "agent": "openclaw",
+    "quote": "Hi @openclaw: I made psyseal-scan, a free scanner for OpenClaw agents. It shows what each heartbeat costs per month, plaintext API keys (never the value) and planted instructions in files like HEARTBEAT.md. Runs locally, sends nothing. MIT-0.",
+    "author": "psyseal_ai",
+    "author_name": "Psyseal",
+    "date": "2026-11-24",
+    "url": "https://x.com/psyseal_ai/status/2125372726722605109",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "phone",
+      "hardware"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125237250741129541",
+    "agent": "openclaw",
+    "quote": "@openclaw  turns one this week. And it's now an @enterpret_ai  customer.\n\nThe OG personal agent. The most important AI launch since @ChatGPT, except this one is open source.\n\nHappy birthday, @openclaw 🦞",
+    "author": "varunconfirms",
+    "author_name": "Varun Sharma",
+    "date": "2026-11-24",
+    "url": "https://x.com/varunconfirms/status/2125237250741129541",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125383232363585716",
+    "agent": "openclaw",
+    "quote": "OpenClaw baru saja berulang tahun! \n\nMeski banyak orang sudah beralih ke agen lain, kehadiran OpenClaw setahun lalu jelas mengubah banyak hal, terutama mendorong pengembangan agen AI yang kini kian pesat. \n\nBtw, ada yang masih pakai OpenClaw? 😃",
+    "author": "harisfirdaus",
+    "author_name": "Haris Firdaus",
+    "date": "2026-11-25",
+    "url": "https://x.com/harisfirdaus/status/2125383232363585716",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "ID: OpenClaw turns 1; many have switched but it drove AI agent development. Asks if anyone still uses it."
+  },
+  {
+    "id": "2125340757032579259",
+    "agent": "openclaw",
+    "quote": "@RoxRye @Ionkosm That's what I'm talking about. I've been using OpenClaw since March. It's been a great asset of mine. I'm can't wait to be able to use Gemini Neon in OpenClaw, whenever that day comes.",
+    "author": "Jvitela91",
+    "author_name": "Jonathan Vitela",
+    "date": "2026-11-24",
+    "url": "https://x.com/Jvitela91/status/2125340757032579259",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-gemini"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
   }
 ]

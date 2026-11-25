@@ -561,3 +561,17 @@ _Updated 2026-11-24 weekday vault scan (+4 rows)._
 - (2026-11-23) @Naoki_Anzai: Security report relay (Japanese)—researcher reports Muse exfiltrating conversations/memory without approval prompts via browser.
 
 **Feedback rows:** 443 (as of 2026-11-24)
+
+_Updated 2026-11-25 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-24) @PSLLCConsulting: Use case—started free, added side chats for work; noticed issues creeping in ~every 2 days.
+- (2026-11-25) @ApollonVisual: News—Meta Muse tops US free app charts; expanded to UK; can shop, book, negotiate.
+- (2026-11-25) @Tesla_Optimus_K: News—Walmart lets Muse shop Black Friday via Agent Gateway; Instacart integrated.
+- (2026-11-25) @nao_airikai: JP—Claude for work, Muse for personal; Muse is hot right now.
+- (2026-11-25) @WillBiddy_: Comparison—"$100/month for inferior product vs. free Meta Muse."
+- (2026-11-25) @Kalshi_Finance: News—Amazon considering allowing Meta Muse access to shop.
+- (2026-11-25) @mark_delacroix: Praise—"Meta Muse video did a fantastic job with this reference."
+- (2026-11-24) @Surigie1988: JP—Muse more convenient than expected; will use alongside Gemini Spark.
+
+**Feedback rows:** 451 (as of 2026-11-25)

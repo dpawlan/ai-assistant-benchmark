@@ -5049,5 +5049,229 @@
     "source": "x",
     "collected_at": "2026-11-24",
     "notes": ""
+  },
+  {
+    "id": "2125506654921760956",
+    "agent": "hermes-agent",
+    "quote": "@DFintelligence @grok @bot agree and add that it's slow with computer use\n\nhermes + grok is 3-5x faster than grok bot in my experience.\n\nhermes + local model is on par with grok bot in a lot of ways",
+    "author": "r_u_thinking",
+    "author_name": "Steve",
+    "date": "2026-11-25",
+    "url": "https://x.com/r_u_thinking/status/2125506654921760956",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-grok-bot",
+      "hardware"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125286151569162609",
+    "agent": "hermes-agent",
+    "quote": "In case you are debating on using up the $500 a week Claude Duet credit I want you to know that you can pair it with your hermes agent. If you have claude code connected to your hermes agent on your computer locally, you can use Claude Duet to drive hermes-agent still. So you are",
+    "author": "alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-11-24",
+    "url": "https://x.com/alexcovo_eth/status/2125286151569162609",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-claude",
+      "phone",
+      "hardware"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125474851490238606",
+    "agent": "hermes-agent",
+    "quote": "omher desktop 1.2.1 released\n\n- your CLI Desktop with Hermes-Agent Bot\n- Hermes-Agent workflows packages\n- coding intelligence, subagent routing\n- github, discord, telegram, slack, notion etc ... connector\n- hermes-agent skills, cron, memory management\n- ai subscription, api auth",
+    "author": "rlaope",
+    "author_name": "HOPE.",
+    "date": "2026-11-25",
+    "url": "https://x.com/rlaope/status/2125474851490238606",
+    "kind": "news",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125560654769639778",
+    "agent": "hermes-agent",
+    "quote": "Hermes Agent can now text and call from its own phone number. Dial is now an official Hermes Agent plugin.\n\nWhat's the first call you'd have it make?",
+    "author": "galdayan1895",
+    "author_name": "Gal Dayan",
+    "date": "2026-11-25",
+    "url": "https://x.com/galdayan1895/status/2125560654769639778",
+    "kind": "news",
+    "tags": [
+      "x",
+      "phone"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125266444191735846",
+    "agent": "hermes-agent",
+    "quote": "@weeb_ams Since I use an AMD laptop, I use apps called Lemonade and Nose Research Hermes Agent.\n\nNouse Research Hermes Agent is perfection.",
+    "author": "UnbrokenApple",
+    "author_name": "IkariMonogatari🦋",
+    "date": "2026-11-24",
+    "url": "https://x.com/UnbrokenApple/status/2125266444191735846",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "phone"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125377288707473893",
+    "agent": "hermes-agent",
+    "quote": "🚨 Microcenter Sale: $229 Raspberry Pi 5 16gb regularly $384.99 (which is insane).\n\nI use Raspberry Pi 5 16gb in my lab.  A always on Hermes Agent, comms by phone.  I have three.  One is for travel.  You are just limited by your imagination.  You can host support service for",
+    "author": "JASONMCNAB",
+    "author_name": "JASON MCNAB",
+    "date": "2026-11-24",
+    "url": "https://x.com/JASONMCNAB/status/2125377288707473893",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "usage",
+      "phone",
+      "hardware"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125568557966917842",
+    "agent": "hermes-agent",
+    "quote": "最後我簡化了只用 Claude Code / Codex / Grok / Agy 加必要的 skills，不再使用 OpenClaw 跟 Hermes Agent 這類的重 Agents，不過 Grok Bot 我倒是用的很喜歡，而且可以無腦使用。\n从重度使用到完全删除，我经历了什么？Hermes Agent 为何不再适合我？",
+    "author": "ternyu",
+    "author_name": "BlackCat",
+    "date": "2026-11-25",
+    "url": "https://x.com/ternyu/status/2125568557966917842",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-grok-bot",
+      "vs-openclaw",
+      "vs-claude"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125438463927562325",
+    "agent": "hermes-agent",
+    "quote": "遠隔のmacbookrpo2014とwindows11両方にhermes agentを入れてhermes peerで繋いでるんだが、hermesに同じ端末内のclaudeやcodexのログ読ませたらエージェント周りのほぼすべてが掌握できる。で、だからなんなのだ、ってところで驚き屋みたいになってるんだが、とにかくhermes agentは面白い。",
+    "author": "heirakuG",
+    "author_name": "heirakuG",
+    "date": "2026-11-25",
+    "url": "https://x.com/heirakuG/status/2125438463927562325",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "vs-claude"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": "JP: Hermes Agent on remote MacBook Pro 2014 + Windows 11 via hermes peer; can read Claude/Codex logs—fun."
+  },
+  {
+    "id": "2125343896599167185",
+    "agent": "hermes-agent",
+    "quote": "@flapslack Hermes agent is an amazing tool :)",
+    "author": "DarthJML",
+    "author_name": "Cyber Viking Johnny",
+    "date": "2026-11-24",
+    "url": "https://x.com/DarthJML/status/2125343896599167185",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125416909013491869",
+    "agent": "hermes-agent",
+    "quote": "@three_cube Hermes agent makes web app testing so much faster now.",
+    "author": "crypto_ninjas",
+    "author_name": "CryptoNinjas",
+    "date": "2026-11-25",
+    "url": "https://x.com/crypto_ninjas/status/2125416909013491869",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125330880730476864",
+    "agent": "hermes-agent",
+    "quote": "I need Google Neon on Hermes Agent NOOOOOWWWWW!",
+    "author": "ElDeFiante",
+    "author_name": "Wayne",
+    "date": "2026-11-24",
+    "url": "https://x.com/ElDeFiante/status/2125330880730476864",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125384687246053533",
+    "agent": "hermes-agent",
+    "quote": "@Donniebuilds While you were away, my feed barely had any OpenClaw posts anymore. almost switched to Hermes! OpenClaw really needs an evangelist like you. 🤣",
+    "author": "KuritoL",
+    "author_name": "kurito.exe",
+    "date": "2026-11-25",
+    "url": "https://x.com/KuritoL/status/2125384687246053533",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-openclaw"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
+  },
+  {
+    "id": "2125330077730983948",
+    "agent": "hermes-agent",
+    "quote": "Why is absolutely no-one using openclaw anymore? Everyone uses Hermes now",
+    "author": "btcbenchmark",
+    "author_name": "Remu ⚡️",
+    "date": "2026-11-24",
+    "url": "https://x.com/btcbenchmark/status/2125330077730983948",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-openclaw"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-25",
+    "notes": ""
   }
 ]

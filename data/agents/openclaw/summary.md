@@ -346,3 +346,19 @@ _Updated 2026-11-24 weekday vault scan (+4 rows)._
 - (2026-11-24) @aronhouyu: (Chinese)—"9 months since OpenClaw came out, it's now left behind while everyone is competing on agents."
 
 **Feedback rows:** 167 (as of 2026-11-24)
+
+_Updated 2026-11-25 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-24) @mronge: OpenClaw turns 1—kicked off Mac mini craze; guide racked up 1M+ views; updated guide.
+- (2026-11-25) @KuritoL: OpenClaw feed quiet; almost switched to Hermes; needs evangelist.
+- (2026-11-24) @Jvitela91: Use case—one main agent, swap model based on task/usage; can run multiple threads.
+- (2026-11-25) @BroadwakeAI: Fine print—OpenClaw built the test, its harness ranks first (45.23%); paper pending.
+- (2026-11-24) @btcbenchmark: "Why is absolutely no-one using openclaw anymore? Everyone uses Hermes now."
+- (2026-11-24) @psyseal_ai: Tool—psyseal-scan scanner for OpenClaw agents; heartbeat cost, plaintext keys, planted instructions.
+- (2026-11-24) @varunconfirms: Birthday—OpenClaw turns one; "most important AI launch since ChatGPT, except open source."
+- (2026-11-25) @harisfirdaus: ID—OpenClaw 1st birthday; many switched but it drove AI agent development.
+- (2026-11-24) @Jvitela91: Use case—using OpenClaw since March; can't wait for Gemini Neon support.
+- (2026-11-25) @ternyu: ZH—stopped using OpenClaw and Hermes Agent for simpler Claude Code/Codex/Grok/Agy setup.
+
+**Feedback rows:** 177 (as of 2026-11-25)

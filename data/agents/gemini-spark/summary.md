@@ -169,3 +169,10 @@ _Updated 2026-11-25 weekday vault scan (+5 rows)._
 - (2026-11-25) @DiegoUSDZ: ES—Announced Spark as 24/7 personal agent at I/O, launched it, loved it for long tasks—and killed it.
 
 **Feedback rows:** 61 (as of 2026-11-25)
+
+_Updated 2026-11-26 weekday vault scan (+1 row)._
+
+**New this scan:**
+- (2026-11-25) @CH13NB0Y: Feature request—asks when Gemini Spark will be available in EU.
+
+**Feedback rows:** 62 (as of 2026-11-26)

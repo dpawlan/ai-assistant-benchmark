@@ -36154,5 +36154,260 @@
     "source": "X",
     "collected_at": "2026-11-25",
     "notes": ""
+  },
+  {
+    "id": "2125950183099801639",
+    "agent": "grok-bot",
+    "quote": "Grok Bot + Hermes = the ULTIMATE setup.\n\nI just connected my chief of staff in Grok Bot to my Hermes agent and now it can hand it actual work.\n\nHere's how I did it:\n\n1-Tailscale\nIf you don't know what tailscale is, it's a private network that connects all your devices, like your",
+    "author": "aymanemsi",
+    "author_name": "Aymane",
+    "date": "2026-11-26",
+    "url": "https://x.com/aymanemsi/status/2125950183099801639",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-hermes-agent",
+      "tailscale",
+      "integration"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125853078255534518",
+    "agent": "grok-bot",
+    "quote": "Just upgraded my Grok Bot plan to Super.\n\nGrok Bot usage: 0%.\nNext reset: 24 hours.\n\nMe and my Grok Bot AI agents staring at all that fresh usage like a kid locked in a sweet shop overnight 🤤\n\nGrok Bot users, how are you spending yours? @grok",
+    "author": "cauldwell_jamie",
+    "author_name": "jamie c",
+    "date": "2026-11-26",
+    "url": "https://x.com/cauldwell_jamie/status/2125853078255534518",
+    "kind": "other",
+    "tags": [
+      "x",
+      "usage",
+      "upgrade"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125911235833266319",
+    "agent": "grok-bot",
+    "quote": "Grok Bot is hungry: an hourly routine can burn a week of usage in a day. Same routines, zero tokens when there's nothing to do. A Mac wakes Grok Bot only when there's work, and Claude or Codex do the heavy lifting. Here's how 👇",
+    "author": "sboudis",
+    "author_name": "Pasdawan",
+    "date": "2026-11-26",
+    "url": "https://x.com/sboudis/status/2125911235833266319",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "usage",
+      "routines",
+      "vs-claude",
+      "vs-codex"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125870854508802139",
+    "agent": "grok-bot",
+    "quote": "@Baconbrix @elonmusk The biggest problem with Grok Bot is that the people who work on Grok Bot don't even use Grok Bot.",
+    "author": "emmapohlman",
+    "author_name": "Emma Jane 🩷",
+    "date": "2026-11-26",
+    "url": "https://x.com/emmapohlman/status/2125870854508802139",
+    "kind": "complaint",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125900191484293376",
+    "agent": "grok-bot",
+    "quote": "@markshaw @claudeai Yes. I couldn't connect Claude and Grok Bot directly, so they share one markdown file. Claude writes the task, Grok Bot writes the answer back. I still have to tell Grok Bot to look.",
+    "author": "shaharfrish",
+    "author_name": "Shahar Frish",
+    "date": "2026-11-26",
+    "url": "https://x.com/shaharfrish/status/2125900191484293376",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-claude",
+      "integration"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125809400895918517",
+    "agent": "grok-bot",
+    "quote": "@nvandewetering Grok Bot does not equal Grok 4.7. Grok Bot is far better. I don't know what LLM model Grok Bot uses & it won't tell me. I use them side by side & there is a big difference.",
+    "author": "sklinepm",
+    "author_name": "Pend",
+    "date": "2026-11-26",
+    "url": "https://x.com/sklinepm/status/2125809400895918517",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-grok"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125795525345853949",
+    "agent": "grok-bot",
+    "quote": "Grok Bot has a Quick Chat window in development that you can open with a keyboard shortcut.\n\n> Turn it on and you can message your main Bot from any app, even when the Grok Bot window is closed. The settings screen shows Option+Space as the shortcut.\n\n> It sits in the General",
+    "author": "ai_algoit",
+    "author_name": "AI News & How-Tos | ALGOIT",
+    "date": "2026-11-26",
+    "url": "https://x.com/ai_algoit/status/2125795525345853949",
+    "kind": "news",
+    "tags": [
+      "x",
+      "feature"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": "News relay: Upcoming Quick Chat feature in Grok Bot."
+  },
+  {
+    "id": "2125820642402746820",
+    "agent": "grok-bot",
+    "quote": "Did anyone else's Grok Bot automatically start asking about Black Friday deals?!?!\n\nI did not type or ask grok bot to \"find me the best Black Friday deals\"\n\nIt somehow just did that and started looking them up. \n\nDid your grok bot do the same thing today?",
+    "author": "RyDawg42",
+    "author_name": "Ryan G",
+    "date": "2026-11-26",
+    "url": "https://x.com/RyDawg42/status/2125820642402746820",
+    "kind": "other",
+    "tags": [
+      "x",
+      "proactive",
+      "shopping"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125787240559436134",
+    "agent": "grok-bot",
+    "quote": "@mhp_guy Grok bot has been amazing for me - my local model is able to escalate errors in code/jobs to grok bot. Before I even get the text of the break, grok bot has sent me the already fixed update. Been pretty great as an orchestrator of my set up",
+    "author": "TheFinkinTruth",
+    "author_name": "FinkNet",
+    "date": "2026-11-26",
+    "url": "https://x.com/TheFinkinTruth/status/2125787240559436134",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "orchestration",
+      "local-model"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125941231318405413",
+    "agent": "grok-bot",
+    "quote": "@AaronJosephHall I'm sure they will sort it out - we all know how fast things go. I'm hopeful as I started out with OpenClaw then Hermes and really like GB so far….a pain switching all the time",
+    "author": "bcpatters",
+    "author_name": "B P",
+    "date": "2026-11-26",
+    "url": "https://x.com/bcpatters/status/2125941231318405413",
+    "kind": "other",
+    "tags": [
+      "x",
+      "vs-openclaw",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125592824909381865",
+    "agent": "grok-bot",
+    "quote": "Claude Code Projects or Claude Duet or Grok Bot orchestrating? I think Claude Code Projects and Grok Bot have the edge right now, but I want Claude Duet to be the answer. @ClaudeDevs @AnthropicAI",
+    "author": "KayfabeHuman",
+    "author_name": "LoFi Tweets to Study to",
+    "date": "2026-11-25",
+    "url": "https://x.com/KayfabeHuman/status/2125592824909381865",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-claude-duet",
+      "vs-claude-code"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125934870241378502",
+    "agent": "grok-bot",
+    "quote": "I think @bot needs to get the context about the user from @grok the same way OpenAI Dots are working. It's better in many ways, but this one is a big downside. Is it in the pipeline?",
+    "author": "tarky_marky",
+    "author_name": "MarkyTarky",
+    "date": "2026-11-26",
+    "url": "https://x.com/tarky_marky/status/2125934870241378502",
+    "kind": "feature_request",
+    "tags": [
+      "x",
+      "context",
+      "vs-dots"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125621824079958451",
+    "agent": "grok-bot",
+    "quote": "just spotted a use case agent assistants don't cover yet: the telegram bot as a dumb pipe inbox. it just delivers the verdicts, no extra token cost on every notification.\n\nboth grok bot and openai dots support webhooks, but there's still an agent sitting in the middle",
+    "author": "tianyigc",
+    "author_name": "Tianyi",
+    "date": "2026-11-25",
+    "url": "https://x.com/tianyigc/status/2125621824079958451",
+    "kind": "other",
+    "tags": [
+      "x",
+      "telegram",
+      "vs-dots",
+      "webhooks"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
+  },
+  {
+    "id": "2125665856793326044",
+    "agent": "grok-bot",
+    "quote": "Muse sells your data.\nGrokBot hits limits way too fast.\nOpenAI Dots is ridiculously expensive.\nClaude Cowork blocks half your prompts.\n\njust switch to Hermes Agent.\n\nfree, open-source, runs any model you want and gets smarter as you use it.\n\neasily the agent of the year. give it",
+    "author": "0xdierich",
+    "author_name": "Imadierich",
+    "date": "2026-11-25",
+    "url": "https://x.com/0xdierich/status/2125665856793326044",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "usage",
+      "limits",
+      "vs-muse",
+      "vs-dots",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-26",
+    "notes": ""
   }
 ]

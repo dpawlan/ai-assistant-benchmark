@@ -666,3 +666,23 @@ _Updated 2026-11-25 weekday vault scan (+9 rows)._
 - (2026-11-25) @ternyu: ZH—simplified to Claude Code/Codex/Grok/Agy; stopped OpenClaw/Hermes but likes Grok Bot for ease.
 
 **Feedback rows:** 1600 (as of 2026-11-25)
+
+_Updated 2026-11-26 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-11-26) @aymanemsi: Use case—Grok Bot + Hermes = ultimate setup; connected via Tailscale.
+- (2026-11-26) @cauldwell_jamie: Upgraded to Grok Bot Super; fresh usage reset excitement.
+- (2026-11-26) @sboudis: Usage tip—hourly routines burn usage fast; Mac wakes Grok Bot only when there's work.
+- (2026-11-26) @emmapohlman: Complaint—biggest problem is that Grok Bot team doesn't use Grok Bot.
+- (2026-11-26) @shaharfrish: Use case—Claude and Grok Bot share markdown file for task handoff.
+- (2026-11-26) @sklinepm: Comparison—Grok Bot far better than Grok 4.7; different models.
+- (2026-11-26) @ai_algoit: News—Quick Chat window in development with keyboard shortcut.
+- (2026-11-26) @RyDawg42: Grok Bot proactively asked about Black Friday deals unprompted.
+- (2026-11-26) @TheFinkinTruth: Praise—local model escalates errors to Grok Bot; fixed before notification.
+- (2026-11-26) @bcpatters: Journey—started with OpenClaw then Hermes, now likes Grok Bot.
+- (2026-11-25) @KayfabeHuman: Comparison—Claude Code Projects and Grok Bot have edge over Claude Duet.
+- (2026-11-26) @tarky_marky: Feature request—Grok Bot should get user context from Grok like Dots.
+- (2026-11-25) @tianyigc: Use case—Telegram bot as inbox; both Grok Bot and Dots support webhooks.
+- (2026-11-25) @0xdierich: Complaint—GrokBot hits limits way too fast; suggests Hermes Agent instead.
+
+**Feedback rows:** 1614 (as of 2026-11-26)

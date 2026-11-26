@@ -362,3 +362,17 @@ _Updated 2026-11-25 weekday vault scan (+10 rows)._
 - (2026-11-25) @ternyu: ZH—stopped using OpenClaw and Hermes Agent for simpler Claude Code/Codex/Grok/Agy setup.
 
 **Feedback rows:** 177 (as of 2026-11-25)
+
+_Updated 2026-11-26 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-26) @JoshuaSWarren: Praise—using OpenClaw since January; work on memory system became multi-agent project.
+- (2026-11-26) @pasogott: Asks if only OpenClaw has real multiplayer.
+- (2026-11-26) @JamesMalsawm: Complaint—OpenClaw is cooked already.
+- (2026-11-26) @DumbTien: Use case—OpenClaw lived on 8GB Acer laptop; still a test box.
+- (2026-11-26) @itsvishaltwt: Observation—OpenClaw was everywhere, now nowhere to be found.
+- (2026-11-26) @bcpatters: Journey—started with OpenClaw then Hermes, now on Grok Bot.
+- (2026-11-26) @nikhilx22: Asks why no one is using openclaw; everyone moved to Grok Bot.
+- (2026-11-26) @NovaeonStudio: Comparison—bash-only agent beat OpenClaw by 24 points; gap now 6 after fixes.
+
+**Feedback rows:** 185 (as of 2026-11-26)

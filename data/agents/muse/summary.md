@@ -575,3 +575,17 @@ _Updated 2026-11-25 weekday vault scan (+8 rows)._
 - (2026-11-24) @Surigie1988: JP—Muse more convenient than expected; will use alongside Gemini Spark.
 
 **Feedback rows:** 451 (as of 2026-11-25)
+
+_Updated 2026-11-26 weekday vault scan (+8 rows)._
+
+**New this scan:**
+- (2026-11-25) @HabibeAzam: Overview—Meta Muse personal assistant; connects Gmail/calendar; free plan with limits.
+- (2026-11-25) @dirtystaticnews: News—Meta Muse Agent arrives in Instagram DMs in five countries.
+- (2026-11-25) @socialfarmintel: News—Meta Muse drives most agent-led site requests per Adweek.
+- (2026-11-26) @coldcasetech: News—Meta launches Muse in UK under voluntary monitoring scheme.
+- (2026-11-25) @SISpotlight: News—Meta Muse enters UK without banking tools after 10M US downloads.
+- (2026-11-26) @anthonycoaches: Use case—Meta Muse keeps sports equipment order list current for coaches.
+- (2026-11-25) @paymentsnews: News—FCA AI agent warning as Meta Muse hits UK; authorization may be needed.
+- (2026-11-25) @0xdierich: Complaint—Muse sells your data; suggests Hermes Agent instead.
+
+**Feedback rows:** 459 (as of 2026-11-26)

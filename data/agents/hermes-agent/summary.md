@@ -474,3 +474,20 @@ _Updated 2026-11-25 weekday vault scan (+13 rows)._
 - (2026-11-24) @btcbenchmark: "Why is absolutely no-one using openclaw anymore? Everyone uses Hermes now."
 
 **Feedback rows:** 298 (as of 2026-11-25)
+
+_Updated 2026-11-26 weekday vault scan (+11 rows)._
+
+**New this scan:**
+- (2026-11-26) @aymanemsi: Use case—Grok Bot + Hermes = ultimate setup; connected via Tailscale.
+- (2026-11-26) @BowTied_GTMGuy: News—Hermes Agent outperforming Claude Code on OpenRouter (2.01T vs 1.78T tokens).
+- (2026-11-26) @PMDBT: Use case—local Hermes agent + VPS Hermes; local drives computer use for bookings.
+- (2026-11-26) @yaelmendez: Hermes-Agent is private client harness.
+- (2026-11-26) @MrWessss: Praise—Hermes Agent consistently one of the best harnesses.
+- (2026-11-26) @samuel_yostt: Use case—Hermes agent is my accountant.
+- (2026-11-25) @jbmanos: Praise—Hermes agent on local inference is secure privacy.
+- (2026-11-25) @DecruxR: Use case—built Hermifacts with Hermes Agent after Claude dropped Artifacts install.
+- (2026-11-26) @bcpatters: Journey—started with OpenClaw then Hermes, now on Grok Bot.
+- (2026-11-26) @nikhilx22: Asks why no one is using openclaw/hermes; everyone moved to Grok Bot.
+- (2026-11-25) @0xdierich: Praise—just switch to Hermes Agent; free, open-source, agent of the year.
+
+**Feedback rows:** 309 (as of 2026-11-26)

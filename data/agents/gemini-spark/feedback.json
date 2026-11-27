@@ -1080,5 +1080,57 @@
     "source": "X",
     "collected_at": "2026-11-26",
     "notes": ""
+  },
+  {
+    "id": "2126097875675525608",
+    "agent": "gemini-spark",
+    "quote": "@Cheetah_x0 @Lipun0021 @Zorvh87 btw I use claude agent as main penetration , grok bot for recon + penetration(scan X for Defi and protocols) and lastly gemini spark to penertration+ handling bounty claim and workflow",
+    "author": "iwhhto",
+    "author_name": "BiNg",
+    "date": "2026-11-26",
+    "url": "https://x.com/iwhhto/status/2126097875675525608",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-gemini-spark"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126035015309967760",
+    "agent": "gemini-spark",
+    "quote": "The catch: the Gemini app only acts when you talk to it. No API, no webhooks.\nBut Gemini Spark can run scheduled tasks, and it can read and write Google Tasks.\nSo Google Tasks became the queue.",
+    "author": "thefahien",
+    "author_name": "Fahien",
+    "date": "2026-11-26",
+    "url": "https://x.com/thefahien/status/2126035015309967760",
+    "kind": "other",
+    "tags": [
+      "x",
+      "mobile"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126087483721167168",
+    "agent": "gemini-spark",
+    "quote": "I don't think people understand how much and how quickly Google is improving their AI stack.\n\nOutside of @NousResearch w/Hermes, there is no personal agent with higher capabilities than Gemini Spark now.\n\nAlso, @GoogleDeepMind please don't change the name to “Tasks”\n\nI'm begging. https://t.co/p1CRc1vLei",
+    "author": "thumay9700",
+    "author_name": "SuperThrowed MayMay",
+    "date": "2026-11-26",
+    "url": "https://x.com/thumay9700/status/2126087483721167168",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "ui-ux",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
   }
 ]

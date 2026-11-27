@@ -589,3 +589,18 @@ _Updated 2026-11-26 weekday vault scan (+8 rows)._
 - (2026-11-25) @0xdierich: Complaint—Muse sells your data; suggests Hermes Agent instead.
 
 **Feedback rows:** 459 (as of 2026-11-26)
+
+_Updated 2026-11-27 weekday vault scan (+9 rows)._
+
+**New this scan:**
+- (2026-11-27) @bruno_munhoz: Comparison—Grok Bot vs Muse side by side for 2 weeks; Muse never got past ~34%.
+- (2026-11-27) @colesmcintosh: Praise—prefers Muse for UX; cleaner and very proactive; no coding agent downside.
+- (2026-11-27) @Franklin_Eh: News—Walmart's Agent Gateway supports Muse shopping with Agent Profiles.
+- (2026-11-27) @SkillsInMuseAI: Use case—Muse agent turned 152 Instagram posts into mood boards and video treatment.
+- (2026-11-27) @IrfanBuildsSass: Praise—using Muse over a month, loving it; VM goes down sometimes.
+- (2026-11-26) @FutureVerse360: News—Amazon blocked Muse from shopping; ICO/CMA/FCA watching; UK launch.
+- (2026-11-26) @OllieInvesting: Other—Muse annoying for git changes but brilliant for life admin.
+- (2026-11-26) @BrandonUpright: News—Muse rolling out inside Instagram DMs in Canada.
+- (2026-11-26) @April_is_SY: Comparison—ByteDance's Xiaodou might have better shot than Muse/Grok/Dots.
+
+**Feedback rows:** 468 (as of 2026-11-27)

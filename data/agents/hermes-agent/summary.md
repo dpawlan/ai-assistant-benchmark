@@ -491,3 +491,19 @@ _Updated 2026-11-26 weekday vault scan (+11 rows)._
 - (2026-11-25) @0xdierich: Praise—just switch to Hermes Agent; free, open-source, agent of the year.
 
 **Feedback rows:** 309 (as of 2026-11-26)
+
+_Updated 2026-11-27 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-27) @zerqfer: Use case—Grok Bot + Hermes Agent combo; Hermes does the work (unverified $41,700 claim).
+- (2026-11-27) @mr_r0b0t: Praise—Hermes Agent Mobile app update with nice new UI/UX features.
+- (2026-11-27) @yebyen: Use case—AI agents coding Flagger canaries, building Hermes agent for local models.
+- (2026-11-26) @alexcovo_eth: Use case—Nous Girl avatar on Hermes-Agent Transceiver; callable from phone.
+- (2026-11-27) @mr_r0b0t: Use case—prompt for optimizing Hermes Agent Bots (profiles) on local models.
+- (2026-11-27) @RightSideOfAI: Praise—returned to Hermes as full-time personal assistant.
+- (2026-11-26) @StefanMaier: Use case—Hermes Agent "Talaria" in VR with local AI on DGX Spark.
+- (2026-11-26) @JASONMCNAB: Use case—local Hermes install paired with Nvidia Jetson Orin Nano.
+- (2026-11-26) @mattman: Comparison—still likes Hermes better; OpenClaw is buggy.
+- (2026-11-26) @thumay9700: Praise—no personal agent with higher capabilities than Gemini Spark, outside of Hermes.
+
+**Feedback rows:** 319 (as of 2026-11-27)

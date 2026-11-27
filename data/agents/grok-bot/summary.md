@@ -686,3 +686,23 @@ _Updated 2026-11-26 weekday vault scan (+14 rows)._
 - (2026-11-25) @0xdierich: Complaint—GrokBot hits limits way too fast; suggests Hermes Agent instead.
 
 **Feedback rows:** 1614 (as of 2026-11-26)
+
+_Updated 2026-11-27 weekday vault scan (+14 rows)._
+
+**New this scan:**
+- (2026-11-27) @zerqfer: Use case—Grok Bot + Hermes Agent combo made $41,700 in 11 days (unverified income claim).
+- (2026-11-27) @DonovanFlynn999: Use case—weekly fuel gauge dashboard prompt for Ultra plan usage.
+- (2026-11-27) @darrelang: Praise—Grok Bot 11% more efficient on tokens, 50% more efficient on routines.
+- (2026-11-27) @AOR519555889776: Complaint—Grok lied about Grok Bot not existing.
+- (2026-11-27) @bruno_munhoz: Comparison—Grok Bot vs Muse side by side for 2 weeks; Grok Bot used full week by Thursday.
+- (2026-11-27) @Texas_Twins_Dad: Use case—Part 2: generating revenue with Grok Bot as a non-developer; selling dashboard software.
+- (2026-11-27) @colesmcintosh: Comparison—Grok Bot worst weekly usage vs Muse/Dot; prefers Muse for UX.
+- (2026-11-27) @S26neverdies: Complaint—confusing having separate Grok Bot app alongside Grok app.
+- (2026-11-27) @ziwo520: Other—subscribed to Grok Bot but no idea what to do with it.
+- (2026-11-26) @choopyplug1: Use case—Grok Bot + Gemini 4 Neon + repo for 2x the limit via log compression.
+- (2026-11-27) @mariajasmila70: Praise—Grok Bot made lease contract; paid for itself.
+- (2026-11-27) @_aryanmehrotra: Comparison—Claude Duet better chat; Grok Bot still better operator.
+- (2026-11-27) @zoaibdev: Other—Cursor Projects vs Grok Bot; using Grok Bot almost exclusively.
+- (2026-11-26) @iwhhto: Use case—using Grok Bot for recon + penetration alongside other agents.
+
+**Feedback rows:** 1628 (as of 2026-11-27)

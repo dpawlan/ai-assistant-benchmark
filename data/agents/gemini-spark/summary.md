@@ -176,3 +176,12 @@ _Updated 2026-11-26 weekday vault scan (+1 row)._
 - (2026-11-25) @CH13NB0Y: Feature request—asks when Gemini Spark will be available in EU.
 
 **Feedback rows:** 62 (as of 2026-11-26)
+
+_Updated 2026-11-27 weekday vault scan (+3 rows)._
+
+**New this scan:**
+- (2026-11-26) @iwhhto: Use case—using Gemini Spark for penetration + handling bounty claim and workflow.
+- (2026-11-26) @thefahien: Use case—Gemini Spark can run scheduled tasks; Google Tasks as the queue.
+- (2026-11-26) @thumay9700: Praise—no personal agent with higher capabilities than Gemini Spark outside of Hermes.
+
+**Feedback rows:** 65 (as of 2026-11-27)

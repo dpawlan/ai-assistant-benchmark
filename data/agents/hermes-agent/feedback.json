@@ -5472,5 +5472,178 @@
     "source": "X",
     "collected_at": "2026-11-26",
     "notes": ""
+  },
+  {
+    "id": "2126219985198428496",
+    "agent": "hermes-agent",
+    "quote": "I still don't understand why nobody uses Grok Bot this way...\n\ni connected elon's grok bot to hermes agent. grok bot gives the orders, hermes does the work on my old laptop. 11 days later that setup made me $41,700\n\neveryone on X is arguing grok bot vs hermes. i just made them https://t.co/0ibia7CAFn",
+    "author": "zerqfer",
+    "author_name": "zer",
+    "date": "2026-11-27",
+    "url": "https://x.com/zerqfer/status/2126219985198428496",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "ui-ux",
+      "pricing",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": "Unverified income claim ($41,700)."
+  },
+  {
+    "id": "2126291698708017347",
+    "agent": "hermes-agent",
+    "quote": "FYI, the recent update to the @NousResearch Hermes Agent Mobile app brings some really nice new UI/UX features 🤩",
+    "author": "mr_r0b0t",
+    "author_name": "mr_r0b0t",
+    "date": "2026-11-27",
+    "url": "https://x.com/mr_r0b0t/status/2126291698708017347",
+    "kind": "other",
+    "tags": [
+      "x",
+      "mobile",
+      "ui-ux"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126131148397097210",
+    "agent": "hermes-agent",
+    "quote": "Got muh AI agents coding my Flagger canaries, building their own @NousResearch Hermes agent, for my local models in my Slop Cannon vibe! (is that a song - no it is not even remotely melodic)",
+    "author": "yebyen",
+    "author_name": "@yebyen@hachyderm.io🐊🐊🐀",
+    "date": "2026-11-27",
+    "url": "https://x.com/yebyen/status/2126131148397097210",
+    "kind": "other",
+    "tags": [
+      "x",
+      "ui-ux",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126044976173949267",
+    "agent": "hermes-agent",
+    "quote": "Yesterday @johnrobinsn posted a talking avatar that runs live on a MacBook. I said I would give it a go.\n\nOne day later: this is Nous Girl on channel 11 of my Hermes-Agent Transceiver, and I can call her from my phone.\n\nBefore: a cloud avatar at about $0.20 a minute, five minute https://t.co/qP5sIRtf9l",
+    "author": "alexcovo_eth",
+    "author_name": "Alex C.",
+    "date": "2026-11-26",
+    "url": "https://x.com/alexcovo_eth/status/2126044976173949267",
+    "kind": "other",
+    "tags": [
+      "x",
+      "pricing"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126318152132801012",
+    "agent": "hermes-agent",
+    "quote": "Here's a prompt everyone should keep handy if you're serving local models for use in @NousResearch Hermes Agent Bots (profiles)!\n\"Review the ongoing session where the profile we just made is running. Without interrupting it determine how to optimize the profile. One example is",
+    "author": "mr_r0b0t",
+    "author_name": "mr_r0b0t",
+    "date": "2026-11-27",
+    "url": "https://x.com/mr_r0b0t/status/2126318152132801012",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126289824311329053",
+    "agent": "hermes-agent",
+    "quote": "This was a fun project to undertake and I really do hope those who use DSH can get some value out of this. But I have turned back to @NousResearch  Hermes as my full-time personal assistant, I'll keep tinkering away on the DSH assistant but it won't take up my alot of my time.",
+    "author": "RightSideOfAI",
+    "author_name": "Josh",
+    "date": "2026-11-27",
+    "url": "https://x.com/RightSideOfAI/status/2126289824311329053",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126034353880961248",
+    "agent": "hermes-agent",
+    "quote": "I'm no great video editor or actor but maybe you can imagine what my @NousResearch Hermes Agent „Talaria“ in VR is capable for.\n\nThe full experience of my local Agent with complete with local AI (over Local Router from @jayleaton on two @NVIDIAAI DGX Spark) in immersive style https://t.co/Id5KqxnQfl",
+    "author": "StefanMaier",
+    "author_name": "Stefan Maier",
+    "date": "2026-11-26",
+    "url": "https://x.com/StefanMaier/status/2126034353880961248",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125963824704479564",
+    "agent": "hermes-agent",
+    "quote": "@witcheer Thanks! It's not my main Hermes agent install. But I like have a local one on this device. I have paired this on the past with a Nvidia Jetson Orin Nano for a small local model in case network is dropped. You are really only limited by your imagination and Hermes agent makes a",
+    "author": "JASONMCNAB",
+    "author_name": "JASON MCNAB",
+    "date": "2026-11-26",
+    "url": "https://x.com/JASONMCNAB/status/2125963824704479564",
+    "kind": "other",
+    "tags": [
+      "x",
+      "limits",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125994613043601626",
+    "agent": "hermes-agent",
+    "quote": "Been playing around with @openclaw more these days since I started using uncensored AI on https://t.co/VlzD72iFWB \n\nHonestly, I still like Hermes better. OpenClaw is still buggy. I'm getting a bunch of errors I thought would have been tuned out by now and when I modify it",
+    "author": "mattman",
+    "author_name": "MATT",
+    "date": "2026-11-26",
+    "url": "https://x.com/mattman/status/2125994613043601626",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126087483721167168",
+    "agent": "hermes-agent",
+    "quote": "I don't think people understand how much and how quickly Google is improving their AI stack.\n\nOutside of @NousResearch w/Hermes, there is no personal agent with higher capabilities than Gemini Spark now.\n\nAlso, @GoogleDeepMind please don't change the name to “Tasks”\n\nI'm begging. https://t.co/p1CRc1vLei",
+    "author": "thumay9700",
+    "author_name": "SuperThrowed MayMay",
+    "date": "2026-11-26",
+    "url": "https://x.com/thumay9700/status/2126087483721167168",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "ui-ux",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
   }
 ]

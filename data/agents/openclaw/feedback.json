@@ -3292,5 +3292,175 @@
     "source": "X",
     "collected_at": "2026-11-26",
     "notes": ""
+  },
+  {
+    "id": "2126240184823910407",
+    "agent": "openclaw",
+    "quote": "@openclaw A year of OpenClaw, wow. Seems ages!! Happy birthday! \n\nMy post from some months ago using OpenClaw for cybersecurity https://t.co/7zsADDrOSf 😊",
+    "author": "simonroses",
+    "author_name": "Simon Roses",
+    "date": "2026-11-27",
+    "url": "https://x.com/simonroses/status/2126240184823910407",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "mobile"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126167741656871156",
+    "agent": "openclaw",
+    "quote": "@openclaw not me realizing half my workflow is just my openclaw setup getting fixed by strangers all year. anyway",
+    "author": "uYi5UKkxCSimgqj",
+    "author_name": "悅悅",
+    "date": "2026-11-27",
+    "url": "https://x.com/uYi5UKkxCSimgqj/status/2126167741656871156",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126301747572617474",
+    "agent": "openclaw",
+    "quote": "From Server Monitoring to a Code Fix: OpenClaw + Claude Code\n\nI've dedicated an OpenClaw agent to server operations, giving it a focused role looking after the infrastructure behind my projects.\n\nIt found a problem with https://t.co/9glwzbkeBz. I took that finding and handed it",
+    "author": "8Examples",
+    "author_name": "Sean Bennett",
+    "date": "2026-11-27",
+    "url": "https://x.com/8Examples/status/2126301747572617474",
+    "kind": "other",
+    "tags": [
+      "x",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125964794964345101",
+    "agent": "openclaw",
+    "quote": "two commands worth keeping after openclaw setup -- `openclaw gateway status` checks whether the service is up. `openclaw health` gives you a broader check before you start troubleshooting a chat channel.",
+    "author": "max_vogel_dev",
+    "author_name": "Boston Micron",
+    "date": "2026-11-26",
+    "url": "https://x.com/max_vogel_dev/status/2125964794964345101",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125974679462502448",
+    "agent": "openclaw",
+    "quote": "openclaw dashboard loads but says AUTH_TOKEN_MISMATCH? don't reinstall.\n\non the gateway host:\n1. openclaw gateway status. does its dashboard url match your tab?\n2. openclaw dashboard. open the fresh single-use link\n3. still asks for a secret? openclaw gateway auth-token --show,",
+    "author": "xCwynW",
+    "author_name": "Cwyn",
+    "date": "2026-11-26",
+    "url": "https://x.com/xCwynW/status/2125974679462502448",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126266320409026667",
+    "agent": "openclaw",
+    "quote": "@krunkosaurus The OpenClaw note on your card is the real warning: it used to queue on Enter and switched its shipped default to steering. So one keypress can mean different things across versions of the same tool, not just across tools. Hermes interrupting the run is the other one I'd flag.",
+    "author": "dheeraja486",
+    "author_name": "dheeraj agrawal",
+    "date": "2026-11-27",
+    "url": "https://x.com/dheeraja486/status/2126266320409026667",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125989876382482639",
+    "agent": "openclaw",
+    "quote": "@openclaw I built a native Android app optimized for AI coding on mobile. Love you, OpenClaw🦞",
+    "author": "miyavi1216",
+    "author_name": "みやび",
+    "date": "2026-11-26",
+    "url": "https://x.com/miyavi1216/status/2125989876382482639",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "mobile",
+      "ui-ux",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2125994613043601626",
+    "agent": "openclaw",
+    "quote": "Been playing around with @openclaw more these days since I started using uncensored AI on https://t.co/VlzD72iFWB \n\nHonestly, I still like Hermes better. OpenClaw is still buggy. I'm getting a bunch of errors I thought would have been tuned out by now and when I modify it",
+    "author": "mattman",
+    "author_name": "MATT",
+    "date": "2026-11-26",
+    "url": "https://x.com/mattman/status/2125994613043601626",
+    "kind": "bug",
+    "tags": [
+      "x",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126214873977942349",
+    "agent": "openclaw",
+    "quote": "@tokyouxbt half that list is a different layer than the other half: n8n and openclaw are runtimes your agents live in, lovable and bolt build apps. i run my fleet on openclaw and there's nothing to post about it. working plumbing stops being content.",
+    "author": "johnroodepic",
+    "author_name": "John Rood",
+    "date": "2026-11-27",
+    "url": "https://x.com/johnroodepic/status/2126214873977942349",
+    "kind": "other",
+    "tags": [
+      "x",
+      "mobile",
+      "ui-ux"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126043438697116029",
+    "agent": "openclaw",
+    "quote": "@SLOWGOLD26 @openclaw 16GB on an M4 mini gets tight once macOS, the model and OpenClaw all share memory. A smaller quantized model, or sending heavy tasks to a cloud model on your own account, usually helps a lot. https://t.co/RmqtTX58xp is a private, local-first agent built for Apple Silicon.",
+    "author": "Krystalize_ai",
+    "author_name": "Krys",
+    "date": "2026-11-26",
+    "url": "https://x.com/Krystalize_ai/status/2126043438697116029",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "mobile",
+      "ui-ux"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
   }
 ]

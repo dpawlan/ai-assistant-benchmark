@@ -376,3 +376,19 @@ _Updated 2026-11-26 weekday vault scan (+8 rows)._
 - (2026-11-26) @NovaeonStudio: Comparison—bash-only agent beat OpenClaw by 24 points; gap now 6 after fixes.
 
 **Feedback rows:** 185 (as of 2026-11-26)
+
+_Updated 2026-11-27 weekday vault scan (+10 rows)._
+
+**New this scan:**
+- (2026-11-27) @simonroses: Praise—happy birthday OpenClaw; a year already; using for cybersecurity.
+- (2026-11-27) @uYi5UKkxCSimgqj: Other—half my workflow is OpenClaw setup getting fixed by strangers.
+- (2026-11-27) @8Examples: Use case—OpenClaw agent dedicated to server ops; found problem, handed to Claude Code.
+- (2026-11-26) @max_vogel_dev: Tip—`openclaw gateway status` and `openclaw health` commands after setup.
+- (2026-11-26) @xCwynW: Tip—AUTH_TOKEN_MISMATCH fix; don't reinstall, use gateway commands.
+- (2026-11-27) @dheeraja486: Other—OpenClaw Enter/steering default change warning; keypress means different things.
+- (2026-11-26) @miyavi1216: Praise—built native Android app for AI coding on mobile; loves OpenClaw.
+- (2026-11-26) @mattman: Comparison—still likes Hermes better; OpenClaw is buggy.
+- (2026-11-27) @johnroodepic: Other—n8n and openclaw are runtimes; working plumbing stops being content.
+- (2026-11-26) @Krystalize_ai: Tip—16GB on M4 mini gets tight; smaller quantized model or cloud model helps.
+
+**Feedback rows:** 195 (as of 2026-11-27)

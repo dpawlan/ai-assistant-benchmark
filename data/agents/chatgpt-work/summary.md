@@ -166,3 +166,13 @@ _Updated 2026-11-25 weekday vault scan (+7 rows)._
 - (2026-11-24) @gcinkara: TR—wondered what ChatGPT Work is for; now indispensable after a month.
 
 **Feedback rows:** 69 (as of 2026-11-25)
+
+_Updated 2026-11-27 weekday vault scan (+4 rows)._
+
+**New this scan:**
+- (2026-11-27) @LynnA39927613: Complaint—ChatGPT Work with 6.2 doesn't have update but Chat does.
+- (2026-11-27) @ST_Automation: Complaint—billing mistake from Nov 5 still open; 40k Codex credits gone; day 22.
+- (2026-11-27) @GuterDinge: Bug—HTTP 500 bug in ChatGPT Work chat deletion; both original and branch affected.
+- (2026-11-26) @Ionkosm: Other—needs flowchart to understand ChatGPT/Work/Codex naming confusion.
+
+**Feedback rows:** 73 (as of 2026-11-27)

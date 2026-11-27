@@ -36409,5 +36409,247 @@
     "source": "X",
     "collected_at": "2026-11-26",
     "notes": ""
+  },
+  {
+    "id": "2126219985198428496",
+    "agent": "grok-bot",
+    "quote": "I still don't understand why nobody uses Grok Bot this way...\n\ni connected elon's grok bot to hermes agent. grok bot gives the orders, hermes does the work on my old laptop. 11 days later that setup made me $41,700\n\neveryone on X is arguing grok bot vs hermes. i just made them https://t.co/0ibia7CAFn",
+    "author": "zerqfer",
+    "author_name": "zer",
+    "date": "2026-11-27",
+    "url": "https://x.com/zerqfer/status/2126219985198428496",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "ui-ux",
+      "pricing",
+      "vs-hermes-agent"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": "Unverified income claim ($41,700)."
+  },
+  {
+    "id": "2126305066084598236",
+    "agent": "grok-bot",
+    "quote": "Updated prompt for the weekly fuel gauge Page (now with a single compact \"Top 3 Grok Bot\" line right under the three gauges, thanks to @Clipdue's suggestion):\n\n\"Build an on-demand dashboard Page in my Library for my weekly Ultra plan usage, refreshed only when I ask and with no",
+    "author": "DonovanFlynn999",
+    "author_name": "RedPoppySoftware",
+    "date": "2026-11-27",
+    "url": "https://x.com/DonovanFlynn999/status/2126305066084598236",
+    "kind": "other",
+    "tags": [
+      "x",
+      "limits",
+      "ui-ux"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126120849719668896",
+    "agent": "grok-bot",
+    "quote": "Grok Bot got better with tokens. 11% more efficient overall, 50% more efficient on routines. Congrats to the Grok Bot team @grok @bot @spacexai. Thanks for the constant work to make it better.",
+    "author": "darrelang",
+    "author_name": "Darrel Ang",
+    "date": "2026-11-27",
+    "url": "https://x.com/darrelang/status/2126120849719668896",
+    "kind": "praise",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126237408933163129",
+    "agent": "grok-bot",
+    "quote": "Grok just lied to me and said grok bot doesn't exist and can't purchase things like tickets, even after probing and prompting. It said that it was grok bot and wasn't designed to take outside action. Is grok jealous of grok bot?",
+    "author": "AOR519555889776",
+    "author_name": "AOR",
+    "date": "2026-11-27",
+    "url": "https://x.com/AOR519555889776/status/2126237408933163129",
+    "kind": "other",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126255460823052416",
+    "agent": "grok-bot",
+    "quote": "I ran grok @bot and @muse side by side for 2 weeks\n\nGrok Bot at full power used my whole week by Thursday. Muse never got past ~34%\n\nThis week Grok Bot finished at 75%\n\nI post every test like this, with screenshots. Follow along",
+    "author": "bruno_munhoz",
+    "author_name": "Bruno Munhoz",
+    "date": "2026-11-27",
+    "url": "https://x.com/bruno_munhoz/status/2126255460823052416",
+    "kind": "comparison",
+    "tags": [
+      "x",
+      "vs-muse"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126139211484942793",
+    "agent": "grok-bot",
+    "quote": "Part 2: my journey of generating revenue with Grok Bot as a non-developer.\n\nGrok Bot finished the dashboard software, and the hardware is almost done too.\n\nNow I'm taking it two ways:\n\n1. Software: selling the dashboard app on its own, so anyone can turn their tablet into a live https://t.co/OV1Tde0VuV",
+    "author": "Texas_Twins_Dad",
+    "author_name": "Texas Twins Dad",
+    "date": "2026-11-27",
+    "url": "https://x.com/Texas_Twins_Dad/status/2126139211484942793",
+    "kind": "other",
+    "tags": [
+      "x",
+      "mobile",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126152568946462902",
+    "agent": "grok-bot",
+    "quote": "grok bot feels like it has the worst weekly usage compared to muse/dot\n\ni never hit usage limits with muse/dot\n\npersonally i prefer muse bc the ux feels cleaner and it's very proactive. only downside for me is no coding agent natively attached. grok bot + cursor agents is the",
+    "author": "colesmcintosh",
+    "author_name": "Cole McIntosh",
+    "date": "2026-11-27",
+    "url": "https://x.com/colesmcintosh/status/2126152568946462902",
+    "kind": "complaint",
+    "tags": [
+      "x",
+      "limits",
+      "ui-ux",
+      "coding",
+      "vs-muse"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126147271133990985",
+    "agent": "grok-bot",
+    "quote": "i find it extremely strange that on mobile grok bot is included in the grok app but there's also a separate grok bot app like why?\n\nand desktop is even weirder because theres a grok bot app but no normal grok app like why not just give us 1 app that has both",
+    "author": "S26neverdies",
+    "author_name": "Severin Fisher",
+    "date": "2026-11-27",
+    "url": "https://x.com/S26neverdies/status/2126147271133990985",
+    "kind": "other",
+    "tags": [
+      "x",
+      "mobile"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126148867297259951",
+    "agent": "grok-bot",
+    "quote": "i have sub to grok bot and is time to using it , but i have no idea what should id do with grok bot .  i think even i have grok bot  ,  the problem is i can not find any task to make my daily life more easy .....",
+    "author": "ziwo520",
+    "author_name": "soragui",
+    "date": "2026-11-27",
+    "url": "https://x.com/ziwo520/status/2126148867297259951",
+    "kind": "use_case",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126007537510060231",
+    "agent": "grok-bot",
+    "quote": "Grok Bot + Gemini 4 Neon + 1 free repo = 2x the limit\n\nthe repo squeezes logs 57%, Neon reads them, Grok Bot gets 1 page\n\nhow it works:\n\n1. Grok Bot grabs the logs, JSON and tool outputs\n\n2. headroom squeezes them before any model sees them. 55,957 tokens → 24,340, the FATAL https://t.co/44FzuBTHk6",
+    "author": "choopyplug1",
+    "author_name": "chuplung",
+    "date": "2026-11-26",
+    "url": "https://x.com/choopyplug1/status/2126007537510060231",
+    "kind": "other",
+    "tags": [
+      "x",
+      "limits",
+      "pricing"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126135813826035812",
+    "agent": "grok-bot",
+    "quote": "Grok bot made me a lease contract of my condo. \n\nGrok bot it's paid by itself.",
+    "author": "mariajasmila70",
+    "author_name": "Ma Jasmila 👽🐙🪐🐈🐷",
+    "date": "2026-11-27",
+    "url": "https://x.com/mariajasmila70/status/2126135813826035812",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "pricing"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126307496004559314",
+    "agent": "grok-bot",
+    "quote": "Claude Duet is the better chat. Grok Bot is still the better operator.\n\nDay to day, Duet feels great. Clean, fast, rock-solid.\n\nBut Claude Duet still needs to make using Claude Code way easier. Grok Bot lets you grant computer access and permissions so it can actually run",
+    "author": "_aryanmehrotra",
+    "author_name": "Aryan mehrotra",
+    "date": "2026-11-27",
+    "url": "https://x.com/_aryanmehrotra/status/2126307496004559314",
+    "kind": "praise",
+    "tags": [
+      "x",
+      "coding"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126167127270871523",
+    "agent": "grok-bot",
+    "quote": "Question for @poteto 👋\n\nI've been using Cursor Projects and Grok Bot side by side for a while, but lately I'm in Grok Bot almost exclusively. Now I'm having a hard time drawing the line between the two.\n\nThe clearest difference I've found: Cursor Projects has a central notes",
+    "author": "zoaibdev",
+    "author_name": "Zoaib Khan",
+    "date": "2026-11-27",
+    "url": "https://x.com/zoaibdev/status/2126167127270871523",
+    "kind": "comparison",
+    "tags": [
+      "x"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
+  },
+  {
+    "id": "2126097875675525608",
+    "agent": "grok-bot",
+    "quote": "@Cheetah_x0 @Lipun0021 @Zorvh87 btw I use claude agent as main penetration , grok bot for recon + penetration(scan X for Defi and protocols) and lastly gemini spark to penertration+ handling bounty claim and workflow",
+    "author": "iwhhto",
+    "author_name": "BiNg",
+    "date": "2026-11-26",
+    "url": "https://x.com/iwhhto/status/2126097875675525608",
+    "kind": "use_case",
+    "tags": [
+      "x",
+      "vs-gemini-spark"
+    ],
+    "source": "X",
+    "collected_at": "2026-11-27",
+    "notes": ""
   }
 ]

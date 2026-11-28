@@ -1,5 +1,5 @@
 ---
-title: "The AI Agent Market Map V3: 318 Products to Know"
+title: "The AI Agent Market Map: 318 Products to Know"
 dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them. Find product descriptions, websites, and X accounts where available."
 date: 2026-11-23
 updated: 2026-11-28

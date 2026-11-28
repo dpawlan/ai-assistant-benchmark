@@ -1,30 +1,22 @@
-export interface MarketEvent {
-  date: string;
-  precision: string;
-  kind: string;
-  label: string;
-  note: string;
-  source: string;
-  source_type: string;
-  verified_on: string;
-}
 export interface TimelineProduct {
   id: string;
   name: string;
   category: string;
-  description: string;
   website: string;
-  logo: string;
-  events: MarketEvent[];
+  logo: string | null;
+  mapped: boolean;
+  first: string | null;
+  closed: string | null;
+  availability?: string;
 }
-export function firstAppearance(product: TimelineProduct) {
-  return product.events.find(e => ['launch', 'announcement', 'preview'].includes(e.kind))?.date;
+
+export function monthIndex(date: string): number {
+  const [year, month] = date.split('-').map(Number);
+  return year * 12 + month - 1;
 }
-export function statusAt(product: TimelineProduct, date: string) {
-  const first = firstAppearance(product);
-  if (!first || first > date) return 'not-yet';
-  const events = product.events.filter(e => e.date <= date);
-  if (events.some(e => e.kind === 'shutdown')) return 'closed';
-  if (events.some(e => e.kind === 'partial_shutdown')) return 'partial';
-  return 'present';
+
+const monthFormatter = new Intl.DateTimeFormat('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+
+export function formatMonth(index: number): string {
+  return monthFormatter.format(Date.UTC(Math.floor(index / 12), index % 12, 1));
 }

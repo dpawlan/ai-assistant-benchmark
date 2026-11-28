@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source not "../../data/research";
+@source not "../../outputs";
 
 /* Tokens: the seven from the reference, plus derived tints. Light only. */
 :root {

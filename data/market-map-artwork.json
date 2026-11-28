@@ -1,0 +1,91 @@
+{
+  "hero": "/images/articles/ai-agent-market-map-eefde1a88e.png",
+  "width": 4000,
+  "height": 4710,
+  "sections": {
+    "Big lab & big tech": [
+      80,
+      212,
+      3840,
+      239
+    ],
+    "Consumer personal assistants": [
+      80,
+      475,
+      3840,
+      734
+    ],
+    "Shopping & commerce": [
+      80,
+      1233,
+      942,
+      404
+    ],
+    "Travel": [
+      1046,
+      1233,
+      942,
+      404
+    ],
+    "Finance & money": [
+      2012,
+      1233,
+      942,
+      569
+    ],
+    "Email & calendar": [
+      2978,
+      1233,
+      942,
+      404
+    ],
+    "Multiplayer & group chat": [
+      80,
+      1826,
+      942,
+      404
+    ],
+    "Home, family & health": [
+      1046,
+      1826,
+      942,
+      569
+    ],
+    "Voice & phone": [
+      2012,
+      1826,
+      942,
+      239
+    ],
+    "Open source & self-hosted": [
+      2978,
+      1826,
+      942,
+      404
+    ],
+    "Work & productivity": [
+      80,
+      2419,
+      3840,
+      734
+    ],
+    "Agent orchestration & collaboration": [
+      80,
+      3177,
+      1908,
+      239
+    ],
+    "Agent marketplaces & autonomous businesses": [
+      2012,
+      3177,
+      1908,
+      239
+    ],
+    "Agent infrastructure": [
+      80,
+      3440,
+      3840,
+      1229
+    ]
+  }
+}

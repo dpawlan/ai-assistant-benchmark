@@ -1,236 +1,3260 @@
 {
-  "asOf": "2026-11-25",
-  "researchTotal": 300,
+  "asOf": "2026-11-28",
   "products": [
     {
       "id": "dots",
       "name": "Dots",
       "category": "Big lab & big tech",
-      "description": "Personal agents from OpenAI that can work independently on delegated tasks.",
       "website": "https://openai.com/index/introducing-dots/",
-      "logo": "/logos/timeline/dots.png",
-      "events": [
-        {
-          "date": "2026-09-29",
-          "precision": "day",
-          "kind": "launch",
-          "label": "Rollout announced",
-          "note": "Rollout began for eligible Pro, Business Premium and Enterprise users.",
-          "source": "https://openai.com/index/introducing-dots/",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/dots.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
     },
     {
       "id": "claude-duet",
       "name": "Claude Duet",
       "category": "Big lab & big tech",
-      "description": "A proactive personal agent from Anthropic for work and everyday tasks.",
       "website": "https://claude.com/product/claude-duet",
-      "logo": "/logos/timeline/claude-duet.png",
-      "events": [
-        {
-          "date": "2026-10-21",
-          "precision": "day",
-          "kind": "preview",
-          "label": "Research preview announced",
-          "note": "US Pro, Max and Ultra subscribers could join the waitlist; access was not generally available.",
-          "source": "https://claude.com/resources/articles/claude-duet",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/claude-duet.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "tasks-in-gemini",
+      "name": "Tasks in Gemini",
+      "category": "Big lab & big tech",
+      "website": "https://gemini.google/overview/productivity/",
+      "logo": "/logos/map/tasks-in-gemini.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
     },
     {
       "id": "muse",
       "name": "Muse",
       "category": "Big lab & big tech",
-      "description": "A personal AI agent from Meta for getting everyday tasks done.",
       "website": "https://muse.ai/",
-      "logo": "/logos/timeline/muse.png",
-      "events": [
-        {
-          "date": "2026-09-08",
-          "precision": "day",
-          "kind": "launch",
-          "label": "Public introduction",
-          "note": "Meta introduced Muse as a personal AI agent. This is the original publication date, not the later article update.",
-          "source": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/muse.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
     },
     {
       "id": "grok",
       "name": "Grok",
       "category": "Big lab & big tech",
-      "description": "An AI assistant with access to information from the web and X.",
       "website": "https://grok.com/",
-      "logo": "/logos/timeline/grok.png",
-      "events": [
-        {
-          "date": "2023-11-03",
-          "precision": "day",
-          "kind": "preview",
-          "label": "Early beta announced",
-          "note": "The official announcement offered limited US early access through a waitlist. This record covers Grok, not Grok Bot.",
-          "source": "https://x.ai/news/grok",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/grok.webp",
+      "mapped": true,
+      "first": "2023-11",
+      "closed": null
+    },
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "category": "Big lab & big tech",
+      "website": "https://copilot.com/",
+      "logo": "/logos/map/microsoft-copilot.webp",
+      "mapped": true,
+      "first": "2023-02",
+      "closed": null
+    },
+    {
+      "id": "perplexity-computer",
+      "name": "Perplexity Computer",
+      "category": "Big lab & big tech",
+      "website": "https://www.perplexity.ai/products/computer",
+      "logo": "/logos/map/perplexity-computer.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "siri",
+      "name": "Siri",
+      "category": "Big lab & big tech",
+      "website": "https://www.apple.com/siri/",
+      "logo": "/logos/map/siri.webp",
+      "mapped": true,
+      "first": "2010-02",
+      "closed": null
+    },
+    {
+      "id": "alexa",
+      "name": "Alexa+",
+      "category": "Big lab & big tech",
+      "website": "https://alexa.amazon.com/",
+      "logo": "/logos/map/alexa.webp",
+      "mapped": true,
+      "first": "2025-02",
+      "closed": null
+    },
+    {
+      "id": "doubao",
+      "name": "Doubao",
+      "category": "Big lab & big tech",
+      "website": "https://www.doubao.com/",
+      "logo": "/logos/map/doubao.webp",
+      "mapped": true,
+      "first": "2023-08",
+      "closed": null
+    },
+    {
+      "id": "hark",
+      "name": "Hark",
+      "category": "Consumer personal assistants",
+      "website": "https://hark.com/",
+      "logo": "/logos/map/hark.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "instinct",
+      "name": "Instinct",
+      "category": "Consumer personal assistants",
+      "website": "https://instinct.com/",
+      "logo": "/logos/map/instinct.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "tomo",
+      "name": "Tomo",
+      "category": "Consumer personal assistants",
+      "website": "https://tomo.ai/",
+      "logo": "/logos/map/tomo.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "zapia",
+      "name": "Zapia",
+      "category": "Consumer personal assistants",
+      "website": "https://zapia.com/",
+      "logo": "/logos/map/zapia.webp",
+      "mapped": true,
+      "first": "2023-09",
+      "closed": null
+    },
+    {
+      "id": "pally",
+      "name": "Pally",
+      "category": "Consumer personal assistants",
+      "website": "https://pally.com/",
+      "logo": "/logos/map/pally.webp",
+      "mapped": true,
+      "first": "2025-06",
+      "closed": null
+    },
+    {
+      "id": "fo-by-wajo",
+      "name": "Fo by Wajo",
+      "category": "Consumer personal assistants",
+      "website": "https://wajo.ai/",
+      "logo": "/logos/map/fo-by-wajo.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
     },
     {
       "id": "dazzle",
       "name": "Dazzle",
       "category": "Consumer personal assistants",
-      "description": "A personal agent guided through pictures.",
       "website": "https://dazzle.ai/",
-      "logo": "/logos/timeline/dazzle.png",
-      "events": [
-        {
-          "date": "2026-09-29",
-          "precision": "day",
-          "kind": "launch",
-          "label": "Public launch",
-          "note": "The announcement offered the app, web and text access.",
-          "source": "https://dazzle.ai/announcing-dazzle-pictures-not-prompts/",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/dazzle.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "sones",
+      "name": "Sones",
+      "category": "Consumer personal assistants",
+      "website": "https://sones.ai/",
+      "logo": "/logos/map/sones.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "szn",
+      "name": "szn",
+      "category": "Consumer personal assistants",
+      "website": "https://theszn.ai/",
+      "logo": "/logos/map/szn.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "tab",
+      "name": "Tab",
+      "category": "Consumer personal assistants",
+      "website": "https://tab.bot/",
+      "logo": "/logos/map/tab.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "catch",
+      "name": "Catch",
+      "category": "Consumer personal assistants",
+      "website": "https://catchagent.ai/",
+      "logo": "/logos/map/catch.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "caddy",
+      "name": "Caddy",
+      "category": "Consumer personal assistants",
+      "website": "https://caddy.app/",
+      "logo": "/logos/map/caddy.webp",
+      "mapped": true,
+      "first": "2025-11",
+      "closed": null
+    },
+    {
+      "id": "orchid",
+      "name": "Orchid",
+      "category": "Consumer personal assistants",
+      "website": "https://orchid.ai/",
+      "logo": "/logos/map/orchid.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "boba",
+      "name": "Boba",
+      "category": "Consumer personal assistants",
+      "website": "https://boba.app/",
+      "logo": "/logos/map/boba.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "asmi",
+      "name": "Asmi",
+      "category": "Consumer personal assistants",
+      "website": "https://www.asmiai.com/",
+      "logo": "/logos/map/asmi.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "poke",
+      "name": "Poke",
+      "category": "Consumer personal assistants",
+      "website": "https://poke.com/",
+      "logo": "/logos/map/poke.webp",
+      "mapped": true,
+      "first": "2025-09",
+      "closed": null
+    },
+    {
+      "id": "asaply",
+      "name": "asaply",
+      "category": "Consumer personal assistants",
+      "website": "https://asaply.ai/",
+      "logo": "/logos/map/asaply.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "boski",
+      "name": "Boski",
+      "category": "Consumer personal assistants",
+      "website": "https://boski.com/",
+      "logo": "/logos/map/boski.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "tinynature",
+      "name": "tinyNature",
+      "category": "Consumer personal assistants",
+      "website": "https://tinypeople.ai/",
+      "logo": "/logos/map/tinynature.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "brea",
+      "name": "Brea",
+      "category": "Consumer personal assistants",
+      "website": "https://brea.ai/",
+      "logo": "/logos/map/brea.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "hirealpha",
+      "name": "HireAlpha",
+      "category": "Consumer personal assistants",
+      "website": "https://hirealpha.chat/",
+      "logo": "/logos/map/hirealpha.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
     },
     {
       "id": "vellum",
       "name": "Vellum",
       "category": "Consumer personal assistants",
-      "description": "A personal assistant built around your context.",
       "website": "https://www.vellum.ai/",
-      "logo": "/logos/timeline/vellum.png",
-      "events": [
-        {
-          "date": "2026-04-02",
-          "precision": "day",
-          "kind": "launch",
-          "label": "Hosted assistants launched",
-          "note": "Release v0.6.0 introduced cloud-hosted assistants and made the assistant repository public. Earlier local releases exist.",
-          "source": "https://www.vellum.ai/docs/releases#v060",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        },
-        {
-          "date": "2026-05-07",
-          "precision": "day",
-          "kind": "announcement",
-          "label": "Personal Intelligence introduction",
-          "note": "A later public introduction; it does not replace the earlier hosted-service release date.",
-          "source": "https://www.vellum.ai/blog/introducing-vellum",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        },
-        {
-          "date": "2026-11-07",
-          "precision": "day",
-          "kind": "partial_shutdown",
-          "label": "Hosted shutdown began",
-          "note": "Cloud assistants began being exported and turned off. Self-hosted assistants can continue; this is not a company-wide shutdown.",
-          "source": "https://www.vellum.ai/vellum-assistant-platform-shutdown",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/vellum.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "joshu",
+      "name": "Joshu",
+      "category": "Consumer personal assistants",
+      "website": "https://joshu.me/",
+      "logo": "/logos/map/joshu.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "mana",
+      "name": "Mana",
+      "category": "Consumer personal assistants",
+      "website": "https://mana.space/",
+      "logo": "/logos/map/mana.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "the-shadow",
+      "name": "The Shadow",
+      "category": "Consumer personal assistants",
+      "website": "https://theshadow.io/",
+      "logo": "/logos/map/the-shadow.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "today",
+      "name": "Today",
+      "category": "Consumer personal assistants",
+      "website": "https://today.ai/",
+      "logo": "/logos/map/today.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "aila",
+      "name": "aila",
+      "category": "Consumer personal assistants",
+      "website": "https://www.myai.la/",
+      "logo": "/logos/map/aila.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "airtap",
+      "name": "Airtap",
+      "category": "Consumer personal assistants",
+      "website": "https://airtap.ai/",
+      "logo": "/logos/map/airtap.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "doti",
+      "name": "Doti",
+      "category": "Consumer personal assistants",
+      "website": "https://heydoti.co/",
+      "logo": "/logos/map/doti.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "faff",
+      "name": "Faff",
+      "category": "Consumer personal assistants",
+      "website": "https://usefaff.com/",
+      "logo": "/logos/map/faff.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "familiar",
+      "name": "Familiar",
+      "category": "Consumer personal assistants",
+      "website": "https://withfamiliar.ai/",
+      "logo": "/logos/map/familiar.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "frida",
+      "name": "Frida",
+      "category": "Consumer personal assistants",
+      "website": "https://frida.chat/",
+      "logo": "/logos/map/frida.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "ka",
+      "name": "Ka",
+      "category": "Consumer personal assistants",
+      "website": "https://textka.com/",
+      "logo": "/logos/map/ka.webp",
+      "mapped": true,
+      "first": null,
+      "closed": null
+    },
+    {
+      "id": "luke",
+      "name": "Luke",
+      "category": "Consumer personal assistants",
+      "website": "https://www.getluke.app/",
+      "logo": "/logos/map/luke.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "neo",
+      "name": "Neo",
+      "category": "Consumer personal assistants",
+      "website": "https://01labs.ai/",
+      "logo": "/logos/map/neo.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "nessi",
+      "name": "Nessi",
+      "category": "Consumer personal assistants",
+      "website": "https://getnessi.ai/",
+      "logo": "/logos/map/nessi.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "quest",
+      "name": "Quest",
+      "category": "Consumer personal assistants",
+      "website": "https://new.quest/",
+      "logo": "/logos/map/quest.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "stumpy",
+      "name": "Stumpy",
+      "category": "Consumer personal assistants",
+      "website": "https://stumpy.ai/",
+      "logo": "/logos/map/stumpy.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "waldo",
+      "name": "Waldo",
+      "category": "Consumer personal assistants",
+      "website": "https://heywaldo.in/",
+      "logo": "/logos/map/waldo.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "dana",
+      "name": "Dana",
+      "category": "Consumer personal assistants",
+      "website": "https://heydana.ai/",
+      "logo": "/logos/map/dana.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "robyn",
+      "name": "Robyn",
+      "category": "Consumer personal assistants",
+      "website": "https://www.meetrobyn.com/",
+      "logo": "/logos/map/robyn.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "alien-agent",
+      "name": "Alien Agent",
+      "category": "Consumer personal assistants",
+      "website": "https://alien.org/",
+      "logo": "/logos/map/alien-agent.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "1helm",
+      "name": "1Helm",
+      "category": "Consumer personal assistants",
+      "website": "https://1helm.com/",
+      "logo": "/logos/map/1helm.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "buddy",
+      "name": "Buddy",
+      "category": "Consumer personal assistants",
+      "website": "https://vxbe.space/",
+      "logo": "/logos/map/buddy.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "sunny",
+      "name": "Sunny",
+      "category": "Consumer personal assistants",
+      "website": "https://trysunny.app/",
+      "logo": "/logos/map/sunny.webp",
+      "mapped": true,
+      "first": null,
+      "closed": null
+    },
+    {
+      "id": "oz",
+      "name": "Oz",
+      "category": "Consumer personal assistants",
+      "website": "https://oz.anyreach.ai/",
+      "logo": "/logos/map/oz.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "halo",
+      "name": "Halo",
+      "category": "Consumer personal assistants",
+      "website": "https://meethalo.app/",
+      "logo": "/logos/map/halo.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "kith-rabbit",
+      "name": "Kith Rabbit",
+      "category": "Consumer personal assistants",
+      "website": "https://kithrabbit.com/",
+      "logo": "/logos/map/kith-rabbit.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "twent",
+      "name": "Twent",
+      "category": "Consumer personal assistants",
+      "website": "https://twent.xyz/",
+      "logo": "/logos/map/twent.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "pickle",
+      "name": "Pickle",
+      "category": "Consumer personal assistants",
+      "website": "https://pickle.com/",
+      "logo": "/logos/map/pickle.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "loyal-ai",
+      "name": "Loyal AI",
+      "category": "Consumer personal assistants",
+      "website": "https://underdog.ai/",
+      "logo": "/logos/map/loyal-ai.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "groupthink",
+      "name": "Groupthink",
+      "category": "Consumer personal assistants",
+      "website": "https://groupthink.com/",
+      "logo": "/logos/map/groupthink.webp",
+      "mapped": true,
+      "first": "2023-03",
+      "closed": null
+    },
+    {
+      "id": "arlo",
+      "name": "Arlo",
+      "category": "Consumer personal assistants",
+      "website": "https://www.arlo.sh/",
+      "logo": "/logos/map/arlo.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "daimon",
+      "name": "Daimon",
+      "category": "Consumer personal assistants",
+      "website": "https://www.daimonapp.ai/",
+      "logo": "/logos/map/daimon.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "wiive",
+      "name": "wiive",
+      "category": "Consumer personal assistants",
+      "website": "https://wiive.it/",
+      "logo": "/logos/map/wiive.webp",
+      "mapped": true,
+      "first": null,
+      "closed": null
+    },
+    {
+      "id": "rabbit-os3",
+      "name": "rabbit OS3",
+      "category": "Consumer personal assistants",
+      "website": "https://rabbit.tech/",
+      "logo": "/logos/map/rabbit-os3.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "comma",
+      "name": "Comma",
+      "category": "Consumer personal assistants",
+      "website": "https://comma.surf/",
+      "logo": "/logos/map/comma.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "ira",
+      "name": "Ira",
+      "category": "Consumer personal assistants",
+      "website": "https://ira.so/",
+      "logo": "/logos/map/ira.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "nemo",
+      "name": "Nemo",
+      "category": "Consumer personal assistants",
+      "website": "https://heynemo.ai/",
+      "logo": "/logos/map/nemo.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null,
+      "availability": "Beta"
+    },
+    {
+      "id": "toqi",
+      "name": "Toqi",
+      "category": "Consumer personal assistants",
+      "website": "https://www.toqi.life/",
+      "logo": "/logos/map/toqi.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "kaval",
+      "name": "Kaval",
+      "category": "Consumer personal assistants",
+      "website": "https://kaval.chat/",
+      "logo": "/logos/map/kaval.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "stiled",
+      "name": "Stiled",
+      "category": "Shopping & commerce",
+      "website": "https://www.stiled.app/",
+      "logo": "/logos/map/stiled.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "category": "Shopping & commerce",
+      "website": "https://shoponscout.com/",
+      "logo": "/logos/map/scout.webp",
+      "mapped": true,
+      "first": "2025-01",
+      "closed": null
+    },
+    {
+      "id": "sellee",
+      "name": "Sellee",
+      "category": "Shopping & commerce",
+      "website": "https://www.sellee.ai/",
+      "logo": "/logos/map/sellee.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "littl",
+      "name": "Littl",
+      "category": "Shopping & commerce",
+      "website": "https://dolittl.ai/",
+      "logo": "/logos/map/littl.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "storerouter",
+      "name": "StoreRouter",
+      "category": "Shopping & commerce",
+      "website": "https://storerouter.ai/",
+      "logo": "/logos/map/storerouter.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "waverunner",
+      "name": "Waverunner",
+      "category": "Shopping & commerce",
+      "website": "https://waverunner.ai/",
+      "logo": "/logos/map/waverunner.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "kifly",
+      "name": "Kifly",
+      "category": "Shopping & commerce",
+      "website": "https://kifly.ai/",
+      "logo": "/logos/map/kifly.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "bitrefill-mcp",
+      "name": "Bitrefill eCommerce MCP",
+      "category": "Shopping & commerce",
+      "website": "https://docs.bitrefill.com/docs/ecommerce-mcp",
+      "logo": "/logos/map/bitrefill-mcp.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "miso",
+      "name": "Miso",
+      "category": "Travel",
+      "website": "https://miso.com/",
+      "logo": "/logos/map/miso.webp",
+      "mapped": true,
+      "first": "2025-06",
+      "closed": null
+    },
+    {
+      "id": "soar",
+      "name": "Soar",
+      "category": "Travel",
+      "website": "https://joinsoar.co/",
+      "logo": "/logos/map/soar.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "jett",
+      "name": "Jett",
+      "category": "Travel",
+      "website": "https://www.usejett.com/",
+      "logo": "/logos/map/jett.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "mindtrip",
+      "name": "Mindtrip",
+      "category": "Travel",
+      "website": "https://mindtrip.ai/",
+      "logo": "/logos/map/mindtrip.webp",
+      "mapped": true,
+      "first": "2024-05",
+      "closed": null
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "category": "Travel",
+      "website": "https://atlas.voyagelabs.ai/",
+      "logo": "/logos/map/atlas.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "arden",
+      "name": "Arden",
+      "category": "Travel",
+      "website": "https://arden.co/",
+      "logo": "/logos/map/arden.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "veeza-ai",
+      "name": "Veeza AI",
+      "category": "Travel",
+      "website": "https://www.veeza.ai/en",
+      "logo": "/logos/map/veeza-ai.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "lola",
+      "name": "Lola",
+      "category": "Travel",
+      "website": "https://lola.com/",
+      "logo": "/logos/map/lola.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "flip",
+      "name": "Flip",
+      "category": "Finance & money",
+      "website": "https://fliptexts.com/",
+      "logo": "/logos/map/flip.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "maxi",
+      "name": "Maxi",
+      "category": "Finance & money",
+      "website": "https://www.usemaxi.app/",
+      "logo": "/logos/map/maxi.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "treasury",
+      "name": "Treasury",
+      "category": "Finance & money",
+      "website": "https://treasury.sh/",
+      "logo": "/logos/map/treasury.webp",
+      "mapped": true,
+      "first": "2025-11",
+      "closed": null
+    },
+    {
+      "id": "ecomerate",
+      "name": "Ecomerate",
+      "category": "Finance & money",
+      "website": "https://ecomerate.com/",
+      "logo": "/logos/map/ecomerate.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "catalyst",
+      "name": "Catalyst",
+      "category": "Finance & money",
+      "website": "https://catalyst.app/",
+      "logo": "/logos/map/catalyst.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "supertake",
+      "name": "Supertake",
+      "category": "Finance & money",
+      "website": "https://www.supertake.com/",
+      "logo": "/logos/map/supertake.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "scalar-field",
+      "name": "Scalar Field",
+      "category": "Finance & money",
+      "website": "https://scalarfield.io/",
+      "logo": "/logos/map/scalar-field.webp",
+      "mapped": true,
+      "first": "2024-12",
+      "closed": null
+    },
+    {
+      "id": "volaren",
+      "name": "Volaren",
+      "category": "Finance & money",
+      "website": "https://www.volaren.ai/",
+      "logo": "/logos/map/volaren.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "anyalpha",
+      "name": "AnyAlpha",
+      "category": "Finance & money",
+      "website": "https://anyalpha.ai/",
+      "logo": "/logos/map/anyalpha.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "conviction",
+      "name": "Conviction",
+      "category": "Finance & money",
+      "website": "https://www.convictiontrade.ai/",
+      "logo": "/logos/map/conviction.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "instinct-xyz",
+      "name": "Instinct.xyz",
+      "category": "Finance & money",
+      "website": "https://instinct.xyz/",
+      "logo": "/logos/map/instinct-xyz.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "blue-agent",
+      "name": "Blue Agent",
+      "category": "Finance & money",
+      "website": "https://blueagent.dev/",
+      "logo": "/logos/map/blue-agent.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "midas",
+      "name": "Midas",
+      "category": "Finance & money",
+      "website": "https://heymidas.ai/",
+      "logo": "/logos/map/midas.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null,
+      "availability": "Waitlist"
+    },
+    {
+      "id": "slashy",
+      "name": "Slashy",
+      "category": "Email & calendar",
+      "website": "https://www.slashy.com/",
+      "logo": "/logos/map/slashy.webp",
+      "mapped": true,
+      "first": "2025-07",
+      "closed": null
+    },
+    {
+      "id": "ezail",
+      "name": "Ezail",
+      "category": "Email & calendar",
+      "website": "https://www.ezail.com/",
+      "logo": "/logos/map/ezail.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "kai",
+      "name": "Kai",
+      "category": "Email & calendar",
+      "website": "https://hirekai.ai/",
+      "logo": "/logos/map/kai.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "prio",
+      "name": "Prio",
+      "category": "Email & calendar",
+      "website": "https://prio.sh/",
+      "logo": "/logos/map/prio.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "skej",
+      "name": "Skej",
+      "category": "Email & calendar",
+      "website": "https://skej.com/",
+      "logo": "/logos/map/skej.webp",
+      "mapped": true,
+      "first": "2023-06",
+      "closed": null
+    },
+    {
+      "id": "howie",
+      "name": "Howie",
+      "category": "Email & calendar",
+      "website": "https://howie.com/",
+      "logo": "/logos/map/howie.webp",
+      "mapped": true,
+      "first": "2023-12",
+      "closed": null
+    },
+    {
+      "id": "hachi",
+      "name": "Hachi",
+      "category": "Email & calendar",
+      "website": "https://hachi.im/",
+      "logo": "/logos/map/hachi.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "wabi",
+      "name": "Wabi",
+      "category": "Multiplayer & group chat",
+      "website": "https://wabi.ai/",
+      "logo": "/logos/map/wabi.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "alfi",
+      "name": "Alfi",
+      "category": "Multiplayer & group chat",
+      "website": "https://www.text.ai/",
+      "logo": "/logos/map/alfi.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "bantr",
+      "name": "Bantr",
+      "category": "Multiplayer & group chat",
+      "website": "https://www.socialcompanyofus.com/what-bantr-does",
+      "logo": "/logos/map/bantr.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "rene",
+      "name": "Rene",
+      "category": "Multiplayer & group chat",
+      "website": "https://rene.co/",
+      "logo": "/logos/map/rene.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "qordinate",
+      "name": "Qordinate",
+      "category": "Multiplayer & group chat",
+      "website": "https://www.qordinate.ai/",
+      "logo": "/logos/map/qordinate.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "laze",
+      "name": "Laze",
+      "category": "Multiplayer & group chat",
+      "website": "https://laze.so/",
+      "logo": "/logos/map/laze.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "kicker",
+      "name": "Kicker",
+      "category": "Home, family & health",
+      "website": "https://kickerai.xyz/",
+      "logo": "/logos/map/kicker.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "orbits",
+      "name": "Orbits",
+      "category": "Home, family & health",
+      "website": "https://tryorbits.com/",
+      "logo": "/logos/map/orbits.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "ava",
+      "name": "AVA",
+      "category": "Home, family & health",
+      "website": "https://hiava.com/",
+      "logo": "/logos/map/ava.webp",
+      "mapped": true,
+      "first": "2025-07",
+      "closed": null
+    },
+    {
+      "id": "norton-family-assistant",
+      "name": "Norton Family Assistant",
+      "category": "Home, family & health",
+      "website": "https://us.norton.com/products/family-assistant",
+      "logo": "/logos/map/norton-family-assistant.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "bo",
+      "name": "Bo",
+      "category": "Home, family & health",
+      "website": "https://www.getbo.com/",
+      "logo": "/logos/map/bo.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "august",
+      "name": "August",
+      "category": "Home, family & health",
+      "website": "https://www.meetaugust.ai/",
+      "logo": "/logos/map/august.webp",
+      "mapped": true,
+      "first": "2023-08",
+      "closed": null
+    },
+    {
+      "id": "miso-nutrition",
+      "name": "Miso Nutrition",
+      "category": "Home, family & health",
+      "website": "https://withmiso.ai/",
+      "logo": "/logos/map/miso-nutrition.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "babs",
+      "name": "Babs",
+      "category": "Home, family & health",
+      "website": "https://www.hellobabs.ai/",
+      "logo": "/logos/map/babs.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "cc",
+      "name": "CC",
+      "category": "Home, family & health",
+      "website": "https://labs.google.com/cc/landing",
+      "logo": "/logos/map/cc.webp",
+      "mapped": true,
+      "first": "2025-12",
+      "closed": null
+    },
+    {
+      "id": "anna",
+      "name": "Anna",
+      "category": "Home, family & health",
+      "website": "https://www.hianna.ai/",
+      "logo": "/logos/map/anna.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "ohai",
+      "name": "OHAI!",
+      "category": "Home, family & health",
+      "website": "https://www.ohai.ai/",
+      "logo": "/logos/map/ohai.webp",
+      "mapped": true,
+      "first": "2024-01",
+      "closed": null
+    },
+    {
+      "id": "fambot",
+      "name": "Fambot",
+      "category": "Home, family & health",
+      "website": "https://fambot.com/",
+      "logo": "/logos/map/fambot.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "offseason",
+      "name": "Offseason",
+      "category": "Home, family & health",
+      "website": "https://offseasonwellness.com/",
+      "logo": "/logos/map/offseason.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "alma",
+      "name": "Alma",
+      "category": "Home, family & health",
+      "website": "https://almahelps.com/",
+      "logo": "/logos/map/alma.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
     },
     {
       "id": "sesame",
       "name": "Sesame",
       "category": "Voice & phone",
-      "description": "Voice agents for conversation, research, planning and everyday tasks.",
       "website": "https://www.sesame.com/",
-      "logo": "/logos/timeline/sesame.png",
-      "events": [
-        {
-          "date": "2025-02-27",
-          "precision": "day",
-          "kind": "preview",
-          "label": "Voice preview released",
-          "note": "A public conversational voice demo, not the launch of every later Sesame product.",
-          "source": "https://www.sesame.com/journal/crossing-the-uncanny-valley-of-voice",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/sesame.webp",
+      "mapped": true,
+      "first": "2025-02",
+      "closed": null
+    },
+    {
+      "id": "agent-band",
+      "name": "Agent Band",
+      "category": "Voice & phone",
+      "website": "https://meetagent.com/",
+      "logo": "/logos/map/agent-band.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "pneum",
+      "name": "Pneum",
+      "category": "Voice & phone",
+      "website": "https://pneum.ai/",
+      "logo": "/logos/map/pneum.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "deft",
+      "name": "Deft",
+      "category": "Voice & phone",
+      "website": "https://heydeft.ai/",
+      "logo": "/logos/map/deft.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "category": "Open source & self-hosted",
+      "website": "https://openclaw.ai/",
+      "logo": "/logos/map/openclaw.webp",
+      "mapped": true,
+      "first": "2025-11",
+      "closed": null
+    },
+    {
+      "id": "openinstinct",
+      "name": "OpenInstinct",
+      "category": "Open source & self-hosted",
+      "website": "https://openinstinct.sh/",
+      "logo": "/logos/map/openinstinct.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "category": "Open source & self-hosted",
+      "website": "https://hermes-agent.nousresearch.com/",
+      "logo": "/logos/map/hermes-agent.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "craftbot",
+      "name": "CraftBot",
+      "category": "Open source & self-hosted",
+      "website": "https://github.com/CraftOS-dev/CraftBot",
+      "logo": "/logos/map/craftbot.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "category": "Open source & self-hosted",
+      "website": "https://romeos.cc/",
+      "logo": "/logos/map/rome.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
     },
     {
       "id": "letta",
       "name": "Letta",
       "category": "Open source & self-hosted",
-      "description": "A personalized agent that remembers and learns.",
       "website": "https://www.letta.com/agent/",
-      "logo": "/logos/timeline/letta.png",
-      "events": [
-        {
-          "date": "2024-09-23",
-          "precision": "day",
-          "kind": "announcement",
-          "label": "Letta announced",
-          "note": "Letta was introduced as the successor platform to MemGPT. Cloud access was an early pilot; MemGPT predates this announcement.",
-          "source": "https://www.letta.com/blog/announcing-letta/",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/letta.webp",
+      "mapped": true,
+      "first": "2024-09",
+      "closed": null
     },
     {
-      "id": "ollie",
-      "name": "Ollie",
-      "category": "Consumer personal assistants",
-      "description": "Personal family assistant",
-      "website": "https://ollie.ai/",
-      "logo": "/logos/timeline/ollie.png",
-      "events": [
-        {
-          "date": "2026-06-02",
-          "precision": "day",
-          "kind": "announcement",
-          "label": "Family assistant launch announcement",
-          "note": "Founder Bill Lennon introduced the family assistant publicly. Earlier users existed; this is a confirmed announcement, not a claim about its first-ever user.",
-          "source": "https://x.com/blennon_/status/2061868938443550842",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        },
-        {
-          "date": "2026-11-06",
-          "precision": "day",
-          "kind": "shutdown",
-          "label": "Service sunset",
-          "note": "The official farewell specifies this effective shutdown date and refunds for unused subscriptions.",
-          "source": "https://ollie.ai/farewell/",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "category": "Open source & self-hosted",
+      "website": "https://agpt.co/",
+      "logo": "/logos/map/autogpt.webp",
+      "mapped": true,
+      "first": "2023-04",
+      "closed": null
+    },
+    {
+      "id": "kwant-bot",
+      "name": "kwant Bot",
+      "category": "Open source & self-hosted",
+      "website": "https://kwant.si/",
+      "logo": "/logos/map/kwant-bot.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
     },
     {
       "id": "openbot",
       "name": "OpenBot",
       "category": "Open source & self-hosted",
-      "description": "A self-hostable AI coworker platform from CopilotKit, with tools, approvals, and shared workspaces.",
       "website": "https://open.bot/",
-      "logo": "/logos/timeline/openbot.png",
-      "events": [
-        {
-          "date": "2026-11-10",
-          "precision": "day",
-          "kind": "launch",
-          "label": "OpenBot 1.0 launched",
-          "note": "The official account announced Mac and Windows availability. Earlier Open-Dots, Muse and Duet projects are not counted as this release.",
-          "source": "https://x.com/0penBot/status/2120227434683617438",
-          "source_type": "primary",
-          "verified_on": "2026-11-25"
-        }
-      ]
+      "logo": "/logos/map/openbot.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "row-bot",
+      "name": "Row-Bot",
+      "category": "Open source & self-hosted",
+      "website": "https://row-bot.ai/",
+      "logo": "/logos/map/row-bot.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "category": "Work & productivity",
+      "website": "https://manus.im/",
+      "logo": "/logos/map/manus.webp",
+      "mapped": true,
+      "first": "2025-03",
+      "closed": null
+    },
+    {
+      "id": "shuffle",
+      "name": "Shuffle",
+      "category": "Work & productivity",
+      "website": "https://textshuffle.com/",
+      "logo": "/logos/map/shuffle.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "migoo",
+      "name": "Migoo",
+      "category": "Work & productivity",
+      "website": "https://migoo.ai/",
+      "logo": "/logos/map/migoo.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "friday",
+      "name": "Friday",
+      "category": "Work & productivity",
+      "website": "https://askfriday.io/",
+      "logo": "/logos/map/friday.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "magica",
+      "name": "Magica",
+      "category": "Work & productivity",
+      "website": "https://magica.com/",
+      "logo": "/logos/map/magica.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "grokbot",
+      "name": "Grok Bot",
+      "category": "Work & productivity",
+      "website": "https://docs.x.ai/grok-bot/overview",
+      "logo": "/logos/map/grokbot.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "town",
+      "name": "Town",
+      "category": "Work & productivity",
+      "website": "https://www.town.com/",
+      "logo": "/logos/map/town.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "rocker",
+      "name": "Rocker",
+      "category": "Work & productivity",
+      "website": "https://www.rocker.ai/",
+      "logo": "/logos/map/rocker.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "ako",
+      "name": "Ako",
+      "category": "Work & productivity",
+      "website": "https://withako.com/",
+      "logo": "/logos/map/ako.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "autohive",
+      "name": "Autohive",
+      "category": "Work & productivity",
+      "website": "https://www.autohive.com/",
+      "logo": "/logos/map/autohive.webp",
+      "mapped": true,
+      "first": "2025-06",
+      "closed": null
+    },
+    {
+      "id": "chorus",
+      "name": "Chorus",
+      "category": "Work & productivity",
+      "website": "https://chorus.com/",
+      "logo": "/logos/map/chorus.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "cole",
+      "name": "Cole",
+      "category": "Work & productivity",
+      "website": "https://pocodot.ai/",
+      "logo": "/logos/map/cole.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "category": "Work & productivity",
+      "website": "https://getenergy.com/",
+      "logo": "/logos/map/energy.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "eney",
+      "name": "Eney",
+      "category": "Work & productivity",
+      "website": "https://eney.ai/",
+      "logo": "/logos/map/eney.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "chatgpt-work",
+      "name": "ChatGPT Work",
+      "category": "Work & productivity",
+      "website": "https://chatgpt.com/work/",
+      "logo": "/logos/map/chatgpt-work.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "skydive",
+      "name": "Skydive",
+      "category": "Work & productivity",
+      "website": "https://www.skydive.com/",
+      "logo": "/logos/map/skydive.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "superagent",
+      "name": "Superagent",
+      "category": "Work & productivity",
+      "website": "https://base44.com/superagents",
+      "logo": "/logos/map/superagent.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "heyclicky",
+      "name": "heyclicky",
+      "category": "Work & productivity",
+      "website": "https://www.heyclicky.com/",
+      "logo": "/logos/map/heyclicky.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "lava",
+      "name": "Lava",
+      "category": "Work & productivity",
+      "website": "https://www.lava.so/",
+      "logo": "/logos/map/lava.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "milo",
+      "name": "Milo",
+      "category": "Work & productivity",
+      "website": "https://joinhexagon.com/milo",
+      "logo": "/logos/map/milo.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "littlebird",
+      "name": "Littlebird",
+      "category": "Work & productivity",
+      "website": "https://littlebird.ai/",
+      "logo": "/logos/map/littlebird.webp",
+      "mapped": true,
+      "first": "2025-03",
+      "closed": null
+    },
+    {
+      "id": "jack-jill",
+      "name": "Jack & Jill",
+      "category": "Work & productivity",
+      "website": "https://www.jackandjill.ai/",
+      "logo": "/logos/map/jack-jill.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "central",
+      "name": "Central",
+      "category": "Work & productivity",
+      "website": "https://trycentral.com/",
+      "logo": "/logos/map/central.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "cheqq",
+      "name": "Cheqq",
+      "category": "Work & productivity",
+      "website": "https://cheqq.ai/",
+      "logo": "/logos/map/cheqq.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "sidekick-pro",
+      "name": "Sidekick Pro",
+      "category": "Work & productivity",
+      "website": "https://sidekickpro.com/",
+      "logo": "/logos/map/sidekick-pro.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "toyo",
+      "name": "Toyo",
+      "category": "Work & productivity",
+      "website": "https://toyo.ai/",
+      "logo": "/logos/map/toyo.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "idem",
+      "name": "idem",
+      "category": "Work & productivity",
+      "website": "https://idem.so/",
+      "logo": "/logos/map/idem.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "sauna",
+      "name": "Sauna",
+      "category": "Work & productivity",
+      "website": "https://www.sauna.ai/",
+      "logo": "/logos/map/sauna.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "sai",
+      "name": "Sai",
+      "category": "Work & productivity",
+      "website": "https://www.sai.work/",
+      "logo": "/logos/map/sai.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "vestra",
+      "name": "Vestra",
+      "category": "Work & productivity",
+      "website": "https://vestra.ai/",
+      "logo": "/logos/map/vestra.webp",
+      "mapped": true,
+      "first": "2025-03",
+      "closed": null
+    },
+    {
+      "id": "tasklet",
+      "name": "Tasklet",
+      "category": "Work & productivity",
+      "website": "https://tasklet.ai/",
+      "logo": "/logos/map/tasklet.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "hyperagent",
+      "name": "Hyperagent",
+      "category": "Work & productivity",
+      "website": "https://www.hyperagent.com/",
+      "logo": "/logos/map/hyperagent.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "stanley",
+      "name": "Stanley",
+      "category": "Work & productivity",
+      "website": "https://getstanley.ai/",
+      "logo": "/logos/map/stanley.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "category": "Work & productivity",
+      "website": "https://devin.ai/",
+      "logo": "/logos/map/devin.webp",
+      "mapped": true,
+      "first": "2024-03",
+      "closed": null
+    },
+    {
+      "id": "righthand",
+      "name": "Righthand",
+      "category": "Work & productivity",
+      "website": "https://www.righthand.ai/",
+      "logo": "/logos/map/righthand.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "fleece-ai",
+      "name": "Fleece AI",
+      "category": "Work & productivity",
+      "website": "https://fleeceai.app/",
+      "logo": "/logos/map/fleece-ai.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "solo-work",
+      "name": "Solo Work",
+      "category": "Work & productivity",
+      "website": "https://solomail.io/",
+      "logo": "/logos/map/solo-work.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "standout",
+      "name": "Standout",
+      "category": "Work & productivity",
+      "website": "https://standout.work/",
+      "logo": "/logos/map/standout.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "otty",
+      "name": "Otty",
+      "category": "Work & productivity",
+      "website": "https://www.heyotty.com/",
+      "logo": "/logos/map/otty.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "caspian",
+      "name": "Caspian",
+      "category": "Work & productivity",
+      "website": "https://textcaspian.com/",
+      "logo": "/logos/map/caspian.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "lindy",
+      "name": "Lindy",
+      "category": "Work & productivity",
+      "website": "https://www.lindy.ai/",
+      "logo": "/logos/map/lindy.webp",
+      "mapped": true,
+      "first": "2023-03",
+      "closed": null
+    },
+    {
+      "id": "espa",
+      "name": "Espa",
+      "category": "Work & productivity",
+      "website": "https://espa.ai/",
+      "logo": "/logos/map/espa.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "mira",
+      "name": "Mira",
+      "category": "Work & productivity",
+      "website": "https://getmira.run/",
+      "logo": "/logos/map/mira.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "superhuman-go",
+      "name": "Superhuman Go",
+      "category": "Work & productivity",
+      "website": "https://superhuman.com/go",
+      "logo": "/logos/map/superhuman-go.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "fyxer",
+      "name": "Fyxer",
+      "category": "Work & productivity",
+      "website": "https://www.fyxer.com/",
+      "logo": "/logos/map/fyxer.webp",
+      "mapped": true,
+      "first": "2025-01",
+      "closed": null
+    },
+    {
+      "id": "talentpluto",
+      "name": "Talentpluto",
+      "category": "Work & productivity",
+      "website": "https://talentpluto.com/",
+      "logo": "/logos/map/talentpluto.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "dex",
+      "name": "Dex",
+      "category": "Work & productivity",
+      "website": "https://meetdex.ai/",
+      "logo": "/logos/map/dex.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "sonara",
+      "name": "Sonara",
+      "category": "Work & productivity",
+      "website": "https://www.sonara.ai/",
+      "logo": "/logos/map/sonara.webp",
+      "mapped": true,
+      "first": "2021-02",
+      "closed": null
+    },
+    {
+      "id": "hiringcafe",
+      "name": "HiringCafe",
+      "category": "Work & productivity",
+      "website": "https://hiring.cafe/",
+      "logo": "/logos/map/hiringcafe.webp",
+      "mapped": true,
+      "first": "2022-12",
+      "closed": null
+    },
+    {
+      "id": "jobright",
+      "name": "Jobright",
+      "category": "Work & productivity",
+      "website": "https://jobright.ai/",
+      "logo": "/logos/map/jobright.webp",
+      "mapped": true,
+      "first": "2024-09",
+      "closed": null
+    },
+    {
+      "id": "lia",
+      "name": "Lia",
+      "category": "Work & productivity",
+      "website": "https://www.liarefer.com/",
+      "logo": "/logos/map/lia.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "tsenta",
+      "name": "Tsenta",
+      "category": "Work & productivity",
+      "website": "https://tsenta.com/",
+      "logo": "/logos/map/tsenta.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "dabanti",
+      "name": "Dabanti",
+      "category": "Work & productivity",
+      "website": "https://www.dabanti.com/",
+      "logo": "/logos/map/dabanti.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "minds",
+      "name": "Minds (Animoca Minds)",
+      "category": "Work & productivity",
+      "website": "https://hellominds.ai/",
+      "logo": "/logos/map/minds.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "bond",
+      "name": "Bond",
+      "category": "Work & productivity",
+      "website": "https://bondapp.io/",
+      "logo": "/logos/map/bond.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "demi",
+      "name": "Demi",
+      "category": "Work & productivity",
+      "website": "https://demi.ai/",
+      "logo": "/logos/map/demi.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "alysis",
+      "name": "Alysis",
+      "category": "Work & productivity",
+      "website": "https://alysiscode.com/",
+      "logo": "/logos/map/alysis.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "zenzap",
+      "name": "Zenzap",
+      "category": "Work & productivity",
+      "website": "https://zenzap.co/",
+      "logo": "/logos/map/zenzap.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "viktor",
+      "name": "Viktor",
+      "category": "Work & productivity",
+      "website": "https://viktor.com/",
+      "logo": "/logos/map/viktor.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "ando",
+      "name": "Ando",
+      "category": "Work & productivity",
+      "website": "https://www.ando.so/",
+      "logo": "/logos/map/ando.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "metix",
+      "name": "Metix",
+      "category": "Work & productivity",
+      "website": "https://www.metix.ai/",
+      "logo": "/logos/map/metix.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "boardy",
+      "name": "Boardy",
+      "category": "Work & productivity",
+      "website": "https://www.boardy.ai/",
+      "logo": "/logos/map/boardy.webp",
+      "mapped": true,
+      "first": "2024-03",
+      "closed": null
+    },
+    {
+      "id": "supernormal",
+      "name": "Supernormal",
+      "category": "Work & productivity",
+      "website": "https://www.supernormal.com/",
+      "logo": "/logos/map/supernormal.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "vybe",
+      "name": "Vybe",
+      "category": "Work & productivity",
+      "website": "https://www.vybe.build/",
+      "logo": "/logos/map/vybe.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://paperclip.ing/",
+      "logo": "/logos/map/paperclip.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "multica",
+      "name": "Multica",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://multica.ai/",
+      "logo": "/logos/map/multica.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "openagents",
+      "name": "OpenAgents",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://openagents.org/",
+      "logo": "/logos/map/openagents.webp",
+      "mapped": true,
+      "first": "2025-03",
+      "closed": null
+    },
+    {
+      "id": "roundtable",
+      "name": "Roundtable",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://roundtable.bot/",
+      "logo": "/logos/map/roundtable.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null,
+      "availability": "Invite-only"
+    },
+    {
+      "id": "picnic",
+      "name": "Picnic",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://agentpicnic.com/",
+      "logo": "/logos/map/picnic.webp",
+      "mapped": true,
+      "first": null,
+      "closed": null
+    },
+    {
+      "id": "lemongraph",
+      "name": "Lemongraph",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://www.lemongraph.dev/",
+      "logo": "/logos/map/lemongraph.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "orcbots",
+      "name": "OrcBots",
+      "category": "Agent orchestration & collaboration",
+      "website": "https://orcbots.com/",
+      "logo": "/logos/map/orcbots.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null,
+      "availability": "Announced"
+    },
+    {
+      "id": "taskmarket",
+      "name": "Taskmarket (Daydreams)",
+      "category": "Agent marketplaces & autonomous businesses",
+      "website": "https://taskmarket.dev/",
+      "logo": "/logos/map/taskmarket.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "agentcity",
+      "name": "AgentCity",
+      "category": "Agent marketplaces & autonomous businesses",
+      "website": "https://agentcity.lol/",
+      "logo": "/logos/map/agentcity.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "ai-agent-marketplace",
+      "name": "AI Agent Marketplace",
+      "category": "Agent marketplaces & autonomous businesses",
+      "website": "https://agents.ai.vn/",
+      "logo": "/logos/map/ai-agent-marketplace.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "dac-cloud",
+      "name": "DAC Cloud",
+      "category": "Agent marketplaces & autonomous businesses",
+      "website": "https://dac.cloud/",
+      "logo": "/logos/map/dac-cloud.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "link",
+      "name": "Link",
+      "category": "Agent infrastructure",
+      "website": "https://docs.stripe.com/agentic-commerce/agents/link-agent-wallet",
+      "logo": "/logos/map/link.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "visa-intelligent-commerce",
+      "name": "Visa Intelligent Commerce",
+      "category": "Agent infrastructure",
+      "website": "https://www.visa.com/en-us/solutions/intelligent-commerce",
+      "logo": "/logos/map/visa-intelligent-commerce.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "browserbase",
+      "name": "Browserbase",
+      "category": "Agent infrastructure",
+      "website": "https://www.browserbase.com/",
+      "logo": "/logos/map/browserbase.webp",
+      "mapped": true,
+      "first": "2024-03",
+      "closed": null
+    },
+    {
+      "id": "1password-for-agents",
+      "name": "1Password for Agents",
+      "category": "Agent infrastructure",
+      "website": "https://1password.com/blog/1password-for-ai-agents",
+      "logo": "/logos/map/1password-for-agents.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "linq",
+      "name": "Linq",
+      "category": "Agent infrastructure",
+      "website": "https://linqapp.com/",
+      "logo": "/logos/map/linq.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "aside",
+      "name": "Aside",
+      "category": "Agent infrastructure",
+      "website": "https://aside.com/",
+      "logo": "/logos/map/aside.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "synorb",
+      "name": "Synorb",
+      "category": "Agent infrastructure",
+      "website": "https://synorb.com/",
+      "logo": "/logos/map/synorb.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "aeon",
+      "name": "Aeon",
+      "category": "Agent infrastructure",
+      "website": "https://www.aeon.fun/",
+      "logo": "/logos/map/aeon.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "category": "Agent infrastructure",
+      "website": "https://browser-use.com/",
+      "logo": "/logos/map/browser-use.webp",
+      "mapped": true,
+      "first": "2024-11",
+      "closed": null
+    },
+    {
+      "id": "box-by-simular",
+      "name": "Box by Simular",
+      "category": "Agent infrastructure",
+      "website": "https://www.simular.ai/",
+      "logo": "/logos/map/box-by-simular.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "category": "Agent infrastructure",
+      "website": "https://composio.dev/",
+      "logo": "/logos/map/composio.webp",
+      "mapped": true,
+      "first": "2024-04",
+      "closed": null
+    },
+    {
+      "id": "nango",
+      "name": "Nango",
+      "category": "Agent infrastructure",
+      "website": "https://www.nango.dev/",
+      "logo": "/logos/map/nango.webp",
+      "mapped": true,
+      "first": "2023-02",
+      "closed": null
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade",
+      "category": "Agent infrastructure",
+      "website": "https://www.arcade.dev/",
+      "logo": "/logos/map/arcade.webp",
+      "mapped": true,
+      "first": "2024-11",
+      "closed": null
+    },
+    {
+      "id": "auth0-ai-token-vault",
+      "name": "Auth0 AI Token Vault",
+      "category": "Agent infrastructure",
+      "website": "https://auth0.com/ai",
+      "logo": "/logos/map/auth0-ai-token-vault.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "category": "Agent infrastructure",
+      "website": "https://pipedream.com/",
+      "logo": "/logos/map/pipedream.webp",
+      "mapped": true,
+      "first": "2019-10",
+      "closed": null
+    },
+    {
+      "id": "scalekit",
+      "name": "Scalekit",
+      "category": "Agent infrastructure",
+      "website": "https://www.scalekit.com/",
+      "logo": "/logos/map/scalekit.webp",
+      "mapped": true,
+      "first": "2025-09",
+      "closed": null
+    },
+    {
+      "id": "descope",
+      "name": "Descope",
+      "category": "Agent infrastructure",
+      "website": "https://www.descope.com/",
+      "logo": "/logos/map/descope.webp",
+      "mapped": true,
+      "first": "2023-02",
+      "closed": null
+    },
+    {
+      "id": "workos-pipes",
+      "name": "WorkOS Pipes",
+      "category": "Agent infrastructure",
+      "website": "https://workos.com/docs/pipes",
+      "logo": "/logos/map/workos-pipes.webp",
+      "mapped": true,
+      "first": "2025-12",
+      "closed": null
+    },
+    {
+      "id": "keycard",
+      "name": "Keycard",
+      "category": "Agent infrastructure",
+      "website": "https://www.keycard.ai/",
+      "logo": "/logos/map/keycard.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "kernel",
+      "name": "Kernel",
+      "category": "Agent infrastructure",
+      "website": "https://www.kernel.sh/",
+      "logo": "/logos/map/kernel.webp",
+      "mapped": true,
+      "first": "2025-07",
+      "closed": null
+    },
+    {
+      "id": "notte",
+      "name": "Notte",
+      "category": "Agent infrastructure",
+      "website": "https://notte.cc/",
+      "logo": "/logos/map/notte.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "browserless",
+      "name": "Browserless",
+      "category": "Agent infrastructure",
+      "website": "https://www.browserless.io/",
+      "logo": "/logos/map/browserless.webp",
+      "mapped": true,
+      "first": "2017-10",
+      "closed": null
+    },
+    {
+      "id": "orgo",
+      "name": "Orgo",
+      "category": "Agent infrastructure",
+      "website": "https://www.orgo.ai/",
+      "logo": "/logos/map/orgo.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "e2b",
+      "name": "E2B",
+      "category": "Agent infrastructure",
+      "website": "https://e2b.dev/",
+      "logo": "/logos/map/e2b.webp",
+      "mapped": true,
+      "first": "2023-03",
+      "closed": null
+    },
+    {
+      "id": "cua",
+      "name": "Cua",
+      "category": "Agent infrastructure",
+      "website": "https://www.trycua.com/",
+      "logo": "/logos/map/cua.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "daytona",
+      "name": "Daytona",
+      "category": "Agent infrastructure",
+      "website": "https://www.daytona.io/",
+      "logo": "/logos/map/daytona.webp",
+      "mapped": true,
+      "first": "2023-11",
+      "closed": null
+    },
+    {
+      "id": "tensorlake",
+      "name": "Tensorlake",
+      "category": "Agent infrastructure",
+      "website": "https://tensorlake.ai/",
+      "logo": "/logos/map/tensorlake.webp",
+      "mapped": true,
+      "first": "2024-05",
+      "closed": null
+    },
+    {
+      "id": "phoneuse",
+      "name": "PhoneUse",
+      "category": "Agent infrastructure",
+      "website": "https://www.phoneuse.com/",
+      "logo": "/logos/map/phoneuse.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "glasshand",
+      "name": "Glasshand",
+      "category": "Agent infrastructure",
+      "website": "https://glasshand.com/",
+      "logo": "/logos/map/glasshand.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "droidrun",
+      "name": "droidrun",
+      "category": "Agent infrastructure",
+      "website": "https://droidrun.ai/",
+      "logo": "/logos/map/droidrun.webp",
+      "mapped": true,
+      "first": "2025-04",
+      "closed": null
+    },
+    {
+      "id": "phonebox",
+      "name": "Phonebox",
+      "category": "Agent infrastructure",
+      "website": "https://phonebox.dev/",
+      "logo": "/logos/map/phonebox.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "tapkit",
+      "name": "Tapkit",
+      "category": "Agent infrastructure",
+      "website": "https://tapkit.ai/",
+      "logo": "/logos/map/tapkit.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "mem0",
+      "name": "Mem0",
+      "category": "Agent infrastructure",
+      "website": "https://mem0.ai/",
+      "logo": "/logos/map/mem0.webp",
+      "mapped": true,
+      "first": "2024-07",
+      "closed": null
+    },
+    {
+      "id": "supermemory",
+      "name": "supermemory",
+      "category": "Agent infrastructure",
+      "website": "https://supermemory.ai/",
+      "logo": "/logos/map/supermemory.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "honcho",
+      "name": "Honcho",
+      "category": "Agent infrastructure",
+      "website": "https://honcho.dev/",
+      "logo": "/logos/map/honcho.webp",
+      "mapped": true,
+      "first": "2024-01",
+      "closed": null
+    },
+    {
+      "id": "zep",
+      "name": "Zep",
+      "category": "Agent infrastructure",
+      "website": "https://www.getzep.com/",
+      "logo": "/logos/map/zep.webp",
+      "mapped": true,
+      "first": "2023-05",
+      "closed": null
+    },
+    {
+      "id": "cognee",
+      "name": "Cognee",
+      "category": "Agent infrastructure",
+      "website": "https://www.cognee.ai/",
+      "logo": "/logos/map/cognee.webp",
+      "mapped": true,
+      "first": "2023-10",
+      "closed": null
+    },
+    {
+      "id": "memorylake",
+      "name": "MemoryLake",
+      "category": "Agent infrastructure",
+      "website": "https://memorylake.ai/",
+      "logo": "/logos/map/memorylake.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "openmail",
+      "name": "OpenMail",
+      "category": "Agent infrastructure",
+      "website": "https://openmail.sh/",
+      "logo": "/logos/map/openmail.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "agentmail",
+      "name": "AgentMail",
+      "category": "Agent infrastructure",
+      "website": "https://www.agentmail.to/",
+      "logo": "/logos/map/agentmail.webp",
+      "mapped": true,
+      "first": "2025-07",
+      "closed": null
+    },
+    {
+      "id": "agentemail",
+      "name": "AgentEmail",
+      "category": "Agent infrastructure",
+      "website": "https://www.agentemail.co/",
+      "logo": "/logos/map/agentemail.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "chert",
+      "name": "Chert",
+      "category": "Agent infrastructure",
+      "website": "https://trychert.com/",
+      "logo": "/logos/map/chert.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "messages-dev",
+      "name": "messages.dev",
+      "category": "Agent infrastructure",
+      "website": "https://messages.dev/",
+      "logo": "/logos/map/messages-dev.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "category": "Agent infrastructure",
+      "website": "https://photon.codes/",
+      "logo": "/logos/map/photon.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "dial",
+      "name": "Dial",
+      "category": "Agent infrastructure",
+      "website": "https://getdial.ai/",
+      "logo": "/logos/map/dial.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "nevermined",
+      "name": "Nevermined",
+      "category": "Agent infrastructure",
+      "website": "https://nevermined.ai/",
+      "logo": "/logos/map/nevermined.webp",
+      "mapped": true,
+      "first": "2024-02",
+      "closed": null
+    },
+    {
+      "id": "ampersend",
+      "name": "Ampersend",
+      "category": "Agent infrastructure",
+      "website": "https://www.ampersend.ai/",
+      "logo": "/logos/map/ampersend.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "catena",
+      "name": "Catena",
+      "category": "Agent infrastructure",
+      "website": "https://catena.com/",
+      "logo": "/logos/map/catena.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "natural",
+      "name": "Natural",
+      "category": "Agent infrastructure",
+      "website": "https://www.natural.com/",
+      "logo": "/logos/map/natural.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "privy-agent-wallets",
+      "name": "Privy Agent Wallets",
+      "category": "Agent infrastructure",
+      "website": "https://www.privy.io/agent-wallets",
+      "logo": "/logos/map/privy-agent-wallets.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "kite",
+      "name": "Kite",
+      "category": "Agent infrastructure",
+      "website": "https://gokite.ai/",
+      "logo": "/logos/map/kite.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "crossmint",
+      "name": "Crossmint",
+      "category": "Agent infrastructure",
+      "website": "https://www.crossmint.com/",
+      "logo": "/logos/map/crossmint.webp",
+      "mapped": true,
+      "first": "2025-02",
+      "closed": null
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "category": "Agent infrastructure",
+      "website": "https://rye.com/",
+      "logo": "/logos/map/rye.webp",
+      "mapped": true,
+      "first": "2022-10",
+      "closed": null
+    },
+    {
+      "id": "zinc",
+      "name": "Zinc",
+      "category": "Agent infrastructure",
+      "website": "https://www.zinc.com/",
+      "logo": "/logos/map/zinc.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "cartai",
+      "name": "CartAI",
+      "category": "Agent infrastructure",
+      "website": "https://cartai.ai/",
+      "logo": "/logos/map/cartai.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "sapiom",
+      "name": "Sapiom",
+      "category": "Agent infrastructure",
+      "website": "https://sapiom.ai/",
+      "logo": "/logos/map/sapiom.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "agentcard",
+      "name": "Agentcard",
+      "category": "Agent infrastructure",
+      "website": "https://agentcard.com/",
+      "logo": "/logos/map/agentcard.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "prava",
+      "name": "Prava",
+      "category": "Agent infrastructure",
+      "website": "https://prava.space/",
+      "logo": "/logos/map/prava.webp",
+      "mapped": true,
+      "first": "2025-02",
+      "closed": null
+    },
+    {
+      "id": "versine",
+      "name": "Versine",
+      "category": "Agent infrastructure",
+      "website": "https://versine.com/",
+      "logo": "/logos/map/versine.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "lithic",
+      "name": "Lithic",
+      "category": "Agent infrastructure",
+      "website": "https://www.lithic.com/solutions/agentic-commerce",
+      "logo": "/logos/map/lithic.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "skyfire",
+      "name": "Skyfire",
+      "category": "Agent infrastructure",
+      "website": "https://skyfire.xyz/",
+      "logo": "/logos/map/skyfire.webp",
+      "mapped": true,
+      "first": "2024-08",
+      "closed": null
+    },
+    {
+      "id": "t54",
+      "name": "t54",
+      "category": "Agent infrastructure",
+      "website": "https://t54.ai/",
+      "logo": "/logos/map/t54.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "astrasync",
+      "name": "AstraSync",
+      "category": "Agent infrastructure",
+      "website": "https://astrasync.ai/",
+      "logo": "/logos/map/astrasync.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "sardine",
+      "name": "Sardine",
+      "category": "Agent infrastructure",
+      "website": "https://www.sardine.ai/",
+      "logo": "/logos/map/sardine.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "exa",
+      "name": "Exa",
+      "category": "Agent infrastructure",
+      "website": "https://exa.ai/",
+      "logo": "/logos/map/exa.webp",
+      "mapped": true,
+      "first": "2022-11",
+      "closed": null
+    },
+    {
+      "id": "tavily",
+      "name": "Tavily",
+      "category": "Agent infrastructure",
+      "website": "https://tavily.com/",
+      "logo": "/logos/map/tavily.webp",
+      "mapped": true,
+      "first": "2023-09",
+      "closed": null
+    },
+    {
+      "id": "parallel",
+      "name": "Parallel",
+      "category": "Agent infrastructure",
+      "website": "https://parallel.ai/",
+      "logo": "/logos/map/parallel.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "firecrawl",
+      "name": "Firecrawl",
+      "category": "Agent infrastructure",
+      "website": "https://www.firecrawl.dev/",
+      "logo": "/logos/map/firecrawl.webp",
+      "mapped": true,
+      "first": "2024-04",
+      "closed": null
+    },
+    {
+      "id": "context-dev",
+      "name": "Context.dev",
+      "category": "Agent infrastructure",
+      "website": "https://www.context.dev/",
+      "logo": "/logos/map/context-dev.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "keenable",
+      "name": "Keenable",
+      "category": "Agent infrastructure",
+      "website": "https://keenable.ai/",
+      "logo": "/logos/map/keenable.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "opencommerce",
+      "name": "opencommerce",
+      "category": "Agent infrastructure",
+      "website": "https://opencommerce.sh/",
+      "logo": "/logos/map/opencommerce.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "channel3",
+      "name": "Channel3",
+      "category": "Agent infrastructure",
+      "website": "https://www.trychannel3.com/",
+      "logo": "/logos/map/channel3.webp",
+      "mapped": true,
+      "first": "2025-07",
+      "closed": null
+    },
+    {
+      "id": "shopify-catalog",
+      "name": "Shopify Catalog",
+      "category": "Agent infrastructure",
+      "website": "https://shopify.dev/docs/agents/catalog/catalog-api",
+      "logo": "/logos/map/shopify-catalog.webp",
+      "mapped": true,
+      "first": "2025-05",
+      "closed": null
+    },
+    {
+      "id": "firmly",
+      "name": "firmly",
+      "category": "Agent infrastructure",
+      "website": "https://firmly.ai/",
+      "logo": "/logos/map/firmly.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "monid",
+      "name": "Monid",
+      "category": "Agent infrastructure",
+      "website": "https://monid.ai/",
+      "logo": "/logos/map/monid.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "treg",
+      "name": "treg",
+      "category": "Agent infrastructure",
+      "website": "https://treg.to/",
+      "logo": "/logos/map/treg.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "toolrouter",
+      "name": "ToolRouter",
+      "category": "Agent infrastructure",
+      "website": "https://toolrouter.com/",
+      "logo": "/logos/map/toolrouter.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "apify",
+      "name": "Apify",
+      "category": "Agent infrastructure",
+      "website": "https://apify.com/",
+      "logo": "/logos/map/apify.webp",
+      "mapped": true,
+      "first": "2015-10",
+      "closed": null
+    },
+    {
+      "id": "configure",
+      "name": "Configure",
+      "category": "Agent infrastructure",
+      "website": "https://configure.dev/",
+      "logo": "/logos/map/configure.webp",
+      "mapped": true,
+      "first": "2026-06",
+      "closed": null
+    },
+    {
+      "id": "hindsight",
+      "name": "Hindsight",
+      "category": "Agent infrastructure",
+      "website": "https://hindsight.vectorize.io/",
+      "logo": "/logos/map/hindsight.webp",
+      "mapped": true,
+      "first": "2025-12",
+      "closed": null
+    },
+    {
+      "id": "inkbox",
+      "name": "Inkbox",
+      "category": "Agent infrastructure",
+      "website": "https://inkbox.ai/",
+      "logo": "/logos/map/inkbox.webp",
+      "mapped": true,
+      "first": "2026-04",
+      "closed": null
+    },
+    {
+      "id": "locus",
+      "name": "Locus",
+      "category": "Agent infrastructure",
+      "website": "https://paywithlocus.com/",
+      "logo": "/logos/map/locus.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "seaworthy",
+      "name": "Seaworthy",
+      "category": "Agent infrastructure",
+      "website": "https://getseaworthy.ai/",
+      "logo": "/logos/map/seaworthy.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "henry-labs",
+      "name": "Henry Labs",
+      "category": "Agent infrastructure",
+      "website": "https://henrylabs.ai/",
+      "logo": "/logos/map/henry-labs.webp",
+      "mapped": true,
+      "first": "2025-10",
+      "closed": null
+    },
+    {
+      "id": "rentahuman",
+      "name": "RentAHuman",
+      "category": "Agent infrastructure",
+      "website": "https://rentahuman.ai/",
+      "logo": "/logos/map/rentahuman.webp",
+      "mapped": true,
+      "first": "2026-02",
+      "closed": null
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "category": "Agent infrastructure",
+      "website": "https://developer.orbitsearch.com/",
+      "logo": "/logos/map/orbit.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "egoist",
+      "name": "Egoist",
+      "category": "Agent infrastructure",
+      "website": "https://ego.ist/",
+      "logo": "/logos/map/egoist.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "tastegraph",
+      "name": "TasteGraph",
+      "category": "Agent infrastructure",
+      "website": "https://tastegraph.ai/",
+      "logo": "/logos/map/tastegraph.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "gigi",
+      "name": "Gigi",
+      "category": "Agent infrastructure",
+      "website": "https://gigi.co/",
+      "logo": "/logos/map/gigi.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "anchor-browser",
+      "name": "Anchor Browser",
+      "category": "Agent infrastructure",
+      "website": "https://anchorbrowser.io/",
+      "logo": "/logos/map/anchor-browser.webp",
+      "mapped": true,
+      "first": "2025-08",
+      "closed": null
+    },
+    {
+      "id": "polar-browser",
+      "name": "Polar Browser",
+      "category": "Agent infrastructure",
+      "website": "https://polarbrowser.com/",
+      "logo": "/logos/map/polar-browser.webp",
+      "mapped": true,
+      "first": "2026-01",
+      "closed": null
+    },
+    {
+      "id": "clawbank",
+      "name": "ClawBank",
+      "category": "Agent infrastructure",
+      "website": "https://clawbank.co/",
+      "logo": "/logos/map/clawbank.webp",
+      "mapped": true,
+      "first": "2026-03",
+      "closed": null
+    },
+    {
+      "id": "rep",
+      "name": "REP",
+      "category": "Agent infrastructure",
+      "website": "https://r3p.app/",
+      "logo": "/logos/map/rep.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "sealgraf",
+      "name": "Sealgraf",
+      "category": "Agent infrastructure",
+      "website": "https://sealgraf.com/app/",
+      "logo": "/logos/map/sealgraf.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "ucii",
+      "name": "UCII",
+      "category": "Agent infrastructure",
+      "website": "https://ucii.sportgen-ai.com/",
+      "logo": "/logos/map/ucii.webp",
+      "mapped": true,
+      "first": "2026-07",
+      "closed": null
+    },
+    {
+      "id": "boxlite",
+      "name": "BoxLite",
+      "category": "Agent infrastructure",
+      "website": "https://boxlite.ai/",
+      "logo": "/logos/map/boxlite.webp",
+      "mapped": true,
+      "first": "2025-12",
+      "closed": null
+    },
+    {
+      "id": "baselayer",
+      "name": "Baselayer",
+      "category": "Agent infrastructure",
+      "website": "https://baselayerhq.com/",
+      "logo": "/logos/map/baselayer.webp",
+      "mapped": true,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "agentphone",
+      "name": "AgentPhone",
+      "category": "Agent infrastructure",
+      "website": "https://www.agentphone.ai/",
+      "logo": "/logos/map/agentphone.webp",
+      "mapped": true,
+      "first": "2026-05",
+      "closed": null
+    },
+    {
+      "id": "jinko",
+      "name": "Jinko",
+      "category": "Agent infrastructure",
+      "website": "https://www.gojinko.com/",
+      "logo": "/logos/map/jinko.webp",
+      "mapped": true,
+      "first": "2026-08",
+      "closed": null
+    },
+    {
+      "id": "boxrouter",
+      "name": "BoxRouter",
+      "category": "Agent infrastructure",
+      "website": "https://boxrouter.ai/",
+      "logo": "/logos/map/boxrouter.webp",
+      "mapped": true,
+      "first": "2026-10",
+      "closed": null
+    },
+    {
+      "id": "gtmmaxing",
+      "name": "GTMMAXING",
+      "category": "Agent infrastructure",
+      "website": "https://gtmmaxing.com/",
+      "logo": "/logos/map/gtmmaxing.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null
+    },
+    {
+      "id": "walletconnect-for-agents",
+      "name": "WalletConnect for Agents",
+      "category": "Agent infrastructure",
+      "website": "https://walletconnect.com/connectivity/ai-agents",
+      "logo": "/logos/map/walletconnect-for-agents.webp",
+      "mapped": true,
+      "first": "2026-11",
+      "closed": null,
+      "availability": "Beta"
+    },
+    {
+      "id": "del",
+      "name": "Del",
+      "category": "Historical assistants",
+      "website": "https://www.withdel.com/",
+      "logo": "/logos/timeline/del.png",
+      "mapped": false,
+      "first": "2025-09",
+      "closed": "2026-11"
+    },
+    {
+      "id": "buoy",
+      "name": "Buoy",
+      "category": "Historical assistants",
+      "website": "https://buoy.chat/",
+      "logo": "/logos/timeline/buoy.png",
+      "mapped": false,
+      "first": "2026-07",
+      "closed": "2026-11"
+    },
+    {
+      "id": "mitra",
+      "name": "Mitra",
+      "category": "Historical assistants",
+      "website": "https://mitra.run/",
+      "logo": "/logos/timeline/mitra.png",
+      "mapped": false,
+      "first": "2026-09",
+      "closed": "2026-11"
+    },
+    {
+      "id": "odessia",
+      "name": "Odessia",
+      "category": "Historical assistants",
+      "website": "https://odessia.com/",
+      "logo": "/logos/timeline/odessia.png",
+      "mapped": false,
+      "first": "2026-06",
+      "closed": "2026-11"
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "category": "Historical assistants",
+      "website": "https://iris-agent.co/",
+      "logo": "/logos/timeline/iris.png",
+      "mapped": false,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "trybutler",
+      "name": "Butler",
+      "category": "Historical assistants",
+      "website": "https://trybutler.xyz/",
+      "logo": null,
+      "mapped": false,
+      "first": "2026-09",
+      "closed": null
+    },
+    {
+      "id": "ollie",
+      "name": "Ollie",
+      "category": "Historical assistants",
+      "website": "https://ollie.ai/",
+      "logo": "/logos/timeline/ollie.png",
+      "mapped": false,
+      "first": "2026-06",
+      "closed": "2026-11"
     }
   ]
 }

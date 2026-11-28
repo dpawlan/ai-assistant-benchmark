@@ -5,6 +5,7 @@ import { ReportCover } from '@/components/ReportCover';
 import type { Agent } from '@/lib/types';
 import type { Article } from '@/lib/articles';
 import type { Report } from '@/lib/reports';
+import marketMapArtwork from '../../data/market-map-artwork.json';
 
 /**
  * Featured image for an article. A real image from frontmatter wins; otherwise a composed
@@ -17,7 +18,7 @@ export function ArticleHero({ article, report, agents, bySlug = {}, size = 'full
       <figure className={`art-hero art-hero-${size}`}>
         {size === 'full' && article.slug === 'the-ai-agent-market-map' ? (
           <a href={article.hero} target="_blank" rel="noopener noreferrer" aria-label="Open the full-resolution market map" style={{ display: 'block' }}>
-            <Image src={article.hero} alt="The AI Agent Market Map" width={1600} height={800} className="art-hero-img" />
+            <Image src={article.hero} alt="The AI Agent Market Map" width={marketMapArtwork.width} height={marketMapArtwork.height} className="art-hero-img" />
           </a>
         ) : (
           <Image src={article.hero} alt="" width={1600} height={800} className="art-hero-img" />

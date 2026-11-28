@@ -1,20 +1,18 @@
 ---
-title: "The AI Agent Market Map: 293 Products to Know"
-dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them—with a one-line description, website, and X account for each."
+title: "The AI Agent Market Map V3: 318 Products to Know"
+dek: "A directory of AI assistants, specialized agents, and the infrastructure behind them. Find product descriptions, websites, and X accounts where available."
 date: 2026-11-23
-updated: 2026-11-25
+updated: 2026-11-28
 author: David Pawlan
 kind: Market map
-hero: /images/articles/ai-agent-market-map-bad8720b54.png
-hero_caption: "[Open the full-resolution market map](https://assistantbenchmark.com/images/articles/ai-agent-market-map-bad8720b54.png)"
+hero: /images/articles/ai-agent-market-map-eefde1a88e.png
 ---
 
-We mapped 293 AI products across 12 categories, from personal assistants and travel agents to the infrastructure that lets them browse, remember, communicate, and pay. This is our most comprehensive AI agent market map yet.
+V3 maps 318 AI products across 14 categories. Replies and quote posts surfaced 24 additions, including the teams building tools to coordinate agents and marketplaces where agents can take on paid work. We also added Bitrefill’s agent commerce connector.
 
-Below is the full directory: what each product does, where to find it, and its X account where available. Each product appears in one primary category.
+The directory links to each product and its X account where available. [Explore the interactive map](/market-map) to browse by category and see how the market has changed over time.
 
-[Big lab & big tech](#big-lab-big-tech) · [Consumer personal assistants](#consumer-personal-assistants) · [Shopping & commerce](#shopping-commerce) · [Travel](#travel) · [Finance & money](#finance-money) · [Email & calendar](#email-calendar) · [Multiplayer & group chat](#multiplayer-group-chat) · [Home, family & health](#home-family-health) · [Voice & phone](#voice-phone) · [Open source & self-hosted](#open-source-self-hosted) · [Work & productivity](#work-productivity) · [Agent infrastructure](#agent-infrastructure)
-
+[Big lab & big tech](#big-lab-big-tech) · [Consumer personal assistants](#consumer-personal-assistants) · [Shopping & commerce](#shopping-commerce) · [Travel](#travel) · [Finance & money](#finance-money) · [Email & calendar](#email-calendar) · [Multiplayer & group chat](#multiplayer-group-chat) · [Home, family & health](#home-family-health) · [Voice & phone](#voice-phone) · [Open source & self-hosted](#open-source-self-hosted) · [Work & productivity](#work-productivity) · [Agent orchestration & collaboration](#agent-orchestration-collaboration) · [Agent marketplaces & autonomous businesses](#agent-marketplaces-autonomous-businesses) · [Agent infrastructure](#agent-infrastructure)
 
 ## Big lab & big tech
 
@@ -89,6 +87,9 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[rabbit OS3](https://rabbit.tech/)** — A personal agent operating system for carrying out tasks across the web and connected devices. · [@rabbit_hmi](https://x.com/rabbit_hmi)
 - **[Comma](https://comma.surf/)** — An open-source, always-on personal agent available across desktop, web, and mobile. · [@CommaAgents](https://x.com/CommaAgents)
 - **[Ira](https://ira.so/)** — An invite-only personal assistant for email, bookings, shopping, and calls. · [@iradotso](https://x.com/iradotso)
+- **[Nemo](https://heynemo.ai/)** — Telegram assistant for everyday tasks, reminders, and creating images and video. *Beta.* · [@HeyNemoAI](https://x.com/HeyNemoAI)
+- **[Toqi](https://www.toqi.life/)** — Personal assistant from Prosus for email, reminders, calendars, and family admin. · [@toqi_ai](https://x.com/toqi_ai)
+- **[Kaval](https://kaval.chat/)** — WhatsApp assistant for managing bookings, reminders, and everyday errands. · [@AskKaval](https://x.com/AskKaval)
 
 ## Shopping & commerce
 
@@ -98,6 +99,8 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Littl](https://dolittl.ai/)** — A personal assistant that takes action with your permission. · [@dolittlai](https://x.com/dolittlai)
 - **[StoreRouter](https://storerouter.ai/)** — A product-search API that gives agents structured catalog data across online stores. · [@storerouter](https://x.com/storerouter)
 - **[Waverunner](https://waverunner.ai/)** — A commerce platform with agents for payment routing, subscriptions, and customer operations. · [@Waverunnerai](https://x.com/Waverunnerai)
+- **[Kifly](https://kifly.ai/)** — Connects merchant catalogs and checkout to shopping assistants. · [@Kiflyai](https://x.com/Kiflyai)
+- **[Bitrefill eCommerce MCP](https://docs.bitrefill.com/docs/ecommerce-mcp)** — Commerce connector for agents to search and buy gift cards, eSIMs, and mobile refills. · [@bitrefill](https://x.com/bitrefill)
 
 ## Travel
 
@@ -124,6 +127,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Conviction](https://www.convictiontrade.ai/)** — Describe a trading idea; an AI agent backtests it, monitors the market and trades. · [@tryconviction](https://x.com/tryconviction)
 - **[Instinct.xyz](https://instinct.xyz/)** — Trading intelligence with agents that monitor markets and find trades 24/7. · [@instinct_xyz](https://x.com/instinct_xyz)
 - **[Blue Agent](https://blueagent.dev/)** — An agent on Base for market research, onchain tools, and transactions users approve. · [@blueagent_](https://x.com/blueagent_)
+- **[Midas](https://heymidas.ai/)** — Personal investing agent for tracking portfolios and researching stocks and crypto. *Waitlist.* · [@heyMidasAI](https://x.com/heyMidasAI)
 
 ## Email & calendar
 
@@ -159,6 +163,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[OHAI!](https://www.ohai.ai/)** — Household-manager AI assistant over text for calendars, to-dos, email and family life. · [@ohaidotai](https://x.com/ohaidotai)
 - **[Fambot](https://fambot.com/)** — Turns school emails, newsletters and calendars into a clear daily plan for parents. · [@fambotai](https://x.com/fambotai)
 - **[Offseason](https://offseasonwellness.com/)** — A wellness assistant on iMessage that plans and books routines around your calendar, goals, and wearable data. · [@offseasonai](https://x.com/offseasonai)
+- **[Alma](https://almahelps.com/)** — Text-based assistant for moms that helps with groceries, appointments, school, and reminders. · [@almahelps](https://x.com/almahelps)
 
 ## Voice & phone
 
@@ -231,6 +236,8 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[Ando](https://www.ando.so/)** — Team messaging where people and AI agents share channels and coordinate work. · [@andocorporation](https://x.com/andocorporation)
 - **[Metix](https://www.metix.ai/)** — An AI recruiter that sources candidates and helps arrange interviews. · [@metix_ai](https://x.com/metix_ai)
 - **[Boardy](https://www.boardy.ai/)** — An AI networking assistant that makes introductions after both people opt in. · [@boardyai](https://x.com/boardyai)
+- **[Supernormal](https://www.supernormal.com/)** — Shared workspace where agents draw on team meetings, files, and decisions to draft and track work. · [@supernormal_ai](https://x.com/supernormal_ai)
+- **[Vybe](https://www.vybe.build/)** — AI coworkers for Slack that can research, write, and act across connected work tools. · [@vybe_build](https://x.com/vybe_build)
 
 ## Open source & self-hosted
 
@@ -243,6 +250,24 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[AutoGPT](https://agpt.co/)** — An open-source platform for building and running agents. · [@Auto_GPT](https://x.com/Auto_GPT)
 - **[kwant Bot](https://kwant.si/)** — Open-source, self-hosted agents that share chats, hand off work, and run scheduled tasks. · [@kwantBot](https://x.com/kwantBot)
 - **[OpenBot](https://open.bot/)** — A self-hostable AI coworker platform from CopilotKit, with tools, approvals, and shared workspaces. · [@0penBot](https://x.com/0penBot)
+- **[Row-Bot](https://row-bot.ai/)** — Open-source, local-first workspace for research, automation, and running agents on your own machine. · [@row_bot_ai](https://x.com/row_bot_ai)
+
+## Agent orchestration & collaboration
+
+- **[Paperclip](https://paperclip.ing/)** — Open-source control plane for assigning work, tracking costs, and running teams of AI agents. · [@papercliping](https://x.com/papercliping)
+- **[Multica](https://multica.ai/)** — Workspace for assigning, tracking, and reviewing work across people and coding agents. · [@MulticaAI](https://x.com/MulticaAI)
+- **[OpenAgents](https://openagents.org/)** — Open-source workspace and SDK for people and agents to collaborate in shared threads and files. · [@OpenAgentsAI](https://x.com/OpenAgentsAI)
+- **[Roundtable](https://roundtable.bot/)** — Shared workspace that lets one assistant coordinate other agents, tools, and project context. *Invite-only.* · [@roundtable_bot](https://x.com/roundtable_bot)
+- **[Picnic](https://agentpicnic.com/)** — Control plane for giving multiple agents shared context and access to tools with permissions. · [@agentpicnic](https://x.com/agentpicnic)
+- **[Lemongraph](https://www.lemongraph.dev/)** — Shared context and priorities for agents, drawn from your meetings, messages, and tasks. · [@withlemongraph](https://x.com/withlemongraph)
+- **[OrcBots](https://orcbots.com/)** — Local-first workspace for coordinating coding agents across parallel Git worktrees. *Announced.* · [@orcbots](https://x.com/orcbots)
+
+## Agent marketplaces & autonomous businesses
+
+- **[Taskmarket (Daydreams)](https://taskmarket.dev/)** — Marketplace from Daydreams Labs where people post paid tasks and agents submit competing work. · [@daydreamsagents](https://x.com/daydreamsagents)
+- **[AgentCity](https://agentcity.lol/)** — Marketplace where AI agents can be discovered, briefed, and hired for paid work. · [@AgentCityrh](https://x.com/AgentCityrh)
+- **[AI Agent Marketplace](https://agents.ai.vn/)** — Vietnamese marketplace for discovering and running AI agents for business and personal tasks. · [Founder @fifa23hung](https://x.com/fifa23hung)
+- **[DAC Cloud](https://dac.cloud/)** — Open-source smart-contract framework for running and governing autonomous companies onchain. · [@dac_cloud](https://x.com/dac_cloud)
 
 ## Agent infrastructure
 
@@ -344,3 +369,7 @@ Below is the full directory: what each product does, where to find it, and its X
 - **[BoxLite](https://boxlite.ai/)** — Hardware-isolated computing environments and cloud infrastructure for AI agents. · [@BoxLiteAI](https://x.com/BoxLiteAI)
 - **[Baselayer](https://baselayerhq.com/)** — Identity verification for businesses and the people who authorize AI agents. · [@Baselayerhq](https://x.com/Baselayerhq)
 - **[AgentPhone](https://www.agentphone.ai/)** — Phone numbers, voice calls, and text messaging for AI agents. · [@AgentPhoneHQ](https://x.com/AgentPhoneHQ)
+- **[Jinko](https://www.gojinko.com/)** — Travel API that lets agents search, compare, and book trips. · [@jinkohq](https://x.com/jinkohq)
+- **[BoxRouter](https://boxrouter.ai/)** — One API for routing sandbox and CI workloads across compute providers. · [@boxrouter_ai](https://x.com/boxrouter_ai)
+- **[GTMMAXING](https://gtmmaxing.com/)** — Tool router for agents that need lead lists, contact enrichment, and market research. · [@gtmmaxing](https://x.com/gtmmaxing)
+- **[WalletConnect for Agents](https://walletconnect.com/connectivity/ai-agents)** — Wallet connector that lets agents read balances and prepare transactions for user approval. *Beta.* · [@WalletConnect](https://x.com/WalletConnect)

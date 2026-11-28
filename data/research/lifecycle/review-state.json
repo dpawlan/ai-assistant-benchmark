@@ -1,16 +1,13 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-28",
   "scope": {
-    "current_map": 293,
+    "current_map": 318,
     "historical_additions": 7,
-    "total": 300
+    "total": 325
   },
-  "verified_event_records": 14,
-  "products_with_verified_events": 11,
-  "prototype_products": 10,
   "complete": false,
   "rules": [
-    "Use product launch or public announcement, never date added to map.",
+    "Use the earliest supported product announcement, public release or documented product use. Classify it by milestone and exclude map inclusion dates and weak existence clues.",
     "Separate announcement, waitlist, preview and general availability.",
     "Company founding dates and repository creation dates are not product launches.",
     "Retain source URL, event scope, precision and verification date.",
@@ -20,16 +17,63 @@
     "Current logo artwork is used; historical branding is not reconstructed."
   ],
   "next_review": [
-    "Sones: establish first announcement before its November 10 Lucas migration.",
-    "Ollie: investigate pre-June family-assistant availability and prior shopping/meal products.",
-    "Vellum: distinguish earlier local-assistant releases from April 2 hosted launch.",
-    "Buoy: verify original launch and November 15 sunset from Interface Club; do not confuse iris.fun with iris-agent.co.",
-    "Del, Mitra, Odessia, Iris and Butler: verify whether each actually closed, pivoted or was removed from coverage.",
-    "Continue individual primary-source review for every remaining inventory record; raw search files are leads, not verified events."
+    "Continue every unresolved inventory record; original launch and full lifecycle remain open even where a later event is verified.",
+    "Verify Spark-to-Tasks rename, Siri standalone lineage, and Copilot/Bing Chat lineage.",
+    "Resolve original launch dates for historical products; do not infer shutdown from article removal or a redirected domain.",
+    "Review remaining founder Show HN posts, repository histories and new-company announcements."
   ],
   "validation": [
-    "TypeScript passed",
-    "Browser: closure boundaries, partial shutdown, source dialog, playback, categories, image loading and mobile overflow passed"
+    "TypeScript and whitespace checks passed.",
+    "Current logos were matched against the supplied map artwork.",
+    "Browser verified six month boundaries, Ollie closure, current and historical tile counts, all 299 logo files loading, and mobile width.",
+    "V3 browser check confirmed 318 current products, 325 including historical entries, 25 additions, and all 14 section images. Current logos decoded and existing timeline dates matched the prior audit."
   ],
-  "publication": "Local preview on codex/market-map-timeline; not published to production."
+  "publication": "Local V3 preview on codex/market-map-v3.",
+  "source_collection": {
+    "urls_fetched": 636,
+    "readable": 583,
+    "note": "Collection is not manual verification; unresolved products remain open."
+  },
+  "sourced_event_or_bound_records": 437,
+  "products_with_at_least_one_event_or_bound": 323,
+  "products_without_dated_event_or_bound": [
+    "sunny",
+    "picnic"
+  ],
+  "full_individual_lifecycle_reviews_complete": 0,
+  "date_coverage_caveat": "Placement uses the earliest supported month found, including limited availability, rather than a uniform public launch milestone. Source audits retain evidence quality and event type. The original launch and complete lifecycle remain open for some products.",
+  "source_recheck": {
+    "unique_urls_revisited": 669,
+    "direct_event_timestamps_matched": 191,
+    "inventory_entries_reviewed": 300,
+    "note": "Checked saved claims and searched earlier leads across the inventory. Some sources are unavailable and some earliest or closure dates remain open."
+  },
+  "timeline": {
+    "products_with_dated_placement": 321,
+    "products_without_dated_placement": [
+      "ka",
+      "sunny",
+      "wiive",
+      "picnic"
+    ],
+    "first_placements_changed": 37,
+    "full_shutdowns_marked": 5
+  },
+  "logo_recheck": {
+    "original_map_crops_compared": 293,
+    "official_icons_explicitly_rechecked": [
+      "instinct",
+      "grokbot"
+    ],
+    "historical_original_assets": 6,
+    "missing_official_asset": [
+      "trybutler"
+    ]
+  },
+  "v3": {
+    "submitted": 24,
+    "additional_connectors": 1,
+    "new_categories": 2,
+    "official_logo_assets_added": 25
+  }
 }
